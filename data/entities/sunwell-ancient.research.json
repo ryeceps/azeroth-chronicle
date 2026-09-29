@@ -4,11 +4,29 @@
   "name": "The Sunwell",
   "slug": "sunwell-ancient",
   "shortDescription": "The arcane fount created by the high elves at a convergence of ley energies in their new homeland.",
-  "body": "The atlas treats the Sunwell as a founding center in Era 5 and carries its later corruption only in the separate Third War state.",
+  "body": "Founded by the high elves, the Sunwell was corrupted in the Third War and later became the target of Xal’atath’s Midnight assault. It was turned into the Darkwell, then cleansed by an elven coalition to become the Dawnwell. These are distinct era states of one site.",
   "firstEraId": "long-vigil-new-kingdoms",
-  "featuredEraIds": ["long-vigil-new-kingdoms", "third-war-frozen-throne"],
-  "sourceIds": ["warcraft-chronicle-volume-1", "blizzard-burning-crusade-story-so-far", "warcraft-chronicle-volume-3", "blizzard-warcraft-iii-reforged-overview"],
-  "claimIds": ["sunwell-founded-claim"],
-  "tags": ["sunwell", "arcane", "quelthalas"],
+  "featuredEraIds": [
+    "long-vigil-new-kingdoms",
+    "third-war-frozen-throne",
+    "modern-cosmic-age"
+  ],
+  "sourceIds": [
+    "warcraft-chronicle-volume-1",
+    "blizzard-burning-crusade-story-so-far",
+    "warcraft-chronicle-volume-3",
+    "blizzard-warcraft-iii-reforged-overview",
+    "blizzard-midnight-timeline"
+  ],
+  "claimIds": [
+    "sunwell-founded-claim"
+  ],
+  "tags": [
+    "sunwell",
+    "arcane",
+    "quelthalas",
+    "midnight",
+    "dawnwell"
+  ],
   "contentStatus": "research"
 }

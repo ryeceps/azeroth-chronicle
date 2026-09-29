@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { resolve } from 'node:path';
 import { loadDataset } from '../../src/lib/lore/loadDataset';
 import { validateDatasetReferences } from '../../src/lib/lore/validateDataset';
@@ -671,7 +672,7 @@ describe('lore dataset', () => {
       && battle.campaignId === 'age-of-adventurers-campaigns')).toBe(true);
   });
 
-  it('contains an evidence-bounded Modern Cosmic Age research preview', () => {
+  it('contains a released, evidence-bounded Modern Cosmic Age research preview', () => {
     const data = loadDataset();
     const era = data.eras.find((item) => item.id === 'modern-cosmic-age')!;
     const events = data.events.filter((item) => item.eraId === era.id);
@@ -684,19 +685,23 @@ describe('lore dataset', () => {
       'modern-cosmic-shadowlands-map-research',
       'modern-cosmic-dragon-isles-map-research',
       'modern-cosmic-khaz-algar-map-research',
+      'modern-cosmic-karesh-map-research',
       'modern-cosmic-midnight-map-research',
     ];
     const mapStates = mapStateIds.map((id) => data.mapStates.find((item) => item.id === id)!);
     const shadowlands = mapStates[2]!;
-    const midnight = data.events.find((item) => item.id === 'midnight-announced')!;
+    const midnight = data.events.find((item) => item.id === 'midnight-invasion-quelthalas')!;
+    const darkwell = data.events.find((item) => item.id === 'sunwell-becomes-darkwell')!;
+    const dawnwell = data.events.find((item) => item.id === 'dawnwell-restored')!;
+    const coiledIsle = data.events.find((item) => item.id === 'coiled-isle-ulatek-crisis')!;
 
     expect(era.order).toBe(9);
     expect(era.previousEraId).toBe('age-of-adventurers');
     expect(era.nextEraId).toBeUndefined();
     expect(era.endDate).toEqual(expect.objectContaining({ precision: 'unknown' }));
-    expect(events).toHaveLength(9);
+    expect(events).toHaveLength(13);
     expect(battles).toHaveLength(2);
-    expect(guide.nodeIds).toHaveLength(9);
+    expect(guide.nodeIds).toHaveLength(13);
     expect(shadowlands.presentation).toBe('relational');
     expect(shadowlands.worldspaceId).toBe('shadowlands');
     expect(shadowlands.terrainTextureAsset).toBeTruthy();
@@ -721,8 +726,16 @@ describe('lore dataset', () => {
       && state.geographicCertainty === 'unknown'
       && Boolean(state.editorNote),
     ))).toBe(true);
-    expect(midnight.summary).toMatch(/outcome remains outside|announced/i);
-    expect(midnight.description).toMatch(/not a completed historical outcome/i);
+    expect(midnight.summary).toMatch(/survives the first incursion/i);
+    expect(darkwell.summary).toMatch(/Darkwell/);
+    expect(dawnwell.summary).toMatch(/Dawnwell/);
+    expect(dawnwell.description).toMatch(/not her final defeat/i);
+    expect(coiledIsle.description).toMatch(/does not infer later campaign outcomes/i);
+    expect(data.events.some((item) => item.id === 'midnight-announced')).toBe(false);
+    expect(mapStates[5]?.worldspaceId).toBe('karesh');
+    expect(mapStates[5]?.presentation).toBe('relational');
+    expect(mapStates[6]?.interpretationNote).toMatch(/not battle fronts/i);
+    expect(mapStates[6]?.geometryIds).not.toContain('midnight-unknown-horizon-research');
     expect([...events, ...battles].every((subject) =>
       data.claims.some((claim) => claim.subjectId === subject.id && claim.citationIds.length > 0),
     )).toBe(true);
@@ -801,6 +814,26 @@ describe('lore dataset', () => {
       });
       expect(node.voiceover?.assetPath).toMatch(/^audio\/guided\/.+\.mp3$/);
       expect(node.voiceover?.durationMs).toBeGreaterThan(10_000);
+    }
+  });
+
+  it('keeps the refreshed Era 9 narration in the audio hash manifest', () => {
+    const data = loadDataset();
+    const guide = data.storyGuides.find((item) => item.id === 'modern-cosmic-age-guided-history')!;
+    const manifest = JSON.parse(readFileSync(resolve('public/audio/guided/manifest.json'), 'utf8')) as {
+      trackCount: number;
+      tracks: { nodeId: string; assetPath: string; durationMs: number; bytes: number; sha256: string }[];
+    };
+    expect(manifest.trackCount).toBe(manifest.tracks.length);
+    expect(new Set(manifest.tracks.map((track) => track.nodeId)).size).toBe(manifest.trackCount);
+    for (const nodeId of guide.nodeIds) {
+      const node = data.storyNodes.find((item) => item.id === nodeId)!;
+      const track = manifest.tracks.find((item) => item.nodeId === nodeId)!;
+      expect(track.assetPath).toBe(node.voiceover?.assetPath);
+      expect(track.durationMs).toBe(node.voiceover?.durationMs);
+      const bytes = readFileSync(resolve('public', track.assetPath));
+      expect(bytes.length).toBe(track.bytes);
+      expect(createHash('sha256').update(bytes).digest('hex')).toBe(track.sha256);
     }
   });
 

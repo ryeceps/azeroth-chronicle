@@ -56,6 +56,17 @@
       }
     },
     {
+      "id": "karesh",
+      "name": "K’aresh — relational field",
+      "slug": "karesh",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 6667,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "outland",
       "name": "Outland",
       "slug": "outland",
@@ -416,6 +427,18 @@
       ]
     },
     {
+      "id": "modern-cosmic-karesh-map-research",
+      "name": "Shattered K’aresh — relational offworld field",
+      "worldspaceId": "karesh",
+      "presentation": "relational",
+      "cartographyLabel": "RELATIONAL K’ARESH FIELD — NOT GEOGRAPHIC",
+      "interpretationNote": "This reused cosmic field is a symbolic offworld setting. It does not map K’aresh’s terrain, distance, direction, or adjacency.",
+      "terrainTextureAsset": "textures/karesh/modern-cosmic-karesh-map-research/cosmic-field.research.webp",
+      "geometryIds": [
+        "karesh-relational-focus-research"
+      ]
+    },
+    {
       "id": "modern-cosmic-khaz-algar-map-research",
       "name": "Khaz Algar and The War Within — interpretive state",
       "worldspaceId": "azeroth",
@@ -433,17 +456,18 @@
     },
     {
       "id": "modern-cosmic-midnight-map-research",
-      "name": "Midnight announced horizon — evidence-boundary state",
+      "name": "Midnight — Quel’Thalas and the Dawnwell",
       "worldspaceId": "azeroth",
       "presentation": "terrain",
-      "cartographyLabel": "ANNOUNCED MIDNIGHT PREMISE — OUTCOME UNKNOWN",
-      "interpretationNote": "This state marks only the officially announced blood-elf-homeland premise at the archive cutoff. It does not predict fronts, chronology, participation, victory, or defeat.",
+      "cartographyLabel": "MIDNIGHT RELEASED CHAPTER — APPROXIMATE QUEL’THALAS FOCUS",
+      "interpretationNote": "Approximate atlas anchors distinguish Eversong, the Sunwell/Dawnwell site, and the Coiled Isle. They are not battle fronts, control areas, or exact surveys. Darkwell and Dawnwell are sequential states of the Sunwell.",
       "terrainTextureAsset": "textures/azeroth/age-of-adventurers-cataclysm-map-research/terrain-atlas.research.webp",
       "terrainHeightAsset": "textures/azeroth/age-of-adventurers-cataclysm-map-research/terrain-height.research.webp",
       "geometryIds": [
         "eversong-midnight-focus-research",
+        "sunwell-midnight-focus-research",
         "xalatath-midnight-focus-research",
-        "midnight-unknown-horizon-research"
+        "coiled-isle-focus-research"
       ]
     },
     {
@@ -1236,6 +1260,20 @@
       "visualPresence": "contextual"
     },
     {
+      "id": "coiled-isle-era-nine-spatial-research",
+      "entityId": "coiled-isle",
+      "eraId": "modern-cosmic-age",
+      "worldspaceId": "azeroth",
+      "geometryId": "coiled-isle-focus-research",
+      "geographicCertainty": "approximate",
+      "sourceIds": [
+        "blizzard-curse-ulatek-live"
+      ],
+      "editorNote": "Only the east-of-Zul’Aman relation is source-backed; atlas point is approximate.",
+      "labelPriority": 215,
+      "visualPresence": "contextual"
+    },
+    {
       "id": "cosmic-forces-cosmic-research",
       "entityId": "cosmic-forces",
       "eraId": "cosmic-origins",
@@ -1437,9 +1475,9 @@
       "geometryId": "eversong-midnight-focus-research",
       "geographicCertainty": "approximate",
       "sourceIds": [
-        "blizzard-midnight-overview"
+        "blizzard-midnight-timeline"
       ],
-      "editorNote": "Approximate announced theater; no front or outcome is asserted.",
+      "editorNote": "Approximate Quel’Thalas theater; not an exact invasion front or control boundary.",
       "labelPriority": 210,
       "visualPresence": "persistent"
     },
@@ -1868,6 +1906,21 @@
       "editorNote": "Kang is placed beside the narrated revolution as a relational figure because the research packet does not establish one exact battlefield position.",
       "labelPriority": 128,
       "visualPresence": "contextual"
+    },
+    {
+      "id": "karesh-era-nine-spatial-research",
+      "entityId": "karesh-shattered-world",
+      "eraId": "modern-cosmic-age",
+      "worldspaceId": "karesh",
+      "geometryId": "karesh-relational-focus-research",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "blizzard-ghosts-karesh-timeline"
+      ],
+      "editorNote": "Symbolic offworld anchor, not measured K’aresh geography.",
+      "labelPriority": 220,
+      "visualPresence": "persistent"
     },
     {
       "id": "keepers-ordering-spatial-research",
@@ -2836,6 +2889,20 @@
       "editorNote": "Approximate atlas focus within Quel'Thalas.",
       "labelPriority": 187,
       "visualPresence": "persistent"
+    },
+    {
+      "id": "sunwell-midnight-era-nine-spatial-research",
+      "entityId": "sunwell-ancient",
+      "eraId": "modern-cosmic-age",
+      "worldspaceId": "azeroth",
+      "geometryId": "sunwell-midnight-focus-research",
+      "geographicCertainty": "approximate",
+      "sourceIds": [
+        "blizzard-midnight-timeline"
+      ],
+      "editorNote": "Approximate compressed Quel’Thalas atlas focus, not an exact site survey.",
+      "labelPriority": 225,
+      "visualPresence": "contextual"
     },
     {
       "id": "sylvanas-era-seven-spatial-research",
@@ -3875,10 +3942,10 @@
       },
       "endDate": {
         "precision": "unknown",
-        "label": "Ongoing; archive closes at Midnight's announced premise"
+        "label": "Ongoing; archive includes the released Curse of Ula’tek chapter (August 2026)"
       },
-      "dateLabel": "Fourth War to the announced Midnight horizon · ongoing archive",
-      "summary": "A wounded world's history widens through the Fourth War, N'Zoth's assault, the Shadowlands, the awakened Dragon Isles, Khaz Algar, and an explicitly unfinished Worldsoul Saga.",
+      "dateLabel": "Fourth War through Curse of Ula’tek · ongoing archive",
+      "summary": "A wounded world passes through the Fourth War, N’Zoth, the Shadowlands, the Dragon Isles, Khaz Algar, shattered K’aresh, and the released Midnight crisis in Quel’Thalas. Later Worldsoul Saga outcomes remain open.",
       "mapStateId": "modern-cosmic-age-map-research",
       "defaultLayerIds": [
         "regions",
@@ -3896,7 +3963,11 @@
         "shadowlands-covenants-unite",
         "dragon-isles-awaken",
         "war-within-khaz-algar",
-        "midnight-announced"
+        "karesh-dimensius-crisis",
+        "midnight-invasion-quelthalas",
+        "sunwell-becomes-darkwell",
+        "dawnwell-restored",
+        "coiled-isle-ulatek-crisis"
       ],
       "featuredBattleIds": [
         "fourth-war-campaign",
@@ -3911,7 +3982,10 @@
         "blizzard-shadowlands-live",
         "blizzard-dragonflight-deep-dive",
         "blizzard-war-within-live",
-        "blizzard-midnight-overview"
+        "blizzard-ghosts-karesh-timeline",
+        "blizzard-midnight-live",
+        "blizzard-midnight-timeline",
+        "blizzard-curse-ulatek-live"
       ],
       "contentStatus": "research"
     },
@@ -4722,6 +4796,26 @@
       "contentStatus": "research"
     },
     {
+      "id": "coiled-isle",
+      "type": "location",
+      "name": "The Coiled Isle",
+      "slug": "coiled-isle",
+      "shortDescription": "An island off the east coast of Zul’Aman where the released Curse of Ula’tek campaign unfolds.",
+      "firstEraId": "modern-cosmic-age",
+      "featuredEraIds": [
+        "modern-cosmic-age"
+      ],
+      "sourceIds": [
+        "blizzard-curse-ulatek-live"
+      ],
+      "tags": [
+        "coiled-isle",
+        "midnight",
+        "approximate-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "cosmic-forces",
       "type": "other",
       "name": "The Cosmic Forces",
@@ -5096,18 +5190,18 @@
       "type": "location",
       "name": "Eversong Woods",
       "slug": "eversong-woods",
-      "shortDescription": "The blood elf homeland named in the announced premise for Midnight; no campaign outcome is asserted here.",
+      "shortDescription": "The blood elf homeland invaded during Midnight, where the first defense bought time while the wider Sunwell crisis continued.",
       "firstEraId": "long-vigil-new-kingdoms",
       "featuredEraIds": [
         "modern-cosmic-age"
       ],
       "sourceIds": [
-        "blizzard-midnight-overview"
+        "blizzard-midnight-timeline"
       ],
       "tags": [
         "quelthalas",
         "midnight",
-        "announced"
+        "released-campaign"
       ],
       "contentStatus": "research"
     },
@@ -5613,6 +5707,26 @@
         "asset": "images/characters/ancient-civilizations/kang.research.webp",
         "scale": 0.82
       },
+      "contentStatus": "research"
+    },
+    {
+      "id": "karesh-shattered-world",
+      "type": "location",
+      "name": "Shattered K’aresh",
+      "slug": "karesh-shattered-world",
+      "shortDescription": "The ethereals’ damaged homeworld, shown as a relational offworld field during the Dimensius crisis.",
+      "firstEraId": "modern-cosmic-age",
+      "featuredEraIds": [
+        "modern-cosmic-age"
+      ],
+      "sourceIds": [
+        "blizzard-ghosts-karesh-timeline"
+      ],
+      "tags": [
+        "karesh",
+        "offworld",
+        "relational-map"
+      ],
       "contentStatus": "research"
     },
     {
@@ -6800,17 +6914,19 @@
       "name": "The Sunwell",
       "slug": "sunwell-ancient",
       "shortDescription": "The arcane fount created by the high elves at a convergence of ley energies in their new homeland.",
-      "body": "The atlas treats the Sunwell as a founding center in Era 5 and carries its later corruption only in the separate Third War state.",
+      "body": "Founded by the high elves, the Sunwell was corrupted in the Third War and later became the target of Xal’atath’s Midnight assault. It was turned into the Darkwell, then cleansed by an elven coalition to become the Dawnwell. These are distinct era states of one site.",
       "firstEraId": "long-vigil-new-kingdoms",
       "featuredEraIds": [
         "long-vigil-new-kingdoms",
-        "third-war-frozen-throne"
+        "third-war-frozen-throne",
+        "modern-cosmic-age"
       ],
       "sourceIds": [
         "warcraft-chronicle-volume-1",
         "blizzard-burning-crusade-story-so-far",
         "warcraft-chronicle-volume-3",
-        "blizzard-warcraft-iii-reforged-overview"
+        "blizzard-warcraft-iii-reforged-overview",
+        "blizzard-midnight-timeline"
       ],
       "claimIds": [
         "sunwell-founded-claim"
@@ -6818,7 +6934,9 @@
       "tags": [
         "sunwell",
         "arcane",
-        "quelthalas"
+        "quelthalas",
+        "midnight",
+        "dawnwell"
       ],
       "contentStatus": "research"
     },
@@ -7190,14 +7308,15 @@
       "name": "Xal'atath",
       "slug": "xalatath",
       "shortDescription": "A Void-aligned power whose designs frame the opening movement of the Worldsoul Saga.",
-      "body": "The figure is an original interpretive portrait. This record stops at the announced Midnight premise and asserts no unreleased outcome.",
+      "body": "The figure is an original interpretive portrait. Blizzard’s released Midnight timeline records her assault on the Sunwell, its corruption into the Darkwell, and her retreat after the elven coalition’s counterattack. Her later fate remains unresolved.",
       "firstEraId": "age-of-adventurers",
       "featuredEraIds": [
         "modern-cosmic-age"
       ],
       "sourceIds": [
         "blizzard-war-within-live",
-        "blizzard-midnight-overview"
+        "blizzard-ghosts-karesh-timeline",
+        "blizzard-midnight-timeline"
       ],
       "tags": [
         "void",
@@ -7974,6 +8093,36 @@
       "contentStatus": "research"
     },
     {
+      "id": "coiled-isle-ulatek-crisis",
+      "kind": "event",
+      "name": "The Curse of Ula’tek Reaches the Coiled Isle",
+      "slug": "coiled-isle-ulatek-crisis",
+      "eraId": "modern-cosmic-age",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "relative",
+        "label": "Released August 2026"
+      },
+      "summary": "The Midnight campaign continues on the Coiled Isle as Zul’jarra pursues Zul’jan and champions confront the Ula’tek threat.",
+      "description": "Blizzard states that Zul’jan’s actions unleashed Ula’tek and that the Venomous Abyss raid confronts her. This record does not infer later campaign outcomes.",
+      "locationIds": [
+        "coiled-isle"
+      ],
+      "participantEntityIds": [
+        "adventurers-of-azeroth"
+      ],
+      "relationshipIds": [
+        "dawnwell-precedes-coiled-isle"
+      ],
+      "sourceIds": [
+        "blizzard-curse-ulatek-live"
+      ],
+      "claimIds": [
+        "coiled-isle-ulatek-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "dark-portal-opens",
       "kind": "event",
       "name": "The Dark Portal Opens",
@@ -8044,6 +8193,39 @@
       ],
       "claimIds": [
         "dark-trolls-settle-event-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dawnwell-restored",
+      "kind": "event",
+      "name": "The Elven Coalition Creates the Dawnwell",
+      "slug": "dawnwell-restored",
+      "eraId": "modern-cosmic-age",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "relative",
+        "label": "After the Darkwell assault"
+      },
+      "summary": "An elven coalition drives back the Devouring Host, Sylvanas helps force Xal’atath to retreat, and the corrupted fount becomes the Dawnwell.",
+      "description": "The restored fount marks a released chapter outcome. The Harbinger’s retreat is not her final defeat.",
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "participantEntityIds": [
+        "sylvanas-windrunner",
+        "xalatath",
+        "adventurers-of-azeroth"
+      ],
+      "relationshipIds": [
+        "darkwell-precedes-dawnwell",
+        "dawnwell-precedes-coiled-isle"
+      ],
+      "sourceIds": [
+        "blizzard-midnight-timeline"
+      ],
+      "claimIds": [
+        "dawnwell-restored-claim"
       ],
       "contentStatus": "research"
     },
@@ -8843,6 +9025,38 @@
       "contentStatus": "research"
     },
     {
+      "id": "karesh-dimensius-crisis",
+      "kind": "event",
+      "name": "The Dimensius Crisis on K’aresh",
+      "slug": "karesh-dimensius-crisis",
+      "eraId": "modern-cosmic-age",
+      "worldspaceId": "karesh",
+      "date": {
+        "precision": "relative",
+        "label": "During Ghosts of K’aresh (2025)"
+      },
+      "summary": "The struggle over the Dark Heart reaches shattered K’aresh, where the Shadow Guard seeks to restore Dimensius.",
+      "description": "This offworld campaign is presented as a separate worldspace. The source links the Dimensius crisis to the next Worldsoul Saga chapter; the atlas does not assign it an Azeroth map position.",
+      "locationIds": [
+        "karesh-shattered-world"
+      ],
+      "participantEntityIds": [
+        "xalatath",
+        "adventurers-of-azeroth"
+      ],
+      "relationshipIds": [
+        "war-within-precedes-karesh",
+        "karesh-precedes-midnight"
+      ],
+      "sourceIds": [
+        "blizzard-ghosts-karesh-timeline"
+      ],
+      "claimIds": [
+        "karesh-dimensius-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "kiljaeden-targets-draenei-on-draenor",
       "kind": "event",
       "name": "Kil'jaeden Finds the Draenei on Draenor",
@@ -9108,36 +9322,36 @@
       "contentStatus": "research"
     },
     {
-      "id": "midnight-announced",
+      "id": "midnight-invasion-quelthalas",
       "kind": "event",
-      "name": "Midnight Stands at the Archive's Horizon",
-      "slug": "midnight-announced",
+      "name": "The Void Assault on Quel’Thalas",
+      "slug": "midnight-invasion-quelthalas",
       "eraId": "modern-cosmic-age",
       "worldspaceId": "azeroth",
       "date": {
-        "precision": "approximate",
-        "label": "Announced future chapter at the archive cutoff"
+        "precision": "relative",
+        "label": "At the opening of Midnight (March 2026)"
       },
-      "summary": "The announced Midnight premise turns toward Xal'atath's assault on the blood elf homelands; its outcome remains outside this archive's evidence boundary.",
-      "description": "This is an announced-premise record, not a completed historical outcome. Eversong, Zul'Aman, Harandar, and the Voidstorm are named only to the extent supported by the pre-release overview.",
+      "summary": "Xal’atath and the Devouring Host assault the Sunwell; Quel’Thalas survives the first incursion after defenders force a temporary retreat.",
+      "description": "The first defense buys time while Lightbloom and other pressures continue to threaten the homeland.",
       "locationIds": [
-        "eversong-woods"
+        "eversong-woods",
+        "sunwell-ancient"
       ],
       "participantEntityIds": [
         "xalatath",
         "adventurers-of-azeroth"
       ],
-      "causedByEventIds": [
-        "war-within-khaz-algar"
-      ],
       "relationshipIds": [
-        "war-within-precedes-midnight"
+        "karesh-precedes-midnight",
+        "midnight-invasion-precedes-darkwell"
       ],
       "sourceIds": [
-        "blizzard-midnight-overview"
+        "blizzard-midnight-timeline",
+        "blizzard-midnight-live"
       ],
       "claimIds": [
-        "midnight-announced-claim"
+        "midnight-invasion-claim"
       ],
       "contentStatus": "research"
     },
@@ -10337,6 +10551,38 @@
       "contentStatus": "research"
     },
     {
+      "id": "sunwell-becomes-darkwell",
+      "kind": "event",
+      "name": "The Sunwell Becomes the Darkwell",
+      "slug": "sunwell-becomes-darkwell",
+      "eraId": "modern-cosmic-age",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "relative",
+        "label": "During the Voidspire confrontation"
+      },
+      "summary": "Xal’atath channels Void power into the Sunwell, transforming it into the Darkwell as Alleria and Turalyon vanish into its depths.",
+      "description": "The timeline records their disappearance, not a confirmed ultimate fate.",
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "participantEntityIds": [
+        "xalatath",
+        "adventurers-of-azeroth"
+      ],
+      "relationshipIds": [
+        "midnight-invasion-precedes-darkwell",
+        "darkwell-precedes-dawnwell"
+      ],
+      "sourceIds": [
+        "blizzard-midnight-timeline"
+      ],
+      "claimIds": [
+        "sunwell-darkwell-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "survivors-reach-hyjal",
       "kind": "event",
       "name": "Survivors Reach Mount Hyjal",
@@ -10578,12 +10824,9 @@
       "causedByEventIds": [
         "dragon-isles-awaken"
       ],
-      "causesEventIds": [
-        "midnight-announced"
-      ],
       "relationshipIds": [
         "dragon-isles-precede-war-within",
-        "war-within-precedes-midnight"
+        "war-within-precedes-karesh"
       ],
       "sourceIds": [
         "blizzard-war-within-live"
@@ -13681,6 +13924,13 @@
       "notes": "First-party Blizzard book overview: https://worldofwarcraft.blizzard.com/en-us/media/book/world-of-warcraft-chronicle-vol-2. It establishes the volume as an official history source but does not replace claim-level book citations."
     },
     {
+      "id": "blizzard-curse-ulatek-live",
+      "title": "Curse of Ula’tek Now Live",
+      "sourceType": "website",
+      "publicationDate": "2026-08-11",
+      "notes": "First-party Blizzard source: https://worldofwarcraft.blizzard.com/en-us/news/24294370/curse-of-ulatek-goes-live-12-august-journey-to-the-coiled-isle. Confirms released Coiled Isle chapter, Zul’jarra pursuit of Zul’jan, Ula’tek unleashed, and Venomous Abyss confrontation; does not establish later-saga resolution."
+    },
+    {
       "id": "blizzard-dragon-aspects-history",
       "title": "The Story So Far: Take Wing Through Time with the Dragon Aspects",
       "sourceType": "website",
@@ -13702,6 +13952,13 @@
       "notes": "First-party Blizzard recap: https://worldofwarcraft.blizzard.com/en-us/news/23149530. Supports the Fourth War campaign, faction footholds, rebellion against Sylvanas, and the war campaign's conclusion."
     },
     {
+      "id": "blizzard-ghosts-karesh-timeline",
+      "title": "Ghosts of K’aresh — WoW Timeline Chapter 48",
+      "sourceType": "website",
+      "publicationDate": "2025-08-05",
+      "notes": "First-party Blizzard source: https://worldofwarcraft.blizzard.com/en-us/story/timeline/chapter-48. Released campaign account of the shattered world, the Shadow Guard, the Dark Heart, and the confrontation with Dimensius."
+    },
+    {
       "id": "blizzard-grim-batol-history",
       "title": "Cataclysm: Grim Batol",
       "sourceType": "website",
@@ -13716,11 +13973,25 @@
       "notes": "First-party Blizzard overview: https://worldofwarcraft.blizzard.com/en-us/news/20252896. Supports the Legion's return, the Broken Isles campaign, class orders, artifacts, and alliance with the Illidari."
     },
     {
+      "id": "blizzard-midnight-live",
+      "title": "World of Warcraft: Midnight Now Live",
+      "sourceType": "website",
+      "publicationDate": "2026-03-03",
+      "notes": "First-party Blizzard source: https://worldofwarcraft.blizzard.com/en-us/news/24264417. Confirms March 2026 release and the Quel’Thalas invasion premise."
+    },
+    {
       "id": "blizzard-midnight-overview",
       "title": "Midnight Expansion Information Wrapped Up",
       "sourceType": "website",
       "publicationDate": "2025-10-01",
       "notes": "First-party Blizzard pre-release overview: https://worldofwarcraft.blizzard.com/en-us/news/24229031. At the archive cutoff it supports only announced premises: Xal'atath's invasion striking the blood-elf homelands, Eversong Woods, Zul'Aman, Harandar, and the Voidstorm threat. No unreleased outcome is asserted."
+    },
+    {
+      "id": "blizzard-midnight-timeline",
+      "title": "Midnight — WoW Timeline Chapter 50",
+      "sourceType": "website",
+      "publicationDate": "2026-03-03",
+      "notes": "First-party Blizzard source: https://worldofwarcraft.blizzard.com/en-us/story/timeline/chapter-50. Released story account of the Sunwell invasion, Darkwell crisis, elven coalition, Xal’atath retreat, and Dawnwell."
     },
     {
       "id": "blizzard-mount-hyjal-history",
@@ -13918,6 +14189,12 @@
       "note": "First-party registration of Chronicle Volume II as an official historical source."
     },
     {
+      "id": "blizzard-curse-ulatek-citation",
+      "sourceId": "blizzard-curse-ulatek-live",
+      "section": "Coiled Isle and Venomous Abyss",
+      "note": "The released campaign follows Zul’jarra, her brother, and Ula’tek’s unleashed threat."
+    },
+    {
       "id": "blizzard-draenor-exiles-history",
       "sourceId": "blizzard-burning-crusade-draenor-history",
       "section": "The Flight of the Draenei",
@@ -13940,6 +14217,12 @@
       "sourceId": "blizzard-fourth-war-recap",
       "section": "Complete the Battle for Azeroth War Campaign",
       "note": "Supports faction footholds, the rebellion against Sylvanas, and the conclusion identified as the Fourth War."
+    },
+    {
+      "id": "blizzard-ghosts-karesh-timeline-citation",
+      "sourceId": "blizzard-ghosts-karesh-timeline",
+      "section": "Ghosts of K’aresh",
+      "note": "Released K’aresh campaign and Dimensius crisis."
     },
     {
       "id": "blizzard-hyjal-outcome",
@@ -13966,10 +14249,22 @@
       "note": "First-party corroboration that Lei Shen united the mogu kings and led the conquest and subjugation of other peoples in ancient Pandaria."
     },
     {
-      "id": "blizzard-midnight-announced",
-      "sourceId": "blizzard-midnight-overview",
-      "section": "Midnight Campaign, Leveling, and Zones",
-      "note": "Announcement-only support for Xal'atath's invasion premise and named theaters. No ending, victory, defeat, or later-saga outcome is claimed."
+      "id": "blizzard-midnight-darkwell-citation",
+      "sourceId": "blizzard-midnight-timeline",
+      "section": "Midnight — Voidspire",
+      "note": "Xal’atath turns the Sunwell into the Darkwell; Alleria and Turalyon vanish into it."
+    },
+    {
+      "id": "blizzard-midnight-dawnwell-citation",
+      "sourceId": "blizzard-midnight-timeline",
+      "section": "Midnight — Darkwell and aftermath",
+      "note": "The elven coalition, Sylvanas’s intervention, Xal’atath’s retreat, and the Dawnwell."
+    },
+    {
+      "id": "blizzard-midnight-invasion-citation",
+      "sourceId": "blizzard-midnight-timeline",
+      "section": "Midnight — opening and Eversong Woods",
+      "note": "Xal’atath and the Devouring Host attack the Sunwell; defenders force an initial retreat."
     },
     {
       "id": "blizzard-ordering-titan-forged",
@@ -14871,6 +15166,18 @@
       "status": "active"
     },
     {
+      "id": "coiled-isle-ulatek-claim",
+      "subjectId": "coiled-isle-ulatek-crisis",
+      "predicate": "ulatek_unleashed_on_coiled_isle",
+      "value": true,
+      "citationIds": [
+        "blizzard-curse-ulatek-citation"
+      ],
+      "confidence": "explicit",
+      "status": "active",
+      "editorNote": "Source establishes the raid confrontation, not a later Worldsoul Saga ending."
+    },
+    {
       "id": "cosmic-forces-framework-claim",
       "subjectId": "cosmic-forces",
       "predicate": "cosmological-framework",
@@ -14941,6 +15248,18 @@
       "confidence": "strongly_supported",
       "status": "active",
       "editorNote": "The generated portrait is interpretive and must not be reviewed as a costume reconstruction."
+    },
+    {
+      "id": "dawnwell-restored-claim",
+      "subjectId": "dawnwell-restored",
+      "predicate": "elven_coalition_restores_dawnwell",
+      "value": true,
+      "citationIds": [
+        "blizzard-midnight-dawnwell-citation"
+      ],
+      "confidence": "explicit",
+      "status": "active",
+      "editorNote": "Xal’atath retreats; her larger story is unresolved."
     },
     {
       "id": "draenei-settle-draenor-claim",
@@ -15504,6 +15823,18 @@
       "status": "active"
     },
     {
+      "id": "karesh-dimensius-claim",
+      "subjectId": "karesh-dimensius-crisis",
+      "predicate": "dimensius_crisis_reaches_karesh",
+      "value": true,
+      "citationIds": [
+        "blizzard-ghosts-karesh-timeline-citation"
+      ],
+      "confidence": "explicit",
+      "status": "active",
+      "editorNote": "K’aresh is a separate shattered world; no Azeroth surface location is implied."
+    },
+    {
       "id": "keepers-command-claim",
       "subjectId": "keepers",
       "predicate": "command-role",
@@ -15783,19 +16114,16 @@
       "editorNote": "Exact Chronicle page location remains subject to human edition verification."
     },
     {
-      "id": "midnight-announced-claim",
-      "subjectId": "midnight-announced",
-      "predicate": "announced_premise_targets_blood_elf_homelands",
-      "value": {
-        "status": "announced",
-        "outcome": "unknown"
-      },
+      "id": "midnight-invasion-claim",
+      "subjectId": "midnight-invasion-quelthalas",
+      "predicate": "xalatath_attacks_sunwell",
+      "value": true,
       "citationIds": [
-        "blizzard-midnight-announced"
+        "blizzard-midnight-invasion-citation"
       ],
       "confidence": "explicit",
       "status": "active",
-      "editorNote": "Hard archive boundary: this claim records only the official pre-release premise and no outcome."
+      "editorNote": "First defense buys time; it does not end the campaign."
     },
     {
       "id": "mogu-conquests-event-claim",
@@ -16477,6 +16805,18 @@
       "confidence": "strongly_supported",
       "status": "active",
       "editorNote": "Its point is approximate at full-world scale."
+    },
+    {
+      "id": "sunwell-darkwell-claim",
+      "subjectId": "sunwell-becomes-darkwell",
+      "predicate": "sunwell_corrupted_into_darkwell",
+      "value": true,
+      "citationIds": [
+        "blizzard-midnight-darkwell-citation"
+      ],
+      "confidence": "explicit",
+      "status": "active",
+      "editorNote": "Do not infer the missing characters’ ultimate fate."
     },
     {
       "id": "sunwell-founded-claim",
@@ -17242,6 +17582,16 @@
       "confidence": "explicit"
     },
     {
+      "id": "darkwell-precedes-dawnwell",
+      "fromId": "sunwell-becomes-darkwell",
+      "toId": "dawnwell-restored",
+      "type": "precedes",
+      "citationIds": [
+        "blizzard-midnight-dawnwell-citation"
+      ],
+      "confidence": "explicit"
+    },
+    {
       "id": "dathremar-participates-in-exile",
       "fromId": "dathremar-sunstrider",
       "toId": "highborne-exiled-from-kalimdor",
@@ -17250,6 +17600,16 @@
         "chronicle-v1-highborne-exile"
       ],
       "confidence": "strongly_supported"
+    },
+    {
+      "id": "dawnwell-precedes-coiled-isle",
+      "fromId": "dawnwell-restored",
+      "toId": "coiled-isle-ulatek-crisis",
+      "type": "precedes",
+      "citationIds": [
+        "blizzard-curse-ulatek-citation"
+      ],
+      "confidence": "explicit"
     },
     {
       "id": "dragon-isles-precede-war-within",
@@ -17542,6 +17902,16 @@
       "confidence": "explicit"
     },
     {
+      "id": "karesh-precedes-midnight",
+      "fromId": "karesh-dimensius-crisis",
+      "toId": "midnight-invasion-quelthalas",
+      "type": "precedes",
+      "citationIds": [
+        "blizzard-midnight-invasion-citation"
+      ],
+      "confidence": "explicit"
+    },
+    {
       "id": "kiljaeden-causes-nerzhul-deception",
       "fromId": "kiljaeden-targets-draenei-on-draenor",
       "toId": "nerzhul-deceived-against-draenei",
@@ -17685,6 +18055,16 @@
       "type": "participant_in",
       "citationIds": [
         "chronicle-v2-first-war"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "midnight-invasion-precedes-darkwell",
+      "fromId": "midnight-invasion-quelthalas",
+      "toId": "sunwell-becomes-darkwell",
+      "type": "precedes",
+      "citationIds": [
+        "blizzard-midnight-darkwell-citation"
       ],
       "confidence": "explicit"
     },
@@ -18367,12 +18747,12 @@
       "confidence": "strongly_supported"
     },
     {
-      "id": "war-within-precedes-midnight",
+      "id": "war-within-precedes-karesh",
       "fromId": "war-within-khaz-algar",
-      "toId": "midnight-announced",
+      "toId": "karesh-dimensius-crisis",
       "type": "precedes",
       "citationIds": [
-        "blizzard-midnight-announced"
+        "blizzard-ghosts-karesh-timeline-citation"
       ],
       "confidence": "explicit"
     },
@@ -18556,7 +18936,7 @@
       "id": "modern-cosmic-age-guided-history",
       "eraId": "modern-cosmic-age",
       "title": "Where the World's Wounds Open Outward",
-      "description": "A continuous history of the Fourth War, N'Zoth, the Shadowlands, the Dragon Isles, Khaz Algar, and the announced horizon of Midnight.",
+      "description": "A continuous history of the Fourth War, N’Zoth, the Shadowlands, Dragon Isles, Khaz Algar, K’aresh, and the released Midnight crisis through the Coiled Isle.",
       "nodeIds": [
         "modern-story-fourth-war",
         "modern-story-war-ends",
@@ -18566,7 +18946,11 @@
         "modern-story-covenants",
         "modern-story-dragon-isles",
         "modern-story-war-within",
-        "modern-story-midnight-horizon"
+        "modern-story-karesh",
+        "modern-story-midnight-horizon",
+        "modern-story-darkwell",
+        "modern-story-dawnwell",
+        "modern-story-coiled-isle"
       ],
       "contentStatus": "research"
     },
@@ -22172,35 +22556,96 @@
       ],
       "previousNodeId": "modern-story-dragon-isles",
       "nextNodeIds": [
+        "modern-story-karesh"
+      ]
+    },
+    {
+      "id": "modern-story-karesh",
+      "guideId": "modern-cosmic-age-guided-history",
+      "title": "Beyond Azeroth, a shattered world",
+      "narration": "The pursuit carried the defenders beyond Azeroth to K’aresh, a world already broken by the Void. There, a struggle over the Dark Heart threatened to restore an ancient devourer. The survivors fought to keep what remained of their home, while Azeroth’s champions confronted the danger alongside them. The crisis did not remain a distant tale: its shadow reached back toward Silvermoon.",
+      "durationMs": 72000,
+      "voiceover": {
+        "assetPath": "audio/guided/modern-cosmic-age-guided-history/modern-story-karesh.mp3",
+        "durationMs": 26100,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "karesh-dimensius-crisis"
+      ],
+      "entityIds": [
+        "adventurers-of-azeroth"
+      ],
+      "locationIds": [
+        "karesh-shattered-world"
+      ],
+      "optionalExploreEntityIds": [
+        "adventurers-of-azeroth",
+        "karesh-shattered-world"
+      ],
+      "camera": {
+        "position": [
+          3.4,
+          5.1,
+          4.4
+        ],
+        "target": [
+          3.3,
+          0,
+          -2.7
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "modern-cosmic-karesh-map-research"
+        },
+        {
+          "type": "focus_location",
+          "locationId": "karesh-shattered-world"
+        },
+        {
+          "type": "show_relationships",
+          "relationshipIds": [
+            "war-within-precedes-karesh",
+            "karesh-precedes-midnight"
+          ]
+        }
+      ],
+      "previousNodeId": "modern-story-war-within",
+      "nextNodeIds": [
         "modern-story-midnight-horizon"
       ]
     },
     {
       "id": "modern-story-midnight-horizon",
       "guideId": "modern-cosmic-age-guided-history",
-      "title": "Where history meets the unknown",
-      "narration": "Beyond these wars looms Midnight, and the threat of Xal'atath's assault upon the blood elf homelands. Eversong stands beneath that gathering shadow. The struggle ahead carries the weight of all that came before, but its ending remains beyond the horizon. For those who call these lands home, tomorrow has not yet become history.",
+      "title": "The first shadow over Quel’Thalas",
+      "narration": "The road from Khaz Algar and shattered K’aresh led back to Quel’Thalas. Xal’atath and the Devouring Host descended upon the Sunwell, and the defenders of Silvermoon gathered to preserve their home. Their first stand forced the invaders back, but only for a time. In Eversong, a strange Lightbloom spread, and the land itself bore witness that the danger had not passed.",
       "durationMs": 72000,
       "voiceover": {
         "assetPath": "audio/guided/modern-cosmic-age-guided-history/modern-story-midnight-horizon.mp3",
-        "durationMs": 22750,
+        "durationMs": 25050,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
       "eventIds": [
-        "midnight-announced"
+        "midnight-invasion-quelthalas"
       ],
       "entityIds": [
         "xalatath",
         "adventurers-of-azeroth"
       ],
       "locationIds": [
-        "eversong-woods"
+        "eversong-woods",
+        "sunwell-ancient"
       ],
       "optionalExploreEntityIds": [
         "xalatath",
         "eversong-woods",
-        "quelthalas-ancient"
+        "sunwell-ancient"
       ],
       "camera": {
         "position": [
@@ -22231,11 +22676,190 @@
         {
           "type": "show_relationships",
           "relationshipIds": [
-            "war-within-precedes-midnight"
+            "karesh-precedes-midnight"
           ]
         }
       ],
-      "previousNodeId": "modern-story-war-within"
+      "previousNodeId": "modern-story-karesh",
+      "nextNodeIds": [
+        "modern-story-darkwell"
+      ]
+    },
+    {
+      "id": "modern-story-darkwell",
+      "guideId": "modern-cosmic-age-guided-history",
+      "title": "The Sunwell falls into shadow",
+      "narration": "The reprieve ended at the Voidspire. Xal’atath turned the Sunwell’s light against itself, and the sacred fount became the Darkwell. Two defenders vanished into its depths; their final fate was not known. For the people of Quel’Thalas, this was more than the loss of a stronghold. A place bound to their survival had become the heart of the invading darkness.",
+      "durationMs": 72000,
+      "voiceover": {
+        "assetPath": "audio/guided/modern-cosmic-age-guided-history/modern-story-darkwell.mp3",
+        "durationMs": 24400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "sunwell-becomes-darkwell"
+      ],
+      "entityIds": [
+        "xalatath",
+        "adventurers-of-azeroth"
+      ],
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "optionalExploreEntityIds": [
+        "xalatath",
+        "adventurers-of-azeroth",
+        "sunwell-ancient"
+      ],
+      "camera": {
+        "position": [
+          3.4,
+          5.1,
+          4.4
+        ],
+        "target": [
+          3.3,
+          0,
+          -2.7
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "focus_location",
+          "locationId": "sunwell-ancient"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "xalatath"
+        },
+        {
+          "type": "show_relationships",
+          "relationshipIds": [
+            "midnight-invasion-precedes-darkwell"
+          ]
+        }
+      ],
+      "previousNodeId": "modern-story-midnight-horizon",
+      "nextNodeIds": [
+        "modern-story-dawnwell"
+      ]
+    },
+    {
+      "id": "modern-story-dawnwell",
+      "guideId": "modern-cosmic-age-guided-history",
+      "title": "A new light from old wounds",
+      "narration": "In answer, the elven peoples came together across divisions long held apart. They drove the Devouring Host from the corrupted fount. Sylvanas returned to stand beside her kin, and Xal’atath was forced to retreat. Each people brought part of its inheritance to cleanse the well. From the Darkwell arose the Dawnwell: a new light made by those who chose to defend a shared future.",
+      "durationMs": 72000,
+      "voiceover": {
+        "assetPath": "audio/guided/modern-cosmic-age-guided-history/modern-story-dawnwell.mp3",
+        "durationMs": 25700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "dawnwell-restored"
+      ],
+      "entityIds": [
+        "sylvanas-windrunner",
+        "xalatath",
+        "adventurers-of-azeroth"
+      ],
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "optionalExploreEntityIds": [
+        "sylvanas-windrunner",
+        "xalatath",
+        "adventurers-of-azeroth",
+        "sunwell-ancient"
+      ],
+      "camera": {
+        "position": [
+          3.4,
+          5.1,
+          4.4
+        ],
+        "target": [
+          3.3,
+          0,
+          -2.7
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "focus_location",
+          "locationId": "sunwell-ancient"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "sylvanas-windrunner"
+        },
+        {
+          "type": "show_relationships",
+          "relationshipIds": [
+            "darkwell-precedes-dawnwell"
+          ]
+        }
+      ],
+      "previousNodeId": "modern-story-darkwell",
+      "nextNodeIds": [
+        "modern-story-coiled-isle"
+      ]
+    },
+    {
+      "id": "modern-story-coiled-isle",
+      "guideId": "modern-cosmic-age-guided-history",
+      "title": "The curse beyond Zul’Aman",
+      "narration": "Yet the age did not close at the Dawnwell. East of Zul’Aman, the Coiled Isle drew the campaign onward. A division within the Amani family led toward an older danger, and an ancient venomous power was unleashed. Champions entered the Venomous Abyss to face it. This archive reaches that released chapter, while the wider Worldsoul Saga remains unfinished.",
+      "durationMs": 72000,
+      "voiceover": {
+        "assetPath": "audio/guided/modern-cosmic-age-guided-history/modern-story-coiled-isle.mp3",
+        "durationMs": 24850,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "coiled-isle-ulatek-crisis"
+      ],
+      "entityIds": [
+        "adventurers-of-azeroth"
+      ],
+      "locationIds": [
+        "coiled-isle"
+      ],
+      "optionalExploreEntityIds": [
+        "adventurers-of-azeroth",
+        "coiled-isle"
+      ],
+      "camera": {
+        "position": [
+          3.4,
+          5.1,
+          4.4
+        ],
+        "target": [
+          3.3,
+          0,
+          -2.7
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "focus_location",
+          "locationId": "coiled-isle"
+        },
+        {
+          "type": "show_relationships",
+          "relationshipIds": [
+            "dawnwell-precedes-coiled-isle"
+          ]
+        }
+      ],
+      "previousNodeId": "modern-story-dawnwell"
     },
     {
       "id": "ordering-story-inherited-shadow",

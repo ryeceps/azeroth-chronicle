@@ -1,1 +1,16 @@
-{"id":"modern-cosmic-midnight-map-research","name":"Midnight announced horizon — evidence-boundary state","worldspaceId":"azeroth","presentation":"terrain","cartographyLabel":"ANNOUNCED MIDNIGHT PREMISE — OUTCOME UNKNOWN","interpretationNote":"This state marks only the officially announced blood-elf-homeland premise at the archive cutoff. It does not predict fronts, chronology, participation, victory, or defeat.","terrainTextureAsset":"textures/azeroth/age-of-adventurers-cataclysm-map-research/terrain-atlas.research.webp","terrainHeightAsset":"textures/azeroth/age-of-adventurers-cataclysm-map-research/terrain-height.research.webp","geometryIds":["eversong-midnight-focus-research","xalatath-midnight-focus-research","midnight-unknown-horizon-research"]}
+{
+  "id": "modern-cosmic-midnight-map-research",
+  "name": "Midnight — Quel’Thalas and the Dawnwell",
+  "worldspaceId": "azeroth",
+  "presentation": "terrain",
+  "cartographyLabel": "MIDNIGHT RELEASED CHAPTER — APPROXIMATE QUEL’THALAS FOCUS",
+  "interpretationNote": "Approximate atlas anchors distinguish Eversong, the Sunwell/Dawnwell site, and the Coiled Isle. They are not battle fronts, control areas, or exact surveys. Darkwell and Dawnwell are sequential states of the Sunwell.",
+  "terrainTextureAsset": "textures/azeroth/age-of-adventurers-cataclysm-map-research/terrain-atlas.research.webp",
+  "terrainHeightAsset": "textures/azeroth/age-of-adventurers-cataclysm-map-research/terrain-height.research.webp",
+  "geometryIds": [
+    "eversong-midnight-focus-research",
+    "sunwell-midnight-focus-research",
+    "xalatath-midnight-focus-research",
+    "coiled-isle-focus-research"
+  ]
+}
