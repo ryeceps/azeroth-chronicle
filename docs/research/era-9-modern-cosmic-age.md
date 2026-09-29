@@ -1,51 +1,45 @@
 # Era 9 Research Audit — The Modern Cosmic Age
 
-Status: public `research` preview implemented and explicitly ongoing; human lore, citation, chronology, cartography, source-freshness, interpretation, and visual review required before promotion.
+Status: public `research` preview, explicitly ongoing. Human lore, claim, citation, chronology, cartography, source-freshness, interpretation, and visual review is required before promotion.
 
-Archive cutoff: the record includes released broad premises through *The War Within* and only the official pre-release premise for *Midnight*. It asserts no *Midnight* outcome and no later Worldsoul Saga resolution.
+Archive cutoff: 2026-09-29. The records include the released `Ghosts of K’aresh`, `Midnight` timeline chapter, and August 2026 `Curse of Ula’tek` update. They do not claim the outcome of later Worldsoul Saga chapters or the final fate of missing characters.
 
 ## Scope and evidence boundary
 
-The slice opens after the Argus campaign with the Fourth War. It continues through N'Zoth's release and defeat, the passage into the Shadowlands, the awakening of the Dragon Isles, and the opening of the Worldsoul Saga in Khaz Algar. It ends at an announced horizon: Xal'atath's assault turning toward the blood elf homelands in *Midnight*.
+The slice opens after the Argus campaign with the Fourth War. It continues through N'Zoth's release and defeat, the passage into the Shadowlands, the awakening of the Dragon Isles, the campaign in Khaz Algar, the Dimensius crisis on shattered K’aresh, and the released Midnight sequence in Quel’Thalas. The Sunwell becomes the Darkwell and is then restored as the Dawnwell; Xal’atath retreats, but her wider story is unresolved. The current endpoint is the released Coiled Isle campaign and the confrontation with Ula’tek. No later chapter is treated as completed history.
 
-`midnight-announced` is intentionally an event-shaped archive record for an announced premise, not a completed historical event. Its summary, description, claim value, map caption, and guide narration all preserve `outcome: unknown`. New release evidence must update the source ledger and cutoff before any later result can enter the dataset.
+The older `midnight-announced` event-shaped placeholder, claim, citation, relationship, and inferred “unknown outcome” polygon were removed. They were appropriate at the pre-release cutoff, but became misleading after release.
 
-## Source ledger and freshness rules
+## Source ledger
 
 | Source ID | Use | Review condition |
 | --- | --- | --- |
 | `warcraft-chronicle-volume-4` | Research backbone through the Fourth War and Shadowlands-era sequence | Add exact edition, chapter, and page spans before promotion |
-| `blizzard-fourth-war-recap` | Faction footholds, rebellion against Sylvanas, and campaign conclusion | Review faction perspectives and distinguish political ending from repaired consequences |
-| `blizzard-visions-nzoth` | N'Zoth's release, assaults, Ny'alotha, and broad defeat | Add exact quest/cinematic/raid citations before promotion |
-| `blizzard-shadowlands-live` | Piercing the veil, entry into the afterlife, and Covenant framework | Does not by itself support every later Shadowlands outcome |
+| `blizzard-fourth-war-recap` | Faction footholds, rebellion against Sylvanas, and campaign conclusion | Review faction perspectives and civilian consequences |
+| `blizzard-visions-nzoth` | N'Zoth's release, assaults, Ny'alotha, and broad defeat | Add exact quest/cinematic/raid citations |
+| `blizzard-shadowlands-live` | Piercing the veil, entry into the afterlife, and Covenant framework | Does not alone support every later Shadowlands outcome |
 | `blizzard-dragonflight-deep-dive` | Dragon Isles awakening, dragonflight return, and expedition frame | Promotional overview supports broad premises only |
-| `blizzard-war-within-live` | Khaz Algar, subterranean theaters, Xal'atath's threat, and Worldsoul opening | Recheck against the currently released campaign before promotion |
-| `blizzard-midnight-overview` | Announcement-only premise and named future theaters | Never use for an outcome, victory, defeat, or later-saga claim |
+| `blizzard-war-within-live` | Khaz Algar, subterranean theaters, Xal'atath, and Worldsoul opening | Review against released campaign |
+| `blizzard-ghosts-karesh-timeline` | K’aresh and the Dimensius crisis | Add exact quest and raid references before promotion |
+| `blizzard-midnight-live` | March 2026 release and invasion premise | Release confirmation, not alone an outcome source |
+| `blizzard-midnight-timeline` | Invasion, Darkwell, elven coalition, Xal’atath retreat, Dawnwell | Recheck campaign sequence and character fates in game |
+| `blizzard-curse-ulatek-live` | Coiled Isle, Zul’jarra and Zul’jan, Ula’tek threat | Do not infer the wider saga outcome from update notes |
 
-Before promotion or any content update, reviewers must check first-party publication state, replace obsolete announcement evidence where release evidence exists, and record the archive cutoff in the change log.
+Source URLs and claim-specific section notes live in the Source and Citation records. All new records remain `research`, not `reviewed` or `published`.
 
 ## Guided-history spine
 
-The nine-pane guide, **Where the World's Wounds Open Outward**, follows:
-
-1. The Fourth War opens across multiple theaters.
-2. Internal rebellion and Alliance pressure end the war campaign.
-3. N'Zoth's release turns uncertainty into part of the battlefield.
-4. The campaign enters Ny'alotha and ends the immediate assault.
-5. Sylvanas shatters the veil and the atlas changes cosmological mode.
-6. Distinct covenant campaigns converge without becoming one culture.
-7. The Dragon Isles awaken and recall the dragonflights.
-8. The War Within opens in a compressed Khaz Algar surface/subterranean focus.
-9. The chronicle stops at *Midnight*'s announced premise with no inferred outcome.
+The 13-pane guide, **Where the World's Wounds Open Outward**, follows the Fourth War opening and end; N'Zoth's release and defeat; the Shadowlands breach and covenants; the Dragon Isles awakening; Khaz Algar; offworld K’aresh; the first invasion of Quel’Thalas; the Darkwell; the Dawnwell; and the Coiled Isle. The last pane states that the wider Worldsoul Saga remains unfinished.
 
 ## Cartography and visual audit
 
 - Fourth War, N'Zoth, Dragon Isles, Khaz Algar, and Midnight states use post-Cataclysm Azeroth terrain with separate interpretive geometry.
-- The Shadowlands has a separate `0..10000 × 0..6667` worldspace and a relational field texture with no height map.
-- Shadowlands domain distance, direction, scale, and adjacency are explicitly symbolic.
+- Shadowlands and K’aresh are separate relational worldspaces. The latter reuses the repository's original cosmic field texture as symbolic art, not a terrain reconstruction.
+- K’aresh has no Azeroth surface marker and its relational anchor has unknown geography.
 - Ny'alotha is not assigned conventional coordinates.
 - Khaz Algar compresses surface and subterranean theaters into one approximate focus and is not a zone map.
-- Midnight geometry marks an evidence horizon, not an invasion front.
+- Eversong, the Sunwell site, and the Coiled Isle are approximate anchors. The Coiled Isle point communicates only its east-of-Zul’Aman relation. There are no speculative invasion-front or control polygons.
+- Darkwell and Dawnwell are sequential historical states of the same Sunwell site.
 - Covenant, dragonflight, and Earthen ensembles are anonymous symbolic compositions. Xal'atath's figure is an original interpretive portrait.
 
 ## Human-review checklist
@@ -54,9 +48,8 @@ The nine-pane guide, **Where the World's Wounds Open Outward**, follows:
 - [ ] Recheck the Fourth War and N'Zoth sequence for faction perspective and causal overstatement.
 - [ ] Review Shadowlands cosmological terminology, retcons, and the limits of the launch-note source.
 - [ ] Review Dragon Isles and dragonflight wording against released campaign sources.
-- [ ] Review Khaz Algar, the Earthen, Xal'atath, and all Worldsoul claims against the latest released primary evidence.
-- [ ] Verify that *Midnight* remains announcement-only at the recorded archive cutoff; update the cutoff before changing that status.
-- [ ] Confirm no UI, dossier, search excerpt, map caption, or guide language implies a *Midnight* outcome.
-- [ ] Audit all generated visual assets for provenance, originality, accessibility, cultural coding, and interpretive labeling.
-- [ ] Confirm relational Shadowlands and cross-era transitions remain deterministic under Previous, Next, reduced motion, and URL restoration.
-
+- [ ] Deepen Khaz Algar, Dalaran, Undermine, Amani, Harandar, and Voidstorm chapters from released quests and cinematics.
+- [ ] Confirm the K’aresh and Midnight events against quest and raid chronology, including missing-character fates.
+- [ ] Recheck the next released Worldsoul chapter before advancing the archive cutoff.
+- [ ] Audit generated visuals for provenance, originality, accessibility, cultural coding, and interpretive labeling.
+- [ ] Confirm relational worldspace transitions remain deterministic under Previous, Next, reduced motion, and URL restoration.

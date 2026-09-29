@@ -1477,6 +1477,28 @@
   },
   {
     "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "karesh-relational-focus-research",
+        "properties": {
+          "name": "K’aresh offworld story focus",
+          "contentStatus": "research",
+          "styleRole": "site",
+          "geographicCertainty": "unknown"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5000,
+            3400
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
     "name": "long-vigil-new-kingdoms-research-cartography",
     "features": [
       {
@@ -2451,7 +2473,7 @@
         "type": "Feature",
         "id": "eversong-midnight-focus-research",
         "properties": {
-          "name": "Eversong Woods announced theater (approximate)",
+          "name": "Eversong Woods (approximate Midnight focus)",
           "contentStatus": "research",
           "styleRole": "site",
           "geographicCertainty": "approximate"
@@ -2468,7 +2490,7 @@
         "type": "Feature",
         "id": "xalatath-midnight-focus-research",
         "properties": {
-          "name": "Xal'atath announced-premise focus",
+          "name": "Xal’atath Midnight narrative focus (non-geographic)",
           "contentStatus": "research",
           "styleRole": "site",
           "geographicCertainty": "unknown"
@@ -2483,38 +2505,35 @@
       },
       {
         "type": "Feature",
-        "id": "midnight-unknown-horizon-research",
+        "id": "sunwell-midnight-focus-research",
         "properties": {
-          "name": "Midnight outcome unknown at archive cutoff",
+          "name": "Sunwell / Darkwell / Dawnwell site (approximate)",
           "contentStatus": "research",
-          "styleRole": "influence",
-          "geographicCertainty": "inferred"
+          "styleRole": "site",
+          "geographicCertainty": "approximate"
         },
         "geometry": {
-          "type": "Polygon",
+          "type": "Point",
           "coordinates": [
-            [
-              [
-                7900,
-                6800
-              ],
-              [
-                8000,
-                8800
-              ],
-              [
-                9600,
-                9000
-              ],
-              [
-                9700,
-                6900
-              ],
-              [
-                7900,
-                6800
-              ]
-            ]
+            9030,
+            8000
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "coiled-isle-focus-research",
+        "properties": {
+          "name": "Coiled Isle east of Zul’Aman (approximate)",
+          "contentStatus": "research",
+          "styleRole": "site",
+          "geographicCertainty": "approximate"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9510,
+            7780
           ]
         }
       }

@@ -4,16 +4,56 @@
   "slug": "modern-cosmic-age",
   "worldspaceId": "azeroth",
   "order": 9,
-  "startDate": { "precision": "relative", "label": "After the Argus campaign" },
-  "endDate": { "precision": "unknown", "label": "Ongoing; archive closes at Midnight's announced premise" },
-  "dateLabel": "Fourth War to the announced Midnight horizon · ongoing archive",
-  "summary": "A wounded world's history widens through the Fourth War, N'Zoth's assault, the Shadowlands, the awakened Dragon Isles, Khaz Algar, and an explicitly unfinished Worldsoul Saga.",
+  "startDate": {
+    "precision": "relative",
+    "label": "After the Argus campaign"
+  },
+  "endDate": {
+    "precision": "unknown",
+    "label": "Ongoing; archive includes the released Curse of Ula’tek chapter (August 2026)"
+  },
+  "dateLabel": "Fourth War through Curse of Ula’tek · ongoing archive",
+  "summary": "A wounded world passes through the Fourth War, N’Zoth, the Shadowlands, the Dragon Isles, Khaz Algar, shattered K’aresh, and the released Midnight crisis in Quel’Thalas. Later Worldsoul Saga outcomes remain open.",
   "mapStateId": "modern-cosmic-age-map-research",
-  "defaultLayerIds": ["regions", "battles", "locations", "routes", "labels"],
-  "featuredEventIds": ["fourth-war-erupts", "fourth-war-ends", "nzoth-unleashed", "nzoth-defeated", "veil-shattered", "shadowlands-covenants-unite", "dragon-isles-awaken", "war-within-khaz-algar", "midnight-announced"],
-  "featuredBattleIds": ["fourth-war-campaign", "visions-of-nzoth-campaign"],
+  "defaultLayerIds": [
+    "regions",
+    "battles",
+    "locations",
+    "routes",
+    "labels"
+  ],
+  "featuredEventIds": [
+    "fourth-war-erupts",
+    "fourth-war-ends",
+    "nzoth-unleashed",
+    "nzoth-defeated",
+    "veil-shattered",
+    "shadowlands-covenants-unite",
+    "dragon-isles-awaken",
+    "war-within-khaz-algar",
+    "karesh-dimensius-crisis",
+    "midnight-invasion-quelthalas",
+    "sunwell-becomes-darkwell",
+    "dawnwell-restored",
+    "coiled-isle-ulatek-crisis"
+  ],
+  "featuredBattleIds": [
+    "fourth-war-campaign",
+    "visions-of-nzoth-campaign"
+  ],
   "storyGuideId": "modern-cosmic-age-guided-history",
   "previousEraId": "age-of-adventurers",
-  "sourceIds": ["warcraft-chronicle-volume-4", "blizzard-fourth-war-recap", "blizzard-visions-nzoth", "blizzard-shadowlands-live", "blizzard-dragonflight-deep-dive", "blizzard-war-within-live", "blizzard-midnight-overview"],
+  "sourceIds": [
+    "warcraft-chronicle-volume-4",
+    "blizzard-fourth-war-recap",
+    "blizzard-visions-nzoth",
+    "blizzard-shadowlands-live",
+    "blizzard-dragonflight-deep-dive",
+    "blizzard-war-within-live",
+    "blizzard-ghosts-karesh-timeline",
+    "blizzard-midnight-live",
+    "blizzard-midnight-timeline",
+    "blizzard-curse-ulatek-live"
+  ],
   "contentStatus": "research"
 }

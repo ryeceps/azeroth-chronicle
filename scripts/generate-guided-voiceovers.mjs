@@ -76,42 +76,24 @@ async function writeJson(path, value) {
 
 async function writeStoryVoiceover(path, nodeId, voiceover) {
   const source = await readFile(path, 'utf8');
-  const compactMarker = `"id":"${nodeId}"`;
-  const compactKey = source.includes(compactMarker);
-  const nodeStart = source.indexOf(compactKey ? compactMarker : `"id": "${nodeId}"`);
-  if (nodeStart < 0) throw new Error(`Could not locate ${nodeId} in ${path}`);
-  const firstLineEnd = source.indexOf('\n', nodeStart);
-  const durationStart = source.indexOf('"durationMs"', nodeStart);
-  const singleLineFormat = firstLineEnd < 0 || (durationStart >= 0 && durationStart < firstLineEnd);
-  const nextNode = source.indexOf(singleLineFormat ? '\n' : '\n    {', nodeStart + nodeId.length);
-  const nodeEnd = nextNode < 0 ? source.length : nextNode;
-  const nodeSource = source.slice(nodeStart, nodeEnd);
-  if (singleLineFormat) {
-    const compactBlock = `"voiceover":${JSON.stringify(voiceover)},`;
-    const existingCompact = /"voiceover":\{[^}]+\},/;
-    const duration = /"durationMs":\d+,/;
-    let updatedNode;
-    if (existingCompact.test(nodeSource)) {
-      updatedNode = nodeSource.replace(existingCompact, compactBlock);
-    } else if (duration.test(nodeSource)) {
-      updatedNode = nodeSource.replace(duration, (field) => `${field}${compactBlock}`);
-    } else {
-      throw new Error(`Could not update voiceover for ${nodeId}`);
-    }
-    await writeFile(path, `${source.slice(0, nodeStart)}${updatedNode}${source.slice(nodeEnd)}`);
+  const story = JSON.parse(source);
+  const node = story.nodes.find((item) => item.id === nodeId);
+  if (!node) throw new Error(`Could not locate ${nodeId} in ${path}`);
+  node.voiceover = voiceover;
+  const compactNodes = source.split('\n').some((line) => /^\s+\{"id":/.test(line));
+  if (compactNodes) {
+    const lines = [
+      '{',
+      ` "guide":${JSON.stringify(story.guide)},`,
+      ' "nodes":[',
+      ...story.nodes.map((item, index) => `  ${JSON.stringify(item)}${index === story.nodes.length - 1 ? '' : ','}`),
+      ' ]',
+      '}',
+    ];
+    await writeFile(path, `${lines.join('\n')}\n`);
     return;
   }
-  const block = `      "voiceover":${JSON.stringify(voiceover)},`;
-  const existing = / {6}"voiceover":(?:\{[^\n]*\}|\{\n(?: {8}.*\n)+? {6}\}),/;
-  let updatedNode;
-  if (existing.test(nodeSource)) {
-    updatedNode = nodeSource.replace(existing, block);
-  } else {
-    const duration = / {6}"durationMs": ?\d+,/;
-    if (!duration.test(nodeSource)) throw new Error(`Could not locate durationMs for ${nodeId}`);
-    updatedNode = nodeSource.replace(duration, (line) => `${line}\n${block}`);
-  }
-  await writeFile(path, `${source.slice(0, nodeStart)}${updatedNode}${source.slice(nodeEnd)}`);
+  await writeJson(path, story);
 }
 
 const storyFiles = (await readdir(resolve('data/stories')))
@@ -179,7 +161,10 @@ const manifestPath = resolve(OUTPUT_ROOT, 'manifest.json');
 const priorManifest = selectedNodeIds ? JSON.parse(await readFile(manifestPath, 'utf8')) : undefined;
 const updatedTracks = new Map(tracks.map((track) => [track.nodeId, track]));
 const completeTracks = priorManifest
-  ? priorManifest.tracks.map((track) => updatedTracks.get(track.nodeId) ?? track)
+  ? [
+    ...priorManifest.tracks.map((track) => updatedTracks.get(track.nodeId) ?? track),
+    ...tracks.filter((track) => !priorManifest.tracks.some((prior) => prior.nodeId === track.nodeId)),
+  ]
   : tracks;
 await writeJson(manifestPath, {
   schemaVersion: 1,

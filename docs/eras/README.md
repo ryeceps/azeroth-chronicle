@@ -2,7 +2,7 @@
 
 ## Purpose and editorial status
 
-This is the implementation and research backlog for the ten current navigation eras, beginning with the Cosmic Origins prologue. The era names and summaries are approved product taxonomy; every person, place, boundary, date, battle, route, outcome, and causal link listed below remains a **research candidate** until it has claim-level citations and human lore review.
+This is the implementation and research backlog for the ten current navigation eras, beginning with the Cosmic Origins prologue. The era names and summaries are approved product taxonomy; every person, place, boundary, date, battle, route, outcome, and causal link listed below remains a **research candidate** until it has claim-level citations and human lore review. The cross-era [master lore backlog](../research/master-lore-backlog.md) collects additional candidate stories and first-party source leads.
 
 Application records live in `data/eras`. Each era owns a separate record in `data/map-states`, because the atlas must not imply that Azeroth had one permanent geography. Reviewed people and factions will live in `data/entities`; events and battles in `data/events` and `data/battles`; time-aware placements in `data/spatial-states`; routes and source geometry in `data/routes` and `data/geometry`; narrated sequences in `data/stories`.
 
@@ -19,7 +19,7 @@ Application records live in `data/eras`. Each era owns a separate record in `dat
 | 6 | `rise-of-the-horde` | Two worlds, the Dark Portal, and two wars | Public research-preview vertical slice implemented; human review pending |
 | 7 | `third-war-frozen-throne` | Multi-front collapse and the path to Icecrown | Public research-preview vertical slice implemented; human review pending |
 | 8 | `age-of-adventurers` | Many campaigns and repeated map-state changes | Era shell and empty map state |
-| 9 | `modern-cosmic-age` | Fourth War through the evolving Worldsoul Saga | Era shell and empty map state |
+| 9 | `modern-cosmic-age` | Fourth War through the evolving Worldsoul Saga | Source-linked research preview through August 2026 |
 
 Build the eras in this order. Cosmic Origins through the First Two Wars now establish the reference patterns for relational cosmography, terrain eras, explicit before/after storytelling, long eras represented through political time slices, irreversible world-state transitions, inferred migrations, concurrent regional histories, and cross-world transitions without shared coordinates. Finish the publication gate for one era before beginning production terrain for the next; reusable engine improvements may continue across eras.
 
@@ -177,7 +177,7 @@ Era 9 extends beyond Chronicle Volume 4. Dragonflight and Worldsoul Saga materia
 
 **Completion emphasis:** add a source freshness review and an “ongoing” status before publication. Never infer unreleased outcomes.
 
-**Implemented research baseline:** six states across Azeroth and a relational Shadowlands worldspace; nine events; two five-phase strategic dossiers; deliberate visuals for the covenants, dragonflights, Xal'atath, and Khaz Algar's Earthen; and a nine-pane guided history. The era ends with an announcement-only Midnight state whose caption, event, claim, and narration all preserve an unknown outcome. See `docs/research/era-9-modern-cosmic-age.md` for the source-freshness boundary and review checklist.
+**Implemented research baseline:** seven states across Azeroth and separate relational Shadowlands and K’aresh worldspaces; 13 events; two five-phase strategic dossiers; deliberate visuals for the covenants, dragonflights, Xal'atath, and Khaz Algar's Earthen; and a 13-pane guided history. The current research cutoff includes the released Midnight invasion, Darkwell and Dawnwell outcomes, and the August 2026 Coiled Isle chapter. Later Worldsoul Saga outcomes remain open. See `docs/research/era-9-modern-cosmic-age.md` for the source-freshness boundary and review checklist.
 
 ## Story-animation authoring template
 

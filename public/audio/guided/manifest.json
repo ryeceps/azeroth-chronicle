@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T19:46:23.068Z",
+  "generatedAt": "2026-09-29T20:08:34.772Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 117,
-  "totalDurationMs": 2893550,
+  "trackCount": 121,
+  "totalDurationMs": 2996900,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -521,9 +521,9 @@
       "nodeId": "modern-story-midnight-horizon",
       "guideId": "modern-cosmic-age-guided-history",
       "assetPath": "audio/guided/modern-cosmic-age-guided-history/modern-story-midnight-horizon.mp3",
-      "durationMs": 22750,
-      "sha256": "8d16ab93975ad2bd560f6f468ed9db77d14b0bb4cc47a666ed10446361e85507",
-      "bytes": 273933
+      "durationMs": 25050,
+      "sha256": "b5dc37d9c98c3a04146e9e3335b014fa3d6d3a5ba3d5286b4c8b9dfd36d749eb",
+      "bytes": 301581
     },
     {
       "nodeId": "ordering-story-inherited-shadow",
@@ -948,6 +948,38 @@
       "durationMs": 26150,
       "sha256": "1d59d2a713d23855517c1175774082553b7b80c3804fd1b5fc2025aceeee7184",
       "bytes": 314829
+    },
+    {
+      "nodeId": "modern-story-karesh",
+      "guideId": "modern-cosmic-age-guided-history",
+      "assetPath": "audio/guided/modern-cosmic-age-guided-history/modern-story-karesh.mp3",
+      "durationMs": 26100,
+      "sha256": "59381a78fe9f95d1bf1542515fab653e297c88a5deed410eb101b9386a067fed",
+      "bytes": 314253
+    },
+    {
+      "nodeId": "modern-story-darkwell",
+      "guideId": "modern-cosmic-age-guided-history",
+      "assetPath": "audio/guided/modern-cosmic-age-guided-history/modern-story-darkwell.mp3",
+      "durationMs": 24400,
+      "sha256": "0e64d5f1b8c64ea8baa64ac477040f4b45584d055c742af9f368dd1a3e68816b",
+      "bytes": 293805
+    },
+    {
+      "nodeId": "modern-story-dawnwell",
+      "guideId": "modern-cosmic-age-guided-history",
+      "assetPath": "audio/guided/modern-cosmic-age-guided-history/modern-story-dawnwell.mp3",
+      "durationMs": 25700,
+      "sha256": "3454b1c72ec06a534348c9266c2843a8fb0a1705fcef107689979c53641ce3f6",
+      "bytes": 309357
+    },
+    {
+      "nodeId": "modern-story-coiled-isle",
+      "guideId": "modern-cosmic-age-guided-history",
+      "assetPath": "audio/guided/modern-cosmic-age-guided-history/modern-story-coiled-isle.mp3",
+      "durationMs": 24850,
+      "sha256": "f80fe6a5490533b3eb29a6dcca7b1db7b4b2bc743a05e12e93057dbb64d9eaca",
+      "bytes": 299277
     }
   ]
 }
