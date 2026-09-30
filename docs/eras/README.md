@@ -181,6 +181,8 @@ Era 9 extends beyond Chronicle Volume 4. Dragonflight and Worldsoul Saga materia
 
 ## Story-animation authoring template
 
+For questline stories using the same presentation and scene pattern, follow the [full storyline build guide](../research/storyline-build-template.md). The active [questline candidate slate](../research/questline-story-candidates.md) prioritizes substantial journeys and ends with Wrath of the Lich King. These research packets do not replace the era guides or constitute finished tours.
+
 Each tour node should answer one narrative question and produce one visible change:
 
 ```text
