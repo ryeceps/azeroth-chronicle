@@ -1,9 +1,21 @@
-import { expect, test } from '@playwright/test';
+import { expect, test, type Page } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 
 const scepter = JSON.parse(readFileSync('data/stories/scepter-of-the-shifting-sands.research.json', 'utf8')) as {
   nodes: { title: string; narration: string; entityIds: string[]; voiceover: { assetPath: string } }[];
 };
+
+async function expectIllustratedScene(page: Page, title: string, index: number, profile: string) {
+  const images = page.locator('.story-atmosphere img, .map-character-figure img, .map-subject-visual img');
+  await expect(page.locator('.story-atmosphere img')).toHaveAttribute('src', /scepter\/.*\.research\.webp$/);
+  await expect.poll(() => images.evaluateAll(elements => elements.every(element => {
+    const image = element as HTMLImageElement;
+    return image.complete && image.naturalWidth >= 512 && image.naturalHeight >= 512
+      && !image.currentSrc.endsWith('.svg');
+  })), { message: `Environment and illustrated cast actually load in ${title}` }).toBe(true);
+  // Retain every scene for visual review, including changed destinations and crowded casts.
+  await page.screenshot({ path: `output/scepter-visual-review/${profile}-${String(index + 1).padStart(2, '0')}.png` });
+}
 
 test('Scepter playback traverses every scene and returns to its reading page', async ({ page }) => {
   test.setTimeout(120_000);
@@ -18,6 +30,7 @@ test('Scepter playback traverses every scene and returns to its reading page', a
     await expect(page.locator('audio')).toHaveAttribute('src', `/${node.voiceover.assetPath}`);
     await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED QUESTLINE THEATER');
     await expect(page.locator('.map-character-figure, .map-subject-visual')).toHaveCount(node.entityIds.length);
+    await expectIllustratedScene(page, node.title, index, 'desktop');
     if (index === 2) {
       await expect(page.locator('.map-character-figure')).toHaveCount(4);
       await page.screenshot({ path: 'output/scepter-desktop.png' });
@@ -59,6 +72,7 @@ test('Scepter direct links preserve context and reject unknown or mismatched sto
         });
         return clear && box.x >= 0 && box.x + box.width <= window.innerWidth && box.y >= 0 && box.y + box.height <= window.innerHeight;
       })), { message: `All cast representations fit in ${node.title}` }).toBe(true);
+    await expectIllustratedScene(page, node.title, index, 'phone');
     if (index === 2) await page.screenshot({ path: 'output/scepter-phone-cast.png' });
     if (index < scepter.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
