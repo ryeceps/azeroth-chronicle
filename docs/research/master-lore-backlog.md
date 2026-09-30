@@ -1,5 +1,7 @@
 # Master lore backlog — candidate stories for the ten eras
 
+**Current questline selection:** use [Questline story candidates — through Wrath of the Lich King](questline-story-candidates.md) and its [agent build guide](storyline-build-template.md) for the requested production slate. This broader historical archive retains later-expansion leads for future work; they are excluded from that slate.
+
 **Status:** editorial research dump; not application input. **Compiled:** 2026-09-29. **Coverage:** Era 0–9. Every item below is `research`, including items supported by Blizzard summaries. No row is a reviewed Claim, an approved date, or permission to render exact geography.
 
 This list extends the existing ten guides. It compares candidate threads with the current guides and event records, so a topic already mentioned in a guide is labeled **deepen** rather than passed off as a new discovery. The first-party links are discovery anchors; claim-level publication still requires exact Chronicle pages, quest/cinematic/raid locations, chronology, independent causal review, and the [citation checklist](citation-review-checklist.md). Book-only leads are marked **verify**. The list is organized by *in-world* era, not by the release date of a game or article.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T20:08:34.772Z",
+  "generatedAt": "2026-09-30T18:50:55.736Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 121,
-  "totalDurationMs": 2996900,
+  "trackCount": 143,
+  "totalDurationMs": 3648600,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -980,6 +980,204 @@
       "durationMs": 24850,
       "sha256": "f80fe6a5490533b3eb29a6dcca7b1db7b4b2bc743a05e12e93057dbb64d9eaca",
       "bytes": 299277
+    },
+    {
+      "nodeId": "scepter-story-the-first-war",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-first-war.mp3",
+      "durationMs": 32150,
+      "sha256": "d1fc399d986b4095c438071a1653fdc96dd60182ddb734f5e92dd444299f3b37",
+      "bytes": 386829,
+      "transcriptSha256": "d31a7741c9da6ab8887b9bf8fae8dd95b550a79200b9205bcfa2f80a153503a3"
+    },
+    {
+      "nodeId": "scepter-story-the-broken-key",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-broken-key.mp3",
+      "durationMs": 31650,
+      "sha256": "a66ed1599e454a5c28e4acd336736d745a7577e426def0bb11892f654b0c0007",
+      "bytes": 380781,
+      "transcriptSha256": "1f1744238cc5b2ef632ba4f04069a0da74ad2eaaf730aae4a862d1360325b56b"
+    },
+    {
+      "nodeId": "scepter-story-the-watchers",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-watchers.mp3",
+      "durationMs": 31675,
+      "sha256": "8551b71448166a6428be446e5c0903fe24d7bc13b4d98bae4209a901450e0e1c",
+      "bytes": 381069,
+      "transcriptSha256": "72f8e19db72747637622c9da0fd9eeb871c3f39f4e451e57d989eee0442aaaf2"
+    },
+    {
+      "nodeId": "scepter-story-the-bronze-test",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-bronze-test.mp3",
+      "durationMs": 25200,
+      "sha256": "bd9ebca8b662942c8e9095aceaf114c0e1f09f03eaf6a4adf7eec9bafeeab076",
+      "bytes": 303309,
+      "transcriptSha256": "927f59bd2935aadd1fed9e118fd11d7153577ccae0f7cf2587c4d333873b951d"
+    },
+    {
+      "nodeId": "scepter-story-long-forgotten-memories",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-long-forgotten-memories.mp3",
+      "durationMs": 31625,
+      "sha256": "1e962e0891ea7a1bc144332ec88e4873cd16625f88b6372f4a0ccc7c35422b20",
+      "bytes": 380493,
+      "transcriptSha256": "165983fb8c1308466ee833f87e221374b160fa708853b0eb70278863c5b3018d"
+    },
+    {
+      "nodeId": "scepter-story-the-red-shard",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-red-shard.mp3",
+      "durationMs": 30275,
+      "sha256": "139a1c46eb5eb081c448c1ea6bd66ceb848d08dd2aa2d4523e7e89a9a46c33c4",
+      "bytes": 364365,
+      "transcriptSha256": "1ae301d40e5be3119d0db760cf0964f571339713a37dc8408787f13aa0498a6f"
+    },
+    {
+      "nodeId": "scepter-story-blackwing-reckoning",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-blackwing-reckoning.mp3",
+      "durationMs": 30775,
+      "sha256": "3f9c442bdd21b25335cbc3bfc9edfb32d97d07ecdabb2a9a19a2e93ce5c0c7d9",
+      "bytes": 370413,
+      "transcriptSha256": "f75882c7ae253213dc991d6071512a1fdce931ae12851e468927e0edf1e20674"
+    },
+    {
+      "nodeId": "scepter-story-into-the-dream",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-into-the-dream.mp3",
+      "durationMs": 30650,
+      "sha256": "b6fa97c6ca9a6cb5947dd6ed6cd2159afc91b5cb4504b51321efd6a920d01728",
+      "bytes": 368973,
+      "transcriptSha256": "cec728b23f2569a6d65b71aad5093ed253f589b82939533f3c11ab9e3033a870"
+    },
+    {
+      "nodeId": "scepter-story-four-forest-portals",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-four-forest-portals.mp3",
+      "durationMs": 26125,
+      "sha256": "f05edcda962ccbacb691930f9c8caf5d802374749548cb58b602a2e4d3d17f27",
+      "bytes": 314541,
+      "transcriptSha256": "fbf12ebc5e2f11ee60820721e1ba61bcf28e9f5a9428a76219d2b6d92f8c0bd2"
+    },
+    {
+      "nodeId": "scepter-story-nightmare-manifests",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-nightmare-manifests.mp3",
+      "durationMs": 31375,
+      "sha256": "d67d04e8f3be80a754b4d5576e2a7bbc8a8dea25057422075661b9b759659dbb",
+      "bytes": 377613,
+      "transcriptSha256": "8acdab8281a976741bfffb4c3ad95b6ff38f19d3b5bf2eff7934f8c21798dc02"
+    },
+    {
+      "nodeId": "scepter-story-eranikus-redeemed",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-eranikus-redeemed.mp3",
+      "durationMs": 31050,
+      "sha256": "040db9b7c2b953b26f6ad8fde1da3da42cd3deb818bedc92b84c7d7193a51c86",
+      "bytes": 373581,
+      "transcriptSha256": "27076871d4def970a6b39962eca39817f8022837bd21300e8eb9179d8aad0719"
+    },
+    {
+      "nodeId": "scepter-story-azuregos-ledger",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-azuregos-ledger.mp3",
+      "durationMs": 28475,
+      "sha256": "74ca5e172e01a5a11eef5d574b869cbad50e76bbf70dcf2ded782c68c91d4d7f",
+      "bytes": 342765,
+      "transcriptSha256": "e68c87be61d03b69de7ea1a9ec4a1fef5db40ec9cc0b585164a3af7fa8ae2612"
+    },
+    {
+      "nodeId": "scepter-story-lost-goggles",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-lost-goggles.mp3",
+      "durationMs": 31100,
+      "sha256": "74ece088d8272796d6007d9cf784640ed3c7683876f23da911a496b9b52fd6f7",
+      "bytes": 374157,
+      "transcriptSha256": "5ab2a904df19ea72b3b3f72f37738f749ee1ff7eb0aa23565768f710dd0c3daf"
+    },
+    {
+      "nodeId": "scepter-story-dirges-feast",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-dirges-feast.mp3",
+      "durationMs": 24975,
+      "sha256": "972854338d14226c7a4dcb5f179d9ca61135b6317861ecd0681c81738f188de5",
+      "bytes": 300717,
+      "transcriptSha256": "d2f9aeb8cd2ae80cbe72615b041728dee320fe6e1e089c6523ec7323e053bab7"
+    },
+    {
+      "nodeId": "scepter-story-weavils-book",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-weavils-book.mp3",
+      "durationMs": 30975,
+      "sha256": "edf25d8264ff864477547a8a01508b65f2a228e2d8e30b5c02114369099aae6b",
+      "bytes": 372717,
+      "transcriptSha256": "4eae54f09253b730e790f566b87b8cdaa1896e5d5b6c1fa0ab9e4deb80d43cb1"
+    },
+    {
+      "nodeId": "scepter-story-eight-chapters",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-eight-chapters.mp3",
+      "durationMs": 29475,
+      "sha256": "5ccb777db1b28d864b3e027f4288790de3e18028a8cdfba3c60726117e629bad",
+      "bytes": 354861,
+      "transcriptSha256": "7d9d48e70844e182d9551d9acd208cdc3d1f2fe1fecfc830b8dbf4a4a45a1560"
+    },
+    {
+      "nodeId": "scepter-story-maws",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-maws.mp3",
+      "durationMs": 26050,
+      "sha256": "745cdf573b8a206299141bca30e5e9c620e3234830cd5f0e5b2261674b7c2fa2",
+      "bytes": 313677,
+      "transcriptSha256": "eac2d6885ac24e7ad3c7f1ad73b72d0ed089d7a1d2edc85de6fd6b03cfdd71f1"
+    },
+    {
+      "nodeId": "scepter-story-a-world-prepares",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-a-world-prepares.mp3",
+      "durationMs": 30025,
+      "sha256": "62d080e3d50487c35c28c6e40d1d4a900be8dc804b09ec89bda356ac704c4a92",
+      "bytes": 361485,
+      "transcriptSha256": "ea1e9f3e03f2c625932ff1ef28d61895b1febc1f7b70c7df9f9bad6f73f9d592"
+    },
+    {
+      "nodeId": "scepter-story-the-gong",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-gong.mp3",
+      "durationMs": 30750,
+      "sha256": "11c0d73bc860ad384199ae7bdaabc89a8ad80638f61edc6cf859208969b23120",
+      "bytes": 370125,
+      "transcriptSha256": "2eba4fdaed8a8c25d5d05cca6e9c6354b71ff4bc1359ec820932556c0b294c0f"
+    },
+    {
+      "nodeId": "scepter-story-beyond-the-wall",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-beyond-the-wall.mp3",
+      "durationMs": 28975,
+      "sha256": "af4b5c8eb5254f64653ce74220eb89d02b545706e8c57fe810ae39541f0fc1e4",
+      "bytes": 348813,
+      "transcriptSha256": "842e7655a74e6c51a45333d87d44095e559b978975ed2110fd2040198cef5bf1"
+    },
+    {
+      "nodeId": "scepter-story-timeless-treasure",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-timeless-treasure.mp3",
+      "durationMs": 28125,
+      "sha256": "6f3bb3c6cb127cd7f2b2aa9aa818bff2f00fac15ecc8e37b9b813e2be281afde",
+      "bytes": 338445,
+      "transcriptSha256": "b853596685353e5eba7af8555486a3720854f4a52f679f08374ae10dde1f1d6c"
+    },
+    {
+      "nodeId": "scepter-story-ransom-and-decoy",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-ransom-and-decoy.mp3",
+      "durationMs": 30225,
+      "sha256": "eb056d35aebce6b483113b287fcd4d29a2255642af7b52656846cbd455eaf7c1",
+      "bytes": 363789,
+      "transcriptSha256": "af8d02fde2aac11b16fc3846f6b585e4a06ffea674adb812e87ad657fb05d39b"
     }
   ]
 }

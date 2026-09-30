@@ -8,4 +8,15 @@ describe('search index', () => {
     expect(searchLore('alakir', { sourceIds: ['missing-source'] })).toEqual([]);
     expect(searchLore('alakir', { includeUnpublished: false })).toEqual([]);
   });
+
+  it('finds a cross-era storyline through either related era', () => {
+    const scepter = searchLore('scepter of the shifting sands');
+    expect(scepter[0]).toMatchObject({
+      type: 'storyline',
+      path: '/storylines/scepter-of-the-shifting-sands',
+    });
+    expect(searchLore('scepter', { eraId: 'long-vigil-new-kingdoms' })[0]?.id).toBe('scepter-of-the-shifting-sands');
+    expect(searchLore('scepter', { eraId: 'age-of-adventurers' })[0]?.id).toBe('scepter-of-the-shifting-sands');
+    expect(searchLore('scepter', { eraId: 'war-of-the-ancients' })).toEqual([]);
+  });
 });

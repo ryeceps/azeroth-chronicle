@@ -2,11 +2,12 @@ import generatedIndex from '../../generated/search-index.json';
 
 export interface SearchEntry {
   id: string;
-  type: 'era' | 'entity' | 'event' | 'battle' | 'campaign';
+  type: 'era' | 'entity' | 'event' | 'battle' | 'campaign' | 'storyline';
   name: string;
   slug: string;
   path: string;
   eraId?: string;
+  eraIds?: string[];
   aliases: string[];
   tags: string[];
   description: string;
@@ -38,11 +39,13 @@ export function searchLore(query: string, options: SearchOptions = {}): SearchEn
 
   return index
     .filter((entry) => options.includeUnpublished !== false || entry.contentStatus === 'published')
-    .filter((entry) => !options.eraId || entry.eraId === options.eraId || entry.type === 'era')
+    .filter((entry) => !options.eraId || entry.eraId === options.eraId || entry.eraIds?.includes(options.eraId) || entry.type === 'era')
     .filter((entry) => sourceFilter.size === 0 || entry.sourceIds.some((id) => sourceFilter.has(id)))
     .map((entry) => ({
       entry,
       score: fieldScore(normalize(entry.name), queryTokens, 8)
+        // Prefer the reading entry when its title matches the requested story or artifact.
+        + (entry.type === 'storyline' && queryTokens.every((term) => normalize(entry.name).some((token) => token.startsWith(term))) ? 8 : 0)
         + fieldScore(entry.aliases.flatMap(normalize), queryTokens, 6)
         + fieldScore(normalize(entry.type), queryTokens, 4)
         + fieldScore(entry.tags.flatMap(normalize), queryTokens, 3)

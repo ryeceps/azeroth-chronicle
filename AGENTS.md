@@ -83,6 +83,8 @@ The Black Empire is the first vertical slice, not a special case in the engine.
 
 Before implementation:
 
+When building or expanding a questline storyline, read and follow `docs/research/storyline-build-template.md` alongside the era authoring standard in `docs/eras/README.md`. Use its source/claim ledger, historical cutoff, scene and cast inventory, era-style prose and layout, audio workflow, verification gates, and completion labels. Start from `docs/research/questline-story-candidates.md` for the current through-Wrath slate; a preview outline is not a complete storyline.
+
 1. Identify whether the change is reusable engine work or era content work.
 2. Identify the relevant implementation-plan phase and acceptance criterion.
 3. For architectural divergence, add or update a decision record before coding.

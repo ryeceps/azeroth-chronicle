@@ -6,7 +6,7 @@ import { loadDataset } from '../../src/lib/lore/loadDataset';
 import { validateDatasetReferences } from '../../src/lib/lore/validateDataset';
 import { geometryIds, loadGeometry } from '../../src/lib/lore/loadGeometry';
 import { entityVisibleInEra } from '../../src/lib/lore/eraVisibility';
-import { mapStateSchema, spatialStateSchema } from '../../src/domain/schemas/loreSchemas';
+import { mapStateSchema, spatialStateSchema, storylineSchema } from '../../src/domain/schemas/loreSchemas';
 
 describe('lore dataset', () => {
   it('keeps Era 5 sites on the intended sides of the sea and in source-backed north-south order', () => {
@@ -70,6 +70,7 @@ describe('lore dataset', () => {
       ...data.campaigns,
       ...data.routes,
       ...data.storyGuides,
+      ...data.storylines,
     ];
     expect(records.every((record) => record.contentStatus === 'research')).toBe(true);
     expect(data.eras).toHaveLength(10);
@@ -383,7 +384,7 @@ describe('lore dataset', () => {
     expect(era.previousEraId).toBe('war-of-the-ancients');
     expect(era.nextEraId).toBe('rise-of-the-horde');
     expect(featuredEntities).toHaveLength(21);
-    expect(events).toHaveLength(11);
+    expect(events).toHaveLength(13);
     expect(battles).toHaveLength(2);
     expect(spatialStates).toHaveLength(22);
     expect(guide.nodeIds).toHaveLength(14);
@@ -633,7 +634,7 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(10);
+    expect(events).toHaveLength(30);
     expect(battles).toHaveLength(2);
     expect(guide.nodeIds).toHaveLength(10);
     expect(mapStates.map((state) => state.worldspaceId)).toEqual([
@@ -817,6 +818,25 @@ describe('lore dataset', () => {
     }
   });
 
+  it('keeps the Scepter storyline connected to its actual eras and source leads', () => {
+    const data = loadDataset();
+    const scepter = data.storylines.find((item) => item.id === 'scepter-of-the-shifting-sands')!;
+    expect(data.storylines).toHaveLength(23);
+    expect(data.storylines.find((item) => item.id === 'suramar-nightwell-rebellion')?.eraIds)
+      .toEqual(['war-of-the-ancients', 'age-of-adventurers']);
+    expect(data.storylines.find((item) => item.id === 'beyond-the-dark-portal')?.eraIds)
+      .toEqual(['rise-of-the-horde', 'third-war-frozen-throne']);
+    expect(scepter.eraIds).toEqual(['long-vigil-new-kingdoms', 'age-of-adventurers']);
+    expect(scepter.chapters).toHaveLength(22);
+    expect(scepter.chapters.slice(0, 2).map((chapter) => chapter.eraId)).toEqual(['long-vigil-new-kingdoms', 'long-vigil-new-kingdoms']);
+    expect(scepter.chapters.slice(2).every((chapter) => chapter.eraId === 'age-of-adventurers')).toBe(true);
+    expect(scepter.sourceIds).toHaveLength(19);
+    expect(scepter.storyGuideId).toBe('scepter-of-the-shifting-sands-guide');
+    expect(scepter.contentStatus).toBe('research');
+    expect(storylineSchema.safeParse({ ...scepter, primaryEraId: 'war-of-the-ancients' }).success).toBe(false);
+    expect(storylineSchema.safeParse({ ...scepter, chapters: [{ ...scepter.chapters[0], eraId: 'war-of-the-ancients' }, ...scepter.chapters.slice(1)] }).success).toBe(false);
+  });
+
   it('keeps the refreshed Era 9 narration in the audio hash manifest', () => {
     const data = loadDataset();
     const guide = data.storyGuides.find((item) => item.id === 'modern-cosmic-age-guided-history')!;
@@ -834,6 +854,35 @@ describe('lore dataset', () => {
       const bytes = readFileSync(resolve('public', track.assetPath));
       expect(bytes.length).toBe(track.bytes);
       expect(createHash('sha256').update(bytes).digest('hex')).toBe(track.sha256);
+    }
+  });
+
+  it('keeps every Scepter scene sourced, represented, and matched to its recording', () => {
+    const data = loadDataset();
+    const guide = data.storyGuides.find(item => item.id === 'scepter-of-the-shifting-sands-guide')!;
+    const story = data.storylines.find(item => item.storyGuideId === guide.id)!;
+    const manifest = JSON.parse(readFileSync('public/audio/guided/manifest.json', 'utf8')) as {
+      tracks: { nodeId: string; assetPath: string; sha256: string; transcriptSha256: string; durationMs: number }[];
+    };
+    expect(guide.contentStatus).toBe('research');
+    expect(guide.nodeIds).toHaveLength(22);
+    for (const [index, nodeId] of guide.nodeIds.entries()) {
+      const node = data.storyNodes.find(item => item.id === nodeId)!;
+      const track = manifest.tracks.find(item => item.nodeId === nodeId)!;
+      expect(story.chapters[index]?.body).toBe(node.narration);
+      expect(createHash('sha256').update(node.narration).digest('hex')).toBe(track.transcriptSha256);
+      expect(createHash('sha256').update(readFileSync(resolve('public', track.assetPath))).digest('hex')).toBe(track.sha256);
+      expect(track.durationMs).toBeGreaterThan(0);
+      expect(node.voiceover?.durationMs).toBe(track.durationMs);
+      const event = data.events.find(item => item.id === node.eventIds?.[0])!;
+      expect(event.contentStatus).toBe('research');
+      expect(event.claimIds?.every(id => data.claims.find(claim => claim.id === id)?.citationIds.length)).toBe(true);
+      for (const id of node.entityIds ?? []) {
+        const entity = data.entities.find(item => item.id === id)!;
+        expect(entityVisibleInEra(entity, guide.eraId, data.eras)).toBe(true);
+        const asset = entity.mapFigure?.asset ?? entity.mapVisual?.asset;
+        expect(asset && existsSync(resolve('public', asset))).toBeTruthy();
+      }
     }
   });
 

@@ -12,6 +12,19 @@ import { Navigate, useNavigate, useSearchParams } from 'react-router-dom';
 import { useState } from 'react';
 
 export function MapPage() {
+  const [params] = useSearchParams();
+  if (params.get('tour') === 'storyline') {
+    const storyline = staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '');
+    const era = staticLoreRepository.findEraBySlug(params.get('era') ?? '');
+    const guide = staticLoreRepository.findStoryGuide(storyline?.storyGuideId ?? '');
+    if (!storyline || era?.id !== storyline.primaryEraId || guide?.eraId !== storyline.primaryEraId) {
+      return <Navigate to="/storylines" replace />;
+    }
+  }
+  return <AtlasMapPage />;
+}
+
+function AtlasMapPage() {
   const [voiceControlsHost, setVoiceControlsHost] = useState<HTMLDivElement | null>(null);
   const navigate = useNavigate();
   const [params] = useSearchParams();
@@ -19,11 +32,17 @@ export function MapPage() {
   useAtlasUrlState(dataset);
   const eraId = useEraStore((state) => state.eraId);
   const era = dataset.eras.find((item) => item.id === eraId) ?? dataset.eras[0];
+  const storylineMode = params.get('tour') === 'storyline';
+  const storyline = storylineMode ? staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '') : undefined;
+  const requestedEra = staticLoreRepository.findEraBySlug(params.get('era') ?? '');
+  const validStoryline = storyline && requestedEra?.id === storyline.primaryEraId
+    && staticLoreRepository.findStoryGuide(storyline.storyGuideId ?? '')?.eraId === storyline.primaryEraId;
+  const guideId = validStoryline ? storyline.storyGuideId : era?.storyGuideId;
   const activeGuideId = useStoryStore((state) => state.guideId);
   const activeNodeId = useStoryStore((state) => state.nodeId);
-  const immersive = Boolean(activeNodeId && activeGuideId === era?.storyGuideId);
+  const immersive = Boolean(activeNodeId && activeGuideId === guideId);
   const requestedMapStateId = useMapViewStore((state) => state.mapStateId);
-  const mapState = era ? resolveEraMapState(dataset, era, requestedMapStateId) : undefined;
+  const mapState = era ? resolveEraMapState(dataset, era, requestedMapStateId, guideId) : undefined;
   const worldspace = dataset.worldspaces.find((item) => item.id === mapState?.worldspaceId);
   const visibleBattles = staticLoreRepository.listBattlesForEra(era?.id ?? '')
     .filter((battle) => battle.worldspaceId === worldspace?.id);
@@ -56,7 +75,8 @@ export function MapPage() {
     mapState.terrainTextureAsset ? 6.67 : 10,
   );
   const geometry = allGeometry;
-  if (params.get('tour') !== 'full' && params.get('tour') !== 'era') {
+  if (storylineMode && !validStoryline) return <Navigate to="/storylines" replace />;
+  if (params.get('tour') !== 'full' && params.get('tour') !== 'era' && !storylineMode) {
     return <Navigate to={`/?era=${era.slug}`} replace />;
   }
 
@@ -65,11 +85,11 @@ export function MapPage() {
       <section className="map-stage" aria-label="Atlas map workspace">
         {immersive && (
           <header className="story-world-header">
-            <div><p className="eyebrow">Azerothium · Unofficial fan atlas</p><strong>{era.name}</strong></div>
+            <div><p className="eyebrow">Azerothium · Unofficial fan atlas{storyline && ` · ${storyline.contentStatus} story`}</p><strong>{storyline?.title ?? era.name}</strong></div>
             <div className="story-world-actions">
             <div ref={setVoiceControlsHost} />
             <button type="button" onClick={() => {
-              navigate('/', { replace: true });
+              navigate(storyline ? `/storylines/${storyline.slug}` : '/', { replace: true });
               endStoryGuide();
             }}>Leave tour</button>
             </div>
@@ -99,9 +119,9 @@ export function MapPage() {
             <p>The era is selectable now. Its terrain, people, places, conflicts, and guided story will be added through the reviewed era build plan.</p>
           </section>
         )}
-        {era.storyGuideId && (
+        {guideId && (
           <div className="story-overlay">
-            <StoryGuidePanel guideId={era.storyGuideId} showLauncher={false} voiceControlsHost={voiceControlsHost} />
+            <StoryGuidePanel guideId={guideId} showLauncher={false} voiceControlsHost={voiceControlsHost} />
           </div>
         )}
       </section>

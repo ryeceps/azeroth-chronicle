@@ -18,7 +18,8 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
   const [params] = useSearchParams();
   const fullTour = params.get('tour') === 'full';
   const selectedEraTour = params.get('tour') === 'era';
-  const tourActive = fullTour || selectedEraTour;
+  const storyline = params.get('tour') === 'storyline' ? staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '') : undefined;
+  const tourActive = fullTour || selectedEraTour || Boolean(storyline?.storyGuideId === guideId);
   const setEra = useEraStore((state) => state.setEra);
   const guide = staticLoreRepository.findStoryGuide(guideId);
   const activeGuideId = useStoryStore((state) => state.guideId);
@@ -68,8 +69,8 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
       return;
     }
     endStoryGuide();
-    navigate(`/?tour=era-complete&era=${guide.eraId}`);
-  }, [fullTour, guide, navigate, setEra]);
+    navigate(storyline ? `/storylines/${storyline.slug}` : `/?tour=era-complete&era=${guide.eraId}`);
+  }, [fullTour, guide, navigate, setEra, storyline]);
 
   const durationMs = node?.durationMs ?? (node ? narrationDurationMs(node.narration) : 0);
 
@@ -205,7 +206,7 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
         </div>
         <div className="story-actions">
           <button type="button" disabled={!previous} onClick={() => previous && activate(previous)}>Previous</button>
-          <button type="button" onClick={() => next ? activate(next) : finish()}>{next ? 'Next' : fullTour ? 'Continue the journey' : 'Finish this era'}</button>
+          <button type="button" onClick={() => next ? activate(next) : finish()}>{next ? 'Next' : fullTour ? 'Continue the journey' : storyline ? 'Finish this storyline' : 'Finish this era'}</button>
         </div>
       </div>
       <div className="story-timer" role="progressbar" aria-label="Time until next story point">

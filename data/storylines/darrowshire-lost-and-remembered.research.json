@@ -1,0 +1,41 @@
+{
+  "id": "darrowshire-lost-and-remembered",
+  "title": "Darrowshire: Lost and Remembered",
+  "primaryEraId": "age-of-adventurers",
+  "eraIds": [
+    "third-war-frozen-throne",
+    "age-of-adventurers"
+  ],
+  "summary": "Pamela Redpath's quest revisits a village destroyed by the Scourge and the Battle of Darrowshire.",
+  "opening": "Darrowshire survives in memory after its fall. Pamela's search turns scattered accounts into a journey through what happened there.",
+  "sourceIds": [],
+  "reviewNote": "Primary quest text for Pamela Redpath, Marauders of Darrowshire, and Battle of Darrowshire still needs capture. The later quest does not redate the original fall.",
+  "chapters": [
+    {
+      "id": "the-fall",
+      "eraId": "third-war-frozen-throne",
+      "title": "A village in the Scourge war",
+      "body": "Establish the historical fall of Darrowshire from original quests."
+    },
+    {
+      "id": "pamela",
+      "eraId": "age-of-adventurers",
+      "title": "Pamela's search",
+      "body": "Follow Pamela Redpath and the memories preserved around the village."
+    },
+    {
+      "id": "the-reconstruction",
+      "eraId": "age-of-adventurers",
+      "title": "Fragments of the past",
+      "body": "Gather the accounts and objects required by the questline."
+    },
+    {
+      "id": "the-battle",
+      "eraId": "age-of-adventurers",
+      "title": "The battle remembered",
+      "body": "Distinguish the original battle from the later quest's reenactment."
+    }
+  ],
+  "slug": "darrowshire-lost-and-remembered",
+  "contentStatus": "research"
+}

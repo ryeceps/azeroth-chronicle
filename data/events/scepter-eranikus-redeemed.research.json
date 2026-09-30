@@ -1,0 +1,25 @@
+{
+  "id": "scepter-eranikus-redeemed-event",
+  "kind": "event",
+  "name": "Green shard — The guardian returns",
+  "slug": "scepter-eranikus-redeemed",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "scepter-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Original WoW Scepter quest journey"
+  },
+  "summary": "Tyrande's arrival brought the intervention the defenders had awaited. Eranikus was redeemed, and Remulos spoke of his return to the Dream to confront the wrong he had done. The green fragment could now be carried back to Anachronos. Unlike the red trail, this recovery left its guardian able to return to his own work. The two journeys shared a broken scepter, but their endings were different: one honored a lost watcher; the other restored a watcher to the struggle from which he had fallen.",
+  "participantEntityIds": [
+    "eranikus",
+    "tyrande-whisperwind",
+    "keeper-remulos"
+  ],
+  "sourceIds": [
+    "scepter-green"
+  ],
+  "claimIds": [
+    "scepter-eranikus-redeemed-claim"
+  ],
+  "contentStatus": "research"
+}

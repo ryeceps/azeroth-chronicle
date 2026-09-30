@@ -1,10 +1,10 @@
 import type { Era, LoreDataset, MapState } from '../../domain/types/lore';
 
-export function mapStateIdsForEra(dataset: LoreDataset, era: Era): Set<string> {
+export function mapStateIdsForEra(dataset: LoreDataset, era: Era, guideId = era.storyGuideId): Set<string> {
   const ids = new Set<string>([era.mapStateId]);
-  if (!era.storyGuideId) return ids;
+  if (!guideId) return ids;
 
-  const guide = dataset.storyGuides.find((item) => item.id === era.storyGuideId);
+  const guide = dataset.storyGuides.find((item) => item.id === guideId && item.eraId === era.id);
   if (!guide) return ids;
 
   for (const node of dataset.storyNodes) {
@@ -20,8 +20,9 @@ export function resolveEraMapState(
   dataset: LoreDataset,
   era: Era,
   requestedMapStateId: string | null,
+  guideId = era.storyGuideId,
 ): MapState | undefined {
-  const permittedIds = mapStateIdsForEra(dataset, era);
+  const permittedIds = mapStateIdsForEra(dataset, era, guideId);
   const requested = requestedMapStateId && permittedIds.has(requestedMapStateId)
     ? dataset.mapStates.find((item) => item.id === requestedMapStateId)
     : undefined;

@@ -1,0 +1,26 @@
+{
+  "id": "scepter-the-bronze-test-event",
+  "kind": "event",
+  "name": "The road from Cenarion Hold",
+  "slug": "scepter-the-bronze-test",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "scepter-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Original WoW Scepter quest journey"
+  },
+  "summary": "The later journey began in Silithus, where Baristolth of the Shifting Sands directed seekers toward the bronze dragon at the Caverns of Time. Anachronos did not simply place the world's burden in the first hands that reached him. The path demanded evidence of resolve. It led into Blackwing Lair, to Broodlord Lashlayer, before the deeper work of gaining the brood's trust. The task was already larger than one traveler: a champion's progress depended upon companions willing to enter the mountain together.",
+  "participantEntityIds": [
+    "baristolth",
+    "anachronos",
+    "adventurers-of-azeroth"
+  ],
+  "sourceIds": [
+    "scepter-threshold",
+    "scepter-broodlord"
+  ],
+  "claimIds": [
+    "scepter-the-bronze-test-claim"
+  ],
+  "contentStatus": "research"
+}
