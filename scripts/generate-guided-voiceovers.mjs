@@ -148,6 +148,7 @@ for (const [index, { story, node }] of work.entries()) {
       assetPath: relativePath,
       durationMs,
       sha256: createHash('sha256').update(bytes).digest('hex'),
+      transcriptSha256: createHash('sha256').update(node.narration).digest('hex'),
       bytes: bytes.length,
     });
     await writeStoryVoiceover(story.path, node.id, node.voiceover);

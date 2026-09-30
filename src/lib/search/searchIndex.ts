@@ -44,6 +44,8 @@ export function searchLore(query: string, options: SearchOptions = {}): SearchEn
     .map((entry) => ({
       entry,
       score: fieldScore(normalize(entry.name), queryTokens, 8)
+        // Prefer the reading entry when its title matches the requested story or artifact.
+        + (entry.type === 'storyline' && queryTokens.every((term) => normalize(entry.name).some((token) => token.startsWith(term))) ? 8 : 0)
         + fieldScore(entry.aliases.flatMap(normalize), queryTokens, 6)
         + fieldScore(normalize(entry.type), queryTokens, 4)
         + fieldScore(entry.tags.flatMap(normalize), queryTokens, 3)

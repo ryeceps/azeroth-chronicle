@@ -78,6 +78,17 @@
       }
     },
     {
+      "id": "scepter-story-theater",
+      "name": "Scepter storyline — relational theater",
+      "slug": "scepter-story-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "shadowlands",
       "name": "The Shadowlands",
       "slug": "shadowlands",
@@ -607,6 +618,86 @@
         "second-war-horde-offensive-route-research",
         "second-war-alliance-counteroffensive-route-research"
       ]
+    },
+    {
+      "id": "scepter-coast-scene",
+      "name": "Scepter: coast illustrated scene",
+      "worldspaceId": "scepter-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scepter/coast.svg",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original landscape impression and editorial cast arrangement, not a geographic reconstruction or raid layout. Scene titles/transcripts identify the historical destinations."
+    },
+    {
+      "id": "scepter-forest-scene",
+      "name": "Scepter: forest illustrated scene",
+      "worldspaceId": "scepter-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scepter/forest.svg",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original landscape impression and editorial cast arrangement, not a geographic reconstruction or raid layout. Scene titles/transcripts identify the historical destinations."
+    },
+    {
+      "id": "scepter-gate-scene",
+      "name": "Scepter: gate illustrated scene",
+      "worldspaceId": "scepter-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scepter/gate.svg",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original landscape impression and editorial cast arrangement, not a geographic reconstruction or raid layout. Scene titles/transcripts identify the historical destinations."
+    },
+    {
+      "id": "scepter-library-scene",
+      "name": "Scepter: library illustrated scene",
+      "worldspaceId": "scepter-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scepter/library.svg",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original landscape impression and editorial cast arrangement, not a geographic reconstruction or raid layout. Scene titles/transcripts identify the historical destinations."
+    },
+    {
+      "id": "scepter-molten-scene",
+      "name": "Scepter: molten illustrated scene",
+      "worldspaceId": "scepter-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scepter/molten.svg",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original landscape impression and editorial cast arrangement, not a geographic reconstruction or raid layout. Scene titles/transcripts identify the historical destinations."
+    },
+    {
+      "id": "scepter-sand-scene",
+      "name": "Scepter: sand illustrated scene",
+      "worldspaceId": "scepter-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scepter/sand.svg",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original landscape impression and editorial cast arrangement, not a geographic reconstruction or raid layout. Scene titles/transcripts identify the historical destinations."
+    },
+    {
+      "id": "scepter-snow-scene",
+      "name": "Scepter: snow illustrated scene",
+      "worldspaceId": "scepter-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scepter/snow.svg",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original landscape impression and editorial cast arrangement, not a geographic reconstruction or raid layout. Scene titles/transcripts identify the historical destinations."
+    },
+    {
+      "id": "scepter-tower-scene",
+      "name": "Scepter: tower illustrated scene",
+      "worldspaceId": "scepter-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scepter/tower.svg",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original landscape impression and editorial cast arrangement, not a geographic reconstruction or raid layout. Scene titles/transcripts identify the historical destinations."
     },
     {
       "id": "third-war-frozen-throne-map-research",
@@ -2714,6 +2805,360 @@
       "visualPresence": "contextual"
     },
     {
+      "id": "scepter-adventurers-of-azeroth-theater",
+      "entityId": "adventurers-of-azeroth",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-adventurers-of-azeroth-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-threshold",
+        "scepter-broodlord",
+        "scepter-red",
+        "scepter-greentrail",
+        "scepter-goggles",
+        "scepter-feast",
+        "scepter-ransom",
+        "scepter-decoy",
+        "scepter-book",
+        "scepter-sea",
+        "story-classic-war-effort",
+        "story-ahnqiraj-raids",
+        "blizzard-ahnqiraj-remembrance"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-anachronos-theater",
+      "entityId": "anachronos",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-anachronos-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "story-war-shifting-sands",
+        "scepter-memory",
+        "scepter-charge",
+        "scepter-threshold",
+        "scepter-broodlord",
+        "scepter-red",
+        "story-classic-war-effort",
+        "scepter-treasure"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-azuregos-theater",
+      "entityId": "azuregos",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-azuregos-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-charge",
+        "scepter-ledger",
+        "scepter-sea"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-baristolth-theater",
+      "entityId": "baristolth",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-baristolth-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-threshold",
+        "scepter-broodlord"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-cthun-scepter-theater",
+      "entityId": "cthun-scepter",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-cthun-scepter-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "story-ahnqiraj-raids",
+        "blizzard-ahnqiraj-remembrance"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-dirge-quikcleave-theater",
+      "entityId": "dirge-quikcleave",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-dirge-quikcleave-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-feast"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-doctor-weavil-theater",
+      "entityId": "doctor-weavil",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-doctor-weavil-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-book"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-dragonflight-defenders-theater",
+      "entityId": "dragonflight-defenders",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-dragonflight-defenders-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-memory"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-eranikus-theater",
+      "entityId": "eranikus",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-eranikus-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-charge",
+        "scepter-greentrail",
+        "scepter-green"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-fandral-staghelm-theater",
+      "entityId": "fandral-staghelm",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-fandral-staghelm-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "story-war-shifting-sands",
+        "scepter-memory"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-keeper-remulos-theater",
+      "entityId": "keeper-remulos",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-keeper-remulos-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-greentrail",
+        "scepter-green"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-malfurion-stormrage-theater",
+      "entityId": "malfurion-stormrage",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-malfurion-stormrage-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-greentrail"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-maws-theater",
+      "entityId": "maws",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-maws-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-sea"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-narain-soothfancy-theater",
+      "entityId": "narain-soothfancy",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-narain-soothfancy-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-ledger",
+        "scepter-goggles",
+        "scepter-feast",
+        "scepter-ransom",
+        "scepter-decoy",
+        "scepter-book"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-nefarian-theater",
+      "entityId": "nefarian",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-nefarian-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-red"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-number-two-theater",
+      "entityId": "number-two",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-number-two-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-ransom",
+        "scepter-decoy"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-scepter-relic-theater",
+      "entityId": "scepter-relic",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-scepter-relic-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-red",
+        "scepter-book",
+        "story-classic-war-effort",
+        "story-ahnqiraj-raids",
+        "blizzard-ahnqiraj-remembrance",
+        "scepter-treasure"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-stewvul-theater",
+      "entityId": "stewvul",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-stewvul-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-goggles"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-tyrande-whisperwind-theater",
+      "entityId": "tyrande-whisperwind",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-tyrande-whisperwind-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-green"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-vaelastrasz-theater",
+      "entityId": "vaelastrasz",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-vaelastrasz-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scepter-charge",
+        "scepter-red"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "scepter-valstann-staghelm-theater",
+      "entityId": "valstann-staghelm",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "geometryId": "scepter-valstann-staghelm-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "story-war-shifting-sands"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, formation or simultaneous historical presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
       "id": "scourge-era-seven-spatial-research",
       "entityId": "scourge",
       "eraId": "third-war-frozen-throne",
@@ -4392,6 +4837,37 @@
       "contentStatus": "research"
     },
     {
+      "id": "anachronos",
+      "type": "character",
+      "name": "Anachronos",
+      "slug": "anachronos",
+      "shortDescription": "Anachronos, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "long-vigil-new-kingdoms",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "story-war-shifting-sands",
+        "scepter-memory",
+        "scepter-charge",
+        "scepter-threshold",
+        "scepter-broodlord",
+        "scepter-red",
+        "story-classic-war-effort",
+        "scepter-treasure"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/anachronos.svg",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "anduin-lothar",
       "type": "character",
       "name": "Anduin Lothar",
@@ -4609,6 +5085,57 @@
       "mapFigure": {
         "asset": "images/characters/ancient-civilizations/azshara.research.webp",
         "scale": 0.82
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "azuregos",
+      "type": "character",
+      "name": "Azuregos",
+      "slug": "azuregos",
+      "shortDescription": "Azuregos, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-charge",
+        "scepter-ledger",
+        "scepter-sea"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/azuregos.svg",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "baristolth",
+      "type": "character",
+      "name": "Baristolth",
+      "slug": "baristolth",
+      "shortDescription": "Baristolth, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-threshold",
+        "scepter-broodlord"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/baristolth.svg",
+        "scale": 0.86
       },
       "contentStatus": "research"
     },
@@ -4844,6 +5371,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "cthun-scepter",
+      "type": "character",
+      "name": "C'Thun",
+      "slug": "cthun-scepter",
+      "shortDescription": "C'Thun, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "story-ahnqiraj-raids",
+        "blizzard-ahnqiraj-remembrance"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/cthun-scepter.svg",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "dark-portal",
       "type": "site",
       "name": "The Dark Portal",
@@ -4921,6 +5473,54 @@
       "mapFigure": {
         "asset": "images/characters/long-vigil-new-kingdoms/dathremar-sunstrider.research.webp",
         "scale": 0.76
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "dirge-quikcleave",
+      "type": "character",
+      "name": "Dirge Quikcleave",
+      "slug": "dirge-quikcleave",
+      "shortDescription": "Dirge Quikcleave, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-feast"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/dirge-quikcleave.svg",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "doctor-weavil",
+      "type": "character",
+      "name": "Doctor Weavil",
+      "slug": "doctor-weavil",
+      "shortDescription": "Doctor Weavil, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-book"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/doctor-weavil.svg",
+        "scale": 0.86
       },
       "contentStatus": "research"
     },
@@ -5022,6 +5622,30 @@
         "dragons",
         "betrayal"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dragonflight-defenders",
+      "type": "faction",
+      "name": "Merithra · Arygos · Caelestrasz",
+      "slug": "dragonflight-defenders",
+      "shortDescription": "Merithra · Arygos · Caelestrasz, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "long-vigil-new-kingdoms",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-memory"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/scepter/dragonflight-defenders.svg",
+        "scale": 0.86
+      },
       "contentStatus": "research"
     },
     {
@@ -5186,6 +5810,32 @@
       "contentStatus": "research"
     },
     {
+      "id": "eranikus",
+      "type": "character",
+      "name": "Eranikus",
+      "slug": "eranikus",
+      "shortDescription": "Eranikus, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-charge",
+        "scepter-greentrail",
+        "scepter-green"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/eranikus.svg",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "eversong-woods",
       "type": "location",
       "name": "Eversong Woods",
@@ -5203,6 +5853,31 @@
         "midnight",
         "released-campaign"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fandral-staghelm",
+      "type": "character",
+      "name": "Fandral Staghelm",
+      "slug": "fandral-staghelm",
+      "shortDescription": "Fandral Staghelm, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "long-vigil-new-kingdoms",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "story-war-shifting-sands",
+        "scepter-memory"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/fandral-staghelm.svg",
+        "scale": 0.86
+      },
       "contentStatus": "research"
     },
     {
@@ -5730,6 +6405,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "keeper-remulos",
+      "type": "character",
+      "name": "Keeper Remulos",
+      "slug": "keeper-remulos",
+      "shortDescription": "Keeper Remulos, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-greentrail",
+        "scepter-green"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/keeper-remulos.svg",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "keepers",
       "type": "faction",
       "name": "The Keepers",
@@ -6015,12 +6715,14 @@
       "featuredEraIds": [
         "war-of-the-ancients",
         "long-vigil-new-kingdoms",
-        "third-war-frozen-throne"
+        "third-war-frozen-throne",
+        "age-of-adventurers"
       ],
       "sourceIds": [
         "warcraft-chronicle-volume-1",
         "warcraft-chronicle-volume-3",
-        "blizzard-mount-hyjal-history"
+        "blizzard-mount-hyjal-history",
+        "scepter-greentrail"
       ],
       "claimIds": [
         "malfurion-role-claim"
@@ -6065,6 +6767,30 @@
       "mapFigure": {
         "asset": "images/characters/rise-of-the-horde/mannoroth.research.webp",
         "scale": 1.04
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "maws",
+      "type": "character",
+      "name": "Maws",
+      "slug": "maws",
+      "shortDescription": "Maws, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-sea"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/maws.svg",
+        "scale": 0.86
       },
       "contentStatus": "research"
     },
@@ -6150,6 +6876,59 @@
         "survivors",
         "refuge"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "narain-soothfancy",
+      "type": "character",
+      "name": "Narain Soothfancy",
+      "slug": "narain-soothfancy",
+      "shortDescription": "Narain Soothfancy, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-ledger",
+        "scepter-goggles",
+        "scepter-feast",
+        "scepter-ransom",
+        "scepter-decoy",
+        "scepter-book"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/narain-soothfancy.svg",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "nefarian",
+      "type": "character",
+      "name": "Nefarian",
+      "slug": "nefarian",
+      "shortDescription": "Nefarian, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-red"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/nefarian.svg",
+        "scale": 0.86
+      },
       "contentStatus": "research"
     },
     {
@@ -6362,6 +7141,31 @@
         "servants",
         "nraqi"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "number-two",
+      "type": "character",
+      "name": "Number Two",
+      "slug": "number-two",
+      "shortDescription": "Number Two, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-ransom",
+        "scepter-decoy"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/number-two.svg",
+        "scale": 0.86
+      },
       "contentStatus": "research"
     },
     {
@@ -6691,6 +7495,35 @@
       "contentStatus": "research"
     },
     {
+      "id": "scepter-relic",
+      "type": "artifact",
+      "name": "Scepter of the Shifting Sands",
+      "slug": "scepter-relic",
+      "shortDescription": "Scepter of the Shifting Sands, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-red",
+        "scepter-book",
+        "story-classic-war-effort",
+        "story-ahnqiraj-raids",
+        "blizzard-ahnqiraj-remembrance",
+        "scepter-treasure"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/scepter/scepter-relic.svg",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "scourge",
       "type": "faction",
       "name": "The Scourge",
@@ -6837,6 +7670,30 @@
         "draenei",
         "city"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "stewvul",
+      "type": "character",
+      "name": "Stewvul",
+      "slug": "stewvul",
+      "shortDescription": "Stewvul, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-goggles"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/stewvul.svg",
+        "scale": 0.86
+      },
       "contentStatus": "research"
     },
     {
@@ -7171,14 +8028,16 @@
       "featuredEraIds": [
         "war-of-the-ancients",
         "long-vigil-new-kingdoms",
-        "third-war-frozen-throne"
+        "third-war-frozen-throne",
+        "age-of-adventurers"
       ],
       "sourceIds": [
         "warcraft-chronicle-volume-1",
         "blizzard-well-of-eternity-preview",
         "warcraft-chronicle-volume-3",
         "blizzard-warcraft-iii-story-so-far",
-        "blizzard-mount-hyjal-history"
+        "blizzard-mount-hyjal-history",
+        "scepter-green"
       ],
       "claimIds": [
         "tyrande-role-claim"
@@ -7216,6 +8075,55 @@
         "keeper-facility",
         "forge-of-wills"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "vaelastrasz",
+      "type": "character",
+      "name": "Vaelastrasz",
+      "slug": "vaelastrasz",
+      "shortDescription": "Vaelastrasz, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scepter-charge",
+        "scepter-red"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/vaelastrasz.svg",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "valstann-staghelm",
+      "type": "character",
+      "name": "Valstann Staghelm",
+      "slug": "valstann-staghelm",
+      "shortDescription": "Valstann Staghelm, represented in the Scepter of the Shifting Sands research story.",
+      "body": "Original vector interpretation for the questline theater, not licensed art or evidence of appearance or exact geography. See the linked story and quest evidence for this actor’s role.",
+      "firstEraId": "long-vigil-new-kingdoms",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "story-war-shifting-sands"
+      ],
+      "tags": [
+        "scepter-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/scepter/valstann-staghelm.svg",
+        "scale": 0.86
+      },
       "contentStatus": "research"
     },
     {
@@ -10288,6 +11196,556 @@
       ],
       "claimIds": [
         "ragnaros-reemerges-event-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-a-world-prepares-event",
+      "kind": "event",
+      "name": "The key and the armies",
+      "slug": "scepter-a-world-prepares",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "The three recovered fragments returned to the bronze dragon, and the scepter could be made whole. Beyond that personal journey, Horde and Alliance communities were gathering the supplies for a campaign in Silithus. The key alone was not the war effort. Workshops, stores and countless contributions prepared the force that would have to stand before the opened stronghold. Rival peoples worked toward the same threshold, without losing the histories that divided them. The coming battle required both the recovered artifact and the many hands that no single quest could name.",
+      "participantEntityIds": [
+        "anachronos",
+        "scepter-relic",
+        "adventurers-of-azeroth"
+      ],
+      "sourceIds": [
+        "story-classic-war-effort"
+      ],
+      "claimIds": [
+        "scepter-a-world-prepares-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-azuregos-ledger-event",
+      "kind": "event",
+      "name": "Blue shard — A dragon who wished to be left alone",
+      "slug": "scepter-azuregos-ledger",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "On Azshara's coast, Azuregos offered a very different account of guardianship. The shard had drawn attention he did not want, interrupting his study of the ancient shore. He had hidden it with an enchanted fish, making an ordinary search of the sea hopeless. His solution for its recovery was an arcanite buoy that would draw the creature out. The instructions lay in a ledger, and the ledger had to be taken to Narain Soothfancy in Tanaris. The blue trail began with a dragon's evasion and became an engineer's problem.",
+      "participantEntityIds": [
+        "azuregos",
+        "narain-soothfancy"
+      ],
+      "sourceIds": [
+        "scepter-ledger"
+      ],
+      "claimIds": [
+        "scepter-azuregos-ledger-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-beyond-the-wall-event",
+      "kind": "event",
+      "name": "Beyond the wall, beneath the temple",
+      "slug": "scepter-beyond-the-wall",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "The campaign continued into the Ruins and the Temple of Ahn'Qiraj. Beyond the qiraji armies lay C'Thun, the deeper threat against which the preparations had been gathered. Victory there gave the opened gate its purpose: the company had not restored a key merely to release what waited behind the wall. It had restored a way to reach that danger. The victory brought this campaign to its close, after a long road from the bronze dragon’s vigil. The scepter's legacy joins the losses of the first war to the collective labor of the second.",
+      "participantEntityIds": [
+        "adventurers-of-azeroth",
+        "cthun-scepter",
+        "scepter-relic"
+      ],
+      "sourceIds": [
+        "story-ahnqiraj-raids",
+        "blizzard-ahnqiraj-remembrance"
+      ],
+      "claimIds": [
+        "scepter-beyond-the-wall-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-blackwing-reckoning-event",
+      "kind": "event",
+      "name": "Red shard — Beyond the dragon’s suffering",
+      "slug": "scepter-blackwing-reckoning",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "The red trail ended with Nefarian's defeat and the recovery of the fragment before it could be destroyed. When it was brought back to Anachronos, the bronze dragon spoke of Vaelastrasz's soul finding rest. The shard was not merely a treasure won from a raid. Its return fulfilled the charge of a guardian whose own strength had failed him. One piece of the scepter was recovered, but the cost of its keeping remained part of the story that the restored artifact would carry.",
+      "participantEntityIds": [
+        "vaelastrasz",
+        "anachronos",
+        "scepter-relic"
+      ],
+      "sourceIds": [
+        "scepter-red"
+      ],
+      "claimIds": [
+        "scepter-blackwing-reckoning-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-dirges-feast-event",
+      "kind": "event",
+      "name": "Blue shard — The chef and the Isle of Dread",
+      "slug": "scepter-dirges-feast",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "Another of Narain's demands led to Dirge Quikcleave in Gadgetzan. The chef's answer sent the adventurers out to the Isle of Dread, off Feralas, to hunt the chimaerok and secure the ingredients for his formidable meal. The scale of the task belonged to the same curious bargain as the goggles: the world's key depended upon satisfying the engineer's requirements. This branch brought the search from desert workshops to a dangerous island, where even preparing a feast called for allies rather than a solitary traveler.",
+      "participantEntityIds": [
+        "dirge-quikcleave",
+        "narain-soothfancy",
+        "adventurers-of-azeroth"
+      ],
+      "sourceIds": [
+        "scepter-feast"
+      ],
+      "claimIds": [
+        "scepter-dirges-feast-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-eight-chapters-event",
+      "kind": "event",
+      "name": "Blue shard — Libraries, demons, and dragon lairs",
+      "slug": "scepter-eight-chapters",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "The missing chapters drew the adventurers through places that rarely belonged to one journey. Pages awaited in Stormwind and Undercity, in the dangerous reaches of Winterspring and the Blasted Lands, and on Doctor Weavil's Alcaz Island. Others required the company to return to Blackwing Lair, confront Onyxia, and reach Ragnaros in Molten Core. A single scattered volume bound these distant dangers to the same unfinished work. The reconstructed volume gave Narain the means to continue the work Azuregos had set before him.",
+      "participantEntityIds": [
+        "doctor-weavil",
+        "adventurers-of-azeroth",
+        "scepter-relic"
+      ],
+      "sourceIds": [
+        "scepter-book"
+      ],
+      "claimIds": [
+        "scepter-eight-chapters-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-eranikus-redeemed-event",
+      "kind": "event",
+      "name": "Green shard — The guardian returns",
+      "slug": "scepter-eranikus-redeemed",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "Tyrande's arrival brought the intervention the defenders had awaited. Eranikus was redeemed, and Remulos spoke of his return to the Dream to confront the wrong he had done. The green fragment could now be carried back to Anachronos. Unlike the red trail, this recovery left its guardian able to return to his own work. The two journeys shared a broken scepter, but their endings were different: one honored a lost watcher; the other restored a watcher to the struggle from which he had fallen.",
+      "participantEntityIds": [
+        "eranikus",
+        "tyrande-whisperwind",
+        "keeper-remulos"
+      ],
+      "sourceIds": [
+        "scepter-green"
+      ],
+      "claimIds": [
+        "scepter-eranikus-redeemed-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-four-forest-portals-event",
+      "kind": "event",
+      "name": "Green shard — The gathering of corruption",
+      "slug": "scepter-four-forest-portals",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "Remulos's preparations sent the adventurers to the forest portals associated with the Dream. The search ranged through Duskwood, Ashenvale, Feralas and the Hinterlands, gathering the fragments needed for the next confrontation. These were separate places bound by one danger, rather than a single road across the forest. The journey widened the threat beyond the temple where it had begun. By returning with the corruption's traces, the seekers made possible the attempt to draw Eranikus into Moonglade, where his redemption could be sought.",
+      "participantEntityIds": [
+        "keeper-remulos",
+        "eranikus",
+        "adventurers-of-azeroth"
+      ],
+      "sourceIds": [
+        "scepter-greentrail"
+      ],
+      "claimIds": [
+        "scepter-four-forest-portals-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-into-the-dream-event",
+      "kind": "event",
+      "name": "Green shard — A guardian lost to the Nightmare",
+      "slug": "scepter-into-the-dream",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "The green trail began beneath the marshes, in the Temple of Atal'Hakkar. Near the Shade of Eranikus, Malfurion's appearance directed the search beyond the temple and toward his agent in Teldrassil. From the forest wisp, the road led to Keeper Remulos in Moonglade. The green shard could not be reclaimed by treating its guardian as another enemy to be slain. The search had reached a dragon ensnared by the Nightmare, and the help it sought would have to reach him through that corruption.",
+      "participantEntityIds": [
+        "malfurion-stormrage",
+        "eranikus",
+        "keeper-remulos"
+      ],
+      "sourceIds": [
+        "scepter-greentrail"
+      ],
+      "claimIds": [
+        "scepter-into-the-dream-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-long-forgotten-memories-event",
+      "kind": "event",
+      "name": "The memory at the Scarab Wall",
+      "slug": "scepter-long-forgotten-memories",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "Before seeking the scattered pieces, the adventurers returned to the place where the bond had broken. At the Scarab Wall, the old struggle was shown again: dragons pressing back the qiraji, defenders reaching the barrier, and Fandral turning away from the offered key. This was no new battle in Silithus. It was the past made visible to those who would inherit its unfinished task. The scepter could open a gate; the memory explained why that gate had first been closed, and why its key had been rejected.",
+      "participantEntityIds": [
+        "anachronos",
+        "fandral-staghelm",
+        "dragonflight-defenders"
+      ],
+      "sourceIds": [
+        "scepter-memory"
+      ],
+      "claimIds": [
+        "scepter-long-forgotten-memories-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-lost-goggles-event",
+      "kind": "event",
+      "name": "Blue shard — From Silverpine to Molten Core",
+      "slug": "scepter-lost-goggles",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "Narain could not turn the ledger into a finished answer without further help. His missing scrying goggles led the seekers to Stewvul, his former friend, hiding in a crate near the Greymane Wall in Silverpine. Stewvul no longer had them: the search continued into Molten Core. Thus a quarrel between gnomes carried the greater quest beneath Blackrock Mountain. The equipment had to be recovered before Narain's work could proceed, binding an apparently small personal errand to the fate of the unopened gates.",
+      "participantEntityIds": [
+        "narain-soothfancy",
+        "stewvul",
+        "adventurers-of-azeroth"
+      ],
+      "sourceIds": [
+        "scepter-goggles"
+      ],
+      "claimIds": [
+        "scepter-lost-goggles-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-maws-event",
+      "kind": "event",
+      "name": "Blue shard — The beast in the Bay of Storms",
+      "slug": "scepter-maws",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "With the preparations complete, the blue trail returned to the sea. Narain sent the adventurers to the Bay of Storms in Azshara with the arcanite buoy, warning them of Maws. The creature that held the shard could be drawn from hiding, but recovering it demanded companions ready for the danger that answered. When the blue fragment was won, the instructions were at last simple: carry it to Anachronos. An old dragon's elaborate concealment had become a journey through much of Azeroth before ending on its storm-bound coast.",
+      "participantEntityIds": [
+        "maws",
+        "azuregos",
+        "adventurers-of-azeroth"
+      ],
+      "sourceIds": [
+        "scepter-sea"
+      ],
+      "claimIds": [
+        "scepter-maws-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-nightmare-manifests-event",
+      "kind": "event",
+      "name": "Green shard — Restraint at Nighthaven",
+      "slug": "scepter-nightmare-manifests",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "When Eranikus entered Nighthaven, the duty was to endure him, not to kill him. Keeper Remulos had to survive, and the settlement had to be defended while Tyrande approached. The dragon's assault and the shades of the Nightmare made that restraint costly. Yet destroying him would defeat the purpose for which the defenders had gathered. Their task was to hold the space in which rescue remained possible: to stand against his violence without surrendering the hope that the guardian beneath it could be freed.",
+      "participantEntityIds": [
+        "eranikus",
+        "keeper-remulos",
+        "tyrande-whisperwind"
+      ],
+      "sourceIds": [
+        "scepter-green"
+      ],
+      "claimIds": [
+        "scepter-nightmare-manifests-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-ransom-and-decoy-event",
+      "kind": "event",
+      "name": "Blue shard — A ransom in the snow",
+      "slug": "scepter-ransom-and-decoy",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "The search for Narain's book brought back a ransom letter instead of the missing volume. Its captors demanded payment, and Narain answered with a deception of his own. He gave the adventurers clothing to take his place and a sack of rocks to stand for gold. The appointed meeting lay in Winterspring, far from his desert home. There the false payment brought the seekers into the encounter with Number Two. The scheme did not recover the book; its pages still had to be gathered by another road.",
+      "participantEntityIds": [
+        "narain-soothfancy",
+        "number-two",
+        "adventurers-of-azeroth"
+      ],
+      "sourceIds": [
+        "scepter-ransom",
+        "scepter-decoy"
+      ],
+      "claimIds": [
+        "scepter-ransom-and-decoy-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-the-broken-key-event",
+      "kind": "event",
+      "name": "Flashback · Era 5 — A victory without comfort",
+      "slug": "scepter-the-broken-key",
+      "eraId": "long-vigil-new-kingdoms",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Ancient War of the Shifting Sands"
+      },
+      "summary": "At the gate, Merithra, Arygos and Caelestrasz held the enemy back while Anachronos and the defenders raised the barrier. When the seal was made, the bronze dragon offered Fandral a scepter and a gong: a means to open the way if the need returned. Fandral would accept no further burden from that victory. His son was gone; the stronghold still stood. He cast the scepter against the barrier and shattered it. Anachronos gathered the fragments, preserving a duty that grief had refused.",
+      "participantEntityIds": [
+        "fandral-staghelm",
+        "anachronos",
+        "dragonflight-defenders"
+      ],
+      "sourceIds": [
+        "scepter-memory"
+      ],
+      "claimIds": [
+        "scepter-the-broken-key-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-the-bronze-test-event",
+      "kind": "event",
+      "name": "The road from Cenarion Hold",
+      "slug": "scepter-the-bronze-test",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "The later journey began in Silithus, where Baristolth of the Shifting Sands directed seekers toward the bronze dragon at the Caverns of Time. Anachronos did not simply place the world's burden in the first hands that reached him. The path demanded evidence of resolve. It led into Blackwing Lair, to Broodlord Lashlayer, before the deeper work of gaining the brood's trust. The task was already larger than one traveler: a champion's progress depended upon companions willing to enter the mountain together.",
+      "participantEntityIds": [
+        "baristolth",
+        "anachronos",
+        "adventurers-of-azeroth"
+      ],
+      "sourceIds": [
+        "scepter-threshold",
+        "scepter-broodlord"
+      ],
+      "claimIds": [
+        "scepter-the-bronze-test-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-the-first-war-event",
+      "kind": "event",
+      "name": "Flashback · Era 5 — The war that raised the wall",
+      "slug": "scepter-the-first-war",
+      "eraId": "long-vigil-new-kingdoms",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Ancient War of the Shifting Sands"
+      },
+      "summary": "Long before the adventurers came to Silithus, the night elves had fought a war beneath its harsh southern sky. Fandral Staghelm led their defense against the qiraji, and his son Valstann fell in the struggle. The dragonflights joined the battle, but neither courage nor ancient power could make the loss undone. As the defenders were driven toward Ahn'Qiraj, the question before them became how to contain an enemy they could not wholly destroy. The wall that later generations would find was born of that necessity.",
+      "participantEntityIds": [
+        "fandral-staghelm",
+        "valstann-staghelm",
+        "anachronos"
+      ],
+      "sourceIds": [
+        "story-war-shifting-sands"
+      ],
+      "claimIds": [
+        "scepter-the-first-war-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-the-gong-event",
+      "kind": "event",
+      "name": "The gates open",
+      "slug": "scepter-the-gong",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "When the preparations had brought the campaign to the Scarab Wall, the restored scepter could be raised against the gong. The barrier made by the ancient defenders opened, and the danger it had contained came forth. The ensuing struggle was remembered as the Ten-Hour War. The relic's recovery had not ended the conflict; it had made the confrontation possible. Where Fandral once turned away from the gate in grief, a later generation now stood together before the consequences of opening it.",
+      "participantEntityIds": [
+        "scepter-relic",
+        "adventurers-of-azeroth"
+      ],
+      "sourceIds": [
+        "story-classic-war-effort"
+      ],
+      "claimIds": [
+        "scepter-the-gong-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-the-red-shard-event",
+      "kind": "event",
+      "name": "Red shard — The captive guardian",
+      "slug": "scepter-the-red-shard",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "In Blackwing Lair, Vaelastrasz could no longer fulfill his charge by surrendering the red shard. Nefarian held it, and threatened to destroy it. The wounded red dragon's appeal made the recovery urgent: the loss of that fragment would deny the seekers their key to Ahn'Qiraj. Here the search for an ancient relic entered a living act of cruelty. The adventurers had to carry Vaelastrasz's last request through the fortress of the very enemy who had brought him low.",
+      "participantEntityIds": [
+        "vaelastrasz",
+        "nefarian",
+        "adventurers-of-azeroth"
+      ],
+      "sourceIds": [
+        "scepter-red"
+      ],
+      "claimIds": [
+        "scepter-the-red-shard-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-the-watchers-event",
+      "kind": "event",
+      "name": "The keepers of a broken promise",
+      "slug": "scepter-the-watchers",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "The broken scepter did not pass out of history. Its pieces remained in the keeping of dragons, yet the long vigil brought troubles of its own. When Anachronos later named Eranikus, Vaelastrasz and Azuregos, his warning carried the weight of disappointed trust. Each guardian's story had turned toward tragedy or estrangement. To restore the key, mortal seekers would have to enter those stories. A thousand years separated the wars, but time had not protected the watchers from the wounds of the world.",
+      "participantEntityIds": [
+        "anachronos",
+        "vaelastrasz",
+        "eranikus",
+        "azuregos"
+      ],
+      "sourceIds": [
+        "scepter-charge"
+      ],
+      "claimIds": [
+        "scepter-the-watchers-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-timeless-treasure-event",
+      "kind": "event",
+      "name": "The journey that outlived the gong",
+      "slug": "scepter-timeless-treasure",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "The gong belonged to a brief opening in the campaign, but the quest's final recognition was not identical to that moment. Treasure of the Timeless One remained a distinct conclusion for those who held the restored scepter after the opening war. Remembering that distinction keeps the journey larger than a race for a title. Across forests, libraries, mountains and seas, the work had gathered companions around a broken promise. Its completion remembered the long recovery, as well as the threshold that recovery had allowed the world to cross.",
+      "participantEntityIds": [
+        "anachronos",
+        "scepter-relic"
+      ],
+      "sourceIds": [
+        "scepter-treasure"
+      ],
+      "claimIds": [
+        "scepter-timeless-treasure-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-weavils-book-event",
+      "kind": "event",
+      "name": "Blue shard — A book scattered to the winds",
+      "slug": "scepter-weavils-book",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scepter-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original WoW Scepter quest journey"
+      },
+      "summary": "Narain's missing volume of Draconic for Dummies became another obstacle. Doctor Weavil had intervened, and the book was torn into eight chapters. Narain supplied a magical binding, but the scattered pages had to be found before the volume could be made whole. The search now reached far beyond Tanaris. A text needed to understand the ledger became a second broken object within the greater quest: before the dragon's key could be restored, the engineer's book had to be restored as well.",
+      "participantEntityIds": [
+        "narain-soothfancy",
+        "doctor-weavil"
+      ],
+      "sourceIds": [
+        "scepter-book"
+      ],
+      "claimIds": [
+        "scepter-weavils-book-claim"
       ],
       "contentStatus": "research"
     },
@@ -14112,6 +15570,111 @@
       "notes": "First-party Blizzard overview: https://worldofwarcraft.blizzard.com/en-us/news/23850850. Supports Icecrown as the Lich King's seat and the broad campaign toward a final confrontation."
     },
     {
+      "id": "scepter-book",
+      "title": "The Only Prescription — quest 8620",
+      "url": "https://warcraft.wiki.gg/wiki/The_Only_Prescription",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Description/objective mirror and chapter locator; discriminate original Onyxia from Wrath version."
+    },
+    {
+      "id": "scepter-broodlord",
+      "title": "Head of the Broodlord Lashlayer — quest item",
+      "url": "https://www.wowhead.com/classic/item=20383/head-of-the-broodlord-lashlayer",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Objective of Only One May Rise, quest 8288. Loot exclusivity is gameplay, not canonical hero identity."
+    },
+    {
+      "id": "scepter-charge",
+      "title": "The Charge of the Dragonflights — quest 8555",
+      "url": "https://www.classicdb.ch/?quest=8555",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Completion text: Anachronos names the three guardians and warns of their tragedies. Third-party mirror of primary game text."
+    },
+    {
+      "id": "scepter-decoy",
+      "title": "Decoy! — quest 8606",
+      "url": "https://classicdb.ch/?quest=8606",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Original quest description/objective/completion mirror: Narain disguise, false payment, Winterspring rendezvous and Number Two encounter."
+    },
+    {
+      "id": "scepter-feast",
+      "title": "The Isle of Dread! — quest 8585",
+      "url": "https://www.wowhead.com/classic/quest=8585/the-isle-of-dread",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Quest description: Dirge and the chimaerok of Feralas. Adjacent quests establish preparation of Narain's meal."
+    },
+    {
+      "id": "scepter-goggles",
+      "title": "Stewvul and the lost scrying goggles",
+      "url": "https://warcraft.wiki.gg/wiki/Stewvul",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Secondary locator for Stewvul, Ex-B.F.F. and Scrying Goggles? No Problem! Original text comparison pending."
+    },
+    {
+      "id": "scepter-green",
+      "title": "The Nightmare Manifests — quest 8736",
+      "url": "https://classicdb.ch/?quest=8736",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Objective, description and completion mirror: defend Remulos, await Tyrande, redeem rather than slay Eranikus."
+    },
+    {
+      "id": "scepter-greentrail",
+      "title": "Scepter quest chain — green-shard dependencies",
+      "url": "https://warcraft.wiki.gg/wiki/The_Scepter_of_the_Shifting_Sands_quest_chain",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Secondary dependency locator: Sunken Temple, forest wisp, Remulos and portal fragments. Individual quest captures still need original-client comparison."
+    },
+    {
+      "id": "scepter-ledger",
+      "title": "Azuregos's Magical Ledger — quest and gossip",
+      "url": "https://warcraft.wiki.gg/wiki/Azuregos%27s_Magical_Ledger",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Primary dialogue reproduced by secondary mirror: hidden shard, enchanted fish, arcanite buoy and Narain."
+    },
+    {
+      "id": "scepter-memory",
+      "title": "A Pawn on the Eternal Board — original quest scene",
+      "url": "https://www.wowhead.com/mop-classic/quest=8519/a-pawn-on-the-eternal-board",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Scene transcription in historical comments; original quest 8519, not a Mists storyline. Compare against original client before publication."
+    },
+    {
+      "id": "scepter-ransom",
+      "title": "rAnS0m — quest 8598",
+      "url": "https://www.wowhead.com/classic/quest=8598/rans0m",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Original quest description/objective mirror: stolen book, ransom note and return to Narain."
+    },
+    {
+      "id": "scepter-red",
+      "title": "Nefarius's Corruption — quest 8730",
+      "url": "https://warcraft.wiki.gg/wiki/Nefarius%27s_Corruption",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Description/objective/completion mirror: Vaelastrasz, Nefarian, threatened red shard."
+    },
+    {
+      "id": "scepter-sea",
+      "title": "The Wrath of Neptulon — quest 8729",
+      "url": "https://warcraft.wiki.gg/wiki/The_Wrath_of_Neptulon",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Description/objective/completion: buoy, Bay of Storms, Maws, blue shard and return to Anachronos."
+    },
+    {
+      "id": "scepter-threshold",
+      "title": "What Tomorrow Brings — quest 8286",
+      "url": "https://classicdb.ch/?quest=8286",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Original quest locator and Caverns of Time discovery; comments are secondary evidence."
+    },
+    {
+      "id": "scepter-treasure",
+      "title": "Treasure of the Timeless One",
+      "url": "https://warcraft.wiki.gg/wiki/Treasure_of_the_Timeless_One",
+      "sourceType": "quest",
+      "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Secondary locator for the chain epilogue; completion is distinct from earning a time-limited mount."
+    },
+    {
       "id": "story-ahnqiraj-raids",
       "title": "Explore the Temple and Ruins of Ahn'Qiraj",
       "url": "https://worldofwarcraft.blizzard.com/en-us/news/23493335",
@@ -14780,6 +16343,156 @@
       "sourceId": "warcraft-chronicle-volume-4",
       "section": "Pandaria through Shadowlands research packet",
       "note": "Working Chronicle Volume 4 support only. Exact edition, chapter, and page locations remain pending human review and block promotion."
+    },
+    {
+      "id": "scepter-a-world-prepares-citation-1",
+      "sourceId": "story-classic-war-effort",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-azuregos-ledger-citation-1",
+      "sourceId": "scepter-ledger",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-beyond-the-wall-citation-1",
+      "sourceId": "story-ahnqiraj-raids",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-beyond-the-wall-citation-2",
+      "sourceId": "blizzard-ahnqiraj-remembrance",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-blackwing-reckoning-citation-1",
+      "sourceId": "scepter-red",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-dirges-feast-citation-1",
+      "sourceId": "scepter-feast",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-eight-chapters-citation-1",
+      "sourceId": "scepter-book",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-eranikus-redeemed-citation-1",
+      "sourceId": "scepter-green",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-four-forest-portals-citation-1",
+      "sourceId": "scepter-greentrail",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-into-the-dream-citation-1",
+      "sourceId": "scepter-greentrail",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-long-forgotten-memories-citation-1",
+      "sourceId": "scepter-memory",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-lost-goggles-citation-1",
+      "sourceId": "scepter-goggles",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-maws-citation-1",
+      "sourceId": "scepter-sea",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-nightmare-manifests-citation-1",
+      "sourceId": "scepter-green",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-ransom-and-decoy-citation-1",
+      "sourceId": "scepter-ransom",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-ransom-and-decoy-citation-2",
+      "sourceId": "scepter-decoy",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-the-broken-key-citation-1",
+      "sourceId": "scepter-memory",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-the-bronze-test-citation-1",
+      "sourceId": "scepter-threshold",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-the-bronze-test-citation-2",
+      "sourceId": "scepter-broodlord",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-the-first-war-citation-1",
+      "sourceId": "story-war-shifting-sands",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-the-gong-citation-1",
+      "sourceId": "story-classic-war-effort",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-the-red-shard-citation-1",
+      "sourceId": "scepter-red",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-the-watchers-citation-1",
+      "sourceId": "scepter-charge",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-timeless-treasure-citation-1",
+      "sourceId": "scepter-treasure",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scepter-weavils-book-citation-1",
+      "sourceId": "scepter-book",
+      "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
+      "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
     },
     {
       "id": "warcraft-wiki-black-empire-ancient-times",
@@ -16780,6 +18493,251 @@
         "blizzard-well-of-eternity-history"
       ],
       "confidence": "explicit",
+      "status": "active"
+    },
+    {
+      "id": "scepter-a-world-prepares-claim",
+      "subjectId": "scepter-a-world-prepares-event",
+      "predicate": "questline_scene_account",
+      "value": "The three recovered fragments returned to the bronze dragon, and the scepter could be made whole. Beyond that personal journey, Horde and Alliance communities were gathering the supplies for a campaign in Silithus. The key alone was not the war effort. Workshops, stores and countless contributions prepared the force that would have to stand before the opened stronghold. Rival peoples worked toward the same threshold, without losing the histories that divided them. The coming battle required both the recovered artifact and the many hands that no single quest could name.",
+      "citationIds": [
+        "scepter-a-world-prepares-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-azuregos-ledger-claim",
+      "subjectId": "scepter-azuregos-ledger-event",
+      "predicate": "questline_scene_account",
+      "value": "On Azshara's coast, Azuregos offered a very different account of guardianship. The shard had drawn attention he did not want, interrupting his study of the ancient shore. He had hidden it with an enchanted fish, making an ordinary search of the sea hopeless. His solution for its recovery was an arcanite buoy that would draw the creature out. The instructions lay in a ledger, and the ledger had to be taken to Narain Soothfancy in Tanaris. The blue trail began with a dragon's evasion and became an engineer's problem.",
+      "citationIds": [
+        "scepter-azuregos-ledger-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-beyond-the-wall-claim",
+      "subjectId": "scepter-beyond-the-wall-event",
+      "predicate": "questline_scene_account",
+      "value": "The campaign continued into the Ruins and the Temple of Ahn'Qiraj. Beyond the qiraji armies lay C'Thun, the deeper threat against which the preparations had been gathered. Victory there gave the opened gate its purpose: the company had not restored a key merely to release what waited behind the wall. It had restored a way to reach that danger. The victory brought this campaign to its close, after a long road from the bronze dragon’s vigil. The scepter's legacy joins the losses of the first war to the collective labor of the second.",
+      "citationIds": [
+        "scepter-beyond-the-wall-citation-1",
+        "scepter-beyond-the-wall-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-blackwing-reckoning-claim",
+      "subjectId": "scepter-blackwing-reckoning-event",
+      "predicate": "questline_scene_account",
+      "value": "The red trail ended with Nefarian's defeat and the recovery of the fragment before it could be destroyed. When it was brought back to Anachronos, the bronze dragon spoke of Vaelastrasz's soul finding rest. The shard was not merely a treasure won from a raid. Its return fulfilled the charge of a guardian whose own strength had failed him. One piece of the scepter was recovered, but the cost of its keeping remained part of the story that the restored artifact would carry.",
+      "citationIds": [
+        "scepter-blackwing-reckoning-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-dirges-feast-claim",
+      "subjectId": "scepter-dirges-feast-event",
+      "predicate": "questline_scene_account",
+      "value": "Another of Narain's demands led to Dirge Quikcleave in Gadgetzan. The chef's answer sent the adventurers out to the Isle of Dread, off Feralas, to hunt the chimaerok and secure the ingredients for his formidable meal. The scale of the task belonged to the same curious bargain as the goggles: the world's key depended upon satisfying the engineer's requirements. This branch brought the search from desert workshops to a dangerous island, where even preparing a feast called for allies rather than a solitary traveler.",
+      "citationIds": [
+        "scepter-dirges-feast-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-eight-chapters-claim",
+      "subjectId": "scepter-eight-chapters-event",
+      "predicate": "questline_scene_account",
+      "value": "The missing chapters drew the adventurers through places that rarely belonged to one journey. Pages awaited in Stormwind and Undercity, in the dangerous reaches of Winterspring and the Blasted Lands, and on Doctor Weavil's Alcaz Island. Others required the company to return to Blackwing Lair, confront Onyxia, and reach Ragnaros in Molten Core. A single scattered volume bound these distant dangers to the same unfinished work. The reconstructed volume gave Narain the means to continue the work Azuregos had set before him.",
+      "citationIds": [
+        "scepter-eight-chapters-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-eranikus-redeemed-claim",
+      "subjectId": "scepter-eranikus-redeemed-event",
+      "predicate": "questline_scene_account",
+      "value": "Tyrande's arrival brought the intervention the defenders had awaited. Eranikus was redeemed, and Remulos spoke of his return to the Dream to confront the wrong he had done. The green fragment could now be carried back to Anachronos. Unlike the red trail, this recovery left its guardian able to return to his own work. The two journeys shared a broken scepter, but their endings were different: one honored a lost watcher; the other restored a watcher to the struggle from which he had fallen.",
+      "citationIds": [
+        "scepter-eranikus-redeemed-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-four-forest-portals-claim",
+      "subjectId": "scepter-four-forest-portals-event",
+      "predicate": "questline_scene_account",
+      "value": "Remulos's preparations sent the adventurers to the forest portals associated with the Dream. The search ranged through Duskwood, Ashenvale, Feralas and the Hinterlands, gathering the fragments needed for the next confrontation. These were separate places bound by one danger, rather than a single road across the forest. The journey widened the threat beyond the temple where it had begun. By returning with the corruption's traces, the seekers made possible the attempt to draw Eranikus into Moonglade, where his redemption could be sought.",
+      "citationIds": [
+        "scepter-four-forest-portals-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-into-the-dream-claim",
+      "subjectId": "scepter-into-the-dream-event",
+      "predicate": "questline_scene_account",
+      "value": "The green trail began beneath the marshes, in the Temple of Atal'Hakkar. Near the Shade of Eranikus, Malfurion's appearance directed the search beyond the temple and toward his agent in Teldrassil. From the forest wisp, the road led to Keeper Remulos in Moonglade. The green shard could not be reclaimed by treating its guardian as another enemy to be slain. The search had reached a dragon ensnared by the Nightmare, and the help it sought would have to reach him through that corruption.",
+      "citationIds": [
+        "scepter-into-the-dream-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-long-forgotten-memories-claim",
+      "subjectId": "scepter-long-forgotten-memories-event",
+      "predicate": "questline_scene_account",
+      "value": "Before seeking the scattered pieces, the adventurers returned to the place where the bond had broken. At the Scarab Wall, the old struggle was shown again: dragons pressing back the qiraji, defenders reaching the barrier, and Fandral turning away from the offered key. This was no new battle in Silithus. It was the past made visible to those who would inherit its unfinished task. The scepter could open a gate; the memory explained why that gate had first been closed, and why its key had been rejected.",
+      "citationIds": [
+        "scepter-long-forgotten-memories-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-lost-goggles-claim",
+      "subjectId": "scepter-lost-goggles-event",
+      "predicate": "questline_scene_account",
+      "value": "Narain could not turn the ledger into a finished answer without further help. His missing scrying goggles led the seekers to Stewvul, his former friend, hiding in a crate near the Greymane Wall in Silverpine. Stewvul no longer had them: the search continued into Molten Core. Thus a quarrel between gnomes carried the greater quest beneath Blackrock Mountain. The equipment had to be recovered before Narain's work could proceed, binding an apparently small personal errand to the fate of the unopened gates.",
+      "citationIds": [
+        "scepter-lost-goggles-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-maws-claim",
+      "subjectId": "scepter-maws-event",
+      "predicate": "questline_scene_account",
+      "value": "With the preparations complete, the blue trail returned to the sea. Narain sent the adventurers to the Bay of Storms in Azshara with the arcanite buoy, warning them of Maws. The creature that held the shard could be drawn from hiding, but recovering it demanded companions ready for the danger that answered. When the blue fragment was won, the instructions were at last simple: carry it to Anachronos. An old dragon's elaborate concealment had become a journey through much of Azeroth before ending on its storm-bound coast.",
+      "citationIds": [
+        "scepter-maws-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-nightmare-manifests-claim",
+      "subjectId": "scepter-nightmare-manifests-event",
+      "predicate": "questline_scene_account",
+      "value": "When Eranikus entered Nighthaven, the duty was to endure him, not to kill him. Keeper Remulos had to survive, and the settlement had to be defended while Tyrande approached. The dragon's assault and the shades of the Nightmare made that restraint costly. Yet destroying him would defeat the purpose for which the defenders had gathered. Their task was to hold the space in which rescue remained possible: to stand against his violence without surrendering the hope that the guardian beneath it could be freed.",
+      "citationIds": [
+        "scepter-nightmare-manifests-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-ransom-and-decoy-claim",
+      "subjectId": "scepter-ransom-and-decoy-event",
+      "predicate": "questline_scene_account",
+      "value": "The search for Narain's book brought back a ransom letter instead of the missing volume. Its captors demanded payment, and Narain answered with a deception of his own. He gave the adventurers clothing to take his place and a sack of rocks to stand for gold. The appointed meeting lay in Winterspring, far from his desert home. There the false payment brought the seekers into the encounter with Number Two. The scheme did not recover the book; its pages still had to be gathered by another road.",
+      "citationIds": [
+        "scepter-ransom-and-decoy-citation-1",
+        "scepter-ransom-and-decoy-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-the-broken-key-claim",
+      "subjectId": "scepter-the-broken-key-event",
+      "predicate": "questline_scene_account",
+      "value": "At the gate, Merithra, Arygos and Caelestrasz held the enemy back while Anachronos and the defenders raised the barrier. When the seal was made, the bronze dragon offered Fandral a scepter and a gong: a means to open the way if the need returned. Fandral would accept no further burden from that victory. His son was gone; the stronghold still stood. He cast the scepter against the barrier and shattered it. Anachronos gathered the fragments, preserving a duty that grief had refused.",
+      "citationIds": [
+        "scepter-the-broken-key-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-the-bronze-test-claim",
+      "subjectId": "scepter-the-bronze-test-event",
+      "predicate": "questline_scene_account",
+      "value": "The later journey began in Silithus, where Baristolth of the Shifting Sands directed seekers toward the bronze dragon at the Caverns of Time. Anachronos did not simply place the world's burden in the first hands that reached him. The path demanded evidence of resolve. It led into Blackwing Lair, to Broodlord Lashlayer, before the deeper work of gaining the brood's trust. The task was already larger than one traveler: a champion's progress depended upon companions willing to enter the mountain together.",
+      "citationIds": [
+        "scepter-the-bronze-test-citation-1",
+        "scepter-the-bronze-test-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-the-first-war-claim",
+      "subjectId": "scepter-the-first-war-event",
+      "predicate": "questline_scene_account",
+      "value": "Long before the adventurers came to Silithus, the night elves had fought a war beneath its harsh southern sky. Fandral Staghelm led their defense against the qiraji, and his son Valstann fell in the struggle. The dragonflights joined the battle, but neither courage nor ancient power could make the loss undone. As the defenders were driven toward Ahn'Qiraj, the question before them became how to contain an enemy they could not wholly destroy. The wall that later generations would find was born of that necessity.",
+      "citationIds": [
+        "scepter-the-first-war-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-the-gong-claim",
+      "subjectId": "scepter-the-gong-event",
+      "predicate": "questline_scene_account",
+      "value": "When the preparations had brought the campaign to the Scarab Wall, the restored scepter could be raised against the gong. The barrier made by the ancient defenders opened, and the danger it had contained came forth. The ensuing struggle was remembered as the Ten-Hour War. The relic's recovery had not ended the conflict; it had made the confrontation possible. Where Fandral once turned away from the gate in grief, a later generation now stood together before the consequences of opening it.",
+      "citationIds": [
+        "scepter-the-gong-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-the-red-shard-claim",
+      "subjectId": "scepter-the-red-shard-event",
+      "predicate": "questline_scene_account",
+      "value": "In Blackwing Lair, Vaelastrasz could no longer fulfill his charge by surrendering the red shard. Nefarian held it, and threatened to destroy it. The wounded red dragon's appeal made the recovery urgent: the loss of that fragment would deny the seekers their key to Ahn'Qiraj. Here the search for an ancient relic entered a living act of cruelty. The adventurers had to carry Vaelastrasz's last request through the fortress of the very enemy who had brought him low.",
+      "citationIds": [
+        "scepter-the-red-shard-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-the-watchers-claim",
+      "subjectId": "scepter-the-watchers-event",
+      "predicate": "questline_scene_account",
+      "value": "The broken scepter did not pass out of history. Its pieces remained in the keeping of dragons, yet the long vigil brought troubles of its own. When Anachronos later named Eranikus, Vaelastrasz and Azuregos, his warning carried the weight of disappointed trust. Each guardian's story had turned toward tragedy or estrangement. To restore the key, mortal seekers would have to enter those stories. A thousand years separated the wars, but time had not protected the watchers from the wounds of the world.",
+      "citationIds": [
+        "scepter-the-watchers-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-timeless-treasure-claim",
+      "subjectId": "scepter-timeless-treasure-event",
+      "predicate": "questline_scene_account",
+      "value": "The gong belonged to a brief opening in the campaign, but the quest's final recognition was not identical to that moment. Treasure of the Timeless One remained a distinct conclusion for those who held the restored scepter after the opening war. Remembering that distinction keeps the journey larger than a race for a title. Across forests, libraries, mountains and seas, the work had gathered companions around a broken promise. Its completion remembered the long recovery, as well as the threshold that recovery had allowed the world to cross.",
+      "citationIds": [
+        "scepter-timeless-treasure-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active"
+    },
+    {
+      "id": "scepter-weavils-book-claim",
+      "subjectId": "scepter-weavils-book-event",
+      "predicate": "questline_scene_account",
+      "value": "Narain's missing volume of Draconic for Dummies became another obstacle. Doctor Weavil had intervened, and the book was torn into eight chapters. Narain supplied a magical binding, but the scattered pages had to be found before the volume could be made whole. The search now reached far beyond Tanaris. A text needed to understand the ledger became a second broken object within the greater quest: before the dragon's key could be restored, the engineer's book had to be restored as well.",
+      "citationIds": [
+        "scepter-weavils-book-citation-1"
+      ],
+      "confidence": "strongly_supported",
       "status": "active"
     },
     {
@@ -19619,44 +21577,163 @@
       "opening": "A wall built to contain the qiraji outlived the war that raised it. A thousand years later, the danger behind that barrier brought rival peoples to Silithus, where the broken scepter had to be made whole before the gates could open.",
       "sourceIds": [
         "story-war-shifting-sands",
+        "scepter-memory",
+        "scepter-charge",
+        "scepter-threshold",
+        "scepter-broodlord",
+        "scepter-red",
+        "scepter-greentrail",
+        "scepter-green",
+        "scepter-ledger",
+        "scepter-goggles",
+        "scepter-feast",
+        "scepter-ransom",
+        "scepter-decoy",
+        "scepter-book",
+        "scepter-sea",
         "story-classic-war-effort",
-        "story-ahnqiraj-raids"
+        "story-ahnqiraj-raids",
+        "blizzard-ahnqiraj-remembrance",
+        "scepter-treasure"
       ],
-      "reviewNote": "The ancient war belongs to Era 5, after the War of the Ancients; the Scepter quest and gate opening belong to Era 8. Capture original Classic quest text for the three shard branches and distinguish realm mechanics from historical claims.",
+      "reviewNote": "Complete 22-scene research telling with an illustrated, non-geographic theater and optional AI narration. Quest facts are checked against accessible reproductions of original game text and Blizzard accounts; original-client/build comparison and human claim review remain required before publication. The ancient prologue is Era 5; the later quest journey is Era 8. Parallel shard branches are presented in an editorial order, not a mandatory canonical chronology. Realm quotas, timers and Scarab Lord identities are not universal history. No post-Wrath outcomes are included.",
       "chapters": [
         {
           "id": "the-first-war",
-          "eraId": "long-vigil-new-kingdoms",
-          "title": "The war that raised the wall",
-          "body": "Fandral Staghelm's night elves fought the qiraji and silithid across Silithus. The dragonflights joined the defense, yet the cost remained severe. At Ahn'Qiraj, Anachronos and the defenders sealed the city rather than end every danger inside it."
+          "title": "Flashback · Era 5 — The war that raised the wall",
+          "body": "Long before the adventurers came to Silithus, the night elves had fought a war beneath its harsh southern sky. Fandral Staghelm led their defense against the qiraji, and his son Valstann fell in the struggle. The dragonflights joined the battle, but neither courage nor ancient power could make the loss undone. As the defenders were driven toward Ahn'Qiraj, the question before them became how to contain an enemy they could not wholly destroy. The wall that later generations would find was born of that necessity.",
+          "eraId": "long-vigil-new-kingdoms"
         },
         {
           "id": "the-broken-key",
-          "eraId": "long-vigil-new-kingdoms",
-          "title": "The scepter is broken",
-          "body": "The barrier had a key: a scepter that could open the gates when struck against the gong. Fandral, grieving Valstann's death and rejecting the dragons' hollow victory, shattered it. The seal held, but a later generation would inherit both the threat and the broken means of facing it."
+          "title": "Flashback · Era 5 — A victory without comfort",
+          "body": "At the gate, Merithra, Arygos and Caelestrasz held the enemy back while Anachronos and the defenders raised the barrier. When the seal was made, the bronze dragon offered Fandral a scepter and a gong: a means to open the way if the need returned. Fandral would accept no further burden from that victory. His son was gone; the stronghold still stood. He cast the scepter against the barrier and shattered it. Anachronos gathered the fragments, preserving a duty that grief had refused.",
+          "eraId": "long-vigil-new-kingdoms"
         },
         {
-          "id": "the-three-shards",
-          "eraId": "age-of-adventurers",
-          "title": "Three paths through dragonflight memory",
-          "body": "The later questline returns to Anachronos and follows green, red, and blue shard trails. Eranikus and the Nightmare, Vaelastrasz and Blackwing Lair, and Azuregos with Narain Soothfancy give the recovery three distinct theaters. The original quest dialogue must settle the exact order, motives, and outcomes of each branch."
+          "id": "the-watchers",
+          "title": "The keepers of a broken promise",
+          "body": "The broken scepter did not pass out of history. Its pieces remained in the keeping of dragons, yet the long vigil brought troubles of its own. When Anachronos later named Eranikus, Vaelastrasz and Azuregos, his warning carried the weight of disappointed trust. Each guardian's story had turned toward tragedy or estrangement. To restore the key, mortal seekers would have to enter those stories. A thousand years separated the wars, but time had not protected the watchers from the wounds of the world.",
+          "eraId": "age-of-adventurers"
         },
         {
-          "id": "the-war-effort",
-          "eraId": "age-of-adventurers",
-          "title": "A world gathers at Silithus",
-          "body": "Horde and Alliance communities supplied a vast campaign before the gates opened. This chapter should follow the shared scale of preparation without treating a particular realm's quotas, timing, or first player to ring the gong as universal history."
+          "id": "the-bronze-test",
+          "title": "The road from Cenarion Hold",
+          "body": "The later journey began in Silithus, where Baristolth of the Shifting Sands directed seekers toward the bronze dragon at the Caverns of Time. Anachronos did not simply place the world's burden in the first hands that reached him. The path demanded evidence of resolve. It led into Blackwing Lair, to Broodlord Lashlayer, before the deeper work of gaining the brood's trust. The task was already larger than one traveler: a champion's progress depended upon companions willing to enter the mountain together.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "long-forgotten-memories",
+          "title": "The memory at the Scarab Wall",
+          "body": "Before seeking the scattered pieces, the adventurers returned to the place where the bond had broken. At the Scarab Wall, the old struggle was shown again: dragons pressing back the qiraji, defenders reaching the barrier, and Fandral turning away from the offered key. This was no new battle in Silithus. It was the past made visible to those who would inherit its unfinished task. The scepter could open a gate; the memory explained why that gate had first been closed, and why its key had been rejected.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "the-red-shard",
+          "title": "Red shard — The captive guardian",
+          "body": "In Blackwing Lair, Vaelastrasz could no longer fulfill his charge by surrendering the red shard. Nefarian held it, and threatened to destroy it. The wounded red dragon's appeal made the recovery urgent: the loss of that fragment would deny the seekers their key to Ahn'Qiraj. Here the search for an ancient relic entered a living act of cruelty. The adventurers had to carry Vaelastrasz's last request through the fortress of the very enemy who had brought him low.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "blackwing-reckoning",
+          "title": "Red shard — Beyond the dragon’s suffering",
+          "body": "The red trail ended with Nefarian's defeat and the recovery of the fragment before it could be destroyed. When it was brought back to Anachronos, the bronze dragon spoke of Vaelastrasz's soul finding rest. The shard was not merely a treasure won from a raid. Its return fulfilled the charge of a guardian whose own strength had failed him. One piece of the scepter was recovered, but the cost of its keeping remained part of the story that the restored artifact would carry.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "into-the-dream",
+          "title": "Green shard — A guardian lost to the Nightmare",
+          "body": "The green trail began beneath the marshes, in the Temple of Atal'Hakkar. Near the Shade of Eranikus, Malfurion's appearance directed the search beyond the temple and toward his agent in Teldrassil. From the forest wisp, the road led to Keeper Remulos in Moonglade. The green shard could not be reclaimed by treating its guardian as another enemy to be slain. The search had reached a dragon ensnared by the Nightmare, and the help it sought would have to reach him through that corruption.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "four-forest-portals",
+          "title": "Green shard — The gathering of corruption",
+          "body": "Remulos's preparations sent the adventurers to the forest portals associated with the Dream. The search ranged through Duskwood, Ashenvale, Feralas and the Hinterlands, gathering the fragments needed for the next confrontation. These were separate places bound by one danger, rather than a single road across the forest. The journey widened the threat beyond the temple where it had begun. By returning with the corruption's traces, the seekers made possible the attempt to draw Eranikus into Moonglade, where his redemption could be sought.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "nightmare-manifests",
+          "title": "Green shard — Restraint at Nighthaven",
+          "body": "When Eranikus entered Nighthaven, the duty was to endure him, not to kill him. Keeper Remulos had to survive, and the settlement had to be defended while Tyrande approached. The dragon's assault and the shades of the Nightmare made that restraint costly. Yet destroying him would defeat the purpose for which the defenders had gathered. Their task was to hold the space in which rescue remained possible: to stand against his violence without surrendering the hope that the guardian beneath it could be freed.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "eranikus-redeemed",
+          "title": "Green shard — The guardian returns",
+          "body": "Tyrande's arrival brought the intervention the defenders had awaited. Eranikus was redeemed, and Remulos spoke of his return to the Dream to confront the wrong he had done. The green fragment could now be carried back to Anachronos. Unlike the red trail, this recovery left its guardian able to return to his own work. The two journeys shared a broken scepter, but their endings were different: one honored a lost watcher; the other restored a watcher to the struggle from which he had fallen.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "azuregos-ledger",
+          "title": "Blue shard — A dragon who wished to be left alone",
+          "body": "On Azshara's coast, Azuregos offered a very different account of guardianship. The shard had drawn attention he did not want, interrupting his study of the ancient shore. He had hidden it with an enchanted fish, making an ordinary search of the sea hopeless. His solution for its recovery was an arcanite buoy that would draw the creature out. The instructions lay in a ledger, and the ledger had to be taken to Narain Soothfancy in Tanaris. The blue trail began with a dragon's evasion and became an engineer's problem.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "lost-goggles",
+          "title": "Blue shard — From Silverpine to Molten Core",
+          "body": "Narain could not turn the ledger into a finished answer without further help. His missing scrying goggles led the seekers to Stewvul, his former friend, hiding in a crate near the Greymane Wall in Silverpine. Stewvul no longer had them: the search continued into Molten Core. Thus a quarrel between gnomes carried the greater quest beneath Blackrock Mountain. The equipment had to be recovered before Narain's work could proceed, binding an apparently small personal errand to the fate of the unopened gates.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "dirges-feast",
+          "title": "Blue shard — The chef and the Isle of Dread",
+          "body": "Another of Narain's demands led to Dirge Quikcleave in Gadgetzan. The chef's answer sent the adventurers out to the Isle of Dread, off Feralas, to hunt the chimaerok and secure the ingredients for his formidable meal. The scale of the task belonged to the same curious bargain as the goggles: the world's key depended upon satisfying the engineer's requirements. This branch brought the search from desert workshops to a dangerous island, where even preparing a feast called for allies rather than a solitary traveler.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "ransom-and-decoy",
+          "title": "Blue shard — A ransom in the snow",
+          "body": "The search for Narain's book brought back a ransom letter instead of the missing volume. Its captors demanded payment, and Narain answered with a deception of his own. He gave the adventurers clothing to take his place and a sack of rocks to stand for gold. The appointed meeting lay in Winterspring, far from his desert home. There the false payment brought the seekers into the encounter with Number Two. The scheme did not recover the book; its pages still had to be gathered by another road.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "weavils-book",
+          "title": "Blue shard — A book scattered to the winds",
+          "body": "Narain's missing volume of Draconic for Dummies became another obstacle. Doctor Weavil had intervened, and the book was torn into eight chapters. Narain supplied a magical binding, but the scattered pages had to be found before the volume could be made whole. The search now reached far beyond Tanaris. A text needed to understand the ledger became a second broken object within the greater quest: before the dragon's key could be restored, the engineer's book had to be restored as well.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "eight-chapters",
+          "title": "Blue shard — Libraries, demons, and dragon lairs",
+          "body": "The missing chapters drew the adventurers through places that rarely belonged to one journey. Pages awaited in Stormwind and Undercity, in the dangerous reaches of Winterspring and the Blasted Lands, and on Doctor Weavil's Alcaz Island. Others required the company to return to Blackwing Lair, confront Onyxia, and reach Ragnaros in Molten Core. A single scattered volume bound these distant dangers to the same unfinished work. The reconstructed volume gave Narain the means to continue the work Azuregos had set before him.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "maws",
+          "title": "Blue shard — The beast in the Bay of Storms",
+          "body": "With the preparations complete, the blue trail returned to the sea. Narain sent the adventurers to the Bay of Storms in Azshara with the arcanite buoy, warning them of Maws. The creature that held the shard could be drawn from hiding, but recovering it demanded companions ready for the danger that answered. When the blue fragment was won, the instructions were at last simple: carry it to Anachronos. An old dragon's elaborate concealment had become a journey through much of Azeroth before ending on its storm-bound coast.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "a-world-prepares",
+          "title": "The key and the armies",
+          "body": "The three recovered fragments returned to the bronze dragon, and the scepter could be made whole. Beyond that personal journey, Horde and Alliance communities were gathering the supplies for a campaign in Silithus. The key alone was not the war effort. Workshops, stores and countless contributions prepared the force that would have to stand before the opened stronghold. Rival peoples worked toward the same threshold, without losing the histories that divided them. The coming battle required both the recovered artifact and the many hands that no single quest could name.",
+          "eraId": "age-of-adventurers"
         },
         {
           "id": "the-gong",
-          "eraId": "age-of-adventurers",
           "title": "The gates open",
-          "body": "With the scepter restored, the gong could be struck and the seal opened. The ensuing battle led into the Ruins and Temple of Ahn'Qiraj, where the qiraji and C'Thun awaited. The raid's exact aftermath needs its own quest and instance review before this outline becomes a finished account."
+          "body": "When the preparations had brought the campaign to the Scarab Wall, the restored scepter could be raised against the gong. The barrier made by the ancient defenders opened, and the danger it had contained came forth. The ensuing struggle was remembered as the Ten-Hour War. The relic's recovery had not ended the conflict; it had made the confrontation possible. Where Fandral once turned away from the gate in grief, a later generation now stood together before the consequences of opening it.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "beyond-the-wall",
+          "title": "Beyond the wall, beneath the temple",
+          "body": "The campaign continued into the Ruins and the Temple of Ahn'Qiraj. Beyond the qiraji armies lay C'Thun, the deeper threat against which the preparations had been gathered. Victory there gave the opened gate its purpose: the company had not restored a key merely to release what waited behind the wall. It had restored a way to reach that danger. The victory brought this campaign to its close, after a long road from the bronze dragon’s vigil. The scepter's legacy joins the losses of the first war to the collective labor of the second.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "timeless-treasure",
+          "title": "The journey that outlived the gong",
+          "body": "The gong belonged to a brief opening in the campaign, but the quest's final recognition was not identical to that moment. Treasure of the Timeless One remained a distinct conclusion for those who held the restored scepter after the opening war. Remembering that distinction keeps the journey larger than a race for a title. Across forests, libraries, mountains and seas, the work had gathered companions around a broken promise. Its completion remembered the long recovery, as well as the threshold that recovery had allowed the world to cross.",
+          "eraId": "age-of-adventurers"
         }
       ],
       "slug": "scepter-of-the-shifting-sands",
-      "contentStatus": "research"
+      "contentStatus": "research",
+      "storyGuideId": "scepter-of-the-shifting-sands-guide"
     },
     {
       "id": "stormwind-onyxia-conspiracy",
@@ -20120,6 +22197,37 @@
         "horde-rise-story-broken-purpose",
         "horde-rise-story-blackrock-rally",
         "horde-rise-story-gate-broken"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-of-the-shifting-sands-guide",
+      "eraId": "age-of-adventurers",
+      "title": "The Scepter of the Shifting Sands",
+      "description": "The ancient seal, three shard journeys and the campaign beyond the Scarab Wall.",
+      "nodeIds": [
+        "scepter-story-the-first-war",
+        "scepter-story-the-broken-key",
+        "scepter-story-the-watchers",
+        "scepter-story-the-bronze-test",
+        "scepter-story-long-forgotten-memories",
+        "scepter-story-the-red-shard",
+        "scepter-story-blackwing-reckoning",
+        "scepter-story-into-the-dream",
+        "scepter-story-four-forest-portals",
+        "scepter-story-nightmare-manifests",
+        "scepter-story-eranikus-redeemed",
+        "scepter-story-azuregos-ledger",
+        "scepter-story-lost-goggles",
+        "scepter-story-dirges-feast",
+        "scepter-story-ransom-and-decoy",
+        "scepter-story-weavils-book",
+        "scepter-story-eight-chapters",
+        "scepter-story-maws",
+        "scepter-story-a-world-prepares",
+        "scepter-story-the-gong",
+        "scepter-story-beyond-the-wall",
+        "scepter-story-timeless-treasure"
       ],
       "contentStatus": "research"
     },
@@ -25511,6 +27619,967 @@
         }
       ],
       "previousNodeId": "horde-rise-story-blackrock-rally"
+    },
+    {
+      "id": "scepter-story-the-first-war",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Flashback · Era 5 — The war that raised the wall",
+      "narration": "Long before the adventurers came to Silithus, the night elves had fought a war beneath its harsh southern sky. Fandral Staghelm led their defense against the qiraji, and his son Valstann fell in the struggle. The dragonflights joined the battle, but neither courage nor ancient power could make the loss undone. As the defenders were driven toward Ahn'Qiraj, the question before them became how to contain an enemy they could not wholly destroy. The wall that later generations would find was born of that necessity.",
+      "durationMs": 67195,
+      "entityIds": [
+        "fandral-staghelm",
+        "valstann-staghelm",
+        "anachronos"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-sand-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "scepter-story-the-broken-key"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-first-war.mp3",
+        "durationMs": 32150,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-the-first-war-event"
+      ]
+    },
+    {
+      "id": "scepter-story-the-broken-key",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Flashback · Era 5 — A victory without comfort",
+      "narration": "At the gate, Merithra, Arygos and Caelestrasz held the enemy back while Anachronos and the defenders raised the barrier. When the seal was made, the bronze dragon offered Fandral a scepter and a gong: a means to open the way if the need returned. Fandral would accept no further burden from that victory. His son was gone; the stronghold still stood. He cast the scepter against the barrier and shattered it. Anachronos gathered the fragments, preserving a duty that grief had refused.",
+      "durationMs": 65000,
+      "entityIds": [
+        "fandral-staghelm",
+        "anachronos",
+        "dragonflight-defenders"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-gate-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-the-first-war",
+      "nextNodeIds": [
+        "scepter-story-the-watchers"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-broken-key.mp3",
+        "durationMs": 31650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-the-broken-key-event"
+      ]
+    },
+    {
+      "id": "scepter-story-the-watchers",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "The keepers of a broken promise",
+      "narration": "The broken scepter did not pass out of history. Its pieces remained in the keeping of dragons, yet the long vigil brought troubles of its own. When Anachronos later named Eranikus, Vaelastrasz and Azuregos, his warning carried the weight of disappointed trust. Each guardian's story had turned toward tragedy or estrangement. To restore the key, mortal seekers would have to enter those stories. A thousand years separated the wars, but time had not protected the watchers from the wounds of the world.",
+      "durationMs": 65000,
+      "entityIds": [
+        "anachronos",
+        "vaelastrasz",
+        "eranikus",
+        "azuregos"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-sand-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-the-broken-key",
+      "nextNodeIds": [
+        "scepter-story-the-bronze-test"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-watchers.mp3",
+        "durationMs": 31675,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-the-watchers-event"
+      ]
+    },
+    {
+      "id": "scepter-story-the-bronze-test",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "The road from Cenarion Hold",
+      "narration": "The later journey began in Silithus, where Baristolth of the Shifting Sands directed seekers toward the bronze dragon at the Caverns of Time. Anachronos did not simply place the world's burden in the first hands that reached him. The path demanded evidence of resolve. It led into Blackwing Lair, to Broodlord Lashlayer, before the deeper work of gaining the brood's trust. The task was already larger than one traveler: a champion's progress depended upon companions willing to enter the mountain together.",
+      "durationMs": 64268,
+      "entityIds": [
+        "baristolth",
+        "anachronos",
+        "adventurers-of-azeroth"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-tower-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-the-watchers",
+      "nextNodeIds": [
+        "scepter-story-long-forgotten-memories"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-bronze-test.mp3",
+        "durationMs": 25200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-the-bronze-test-event"
+      ]
+    },
+    {
+      "id": "scepter-story-long-forgotten-memories",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "The memory at the Scarab Wall",
+      "narration": "Before seeking the scattered pieces, the adventurers returned to the place where the bond had broken. At the Scarab Wall, the old struggle was shown again: dragons pressing back the qiraji, defenders reaching the barrier, and Fandral turning away from the offered key. This was no new battle in Silithus. It was the past made visible to those who would inherit its unfinished task. The scepter could open a gate; the memory explained why that gate had first been closed, and why its key had been rejected.",
+      "durationMs": 68659,
+      "entityIds": [
+        "anachronos",
+        "fandral-staghelm",
+        "dragonflight-defenders"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-gate-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-the-bronze-test",
+      "nextNodeIds": [
+        "scepter-story-the-red-shard"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-long-forgotten-memories.mp3",
+        "durationMs": 31625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-long-forgotten-memories-event"
+      ]
+    },
+    {
+      "id": "scepter-story-the-red-shard",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Red shard — The captive guardian",
+      "narration": "In Blackwing Lair, Vaelastrasz could no longer fulfill his charge by surrendering the red shard. Nefarian held it, and threatened to destroy it. The wounded red dragon's appeal made the recovery urgent: the loss of that fragment would deny the seekers their key to Ahn'Qiraj. Here the search for an ancient relic entered a living act of cruelty. The adventurers had to carry Vaelastrasz's last request through the fortress of the very enemy who had brought him low.",
+      "durationMs": 62073,
+      "entityIds": [
+        "vaelastrasz",
+        "nefarian",
+        "adventurers-of-azeroth"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-tower-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-long-forgotten-memories",
+      "nextNodeIds": [
+        "scepter-story-blackwing-reckoning"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-red-shard.mp3",
+        "durationMs": 30275,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-the-red-shard-event"
+      ]
+    },
+    {
+      "id": "scepter-story-blackwing-reckoning",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Red shard — Beyond the dragon’s suffering",
+      "narration": "The red trail ended with Nefarian's defeat and the recovery of the fragment before it could be destroyed. When it was brought back to Anachronos, the bronze dragon spoke of Vaelastrasz's soul finding rest. The shard was not merely a treasure won from a raid. Its return fulfilled the charge of a guardian whose own strength had failed him. One piece of the scepter was recovered, but the cost of its keeping remained part of the story that the restored artifact would carry.",
+      "durationMs": 65732,
+      "entityIds": [
+        "vaelastrasz",
+        "anachronos",
+        "scepter-relic"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-tower-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-the-red-shard",
+      "nextNodeIds": [
+        "scepter-story-into-the-dream"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-blackwing-reckoning.mp3",
+        "durationMs": 30775,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-blackwing-reckoning-event"
+      ]
+    },
+    {
+      "id": "scepter-story-into-the-dream",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Green shard — A guardian lost to the Nightmare",
+      "narration": "The green trail began beneath the marshes, in the Temple of Atal'Hakkar. Near the Shade of Eranikus, Malfurion's appearance directed the search beyond the temple and toward his agent in Teldrassil. From the forest wisp, the road led to Keeper Remulos in Moonglade. The green shard could not be reclaimed by treating its guardian as another enemy to be slain. The search had reached a dragon ensnared by the Nightmare, and the help it sought would have to reach him through that corruption.",
+      "durationMs": 65732,
+      "entityIds": [
+        "malfurion-stormrage",
+        "eranikus",
+        "keeper-remulos"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-forest-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-blackwing-reckoning",
+      "nextNodeIds": [
+        "scepter-story-four-forest-portals"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-into-the-dream.mp3",
+        "durationMs": 30650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-into-the-dream-event"
+      ]
+    },
+    {
+      "id": "scepter-story-four-forest-portals",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Green shard — The gathering of corruption",
+      "narration": "Remulos's preparations sent the adventurers to the forest portals associated with the Dream. The search ranged through Duskwood, Ashenvale, Feralas and the Hinterlands, gathering the fragments needed for the next confrontation. These were separate places bound by one danger, rather than a single road across the forest. The journey widened the threat beyond the temple where it had begun. By returning with the corruption's traces, the seekers made possible the attempt to draw Eranikus into Moonglade, where his redemption could be sought.",
+      "durationMs": 65000,
+      "entityIds": [
+        "keeper-remulos",
+        "eranikus",
+        "adventurers-of-azeroth"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-forest-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-into-the-dream",
+      "nextNodeIds": [
+        "scepter-story-nightmare-manifests"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-four-forest-portals.mp3",
+        "durationMs": 26125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-four-forest-portals-event"
+      ]
+    },
+    {
+      "id": "scepter-story-nightmare-manifests",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Green shard — Restraint at Nighthaven",
+      "narration": "When Eranikus entered Nighthaven, the duty was to endure him, not to kill him. Keeper Remulos had to survive, and the settlement had to be defended while Tyrande approached. The dragon's assault and the shades of the Nightmare made that restraint costly. Yet destroying him would defeat the purpose for which the defenders had gathered. Their task was to hold the space in which rescue remained possible: to stand against his violence without surrendering the hope that the guardian beneath it could be freed.",
+      "durationMs": 66463,
+      "entityIds": [
+        "eranikus",
+        "keeper-remulos",
+        "tyrande-whisperwind"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-forest-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-four-forest-portals",
+      "nextNodeIds": [
+        "scepter-story-eranikus-redeemed"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-nightmare-manifests.mp3",
+        "durationMs": 31375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-nightmare-manifests-event"
+      ]
+    },
+    {
+      "id": "scepter-story-eranikus-redeemed",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Green shard — The guardian returns",
+      "narration": "Tyrande's arrival brought the intervention the defenders had awaited. Eranikus was redeemed, and Remulos spoke of his return to the Dream to confront the wrong he had done. The green fragment could now be carried back to Anachronos. Unlike the red trail, this recovery left its guardian able to return to his own work. The two journeys shared a broken scepter, but their endings were different: one honored a lost watcher; the other restored a watcher to the struggle from which he had fallen.",
+      "durationMs": 66463,
+      "entityIds": [
+        "eranikus",
+        "tyrande-whisperwind",
+        "keeper-remulos"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-forest-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-nightmare-manifests",
+      "nextNodeIds": [
+        "scepter-story-azuregos-ledger"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-eranikus-redeemed.mp3",
+        "durationMs": 31050,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-eranikus-redeemed-event"
+      ]
+    },
+    {
+      "id": "scepter-story-azuregos-ledger",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Blue shard — A dragon who wished to be left alone",
+      "narration": "On Azshara's coast, Azuregos offered a very different account of guardianship. The shard had drawn attention he did not want, interrupting his study of the ancient shore. He had hidden it with an enchanted fish, making an ordinary search of the sea hopeless. His solution for its recovery was an arcanite buoy that would draw the creature out. The instructions lay in a ledger, and the ledger had to be taken to Narain Soothfancy in Tanaris. The blue trail began with a dragon's evasion and became an engineer's problem.",
+      "durationMs": 70122,
+      "entityIds": [
+        "azuregos",
+        "narain-soothfancy"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-coast-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-eranikus-redeemed",
+      "nextNodeIds": [
+        "scepter-story-lost-goggles"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-azuregos-ledger.mp3",
+        "durationMs": 28475,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-azuregos-ledger-event"
+      ]
+    },
+    {
+      "id": "scepter-story-lost-goggles",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Blue shard — From Silverpine to Molten Core",
+      "narration": "Narain could not turn the ledger into a finished answer without further help. His missing scrying goggles led the seekers to Stewvul, his former friend, hiding in a crate near the Greymane Wall in Silverpine. Stewvul no longer had them: the search continued into Molten Core. Thus a quarrel between gnomes carried the greater quest beneath Blackrock Mountain. The equipment had to be recovered before Narain's work could proceed, binding an apparently small personal errand to the fate of the unopened gates.",
+      "durationMs": 65000,
+      "entityIds": [
+        "narain-soothfancy",
+        "stewvul",
+        "adventurers-of-azeroth"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-molten-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-azuregos-ledger",
+      "nextNodeIds": [
+        "scepter-story-dirges-feast"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-lost-goggles.mp3",
+        "durationMs": 31100,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-lost-goggles-event"
+      ]
+    },
+    {
+      "id": "scepter-story-dirges-feast",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Blue shard — The chef and the Isle of Dread",
+      "narration": "Another of Narain's demands led to Dirge Quikcleave in Gadgetzan. The chef's answer sent the adventurers out to the Isle of Dread, off Feralas, to hunt the chimaerok and secure the ingredients for his formidable meal. The scale of the task belonged to the same curious bargain as the goggles: the world's key depended upon satisfying the engineer's requirements. This branch brought the search from desert workshops to a dangerous island, where even preparing a feast called for allies rather than a solitary traveler.",
+      "durationMs": 66463,
+      "entityIds": [
+        "dirge-quikcleave",
+        "narain-soothfancy",
+        "adventurers-of-azeroth"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-coast-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-lost-goggles",
+      "nextNodeIds": [
+        "scepter-story-ransom-and-decoy"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-dirges-feast.mp3",
+        "durationMs": 24975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-dirges-feast-event"
+      ]
+    },
+    {
+      "id": "scepter-story-ransom-and-decoy",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Blue shard — A ransom in the snow",
+      "narration": "The search for Narain's book brought back a ransom letter instead of the missing volume. Its captors demanded payment, and Narain answered with a deception of his own. He gave the adventurers clothing to take his place and a sack of rocks to stand for gold. The appointed meeting lay in Winterspring, far from his desert home. There the false payment brought the seekers into the encounter with Number Two. The scheme did not recover the book; its pages still had to be gathered by another road.",
+      "durationMs": 68659,
+      "entityIds": [
+        "narain-soothfancy",
+        "number-two",
+        "adventurers-of-azeroth"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-snow-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-dirges-feast",
+      "nextNodeIds": [
+        "scepter-story-weavils-book"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-ransom-and-decoy.mp3",
+        "durationMs": 30225,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-ransom-and-decoy-event"
+      ]
+    },
+    {
+      "id": "scepter-story-weavils-book",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Blue shard — A book scattered to the winds",
+      "narration": "Narain's missing volume of Draconic for Dummies became another obstacle. Doctor Weavil had intervened, and the book was torn into eight chapters. Narain supplied a magical binding, but the scattered pages had to be found before the volume could be made whole. The search now reached far beyond Tanaris. A text needed to understand the ledger became a second broken object within the greater quest: before the dragon's key could be restored, the engineer's book had to be restored as well.",
+      "durationMs": 64268,
+      "entityIds": [
+        "narain-soothfancy",
+        "doctor-weavil"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-library-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-ransom-and-decoy",
+      "nextNodeIds": [
+        "scepter-story-eight-chapters"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-weavils-book.mp3",
+        "durationMs": 30975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-weavils-book-event"
+      ]
+    },
+    {
+      "id": "scepter-story-eight-chapters",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Blue shard — Libraries, demons, and dragon lairs",
+      "narration": "The missing chapters drew the adventurers through places that rarely belonged to one journey. Pages awaited in Stormwind and Undercity, in the dangerous reaches of Winterspring and the Blasted Lands, and on Doctor Weavil's Alcaz Island. Others required the company to return to Blackwing Lair, confront Onyxia, and reach Ragnaros in Molten Core. A single scattered volume bound these distant dangers to the same unfinished work. The reconstructed volume gave Narain the means to continue the work Azuregos had set before him.",
+      "durationMs": 65000,
+      "entityIds": [
+        "doctor-weavil",
+        "adventurers-of-azeroth",
+        "scepter-relic"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-library-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-weavils-book",
+      "nextNodeIds": [
+        "scepter-story-maws"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-eight-chapters.mp3",
+        "durationMs": 29475,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-eight-chapters-event"
+      ]
+    },
+    {
+      "id": "scepter-story-maws",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Blue shard — The beast in the Bay of Storms",
+      "narration": "With the preparations complete, the blue trail returned to the sea. Narain sent the adventurers to the Bay of Storms in Azshara with the arcanite buoy, warning them of Maws. The creature that held the shard could be drawn from hiding, but recovering it demanded companions ready for the danger that answered. When the blue fragment was won, the instructions were at last simple: carry it to Anachronos. An old dragon's elaborate concealment had become a journey through much of Azeroth before ending on its storm-bound coast.",
+      "durationMs": 68659,
+      "entityIds": [
+        "maws",
+        "azuregos",
+        "adventurers-of-azeroth"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-coast-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-eight-chapters",
+      "nextNodeIds": [
+        "scepter-story-a-world-prepares"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-maws.mp3",
+        "durationMs": 26050,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-maws-event"
+      ]
+    },
+    {
+      "id": "scepter-story-a-world-prepares",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "The key and the armies",
+      "narration": "The three recovered fragments returned to the bronze dragon, and the scepter could be made whole. Beyond that personal journey, Horde and Alliance communities were gathering the supplies for a campaign in Silithus. The key alone was not the war effort. Workshops, stores and countless contributions prepared the force that would have to stand before the opened stronghold. Rival peoples worked toward the same threshold, without losing the histories that divided them. The coming battle required both the recovered artifact and the many hands that no single quest could name.",
+      "durationMs": 70854,
+      "entityIds": [
+        "anachronos",
+        "scepter-relic",
+        "adventurers-of-azeroth"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-sand-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-maws",
+      "nextNodeIds": [
+        "scepter-story-the-gong"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-a-world-prepares.mp3",
+        "durationMs": 30025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-a-world-prepares-event"
+      ]
+    },
+    {
+      "id": "scepter-story-the-gong",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "The gates open",
+      "narration": "When the preparations had brought the campaign to the Scarab Wall, the restored scepter could be raised against the gong. The barrier made by the ancient defenders opened, and the danger it had contained came forth. The ensuing struggle was remembered as the Ten-Hour War. The relic's recovery had not ended the conflict; it had made the confrontation possible. Where Fandral once turned away from the gate in grief, a later generation now stood together before the consequences of opening it.",
+      "durationMs": 64268,
+      "entityIds": [
+        "scepter-relic",
+        "adventurers-of-azeroth"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-gate-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-a-world-prepares",
+      "nextNodeIds": [
+        "scepter-story-beyond-the-wall"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-the-gong.mp3",
+        "durationMs": 30750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-the-gong-event"
+      ]
+    },
+    {
+      "id": "scepter-story-beyond-the-wall",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "Beyond the wall, beneath the temple",
+      "narration": "The campaign continued into the Ruins and the Temple of Ahn'Qiraj. Beyond the qiraji armies lay C'Thun, the deeper threat against which the preparations had been gathered. Victory there gave the opened gate its purpose: the company had not restored a key merely to release what waited behind the wall. It had restored a way to reach that danger. The victory brought this campaign to its close, after a long road from the bronze dragon’s vigil. The scepter's legacy joins the losses of the first war to the collective labor of the second.",
+      "durationMs": 73049,
+      "entityIds": [
+        "adventurers-of-azeroth",
+        "cthun-scepter",
+        "scepter-relic"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-gate-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-the-gong",
+      "nextNodeIds": [
+        "scepter-story-timeless-treasure"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-beyond-the-wall.mp3",
+        "durationMs": 28975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-beyond-the-wall-event"
+      ]
+    },
+    {
+      "id": "scepter-story-timeless-treasure",
+      "guideId": "scepter-of-the-shifting-sands-guide",
+      "title": "The journey that outlived the gong",
+      "narration": "The gong belonged to a brief opening in the campaign, but the quest's final recognition was not identical to that moment. Treasure of the Timeless One remained a distinct conclusion for those who held the restored scepter after the opening war. Remembering that distinction keeps the journey larger than a race for a title. Across forests, libraries, mountains and seas, the work had gathered companions around a broken promise. Its completion remembered the long recovery, as well as the threshold that recovery had allowed the world to cross.",
+      "durationMs": 69390,
+      "entityIds": [
+        "anachronos",
+        "scepter-relic"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.8,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scepter-sand-scene"
+        }
+      ],
+      "previousNodeId": "scepter-story-beyond-the-wall",
+      "voiceover": {
+        "assetPath": "audio/guided/scepter-of-the-shifting-sands-guide/scepter-story-timeless-treasure.mp3",
+        "durationMs": 28125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "scepter-timeless-treasure-event"
+      ]
     },
     {
       "id": "third-war-story-after-the-camps",

@@ -3,6 +3,15 @@ import { loadDataset } from '../../src/lib/lore/loadDataset';
 import { mapStateIdsForEra, resolveEraMapState } from '../../src/lib/map/resolveEraMapState';
 
 describe('era map-state resolution', () => {
+  it('allows only the selected same-era storyline guide to introduce its theater', () => {
+    const dataset = loadDataset();
+    const era = dataset.eras.find((item) => item.id === 'age-of-adventurers')!;
+    expect(resolveEraMapState(dataset, era, 'scepter-forest-scene')?.id).toBe(era.mapStateId);
+    expect(resolveEraMapState(dataset, era, 'scepter-forest-scene', 'scepter-of-the-shifting-sands-guide')?.worldspaceId)
+      .toBe('scepter-story-theater');
+    const earlierEra = dataset.eras.find((item) => item.id === 'long-vigil-new-kingdoms')!;
+    expect(mapStateIdsForEra(dataset, earlierEra, 'scepter-of-the-shifting-sands-guide')).toEqual(new Set([earlierEra.mapStateId]));
+  });
   it('permits guided states across worldspaces and derives the requested worldspace', () => {
     const dataset = loadDataset();
     const era = dataset.eras.find((item) => item.id === 'rise-of-the-horde')!;

@@ -1,0 +1,26 @@
+{
+  "id": "scepter-ransom-and-decoy-event",
+  "kind": "event",
+  "name": "Blue shard — A ransom in the snow",
+  "slug": "scepter-ransom-and-decoy",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "scepter-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Original WoW Scepter quest journey"
+  },
+  "summary": "The search for Narain's book brought back a ransom letter instead of the missing volume. Its captors demanded payment, and Narain answered with a deception of his own. He gave the adventurers clothing to take his place and a sack of rocks to stand for gold. The appointed meeting lay in Winterspring, far from his desert home. There the false payment brought the seekers into the encounter with Number Two. The scheme did not recover the book; its pages still had to be gathered by another road.",
+  "participantEntityIds": [
+    "narain-soothfancy",
+    "number-two",
+    "adventurers-of-azeroth"
+  ],
+  "sourceIds": [
+    "scepter-ransom",
+    "scepter-decoy"
+  ],
+  "claimIds": [
+    "scepter-ransom-and-decoy-claim"
+  ],
+  "contentStatus": "research"
+}

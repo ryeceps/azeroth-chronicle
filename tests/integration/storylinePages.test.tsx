@@ -27,7 +27,7 @@ describe('era-linked storylines', () => {
     await user.click(screen.getByRole('link', { name: /The Scepter of the Shifting Sands/ }));
 
     expect(screen.getByRole('heading', { level: 1, name: 'The Scepter of the Shifting Sands' })).toBeVisible();
-    expect(screen.getByRole('heading', { name: 'The war that raised the wall' })).toBeVisible();
+    expect(screen.getByRole('heading', { name: /The war that raised the wall/ })).toBeVisible();
     expect(screen.getByRole('heading', { name: 'The gates open' })).toBeVisible();
     expect(screen.getByRole('link', { name: /War of the Shifting Sands/ })).toHaveAttribute('href', 'https://worldofwarcraft.blizzard.com/en-us/media/short-story/war-of-the-shifting-sands');
   });

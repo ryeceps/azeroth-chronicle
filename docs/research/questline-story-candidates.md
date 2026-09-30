@@ -19,6 +19,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 ### 01. The Scepter of the Shifting Sands
 
+**Implementation:** 22-scene research story with standalone era-style playback and AI narration. See the [production and source ledger](scepter-story-production.md). Original-client comparison, listening/pronunciation review and human lore approval remain gates for editorial promotion.
+
 **ID:** `scepter-of-the-shifting-sands` · **A** · **Reach:** both continents, several dungeons and raids, collective war effort.
 
 **Story spine:** the old seal and its cost → Anachronos and the memory of the war → three dragonflight shard trails → reforging the scepter alongside the war effort → opening the gates and confronting the threat. Develop Azuregos/Narain's search, Vaelastrasz's red-shard trail, and Eranikus's green-shard recovery as full acts with distinct motives and outcomes.

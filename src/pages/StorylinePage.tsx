@@ -24,10 +24,11 @@ export function StorylinePage() {
           <Link to="/storylines">Storylines</Link><span aria-hidden="true">/</span><span>{storyline.title}</span>
         </nav>
         <header className="storyline-page-header">
-          <p className="eyebrow">Long-form storyline · {storyline.contentStatus} preview</p>
+          <p className="eyebrow">Long-form storyline · {storyline.contentStatus} {storyline.storyGuideId ? 'story' : 'preview'}</p>
           <h1>{storyline.title}</h1>
           <p className="storyline-opening">{storyline.opening}</p>
           <p className="storyline-summary">{storyline.summary}</p>
+          {storyline.storyGuideId && primaryEra && <Link className="primary-link" to={`/map?era=${primaryEra.slug}&tour=storyline&storyline=${storyline.slug}`}>Experience this storyline</Link>}
           <div className="storyline-era-links" aria-label="Related eras">
             {storyline.eraIds.map((id) => {
               const era = eras.find((item) => item.id === id);
@@ -48,7 +49,7 @@ export function StorylinePage() {
                 <section id={chapter.id} className="storyline-chapter" key={chapter.id} aria-labelledby={`${chapter.id}-title`}>
                   <p className="eyebrow">Chapter {String(index + 1).padStart(2, '0')} · {era ? `Era ${era.order}` : 'Era under review'}</p>
                   <h2 id={`${chapter.id}-title`}>{chapter.title}</h2>
-                  <p>{chapter.body}</p>
+                  {chapter.body.split('\n\n').map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
                   {era && <Link className="storyline-chapter-era" to={`/eras/${era.slug}`}>Explore {era.name} <span aria-hidden="true">↗</span></Link>}
                 </section>
               );

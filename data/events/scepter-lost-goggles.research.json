@@ -1,0 +1,25 @@
+{
+  "id": "scepter-lost-goggles-event",
+  "kind": "event",
+  "name": "Blue shard — From Silverpine to Molten Core",
+  "slug": "scepter-lost-goggles",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "scepter-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Original WoW Scepter quest journey"
+  },
+  "summary": "Narain could not turn the ledger into a finished answer without further help. His missing scrying goggles led the seekers to Stewvul, his former friend, hiding in a crate near the Greymane Wall in Silverpine. Stewvul no longer had them: the search continued into Molten Core. Thus a quarrel between gnomes carried the greater quest beneath Blackrock Mountain. The equipment had to be recovered before Narain's work could proceed, binding an apparently small personal errand to the fate of the unopened gates.",
+  "participantEntityIds": [
+    "narain-soothfancy",
+    "stewvul",
+    "adventurers-of-azeroth"
+  ],
+  "sourceIds": [
+    "scepter-goggles"
+  ],
+  "claimIds": [
+    "scepter-lost-goggles-claim"
+  ],
+  "contentStatus": "research"
+}
