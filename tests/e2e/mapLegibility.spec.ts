@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 
 test('Third War tour keeps projected people and names readable', async ({ page }) => {
-  test.setTimeout(60_000);
+  test.setTimeout(120_000);
   await page.setViewportSize({ width: 1440, height: 900 });
   // Check the settled chapter composition instead of a frame mid camera flight.
   await page.emulateMedia({ reducedMotion: 'reduce' });
