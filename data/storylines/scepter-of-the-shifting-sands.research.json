@@ -1,0 +1,51 @@
+{
+  "id": "scepter-of-the-shifting-sands",
+  "title": "The Scepter of the Shifting Sands",
+  "primaryEraId": "age-of-adventurers",
+  "eraIds": [
+    "long-vigil-new-kingdoms",
+    "age-of-adventurers"
+  ],
+  "summary": "A shattered key to Ahn'Qiraj links an ancient night elf and dragonflight war to a later quest, a shared war effort, and the opening of the Scarab Wall.",
+  "opening": "A wall built to contain the qiraji outlived the war that raised it. A thousand years later, the danger behind that barrier brought rival peoples to Silithus, where the broken scepter had to be made whole before the gates could open.",
+  "sourceIds": [
+    "story-war-shifting-sands",
+    "story-classic-war-effort",
+    "story-ahnqiraj-raids"
+  ],
+  "reviewNote": "The ancient war belongs to Era 5, after the War of the Ancients; the Scepter quest and gate opening belong to Era 8. Capture original Classic quest text for the three shard branches and distinguish realm mechanics from historical claims.",
+  "chapters": [
+    {
+      "id": "the-first-war",
+      "eraId": "long-vigil-new-kingdoms",
+      "title": "The war that raised the wall",
+      "body": "Fandral Staghelm's night elves fought the qiraji and silithid across Silithus. The dragonflights joined the defense, yet the cost remained severe. At Ahn'Qiraj, Anachronos and the defenders sealed the city rather than end every danger inside it."
+    },
+    {
+      "id": "the-broken-key",
+      "eraId": "long-vigil-new-kingdoms",
+      "title": "The scepter is broken",
+      "body": "The barrier had a key: a scepter that could open the gates when struck against the gong. Fandral, grieving Valstann's death and rejecting the dragons' hollow victory, shattered it. The seal held, but a later generation would inherit both the threat and the broken means of facing it."
+    },
+    {
+      "id": "the-three-shards",
+      "eraId": "age-of-adventurers",
+      "title": "Three paths through dragonflight memory",
+      "body": "The later questline returns to Anachronos and follows green, red, and blue shard trails. Eranikus and the Nightmare, Vaelastrasz and Blackwing Lair, and Azuregos with Narain Soothfancy give the recovery three distinct theaters. The original quest dialogue must settle the exact order, motives, and outcomes of each branch."
+    },
+    {
+      "id": "the-war-effort",
+      "eraId": "age-of-adventurers",
+      "title": "A world gathers at Silithus",
+      "body": "Horde and Alliance communities supplied a vast campaign before the gates opened. This chapter should follow the shared scale of preparation without treating a particular realm's quotas, timing, or first player to ring the gong as universal history."
+    },
+    {
+      "id": "the-gong",
+      "eraId": "age-of-adventurers",
+      "title": "The gates open",
+      "body": "With the scepter restored, the gong could be struck and the seal opened. The ensuing battle led into the Ruins and Temple of Ahn'Qiraj, where the qiraji and C'Thun awaited. The raid's exact aftermath needs its own quest and instance review before this outline becomes a finished account."
+    }
+  ],
+  "slug": "scepter-of-the-shifting-sands",
+  "contentStatus": "research"
+}

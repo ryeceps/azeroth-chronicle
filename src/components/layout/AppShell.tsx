@@ -18,6 +18,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         {!landing && <div className="topbar-actions">
           <nav aria-label="Primary navigation">
             <NavLink to="/">Choose a tour</NavLink>
+            <NavLink to="/storylines">Storylines</NavLink>
             <NavLink to="/archive">Archive gallery</NavLink>
           </nav>
         </div>}

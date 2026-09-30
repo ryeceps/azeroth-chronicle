@@ -1,0 +1,18 @@
+{
+  "id": "thunder-king-returns",
+  "slug": "thunder-king-returns",
+  "title": "The Thunder King Returns",
+  "summary": "Lei Shen's ancient dominion and later return bring Zandalari forces, pandaren defenders, and both factions to the Isle of Thunder.",
+  "opening": "An empire long gone from Pandaria's present still cast a shadow. When Lei Shen returned, old power entered a new war.",
+  "primaryEraId": "age-of-adventurers",
+  "eraIds": ["ancient-civilizations", "age-of-adventurers"],
+  "chapters": [
+    { "id": "ancient-dominion", "eraId": "ancient-civilizations", "title": "The ancient dominion", "body": "Introduce Lei Shen's ancient rule and its consequence for Pandaria. This is a prologue, not the date of the modern Isle of Thunder campaign." },
+    { "id": "the-return", "eraId": "age-of-adventurers", "title": "The return", "body": "Investigate how Lei Shen's return becomes a crisis. Original quests must establish the mechanics and sequence before a finished chapter is written." },
+    { "id": "isle-of-thunder", "eraId": "age-of-adventurers", "title": "The Isle of Thunder", "body": "Follow the Zandalari, pandaren defenders, and Alliance and Horde efforts around the island while separating faction-specific quests from the shared account." },
+    { "id": "after-the-throne", "eraId": "age-of-adventurers", "title": "After the throne", "body": "Review the raid and campaign's outcome and ask what the end of Lei Shen's return changes for Pandaria's present." }
+  ],
+  "sourceIds": ["blizzard-thunder-king-portrait", "story-thunder-king-return"],
+  "reviewNote": "Verify the resurrection, faction campaign order, and raid aftermath against released quests, scenarios, and raid text. Do not merge Lei Shen's ancient reign with his later return.",
+  "contentStatus": "research"
+}

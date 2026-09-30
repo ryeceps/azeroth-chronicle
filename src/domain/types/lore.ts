@@ -12,6 +12,7 @@ export type GeographicCertainty = 'exact' | 'approximate' | 'inferred' | 'unknow
 export interface Source {
   id: EntityId;
   title: string;
+  url?: string;
   sourceType:
     | 'chronicle'
     | 'novel'
@@ -301,6 +302,28 @@ export interface StoryGuide {
   contentStatus: 'placeholder' | 'research' | 'reviewed' | 'published';
 }
 
+export interface StorylineChapter {
+  id: EntityId;
+  eraId: EntityId;
+  title: string;
+  body: string;
+}
+
+export interface Storyline {
+  id: EntityId;
+  slug: string;
+  title: string;
+  summary: string;
+  opening: string;
+  primaryEraId: EntityId;
+  eraIds: EntityId[];
+  chapters: StorylineChapter[];
+  sourceIds: EntityId[];
+  reviewNote: string;
+  storyGuideId?: EntityId;
+  contentStatus: 'placeholder' | 'research' | 'reviewed' | 'published';
+}
+
 export interface LoreDataset {
   worldspaces: Worldspace[];
   mapStates: MapState[];
@@ -318,4 +341,5 @@ export interface LoreDataset {
   relationships: Relationship[];
   storyGuides: StoryGuide[];
   storyNodes: StoryNode[];
+  storylines: Storyline[];
 }

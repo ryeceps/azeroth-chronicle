@@ -6,7 +6,7 @@ import { loadDataset } from '../../src/lib/lore/loadDataset';
 import { validateDatasetReferences } from '../../src/lib/lore/validateDataset';
 import { geometryIds, loadGeometry } from '../../src/lib/lore/loadGeometry';
 import { entityVisibleInEra } from '../../src/lib/lore/eraVisibility';
-import { mapStateSchema, spatialStateSchema } from '../../src/domain/schemas/loreSchemas';
+import { mapStateSchema, spatialStateSchema, storylineSchema } from '../../src/domain/schemas/loreSchemas';
 
 describe('lore dataset', () => {
   it('keeps Era 5 sites on the intended sides of the sea and in source-backed north-south order', () => {
@@ -70,6 +70,7 @@ describe('lore dataset', () => {
       ...data.campaigns,
       ...data.routes,
       ...data.storyGuides,
+      ...data.storylines,
     ];
     expect(records.every((record) => record.contentStatus === 'research')).toBe(true);
     expect(data.eras).toHaveLength(10);
@@ -815,6 +816,25 @@ describe('lore dataset', () => {
       expect(node.voiceover?.assetPath).toMatch(/^audio\/guided\/.+\.mp3$/);
       expect(node.voiceover?.durationMs).toBeGreaterThan(10_000);
     }
+  });
+
+  it('keeps the Scepter storyline connected to its actual eras and source leads', () => {
+    const data = loadDataset();
+    const scepter = data.storylines.find((item) => item.id === 'scepter-of-the-shifting-sands')!;
+    expect(data.storylines).toHaveLength(23);
+    expect(data.storylines.find((item) => item.id === 'suramar-nightwell-rebellion')?.eraIds)
+      .toEqual(['war-of-the-ancients', 'age-of-adventurers']);
+    expect(data.storylines.find((item) => item.id === 'beyond-the-dark-portal')?.eraIds)
+      .toEqual(['rise-of-the-horde', 'third-war-frozen-throne']);
+    expect(scepter.eraIds).toEqual(['long-vigil-new-kingdoms', 'age-of-adventurers']);
+    expect(scepter.chapters.map((chapter) => chapter.eraId)).toEqual([
+      'long-vigil-new-kingdoms', 'long-vigil-new-kingdoms',
+      'age-of-adventurers', 'age-of-adventurers', 'age-of-adventurers',
+    ]);
+    expect(scepter.sourceIds).toHaveLength(3);
+    expect(scepter.contentStatus).toBe('research');
+    expect(storylineSchema.safeParse({ ...scepter, primaryEraId: 'war-of-the-ancients' }).success).toBe(false);
+    expect(storylineSchema.safeParse({ ...scepter, chapters: [{ ...scepter.chapters[0], eraId: 'war-of-the-ancients' }, ...scepter.chapters.slice(1)] }).success).toBe(false);
   });
 
   it('keeps the refreshed Era 9 narration in the audio hash manifest', () => {

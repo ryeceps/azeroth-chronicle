@@ -18,6 +18,9 @@ export const staticLoreRepository: LoreRepository = {
   findEventBySlug: (slug) => dataset.events.find((event) => event.slug === slug),
   findStoryGuide: (id) => dataset.storyGuides.find((guide) => guide.id === id),
   findStoryNode: (id) => dataset.storyNodes.find((node) => node.id === id),
+  listStorylinesForEra: (eraId) => dataset.storylines.filter((storyline) => storyline.eraIds.includes(eraId)),
+  listStorylines: () => dataset.storylines,
+  findStorylineBySlug: (slug) => dataset.storylines.find((storyline) => storyline.slug === slug),
   getGeometry: loadGeometry,
   listEntitiesForEra: (eraId, sourceIds = []) => dataset.entities.filter((entity) =>
     entityVisibleInEra(entity, eraId, dataset.eras)

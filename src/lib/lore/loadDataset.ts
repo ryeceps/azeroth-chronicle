@@ -21,8 +21,9 @@ export function filterPublishedDataset(dataset: LoreDataset): LoreDataset {
   const routes = published(dataset.routes);
   const campaigns = published(dataset.campaigns);
   const storyGuides = published(dataset.storyGuides);
+  const storylines = published(dataset.storylines);
   const visibleIds = new Set([
-    ...eras, ...entities, ...events, ...battles, ...routes, ...campaigns, ...storyGuides,
+    ...eras, ...entities, ...events, ...battles, ...routes, ...campaigns, ...storyGuides, ...storylines,
   ].map((record) => record.id));
   const storyNodeIds = new Set(storyGuides.flatMap((guide) => guide.nodeIds));
   const storyNodes = dataset.storyNodes.filter((node) => storyNodeIds.has(node.id));
@@ -36,7 +37,7 @@ export function filterPublishedDataset(dataset: LoreDataset): LoreDataset {
   ]);
   const citations = dataset.citations.filter((citation) => citationIds.has(citation.id));
   const directlyReferencedSourceIds = [
-    ...eras, ...entities, ...events, ...battles, ...routes, ...campaigns,
+    ...eras, ...entities, ...events, ...battles, ...routes, ...campaigns, ...storylines,
   ].flatMap((record) => record.sourceIds);
   const sourceIds = new Set([...directlyReferencedSourceIds, ...citations.map((citation) => citation.sourceId)]);
   const mapStateIds = new Set([
@@ -67,5 +68,6 @@ export function filterPublishedDataset(dataset: LoreDataset): LoreDataset {
     relationships,
     storyGuides,
     storyNodes,
+    storylines,
   };
 }

@@ -32,6 +32,7 @@ export function validateDatasetReferences(
     dataset.relationships,
     dataset.storyGuides,
     dataset.storyNodes,
+    dataset.storylines,
   ];
   const ids = new Set<string>();
 
@@ -63,7 +64,7 @@ export function validateDatasetReferences(
   const relationshipIds = idSet(dataset.relationships);
   const guideIds = idSet(dataset.storyGuides);
   const nodeIds = idSet(dataset.storyNodes);
-  const subjectIds = new Set([...eraIds, ...entityIds, ...eventIds, ...battleIds, ...campaignIds]);
+  const subjectIds = new Set([...eraIds, ...entityIds, ...eventIds, ...battleIds, ...campaignIds, ...idSet(dataset.storylines)]);
 
   const slugs = new Set<string>();
   for (const record of [
@@ -73,6 +74,7 @@ export function validateDatasetReferences(
     ...dataset.entities,
     ...dataset.events,
     ...dataset.battles,
+    ...dataset.storylines,
   ]) {
     if (slugs.has(record.slug)) {
       issues.push({ code: 'duplicate-slug', path: record.id, message: `Duplicate slug: ${record.slug}` });
@@ -181,6 +183,14 @@ export function validateDatasetReferences(
   for (const guide of dataset.storyGuides) {
     requireFrom(guide.eraId, eraIds, `storyGuides.${guide.id}.eraId`, 'era');
     requireAllFrom(guide.nodeIds, nodeIds, `storyGuides.${guide.id}.nodeIds`, 'story node');
+  }
+  for (const storyline of dataset.storylines) {
+    requireFrom(storyline.primaryEraId, eraIds, `storylines.${storyline.id}.primaryEraId`, 'era');
+    requireAllFrom(storyline.eraIds, eraIds, `storylines.${storyline.id}.eraIds`, 'era');
+    requireFrom(storyline.storyGuideId, guideIds, `storylines.${storyline.id}.storyGuideId`, 'story guide');
+    requireSources(storyline.sourceIds, `storylines.${storyline.id}.sourceIds`);
+    storyline.chapters.forEach((chapter) =>
+      requireFrom(chapter.eraId, eraIds, `storylines.${storyline.id}.chapters.${chapter.id}.eraId`, 'era'));
   }
   for (const node of dataset.storyNodes) {
     requireFrom(node.guideId, guideIds, `storyNodes.${node.id}.guideId`, 'story guide');

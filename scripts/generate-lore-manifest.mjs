@@ -17,6 +17,7 @@ const collectionDirectories = {
   citations: 'citations',
   claims: 'claims',
   relationships: 'relationships',
+  storylines: 'storylines',
 };
 
 async function recordsIn(directory) {
@@ -57,6 +58,7 @@ const searchRecords = [
   ...manifest.events.map((record) => ({ ...record, recordType: 'event', path: `/events/${record.slug}`, description: record.summary })),
   ...manifest.battles.map((record) => ({ ...record, recordType: 'battle', path: `/battles/${record.slug}`, description: record.summary })),
   ...manifest.campaigns.map((record) => ({ ...record, recordType: 'campaign', path: `/eras/${erasById.get(record.eraId)?.slug ?? record.eraId}`, description: record.summary })),
+  ...manifest.storylines.map((record) => ({ ...record, name: record.title, recordType: 'storyline', eraId: record.primaryEraId, path: `/storylines/${record.slug}`, description: record.summary })),
 ];
 const searchIndex = searchRecords.map((record) => ({
   id: record.id,
@@ -65,6 +67,7 @@ const searchIndex = searchRecords.map((record) => ({
   slug: record.slug,
   path: record.path,
   eraId: record.eraId,
+  eraIds: record.eraIds,
   aliases: record.aliases ?? [],
   tags: record.tags ?? [],
   description: record.description,

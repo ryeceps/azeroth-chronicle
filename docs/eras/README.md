@@ -4,7 +4,7 @@
 
 This is the implementation and research backlog for the ten current navigation eras, beginning with the Cosmic Origins prologue. The era names and summaries are approved product taxonomy; every person, place, boundary, date, battle, route, outcome, and causal link listed below remains a **research candidate** until it has claim-level citations and human lore review. The cross-era [master lore backlog](../research/master-lore-backlog.md) collects additional candidate stories and first-party source leads.
 
-Application records live in `data/eras`. Each era owns a separate record in `data/map-states`, because the atlas must not imply that Azeroth had one permanent geography. Reviewed people and factions will live in `data/entities`; events and battles in `data/events` and `data/battles`; time-aware placements in `data/spatial-states`; routes and source geometry in `data/routes` and `data/geometry`; narrated sequences in `data/stories`.
+Application records live in `data/eras`. Each era owns a separate record in `data/map-states`, because the atlas must not imply that Azeroth had one permanent geography. Reviewed people and factions will live in `data/entities`; events and battles in `data/events` and `data/battles`; time-aware placements in `data/spatial-states`; routes and source geometry in `data/routes` and `data/geometry`; narrated sequences in `data/stories`. Cross-era storyline research outlines live in `data/storylines` and appear through the era-linked [storyline library](../../src/pages/StorylineLibraryPage.tsx).
 
 ## Build order and current state
 
@@ -18,7 +18,7 @@ Application records live in `data/eras`. Each era owns a separate record in `dat
 | 5 | `long-vigil-new-kingdoms` | Post-Sundering states, migrations, and borders | Public research-preview vertical slice implemented; human review pending |
 | 6 | `rise-of-the-horde` | Two worlds, the Dark Portal, and two wars | Public research-preview vertical slice implemented; human review pending |
 | 7 | `third-war-frozen-throne` | Multi-front collapse and the path to Icecrown | Public research-preview vertical slice implemented; human review pending |
-| 8 | `age-of-adventurers` | Many campaigns and repeated map-state changes | Era shell and empty map state |
+| 8 | `age-of-adventurers` | Many campaigns and repeated map-state changes | Source-linked research preview; human review pending |
 | 9 | `modern-cosmic-age` | Fourth War through the evolving Worldsoul Saga | Source-linked research preview through August 2026 |
 
 Build the eras in this order. Cosmic Origins through the First Two Wars now establish the reference patterns for relational cosmography, terrain eras, explicit before/after storytelling, long eras represented through political time slices, irreversible world-state transitions, inferred migrations, concurrent regional histories, and cross-world transitions without shared coordinates. Finish the publication gate for one era before beginning production terrain for the next; reusable engine improvements may continue across eras.

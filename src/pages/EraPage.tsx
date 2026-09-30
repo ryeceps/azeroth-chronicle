@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { staticLoreRepository } from '../domain/repositories/StaticLoreRepository';
 import { entityPath } from '../lib/lore/recordLinks';
+import { StorylineCard } from '../components/story/StorylineCard';
 
 export function EraPage() {
   const { slug = '' } = useParams();
@@ -18,6 +19,7 @@ export function EraPage() {
   });
   const entities = staticLoreRepository.listEntitiesForEra(era.id);
   const guide = era.storyGuideId ? staticLoreRepository.findStoryGuide(era.storyGuideId) : undefined;
+  const storylines = staticLoreRepository.listStorylinesForEra(era.id);
 
   return (
     <main className="document-page">
@@ -66,6 +68,17 @@ export function EraPage() {
           <p>{guide.description}</p>
         </section>
       )}
+      <section className="era-record-section">
+        <p className="eyebrow">Long-form histories · {storylines.length} {storylines.length === 1 ? 'storyline' : 'storylines'}</p>
+        <h2>Stories connected to this era</h2>
+        <p>Follow the longer arcs within this period and across the eras they touch. These chapter plans remain research previews.</p>
+        {storylines.length > 0 ? (
+          <div className="storyline-grid storyline-grid-in-era">
+            {storylines.map((storyline) => <StorylineCard key={storyline.id} storyline={storyline} eras={staticLoreRepository.listEras()} />)}
+          </div>
+        ) : <p>Long-form storylines for this era are still being researched.</p>}
+        <Link className="storyline-era-all-link" to={`/storylines?era=${era.slug}`}>Browse this era’s storylines <span aria-hidden="true">↗</span></Link>
+      </section>
       <Link className="primary-link" to={`/?era=${era.slug}`}>Choose this era’s tour</Link>
     </main>
   );

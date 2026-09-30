@@ -74,6 +74,7 @@ export function LandingPage() {
             </div>
           </div>
           <Link to="/archive">Browse the illustrated archive</Link>
+          <Link to="/storylines">Explore storylines by era</Link>
         </div>
       </section>
       <div className="landing-era-thread" aria-label="Current guided history coverage">
