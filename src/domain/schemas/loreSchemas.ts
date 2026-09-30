@@ -142,6 +142,7 @@ export const eraSchema = z.object({
 export const sourceSchema = z.object({
   id,
   title: z.string().min(1),
+  url: z.string().url().optional(),
   sourceType: z.enum(['chronicle', 'novel', 'quest', 'short_story', 'cinematic', 'manual', 'website', 'other']),
   volume: z.string().optional(),
   publicationDate: z.string().optional(),
@@ -280,6 +281,36 @@ export const storyGuideSchema = z.object({
   contentStatus,
 });
 
+export const storylineSchema = z.object({
+  id,
+  slug: id,
+  title: z.string().min(1),
+  summary: z.string().min(1),
+  opening: z.string().min(1),
+  primaryEraId: id,
+  eraIds: z.array(id).min(1),
+  chapters: z.array(z.object({ id, eraId: id, title: z.string().min(1), body: z.string().min(1) })).min(3),
+  sourceIds: z.array(id),
+  reviewNote: z.string().min(1),
+  storyGuideId: id.optional(),
+  contentStatus,
+}).superRefine((value, context) => {
+  if (!value.eraIds.includes(value.primaryEraId)) {
+    context.addIssue({ code: 'custom', message: 'Primary era must be one of the related eras.' });
+  }
+  if (new Set(value.eraIds).size !== value.eraIds.length) {
+    context.addIssue({ code: 'custom', message: 'Related eras must be unique.' });
+  }
+  if (new Set(value.chapters.map((chapter) => chapter.id)).size !== value.chapters.length) {
+    context.addIssue({ code: 'custom', message: 'Chapter IDs must be unique within a storyline.' });
+  }
+  value.chapters.forEach((chapter, index) => {
+    if (!value.eraIds.includes(chapter.eraId)) {
+      context.addIssue({ code: 'custom', path: ['chapters', index, 'eraId'], message: 'Chapter era must be a related era.' });
+    }
+  });
+});
+
 export const relationshipSchema = z.object({
   id,
   fromId: id,
@@ -328,4 +359,5 @@ export const loreDatasetSchema = z.object({
   relationships: z.array(relationshipSchema),
   storyGuides: z.array(storyGuideSchema),
   storyNodes: z.array(storyNodeSchema),
+  storylines: z.array(storylineSchema),
 });

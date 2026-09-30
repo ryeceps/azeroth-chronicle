@@ -339,6 +339,63 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .era-entity-links small { margin-left: 5px; color: var(--muted); text-transform: uppercase; }
 .document-page .dossier-grid { grid-template-columns: repeat(2, 1fr); margin-bottom: 28px; }
 .secondary-link { margin-right: 10px; color: var(--ink); background: transparent; }
+
+.storyline-library { flex: 1; width: min(1320px, 100%); margin: 0 auto; padding: clamp(38px, 5vw, 80px) clamp(20px, 4vw, 60px) 110px; }
+.storyline-library-hero { max-width: 850px; padding-bottom: 38px; }
+.storyline-library-hero h1, .storyline-page-header h1 { margin: 10px 0 22px; font: 600 clamp(38px, 5vw, 70px)/1.08 Cinzel, Cambria, Georgia, serif; letter-spacing: -.035em; text-wrap: balance; }
+.storyline-library-hero > p:not(.eyebrow) { max-width: 760px; color: #d4cbbd; font-size: clamp(15px, 1.5vw, 18px); line-height: 1.7; }
+.storyline-library-hero .storyline-research-label { margin-top: 25px; padding-left: 15px; border-left: 2px solid var(--gold); color: var(--muted) !important; font-size: 13px !important; }
+.storyline-era-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 20px 0 34px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.storyline-era-nav a { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 10px 14px; border: 1px solid var(--line); color: #d9ccae; background: rgba(15, 25, 32, .8); font-size: 12px; font-weight: 700; text-decoration: none; }
+.storyline-era-nav a:hover, .storyline-era-nav a.active { border-color: var(--gold); color: #f4dcaa; background: rgba(213, 169, 95, .15); }
+.storyline-era-nav small { color: var(--muted); font-size: 10px; }
+.storyline-library-results { margin-top: 36px; }
+.storyline-results-heading { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 20px; }
+.storyline-results-heading h2 { margin: 5px 0 0; font: 600 clamp(23px, 3vw, 34px)/1.25 Cinzel, Cambria, Georgia, serif; }
+.storyline-results-heading > span { flex: 0 0 auto; color: var(--muted); font-size: 12px; }
+.storyline-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 12px; }
+.storyline-card { display: flex; flex-direction: column; min-height: 230px; padding: 22px; border: 1px solid var(--line); color: var(--ink); background: linear-gradient(145deg, rgba(29, 43, 49, .95), rgba(11, 19, 26, .96)); box-shadow: inset 0 1px rgba(244, 220, 169, .06); text-decoration: none; transition: border-color .18s ease, transform .18s ease, background .18s ease; }
+.storyline-card:hover { transform: translateY(-3px); border-color: var(--gold); background: linear-gradient(145deg, rgba(42, 56, 57, .98), rgba(14, 24, 30, .98)); }
+.storyline-card-kicker { margin-bottom: 14px; color: var(--gold); font-size: 10px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+.storyline-card strong { font: 600 21px/1.24 Cinzel, Cambria, Georgia, serif; text-wrap: balance; }
+.storyline-card-summary { margin: 13px 0 22px; color: #bdb5a7; font-size: 13px; line-height: 1.55; }
+.storyline-card-bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; margin-top: auto; padding-top: 13px; border-top: 1px solid var(--line); color: #dfbd7c; font-size: 11px; font-weight: 600; }
+.storyline-empty { padding: 34px; border: 1px solid var(--line); background: var(--panel); }
+.storyline-empty h3 { margin: 0 0 8px; font: 600 20px Cinzel, Cambria, Georgia, serif; }
+.storyline-empty p { color: var(--muted); }
+.storyline-grid-in-era { margin: 22px 0; }
+.storyline-era-all-link { display: inline-block; margin: 8px 0 0; }
+
+.storyline-page { position: relative; isolation: isolate; flex: 1; min-height: 100vh; background: #080b10; }
+.storyline-page-atmosphere { position: absolute; z-index: -1; inset: 0 0 auto; height: min(820px, 110vh); background-position: center top; background-size: cover; opacity: .43; pointer-events: none; }
+.storyline-page-content { width: min(1300px, 100%); margin: 0 auto; padding: 28px clamp(20px, 4vw, 60px) 120px; }
+.storyline-breadcrumbs { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; min-height: 44px; color: var(--muted); font-size: 12px; }
+.storyline-breadcrumbs a { text-underline-offset: 4px; }
+.storyline-page-header { max-width: 950px; padding: clamp(38px, 7vw, 100px) 0 58px; text-shadow: 0 2px 16px #05080b; }
+.storyline-page-header h1 { font-size: clamp(43px, 6vw, 82px); }
+.storyline-opening { max-width: 830px; color: #eee0c7; font: 400 clamp(20px, 2.5vw, 29px)/1.45 Georgia, Cambria, serif; }
+.storyline-summary { max-width: 740px; color: #c0b8aa; font-size: 15px; line-height: 1.7; }
+.storyline-era-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 34px; }
+.storyline-era-links a { display: grid; gap: 5px; min-width: 200px; padding: 14px 16px; border: 1px solid rgba(213,169,95,.5); color: #f0e0bd; background: rgba(8, 15, 20, .82); font: 600 14px Cinzel, Cambria, Georgia, serif; text-decoration: none; }
+.storyline-era-links a:hover { border-color: #f4d8a1; background: rgba(32, 40, 41, .92); }
+.storyline-era-links small, .storyline-era-links span { color: var(--gold); font: 700 10px Inter, Segoe UI, system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+.storyline-era-links span { color: var(--muted); }
+.storyline-reading-layout { display: grid; grid-template-columns: minmax(190px, 250px) minmax(0, 730px); gap: clamp(30px, 6vw, 92px); align-items: start; padding-top: 32px; border-top: 1px solid var(--line); }
+.storyline-chapter-nav { position: sticky; top: 28px; padding: 18px 0; }
+.storyline-chapter-nav ol { display: grid; gap: 2px; margin: 12px 0 0; padding: 0; list-style: none; }
+.storyline-chapter-nav a { display: flex; gap: 11px; min-height: 42px; align-items: center; padding: 7px 9px; border-left: 1px solid var(--line); color: #cbc3b6; font-size: 12px; line-height: 1.45; text-decoration: none; }
+.storyline-chapter-nav a:hover { border-left-color: var(--gold); color: #fff0cf; background: rgba(213,169,95,.08); }
+.storyline-chapter-nav small { color: var(--gold); font-size: 10px; }
+.storyline-chapter { scroll-margin-top: 32px; padding: 25px 0 54px; border-bottom: 1px solid var(--line); }
+.storyline-chapter h2, .storyline-source-section h2 { margin: 10px 0 20px; font: 600 clamp(27px, 3vw, 40px)/1.2 Cinzel, Cambria, Georgia, serif; text-wrap: balance; }
+.storyline-chapter > p:not(.eyebrow), .storyline-source-section > p:not(.eyebrow) { max-width: 65ch; color: #d1c8ba; font: 17px/1.8 Georgia, Cambria, serif; }
+.storyline-chapter-era { display: inline-block; margin-top: 8px; font-size: 12px; text-underline-offset: 4px; }
+.storyline-source-section { padding: 56px 0 36px; }
+.storyline-source-section h3 { margin: 28px 0 8px; color: var(--gold); font: 600 14px Cinzel, Cambria, Georgia, serif; }
+.storyline-source-section ul { display: grid; gap: 8px; padding-left: 19px; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.storyline-end-links { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
+.storyline-end-links .primary-link { margin: 0; }
+
 .footer { min-height: 42px; display: block; padding: 10px 20px; border-top: 1px solid var(--line); color: #85857b; background: #07090d; font-size: 10px; line-height: 1.5; letter-spacing: .03em; text-align: center; }
 .footer strong { color: #b5ad9d; }
 
@@ -354,6 +411,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 }
 
 @media (max-width: 900px) {
+  .storyline-reading-layout { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .storyline-chapter-nav { position: static; padding: 0 0 20px; border-bottom: 1px solid var(--line); }
+  .storyline-chapter-nav ol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .topbar {
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
@@ -389,6 +449,19 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 }
 
 @media (max-width: 680px) {
+  .storyline-library { padding: 34px 16px 80px; }
+  .storyline-library-hero { padding-bottom: 22px; }
+  .storyline-library-hero h1 { font-size: clamp(35px, 10vw, 52px); }
+  .storyline-era-nav { gap: 6px; padding: 15px 0 22px; }
+  .storyline-era-nav a { min-width: 68px; justify-content: center; padding: 8px 10px; }
+  .storyline-results-heading { align-items: start; }
+  .storyline-card { min-height: 0; }
+  .storyline-page-content { padding: 16px 18px 80px; }
+  .storyline-page-header { padding: 40px 0 46px; }
+  .storyline-page-header h1 { font-size: clamp(40px, 11vw, 60px); }
+  .storyline-era-links a { flex: 1 1 170px; min-width: 0; }
+  .storyline-chapter-nav ol { grid-template-columns: 1fr; }
+  .storyline-chapter { padding-bottom: 38px; }
   .story-overlay { top: 56px; bottom: 8px; display: flex; align-items: flex-end; max-height: none; overflow: hidden; pointer-events: none; }
   .story-overlay .story-card { display: flex; flex-direction: column; width: 100%; max-height: min(390px, 100%); min-height: 0; pointer-events: auto; }
   .story-overlay .story-card > p:not(.eyebrow) { flex: 1; min-height: 0; overflow-y: auto; margin: 4px 0 10px; padding-right: 5px; }

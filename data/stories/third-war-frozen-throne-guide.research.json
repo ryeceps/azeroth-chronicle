@@ -29,7 +29,7 @@
       "narration": "The Second War ended at a broken gate, yet its consequences endured in camps, ruined houses, and children raised beneath another people's watch. From among the interned orcs, Thrall gathered those willing to seek a future unlike the Old Horde's conquest. Liberation did not erase the blood behind them. It opened a harder question: what might a people become when the purpose imposed upon them was no longer their only road?",
       "durationMs": 66000,
       "voiceover":{"assetPath":"audio/guided/third-war-frozen-throne-guided-history/third-war-story-after-the-camps.mp3","durationMs":28350,"voiceId":"kokoro-bm-lewis","aiGenerated":true}, "eventIds": ["thrall-liberates-interned-orcs"], "entityIds": ["thrall", "new-horde"], "optionalExploreEntityIds": ["thrall", "new-horde"],
-      "camera": { "position": [2.5, 7.1, 6.3], "target": [1.8, 0, 0], "durationMs": 1200 },
+      "camera": { "position": [-3.1, 6.4, 5.0], "target": [-3.35, 0, -0.7], "durationMs": 1200 },
       "visualActions": [{ "type": "set_map_state", "mapStateId": "third-war-northern-crisis-map-research" }, { "type": "highlight_entity", "entityId": "thrall" }, { "type": "show_relationships", "relationshipIds": ["second-war-aftermath-precedes-third-war", "thrall-liberation-causes-westward-passage"] }],
       "nextNodeIds": ["third-war-story-grain-and-shadow"]
     },
@@ -83,7 +83,7 @@
       "narration": "The Scourge had not been raised for conquest alone. Through the devastation of the north, the way opened for Archimonde and the Burning Legion to enter Azeroth once more. Kingdoms had been made into preparation; the undead host became the road by which an older enemy returned. Yet the Legion's victory in the east did not complete its purpose. Far across the sea stood Kalimdor, Mount Hyjal, and Nordrassil—the next height toward which the invasion bent.",
       "durationMs": 66000,
       "voiceover":{"assetPath":"audio/guided/third-war-frozen-throne-guided-history/third-war-story-legion-returns.mp3","durationMs":29450,"voiceId":"kokoro-bm-lewis","aiGenerated":true}, "eventIds": ["archimonde-is-summoned"], "entityIds": ["archimonde", "burning-legion", "scourge"], "optionalExploreEntityIds": ["archimonde", "burning-legion", "scourge"],
-      "camera": { "position": [2.2, 7.0, 6.2], "target": [1.4, 0, 0], "durationMs": 1200 },
+      "camera": { "position": [0.3, 7.0, 6.2], "target": [0, 0, 0], "durationMs": 1200 },
       "visualActions": [{ "type": "show_relationships", "relationshipIds": ["scourge-campaign-enables-legion-return", "legion-return-causes-hyjal-defense"] }, { "type": "highlight_entity", "entityId": "archimonde" }],
       "previousNodeId": "third-war-story-sunwell-darkens", "nextNodeIds": ["third-war-story-westward-crossing"]
     },

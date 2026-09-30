@@ -7,6 +7,8 @@ import { EraPage, NotFound } from '../pages/EraPage';
 import { EntityPage } from '../pages/EntityPage';
 import { EventPage } from '../pages/EventPage';
 import { LandingPage } from '../pages/LandingPage';
+import { StorylineLibraryPage } from '../pages/StorylineLibraryPage';
+import { StorylinePage } from '../pages/StorylinePage';
 
 const MapPage = lazy(() => import('../pages/MapPage').then((module) => ({ default: module.MapPage })));
 const ArchiveGalleryPage = lazy(() => import('../pages/ArchiveGalleryPage').then((module) => ({ default: module.ArchiveGalleryPage })));
@@ -26,6 +28,8 @@ export function App() {
           )}
         />
         <Route path="/eras/:slug" element={<EraPage />} />
+        <Route path="/storylines" element={<StorylineLibraryPage />} />
+        <Route path="/storylines/:slug" element={<StorylinePage />} />
         <Route
           path="/archive"
           element={(
