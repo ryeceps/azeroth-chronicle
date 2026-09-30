@@ -13,8 +13,11 @@ async function expectIllustratedScene(page: Page, title: string, index: number, 
     return image.complete && image.naturalWidth >= 512 && image.naturalHeight >= 512
       && !image.currentSrc.endsWith('.svg');
   })), { message: `Environment and illustrated cast actually load in ${title}` }).toBe(true);
-  // Retain every scene for visual review, including changed destinations and crowded casts.
-  await page.screenshot({ path: `output/scepter-visual-review/${profile}-${String(index + 1).padStart(2, '0')}.png` });
+  // Full local contact sheets support human visual review. CI still verifies every
+  // image and scene, but repeated large WebGL captures can exhaust its CPU budget.
+  if (!process.env.CI) {
+    await page.screenshot({ path: `output/scepter-visual-review/${profile}-${String(index + 1).padStart(2, '0')}.png` });
+  }
 }
 
 test('Scepter playback traverses every scene and returns to its reading page', async ({ page }) => {
