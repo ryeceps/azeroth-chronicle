@@ -3,8 +3,11 @@ import { expect, test } from '@playwright/test';
 test('Third War tour keeps projected people and names readable', async ({ page }) => {
   test.setTimeout(60_000);
   await page.setViewportSize({ width: 1440, height: 900 });
+  // Check the settled chapter composition instead of a frame mid camera flight.
+  await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('/map?era=third-war-frozen-throne&tour=full');
   await expect(page.locator('.story-card h2')).toHaveText('The defeated inherit another beginning');
+  await expect(page.locator('.map-character-figure, .map-subject-visual')).toHaveCount(2);
   for (let step = 0; step < 15; step += 1) {
     await page.waitForTimeout(900);
     const heading = await page.locator('.story-card h2').textContent();
@@ -17,6 +20,16 @@ test('Third War tour keeps projected people and names readable', async ({ page }
         label: label ? { x: label.x, y: label.y, width: label.width, height: label.height } : null,
       };
     }));
+    if (step === 0) {
+      const viewport = await page.locator('.map-viewport').boundingBox();
+      expect(viewport).not.toBeNull();
+      for (const figure of figures) {
+        expect(figure.box.x + figure.box.width / 2, `${figure.name} appears in the scene`).toBeGreaterThan(viewport!.x);
+        expect(figure.box.x + figure.box.width / 2, `${figure.name} appears in the scene`).toBeLessThan(viewport!.x + viewport!.width);
+        expect(figure.box.y + figure.box.height / 2, `${figure.name} appears in the scene`).toBeGreaterThan(viewport!.y);
+        expect(figure.box.y + figure.box.height / 2, `${figure.name} appears in the scene`).toBeLessThan(viewport!.y + viewport!.height);
+      }
+    }
     const collisions: string[] = [];
     for (let i = 0; i < figures.length; i += 1) {
       for (let j = i + 1; j < figures.length; j += 1) {
