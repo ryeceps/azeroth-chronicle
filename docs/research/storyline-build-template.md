@@ -76,6 +76,18 @@ For mutually exclusive variants, preserve viewpoint explicitly. Never imply one 
 
 ## 5. Plan the atlas scenes and cast
 
+**Environmental images and character images are pivotal to understanding a storyline, and are required production assets.** Match the illustrated era tours in visual quality as well as layout and prose. A complete transcript with generic silhouettes, geometric icons, flat gradients, or empty scenery does not meet the complete-story gate.
+
+Before building the nodes, inventory the actual image assets for every scene:
+
+- **Environment:** provide a substantial, recognizable illustrated landscape or interior for every node. Show the relevant desert, forest, coast, settlement, dungeon, raid, or historical setting. Change the environment when the destination or historical situation materially changes; reuse only when the setting and period match. A broad interpretive scene must not imply an exact surveyed location or instance layout.
+- **Characters and embodied groups:** every principal named actor and significant group needs a distinct, recognizable illustrated portrait, creature cutout, or ensemble, visible during its relevant beat. Match the era art's detail, lighting and readability. Use transparent cutouts for the existing figure renderer; preserve labels and accompanying text. A name beside a generic marker or repeated silhouette is insufficient.
+- **Artifacts and pivotal objects:** illustrate objects such as the Scepter when they drive the action. They supplement the setting and cast rather than replacing either.
+- **Asset record:** record node IDs, environment path, actor IDs and image paths, creation/reuse provenance, prompt or lawful origin, interpretive limitations, and visual review status. Wire these repository-backed assets into MapState and entity visual fields through the existing engine. An image saved on disk but absent from the rendered scene is unfinished.
+- **Scene composition:** frame environment and cast together at readable sizes. Keep faces, creature silhouettes, names and important setting details clear of the transcript and controls on desktop and phone. Do not add unsupported visual events or claim a generated costume or architectural detail as canonical evidence.
+
+Use the same original raster illustration workflow as the eras where new art is needed; do not substitute hand-coded vector stand-ins to declare the story complete. Reuse era imagery only when its subject and historical state fit. Keep generation provenance and prompts in the production ledger, optimize assets for the static site, and retain genuine transparency. Human lore and visual review still gate publication.
+
 | Node | Historical action and result | Era/map state/worldspace | Cast and representation | Camera | Highlighted records | Visual actions | Provenance/uncertainty | Entry/exit state |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `<story-id>-<beat>` | One supported visible change | Existing IDs or justified new state | Deliberate actor art and accessible text | Supported regional framing | Entity/event/battle/location IDs | Existing interpreter actions | Claim/citation IDs | Deterministic scene state |
@@ -128,5 +140,7 @@ pnpm build
 ```
 
 Add focused tests for any changed schema, repository selector, route context or story behavior. Validate the whole narrative traversal, cross-record links, scene cleanup, media references, keyboard/reduced motion, text without WebGL, and direct-link return to the correct era. Inspect desktop and compact layouts using the existing browser coverage. Do not add implementation-mirroring tests for a documentation-only packet.
+
+**Required visual gate:** traverse every node in the built application on desktop and phone. Verify that its environmental image actually renders and that every required character/group/object image loads, remains recognizable, fits the viewport, and avoids material overlap with other figures or the transcript. Capture representative desert, indoor/raid, forest, coast and crowded-cast scenes and compare their quality with a completed era tour. Successful file existence checks or image load counts alone are not visual approval. Missing, placeholder-like, stale or unsuitable images block the `complete research story` label; record the specific gap and finish the imagery before claiming completion.
 
 **Completion labels:** candidate = source leads; research packet = captured evidence and unresolved claims; preview = visible outline; complete research story = full transcript, records, required visuals, navigation and requested audio verified; reviewed/published = explicit human approval. Opening a PR does not change these labels. In the PR, state the exact label, content/engine split, verification and remaining review work.
