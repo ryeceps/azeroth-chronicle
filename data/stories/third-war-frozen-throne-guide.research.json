@@ -83,7 +83,7 @@
       "narration": "The Scourge had not been raised for conquest alone. Through the devastation of the north, the way opened for Archimonde and the Burning Legion to enter Azeroth once more. Kingdoms had been made into preparation; the undead host became the road by which an older enemy returned. Yet the Legion's victory in the east did not complete its purpose. Far across the sea stood Kalimdor, Mount Hyjal, and Nordrassil—the next height toward which the invasion bent.",
       "durationMs": 66000,
       "voiceover":{"assetPath":"audio/guided/third-war-frozen-throne-guided-history/third-war-story-legion-returns.mp3","durationMs":29450,"voiceId":"kokoro-bm-lewis","aiGenerated":true}, "eventIds": ["archimonde-is-summoned"], "entityIds": ["archimonde", "burning-legion", "scourge"], "optionalExploreEntityIds": ["archimonde", "burning-legion", "scourge"],
-      "camera": { "position": [2.2, 7.0, 6.2], "target": [1.4, 0, 0], "durationMs": 1200 },
+      "camera": { "position": [0.3, 7.0, 6.2], "target": [0, 0, 0], "durationMs": 1200 },
       "visualActions": [{ "type": "show_relationships", "relationshipIds": ["scourge-campaign-enables-legion-return", "legion-return-causes-hyjal-defense"] }, { "type": "highlight_entity", "entityId": "archimonde" }],
       "previousNodeId": "third-war-story-sunwell-darkens", "nextNodeIds": ["third-war-story-westward-crossing"]
     },

@@ -20,7 +20,7 @@ test('Third War tour keeps projected people and names readable', async ({ page }
         label: label ? { x: label.x, y: label.y, width: label.width, height: label.height } : null,
       };
     }));
-    if (step === 0) {
+    if (step === 0 || step === 6) {
       const viewport = await page.locator('.map-viewport').boundingBox();
       expect(viewport).not.toBeNull();
       for (const figure of figures) {
