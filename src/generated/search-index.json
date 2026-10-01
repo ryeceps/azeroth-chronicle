@@ -27,7 +27,15 @@
       "dungeon-set-two-anthion-quest-text",
       "dungeon-set-two-brazier-manual",
       "dungeon-set-two-veiled-blade-locator",
-      "dungeon-set-two-valtalak-quest-text"
+      "dungeon-set-two-valtalak-quest-text",
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators",
+      "karazhan-entry-quest-text",
+      "karazhan-fragment-quest-text",
+      "karazhan-masters-touch-quest-text",
+      "karazhan-journal-and-nightbane-quest-chain",
+      "karazhan-atiesh-visual-reference",
+      "karazhan-kalynnas-request-quest-text"
     ],
     "contentStatus": "research"
   },
@@ -477,6 +485,44 @@
     "contentStatus": "research"
   },
   {
+    "id": "arcanagos",
+    "type": "entity",
+    "name": "Arcanagos",
+    "slug": "arcanagos",
+    "path": "/locations/arcanagos",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Arcanagos, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain",
+      "karazhan-atiesh-visual-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "arcatraz",
+    "type": "entity",
+    "name": "The Arcatraz",
+    "slug": "arcatraz",
+    "path": "/locations/arcatraz",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "The Arcatraz, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-fragment-quest-text",
+      "karazhan-official-attunement-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "archimonde",
     "type": "entity",
     "name": "Archimonde",
@@ -494,6 +540,63 @@
       "warcraft-chronicle-volume-3",
       "blizzard-warcraft-iii-story-so-far",
       "blizzard-mount-hyjal-history"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "archmage-alturus",
+    "type": "entity",
+    "name": "Archmage Alturus",
+    "slug": "archmage-alturus",
+    "path": "/locations/archmage-alturus",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Archmage Alturus, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators",
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "archmage-cedric",
+    "type": "entity",
+    "name": "Archmage Cedric",
+    "slug": "archmage-cedric",
+    "path": "/locations/archmage-cedric",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Archmage Cedric, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "area-52-netherstorm",
+    "type": "entity",
+    "name": "Area 52, Netherstorm",
+    "slug": "area-52-netherstorm",
+    "path": "/locations/area-52-netherstorm",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Area 52, Netherstorm, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
     ],
     "contentStatus": "research"
   },
@@ -655,6 +758,43 @@
     "contentStatus": "research"
   },
   {
+    "id": "black-morass",
+    "type": "entity",
+    "name": "The Black Morass, a historical memory",
+    "slug": "black-morass",
+    "path": "/locations/black-morass",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "The Black Morass, a historical memory, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-masters-touch-quest-text",
+      "karazhan-official-attunement-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "blackened-urn",
+    "type": "entity",
+    "name": "Blackened Urn",
+    "slug": "blackened-urn",
+    "path": "/locations/blackened-urn",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Blackened Urn, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "blackhand",
     "type": "entity",
     "name": "Blackhand",
@@ -796,6 +936,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "charred-bone-fragment",
+    "type": "entity",
+    "name": "Charred Bone Fragment",
+    "slug": "charred-bone-fragment",
+    "path": "/locations/charred-bone-fragment",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Charred Bone Fragment, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain",
+      "karazhan-kalynnas-request-quest-text"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "class-orders",
     "type": "entity",
     "name": "The Class Orders",
@@ -876,6 +1035,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "dalaran-crater",
+    "type": "entity",
+    "name": "Dalaran Crater",
+    "slug": "dalaran-crater",
+    "path": "/locations/dalaran-crater",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Dalaran Crater, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "dark-portal",
     "type": "entity",
     "name": "The Dark Portal",
@@ -930,6 +1108,43 @@
     "description": "The Highborne leader associated with the exile from Kalimdor and the founding of Quel'Thalas.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "deadwind-charred-bone-site",
+    "type": "entity",
+    "name": "Mountains south of Karazhan",
+    "slug": "deadwind-charred-bone-site",
+    "path": "/locations/deadwind-charred-bone-site",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Mountains south of Karazhan, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "deadwind-pass-karazhan",
+    "type": "entity",
+    "name": "Deadwind Pass and Karazhan",
+    "slug": "deadwind-pass-karazhan",
+    "path": "/locations/deadwind-pass-karazhan",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Deadwind Pass and Karazhan, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators"
     ],
     "contentStatus": "research"
   },
@@ -1438,6 +1653,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "gradav",
+    "type": "entity",
+    "name": "Gradav",
+    "slug": "gradav",
+    "path": "/locations/gradav",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Gradav, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "great-dark-beyond",
     "type": "entity",
     "name": "The Great Dark Beyond",
@@ -1836,6 +2069,43 @@
     "contentStatus": "research"
   },
   {
+    "id": "kalynna-lathred",
+    "type": "entity",
+    "name": "Kalynna Lathred",
+    "slug": "kalynna-lathred",
+    "path": "/locations/kalynna-lathred",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Kalynna Lathred, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain",
+      "karazhan-kalynnas-request-quest-text"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "kamsis",
+    "type": "entity",
+    "name": "Kamsis",
+    "slug": "kamsis",
+    "path": "/locations/kamsis",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Kamsis, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "kang",
     "type": "entity",
     "name": "Kang",
@@ -1851,6 +2121,79 @@
     "description": "The pandaren teacher associated with the unarmed discipline that helped turn resistance to the mogu into a wider revolution.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-great-hall",
+    "type": "entity",
+    "name": "Karazhan’s great hall",
+    "slug": "karazhan-great-hall",
+    "path": "/locations/karazhan-great-hall",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Karazhan’s great hall, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-guardian-library",
+    "type": "entity",
+    "name": "Karazhan’s Guardian’s Library",
+    "slug": "karazhan-guardian-library",
+    "path": "/locations/karazhan-guardian-library",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Karazhan’s Guardian’s Library, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-cellar",
+    "type": "entity",
+    "name": "The Master’s Cellar",
+    "slug": "karazhan-masters-cellar",
+    "path": "/locations/karazhan-masters-cellar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "The Master’s Cellar, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-key-quest-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-terrace",
+    "type": "entity",
+    "name": "Karazhan’s Master’s Terrace",
+    "slug": "karazhan-masters-terrace",
+    "path": "/locations/karazhan-masters-terrace",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Karazhan’s Master’s Terrace, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain",
+      "karazhan-atiesh-visual-reference"
     ],
     "contentStatus": "research"
   },
@@ -1949,6 +2292,28 @@
     "sourceIds": [
       "warcraft-chronicle-volume-3",
       "blizzard-warcraft-iii-story-so-far"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "khadgar",
+    "type": "entity",
+    "name": "Khadgar",
+    "slug": "khadgar",
+    "path": "/locations/khadgar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Khadgar, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators",
+      "karazhan-entry-quest-text",
+      "karazhan-fragment-quest-text",
+      "karazhan-masters-touch-quest-text"
     ],
     "contentStatus": "research"
   },
@@ -2222,6 +2587,47 @@
     "contentStatus": "research"
   },
   {
+    "id": "masters-key-fragments",
+    "type": "entity",
+    "name": "The Master’s Key fragments",
+    "slug": "masters-key-fragments",
+    "path": "/locations/masters-key-fragments",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "The Master’s Key fragments, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators",
+      "karazhan-entry-quest-text",
+      "karazhan-fragment-quest-text"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "masters-key",
+    "type": "entity",
+    "name": "The Master’s Key",
+    "slug": "masters-key",
+    "path": "/locations/masters-key",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "The Master’s Key, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-masters-touch-quest-text",
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "maws",
     "type": "entity",
     "name": "Maws",
@@ -2252,11 +2658,36 @@
     "tags": [
       "guardian",
       "dark-portal",
-      "first-war"
+      "first-war",
+      "atiesh",
+      "karazhan-story"
     ],
     "description": "The Guardian of Tirisfal whose corruption and contact with Gul'dan enabled the Dark Portal and the invasion of Azeroth.",
     "sourceIds": [
-      "warcraft-chronicle-volume-2"
+      "warcraft-chronicle-volume-2",
+      "karazhan-masters-touch-quest-text",
+      "karazhan-official-attunement-overview",
+      "karazhan-journal-and-nightbane-quest-chain",
+      "karazhan-atiesh-visual-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "medivhs-journal",
+    "type": "entity",
+    "name": "Medivh’s Journal",
+    "slug": "medivhs-journal",
+    "path": "/locations/medivhs-journal",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Medivh’s Journal, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain",
+      "karazhan-atiesh-visual-reference"
     ],
     "contentStatus": "research"
   },
@@ -2498,6 +2929,24 @@
     "description": "Kaldorei defenders and allied peoples who opposed Azshara's court and the Burning Legion during the War of the Ancients.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "nightbane",
+    "type": "entity",
+    "name": "Nightbane",
+    "slug": "nightbane",
+    "path": "/locations/nightbane",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Nightbane, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
     ],
     "contentStatus": "research"
   },
@@ -2907,6 +3356,22 @@
     "contentStatus": "research"
   },
   {
+    "id": "sethekk-halls",
+    "type": "entity",
+    "name": "Sethekk Halls",
+    "slug": "sethekk-halls",
+    "path": "/locations/sethekk-halls",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Sethekk Halls, a named setting in the Karazhan research story.",
+    "sourceIds": [],
+    "contentStatus": "research"
+  },
+  {
     "id": "seven-human-kingdoms",
     "type": "entity",
     "name": "The Seven Human Kingdoms",
@@ -2926,6 +3391,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "shade-of-aran",
+    "type": "entity",
+    "name": "Shade of Aran",
+    "slug": "shade-of-aran",
+    "path": "/locations/shade-of-aran",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Shade of Aran, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "shadow-council",
     "type": "entity",
     "name": "The Shadow Council",
@@ -2941,6 +3424,25 @@
     "description": "Gul'dan's concealed circle of warlocks and agents, created to steer the Horde behind its visible warchief.",
     "sourceIds": [
       "warcraft-chronicle-volume-2"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shadow-labyrinth",
+    "type": "entity",
+    "name": "Shadow Labyrinth",
+    "slug": "shadow-labyrinth",
+    "path": "/locations/shadow-labyrinth",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Shadow Labyrinth, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-entry-quest-text",
+      "karazhan-official-attunement-overview"
     ],
     "contentStatus": "research"
   },
@@ -2982,6 +3484,44 @@
     "contentStatus": "research"
   },
   {
+    "id": "shattered-halls",
+    "type": "entity",
+    "name": "Shattered Halls",
+    "slug": "shattered-halls",
+    "path": "/locations/shattered-halls",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Shattered Halls, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-kalynnas-request-quest-text"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattrath-city",
+    "type": "entity",
+    "name": "Shattrath City",
+    "slug": "shattrath-city",
+    "path": "/locations/shattrath-city",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Shattrath City, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators",
+      "karazhan-entry-quest-text"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "shattrath-draenor",
     "type": "entity",
     "name": "Shattrath",
@@ -3017,6 +3557,24 @@
     "sourceIds": [
       "dungeon-set-two-brazier-manual",
       "dungeon-set-two-veiled-blade-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "steamvault",
+    "type": "entity",
+    "name": "The Steamvault",
+    "slug": "steamvault",
+    "path": "/locations/steamvault",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "The Steamvault, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-fragment-quest-text"
     ],
     "contentStatus": "research"
   },
@@ -3443,6 +4001,62 @@
     "contentStatus": "research"
   },
   {
+    "id": "violet-eye-agents",
+    "type": "entity",
+    "name": "Violet Eye journal investigators",
+    "slug": "violet-eye-agents",
+    "path": "/factions/violet-eye-agents",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Violet Eye journal investigators, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators",
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "violet-eye-field-camp",
+    "type": "entity",
+    "name": "Violet Eye field camp",
+    "slug": "violet-eye-field-camp",
+    "path": "/locations/violet-eye-field-camp",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "burning-crusade-location"
+    ],
+    "description": "Violet Eye field camp, a named setting in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "violet-scrying-crystal",
+    "type": "entity",
+    "name": "Violet Scrying Crystal",
+    "slug": "violet-scrying-crystal",
+    "path": "/locations/violet-scrying-crystal",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Violet Scrying Crystal, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-key-quest-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "void-lords",
     "type": "entity",
     "name": "The Void Lords",
@@ -3518,6 +4132,24 @@
     "description": "Mysterious titan spirits that can form within some worlds and awaken after ages of growth.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wravien",
+    "type": "entity",
+    "name": "Wravien",
+    "slug": "wravien",
+    "path": "/locations/wravien",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "karazhan-story",
+      "interpretive-art"
+    ],
+    "description": "Wravien, represented in the Karazhan research story.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
     ],
     "contentStatus": "research"
   },
@@ -4656,6 +5288,284 @@
     "description": "Changed by long proximity to the Well, the emerging kaldorei mastered arcane power, built cities, and expanded across Kalimdor.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-a-key-in-three-pieces-event",
+    "type": "event",
+    "name": "A key in three pieces",
+    "slug": "karazhan-masters-key-and-nightbane-a-key-in-three-pieces",
+    "path": "/events/karazhan-masters-key-and-nightbane-a-key-in-three-pieces",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Khadgar explains that, while stranded in Outland, he split his key into three and hid the pieces inside enchanted containers. The places seemed safe when he chose them; Outland has changed since then. His explanation gives the search its shape, but not a single road: each fragment lies in a separate dungeon, and each location reflects a world now fought over by new powers.",
+    "sourceIds": [
+      "karazhan-entry-quest-text"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-beneath-the-tower-event",
+    "type": "event",
+    "name": "Beneath the sealed tower",
+    "slug": "karazhan-masters-key-and-nightbane-beneath-the-tower",
+    "path": "/events/karazhan-masters-key-and-nightbane-beneath-the-tower",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Alturus gives the seeker a Violet Scrying Crystal and asks for readings from underground water in the Master’s Cellar. In the quest’s report, the expected arcane currents are absent: the tower registers as a vast energy vacuum, with only a faint demonic echo. That phrase is Alturus’s reading of the crystal, not a confirmed identity for the presence. The cellar returns a warning, but not yet an answer.",
+    "sourceIds": [
+      "karazhan-key-quest-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-charred-evidence-event",
+    "type": "event",
+    "name": "A question among the ashes",
+    "slug": "karazhan-masters-key-and-nightbane-charred-evidence",
+    "path": "/events/karazhan-masters-key-and-nightbane-charred-evidence",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "After studying the journal, Alturus proposes that Medivh may have woven some of his essence into the magic that defeated Arcanagos. If so, he reasons, a trace might remain in the dragon’s bones. The quest sends the seeker to find a Charred Bone Fragment in the mountains south of Karazhan. This is Alturus’s hypothesis and a search for evidence, not a confirmation that the essence can be recovered.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-contact-from-dalaran-event",
+    "type": "event",
+    "name": "A report reaches Dalaran",
+    "slug": "karazhan-masters-key-and-nightbane-contact-from-dalaran",
+    "path": "/events/karazhan-masters-key-and-nightbane-contact-from-dalaran",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Alturus sends his report to Archmage Cedric in Dalaran’s old crater. Cedric has learned that the tower sealed itself off and that the Violet Eye lost contact with agents within it. The new reading gives the old silence another urgency. Cedric points toward one person who might reopen the way: Khadgar, Medivh’s former apprentice, now living in Shattrath. The ruined crater is Dalaran’s original site, not the city’s later home in Northrend.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-first-key-fragment-event",
+    "type": "event",
+    "name": "The first fragment in Auchindoun",
+    "slug": "karazhan-masters-key-and-nightbane-first-key-fragment",
+    "path": "/events/karazhan-masters-key-and-nightbane-first-key-fragment",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The first fragment rests in the Shadow Labyrinth, among passages occupied by the Shadow Council. Khadgar’s account places the container there because the labyrinth once seemed a safe hiding place. The return of the fragment changes the key from a distant memory into a recoverable object. It does not yet open the tower; two pieces remain beyond reach.",
+    "sourceIds": [
+      "karazhan-entry-quest-text",
+      "karazhan-official-attunement-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-kalynnas-aid-event",
+    "type": "event",
+    "name": "Kalynna’s offer",
+    "slug": "karazhan-masters-key-and-nightbane-kalynnas-aid",
+    "path": "/events/karazhan-masters-key-and-nightbane-kalynnas-aid",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Alturus sends the bone to Kalynna Lathred in Area 52. She once belonged to the Kirin Tor, but now follows studies her old order forbade. The fragment’s essence, Alturus says, is lifeless—like Arcanagos. Kalynna believes she can help, but her own research has a cost. Her answer turns the Violet Eye’s question into a bargain between scholars with different boundaries.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-kalynnas-request-event",
+    "type": "event",
+    "name": "Two books, two halls",
+    "slug": "karazhan-masters-key-and-nightbane-kalynnas-request",
+    "path": "/events/karazhan-masters-key-and-nightbane-kalynnas-request",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Kalynna asks for two books before she will complete the favor. The Tome of Dusk belongs to the orc warlock Nethekurse in the Shattered Halls; the Book of Forgotten Names is held by Darkweaver Syth in Sethekk Halls. The quest requires heroic versions of both dungeons. These are the terms of a research exchange, not separate historical turning points, and the two halls retain their distinct landscapes in this paired itinerary.",
+    "sourceIds": [
+      "karazhan-kalynnas-request-quest-text"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-khadgar-in-shattrath-event",
+    "type": "event",
+    "name": "Khadgar in Shattrath",
+    "slug": "karazhan-masters-key-and-nightbane-khadgar-in-shattrath",
+    "path": "/events/karazhan-masters-key-and-nightbane-khadgar-in-shattrath",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "In Shattrath, Khadgar receives Alturus’s account and sees a familiar problem in it. Karazhan cannot simply be forced open; the Master’s Key once held that power, and he knows the key’s history. He will help restore it, though the next stages will cross Outland’s changed strongholds. The meeting begins the fragment quest line. It is a new undertaking prompted by Alturus’s report, not proof that the Violet Eye has already learned what happened inside the tower.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-memory-of-arcanagos-event",
+    "type": "event",
+    "name": "A memory of Arcanagos",
+    "slug": "karazhan-masters-key-and-nightbane-memory-of-arcanagos",
+    "path": "/events/karazhan-masters-key-and-nightbane-memory-of-arcanagos",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "On the Master’s Terrace, the journal opens onto an older meeting. The blue dragon Arcanagos warns Medivh that a dark power seeks to use him, and urges him to leave the tower. Medivh refuses. Magic burns through the dragon from within; Arcanagos flies away aflame. The scene is a memory carried by the journal, not a new event occurring during the Violet Eye’s present investigation.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain",
+      "karazhan-atiesh-visual-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-nightbane-raised-event",
+    "type": "event",
+    "name": "Nightbane on the terrace",
+    "slug": "karazhan-masters-key-and-nightbane-nightbane-raised",
+    "path": "/events/karazhan-masters-key-and-nightbane-nightbane-raised",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "With Kalynna’s materials placed in a Blackened Urn, the seeker returns to the Master’s Terrace and sets it alight. The quest says the released energy raises Arcanagos’s charred remains as Nightbane. The adventurer defeats the dragon and carries its essence back to Alturus, whose hope is to study what the fragment may reveal about Medivh. The chain ends with a sample and a research question—not a complete explanation of the Guardian’s magic, nor a later chapter in Arcanagos’s history.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-reports-from-deadwind-event",
+    "type": "event",
+    "name": "Reports from Deadwind Pass",
+    "slug": "karazhan-masters-key-and-nightbane-reports-from-deadwind",
+    "path": "/events/karazhan-masters-key-and-nightbane-reports-from-deadwind",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Archmage Alturus watches the road below Karazhan while the Violet Eye studies a tower that has kept its doors closed. His first assignments open along two parallel paths: Arcane Disturbances and Restless Activity. One sends the seeker beneath the tower; the other concerns the restless dead around it. The quests establish a troubled place and an order to investigate. They do not establish that either task caused the tower’s condition, or that the source of every disturbance is already known.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-return-to-khadgar-event",
+    "type": "event",
+    "name": "The key returns to Shattrath",
+    "slug": "karazhan-masters-key-and-nightbane-return-to-khadgar",
+    "path": "/events/karazhan-masters-key-and-nightbane-return-to-khadgar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The restored key returns to Khadgar in Shattrath, and the attunement chain reaches its stated end. A way into Karazhan now exists. The tower’s condition and the fate of its trapped investigators remain matters for the Violet Eye to examine. That distinction closes one quest and leaves another question standing at the gate.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-second-key-fragment-event",
+    "type": "event",
+    "name": "A fragment under the Steamvault",
+    "slug": "karazhan-masters-key-and-nightbane-second-key-fragment",
+    "path": "/events/karazhan-masters-key-and-nightbane-second-key-fragment",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The second container is found in the Steamvault beneath Coilfang Reservoir. Khadgar recalls hiding it under Serpent Lake before the place was known by that name; he suspects the naga’s great drain carried it into the reservoir. That explanation is his best account of a changed landscape, not a witnessed transfer. The fragment is recovered, while the precise course of its movement remains uncertain.",
+    "sourceIds": [
+      "karazhan-fragment-quest-text"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-the-journal-search-event",
+    "type": "event",
+    "name": "A separate search for the journal",
+    "slug": "karazhan-masters-key-and-nightbane-the-journal-search",
+    "path": "/events/karazhan-masters-key-and-nightbane-the-journal-search",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Violet Eye’s next inquiry is related by the tower, not by a shared quest dependency: after establishing a foothold inside Karazhan and earning the required standing, Alturus asks the adventurer to find Medivh’s Journal. Agents sent before have not returned; Wravien was the last named seeker. This is a distinct research chain joined here for its evidence about the tower’s history. It does not follow automatically from handing Khadgar the key.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-the-lost-investigators-event",
+    "type": "event",
+    "name": "The investigators among the books",
+    "slug": "karazhan-masters-key-and-nightbane-the-lost-investigators",
+    "path": "/events/karazhan-masters-key-and-nightbane-the-lost-investigators",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Inside the Guardian’s Library, Wravien struggles to remember his commission and sends the seeker to Gradav. Gradav also cannot leave his own work, then points toward Kamsis. The three exchanges make the library’s abundance part of the obstacle: each agent offers a fragment of direction, while none can simply lead the search to its end. Their quest dialogue records confusion and fixation; it does not fully explain what the tower has done to them.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-the-masters-touch-event",
+    "type": "event",
+    "name": "The Master’s Touch",
+    "slug": "karazhan-masters-key-and-nightbane-the-masters-touch",
+    "path": "/events/karazhan-masters-key-and-nightbane-the-masters-touch",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Khadgar restores the key but says it will remain useless without Medivh’s consent. In the Black Morass, the seeker travels to a remembered past at the Opening of the Dark Portal. There, Medivh recognizes the key as Khadgar’s and acknowledges that he has not yet given it to his apprentice. The meeting belongs to a time-travel quest scene, not to a present-day journey through the swamp. The key receives the permission Khadgar could not grant for himself.",
+    "sourceIds": [
+      "karazhan-masters-touch-quest-text",
+      "karazhan-official-attunement-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-the-shade-and-journal-event",
+    "type": "event",
+    "name": "The Shade of Aran and the journal",
+    "slug": "karazhan-masters-key-and-nightbane-the-shade-and-journal",
+    "path": "/events/karazhan-masters-key-and-nightbane-the-shade-and-journal",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Kamsis directs the search toward the Shade of Aran, Medivh’s father. When the shade is overcome, Medivh’s Journal is recovered from the encounter and returned to the Violet Eye’s inquiry. The discovery changes the work from searching for a lost book to reading what the book can reveal. Its pages are not a neutral report from an observer: the next quest treats them as a way to witness one of Medivh’s own memories.",
+    "sourceIds": [
+      "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane-third-key-fragment-event",
+    "type": "event",
+    "name": "The prison above Netherstorm",
+    "slug": "karazhan-masters-key-and-nightbane-third-key-fragment",
+    "path": "/events/karazhan-masters-key-and-nightbane-third-key-fragment",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The third fragment lies within the Arcatraz, a prison in the Tempest Keep complex. Khadgar had hidden it while the naaru held the fortress; by the time the seeker arrives, Kael’thas’s forces have turned the vessel into a place of confinement. The key’s last piece is retrieved from a refuge that has become dangerous. The three fragments can now be taken back to their maker.",
+    "sourceIds": [
+      "karazhan-fragment-quest-text",
+      "karazhan-official-attunement-overview"
     ],
     "contentStatus": "research"
   },
@@ -6779,6 +7689,31 @@
     "sourceIds": [
       "story-gilneas-origins",
       "story-gilneas-return"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "karazhan-masters-key-and-nightbane",
+    "type": "storyline",
+    "name": "Karazhan: The Master’s Key and Nightbane",
+    "slug": "karazhan-masters-key-and-nightbane",
+    "path": "/storylines/karazhan-masters-key-and-nightbane",
+    "eraId": "age-of-adventurers",
+    "eraIds": [
+      "age-of-adventurers"
+    ],
+    "aliases": [],
+    "tags": [],
+    "description": "Alturus’s investigation leads Khadgar to restore a key divided across Outland. A separate Violet Eye search for Medivh’s Journal uncovers a memory of Arcanagos and a ritual that raises Nightbane.",
+    "sourceIds": [
+      "karazhan-official-attunement-overview",
+      "karazhan-key-quest-locators",
+      "karazhan-entry-quest-text",
+      "karazhan-fragment-quest-text",
+      "karazhan-masters-touch-quest-text",
+      "karazhan-journal-and-nightbane-quest-chain",
+      "karazhan-atiesh-visual-reference",
+      "karazhan-kalynnas-request-quest-text"
     ],
     "contentStatus": "research"
   },
