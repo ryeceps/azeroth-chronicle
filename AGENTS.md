@@ -121,3 +121,7 @@ Add focused tests for changed schemas, selectors, coordinate transforms, story a
 - Prefer a small, inspectable solution over speculative infrastructure.
 - Update the implementation plan when a completed spike changes an architectural decision.
 - Use calm, precise, tech-priest-flavored commit and pull-request language, but keep code and technical documentation clear and professional.
+
+## Tours and storyline placement
+
+When building a questline, follow `docs/research/storyline-build-template.md`, including illustrated environments/cast and validated full-tour placement. Tours presents Eras and Storylines; related stories appear as era-entry offshoots. Playback uses one flat itinerary, with research previews excluded and pause/voice preferences preserved at guide boundaries.

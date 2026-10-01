@@ -293,8 +293,12 @@ export const storylineSchema = z.object({
   sourceIds: z.array(id),
   reviewNote: z.string().min(1),
   storyGuideId: id.optional(),
+  fullTourPlacement: z.object({ afterNodeId: id, order: z.number().int().nonnegative() }).optional(),
   contentStatus,
 }).superRefine((value, context) => {
+  if (Boolean(value.storyGuideId) !== Boolean(value.fullTourPlacement)) {
+    context.addIssue({ code: 'custom', message: 'Playable storylines require a full-tour placement; previews cannot have one.' });
+  }
   if (!value.eraIds.includes(value.primaryEraId)) {
     context.addIssue({ code: 'custom', message: 'Primary era must be one of the related eras.' });
   }

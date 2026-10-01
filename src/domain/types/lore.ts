@@ -321,6 +321,7 @@ export interface Storyline {
   sourceIds: EntityId[];
   reviewNote: string;
   storyGuideId?: EntityId;
+  fullTourPlacement?: { afterNodeId: EntityId; order: number };
   contentStatus: 'placeholder' | 'research' | 'reviewed' | 'published';
 }
 

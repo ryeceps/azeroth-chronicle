@@ -71,7 +71,7 @@ export function EraPage() {
       <section className="era-record-section">
         <p className="eyebrow">Long-form histories · {storylines.length} {storylines.length === 1 ? 'storyline' : 'storylines'}</p>
         <h2>Stories connected to this era</h2>
-        <p>Follow the longer arcs within this period and across the eras they touch. These chapter plans remain research previews.</p>
+        <p>Follow the longer arcs within this period and across the eras they touch. Playable tours and research previews are marked below.</p>
         {storylines.length > 0 ? (
           <div className="storyline-grid storyline-grid-in-era">
             {storylines.map((storyline) => <StorylineCard key={storyline.id} storyline={storyline} eras={staticLoreRepository.listEras()} />)}
@@ -79,7 +79,7 @@ export function EraPage() {
         ) : <p>Long-form storylines for this era are still being researched.</p>}
         <Link className="storyline-era-all-link" to={`/storylines?era=${era.slug}`}>Browse this era’s storylines <span aria-hidden="true">↗</span></Link>
       </section>
-      <Link className="primary-link" to={`/?era=${era.slug}`}>Choose this era’s tour</Link>
+      <Link className="primary-link" to={`/tours/eras/${era.slug}`}>Choose this era’s tour</Link>
     </main>
   );
 }

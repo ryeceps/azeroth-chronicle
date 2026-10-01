@@ -11,33 +11,18 @@ async function expectNoHorizontalOverflow(page: import('@playwright/test').Page)
 }
 
 test.describe('responsive application shell', () => {
-  test('keeps the mobile landing actions readable and clear of the era thread', async ({ page }) => {
+  test('keeps the minimalist entry and library usable on a phone', async ({ page }) => {
     await page.setViewportSize(phoneViewport);
     await page.goto('/');
-
-    const primaryAction = page.getByRole('button', { name: /Full tour of the history/i });
-    const eraChoice = page.getByRole('button', { name: 'Tour this era' });
-    const eraThread = page.getByLabel('Current guided history coverage');
-    await expect(primaryAction).toBeVisible();
-    await expect(eraChoice).toBeVisible();
-    await expect(eraThread).toBeVisible();
-
-    const actionBox = await eraChoice.boundingBox();
-    const threadBox = await eraThread.boundingBox();
-    expect(actionBox).not.toBeNull();
-    expect(threadBox).not.toBeNull();
-    expect(threadBox!.y).toBeGreaterThanOrEqual(actionBox!.y + actionBox!.height);
-    expect((await primaryAction.boundingBox())!.height).toBeGreaterThanOrEqual(44);
+    const primary = page.getByRole('link', { name: /Explore tours/ });
+    await expect(primary).toBeVisible();
+    await expect(page.getByRole('button', { name: /Full tour of the history/i })).toBeVisible();
+    expect((await primary.boundingBox())!.height).toBeGreaterThanOrEqual(44);
     await expectNoHorizontalOverflow(page);
-  });
-
-  test('keeps tour choice and archive access available on a phone', async ({ page }) => {
-    await page.setViewportSize(phoneViewport);
-    await page.goto('/');
-
-    await expect(page.getByRole('combobox', { name: 'Choose an era to tour' })).toBeVisible();
-    await expect(page.getByRole('button', { name: 'Tour this era' })).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Browse the illustrated archive' })).toBeVisible();
+    await primary.click();
+    await expect(page.getByRole('navigation', { name: 'Tour sections' })).toBeVisible();
+    await page.getByRole('link', { name: 'Storylines', exact: true }).click();
+    await expect(page.getByRole('heading', { name: 'All storylines' })).toBeVisible();
     await expectNoHorizontalOverflow(page);
   });
 
@@ -84,8 +69,8 @@ test.describe('responsive application shell', () => {
 
     await expect(page.getByText('Unofficial fan atlas')).toBeVisible();
     await expect(page.getByRole('navigation', { name: 'Primary navigation' })).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Choose a tour' })).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Archive gallery' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Tours' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Archive' })).toBeVisible();
     await expectNoHorizontalOverflow(page);
   });
 
@@ -94,7 +79,7 @@ test.describe('responsive application shell', () => {
     await page.goto('/');
 
     await expect(page.getByRole('link', { name: /Azerothium/ })).toBeVisible();
-    await expect(page.getByRole('combobox', { name: 'Choose an era to tour' })).toBeVisible();
+    await expect(page.getByRole('link', { name: /Explore tours/ })).toBeVisible();
     await expectNoHorizontalOverflow(page);
   });
 });

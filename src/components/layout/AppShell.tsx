@@ -1,9 +1,7 @@
 import type { ReactNode } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export function AppShell({ children }: { children: ReactNode }) {
-  const location = useLocation();
-  const landing = location.pathname === '/';
 
   return (
     <div className="app-shell">
@@ -15,13 +13,12 @@ export function AppShell({ children }: { children: ReactNode }) {
             <small>Unofficial fan atlas</small>
           </span>
         </NavLink>
-        {!landing && <div className="topbar-actions">
+        <div className="topbar-actions">
           <nav aria-label="Primary navigation">
-            <NavLink to="/">Choose a tour</NavLink>
-            <NavLink to="/storylines">Storylines</NavLink>
-            <NavLink to="/archive">Archive gallery</NavLink>
+            <NavLink to="/tours">Tours</NavLink>
+            <NavLink to="/archive">Archive</NavLink>
           </nav>
-        </div>}
+        </div>
       </header>
       {children}
       <footer className="footer">

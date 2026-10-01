@@ -5,6 +5,7 @@ import { useNarrationStore } from '../../app/state/narrationStore';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import { fullTourItinerary, fullTourUrl } from '../../lib/story/fullTour';
 import { useEraStore } from '../../app/state/eraStore';
 
 function narrationDurationMs(narration: string): number {
@@ -16,6 +17,8 @@ function narrationDurationMs(narration: string): number {
 export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHost }: { guideId: string; showLauncher?: boolean; voiceControlsHost?: HTMLElement | null }) {
   const navigate = useNavigate();
   const [params] = useSearchParams();
+  const itinerary = fullTourItinerary(staticLoreRepository.getDataset());
+  const requestedNodeId = params.get('node');
   const fullTour = params.get('tour') === 'full';
   const selectedEraTour = params.get('tour') === 'era';
   const storyline = params.get('tour') === 'storyline' ? staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '') : undefined;
@@ -46,31 +49,48 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
       autoStartedGuide.current = null;
       return;
     }
-    if (!guide || autoStartedGuide.current === guide.id) return;
+    if (!guide) return;
+    if (fullTour && requestedNodeId && guide.nodeIds.includes(requestedNodeId)) {
+      if (activeGuideId !== guide.id) beginStoryGuide(guide.id, requestedNodeId, activeGuideId ? status : 'playing');
+      else if (activeNodeId !== requestedNodeId || autoStartedGuide.current !== guide.id) {
+        const requested = staticLoreRepository.findStoryNode(requestedNodeId);
+        if (requested) enterStoryNode(requested);
+      }
+      autoStartedGuide.current = guide.id;
+      return;
+    }
+    if (autoStartedGuide.current === guide.id) return;
     autoStartedGuide.current = guide.id;
     if (!node) beginStoryGuide(guide.id);
-  }, [tourActive, guide, node]);
+  }, [tourActive, guide, node, fullTour, requestedNodeId, activeGuideId, activeNodeId, status]);
 
   const finish = useCallback(() => {
     if (!guide) return;
     if (fullTour) {
-      const eras = staticLoreRepository.listEras();
-      const currentEraIndex = eras.findIndex((era) => era.id === guide.eraId);
-      const nextGuidedEra = eras.slice(currentEraIndex + 1).find((era) => era.storyGuideId);
-      if (nextGuidedEra?.storyGuideId) {
-        endStoryGuide();
-        setEra(nextGuidedEra.id);
-        beginStoryGuide(nextGuidedEra.storyGuideId);
-        navigate(`/map?era=${nextGuidedEra.slug}&tour=full`);
-        return;
-      }
       endStoryGuide();
       navigate('/?tour=complete');
       return;
     }
     endStoryGuide();
     navigate(storyline ? `/storylines/${storyline.slug}` : `/?tour=era-complete&era=${guide.eraId}`);
-  }, [fullTour, guide, navigate, setEra, storyline]);
+  }, [fullTour, guide, navigate, storyline]);
+
+  const currentIndex = node ? guide?.nodeIds.indexOf(node.id) ?? -1 : -1;
+  const tourIndex = itinerary.findIndex((stop) => stop.guideId === guideId && stop.nodeId === node?.id);
+  const previous = fullTour ? itinerary[tourIndex - 1]?.nodeId : guide?.nodeIds[currentIndex - 1];
+  const next = fullTour ? itinerary[tourIndex + 1]?.nodeId : guide?.nodeIds[currentIndex + 1];
+  const activate = useCallback((nodeId: string) => {
+    const target = staticLoreRepository.findStoryNode(nodeId);
+    if (!target) return;
+    if (fullTour) {
+      const stop = fullTourItinerary(staticLoreRepository.getDataset()).find((item) => item.nodeId === nodeId);
+      if (!stop) return;
+      setEra(stop.eraId);
+      if (stop.guideId !== useStoryStore.getState().guideId) beginStoryGuide(stop.guideId, nodeId, useStoryStore.getState().status);
+      else enterStoryNode(target);
+      navigate(fullTourUrl(stop), { replace: true });
+    } else enterStoryNode(target);
+  }, [fullTour, navigate, setEra]);
 
   const durationMs = node?.durationMs ?? (node ? narrationDurationMs(node.narration) : 0);
 
@@ -81,20 +101,19 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
   useEffect(() => {
     if (!node || status !== 'playing') return;
     if (narrationEnabled && node.voiceover) return;
-    const currentIndex = guide?.nodeIds.indexOf(node.id) ?? -1;
-    const nextNodeId = guide?.nodeIds[currentIndex + 1];
+    const nextNodeId = next;
     if (!nextNodeId && !tourActive) return;
     timerStartedAt.current = performance.now();
     const timer = window.setTimeout(() => {
       const nextNode = nextNodeId ? staticLoreRepository.findStoryNode(nextNodeId) : undefined;
-      if (nextNode) enterStoryNode(nextNode);
+      if (nextNode) activate(nextNode.id);
       else finish();
     }, remainingMs.current);
     return () => {
       window.clearTimeout(timer);
       remainingMs.current = Math.max(0, remainingMs.current - (performance.now() - timerStartedAt.current));
     };
-  }, [finish, tourActive, guide, narrationEnabled, node, status]);
+  }, [finish, tourActive, next, activate, narrationEnabled, node, status]);
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -118,12 +137,6 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
 
   if (!guide) return null;
 
-  const activate = (nodeId: string) => {
-    const next = staticLoreRepository.findStoryNode(nodeId);
-    if (!next) return;
-    enterStoryNode(next);
-  };
-
   if (!node) {
     if (!showLauncher) return null;
     return (
@@ -141,9 +154,6 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
     );
   }
 
-  const currentIndex = guide.nodeIds.indexOf(node.id);
-  const previous = currentIndex > 0 ? guide.nodeIds[currentIndex - 1] : undefined;
-  const next = currentIndex < guide.nodeIds.length - 1 ? guide.nodeIds[currentIndex + 1] : undefined;
   const voiceoverAvailable = Boolean(node.voiceover && voiceoverSrc);
   const toggleVoiceover = () => {
     const audio = audioRef.current;

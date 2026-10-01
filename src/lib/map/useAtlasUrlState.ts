@@ -18,6 +18,7 @@ export function useAtlasUrlState(dataset: LoreDataset) {
   const query = params.toString();
   const tourMode = params.get('tour');
   const storylineSlug = params.get('storyline');
+  const nodeId = params.get('node');
 
   useEffect(() => {
     const parsed = parseAtlasUrl(new URLSearchParams(query), dataset);
@@ -37,10 +38,11 @@ export function useAtlasUrlState(dataset: LoreDataset) {
       layers: curatedLayers,
     }, dataset);
     if (tourMode === 'full' || tourMode === 'era') next.set('tour', tourMode);
-    if (tourMode === 'storyline') {
+    if (tourMode === 'full' && nodeId) next.set('node', nodeId);
+    if (tourMode === 'storyline' || tourMode === 'full') {
       next.set('tour', tourMode);
       if (storylineSlug) next.set('storyline', storylineSlug);
     }
     if (next.toString() !== query) setParams(next, { replace: true });
-  }, [dataset, eraId, tourMode, storylineSlug, query, selection, selectionOrigin, setParams]);
+  }, [dataset, eraId, tourMode, storylineSlug, nodeId, query, selection, selectionOrigin, setParams]);
 }

@@ -2,15 +2,14 @@ import { expect, test } from '@playwright/test';
 
 test('legacy atlas links open the tour chooser instead of a free explorer', async ({ page }) => {
   await page.goto('/map?era=long-vigil-new-kingdoms&selected=entity:strom');
-  await expect(page).toHaveURL(/\/\?era=long-vigil-new-kingdoms/);
-  await expect(page.getByRole('combobox', { name: 'Choose an era to tour' })).toHaveValue('long-vigil-new-kingdoms');
+  await expect(page).toHaveURL(/\/tours\/eras\/long-vigil-new-kingdoms/);
+  await expect(page.getByRole('heading', { level: 1, name: 'The Long Vigil and the New Kingdoms' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Tour this era' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Explore the atlas freely' })).toHaveCount(0);
 });
 
 test('a selected era opens a guided scene without atlas or dossier interaction', async ({ page }) => {
-  await page.goto('/');
-  await page.getByRole('combobox', { name: 'Choose an era to tour' }).selectOption('long-vigil-new-kingdoms');
+  await page.goto('/tours/eras/long-vigil-new-kingdoms');
   await page.getByRole('button', { name: 'Tour this era' }).click();
   await expect(page).toHaveURL(/era=long-vigil-new-kingdoms&tour=era/);
   await expect(page.getByRole('heading', { name: 'The broken world waits for new promises' })).toBeVisible();

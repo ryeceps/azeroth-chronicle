@@ -13,36 +13,15 @@ describe('landing page', () => {
     useStoryStore.setState({ guideId: null, nodeId: null, status: 'paused', branchReturn: null });
   });
 
-  it('places the full history tour front and center over an obscured still montage', async () => {
+  it('offers a quiet library entry and starts the complete history', async () => {
     const user = userEvent.setup();
-    const { container } = render(
-      <MemoryRouter>
-        <LandingPage />
-      </MemoryRouter>,
-    );
-
-    expect(screen.getByRole('heading', { name: /the full history/i })).toBeVisible();
-    expect(screen.getByRole('button', { name: /full tour of the history/i })).toBeVisible();
-    expect(screen.getByRole('combobox', { name: 'Choose an era to tour' })).toBeVisible();
-    expect(screen.getByRole('button', { name: 'Tour this era' })).toBeVisible();
-    expect(screen.getByRole('link', { name: /browse the illustrated archive/i })).toHaveAttribute('href', '/archive');
-    expect(container.querySelectorAll('.landing-still')).toHaveLength(7);
-
+    const { container } = render(<MemoryRouter><LandingPage /></MemoryRouter>);
+    expect(screen.getByRole('heading', { name: 'Every age leaves a story.' })).toBeVisible();
+    expect(screen.getByRole('link', { name: /Explore tours/ })).toHaveAttribute('href', '/tours');
+    expect(screen.queryByRole('combobox')).not.toBeInTheDocument();
+    expect(container.querySelectorAll('.landing-still')).toHaveLength(0);
     await user.click(screen.getByRole('button', { name: /full tour of the history/i }));
     expect(useEraStore.getState().eraId).toBe('cosmic-origins');
-    expect(useStoryStore.getState()).toMatchObject({
-      guideId: 'cosmic-origins-guided-history',
-      nodeId: 'cosmic-origins-story-light-shadow',
-      status: 'playing',
-    });
-  });
-
-  it('starts only the selected era tour', async () => {
-    const user = userEvent.setup();
-    render(<MemoryRouter><LandingPage /></MemoryRouter>);
-    await user.selectOptions(screen.getByRole('combobox', { name: 'Choose an era to tour' }), 'long-vigil-new-kingdoms');
-    await user.click(screen.getByRole('button', { name: 'Tour this era' }));
-    expect(useEraStore.getState().eraId).toBe('long-vigil-new-kingdoms');
-    expect(useStoryStore.getState().guideId).toBe('long-vigil-new-kingdoms-guided-history');
+    expect(useStoryStore.getState()).toMatchObject({ guideId: 'cosmic-origins-guided-history', nodeId: 'cosmic-origins-story-light-shadow', status: 'playing' });
   });
 });

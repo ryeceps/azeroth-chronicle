@@ -40,9 +40,9 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 768, height: 1024
     await expect(page).not.toHaveURL(/tour=full/);
     await expect(page.locator('.story-card')).toHaveCount(0);
     await expect(environment).toHaveCount(0);
-    await expect(page.getByRole('combobox', { name: 'Choose an era to tour' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Tours', exact: true })).toBeVisible();
     await page.reload();
-    await expect(page.getByRole('button', { name: 'Tour this era' })).toBeVisible();
+    await expect(page.getByRole('navigation', { name: 'Tour sections' })).toBeVisible();
     await expect(page.locator('.story-card')).toHaveCount(0);
     expect(errors).toEqual([]);
   });

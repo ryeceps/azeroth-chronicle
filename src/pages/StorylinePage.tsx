@@ -21,7 +21,7 @@ export function StorylinePage() {
       <div className="storyline-page-atmosphere" aria-hidden="true" style={cover ? { backgroundImage: `linear-gradient(180deg, rgba(6,8,12,.36), #080b10 92%), url("${cover}")` } : undefined} />
       <div className="storyline-page-content">
         <nav className="storyline-breadcrumbs" aria-label="Breadcrumb">
-          <Link to="/storylines">Storylines</Link><span aria-hidden="true">/</span><span>{storyline.title}</span>
+          <Link to="/tours?view=storylines">Storylines</Link><span aria-hidden="true">/</span><span>{storyline.title}</span>
         </nav>
         <header className="storyline-page-header">
           <p className="eyebrow">Long-form storyline · {storyline.contentStatus} {storyline.storyGuideId ? 'story' : 'preview'}</p>
@@ -62,8 +62,8 @@ export function StorylinePage() {
               {sources.length > 0 ? <ul>{sources.map((source) => <li key={source.id}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{source.title} <span aria-hidden="true">↗</span></a> : source.title}</li>)}</ul> : <p>Original quest text is still being gathered for this candidate.</p>}
             </section>
             <div className="storyline-end-links">
-              <Link className="primary-link" to={`/storylines?era=${primaryEra?.slug ?? ''}`}>More stories from this era</Link>
-              {primaryEra && <Link to={`/?era=${primaryEra.slug}`}>Choose the era tour</Link>}
+              <Link className="primary-link" to={`/tours?view=storylines&era=${primaryEra?.slug ?? ''}`}>More stories from this era</Link>
+              {primaryEra && <Link to={`/tours/eras/${primaryEra.slug}`}>Choose the era tour</Link>}
             </div>
           </div>
         </div>
