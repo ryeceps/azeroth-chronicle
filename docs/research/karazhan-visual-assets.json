@@ -3,7 +3,7 @@
   "status": "research",
   "targetEditionBuild": "World of Warcraft: The Burning Crusade, original quest era patch 2.0.3 through 2.4.3, before Wrath of the Lich King changes. Exact reference build capture remains open.",
   "editorialRule": "Match the named TBC game areas by their recognizable architecture, material palette, terrain, skyline and landmark forms while using original compositions. Record the reference and keep the in-game resemblance review explicitly open until a human compares each image with the matching client/build.",
-  "assetProvenance": "Original illustrations created with built-in OpenAI ImageGen. Four 2x2 environment contact sheets were cropped into distinct landscape assets. Character and object assets are transparent cutouts; Arcanagos and Nightbane have separate single-subject dragon art. Medivh’s portrait carries the user-requested Atiesh with a visible raven finial. All art is interpretive, not canonical game art or source evidence.",
+  "assetProvenance": "Original illustrations created with built-in OpenAI ImageGen. Four 2x2 environment contact sheets were cropped into distinct landscape assets. Character and object assets are transparent cutouts; Arcanagos and Nightbane have separate single-subject dragon art. Medivh’s portrait received a focused staff edit so Atiesh has an integrated carved raven-head finial and violet streamer. All art is interpretive, not canonical game art or source evidence.",
   "assetRecords": [
     {
       "id": "deadwind-pass-tower",
@@ -462,13 +462,13 @@
       "kind": "character",
       "file": "public/images/storylines/karazhan/medivh.research.webp",
       "representedBy": "Medivh",
-      "sourceArtifact": "exec-18101bd6-943a-42b9-b005-5f5e65401dc6.png",
-      "sourceTile": "top-right",
+      "sourceArtifact": "exec-fafc82b4-9f2a-4521-88e2-bc36f906da51.png",
+      "sourceTile": "single transparent portrait staff edit",
       "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
-      "generationPrompt": "Original isolated interpretation of Medivh: The Guardian in his journal memory, carrying Atiesh, Greatstaff of the Guardian: a natural wooden staff with its iconic raven finial and violet ribbon. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
-      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "generationPrompt": "Focused edit of the original transparent Medivh portrait. Preserve the composition, character identity, clothing, body pose and hand grip. Change only the staff into a gnarled wooden Atiesh with a carved raven-head finial integrated into its upper end, violet crystal accents and a hanging violet streamer. No text or scenery; original interpretation, not canonical game art.",
+      "generator": "OpenAI ImageGen; focused staff edit of a transparent portrait cutout, converted to alpha-capable WebP.",
       "transparency": true,
-      "visualReview": "Atiesh is clearly shown with a natural wood shaft, iconic raven finial and violet hanging ribbon. User-directed interpretation; compare to the intended TBC client item/model before approval.",
+      "visualReview": "Atiesh reads as a single staff with an integrated carved raven-head finial, gnarled wood shaft, violet crystal accents and hanging streamer. User-directed interpretation; compare to the intended TBC client item/model before approval.",
       "sourceReferences": [
         {
           "sourceId": "karazhan-masters-touch-quest-text",
@@ -487,9 +487,9 @@
           "url": "https://www.wowhead.com/classic/item=22631/atiesh-greatstaff-of-the-guardian"
         }
       ],
-      "byteLength": 69420,
-      "modifiedAt": "2026-10-01T16:59:55.800Z",
-      "sha256": "852a967e3db753958454ee5094cf4c1e4ce30e368742c24d1b2fd6cba2996363"
+      "byteLength": 233180,
+      "modifiedAt": "2026-10-01T18:09:48.062Z",
+      "sha256": "cfd7c3202db5dc7aaae8f4c8363d22b9698197cfeeb77cff17cb4095066c7849"
     },
     {
       "id": "archmage-cedric",

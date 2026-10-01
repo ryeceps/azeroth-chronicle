@@ -41,7 +41,7 @@ The Black Morass and journal sequence are historical scenes, not a physical rout
 
 ## Visual, audio and review notes
 
-Every node loads a dedicated environment illustration and each named principal, group and pivotal object has a repository-backed representation. Environment, cast, object and scene paths, generated prompts, hashes, TBC build target, recognizable traits and review gates are in [karazhan-visual-assets.json](karazhan-visual-assets.json). Medivh’s story image shows the user-requested raven-crowned Atiesh. Art resemblance is not human-approved until compared with in-game screenshots from the chosen TBC build.
+Every node loads a dedicated environment illustration and each named principal, group and pivotal object has a repository-backed representation. Environment, cast, object and scene paths, generated prompts, hashes, TBC build target, recognizable traits and review gates are in [karazhan-visual-assets.json](karazhan-visual-assets.json). Medivh’s story portrait now shows Atiesh as a gnarled staff with an integrated carved raven-head finial, violet crystal accents and a hanging streamer. Art resemblance is not human-approved until compared with in-game screenshots from the chosen TBC build.
 
 The story uses the existing Storyline → StoryGuide → StoryTour path; it is not inserted into EraTour. The Karazhan placard is anchored editorially at Deadwind Pass and linked to the Eastern Kingdoms and Outland regions; the marker is not exact geography. Play All places this guide after the three completed Classic stories and before the Outland research preview.
 
