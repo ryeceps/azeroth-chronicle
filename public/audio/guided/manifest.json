@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T17:22:40.073Z",
+  "generatedAt": "2026-10-01T21:45:20.190Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 204,
-  "totalDurationMs": 5325700,
+  "trackCount": 219,
+  "totalDurationMs": 5761675,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -1727,6 +1727,141 @@
       "sha256": "63f4f570b47d77452e02f93886d79ea7b4142adceb91b3b2a6cebd72e3d087c8",
       "transcriptSha256": "c5a3b41609bb104e388f3d9dbd147193abaf5fa6941fd58f8a97966d12bc660b",
       "bytes": 385389
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero.mp3",
+      "durationMs": 30075,
+      "sha256": "72c8c6a1699d8ab361bb7bbd95ef7eacff51d852eb9b8eadfea4b23873845d70",
+      "transcriptSha256": "8646d261d9b3f6bcd8595d72f6446b81c83992529068eac5be1d2d4f8344619a",
+      "bytes": 362061
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-bengor-and-the-orders",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-bengor-and-the-orders.mp3",
+      "durationMs": 28075,
+      "sha256": "ce5dbf22c33661f4f4876bdbe5b9ffcc2939893e568df9d1c4be35d819317c93",
+      "transcriptSha256": "e4cc4579042551b61cc57ac84229df53e3b47b83717c0faeb7b645ccaebaf3ad",
+      "bytes": 337869
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-trebors-testimony",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-trebors-testimony.mp3",
+      "durationMs": 28775,
+      "sha256": "edf05b406a37e584b4bcf743a6a1615ed85594e04d7d9fe626326c1083a71b13",
+      "transcriptSha256": "a5010e75c926a53632ff5a8f1038f8393d2357f0c5436e00ebafb5b0801c58ff",
+      "bytes": 346221
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-stones-that-bind",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-stones-that-bind.mp3",
+      "durationMs": 28975,
+      "sha256": "92375026a89cb6156d45e33b2f99ee020ca1db5bbc7befea377a0ab4448b9cbe",
+      "transcriptSha256": "e9d1d26073e8f6fa515ebca9a7dec81439e0e45d451eddc4c156e3812cad1412",
+      "bytes": 348813
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-the-souls-rest",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-the-souls-rest.mp3",
+      "durationMs": 26600,
+      "sha256": "68ec2c819a3aa9bfaaef99a660b8bbfe1d2d3d870b879456e0bedf3d3b502f6c",
+      "transcriptSha256": "9bf62eaf315eb1e8d966315ce459af1ac357bb510573fc027b0bc13d49d13a5b",
+      "bytes": 320301
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil.mp3",
+      "durationMs": 28125,
+      "sha256": "74b6ff39c4ace51ac12d948f4cc0d636dbc3c504b4b53104008a6ed85c642487",
+      "transcriptSha256": "667d7c41de3056423057a3b428d798807dbedb2fd31edbac60d38049ee277dbc",
+      "bytes": 338445
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-kiriths-amulet-clue",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-kiriths-amulet-clue.mp3",
+      "durationMs": 28425,
+      "sha256": "a04c80b2f4cf9a49d29f52f874eb46d4ef73c3bc31ded4732e44c415b72692d3",
+      "transcriptSha256": "2071b621c19954e72e5359f17b1987c979f8bd6f717052393ec71cb4c255efd1",
+      "bytes": 342189
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-loramus-in-azshara",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-loramus-in-azshara.mp3",
+      "durationMs": 29800,
+      "sha256": "620d0be128ea1f5c6c222af7ff730361ed274b0cc87e6d87714ec13d1347777f",
+      "transcriptSha256": "92e6b0f3d84406180a2add4086dcad79e3612a7ed0e6bbc9005610e57e964b8b",
+      "bytes": 358605
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-name-of-the-beast",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-name-of-the-beast.mp3",
+      "durationMs": 28325,
+      "sha256": "e522a36fb4d910fc6fb873b07d4c02d4b99857a135b103eb3f68f87c46e05796",
+      "transcriptSha256": "2f0e910eb252a0883ccc4812c6a7021d8b21dca2c065977aacda92a8af629b86",
+      "bytes": 341037
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-azsharite-for-felbane",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-azsharite-for-felbane.mp3",
+      "durationMs": 29250,
+      "sha256": "37bcfd669ddc4664d12291012ac2cbe6f3d423d8d33b143df2d45a3f6edfe65c",
+      "transcriptSha256": "0f789400bebe97a57e86f29a6e19e3e2218b2e951b57fe6f349824f927ff83a1",
+      "bytes": 351981
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-galvans-felbane-forge",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-galvans-felbane-forge.mp3",
+      "durationMs": 30900,
+      "sha256": "8d9ea8be99ecec9e5e58c271f5a8d203f5b8ed9a7b9572ab4712090bc5acb3d4",
+      "transcriptSha256": "1691e37693db33e5b180c0775466ccac1b2ea75a61916a349ae4083095d7dfe2",
+      "bytes": 371853
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-return-to-blasted-lands",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-return-to-blasted-lands.mp3",
+      "durationMs": 29050,
+      "sha256": "3a10d381f2a21f4aa82bce2413728fce0e89b3156ca71ee4839598db0e19b029",
+      "transcriptSha256": "1e98cc19de041ebd66e0cce672b8fbec30d760ff71947d97cc98f1734baab439",
+      "bytes": 349677
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-the-three-lieutenants",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-the-three-lieutenants.mp3",
+      "durationMs": 31925,
+      "sha256": "8b9b762f20358fc90171bbc532883033fdce9f554c46267c6e64f2060d84451f",
+      "transcriptSha256": "38903cc2c7d9e88ced843072e337e1303cb1faf21a9364918ff692812f327245",
+      "bytes": 384237
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-summoning-rakhlikh",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-summoning-rakhlikh.mp3",
+      "durationMs": 26975,
+      "sha256": "18895128b67f5462c871d1b1edff9356be483bd2c7aa273c76b6524cac9dcfe1",
+      "transcriptSha256": "2e02b7c86d54e8266f8318ab5038175ff93d199ee602b447fb0996d82e45cb76",
+      "bytes": 324621
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-horn-and-ward",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-horn-and-ward.mp3",
+      "durationMs": 30700,
+      "sha256": "fbe033c5cb3f2a07c08ac03b2960aaec89ec0827d128e00de9f8087b7a628608",
+      "transcriptSha256": "3a2a5c17fca0ff2185d8dab98a9e1eb4fc92a965d4edba3ed3340be859f6c181",
+      "bytes": 369549
     }
   ]
 }

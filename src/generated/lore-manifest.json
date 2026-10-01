@@ -67,6 +67,17 @@
       }
     },
     {
+      "id": "fallen-hero-story-theater",
+      "name": "The Fallen Hero — relational story theater",
+      "slug": "fallen-hero-story-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "karazhan-story-theater",
       "name": "Karazhan — relational story theater",
       "slug": "karazhan-story-theater",
@@ -469,6 +480,86 @@
       "geometryIds": [],
       "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
       "interpretationNote": "Original AI-generated landscape inspired by Upper Blackrock Spire entrance balcony. Recognizable traits to preserve: A jagged volcanic ledge, black masonry braces, distant iron structures and red-orange cavern glow. Bodley’s scene is placed near the instance entrance as described by the quest. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-azshara-coast-scene",
+      "name": "The Fallen Hero: Azshara’s eastern coast illustrated scene",
+      "worldspaceId": "fallen-hero-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/fallen-hero/azshara-coast.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape for Azshara’s eastern coast. Target edition: pre-Cataclysm World of Warcraft Classic area identity. Preserve these recognizable traits: Classic pre-Cataclysm Azshara: cold blue sea, high weathered coastal cliffs, pale stone, small islands, a broad eastern shore and cool marine haze. Do not use the lush jungle language of Stranglethorn or the scorched Blasted Lands palette. This is an original interpretive scene, not a screenshot, surveyed geography, exact dungeon layout, fixed route or evidence of character co-presence. See docs/research/fallen-hero-and-rakhlikh-visual-assets.json for the matching-build review gate."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-azsharite-peninsula-scene",
+      "name": "The Fallen Hero: Azshara’s azsharite shore illustrated scene",
+      "worldspaceId": "fallen-hero-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/fallen-hero/azsharite-peninsula.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape for Azshara’s azsharite shore. Target edition: pre-Cataclysm World of Warcraft Classic area identity. Preserve these recognizable traits: A distinct Azshara coast vista with cold blue water, exposed pale cliffs and narrow stony beaches. Preserve the region’s sea-facing, wind-cut terrain and restrained blue-grey light; the composition is not an exact resource node or route. This is an original interpretive scene, not a screenshot, surveyed geography, exact dungeon layout, fixed route or evidence of character co-presence. See docs/research/fallen-hero-and-rakhlikh-visual-assets.json for the matching-build review gate."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-blasted-binding-field-scene",
+      "name": "The Fallen Hero: The Blasted Lands, Trebor’s field illustrated scene",
+      "worldspaceId": "fallen-hero-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/fallen-hero/blasted-binding-field.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape for The Blasted Lands, Trebor’s field. Target edition: pre-Cataclysm World of Warcraft Classic area identity. Preserve these recognizable traits: Classic pre-Cataclysm Blasted Lands: scorched red-brown earth, dusty ochre sky, sparse dead trees, exposed broken ridges and volcanic stone. Keep this dry, open and hostile, sharply distinct from the swamp. This is an original interpretive scene, not a screenshot, surveyed geography, exact dungeon layout, fixed route or evidence of character co-presence. See docs/research/fallen-hero-and-rakhlikh-visual-assets.json for the matching-build review gate."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-rise-of-defiler-scene",
+      "name": "The Fallen Hero: The Rise of the Defiler illustrated scene",
+      "worldspaceId": "fallen-hero-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/fallen-hero/rise-of-defiler.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape for The Rise of the Defiler. Target edition: pre-Cataclysm World of Warcraft Classic area identity. Preserve these recognizable traits: The Blasted Lands’ exposed ochre flats, dark volcanic escarpment and stark broken silhouette. Use sparse dead scrub and a distant, oppressive rise; keep landmarks broad because the art is interpretive, not a surveyed view. This is an original interpretive scene, not a screenshot, surveyed geography, exact dungeon layout, fixed route or evidence of character co-presence. See docs/research/fallen-hero-and-rakhlikh-visual-assets.json for the matching-build review gate."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-serpents-coil-cave-scene",
+      "name": "The Fallen Hero: Serpent’s Coil on the Blasted Lands coast illustrated scene",
+      "worldspaceId": "fallen-hero-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/fallen-hero/serpents-coil-cave.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape for Serpent’s Coil on the Blasted Lands coast. Target edition: pre-Cataclysm World of Warcraft Classic area identity. Preserve these recognizable traits: A low rocky cave mouth and dark damp interior set into the Blasted Lands coast, with rough stone, narrow tidal water and restrained fel light. Preserve the dry red-brown land outside the cave; this is not an invented dungeon plan. This is an original interpretive scene, not a screenshot, surveyed geography, exact dungeon layout, fixed route or evidence of character co-presence. See docs/research/fallen-hero-and-rakhlikh-visual-assets.json for the matching-build review gate."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-stranglethorn-forge-camp-scene",
+      "name": "The Fallen Hero: Galvan’s inland Stranglethorn camp illustrated scene",
+      "worldspaceId": "fallen-hero-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/fallen-hero/stranglethorn-forge-camp.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape for Galvan’s inland Stranglethorn camp. Target edition: pre-Cataclysm World of Warcraft Classic area identity. Preserve these recognizable traits: Classic pre-Cataclysm inland Stranglethorn: dense humid green canopy, layered tropical growth, vines and warm haze, with a modest timber-and-stone camp and a working forge. This is Galvan’s inland camp, not the coastal stilt-harbor of Booty Bay. This is an original interpretive scene, not a screenshot, surveyed geography, exact dungeon layout, fixed route or evidence of character co-presence. See docs/research/fallen-hero-and-rakhlikh-visual-assets.json for the matching-build review gate."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-swamp-border-scene",
+      "name": "The Fallen Hero: Swamp of Sorrows and the Stonard approaches illustrated scene",
+      "worldspaceId": "fallen-hero-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/fallen-hero/swamp-border.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape for Swamp of Sorrows and the Stonard approaches. Target edition: pre-Cataclysm World of Warcraft Classic area identity. Preserve these recognizable traits: Classic pre-Cataclysm Swamp of Sorrows: humid green-brown marsh, shallow water and mud, tangled trees, reeds and low mist. The Horde camp is rough timber, hides, rope and practical spiked defenses, never pale kaldorei ruins or the burnt palette of the Blasted Lands. This is an original interpretive scene, not a screenshot, surveyed geography, exact dungeon layout, fixed route or evidence of character co-presence. See docs/research/fallen-hero-and-rakhlikh-visual-assets.json for the matching-build review gate."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-temple-of-arkkoran-scene",
+      "name": "The Fallen Hero: The Temple of Arkkoran illustrated scene",
+      "worldspaceId": "fallen-hero-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/fallen-hero/temple-of-arkkoran.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape for The Temple of Arkkoran. Target edition: pre-Cataclysm World of Warcraft Classic area identity. Preserve these recognizable traits: The ruined coastal temple in Classic Azshara: pale weathered night-elf stone, slender broken arches, carved but eroded surfaces, blue sea and cliff edges. Keep its architecture ancient and kaldorei without copying an in-game screenshot. This is an original interpretive scene, not a screenshot, surveyed geography, exact dungeon layout, fixed route or evidence of character co-presence. See docs/research/fallen-hero-and-rakhlikh-visual-assets.json for the matching-build review gate."
     },
     {
       "id": "karazhan-masters-key-and-nightbane-arcatraz-scene",
@@ -2295,6 +2386,325 @@
       "editorNote": "Approximate Quel’Thalas theater; not an exact invasion front or control boundary.",
       "labelPriority": 210,
       "visualPresence": "persistent"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-archmage-allistarj-theater",
+      "entityId": "archmage-allistarj",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-archmage-allistarj-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-bengor-theater",
+      "entityId": "bengor",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-bengor-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-horde-opening-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-binding-stone-theater",
+      "entityId": "binding-stone",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-binding-stone-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-bound-soldiers-theater",
+      "entityId": "bound-soldiers",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-bound-soldiers-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-completed-amulet-theater",
+      "entityId": "completed-amulet",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-completed-amulet-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-felbane-weaponry-theater",
+      "entityId": "felbane-weaponry",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-felbane-weaponry-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-felbane-weapon-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-galvan-ancient-theater",
+      "entityId": "galvan-ancient",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-galvan-ancient-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-felbane-weapon-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-grol-destroyer-theater",
+      "entityId": "grol-destroyer",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-grol-destroyer-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-hetaera-theater",
+      "entityId": "hetaera",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-hetaera-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-loramus-name-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-kirith-damned-theater",
+      "entityId": "kirith-damned",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-kirith-damned-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-kirith-cover-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-kirith-spirit-theater",
+      "entityId": "kirith-spirit",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-kirith-spirit-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-kirith-cover-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-lady-sevine-theater",
+      "entityId": "lady-sevine",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-lady-sevine-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-loramus-thalipedes-theater",
+      "entityId": "loramus-thalipedes",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-loramus-thalipedes-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-loramus-name-locators",
+        "fallen-hero-felbane-weapon-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-lord-arkkoroc-theater",
+      "entityId": "lord-arkkoroc",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-lord-arkkoroc-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-loramus-name-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-razelikh-defiler-theater",
+      "entityId": "razelikh-defiler",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-razelikh-defiler-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-amulet-locators",
+        "fallen-hero-final-quest-locator"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-severed-horn-theater",
+      "entityId": "severed-horn",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-severed-horn-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-final-quest-locator"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-shattered-amulet-theater",
+      "entityId": "shattered-amulet",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-shattered-amulet-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-felbane-weapon-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-trebor-fallen-hero-theater",
+      "entityId": "trebor-fallen-hero",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-trebor-fallen-hero-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-petty-squabbles-locator",
+        "fallen-hero-horde-opening-locators",
+        "fallen-hero-tale-of-sorrow-locator",
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-felbane-weapon-locators",
+        "fallen-hero-amulet-locators",
+        "fallen-hero-final-quest-locator"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-warchief-orders-theater",
+      "entityId": "warchief-orders",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-warchief-orders-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-horde-opening-locators"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-ward-of-defiler-theater",
+      "entityId": "ward-of-defiler",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "geometryId": "fallen-hero-and-rakhlikh-ward-of-defiler-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "fallen-hero-final-quest-locator"
+      ],
+      "editorNote": "Editorial figure/object placement in an illustrated story theater. It asserts no map position, travel route, exact formation, or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
     },
     {
       "id": "forge-of-origination-ordering-spatial-research",
@@ -5552,7 +5962,16 @@
         "karazhan-masters-touch-quest-text",
         "karazhan-journal-and-nightbane-quest-chain",
         "karazhan-atiesh-visual-reference",
-        "karazhan-kalynnas-request-quest-text"
+        "karazhan-kalynnas-request-quest-text",
+        "fallen-hero-petty-squabbles-locator",
+        "fallen-hero-horde-opening-locators",
+        "fallen-hero-tale-of-sorrow-locator",
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-loramus-name-locators",
+        "fallen-hero-felbane-weapon-locators",
+        "fallen-hero-amulet-locators",
+        "fallen-hero-final-quest-locator"
       ],
       "contentStatus": "research"
     },
@@ -6451,6 +6870,32 @@
       "contentStatus": "research"
     },
     {
+      "id": "archmage-allistarj",
+      "type": "character",
+      "name": "Archmage Allistarj",
+      "slug": "archmage-allistarj",
+      "shortDescription": "Archmage Allistarj, represented in the Classic research story.",
+      "body": "One of Razelikh’s lieutenants, represented as a fel-touched spellcaster; generated clothing and magical implements are interpretive. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/archmage-allistarj.research.webp",
+        "scale": 0.82
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "archmage-alturus",
       "type": "character",
       "name": "Archmage Alturus",
@@ -6621,6 +7066,27 @@
       "contentStatus": "research"
     },
     {
+      "id": "azshara-coast",
+      "type": "location",
+      "name": "Azshara",
+      "slug": "azshara-coast",
+      "shortDescription": "Broad pre-Cataclysm eastern shore for Loramus’s research and the name and material quests.",
+      "body": "Broad pre-Cataclysm eastern shore for Loramus’s research and the name and material quests. Geography is broad and interpretive; the story does not assert a route or exact marker.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-loramus-name-locators",
+        "fallen-hero-felbane-weapon-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "classic-era-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "azshara",
       "type": "character",
       "name": "Queen Azshara",
@@ -6699,6 +7165,54 @@
       "mapFigure": {
         "asset": "images/storylines/scepter/baristolth.research.webp",
         "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "bengor",
+      "type": "character",
+      "name": "Bengor",
+      "slug": "bengor",
+      "shortDescription": "Bengor, represented in the Classic research story.",
+      "body": "A wounded courier and witness to the Horde ambush, shown as an exhausted traveler in practical road-worn gear; no exact armor model is asserted. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-horde-opening-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/bengor.research.webp",
+        "scale": 0.82
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "binding-stone",
+      "type": "artifact",
+      "name": "A binding stone",
+      "slug": "binding-stone",
+      "shortDescription": "A binding stone, represented in the Classic research story.",
+      "body": "An original interpretation of a binding stone. It does not represent a surveyed stone location or exact Classic object model. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/fallen-hero/binding-stone.research.webp",
+        "scale": 0.68
       },
       "contentStatus": "research"
     },
@@ -6826,6 +7340,32 @@
       "contentStatus": "research"
     },
     {
+      "id": "blasted-lands",
+      "type": "location",
+      "name": "The Blasted Lands",
+      "slug": "blasted-lands",
+      "shortDescription": "Broad Classic-era region for Trebor’s account, the bound souls and the demon’s final challenge.",
+      "body": "Broad Classic-era region for Trebor’s account, the bound souls and the demon’s final challenge. Geography is broad and interpretive; the story does not assert a route or exact marker.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-petty-squabbles-locator",
+        "fallen-hero-horde-opening-locators",
+        "fallen-hero-tale-of-sorrow-locator",
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-felbane-weapon-locators",
+        "fallen-hero-amulet-locators",
+        "fallen-hero-kirith-cover-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "classic-era-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "bodley",
       "type": "character",
       "name": "Bodley",
@@ -6876,6 +7416,30 @@
         "asset": "images/storylines/onyxia/bolvar-fordragon.research.webp",
         "scale": 0.86
       }
+    },
+    {
+      "id": "bound-soldiers",
+      "type": "faction",
+      "name": "The bound soldiers",
+      "slug": "bound-soldiers",
+      "shortDescription": "The bound soldiers, represented in the Classic research story.",
+      "body": "An interpretive group representing the bound spirits released by the binding-stone quest. The artwork does not assert an exact count or roster. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/fallen-hero/bound-soldiers.research.webp",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
     },
     {
       "id": "broken-isles",
@@ -7025,6 +7589,32 @@
         "midnight",
         "approximate-location"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "completed-amulet",
+      "type": "artifact",
+      "name": "The united amulet",
+      "slug": "completed-amulet",
+      "shortDescription": "The united amulet, represented in the Classic research story.",
+      "body": "An assembled version of the interpretive three-part amulet, used to distinguish the final stage from the scattered fragments. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/fallen-hero/completed-amulet.research.webp",
+        "scale": 0.68
+      },
       "contentStatus": "research"
     },
     {
@@ -7780,6 +8370,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "felbane-weaponry",
+      "type": "artifact",
+      "name": "Felbane weaponry",
+      "slug": "felbane-weaponry",
+      "shortDescription": "Felbane weaponry, represented in the Classic research story.",
+      "body": "Interpretive fel-slaying arms prepared from azsharite. The exact selectable weapon and model are not asserted. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-felbane-weapon-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/fallen-hero/felbane-weaponry.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "forge-of-origination",
       "type": "site",
       "name": "The Forge of Origination",
@@ -7847,6 +8462,30 @@
         "lich-king",
         "northrend"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "galvan-ancient",
+      "type": "character",
+      "name": "Galvan the Ancient",
+      "slug": "galvan-ancient",
+      "shortDescription": "Galvan the Ancient, represented in the Classic research story.",
+      "body": "The craftsman at the inland Stranglethorn camp, represented as an aged forge worker. His species, costume and precise workshop arrangement remain human-review items. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-felbane-weapon-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/galvan-ancient.research.webp",
+        "scale": 0.82
+      },
       "contentStatus": "research"
     },
     {
@@ -7972,6 +8611,32 @@
       "contentStatus": "research"
     },
     {
+      "id": "grol-destroyer",
+      "type": "character",
+      "name": "Grol the Destroyer",
+      "slug": "grol-destroyer",
+      "shortDescription": "Grol the Destroyer, represented in the Classic research story.",
+      "body": "One of Razelikh’s lieutenants, represented with an ogre-like broad frame in keeping with the quest history. Armor and facial details are interpretive. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/grol-destroyer.research.webp",
+        "scale": 0.82
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "grom-hellscream",
       "type": "character",
       "name": "Grom Hellscream",
@@ -8053,6 +8718,30 @@
         "asset": "images/storylines/onyxia/haleh.research.webp",
         "scale": 0.86
       }
+    },
+    {
+      "id": "hetaera",
+      "type": "character",
+      "name": "Hetaera",
+      "slug": "hetaera",
+      "shortDescription": "Hetaera, represented in the Classic research story.",
+      "body": "A distinct creature portrait for the Hetaera quest step in Azshara. The image is an original interpretation, not a verified client model. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-loramus-name-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/hetaera.research.webp",
+        "scale": 0.82
+      },
+      "contentStatus": "research"
     },
     {
       "id": "highborne-exiles",
@@ -8822,6 +9511,54 @@
       "contentStatus": "research"
     },
     {
+      "id": "kirith-damned",
+      "type": "character",
+      "name": "Kirith the Damned",
+      "slug": "kirith-damned",
+      "shortDescription": "Kirith the Damned, represented in the Classic research story.",
+      "body": "Kirith in demonic form, represented as a large felhound-like creature with a readable horned silhouette; interpretive rather than a claim about a precise Classic model. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-kirith-cover-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/kirith-damned.research.webp",
+        "scale": 0.82
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "kirith-spirit",
+      "type": "character",
+      "name": "The spirit of Kirith",
+      "slug": "kirith-spirit",
+      "shortDescription": "The spirit of Kirith, represented in the Classic research story.",
+      "body": "A separate spectral portrayal for Kirith’s later quest-spirit appearance. This is not shown together with his demonic form and does not determine his ultimate fate. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-kirith-cover-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/kirith-spirit.research.webp",
+        "scale": 0.82
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "kormok",
       "type": "character",
       "name": "Kormok",
@@ -8845,6 +9582,32 @@
         "asset": "images/storylines/dungeon-set-two/kormok.research.webp",
         "scale": 0.82
       }
+    },
+    {
+      "id": "lady-sevine",
+      "type": "character",
+      "name": "Lady Sevine",
+      "slug": "lady-sevine",
+      "shortDescription": "Lady Sevine, represented in the Classic research story.",
+      "body": "One of Razelikh’s lieutenants, given a distinct female demon silhouette with restrained fel color; exact species and costume details await Classic model review. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/lady-sevine.research.webp",
+        "scale": 0.82
+      },
+      "contentStatus": "research"
     },
     {
       "id": "lei-shen",
@@ -8931,6 +9694,55 @@
       "mapVisual": {
         "asset": "images/subjects/long-vigil-new-kingdoms/long-vigil-kaldorei.research.webp",
         "scale": 0.92
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "loramus-thalipedes",
+      "type": "character",
+      "name": "Loramus Thalipedes",
+      "slug": "loramus-thalipedes",
+      "shortDescription": "Loramus Thalipedes, represented in the Classic research story.",
+      "body": "A night-elf demon hunter whose Classic-era counsel guides the search. His clothing and weapons are interpretive and are not treated as evidence for a costume. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-loramus-name-locators",
+        "fallen-hero-felbane-weapon-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/loramus-thalipedes.research.webp",
+        "scale": 0.82
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "lord-arkkoroc",
+      "type": "character",
+      "name": "Lord Arkkoroc",
+      "slug": "lord-arkkoroc",
+      "shortDescription": "Lord Arkkoroc, represented in the Classic research story.",
+      "body": "A colossal sea giant associated with the name-gathering quest in Azshara, shown with a broad sea-worn silhouette and original details. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-loramus-name-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/lord-arkkoroc.research.webp",
+        "scale": 1
       },
       "contentStatus": "research"
     },
@@ -9219,7 +10031,7 @@
         "scale": 0.94
       },
       "contentStatus": "research",
-      "body": "The Karazhan-story figure is a separate original interpretation and shows Atiesh as a gnarled wooden staff with an integrated carved raven-head finial, violet crystal accents, and a hanging violet streamer. Its appearance and use in the journal memory remain subject to human comparison with the appropriate TBC client/model. The Karazhan-story figure is a separate original interpretation and depicts the user-requested raven-crowned Atiesh. Its appearance and use in the journal memory remain subject to human comparison with the appropriate TBC client/model."
+      "body": "The Karazhan-story figure is a separate original interpretation and shows Atiesh, Greatstaff of the Guardian, as a gnarled wooden staff with an integrated carved raven-head finial, violet crystal accents, and a hanging violet streamer. Its appearance and use in the journal memory remain subject to human comparison with the appropriate TBC client/model."
     },
     {
       "id": "medivhs-journal",
@@ -10013,6 +10825,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "razelikh-defiler",
+      "type": "character",
+      "name": "Razelikh the Defiler",
+      "slug": "razelikh-defiler",
+      "shortDescription": "Razelikh the Defiler, represented in the Classic research story.",
+      "body": "The demon summoned at the Rise of the Defiler, shown as a large, distinct horned antagonist; the art does not claim an exact in-game model. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-amulet-locators",
+        "fallen-hero-final-quest-locator"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/razelikh-defiler.research.webp",
+        "scale": 1
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "rexxar",
       "name": "Rexxar",
       "slug": "rexxar",
@@ -10036,6 +10873,27 @@
         "asset": "images/storylines/onyxia/rexxar.research.webp",
         "scale": 0.86
       }
+    },
+    {
+      "id": "rise-of-defiler",
+      "type": "location",
+      "name": "The Rise of the Defiler",
+      "slug": "rise-of-defiler",
+      "shortDescription": "The broad landmark setting for the final Razelikh encounter.",
+      "body": "The broad landmark setting for the final Razelikh encounter. Geography is broad and interpretive; the story does not assert a route or exact marker.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-amulet-locators",
+        "fallen-hero-final-quest-locator"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "classic-era-location"
+      ],
+      "contentStatus": "research"
     },
     {
       "id": "sargeras",
@@ -10121,6 +10979,26 @@
       "contentStatus": "research"
     },
     {
+      "id": "serpents-coil",
+      "type": "location",
+      "name": "Serpent’s Coil",
+      "slug": "serpents-coil",
+      "shortDescription": "Broad coastal cave setting in the Blasted Lands for Kirith’s quest.",
+      "body": "Broad coastal cave setting in the Blasted Lands for Kirith’s quest. Geography is broad and interpretive; the story does not assert a route or exact marker.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-kirith-cover-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "classic-era-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "sethekk-halls",
       "type": "location",
       "name": "Sethekk Halls",
@@ -10164,6 +11042,30 @@
       "mapVisual": {
         "asset": "images/subjects/long-vigil-new-kingdoms/arathor.research.webp",
         "scale": 0.82
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "severed-horn",
+      "type": "artifact",
+      "name": "Razelikh’s horn",
+      "slug": "severed-horn",
+      "shortDescription": "Razelikh’s horn, represented in the Classic research story.",
+      "body": "An interpretive horn representing the requested proof of Razelikh’s defeat; it does not assert exact anatomy or object appearance. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-final-quest-locator"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/fallen-hero/severed-horn.research.webp",
+        "scale": 0.68
       },
       "contentStatus": "research"
     },
@@ -10281,6 +11183,32 @@
         "afterlife",
         "relational-map"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shattered-amulet",
+      "type": "artifact",
+      "name": "The shattered amulet",
+      "slug": "shattered-amulet",
+      "shortDescription": "The shattered amulet, represented in the Classic research story.",
+      "body": "Three visible fragments of an original dark amulet illustration; no canonical appearance is asserted. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-felbane-weapon-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/fallen-hero/shattered-amulet.research.webp",
+        "scale": 0.68
+      },
       "contentStatus": "research"
     },
     {
@@ -10443,6 +11371,26 @@
       "contentStatus": "research"
     },
     {
+      "id": "stranglethorn-vale-camp",
+      "type": "location",
+      "name": "Galvan’s camp in Stranglethorn Vale",
+      "slug": "stranglethorn-vale-camp",
+      "shortDescription": "Inland jungle camp for Felbane’s formation; distinct from Booty Bay and no exact travel route is claimed.",
+      "body": "Inland jungle camp for Felbane’s formation; distinct from Booty Bay and no exact travel route is claimed. Geography is broad and interpretive; the story does not assert a route or exact marker.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-felbane-weapon-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "classic-era-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "stratholme",
       "type": "location",
       "name": "Stratholme",
@@ -10520,6 +11468,26 @@
       "contentStatus": "research"
     },
     {
+      "id": "swamp-of-sorrows-stonard",
+      "type": "location",
+      "name": "Swamp of Sorrows near Stonard",
+      "slug": "swamp-of-sorrows-stonard",
+      "shortDescription": "Broad marshland setting for the Horde introduction; no exact path is asserted.",
+      "body": "Broad marshland setting for the Horde introduction; no exact path is asserted. Geography is broad and interpretive; the story does not assert a route or exact marker.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-horde-opening-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "classic-era-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "sylvanas-windrunner",
       "type": "character",
       "name": "Sylvanas Windrunner",
@@ -10546,6 +11514,26 @@
         "asset": "images/characters/third-war-frozen-throne/sylvanas-windrunner.research.webp",
         "scale": 0.82
       },
+      "contentStatus": "research"
+    },
+    {
+      "id": "temple-of-arkkoran",
+      "type": "location",
+      "name": "The Temple of Arkkoran",
+      "slug": "temple-of-arkkoran",
+      "shortDescription": "Coastal Azshara site associated with Lord Arkkoroc’s quest step.",
+      "body": "Coastal Azshara site associated with Lord Arkkoroc’s quest step. Geography is broad and interpretive; the story does not assert a route or exact marker.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-loramus-name-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "classic-era-location"
+      ],
       "contentStatus": "research"
     },
     {
@@ -10738,6 +11726,36 @@
       "mapVisual": {
         "asset": "images/subjects/ordering-of-azeroth/titan-forged.research.webp",
         "scale": 1.1
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "trebor-fallen-hero",
+      "type": "character",
+      "name": "Trebor the Fallen Hero",
+      "slug": "trebor-fallen-hero",
+      "shortDescription": "Trebor the Fallen Hero, represented in the Classic research story.",
+      "body": "A spectral human warrior, the Fallen Hero of the Horde. The art emphasizes age, grief and the outline of a soldier; its exact armor and body details remain interpretive. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-petty-squabbles-locator",
+        "fallen-hero-horde-opening-locators",
+        "fallen-hero-tale-of-sorrow-locator",
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-felbane-weapon-locators",
+        "fallen-hero-amulet-locators",
+        "fallen-hero-final-quest-locator"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/fallen-hero/trebor-fallen-hero.research.webp",
+        "scale": 0.82
       },
       "contentStatus": "research"
     },
@@ -11054,6 +12072,30 @@
       "contentStatus": "research"
     },
     {
+      "id": "warchief-orders",
+      "type": "artifact",
+      "name": "The missing Warchief’s orders",
+      "slug": "warchief-orders",
+      "shortDescription": "The missing Warchief’s orders, represented in the Classic research story.",
+      "body": "An original paper-and-seal interpretation of the recovered orders. No legible game text is reproduced. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-horde-opening-locators"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/fallen-hero/warchief-orders.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "warchief-rend-blackhand",
       "name": "Warchief Rend Blackhand",
       "slug": "warchief-rend-blackhand",
@@ -11077,6 +12119,30 @@
         "asset": "images/storylines/onyxia/warchief-rend-blackhand.research.webp",
         "scale": 0.86
       }
+    },
+    {
+      "id": "ward-of-defiler",
+      "type": "artifact",
+      "name": "The Ward of the Defiler",
+      "slug": "ward-of-defiler",
+      "shortDescription": "The Ward of the Defiler, represented in the Classic research story.",
+      "body": "An original ward illustration returned to Trebor. The image does not assert that its requested destruction was directly shown. This is original interpretive art, not canonical game art or evidence for exact appearance, location, or event. See the story's visual asset ledger for the matching-build review gate.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "fallen-hero-final-quest-locator"
+      ],
+      "tags": [
+        "fallen-hero-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/fallen-hero/ward-of-defiler.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
     },
     {
       "id": "well-of-eternity",
@@ -12789,6 +13855,407 @@
       ],
       "claimIds": [
         "early-troll-powers-rise-event-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-azsharite-for-felbane-event",
+      "kind": "event",
+      "name": "Azsharite for the weapon",
+      "slug": "fallen-hero-and-rakhlikh-azsharite-for-felbane",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "A name alone cannot break Razelikh’s hold. The chain next calls for azsharite, a material gathered in Azshara and brought into the weapon-making task. The quest’s collection condition is not retold as a count or a single dramatic excavation. What changes is the preparation: the hunt has found its target, and the seeker now carries material chosen for the Felbane armament that will make the final confrontation possible.",
+      "locationIds": [
+        "azshara-coast"
+      ],
+      "participantEntityIds": [
+        "loramus-thalipedes"
+      ],
+      "sourceIds": [
+        "fallen-hero-felbane-weapon-locators"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-azsharite-for-felbane-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-bengor-and-the-orders-event",
+      "kind": "event",
+      "name": "Bengor brings the lost orders",
+      "slug": "fallen-hero-and-rakhlikh-bengor-and-the-orders",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "In the Horde telling, Bengor is found wounded in the Swamp of Sorrows. He reports that the dispatch was ambushed and the Warchief’s orders lost. His testimony brings the seeker to Trebor and gives the campaign a practical beginning: before the old soldier can speak of his shame, the missing command must be recovered. The chain does not turn the Alliance introduction into the same journey; it offers another way to reach the shared wound.",
+      "locationIds": [
+        "swamp-of-sorrows-stonard"
+      ],
+      "participantEntityIds": [
+        "bengor"
+      ],
+      "sourceIds": [
+        "fallen-hero-horde-opening-locators"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-bengor-and-the-orders-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-galvans-felbane-forge-event",
+      "kind": "event",
+      "name": "Felbane takes shape",
+      "slug": "fallen-hero-and-rakhlikh-galvans-felbane-forge",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "At Galvan’s camp in inland Stranglethorn, the material becomes Felbane weaponry. The green canopy, hanging vines and warm air make the setting recognizably different from Azshara’s coast; this is no harbor scene at Booty Bay. Galvan’s part is the transformation of gathered material into a prepared weapon. The records support the chain’s order and purpose, while the exact craft process and selectable weapon form remain matters for comparison with the Classic client.",
+      "locationIds": [
+        "stranglethorn-vale-camp"
+      ],
+      "participantEntityIds": [
+        "galvan-ancient"
+      ],
+      "sourceIds": [
+        "fallen-hero-felbane-weapon-locators"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-galvans-felbane-forge-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-horn-and-ward-event",
+      "kind": "event",
+      "name": "A sign of hope, and an unfinished charge",
+      "slug": "fallen-hero-and-rakhlikh-horn-and-ward",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "The final quest records Razelikh’s defeat and asks that his horn be returned to Trebor as a sign of hope. It also asks for the Ward of the Defiler so Trebor can destroy it. The request is clear; the destruction itself is not shown as a completed event in the evidence used here. Trebor’s story reaches a hard-won answer for the bound souls and the demon who held them. It does not record the fall of the Burning Legion, or every fate within its reach.",
+      "locationIds": [
+        "rise-of-defiler"
+      ],
+      "participantEntityIds": [
+        "trebor-fallen-hero",
+        "razelikh-defiler"
+      ],
+      "sourceIds": [
+        "fallen-hero-final-quest-locator"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-horn-and-ward-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-kirith-at-serpents-coil-event",
+      "kind": "event",
+      "name": "Kirith at Serpent’s Coil",
+      "slug": "fallen-hero-and-rakhlikh-kirith-at-serpents-coil",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "The quest turns toward Serpent’s Coil, where Kirith the Damned bars the way. The setting changes from open badlands to a low cave mouth on the coast. There the adventurer defeats the demon and the chain yields a new account through Kirith’s spirit. The art presents the beast in a broad, readable silhouette; it is not a reconstruction of the cave’s exact layout or proof of details absent from the quest record.",
+      "locationIds": [
+        "serpents-coil"
+      ],
+      "participantEntityIds": [
+        "kirith-damned"
+      ],
+      "sourceIds": [
+        "fallen-hero-kirith-cover-locators"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-kirith-at-serpents-coil-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-kiriths-amulet-clue-event",
+      "kind": "event",
+      "name": "The amulet has three pieces",
+      "slug": "fallen-hero-and-rakhlikh-kiriths-amulet-clue",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "Kirith’s spirit explains the next obstacle: Razelikh cannot be reached until the shattered amulet is made whole. Its three pieces are held by the demon’s lieutenants. The quest dialogue supplies the clue, not a new claim about Kirith’s final fate. The fragments now give the scattered work a shape. Trebor’s grievance can be answered only by confronting the power behind the bindings, and the seeker needs both knowledge and a weapon for that meeting.",
+      "locationIds": [
+        "serpents-coil"
+      ],
+      "participantEntityIds": [
+        "kirith-spirit"
+      ],
+      "sourceIds": [
+        "fallen-hero-kirith-cover-locators"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-kiriths-amulet-clue-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-loramus-in-azshara-event",
+      "kind": "event",
+      "name": "Loramus and the demon hunter’s counsel",
+      "slug": "fallen-hero-and-rakhlikh-loramus-in-azshara",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "The chain reaches Loramus Thalipedes on Azshara’s cold eastern shore. In the Classic quest account, the demon hunter helps direct the work that lies ahead: learn the demon’s true name and prepare a means to challenge him. The coast is broad and wind-cut, a different world from the Blasted Lands’ dry scar. This telling uses Loramus’s Classic-era counsel only; later retellings of his story do not replace what this quest chain records.",
+      "locationIds": [
+        "azshara-coast"
+      ],
+      "participantEntityIds": [
+        "loramus-thalipedes"
+      ],
+      "sourceIds": [
+        "fallen-hero-loramus-name-locators"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-loramus-in-azshara-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-name-of-the-beast-event",
+      "kind": "event",
+      "name": "The name behind the title",
+      "slug": "fallen-hero-and-rakhlikh-name-of-the-beast",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "The search crosses Azshara’s pale coastal ruins, where the quest steps call for Hetaera’s blood and seek Lord Arkkoroc’s knowledge. The demon known as Razelikh the Defiler bears a truer name: Rakh’likh. That distinction is the chain’s discovery. Here, the old temple stone and blue water frame a hunt for usable knowledge, not a claim that every step took place in one room or followed an exact route along the coast.",
+      "locationIds": [
+        "temple-of-arkkoran"
+      ],
+      "participantEntityIds": [
+        "hetaera",
+        "lord-arkkoroc"
+      ],
+      "sourceIds": [
+        "fallen-hero-loramus-name-locators"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-name-of-the-beast-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-return-to-blasted-lands-event",
+      "kind": "event",
+      "name": "Return with the forged weapons",
+      "slug": "fallen-hero-and-rakhlikh-return-to-blasted-lands",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "The quest line turns back to Trebor with the weapon prepared and the amulet’s scattered fragments to unite. This is an editorial journey through quest destinations, not a drawn route: its tasks name the regions but do not document each road taken. The exposed Blasted Lands return as the place where old bonds and new preparations converge. The demon’s title, the weapon and the amulet are now part of one effort to reach the Rise.",
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "participantEntityIds": [
+        "trebor-fallen-hero"
+      ],
+      "sourceIds": [
+        "fallen-hero-felbane-weapon-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-return-to-blasted-lands-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-stones-that-bind-event",
+      "kind": "event",
+      "name": "The stones that bind them",
+      "slug": "fallen-hero-and-rakhlikh-stones-that-bind",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "The quest objective names eighteen bound servants: nine held by Razelikh and three each by Sevine, Allistarj and Grol. Their binding is represented by stones spread across the region, with no exact placement claimed here. The quest asks the seeker to break the hold upon them. In the exposed red earth, Trebor’s old loss becomes more than a memory: it becomes a task that can still release those who suffered under his command.",
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "participantEntityIds": [
+        "trebor-fallen-hero",
+        "bound-soldiers"
+      ],
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-stones-that-bind-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-summoning-rakhlikh-event",
+      "kind": "event",
+      "name": "At the Rise of the Defiler",
+      "slug": "fallen-hero-and-rakhlikh-summoning-rakhlikh",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "At the Rise of the Defiler, the united amulet lets the seeker bring the demon into the final contest. The known title falls away before the true name: Razelikh is Rakh’likh. Trebor’s old appeal has led here, from the souls once bound by the demon’s servants to a challenge against their master. The quests frame the meeting as a dangerous group confrontation but give no fixed battle formation. At the Rise, every preparation finds its purpose against the master whose servants once held Trebor’s soldiers.",
+      "locationIds": [
+        "rise-of-defiler"
+      ],
+      "participantEntityIds": [
+        "trebor-fallen-hero",
+        "razelikh-defiler"
+      ],
+      "sourceIds": [
+        "fallen-hero-amulet-locators"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-summoning-rakhlikh-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-the-souls-rest-event",
+      "kind": "event",
+      "name": "The spirits may rest",
+      "slug": "fallen-hero-and-rakhlikh-the-souls-rest",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "When the binding stones are broken, the completion text says the tortured souls can rest. It gives Trebor the mercy he had sought for his soldiers, though the count remains unsettled by the separate nineteen-men line. The story pauses over that release without supplying names for the dead or turning each stone into a separate battle. A long burden has eased; the power behind the chains still stands.",
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "participantEntityIds": [
+        "bound-soldiers",
+        "trebor-fallen-hero"
+      ],
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-the-souls-rest-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-the-three-lieutenants-event",
+      "kind": "event",
+      "name": "Three lieutenants, three fragments",
+      "slug": "fallen-hero-and-rakhlikh-the-three-lieutenants",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "The remaining amulet pieces come from Razelikh’s lieutenants: Allistarj, Sevine and Grol. Their encounters are separate, not one gathering in a field. In the tour they form a deliberate triptych, a memorial arrangement of three independent confrontations. When the fragments are brought together, the amulet is whole. Its completion opens the way that Kirith described, though the precise order of lieutenant encounters is not treated as a historical sequence beyond the quest dependency.",
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "participantEntityIds": [
+        "archmage-allistarj",
+        "lady-sevine",
+        "grol-destroyer"
+      ],
+      "sourceIds": [
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-amulet-locators"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-the-three-lieutenants-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-trebors-testimony-event",
+      "kind": "event",
+      "name": "Trebor’s tale of sorrow",
+      "slug": "fallen-hero-and-rakhlikh-trebors-testimony",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "Trebor recounts failure in battle, then a return to the Blasted Lands to rescue the men left behind. The account is one of defeat and obligation: he could not leave the captured soldiers to their torment. The reproduced Horde dialogue speaks of nineteen of his men, while the binding-stone objective counts eighteen bound servants. These are kept as two source details in tension. The surviving evidence does not resolve the difference.",
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "participantEntityIds": [
+        "trebor-fallen-hero"
+      ],
+      "sourceIds": [
+        "fallen-hero-tale-of-sorrow-locator"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-trebors-testimony-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero-event",
+      "kind": "event",
+      "name": "Two roads to the Fallen Hero",
+      "slug": "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "fallen-hero-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Fallen Hero quest chain; exact dating unknown"
+      },
+      "summary": "The Blasted Lands are a country of exposed earth and old ruin, where Trebor’s defeat still has living consequences. Classic gives his story two introductions. The Alliance quest approaches him through a plea for common action against the Legion; the Horde chain follows lost orders and a courier’s report. These are separate faction paths, not one traveler’s shared itinerary. They meet at Trebor, whose concern has outlasted his own life: the soldiers he could not save.",
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "participantEntityIds": [
+        "trebor-fallen-hero"
+      ],
+      "sourceIds": [
+        "fallen-hero-petty-squabbles-locator",
+        "fallen-hero-horde-opening-locators"
+      ],
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero-claim"
       ],
       "contentStatus": "research"
     },
@@ -20142,6 +21609,76 @@
       "notes": "Accessed 2026-10-01. Secondary compilation that links the mercenaries and their member histories. Use the in-game manual and named Classic quest text as the claim anchors; later continuity is out of scope."
     },
     {
+      "id": "fallen-hero-amulet-locators",
+      "title": "Uniting the Shattered Amulet and final quest locators",
+      "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-01. Secondary WoW Classic reproductions locate quests 3627–3628, the lieutenant shards, the summoning and final return request. Quest dependency does not prove one continuous geographic route."
+    },
+    {
+      "id": "fallen-hero-binding-stones-locator",
+      "title": "The Stones That Bind Us quest text locator",
+      "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-01. Secondary WoW Classic reproduction used for the objective naming eighteen bound servants across Razelikh, Sevine, Allistarj, and Grol, and its completion text. The separate nineteen-soldier dialogue is left unresolved."
+    },
+    {
+      "id": "fallen-hero-chain-locator",
+      "title": "You Are Rakh’likh, Demon quest chain locator",
+      "url": "https://warcraft.wiki.gg/wiki/You_Are_Rakh%27likh,_Demon_quest_chain",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-01. Secondary chain index used only to cross-check quest order, faction introductions and broad locations. Narrative claims are tied to the quest locators above, not to this index alone."
+    },
+    {
+      "id": "fallen-hero-felbane-weapon-locators",
+      "title": "Azsharite and Felbane quest locators",
+      "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-01. Secondary WoW Classic reproductions locate Azsharite (3602), The Formation of Felbane (3621), Enchanted Azsharite Fel Weaponry (3625), and Return to the Blasted Lands (3626). Collection conditions are not independent historical events; the original client route and text remain to be reviewed."
+    },
+    {
+      "id": "fallen-hero-final-quest-locator",
+      "title": "You Are Rakh’likh, Demon quest text locator",
+      "url": "https://www.wowhead.com/classic/quest=3628/you-are-rakhlikh-demon",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-01. Secondary WoW Classic reproduction used for the final objective, Razelikh’s defeat, and the request to return the horn and ward. The requested ward destruction is not presented as a directly shown event."
+    },
+    {
+      "id": "fallen-hero-horde-opening-locators",
+      "title": "Horde Fallen Hero quest text locators",
+      "url": "https://www.wowhead.com/classic/quest=2623/the-swamp-talker",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-01. Secondary WoW Classic reproductions locate Fall From Grace (2784), The Disgraced One, The Missing Orders (2622), and The Swamp Talker (2623). They are not an original-client capture. Keep this introduction distinct from the Alliance path."
+    },
+    {
+      "id": "fallen-hero-kirith-cover-locators",
+      "title": "Kirith and The Cover of Darkness quest text locators",
+      "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-01. Secondary WoW Classic reproductions for Kirith (2721) and The Cover of Darkness (2743). They locate Kirith’s spirit and his account of the three-part amulet. Do not infer Kirith’s ultimate fate from this evidence."
+    },
+    {
+      "id": "fallen-hero-loramus-name-locators",
+      "title": "The Demon Hunter, Loramus, and The Name of the Beast locators",
+      "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-01. Secondary WoW Classic reproductions for The Demon Hunter (2744), Loramus (3141), and The Name of the Beast (3511). Used to locate the Classic-era account and Rakh’likh name; exclude the later Cataclysm retelling."
+    },
+    {
+      "id": "fallen-hero-petty-squabbles-locator",
+      "title": "Petty Squabbles quest text locator",
+      "url": "https://www.wowhead.com/classic/quest=2783/petty-squabbles",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-01. Secondary WoW Classic reproduction used to locate the Alliance introduction to the Fallen Hero. The original Classic client/build and complete faction variant remain to be captured and compared."
+    },
+    {
+      "id": "fallen-hero-tale-of-sorrow-locator",
+      "title": "A Tale of Sorrow quest text locator",
+      "url": "https://www.wowhead.com/classic/quest=2801/a-tale-of-sorrow",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-01. Secondary WoW Classic reproduction used to locate Trebor’s shared quest account. Exact gossip, troop count and context require comparison with the original Classic build."
+    },
+    {
       "id": "karazhan-atiesh-visual-reference",
       "title": "Atiesh, Greatstaff of the Guardian item reference",
       "url": "https://www.wowhead.com/classic/item=22631/atiesh-greatstaff-of-the-guardian",
@@ -21300,6 +22837,139 @@
       "section": "In Search of Anthion (Alliance and Horde variants) · Two doors into the same story and the directly relevant description, account, objective or completion text",
       "questId": "In Search of Anthion (Alliance and Horde variants)",
       "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-azsharite-for-felbane-citation-1",
+      "sourceId": "fallen-hero-felbane-weapon-locators",
+      "section": "3602 · Azsharite · Azsharite for the weapon; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "3602 · Azsharite",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-bengor-and-the-orders-citation-1",
+      "sourceId": "fallen-hero-horde-opening-locators",
+      "section": "2622 · The Missing Orders; 2623 · The Swamp Talker · Bengor brings the lost orders; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2622 · The Missing Orders; 2623 · The Swamp Talker",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-galvans-felbane-forge-citation-1",
+      "sourceId": "fallen-hero-felbane-weapon-locators",
+      "section": "3621 · The Formation of Felbane; 3625 · Enchanted Azsharite Fel Weaponry · Felbane takes shape; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "3621 · The Formation of Felbane; 3625 · Enchanted Azsharite Fel Weaponry",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-horn-and-ward-citation-1",
+      "sourceId": "fallen-hero-final-quest-locator",
+      "section": "3628 · You Are Rakh’likh, Demon · objective, completion and return request · A sign of hope, and an unfinished charge; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "3628 · You Are Rakh’likh, Demon · objective, completion and return request",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-kirith-at-serpents-coil-citation-1",
+      "sourceId": "fallen-hero-kirith-cover-locators",
+      "section": "2721 · Kirith · Kirith at Serpent’s Coil; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2721 · Kirith",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-kiriths-amulet-clue-citation-1",
+      "sourceId": "fallen-hero-kirith-cover-locators",
+      "section": "2721 · Kirith; 2743 · The Cover of Darkness · The amulet has three pieces; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2721 · Kirith; 2743 · The Cover of Darkness",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-loramus-in-azshara-citation-1",
+      "sourceId": "fallen-hero-loramus-name-locators",
+      "section": "2744 · The Demon Hunter; 3141 · Loramus · Loramus and the demon hunter’s counsel; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2744 · The Demon Hunter; 3141 · Loramus",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-name-of-the-beast-citation-1",
+      "sourceId": "fallen-hero-loramus-name-locators",
+      "section": "3511 · The Name of the Beast and its preceding steps · The name behind the title; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "3511 · The Name of the Beast and its preceding steps",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-return-to-blasted-lands-citation-1",
+      "sourceId": "fallen-hero-felbane-weapon-locators",
+      "section": "3626 · Return to the Blasted Lands; 3627 · Uniting the Shattered Amulet · Return with the forged weapons; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "3626 · Return to the Blasted Lands; 3627 · Uniting the Shattered Amulet",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-return-to-blasted-lands-citation-2",
+      "sourceId": "fallen-hero-amulet-locators",
+      "section": "3626 · Return to the Blasted Lands; 3627 · Uniting the Shattered Amulet · Return with the forged weapons; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "3626 · Return to the Blasted Lands; 3627 · Uniting the Shattered Amulet",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-stones-that-bind-citation-1",
+      "sourceId": "fallen-hero-binding-stones-locator",
+      "section": "2681 · The Stones That Bind Us · The stones that bind them; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2681 · The Stones That Bind Us",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-summoning-rakhlikh-citation-1",
+      "sourceId": "fallen-hero-amulet-locators",
+      "section": "3628 · You Are Rakh’likh, Demon · At the Rise of the Defiler; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "3628 · You Are Rakh’likh, Demon",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-the-souls-rest-citation-1",
+      "sourceId": "fallen-hero-binding-stones-locator",
+      "section": "2681 · The Stones That Bind Us · completion · The spirits may rest; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2681 · The Stones That Bind Us · completion",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-the-three-lieutenants-citation-1",
+      "sourceId": "fallen-hero-binding-stones-locator",
+      "section": "2743 · The Cover of Darkness; 3627 · Uniting the Shattered Amulet · Three lieutenants, three fragments; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2743 · The Cover of Darkness; 3627 · Uniting the Shattered Amulet",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-the-three-lieutenants-citation-2",
+      "sourceId": "fallen-hero-kirith-cover-locators",
+      "section": "2743 · The Cover of Darkness; 3627 · Uniting the Shattered Amulet · Three lieutenants, three fragments; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2743 · The Cover of Darkness; 3627 · Uniting the Shattered Amulet",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-the-three-lieutenants-citation-3",
+      "sourceId": "fallen-hero-amulet-locators",
+      "section": "2743 · The Cover of Darkness; 3627 · Uniting the Shattered Amulet · Three lieutenants, three fragments; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2743 · The Cover of Darkness; 3627 · Uniting the Shattered Amulet",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-trebors-testimony-citation-1",
+      "sourceId": "fallen-hero-tale-of-sorrow-locator",
+      "section": "2801 · A Tale of Sorrow · Trebor’s tale of sorrow; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2801 · A Tale of Sorrow",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero-citation-1",
+      "sourceId": "fallen-hero-petty-squabbles-locator",
+      "section": "2783 · Petty Squabbles (Alliance) · Two roads to the Fallen Hero; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2783 · Petty Squabbles (Alliance)",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero-citation-2",
+      "sourceId": "fallen-hero-horde-opening-locators",
+      "section": "2784 · Fall From Grace; 2622 · The Missing Orders; 2623 · The Swamp Talker (Horde) · Two roads to the Fallen Hero; directly relevant quest description, objective, completion, gossip or chain entry",
+      "questId": "2784 · Fall From Grace; 2622 · The Missing Orders; 2623 · The Swamp Talker (Horde)",
+      "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
     },
     {
       "id": "karazhan-masters-key-and-nightbane-a-key-in-three-pieces-citation-1",
@@ -22944,6 +24614,190 @@
       ],
       "confidence": "explicit",
       "status": "active"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-azsharite-for-felbane-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-azsharite-for-felbane-event",
+      "predicate": "questline_scene_account",
+      "value": "A name alone cannot break Razelikh’s hold. The chain next calls for azsharite, a material gathered in Azshara and brought into the weapon-making task. The quest’s collection condition is not retold as a count or a single dramatic excavation. What changes is the preparation: the hunt has found its target, and the seeker now carries material chosen for the Felbane armament that will make the final confrontation possible.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-azsharite-for-felbane-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: accessible Classic quest pages are secondary reproductions, not captures from a running original client. Keep the stated evidence limits visible until build comparison and human approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-bengor-and-the-orders-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-bengor-and-the-orders-event",
+      "predicate": "questline_scene_account",
+      "value": "In the Horde telling, Bengor is found wounded in the Swamp of Sorrows. He reports that the dispatch was ambushed and the Warchief’s orders lost. His testimony brings the seeker to Trebor and gives the campaign a practical beginning: before the old soldier can speak of his shame, the missing command must be recovered. The chain does not turn the Alliance introduction into the same journey; it offers another way to reach the shared wound.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-bengor-and-the-orders-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "This is a Horde-only quest branch. The visual scene is a broad Swamp of Sorrows setting, not a claimed exact roadside location."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-galvans-felbane-forge-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-galvans-felbane-forge-event",
+      "predicate": "questline_scene_account",
+      "value": "At Galvan’s camp in inland Stranglethorn, the material becomes Felbane weaponry. The green canopy, hanging vines and warm air make the setting recognizably different from Azshara’s coast; this is no harbor scene at Booty Bay. Galvan’s part is the transformation of gathered material into a prepared weapon. The records support the chain’s order and purpose, while the exact craft process and selectable weapon form remain matters for comparison with the Classic client.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-galvans-felbane-forge-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The target is Galvan’s inland camp between the named Stranglethorn landmarks, not Booty Bay. Composition is an original area impression."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-horn-and-ward-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-horn-and-ward-event",
+      "predicate": "questline_scene_account",
+      "value": "The final quest records Razelikh’s defeat and asks that his horn be returned to Trebor as a sign of hope. It also asks for the Ward of the Defiler so Trebor can destroy it. The request is clear; the destruction itself is not shown as a completed event in the evidence used here. Trebor’s story reaches a hard-won answer for the bound souls and the demon who held them. It does not record the fall of the Burning Legion, or every fate within its reach.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-horn-and-ward-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Keep the outcome limited to Razelikh’s defeat and the return requested by the quest. Do not claim that Trebor is shown destroying the ward or that the Burning Legion is defeated."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-kirith-at-serpents-coil-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-kirith-at-serpents-coil-event",
+      "predicate": "questline_scene_account",
+      "value": "The quest turns toward Serpent’s Coil, where Kirith the Damned bars the way. The setting changes from open badlands to a low cave mouth on the coast. There the adventurer defeats the demon and the chain yields a new account through Kirith’s spirit. The art presents the beast in a broad, readable silhouette; it is not a reconstruction of the cave’s exact layout or proof of details absent from the quest record.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-kirith-at-serpents-coil-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: accessible Classic quest pages are secondary reproductions, not captures from a running original client. Keep the stated evidence limits visible until build comparison and human approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-kiriths-amulet-clue-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-kiriths-amulet-clue-event",
+      "predicate": "questline_scene_account",
+      "value": "Kirith’s spirit explains the next obstacle: Razelikh cannot be reached until the shattered amulet is made whole. Its three pieces are held by the demon’s lieutenants. The quest dialogue supplies the clue, not a new claim about Kirith’s final fate. The fragments now give the scattered work a shape. Trebor’s grievance can be answered only by confronting the power behind the bindings, and the seeker needs both knowledge and a weapon for that meeting.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-kiriths-amulet-clue-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Kirith’s spirit appears after his demon quest, but the story asserts no later fate or metaphysical explanation beyond the source text."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-loramus-in-azshara-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-loramus-in-azshara-event",
+      "predicate": "questline_scene_account",
+      "value": "The chain reaches Loramus Thalipedes on Azshara’s cold eastern shore. In the Classic quest account, the demon hunter helps direct the work that lies ahead: learn the demon’s true name and prepare a means to challenge him. The coast is broad and wind-cut, a different world from the Blasted Lands’ dry scar. This telling uses Loramus’s Classic-era counsel only; later retellings of his story do not replace what this quest chain records.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-loramus-in-azshara-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Use Classic quest evidence for Loramus. Later Cataclysm retelling and outcomes are excluded from this story."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-name-of-the-beast-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-name-of-the-beast-event",
+      "predicate": "questline_scene_account",
+      "value": "The search crosses Azshara’s pale coastal ruins, where the quest steps call for Hetaera’s blood and seek Lord Arkkoroc’s knowledge. The demon known as Razelikh the Defiler bears a truer name: Rakh’likh. That distinction is the chain’s discovery. Here, the old temple stone and blue water frame a hunt for usable knowledge, not a claim that every step took place in one room or followed an exact route along the coast.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-name-of-the-beast-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The multi-step chain is grouped as a knowledge-gathering episode; characters are not asserted to be co-present at a single site."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-return-to-blasted-lands-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-return-to-blasted-lands-event",
+      "predicate": "questline_scene_account",
+      "value": "The quest line turns back to Trebor with the weapon prepared and the amulet’s scattered fragments to unite. This is an editorial journey through quest destinations, not a drawn route: its tasks name the regions but do not document each road taken. The exposed Blasted Lands return as the place where old bonds and new preparations converge. The demon’s title, the weapon and the amulet are now part of one effort to reach the Rise.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-return-to-blasted-lands-citation-1",
+        "fallen-hero-and-rakhlikh-return-to-blasted-lands-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: accessible Classic quest pages are secondary reproductions, not captures from a running original client. Keep the stated evidence limits visible until build comparison and human approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-stones-that-bind-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-stones-that-bind-event",
+      "predicate": "questline_scene_account",
+      "value": "The quest objective names eighteen bound servants: nine held by Razelikh and three each by Sevine, Allistarj and Grol. Their binding is represented by stones spread across the region, with no exact placement claimed here. The quest asks the seeker to break the hold upon them. In the exposed red earth, Trebor’s old loss becomes more than a memory: it becomes a task that can still release those who suffered under his command.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-stones-that-bind-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: accessible Classic quest pages are secondary reproductions, not captures from a running original client. Keep the stated evidence limits visible until build comparison and human approval."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-summoning-rakhlikh-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-summoning-rakhlikh-event",
+      "predicate": "questline_scene_account",
+      "value": "At the Rise of the Defiler, the united amulet lets the seeker bring the demon into the final contest. The known title falls away before the true name: Razelikh is Rakh’likh. Trebor’s old appeal has led here, from the souls once bound by the demon’s servants to a challenge against their master. The quests frame the meeting as a dangerous group confrontation but give no fixed battle formation. At the Rise, every preparation finds its purpose against the master whose servants once held Trebor’s soldiers.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-summoning-rakhlikh-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Generated figures are an editorial arrangement. The source does not establish an exact battle formation or the simultaneous presence of every represented person."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-the-souls-rest-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-the-souls-rest-event",
+      "predicate": "questline_scene_account",
+      "value": "When the binding stones are broken, the completion text says the tortured souls can rest. It gives Trebor the mercy he had sought for his soldiers, though the count remains unsettled by the separate nineteen-men line. The story pauses over that release without supplying names for the dead or turning each stone into a separate battle. A long burden has eased; the power behind the chains still stands.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-the-souls-rest-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The release is sourced. The ensemble art is interpretive and does not claim a named roster or the exact number of depicted spirits."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-the-three-lieutenants-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-the-three-lieutenants-event",
+      "predicate": "questline_scene_account",
+      "value": "The remaining amulet pieces come from Razelikh’s lieutenants: Allistarj, Sevine and Grol. Their encounters are separate, not one gathering in a field. In the tour they form a deliberate triptych, a memorial arrangement of three independent confrontations. When the fragments are brought together, the amulet is whole. Its completion opens the way that Kirith described, though the precise order of lieutenant encounters is not treated as a historical sequence beyond the quest dependency.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-the-three-lieutenants-citation-1",
+        "fallen-hero-and-rakhlikh-the-three-lieutenants-citation-2",
+        "fallen-hero-and-rakhlikh-the-three-lieutenants-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Three separate lieutenant encounters are displayed as an editorial triptych; the figures are not co-present and no canonical order is claimed."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-trebors-testimony-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-trebors-testimony-event",
+      "predicate": "questline_scene_account",
+      "value": "Trebor recounts failure in battle, then a return to the Blasted Lands to rescue the men left behind. The account is one of defeat and obligation: he could not leave the captured soldiers to their torment. The reproduced Horde dialogue speaks of nineteen of his men, while the binding-stone objective counts eighteen bound servants. These are kept as two source details in tension. The surviving evidence does not resolve the difference.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-trebors-testimony-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The nineteen-men versus eighteen-stones discrepancy is preserved explicitly; do not merge the populations or infer an unstated fate."
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero-claim",
+      "subjectId": "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero-event",
+      "predicate": "questline_scene_account",
+      "value": "The Blasted Lands are a country of exposed earth and old ruin, where Trebor’s defeat still has living consequences. Classic gives his story two introductions. The Alliance quest approaches him through a plea for common action against the Legion; the Horde chain follows lost orders and a courier’s report. These are separate faction paths, not one traveler’s shared itinerary. They meet at Trebor, whose concern has outlasted his own life: the soldiers he could not save.",
+      "citationIds": [
+        "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero-citation-1",
+        "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Alliance and Horde source variants are presented in one explicitly editorial opening; their characters and quests are not co-present or a single avatar route."
     },
     {
       "id": "first-war-battle-claim",
@@ -27457,6 +29311,57 @@
       "contentStatus": "research"
     },
     {
+      "id": "fallen-hero-and-rakhlikh",
+      "slug": "fallen-hero-and-rakhlikh",
+      "title": "The Fallen Hero and Rakh’likh",
+      "summary": "Two faction paths lead to Trebor, whose return to the Blasted Lands is bound to his captured soldiers. Their spirits are freed, and the search for a demon’s true name and a Felbane weapon leads to Razelikh.",
+      "opening": "An old soldier’s defeat has not ended his duty. Across separate Alliance and Horde introductions, the trail reaches Trebor and the soldiers still held by the powers of the Blasted Lands.",
+      "primaryEraId": "age-of-adventurers",
+      "eraIds": [
+        "age-of-adventurers"
+      ],
+      "chapters": [
+        {
+          "id": "two-roads-and-the-old-wound",
+          "eraId": "age-of-adventurers",
+          "title": "Two Roads and the Old Wound",
+          "body": "Separate Alliance and Horde introductions reach Trebor. His testimony turns an old defeat into a present concern for bound soldiers, preserving the unresolved eighteen-stone and nineteen-men discrepancy. Scenes 1–4."
+        },
+        {
+          "id": "release-and-the-amulet",
+          "eraId": "age-of-adventurers",
+          "title": "Release and the Amulet",
+          "body": "The soldiers’ spirits may rest, but the demon’s power remains. Kirith’s spirit explains that three amulet fragments are needed to call Razelikh. Scenes 5–7."
+        },
+        {
+          "id": "a-name-and-a-weapon",
+          "eraId": "age-of-adventurers",
+          "title": "A Name and a Weapon",
+          "body": "In Classic-era Azshara, Loramus’s counsel leads toward the name Rakh’likh and azsharite. At Galvan’s inland Stranglethorn camp, that preparation becomes Felbane weaponry before the quest chain returns to the Blasted Lands. Scenes 8–12."
+        },
+        {
+          "id": "the-defiler-unbound",
+          "eraId": "age-of-adventurers",
+          "title": "The Defiler Unbound",
+          "body": "The three lieutenant fragments restore the amulet. At the Rise of the Defiler, Razelikh is defeated; his horn is requested as a sign of hope and the ward is returned for Trebor to destroy, an outcome the cited quest does not directly show. Scenes 13–15."
+        }
+      ],
+      "sourceIds": [
+        "fallen-hero-petty-squabbles-locator",
+        "fallen-hero-horde-opening-locators",
+        "fallen-hero-tale-of-sorrow-locator",
+        "fallen-hero-binding-stones-locator",
+        "fallen-hero-kirith-cover-locators",
+        "fallen-hero-loramus-name-locators",
+        "fallen-hero-felbane-weapon-locators",
+        "fallen-hero-amulet-locators",
+        "fallen-hero-final-quest-locator"
+      ],
+      "storyGuideId": "fallen-hero-and-rakhlikh-guide",
+      "reviewNote": "Complete 15-scene illustrated research story with linked source/citation/claim/event records, distinct faction openings, a separate Horde courier scene, Classic area-specific art, principal cast and pivotal objects. 15 transcript-matched AI narration tracks are generated (436 seconds total) and still require human listening and pronunciation review. Quest and dialogue details are currently traced through secondary Classic database reproductions; capture the original 1.12-era client/build before human lore approval. The eighteen-stone/nineteen-soldier conflict stays unresolved; the lieutenant scenes are independent encounters; Loramus’s later Cataclysm retelling is excluded; the ward is returned for Trebor to destroy but its destruction is not asserted as shown; and Razelikh’s defeat is not the defeat of the Burning Legion. The art is original and interpretive; compare each place and character to the matching Classic build before approval.",
+      "contentStatus": "research"
+    },
+    {
       "id": "fangs-of-the-father",
       "title": "Fangs of the Father",
       "primaryEraId": "age-of-adventurers",
@@ -28314,7 +30219,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, Scepter, then the 1.10-era Dungeon Set 2 story), The Burning Crusade (Karazhan before the Outland Cipher of Damnation preview), and Wrath of the Lich King (Wrathgate preview). This sequence organizes access and does not claim the selected storylines caused one another. The Scepter’s ancient prologue is an earlier flashback; Dungeon Set 2’s companion fates are alternative memorial accounts; the Karazhan Master’s Key and Nightbane chains are linked editorially, not by a shared quest prerequisite.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, the Scepter campaign, Dungeon Set 2, then the Fallen Hero chain), The Burning Crusade (Karazhan before the Outland Cipher of Damnation preview), and Wrath of the Lich King (Wrathgate preview). It organizes access and does not claim the selected storylines caused one another. Scepter’s ancient prologue is an explicitly earlier flashback; Dungeon Set 2’s companion fates are alternative accounts; and the Fallen Hero’s Alliance and Horde openings are mutually exclusive routes into the shared chain.",
       "regions": [
         {
           "id": "kalimdor",
@@ -28403,6 +30308,20 @@
           "locationLabel": "Eastern Plaguelands, Stratholme and Blackrock Mountain"
         },
         {
+          "storylineId": "fallen-hero-and-rakhlikh",
+          "regionIds": [
+            "eastern-kingdoms",
+            "kalimdor"
+          ],
+          "mapPositionPercent": [
+            63,
+            58
+          ],
+          "order": 4,
+          "periodLabel": "Original World of Warcraft · Classic",
+          "locationLabel": "Blasted Lands · the Fallen Hero"
+        },
+        {
           "storylineId": "karazhan-masters-key-and-nightbane",
           "regionIds": [
             "eastern-kingdoms",
@@ -28412,7 +30331,7 @@
             77,
             66
           ],
-          "order": 4,
+          "order": 5,
           "periodLabel": "The Burning Crusade · Karazhan",
           "locationLabel": "Deadwind Pass · key fragments across Outland"
         },
@@ -28425,7 +30344,7 @@
             82,
             79
           ],
-          "order": 5,
+          "order": 6,
           "periodLabel": "The Burning Crusade",
           "locationLabel": "Shadowmoon Valley · Outland"
         },
@@ -28438,12 +30357,12 @@
             54,
             18
           ],
-          "order": 6,
+          "order": 7,
           "periodLabel": "Wrath of the Lich King",
           "locationLabel": "Dragonblight · Northrend"
         }
       ],
-      "reviewNote": "Playable entries: Classic Onyxia, Scepter, Dungeon Set 2, and the TBC Karazhan research story. The Outland Cipher of Damnation and Northrend Wrathgate remain research previews outside Play All. Original-client quest/build, chronology, map art and matching in-game location/model resemblance review remain open for human approval.",
+      "reviewNote": "Playable guide entries: Classic Onyxia, Scepter, Dungeon Set 2 and the Fallen Hero; plus the complete TBC Karazhan research guide. The Outland Cipher of Damnation and Northrend Wrathgate remain previews outside Play All. Original-client quest/build, faction variant, chronology, map-art and matching in-game area/model reviews remain open for human approval.",
       "contentStatus": "research"
     }
   ],
@@ -28553,6 +30472,30 @@
         "dungeon-set-two-story-the-brazier-attuned",
         "dungeon-set-two-story-mea-culpa",
         "dungeon-set-two-story-safe-for-now"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-guide",
+      "eraId": "age-of-adventurers",
+      "title": "The Fallen Hero and Rakh’likh",
+      "description": "A 15-scene Classic research chronicle follows two faction introductions to Trebor’s testimony, the release of his bound soldiers, the hunt for a demon’s true name and the forged weapon used to confront Razelikh.",
+      "nodeIds": [
+        "fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero",
+        "fallen-hero-and-rakhlikh-story-bengor-and-the-orders",
+        "fallen-hero-and-rakhlikh-story-trebors-testimony",
+        "fallen-hero-and-rakhlikh-story-stones-that-bind",
+        "fallen-hero-and-rakhlikh-story-the-souls-rest",
+        "fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil",
+        "fallen-hero-and-rakhlikh-story-kiriths-amulet-clue",
+        "fallen-hero-and-rakhlikh-story-loramus-in-azshara",
+        "fallen-hero-and-rakhlikh-story-name-of-the-beast",
+        "fallen-hero-and-rakhlikh-story-azsharite-for-felbane",
+        "fallen-hero-and-rakhlikh-story-galvans-felbane-forge",
+        "fallen-hero-and-rakhlikh-story-return-to-blasted-lands",
+        "fallen-hero-and-rakhlikh-story-the-three-lieutenants",
+        "fallen-hero-and-rakhlikh-story-summoning-rakhlikh",
+        "fallen-hero-and-rakhlikh-story-horn-and-ward"
       ],
       "contentStatus": "research"
     },
@@ -31890,6 +33833,697 @@
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-safe-for-now.mp3",
         "durationMs": 28975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Two roads to the Fallen Hero",
+      "narration": "The Blasted Lands are a country of exposed earth and old ruin, where Trebor’s defeat still has living consequences. Classic gives his story two introductions. The Alliance quest approaches him through a plea for common action against the Legion; the Horde chain follows lost orders and a courier’s report. These are separate faction paths, not one traveler’s shared itinerary. They meet at Trebor, whose concern has outlasted his own life: the soldiers he could not save.",
+      "durationMs": 60500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-bengor-and-the-orders"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero.mp3",
+        "durationMs": 30075,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-bengor-and-the-orders",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Bengor brings the lost orders",
+      "narration": "In the Horde telling, Bengor is found wounded in the Swamp of Sorrows. He reports that the dispatch was ambushed and the Warchief’s orders lost. His testimony brings the seeker to Trebor and gives the campaign a practical beginning: before the old soldier can speak of his shame, the missing command must be recovered. The chain does not turn the Alliance introduction into the same journey; it offers another way to reach the shared wound.",
+      "durationMs": 60000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-bengor-and-the-orders-event"
+      ],
+      "entityIds": [
+        "bengor",
+        "warchief-orders"
+      ],
+      "locationIds": [
+        "swamp-of-sorrows-stonard"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-swamp-border-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-trebors-testimony"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-bengor-and-the-orders.mp3",
+        "durationMs": 28075,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-trebors-testimony",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Trebor’s tale of sorrow",
+      "narration": "Trebor recounts failure in battle, then a return to the Blasted Lands to rescue the men left behind. The account is one of defeat and obligation: he could not leave the captured soldiers to their torment. The reproduced Horde dialogue speaks of nineteen of his men, while the binding-stone objective counts eighteen bound servants. These are kept as two source details in tension. The surviving evidence does not resolve the difference.",
+      "durationMs": 57000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-trebors-testimony-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-bengor-and-the-orders",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-stones-that-bind"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-trebors-testimony.mp3",
+        "durationMs": 28775,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-stones-that-bind",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "The stones that bind them",
+      "narration": "The quest objective names eighteen bound servants: nine held by Razelikh and three each by Sevine, Allistarj and Grol. Their binding is represented by stones spread across the region, with no exact placement claimed here. The quest asks the seeker to break the hold upon them. In the exposed red earth, Trebor’s old loss becomes more than a memory: it becomes a task that can still release those who suffered under his command.",
+      "durationMs": 58500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-stones-that-bind-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero",
+        "bound-soldiers",
+        "binding-stone"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-trebors-testimony",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-the-souls-rest"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-stones-that-bind.mp3",
+        "durationMs": 28975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-the-souls-rest",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "The spirits may rest",
+      "narration": "When the binding stones are broken, the completion text says the tortured souls can rest. It gives Trebor the mercy he had sought for his soldiers, though the count remains unsettled by the separate nineteen-men line. The story pauses over that release without supplying names for the dead or turning each stone into a separate battle. A long burden has eased; the power behind the chains still stands.",
+      "durationMs": 55000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-the-souls-rest-event"
+      ],
+      "entityIds": [
+        "bound-soldiers",
+        "trebor-fallen-hero",
+        "binding-stone"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-stones-that-bind",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-the-souls-rest.mp3",
+        "durationMs": 26600,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Kirith at Serpent’s Coil",
+      "narration": "The quest turns toward Serpent’s Coil, where Kirith the Damned bars the way. The setting changes from open badlands to a low cave mouth on the coast. There the adventurer defeats the demon and the chain yields a new account through Kirith’s spirit. The art presents the beast in a broad, readable silhouette; it is not a reconstruction of the cave’s exact layout or proof of details absent from the quest record.",
+      "durationMs": 57500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-kirith-at-serpents-coil-event"
+      ],
+      "entityIds": [
+        "kirith-damned"
+      ],
+      "locationIds": [
+        "serpents-coil"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-serpents-coil-cave-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-the-souls-rest",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-kiriths-amulet-clue"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil.mp3",
+        "durationMs": 28125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-kiriths-amulet-clue",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "The amulet has three pieces",
+      "narration": "Kirith’s spirit explains the next obstacle: Razelikh cannot be reached until the shattered amulet is made whole. Its three pieces are held by the demon’s lieutenants. The quest dialogue supplies the clue, not a new claim about Kirith’s final fate. The fragments now give the scattered work a shape. Trebor’s grievance can be answered only by confronting the power behind the bindings, and the seeker needs both knowledge and a weapon for that meeting.",
+      "durationMs": 59000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-kiriths-amulet-clue-event"
+      ],
+      "entityIds": [
+        "kirith-spirit",
+        "shattered-amulet"
+      ],
+      "locationIds": [
+        "serpents-coil"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-serpents-coil-cave-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-loramus-in-azshara"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-kiriths-amulet-clue.mp3",
+        "durationMs": 28425,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-loramus-in-azshara",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Loramus and the demon hunter’s counsel",
+      "narration": "The chain reaches Loramus Thalipedes on Azshara’s cold eastern shore. In the Classic quest account, the demon hunter helps direct the work that lies ahead: learn the demon’s true name and prepare a means to challenge him. The coast is broad and wind-cut, a different world from the Blasted Lands’ dry scar. This telling uses Loramus’s Classic-era counsel only; later retellings of his story do not replace what this quest chain records.",
+      "durationMs": 57500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-loramus-in-azshara-event"
+      ],
+      "entityIds": [
+        "loramus-thalipedes"
+      ],
+      "locationIds": [
+        "azshara-coast"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-azshara-coast-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-kiriths-amulet-clue",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-name-of-the-beast"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-loramus-in-azshara.mp3",
+        "durationMs": 29800,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-name-of-the-beast",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "The name behind the title",
+      "narration": "The search crosses Azshara’s pale coastal ruins, where the quest steps call for Hetaera’s blood and seek Lord Arkkoroc’s knowledge. The demon known as Razelikh the Defiler bears a truer name: Rakh’likh. That distinction is the chain’s discovery. Here, the old temple stone and blue water frame a hunt for usable knowledge, not a claim that every step took place in one room or followed an exact route along the coast.",
+      "durationMs": 57000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-name-of-the-beast-event"
+      ],
+      "entityIds": [
+        "hetaera",
+        "lord-arkkoroc"
+      ],
+      "locationIds": [
+        "temple-of-arkkoran"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-temple-of-arkkoran-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-loramus-in-azshara",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-azsharite-for-felbane"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-name-of-the-beast.mp3",
+        "durationMs": 28325,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-azsharite-for-felbane",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Azsharite for the weapon",
+      "narration": "A name alone cannot break Razelikh’s hold. The chain next calls for azsharite, a material gathered in Azshara and brought into the weapon-making task. The quest’s collection condition is not retold as a count or a single dramatic excavation. What changes is the preparation: the hunt has found its target, and the seeker now carries material chosen for the Felbane armament that will make the final confrontation possible.",
+      "durationMs": 55000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-azsharite-for-felbane-event"
+      ],
+      "entityIds": [
+        "loramus-thalipedes",
+        "felbane-weaponry"
+      ],
+      "locationIds": [
+        "azshara-coast"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-azsharite-peninsula-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-name-of-the-beast",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-galvans-felbane-forge"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-azsharite-for-felbane.mp3",
+        "durationMs": 29250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-galvans-felbane-forge",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Felbane takes shape",
+      "narration": "At Galvan’s camp in inland Stranglethorn, the material becomes Felbane weaponry. The green canopy, hanging vines and warm air make the setting recognizably different from Azshara’s coast; this is no harbor scene at Booty Bay. Galvan’s part is the transformation of gathered material into a prepared weapon. The records support the chain’s order and purpose, while the exact craft process and selectable weapon form remain matters for comparison with the Classic client.",
+      "durationMs": 57500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-galvans-felbane-forge-event"
+      ],
+      "entityIds": [
+        "galvan-ancient",
+        "felbane-weaponry"
+      ],
+      "locationIds": [
+        "stranglethorn-vale-camp"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-stranglethorn-forge-camp-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-azsharite-for-felbane",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-return-to-blasted-lands"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-galvans-felbane-forge.mp3",
+        "durationMs": 30900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-return-to-blasted-lands",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Return with the forged weapons",
+      "narration": "The quest line turns back to Trebor with the weapon prepared and the amulet’s scattered fragments to unite. This is an editorial journey through quest destinations, not a drawn route: its tasks name the regions but do not document each road taken. The exposed Blasted Lands return as the place where old bonds and new preparations converge. The demon’s title, the weapon and the amulet are now part of one effort to reach the Rise.",
+      "durationMs": 60000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-return-to-blasted-lands-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero",
+        "felbane-weaponry",
+        "shattered-amulet"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-galvans-felbane-forge",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-the-three-lieutenants"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-return-to-blasted-lands.mp3",
+        "durationMs": 29050,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-the-three-lieutenants",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Three lieutenants, three fragments",
+      "narration": "The remaining amulet pieces come from Razelikh’s lieutenants: Allistarj, Sevine and Grol. Their encounters are separate, not one gathering in a field. In the tour they form a deliberate triptych, a memorial arrangement of three independent confrontations. When the fragments are brought together, the amulet is whole. Its completion opens the way that Kirith described, though the precise order of lieutenant encounters is not treated as a historical sequence beyond the quest dependency.",
+      "durationMs": 58500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-the-three-lieutenants-event"
+      ],
+      "entityIds": [
+        "archmage-allistarj",
+        "lady-sevine",
+        "grol-destroyer",
+        "completed-amulet"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-return-to-blasted-lands",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-summoning-rakhlikh"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-the-three-lieutenants.mp3",
+        "durationMs": 31925,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-summoning-rakhlikh",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "At the Rise of the Defiler",
+      "narration": "At the Rise of the Defiler, the united amulet lets the seeker bring the demon into the final contest. The known title falls away before the true name: Razelikh is Rakh’likh. Trebor’s old appeal has led here, from the souls once bound by the demon’s servants to a challenge against their master. The quests frame the meeting as a dangerous group confrontation but give no fixed battle formation. At the Rise, every preparation finds its purpose against the master whose servants once held Trebor’s soldiers.",
+      "durationMs": 67000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-summoning-rakhlikh-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero",
+        "razelikh-defiler",
+        "completed-amulet",
+        "felbane-weaponry"
+      ],
+      "locationIds": [
+        "rise-of-defiler"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-rise-of-defiler-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-the-three-lieutenants",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-horn-and-ward"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-summoning-rakhlikh.mp3",
+        "durationMs": 26975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-horn-and-ward",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "A sign of hope, and an unfinished charge",
+      "narration": "The final quest records Razelikh’s defeat and asks that his horn be returned to Trebor as a sign of hope. It also asks for the Ward of the Defiler so Trebor can destroy it. The request is clear; the destruction itself is not shown as a completed event in the evidence used here. Trebor’s story reaches a hard-won answer for the bound souls and the demon who held them. It does not record the fall of the Burning Legion, or every fate within its reach.",
+      "durationMs": 67000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-horn-and-ward-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero",
+        "razelikh-defiler",
+        "severed-horn",
+        "ward-of-defiler"
+      ],
+      "locationIds": [
+        "rise-of-defiler"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-rise-of-defiler-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-summoning-rakhlikh",
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-horn-and-ward.mp3",
+        "durationMs": 30700,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }

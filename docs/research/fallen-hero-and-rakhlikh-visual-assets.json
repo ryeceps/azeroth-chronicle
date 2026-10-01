@@ -1,0 +1,1684 @@
+{
+  "storyId": "fallen-hero-and-rakhlikh",
+  "status": "research",
+  "targetEditionBuild": "Original World of Warcraft Classic / pre-Cataclysm areas; target quest build 1.12-era. Current Classic recreations are locators only.",
+  "editorialRule": "For every released game area, preserve recognizable version-specific palette, architecture, terrain, vegetation, skyline and landmark shapes using original compositions. Compare each generated scene with the matching Classic in-game area before approval.",
+  "sourceProvenance": "All original environment, character, group and object illustrations were generated with OpenAI ImageGen. Contact sheets were cropped into independent WebP assets with scripts/crop-fallen-hero-art.mjs. No official or scraped game art is included.",
+  "assetRecords": [
+    {
+      "id": "swamp-border",
+      "kind": "environment",
+      "file": "public/images/storylines/fallen-hero/swamp-border.research.webp",
+      "area": "Swamp of Sorrows and the Stonard approaches",
+      "pixelWidth": 744,
+      "pixelHeight": 492,
+      "sourceArtifact": "exec-1192c02d-840f-4931-89d4-30331d962a50.png",
+      "sourceTile": "top-left",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target original 1.12-era quest build, exact in-client comparison remains open.",
+      "recognizableTraits": "Classic pre-Cataclysm Swamp of Sorrows: humid green-brown marsh, shallow water and mud, tangled trees, reeds and low mist. The Horde camp is rough timber, hides, rope and practical spiked defenses, never pale kaldorei ruins or the burnt palette of the Blasted Lands.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-horde-opening-locators",
+            "url": "https://www.wowhead.com/classic/quest=2623/the-swamp-talker"
+          }
+        ],
+        "comparisonCapture": "No in-client comparison screenshot is claimed. Human side-by-side review against the matching Classic zone/build remains open."
+      },
+      "generationPrompt": "Original painterly landscape for Swamp of Sorrows and the Stonard approaches. Match the recognizable Classic-era place with these traits: Classic pre-Cataclysm Swamp of Sorrows: humid green-brown marsh, shallow water and mud, tangled trees, reeds and low mist. The Horde camp is rough timber, hides, rope and practical spiked defenses, never pale kaldorei ruins or the burnt palette of the Blasted Lands. Composition must remain original and interpretive, with no UI, text, copied screenshot, exact coordinate, or unsupported event. This selected landscape tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; generated contact-sheet landscape tile, cropped and converted to WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": false,
+      "visualReview": "The scene has been compared to its authored trait list and its zone palette remains distinct from other story locations. Human comparison to the matching in-game Classic area/build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-horde-opening-locators",
+          "url": "https://www.wowhead.com/classic/quest=2623/the-swamp-talker"
+        }
+      ],
+      "byteLength": 132290,
+      "modifiedAt": "2026-10-01T21:40:29.024Z",
+      "sha256": "5f6140a2a900a15482e4f25d9a3b2349cfc9a3b328166fa2827e39fc99bf2514"
+    },
+    {
+      "id": "blasted-binding-field",
+      "kind": "environment",
+      "file": "public/images/storylines/fallen-hero/blasted-binding-field.research.webp",
+      "area": "The Blasted Lands, Trebor’s field",
+      "pixelWidth": 744,
+      "pixelHeight": 492,
+      "sourceArtifact": "exec-1192c02d-840f-4931-89d4-30331d962a50.png",
+      "sourceTile": "top-right",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target original 1.12-era quest build, exact in-client comparison remains open.",
+      "recognizableTraits": "Classic pre-Cataclysm Blasted Lands: scorched red-brown earth, dusty ochre sky, sparse dead trees, exposed broken ridges and volcanic stone. Keep this dry, open and hostile, sharply distinct from the swamp.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-petty-squabbles-locator",
+            "url": "https://www.wowhead.com/classic/quest=2783/petty-squabbles"
+          },
+          {
+            "sourceId": "fallen-hero-horde-opening-locators",
+            "url": "https://www.wowhead.com/classic/quest=2623/the-swamp-talker"
+          },
+          {
+            "sourceId": "fallen-hero-tale-of-sorrow-locator",
+            "url": "https://www.wowhead.com/classic/quest=2801/a-tale-of-sorrow"
+          },
+          {
+            "sourceId": "fallen-hero-binding-stones-locator",
+            "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+          },
+          {
+            "sourceId": "fallen-hero-felbane-weapon-locators",
+            "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+          },
+          {
+            "sourceId": "fallen-hero-amulet-locators",
+            "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+          },
+          {
+            "sourceId": "fallen-hero-kirith-cover-locators",
+            "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+          }
+        ],
+        "comparisonCapture": "No in-client comparison screenshot is claimed. Human side-by-side review against the matching Classic zone/build remains open."
+      },
+      "generationPrompt": "Original painterly landscape for The Blasted Lands, Trebor’s field. Match the recognizable Classic-era place with these traits: Classic pre-Cataclysm Blasted Lands: scorched red-brown earth, dusty ochre sky, sparse dead trees, exposed broken ridges and volcanic stone. Keep this dry, open and hostile, sharply distinct from the swamp. Composition must remain original and interpretive, with no UI, text, copied screenshot, exact coordinate, or unsupported event. This selected landscape tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; generated contact-sheet landscape tile, cropped and converted to WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": false,
+      "visualReview": "The scene has been compared to its authored trait list and its zone palette remains distinct from other story locations. Human comparison to the matching in-game Classic area/build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-petty-squabbles-locator",
+          "url": "https://www.wowhead.com/classic/quest=2783/petty-squabbles"
+        },
+        {
+          "sourceId": "fallen-hero-horde-opening-locators",
+          "url": "https://www.wowhead.com/classic/quest=2623/the-swamp-talker"
+        },
+        {
+          "sourceId": "fallen-hero-tale-of-sorrow-locator",
+          "url": "https://www.wowhead.com/classic/quest=2801/a-tale-of-sorrow"
+        },
+        {
+          "sourceId": "fallen-hero-binding-stones-locator",
+          "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+        },
+        {
+          "sourceId": "fallen-hero-felbane-weapon-locators",
+          "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+        },
+        {
+          "sourceId": "fallen-hero-amulet-locators",
+          "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+        },
+        {
+          "sourceId": "fallen-hero-kirith-cover-locators",
+          "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+        }
+      ],
+      "byteLength": 100420,
+      "modifiedAt": "2026-10-01T21:40:29.222Z",
+      "sha256": "2d8ca7b606bed20e6899d79ffa2ca3de30229bd31d6cb4fab6ea4d2825d38e0f"
+    },
+    {
+      "id": "serpents-coil-cave",
+      "kind": "environment",
+      "file": "public/images/storylines/fallen-hero/serpents-coil-cave.research.webp",
+      "area": "Serpent’s Coil on the Blasted Lands coast",
+      "pixelWidth": 744,
+      "pixelHeight": 492,
+      "sourceArtifact": "exec-1192c02d-840f-4931-89d4-30331d962a50.png",
+      "sourceTile": "bottom-left",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target original 1.12-era quest build, exact in-client comparison remains open.",
+      "recognizableTraits": "A low rocky cave mouth and dark damp interior set into the Blasted Lands coast, with rough stone, narrow tidal water and restrained fel light. Preserve the dry red-brown land outside the cave; this is not an invented dungeon plan.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-kirith-cover-locators",
+            "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+          }
+        ],
+        "comparisonCapture": "No in-client comparison screenshot is claimed. Human side-by-side review against the matching Classic zone/build remains open."
+      },
+      "generationPrompt": "Original painterly landscape for Serpent’s Coil on the Blasted Lands coast. Match the recognizable Classic-era place with these traits: A low rocky cave mouth and dark damp interior set into the Blasted Lands coast, with rough stone, narrow tidal water and restrained fel light. Preserve the dry red-brown land outside the cave; this is not an invented dungeon plan. Composition must remain original and interpretive, with no UI, text, copied screenshot, exact coordinate, or unsupported event. This selected landscape tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; generated contact-sheet landscape tile, cropped and converted to WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": false,
+      "visualReview": "The scene has been compared to its authored trait list and its zone palette remains distinct from other story locations. Human comparison to the matching in-game Classic area/build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-kirith-cover-locators",
+          "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+        }
+      ],
+      "byteLength": 132458,
+      "modifiedAt": "2026-10-01T21:40:29.439Z",
+      "sha256": "48b7649e1c1af170c9aaadbbb7b17bc6b54c81a5c39e079dc92bf04d996ce752"
+    },
+    {
+      "id": "rise-of-defiler",
+      "kind": "environment",
+      "file": "public/images/storylines/fallen-hero/rise-of-defiler.research.webp",
+      "area": "The Rise of the Defiler",
+      "pixelWidth": 744,
+      "pixelHeight": 492,
+      "sourceArtifact": "exec-1192c02d-840f-4931-89d4-30331d962a50.png",
+      "sourceTile": "bottom-right",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target original 1.12-era quest build, exact in-client comparison remains open.",
+      "recognizableTraits": "The Blasted Lands’ exposed ochre flats, dark volcanic escarpment and stark broken silhouette. Use sparse dead scrub and a distant, oppressive rise; keep landmarks broad because the art is interpretive, not a surveyed view.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-amulet-locators",
+            "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+          },
+          {
+            "sourceId": "fallen-hero-final-quest-locator",
+            "url": "https://www.wowhead.com/classic/quest=3628/you-are-rakhlikh-demon"
+          }
+        ],
+        "comparisonCapture": "No in-client comparison screenshot is claimed. Human side-by-side review against the matching Classic zone/build remains open."
+      },
+      "generationPrompt": "Original painterly landscape for The Rise of the Defiler. Match the recognizable Classic-era place with these traits: The Blasted Lands’ exposed ochre flats, dark volcanic escarpment and stark broken silhouette. Use sparse dead scrub and a distant, oppressive rise; keep landmarks broad because the art is interpretive, not a surveyed view. Composition must remain original and interpretive, with no UI, text, copied screenshot, exact coordinate, or unsupported event. This selected landscape tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; generated contact-sheet landscape tile, cropped and converted to WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": false,
+      "visualReview": "The scene has been compared to its authored trait list and its zone palette remains distinct from other story locations. Human comparison to the matching in-game Classic area/build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-amulet-locators",
+          "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+        },
+        {
+          "sourceId": "fallen-hero-final-quest-locator",
+          "url": "https://www.wowhead.com/classic/quest=3628/you-are-rakhlikh-demon"
+        }
+      ],
+      "byteLength": 96454,
+      "modifiedAt": "2026-10-01T21:40:29.639Z",
+      "sha256": "0760ba58e893cc02cdad652253ecd495a45959681092f88be39f9cec7c9b39fc"
+    },
+    {
+      "id": "azshara-coast",
+      "kind": "environment",
+      "file": "public/images/storylines/fallen-hero/azshara-coast.research.webp",
+      "area": "Azshara’s eastern coast",
+      "pixelWidth": 870,
+      "pixelHeight": 430,
+      "sourceArtifact": "exec-71f66276-4a42-455e-b635-2dfbfed623cf.png",
+      "sourceTile": "top-left",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target original 1.12-era quest build, exact in-client comparison remains open.",
+      "recognizableTraits": "Classic pre-Cataclysm Azshara: cold blue sea, high weathered coastal cliffs, pale stone, small islands, a broad eastern shore and cool marine haze. Do not use the lush jungle language of Stranglethorn or the scorched Blasted Lands palette.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-loramus-name-locators",
+            "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast"
+          }
+        ],
+        "comparisonCapture": "No in-client comparison screenshot is claimed. Human side-by-side review against the matching Classic zone/build remains open."
+      },
+      "generationPrompt": "Original painterly landscape for Azshara’s eastern coast. Match the recognizable Classic-era place with these traits: Classic pre-Cataclysm Azshara: cold blue sea, high weathered coastal cliffs, pale stone, small islands, a broad eastern shore and cool marine haze. Do not use the lush jungle language of Stranglethorn or the scorched Blasted Lands palette. Composition must remain original and interpretive, with no UI, text, copied screenshot, exact coordinate, or unsupported event. This selected landscape tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; generated contact-sheet landscape tile, cropped and converted to WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": false,
+      "visualReview": "The scene has been compared to its authored trait list and its zone palette remains distinct from other story locations. Human comparison to the matching in-game Classic area/build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-loramus-name-locators",
+          "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast"
+        }
+      ],
+      "byteLength": 104452,
+      "modifiedAt": "2026-10-01T21:40:29.839Z",
+      "sha256": "a6502c82fede73aff48a75b68b7eea54bc0995427216554a5a33e27e469353a3"
+    },
+    {
+      "id": "temple-of-arkkoran",
+      "kind": "environment",
+      "file": "public/images/storylines/fallen-hero/temple-of-arkkoran.research.webp",
+      "area": "The Temple of Arkkoran",
+      "pixelWidth": 870,
+      "pixelHeight": 430,
+      "sourceArtifact": "exec-71f66276-4a42-455e-b635-2dfbfed623cf.png",
+      "sourceTile": "top-right",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target original 1.12-era quest build, exact in-client comparison remains open.",
+      "recognizableTraits": "The ruined coastal temple in Classic Azshara: pale weathered night-elf stone, slender broken arches, carved but eroded surfaces, blue sea and cliff edges. Keep its architecture ancient and kaldorei without copying an in-game screenshot.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-loramus-name-locators",
+            "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast"
+          }
+        ],
+        "comparisonCapture": "No in-client comparison screenshot is claimed. Human side-by-side review against the matching Classic zone/build remains open."
+      },
+      "generationPrompt": "Original painterly landscape for The Temple of Arkkoran. Match the recognizable Classic-era place with these traits: The ruined coastal temple in Classic Azshara: pale weathered night-elf stone, slender broken arches, carved but eroded surfaces, blue sea and cliff edges. Keep its architecture ancient and kaldorei without copying an in-game screenshot. Composition must remain original and interpretive, with no UI, text, copied screenshot, exact coordinate, or unsupported event. This selected landscape tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; generated contact-sheet landscape tile, cropped and converted to WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": false,
+      "visualReview": "The scene has been compared to its authored trait list and its zone palette remains distinct from other story locations. Human comparison to the matching in-game Classic area/build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-loramus-name-locators",
+          "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast"
+        }
+      ],
+      "byteLength": 102146,
+      "modifiedAt": "2026-10-01T21:40:30.039Z",
+      "sha256": "433840cc41cfdb354e16c3d35f232f4eab433ef3345b06c49b4c5307c3029a53"
+    },
+    {
+      "id": "azsharite-peninsula",
+      "kind": "environment",
+      "file": "public/images/storylines/fallen-hero/azsharite-peninsula.research.webp",
+      "area": "Azshara’s azsharite shore",
+      "pixelWidth": 870,
+      "pixelHeight": 430,
+      "sourceArtifact": "exec-71f66276-4a42-455e-b635-2dfbfed623cf.png",
+      "sourceTile": "bottom-left",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target original 1.12-era quest build, exact in-client comparison remains open.",
+      "recognizableTraits": "A distinct Azshara coast vista with cold blue water, exposed pale cliffs and narrow stony beaches. Preserve the region’s sea-facing, wind-cut terrain and restrained blue-grey light; the composition is not an exact resource node or route.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-felbane-weapon-locators",
+            "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+          }
+        ],
+        "comparisonCapture": "No in-client comparison screenshot is claimed. Human side-by-side review against the matching Classic zone/build remains open."
+      },
+      "generationPrompt": "Original painterly landscape for Azshara’s azsharite shore. Match the recognizable Classic-era place with these traits: A distinct Azshara coast vista with cold blue water, exposed pale cliffs and narrow stony beaches. Preserve the region’s sea-facing, wind-cut terrain and restrained blue-grey light; the composition is not an exact resource node or route. Composition must remain original and interpretive, with no UI, text, copied screenshot, exact coordinate, or unsupported event. This selected landscape tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; generated contact-sheet landscape tile, cropped and converted to WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": false,
+      "visualReview": "The scene has been compared to its authored trait list and its zone palette remains distinct from other story locations. Human comparison to the matching in-game Classic area/build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-felbane-weapon-locators",
+          "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+        }
+      ],
+      "byteLength": 100494,
+      "modifiedAt": "2026-10-01T21:40:30.231Z",
+      "sha256": "c23c3f233e426d274aa85f2d5ec2a4fa00b4cf269998607d47f62c120116e4ca"
+    },
+    {
+      "id": "stranglethorn-forge-camp",
+      "kind": "environment",
+      "file": "public/images/storylines/fallen-hero/stranglethorn-forge-camp.research.webp",
+      "area": "Galvan’s inland Stranglethorn camp",
+      "pixelWidth": 870,
+      "pixelHeight": 430,
+      "sourceArtifact": "exec-71f66276-4a42-455e-b635-2dfbfed623cf.png",
+      "sourceTile": "bottom-right",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target original 1.12-era quest build, exact in-client comparison remains open.",
+      "recognizableTraits": "Classic pre-Cataclysm inland Stranglethorn: dense humid green canopy, layered tropical growth, vines and warm haze, with a modest timber-and-stone camp and a working forge. This is Galvan’s inland camp, not the coastal stilt-harbor of Booty Bay.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-felbane-weapon-locators",
+            "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+          }
+        ],
+        "comparisonCapture": "No in-client comparison screenshot is claimed. Human side-by-side review against the matching Classic zone/build remains open."
+      },
+      "generationPrompt": "Original painterly landscape for Galvan’s inland Stranglethorn camp. Match the recognizable Classic-era place with these traits: Classic pre-Cataclysm inland Stranglethorn: dense humid green canopy, layered tropical growth, vines and warm haze, with a modest timber-and-stone camp and a working forge. This is Galvan’s inland camp, not the coastal stilt-harbor of Booty Bay. Composition must remain original and interpretive, with no UI, text, copied screenshot, exact coordinate, or unsupported event. This selected landscape tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; generated contact-sheet landscape tile, cropped and converted to WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": false,
+      "visualReview": "The scene has been compared to its authored trait list and its zone palette remains distinct from other story locations. Human comparison to the matching in-game Classic area/build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-felbane-weapon-locators",
+          "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+        }
+      ],
+      "byteLength": 142390,
+      "modifiedAt": "2026-10-01T21:40:30.460Z",
+      "sha256": "ed185a863a7490d80a133f324ef8055eb377aaabcbaa72eb4be716e42d967e6e"
+    },
+    {
+      "id": "trebor-fallen-hero",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/trebor-fallen-hero.research.webp",
+      "representedBy": "Trebor the Fallen Hero",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-59217d89-deec-451b-b8c4-babfc7c71f34.png",
+      "sourceTile": "top-left character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "A spectral human warrior, the Fallen Hero of the Horde. The art emphasizes age, grief and the outline of a soldier; its exact armor and body details remain interpretive.",
+      "generationPrompt": "Original isolated interpretation of Trebor the Fallen Hero: A spectral human warrior, the Fallen Hero of the Horde. The art emphasizes age, grief and the outline of a soldier; its exact armor and body details remain interpretive. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-petty-squabbles-locator",
+            "url": "https://www.wowhead.com/classic/quest=2783/petty-squabbles"
+          },
+          {
+            "sourceId": "fallen-hero-horde-opening-locators",
+            "url": "https://www.wowhead.com/classic/quest=2623/the-swamp-talker"
+          },
+          {
+            "sourceId": "fallen-hero-tale-of-sorrow-locator",
+            "url": "https://www.wowhead.com/classic/quest=2801/a-tale-of-sorrow"
+          },
+          {
+            "sourceId": "fallen-hero-binding-stones-locator",
+            "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+          },
+          {
+            "sourceId": "fallen-hero-felbane-weapon-locators",
+            "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+          },
+          {
+            "sourceId": "fallen-hero-amulet-locators",
+            "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+          },
+          {
+            "sourceId": "fallen-hero-final-quest-locator",
+            "url": "https://www.wowhead.com/classic/quest=3628/you-are-rakhlikh-demon"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-petty-squabbles-locator",
+          "url": "https://www.wowhead.com/classic/quest=2783/petty-squabbles"
+        },
+        {
+          "sourceId": "fallen-hero-horde-opening-locators",
+          "url": "https://www.wowhead.com/classic/quest=2623/the-swamp-talker"
+        },
+        {
+          "sourceId": "fallen-hero-tale-of-sorrow-locator",
+          "url": "https://www.wowhead.com/classic/quest=2801/a-tale-of-sorrow"
+        },
+        {
+          "sourceId": "fallen-hero-binding-stones-locator",
+          "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+        },
+        {
+          "sourceId": "fallen-hero-felbane-weapon-locators",
+          "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+        },
+        {
+          "sourceId": "fallen-hero-amulet-locators",
+          "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+        },
+        {
+          "sourceId": "fallen-hero-final-quest-locator",
+          "url": "https://www.wowhead.com/classic/quest=3628/you-are-rakhlikh-demon"
+        }
+      ],
+      "byteLength": 71550,
+      "modifiedAt": "2026-10-01T21:40:32.506Z",
+      "sha256": "5a5cc3d9714b705f50d0a8bedc619139697d9b4ae49160b2d8932ee43d8b617d"
+    },
+    {
+      "id": "bengor",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/bengor.research.webp",
+      "representedBy": "Bengor",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-59217d89-deec-451b-b8c4-babfc7c71f34.png",
+      "sourceTile": "top-middle character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "A wounded courier and witness to the Horde ambush, shown as an exhausted traveler in practical road-worn gear; no exact armor model is asserted.",
+      "generationPrompt": "Original isolated interpretation of Bengor: A wounded courier and witness to the Horde ambush, shown as an exhausted traveler in practical road-worn gear; no exact armor model is asserted. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-horde-opening-locators",
+            "url": "https://www.wowhead.com/classic/quest=2623/the-swamp-talker"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-horde-opening-locators",
+          "url": "https://www.wowhead.com/classic/quest=2623/the-swamp-talker"
+        }
+      ],
+      "byteLength": 46138,
+      "modifiedAt": "2026-10-01T21:40:33.931Z",
+      "sha256": "4ad539117556031742356e1485e94f86346938926423acf29bc1cf45634e4821"
+    },
+    {
+      "id": "kirith-damned",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/kirith-damned.research.webp",
+      "representedBy": "Kirith the Damned",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-59217d89-deec-451b-b8c4-babfc7c71f34.png",
+      "sourceTile": "top-right character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "Kirith in demonic form, represented as a large felhound-like creature with a readable horned silhouette; interpretive rather than a claim about a precise Classic model.",
+      "generationPrompt": "Original isolated interpretation of Kirith the Damned: Kirith in demonic form, represented as a large felhound-like creature with a readable horned silhouette; interpretive rather than a claim about a precise Classic model. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-kirith-cover-locators",
+            "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-kirith-cover-locators",
+          "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+        }
+      ],
+      "byteLength": 69242,
+      "modifiedAt": "2026-10-01T21:40:36.025Z",
+      "sha256": "bff350cbc64c3cfbf3c8256337a783227f6bee3844f46623b01230b0a2c20189"
+    },
+    {
+      "id": "kirith-spirit",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/kirith-spirit.research.webp",
+      "representedBy": "The spirit of Kirith",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-59217d89-deec-451b-b8c4-babfc7c71f34.png",
+      "sourceTile": "bottom-left character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "A separate spectral portrayal for Kirith’s later quest-spirit appearance. This is not shown together with his demonic form and does not determine his ultimate fate.",
+      "generationPrompt": "Original isolated interpretation of The spirit of Kirith: A separate spectral portrayal for Kirith’s later quest-spirit appearance. This is not shown together with his demonic form and does not determine his ultimate fate. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-kirith-cover-locators",
+            "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-kirith-cover-locators",
+          "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+        }
+      ],
+      "byteLength": 105028,
+      "modifiedAt": "2026-10-01T21:40:39.332Z",
+      "sha256": "d92c5554f2fb9012d281b9be0a86a0629e34432d4a4ed6cf87ceabc4d28a71a6"
+    },
+    {
+      "id": "loramus-thalipedes",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/loramus-thalipedes.research.webp",
+      "representedBy": "Loramus Thalipedes",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-59217d89-deec-451b-b8c4-babfc7c71f34.png",
+      "sourceTile": "bottom-middle character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "A night-elf demon hunter whose Classic-era counsel guides the search. His clothing and weapons are interpretive and are not treated as evidence for a costume.",
+      "generationPrompt": "Original isolated interpretation of Loramus Thalipedes: A night-elf demon hunter whose Classic-era counsel guides the search. His clothing and weapons are interpretive and are not treated as evidence for a costume. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-loramus-name-locators",
+            "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast"
+          },
+          {
+            "sourceId": "fallen-hero-felbane-weapon-locators",
+            "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-loramus-name-locators",
+          "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast"
+        },
+        {
+          "sourceId": "fallen-hero-felbane-weapon-locators",
+          "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+        }
+      ],
+      "byteLength": 72570,
+      "modifiedAt": "2026-10-01T21:40:41.451Z",
+      "sha256": "18e9244b1e05933809c12c00c5c5f5bab0165d2887f58d1e1c7a2e50148d2f64"
+    },
+    {
+      "id": "lord-arkkoroc",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/lord-arkkoroc.research.webp",
+      "representedBy": "Lord Arkkoroc",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-59217d89-deec-451b-b8c4-babfc7c71f34.png",
+      "sourceTile": "bottom-right character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "A colossal sea giant associated with the name-gathering quest in Azshara, shown with a broad sea-worn silhouette and original details.",
+      "generationPrompt": "Original isolated interpretation of Lord Arkkoroc: A colossal sea giant associated with the name-gathering quest in Azshara, shown with a broad sea-worn silhouette and original details. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-loramus-name-locators",
+            "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-loramus-name-locators",
+          "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast"
+        }
+      ],
+      "byteLength": 92486,
+      "modifiedAt": "2026-10-01T21:40:43.670Z",
+      "sha256": "1affefd4a67a52ea7c8b8dc77b3482738b97b333ef04615ed6f1eeed052e34cc"
+    },
+    {
+      "id": "hetaera",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/hetaera.research.webp",
+      "representedBy": "Hetaera",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-1484c7e1-0b0b-4c28-847f-bebeda8bb310.png",
+      "sourceTile": "top-left character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "A distinct creature portrait for the Hetaera quest step in Azshara. The image is an original interpretation, not a verified client model.",
+      "generationPrompt": "Original isolated interpretation of Hetaera: A distinct creature portrait for the Hetaera quest step in Azshara. The image is an original interpretation, not a verified client model. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-loramus-name-locators",
+            "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-loramus-name-locators",
+          "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast"
+        }
+      ],
+      "byteLength": 132868,
+      "modifiedAt": "2026-10-01T21:40:47.235Z",
+      "sha256": "dd0423562b1f9390d0284e9b02a6a1a70d10eb3f912ba75bc8eaac6e73480682"
+    },
+    {
+      "id": "galvan-ancient",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/galvan-ancient.research.webp",
+      "representedBy": "Galvan the Ancient",
+      "pixelWidth": 470,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-1484c7e1-0b0b-4c28-847f-bebeda8bb310.png",
+      "sourceTile": "top-middle character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "The craftsman at the inland Stranglethorn camp, represented as an aged forge worker. His species, costume and precise workshop arrangement remain human-review items.",
+      "generationPrompt": "Original isolated interpretation of Galvan the Ancient: The craftsman at the inland Stranglethorn camp, represented as an aged forge worker. His species, costume and precise workshop arrangement remain human-review items. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-felbane-weapon-locators",
+            "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-felbane-weapon-locators",
+          "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+        }
+      ],
+      "byteLength": 68960,
+      "modifiedAt": "2026-10-01T21:40:48.888Z",
+      "sha256": "2629be842f5c1e2097e9131978048bdd3a5a45c552098da9afb77f836c470d89"
+    },
+    {
+      "id": "archmage-allistarj",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/archmage-allistarj.research.webp",
+      "representedBy": "Archmage Allistarj",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-1484c7e1-0b0b-4c28-847f-bebeda8bb310.png",
+      "sourceTile": "top-right character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "One of Razelikh’s lieutenants, represented as a fel-touched spellcaster; generated clothing and magical implements are interpretive.",
+      "generationPrompt": "Original isolated interpretation of Archmage Allistarj: One of Razelikh’s lieutenants, represented as a fel-touched spellcaster; generated clothing and magical implements are interpretive. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-binding-stones-locator",
+            "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+          },
+          {
+            "sourceId": "fallen-hero-kirith-cover-locators",
+            "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+          },
+          {
+            "sourceId": "fallen-hero-amulet-locators",
+            "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-binding-stones-locator",
+          "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+        },
+        {
+          "sourceId": "fallen-hero-kirith-cover-locators",
+          "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+        },
+        {
+          "sourceId": "fallen-hero-amulet-locators",
+          "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+        }
+      ],
+      "byteLength": 91896,
+      "modifiedAt": "2026-10-01T21:40:51.604Z",
+      "sha256": "019cc9a716c08d95fa068a25f4de661f40180f974c8f9d68b91752fa26185b6b"
+    },
+    {
+      "id": "lady-sevine",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/lady-sevine.research.webp",
+      "representedBy": "Lady Sevine",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-1484c7e1-0b0b-4c28-847f-bebeda8bb310.png",
+      "sourceTile": "bottom-left character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "One of Razelikh’s lieutenants, given a distinct female demon silhouette with restrained fel color; exact species and costume details await Classic model review.",
+      "generationPrompt": "Original isolated interpretation of Lady Sevine: One of Razelikh’s lieutenants, given a distinct female demon silhouette with restrained fel color; exact species and costume details await Classic model review. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-binding-stones-locator",
+            "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+          },
+          {
+            "sourceId": "fallen-hero-kirith-cover-locators",
+            "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+          },
+          {
+            "sourceId": "fallen-hero-amulet-locators",
+            "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-binding-stones-locator",
+          "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+        },
+        {
+          "sourceId": "fallen-hero-kirith-cover-locators",
+          "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+        },
+        {
+          "sourceId": "fallen-hero-amulet-locators",
+          "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+        }
+      ],
+      "byteLength": 92006,
+      "modifiedAt": "2026-10-01T21:40:54.298Z",
+      "sha256": "3da9c10b7d160909989d0a84262ecbdb038334908a8abee9cd0445e0d0c44203"
+    },
+    {
+      "id": "grol-destroyer",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/grol-destroyer.research.webp",
+      "representedBy": "Grol the Destroyer",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-1484c7e1-0b0b-4c28-847f-bebeda8bb310.png",
+      "sourceTile": "bottom-middle character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "One of Razelikh’s lieutenants, represented with an ogre-like broad frame in keeping with the quest history. Armor and facial details are interpretive.",
+      "generationPrompt": "Original isolated interpretation of Grol the Destroyer: One of Razelikh’s lieutenants, represented with an ogre-like broad frame in keeping with the quest history. Armor and facial details are interpretive. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-binding-stones-locator",
+            "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+          },
+          {
+            "sourceId": "fallen-hero-kirith-cover-locators",
+            "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+          },
+          {
+            "sourceId": "fallen-hero-amulet-locators",
+            "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-binding-stones-locator",
+          "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+        },
+        {
+          "sourceId": "fallen-hero-kirith-cover-locators",
+          "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+        },
+        {
+          "sourceId": "fallen-hero-amulet-locators",
+          "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+        }
+      ],
+      "byteLength": 112798,
+      "modifiedAt": "2026-10-01T21:40:57.245Z",
+      "sha256": "3a7852d9ba63a2ec5fb1ac61d3d4c52684c11610707466635bd0ddcddf59c10b"
+    },
+    {
+      "id": "razelikh-defiler",
+      "kind": "character",
+      "file": "public/images/storylines/fallen-hero/razelikh-defiler.research.webp",
+      "representedBy": "Razelikh the Defiler",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-1484c7e1-0b0b-4c8e847f-bebeda8bb310.png",
+      "sourceTile": "bottom-right character sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "The demon summoned at the Rise of the Defiler, shown as a large, distinct horned antagonist; the art does not claim an exact in-game model.",
+      "generationPrompt": "Original isolated interpretation of Razelikh the Defiler: The demon summoned at the Rise of the Defiler, shown as a large, distinct horned antagonist; the art does not claim an exact in-game model. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-amulet-locators",
+            "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+          },
+          {
+            "sourceId": "fallen-hero-final-quest-locator",
+            "url": "https://www.wowhead.com/classic/quest=3628/you-are-rakhlikh-demon"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-amulet-locators",
+          "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+        },
+        {
+          "sourceId": "fallen-hero-final-quest-locator",
+          "url": "https://www.wowhead.com/classic/quest=3628/you-are-rakhlikh-demon"
+        }
+      ],
+      "byteLength": 121350,
+      "modifiedAt": "2026-10-01T21:41:00.704Z",
+      "sha256": "88d46f40678914fde45edbb3473c1e8fa2af6ec744ebb90f2c5f0ee45b61e6b9"
+    },
+    {
+      "id": "bound-soldiers",
+      "kind": "faction",
+      "file": "public/images/storylines/fallen-hero/bound-soldiers.research.webp",
+      "representedBy": "The bound soldiers",
+      "pixelWidth": 590,
+      "pixelHeight": 430,
+      "sourceArtifact": "exec-1603518d-f80c-4e13-aea8-2deed1163381.png",
+      "sourceTile": "top-left object sheet ensemble",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "An interpretive group representing the bound spirits released by the binding-stone quest. The artwork does not assert an exact count or roster.",
+      "generationPrompt": "Original isolated interpretation of The bound soldiers: An interpretive group representing the bound spirits released by the binding-stone quest. The artwork does not assert an exact count or roster. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-binding-stones-locator",
+            "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-binding-stones-locator",
+          "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+        }
+      ],
+      "byteLength": 126000,
+      "modifiedAt": "2026-10-01T21:41:03.223Z",
+      "sha256": "fb2d444b953b9a2070d6dd181c521748f02e98c553c02d653e05a7c643597832"
+    },
+    {
+      "id": "binding-stone",
+      "kind": "artifact",
+      "file": "public/images/storylines/fallen-hero/binding-stone.research.webp",
+      "representedBy": "A binding stone",
+      "pixelWidth": 300,
+      "pixelHeight": 430,
+      "sourceArtifact": "exec-1603518d-f80c-4e13-aea8-2deed1163381.png",
+      "sourceTile": "top-center object sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "An original interpretation of a binding stone. It does not represent a surveyed stone location or exact Classic object model.",
+      "generationPrompt": "Original isolated interpretation of A binding stone: An original interpretation of a binding stone. It does not represent a surveyed stone location or exact Classic object model. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-binding-stones-locator",
+            "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-binding-stones-locator",
+          "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+        }
+      ],
+      "byteLength": 41214,
+      "modifiedAt": "2026-10-01T21:41:05.546Z",
+      "sha256": "12090fc6afae8cc2805aa82f5f2c53677aaec570b7b624dd1e61ba6a0c9ad614"
+    },
+    {
+      "id": "warchief-orders",
+      "kind": "artifact",
+      "file": "public/images/storylines/fallen-hero/warchief-orders.research.webp",
+      "representedBy": "The missing Warchief’s orders",
+      "pixelWidth": 460,
+      "pixelHeight": 430,
+      "sourceArtifact": "exec-1603518d-f80c-4e13-aea8-2deed1163381.png",
+      "sourceTile": "top-right object sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "An original paper-and-seal interpretation of the recovered orders. No legible game text is reproduced.",
+      "generationPrompt": "Original isolated interpretation of The missing Warchief’s orders: An original paper-and-seal interpretation of the recovered orders. No legible game text is reproduced. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-horde-opening-locators",
+            "url": "https://www.wowhead.com/classic/quest=2623/the-swamp-talker"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-horde-opening-locators",
+          "url": "https://www.wowhead.com/classic/quest=2623/the-swamp-talker"
+        }
+      ],
+      "byteLength": 41382,
+      "modifiedAt": "2026-10-01T21:41:06.528Z",
+      "sha256": "ea50e2b20f7c5c6250de63ef069daf3de89d1475fa4471b30a7ed6ad61756a63"
+    },
+    {
+      "id": "shattered-amulet",
+      "kind": "artifact",
+      "file": "public/images/storylines/fallen-hero/shattered-amulet.research.webp",
+      "representedBy": "The shattered amulet",
+      "pixelWidth": 430,
+      "pixelHeight": 430,
+      "sourceArtifact": "exec-1603518d-f80c-4e13-aea8-2deed1163381.png",
+      "sourceTile": "top far-right object sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "Three visible fragments of an original dark amulet illustration; no canonical appearance is asserted.",
+      "generationPrompt": "Original isolated interpretation of The shattered amulet: Three visible fragments of an original dark amulet illustration; no canonical appearance is asserted. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-kirith-cover-locators",
+            "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+          },
+          {
+            "sourceId": "fallen-hero-felbane-weapon-locators",
+            "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+          },
+          {
+            "sourceId": "fallen-hero-amulet-locators",
+            "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-kirith-cover-locators",
+          "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+        },
+        {
+          "sourceId": "fallen-hero-felbane-weapon-locators",
+          "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+        },
+        {
+          "sourceId": "fallen-hero-amulet-locators",
+          "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+        }
+      ],
+      "byteLength": 55300,
+      "modifiedAt": "2026-10-01T21:41:07.685Z",
+      "sha256": "f819718dcc4d569415d4c7edf947dc9f38e5fd3b225c1408e2b9424d161f9849"
+    },
+    {
+      "id": "completed-amulet",
+      "kind": "artifact",
+      "file": "public/images/storylines/fallen-hero/completed-amulet.research.webp",
+      "representedBy": "The united amulet",
+      "pixelWidth": 480,
+      "pixelHeight": 447,
+      "sourceArtifact": "exec-1603518d-f80c-4e13-aea8-2deed1163381.png",
+      "sourceTile": "bottom-left object sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "An assembled version of the interpretive three-part amulet, used to distinguish the final stage from the scattered fragments.",
+      "generationPrompt": "Original isolated interpretation of The united amulet: An assembled version of the interpretive three-part amulet, used to distinguish the final stage from the scattered fragments. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-binding-stones-locator",
+            "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+          },
+          {
+            "sourceId": "fallen-hero-kirith-cover-locators",
+            "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+          },
+          {
+            "sourceId": "fallen-hero-amulet-locators",
+            "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-binding-stones-locator",
+          "url": "https://www.wowhead.com/classic/quest=2681/the-stones-that-bind-us"
+        },
+        {
+          "sourceId": "fallen-hero-kirith-cover-locators",
+          "url": "https://www.wowhead.com/classic/quest=2743/the-cover-of-darkness"
+        },
+        {
+          "sourceId": "fallen-hero-amulet-locators",
+          "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+        }
+      ],
+      "byteLength": 48198,
+      "modifiedAt": "2026-10-01T21:41:08.764Z",
+      "sha256": "a39bc4ce00ca520c34e99ac3460d0c1ba688d325ba5a37a8caf7423792634595"
+    },
+    {
+      "id": "felbane-weaponry",
+      "kind": "artifact",
+      "file": "public/images/storylines/fallen-hero/felbane-weaponry.research.webp",
+      "representedBy": "Felbane weaponry",
+      "pixelWidth": 430,
+      "pixelHeight": 447,
+      "sourceArtifact": "exec-1603518d-f80c-4e13-aea8-2deed1163381.png",
+      "sourceTile": "bottom-middle object sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "Interpretive fel-slaying arms prepared from azsharite. The exact selectable weapon and model are not asserted.",
+      "generationPrompt": "Original isolated interpretation of Felbane weaponry: Interpretive fel-slaying arms prepared from azsharite. The exact selectable weapon and model are not asserted. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-felbane-weapon-locators",
+            "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+          },
+          {
+            "sourceId": "fallen-hero-amulet-locators",
+            "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-felbane-weapon-locators",
+          "url": "https://www.wowhead.com/classic/quest=3625/enchanted-azsharite-fel-weaponry"
+        },
+        {
+          "sourceId": "fallen-hero-amulet-locators",
+          "url": "https://www.wowhead.com/classic/quest=3627/uniting-the-shattered-amulet"
+        }
+      ],
+      "byteLength": 60046,
+      "modifiedAt": "2026-10-01T21:41:10.150Z",
+      "sha256": "03a8d211ed31eb00199a56c632c5e8050efe4a1abf150f6daa0aabda6597038d"
+    },
+    {
+      "id": "severed-horn",
+      "kind": "artifact",
+      "file": "public/images/storylines/fallen-hero/severed-horn.research.webp",
+      "representedBy": "Razelikh’s horn",
+      "pixelWidth": 440,
+      "pixelHeight": 447,
+      "sourceArtifact": "exec-1603518d-f80c-4e13-aea8-2deed1163381.png",
+      "sourceTile": "bottom-center object sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "An interpretive horn representing the requested proof of Razelikh’s defeat; it does not assert exact anatomy or object appearance.",
+      "generationPrompt": "Original isolated interpretation of Razelikh’s horn: An interpretive horn representing the requested proof of Razelikh’s defeat; it does not assert exact anatomy or object appearance. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-final-quest-locator",
+            "url": "https://www.wowhead.com/classic/quest=3628/you-are-rakhlikh-demon"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-final-quest-locator",
+          "url": "https://www.wowhead.com/classic/quest=3628/you-are-rakhlikh-demon"
+        }
+      ],
+      "byteLength": 55708,
+      "modifiedAt": "2026-10-01T21:41:11.428Z",
+      "sha256": "6819526053a7666d779a346565e081de73c4885353fc8c9a0b1520436a3a1486"
+    },
+    {
+      "id": "ward-of-defiler",
+      "kind": "artifact",
+      "file": "public/images/storylines/fallen-hero/ward-of-defiler.research.webp",
+      "representedBy": "The Ward of the Defiler",
+      "pixelWidth": 434,
+      "pixelHeight": 447,
+      "sourceArtifact": "exec-1603518d-f80c-4e13-aea8-2deed1163381.png",
+      "sourceTile": "bottom far-right object sheet tile",
+      "targetEditionBuild": "Original World of Warcraft Classic story identity; exact character or object model comparison remains open.",
+      "recognizableTraits": "An original ward illustration returned to Trebor. The image does not assert that its requested destruction was directly shown.",
+      "generationPrompt": "Original isolated interpretation of The Ward of the Defiler: An original ward illustration returned to Trebor. The image does not assert that its requested destruction was directly shown. Preserve a distinctive readable silhouette and clear subject identity. No text, border or scene background; transparent cutout, original art, not canonical game art.",
+      "generator": "OpenAI ImageGen; generated transparent cutout contact-sheet tile, cropped and converted to alpha-capable WebP by scripts/crop-fallen-hero-art.mjs.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone and character identity.",
+        "sourceReferences": [
+          {
+            "sourceId": "fallen-hero-final-quest-locator",
+            "url": "https://www.wowhead.com/classic/quest=3628/you-are-rakhlikh-demon"
+          }
+        ],
+        "comparisonCapture": "Generated art is not game art. Human comparison to the matching Classic model and presentation remains open."
+      },
+      "visualReview": "Distinct subject identity is legible in the generated cutout. Costume/model, species, exact object shape and resemblance to the matching Classic build require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "fallen-hero-final-quest-locator",
+          "url": "https://www.wowhead.com/classic/quest=3628/you-are-rakhlikh-demon"
+        }
+      ],
+      "byteLength": 53202,
+      "modifiedAt": "2026-10-01T21:41:12.598Z",
+      "sha256": "ec7844243757887702d49b35ada8747b8e79873ccbe90664a0a99cb5391eebd7"
+    }
+  ],
+  "sceneLedger": [
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero",
+      "title": "Two roads to the Fallen Hero",
+      "environmentPath": "public/images/storylines/fallen-hero/blasted-binding-field.research.webp",
+      "gameArea": "The Blasted Lands, Trebor’s field",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "Classic pre-Cataclysm Blasted Lands: scorched red-brown earth, dusty ochre sky, sparse dead trees, exposed broken ridges and volcanic stone. Keep this dry, open and hostile, sharply distinct from the swamp.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "trebor-fallen-hero",
+          "name": "Trebor the Fallen Hero",
+          "image": "public/images/storylines/fallen-hero/trebor-fallen-hero.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "Alliance and Horde source variants are presented in one explicitly editorial opening; their characters and quests are not co-present or a single avatar route.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-bengor-and-the-orders",
+      "title": "Bengor brings the lost orders",
+      "environmentPath": "public/images/storylines/fallen-hero/swamp-border.research.webp",
+      "gameArea": "Swamp of Sorrows and the Stonard approaches",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "Classic pre-Cataclysm Swamp of Sorrows: humid green-brown marsh, shallow water and mud, tangled trees, reeds and low mist. The Horde camp is rough timber, hides, rope and practical spiked defenses, never pale kaldorei ruins or the burnt palette of the Blasted Lands.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "bengor",
+          "name": "Bengor",
+          "image": "public/images/storylines/fallen-hero/bengor.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "warchief-orders",
+          "name": "The missing Warchief’s orders",
+          "image": "public/images/storylines/fallen-hero/warchief-orders.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "This is a Horde-only quest branch. The visual scene is a broad Swamp of Sorrows setting, not a claimed exact roadside location.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-bengor-and-the-orders-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-trebors-testimony",
+      "title": "Trebor’s tale of sorrow",
+      "environmentPath": "public/images/storylines/fallen-hero/blasted-binding-field.research.webp",
+      "gameArea": "The Blasted Lands, Trebor’s field",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "Classic pre-Cataclysm Blasted Lands: scorched red-brown earth, dusty ochre sky, sparse dead trees, exposed broken ridges and volcanic stone. Keep this dry, open and hostile, sharply distinct from the swamp.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "trebor-fallen-hero",
+          "name": "Trebor the Fallen Hero",
+          "image": "public/images/storylines/fallen-hero/trebor-fallen-hero.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "The nineteen-men versus eighteen-stones discrepancy is preserved explicitly; do not merge the populations or infer an unstated fate.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-trebors-testimony-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-stones-that-bind",
+      "title": "The stones that bind them",
+      "environmentPath": "public/images/storylines/fallen-hero/blasted-binding-field.research.webp",
+      "gameArea": "The Blasted Lands, Trebor’s field",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "Classic pre-Cataclysm Blasted Lands: scorched red-brown earth, dusty ochre sky, sparse dead trees, exposed broken ridges and volcanic stone. Keep this dry, open and hostile, sharply distinct from the swamp.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "trebor-fallen-hero",
+          "name": "Trebor the Fallen Hero",
+          "image": "public/images/storylines/fallen-hero/trebor-fallen-hero.research.webp"
+        },
+        {
+          "id": "bound-soldiers",
+          "name": "The bound soldiers",
+          "image": "public/images/storylines/fallen-hero/bound-soldiers.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "binding-stone",
+          "name": "A binding stone",
+          "image": "public/images/storylines/fallen-hero/binding-stone.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "Order follows Classic quest dependencies. The scene uses a relational theater and broad place records, not a route or surveyed location.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-stones-that-bind-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-the-souls-rest",
+      "title": "The spirits may rest",
+      "environmentPath": "public/images/storylines/fallen-hero/blasted-binding-field.research.webp",
+      "gameArea": "The Blasted Lands, Trebor’s field",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "Classic pre-Cataclysm Blasted Lands: scorched red-brown earth, dusty ochre sky, sparse dead trees, exposed broken ridges and volcanic stone. Keep this dry, open and hostile, sharply distinct from the swamp.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "bound-soldiers",
+          "name": "The bound soldiers",
+          "image": "public/images/storylines/fallen-hero/bound-soldiers.research.webp"
+        },
+        {
+          "id": "trebor-fallen-hero",
+          "name": "Trebor the Fallen Hero",
+          "image": "public/images/storylines/fallen-hero/trebor-fallen-hero.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "binding-stone",
+          "name": "A binding stone",
+          "image": "public/images/storylines/fallen-hero/binding-stone.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "The release is sourced. The ensemble art is interpretive and does not claim a named roster or the exact number of depicted spirits.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-the-souls-rest-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil",
+      "title": "Kirith at Serpent’s Coil",
+      "environmentPath": "public/images/storylines/fallen-hero/serpents-coil-cave.research.webp",
+      "gameArea": "Serpent’s Coil on the Blasted Lands coast",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "A low rocky cave mouth and dark damp interior set into the Blasted Lands coast, with rough stone, narrow tidal water and restrained fel light. Preserve the dry red-brown land outside the cave; this is not an invented dungeon plan.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "kirith-damned",
+          "name": "Kirith the Damned",
+          "image": "public/images/storylines/fallen-hero/kirith-damned.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "Order follows Classic quest dependencies. The scene uses a relational theater and broad place records, not a route or surveyed location.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-kirith-at-serpents-coil-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-kiriths-amulet-clue",
+      "title": "The amulet has three pieces",
+      "environmentPath": "public/images/storylines/fallen-hero/serpents-coil-cave.research.webp",
+      "gameArea": "Serpent’s Coil on the Blasted Lands coast",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "A low rocky cave mouth and dark damp interior set into the Blasted Lands coast, with rough stone, narrow tidal water and restrained fel light. Preserve the dry red-brown land outside the cave; this is not an invented dungeon plan.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "kirith-spirit",
+          "name": "The spirit of Kirith",
+          "image": "public/images/storylines/fallen-hero/kirith-spirit.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "shattered-amulet",
+          "name": "The shattered amulet",
+          "image": "public/images/storylines/fallen-hero/shattered-amulet.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "Kirith’s spirit appears after his demon quest, but the story asserts no later fate or metaphysical explanation beyond the source text.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-kiriths-amulet-clue-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-loramus-in-azshara",
+      "title": "Loramus and the demon hunter’s counsel",
+      "environmentPath": "public/images/storylines/fallen-hero/azshara-coast.research.webp",
+      "gameArea": "Azshara’s eastern coast",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "Classic pre-Cataclysm Azshara: cold blue sea, high weathered coastal cliffs, pale stone, small islands, a broad eastern shore and cool marine haze. Do not use the lush jungle language of Stranglethorn or the scorched Blasted Lands palette.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "loramus-thalipedes",
+          "name": "Loramus Thalipedes",
+          "image": "public/images/storylines/fallen-hero/loramus-thalipedes.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "Use Classic quest evidence for Loramus. Later Cataclysm retelling and outcomes are excluded from this story.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-loramus-in-azshara-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-name-of-the-beast",
+      "title": "The name behind the title",
+      "environmentPath": "public/images/storylines/fallen-hero/temple-of-arkkoran.research.webp",
+      "gameArea": "The Temple of Arkkoran",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "The ruined coastal temple in Classic Azshara: pale weathered night-elf stone, slender broken arches, carved but eroded surfaces, blue sea and cliff edges. Keep its architecture ancient and kaldorei without copying an in-game screenshot.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "hetaera",
+          "name": "Hetaera",
+          "image": "public/images/storylines/fallen-hero/hetaera.research.webp"
+        },
+        {
+          "id": "lord-arkkoroc",
+          "name": "Lord Arkkoroc",
+          "image": "public/images/storylines/fallen-hero/lord-arkkoroc.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "The multi-step chain is grouped as a knowledge-gathering episode; characters are not asserted to be co-present at a single site.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-name-of-the-beast-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-azsharite-for-felbane",
+      "title": "Azsharite for the weapon",
+      "environmentPath": "public/images/storylines/fallen-hero/azsharite-peninsula.research.webp",
+      "gameArea": "Azshara’s azsharite shore",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "A distinct Azshara coast vista with cold blue water, exposed pale cliffs and narrow stony beaches. Preserve the region’s sea-facing, wind-cut terrain and restrained blue-grey light; the composition is not an exact resource node or route.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "loramus-thalipedes",
+          "name": "Loramus Thalipedes",
+          "image": "public/images/storylines/fallen-hero/loramus-thalipedes.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "felbane-weaponry",
+          "name": "Felbane weaponry",
+          "image": "public/images/storylines/fallen-hero/felbane-weaponry.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "Order follows Classic quest dependencies. The scene uses a relational theater and broad place records, not a route or surveyed location.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-azsharite-for-felbane-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-galvans-felbane-forge",
+      "title": "Felbane takes shape",
+      "environmentPath": "public/images/storylines/fallen-hero/stranglethorn-forge-camp.research.webp",
+      "gameArea": "Galvan’s inland Stranglethorn camp",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "Classic pre-Cataclysm inland Stranglethorn: dense humid green canopy, layered tropical growth, vines and warm haze, with a modest timber-and-stone camp and a working forge. This is Galvan’s inland camp, not the coastal stilt-harbor of Booty Bay.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "galvan-ancient",
+          "name": "Galvan the Ancient",
+          "image": "public/images/storylines/fallen-hero/galvan-ancient.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "felbane-weaponry",
+          "name": "Felbane weaponry",
+          "image": "public/images/storylines/fallen-hero/felbane-weaponry.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "The target is Galvan’s inland camp between the named Stranglethorn landmarks, not Booty Bay. Composition is an original area impression.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-galvans-felbane-forge-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-return-to-blasted-lands",
+      "title": "Return with the forged weapons",
+      "environmentPath": "public/images/storylines/fallen-hero/blasted-binding-field.research.webp",
+      "gameArea": "The Blasted Lands, Trebor’s field",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "Classic pre-Cataclysm Blasted Lands: scorched red-brown earth, dusty ochre sky, sparse dead trees, exposed broken ridges and volcanic stone. Keep this dry, open and hostile, sharply distinct from the swamp.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "trebor-fallen-hero",
+          "name": "Trebor the Fallen Hero",
+          "image": "public/images/storylines/fallen-hero/trebor-fallen-hero.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "felbane-weaponry",
+          "name": "Felbane weaponry",
+          "image": "public/images/storylines/fallen-hero/felbane-weaponry.research.webp"
+        },
+        {
+          "id": "shattered-amulet",
+          "name": "The shattered amulet",
+          "image": "public/images/storylines/fallen-hero/shattered-amulet.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "Order follows Classic quest dependencies. The scene uses a relational theater and broad place records, not a route or surveyed location.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-return-to-blasted-lands-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-the-three-lieutenants",
+      "title": "Three lieutenants, three fragments",
+      "environmentPath": "public/images/storylines/fallen-hero/blasted-binding-field.research.webp",
+      "gameArea": "The Blasted Lands, Trebor’s field",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "Classic pre-Cataclysm Blasted Lands: scorched red-brown earth, dusty ochre sky, sparse dead trees, exposed broken ridges and volcanic stone. Keep this dry, open and hostile, sharply distinct from the swamp.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "archmage-allistarj",
+          "name": "Archmage Allistarj",
+          "image": "public/images/storylines/fallen-hero/archmage-allistarj.research.webp"
+        },
+        {
+          "id": "lady-sevine",
+          "name": "Lady Sevine",
+          "image": "public/images/storylines/fallen-hero/lady-sevine.research.webp"
+        },
+        {
+          "id": "grol-destroyer",
+          "name": "Grol the Destroyer",
+          "image": "public/images/storylines/fallen-hero/grol-destroyer.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "completed-amulet",
+          "name": "The united amulet",
+          "image": "public/images/storylines/fallen-hero/completed-amulet.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "Three separate lieutenant encounters are displayed as an editorial triptych; the figures are not co-present and no canonical order is claimed.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-the-three-lieutenants-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-summoning-rakhlikh",
+      "title": "At the Rise of the Defiler",
+      "environmentPath": "public/images/storylines/fallen-hero/rise-of-defiler.research.webp",
+      "gameArea": "The Rise of the Defiler",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "The Blasted Lands’ exposed ochre flats, dark volcanic escarpment and stark broken silhouette. Use sparse dead scrub and a distant, oppressive rise; keep landmarks broad because the art is interpretive, not a surveyed view.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "trebor-fallen-hero",
+          "name": "Trebor the Fallen Hero",
+          "image": "public/images/storylines/fallen-hero/trebor-fallen-hero.research.webp"
+        },
+        {
+          "id": "razelikh-defiler",
+          "name": "Razelikh the Defiler",
+          "image": "public/images/storylines/fallen-hero/razelikh-defiler.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "completed-amulet",
+          "name": "The united amulet",
+          "image": "public/images/storylines/fallen-hero/completed-amulet.research.webp"
+        },
+        {
+          "id": "felbane-weaponry",
+          "name": "Felbane weaponry",
+          "image": "public/images/storylines/fallen-hero/felbane-weaponry.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "Generated figures are an editorial arrangement. The source does not establish an exact battle formation or the simultaneous presence of every represented person.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-summoning-rakhlikh-claim"
+      ]
+    },
+    {
+      "nodeId": "fallen-hero-and-rakhlikh-story-horn-and-ward",
+      "title": "A sign of hope, and an unfinished charge",
+      "environmentPath": "public/images/storylines/fallen-hero/rise-of-defiler.research.webp",
+      "gameArea": "The Rise of the Defiler",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; target 1.12-era quest build.",
+      "recognizableTraits": "The Blasted Lands’ exposed ochre flats, dark volcanic escarpment and stark broken silhouette. Use sparse dead scrub and a distant, oppressive rise; keep landmarks broad because the art is interpretive, not a surveyed view.",
+      "resemblanceReview": "Artistic trait check recorded; in-game side-by-side capture and human matching-build approval remain open.",
+      "cast": [
+        {
+          "id": "trebor-fallen-hero",
+          "name": "Trebor the Fallen Hero",
+          "image": "public/images/storylines/fallen-hero/trebor-fallen-hero.research.webp"
+        },
+        {
+          "id": "razelikh-defiler",
+          "name": "Razelikh the Defiler",
+          "image": "public/images/storylines/fallen-hero/razelikh-defiler.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "severed-horn",
+          "name": "Razelikh’s horn",
+          "image": "public/images/storylines/fallen-hero/severed-horn.research.webp"
+        },
+        {
+          "id": "ward-of-defiler",
+          "name": "The Ward of the Defiler",
+          "image": "public/images/storylines/fallen-hero/ward-of-defiler.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "geographyAndChronologyNote": "Keep the outcome limited to Razelikh’s defeat and the return requested by the quest. Do not claim that Trebor is shown destroying the ward or that the Burning Legion is defeated.",
+      "claimIds": [
+        "fallen-hero-and-rakhlikh-horn-and-ward-claim"
+      ]
+    }
+  ]
+}

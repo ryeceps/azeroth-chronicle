@@ -53,13 +53,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 ### 04. The Fallen Hero and Rakh'likh
 
-**ID:** `fallen-hero-and-rakhlikh` · **A** · **Reach:** several distant outdoor regions.
 
-**Story spine:** a fallen soldier's testimony → bound souls and the search for help → Loramus's demon knowledge → preparation of a weapon and amulet → confrontation with Rakh'likh. Track who is bound, who is seeking release, and what the final victory resolves.
-
-**Research itinerary:** Swamp of Sorrows/Blasted Lands, Azshara, Stranglethorn and the named weapon-making sites. **Anchors:** A Tale of Sorrow; The Stones That Bind Us; The Name of the Beast; You Are Rakh'likh, Demon.
-
-**Sources:** [Fallen Hero locator](https://warcraft.wiki.gg/wiki/Fallen_Hero_of_the_Horde); [Return to the Blasted Lands](https://warcraft.wiki.gg/wiki/Return_to_the_Blasted_Lands). **Gate:** separate faction introductions from shared steps; exclude the Cataclysm Loramus retelling and verify the original ending.
+**Implementation:** Complete 15-scene illustrated research story with two explicitly separate faction openings, source/claim ledger, Classic area-specific environment and cast art, and a Classic-to-Wrath StoryTour map marker. The eighteen-stone/nineteen-soldier discrepancy remains open. See the [production ledger](fallen-hero-and-rakhlikh-production.md) and [visual asset ledger](fallen-hero-and-rakhlikh-visual-assets.json). Original-client comparison, source review, matching-build area/model comparison, and voice audition remain human gates.
 
 ### 05. Tirion and Taelan: Of Love and Family
 
