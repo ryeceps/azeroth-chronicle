@@ -46,6 +46,13 @@ describe('separate era and story tours', () => {
 
     const tour = dataset.storyTours[0]!;
     expect(storyTourSchema.safeParse(tour).success).toBe(true);
+    expect(tour.entries.every((entry) => (
+      entry.mapPositionPercent.length === 2
+      && entry.mapPositionPercent.every((coordinate) => coordinate >= 0 && coordinate <= 100)
+    ))).toBe(true);
+    const invalidMapPosition = structuredClone(tour);
+    invalidMapPosition.entries[0]!.mapPositionPercent = [101, 50];
+    expect(storyTourSchema.safeParse(invalidMapPosition).success).toBe(false);
     const duplicateOrder = structuredClone(tour);
     duplicateOrder.entries[1]!.order = duplicateOrder.entries[0]!.order;
     expect(storyTourSchema.safeParse(duplicateOrder).success).toBe(false);

@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test('Classic to Wrath map filters continents and keeps research placards out of playback', async ({ page }) => {
+test('story dots live on the map, expand on hover or focus, and open stories or previews', async ({ page }) => {
   const pageErrors: string[] = [];
   page.on('pageerror', error => pageErrors.push(error.message));
   await page.goto('/tours/classic-to-wrath');
@@ -9,35 +9,55 @@ test('Classic to Wrath map filters continents and keeps research placards out of
   const map = page.getByRole('img', { name: /original interpretive world atlas/i });
   await expect(map).toBeVisible();
   await expect.poll(() => map.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
-  await expect(page.getByRole('button', { name: /Kalimdor/i })).toBeVisible();
-  await expect(page.getByRole('button', { name: /Eastern Kingdoms/i })).toBeVisible();
-  await expect(page.getByRole('button', { name: /Northrend/i })).toBeVisible();
-  await expect(page.getByRole('button', { name: /Outland/i })).toBeVisible();
+  const viewport = page.viewportSize()!;
+  const mapFrameBounds = await page.locator('.story-tour-map-frame').boundingBox();
+  expect(mapFrameBounds).toMatchObject({ x: 0, y: 0, width: viewport.width, height: viewport.height });
+  await expect(page.locator('.story-tour-dot')).toHaveCount(4);
+  await expect(page.locator('.story-tour-placards')).toHaveCount(0);
+
+  const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
+  const scepter = page.getByRole('button', { name: /scepter-of-the-shifting-sands|Scepter/i });
+  const outland = page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i });
+  const northrend = page.getByRole('button', { name: /wrathgate-and-undercity|Wrathgate/i });
+  await expect(onyxia).toBeVisible();
+  await expect(scepter).toBeVisible();
+  await expect(outland).toBeVisible();
+  await expect(northrend).toBeVisible();
+
+  await onyxia.hover();
+  const onyxiaCard = page.locator('#story-tour-tip-stormwind-onyxia-conspiracy');
+  await expect(onyxiaCard.getByRole('heading', { name: 'The Dragon in Stormwind' })).toBeVisible();
+  await expect(onyxiaCard).toHaveCSS('opacity', '1');
+  await expect(onyxiaCard).toContainText('Playable story');
   await page.screenshot({ path: 'output/classic-wrath-tour-desktop.png', fullPage: true });
 
-  await page.getByRole('button', { name: /Outland/i }).click();
-  await expect(page.getByRole('heading', { name: 'Stories from Outland' })).toBeVisible();
+  await outland.hover();
+  const outlandCard = page.locator('#story-tour-tip-cipher-of-damnation-oronok');
+  await expect(outlandCard.getByRole('heading', { name: /Cipher of Damnation/i })).toBeVisible();
+  await expect(outlandCard).toContainText('Research preview');
+  await expect(outlandCard.getByRole('button', { name: 'Play story' })).toHaveCount(0);
+  await outlandCard.getByRole('link', { name: 'Read story preview' }).click();
   await expect(page.getByRole('heading', { name: 'Oronok and the Cipher of Damnation' })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Play story' })).toHaveCount(0);
-  await page.getByRole('link', { name: 'Read story preview' }).click();
-  await expect(page.getByRole('heading', { name: 'Oronok and the Cipher of Damnation' })).toBeVisible();
-  await page.getByRole('link', { name: 'Classic to Wrath', exact: true }).click();
 
-  await page.getByRole('button', { name: /Northrend/i }).click();
-  await expect(page.getByRole('heading', { name: 'Stories from Northrend' })).toBeVisible();
-  await expect(page.getByRole('heading', { name: 'The Wrathgate and Undercity' })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Play story' })).toHaveCount(0);
-  await page.getByRole('button', { name: 'All stories' }).click();
-  await expect(page.getByRole('heading', { name: 'Stories across the expansions' })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Play all chronologically' })).toBeEnabled();
+  await page.goto('/tours/classic-to-wrath');
+  await northrend.focus();
+  const northrendCard = page.locator('#story-tour-tip-wrathgate-and-undercity');
+  await expect(northrendCard.getByRole('heading', { name: 'The Wrathgate and Undercity' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Play all stories' })).toBeEnabled();
+  await onyxia.hover();
+  await onyxia.click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
+  }).toEqual(['story-tour', 'classic-to-wrath', 'stormwind-onyxia-conspiracy', 'story']);
   expect(pageErrors).toEqual([]);
 });
 
-test('Play all advances across completed guides and refresh keeps the current story-tour chapter', async ({ page }) => {
+test('Play All advances completed stories in chronological order and restores the current chapter', async ({ page }) => {
   const pageErrors: string[] = [];
   page.on('pageerror', error => pageErrors.push(error.message));
   await page.goto('/tours/classic-to-wrath');
-  await page.getByRole('button', { name: 'Play all chronologically' }).click();
+  await page.getByRole('button', { name: 'Play all stories' }).click();
   await page.getByRole('button', { name: 'Pause tour' }).click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
@@ -63,8 +83,23 @@ test('Play all advances across completed guides and refresh keeps the current st
   expect(pageErrors).toEqual([]);
 });
 
-test('compact StoryTour layout fits the viewport and returns from individual playback', async ({ page }) => {
+test('phone layout fits and touch opens a story card before playback', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
+  await page.addInitScript(() => {
+    const nativeMatchMedia = window.matchMedia.bind(window);
+    window.matchMedia = (query: string) => query === '(pointer: coarse)'
+      ? ({
+        matches: true,
+        media: query,
+        onchange: null,
+        addListener: () => undefined,
+        removeListener: () => undefined,
+        addEventListener: () => undefined,
+        removeEventListener: () => undefined,
+        dispatchEvent: () => false,
+      } as MediaQueryList)
+      : nativeMatchMedia(query);
+  });
   await page.goto('/tours/classic-to-wrath');
   await expect(page.getByRole('heading', { name: 'Classic to Wrath' })).toBeVisible();
   const dimensions = await page.evaluate(() => ({
@@ -72,10 +107,14 @@ test('compact StoryTour layout fits the viewport and returns from individual pla
     page: document.documentElement.scrollWidth,
   }));
   expect(dimensions.page).toBeLessThanOrEqual(dimensions.viewport);
-  await page.screenshot({ path: 'output/classic-wrath-tour-phone.png', fullPage: true });
+  const mapFrameBounds = await page.locator('.story-tour-map-frame').boundingBox();
+  expect(mapFrameBounds).toMatchObject({ x: 0, y: 0, width: 390, height: 844 });
 
-  await page.getByRole('button', { name: /Kalimdor/i }).click();
-  await page.getByRole('button', { name: 'Play story' }).first().click();
+  const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
+  await onyxia.click();
+  await expect(page.locator('.story-tour-touch-card').getByRole('heading', { name: 'The Dragon in Stormwind' })).toBeVisible();
+  await page.screenshot({ path: 'output/classic-wrath-tour-phone.png', fullPage: true });
+  await page.locator('.story-tour-touch-card').getByRole('button', { name: 'Play story' }).click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
     return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];

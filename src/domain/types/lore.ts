@@ -337,6 +337,8 @@ export interface StoryTourRegion {
 export interface StoryTourEntry {
   storylineId: EntityId;
   regionIds: EntityId[];
+  /** UI-only anchor normalized to the tour illustration; never atlas geography. */
+  mapPositionPercent: [number, number];
   order: number;
   periodLabel: string;
   locationLabel: string;

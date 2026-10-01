@@ -323,6 +323,7 @@ export const storyTourRegionSchema = z.object({
 export const storyTourEntrySchema = z.object({
   storylineId: id,
   regionIds: z.array(id).min(1),
+  mapPositionPercent: z.tuple([z.number().min(0).max(100), z.number().min(0).max(100)]),
   order: z.number().int().nonnegative(),
   periodLabel: z.string().min(1),
   locationLabel: z.string().min(1),
