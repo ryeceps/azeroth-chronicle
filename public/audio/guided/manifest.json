@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T18:50:55.736Z",
+  "generatedAt": "2026-10-01T03:12:09.561Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 143,
-  "totalDurationMs": 3648600,
+  "trackCount": 164,
+  "totalDurationMs": 4195425,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -1178,6 +1178,195 @@
       "sha256": "eb056d35aebce6b483113b287fcd4d29a2255642af7b52656846cbd455eaf7c1",
       "bytes": 363789,
       "transcriptSha256": "af8d02fde2aac11b16fc3846f6b585e4a06ffea674adb812e87ad657fb05d39b"
+    },
+    {
+      "nodeId": "onyxia-story-dragonkin-menace",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-dragonkin-menace.mp3",
+      "durationMs": 26350,
+      "sha256": "0351cf79dbc05538982e32c3aac70dd6e9ffaea2c49cdb4cee7554a5a0cb6977",
+      "transcriptSha256": "8877265be9b8897e3675a0de4fcd8eee157421dd5d0c26d6184947da974fb7f6",
+      "bytes": 317133
+    },
+    {
+      "nodeId": "onyxia-story-true-masters",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-true-masters.mp3",
+      "durationMs": 29175,
+      "sha256": "75825fd845a72ddd1d29fd3f160db2ad4ec784af36117fe0be7d3e3f4d68dfc7",
+      "transcriptSha256": "4418d39ce1cd2454b81e64bf2750dd6a7d612d4d7dc52cbaebdbb80833f0d6d3",
+      "bytes": 351117
+    },
+    {
+      "nodeId": "onyxia-story-windsor-in-the-depths",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-windsor-in-the-depths.mp3",
+      "durationMs": 26325,
+      "sha256": "ceead5d3d92131c47e5c178e1fee33545b3d73ec0c2ba764bc0157da7c4f2922",
+      "transcriptSha256": "14b95526f7f5127739d5b8fb558ece2bde156c5866611e52ab8a905762187399",
+      "bytes": 316845
+    },
+    {
+      "nodeId": "onyxia-story-shred-of-hope",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-shred-of-hope.mp3",
+      "durationMs": 25925,
+      "sha256": "3297333475128185813e1c5164ec8efd19bdc5b0d3d048c36f1cabd3c309d75c",
+      "transcriptSha256": "63a972bd7aec1dc5cebb9a1508f4f6938e3f6f0a2749b519d4adc621608c8cb8",
+      "bytes": 312237
+    },
+    {
+      "nodeId": "onyxia-story-jail-break",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-jail-break.mp3",
+      "durationMs": 22600,
+      "sha256": "a0d73acbcfdee94f941c66540dc204a0c05a79a4f2e2d29ed4f694d861e10960",
+      "transcriptSha256": "42a96ca17a5fb3a42e430b489c9259287abe757df4a7106a9c8e26676d122b21",
+      "bytes": 272205
+    },
+    {
+      "nodeId": "onyxia-story-stormwind-rendezvous",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-stormwind-rendezvous.mp3",
+      "durationMs": 26650,
+      "sha256": "174fc0cb87fbd04f645de37016c1c20da7d107ddf0948e333b46c5e4d359ccc0",
+      "transcriptSha256": "868d5b7dad10503f7ea0a83c0d50068ed9a13c03c073f95127429cee06cd8c56",
+      "bytes": 320877
+    },
+    {
+      "nodeId": "onyxia-story-great-masquerade",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-great-masquerade.mp3",
+      "durationMs": 28725,
+      "sha256": "d85a7780cf6777ca010e1e8c1b195505a8231059c73da76c6fe0fa5cca8034c9",
+      "transcriptSha256": "567b8b9f6ddcc39d25479a14a5a6919c894d5c2b0e60d9391553a3b73d829733",
+      "bytes": 345645
+    },
+    {
+      "nodeId": "onyxia-story-dragons-eye",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-dragons-eye.mp3",
+      "durationMs": 23900,
+      "sha256": "d74146250d54a1014e4144ac9f5e1aafc7c817ec39f177a35a0e8eadf383e797",
+      "transcriptSha256": "1e3b71d5a88d380c935a5f183d5b41a9a36bafa2529a8159fcac9864df79a54a",
+      "bytes": 287757
+    },
+    {
+      "nodeId": "onyxia-story-alliance-drakefire-amulet",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-alliance-drakefire-amulet.mp3",
+      "durationMs": 23975,
+      "sha256": "278d09bad74dac0e5f13ac6f9db473e0b1a206ce541d471d105298ad260b1016",
+      "transcriptSha256": "9fd542ba59d087b2b6b13acbe824841140a7cebec4371a1ea2fb6fed40690bb9",
+      "bytes": 288621
+    },
+    {
+      "nodeId": "onyxia-story-warlords-command",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-warlords-command.mp3",
+      "durationMs": 26625,
+      "sha256": "01c23e8a3220378d91711d740696b01f6c8a7aac7e73fb0361a428ec8681d596",
+      "transcriptSha256": "0c597db08f2891ae296233182ce65c36cd765718d4a4e49671a90339163e58bb",
+      "bytes": 320589
+    },
+    {
+      "nodeId": "onyxia-story-for-the-horde",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-for-the-horde.mp3",
+      "durationMs": 26175,
+      "sha256": "8a7b32a636cd9ca2ec80c46d196bfc5f70da49cf3cb9bfbd988da0abdad9522b",
+      "transcriptSha256": "7dd6a16c583911efeb8f5b59e6ea75371680c63b2fc9083fdcab6c067994eed8",
+      "bytes": 315117
+    },
+    {
+      "nodeId": "onyxia-story-what-the-wind-carries",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-what-the-wind-carries.mp3",
+      "durationMs": 22775,
+      "sha256": "edb632c4f26be42bbcf4a5fa5d15c1e36574a0fba68ad19d17a68dce76e9721f",
+      "transcriptSha256": "679448e31a3b68aeba4f81f1f53ee2d507b8eab37c4251962eea252204a03695",
+      "bytes": 274221
+    },
+    {
+      "nodeId": "onyxia-story-champion-of-horde",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-champion-of-horde.mp3",
+      "durationMs": 24825,
+      "sha256": "45b345283f1ad1faf55c8c082e4addca7f8faaa3035df80a128e24dbeac5d576",
+      "transcriptSha256": "1d3cc7154a81125eb420d2e3164d0bd37bf50b6909a59abe8c62db91deaa1467",
+      "bytes": 298989
+    },
+    {
+      "nodeId": "onyxia-story-testament-to-rexxar",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-testament-to-rexxar.mp3",
+      "durationMs": 27575,
+      "sha256": "db6161519a64b83ed0f562ffb6514b3c9d064889268fec0bee49701d4e2dca11",
+      "transcriptSha256": "c49e10c256e6c5a0717893f87912ee4f4f4205125fccb0b3d372dfbd19dff8b2",
+      "bytes": 331821
+    },
+    {
+      "nodeId": "onyxia-story-emberstrife",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-emberstrife.mp3",
+      "durationMs": 26875,
+      "sha256": "34c1ef7ba0a20001569d157968010b02f548ca5d8c1890e75b81d6a30e64d397",
+      "transcriptSha256": "e097c09e2c2734a16da4719b1ec283dc2f7299e19c1e1d1b6c0d5ab4d4c73809",
+      "bytes": 323469
+    },
+    {
+      "nodeId": "onyxia-story-three-skull-trials",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-three-skull-trials.mp3",
+      "durationMs": 27350,
+      "sha256": "419ac124e20aed6d7e8d29e9e5aa16700c1f4fb9067a3308dca0cc7df906e6cb",
+      "transcriptSha256": "d92de0872aa9e77657e833fb8e53f6cc4896eae983113cd524dfe6706271d098",
+      "bytes": 329229
+    },
+    {
+      "nodeId": "onyxia-story-axtroz",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-axtroz.mp3",
+      "durationMs": 23925,
+      "sha256": "417cec240bf8c0fdc44ac709fc041194b87aa915a2a7ced856d9111ab10c6433",
+      "transcriptSha256": "65ceacb808a42e0e5821e19e9362e64fb47be22d0e2b76fcdfc53dd3c70616d5",
+      "bytes": 288045
+    },
+    {
+      "nodeId": "onyxia-story-horde-drakkisath",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-horde-drakkisath.mp3",
+      "durationMs": 24400,
+      "sha256": "1203f4c7ac532a8997d8b769114b6546df86b94f16d86669cfc1fb132e1b2831",
+      "transcriptSha256": "8310cad340fb144755cb28e2a43e918703c2548152f52e3149f2fcd382e04801",
+      "bytes": 293805
+    },
+    {
+      "nodeId": "onyxia-story-rexxars-amulet",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-rexxars-amulet.mp3",
+      "durationMs": 24950,
+      "sha256": "7cf2b6ffbb91f579991547fa81eec656cab24b0a04d065a6bc4adc7e5b9bb316",
+      "transcriptSha256": "f3a6370c742918c62af858dbf10c6eaaa422327f1694b00fcb36b8e7041ec543",
+      "bytes": 300429
+    },
+    {
+      "nodeId": "onyxia-story-onyxias-lair",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-onyxias-lair.mp3",
+      "durationMs": 30725,
+      "sha256": "0a553e177bbae4c0cdf39fb184bc68634d381c3ca0a276fd992a13a616b873c8",
+      "transcriptSha256": "00471fdeace16330144f38f7beba8665f0641fae7061e776067516af91459bb4",
+      "bytes": 369837
+    },
+    {
+      "nodeId": "onyxia-story-eitriggs-wisdom",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-eitriggs-wisdom.mp3",
+      "durationMs": 27000,
+      "sha256": "51b75170974fddbd36d698ae23ff73af27d2587c2371469f0f800750e68ddb67",
+      "transcriptSha256": "4fc64236c3c281f0b9608f7d3a8e515b4fed0ee90ef5b8fb3010cef343603f7c",
+      "bytes": 324909
     }
   ]
 }

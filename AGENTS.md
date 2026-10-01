@@ -47,6 +47,7 @@ The Black Empire is the first vertical slice, not a special case in the engine.
 - Keep research notes and publishable content separate.
 - The application must identify itself as an unofficial fan project.
 - Guided-tour narration should use an original mythic, Tolkien-esque chronicle voice: warm, elevated, landscape-conscious, and attentive to age, loss, consequence, and wonder. Never copy or closely imitate Tolkien's sentences, signature phrases, characters, or invented languages; source-backed Warcraft facts and explicit uncertainty remain the backbone of every passage.
+- When a story depicts a place shown in World of Warcraft, record the matching edition/build and preserve its recognizable in-game materials, palette, terrain, vegetation, skyline, and landmark shapes in original interpretive art. Review each scene against its game-area reference; for example, Stormwind Keep reads as pale or white stone with blue and gold details, not red-brown stone and red banners. Carry the build, traits, image path, and resemblance-review result into the story's asset ledger and reusable authoring templates.
 
 ## Data and file conventions
 

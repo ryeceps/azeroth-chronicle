@@ -1,0 +1,941 @@
+{
+  "guide": {
+    "id": "stormwind-onyxia-conspiracy-guide",
+    "eraId": "age-of-adventurers",
+    "title": "The Dragon in Stormwind",
+    "description": "Two faction-specific paths expose Onyxia and prepare separate adventurers for the original raid.",
+    "nodeIds": [
+      "onyxia-story-dragonkin-menace",
+      "onyxia-story-true-masters",
+      "onyxia-story-windsor-in-the-depths",
+      "onyxia-story-shred-of-hope",
+      "onyxia-story-jail-break",
+      "onyxia-story-stormwind-rendezvous",
+      "onyxia-story-great-masquerade",
+      "onyxia-story-dragons-eye",
+      "onyxia-story-alliance-drakefire-amulet",
+      "onyxia-story-warlords-command",
+      "onyxia-story-eitriggs-wisdom",
+      "onyxia-story-for-the-horde",
+      "onyxia-story-what-the-wind-carries",
+      "onyxia-story-champion-of-horde",
+      "onyxia-story-testament-to-rexxar",
+      "onyxia-story-emberstrife",
+      "onyxia-story-three-skull-trials",
+      "onyxia-story-axtroz",
+      "onyxia-story-horde-drakkisath",
+      "onyxia-story-rexxars-amulet",
+      "onyxia-story-onyxias-lair"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "onyxia-story-dragonkin-menace",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "A shadow over the Burning Steppes",
+      "narration": "In the Burning Steppes, black dragonkin gather beneath a sky troubled by ash. Their attacks turn a frontier alarm into a question about the reach of the black dragonflight. The Alliance investigation begins with scattered signs and grows toward the mountain that shelters them. The evidence points to a danger with a foothold beyond the wilds; it does not yet reveal the hand guiding Stormwind’s court.",
+      "durationMs": 53293,
+      "eventIds": [
+        "onyxia-dragonkin-menace-event"
+      ],
+      "entityIds": [
+        "alliance-adventurers"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-burning-steppes-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "onyxia-story-true-masters"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-dragonkin-menace.mp3",
+        "durationMs": 26350,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-true-masters",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "The court’s new voice",
+      "narration": "Reports from Redridge and the Burning Steppes carry the search into Stormwind. In the Keep, Bolvar Fordragon bears the kingdom’s regency while Countess Katrana Prestor speaks with unusual influence. To the investigators, the mystery is no longer only a nest of dragonkin: a trusted figure sits within the very hall they are trying to protect. The resemblance between rumor and conspiracy remains a question still to be proved.",
+      "durationMs": 54756,
+      "eventIds": [
+        "onyxia-true-masters-event"
+      ],
+      "entityIds": [
+        "alliance-adventurers",
+        "bolvar-fordragon",
+        "katrana-prestor"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-stormwind-keep-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-dragonkin-menace",
+      "nextNodeIds": [
+        "onyxia-story-windsor-in-the-depths"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-true-masters.mp3",
+        "durationMs": 29175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-windsor-in-the-depths",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "The marshal in Blackrock Depths",
+      "narration": "Deep in Blackrock Depths, Marshal Windsor has been held away from the court whose danger he understands. His account is not enough by itself to undo the power that silenced him. The adventurers find a soldier who has carried the truth through imprisonment, and a trail of evidence scattered through the fortress. The mountain’s iron rooms have become the place where a political mystery waits for its missing proof.",
+      "durationMs": 55488,
+      "eventIds": [
+        "onyxia-windsor-in-the-depths-event"
+      ],
+      "entityIds": [
+        "alliance-adventurers",
+        "marshal-windsor"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-blackrock-prison-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-true-masters",
+      "nextNodeIds": [
+        "onyxia-story-shred-of-hope"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-windsor-in-the-depths.mp3",
+        "durationMs": 26325,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-shred-of-hope",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "A shred of evidence",
+      "narration": "A crumpled note points toward the fragments Windsor needs. The search passes through the forge and deeper chambers of Blackrock Mountain, where small pieces of a document matter more than the strength of the gates. Recovered evidence gives Windsor grounds to leave his cell and face the city again. This is the work of a rescue and an investigation together: one carries the other back into the light.",
+      "durationMs": 54756,
+      "eventIds": [
+        "onyxia-shred-of-hope-event"
+      ],
+      "entityIds": [
+        "alliance-adventurers",
+        "marshal-windsor"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-blackrock-forge-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-windsor-in-the-depths",
+      "nextNodeIds": [
+        "onyxia-story-jail-break"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-shred-of-hope.mp3",
+        "durationMs": 25925,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-jail-break",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "The way out of the mountain",
+      "narration": "The escape from Blackrock Depths is hard won. Windsor leads the way through hostile halls while his rescuers hold open each turn in the passage. Stormwind cannot hear its witness while he remains beneath the mountain. When the group emerges, the marshal can return to the city and place what he knows before the people who must judge it.",
+      "durationMs": 48171,
+      "eventIds": [
+        "onyxia-jail-break-event"
+      ],
+      "entityIds": [
+        "alliance-adventurers",
+        "marshal-windsor"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-blackrock-prison-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-shred-of-hope",
+      "nextNodeIds": [
+        "onyxia-story-stormwind-rendezvous"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-jail-break.mp3",
+        "durationMs": 22600,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-stormwind-rendezvous",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "The marshal returns",
+      "narration": "Windsor comes back to Stormwind with the evidence gathered in Blackrock. The capital that once seemed distant from the frontier danger now becomes the stage for its reckoning. Bolvar receives the marshal’s return, and the city’s uneasy court gathers around the claim. The journey has changed the question: instead of asking whether the marshal can escape, the Alliance must decide whether it can hear him.",
+      "durationMs": 52561,
+      "eventIds": [
+        "onyxia-stormwind-rendezvous-event"
+      ],
+      "entityIds": [
+        "alliance-adventurers",
+        "marshal-windsor",
+        "bolvar-fordragon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-stormwind-keep-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-jail-break",
+      "nextNodeIds": [
+        "onyxia-story-great-masquerade"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-stormwind-rendezvous.mp3",
+        "durationMs": 26650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-great-masquerade",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "The Great Masquerade",
+      "narration": "Before the assembled court, Katrana Prestor’s disguise falls away. The woman who had stood near Stormwind’s seat of power is revealed as Onyxia, the black dragon whose agents troubled the frontier. Dragonkin answer her presence, and Bolvar stands against the assault as the adventurers fight to defend the Keep. The conspiracy is exposed, yet Onyxia escapes the city. Stormwind has found its hidden enemy, not ended the danger.",
+      "durationMs": 54756,
+      "eventIds": [
+        "onyxia-great-masquerade-event"
+      ],
+      "entityIds": [
+        "alliance-adventurers",
+        "bolvar-fordragon",
+        "katrana-prestor",
+        "onyxia"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-stormwind-keep-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-stormwind-rendezvous",
+      "nextNodeIds": [
+        "onyxia-story-dragons-eye"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-great-masquerade.mp3",
+        "durationMs": 28725,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-dragons-eye",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "A path to Haleh",
+      "narration": "From the capital, the road winds into blue-white winter and brings the adventurers to Haleh. The Dragon’s Eye is the token that opens her counsel, turning Stormwind’s revelation into preparation. She names the test that lies ahead: the blood of a mighty black dragon, taken high within Blackrock Spire. Frost will soon give way to furnace heat.",
+      "durationMs": 46707,
+      "eventIds": [
+        "onyxia-dragons-eye-event"
+      ],
+      "entityIds": [
+        "alliance-adventurers",
+        "haleh",
+        "dragon-eye-fragment"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-winterspring-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-great-masquerade",
+      "nextNodeIds": [
+        "onyxia-story-alliance-drakefire-amulet"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-dragons-eye.mp3",
+        "durationMs": 23900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-alliance-drakefire-amulet",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "Blood and the Drakefire Amulet",
+      "narration": "In Upper Blackrock Spire, the adventurers face General Drakkisath and bring his blood to Haleh. From that trial comes the Drakefire Amulet, a ward that allows its bearer to withstand Onyxia’s lair. The Alliance has gone from suspicion to exposure and now to preparation. The key is won; the descent into the dragon’s den waits ahead.",
+      "durationMs": 45976,
+      "eventIds": [
+        "onyxia-alliance-drakefire-amulet-event"
+      ],
+      "entityIds": [
+        "alliance-adventurers",
+        "general-drakkisath",
+        "drakefire-amulet"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-blackrock-spire-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-dragons-eye",
+      "nextNodeIds": [
+        "onyxia-story-warlords-command"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-alliance-drakefire-amulet.mp3",
+        "durationMs": 23975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-warlords-command",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "Orders from the Badlands",
+      "narration": "Far from Stormwind’s court, the Horde receives a separate summons in the Badlands. Orders point toward the stronghold of Blackrock Spire and the power held there. This path does not begin as an answer to Windsor’s investigation; it grows from Horde intelligence, leaders and obligations of its own. The same mountain appears on another horizon, where a different people must decide what its threat means.",
+      "durationMs": 52561,
+      "eventIds": [
+        "onyxia-warlords-command-event"
+      ],
+      "entityIds": [
+        "horde-adventurers"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-badlands-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-alliance-drakefire-amulet",
+      "nextNodeIds": [
+        "onyxia-story-eitriggs-wisdom"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-warlords-command.mp3",
+        "durationMs": 26625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-eitriggs-wisdom",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "The elder’s counsel",
+      "narration": "At Orgrimmar, Eitrigg’s counsel turns the reports into a charge for the Horde. The old veteran understands the danger gathering around Blackrock and sends the adventurers back toward the stronghold with a clearer purpose. The city’s red stone and timber frame a different kind of authority from Stormwind’s court: experience offered in service to the Horde. Its path leads next to a contest for Blackrock Spire.",
+      "durationMs": 53293,
+      "eventIds": [
+        "onyxia-eitriggs-wisdom-event"
+      ],
+      "entityIds": [
+        "horde-adventurers",
+        "eitrigg"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-orgrimmar-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-warlords-command",
+      "nextNodeIds": [
+        "onyxia-story-for-the-horde"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-eitriggs-wisdom.mp3",
+        "durationMs": 27000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-for-the-horde",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "A challenge in Blackrock Spire",
+      "narration": "The Horde’s orders bring the adventurers against Warchief Rend Blackhand in Blackrock Spire. His defeat and the proof carried away from it fulfill the charge entrusted to them. The mountain holds more than one danger, and the struggle with Rend belongs to the Horde’s own contest of power. It is a separate road from Windsor’s rescue, even as both paths approach the black dragon’s shadow.",
+      "durationMs": 52561,
+      "eventIds": [
+        "onyxia-for-the-horde-event"
+      ],
+      "entityIds": [
+        "horde-adventurers",
+        "warchief-rend-blackhand"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-blackrock-spire-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-eitriggs-wisdom",
+      "nextNodeIds": [
+        "onyxia-story-what-the-wind-carries"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-for-the-horde.mp3",
+        "durationMs": 26175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-what-the-wind-carries",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "Thrall’s account",
+      "narration": "At Orgrimmar, Thrall speaks of the danger and sends the search outward toward Rexxar. The Warchief’s words widen the matter into a concern for the Horde itself. The tale now leaves the city’s red stone and timber for the open country. Ahead lies a champion whose life at the edge of society has made him known across Kalimdor.",
+      "durationMs": 47439,
+      "eventIds": [
+        "onyxia-what-the-wind-carries-event"
+      ],
+      "entityIds": [
+        "horde-adventurers",
+        "thrall"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-orgrimmar-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-for-the-horde",
+      "nextNodeIds": [
+        "onyxia-story-champion-of-horde"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-what-the-wind-carries.mp3",
+        "durationMs": 22775,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-champion-of-horde",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "Finding Rexxar",
+      "narration": "Across Desolace, the adventurers seek Rexxar, a wandering champion of the Horde. His place between the wilds and settled life makes him the guide to a difficult next task. Here the great campaign narrows to a search for one champion moving through an immense, sparse land. Rexxar sets the terms for learning how an adventurer might pass the protections around Onyxia’s lair.",
+      "durationMs": 50366,
+      "eventIds": [
+        "onyxia-champion-of-horde-event"
+      ],
+      "entityIds": [
+        "horde-adventurers",
+        "rexxar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-desolace-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-what-the-wind-carries",
+      "nextNodeIds": [
+        "onyxia-story-testament-to-rexxar"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-champion-of-horde.mp3",
+        "durationMs": 24825,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-testament-to-rexxar",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "Myranda’s borrowed shape",
+      "narration": "Rexxar’s instruction leads to Myranda the Hag in the blighted Western Plaguelands. Her magic prepares a means of taking a dragon’s shape, a disguise needed for the work to come. It does not make the adventurers dragons or erase their purpose; it is a temporary tool for passing the watchers of the mountain. In the scarred land, the Horde’s road turns from finding an ally to testing a dangerous deception.",
+      "durationMs": 56220,
+      "eventIds": [
+        "onyxia-testament-to-rexxar-event"
+      ],
+      "entityIds": [
+        "horde-adventurers",
+        "myranda-the-hag",
+        "amulet-of-draconic-subversion"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-western-plaguelands-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-champion-of-horde",
+      "nextNodeIds": [
+        "onyxia-story-emberstrife"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-testament-to-rexxar.mp3",
+        "durationMs": 27575,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-emberstrife",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "The dragon who tests the mask",
+      "narration": "In the heat and dark water of Dustwallow Marsh, Emberstrife tests the forged appearance and sends the adventurers to claim dragon skulls from distant guardians. Three trials await beneath different skies, where the black dragonflight and its rivals still shape the wilds. Emberstrife will accept each skull as part of his demand; Myranda’s borrowed shape must hold until the passage is won.",
+      "durationMs": 50366,
+      "eventIds": [
+        "onyxia-emberstrife-event"
+      ],
+      "entityIds": [
+        "horde-adventurers",
+        "emberstrife",
+        "amulet-of-draconic-subversion"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-dustwallow-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-testament-to-rexxar",
+      "nextNodeIds": [
+        "onyxia-story-three-skull-trials"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-emberstrife.mp3",
+        "durationMs": 26875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-three-skull-trials",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "Three trials, three horizons",
+      "narration": "Three guardians stand in lands far apart: Chronalis beneath the Tanaris sun, Scryer amid Winterspring snow, and Somnus beneath the Swamp of Sorrows’ green canopy. Each place holds its own weather and color, and each dragon bears one part of the trial Emberstrife set. With the three skulls gathered, the Horde can complete his charge and carry Myranda’s borrowed shape toward the black dragon’s mountain.",
+      "durationMs": 52561,
+      "eventIds": [
+        "onyxia-three-skull-trials-event"
+      ],
+      "entityIds": [
+        "horde-adventurers",
+        "test-skull-dragons"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-skull-trials-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-emberstrife",
+      "nextNodeIds": [
+        "onyxia-story-axtroz"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-three-skull-trials.mp3",
+        "durationMs": 27350,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-axtroz",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "A final skull over the Wetlands",
+      "narration": "Axtroz waits amid the windswept Wetlands, where rain and low cloud soften the coast. This final dragon trial completes the tribute demanded by Emberstrife. Across Kalimdor’s distant shores and the Eastern Kingdoms, each challenge has brought the adventurers nearer to the mountain. Now their road turns back to Blackrock, where Drakkisath waits.",
+      "durationMs": 43049,
+      "eventIds": [
+        "onyxia-axtroz-event"
+      ],
+      "entityIds": [
+        "horde-adventurers",
+        "axtroz"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-wetlands-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-three-skull-trials",
+      "nextNodeIds": [
+        "onyxia-story-horde-drakkisath"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-axtroz.mp3",
+        "durationMs": 23925,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-horde-drakkisath",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "The blood of Drakkisath",
+      "narration": "The Horde returns to Upper Blackrock Spire to confront General Drakkisath. The blood taken from this powerful black dragon completes the trial Rexxar laid before them. The Alliance has passed through its own hands to reach Haleh; the Horde has followed its leaders and its own road. Their stories share a threshold, but each company bears a separate history.",
+      "durationMs": 48171,
+      "eventIds": [
+        "onyxia-horde-drakkisath-event"
+      ],
+      "entityIds": [
+        "horde-adventurers",
+        "general-drakkisath"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-blackrock-spire-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-axtroz",
+      "nextNodeIds": [
+        "onyxia-story-rexxars-amulet"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-horde-drakkisath.mp3",
+        "durationMs": 24400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-rexxars-amulet",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "Rexxar’s Drakefire Amulet",
+      "narration": "Back with Rexxar, the adventurers receive the Drakefire Amulet. The token bears the protection gathered from every trial and opens the way before them. The Horde has come to this gate by a road all its own: through intelligence, Eitrigg’s counsel, Thrall’s word, Rexxar’s charge and a dragon’s blood. At the mountain’s foot, that labor gives way to a final descent.",
+      "durationMs": 49634,
+      "eventIds": [
+        "onyxia-rexxars-amulet-event"
+      ],
+      "entityIds": [
+        "horde-adventurers",
+        "rexxar",
+        "drakefire-amulet"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-desolace-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-horde-drakkisath",
+      "nextNodeIds": [
+        "onyxia-story-onyxias-lair"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-rexxars-amulet.mp3",
+        "durationMs": 24950,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "onyxia-story-onyxias-lair",
+      "guideId": "stormwind-onyxia-conspiracy-guide",
+      "title": "Into the dragon’s lair",
+      "narration": "The Drakefire Amulet opens the way to Onyxia’s Lair, where a band of champions at last faces the black dragon herself. The road began differently for those who came from Stormwind and those who answered the Horde’s call; each company enters beneath its own banners. Fire shivers across the stone as Onyxia takes wing. The struggle reaches its summit in this original Classic account, though its nameless adventurers are remembered as a company, not a single chosen champion.",
+      "durationMs": 62073,
+      "eventIds": [
+        "onyxia-onyxias-lair-event"
+      ],
+      "entityIds": [
+        "horde-adventurers",
+        "onyxia",
+        "drakefire-amulet"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "onyxia-onyxia-lair-scene"
+        }
+      ],
+      "previousNodeId": "onyxia-story-rexxars-amulet",
+      "voiceover": {
+        "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-onyxias-lair.mp3",
+        "durationMs": 30725,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    }
+  ]
+}

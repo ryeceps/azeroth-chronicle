@@ -18,7 +18,11 @@
       "blizzard-pandaria-siege-orgrimmar",
       "blizzard-warlords-draenor-reveal",
       "blizzard-legion-now-live",
-      "blizzard-argus-shadows"
+      "blizzard-argus-shadows",
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki",
+      "story-onyxia-overview",
+      "onyxia-classic-raid"
     ],
     "contentStatus": "research"
   },
@@ -263,6 +267,26 @@
     "contentStatus": "research"
   },
   {
+    "id": "alliance-adventurers",
+    "type": "entity",
+    "name": "Alliance party",
+    "slug": "alliance-adventurers",
+    "path": "/factions/alliance-adventurers",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Alliance party, an interpretive group representing one viewpoint in a separate faction quest path.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki",
+      "story-onyxia-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "alliance-of-lordaeron",
     "type": "entity",
     "name": "The Alliance of Lordaeron",
@@ -320,6 +344,25 @@
     "description": "The first titan to awaken in the cited account, who crossed the Great Dark in search of others of his kind.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "amulet-of-draconic-subversion",
+    "type": "entity",
+    "name": "Amulet of Draconic Subversion",
+    "slug": "amulet-of-draconic-subversion",
+    "path": "/locations/amulet-of-draconic-subversion",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Amulet of Draconic Subversion, shown as an original interpretive object in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
     ],
     "contentStatus": "research"
   },
@@ -470,6 +513,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "axtroz",
+    "type": "entity",
+    "name": "Axtroz",
+    "slug": "axtroz",
+    "path": "/locations/axtroz",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Axtroz, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "azeroth-world-soul",
     "type": "entity",
     "name": "Azeroth's World-Soul",
@@ -606,6 +668,26 @@
     "description": "The mountain stronghold near which the Second War's leadership and momentum changed decisively.",
     "sourceIds": [
       "warcraft-chronicle-volume-2"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "bolvar-fordragon",
+    "type": "entity",
+    "name": "Bolvar Fordragon",
+    "slug": "bolvar-fordragon",
+    "path": "/locations/bolvar-fordragon",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Bolvar Fordragon, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki",
+      "story-onyxia-overview"
     ],
     "contentStatus": "research"
   },
@@ -883,6 +965,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "dragon-eye-fragment",
+    "type": "entity",
+    "name": "The Dragon’s Eye",
+    "slug": "dragon-eye-fragment",
+    "path": "/locations/dragon-eye-fragment",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "The Dragon’s Eye, shown as an original interpretive object in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "dragon-isles",
     "type": "entity",
     "name": "The Dragon Isles",
@@ -960,6 +1061,27 @@
     "contentStatus": "research"
   },
   {
+    "id": "drakefire-amulet",
+    "type": "entity",
+    "name": "Drakefire Amulet",
+    "slug": "drakefire-amulet",
+    "path": "/locations/drakefire-amulet",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Drakefire Amulet, shown as an original interpretive object in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki",
+      "onyxia-classic-raid",
+      "story-onyxia-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "durotan",
     "type": "entity",
     "name": "Durotan",
@@ -1021,6 +1143,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "eitrigg",
+    "type": "entity",
+    "name": "Eitrigg",
+    "slug": "eitrigg",
+    "path": "/locations/eitrigg",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Eitrigg, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "elemental-hosts",
     "type": "entity",
     "name": "The Elemental Hosts",
@@ -1036,6 +1177,25 @@
     "description": "The innumerable air, fire, earth, and water spirits led by Azeroth's four Elemental Lords.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "emberstrife",
+    "type": "entity",
+    "name": "Emberstrife",
+    "slug": "emberstrife",
+    "path": "/locations/emberstrife",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Emberstrife, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
     ],
     "contentStatus": "research"
   },
@@ -1177,6 +1337,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "general-drakkisath",
+    "type": "entity",
+    "name": "General Drakkisath",
+    "slug": "general-drakkisath",
+    "path": "/locations/general-drakkisath",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "General Drakkisath, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "great-dark-beyond",
     "type": "entity",
     "name": "The Great Dark Beyond",
@@ -1256,6 +1435,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "haleh",
+    "type": "entity",
+    "name": "Haleh",
+    "slug": "haleh",
+    "path": "/locations/haleh",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Haleh, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "highborne-exiles",
     "type": "entity",
     "name": "The Highborne Exiles",
@@ -1293,6 +1491,27 @@
     "sourceIds": [
       "warcraft-chronicle-volume-1",
       "blizzard-well-of-eternity-preview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "horde-adventurers",
+    "type": "entity",
+    "name": "Horde party",
+    "slug": "horde-adventurers",
+    "path": "/factions/horde-adventurers",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Horde party, an interpretive group representing one viewpoint in a separate faction quest path.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki",
+      "onyxia-classic-raid",
+      "story-onyxia-overview"
     ],
     "contentStatus": "research"
   },
@@ -1512,6 +1731,26 @@
     "description": "The ethereals’ damaged homeworld, shown as a relational offworld field during the Dimensius crisis.",
     "sourceIds": [
       "blizzard-ghosts-karesh-timeline"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "katrana-prestor",
+    "type": "entity",
+    "name": "Katrana Prestor",
+    "slug": "katrana-prestor",
+    "path": "/locations/katrana-prestor",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Katrana Prestor, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki",
+      "story-onyxia-overview"
     ],
     "contentStatus": "research"
   },
@@ -1786,6 +2025,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "marshal-windsor",
+    "type": "entity",
+    "name": "Marshal Windsor",
+    "slug": "marshal-windsor",
+    "path": "/locations/marshal-windsor",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Marshal Windsor, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "maws",
     "type": "entity",
     "name": "Maws",
@@ -1862,6 +2120,25 @@
       "warcraft-chronicle-volume-1",
       "warcraft-chronicle-volume-3",
       "blizzard-mount-hyjal-history"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "myranda-the-hag",
+    "type": "entity",
+    "name": "Myranda the Hag",
+    "slug": "myranda-the-hag",
+    "path": "/locations/myranda-the-hag",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Myranda the Hag, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
     ],
     "contentStatus": "research"
   },
@@ -2131,6 +2408,27 @@
     "contentStatus": "research"
   },
   {
+    "id": "onyxia",
+    "type": "entity",
+    "name": "Onyxia",
+    "slug": "onyxia",
+    "path": "/locations/onyxia",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Onyxia, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki",
+      "story-onyxia-overview",
+      "onyxia-classic-raid"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "orc-clans-draenor",
     "type": "entity",
     "name": "The Orc Clans of Draenor",
@@ -2307,6 +2605,25 @@
     "description": "The Elemental Lord of fire, characterized by direct, destructive force against his rivals.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "rexxar",
+    "type": "entity",
+    "name": "Rexxar",
+    "slug": "rexxar",
+    "path": "/locations/rexxar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Rexxar, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
     ],
     "contentStatus": "research"
   },
@@ -2591,6 +2908,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "test-skull-dragons",
+    "type": "entity",
+    "name": "Dragon trials",
+    "slug": "test-skull-dragons",
+    "path": "/factions/test-skull-dragons",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Dragon trials, an interpretive group representing one viewpoint in a separate faction quest path.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "thaurissan-city-ancient",
     "type": "entity",
     "name": "Thaurissan",
@@ -2667,7 +3003,9 @@
     "sourceIds": [
       "warcraft-chronicle-volume-3",
       "blizzard-warcraft-iii-story-so-far",
-      "blizzard-mount-hyjal-history"
+      "blizzard-mount-hyjal-history",
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
     ],
     "contentStatus": "research"
   },
@@ -2826,6 +3164,25 @@
     "description": "Shadow-aligned beings who sought to corrupt a world-soul but could not directly manifest their full power in the physical universe.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "warchief-rend-blackhand",
+    "type": "entity",
+    "name": "Warchief Rend Blackhand",
+    "slug": "warchief-rend-blackhand",
+    "path": "/locations/warchief-rend-blackhand",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "onyxia-story",
+      "interpretive-art"
+    ],
+    "description": "Warchief Rend Blackhand, represented in the Onyxia research story.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
     ],
     "contentStatus": "research"
   },
@@ -3945,6 +4302,343 @@
     "description": "The Void Lords made the Old Gods and cast them through the Great Dark, hoping that some would find and corrupt a world-soul.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-alliance-drakefire-amulet-event",
+    "type": "event",
+    "name": "Blood and the Drakefire Amulet",
+    "slug": "onyxia-alliance-drakefire-amulet",
+    "path": "/events/onyxia-alliance-drakefire-amulet",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "In Upper Blackrock Spire, the adventurers face General Drakkisath and bring his blood to Haleh. From that trial comes the Drakefire Amulet, a ward that allows its bearer to withstand Onyxia’s lair. The Alliance has gone from suspicion to exposure and now to preparation. The key is won; the descent into the dragon’s den waits ahead.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-axtroz-event",
+    "type": "event",
+    "name": "A final skull over the Wetlands",
+    "slug": "onyxia-axtroz",
+    "path": "/events/onyxia-axtroz",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Axtroz waits amid the windswept Wetlands, where rain and low cloud soften the coast. This final dragon trial completes the tribute demanded by Emberstrife. Across Kalimdor’s distant shores and the Eastern Kingdoms, each challenge has brought the adventurers nearer to the mountain. Now their road turns back to Blackrock, where Drakkisath waits.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-champion-of-horde-event",
+    "type": "event",
+    "name": "Finding Rexxar",
+    "slug": "onyxia-champion-of-horde",
+    "path": "/events/onyxia-champion-of-horde",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Across Desolace, the adventurers seek Rexxar, a wandering champion of the Horde. His place between the wilds and settled life makes him the guide to a difficult next task. Here the great campaign narrows to a search for one champion moving through an immense, sparse land. Rexxar sets the terms for learning how an adventurer might pass the protections around Onyxia’s lair.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-dragonkin-menace-event",
+    "type": "event",
+    "name": "A shadow over the Burning Steppes",
+    "slug": "onyxia-dragonkin-menace",
+    "path": "/events/onyxia-dragonkin-menace",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "In the Burning Steppes, black dragonkin gather beneath a sky troubled by ash. Their attacks turn a frontier alarm into a question about the reach of the black dragonflight. The Alliance investigation begins with scattered signs and grows toward the mountain that shelters them. The evidence points to a danger with a foothold beyond the wilds; it does not yet reveal the hand guiding Stormwind’s court.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-dragons-eye-event",
+    "type": "event",
+    "name": "A path to Haleh",
+    "slug": "onyxia-dragons-eye",
+    "path": "/events/onyxia-dragons-eye",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "From the capital, the road winds into blue-white winter and brings the adventurers to Haleh. The Dragon’s Eye is the token that opens her counsel, turning Stormwind’s revelation into preparation. She names the test that lies ahead: the blood of a mighty black dragon, taken high within Blackrock Spire. Frost will soon give way to furnace heat.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-eitriggs-wisdom-event",
+    "type": "event",
+    "name": "The elder’s counsel",
+    "slug": "onyxia-eitriggs-wisdom",
+    "path": "/events/onyxia-eitriggs-wisdom",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At Orgrimmar, Eitrigg’s counsel turns the reports into a charge for the Horde. The old veteran understands the danger gathering around Blackrock and sends the adventurers back toward the stronghold with a clearer purpose. The city’s red stone and timber frame a different kind of authority from Stormwind’s court: experience offered in service to the Horde. Its path leads next to a contest for Blackrock Spire.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-emberstrife-event",
+    "type": "event",
+    "name": "The dragon who tests the mask",
+    "slug": "onyxia-emberstrife",
+    "path": "/events/onyxia-emberstrife",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "In the heat and dark water of Dustwallow Marsh, Emberstrife tests the forged appearance and sends the adventurers to claim dragon skulls from distant guardians. Three trials await beneath different skies, where the black dragonflight and its rivals still shape the wilds. Emberstrife will accept each skull as part of his demand; Myranda’s borrowed shape must hold until the passage is won.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-for-the-horde-event",
+    "type": "event",
+    "name": "A challenge in Blackrock Spire",
+    "slug": "onyxia-for-the-horde",
+    "path": "/events/onyxia-for-the-horde",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Horde’s orders bring the adventurers against Warchief Rend Blackhand in Blackrock Spire. His defeat and the proof carried away from it fulfill the charge entrusted to them. The mountain holds more than one danger, and the struggle with Rend belongs to the Horde’s own contest of power. It is a separate road from Windsor’s rescue, even as both paths approach the black dragon’s shadow.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-great-masquerade-event",
+    "type": "event",
+    "name": "The Great Masquerade",
+    "slug": "onyxia-great-masquerade",
+    "path": "/events/onyxia-great-masquerade",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Before the assembled court, Katrana Prestor’s disguise falls away. The woman who had stood near Stormwind’s seat of power is revealed as Onyxia, the black dragon whose agents troubled the frontier. Dragonkin answer her presence, and Bolvar stands against the assault as the adventurers fight to defend the Keep. The conspiracy is exposed, yet Onyxia escapes the city. Stormwind has found its hidden enemy, not ended the danger.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki",
+      "story-onyxia-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-horde-drakkisath-event",
+    "type": "event",
+    "name": "The blood of Drakkisath",
+    "slug": "onyxia-horde-drakkisath",
+    "path": "/events/onyxia-horde-drakkisath",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Horde returns to Upper Blackrock Spire to confront General Drakkisath. The blood taken from this powerful black dragon completes the trial Rexxar laid before them. The Alliance has passed through its own hands to reach Haleh; the Horde has followed its leaders and its own road. Their stories share a threshold, but each company bears a separate history.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-jail-break-event",
+    "type": "event",
+    "name": "The way out of the mountain",
+    "slug": "onyxia-jail-break",
+    "path": "/events/onyxia-jail-break",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The escape from Blackrock Depths is hard won. Windsor leads the way through hostile halls while his rescuers hold open each turn in the passage. Stormwind cannot hear its witness while he remains beneath the mountain. When the group emerges, the marshal can return to the city and place what he knows before the people who must judge it.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-onyxias-lair-event",
+    "type": "event",
+    "name": "Into the dragon’s lair",
+    "slug": "onyxia-onyxias-lair",
+    "path": "/events/onyxia-onyxias-lair",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Drakefire Amulet opens the way to Onyxia’s Lair, where a band of champions at last faces the black dragon herself. The road began differently for those who came from Stormwind and those who answered the Horde’s call; each company enters beneath its own banners. Fire shivers across the stone as Onyxia takes wing. The struggle reaches its summit in this original Classic account, though its nameless adventurers are remembered as a company, not a single chosen champion.",
+    "sourceIds": [
+      "onyxia-classic-raid",
+      "story-onyxia-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-rexxars-amulet-event",
+    "type": "event",
+    "name": "Rexxar’s Drakefire Amulet",
+    "slug": "onyxia-rexxars-amulet",
+    "path": "/events/onyxia-rexxars-amulet",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Back with Rexxar, the adventurers receive the Drakefire Amulet. The token bears the protection gathered from every trial and opens the way before them. The Horde has come to this gate by a road all its own: through intelligence, Eitrigg’s counsel, Thrall’s word, Rexxar’s charge and a dragon’s blood. At the mountain’s foot, that labor gives way to a final descent.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-shred-of-hope-event",
+    "type": "event",
+    "name": "A shred of evidence",
+    "slug": "onyxia-shred-of-hope",
+    "path": "/events/onyxia-shred-of-hope",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "A crumpled note points toward the fragments Windsor needs. The search passes through the forge and deeper chambers of Blackrock Mountain, where small pieces of a document matter more than the strength of the gates. Recovered evidence gives Windsor grounds to leave his cell and face the city again. This is the work of a rescue and an investigation together: one carries the other back into the light.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-stormwind-rendezvous-event",
+    "type": "event",
+    "name": "The marshal returns",
+    "slug": "onyxia-stormwind-rendezvous",
+    "path": "/events/onyxia-stormwind-rendezvous",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Windsor comes back to Stormwind with the evidence gathered in Blackrock. The capital that once seemed distant from the frontier danger now becomes the stage for its reckoning. Bolvar receives the marshal’s return, and the city’s uneasy court gathers around the claim. The journey has changed the question: instead of asking whether the marshal can escape, the Alliance must decide whether it can hear him.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-testament-to-rexxar-event",
+    "type": "event",
+    "name": "Myranda’s borrowed shape",
+    "slug": "onyxia-testament-to-rexxar",
+    "path": "/events/onyxia-testament-to-rexxar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Rexxar’s instruction leads to Myranda the Hag in the blighted Western Plaguelands. Her magic prepares a means of taking a dragon’s shape, a disguise needed for the work to come. It does not make the adventurers dragons or erase their purpose; it is a temporary tool for passing the watchers of the mountain. In the scarred land, the Horde’s road turns from finding an ally to testing a dangerous deception.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-three-skull-trials-event",
+    "type": "event",
+    "name": "Three trials, three horizons",
+    "slug": "onyxia-three-skull-trials",
+    "path": "/events/onyxia-three-skull-trials",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Three guardians stand in lands far apart: Chronalis beneath the Tanaris sun, Scryer amid Winterspring snow, and Somnus beneath the Swamp of Sorrows’ green canopy. Each place holds its own weather and color, and each dragon bears one part of the trial Emberstrife set. With the three skulls gathered, the Horde can complete his charge and carry Myranda’s borrowed shape toward the black dragon’s mountain.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-true-masters-event",
+    "type": "event",
+    "name": "The court’s new voice",
+    "slug": "onyxia-true-masters",
+    "path": "/events/onyxia-true-masters",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Reports from Redridge and the Burning Steppes carry the search into Stormwind. In the Keep, Bolvar Fordragon bears the kingdom’s regency while Countess Katrana Prestor speaks with unusual influence. To the investigators, the mystery is no longer only a nest of dragonkin: a trusted figure sits within the very hall they are trying to protect. The resemblance between rumor and conspiracy remains a question still to be proved.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-warlords-command-event",
+    "type": "event",
+    "name": "Orders from the Badlands",
+    "slug": "onyxia-warlords-command",
+    "path": "/events/onyxia-warlords-command",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Far from Stormwind’s court, the Horde receives a separate summons in the Badlands. Orders point toward the stronghold of Blackrock Spire and the power held there. This path does not begin as an answer to Windsor’s investigation; it grows from Horde intelligence, leaders and obligations of its own. The same mountain appears on another horizon, where a different people must decide what its threat means.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-what-the-wind-carries-event",
+    "type": "event",
+    "name": "Thrall’s account",
+    "slug": "onyxia-what-the-wind-carries",
+    "path": "/events/onyxia-what-the-wind-carries",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At Orgrimmar, Thrall speaks of the danger and sends the search outward toward Rexxar. The Warchief’s words widen the matter into a concern for the Horde itself. The tale now leaves the city’s red stone and timber for the open country. Ahead lies a champion whose life at the edge of society has made him known across Kalimdor.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "onyxia-windsor-in-the-depths-event",
+    "type": "event",
+    "name": "The marshal in Blackrock Depths",
+    "slug": "onyxia-windsor-in-the-depths",
+    "path": "/events/onyxia-windsor-in-the-depths",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Deep in Blackrock Depths, Marshal Windsor has been held away from the court whose danger he understands. His account is not enough by itself to undo the power that silenced him. The adventurers find a soldier who has carried the truth through imprisonment, and a trail of evidence scattered through the fortress. The mountain’s iron rooms have become the place where a political mystery waits for its missing proof.",
+    "sourceIds": [
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki"
     ],
     "contentStatus": "research"
   },
@@ -5537,9 +6231,12 @@
     ],
     "aliases": [],
     "tags": [],
-    "description": "Onyxia's hidden influence in Stormwind leads from political paralysis to Marshal Windsor's investigation and a dragon's exposure.",
+    "description": "A conspiracy reaches from the Burning Steppes into Stormwind’s court while a separate Horde intelligence path follows Rexxar toward Onyxia’s lair.",
     "sourceIds": [
-      "story-onyxia-overview"
+      "onyxia-classic-attunement",
+      "onyxia-attunement-wiki",
+      "story-onyxia-overview",
+      "onyxia-classic-raid"
     ],
     "contentStatus": "research"
   },
