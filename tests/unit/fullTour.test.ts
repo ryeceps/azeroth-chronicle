@@ -34,9 +34,10 @@ describe('separate era and story tours', () => {
       'stormwind-onyxia-conspiracy',
       'scepter-of-the-shifting-sands',
       'dungeon-set-two-veiled-blade',
+      'fallen-hero-and-rakhlikh',
       'karazhan-masters-key-and-nightbane',
     ]);
-    expect(stops.length).toBe(21 + 22 + 22 + 18);
+    expect(stops.length).toBe(21 + 22 + 22 + 15 + 18);
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('play=all');
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('collection=classic-to-wrath');
     expect(storyTourStoryUrl(tour, stops[0]!)).toContain('play=story');

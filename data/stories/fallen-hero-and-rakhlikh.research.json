@@ -1,0 +1,719 @@
+{
+  "guide": {
+    "id": "fallen-hero-and-rakhlikh-guide",
+    "eraId": "age-of-adventurers",
+    "title": "The Fallen Hero and Rakh’likh",
+    "description": "A 15-scene Classic research chronicle follows two faction introductions to Trebor’s testimony, the release of his bound soldiers, the hunt for a demon’s true name and the forged weapon used to confront Razelikh.",
+    "nodeIds": [
+      "fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero",
+      "fallen-hero-and-rakhlikh-story-bengor-and-the-orders",
+      "fallen-hero-and-rakhlikh-story-trebors-testimony",
+      "fallen-hero-and-rakhlikh-story-stones-that-bind",
+      "fallen-hero-and-rakhlikh-story-the-souls-rest",
+      "fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil",
+      "fallen-hero-and-rakhlikh-story-kiriths-amulet-clue",
+      "fallen-hero-and-rakhlikh-story-loramus-in-azshara",
+      "fallen-hero-and-rakhlikh-story-name-of-the-beast",
+      "fallen-hero-and-rakhlikh-story-azsharite-for-felbane",
+      "fallen-hero-and-rakhlikh-story-galvans-felbane-forge",
+      "fallen-hero-and-rakhlikh-story-return-to-blasted-lands",
+      "fallen-hero-and-rakhlikh-story-the-three-lieutenants",
+      "fallen-hero-and-rakhlikh-story-summoning-rakhlikh",
+      "fallen-hero-and-rakhlikh-story-horn-and-ward"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Two roads to the Fallen Hero",
+      "narration": "The Blasted Lands are a country of exposed earth and old ruin, where Trebor’s defeat still has living consequences. Classic gives his story two introductions. The Alliance quest approaches him through a plea for common action against the Legion; the Horde chain follows lost orders and a courier’s report. These are separate faction paths, not one traveler’s shared itinerary. They meet at Trebor, whose concern has outlasted his own life: the soldiers he could not save.",
+      "durationMs": 60500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-two-roads-to-the-fallen-hero-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-bengor-and-the-orders"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero.mp3",
+        "durationMs": 30075,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-bengor-and-the-orders",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Bengor brings the lost orders",
+      "narration": "In the Horde telling, Bengor is found wounded in the Swamp of Sorrows. He reports that the dispatch was ambushed and the Warchief’s orders lost. His testimony brings the seeker to Trebor and gives the campaign a practical beginning: before the old soldier can speak of his shame, the missing command must be recovered. The chain does not turn the Alliance introduction into the same journey; it offers another way to reach the shared wound.",
+      "durationMs": 60000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-bengor-and-the-orders-event"
+      ],
+      "entityIds": [
+        "bengor",
+        "warchief-orders"
+      ],
+      "locationIds": [
+        "swamp-of-sorrows-stonard"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-swamp-border-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-trebors-testimony"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-bengor-and-the-orders.mp3",
+        "durationMs": 28075,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-trebors-testimony",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Trebor’s tale of sorrow",
+      "narration": "Trebor recounts failure in battle, then a return to the Blasted Lands to rescue the men left behind. The account is one of defeat and obligation: he could not leave the captured soldiers to their torment. The reproduced Horde dialogue speaks of nineteen of his men, while the binding-stone objective counts eighteen bound servants. These are kept as two source details in tension. The surviving evidence does not resolve the difference.",
+      "durationMs": 57000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-trebors-testimony-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-bengor-and-the-orders",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-stones-that-bind"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-trebors-testimony.mp3",
+        "durationMs": 28775,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-stones-that-bind",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "The stones that bind them",
+      "narration": "The quest objective names eighteen bound servants: nine held by Razelikh and three each by Sevine, Allistarj and Grol. Their binding is represented by stones spread across the region, with no exact placement claimed here. The quest asks the seeker to break the hold upon them. In the exposed red earth, Trebor’s old loss becomes more than a memory: it becomes a task that can still release those who suffered under his command.",
+      "durationMs": 58500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-stones-that-bind-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero",
+        "bound-soldiers",
+        "binding-stone"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-trebors-testimony",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-the-souls-rest"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-stones-that-bind.mp3",
+        "durationMs": 28975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-the-souls-rest",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "The spirits may rest",
+      "narration": "When the binding stones are broken, the completion text says the tortured souls can rest. It gives Trebor the mercy he had sought for his soldiers, though the count remains unsettled by the separate nineteen-men line. The story pauses over that release without supplying names for the dead or turning each stone into a separate battle. A long burden has eased; the power behind the chains still stands.",
+      "durationMs": 55000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-the-souls-rest-event"
+      ],
+      "entityIds": [
+        "bound-soldiers",
+        "trebor-fallen-hero",
+        "binding-stone"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-stones-that-bind",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-the-souls-rest.mp3",
+        "durationMs": 26600,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Kirith at Serpent’s Coil",
+      "narration": "The quest turns toward Serpent’s Coil, where Kirith the Damned bars the way. The setting changes from open badlands to a low cave mouth on the coast. There the adventurer defeats the demon and the chain yields a new account through Kirith’s spirit. The art presents the beast in a broad, readable silhouette; it is not a reconstruction of the cave’s exact layout or proof of details absent from the quest record.",
+      "durationMs": 57500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-kirith-at-serpents-coil-event"
+      ],
+      "entityIds": [
+        "kirith-damned"
+      ],
+      "locationIds": [
+        "serpents-coil"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-serpents-coil-cave-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-the-souls-rest",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-kiriths-amulet-clue"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil.mp3",
+        "durationMs": 28125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-kiriths-amulet-clue",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "The amulet has three pieces",
+      "narration": "Kirith’s spirit explains the next obstacle: Razelikh cannot be reached until the shattered amulet is made whole. Its three pieces are held by the demon’s lieutenants. The quest dialogue supplies the clue, not a new claim about Kirith’s final fate. The fragments now give the scattered work a shape. Trebor’s grievance can be answered only by confronting the power behind the bindings, and the seeker needs both knowledge and a weapon for that meeting.",
+      "durationMs": 59000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-kiriths-amulet-clue-event"
+      ],
+      "entityIds": [
+        "kirith-spirit",
+        "shattered-amulet"
+      ],
+      "locationIds": [
+        "serpents-coil"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-serpents-coil-cave-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-kirith-at-serpents-coil",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-loramus-in-azshara"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-kiriths-amulet-clue.mp3",
+        "durationMs": 28425,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-loramus-in-azshara",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Loramus and the demon hunter’s counsel",
+      "narration": "The chain reaches Loramus Thalipedes on Azshara’s cold eastern shore. In the Classic quest account, the demon hunter helps direct the work that lies ahead: learn the demon’s true name and prepare a means to challenge him. The coast is broad and wind-cut, a different world from the Blasted Lands’ dry scar. This telling uses Loramus’s Classic-era counsel only; later retellings of his story do not replace what this quest chain records.",
+      "durationMs": 57500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-loramus-in-azshara-event"
+      ],
+      "entityIds": [
+        "loramus-thalipedes"
+      ],
+      "locationIds": [
+        "azshara-coast"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-azshara-coast-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-kiriths-amulet-clue",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-name-of-the-beast"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-loramus-in-azshara.mp3",
+        "durationMs": 29800,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-name-of-the-beast",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "The name behind the title",
+      "narration": "The search crosses Azshara’s pale coastal ruins, where the quest steps call for Hetaera’s blood and seek Lord Arkkoroc’s knowledge. The demon known as Razelikh the Defiler bears a truer name: Rakh’likh. That distinction is the chain’s discovery. Here, the old temple stone and blue water frame a hunt for usable knowledge, not a claim that every step took place in one room or followed an exact route along the coast.",
+      "durationMs": 57000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-name-of-the-beast-event"
+      ],
+      "entityIds": [
+        "hetaera",
+        "lord-arkkoroc"
+      ],
+      "locationIds": [
+        "temple-of-arkkoran"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-temple-of-arkkoran-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-loramus-in-azshara",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-azsharite-for-felbane"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-name-of-the-beast.mp3",
+        "durationMs": 28325,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-azsharite-for-felbane",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Azsharite for the weapon",
+      "narration": "A name alone cannot break Razelikh’s hold. The chain next calls for azsharite, a material gathered in Azshara and brought into the weapon-making task. The quest’s collection condition is not retold as a count or a single dramatic excavation. What changes is the preparation: the hunt has found its target, and the seeker now carries material chosen for the Felbane armament that will make the final confrontation possible.",
+      "durationMs": 55000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-azsharite-for-felbane-event"
+      ],
+      "entityIds": [
+        "loramus-thalipedes",
+        "felbane-weaponry"
+      ],
+      "locationIds": [
+        "azshara-coast"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-azsharite-peninsula-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-name-of-the-beast",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-galvans-felbane-forge"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-azsharite-for-felbane.mp3",
+        "durationMs": 29250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-galvans-felbane-forge",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Felbane takes shape",
+      "narration": "At Galvan’s camp in inland Stranglethorn, the material becomes Felbane weaponry. The green canopy, hanging vines and warm air make the setting recognizably different from Azshara’s coast; this is no harbor scene at Booty Bay. Galvan’s part is the transformation of gathered material into a prepared weapon. The records support the chain’s order and purpose, while the exact craft process and selectable weapon form remain matters for comparison with the Classic client.",
+      "durationMs": 57500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-galvans-felbane-forge-event"
+      ],
+      "entityIds": [
+        "galvan-ancient",
+        "felbane-weaponry"
+      ],
+      "locationIds": [
+        "stranglethorn-vale-camp"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-stranglethorn-forge-camp-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-azsharite-for-felbane",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-return-to-blasted-lands"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-galvans-felbane-forge.mp3",
+        "durationMs": 30900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-return-to-blasted-lands",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Return with the forged weapons",
+      "narration": "The quest line turns back to Trebor with the weapon prepared and the amulet’s scattered fragments to unite. This is an editorial journey through quest destinations, not a drawn route: its tasks name the regions but do not document each road taken. The exposed Blasted Lands return as the place where old bonds and new preparations converge. The demon’s title, the weapon and the amulet are now part of one effort to reach the Rise.",
+      "durationMs": 60000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-return-to-blasted-lands-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero",
+        "felbane-weaponry",
+        "shattered-amulet"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-galvans-felbane-forge",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-the-three-lieutenants"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-return-to-blasted-lands.mp3",
+        "durationMs": 29050,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-the-three-lieutenants",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "Three lieutenants, three fragments",
+      "narration": "The remaining amulet pieces come from Razelikh’s lieutenants: Allistarj, Sevine and Grol. Their encounters are separate, not one gathering in a field. In the tour they form a deliberate triptych, a memorial arrangement of three independent confrontations. When the fragments are brought together, the amulet is whole. Its completion opens the way that Kirith described, though the precise order of lieutenant encounters is not treated as a historical sequence beyond the quest dependency.",
+      "durationMs": 58500,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-the-three-lieutenants-event"
+      ],
+      "entityIds": [
+        "archmage-allistarj",
+        "lady-sevine",
+        "grol-destroyer",
+        "completed-amulet"
+      ],
+      "locationIds": [
+        "blasted-lands"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-blasted-binding-field-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-return-to-blasted-lands",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-summoning-rakhlikh"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-the-three-lieutenants.mp3",
+        "durationMs": 31925,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-summoning-rakhlikh",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "At the Rise of the Defiler",
+      "narration": "At the Rise of the Defiler, the united amulet lets the seeker bring the demon into the final contest. The known title falls away before the true name: Razelikh is Rakh’likh. Trebor’s old appeal has led here, from the souls once bound by the demon’s servants to a challenge against their master. The quests frame the meeting as a dangerous group confrontation but give no fixed battle formation. At the Rise, every preparation finds its purpose against the master whose servants once held Trebor’s soldiers.",
+      "durationMs": 67000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-summoning-rakhlikh-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero",
+        "razelikh-defiler",
+        "completed-amulet",
+        "felbane-weaponry"
+      ],
+      "locationIds": [
+        "rise-of-defiler"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-rise-of-defiler-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-the-three-lieutenants",
+      "nextNodeIds": [
+        "fallen-hero-and-rakhlikh-story-horn-and-ward"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-summoning-rakhlikh.mp3",
+        "durationMs": 26975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "fallen-hero-and-rakhlikh-story-horn-and-ward",
+      "guideId": "fallen-hero-and-rakhlikh-guide",
+      "title": "A sign of hope, and an unfinished charge",
+      "narration": "The final quest records Razelikh’s defeat and asks that his horn be returned to Trebor as a sign of hope. It also asks for the Ward of the Defiler so Trebor can destroy it. The request is clear; the destruction itself is not shown as a completed event in the evidence used here. Trebor’s story reaches a hard-won answer for the bound souls and the demon who held them. It does not record the fall of the Burning Legion, or every fate within its reach.",
+      "durationMs": 67000,
+      "eventIds": [
+        "fallen-hero-and-rakhlikh-horn-and-ward-event"
+      ],
+      "entityIds": [
+        "trebor-fallen-hero",
+        "razelikh-defiler",
+        "severed-horn",
+        "ward-of-defiler"
+      ],
+      "locationIds": [
+        "rise-of-defiler"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "fallen-hero-and-rakhlikh-rise-of-defiler-scene"
+        }
+      ],
+      "previousNodeId": "fallen-hero-and-rakhlikh-story-summoning-rakhlikh",
+      "voiceover": {
+        "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-horn-and-ward.mp3",
+        "durationMs": 30700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    }
+  ]
+}

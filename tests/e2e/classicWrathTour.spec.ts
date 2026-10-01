@@ -12,18 +12,20 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const viewport = page.viewportSize()!;
   const mapFrameBounds = await page.locator('.story-tour-map-frame').boundingBox();
   expect(mapFrameBounds).toMatchObject({ x: 0, y: 0, width: viewport.width, height: viewport.height });
-  await expect(page.locator('.story-tour-dot')).toHaveCount(6);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(7);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
 
   const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
   const scepter = page.getByRole('button', { name: /scepter-of-the-shifting-sands|Scepter/i });
   const dungeonSetTwo = page.getByRole('button', { name: /dungeon-set-two-veiled-blade|Veiled Blade/i });
+  const fallenHero = page.getByRole('button', { name: /fallen-hero-and-rakhlikh|Fallen Hero/i });
   const karazhan = page.getByRole('button', { name: /karazhan-masters-key-and-nightbane|Master’s Key and Nightbane/i });
   const outland = page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i });
   const northrend = page.getByRole('button', { name: /wrathgate-and-undercity|Wrathgate/i });
   await expect(onyxia).toBeVisible();
   await expect(scepter).toBeVisible();
   await expect(dungeonSetTwo).toBeVisible();
+  await expect(fallenHero).toBeVisible();
   await expect(karazhan).toBeVisible();
   await expect(outland).toBeVisible();
   await expect(northrend).toBeVisible();
@@ -66,6 +68,20 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   }).toEqual(['story-tour', 'classic-to-wrath', 'karazhan-masters-key-and-nightbane', 'story']);
 
   await page.goto('/tours/classic-to-wrath');
+  await fallenHero.hover();
+  const fallenHeroCard = page.locator('#story-tour-tip-fallen-hero-and-rakhlikh');
+  await expect(fallenHeroCard.getByRole('heading', { name: 'The Fallen Hero and Rakh’likh' })).toBeVisible();
+  await expect(fallenHeroCard).toContainText('Playable story');
+  await page.screenshot({ path: 'output/fallen-hero-tour-desktop.png' });
+  await fallenHero.click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
+  }).toEqual(['story-tour', 'classic-to-wrath', 'fallen-hero-and-rakhlikh', 'story']);
+  await expect(page.getByRole('heading', { name: 'Two roads to the Fallen Hero' })).toBeVisible();
+  await expect(page.getByText(/separate faction paths/i)).toBeVisible();
+
+  await page.goto('/tours/classic-to-wrath');
   await northrend.focus();
   const northrendCard = page.locator('#story-tour-tip-wrathgate-and-undercity');
   await expect(northrendCard.getByRole('heading', { name: 'The Wrathgate and Undercity' })).toBeVisible();
@@ -103,6 +119,13 @@ test('Play All advances completed stories in chronological order and restores th
   await expect(page.getByRole('heading', { name: 'Two doors into the same story' })).toBeVisible();
 
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=dungeon-set-two-veiled-blade&node=dungeon-set-two-story-safe-for-now&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('storyline'), params.get('node'), params.get('play')];
+  }).toEqual(['fallen-hero-and-rakhlikh', 'fallen-hero-and-rakhlikh-story-two-roads-to-the-fallen-hero', 'all']);
+  await expect(page.getByRole('heading', { name: 'Two roads to the Fallen Hero' })).toBeVisible();
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=fallen-hero-and-rakhlikh&node=fallen-hero-and-rakhlikh-story-horn-and-ward&play=all');
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
@@ -154,6 +177,12 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
     const params = new URL(page.url()).searchParams;
     return [params.get('node'), params.get('play')];
   }).toEqual(['onyxia-story-true-masters', 'story']);
+  await page.goto('/tours/classic-to-wrath');
+  await page.getByRole('button', { name: /fallen-hero-and-rakhlikh|Fallen Hero/i }).click();
+  await expect(page.locator('.story-tour-touch-card').getByRole('heading', { name: 'The Fallen Hero and Rakh’likh' })).toBeVisible();
+  await page.screenshot({ path: 'output/fallen-hero-tour-phone.png' });
+  await page.locator('.story-tour-touch-card').getByRole('button', { name: 'Play story' }).click();
+  await expect(page.getByRole('heading', { name: 'Two roads to the Fallen Hero' })).toBeVisible();
   await page.goto('/tours/classic-to-wrath');
   await page.getByRole('button', { name: /dungeon-set-two-veiled-blade|Veiled Blade/i }).click();
   await expect(page.locator('.story-tour-touch-card').getByRole('heading', { name: 'The Veiled Blade and Lord Valthalak' })).toBeVisible();

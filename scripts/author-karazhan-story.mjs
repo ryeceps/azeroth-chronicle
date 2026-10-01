@@ -318,9 +318,7 @@ medivh.mapFigure = { asset: 'images/storylines/karazhan/medivh.research.webp', s
 medivh.sourceIds = [...new Set([...medivh.sourceIds, ...beats.filter((beat) => beat.cast.includes('medivh')).flatMap((beat) => beat.sources)])];
 medivh.featuredEraIds = [...new Set([...(medivh.featuredEraIds ?? []), eraId])];
 medivh.tags = [...new Set([...(medivh.tags ?? []), 'atiesh', 'karazhan-story'])];
-const atieshNote = 'The Karazhan-story figure is a separate original interpretation and depicts the user-requested raven-crowned Atiesh. Its appearance and use in the journal memory remain subject to human comparison with the appropriate TBC client/model.';
-const medivhBodyWithoutAtieshNote = (medivh.body ?? '').replaceAll(atieshNote, ' ').replace(/\s+/g, ' ').trim();
-medivh.body = [medivhBodyWithoutAtieshNote, atieshNote].filter(Boolean).join(' ');
+medivh.body = 'The Karazhan-story figure is a separate original interpretation and shows Atiesh, Greatstaff of the Guardian, as a gnarled wooden staff with an integrated carved raven-head finial, violet crystal accents, and a hanging violet streamer. Its appearance and use in the journal memory remain subject to human comparison with the appropriate TBC client/model.';
 await write('data/entities/medivh.research.json', medivh);
 
 for (const artifact of artifacts) {
