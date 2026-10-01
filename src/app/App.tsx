@@ -6,6 +6,8 @@ import { BattlePage } from '../pages/BattlePage';
 import { EraPage, NotFound } from '../pages/EraPage';
 import { EntityPage } from '../pages/EntityPage';
 import { EventPage } from '../pages/EventPage';
+import { ToursPage } from '../pages/ToursPage';
+import { EraTourPage } from '../pages/EraTourPage';
 import { LandingPage } from '../pages/LandingPage';
 import { StorylineLibraryPage } from '../pages/StorylineLibraryPage';
 import { StorylinePage } from '../pages/StorylinePage';
@@ -19,6 +21,8 @@ export function App() {
       <AppErrorBoundary>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/tours" element={<ToursPage />} />
+        <Route path="/tours/eras/:slug" element={<EraTourPage />} />
         <Route
           path="/map"
           element={(

@@ -30,11 +30,14 @@ export function enterStoryNode(node: StoryNode): void {
   if (node.camera) useMapViewStore.getState().requestCamera(node.camera);
 }
 
-export function beginStoryGuide(guideId: string): boolean {
+export function beginStoryGuide(guideId: string, nodeId?: string, status: 'playing' | 'paused' = 'playing'): boolean {
   const guide = staticLoreRepository.findStoryGuide(guideId);
-  const firstNode = guide?.nodeIds[0] ? staticLoreRepository.findStoryNode(guide.nodeIds[0]) : undefined;
+  const targetId = nodeId && guide?.nodeIds.includes(nodeId) ? nodeId : guide?.nodeIds[0];
+  const firstNode = targetId ? staticLoreRepository.findStoryNode(targetId) : undefined;
   if (!guide || !firstNode) return false;
   useStoryStore.getState().start(guide.id, firstNode.id);
+  if (status === 'paused') useStoryStore.getState().pause();
+  useMapViewStore.getState().cancelCamera();
   useSelectionStore.getState().select(selectionForStoryNode(firstNode), 'story');
   applyVisualActions(visualActionsForStoryNode(firstNode));
   if (firstNode.camera) useMapViewStore.getState().requestCamera(firstNode.camera);

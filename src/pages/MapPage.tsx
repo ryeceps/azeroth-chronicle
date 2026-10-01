@@ -7,6 +7,7 @@ import { useAtlasUrlState } from '../lib/map/useAtlasUrlState';
 import { useMapViewStore } from '../app/state/mapViewStore';
 import { resolveEraMapState } from '../lib/map/resolveEraMapState';
 import { useStoryStore } from '../app/state/storyStore';
+import { fullTourItinerary, fullTourUrl } from '../lib/story/fullTour';
 import { endStoryGuide } from '../lib/story/storyRuntime';
 import { Navigate, useNavigate, useSearchParams } from 'react-router-dom';
 import { useState } from 'react';
@@ -21,6 +22,15 @@ export function MapPage() {
       return <Navigate to="/storylines" replace />;
     }
   }
+  if (params.get('tour') === 'full') {
+    const itinerary = fullTourItinerary(staticLoreRepository.getDataset());
+    const requested = params.get('node');
+    const stop = itinerary.find(item => item.nodeId === requested && item.eraSlug === params.get('era') && (item.storylineSlug ?? null) === params.get('storyline'));
+    if (requested && !stop) {
+      const fallback = itinerary.find(item => item.eraSlug === params.get('era') && (item.storylineSlug ?? null) === params.get('storyline')) ?? itinerary[0];
+      if (fallback) return <Navigate to={fullTourUrl(fallback)} replace />;
+    }
+  }
   return <AtlasMapPage />;
 }
 
@@ -31,9 +41,9 @@ function AtlasMapPage() {
   const dataset = staticLoreRepository.getDataset();
   useAtlasUrlState(dataset);
   const eraId = useEraStore((state) => state.eraId);
-  const era = dataset.eras.find((item) => item.id === eraId) ?? dataset.eras[0];
+  const era = staticLoreRepository.findEraBySlug(params.get('era') ?? '') ?? dataset.eras.find((item) => item.id === eraId) ?? dataset.eras[0];
   const storylineMode = params.get('tour') === 'storyline';
-  const storyline = storylineMode ? staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '') : undefined;
+  const storyline = (storylineMode || params.get('tour') === 'full') ? staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '') : undefined;
   const requestedEra = staticLoreRepository.findEraBySlug(params.get('era') ?? '');
   const validStoryline = storyline && requestedEra?.id === storyline.primaryEraId
     && staticLoreRepository.findStoryGuide(storyline.storyGuideId ?? '')?.eraId === storyline.primaryEraId;
@@ -77,7 +87,7 @@ function AtlasMapPage() {
   const geometry = allGeometry;
   if (storylineMode && !validStoryline) return <Navigate to="/storylines" replace />;
   if (params.get('tour') !== 'full' && params.get('tour') !== 'era' && !storylineMode) {
-    return <Navigate to={`/?era=${era.slug}`} replace />;
+    return <Navigate to={`/tours/eras/${era.slug}`} replace />;
   }
 
   return (
@@ -89,7 +99,7 @@ function AtlasMapPage() {
             <div className="story-world-actions">
             <div ref={setVoiceControlsHost} />
             <button type="button" onClick={() => {
-              navigate(storyline ? `/storylines/${storyline.slug}` : '/', { replace: true });
+              navigate(storylineMode && storyline ? `/storylines/${storyline.slug}` : '/tours', { replace: true });
               endStoryGuide();
             }}>Leave tour</button>
             </div>

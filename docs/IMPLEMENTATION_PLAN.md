@@ -385,3 +385,8 @@ Acceptance criteria:
 ## MVP completion gate
 
 The MVP is complete only when a new user can identify the Black Empire era, navigate the 3D world, inspect a character overview and sourced battle, complete one continuous guided story, inspect causes and consequences, distinguish certainty states, and reach the next historical state—while the same information remains accessible through permanent text-first routes.
+
+
+## Integrated tour library (Phase 4 extension)
+
+See `docs/decisions/integrated-tour-library.md`. The minimal homepage leads to Eras and Storylines under Tours. Full playback uses one flat, data-driven itinerary with validated storyline placements, shareable chapter URLs, and preserved pause/voice preferences. Related story offshoots appear at era entry points; research outlines remain browseable outside playback.

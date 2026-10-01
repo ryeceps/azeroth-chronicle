@@ -9,7 +9,7 @@ export function StorylineCard({ storyline, eras }: { storyline: Storyline; eras:
 
   return (
     <Link className="storyline-card" to={`/storylines/${storyline.slug}`}>
-      <span className="storyline-card-kicker">Storyline · {storyline.contentStatus} preview</span>
+      <span className="storyline-card-kicker">Storyline · {storyline.storyGuideId ? 'Playable tour' : 'Research preview'} · {storyline.contentStatus}</span>
       <strong>{storyline.title}</strong>
       <span className="storyline-card-summary">{storyline.summary}</span>
       <span className="storyline-card-bottom">

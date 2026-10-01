@@ -185,6 +185,17 @@ export function validateDatasetReferences(
     requireAllFrom(guide.nodeIds, nodeIds, `storyGuides.${guide.id}.nodeIds`, 'story node');
   }
   for (const storyline of dataset.storylines) {
+    if (storyline.fullTourPlacement) {
+      const eraGuide = dataset.storyGuides.find((guide) => guide.id === dataset.eras.find((era) => era.id === storyline.primaryEraId)?.storyGuideId);
+      if (!eraGuide?.nodeIds.includes(storyline.fullTourPlacement.afterNodeId)) {
+        issues.push({ code: 'broken-reference', path: `storylines.${storyline.id}.fullTourPlacement`, message: 'Placement must follow a chapter of its primary era guide.' });
+      }
+      const guide = dataset.storyGuides.find((item) => item.id === storyline.storyGuideId);
+      if (guide?.eraId !== storyline.primaryEraId) issues.push({ code: 'broken-reference', path: `storylines.${storyline.id}.storyGuideId`, message: 'Guide must belong to its primary era.' });
+      if (dataset.storylines.some((other) => other.id !== storyline.id && other.fullTourPlacement?.afterNodeId === storyline.fullTourPlacement?.afterNodeId && other.fullTourPlacement?.order === storyline.fullTourPlacement?.order)) {
+        issues.push({ code: 'duplicate-id', path: `storylines.${storyline.id}.fullTourPlacement`, message: 'Placement order must be unique at this chapter.' });
+      }
+    }
     requireFrom(storyline.primaryEraId, eraIds, `storylines.${storyline.id}.primaryEraId`, 'era');
     requireAllFrom(storyline.eraIds, eraIds, `storylines.${storyline.id}.eraIds`, 'era');
     requireFrom(storyline.storyGuideId, guideIds, `storylines.${storyline.id}.storyGuideId`, 'story guide');
