@@ -1,0 +1,713 @@
+{
+  "storyId": "akama-and-black-temple",
+  "status": "complete research story; human source/build and resemblance review pending",
+  "referenceEdition": "World of Warcraft: The Burning Crusade, original client 2.0.3–2.4.3; patch 2.1.0 adds the Black Temple and Hyjal raids; compare the final pre-Wrath 2.4.3 state.",
+  "sourceSheets": [
+    {
+      "artifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "role": "Sixteen environment tiles",
+      "prompt": "4x4 contact sheet of separate original TBC-area environment paintings: Karabor/Black Temple, Baa’ri, Warden’s Cage, submerged chamber, Arcatraz, Ata’mal Terrace, Shattrath, Serpentshrine, Tempest Keep, Hyjal memory, Black Temple southern entry, Refectory, inner sanctuary, Council chamber, summit, and Illidan’s sanctum."
+    },
+    {
+      "artifactId": "exec-1dda610b-9054-4633-9af4-ef65be5b4e7f.png",
+      "role": "Eight principal cast tiles",
+      "prompt": "4x2 transparent contact sheet of Akama, Maiev, the Ashtongue Deathsworn, Seer Udalo, Seer Olum, Xi’ri, Al’ar, and Seer Kanai."
+    },
+    {
+      "artifactId": "exec-51018dca-17d9-4ae3-a924-30ab23f26534.png",
+      "role": "A’dal, Illidan and quest-object tiles",
+      "prompt": "4x2 transparent contact sheet of A’dal, Burning Crusade Illidan, the Medallion of Karabor, Heart of Fury, Time-Phased Phylactery, Ashtongue Cowl, medallion fragments, and a small crystal token."
+    },
+    {
+      "artifactId": "exec-505e495f-60da-44db-b065-1b2368564876.png",
+      "role": "Secondary cast tiles",
+      "prompt": "4x2 transparent contact sheet of Kael’thas, Coilfang naga, Ashtongue Corruptors, Shade of Akama, Rage Winterchill, Magtheridon, Oronu the Elder, and Fathom-Lord Karathress."
+    },
+    {
+      "artifactId": "exec-5435913d-bbef-4cef-9b95-5be16bcb97af.png",
+      "role": "Baa’ri quest-object tile",
+      "prompt": "Transparent isolated cutout of interpretive ancient draenei stone Tablets of Baa’ri, with shallow abstract grooves and no readable writing."
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "karabor-black-temple",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/karabor-black-temple.research.webp",
+      "sha256": "6f1e23bacedf186b7602d75a8b1b6f3cc1523cca57d9ba26790c9df5579d7157",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Karabor / the Black Temple, Shadowmoon Valley tile; The ancient draenei temple’s monumental angular stone is overbuilt with severe near-black masonry; fel-green light is restrained against Shadowmoon’s broken charcoal ground and toxic sky.",
+      "nodeIds": [
+        "akama-and-black-temple-story-karabor-under-illidan",
+        "akama-and-black-temple-story-hostage-soul"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "The ancient draenei temple’s monumental angular stone is overbuilt with severe near-black masonry; fel-green light is restrained against Shadowmoon’s broken charcoal ground and toxic sky.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-blizzard-black-temple-history",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/20855984/the-black-temple-a-journey-through-time-walking"
+        },
+        {
+          "sourceId": "akama-blizzard-black-temple-raid-guide",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/14231999/black-temple-beat-down"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "baari-ruins",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/baari-ruins.research.webp",
+      "sha256": "63943a40e9f23b4bbc40a38f008a283d042e61a3a4e0461723db578be46876be",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Ruins of Baa’ri, Shadowmoon Valley tile; Collapsed draenei masonry amid Shadowmoon’s dark volcanic rock, ash-red dust, sparse dead growth, and broad exposed valley. Keep the tablet site ancient and ruined, not a red-bannered human keep.",
+      "nodeIds": [
+        "akama-and-black-temple-story-tablets-at-baari",
+        "akama-and-black-temple-story-orders-and-fragments"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "Collapsed draenei masonry amid Shadowmoon’s dark volcanic rock, ash-red dust, sparse dead growth, and broad exposed valley. Keep the tablet site ancient and ruined, not a red-bannered human keep.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-tablets-baari-quest",
+          "url": "https://warcraft.wiki.gg/wiki/Tablets_of_Baa%27ri_(Scryers)"
+        },
+        {
+          "sourceId": "akama-oronu-quest",
+          "url": "https://warcraft.wiki.gg/wiki/Oronu_the_Elder_(Aldor)"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "wardens-cage",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/wardens-cage.research.webp",
+      "sha256": "e5175d136a8b0efbb5656b6217cd5745df1b0ff6de629fb18fc53e9cb49de424",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the The Warden’s Cage, Shadowmoon Valley tile; A small, isolated dark-stone prison outpost in a barren, broken Shadowmoon basin; compressed walls and rough ground, with fel-green haze at a distance.",
+      "nodeIds": [
+        "akama-and-black-temple-story-beneath-the-wardens-cage",
+        "akama-and-black-temple-story-proof-of-allegiance",
+        "akama-and-black-temple-story-olums-last-choice"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "A small, isolated dark-stone prison outpost in a barren, broken Shadowmoon basin; compressed walls and rough ground, with fel-green haze at a distance.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-reveal-quest",
+          "url": "https://warcraft.wiki.gg/wiki/Akama_(quest)"
+        },
+        {
+          "sourceId": "akama-proof-allegiance-quest",
+          "url": "https://warcraft.wiki.gg/wiki/Proof_of_Allegiance"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "secret-chamber",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/secret-chamber.research.webp",
+      "sha256": "202c21fb7275129f564c48b10da2dadab1a4fd61077faa9d207a46c0d4e542eb",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Hidden chamber beneath the Warden’s Cage pool tile; Close subterranean draenei stonework, a flooded pool passage, cold blue-black water and dim reflected stone; intimate, enclosed, not a generic crypt.",
+      "nodeIds": [
+        "akama-and-black-temple-story-akama-and-maiev"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "Close subterranean draenei stonework, a flooded pool passage, cold blue-black water and dim reflected stone; intimate, enclosed, not a generic crypt.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-reveal-quest",
+          "url": "https://warcraft.wiki.gg/wiki/Akama_(quest)"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "arcatraz",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/arcatraz.research.webp",
+      "sha256": "70e00eea24da73e6d29b883031b09e4361154a73c01c1bff6328e197af24f403",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the The Arcatraz, Tempest Keep, Netherstorm tile; Floating draenei-built crystalline prison, sharp angular ivory and red structures against Netherstorm’s violet void and fractured floating rocks.",
+      "nodeIds": [
+        "akama-and-black-temple-story-seer-udalo-in-arcatraz",
+        "akama-and-black-temple-story-the-word-atamal"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "Floating draenei-built crystalline prison, sharp angular ivory and red structures against Netherstorm’s violet void and fractured floating rocks.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-seer-udalo-quest",
+          "url": "https://warcraft.wiki.gg/wiki/Seer_Udalo"
+        },
+        {
+          "sourceId": "akama-mysterious-portent-quest",
+          "url": "https://warcraft.wiki.gg/wiki/A_Mysterious_Portent"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "atamal-terrace",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/atamal-terrace.research.webp",
+      "sha256": "7d75153a68641e7fccda20df22fa2977a6b6443b6e03aa381442243e804d3b2d",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Ata’mal Terrace, Black Temple, Shadowmoon Valley tile; Vast dark temple battlements, stacked sharp draenei lines and fel-green storm glow over Shadowmoon; the terrace is open and high, not an ordinary castle roof.",
+      "nodeIds": [
+        "akama-and-black-temple-story-heart-of-fury"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "Vast dark temple battlements, stacked sharp draenei lines and fel-green storm glow over Shadowmoon; the terrace is open and high, not an ordinary castle roof.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-atamal-terrace-quest",
+          "url": "https://warcraft.wiki.gg/wiki/The_Ata%27mal_Terrace"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "shattrath-terrace",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/shattrath-terrace.research.webp",
+      "sha256": "72dd4601d1e9fb99fdc4f9dc98df51d87e9413ac5ff2c58477816ca1a930ef74",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Terrace of Light, Shattrath tile; Pale cream draenei arches and circular terrace, open walkways, a towering luminous naaru crystal, warm gold-white light, dust and broken Outland beyond.",
+      "nodeIds": [
+        "akama-and-black-temple-story-akama-promise-to-adal"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "Pale cream draenei arches and circular terrace, open walkways, a towering luminous naaru crystal, warm gold-white light, dust and broken Outland beyond.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-promise-quest",
+          "url": "https://warcraft.wiki.gg/wiki/Akama%27s_Promise"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "serpentshrine-cavern",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/serpentshrine-cavern.research.webp",
+      "sha256": "b1546eda9c1c339c8e64df7395ed3e0fa2440edad9ba963b102b6185e9178193",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Serpentshrine Cavern, Coilfang Reservoir, Zangarmarsh tile; A submerged naga industrial cavern: deep teal water, colossal metal pipes, constructed platforms and saturated blue-green light, enclosed by wet stone.",
+      "nodeIds": [
+        "akama-and-black-temple-story-olum-found"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "A submerged naga industrial cavern: deep teal water, colossal metal pipes, constructed platforms and saturated blue-green light, enclosed by wet stone.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-secret-compromised-quest",
+          "url": "https://warcraft.wiki.gg/wiki/The_Secret_Compromised"
+        },
+        {
+          "sourceId": "akama-bcc-phase3-black-temple",
+          "url": "https://news.blizzard.com/en-us/article/23764312/burning-crusade-classic-phase-3-is-now-live"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "tempest-keep-eye",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/tempest-keep-eye.research.webp",
+      "sha256": "80cdde9790888b082bd01b7f165cc77381cc071c95ed53b9eb63c4dec1a1e6bf",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the The Eye, Tempest Keep, Netherstorm tile; An angular floating draenei crystal citadel in Netherstorm’s purple-red void; Al’ar reads as a phoenix-shaped fire against the empty cosmic backdrop.",
+      "nodeIds": [
+        "akama-and-black-temple-story-ruse-of-the-ashtongue"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "An angular floating draenei crystal citadel in Netherstorm’s purple-red void; Al’ar reads as a phoenix-shaped fire against the empty cosmic backdrop.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-ruse-quest",
+          "url": "https://warcraft.wiki.gg/wiki/Ruse_of_the_Ashtongue"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "hyjal-memory",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/hyjal-memory.research.webp",
+      "sha256": "fc36fa858f1c4704c648fd2be4bee44cfaf2121cfc20c699120bcf7b08c7a552",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Battle of Mount Hyjal, Caverns of Time memory tile; A clearly historical instance: a night-elf forest of deep green boughs and moonlight under siege, with distant controlled golden-orange fires. Do not depict it as a present-day route.",
+      "nodeIds": [
+        "akama-and-black-temple-story-hyjal-memory"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "A clearly historical instance: a night-elf forest of deep green boughs and moonlight under siege, with distant controlled golden-orange fires. Do not depict it as a present-day route.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-hyjal-artifact-quest",
+          "url": "https://warcraft.wiki.gg/wiki/An_Artifact_From_the_Past"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "southern-entry",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/southern-entry.research.webp",
+      "sha256": "fb8c7dec65e2029de5422403ea1eb5fdec22971574c46ff429d80cf4aa6cbb10",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Southern wall of the Black Temple, Shadowmoon Valley tile; Monumental near-black draenei temple masonry, scorched broken ground, green fel haze and a narrow opening at the southern wall.",
+      "nodeIds": [
+        "akama-and-black-temple-story-diversion-at-the-southern-wall"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "Monumental near-black draenei temple masonry, scorched broken ground, green fel haze and a narrow opening at the southern wall.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-distraction-quest",
+          "url": "https://warcraft.wiki.gg/wiki/A_Distraction_for_Akama"
+        },
+        {
+          "sourceId": "akama-blizzard-black-temple-raid-guide",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/14231999/black-temple-beat-down"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "bt-refectory",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/bt-refectory.research.webp",
+      "sha256": "d9a93d266711f6fa9f626758b032656f91bf0b026e4ddf9311823690cc369a8f",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Refectory, Black Temple tile; A vast severe dark-stone hall inside the Black Temple: high shadowed arches, heavy columns, green fel pools and hanging chains; not a generic human castle hall.",
+      "nodeIds": [
+        "akama-and-black-temple-story-seek-the-ashtongue"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "A vast severe dark-stone hall inside the Black Temple: high shadowed arches, heavy columns, green fel pools and hanging chains; not a generic human castle hall.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-blizzard-black-temple-raid-guide",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/14231999/black-temple-beat-down"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "bt-inner-sanctuary",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/bt-inner-sanctuary.research.webp",
+      "sha256": "58057f069d7da98cdd930d987659889b2e6f07f30b6bfc35ac25c11c0597f5c5",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Sanctuary of Shadows, Black Temple tile; An interior of angular draenei vaults and black stone, broken masonry and restrained green soul-light, leading toward the temple’s raid wings.",
+      "nodeIds": [
+        "akama-and-black-temple-story-shade-of-akama"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "An interior of angular draenei vaults and black stone, broken masonry and restrained green soul-light, leading toward the temple’s raid wings.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-redemption-quest",
+          "url": "https://warcraft.wiki.gg/wiki/Redemption_of_the_Ashtongue"
+        },
+        {
+          "sourceId": "akama-blizzard-black-temple-raid-guide",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/14231999/black-temple-beat-down"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "illidari-council",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/illidari-council.research.webp",
+      "sha256": "5e571db9ef9707f400753e6a43b8ff111bbbea532e8c1db78a04ee41d36daace",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Illidari Council chamber, Black Temple tile; High, shadowed Black Temple architecture with a raised dais and green-lit floor; a chamber at the upper end of the fortress, not a human throne room.",
+      "nodeIds": [],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "High, shadowed Black Temple architecture with a raised dais and green-lit floor; a chamber at the upper end of the fortress, not a human throne room.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-blizzard-black-temple-raid-guide",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/14231999/black-temple-beat-down"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "temple-summit",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/temple-summit.research.webp",
+      "sha256": "8b14a1c8c2e3678dcce36f50bcc55665f57071f82698d035eff51ce2badc860b",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Temple Summit, Black Temple tile; The Black Temple’s severe stepped roofline above a shattered horizon, under a storm-dark green sky; preserve its massive draenei silhouette.",
+      "nodeIds": [
+        "akama-and-black-temple-story-the-seers-open-the-way"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "The Black Temple’s severe stepped roofline above a shattered horizon, under a storm-dark green sky; preserve its massive draenei silhouette.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-blizzard-black-temple-raid-guide",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/14231999/black-temple-beat-down"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "illidan-sanctum",
+      "role": "environment",
+      "path": "images/storylines/akama-black-temple/illidan-sanctum.research.webp",
+      "sha256": "da2b008c9565cd7c6de48983b19304ba9b5c0702d9474414cb6ddfe2827f9541",
+      "sourceArtifactId": "exec-fe8657cd-4933-4624-9791-f2b9e5d999cc.png",
+      "prompt": "Original painted environment illustration cropped from the Illidan’s sanctum, Black Temple tile; A cavernous black-stone temple chamber with obsidian pillars and raised dais, emerald fel fire and restrained crimson; dark, high and unmistakably part of the Black Temple.",
+      "nodeIds": [
+        "akama-and-black-temple-story-fall-of-the-betrayer"
+      ],
+      "gameEdition": "World of Warcraft: The Burning Crusade, original client build 2.0.3–2.4.3; Black Temple raid introduced in 2.1.0.",
+      "recognizableTraits": "A cavernous black-stone temple chamber with obsidian pillars and raised dais, emerald fel fire and restrained crimson; dark, high and unmistakably part of the Black Temple.",
+      "comparisonSources": [
+        {
+          "sourceId": "akama-blizzard-black-temple-raid-guide",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/14231999/black-temple-beat-down"
+        },
+        {
+          "sourceId": "akama-blizzard-black-temple-history",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/20855984/the-black-temple-a-journey-through-time-walking"
+        }
+      ],
+      "resemblanceReview": "Locally rendered and inspected in story playback. Original 2.4.3 client screenshot/model comparison remains a human review gate; no canonical accuracy is claimed."
+    },
+    {
+      "assetId": "akama",
+      "role": "character-or-narrative-actor",
+      "name": "Akama",
+      "path": "images/storylines/akama-black-temple/akama.research.webp",
+      "sha256": "91b94e50a29845d6131fe2662cd992e1899b2d57e9b4a4c9affc964653476c46",
+      "sourceArtifactId": "exec-1dda610b-9054-4633-9af4-ef65be5b4e7f.png",
+      "prompt": "Akama: An elder Broken draenei sage with ash-gray blue skin, white hair and tusks. Original illustration; not canonical model art.",
+      "nodeIds": [
+        "akama-and-black-temple-story-karabor-under-illidan",
+        "akama-and-black-temple-story-beneath-the-wardens-cage",
+        "akama-and-black-temple-story-proof-of-allegiance",
+        "akama-and-black-temple-story-akama-and-maiev",
+        "akama-and-black-temple-story-heart-of-fury",
+        "akama-and-black-temple-story-akama-promise-to-adal",
+        "akama-and-black-temple-story-olums-last-choice",
+        "akama-and-black-temple-story-hostage-soul",
+        "akama-and-black-temple-story-diversion-at-the-southern-wall",
+        "akama-and-black-temple-story-seek-the-ashtongue",
+        "akama-and-black-temple-story-shade-of-akama",
+        "akama-and-black-temple-story-the-seers-open-the-way",
+        "akama-and-black-temple-story-fall-of-the-betrayer"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "maiev-shadowsong",
+      "role": "character-or-narrative-actor",
+      "name": "Maiev Shadowsong",
+      "path": "images/storylines/akama-black-temple/maiev-shadowsong.research.webp",
+      "sha256": "945e8fd03c7f7693ab6ae9af4d154260adcb1372ea1401f1dbb3d0bb75e7b812",
+      "sourceArtifactId": "exec-1dda610b-9054-4633-9af4-ef65be5b4e7f.png",
+      "prompt": "Maiev Shadowsong: Night elf warden shown with a pale crescent mask and dark blue armor. The interpretation does not establish exact costume or precise co-presence.",
+      "nodeIds": [
+        "akama-and-black-temple-story-akama-and-maiev",
+        "akama-and-black-temple-story-diversion-at-the-southern-wall"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "ashtongue-deathsworn",
+      "role": "embodied-group",
+      "name": "Ashtongue Deathsworn",
+      "path": "images/storylines/akama-black-temple/ashtongue-deathsworn.research.webp",
+      "sha256": "af7e4e49db4dfa96d14e1ab0ee4124fe0eb2befc84cfaa1964a2ea88ffdd7e7a",
+      "sourceArtifactId": "exec-1dda610b-9054-4633-9af4-ef65be5b4e7f.png",
+      "prompt": "Ashtongue Deathsworn: Interpretive Broken ensemble for Akama’s trusted inner circle; not an exact membership roll or claim that all Ashtongue shared their secret.",
+      "nodeIds": [
+        "akama-and-black-temple-story-karabor-under-illidan",
+        "akama-and-black-temple-story-proof-of-allegiance",
+        "akama-and-black-temple-story-diversion-at-the-southern-wall",
+        "akama-and-black-temple-story-seek-the-ashtongue",
+        "akama-and-black-temple-story-shade-of-akama",
+        "akama-and-black-temple-story-fall-of-the-betrayer"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "ashtongue-corruptors",
+      "role": "embodied-group",
+      "name": "Ashtongue Corruptors",
+      "path": "images/storylines/akama-black-temple/ashtongue-corruptors.research.webp",
+      "sha256": "387761bc06d8abe0a6956d62942ad144e838da2730d3f97049c52396d832591a",
+      "sourceArtifactId": "exec-505e495f-60da-44db-b065-1b2368564876.png",
+      "prompt": "Ashtongue Corruptors: Interpretive ensemble of Broken shamans tied to the medallion quest. The quest’s target count does not establish exact historical composition.",
+      "nodeIds": [
+        "akama-and-black-temple-story-orders-and-fragments"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "coilfang-naga",
+      "role": "embodied-group",
+      "name": "Vashj’s Coilfang followers",
+      "path": "images/storylines/akama-black-temple/coilfang-naga-group.research.webp",
+      "sha256": "3ae13031c8527dc1977ed8c596e234a1e8a9915d72c9d1d9550b2256a00d8919",
+      "sourceArtifactId": "exec-505e495f-60da-44db-b065-1b2368564876.png",
+      "prompt": "Vashj’s Coilfang followers: Interpretive naga group for the captors described in Olum’s quest account; not a roster or proof of Vashj’s presence in the scene.",
+      "nodeIds": [
+        "akama-and-black-temple-story-olum-found"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "seer-udalo",
+      "role": "character-or-narrative-actor",
+      "name": "Seer Udalo",
+      "path": "images/storylines/akama-black-temple/seer-udalo.research.webp",
+      "sha256": "1c73bd849d8aed5441e037b6673a4efe77bed991f9d3091bf1b87b8a94552a87",
+      "sourceArtifactId": "exec-1dda610b-9054-4633-9af4-ef65be5b4e7f.png",
+      "prompt": "Seer Udalo: Broken seer represented in his Arcatraz discovery and later spirit appearance; the art is original interpretation.",
+      "nodeIds": [
+        "akama-and-black-temple-story-seer-udalo-in-arcatraz",
+        "akama-and-black-temple-story-the-word-atamal",
+        "akama-and-black-temple-story-the-seers-open-the-way"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "seer-olum",
+      "role": "character-or-narrative-actor",
+      "name": "Seer Olum",
+      "path": "images/storylines/akama-black-temple/seer-olum.research.webp",
+      "sha256": "3fb172fc3a3423bae572a06e22fc876f0c6790a0f712129f0db5f5ae534e856f",
+      "sourceArtifactId": "exec-1dda610b-9054-4633-9af4-ef65be5b4e7f.png",
+      "prompt": "Seer Olum: Broken seer and trusted Deathsworn represented in Serpentshrine and his later spirit appearance; not canonical model art.",
+      "nodeIds": [
+        "akama-and-black-temple-story-olum-found",
+        "akama-and-black-temple-story-olums-last-choice",
+        "akama-and-black-temple-story-the-seers-open-the-way"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "seer-kanai",
+      "role": "character-or-narrative-actor",
+      "name": "Seer Kanai",
+      "path": "images/storylines/akama-black-temple/seer-kanai.research.webp",
+      "sha256": "8ab262df70612e443a89889e4a289937c86ff809337f68431a6fab7673e05985",
+      "sourceArtifactId": "exec-1dda610b-9054-4633-9af4-ef65be5b4e7f.png",
+      "prompt": "Seer Kanai: Broken seer who directs the Black Temple steps; original interpretive portrait.",
+      "nodeIds": [
+        "akama-and-black-temple-story-seek-the-ashtongue"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "xi-ri",
+      "role": "character-or-narrative-actor",
+      "name": "Xi’ri",
+      "path": "images/storylines/akama-black-temple/xi-ri.research.webp",
+      "sha256": "c98357d760db6983c70790758fbb67dc426ba2c9ed4ada84745a0f9b590ab068",
+      "sourceArtifactId": "exec-1dda610b-9054-4633-9af4-ef65be5b4e7f.png",
+      "prompt": "Xi’ri: Original abstract naaru illustration for the Sha’tar diversion; not a canonical model or spatially precise staging.",
+      "nodeIds": [
+        "akama-and-black-temple-story-diversion-at-the-southern-wall"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "adal",
+      "role": "character-or-narrative-actor",
+      "name": "A’dal",
+      "path": "images/storylines/akama-black-temple/adal.research.webp",
+      "sha256": "029ea8f2cbc66f19e109ef8ded9c306ef64201618a70468b1451588d7b1ff63e",
+      "sourceArtifactId": "exec-51018dca-17d9-4ae3-a924-30ab23f26534.png",
+      "prompt": "A’dal: Original abstract naaru illustration for Akama’s promise in Shattrath; the form is interpretive.",
+      "nodeIds": [
+        "akama-and-black-temple-story-akama-promise-to-adal"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "magtheridon",
+      "role": "character-or-narrative-actor",
+      "name": "Magtheridon",
+      "path": "images/storylines/akama-black-temple/magtheridon.research.webp",
+      "sha256": "6eaea86a9e9c64d715d9d0bfbc9a7ed2f18d9bdec217cae5bf0388a94b5a7bd5",
+      "sourceArtifactId": "exec-505e495f-60da-44db-b065-1b2368564876.png",
+      "prompt": "Magtheridon: Original interpretation of the pit lord displaced at the Black Temple in the preceding campaign.",
+      "nodeIds": [
+        "akama-and-black-temple-story-karabor-under-illidan"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "oronu-the-elder",
+      "role": "character-or-narrative-actor",
+      "name": "Oronu the Elder",
+      "path": "images/storylines/akama-black-temple/oronu-the-elder.research.webp",
+      "sha256": "ed025b20100653804cbffd0d6cb5780d13a722aeb224aec723ccd99af85bcdf5",
+      "sourceArtifactId": "exec-505e495f-60da-44db-b065-1b2368564876.png",
+      "prompt": "Oronu the Elder: Original interpretation of Oronu in the medallion search; it does not assert exact armor or location.",
+      "nodeIds": [
+        "akama-and-black-temple-story-orders-and-fragments"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "kael-thas-sunstrider",
+      "role": "character-or-narrative-actor",
+      "name": "Kael’thas Sunstrider",
+      "path": "images/storylines/akama-black-temple/kael-thas-sunstrider.research.webp",
+      "sha256": "38e9e4d27c1ab86f0c873deb863485bfaf01bf518afb913fd99b4e3af36d0ee4",
+      "sourceArtifactId": "exec-505e495f-60da-44db-b065-1b2368564876.png",
+      "prompt": "Kael’thas Sunstrider: Original Burning Crusade-era interpretation shown only as a story portrait in the deception sequence; it does not assert his presence beside Akama.",
+      "nodeIds": [
+        "akama-and-black-temple-story-olums-last-choice",
+        "akama-and-black-temple-story-ruse-of-the-ashtongue"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "alar",
+      "role": "character-or-narrative-actor",
+      "name": "Al’ar",
+      "path": "images/storylines/akama-black-temple/alar.research.webp",
+      "sha256": "f7e9efaf8a1d8a100a01495c757c6dd02854ae883252b5d8fe0a9be92607d181",
+      "sourceArtifactId": "exec-1dda610b-9054-4633-9af4-ef65be5b4e7f.png",
+      "prompt": "Al’ar: Phoenix cutout representing the raid target in the Tempest Keep quest; original model-inspired art, not canonical game art.",
+      "nodeIds": [
+        "akama-and-black-temple-story-ruse-of-the-ashtongue"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "rage-winterchill",
+      "role": "character-or-narrative-actor",
+      "name": "Rage Winterchill",
+      "path": "images/storylines/akama-black-temple/rage-winterchill.research.webp",
+      "sha256": "8516cd608bba3aa40dc36f59c96a8627a06a8bc397118e70c5b9f66c62ff0b60",
+      "sourceArtifactId": "exec-505e495f-60da-44db-b065-1b2368564876.png",
+      "prompt": "Rage Winterchill: Original interpretation of the frost lich targeted in the historical Hyjal instance.",
+      "nodeIds": [
+        "akama-and-black-temple-story-hyjal-memory"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "shade-of-akama",
+      "role": "character-or-narrative-actor",
+      "name": "Shade of Akama",
+      "path": "images/storylines/akama-black-temple/shade-of-akama.research.webp",
+      "sha256": "cb6f2411538389681b9b5476d2053b1b3dfb9fac4b8d9aa97f8066d4fa205bc8",
+      "sourceArtifactId": "exec-505e495f-60da-44db-b065-1b2368564876.png",
+      "prompt": "Shade of Akama: Distinct spectral image of the soul-bound Shade defeated in the Black Temple; an aspect of Akama’s soul, not another biography.",
+      "nodeIds": [
+        "akama-and-black-temple-story-shade-of-akama"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "heart-of-fury",
+      "role": "pivotal-object",
+      "name": "Heart of Fury",
+      "path": "images/storylines/akama-black-temple/heart-of-fury.research.webp",
+      "sha256": "c4bbafb33715dc242c8329357f18a3a8745a31de4b45b9729382a62c2047ea18",
+      "sourceArtifactId": "exec-51018dca-17d9-4ae3-a924-30ab23f26534.png",
+      "prompt": "Heart of Fury: Original interpretation of the recovered artifact; its illustrated shape is not asserted as canonical.",
+      "nodeIds": [
+        "akama-and-black-temple-story-heart-of-fury"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "medallion-of-karabor",
+      "role": "pivotal-object",
+      "name": "Medallion of Karabor",
+      "path": "images/storylines/akama-black-temple/medallion-of-karabor.research.webp",
+      "sha256": "a9642f7a146eaa53df67bfd6ce24e977d6a7a1999619eb39b8617014654e0b08",
+      "sourceArtifactId": "exec-51018dca-17d9-4ae3-a924-30ab23f26534.png",
+      "prompt": "Medallion of Karabor: Original interpretation of the medallion; it marks the quest and access chain, not a verified item model.",
+      "nodeIds": [
+        "akama-and-black-temple-story-akama-promise-to-adal"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "medallion-fragments",
+      "role": "pivotal-object",
+      "name": "Medallion fragments",
+      "path": "images/storylines/akama-black-temple/medallion-shards.research.webp",
+      "sha256": "2ed3bdfe83d3d42efa0906f655f737f81a2d2c55350429bd5e78bca69fdca2a5",
+      "sourceArtifactId": "exec-51018dca-17d9-4ae3-a924-30ab23f26534.png",
+      "prompt": "Medallion fragments: Original illustrative fragments for the quest objective. Their shapes are not canonical item art.",
+      "nodeIds": [
+        "akama-and-black-temple-story-orders-and-fragments"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "time-phased-phylactery",
+      "role": "pivotal-object",
+      "name": "Time-Phased Phylactery",
+      "path": "images/storylines/akama-black-temple/time-phased-phylactery.research.webp",
+      "sha256": "794c857f9ff78f695308347854d5aa147b7abfbfdfffe47a39cb148e91f2ecd2",
+      "sourceArtifactId": "exec-51018dca-17d9-4ae3-a924-30ab23f26534.png",
+      "prompt": "Time-Phased Phylactery: Original interpretation of the soul artifact recovered in the Hyjal memory; no canonical model is claimed.",
+      "nodeIds": [
+        "akama-and-black-temple-story-hyjal-memory",
+        "akama-and-black-temple-story-hostage-soul"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "ashtongue-cowl",
+      "role": "pivotal-object",
+      "name": "Ashtongue Cowl",
+      "path": "images/storylines/akama-black-temple/ashtongue-cowl.research.webp",
+      "sha256": "08c7854019002a8697249555f3fa59bbc67ee1db347082408c199fccf2a19fb0",
+      "sourceArtifactId": "exec-51018dca-17d9-4ae3-a924-30ab23f26534.png",
+      "prompt": "Ashtongue Cowl: Original interpretation of the disguise item required for the Al’ar raid task.",
+      "nodeIds": [
+        "akama-and-black-temple-story-ruse-of-the-ashtongue"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "tablets-of-baari",
+      "role": "pivotal-object",
+      "name": "Tablets of Baa’ri",
+      "path": "images/storylines/akama-black-temple/tablets-of-baari.research.webp",
+      "sha256": "48e2655f780c429f3caf06fffab7553d64b45224f25beef8a63f6090251c94f5",
+      "sourceArtifactId": "exec-5435913d-bbef-4cef-9b95-5be16bcb97af.png",
+      "prompt": "Tablets of Baa’ri: Original interpretive stone tablet art; no inscription or exact in-game tablet appearance is asserted.",
+      "nodeIds": [
+        "akama-and-black-temple-story-tablets-at-baari"
+      ],
+      "resemblanceReview": "Original interpretive art; inspect in playback. Game model, costume, and exact visual resemblance remain for human comparison with the matching TBC build."
+    },
+    {
+      "assetId": "illidan-stormrage-outland",
+      "role": "era-specific-character-figure",
+      "name": "Illidan Stormrage",
+      "path": "images/storylines/akama-black-temple/illidan-outland.research.webp",
+      "sha256": "9913abef928776a8657738ef9608435a97245c4fb4a7ed8d202f1a296113ed5d",
+      "sourceArtifactId": "exec-51018dca-17d9-4ae3-a924-30ab23f26534.png",
+      "prompt": "Burning Crusade Illidan Stormrage: long pale hair, horns, blindfold, bat-like wings, paired curved warglaives, black armor and restrained fel-green light; original interpretation.",
+      "nodeIds": [
+        "akama-and-black-temple-story-karabor-under-illidan",
+        "akama-and-black-temple-story-fall-of-the-betrayer"
+      ],
+      "resemblanceReview": "The story renderer selects this image for Age of Adventurers while retaining Illidan’s ancient portrait as the default. Original TBC model comparison remains open."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T17:22:40.073Z",
+  "generatedAt": "2026-10-01T19:58:47.732Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 204,
-  "totalDurationMs": 5325700,
+  "trackCount": 224,
+  "totalDurationMs": 5854650,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -1727,6 +1727,186 @@
       "sha256": "63f4f570b47d77452e02f93886d79ea7b4142adceb91b3b2a6cebd72e3d087c8",
       "transcriptSha256": "c5a3b41609bb104e388f3d9dbd147193abaf5fa6941fd58f8a97966d12bc660b",
       "bytes": 385389
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-karabor-under-illidan",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-karabor-under-illidan.mp3",
+      "durationMs": 29400,
+      "sha256": "0eb9858d3961cebd0040ec6f3c7f81fb9b9dae152db52eb0d97dd8f53e592998",
+      "transcriptSha256": "22102fea1946f132858c16a766fbe4ca5863d598713330f6f386b1dfac5548a3",
+      "bytes": 353709
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-tablets-at-baari",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-tablets-at-baari.mp3",
+      "durationMs": 27975,
+      "sha256": "0f5f1a34018510d7a772dc823e81d443ea6723aa75874457c0b7129aa1fef0b3",
+      "transcriptSha256": "4e1181bd8474f4b9b626e105a56015b33ab4903c79b1856bd73a9afc95c91cd4",
+      "bytes": 336717
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-orders-and-fragments",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-orders-and-fragments.mp3",
+      "durationMs": 28625,
+      "sha256": "083dd540a7540b0a2cd53ab39c122dab1daf4a7ca116c9cbbec0b07b6168ebd7",
+      "transcriptSha256": "a0c346320285b35a91b8306929e399df77b88b52c17a38ad6d3f9ffc94f1cc75",
+      "bytes": 344493
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-beneath-the-wardens-cage",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-beneath-the-wardens-cage.mp3",
+      "durationMs": 20850,
+      "sha256": "9cd9bc9daa24188f2c0ec278b4889c4b42fb69b9256e9e3066b047a3381b0a17",
+      "transcriptSha256": "b3c48666db2ac4e43cdfa995fa2f8f814fc7498e73412ebf33c42896757c3bb7",
+      "bytes": 251181
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-proof-of-allegiance",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-proof-of-allegiance.mp3",
+      "durationMs": 27350,
+      "sha256": "5c1e93ce22da22ca12c34a09aa2d6635c960c494162c31b183c78d2985d97b6a",
+      "transcriptSha256": "0ed2cee8ef04268db626e22be17907585ea1701fd6b6795706963ef164daa5ae",
+      "bytes": 329229
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-akama-and-maiev",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-akama-and-maiev.mp3",
+      "durationMs": 27325,
+      "sha256": "201cbf12211852ec08d71535dc99b7e25daad07d34ff4c78378371fffa2d470b",
+      "transcriptSha256": "f4b832a16e2ae6c4ecbaf2238e436786a58767dd39331efff0bdbf7eaa784a64",
+      "bytes": 328941
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-seer-udalo-in-arcatraz",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-seer-udalo-in-arcatraz.mp3",
+      "durationMs": 27200,
+      "sha256": "62f171b3e3db99238f82a197715a33a17d41723ae7a462f8e83acbf6833c04c7",
+      "transcriptSha256": "148dda62fc6348b870f9cc1bc54f5567cfff1e6c93e34a3b3dec58383f3c954c",
+      "bytes": 327501
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-the-word-atamal",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-the-word-atamal.mp3",
+      "durationMs": 26225,
+      "sha256": "14fc207e030c01cd856f7a635ade56fb2518c03856b4a59de97e17f86eef8b0d",
+      "transcriptSha256": "d604d9d116edf00baa82cedd660ec8143eeda8b30ee84f459ec800909b02738f",
+      "bytes": 315693
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-heart-of-fury",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-heart-of-fury.mp3",
+      "durationMs": 25525,
+      "sha256": "18760296d16bbba8bae06f3fbaf454ae7b62bad04f35147c1c7211652114c4c5",
+      "transcriptSha256": "96ce357a86156e1214c1ad34cd74891c9513caa5f063b51b946e617c2da7d00f",
+      "bytes": 307341
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-akama-promise-to-adal",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-akama-promise-to-adal.mp3",
+      "durationMs": 25950,
+      "sha256": "34bbfbe7a6b91bd6d9410274aeac9029e77fc8b1e3b9bdf2dd21d88f38845166",
+      "transcriptSha256": "ee7a2bce607c1aa70a957c25af24e24c3fb3b10daaf3ec243633c359616260a8",
+      "bytes": 312525
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-olum-found",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-olum-found.mp3",
+      "durationMs": 28150,
+      "sha256": "36986ac1bc3395731cbaa694aeb5edeaf8c6d79f5fe946a35108b43148dec93f",
+      "transcriptSha256": "f6b202b0d21e178de679e38767c5b8b8bd14877f9d8a3b295bafe29730243bc1",
+      "bytes": 338733
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-olums-last-choice",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-olums-last-choice.mp3",
+      "durationMs": 28000,
+      "sha256": "30fccc47299574bf3082faa44b6be99257ce4f6c2bbb189754c0f2772cb048fb",
+      "transcriptSha256": "640a9ace1c94148e13064b1f3dc4df6e91b36fb606626b530a7bb7f7de96a9ef",
+      "bytes": 337005
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-ruse-of-the-ashtongue",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-ruse-of-the-ashtongue.mp3",
+      "durationMs": 25700,
+      "sha256": "b041d2baf3c6f49e2a107a681b2e4bf39b774ad7bab72d50ab9dba53a6c360b5",
+      "transcriptSha256": "d4f5601892732a9c6e81d0922697fd6c1610c9bc0478542715569304740e2d75",
+      "bytes": 309357
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-hyjal-memory",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-hyjal-memory.mp3",
+      "durationMs": 26725,
+      "sha256": "f0d516599657c1a4dccb54aa00ead0f936c130daab6ae59b8f485cb7ad5f0f82",
+      "transcriptSha256": "50b993814a59d70bc349062291fa0ebaf2dfd11aeb567e68efbe45ea62c98410",
+      "bytes": 321741
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-hostage-soul",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-hostage-soul.mp3",
+      "durationMs": 28050,
+      "sha256": "7fc5d6ed15ded8443acdeccb2eb4c255fb5fd6e59af4010d148bf799a0ff1094",
+      "transcriptSha256": "b4daffb96ad442e21f876c505266b317740cdbf98b52d96b0452eebf638f69a8",
+      "bytes": 337581
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-diversion-at-the-southern-wall",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-diversion-at-the-southern-wall.mp3",
+      "durationMs": 24650,
+      "sha256": "62bc72acc5f8fe2194ac96532a12ff09cf4f7e874f5d7f276d9c1a229a12fea3",
+      "transcriptSha256": "e787910757407d97bc504626a50c58e0bf04a12f320641161d275188368c3056",
+      "bytes": 296973
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-seek-the-ashtongue",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-seek-the-ashtongue.mp3",
+      "durationMs": 25725,
+      "sha256": "893327ed1a3035773048a2c442ad41be0d733414c94f39112fa327fb4956dd0e",
+      "transcriptSha256": "23372de7b377c5e5d1c5e1fe226f4c912a17716b714feb8621861ce7a660dbf1",
+      "bytes": 309645
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-shade-of-akama",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-shade-of-akama.mp3",
+      "durationMs": 27825,
+      "sha256": "a4847f25fee5f3cfe62b0c8311b22ccf2a27f0b577f0cb3c8a8e7fd1feadbbd6",
+      "transcriptSha256": "fdeba0dc9e980b61c8971cebb016e100932a8f481866efc780d4445b1eaaee66",
+      "bytes": 334989
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-the-seers-open-the-way",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-the-seers-open-the-way.mp3",
+      "durationMs": 23475,
+      "sha256": "2533486c6c43dbcdff11da9e3ebcc05f19856a15927d16c5c58cf101aef25d35",
+      "transcriptSha256": "1eba27bf2ce6ca0820b158e04ffb1a86a264974a0f3086235a29ea1ea0a65baa",
+      "bytes": 282861
+    },
+    {
+      "nodeId": "akama-and-black-temple-story-fall-of-the-betrayer",
+      "guideId": "akama-and-black-temple-guide",
+      "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-fall-of-the-betrayer.mp3",
+      "durationMs": 24225,
+      "sha256": "f13313645591ed379a154eab199dfd46e6480f915d44853d2857935ae7a824eb",
+      "transcriptSha256": "ed8f2b2d0f7c6483a6706815499407dbc63dba57957274f764726312d6ebbe47",
+      "bytes": 291789
     }
   ]
 }

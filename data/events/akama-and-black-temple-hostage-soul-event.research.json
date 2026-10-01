@@ -1,0 +1,30 @@
+{
+  "id": "akama-and-black-temple-hostage-soul-event",
+  "kind": "event",
+  "name": "The hostage soul",
+  "slug": "akama-and-black-temple-hostage-soul",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "akama-black-temple-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Burning Crusade quest chronology; exact in-world dating unknown"
+  },
+  "summary": "When the phylactery returns to Akama, its power over souls makes his design plain: his own soul is imprisoned in the Black Temple, apart from the leader his people see. He intends to reclaim control of it before facing Illidan. The discovery makes this long deception personal without erasing its wider stakes. The quest records a plan and an intended use, not certainty that the artifact will succeed.",
+  "locationIds": [
+    "black-temple"
+  ],
+  "participantEntityIds": [
+    "akama"
+  ],
+  "sourceIds": [
+    "akama-hostage-soul-quest",
+    "akama-hyjal-artifact-quest"
+  ],
+  "claimIds": [
+    "akama-and-black-temple-hostage-soul-claim"
+  ],
+  "contentStatus": "research",
+  "causedByEventIds": [
+    "akama-and-black-temple-hyjal-memory-event"
+  ]
+}
