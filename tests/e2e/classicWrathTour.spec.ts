@@ -12,17 +12,19 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const viewport = page.viewportSize()!;
   const mapFrameBounds = await page.locator('.story-tour-map-frame').boundingBox();
   expect(mapFrameBounds).toMatchObject({ x: 0, y: 0, width: viewport.width, height: viewport.height });
-  await expect(page.locator('.story-tour-dot')).toHaveCount(5);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(6);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
 
   const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
   const scepter = page.getByRole('button', { name: /scepter-of-the-shifting-sands|Scepter/i });
   const dungeonSetTwo = page.getByRole('button', { name: /dungeon-set-two-veiled-blade|Veiled Blade/i });
+  const karazhan = page.getByRole('button', { name: /karazhan-masters-key-and-nightbane|Master’s Key and Nightbane/i });
   const outland = page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i });
   const northrend = page.getByRole('button', { name: /wrathgate-and-undercity|Wrathgate/i });
   await expect(onyxia).toBeVisible();
   await expect(scepter).toBeVisible();
   await expect(dungeonSetTwo).toBeVisible();
+  await expect(karazhan).toBeVisible();
   await expect(outland).toBeVisible();
   await expect(northrend).toBeVisible();
 
@@ -51,6 +53,17 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
     const params = new URL(page.url()).searchParams;
     return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
   }).toEqual(['story-tour', 'classic-to-wrath', 'dungeon-set-two-veiled-blade', 'story']);
+
+  await page.goto('/tours/classic-to-wrath');
+  await karazhan.hover();
+  const karazhanCard = page.locator('#story-tour-tip-karazhan-masters-key-and-nightbane');
+  await expect(karazhanCard.getByRole('heading', { name: 'Karazhan: The Master’s Key and Nightbane' })).toBeVisible();
+  await expect(karazhanCard).toContainText('Playable story');
+  await karazhan.click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
+  }).toEqual(['story-tour', 'classic-to-wrath', 'karazhan-masters-key-and-nightbane', 'story']);
 
   await page.goto('/tours/classic-to-wrath');
   await northrend.focus();
@@ -88,6 +101,14 @@ test('Play All advances completed stories in chronological order and restores th
   }).toEqual(['dungeon-set-two-veiled-blade', 'dungeon-set-two-story-two-faction-doors', 'all']);
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Two doors into the same story' })).toBeVisible();
+
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=dungeon-set-two-veiled-blade&node=dungeon-set-two-story-safe-for-now&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('storyline'), params.get('node'), params.get('play')];
+  }).toEqual(['karazhan-masters-key-and-nightbane', 'karazhan-masters-key-and-nightbane-story-reports-from-deadwind', 'all']);
+  await expect(page.getByRole('heading', { name: 'Reports from Deadwind Pass' })).toBeVisible();
   expect(pageErrors).toEqual([]);
 });
 

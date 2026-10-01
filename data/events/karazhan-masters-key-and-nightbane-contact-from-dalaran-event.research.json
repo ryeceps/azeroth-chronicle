@@ -1,0 +1,28 @@
+{
+  "id": "karazhan-masters-key-and-nightbane-contact-from-dalaran-event",
+  "kind": "event",
+  "name": "A report reaches Dalaran",
+  "slug": "karazhan-masters-key-and-nightbane-contact-from-dalaran",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "karazhan-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "The Burning Crusade · original quest chronology; exact dating unknown"
+  },
+  "summary": "Alturus sends his report to Archmage Cedric in Dalaran’s old crater. Cedric has learned that the tower sealed itself off and that the Violet Eye lost contact with agents within it. The new reading gives the old silence another urgency. Cedric points toward one person who might reopen the way: Khadgar, Medivh’s former apprentice, now living in Shattrath. The ruined crater is Dalaran’s original site, not the city’s later home in Northrend.",
+  "locationIds": [
+    "dalaran-crater"
+  ],
+  "participantEntityIds": [
+    "archmage-alturus",
+    "archmage-cedric"
+  ],
+  "sourceIds": [
+    "karazhan-official-attunement-overview",
+    "karazhan-key-quest-locators"
+  ],
+  "claimIds": [
+    "karazhan-masters-key-and-nightbane-contact-from-dalaran-claim"
+  ],
+  "contentStatus": "research"
+}

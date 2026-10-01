@@ -1,0 +1,1469 @@
+{
+  "storyId": "karazhan-masters-key-and-nightbane",
+  "status": "research",
+  "targetEditionBuild": "World of Warcraft: The Burning Crusade, original quest era patch 2.0.3 through 2.4.3, before Wrath of the Lich King changes. Exact reference build capture remains open.",
+  "editorialRule": "Match the named TBC game areas by their recognizable architecture, material palette, terrain, skyline and landmark forms while using original compositions. Record the reference and keep the in-game resemblance review explicitly open until a human compares each image with the matching client/build.",
+  "assetProvenance": "Original illustrations created with built-in OpenAI ImageGen. Four 2x2 environment contact sheets were cropped into distinct landscape assets. Character and object assets are transparent cutouts; Arcanagos and Nightbane have separate single-subject dragon art. Medivh’s portrait carries the user-requested Atiesh with a visible raven finial. All art is interpretive, not canonical game art or source evidence.",
+  "assetRecords": [
+    {
+      "id": "deadwind-pass-tower",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/deadwind-pass-tower.research.webp",
+      "area": "Karazhan above Deadwind Pass",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-6c417bf4-8454-4aba-9dec-9c00c239c9d2.png",
+      "sourceTile": "top-left",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "TBC-version Deadwind Pass: slate ravines, dead black trees, cold fog, a narrow road and the tall dark gothic tower with restrained violet magic.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for Karazhan above Deadwind Pass. Preserve these Burning Crusade-era traits: TBC-version Deadwind Pass: slate ravines, dead black trees, cold fog, a narrow road and the tall dark gothic tower with restrained violet magic. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 78304,
+      "modifiedAt": "2026-10-01T16:43:44.298Z",
+      "sha256": "639af4fcbf15faeecc02a7b6a1e82f1663c15e57b192a0cce25e1f71c4b56811"
+    },
+    {
+      "id": "karazhan-cellar",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/karazhan-cellar.research.webp",
+      "area": "The Master’s Cellar",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-6c417bf4-8454-4aba-9dec-9c00c239c9d2.png",
+      "sourceTile": "top-right",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Dark undercroft with worn masonry, underground water, small violet-blue arcane highlights and cellar-like vaults beneath the tower.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for The Master’s Cellar. Preserve these Burning Crusade-era traits: Dark undercroft with worn masonry, underground water, small violet-blue arcane highlights and cellar-like vaults beneath the tower. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 68940,
+      "modifiedAt": "2026-10-01T16:43:44.507Z",
+      "sha256": "a4ae01db40c883ce563da59f9f917f339cea835d6e05e9839938503baf7ed18f"
+    },
+    {
+      "id": "dalaran-crater",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/dalaran-crater.research.webp",
+      "area": "Dalaran Crater",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-6c417bf4-8454-4aba-9dec-9c00c239c9d2.png",
+      "sourceTile": "bottom-left",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "The abandoned crater-era city: a broad circular escarpment, broken pale stone, the incomplete violet protective dome and Lake Lordamere; not Northrend-era Dalaran.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for Dalaran Crater. Preserve these Burning Crusade-era traits: The abandoned crater-era city: a broad circular escarpment, broken pale stone, the incomplete violet protective dome and Lake Lordamere; not Northrend-era Dalaran. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 95980,
+      "modifiedAt": "2026-10-01T16:43:44.733Z",
+      "sha256": "ce61b2f9179c6fe4f86ad54887a6314e08fb5ef1242f89b34a897122d1df8c1a"
+    },
+    {
+      "id": "shattrath-terrace-of-light",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "area": "Shattrath, Terrace of Light",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-6c417bf4-8454-4aba-9dec-9c00c239c9d2.png",
+      "sourceTile": "bottom-right",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Outland’s pale draenei stone arches, open round terrace and luminous naaru crystal, with dusty ochre and broken terrain beyond the city.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for Shattrath, Terrace of Light. Preserve these Burning Crusade-era traits: Outland’s pale draenei stone arches, open round terrace and luminous naaru crystal, with dusty ochre and broken terrain beyond the city. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 88526,
+      "modifiedAt": "2026-10-01T16:43:44.954Z",
+      "sha256": "7792b5d44ff73ea102ded7b2f16678110386a7ca1cf62262f989621deb304553"
+    },
+    {
+      "id": "shadow-labyrinth",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/shadow-labyrinth.research.webp",
+      "area": "Shadow Labyrinth, Auchindoun",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-5df9f48c-e954-472b-9821-1d891b2895e0.png",
+      "sourceTile": "top-left",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Sunken draenei mausoleum: monumental pale carved stone, circular tiers and tall arches, violet shadows and restrained demonic light.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for Shadow Labyrinth, Auchindoun. Preserve these Burning Crusade-era traits: Sunken draenei mausoleum: monumental pale carved stone, circular tiers and tall arches, violet shadows and restrained demonic light. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 58022,
+      "modifiedAt": "2026-10-01T16:43:45.151Z",
+      "sha256": "82674f19be337aa49e92964e3fd8e6e19afffe5f97c8c79c904414b5315f8615"
+    },
+    {
+      "id": "steamvault",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/steamvault.research.webp",
+      "area": "The Steamvault, Coilfang Reservoir",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-5df9f48c-e954-472b-9821-1d891b2895e0.png",
+      "sourceTile": "top-right",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Water-filled cavern works with enormous dark iron pipes, naga-built pumps, turquoise channels and wet industrial stone.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for The Steamvault, Coilfang Reservoir. Preserve these Burning Crusade-era traits: Water-filled cavern works with enormous dark iron pipes, naga-built pumps, turquoise channels and wet industrial stone. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 86296,
+      "modifiedAt": "2026-10-01T16:43:45.362Z",
+      "sha256": "4d533fa6b13fe45ba41bea98a1d775e6f95c0ff762ffa77e1ca5b8a480dc65b2"
+    },
+    {
+      "id": "arcatraz",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/arcatraz.research.webp",
+      "area": "The Arcatraz, Tempest Keep",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-5df9f48c-e954-472b-9821-1d891b2895e0.png",
+      "sourceTile": "bottom-left",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "A crystalline Tempest Keep prison in Netherstorm: angular draenei craft, red-violet energy cells and a star-torn void beyond.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for The Arcatraz, Tempest Keep. Preserve these Burning Crusade-era traits: A crystalline Tempest Keep prison in Netherstorm: angular draenei craft, red-violet energy cells and a star-torn void beyond. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 74778,
+      "modifiedAt": "2026-10-01T16:43:45.566Z",
+      "sha256": "5c37d5e8847d64797124f87a8f3afbec8d867ce81383a273e7cd925c4df6b48c"
+    },
+    {
+      "id": "black-morass-memory",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/black-morass-memory.research.webp",
+      "area": "Black Morass memory, Caverns of Time",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-5df9f48c-e954-472b-9821-1d891b2895e0.png",
+      "sourceTile": "bottom-right",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Historical memory of the swamp at the Opening of the Dark Portal: drowned trees, mud flats, green-brown haze and the dark portal. Clearly label this as a past scene, not a current route.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for Black Morass memory, Caverns of Time. Preserve these Burning Crusade-era traits: Historical memory of the swamp at the Opening of the Dark Portal: drowned trees, mud flats, green-brown haze and the dark portal. Clearly label this as a past scene, not a current route. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 93098,
+      "modifiedAt": "2026-10-01T16:43:45.783Z",
+      "sha256": "73a890c7bbe06d7cbcdf163fd68e27045248b199510f531abd47fa458242dce6"
+    },
+    {
+      "id": "karazhan-guardian-library",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/karazhan-guardian-library.research.webp",
+      "area": "Guardian’s Library, Karazhan",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-f9274e77-f8e4-4387-b508-3114caa19646.png",
+      "sourceTile": "top-left",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Dark multi-level tower library with tall gothic columns, densely stacked books and galleries, brass lamps, wine-red cloth and cool arcane accents.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for Guardian’s Library, Karazhan. Preserve these Burning Crusade-era traits: Dark multi-level tower library with tall gothic columns, densely stacked books and galleries, brass lamps, wine-red cloth and cool arcane accents. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 82418,
+      "modifiedAt": "2026-10-01T16:43:45.990Z",
+      "sha256": "772082f2e9860414226f527c5c798036b22c3e03d886e868eaca83197ff2a8bf"
+    },
+    {
+      "id": "karazhan-masters-terrace",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/karazhan-masters-terrace.research.webp",
+      "area": "The Master’s Terrace, Karazhan",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-f9274e77-f8e4-4387-b508-3114caa19646.png",
+      "sourceTile": "top-right",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Exposed upper tower terrace with black stone parapets, rain-dark flagstones, stormy violet night and broad height over fogbound Deadwind Pass.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for The Master’s Terrace, Karazhan. Preserve these Burning Crusade-era traits: Exposed upper tower terrace with black stone parapets, rain-dark flagstones, stormy violet night and broad height over fogbound Deadwind Pass. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 69280,
+      "modifiedAt": "2026-10-01T16:43:46.194Z",
+      "sha256": "6dd74181c2e168c6ce70f820138ffe04114179c862c4d03f41555eadb39778f2"
+    },
+    {
+      "id": "area-52",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/area-52.research.webp",
+      "area": "Area 52, Netherstorm",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-f9274e77-f8e4-4387-b508-3114caa19646.png",
+      "sourceTile": "bottom-left",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Goblins’ expedition hub of riveted metal, patched canvas, pipes and raised walkways under Netherstorm’s violet sky and floating rock fragments.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for Area 52, Netherstorm. Preserve these Burning Crusade-era traits: Goblins’ expedition hub of riveted metal, patched canvas, pipes and raised walkways under Netherstorm’s violet sky and floating rock fragments. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 90096,
+      "modifiedAt": "2026-10-01T16:43:46.416Z",
+      "sha256": "897412095397346357b300f53df840a8e1388c0b30d3474f62e48dfaad194ddb"
+    },
+    {
+      "id": "deadwind-charred-bone-site",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/deadwind-charred-bone-site.research.webp",
+      "area": "Mountains south of Karazhan",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-f9274e77-f8e4-4387-b508-3114caa19646.png",
+      "sourceTile": "bottom-right",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Empty ashen slate crags, sparse cold grass and twisted branches in Deadwind Pass; a charred bone suggests the quest object without asserting an exact surveyed site.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for Mountains south of Karazhan. Preserve these Burning Crusade-era traits: Empty ashen slate crags, sparse cold grass and twisted branches in Deadwind Pass; a charred bone suggests the quest object without asserting an exact surveyed site. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 93164,
+      "modifiedAt": "2026-10-01T16:43:46.638Z",
+      "sha256": "a1145ac974689ab20647c5325c6445356859422e6d8800214d560b2e0203f428"
+    },
+    {
+      "id": "shattered-halls",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/shattered-halls.research.webp",
+      "area": "Shattered Halls, Hellfire Citadel",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-c3f92db5-467d-45b9-ba2f-ec4a543f356b.png",
+      "sourceTile": "top-left",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Blackened iron gates and brutal rust-red fortress stone in Hellfire Citadel, forge glow and restrained fel-orc palette.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for Shattered Halls, Hellfire Citadel. Preserve these Burning Crusade-era traits: Blackened iron gates and brutal rust-red fortress stone in Hellfire Citadel, forge glow and restrained fel-orc palette. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 77198,
+      "modifiedAt": "2026-10-01T16:43:46.844Z",
+      "sha256": "2f8e65c00cf497050e6b25676e2f38829776179ed6f36972dc1c1ee54a143b11"
+    },
+    {
+      "id": "sethekk-halls",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/sethekk-halls.research.webp",
+      "area": "Sethekk Halls, Auchindoun",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-c3f92db5-467d-45b9-ba2f-ec4a543f356b.png",
+      "sourceTile": "top-right",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Pale carved draenei mausoleum stone, high arches and broken mosaics under cool violet light, distinct from the dark industrial Shattered Halls.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for Sethekk Halls, Auchindoun. Preserve these Burning Crusade-era traits: Pale carved draenei mausoleum stone, high arches and broken mosaics under cool violet light, distinct from the dark industrial Shattered Halls. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 94788,
+      "modifiedAt": "2026-10-01T16:43:47.062Z",
+      "sha256": "88f1f5f573a2f346ff535d0bef33009013b03e1d2afff04f407cdf6043511c4b"
+    },
+    {
+      "id": "violet-eye-field-camp",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/violet-eye-field-camp.research.webp",
+      "area": "Violet Eye camp in Deadwind Pass",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-c3f92db5-467d-45b9-ba2f-ec4a543f356b.png",
+      "sourceTile": "bottom-left",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Ordered field tents and arcane survey instruments beneath the Karazhan tower, surrounded by slate cliffs, dead trees and violet-grey mist.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for Violet Eye camp in Deadwind Pass. Preserve these Burning Crusade-era traits: Ordered field tents and arcane survey instruments beneath the Karazhan tower, surrounded by slate cliffs, dead trees and violet-grey mist. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 77780,
+      "modifiedAt": "2026-10-01T16:43:47.283Z",
+      "sha256": "b2a6cb6b049da066cd9f2ab56ee528dc79f4fe789ea33c209acf5e6d7a73452f"
+    },
+    {
+      "id": "karazhan-great-hall",
+      "kind": "environment",
+      "file": "public/images/storylines/karazhan/karazhan-great-hall.research.webp",
+      "area": "The great hall, Karazhan",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-c3f92db5-467d-45b9-ba2f-ec4a543f356b.png",
+      "sourceTile": "bottom-right",
+      "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, patches 2.0.3–2.4.3; exact reference-client build comparison remains open.",
+      "recognizableTraits": "Abandoned tall gothic interior with near-black stone, tarnished brass lamps, tattered dark wine-red cloth and violet shadow.",
+      "visualReference": {
+        "editionBuild": "The Burning Crusade 2.0.3–2.4.3 in-game zone and instance presentation",
+        "locator": "https://www.wowhead.com/tbc/zone=3457/karazhan",
+        "comparisonCapture": "Not captured; human side-by-side in-game resemblance review remains open."
+      },
+      "generationPrompt": "Original painterly environment illustration for The great hall, Karazhan. Preserve these Burning Crusade-era traits: Abandoned tall gothic interior with near-black stone, tarnished brass lamps, tattered dark wine-red cloth and violet shadow. No UI, text or copied screenshot. This tile was cropped from an OpenAI ImageGen contact sheet.",
+      "generator": "OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.",
+      "transparency": false,
+      "visualReview": "Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.",
+      "byteLength": 74588,
+      "modifiedAt": "2026-10-01T16:43:47.486Z",
+      "sha256": "1421bc6d1f7b589ce439fb2f292d2ca8749c57cf5df6253631f0b15e2be445a7"
+    },
+    {
+      "id": "archmage-alturus",
+      "kind": "character",
+      "file": "public/images/storylines/karazhan/archmage-alturus.research.webp",
+      "representedBy": "Archmage Alturus",
+      "sourceArtifact": "exec-8d723970-ba85-4e50-874f-bde09345d8e0.png",
+      "sourceTile": "top-left",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Archmage Alturus: Human field leader of the Violet Eye outside Karazhan; rendered as an experienced silvering mage in practical blue-violet robes. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-official-attunement-overview",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23716331/get-attuned-and-face-the-overlords-of-outland"
+        },
+        {
+          "sourceId": "karazhan-key-quest-locators",
+          "url": "https://warcraft.wiki.gg/wiki/Karazhan_attunement"
+        },
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        }
+      ],
+      "byteLength": 267648,
+      "modifiedAt": "2026-10-01T16:48:05.361Z",
+      "sha256": "c3eff5f630fbdb34213b26bc42dbfe87b85470b0c83f8c10e36cdc27b9d7c148"
+    },
+    {
+      "id": "khadgar",
+      "kind": "character",
+      "file": "public/images/storylines/karazhan/khadgar.research.webp",
+      "representedBy": "Khadgar",
+      "sourceArtifact": "exec-8d723970-ba85-4e50-874f-bde09345d8e0.png",
+      "sourceTile": "top-middle",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Khadgar: Human archmage and former apprentice to Medivh, shown with long white hair and beard in restrained ivory, slate-blue and silver robes. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-official-attunement-overview",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23716331/get-attuned-and-face-the-overlords-of-outland"
+        },
+        {
+          "sourceId": "karazhan-key-quest-locators",
+          "url": "https://warcraft.wiki.gg/wiki/Karazhan_attunement"
+        },
+        {
+          "sourceId": "karazhan-entry-quest-text",
+          "url": "https://warcraft.wiki.gg/wiki/Entry_Into_Karazhan"
+        },
+        {
+          "sourceId": "karazhan-fragment-quest-text",
+          "url": "https://warcraft.wiki.gg/wiki/The_Second_and_Third_Fragments"
+        },
+        {
+          "sourceId": "karazhan-masters-touch-quest-text",
+          "url": "https://warcraft.wiki.gg/wiki/The_Master%27s_Touch"
+        }
+      ],
+      "byteLength": 284308,
+      "modifiedAt": "2026-10-01T16:48:05.580Z",
+      "sha256": "b8dd1d24e442a6760b25ec75a333bf35fd876b183ee828f705050ba8d2083f4a"
+    },
+    {
+      "id": "medivh",
+      "kind": "character",
+      "file": "public/images/storylines/karazhan/medivh.research.webp",
+      "representedBy": "Medivh",
+      "sourceArtifact": "exec-18101bd6-943a-42b9-b005-5f5e65401dc6.png",
+      "sourceTile": "top-right",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Medivh: The Guardian in his journal memory, carrying Atiesh, Greatstaff of the Guardian: a natural wooden staff with its iconic raven finial and violet ribbon. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Atiesh is clearly shown with a natural wood shaft, iconic raven finial and violet hanging ribbon. User-directed interpretation; compare to the intended TBC client item/model before approval.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-masters-touch-quest-text",
+          "url": "https://warcraft.wiki.gg/wiki/The_Master%27s_Touch"
+        },
+        {
+          "sourceId": "karazhan-official-attunement-overview",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23716331/get-attuned-and-face-the-overlords-of-outland"
+        },
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        },
+        {
+          "sourceId": "karazhan-atiesh-visual-reference",
+          "url": "https://www.wowhead.com/classic/item=22631/atiesh-greatstaff-of-the-guardian"
+        }
+      ],
+      "byteLength": 69420,
+      "modifiedAt": "2026-10-01T16:59:55.800Z",
+      "sha256": "852a967e3db753958454ee5094cf4c1e4ce30e368742c24d1b2fd6cba2996363"
+    },
+    {
+      "id": "archmage-cedric",
+      "kind": "character",
+      "file": "public/images/storylines/karazhan/archmage-cedric.research.webp",
+      "representedBy": "Archmage Cedric",
+      "sourceArtifact": "exec-8d723970-ba85-4e50-874f-bde09345d8e0.png",
+      "sourceTile": "top-right",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Archmage Cedric: Senior human mage of Dalaran and the Violet Eye, represented in formal, dark-violet robes. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-official-attunement-overview",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23716331/get-attuned-and-face-the-overlords-of-outland"
+        },
+        {
+          "sourceId": "karazhan-key-quest-locators",
+          "url": "https://warcraft.wiki.gg/wiki/Karazhan_attunement"
+        }
+      ],
+      "byteLength": 224680,
+      "modifiedAt": "2026-10-01T16:48:05.792Z",
+      "sha256": "97d88df10d847bbc13b5e518373008739cd7d0780bbc53a9dde0021f246e9bd1"
+    },
+    {
+      "id": "wravien",
+      "kind": "character",
+      "file": "public/images/storylines/karazhan/wravien.research.webp",
+      "representedBy": "Wravien",
+      "sourceArtifact": "exec-8d723970-ba85-4e50-874f-bde09345d8e0.png",
+      "sourceTile": "bottom-left",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Wravien: Human Violet Eye mage found among the books in Karazhan’s Guardian’s Library; tired and distracted by the tower. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        }
+      ],
+      "byteLength": 287030,
+      "modifiedAt": "2026-10-01T16:48:06.011Z",
+      "sha256": "ff9d92993dc0979a23a34a99cccbb06e2e5ef31b7366e80fd284d23dc97113bc"
+    },
+    {
+      "id": "gradav",
+      "kind": "character",
+      "file": "public/images/storylines/karazhan/gradav.research.webp",
+      "representedBy": "Gradav",
+      "sourceArtifact": "exec-8d723970-ba85-4e50-874f-bde09345d8e0.png",
+      "sourceTile": "bottom-middle",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Gradav: Human Violet Eye warlock in Karazhan’s library, absorbed in his own task and unable to direct the seeker beyond Kamsis. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        }
+      ],
+      "byteLength": 219058,
+      "modifiedAt": "2026-10-01T16:48:06.215Z",
+      "sha256": "3c16b1fb751663e5fb943add56a280afc804f12245445a45c2c8cb07c11bbeab"
+    },
+    {
+      "id": "kamsis",
+      "kind": "character",
+      "file": "public/images/storylines/karazhan/kamsis.research.webp",
+      "representedBy": "Kamsis",
+      "sourceArtifact": "exec-8d723970-ba85-4e50-874f-bde09345d8e0.png",
+      "sourceTile": "bottom-right",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Kamsis: Undead human Violet Eye conjurer whose shade helps direct the investigation toward the Shade of Aran and Medivh’s Journal. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        }
+      ],
+      "byteLength": 297142,
+      "modifiedAt": "2026-10-01T16:48:06.436Z",
+      "sha256": "52a11a1f1728cb3a7a9c7b0a71cdb2f9e790092574ae37a187fa50c96146dcb3"
+    },
+    {
+      "id": "kalynna-lathred",
+      "kind": "character",
+      "file": "public/images/storylines/karazhan/kalynna-lathred.research.webp",
+      "representedBy": "Kalynna Lathred",
+      "sourceArtifact": "exec-18101bd6-943a-42b9-b005-5f5e65401dc6.png",
+      "sourceTile": "top-left",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Kalynna Lathred: Human former Kirin Tor mage living in Area 52, who now studies arts she describes as forbidden to her old order. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        },
+        {
+          "sourceId": "karazhan-kalynnas-request-quest-text",
+          "url": "https://warcraft.wiki.gg/wiki/Kalynna%27s_Request"
+        }
+      ],
+      "byteLength": 166528,
+      "modifiedAt": "2026-10-01T16:48:06.640Z",
+      "sha256": "a2974b4a9c090622dae0a2218c4ae2270062ea947e5be30b21e1a952cf0c348b"
+    },
+    {
+      "id": "shade-of-aran",
+      "kind": "character",
+      "file": "public/images/storylines/karazhan/shade-of-aran.research.webp",
+      "representedBy": "Shade of Aran",
+      "sourceArtifact": "exec-18101bd6-943a-42b9-b005-5f5e65401dc6.png",
+      "sourceTile": "top-middle",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Shade of Aran: The spectral remains of Nielas Aran, Medivh’s father, encountered in Karazhan. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        }
+      ],
+      "byteLength": 215872,
+      "modifiedAt": "2026-10-01T16:48:06.850Z",
+      "sha256": "8542c3d04ecabba1713fb2f928d8f3b2b36adb3ba82e217aa92142553aeb54f1"
+    },
+    {
+      "id": "violet-eye-agents",
+      "kind": "faction",
+      "file": "public/images/storylines/karazhan/violet-eye-agents.research.webp",
+      "representedBy": "Violet Eye journal investigators",
+      "sourceArtifact": "exec-18101bd6-943a-42b9-b005-5f5e65401dc6.png",
+      "sourceTile": "bottom-right",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Violet Eye journal investigators: An interpretive ensemble representing the agents the Violet Eye sent into Karazhan to seek Medivh’s Journal; it does not identify an exact roster beyond the named agents. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-official-attunement-overview",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23716331/get-attuned-and-face-the-overlords-of-outland"
+        },
+        {
+          "sourceId": "karazhan-key-quest-locators",
+          "url": "https://warcraft.wiki.gg/wiki/Karazhan_attunement"
+        },
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        }
+      ],
+      "byteLength": 310796,
+      "modifiedAt": "2026-10-01T16:48:07.744Z",
+      "sha256": "640a0d623b33635cb2a725d3bf787406b4c9bfba863a6c8613ce95a97cb08e74"
+    },
+    {
+      "id": "arcanagos",
+      "kind": "character",
+      "file": "public/images/storylines/karazhan/arcanagos.research.webp",
+      "representedBy": "Arcanagos",
+      "sourceArtifact": "exec-20678ad6-3327-4ca4-8ef8-45aed2d0c527.png",
+      "sourceTile": "single transparent portrait",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Arcanagos: A living blue dragon in Medivh’s journal memory; the Nightbane quest identifies the revived dragon’s remains as Arcanagos. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        },
+        {
+          "sourceId": "karazhan-atiesh-visual-reference",
+          "url": "https://www.wowhead.com/classic/item=22631/atiesh-greatstaff-of-the-guardian"
+        }
+      ],
+      "byteLength": 122020,
+      "modifiedAt": "2026-10-01T16:59:56.163Z",
+      "sha256": "d6557bea37059cef02632318a2e0f0eea75cf4811be4eb135d386c20be733834"
+    },
+    {
+      "id": "nightbane",
+      "kind": "character",
+      "file": "public/images/storylines/karazhan/nightbane.research.webp",
+      "representedBy": "Nightbane",
+      "sourceArtifact": "exec-a2cc4a47-124d-4b2f-9005-fe5de56d1d7d.png",
+      "sourceTile": "single transparent portrait",
+      "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated interpretation of Nightbane: The undead form raised from Arcanagos’s charred remains in the TBC quest account; visual continuity with the living blue dragon is interpretive. Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        }
+      ],
+      "byteLength": 169982,
+      "modifiedAt": "2026-10-01T16:59:56.548Z",
+      "sha256": "49755a63b6e9b46915d929a60720f121addd49879ff0d415d3c35d50e41a1bdf"
+    },
+    {
+      "id": "masters-key",
+      "kind": "artifact",
+      "file": "public/images/storylines/karazhan/masters-key.research.webp",
+      "representedBy": "The Master’s Key",
+      "sourceArtifact": "exec-f29b841c-7e2f-4c84-9fb6-6147a9bd294c.png",
+      "sourceTile": "edited, isolated tile based on top-left object",
+      "targetEditionBuild": "Burning Crusade quest-era object; exact appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated object illustration: The key Khadgar restores and Medivh enables. Its precise shape is not treated as a sourced historical claim. No readable writing or text; interpretive, not canonical game art.",
+      "generator": "OpenAI ImageGen edit to remove isolated color artifacts, then alpha-capable WebP conversion.",
+      "transparency": true,
+      "visualReview": "Object role and silhouette checked against the authored scene. Exact in-client model comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-masters-touch-quest-text",
+          "url": "https://warcraft.wiki.gg/wiki/The_Master%27s_Touch"
+        },
+        {
+          "sourceId": "karazhan-official-attunement-overview",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23716331/get-attuned-and-face-the-overlords-of-outland"
+        },
+        {
+          "sourceId": "karazhan-key-quest-locators",
+          "url": "https://warcraft.wiki.gg/wiki/Karazhan_attunement"
+        }
+      ],
+      "byteLength": 43170,
+      "modifiedAt": "2026-10-01T16:59:56.814Z",
+      "sha256": "36bf05cd45d13e102e6168947af348283718484d9a5c1d101146a8a6596639a7"
+    },
+    {
+      "id": "masters-key-fragments",
+      "kind": "artifact",
+      "file": "public/images/storylines/karazhan/masters-key-fragments.research.webp",
+      "representedBy": "The Master’s Key fragments",
+      "sourceArtifact": "exec-ffd02175-ed23-47dd-a101-750d061bfc4a.png",
+      "sourceTile": "contact-sheet tile 1",
+      "targetEditionBuild": "Burning Crusade quest-era object; exact appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated object illustration: Three editorially illustrated fragments representing the divided key; no fragment appearance is asserted as canonical. No readable writing or text; interpretive, not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent object contact-sheet tile cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Object role and silhouette checked against the authored scene. Exact in-client model comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-official-attunement-overview",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23716331/get-attuned-and-face-the-overlords-of-outland"
+        },
+        {
+          "sourceId": "karazhan-key-quest-locators",
+          "url": "https://warcraft.wiki.gg/wiki/Karazhan_attunement"
+        },
+        {
+          "sourceId": "karazhan-entry-quest-text",
+          "url": "https://warcraft.wiki.gg/wiki/Entry_Into_Karazhan"
+        },
+        {
+          "sourceId": "karazhan-fragment-quest-text",
+          "url": "https://warcraft.wiki.gg/wiki/The_Second_and_Third_Fragments"
+        }
+      ],
+      "byteLength": 141204,
+      "modifiedAt": "2026-10-01T16:48:08.140Z",
+      "sha256": "417bd6526b5bc0a869b5f28e195eae790bfa051d317d5fbe9eedc811206b1b3c"
+    },
+    {
+      "id": "medivhs-journal",
+      "kind": "artifact",
+      "file": "public/images/storylines/karazhan/medivhs-journal.research.webp",
+      "representedBy": "Medivh’s Journal",
+      "sourceArtifact": "exec-ffd02175-ed23-47dd-a101-750d061bfc4a.png",
+      "sourceTile": "contact-sheet tile 2",
+      "targetEditionBuild": "Burning Crusade quest-era object; exact appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated object illustration: The journal whose pages let the seeker experience a memory of Medivh and Arcanagos. No readable writing or text; interpretive, not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent object contact-sheet tile cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Object role and silhouette checked against the authored scene. Exact in-client model comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        },
+        {
+          "sourceId": "karazhan-atiesh-visual-reference",
+          "url": "https://www.wowhead.com/classic/item=22631/atiesh-greatstaff-of-the-guardian"
+        }
+      ],
+      "byteLength": 296068,
+      "modifiedAt": "2026-10-01T16:48:08.354Z",
+      "sha256": "c60a6a86118933f517c42be930e3405081e6930c157d36c37d4a6afc721c81c5"
+    },
+    {
+      "id": "charred-bone-fragment",
+      "kind": "artifact",
+      "file": "public/images/storylines/karazhan/charred-bone-fragment.research.webp",
+      "representedBy": "Charred Bone Fragment",
+      "sourceArtifact": "exec-ffd02175-ed23-47dd-a101-750d061bfc4a.png",
+      "sourceTile": "contact-sheet tile 3",
+      "targetEditionBuild": "Burning Crusade quest-era object; exact appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated object illustration: The dragon-bone quest object from the mountains south of Karazhan; the illustration is not a precise find-site map. No readable writing or text; interpretive, not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent object contact-sheet tile cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Object role and silhouette checked against the authored scene. Exact in-client model comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        },
+        {
+          "sourceId": "karazhan-kalynnas-request-quest-text",
+          "url": "https://warcraft.wiki.gg/wiki/Kalynna%27s_Request"
+        }
+      ],
+      "byteLength": 178964,
+      "modifiedAt": "2026-10-01T16:48:08.553Z",
+      "sha256": "742358f5ac450480e09d8c7f29a2f756b61fce7d551123681883e148c2fbd2e0"
+    },
+    {
+      "id": "blackened-urn",
+      "kind": "artifact",
+      "file": "public/images/storylines/karazhan/blackened-urn.research.webp",
+      "representedBy": "Blackened Urn",
+      "sourceArtifact": "exec-ffd02175-ed23-47dd-a101-750d061bfc4a.png",
+      "sourceTile": "contact-sheet tile 4",
+      "targetEditionBuild": "Burning Crusade quest-era object; exact appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated object illustration: The urn used in the original Burning Crusade Nightbane summoning quest; appearance is an original interpretation. No readable writing or text; interpretive, not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent object contact-sheet tile cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Object role and silhouette checked against the authored scene. Exact in-client model comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-journal-and-nightbane-quest-chain",
+          "url": "https://warcraft.wiki.gg/wiki/Nightbane_quest_chain"
+        }
+      ],
+      "byteLength": 228400,
+      "modifiedAt": "2026-10-01T16:48:08.752Z",
+      "sha256": "5d0e69f7b35586193fb3e68b297b0537762a744ee3f75535877313d1cb069bd6"
+    },
+    {
+      "id": "violet-scrying-crystal",
+      "kind": "artifact",
+      "file": "public/images/storylines/karazhan/violet-scrying-crystal.research.webp",
+      "representedBy": "Violet Scrying Crystal",
+      "sourceArtifact": "exec-ffd02175-ed23-47dd-a101-750d061bfc4a.png",
+      "sourceTile": "contact-sheet tile 5",
+      "targetEditionBuild": "Burning Crusade quest-era object; exact appearance/build comparison remains open.",
+      "generationPrompt": "Original isolated object illustration: Alturus’s instrument for measuring arcane traces beneath Karazhan, illustrated as a research object. No readable writing or text; interpretive, not canonical game art.",
+      "generator": "OpenAI ImageGen; transparent object contact-sheet tile cropped and converted to alpha-capable WebP.",
+      "transparency": true,
+      "visualReview": "Object role and silhouette checked against the authored scene. Exact in-client model comparison remains a human review gate.",
+      "sourceReferences": [
+        {
+          "sourceId": "karazhan-key-quest-locators",
+          "url": "https://warcraft.wiki.gg/wiki/Karazhan_attunement"
+        }
+      ],
+      "byteLength": 156626,
+      "modifiedAt": "2026-10-01T16:48:08.948Z",
+      "sha256": "c5719a0ce98f451cba592327b89c97e745c721f7df4ca23d0a6fd538897efa2f"
+    }
+  ],
+  "sceneLedger": [
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-reports-from-deadwind",
+      "title": "Reports from Deadwind Pass",
+      "environmentPath": "public/images/storylines/karazhan/deadwind-pass-tower.research.webp",
+      "gameArea": "Karazhan above Deadwind Pass",
+      "recognizableTraits": "TBC-version Deadwind Pass: slate ravines, dead black trees, cold fog, a narrow road and the tall dark gothic tower with restrained violet magic.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "archmage-alturus",
+          "name": "Archmage Alturus",
+          "image": "images/storylines/karazhan/archmage-alturus.research.webp"
+        },
+        {
+          "id": "violet-eye-agents",
+          "name": "Violet Eye journal investigators",
+          "image": "images/storylines/karazhan/violet-eye-agents.research.webp"
+        }
+      ],
+      "artifacts": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-reports-from-deadwind-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-beneath-the-tower",
+      "title": "Beneath the sealed tower",
+      "environmentPath": "public/images/storylines/karazhan/karazhan-cellar.research.webp",
+      "gameArea": "The Master’s Cellar",
+      "recognizableTraits": "Dark undercroft with worn masonry, underground water, small violet-blue arcane highlights and cellar-like vaults beneath the tower.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "archmage-alturus",
+          "name": "Archmage Alturus",
+          "image": "images/storylines/karazhan/archmage-alturus.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "violet-scrying-crystal",
+          "image": "images/storylines/karazhan/violet-scrying-crystal.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-beneath-the-tower-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-contact-from-dalaran",
+      "title": "A report reaches Dalaran",
+      "environmentPath": "public/images/storylines/karazhan/dalaran-crater.research.webp",
+      "gameArea": "Dalaran Crater",
+      "recognizableTraits": "The abandoned crater-era city: a broad circular escarpment, broken pale stone, the incomplete violet protective dome and Lake Lordamere; not Northrend-era Dalaran.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "archmage-alturus",
+          "name": "Archmage Alturus",
+          "image": "images/storylines/karazhan/archmage-alturus.research.webp"
+        },
+        {
+          "id": "archmage-cedric",
+          "name": "Archmage Cedric",
+          "image": "images/storylines/karazhan/archmage-cedric.research.webp"
+        }
+      ],
+      "artifacts": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-contact-from-dalaran-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-khadgar-in-shattrath",
+      "title": "Khadgar in Shattrath",
+      "environmentPath": "public/images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "gameArea": "Shattrath, Terrace of Light",
+      "recognizableTraits": "Outland’s pale draenei stone arches, open round terrace and luminous naaru crystal, with dusty ochre and broken terrain beyond the city.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "khadgar",
+          "name": "Khadgar",
+          "image": "images/storylines/karazhan/khadgar.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "masters-key-fragments",
+          "image": "images/storylines/karazhan/masters-key-fragments.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-khadgar-in-shattrath-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-a-key-in-three-pieces",
+      "title": "A key in three pieces",
+      "environmentPath": "public/images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "gameArea": "Shattrath, Terrace of Light",
+      "recognizableTraits": "Outland’s pale draenei stone arches, open round terrace and luminous naaru crystal, with dusty ochre and broken terrain beyond the city.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "khadgar",
+          "name": "Khadgar",
+          "image": "images/storylines/karazhan/khadgar.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "masters-key-fragments",
+          "image": "images/storylines/karazhan/masters-key-fragments.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-a-key-in-three-pieces-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-first-key-fragment",
+      "title": "The first fragment in Auchindoun",
+      "environmentPath": "public/images/storylines/karazhan/shadow-labyrinth.research.webp",
+      "gameArea": "Shadow Labyrinth, Auchindoun",
+      "recognizableTraits": "Sunken draenei mausoleum: monumental pale carved stone, circular tiers and tall arches, violet shadows and restrained demonic light.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "khadgar",
+          "name": "Khadgar",
+          "image": "images/storylines/karazhan/khadgar.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "masters-key-fragments",
+          "image": "images/storylines/karazhan/masters-key-fragments.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-first-key-fragment-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-second-key-fragment",
+      "title": "A fragment under the Steamvault",
+      "environmentPath": "public/images/storylines/karazhan/steamvault.research.webp",
+      "gameArea": "The Steamvault, Coilfang Reservoir",
+      "recognizableTraits": "Water-filled cavern works with enormous dark iron pipes, naga-built pumps, turquoise channels and wet industrial stone.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "khadgar",
+          "name": "Khadgar",
+          "image": "images/storylines/karazhan/khadgar.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "masters-key-fragments",
+          "image": "images/storylines/karazhan/masters-key-fragments.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-second-key-fragment-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-third-key-fragment",
+      "title": "The prison above Netherstorm",
+      "environmentPath": "public/images/storylines/karazhan/arcatraz.research.webp",
+      "gameArea": "The Arcatraz, Tempest Keep",
+      "recognizableTraits": "A crystalline Tempest Keep prison in Netherstorm: angular draenei craft, red-violet energy cells and a star-torn void beyond.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "khadgar",
+          "name": "Khadgar",
+          "image": "images/storylines/karazhan/khadgar.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "masters-key-fragments",
+          "image": "images/storylines/karazhan/masters-key-fragments.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-third-key-fragment-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-the-masters-touch",
+      "title": "The Master’s Touch",
+      "environmentPath": "public/images/storylines/karazhan/black-morass-memory.research.webp",
+      "gameArea": "Black Morass memory, Caverns of Time",
+      "recognizableTraits": "Historical memory of the swamp at the Opening of the Dark Portal: drowned trees, mud flats, green-brown haze and the dark portal. Clearly label this as a past scene, not a current route.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "khadgar",
+          "name": "Khadgar",
+          "image": "images/storylines/karazhan/khadgar.research.webp"
+        },
+        {
+          "id": "medivh",
+          "name": "Medivh",
+          "image": "images/storylines/karazhan/medivh.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "masters-key",
+          "image": "images/storylines/karazhan/masters-key.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Explicit time-travel or journal memory. It is not a present-day route or contemporary event.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-the-masters-touch-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-return-to-khadgar",
+      "title": "The key returns to Shattrath",
+      "environmentPath": "public/images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "gameArea": "Shattrath, Terrace of Light",
+      "recognizableTraits": "Outland’s pale draenei stone arches, open round terrace and luminous naaru crystal, with dusty ochre and broken terrain beyond the city.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "khadgar",
+          "name": "Khadgar",
+          "image": "images/storylines/karazhan/khadgar.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "masters-key",
+          "image": "images/storylines/karazhan/masters-key.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-return-to-khadgar-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-the-journal-search",
+      "title": "A separate search for the journal",
+      "environmentPath": "public/images/storylines/karazhan/violet-eye-field-camp.research.webp",
+      "gameArea": "Violet Eye camp in Deadwind Pass",
+      "recognizableTraits": "Ordered field tents and arcane survey instruments beneath the Karazhan tower, surrounded by slate cliffs, dead trees and violet-grey mist.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "archmage-alturus",
+          "name": "Archmage Alturus",
+          "image": "images/storylines/karazhan/archmage-alturus.research.webp"
+        },
+        {
+          "id": "violet-eye-agents",
+          "name": "Violet Eye journal investigators",
+          "image": "images/storylines/karazhan/violet-eye-agents.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "medivhs-journal",
+          "image": "images/storylines/karazhan/medivhs-journal.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Explicit editorial join: the key and Nightbane chains are distinct quest paths; no causal or prerequisite edge is asserted.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-the-journal-search-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-the-lost-investigators",
+      "title": "The investigators among the books",
+      "environmentPath": "public/images/storylines/karazhan/karazhan-guardian-library.research.webp",
+      "gameArea": "Guardian’s Library, Karazhan",
+      "recognizableTraits": "Dark multi-level tower library with tall gothic columns, densely stacked books and galleries, brass lamps, wine-red cloth and cool arcane accents.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "wravien",
+          "name": "Wravien",
+          "image": "images/storylines/karazhan/wravien.research.webp"
+        },
+        {
+          "id": "gradav",
+          "name": "Gradav",
+          "image": "images/storylines/karazhan/gradav.research.webp"
+        },
+        {
+          "id": "kamsis",
+          "name": "Kamsis",
+          "image": "images/storylines/karazhan/kamsis.research.webp"
+        },
+        {
+          "id": "violet-eye-agents",
+          "name": "Violet Eye journal investigators",
+          "image": "images/storylines/karazhan/violet-eye-agents.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "medivhs-journal",
+          "image": "images/storylines/karazhan/medivhs-journal.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-the-lost-investigators-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-the-shade-and-journal",
+      "title": "The Shade of Aran and the journal",
+      "environmentPath": "public/images/storylines/karazhan/karazhan-great-hall.research.webp",
+      "gameArea": "The great hall, Karazhan",
+      "recognizableTraits": "Abandoned tall gothic interior with near-black stone, tarnished brass lamps, tattered dark wine-red cloth and violet shadow.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "kamsis",
+          "name": "Kamsis",
+          "image": "images/storylines/karazhan/kamsis.research.webp"
+        },
+        {
+          "id": "shade-of-aran",
+          "name": "Shade of Aran",
+          "image": "images/storylines/karazhan/shade-of-aran.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "medivhs-journal",
+          "image": "images/storylines/karazhan/medivhs-journal.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-the-shade-and-journal-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-memory-of-arcanagos",
+      "title": "A memory of Arcanagos",
+      "environmentPath": "public/images/storylines/karazhan/karazhan-masters-terrace.research.webp",
+      "gameArea": "The Master’s Terrace, Karazhan",
+      "recognizableTraits": "Exposed upper tower terrace with black stone parapets, rain-dark flagstones, stormy violet night and broad height over fogbound Deadwind Pass.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "medivh",
+          "name": "Medivh",
+          "image": "images/storylines/karazhan/medivh.research.webp"
+        },
+        {
+          "id": "arcanagos",
+          "name": "Arcanagos",
+          "image": "images/storylines/karazhan/arcanagos.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "medivhs-journal",
+          "image": "images/storylines/karazhan/medivhs-journal.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Explicit time-travel or journal memory. It is not a present-day route or contemporary event.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-memory-of-arcanagos-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-charred-evidence",
+      "title": "A question among the ashes",
+      "environmentPath": "public/images/storylines/karazhan/deadwind-charred-bone-site.research.webp",
+      "gameArea": "Mountains south of Karazhan",
+      "recognizableTraits": "Empty ashen slate crags, sparse cold grass and twisted branches in Deadwind Pass; a charred bone suggests the quest object without asserting an exact surveyed site.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "archmage-alturus",
+          "name": "Archmage Alturus",
+          "image": "images/storylines/karazhan/archmage-alturus.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "charred-bone-fragment",
+          "image": "images/storylines/karazhan/charred-bone-fragment.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-charred-evidence-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-kalynnas-aid",
+      "title": "Kalynna’s offer",
+      "environmentPath": "public/images/storylines/karazhan/area-52.research.webp",
+      "gameArea": "Area 52, Netherstorm",
+      "recognizableTraits": "Goblins’ expedition hub of riveted metal, patched canvas, pipes and raised walkways under Netherstorm’s violet sky and floating rock fragments.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "archmage-alturus",
+          "name": "Archmage Alturus",
+          "image": "images/storylines/karazhan/archmage-alturus.research.webp"
+        },
+        {
+          "id": "kalynna-lathred",
+          "name": "Kalynna Lathred",
+          "image": "images/storylines/karazhan/kalynna-lathred.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "charred-bone-fragment",
+          "image": "images/storylines/karazhan/charred-bone-fragment.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-kalynnas-aid-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-kalynnas-request",
+      "title": "Two books, two halls",
+      "environmentPath": "public/images/storylines/karazhan/shattered-halls.research.webp",
+      "gameArea": "Shattered Halls, Hellfire Citadel",
+      "recognizableTraits": "Blackened iron gates and brutal rust-red fortress stone in Hellfire Citadel, forge glow and restrained fel-orc palette.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "kalynna-lathred",
+          "name": "Kalynna Lathred",
+          "image": "images/storylines/karazhan/kalynna-lathred.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "charred-bone-fragment",
+          "image": "images/storylines/karazhan/charred-bone-fragment.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-kalynnas-request-claim"
+      ]
+    },
+    {
+      "nodeId": "karazhan-masters-key-and-nightbane-story-nightbane-raised",
+      "title": "Nightbane on the terrace",
+      "environmentPath": "public/images/storylines/karazhan/karazhan-masters-terrace.research.webp",
+      "gameArea": "The Master’s Terrace, Karazhan",
+      "recognizableTraits": "Exposed upper tower terrace with black stone parapets, rain-dark flagstones, stormy violet night and broad height over fogbound Deadwind Pass.",
+      "referenceEditionBuild": "The Burning Crusade original quest era, patch 2.0.3–2.4.3; no in-client capture claimed.",
+      "cast": [
+        {
+          "id": "kalynna-lathred",
+          "name": "Kalynna Lathred",
+          "image": "images/storylines/karazhan/kalynna-lathred.research.webp"
+        },
+        {
+          "id": "archmage-alturus",
+          "name": "Archmage Alturus",
+          "image": "images/storylines/karazhan/archmage-alturus.research.webp"
+        },
+        {
+          "id": "nightbane",
+          "name": "Nightbane",
+          "image": "images/storylines/karazhan/nightbane.research.webp"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "blackened-urn",
+          "image": "images/storylines/karazhan/blackened-urn.research.webp"
+        },
+        {
+          "id": "charred-bone-fragment",
+          "image": "images/storylines/karazhan/charred-bone-fragment.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and objects"
+      ],
+      "chronologyNote": "Quest order is retained where the source states a chain. Separate destination scenes do not imply an unsourced travel route.",
+      "visualReview": "Generated image and area-specific palette checked. In-game side-by-side comparison with the matching TBC build remains open.",
+      "claimIds": [
+        "karazhan-masters-key-and-nightbane-nightbane-raised-claim"
+      ]
+    }
+  ]
+}

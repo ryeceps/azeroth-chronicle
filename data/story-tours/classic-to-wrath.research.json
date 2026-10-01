@@ -8,7 +8,7 @@
   "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
   "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
   "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth.",
-  "chronologyNote": "Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, then the Ahn'Qiraj campaign, then the 1.10-era Dungeon Set 2 story), The Burning Crusade, and Wrath of the Lich King. It organizes access and does not claim the selected storylines caused one another. The Scepter guide’s ancient prologue remains an explicitly earlier flashback; the Dungeon Set 2 companion routes are an editorial memorial sequence rather than a single canonical character’s complete path.",
+  "chronologyNote": "Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, Scepter, then the 1.10-era Dungeon Set 2 story), The Burning Crusade (Karazhan before the Outland Cipher of Damnation preview), and Wrath of the Lich King (Wrathgate preview). This sequence organizes access and does not claim the selected storylines caused one another. The Scepter’s ancient prologue is an earlier flashback; Dungeon Set 2’s companion fates are alternative memorial accounts; the Karazhan Master’s Key and Nightbane chains are linked editorially, not by a shared quest prerequisite.",
   "regions": [
     {
       "id": "kalimdor",
@@ -97,6 +97,20 @@
       "locationLabel": "Eastern Plaguelands, Stratholme and Blackrock Mountain"
     },
     {
+      "storylineId": "karazhan-masters-key-and-nightbane",
+      "regionIds": [
+        "eastern-kingdoms",
+        "outland"
+      ],
+      "mapPositionPercent": [
+        77,
+        66
+      ],
+      "order": 4,
+      "periodLabel": "The Burning Crusade · Karazhan",
+      "locationLabel": "Deadwind Pass · key fragments across Outland"
+    },
+    {
       "storylineId": "cipher-of-damnation-oronok",
       "regionIds": [
         "outland"
@@ -105,7 +119,7 @@
         82,
         79
       ],
-      "order": 4,
+      "order": 5,
       "periodLabel": "The Burning Crusade",
       "locationLabel": "Shadowmoon Valley · Outland"
     },
@@ -118,11 +132,11 @@
         54,
         18
       ],
-      "order": 5,
+      "order": 6,
       "periodLabel": "Wrath of the Lich King",
       "locationLabel": "Dragonblight · Northrend"
     }
   ],
-  "reviewNote": "The playable entries are the Classic Onyxia, Scepter and Dungeon Set 2 stories. Outland's Cipher of Damnation and Northrend's Wrathgate remain research previews and stay outside Play All. Original-client quest/build, chronology, map-art and in-game location resemblance reviews remain open for human approval.",
+  "reviewNote": "Playable entries: Classic Onyxia, Scepter, Dungeon Set 2, and the TBC Karazhan research story. The Outland Cipher of Damnation and Northrend Wrathgate remain research previews outside Play All. Original-client quest/build, chronology, map art and matching in-game location/model resemblance review remain open for human approval.",
   "contentStatus": "research"
 }

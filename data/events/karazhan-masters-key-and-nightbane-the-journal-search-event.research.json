@@ -1,0 +1,27 @@
+{
+  "id": "karazhan-masters-key-and-nightbane-the-journal-search-event",
+  "kind": "event",
+  "name": "A separate search for the journal",
+  "slug": "karazhan-masters-key-and-nightbane-the-journal-search",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "karazhan-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "The Burning Crusade · original quest chronology; exact dating unknown"
+  },
+  "summary": "The Violet Eye’s next inquiry is related by the tower, not by a shared quest dependency: after establishing a foothold inside Karazhan and earning the required standing, Alturus asks the adventurer to find Medivh’s Journal. Agents sent before have not returned; Wravien was the last named seeker. This is a distinct research chain joined here for its evidence about the tower’s history. It does not follow automatically from handing Khadgar the key.",
+  "locationIds": [
+    "violet-eye-field-camp"
+  ],
+  "participantEntityIds": [
+    "archmage-alturus",
+    "violet-eye-agents"
+  ],
+  "sourceIds": [
+    "karazhan-journal-and-nightbane-quest-chain"
+  ],
+  "claimIds": [
+    "karazhan-masters-key-and-nightbane-the-journal-search-claim"
+  ],
+  "contentStatus": "research"
+}
