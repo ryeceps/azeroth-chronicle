@@ -6,6 +6,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { fullTourItinerary, fullTourUrl } from '../../lib/story/fullTour';
+import { storyTourItinerary, storyTourPlayAllUrl, storyTourStoryUrl } from '../../lib/story/storyTour';
 import { useEraStore } from '../../app/state/eraStore';
 
 function narrationDurationMs(narration: string): number {
@@ -20,9 +21,15 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
   const itinerary = fullTourItinerary(staticLoreRepository.getDataset());
   const requestedNodeId = params.get('node');
   const fullTour = params.get('tour') === 'full';
+  const storyTourMode = params.get('tour') === 'story-tour';
+  const storyTourPlayAll = storyTourMode && params.get('play') === 'all';
+  const storyTour = storyTourMode ? staticLoreRepository.findStoryTourBySlug(params.get('collection') ?? '') : undefined;
+  const storyTourStops = storyTour && storyTourPlayAll
+    ? storyTourItinerary(staticLoreRepository.getDataset(), storyTour)
+    : [];
   const selectedEraTour = params.get('tour') === 'era';
-  const storyline = params.get('tour') === 'storyline' ? staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '') : undefined;
-  const tourActive = fullTour || selectedEraTour || Boolean(storyline?.storyGuideId === guideId);
+  const storyline = params.get('tour') === 'storyline' || storyTourMode ? staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '') : undefined;
+  const tourActive = fullTour || selectedEraTour || storyTourMode || Boolean(storyline?.storyGuideId === guideId);
   const setEra = useEraStore((state) => state.setEra);
   const guide = staticLoreRepository.findStoryGuide(guideId);
   const activeGuideId = useStoryStore((state) => state.guideId);
@@ -50,7 +57,7 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
       return;
     }
     if (!guide) return;
-    if (fullTour && requestedNodeId && guide.nodeIds.includes(requestedNodeId)) {
+    if ((fullTour || storyTourMode) && requestedNodeId && guide.nodeIds.includes(requestedNodeId)) {
       if (activeGuideId !== guide.id) beginStoryGuide(guide.id, requestedNodeId, activeGuideId ? status : 'playing');
       else if (activeNodeId !== requestedNodeId || autoStartedGuide.current !== guide.id) {
         const requested = staticLoreRepository.findStoryNode(requestedNodeId);
@@ -62,23 +69,32 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
     if (autoStartedGuide.current === guide.id) return;
     autoStartedGuide.current = guide.id;
     if (!node) beginStoryGuide(guide.id);
-  }, [tourActive, guide, node, fullTour, requestedNodeId, activeGuideId, activeNodeId, status]);
+  }, [tourActive, guide, node, fullTour, storyTourMode, requestedNodeId, activeGuideId, activeNodeId, status]);
 
+  const storyTourSlug = params.get('collection') ?? undefined;
+  const storylineSlug = storyline?.slug;
   const finish = useCallback(() => {
     if (!guide) return;
+    if (storyTourMode && storyTourSlug) {
+      endStoryGuide();
+      navigate(`/tours/${storyTourSlug}?complete=1`);
+      return;
+    }
     if (fullTour) {
       endStoryGuide();
       navigate('/?tour=complete');
       return;
     }
     endStoryGuide();
-    navigate(storyline ? `/storylines/${storyline.slug}` : `/?tour=era-complete&era=${guide.eraId}`);
-  }, [fullTour, guide, navigate, storyline]);
+    navigate(storylineSlug ? `/storylines/${storylineSlug}` : `/?tour=era-complete&era=${guide.eraId}`);
+  }, [fullTour, guide, navigate, storylineSlug, storyTourSlug, storyTourMode]);
 
   const currentIndex = node ? guide?.nodeIds.indexOf(node.id) ?? -1 : -1;
-  const tourIndex = itinerary.findIndex((stop) => stop.guideId === guideId && stop.nodeId === node?.id);
-  const previous = fullTour ? itinerary[tourIndex - 1]?.nodeId : guide?.nodeIds[currentIndex - 1];
-  const next = fullTour ? itinerary[tourIndex + 1]?.nodeId : guide?.nodeIds[currentIndex + 1];
+  const globalItinerary = fullTour ? itinerary : storyTourStops;
+  const globalSequence = fullTour || storyTourPlayAll;
+  const tourIndex = globalItinerary.findIndex((stop) => stop.guideId === guideId && stop.nodeId === node?.id);
+  const previous = globalSequence ? globalItinerary[tourIndex - 1]?.nodeId : guide?.nodeIds[currentIndex - 1];
+  const next = globalSequence ? globalItinerary[tourIndex + 1]?.nodeId : guide?.nodeIds[currentIndex + 1];
   const activate = useCallback((nodeId: string) => {
     const target = staticLoreRepository.findStoryNode(nodeId);
     if (!target) return;
@@ -89,8 +105,16 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
       if (stop.guideId !== useStoryStore.getState().guideId) beginStoryGuide(stop.guideId, nodeId, useStoryStore.getState().status);
       else enterStoryNode(target);
       navigate(fullTourUrl(stop), { replace: true });
+    } else if (storyTourMode && storyTour) {
+      const stop = storyTourItinerary(staticLoreRepository.getDataset(), storyTour)
+        .find((item) => item.nodeId === nodeId);
+      if (!stop) return;
+      setEra(stop.eraId);
+      if (stop.guideId !== useStoryStore.getState().guideId) beginStoryGuide(stop.guideId, nodeId, useStoryStore.getState().status);
+      else enterStoryNode(target);
+      navigate(storyTourPlayAll ? storyTourPlayAllUrl(storyTour, stop) : storyTourStoryUrl(storyTour, stop), { replace: true });
     } else enterStoryNode(target);
-  }, [fullTour, navigate, setEra]);
+  }, [fullTour, navigate, setEra, storyTour, storyTourMode, storyTourPlayAll]);
 
   const durationMs = node?.durationMs ?? (node ? narrationDurationMs(node.narration) : 0);
 
@@ -216,7 +240,7 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
         </div>
         <div className="story-actions">
           <button type="button" disabled={!previous} onClick={() => previous && activate(previous)}>Previous</button>
-          <button type="button" onClick={() => next ? activate(next) : finish()}>{next ? 'Next' : fullTour ? 'Continue the journey' : storyline ? 'Finish this storyline' : 'Finish this era'}</button>
+          <button type="button" onClick={() => next ? activate(next) : finish()}>{next ? 'Next' : fullTour ? 'Continue the journey' : storyTourPlayAll ? 'Finish this story tour' : storyline ? 'Finish this storyline' : 'Finish this era'}</button>
         </div>
       </div>
       <div className="story-timer" role="progressbar" aria-label="Time until next story point">

@@ -11,6 +11,7 @@ import { EraTourPage } from '../pages/EraTourPage';
 import { LandingPage } from '../pages/LandingPage';
 import { StorylineLibraryPage } from '../pages/StorylineLibraryPage';
 import { StorylinePage } from '../pages/StorylinePage';
+import { StoryTourPage } from '../pages/StoryTourPage';
 
 const MapPage = lazy(() => import('../pages/MapPage').then((module) => ({ default: module.MapPage })));
 const ArchiveGalleryPage = lazy(() => import('../pages/ArchiveGalleryPage').then((module) => ({ default: module.ArchiveGalleryPage })));
@@ -23,6 +24,7 @@ export function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/tours" element={<ToursPage />} />
         <Route path="/tours/eras/:slug" element={<EraTourPage />} />
+        <Route path="/tours/:slug" element={<StoryTourPage />} />
         <Route
           path="/map"
           element={(

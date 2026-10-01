@@ -591,15 +591,76 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .era-tour-card h2 { margin: 0 0 10px; font: 600 23px/1.25 Cinzel, Georgia, serif; }
 .era-tour-card p { max-width: 690px; color: var(--muted); line-height: 1.6; font-size: 14px; }
 .era-tour-card small { color: var(--gold); }
+.story-tour-feature { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 28px; margin: 35px 0 50px; padding: 26px; border: 1px solid rgba(213,169,95,.55); background: linear-gradient(125deg, rgba(29,43,49,.94), rgba(11,19,26,.97)); }
+.story-tour-feature h2 { margin: 7px 0 10px; font: 600 26px/1.2 Cinzel, Georgia, serif; }
+.story-tour-feature p:not(.eyebrow) { max-width: 660px; margin: 0; color: var(--muted); line-height: 1.65; }
+.story-tour-feature .tour-primary { white-space: nowrap; }
 .tour-entry-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 22px; margin-top: 26px; }
 .era-tour-entry > a { display: inline-block; margin-bottom: 35px; }
 .era-tour-entry section h2 { font: 600 28px Cinzel, Georgia, serif; }
+
+.story-tour-page { flex: 1; width: min(1460px, 100%); margin: 0 auto; padding: 26px clamp(18px, 4vw, 60px) 100px; }
+.story-tour-breadcrumbs { display: flex; gap: 10px; align-items: center; min-height: 42px; color: var(--muted); font-size: 12px; }
+.story-tour-breadcrumbs a { text-underline-offset: 4px; }
+.story-tour-header { display: grid; grid-template-columns: minmax(0, 1fr) minmax(250px, 320px); gap: clamp(24px, 5vw, 72px); align-items: end; padding: clamp(35px, 6vw, 75px) 0 34px; }
+.story-tour-header h1 { margin: 8px 0 10px; font: 600 clamp(42px, 6vw, 76px)/1.05 Cinzel, Georgia, serif; letter-spacing: -.025em; text-wrap: balance; }
+.story-tour-edition { margin: 0 0 20px; color: var(--gold); font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.story-tour-summary { max-width: 740px; margin: 0; color: #d0c8ba; font: 18px/1.65 Georgia, Cambria, serif; }
+.story-tour-play-all { padding: 18px; border: 1px solid var(--line); background: rgba(13,19,24,.82); }
+.story-tour-play-all .tour-primary { width: 100%; }
+.story-tour-play-all > p:last-child { margin: 12px 0 0; color: var(--muted); font-size: 11px; text-align: center; }
+.tour-primary:disabled { cursor: not-allowed; opacity: .55; filter: none; }
+.story-tour-complete { padding: 13px 16px; border-left: 2px solid var(--gold); color: #f1ddb5; background: rgba(213,169,95,.08); }
+.story-tour-section-heading { display: flex; justify-content: space-between; align-items: end; gap: 18px; margin-bottom: 18px; }
+.story-tour-section-heading h2 { margin: 5px 0 0; font: 600 clamp(24px, 3.5vw, 36px)/1.2 Cinzel, Georgia, serif; }
+.story-tour-section-heading > span { flex: 0 0 auto; color: var(--muted); font-size: 12px; }
+.story-tour-filter { min-height: 42px; padding: 9px 13px; border: 1px solid var(--line); color: #e1d6c3; background: rgba(13,19,24,.8); cursor: pointer; }
+.story-tour-filter[aria-pressed="true"] { border-color: var(--gold); color: #f4dcaa; }
+.story-tour-map-frame { position: relative; isolation: isolate; overflow: hidden; aspect-ratio: 3 / 2; border: 1px solid rgba(205,179,126,.4); background: #071017; box-shadow: 0 16px 52px rgba(0,0,0,.35); }
+.story-tour-map-frame > img { position: absolute; z-index: -1; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.story-tour-region { position: absolute; display: grid; gap: 2px; min-width: 112px; min-height: 48px; padding: 7px 11px; transform: translate(-50%,-50%); border: 1px solid rgba(216,190,139,.65); border-radius: 2px; color: #f1e2c4; background: rgba(6,12,17,.86); box-shadow: 0 3px 18px rgba(0,0,0,.55); text-align: left; cursor: pointer; }
+.story-tour-region:hover, .story-tour-region:focus-visible { border-color: #ffe3a7; background: rgba(16,27,31,.96); }
+.story-tour-region:focus-visible { outline: 2px solid #f1d69e; outline-offset: 3px; }
+.story-tour-region.is-active { border-color: #ffdc98; color: #fff0cf; background: rgba(120,82,27,.88); box-shadow: 0 0 0 2px rgba(255,220,152,.18), 0 5px 22px rgba(0,0,0,.6); }
+.story-tour-region span { font: 600 12px/1.15 Cinzel, Georgia, serif; }
+.story-tour-region small { color: #d8c9aa; font-size: 9px; }
+.story-tour-region[data-kind="world-fragment"] { border-radius: 18px; border-style: dashed; }
+.story-tour-map-caption { position: absolute; right: 12px; bottom: 10px; padding: 6px 9px; color: #dbceb6; background: rgba(4,9,13,.82); font-size: 9px; letter-spacing: .12em; text-transform: uppercase; }
+.story-tour-map-note { max-width: 95ch; margin: 12px 0 0; color: #aaa293; font-size: 10px; line-height: 1.6; }
+.story-tour-stories { margin-top: clamp(42px, 6vw, 72px); }
+.story-tour-placards { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.story-tour-placard { display: grid; grid-template-columns: 44px minmax(0,1fr) minmax(175px,auto); align-items: start; gap: 18px; padding: 22px; border: 1px solid var(--line); background: linear-gradient(125deg, rgba(25,38,43,.92), rgba(11,16,22,.97)); }
+.story-tour-number { display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid rgba(213,169,95,.55); color: var(--gold); font: 600 13px Cinzel, Georgia, serif; }
+.story-tour-placard-copy .eyebrow { margin: 0 0 8px; }
+.story-tour-placard h3 { margin: 0 0 6px; font: 600 clamp(19px, 2.2vw, 24px)/1.25 Cinzel, Georgia, serif; }
+.story-tour-placard-copy > p:not(.eyebrow) { max-width: 800px; color: #bdb6aa; font-size: 13px; line-height: 1.55; }
+.story-tour-placard-copy .story-tour-location { margin: 0 0 8px; color: #e2c27d; font-size: 11px; font-weight: 600; }
+.story-tour-placard-copy .story-tour-status { margin-bottom: 0; color: #928f84; font-size: 10px; }
+.story-tour-placard-actions { display: grid; gap: 12px; justify-items: stretch; align-self: center; text-align: center; }
+.story-tour-placard-actions a { color: #d8c8a8; font-size: 11px; line-height: 1.5; text-underline-offset: 3px; }
+.story-tour-order-note { margin-top: 35px; padding: 16px 0; border-top: 1px solid var(--line); color: #b3ac9f; font-size: 11px; line-height: 1.65; }
+.story-tour-order-note summary { color: #d8c8a8; cursor: pointer; }
 @media (max-width: 680px) {
   .landing-page { padding: 125px 22px 60px; }
   .landing-actions { flex-direction: column; align-items: stretch; gap: 12px; }
   .landing-actions > .tour-primary, .landing-actions .tour-secondary { width: 100%; min-height: 48px; }
   .landing-caption { line-height: 1.7; }
   .tour-library { padding-top: 36px; }
+  .story-tour-feature { grid-template-columns: minmax(0,1fr); gap: 18px; margin: 26px 0 38px; padding: 20px; }
+  .story-tour-feature .tour-primary { width: 100%; }
+  .story-tour-page { padding: 14px 14px 70px; }
+  .story-tour-header { grid-template-columns: minmax(0,1fr); gap: 22px; padding: 32px 0 26px; }
+  .story-tour-header h1 { font-size: clamp(38px, 11vw, 58px); }
+  .story-tour-summary { font-size: 16px; }
+  .story-tour-play-all .tour-primary { min-height: 46px; }
+  .story-tour-region { min-width: 84px; min-height: 42px; gap: 1px; padding: 5px 7px; }
+  .story-tour-region span { font-size: 9px; }
+  .story-tour-region small { font-size: 8px; }
+  .story-tour-map-caption { right: 5px; bottom: 5px; padding: 4px 6px; font-size: 7px; }
+  .story-tour-placard { grid-template-columns: 34px minmax(0,1fr); gap: 11px; padding: 16px 13px; }
+  .story-tour-number { width: 32px; height: 32px; }
+  .story-tour-placard-actions { grid-column: 2; justify-items: start; grid-template-columns: auto auto; align-items: center; gap: 12px; text-align: left; }
+  .story-tour-placard-actions .tour-primary { min-height: 42px; padding: 10px 13px; }
   .era-tour-card { grid-template-columns: minmax(0, 1fr) 18px; gap: 12px; }
   .era-tour-card > .eyebrow { grid-column: 1 / -1; margin: 0; }
   .topbar nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }

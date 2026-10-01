@@ -22,8 +22,9 @@ export function filterPublishedDataset(dataset: LoreDataset): LoreDataset {
   const campaigns = published(dataset.campaigns);
   const storyGuides = published(dataset.storyGuides);
   const storylines = published(dataset.storylines);
+  const storyTours = published(dataset.storyTours);
   const visibleIds = new Set([
-    ...eras, ...entities, ...events, ...battles, ...routes, ...campaigns, ...storyGuides, ...storylines,
+    ...eras, ...entities, ...events, ...battles, ...routes, ...campaigns, ...storyGuides, ...storylines, ...storyTours,
   ].map((record) => record.id));
   const storyNodeIds = new Set(storyGuides.flatMap((guide) => guide.nodeIds));
   const storyNodes = dataset.storyNodes.filter((node) => storyNodeIds.has(node.id));
@@ -69,5 +70,6 @@ export function filterPublishedDataset(dataset: LoreDataset): LoreDataset {
     storyGuides,
     storyNodes,
     storylines,
+    storyTours,
   };
 }

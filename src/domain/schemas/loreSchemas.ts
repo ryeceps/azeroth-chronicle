@@ -293,12 +293,8 @@ export const storylineSchema = z.object({
   sourceIds: z.array(id),
   reviewNote: z.string().min(1),
   storyGuideId: id.optional(),
-  fullTourPlacement: z.object({ afterNodeId: id, order: z.number().int().nonnegative() }).optional(),
   contentStatus,
 }).superRefine((value, context) => {
-  if (Boolean(value.storyGuideId) !== Boolean(value.fullTourPlacement)) {
-    context.addIssue({ code: 'custom', message: 'Playable storylines require a full-tour placement; previews cannot have one.' });
-  }
   if (!value.eraIds.includes(value.primaryEraId)) {
     context.addIssue({ code: 'custom', message: 'Primary era must be one of the related eras.' });
   }
@@ -313,6 +309,60 @@ export const storylineSchema = z.object({
       context.addIssue({ code: 'custom', path: ['chapters', index, 'eraId'], message: 'Chapter era must be a related era.' });
     }
   });
+});
+
+export const storyTourRegionSchema = z.object({
+  id,
+  title: z.string().min(1),
+  worldspaceId: id,
+  kind: z.enum(['continent', 'world-fragment']),
+  layoutPercent: z.tuple([z.number().min(0).max(100), z.number().min(0).max(100)]),
+  accessibleDescription: z.string().min(1),
+});
+
+export const storyTourEntrySchema = z.object({
+  storylineId: id,
+  regionIds: z.array(id).min(1),
+  order: z.number().int().nonnegative(),
+  periodLabel: z.string().min(1),
+  locationLabel: z.string().min(1),
+}).superRefine((value, context) => {
+  if (new Set(value.regionIds).size !== value.regionIds.length) {
+    context.addIssue({ code: 'custom', path: ['regionIds'], message: 'Story tour region references must be unique.' });
+  }
+});
+
+export const storyTourSchema = z.object({
+  id,
+  slug: id,
+  title: z.string().min(1),
+  editionLabel: z.string().min(1),
+  summary: z.string().min(1),
+  opening: z.string().min(1),
+  mapAsset: z.string().regex(/^images\/tours\/[a-z0-9-]+\/[a-z0-9-]+\.(?:webp|png)$/),
+  mapAlt: z.string().min(1),
+  mapInterpretationNote: z.string().min(1),
+  chronologyNote: z.string().min(1),
+  regions: z.array(storyTourRegionSchema).min(2),
+  entries: z.array(storyTourEntrySchema).min(1),
+  reviewNote: z.string().min(1),
+  contentStatus,
+}).superRefine((value, context) => {
+  const regionIds = value.regions.map((region) => region.id);
+  if (new Set(regionIds).size !== regionIds.length) {
+    context.addIssue({ code: 'custom', path: ['regions'], message: 'Story tour region IDs must be unique.' });
+  }
+  if (new Set(value.entries.map((entry) => entry.storylineId)).size !== value.entries.length) {
+    context.addIssue({ code: 'custom', path: ['entries'], message: 'A storyline may appear only once in a story tour.' });
+  }
+  if (new Set(value.entries.map((entry) => entry.order)).size !== value.entries.length) {
+    context.addIssue({ code: 'custom', path: ['entries'], message: 'Story tour entry order must be unique.' });
+  }
+  value.entries.forEach((entry, index) => entry.regionIds.forEach((regionId) => {
+    if (!regionIds.includes(regionId)) {
+      context.addIssue({ code: 'custom', path: ['entries', index, 'regionIds'], message: `Unknown region ID: ${regionId}` });
+    }
+  }));
 });
 
 export const relationshipSchema = z.object({
@@ -364,4 +414,5 @@ export const loreDatasetSchema = z.object({
   storyGuides: z.array(storyGuideSchema),
   storyNodes: z.array(storyNodeSchema),
   storylines: z.array(storylineSchema),
+  storyTours: z.array(storyTourSchema),
 });

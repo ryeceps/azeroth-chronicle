@@ -1,35 +1,61 @@
 import { describe, expect, it } from 'vitest';
 import { loadDataset } from '../../src/lib/lore/loadDataset';
 import { fullTourItinerary, fullTourUrl } from '../../src/lib/story/fullTour';
+import { storyTourItinerary, storyTourPlayAllUrl, storyTourStoryUrl } from '../../src/lib/story/storyTour';
 import { validateDatasetReferences } from '../../src/lib/lore/validateDataset';
-import { storylineSchema } from '../../src/domain/schemas/loreSchemas';
+import { storylineSchema, storyTourSchema } from '../../src/domain/schemas/loreSchemas';
 
-describe('integrated full tour', () => {
-  it('includes every era and playable story chapter exactly once, with Onyxia after Scepter and before Outland', () => {
+describe('separate era and story tours', () => {
+  it('keeps the full-history tour to era guides only', () => {
     const dataset = loadDataset();
     const stops = fullTourItinerary(dataset);
-    const expected = dataset.storyGuides.filter(guide => dataset.eras.some(era => era.storyGuideId === guide.id) || dataset.storylines.some(story => story.storyGuideId === guide.id)).flatMap(guide => guide.nodeIds);
-    expect(stops.map(stop => stop.nodeId).sort()).toEqual(expected.sort());
-    expect(new Set(stops.map(stop => stop.nodeId)).size).toBe(stops.length);
-    const start = stops.findIndex(stop => stop.storylineSlug === 'scepter-of-the-shifting-sands');
-    const storyGuide = dataset.storyGuides.find(guide => guide.id === stops[start]!.guideId)!;
-    const onyxiaStart = stops.findIndex(stop => stop.storylineSlug === 'stormwind-onyxia-conspiracy');
-    const onyxiaGuide = dataset.storyGuides.find(guide => guide.id === stops[onyxiaStart]!.guideId)!;
-    expect(stops[start - 1]!.nodeId).toBe('adventurers-story-gates');
-    expect(onyxiaStart).toBe(start + storyGuide.nodeIds.length);
-    expect(stops[onyxiaStart + onyxiaGuide.nodeIds.length]!.nodeId).toBe('adventurers-story-outland');
-    expect(fullTourUrl(stops[start]!)).toContain('storyline=scepter-of-the-shifting-sands');
-    expect(fullTourUrl(stops[onyxiaStart]!)).toContain('storyline=stormwind-onyxia-conspiracy');
-    expect(stops.every(stop => dataset.storyNodes.some(node => node.id === stop.nodeId))).toBe(true);
+    const eraGuideIds = new Set(dataset.eras.flatMap((era) => era.storyGuideId ? [era.storyGuideId] : []));
+    const expected = dataset.storyGuides.filter((guide) => eraGuideIds.has(guide.id)).flatMap((guide) => guide.nodeIds);
+    expect(stops.map((stop) => stop.nodeId).sort()).toEqual(expected.sort());
+    expect(new Set(stops.map((stop) => stop.nodeId)).size).toBe(stops.length);
+    expect(stops.every((stop) => stop.storylineSlug === undefined)).toBe(true);
+    const gates = stops.findIndex((stop) => stop.nodeId === 'adventurers-story-gates');
+    expect(stops[gates + 1]?.nodeId).toBe('adventurers-story-outland');
+    expect(fullTourUrl(stops[gates]!)).not.toContain('storyline=');
   });
-  it('rejects missing placement, wrong era anchors, and ambiguous ordering', () => {
+
+  it('plays only authored playable placards in explicit story chronology', () => {
     const dataset = loadDataset();
-    const story = dataset.storylines.find(item => item.storyGuideId)!;
-    expect(storylineSchema.safeParse({ ...story, fullTourPlacement: undefined }).success).toBe(false);
-    story.fullTourPlacement = { afterNodeId: 'cosmic-origins-story-light-shadow', order: 0 };
-    expect(validateDatasetReferences(dataset).some(issue => issue.path.includes('fullTourPlacement'))).toBe(true);
-    story.fullTourPlacement = { afterNodeId: 'adventurers-story-gates', order: 0 };
-    dataset.storylines.push({ ...story, id: 'duplicate-story', slug: 'duplicate-story' });
-    expect(validateDatasetReferences(dataset).some(issue => issue.message.includes('unique at this chapter'))).toBe(true);
+    const tour = dataset.storyTours.find((item) => item.slug === 'classic-to-wrath')!;
+    const stops = storyTourItinerary(dataset, tour);
+    const playableStorylines = tour.entries
+      .sort((a, b) => a.order - b.order)
+      .flatMap((entry) => {
+        const story = dataset.storylines.find((item) => item.id === entry.storylineId)!;
+        return story.storyGuideId ? [story.slug] : [];
+      });
+    expect([...new Set(stops.map((stop) => stop.storylineSlug))]).toEqual(playableStorylines);
+    expect(playableStorylines).toEqual(['stormwind-onyxia-conspiracy', 'scepter-of-the-shifting-sands']);
+    expect(stops.length).toBe(21 + 22);
+    expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('play=all');
+    expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('collection=classic-to-wrath');
+    expect(storyTourStoryUrl(tour, stops[0]!)).toContain('play=story');
+    expect(storyTourItinerary(dataset, tour).filter((stop) => stop.storylineSlug === playableStorylines[0]).at(-1)?.nodeId)
+      .not.toBe(stops.find((stop) => stop.storylineSlug === playableStorylines[1])?.nodeId);
+  });
+
+  it('allows standalone story guides without era-tour insertion and validates collection entries', () => {
+    const dataset = loadDataset();
+    const storyline = dataset.storylines.find((item) => item.storyGuideId)!;
+    expect(storylineSchema.safeParse(storyline).success).toBe(true);
+
+    const tour = dataset.storyTours[0]!;
+    expect(storyTourSchema.safeParse(tour).success).toBe(true);
+    const duplicateOrder = structuredClone(tour);
+    duplicateOrder.entries[1]!.order = duplicateOrder.entries[0]!.order;
+    expect(storyTourSchema.safeParse(duplicateOrder).success).toBe(false);
+
+    const missingRegion = structuredClone(dataset);
+    missingRegion.storyTours[0]!.entries[0]!.regionIds = ['unknown-region'];
+    expect(validateDatasetReferences(missingRegion).some((issue) => issue.path.includes('storyTours'))).toBe(true);
+
+    const missingStoryline = structuredClone(dataset);
+    missingStoryline.storyTours[0]!.entries[0]!.storylineId = 'unknown-story';
+    expect(validateDatasetReferences(missingStoryline).some((issue) => issue.path.includes('storyTours') && issue.message.includes('Unknown storyline'))).toBe(true);
   });
 });

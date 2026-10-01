@@ -228,7 +228,6 @@ const storyline = {
   summary:'A conspiracy reaches from the Burning Steppes into Stormwind’s court while a separate Horde intelligence path follows Rexxar toward Onyxia’s lair.',
   opening:'The city seemed to rest behind pale stone and blue banners. Yet the black dragon’s influence had entered its court, and far away the Horde began a different search beneath the same mountain.',
   primaryEraId:eraId, eraIds:[eraId], chapters, sourceIds:storySourceIds, storyGuideId:guideId,
-  fullTourPlacement:{ afterNodeId:'adventurers-story-gates', order:1 },
   reviewNote:'Complete illustrated research telling with 21 scenes, distinct Alliance and Horde chains, separate Drakefire Amulet attunement, and the original Classic lair encounter. The quest spine was mapped from accessible secondary Classic locators; original quest text/build comparison, in-client visual comparison and human lore/art review are still required before promotion. The chains are not an Alliance–Horde causal link or one canonical player. Later Wrath raid changes are excluded.',
   contentStatus:'research',
 };

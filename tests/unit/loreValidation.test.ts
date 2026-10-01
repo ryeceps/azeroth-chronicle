@@ -838,9 +838,10 @@ describe('lore dataset', () => {
     expect(storylineSchema.safeParse({ ...scepter, chapters: [{ ...scepter.chapters[0], eraId: 'war-of-the-ancients' }, ...scepter.chapters.slice(1)] }).success).toBe(false);
   });
 
-  it('keeps Onyxia as the next illustrated research story after the Scepter', () => {
+  it('keeps Onyxia in the separate Classic-to-Wrath story atlas', () => {
     const data = loadDataset();
     const story = data.storylines.find((item) => item.id === 'stormwind-onyxia-conspiracy')!;
+    const storyTour = data.storyTours.find((item) => item.slug === 'classic-to-wrath')!;
     const guide = data.storyGuides.find((item) => item.id === story.storyGuideId)!;
     const nodes = guide.nodeIds.map((id) => data.storyNodes.find((node) => node.id === id)!);
     const visualLedger = JSON.parse(readFileSync(resolve('docs/research/onyxia-visual-assets.json'), 'utf8')) as {
@@ -855,7 +856,11 @@ describe('lore dataset', () => {
     expect(story.title).toBe('The Dragon in Stormwind');
     expect(story.contentStatus).toBe('research');
     expect(story.chapters).toHaveLength(3);
-    expect(story.fullTourPlacement).toEqual({ afterNodeId: 'adventurers-story-gates', order: 1 });
+    expect(story.storyGuideId).toBe('stormwind-onyxia-conspiracy-guide');
+    expect(storyTour.entries.map((entry) => entry.storylineId).slice(0, 2)).toEqual([
+      'stormwind-onyxia-conspiracy',
+      'scepter-of-the-shifting-sands',
+    ]);
     expect(guide.nodeIds).toHaveLength(21);
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length)).toBe(true);
     expect(nodes.slice(0, 9).every((node) => node.entityIds?.includes('alliance-adventurers')

@@ -8,6 +8,7 @@ import { useMapViewStore } from '../app/state/mapViewStore';
 import { resolveEraMapState } from '../lib/map/resolveEraMapState';
 import { useStoryStore } from '../app/state/storyStore';
 import { fullTourItinerary, fullTourUrl } from '../lib/story/fullTour';
+import { storyTourItinerary } from '../lib/story/storyTour';
 import { endStoryGuide } from '../lib/story/storyRuntime';
 import { Navigate, useNavigate, useSearchParams } from 'react-router-dom';
 import { useState } from 'react';
@@ -31,6 +32,17 @@ export function MapPage() {
       if (fallback) return <Navigate to={fullTourUrl(fallback)} replace />;
     }
   }
+  if (params.get('tour') === 'story-tour') {
+    const dataset = staticLoreRepository.getDataset();
+    const tour = staticLoreRepository.findStoryTourBySlug(params.get('collection') ?? '');
+    const storyline = staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '');
+    const era = staticLoreRepository.findEraBySlug(params.get('era') ?? '');
+    const stop = tour && storyTourItinerary(dataset, tour).find((item) =>
+      item.storylineSlug === storyline?.slug && item.nodeId === params.get('node'));
+    if (!tour || !storyline || !stop || era?.id !== stop.eraId || !['story', 'all'].includes(params.get('play') ?? '')) {
+      return <Navigate to={tour ? `/tours/${tour.slug}` : '/tours'} replace />;
+    }
+  }
   return <AtlasMapPage />;
 }
 
@@ -43,11 +55,17 @@ function AtlasMapPage() {
   const eraId = useEraStore((state) => state.eraId);
   const era = staticLoreRepository.findEraBySlug(params.get('era') ?? '') ?? dataset.eras.find((item) => item.id === eraId) ?? dataset.eras[0];
   const storylineMode = params.get('tour') === 'storyline';
-  const storyline = (storylineMode || params.get('tour') === 'full') ? staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '') : undefined;
+  const storyTourMode = params.get('tour') === 'story-tour';
+  const storyTour = storyTourMode ? staticLoreRepository.findStoryTourBySlug(params.get('collection') ?? '') : undefined;
+  const storyline = (storylineMode || params.get('tour') === 'full' || storyTourMode) ? staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '') : undefined;
   const requestedEra = staticLoreRepository.findEraBySlug(params.get('era') ?? '');
   const validStoryline = storyline && requestedEra?.id === storyline.primaryEraId
     && staticLoreRepository.findStoryGuide(storyline.storyGuideId ?? '')?.eraId === storyline.primaryEraId;
-  const guideId = validStoryline ? storyline.storyGuideId : era?.storyGuideId;
+  const storyTourStop = storyTour && storyline
+    ? storyTourItinerary(dataset, storyTour).find((item) => item.storylineSlug === storyline.slug && item.nodeId === params.get('node'))
+    : undefined;
+  const validStoryTour = storyTourMode && storyTourStop && requestedEra?.id === storyTourStop.eraId;
+  const guideId = validStoryTour ? storyTourStop.guideId : validStoryline ? storyline.storyGuideId : era?.storyGuideId;
   const activeGuideId = useStoryStore((state) => state.guideId);
   const activeNodeId = useStoryStore((state) => state.nodeId);
   const immersive = Boolean(activeNodeId && activeGuideId === guideId);
@@ -86,7 +104,8 @@ function AtlasMapPage() {
   );
   const geometry = allGeometry;
   if (storylineMode && !validStoryline) return <Navigate to="/storylines" replace />;
-  if (params.get('tour') !== 'full' && params.get('tour') !== 'era' && !storylineMode) {
+  if (storyTourMode && (!validStoryTour || !storyTour)) return <Navigate to={storyTour ? `/tours/${storyTour.slug}` : '/tours'} replace />;
+  if (params.get('tour') !== 'full' && params.get('tour') !== 'era' && !storylineMode && !storyTourMode) {
     return <Navigate to={`/tours/eras/${era.slug}`} replace />;
   }
 
@@ -99,7 +118,7 @@ function AtlasMapPage() {
             <div className="story-world-actions">
             <div ref={setVoiceControlsHost} />
             <button type="button" onClick={() => {
-              navigate(storylineMode && storyline ? `/storylines/${storyline.slug}` : '/tours', { replace: true });
+              navigate(storyTourMode && storyTour ? `/tours/${storyTour.slug}` : storylineMode && storyline ? `/storylines/${storyline.slug}` : '/tours', { replace: true });
               endStoryGuide();
             }}>Leave tour</button>
             </div>

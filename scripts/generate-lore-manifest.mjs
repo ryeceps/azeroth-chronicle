@@ -18,6 +18,7 @@ const collectionDirectories = {
   claims: 'claims',
   relationships: 'relationships',
   storylines: 'storylines',
+  storyTours: 'story-tours',
 };
 
 async function recordsIn(directory) {

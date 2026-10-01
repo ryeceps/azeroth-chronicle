@@ -321,7 +321,41 @@ export interface Storyline {
   sourceIds: EntityId[];
   reviewNote: string;
   storyGuideId?: EntityId;
-  fullTourPlacement?: { afterNodeId: EntityId; order: number };
+  contentStatus: 'placeholder' | 'research' | 'reviewed' | 'published';
+}
+
+export interface StoryTourRegion {
+  id: EntityId;
+  title: string;
+  worldspaceId: EntityId;
+  kind: 'continent' | 'world-fragment';
+  /** UI-only button anchor, normalized to the tour illustration; never atlas geography. */
+  layoutPercent: [number, number];
+  accessibleDescription: string;
+}
+
+export interface StoryTourEntry {
+  storylineId: EntityId;
+  regionIds: EntityId[];
+  order: number;
+  periodLabel: string;
+  locationLabel: string;
+}
+
+export interface StoryTour {
+  id: EntityId;
+  slug: string;
+  title: string;
+  editionLabel: string;
+  summary: string;
+  opening: string;
+  mapAsset: string;
+  mapAlt: string;
+  mapInterpretationNote: string;
+  chronologyNote: string;
+  regions: StoryTourRegion[];
+  entries: StoryTourEntry[];
+  reviewNote: string;
   contentStatus: 'placeholder' | 'research' | 'reviewed' | 'published';
 }
 
@@ -343,4 +377,5 @@ export interface LoreDataset {
   storyGuides: StoryGuide[];
   storyNodes: StoryNode[];
   storylines: Storyline[];
+  storyTours: StoryTour[];
 }

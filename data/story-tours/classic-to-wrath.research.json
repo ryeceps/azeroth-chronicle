@@ -1,0 +1,78 @@
+{
+  "id": "classic-to-wrath",
+  "slug": "classic-to-wrath",
+  "title": "Classic to Wrath",
+  "editionLabel": "World of Warcraft · Classic, The Burning Crusade, and Wrath of the Lich King",
+  "summary": "Choose a continent, open a story placard, or play the completed stories in their authored order across Azeroth, Outland, and Northrend.",
+  "opening": "Azeroth's northern continents, the broken world of Outland, and the frozen reaches of Northrend frame a new kind of journey: each story stands on its own, while the whole tour follows the great campaigns in turn.",
+  "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview.png",
+  "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate floating world-fragment at the lower right.",
+  "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. The map labels and clickable regions are accessible HTML controls. Their illustration anchors are layout coordinates only. Outland is a separate worldspace and is shown detached from Azeroth; no travel route or exact zone coordinates are implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth.",
+  "chronologyNote": "Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, then Ahn'Qiraj), The Burning Crusade, and Wrath of the Lich King. It organizes story access and does not claim that the selected storylines caused one another. The Scepter guide's ancient prologue remains an explicitly earlier flashback inside that story.",
+  "regions": [
+    {
+      "id": "kalimdor",
+      "title": "Kalimdor",
+      "worldspaceId": "azeroth",
+      "kind": "continent",
+      "layoutPercent": [23, 54],
+      "accessibleDescription": "Select Kalimdor to see the Ahn'Qiraj campaign and other stories set on this continent."
+    },
+    {
+      "id": "eastern-kingdoms",
+      "title": "Eastern Kingdoms",
+      "worldspaceId": "azeroth",
+      "kind": "continent",
+      "layoutPercent": [68, 51],
+      "accessibleDescription": "Select the Eastern Kingdoms to see Stormwind and other stories from these lands."
+    },
+    {
+      "id": "northrend",
+      "title": "Northrend",
+      "worldspaceId": "azeroth",
+      "kind": "continent",
+      "layoutPercent": [53, 17],
+      "accessibleDescription": "Select Northrend to see stories from Wrath of the Lich King."
+    },
+    {
+      "id": "outland",
+      "title": "Outland",
+      "worldspaceId": "outland",
+      "kind": "world-fragment",
+      "layoutPercent": [83, 80],
+      "accessibleDescription": "Select the separate Outland fragment to see stories from the world beyond the Dark Portal."
+    }
+  ],
+  "entries": [
+    {
+      "storylineId": "stormwind-onyxia-conspiracy",
+      "regionIds": ["eastern-kingdoms", "kalimdor"],
+      "order": 1,
+      "periodLabel": "Original World of Warcraft · Classic",
+      "locationLabel": "Stormwind to Onyxia's Lair"
+    },
+    {
+      "storylineId": "scepter-of-the-shifting-sands",
+      "regionIds": ["kalimdor"],
+      "order": 2,
+      "periodLabel": "Classic · Ahn'Qiraj campaign",
+      "locationLabel": "Silithus and Ahn'Qiraj"
+    },
+    {
+      "storylineId": "cipher-of-damnation-oronok",
+      "regionIds": ["outland"],
+      "order": 3,
+      "periodLabel": "The Burning Crusade",
+      "locationLabel": "Shadowmoon Valley · Outland"
+    },
+    {
+      "storylineId": "wrathgate-and-undercity",
+      "regionIds": ["northrend"],
+      "order": 4,
+      "periodLabel": "Wrath of the Lich King",
+      "locationLabel": "Dragonblight · Northrend"
+    }
+  ],
+  "reviewNote": "The current playable entries are the Classic Onyxia and Scepter stories. Outland's Cipher of Damnation and Northrend's Wrathgate are research previews and remain out of playback until their complete stories are authored. Original-client era-map and zone-art comparison, chronology review, source review, and human visual approval remain open.",
+  "contentStatus": "research"
+}

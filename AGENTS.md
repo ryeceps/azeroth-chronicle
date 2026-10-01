@@ -30,6 +30,7 @@ The Black Empire is the first vertical slice, not a special case in the engine.
 - Keep era, selection, layers, story, source filters, and map view as separate state domains. Do not create a giant global store.
 - Keep per-frame camera and pointer state out of React stores.
 - Drive StoryNodes and battle phases through validated data and a reusable action interpreter. Do not add era-specific conditionals to reusable engine code.
+- Keep era and full-history tours separate from curated StoryTours. A StoryTour orders existing StoryGuides through validated StoryTour records; never insert Storyline nodes into an era guide or duplicate the underlying story.
 - Treat time-varying location and geometry as SpatialState or MapState data. Never assume one entity has one permanent position.
 - Use worldspace-local atlas coordinates; never present fictional map coordinates as Earth latitude/longitude.
 - Permanent text-first dossier routes must remain usable without the 3D canvas.
@@ -125,4 +126,4 @@ Add focused tests for changed schemas, selectors, coordinate transforms, story a
 
 ## Tours and storyline placement
 
-When building a questline, follow `docs/research/storyline-build-template.md`, including illustrated environments/cast and validated full-tour placement. Tours presents Eras and Storylines; related stories appear as era-entry offshoots. Playback uses one flat itinerary, with research previews excluded and pause/voice preferences preserved at guide boundaries.
+When building a questline, follow `docs/research/storyline-build-template.md`, including illustrated environments/cast and the game-area resemblance review. Keep EraTours and full-history playback era-only. Group expansion journeys in a validated `StoryTour` with explicit story order, map regions, and preview status; preserve the existing StoryGuide playback unit and omit research previews from Play All. The Classic-to-Wrath collection is the first example.
