@@ -1,0 +1,27 @@
+{
+  "id": "akama-and-black-temple-hyjal-memory-event",
+  "kind": "event",
+  "name": "A memory at Mount Hyjal",
+  "slug": "akama-and-black-temple-hyjal-memory",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "akama-black-temple-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Third War battle represented as a Caverns of Time memory; the quest instance is later, exact in-world dating unknown"
+  },
+  "summary": "Akama seeks the Time-Phased Phylactery once held by Rage Winterchill. The path sends the adventurer into the Caverns of Time and a memory of the Battle of Mount Hyjal, where the artifact is recovered. This is not present-day travel from Outland into the Third War. A separate raid attunement is required to enter Hyjal; that gate is a game condition, not the cause of Akama’s plan.",
+  "locationIds": [
+    "hyjal-summit-memory"
+  ],
+  "participantEntityIds": [
+    "rage-winterchill"
+  ],
+  "sourceIds": [
+    "akama-hyjal-artifact-quest",
+    "akama-bcc-phase3-black-temple"
+  ],
+  "claimIds": [
+    "akama-and-black-temple-hyjal-memory-claim"
+  ],
+  "contentStatus": "research"
+}

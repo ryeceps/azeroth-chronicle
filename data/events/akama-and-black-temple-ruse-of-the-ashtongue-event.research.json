@@ -1,0 +1,31 @@
+{
+  "id": "akama-and-black-temple-ruse-of-the-ashtongue-event",
+  "kind": "event",
+  "name": "Ruse of the Ashtongue",
+  "slug": "akama-and-black-temple-ruse-of-the-ashtongue",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "akama-black-temple-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Burning Crusade quest chronology; exact in-world dating unknown"
+  },
+  "summary": "The ruse is tested in Tempest Keep. Wearing an Ashtongue Cowl, the seeker kills Al’ar, Kael’thas’s phoenix, under the appearance of obeying Illidan. The chain calls for this deed after Olum’s death because Akama needs Illidan to trust the outward story again. It is a raid task used to preserve a disguise, not evidence that the Ashtongue have openly begun their assault.",
+  "locationIds": [
+    "tempest-keep-eye"
+  ],
+  "participantEntityIds": [
+    "alar",
+    "kael-thas-sunstrider"
+  ],
+  "sourceIds": [
+    "akama-ruse-quest",
+    "akama-secret-compromised-quest"
+  ],
+  "claimIds": [
+    "akama-and-black-temple-ruse-of-the-ashtongue-claim"
+  ],
+  "contentStatus": "research",
+  "causedByEventIds": [
+    "akama-and-black-temple-olums-last-choice-event"
+  ]
+}

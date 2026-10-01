@@ -1,0 +1,28 @@
+{
+  "id": "akama-and-black-temple-olum-found-event",
+  "kind": "event",
+  "name": "The secret is found",
+  "slug": "akama-and-black-temple-olum-found",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "akama-black-temple-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Burning Crusade quest chronology; exact in-world dating unknown"
+  },
+  "summary": "After the first chain and a separate raid gate, Seer Olum appears in Serpentshrine Cavern. He tells the seeker that Vashj’s followers uncovered the Deathsworn’s secret and tortured him for it. This is an access-dependent encounter in the Burning Crusade quest order, not proof that the raid gate caused Akama’s conspiracy. Olum has kept silent; now the plan is endangered, and Akama must choose what one friend can bear.",
+  "locationIds": [
+    "serpentshrine-cavern"
+  ],
+  "participantEntityIds": [
+    "seer-olum",
+    "coilfang-naga"
+  ],
+  "sourceIds": [
+    "akama-bcc-phase3-black-temple",
+    "akama-secret-compromised-quest"
+  ],
+  "claimIds": [
+    "akama-and-black-temple-olum-found-claim"
+  ],
+  "contentStatus": "research"
+}
