@@ -43,12 +43,6 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Implementation:** Complete 22-scene illustrated research story with transcript-matched AI narration, a source/claim ledger, distinct Classic area scenes, four explicitly alternative companion-fate accounts, and a Classic-to-Wrath StoryTour map marker. See the [production ledger](dungeon-set-two-production.md) and [visual asset ledger](dungeon-set-two-visual-assets.json). Original-client comparison, human lore/art review and narration audition remain open.
 
-**Implementation:** Complete 22-scene illustrated research story with transcript-matched AI narration, a source/claim ledger, distinct Classic area scenes, four explicitly alternative companion-fate accounts, and a Classic-to-Wrath StoryTour map marker. See the [production ledger](dungeon-set-two-production.md) and [visual asset ledger](dungeon-set-two-visual-assets.json). Original-client comparison, human lore/art review and narration audition remain open.
-
-**Implementation:** Complete 22-scene illustrated research story with transcript-matched AI narration, a source/claim ledger, distinct Classic area scenes, four explicitly alternative companion-fate accounts, and a Classic-to-Wrath StoryTour map marker. See the [production ledger](dungeon-set-two-production.md) and [visual asset ledger](dungeon-set-two-visual-assets.json). Original-client comparison, human lore/art review and narration audition remain open.
-
-**Implementation:** Complete 22-scene illustrated research story with transcript-matched AI narration, a source/claim ledger, distinct Classic area scenes, four explicitly alternative companion-fate accounts, and a Classic-to-Wrath StoryTour map marker. See the [production ledger](dungeon-set-two-production.md) and [visual asset ledger](dungeon-set-two-visual-assets.json). Original-client comparison, human lore/art review and narration audition remain open.
-
 **ID:** `bodley-and-lord-valthalak` · **A** · **Reach:** many zones and endgame dungeons.
 
 **Story spine:** Deliana/Mokvar's request → Anthion's rescue and challenge → Bodley's account of a doomed company → fragments and former companions → Valthalak's reckoning. The armor is the entry point; the company's fate supplies the story.

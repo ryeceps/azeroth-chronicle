@@ -368,8 +368,8 @@ await write(tourPath, tour);
 const candidatesPath = 'docs/research/questline-story-candidates.md';
 let candidates = await readFile(path.join(root, candidatesPath), 'utf8');
 candidates = candidates.replace(
-  /^(### 03\. Dungeon Set 2: Bodley and Lord Valthalak)\r?$/m,
-  '$1\n\n**Implementation:** Complete 22-scene illustrated research story with transcript-matched AI narration, a source/claim ledger, distinct Classic area scenes, four explicitly alternative companion-fate accounts, and a Classic-to-Wrath StoryTour map marker. See the [production ledger](dungeon-set-two-production.md) and [visual asset ledger](dungeon-set-two-visual-assets.json). Original-client comparison, human lore/art review and narration audition remain open.',
+  /^(### 03\. Dungeon Set 2: Bodley and Lord Valthalak)\r?\n[\s\S]*?(?=^\*\*ID:\*\* `bodley-and-lord-valthalak`)/m,
+  '$1\n\n**Implementation:** Complete 22-scene illustrated research story with transcript-matched AI narration, a source/claim ledger, distinct Classic area scenes, four explicitly alternative companion-fate accounts, and a Classic-to-Wrath StoryTour map marker. See the [production ledger](dungeon-set-two-production.md) and [visual asset ledger](dungeon-set-two-visual-assets.json). Original-client comparison, human lore/art review and narration audition remain open.\n\n',
 );
 await write(candidatesPath, candidates);
 
