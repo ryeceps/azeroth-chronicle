@@ -1,0 +1,25 @@
+{
+  "id": "dungeon-set-two-two-faction-doors-event",
+  "kind": "event",
+  "name": "Two doors into the same story",
+  "slug": "dungeon-set-two-two-faction-doors",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "dungeon-set-two-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+  },
+  "summary": "Deliana speaks from Ironforge; Mokvar speaks from Orgrimmar. Their faction quests are separate doors into the same old wound, not a shared meeting or a single adventurer’s simultaneous allegiance. Each directs a seeker toward Anthion Harmon, whose ghost waits beyond Stratholme. The armor work that frames the journey is only its threshold. Ahead lie a rescue, a company’s last contract, and a medallion whose pieces carried more than any of its owners understood.",
+  "participantEntityIds": [
+    "deliana",
+    "mokvar"
+  ],
+  "sourceIds": [
+    "dungeon-set-two-quest-locators",
+    "dungeon-set-two-anthion-quest-text"
+  ],
+  "claimIds": [
+    "dungeon-set-two-two-faction-doors-claim"
+  ],
+  "contentStatus": "research"
+}

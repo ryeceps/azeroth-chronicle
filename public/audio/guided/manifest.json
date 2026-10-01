@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T03:12:09.561Z",
+  "generatedAt": "2026-10-01T15:37:36.861Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 164,
-  "totalDurationMs": 4195425,
+  "trackCount": 186,
+  "totalDurationMs": 4820975,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -1367,6 +1367,204 @@
       "sha256": "51b75170974fddbd36d698ae23ff73af27d2587c2371469f0f800750e68ddb67",
       "transcriptSha256": "4fc64236c3c281f0b9608f7d3a8e515b4fed0ee90ef5b8fb3010cef343603f7c",
       "bytes": 324909
+    },
+    {
+      "nodeId": "dungeon-set-two-story-two-faction-doors",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-two-faction-doors.mp3",
+      "durationMs": 30475,
+      "sha256": "5f5a6716ee7e240e1968d4e6a030eca99f9589d456a25303c0b1dfaf54a753eb",
+      "transcriptSha256": "941acc8f3eab79d74150da432a2bbee1044cc09f4db3215a6ebc1e31025ae314",
+      "bytes": 366669
+    },
+    {
+      "nodeId": "dungeon-set-two-story-the-ghost-at-stratholme",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-ghost-at-stratholme.mp3",
+      "durationMs": 28875,
+      "sha256": "10463e27d19ac52bdcaed6772da486885a8337d7ef0ae8a81d714cf9688c8685",
+      "transcriptSha256": "cde8be9a0bd0fefd354142bb466a6d0bc0ad729b8f69f364e9db900acfc7ea89",
+      "bytes": 347661
+    },
+    {
+      "nodeId": "dungeon-set-two-story-a-plea-from-the-dead",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-a-plea-from-the-dead.mp3",
+      "durationMs": 27350,
+      "sha256": "2f371d9c1c4411094a283aa6ab2ae61eff8099f0b3c6b3029e89cab0b5bc0fe4",
+      "transcriptSha256": "60c9fd1e04367e0e529a86320546ec7986ebd4cb95d2bfcf7c5fb2ce8b381c32",
+      "bytes": 329229
+    },
+    {
+      "nodeId": "dungeon-set-two-story-inside-the-slaughter-house",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-inside-the-slaughter-house.mp3",
+      "durationMs": 28250,
+      "sha256": "dbad103978c8f88c6929da0ee9223fdfd6bde8af02171ea15205217651e22ff8",
+      "transcriptSha256": "3f9070375802d634888b7c55e83c7c43bcaeb09f4dec3891ae1b79dc37af4691",
+      "bytes": 340173
+    },
+    {
+      "nodeId": "dungeon-set-two-story-proof-of-life",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-proof-of-life.mp3",
+      "durationMs": 26625,
+      "sha256": "0b1feb560b79a92fea89a38c2eeb65a2b4f41a6efdf4d7cc06d83b0cb1f408e9",
+      "transcriptSha256": "a6da2f6866440d8d35c68285588af7b87b1c691a9237868a61752cefb86a42d1",
+      "bytes": 320589
+    },
+    {
+      "nodeId": "dungeon-set-two-story-the-first-fragment",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-first-fragment.mp3",
+      "durationMs": 26875,
+      "sha256": "49c05fbca3a3409928d814c164a05de867eb4019485823e265a7a1aad7f49b09",
+      "transcriptSha256": "b6349b12b817431c28a5c00dda4e966484d613d1795f7e96d4ef4ac365d8470a",
+      "bytes": 323469
+    },
+    {
+      "nodeId": "dungeon-set-two-story-falrins-old-friend",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-falrins-old-friend.mp3",
+      "durationMs": 29200,
+      "sha256": "1d1ef9e90705957f43be93ea813ffd4a7c13965bcba060672fa422c3b0f687a0",
+      "transcriptSha256": "251c06de4cadeb057baf6a711562f6e6337b3ead097abdb8e9d5fcf22ff79314",
+      "bytes": 351405
+    },
+    {
+      "nodeId": "dungeon-set-two-story-the-ring-of-law",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-ring-of-law.mp3",
+      "durationMs": 30875,
+      "sha256": "17d0ac03cb557e0528ff824a7488e96252fcba254cfa4f233f2a3c2d35a512db",
+      "transcriptSha256": "2073181570f95ef46999d339a090e6e5b0f39e043925be4ca89aaf68d4c4dd15",
+      "bytes": 371565
+    },
+    {
+      "nodeId": "dungeon-set-two-story-parting-words",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-parting-words.mp3",
+      "durationMs": 28000,
+      "sha256": "384816d9465a1f29e8c18ef1266ca7e176bfd6f04b5944ce14e1aea130717d0d",
+      "transcriptSha256": "945909907dbf408e17ce49530e4051b23ec235989b70487287045e20ef34015a",
+      "bytes": 337005
+    },
+    {
+      "nodeId": "dungeon-set-two-story-bodleys-fate",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-bodleys-fate.mp3",
+      "durationMs": 26575,
+      "sha256": "05c0d2308cfeeb3e09eda918d8e42933f31490f7c0adc5c219f92195ac48c243",
+      "transcriptSha256": "a1acf8ebe54a42861e9f411d8d64675c9d1535574c7192070052c42d899e2033",
+      "bytes": 320013
+    },
+    {
+      "nodeId": "dungeon-set-two-story-a-client-from-booty-bay",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-a-client-from-booty-bay.mp3",
+      "durationMs": 26200,
+      "sha256": "639856965c905e8c62a4ab92f50e2be5bde9a2fd1d4c611307d2e1b77dffadc4",
+      "transcriptSha256": "5078235aab1e147629677772e29913cec51f947f35a9c9c2099ea8a1f2cd6714",
+      "bytes": 315405
+    },
+    {
+      "nodeId": "dungeon-set-two-story-the-former-general",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-former-general.mp3",
+      "durationMs": 29975,
+      "sha256": "ed2764ffddf856e0c038c53c900dc6d89a04fa652b6fca88df0606dd36bf24ca",
+      "transcriptSha256": "d833c30da487b7e18b48396189ac47e44798bd0d99469fbf9a9d4260d40e0944",
+      "bytes": 360621
+    },
+    {
+      "nodeId": "dungeon-set-two-story-the-medallion-dispute",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-medallion-dispute.mp3",
+      "durationMs": 28900,
+      "sha256": "fdc6407a5914749d54d967fdb31dba96e41f5ee436f839eb9549496b21b7b417",
+      "transcriptSha256": "611703cbd2b5f1a3e264cc9ba096faa96a815cd194fcd7edefcd891a777a1f1a",
+      "bytes": 347949
+    },
+    {
+      "nodeId": "dungeon-set-two-story-the-company-flees",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-company-flees.mp3",
+      "durationMs": 29000,
+      "sha256": "1cc7a0e21aecb2858575f459a6b22d9967d1f97bf73b8f22784199c72863f020",
+      "transcriptSha256": "5489afc68664c8700965b0c4f5294b9392a074ebbd5e2eba0f0d5e4fb5357c86",
+      "bytes": 349101
+    },
+    {
+      "nodeId": "dungeon-set-two-story-alternate-fate-mor",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-mor.mp3",
+      "durationMs": 26625,
+      "sha256": "9cabc5f77bef819c9794af10471a23df91e7718ec113834f842271a7d558d757",
+      "transcriptSha256": "080c0953e3ac9144fa751bacb2c8aa52a3c5c8d5b1ce4b9ba31dff47704ee8a5",
+      "bytes": 320589
+    },
+    {
+      "nodeId": "dungeon-set-two-story-alternate-fate-kormok",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-kormok.mp3",
+      "durationMs": 30000,
+      "sha256": "d13142409daebca95d09aebe0cd7febacab0467d180fda9163d94ab73f30ddb7",
+      "transcriptSha256": "bfb21e50e2ad8d7d59a19fcfdc0cd28e1d881039ea2a3030bd7590741f4b52a7",
+      "bytes": 360909
+    },
+    {
+      "nodeId": "dungeon-set-two-story-alternate-fate-isalien",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-isalien.mp3",
+      "durationMs": 28025,
+      "sha256": "87bbb9be27e458b422a5c343f8c7d5bdecd263affe96fd12be5ebc3f1d09ccc2",
+      "transcriptSha256": "c11a026d35cca5af89237637bbb997a78298def05676065e5a68dafc46080d04",
+      "bytes": 337293
+    },
+    {
+      "nodeId": "dungeon-set-two-story-alternate-fate-jarien-sothos",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-jarien-sothos.mp3",
+      "durationMs": 29825,
+      "sha256": "e5957c93cc47d011fecb62dbce2747fba3cfc285e6516c7101f5873d2ce693fd",
+      "transcriptSha256": "9609c3a96252a8dede1b0d6d3032458dc843ed655dadc04faa0c0d4f248cb82c",
+      "bytes": 358893
+    },
+    {
+      "nodeId": "dungeon-set-two-story-the-other-pieces",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-other-pieces.mp3",
+      "durationMs": 28125,
+      "sha256": "9a7ccab49f992fbe21906f5aa29b2a6f03d184120d593b2e7858f6ecd8e50dab",
+      "transcriptSha256": "e930e09558c1e76b6fa1f1860d63ab3fe3295e75d32efbdcc4051161244ccbd0",
+      "bytes": 338445
+    },
+    {
+      "nodeId": "dungeon-set-two-story-the-brazier-attuned",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-brazier-attuned.mp3",
+      "durationMs": 28100,
+      "sha256": "67adff728965606c3101590dc17873c9514a2a09d0cb34cc994ac17ffa82c53b",
+      "transcriptSha256": "17bb4cd92085c220522aa194697bbf6a05e30c720c4c3c844d52697d355de483",
+      "bytes": 338157
+    },
+    {
+      "nodeId": "dungeon-set-two-story-mea-culpa",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-mea-culpa.mp3",
+      "durationMs": 28700,
+      "sha256": "9cfdaf29b70a4a917a6e1bd996290505294211e9926ca71e7182ac42513747d9",
+      "transcriptSha256": "9011c206b44ff43f14aaa67ba0721a1fb3ff6f363cb7e18a264c233bbc0c7db6",
+      "bytes": 345357
+    },
+    {
+      "nodeId": "dungeon-set-two-story-safe-for-now",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-safe-for-now.mp3",
+      "durationMs": 28975,
+      "sha256": "048eb7a7e2e2f07d6d71dcca90d023b2862afba8bd5e98715467011bbc7d9116",
+      "transcriptSha256": "f143e420afeeffef7c8fb41e3b06bb9dcb31a107ebd17612944a52d0d1c4c1d3",
+      "bytes": 348813
     }
   ]
 }
