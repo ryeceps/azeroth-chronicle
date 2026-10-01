@@ -1,0 +1,49 @@
+# The Dragon in Stormwind — research and production ledger
+
+Status: complete illustrated research story; not reviewed or published. 21 scenes; 1339 narration words. Primary era: Era 8 / original World of Warcraft. Historical cutoff: before Wrath of the Lich King rerelease. Quest prerequisites provide the story order, not proof that one event caused another.
+
+## Source and edition boundary
+
+Quest order and text leads were mapped from WoW Classic Patch 1.15.8 secondary pages and the Warcraft Wiki locator. No original-client quest capture, full dialogue audit or exact edition comparison is claimed. The Blizzard overview supports raid context only; it does not establish Windsor-chain details. Original Classic game-text capture and human claim review are required before promotion. All prose is paraphrased; generated art is interpretive, not canon evidence.
+
+Sources: [onyxia-classic-attunement](https://www.wowhead.com/classic/guide/onyxia-onyxias-lair-attunement-drakefire-amulet-wow-classic); [onyxia-attunement-wiki](https://warcraft.wiki.gg/wiki/Onyxia%27s_Lair_attunement); [story-onyxia-overview](https://worldofwarcraft.blizzard.com/en-us/news/24165121); [onyxia-classic-raid](https://www.wowhead.com/classic/guide/onyxia-onyxias-lair-raid-overview-wow-classic).
+
+## Separate quest dependency paths
+
+**Alliance:** Dragonkin Menace and True Masters → Windsor held in Blackrock Depths → note and two fragments of evidence → Jail Break! → Windsor returns to Stormwind → The Great Masquerade exposes Onyxia → Dragon’s Eye leads to Haleh → Drakkisath’s blood → Drakefire Amulet → Onyxia’s Lair.
+
+**Horde:** Warlord’s Command → Eitrigg’s Wisdom → For the Horde! and Rend’s head → What the Wind Carries / Thrall → Champion of the Horde / Rexxar → Testament to Myranda → Emberstrife and the Amulet of Draconic Subversion → three skull trials (Chronalis, Scryer and Somnus are independent and may be done in any order) → Axtroz → Drakkisath’s blood → Rexxar and Drakefire Amulet → Onyxia’s Lair.
+
+These are separate faction access chains. The presentation does not merge the parties, assert a shared player, draw a geographic path through the theater or infer that an access step caused the political conspiracy. Attunement and raid outcome are distinct. The lair scene represents one faction raid party at a time. Later Wrath and expansion material is excluded.
+
+## Scene and evidence ledger
+
+| Scene | Evidence and citations | Cast | Environment and game area | Geography and status |
+| --- | --- | --- | --- | --- |
+| A shadow over the Burning Steppes | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-dragonkin-menace-citation-1, onyxia-dragonkin-menace-citation-2 | alliance-adventurers | burning-steppes: Burning Steppes | Editorial relational stage; research, relative time |
+| The court’s new voice | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-true-masters-citation-1, onyxia-true-masters-citation-2 | alliance-adventurers, bolvar-fordragon, katrana-prestor | stormwind-keep: Stormwind Keep | Editorial relational stage; research, relative time |
+| The marshal in Blackrock Depths | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-windsor-in-the-depths-citation-1, onyxia-windsor-in-the-depths-citation-2 | alliance-adventurers, marshal-windsor | blackrock-prison: Blackrock Depths | Editorial relational stage; research, relative time |
+| A shred of evidence | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-shred-of-hope-citation-1, onyxia-shred-of-hope-citation-2 | alliance-adventurers, marshal-windsor | blackrock-forge: Blackrock Depths | Editorial relational stage; research, relative time |
+| The way out of the mountain | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-jail-break-citation-1, onyxia-jail-break-citation-2 | alliance-adventurers, marshal-windsor | blackrock-prison: Blackrock Depths | Editorial relational stage; research, relative time |
+| The marshal returns | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-stormwind-rendezvous-citation-1, onyxia-stormwind-rendezvous-citation-2 | alliance-adventurers, marshal-windsor, bolvar-fordragon | stormwind-keep: Stormwind Keep | Editorial relational stage; research, relative time |
+| The Great Masquerade | onyxia-classic-attunement, onyxia-attunement-wiki, story-onyxia-overview; onyxia-great-masquerade-citation-1, onyxia-great-masquerade-citation-2, onyxia-great-masquerade-citation-3 | alliance-adventurers, bolvar-fordragon, katrana-prestor, onyxia | stormwind-keep: Stormwind Keep | Editorial relational stage; research, relative time |
+| A path to Haleh | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-dragons-eye-citation-1, onyxia-dragons-eye-citation-2 | alliance-adventurers, haleh, dragon-eye-fragment | winterspring: Winterspring | Editorial relational stage; research, relative time |
+| Blood and the Drakefire Amulet | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-alliance-drakefire-amulet-citation-1, onyxia-alliance-drakefire-amulet-citation-2 | alliance-adventurers, general-drakkisath, drakefire-amulet | blackrock-spire: Blackrock Spire | Editorial relational stage; research, relative time |
+| Orders from the Badlands | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-warlords-command-citation-1, onyxia-warlords-command-citation-2 | horde-adventurers | badlands: Badlands | Editorial relational stage; research, relative time |
+| The elder’s counsel | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-eitriggs-wisdom-citation-1, onyxia-eitriggs-wisdom-citation-2 | horde-adventurers, eitrigg | orgrimmar: Orgrimmar | Editorial relational stage; research, relative time |
+| A challenge in Blackrock Spire | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-for-the-horde-citation-1, onyxia-for-the-horde-citation-2 | horde-adventurers, warchief-rend-blackhand | blackrock-spire: Blackrock Spire | Editorial relational stage; research, relative time |
+| Thrall’s account | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-what-the-wind-carries-citation-1, onyxia-what-the-wind-carries-citation-2 | horde-adventurers, thrall | orgrimmar: Orgrimmar | Editorial relational stage; research, relative time |
+| Finding Rexxar | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-champion-of-horde-citation-1, onyxia-champion-of-horde-citation-2 | horde-adventurers, rexxar | desolace: Desolace | Editorial relational stage; research, relative time |
+| Myranda’s borrowed shape | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-testament-to-rexxar-citation-1, onyxia-testament-to-rexxar-citation-2 | horde-adventurers, myranda-the-hag, amulet-of-draconic-subversion | western-plaguelands: Western Plaguelands | Editorial relational stage; research, relative time |
+| The dragon who tests the mask | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-emberstrife-citation-1, onyxia-emberstrife-citation-2 | horde-adventurers, emberstrife, amulet-of-draconic-subversion | dustwallow: Dustwallow Marsh | Editorial relational stage; research, relative time |
+| Three trials, three horizons | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-three-skull-trials-citation-1, onyxia-three-skull-trials-citation-2 | horde-adventurers, test-skull-dragons | skull-trials: Tanaris · Winterspring · Swamp of Sorrows | Editorial relational stage; research, relative time |
+| A final skull over the Wetlands | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-axtroz-citation-1, onyxia-axtroz-citation-2 | horde-adventurers, axtroz | wetlands: Wetlands | Editorial relational stage; research, relative time |
+| The blood of Drakkisath | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-horde-drakkisath-citation-1, onyxia-horde-drakkisath-citation-2 | horde-adventurers, general-drakkisath | blackrock-spire: Blackrock Spire | Editorial relational stage; research, relative time |
+| Rexxar’s Drakefire Amulet | onyxia-classic-attunement, onyxia-attunement-wiki; onyxia-rexxars-amulet-citation-1, onyxia-rexxars-amulet-citation-2 | horde-adventurers, rexxar, drakefire-amulet | desolace: Desolace | Editorial relational stage; research, relative time |
+| Into the dragon’s lair | onyxia-classic-raid, story-onyxia-overview; onyxia-onyxias-lair-citation-1, onyxia-onyxias-lair-citation-2 | horde-adventurers, onyxia, drakefire-amulet | onyxia-lair: Onyxia’s Lair | Editorial relational stage; research, relative time |
+
+## Visual and review notes
+
+Every node maps to its environmental image, and each principal actor, group, shard or amulet has a distinct representation. Asset paths, pixel dimensions, SHA-256, area traits, target build and review boundary are in [onyxia-visual-assets.json](onyxia-visual-assets.json). Stormwind Keep deliberately uses pale stone, blue cloth and gold trim. The story template now carries this place-resemblance requirement into future projects. No original-client screenshot comparison is claimed; it remains a human approval gate. The three skull destinations are different landscape panels, not a connected route.
+
+Engine: existing standalone validated Storyline → StoryGuide selector and era playback; no era-guide replacement or story-specific engine condition. The story follows Scepter in full-tour order. Figures use existing mapFigure/mapVisual rendering and relational SpatialStates; environments use relational MapStates. Each node has a cited Event and Claim. All 21 transcripts have repository-backed Kokoro voice tracks; listening and pronunciation approval remain part of human review. The transcript remains authoritative and accessible. Remaining human gates: original-client quest/build capture; chronology and dialogue review; in-client zone art review; listening review; and claim approval.

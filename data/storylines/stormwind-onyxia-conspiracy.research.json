@@ -1,42 +1,40 @@
 {
   "id": "stormwind-onyxia-conspiracy",
+  "slug": "stormwind-onyxia-conspiracy",
   "title": "The Dragon in Stormwind",
+  "summary": "A conspiracy reaches from the Burning Steppes into Stormwind’s court while a separate Horde intelligence path follows Rexxar toward Onyxia’s lair.",
+  "opening": "The city seemed to rest behind pale stone and blue banners. Yet the black dragon’s influence had entered its court, and far away the Horde began a different search beneath the same mountain.",
   "primaryEraId": "age-of-adventurers",
   "eraIds": [
     "age-of-adventurers"
   ],
-  "summary": "Onyxia's hidden influence in Stormwind leads from political paralysis to Marshal Windsor's investigation and a dragon's exposure.",
-  "opening": "A kingdom recovering from earlier wars carried an enemy into its own court. The story asks how secrecy and distrust weakened Stormwind before anyone reached Onyxia's lair.",
-  "sourceIds": [
-    "story-onyxia-overview"
-  ],
-  "reviewNote": "Blizzard's overview supports Onyxia's manipulation; verify Windsor and the Great Masquerade in original quest text.",
   "chapters": [
     {
-      "id": "the-court",
+      "id": "the-queen-behind-the-court",
       "eraId": "age-of-adventurers",
-      "title": "The troubled court",
-      "body": "Examine Stormwind's recovery and the political tensions Onyxia exploited."
+      "title": "The Queen Behind the Court",
+      "body": "The Alliance follows the black dragonkin threat from the Burning Steppes into Stormwind, rescues Marshal Windsor from Blackrock Depths, and brings evidence before the court. The Great Masquerade exposes Onyxia, but her escape leaves the danger unresolved. The Drakefire Amulet is a later access key, not the climax of the political conspiracy."
     },
     {
-      "id": "the-investigation",
+      "id": "the-horde-path",
       "eraId": "age-of-adventurers",
-      "title": "Windsor follows the trail",
-      "body": "Trace Marshal Windsor's original quest sequence and what he could prove."
-    },
-    {
-      "id": "the-exposure",
-      "eraId": "age-of-adventurers",
-      "title": "The masquerade ends",
-      "body": "Reconstruct the public revelation from the original game scenes."
+      "title": "A Separate Road Through the Horde",
+      "body": "The Horde’s own chain runs from the Badlands through Eitrigg and Blackrock Spire, then Orgrimmar, Rexxar, Myranda, Emberstrife and the dragon trials. These prerequisites form a second viewpoint, not the continuation of Windsor’s Alliance journey."
     },
     {
       "id": "the-lair",
       "eraId": "age-of-adventurers",
-      "title": "Beyond the court",
-      "body": "Connect the revealed conspiracy to the confrontation with Onyxia."
+      "title": "Past the Mountain",
+      "body": "Both factions independently prepare Drakefire Amulets and may then confront Onyxia in their own raid groups. The original raid encounter closes this telling; later Wrath changes and outcomes remain outside its historical cutoff."
     }
   ],
-  "slug": "stormwind-onyxia-conspiracy",
+  "sourceIds": [
+    "onyxia-classic-attunement",
+    "onyxia-attunement-wiki",
+    "story-onyxia-overview",
+    "onyxia-classic-raid"
+  ],
+  "storyGuideId": "stormwind-onyxia-conspiracy-guide",
+  "reviewNote": "Complete illustrated research telling with 21 scenes, distinct Alliance and Horde chains, separate Drakefire Amulet attunement, and the original Classic lair encounter. The quest spine was mapped from accessible secondary Classic locators; original quest text/build comparison, in-client visual comparison and human lore/art review are still required before promotion. The chains are not an Alliance–Horde causal link or one canonical player. Later Wrath raid changes are excluded.",
   "contentStatus": "research"
 }

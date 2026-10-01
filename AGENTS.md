@@ -30,6 +30,7 @@ The Black Empire is the first vertical slice, not a special case in the engine.
 - Keep era, selection, layers, story, source filters, and map view as separate state domains. Do not create a giant global store.
 - Keep per-frame camera and pointer state out of React stores.
 - Drive StoryNodes and battle phases through validated data and a reusable action interpreter. Do not add era-specific conditionals to reusable engine code.
+- Keep era and full-history tours separate from curated StoryTours. A StoryTour orders existing StoryGuides through validated StoryTour records; never insert Storyline nodes into an era guide or duplicate the underlying story.
 - Treat time-varying location and geometry as SpatialState or MapState data. Never assume one entity has one permanent position.
 - Use worldspace-local atlas coordinates; never present fictional map coordinates as Earth latitude/longitude.
 - Permanent text-first dossier routes must remain usable without the 3D canvas.
@@ -47,6 +48,7 @@ The Black Empire is the first vertical slice, not a special case in the engine.
 - Keep research notes and publishable content separate.
 - The application must identify itself as an unofficial fan project.
 - Guided-tour narration should use an original mythic, Tolkien-esque chronicle voice: warm, elevated, landscape-conscious, and attentive to age, loss, consequence, and wonder. Never copy or closely imitate Tolkien's sentences, signature phrases, characters, or invented languages; source-backed Warcraft facts and explicit uncertainty remain the backbone of every passage.
+- When a story depicts a place shown in World of Warcraft, record the matching edition/build and preserve its recognizable in-game materials, palette, terrain, vegetation, skyline, and landmark shapes in original interpretive art. Review each scene against its game-area reference; for example, Stormwind Keep reads as pale or white stone with blue and gold details, not red-brown stone and red banners. Carry the build, traits, image path, and resemblance-review result into the story's asset ledger and reusable authoring templates.
 
 ## Data and file conventions
 
@@ -124,4 +126,4 @@ Add focused tests for changed schemas, selectors, coordinate transforms, story a
 
 ## Tours and storyline placement
 
-When building a questline, follow `docs/research/storyline-build-template.md`, including illustrated environments/cast and validated full-tour placement. Tours presents Eras and Storylines; related stories appear as era-entry offshoots. Playback uses one flat itinerary, with research previews excluded and pause/voice preferences preserved at guide boundaries.
+When building a questline, follow `docs/research/storyline-build-template.md`, including illustrated environments/cast and the game-area resemblance review. Keep EraTours and full-history playback era-only. Group expansion journeys in a validated `StoryTour` with explicit story order, map regions, and preview status; preserve the existing StoryGuide playback unit and omit research previews from Play All. The Classic-to-Wrath collection is the first example.

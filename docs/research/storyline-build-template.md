@@ -23,6 +23,7 @@ Linked prologue eras:
 Historical ending and excluded later material:
 Game edition, patch/build and faction/class variants:
 Existing records and overlapping stories:
+Visual reference edition/build and recognizable area traits to preserve:
 Central historical question:
 Principal actors, stated motives, and evidence:
 Inciting problem:
@@ -81,6 +82,7 @@ For mutually exclusive variants, preserve viewpoint explicitly. Never imply one 
 Before building the nodes, inventory the actual image assets for every scene:
 
 - **Environment:** provide a substantial, recognizable illustrated landscape or interior for every node. Show the relevant desert, forest, coast, settlement, dungeon, raid, or historical setting. Change the environment when the destination or historical situation materially changes; reuse only when the setting and period match. A broad interpretive scene must not imply an exact surveyed location or instance layout.
+- **Game-area resemblance:** when a place exists in World of Warcraft, identify the relevant game version and use its recognizable palette, architecture, terrain, vegetation, skyline, and landmark shapes as visual references. Preserve the traits that let a player recognize the place while keeping the composition original and interpretive. For example, Stormwind Keep should read as pale or white stone with blue and gold details; red-brown stone and red banners would misidentify it. Do not substitute generic fantasy scenery or another region's color language. Record the reference traits and review each image against the matching in-game area before completion.
 - **Characters and embodied groups:** every principal named actor and significant group needs a distinct, recognizable illustrated portrait, creature cutout, or ensemble, visible during its relevant beat. Match the era art's detail, lighting and readability. Use transparent cutouts for the existing figure renderer; preserve labels and accompanying text. A name beside a generic marker or repeated silhouette is insufficient.
 - **Artifacts and pivotal objects:** illustrate objects such as the Scepter when they drive the action. They supplement the setting and cast rather than replacing either.
 - **Asset record:** record node IDs, environment path, actor IDs and image paths, creation/reuse provenance, prompt or lawful origin, interpretive limitations, and visual review status. Wire these repository-backed assets into MapState and entity visual fields through the existing engine. An image saved on disk but absent from the rendered scene is unfinished.
@@ -88,9 +90,11 @@ Before building the nodes, inventory the actual image assets for every scene:
 
 Use the same original raster illustration workflow as the eras where new art is needed; do not substitute hand-coded vector stand-ins to declare the story complete. Reuse era imagery only when its subject and historical state fit. Keep generation provenance and prompts in the production ledger, optimize assets for the static site, and retain genuine transparency. Human lore and visual review still gate publication.
 
-| Node | Historical action and result | Era/map state/worldspace | Cast and representation | Camera | Highlighted records | Visual actions | Provenance/uncertainty | Entry/exit state |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `<story-id>-<beat>` | One supported visible change | Existing IDs or justified new state | Deliberate actor art and accessible text | Supported regional framing | Entity/event/battle/location IDs | Existing interpreter actions | Claim/citation IDs | Deterministic scene state |
+| Node | Historical action and result | Era/map state/worldspace | Place and game-area reference | Recognizable traits to preserve | Scene art path and resemblance review | Cast and representation | Camera and visual actions | Claim/citation IDs and uncertainty | Entry/exit state |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `<story-id>-<beat>` | One supported visible change | Existing IDs or justified new state | Place name and matching game edition/build, or “no released depiction” | Materials, palette, architecture, terrain, vegetation, skyline, landmark shapes | Environment asset path; reference capture/source; human review result or open gate | Deliberate actor art and accessible text | Supported regional framing; existing interpreter actions | Source and citation IDs; explicit inference/ambiguity | Deterministic scene state |
+
+For every place-based scene, the asset inventory also records the reference build, recognizable area traits, image path, and the result of the in-game resemblance review. When no released game depiction exists, state that limitation and explain the interpretive choices.
 
 Reuse validated entities, events, worldspaces, terrain and source records where their identity and historical state match. Use SpatialState/MapState for changing positions and geography. Every key figure or embodied group needs a deliberate representation; generic markers alone are insufficient. Put asset provenance and interpretive composition notes in the dossier.
 
@@ -146,6 +150,10 @@ Add focused tests for any changed schema, repository selector, route context or 
 **Completion labels:** candidate = source leads; research packet = captured evidence and unresolved claims; preview = visible outline; complete research story = full transcript, records, required visuals, navigation and requested audio verified; reviewed/published = explicit human approval. Opening a PR does not change these labels. In the PR, state the exact label, content/engine split, verification and remaining review work.
 
 
-## Full-tour integration
+## Standalone story and collection tours
 
-Every playable storyline must include `fullTourPlacement: { afterNodeId, order }`. Choose a node in the primary era guide where the questline best fits before the next era chapter. Order must be unique at that node. This is editorial reading order, not a new chronology claim. Label ancient prologues as flashbacks. Validate forward/backward and audio/silent handoff into the story and back to the era; preserve pause and voice preferences. Previews without a guide must omit placement. Era entry pages automatically expose stories from `eraIds`.
+Keep EraTours and the full-history itinerary composed only of their Era guide nodes. Every playable storyline can link to its existing StoryGuide for independent playback, but it has no era-tour insertion point.
+
+When several stories form an expansion or game-version journey, create a validated `StoryTour` collection with explicit ordered entries, region IDs, edition/period labels, and a chronology note. Do not infer date order or map regions from era IDs, filenames, or titles. Use the same StoryGuide nodes and audio; do not duplicate or retag the story. `Play all` traverses only entries with complete StoryGuides and skips research previews. A placard for a preview opens its text-first research page and never starts playback.
+
+Represent off-world destinations as separate worldspaces. A story-tour illustration may provide buttons with UI layout anchors, but those anchors are not atlas coordinates or geographic evidence. Label map interpretation and preserve source/review boundaries. Validate story-start, all-stories playback across guide boundaries, Previous/Next, audio completion, refreshable current-chapter URLs, finish/return behavior, mouse and keyboard region selection, reduced motion, and compact layouts.

@@ -1,9 +1,11 @@
 # Integrated tour library
 
+Status: historical decision. Storyline placement inside the full-history itinerary is superseded by [separate expansion story tours](separate-expansion-story-tours.md). The story library and standalone playback remain in effect.
+
 The homepage offers two choices: browse Tours or begin the full tour. Tours contains Eras and Storylines; each era entry presents its related story offshoots. Existing dossier and storyline URLs remain available.
 
-Phase 4's prohibition on nested story playback remains applicable to battle branches. The full tour now uses a flat itinerary of era chapters and playable storyline chapters. A storyline's validated `fullTourPlacement` identifies an era chapter after which its guide runs, with an explicit order for multiple stories. This is editorial reading order, not a new canon chronology claim. Flashbacks retain their own narration and historical context.
+At the time this decision was written, Phase 4's prohibition on nested story playback remained applicable to battle branches. It introduced a flat itinerary of era chapters and playable storyline chapters, with `fullTourPlacement` selecting each story's insertion point. That integration is no longer the accepted design.
 
-The Scepter guide follows the Age of Adventurers' Ahn'Qiraj chapter and precedes Outland. Its ancient prologue is a flashback. Research outlines without guides are browseable but never inserted into playback. Every playable storyline must declare a placement. Next, Previous, silent autoplay and audio completion use the same itinerary. Guide changes preserve pause and narration preferences, replace scene actions, and restore era context. Full-tour URLs include the current chapter and, when applicable, storyline slug.
+Storylines remain browseable, and each completed storyline still reuses its StoryGuide for standalone playback. Research outlines remain previews and never enter automated playback. The Classic-to-Wrath StoryTour owns its curated sequence and map regions; era tours and the full-history itinerary contain era-guide nodes only.
 
-Acceptance: a quiet homepage; two library sections; era-linked offshoots; forward/backward traversal across era/storyline boundaries; refreshable chapter URLs; no nested runtime or duplicated lore/audio.
+The current acceptance criteria are in [the separate-tour decision](separate-expansion-story-tours.md).

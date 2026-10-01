@@ -634,7 +634,8 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(30);
+    expect(events).toHaveLength(51);
+    expect(events.filter((event) => event.id.startsWith('onyxia-'))).toHaveLength(21);
     expect(battles).toHaveLength(2);
     expect(guide.nodeIds).toHaveLength(10);
     expect(mapStates.map((state) => state.worldspaceId)).toEqual([
@@ -835,6 +836,63 @@ describe('lore dataset', () => {
     expect(scepter.contentStatus).toBe('research');
     expect(storylineSchema.safeParse({ ...scepter, primaryEraId: 'war-of-the-ancients' }).success).toBe(false);
     expect(storylineSchema.safeParse({ ...scepter, chapters: [{ ...scepter.chapters[0], eraId: 'war-of-the-ancients' }, ...scepter.chapters.slice(1)] }).success).toBe(false);
+  });
+
+  it('keeps Onyxia in the separate Classic-to-Wrath story atlas', () => {
+    const data = loadDataset();
+    const story = data.storylines.find((item) => item.id === 'stormwind-onyxia-conspiracy')!;
+    const storyTour = data.storyTours.find((item) => item.slug === 'classic-to-wrath')!;
+    const guide = data.storyGuides.find((item) => item.id === story.storyGuideId)!;
+    const nodes = guide.nodeIds.map((id) => data.storyNodes.find((node) => node.id === id)!);
+    const visualLedger = JSON.parse(readFileSync(resolve('docs/research/onyxia-visual-assets.json'), 'utf8')) as {
+      assetRecords: { id: string; file: string; pixelWidth: number; pixelHeight: number; recognizableTraits: string }[];
+      sceneLedger: { nodeId: string; environmentPath: string; recognizableTraits: string }[];
+    };
+    const audioManifest = JSON.parse(readFileSync(resolve('public/audio/guided/manifest.json'), 'utf8')) as {
+      tracks: { nodeId: string; assetPath: string; durationMs: number; sha256: string; transcriptSha256: string }[];
+    };
+    const stormwind = visualLedger.assetRecords.find((asset) => asset.id === 'stormwind-keep')!;
+
+    expect(story.title).toBe('The Dragon in Stormwind');
+    expect(story.contentStatus).toBe('research');
+    expect(story.chapters).toHaveLength(3);
+    expect(story.storyGuideId).toBe('stormwind-onyxia-conspiracy-guide');
+    expect(storyTour.entries.map((entry) => entry.storylineId).slice(0, 2)).toEqual([
+      'stormwind-onyxia-conspiracy',
+      'scepter-of-the-shifting-sands',
+    ]);
+    expect(guide.nodeIds).toHaveLength(21);
+    expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length)).toBe(true);
+    expect(nodes.slice(0, 9).every((node) => node.entityIds?.includes('alliance-adventurers')
+      && !node.entityIds?.includes('horde-adventurers'))).toBe(true);
+    expect(nodes.slice(9, 20).every((node) => node.entityIds?.includes('horde-adventurers')
+      && !node.entityIds?.includes('alliance-adventurers'))).toBe(true);
+    expect(nodes.every((node) => !data.events.find((event) => event.id === node.eventIds?.[0])?.causedByEventIds?.length)).toBe(true);
+    for (const node of nodes) {
+      const mapStateId = node.visualActions?.find((action) => action.type === 'set_map_state');
+      expect(mapStateId?.type).toBe('set_map_state');
+      if (mapStateId?.type !== 'set_map_state') throw new Error('Missing illustrated scene transition');
+      const mapState = data.mapStates.find((state) => state.id === mapStateId.mapStateId)!;
+      expect(mapState.presentation).toBe('relational');
+      expect(existsSync(resolve('public', mapState.terrainTextureAsset!))).toBe(true);
+      const event = data.events.find((item) => item.id === node.eventIds?.[0])!;
+      expect(event.claimIds?.every((id) => data.claims.find((claim) => claim.id === id)?.citationIds.length)).toBe(true);
+      const track = audioManifest.tracks.find((item) => item.nodeId === node.id)!;
+      expect(node.voiceover?.assetPath).toBe(track.assetPath);
+      expect(createHash('sha256').update(node.narration).digest('hex')).toBe(track.transcriptSha256);
+      expect(createHash('sha256').update(readFileSync(resolve('public', track.assetPath))).digest('hex')).toBe(track.sha256);
+      for (const id of node.entityIds ?? []) {
+        const entity = data.entities.find((item) => item.id === id)!;
+        const asset = entity.mapFigure?.asset ?? entity.mapVisual?.asset;
+        expect(asset && existsSync(resolve('public', asset))).toBe(true);
+        expect(data.spatialStates.some((state) => state.entityId === id && state.placementKind === 'relational')).toBe(true);
+      }
+    }
+    expect(stormwind.recognizableTraits).toContain('Pale limestone and white masonry, blue cloth, restrained gold trim');
+    expect(stormwind.pixelWidth).toBeGreaterThanOrEqual(512);
+    expect(stormwind.pixelHeight).toBeGreaterThanOrEqual(512);
+    expect(visualLedger.sceneLedger).toHaveLength(21);
+    expect(visualLedger.sceneLedger.every((scene) => existsSync(resolve(scene.environmentPath)))).toBe(true);
   });
 
   it('keeps the refreshed Era 9 narration in the audio hash manifest', () => {

@@ -33,6 +33,7 @@ export function validateDatasetReferences(
     dataset.storyGuides,
     dataset.storyNodes,
     dataset.storylines,
+    dataset.storyTours,
   ];
   const ids = new Set<string>();
 
@@ -75,6 +76,7 @@ export function validateDatasetReferences(
     ...dataset.events,
     ...dataset.battles,
     ...dataset.storylines,
+    ...dataset.storyTours,
   ]) {
     if (slugs.has(record.slug)) {
       issues.push({ code: 'duplicate-slug', path: record.id, message: `Duplicate slug: ${record.slug}` });
@@ -185,16 +187,9 @@ export function validateDatasetReferences(
     requireAllFrom(guide.nodeIds, nodeIds, `storyGuides.${guide.id}.nodeIds`, 'story node');
   }
   for (const storyline of dataset.storylines) {
-    if (storyline.fullTourPlacement) {
-      const eraGuide = dataset.storyGuides.find((guide) => guide.id === dataset.eras.find((era) => era.id === storyline.primaryEraId)?.storyGuideId);
-      if (!eraGuide?.nodeIds.includes(storyline.fullTourPlacement.afterNodeId)) {
-        issues.push({ code: 'broken-reference', path: `storylines.${storyline.id}.fullTourPlacement`, message: 'Placement must follow a chapter of its primary era guide.' });
-      }
-      const guide = dataset.storyGuides.find((item) => item.id === storyline.storyGuideId);
-      if (guide?.eraId !== storyline.primaryEraId) issues.push({ code: 'broken-reference', path: `storylines.${storyline.id}.storyGuideId`, message: 'Guide must belong to its primary era.' });
-      if (dataset.storylines.some((other) => other.id !== storyline.id && other.fullTourPlacement?.afterNodeId === storyline.fullTourPlacement?.afterNodeId && other.fullTourPlacement?.order === storyline.fullTourPlacement?.order)) {
-        issues.push({ code: 'duplicate-id', path: `storylines.${storyline.id}.fullTourPlacement`, message: 'Placement order must be unique at this chapter.' });
-      }
+    const storyGuide = dataset.storyGuides.find((item) => item.id === storyline.storyGuideId);
+    if (storyline.storyGuideId && storyGuide?.eraId !== storyline.primaryEraId) {
+      issues.push({ code: 'broken-reference', path: `storylines.${storyline.id}.storyGuideId`, message: 'Guide must belong to its primary era.' });
     }
     requireFrom(storyline.primaryEraId, eraIds, `storylines.${storyline.id}.primaryEraId`, 'era');
     requireAllFrom(storyline.eraIds, eraIds, `storylines.${storyline.id}.eraIds`, 'era');
@@ -202,6 +197,27 @@ export function validateDatasetReferences(
     requireSources(storyline.sourceIds, `storylines.${storyline.id}.sourceIds`);
     storyline.chapters.forEach((chapter) =>
       requireFrom(chapter.eraId, eraIds, `storylines.${storyline.id}.chapters.${chapter.id}.eraId`, 'era'));
+  }
+  for (const tour of dataset.storyTours) {
+    const regionIds = new Set(tour.regions.map((region) => region.id));
+    for (const region of tour.regions) {
+      requireFrom(region.worldspaceId, worldspaceIds, `storyTours.${tour.id}.regions.${region.id}.worldspaceId`, 'worldspace');
+    }
+    for (const entry of tour.entries) {
+      const storyline = dataset.storylines.find((item) => item.id === entry.storylineId);
+      requireFrom(entry.storylineId, idSet(dataset.storylines), `storyTours.${tour.id}.entries.${entry.order}.storylineId`, 'storyline');
+      entry.regionIds.forEach((regionId) => {
+        if (!regionIds.has(regionId)) {
+          issues.push({ code: 'broken-reference', path: `storyTours.${tour.id}.entries.${entry.order}.regionIds`, message: `Unknown story tour region ID: ${regionId}` });
+        }
+      });
+      if (storyline?.storyGuideId) {
+        const guide = dataset.storyGuides.find((item) => item.id === storyline.storyGuideId);
+        if (!guide || guide.nodeIds.length === 0) {
+          issues.push({ code: 'broken-reference', path: `storyTours.${tour.id}.entries.${entry.order}`, message: 'A playable story tour entry needs a guide with at least one node.' });
+        }
+      }
+    }
   }
   for (const node of dataset.storyNodes) {
     requireFrom(node.guideId, guideIds, `storyNodes.${node.id}.guideId`, 'story guide');
