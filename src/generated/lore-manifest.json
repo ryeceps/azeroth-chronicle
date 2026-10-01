@@ -56,6 +56,17 @@
       }
     },
     {
+      "id": "dungeon-set-two-story-theater",
+      "name": "Dungeon Set 2 — relational story theater",
+      "slug": "dungeon-set-two-story-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "karesh",
       "name": "K’aresh — relational field",
       "slug": "karesh",
@@ -337,6 +348,116 @@
         "old-gods-relational-research",
         "azeroth-world-soul-relational-research"
       ]
+    },
+    {
+      "id": "dungeon-set-two-beasts-chamber-scene",
+      "name": "Dungeon Set 2: Upper Blackrock Spire, The Beast’s chamber illustrated scene",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/dungeon-set-two/beasts-chamber.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape inspired by Upper Blackrock Spire, The Beast’s chamber. Recognizable traits to preserve: A vast black basalt hall, iron-banded gate, central floor and restrained spectral-green light amid furnace glow. The art recalls the chamber later used for Valthalak, not a raid map. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
+    },
+    {
+      "id": "dungeon-set-two-booty-bay-scene",
+      "name": "Dungeon Set 2: Booty Bay, Stranglethorn Vale illustrated scene",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/dungeon-set-two/booty-bay.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape inspired by Booty Bay, Stranglethorn Vale. Recognizable traits to preserve: Tropical water, a green-brown jungle shore, stacked wooden platforms, stilted walkways, moored ships and weathered cranes. The artwork shows an original harbor impression rather than a screenshot. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
+    },
+    {
+      "id": "dungeon-set-two-brd-ring-of-law-scene",
+      "name": "Dungeon Set 2: Blackrock Depths Ring of Law illustrated scene",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/dungeon-set-two/brd-ring-of-law.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape inspired by Blackrock Depths Ring of Law. Recognizable traits to preserve: A circular basalt arena, heavy iron gates, stepped stone and distant lava light. The gladiator lineup is not reconstructed or treated as fixed. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
+    },
+    {
+      "id": "dungeon-set-two-dire-maul-athenaeum-scene",
+      "name": "Dungeon Set 2: Dire Maul Athenaeum illustrated scene",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/dungeon-set-two/dire-maul-athenaeum.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape inspired by Dire Maul Athenaeum. Recognizable traits to preserve: Ancient kaldorei library arches, pale green weathered stone, vines, moss and cool moonlight. This evokes the Athenaeum without claiming an exact in-game floor plan. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
+    },
+    {
+      "id": "dungeon-set-two-ironforge-orgrimmar-halls-scene",
+      "name": "Dungeon Set 2: Ironforge High Seat and Orgrimmar Grommash Hold illustrated scene",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/dungeon-set-two/ironforge-orgrimmar-halls.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape inspired by Ironforge High Seat and Orgrimmar Grommash Hold. Recognizable traits to preserve: A deliberate split composition: Ironforge uses massive grey granite, warm golden forge light and modest blue/gold cloth; Orgrimmar uses red sandstone, timber and iron construction, and restrained Horde-red cloth. This is a comparison of alternate faction entry points, not a claim that the cities or characters share a place. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
+    },
+    {
+      "id": "dungeon-set-two-lower-blackrock-spire-scene",
+      "name": "Dungeon Set 2: Lower Blackrock Spire, Tazz’Alaor illustrated scene",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/dungeon-set-two/lower-blackrock-spire.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape inspired by Lower Blackrock Spire, Tazz’Alaor. Recognizable traits to preserve: Rough black basalt, crude ironwork, narrow ledges, troll warlord textures and orange furnace glow in a volcanic cavern. Exact room layout is interpretive. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
+    },
+    {
+      "id": "dungeon-set-two-plaguelands-road-scene",
+      "name": "Dungeon Set 2: Eastern Plaguelands outside Stratholme illustrated scene",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/dungeon-set-two/plaguelands-road.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape inspired by Eastern Plaguelands outside Stratholme. Recognizable traits to preserve: Grey-green plague fog, leafless trees, broken walls and a distant Gothic Stratholme silhouette. The ghost on the road is Anthion; surrounding details are an original interpretation, not a surveyed route. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
+    },
+    {
+      "id": "dungeon-set-two-scholomance-scene",
+      "name": "Dungeon Set 2: Scholomance, Ras Frostwhisper’s chamber illustrated scene",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/dungeon-set-two/scholomance.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape inspired by Scholomance, Ras Frostwhisper’s chamber. Recognizable traits to preserve: Cold blue-grey necromantic academy, stone tombs, shelves and restrained sickly-green lamps. Interior layout is interpretive. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
+    },
+    {
+      "id": "dungeon-set-two-stratholme-scarlet-bastion-scene",
+      "name": "Dungeon Set 2: Stratholme Scarlet Bastion illustrated scene",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/dungeon-set-two/stratholme-scarlet-bastion.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape inspired by Stratholme Scarlet Bastion. Recognizable traits to preserve: Pale grey Gothic crusader stone, faded crimson cloth, ruined hall and plague mist. Crimson is used only for the Scarlet Crusade location. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
+    },
+    {
+      "id": "dungeon-set-two-stratholme-slaughterhouse-scene",
+      "name": "Dungeon Set 2: Stratholme Slaughter House illustrated scene",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/dungeon-set-two/stratholme-slaughterhouse.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape inspired by Stratholme Slaughter House. Recognizable traits to preserve: Gothic stone crypt, iron cages and necromantic green-grey haze within Stratholme. The composition is original; no exact room dimensions or timer are asserted. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
+    },
+    {
+      "id": "dungeon-set-two-upper-blackrock-balcony-scene",
+      "name": "Dungeon Set 2: Upper Blackrock Spire entrance balcony illustrated scene",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/dungeon-set-two/upper-blackrock-balcony.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated landscape inspired by Upper Blackrock Spire entrance balcony. Recognizable traits to preserve: A jagged volcanic ledge, black masonry braces, distant iron structures and red-orange cavern glow. Bodley’s scene is placed near the instance entrance as described by the quest. This is a story illustration, not a surveyed map, dungeon floor plan, fixed formation or proof of exact character co-presence. See docs/research/dungeon-set-two-visual-assets.json."
     },
     {
       "id": "long-vigil-new-kingdoms-early-map-research",
@@ -1665,6 +1786,267 @@
       "editorNote": "Symbolic five-flight ensemble, not an exact gathering.",
       "labelPriority": 230,
       "visualPresence": "contextual"
+    },
+    {
+      "id": "dungeon-set-two-anthion-harmon-theater",
+      "entityId": "anthion-harmon",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-anthion-harmon-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-bodley-theater",
+      "entityId": "bodley",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-bodley-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text",
+        "dungeon-set-two-brazier-manual"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-deliana-theater",
+      "entityId": "deliana",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-deliana-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-falrin-treeshaper-theater",
+      "entityId": "falrin-treeshaper",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-falrin-treeshaper-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-gremnik-rizzlesprang-theater",
+      "entityId": "gremnik-rizzlesprang",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-gremnik-rizzlesprang-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-isalien-theater",
+      "entityId": "isalien",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-isalien-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-jarien-sothos-theater",
+      "entityId": "jarien-sothos",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-jarien-sothos-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-kormok-theater",
+      "entityId": "kormok",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-kormok-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-lord-valthalak-theater",
+      "entityId": "lord-valthalak",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-lord-valthalak-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator",
+        "dungeon-set-two-valtalak-quest-text"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-mokvar-theater",
+      "entityId": "mokvar",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-mokvar-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-mor-grayhoof-theater",
+      "entityId": "mor-grayhoof",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-mor-grayhoof-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-spectral-assassins-theater",
+      "entityId": "spectral-assassins",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-spectral-assassins-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-theldren-theater",
+      "entityId": "theldren",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-theldren-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-valthalak-amulet-theater",
+      "entityId": "valthalak-amulet",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-valthalak-amulet-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text",
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator",
+        "dungeon-set-two-valtalak-quest-text"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-veiled-blade-theater",
+      "entityId": "veiled-blade",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-veiled-blade-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "dungeon-set-two-ysida-harmon-theater",
+      "entityId": "ysida-harmon",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "geometryId": "dungeon-set-two-ysida-harmon-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "editorNote": "Editorial cast arrangement in an illustrated theater. This position conveys no geographic location, travel route, literal formation or claim that these actors were simultaneously present.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
     },
     {
       "id": "durotan-era-six-spatial-research",
@@ -4695,7 +5077,12 @@
         "onyxia-classic-attunement",
         "onyxia-attunement-wiki",
         "story-onyxia-overview",
-        "onyxia-classic-raid"
+        "onyxia-classic-raid",
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text",
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator",
+        "dungeon-set-two-valtalak-quest-text"
       ],
       "contentStatus": "research"
     },
@@ -5436,6 +5823,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "anthion-harmon",
+      "type": "character",
+      "name": "Anthion Harmon",
+      "slug": "anthion-harmon",
+      "shortDescription": "Anthion Harmon, represented in the Dungeon Set 2 research story.",
+      "body": "Anthion Harmon, a human mercenary ghost in faded mail, rendered with spectral blue edges. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/anthion-harmon.research.webp",
+        "scale": 0.82
+      }
+    },
+    {
       "id": "aqir",
       "type": "faction",
       "name": "Aqir",
@@ -5782,6 +6194,32 @@
       "contentStatus": "research"
     },
     {
+      "id": "bodley",
+      "type": "character",
+      "name": "Bodley",
+      "slug": "bodley",
+      "shortDescription": "Bodley, represented in the Dungeon Set 2 research story.",
+      "body": "Bodley, a small male gnome mage ghost in faded scholar robes. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text",
+        "dungeon-set-two-brazier-manual"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/bodley.research.webp",
+        "scale": 0.82
+      }
+    },
+    {
       "id": "bolvar-fordragon",
       "name": "Bolvar Fordragon",
       "slug": "bolvar-fordragon",
@@ -6065,6 +6503,31 @@
         "scale": 0.76
       },
       "contentStatus": "research"
+    },
+    {
+      "id": "deliana",
+      "type": "character",
+      "name": "Deliana",
+      "slug": "deliana",
+      "shortDescription": "Deliana, represented in the Dungeon Set 2 research story.",
+      "body": "Deliana, the Alliance contact and surviving Veiled Blade member, shown in original practical blue-grey field clothing with restrained gold trim. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/deliana.research.webp",
+        "scale": 0.84
+      }
     },
     {
       "id": "dirge-quikcleave",
@@ -6548,6 +7011,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "falrin-treeshaper",
+      "type": "character",
+      "name": "Falrin Treeshaper",
+      "slug": "falrin-treeshaper",
+      "shortDescription": "Falrin Treeshaper, represented in the Dungeon Set 2 research story.",
+      "body": "Falrin Treeshaper, an older night elf druid with silver hair and leaf-woven robes. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/falrin-treeshaper.research.webp",
+        "scale": 0.82
+      }
+    },
+    {
       "id": "fandral-staghelm",
       "type": "character",
       "name": "Fandral Staghelm",
@@ -6689,6 +7177,31 @@
         "physical-universe"
       ],
       "contentStatus": "research"
+    },
+    {
+      "id": "gremnik-rizzlesprang",
+      "type": "character",
+      "name": "Gremnik Rizzlesprang",
+      "slug": "gremnik-rizzlesprang",
+      "shortDescription": "Gremnik Rizzlesprang, represented in the Dungeon Set 2 research story.",
+      "body": "Gremnik Rizzlesprang, a male goblin smuggler-wizard in weathered dark leather, shown as an original interpretation. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/gremnik-rizzlesprang.research.webp",
+        "scale": 0.82
+      }
     },
     {
       "id": "grim-batol-ancient",
@@ -7068,6 +7581,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "isalien",
+      "type": "character",
+      "name": "Isalien",
+      "slug": "isalien",
+      "shortDescription": "Isalien, represented in the Dungeon Set 2 research story.",
+      "body": "Isalien, a night elf Priestess of the Moon and spirit, shown in original teal and silver robes with crescent motifs. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/isalien.research.webp",
+        "scale": 0.84
+      }
+    },
+    {
       "id": "jaina-proudmoore",
       "type": "character",
       "name": "Jaina Proudmoore",
@@ -7095,6 +7633,31 @@
         "scale": 0.82
       },
       "contentStatus": "research"
+    },
+    {
+      "id": "jarien-sothos",
+      "type": "faction",
+      "name": "Jarien and Sothos",
+      "slug": "jarien-sothos",
+      "shortDescription": "Jarien and Sothos, represented in the Dungeon Set 2 research story.",
+      "body": "The undead sibling pair in an original, shared representation; the art does not imply a specific order of their deaths. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/dungeon-set-two/jarien-sothos.research.webp",
+        "scale": 0.86
+      }
     },
     {
       "id": "kaldorei-empire",
@@ -7358,6 +7921,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "kormok",
+      "type": "character",
+      "name": "Kormok",
+      "slug": "kormok",
+      "shortDescription": "Kormok, represented in the Dungeon Set 2 research story.",
+      "body": "Kormok, the two-headed ogre necromancer; his two heads have different expressions, as the in-game manual describes. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/kormok.research.webp",
+        "scale": 0.82
+      }
+    },
+    {
       "id": "lei-shen",
       "type": "character",
       "name": "Lei Shen",
@@ -7444,6 +8032,32 @@
         "scale": 0.92
       },
       "contentStatus": "research"
+    },
+    {
+      "id": "lord-valthalak",
+      "type": "character",
+      "name": "Lord Valthalak",
+      "slug": "lord-valthalak",
+      "shortDescription": "Lord Valthalak, represented in the Dungeon Set 2 research story.",
+      "body": "Lord Valthalak, a drakonid noble and warlock, former general of Blackrock Spire, rendered as a scaled spectral humanoid in dark bronze armor. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator",
+        "dungeon-set-two-valtalak-quest-text"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/lord-valthalak.research.webp",
+        "scale": 0.82
+      }
     },
     {
       "id": "lordaeron-ancient",
@@ -7669,6 +8283,56 @@
         "pandaria"
       ],
       "contentStatus": "research"
+    },
+    {
+      "id": "mokvar",
+      "type": "character",
+      "name": "Mokvar",
+      "slug": "mokvar",
+      "shortDescription": "Mokvar, represented in the Dungeon Set 2 research story.",
+      "body": "Mokvar, the Horde contact and surviving Veiled Blade member, shown as an original green-skinned orc advisor in worn mail and red-brown leather. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/mokvar.research.webp",
+        "scale": 0.84
+      }
+    },
+    {
+      "id": "mor-grayhoof",
+      "type": "character",
+      "name": "Mor Grayhoof",
+      "slug": "mor-grayhoof",
+      "shortDescription": "Mor Grayhoof, represented in the Dungeon Set 2 research story.",
+      "body": "Mor Grayhoof, a broad male tauren druid ghost with muted natural adornments. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/mor-grayhoof.research.webp",
+        "scale": 0.82
+      }
     },
     {
       "id": "mount-hyjal-ancient",
@@ -8570,6 +9234,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "spectral-assassins",
+      "type": "faction",
+      "name": "Spectral Assassins",
+      "slug": "spectral-assassins",
+      "shortDescription": "Spectral Assassins, represented in the Dungeon Set 2 research story.",
+      "body": "A small ensemble of translucent undead human assassins in dark armor and pale green spirit light. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/dungeon-set-two/spectral-assassins.research.webp",
+        "scale": 0.86
+      }
+    },
+    {
       "id": "stewvul",
       "type": "character",
       "name": "Stewvul",
@@ -8773,6 +9462,31 @@
         "dwarves"
       ],
       "contentStatus": "research"
+    },
+    {
+      "id": "theldren",
+      "type": "character",
+      "name": "Theldren",
+      "slug": "theldren",
+      "shortDescription": "Theldren, represented in the Dungeon Set 2 research story.",
+      "body": "Theldren, a stout male dwarf gladiator in dark iron armor with a worn arena shield. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/theldren.research.webp",
+        "scale": 0.82
+      }
     },
     {
       "id": "therazane",
@@ -9052,6 +9766,59 @@
       "contentStatus": "research"
     },
     {
+      "id": "valthalak-amulet",
+      "type": "artifact",
+      "name": "Lord Valthalak’s Amulet",
+      "slug": "valthalak-amulet",
+      "shortDescription": "Lord Valthalak’s Amulet, represented in the Dungeon Set 2 research story.",
+      "body": "A dark bronze medallion broken into three interlocking pieces with a restrained spectral-green pulse; an original artifact interpretation. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text",
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator",
+        "dungeon-set-two-valtalak-quest-text"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/dungeon-set-two/valthalak-amulet.research.webp",
+        "scale": 0.7
+      }
+    },
+    {
+      "id": "veiled-blade",
+      "type": "faction",
+      "name": "The Veiled Blade",
+      "slug": "veiled-blade",
+      "shortDescription": "The Veiled Blade, represented in the Dungeon Set 2 research story.",
+      "body": "An editorial mercenary-company ensemble of varied silhouettes; its exact member composition is not asserted. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/dungeon-set-two/veiled-blade.research.webp",
+        "scale": 0.86
+      }
+    },
+    {
       "id": "void-lords",
       "type": "faction",
       "name": "The Void Lords",
@@ -9233,6 +10000,31 @@
         "scale": 1.08
       },
       "contentStatus": "research"
+    },
+    {
+      "id": "ysida-harmon",
+      "type": "character",
+      "name": "Ysida Harmon",
+      "slug": "ysida-harmon",
+      "shortDescription": "Ysida Harmon, represented in the Dungeon Set 2 research story.",
+      "body": "Ysida Harmon, a living human priest of the Argent Dawn in modest cream robes and a small holy symbol. Original AI-generated interpretive artwork, not canonical game art or evidence for a costume, exact appearance, location or event. See the production and visual asset ledgers for the source boundary.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "tags": [
+        "dungeon-set-two-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/dungeon-set-two/ysida-harmon.research.webp",
+        "scale": 0.82
+      }
     },
     {
       "id": "zin-azshari",
@@ -10156,6 +10948,549 @@
       ],
       "claimIds": [
         "dragon-isles-awaken-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-a-client-from-booty-bay-event",
+      "kind": "event",
+      "name": "A commission from Booty Bay",
+      "slug": "dungeon-set-two-a-client-from-booty-bay",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Bodley remembers a commission from Gremnik Rizzlesprang, a goblin smuggler-wizard out of Booty Bay. The job was to take Lord Valthalak’s spellbook from Blackrock Spire. Bodley does not know whether Gremnik meant to study it or sell it, and the manual leaves that motive unresolved. The distinction matters: the company’s contract is documented, but its patron’s private purpose is not.",
+      "participantEntityIds": [
+        "gremnik-rizzlesprang"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "claimIds": [
+        "dungeon-set-two-a-client-from-booty-bay-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-a-plea-from-the-dead-event",
+      "kind": "event",
+      "name": "A plea that cannot wait",
+      "slug": "dungeon-set-two-a-plea-from-the-dead",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Anthion’s request carries two losses at once. He has already died in the attempt, yet the thought of losing Ysida still binds him to the road. The quest asks for a living woman held by the Baron, not for a heroic last stand by her husband. No timer is needed in the telling: the source gives the plea and the danger, while the hourglass belongs to the dungeon challenge rather than to a new historical event.",
+      "participantEntityIds": [
+        "anthion-harmon",
+        "ysida-harmon"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "claimIds": [
+        "dungeon-set-two-a-plea-from-the-dead-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-isalien-event",
+      "kind": "event",
+      "name": "Alternative fate · Isalien",
+      "slug": "dungeon-set-two-alternate-fate-isalien",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Isalien left the company for a pilgrimage to Dire Maul, seeking answers about her night elf heritage and perhaps the magic within her amulet piece. Bodley remembers her as a friend of Falrin. In the city’s old kaldorei halls, she was ambushed by Alzzin the Wildshaper and his forces. The manual leaves her at another haunted place: a former companion drawn toward knowledge, then overtaken by the same scattered curse.",
+      "participantEntityIds": [
+        "isalien"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "claimIds": [
+        "dungeon-set-two-alternate-fate-isalien-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-jarien-sothos-event",
+      "kind": "event",
+      "name": "Alternative fate · Jarien and Sothos",
+      "slug": "dungeon-set-two-alternate-fate-jarien-sothos",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Jarien and Sothos, siblings of the Veiled Blade, turned toward the Scarlet Crusade after the company dissolved. They sought knighthood at Stratholme. Bodley’s account says Sothos failed the final trial; Jarien defended her brother and demanded that they be admitted together. Grand Crusader Dathrohan killed them both. The amulet piece they carried further twisted their spirits. Their chapter, too, is one possible haunted locus in the family of routes.",
+      "participantEntityIds": [
+        "jarien-sothos"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "claimIds": [
+        "dungeon-set-two-alternate-fate-jarien-sothos-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-kormok-event",
+      "kind": "event",
+      "name": "Alternative fate · Kormok",
+      "slug": "dungeon-set-two-alternate-fate-kormok",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Another branch follows Kormok to Scholomance. Once a member of the Veiled Blade, the two-headed ogre became drawn to necromancy; the manual describes one head as clever and cold, the other more foolish. After the company broke apart, he sought further study at Scholomance. Valthalak’s spectral assassins reached him there and killed him before Ras Frostwhisper. The record remembers a comrade turned toward dangerous art, then found by the curse.",
+      "participantEntityIds": [
+        "kormok",
+        "spectral-assassins"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "claimIds": [
+        "dungeon-set-two-alternate-fate-kormok-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-mor-event",
+      "kind": "event",
+      "name": "Alternative fate · Mor Grayhoof",
+      "slug": "dungeon-set-two-alternate-fate-mor",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "One remembered branch leads to Mor Grayhoof. He survived the fall into Lower Blackrock Spire, but trolls captured him and War Master Voone tortured him. The spectral assassins finished what the fall had not. Mor’s story is one of the manual’s haunted loci; it is an alternative account of a former companion’s fate, not an assertion that every adventurer fought every spirit in this order.",
+      "participantEntityIds": [
+        "mor-grayhoof",
+        "spectral-assassins"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "claimIds": [
+        "dungeon-set-two-alternate-fate-mor-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-bodleys-fate-event",
+      "kind": "event",
+      "name": "Bodley, unseen on the balcony",
+      "slug": "dungeon-set-two-bodleys-fate",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Near the entrance balcony of Blackrock Spire, Bodley appears only to one who can see ghosts. He had gone back toward the fortress and never returned. The quest giver fears he is dead; Bodley confirms it without ceremony and asks for help undoing the company’s wrong. If the top piece is already found, he can point toward the other two. His greeting is warm, even here, where the old danger began.",
+      "participantEntityIds": [
+        "bodley"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "claimIds": [
+        "dungeon-set-two-bodleys-fate-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-falrins-old-friend-event",
+      "kind": "event",
+      "name": "Falrin remembers an old friend",
+      "slug": "dungeon-set-two-falrins-old-friend",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "In Dire Maul’s Athenaeum, Anthion’s old friend Falrin Treeshaper listens to the request. He had thought Anthion dead. Falrin agrees to help prepare an enchantment that can draw Theldren into a fight; his anger at the ogres is personal, rooted in the death of his brother. The required collection is a task in play, not a separate historical episode. What matters to the story is that an old bond supplies the means for a dangerous meeting.",
+      "participantEntityIds": [
+        "falrin-treeshaper"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "claimIds": [
+        "dungeon-set-two-falrins-old-friend-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-inside-the-slaughter-house-event",
+      "kind": "event",
+      "name": "Ysida in the Slaughter House",
+      "slug": "dungeon-set-two-inside-the-slaughter-house",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "The way leads through Stratholme to its Slaughter House, where Rivendare holds Ysida. The walls are steeped in the Scourge’s greenish corruption, but the quest’s purpose is rescue: reach her alive and bring her beyond the Baron’s reach. The art marks the room as an interpretation of the Classic dungeon, not a measured reconstruction. Ysida has endured the city’s horror; the next journey carries a message toward the husband she believes is lost.",
+      "participantEntityIds": [
+        "ysida-harmon"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "claimIds": [
+        "dungeon-set-two-inside-the-slaughter-house-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-mea-culpa-event",
+      "kind": "event",
+      "name": "Mea Culpa, Lord Valthalak",
+      "slug": "dungeon-set-two-mea-culpa",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "In the Beast’s chamber, the brazier calls Valthalak back into a body that can be confronted. After the battle, the restored amulet is used on his corpse and his spirit appears, whole again. He recognizes that the seeker was not among the original thieves and demands his property back. The quest does not give the mortal a new claim to the medallion; it asks the traveler to return it to its owner and carry his answer back to Bodley.",
+      "participantEntityIds": [
+        "lord-valthalak",
+        "valthalak-amulet"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-valtalak-quest-text",
+        "dungeon-set-two-brazier-manual"
+      ],
+      "claimIds": [
+        "dungeon-set-two-mea-culpa-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-parting-words-event",
+      "kind": "event",
+      "name": "Anthion’s parting words",
+      "slug": "dungeon-set-two-parting-words",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "With the top piece returned, Anthion explains the danger that he could not see before. The Veiled Blade split Valthalak’s amulet into three parts out of greed, not knowing that it held much of the warlock’s soul. The curse followed. Anthion asks the seeker to find Bodley, who can guide the search for the other pieces. At last, Anthion believes he may rest; his part in the company’s wrong has become a plea to set it right.",
+      "participantEntityIds": [
+        "anthion-harmon",
+        "valthalak-amulet"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "claimIds": [
+        "dungeon-set-two-parting-words-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-proof-of-life-event",
+      "kind": "event",
+      "name": "Proof of life",
+      "slug": "dungeon-set-two-proof-of-life",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Ysida gives the rescuer her locket to carry back to Anthion. She believes he perished while trying to save her, and the token is her proof that she remains alive. When the message reaches the roadside ghost, Anthion learns that the rescue succeeded. Their reunion is brief and divided by death, yet Ysida’s survival releases him from the fear that held him there. He can now offer help in the work that remains.",
+      "participantEntityIds": [
+        "ysida-harmon",
+        "anthion-harmon"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "claimIds": [
+        "dungeon-set-two-proof-of-life-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-safe-for-now-event",
+      "kind": "event",
+      "name": "Safe for now",
+      "slug": "dungeon-set-two-safe-for-now",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Valthalak tells the traveler to return to the Veiled Blade and say they are safe—for now. Bodley is astonished that the spirit will call off his assassins, though the promise carries a warning of future harm. The manual still speaks of echoes at the haunted loci, and the company itself has not been restored. Its members remain scattered among separate lives and deaths. What is repaired is the amulet, and for this moment, the pursuit it unleashed.",
+      "participantEntityIds": [
+        "bodley"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-brazier-manual"
+      ],
+      "claimIds": [
+        "dungeon-set-two-safe-for-now-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-the-brazier-attuned-event",
+      "kind": "event",
+      "name": "The brazier is prepared",
+      "slug": "dungeon-set-two-the-brazier-attuned",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Bodley prepares a brazier able to call the spirit from its old lair. The chain asks for specific components, but their collection is not another history of the company. Its purpose is to attune the brazier and make the final encounter possible. The manual names haunted places to give the wider meaning: Valthalak’s power has marked the places where his former companions fell, and the Beast’s chamber remains the last of those sites.",
+      "participantEntityIds": [
+        "bodley",
+        "valthalak-amulet"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-brazier-manual"
+      ],
+      "claimIds": [
+        "dungeon-set-two-the-brazier-attuned-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-the-company-flees-event",
+      "kind": "event",
+      "name": "The company flees the risen spirit",
+      "slug": "dungeon-set-two-the-company-flees",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Valthalak rose as a spirit and called spectral assassins against the mercenaries. Their struggle also roused defenders in the Spire. Most of the Veiled Blade escaped, but safety proved brief: the assassins pursued them wherever they hid. The company soon broke apart, its quarrel made worse by a curse that followed each shard. In the confusion Mor Grayhoof fell toward the lower reaches of the fortress, where his own path would end.",
+      "participantEntityIds": [
+        "veiled-blade",
+        "spectral-assassins",
+        "mor-grayhoof"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "claimIds": [
+        "dungeon-set-two-the-company-flees-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-the-first-fragment-event",
+      "kind": "event",
+      "name": "A fragment taken by Theldren",
+      "slug": "dungeon-set-two-the-first-fragment",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Anthion’s next account turns from rescue to the Veiled Blade’s spoils. The company did not understand the medallion’s importance, so it was divided with their other plunder. A dwarf named Theldren took the first piece. Anthion tried to win it back and was beaten badly; the fragment would have to be claimed through another challenge. The amulet is already more than an ornament, though its danger has not yet been named.",
+      "participantEntityIds": [
+        "anthion-harmon",
+        "valthalak-amulet"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "claimIds": [
+        "dungeon-set-two-the-first-fragment-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-the-former-general-event",
+      "kind": "event",
+      "name": "The former general of the Spire",
+      "slug": "dungeon-set-two-the-former-general",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Before Drakkisath, Lord Valthalak was a drakonid noble and warlock who had served as Blackrock Spire’s general. The Veiled Blade entered the upper fortress, slew him, and took the spellbook. Bodley recalls that the company knew too little of Valthalak’s power over souls to understand what they had disturbed. The lair is now called the Beast’s chamber. The manual’s account makes clear that the company’s successful contract was the beginning of its ruin.",
+      "participantEntityIds": [
+        "veiled-blade",
+        "lord-valthalak"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "claimIds": [
+        "dungeon-set-two-the-former-general-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-the-ghost-at-stratholme-event",
+      "kind": "event",
+      "name": "The ghost at Stratholme’s gate",
+      "slug": "dungeon-set-two-the-ghost-at-stratholme",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "At the Eastern Plaguelands road, a goblin device lets the living hear Anthion Harmon. Death has not quieted his concern: Ysida, his wife, was captured by Baron Rivendare inside Stratholme. Anthion says he tried to reach her and failed. He asks the seeker to finish the rescue. The city rises behind him through bare branches and grey-green haze; within it, the question is simple and terrible—whether Ysida still lives.",
+      "participantEntityIds": [
+        "anthion-harmon"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "claimIds": [
+        "dungeon-set-two-the-ghost-at-stratholme-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-the-medallion-dispute-event",
+      "kind": "event",
+      "name": "The medallion in Kormok’s hands",
+      "slug": "dungeon-set-two-the-medallion-dispute",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "When the company prepared to leave with the book, Kormok claimed Valthalak’s amulet as his share. His insistence turned the group against itself. They argued, nearly came to blows, and finally broke the medallion into three pieces. Only later did they learn that it housed much of Valthalak’s spirit. The distribution followed a lot; Theldren’s top fragment had already returned through Anthion’s challenge, while the other pieces scattered among former companions.",
+      "participantEntityIds": [
+        "kormok",
+        "valthalak-amulet",
+        "veiled-blade"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator"
+      ],
+      "claimIds": [
+        "dungeon-set-two-the-medallion-dispute-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-the-other-pieces-event",
+      "kind": "event",
+      "name": "Finding the other two pieces",
+      "slug": "dungeon-set-two-the-other-pieces",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Bodley guides the search to two further pieces. The quest versions can direct a class or faction branch toward one of several haunted companions; they are alternate targets from the same company history. The four accounts just heard are arranged here as memorials, not as four mandatory kills by one canonical traveler. When the missing pieces are brought together with Theldren’s top fragment, the medallion can be made whole again.",
+      "participantEntityIds": [
+        "bodley",
+        "valthalak-amulet"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-brazier-manual"
+      ],
+      "claimIds": [
+        "dungeon-set-two-the-other-pieces-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-the-ring-of-law-event",
+      "kind": "event",
+      "name": "The Challenge in Blackrock Depths",
+      "slug": "dungeon-set-two-the-ring-of-law",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Beneath Blackrock Mountain, the Ring of Law becomes the stage for the challenge. As High Justice Grimstone sentences the intruders, they plant Falrin’s banner. Theldren cannot resist the provocation; he enters the arena with his gladiators. The team composition can vary, so this scene gives no fixed roster or race to the company. The battle retrieves the top piece and changes the next question: now the remaining fragments must be traced to Anthion’s other companions.",
+      "participantEntityIds": [
+        "theldren"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "claimIds": [
+        "dungeon-set-two-the-ring-of-law-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-two-faction-doors-event",
+      "kind": "event",
+      "name": "Two doors into the same story",
+      "slug": "dungeon-set-two-two-faction-doors",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "dungeon-set-two-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+      },
+      "summary": "Deliana speaks from Ironforge; Mokvar speaks from Orgrimmar. Their faction quests are separate doors into the same old wound, not a shared meeting or a single adventurer’s simultaneous allegiance. Each directs a seeker toward Anthion Harmon, whose ghost waits beyond Stratholme. The armor work that frames the journey is only its threshold. Ahead lie a rescue, a company’s last contract, and a medallion whose pieces carried more than any of its owners understood.",
+      "participantEntityIds": [
+        "deliana",
+        "mokvar"
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text"
+      ],
+      "claimIds": [
+        "dungeon-set-two-two-faction-doors-claim"
       ],
       "contentStatus": "research"
     },
@@ -17054,6 +18389,41 @@
       "notes": "First-party Blizzard overview: https://worldofwarcraft.blizzard.com/en-us/news/23850850. Supports Icecrown as the Lich King's seat and the broad campaign toward a final confrontation."
     },
     {
+      "id": "dungeon-set-two-anthion-quest-text",
+      "title": "Anthion Harmon quest text locators",
+      "url": "https://classicdb.ch/?quest=8945",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-01. ClassicDB reproductions of original quest text are secondary mirrors. This source locator begins at quest 8945; nearby Classic quest pages cover Proof of Life, Anthion's Strange Request, Anthion's Old Friend, Falrin's Vendetta and The Challenge. Compare each against the intended original client/build before human approval."
+    },
+    {
+      "id": "dungeon-set-two-brazier-manual",
+      "title": "Brazier of Invocation: User's Manual",
+      "url": "https://warcraft.wiki.gg/wiki/Brazier_of_Invocation:_User%27s_Manual",
+      "sourceType": "manual",
+      "notes": "Accessed 2026-10-01. Secondary page reproducing the in-game manual awarded by Return to Bodley. The manual is Bodley's account, not an omniscient neutral chronicle; preserve his explicit uncertainty, especially about Gremnik's motive."
+    },
+    {
+      "id": "dungeon-set-two-quest-locators",
+      "title": "Dungeon Sets 1 and 2 quest chain locator",
+      "url": "https://www.wowhead.com/classic/guide/dungeon-sets-1-2-quests-wow-classic",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-01. Secondary WoW Classic guide used to locate and order the class/faction quest variants. It is not an original-client capture. Primary quest IDs in scope include 8945 Dead Man's Plea, 8946 Proof of Life, 8947 Anthion's Strange Request, 8948 Anthion's Old Friend, 8949 Falrin's Vendetta, 8950 The Instigator's Enchantment, 9015 The Challenge, 9020 Anthion's Parting Words, 8960/9032 Bodley's Unfortunate Fate, 8995 Mea Culpa, Lord Valthalak, and related Left/Right Piece variants."
+    },
+    {
+      "id": "dungeon-set-two-valtalak-quest-text",
+      "title": "Mea Culpa, Lord Valthalak quest locator",
+      "url": "https://www.wowhead.com/classic/quest=8995/mea-culpa-lord-valthalak",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-01. WoWhead Classic mirror of quest 8995 and its associated objective/dialogue. Secondary reproduction; original-client dialogue and edition comparison remain open."
+    },
+    {
+      "id": "dungeon-set-two-veiled-blade-locator",
+      "title": "Veiled Blade company history locator",
+      "url": "https://warcraft.wiki.gg/wiki/Veiled_Blade",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-01. Secondary compilation that links the mercenaries and their member histories. Use the in-game manual and named Classic quest text as the claim anchors; later continuity is out of scope."
+    },
+    {
       "id": "onyxia-attunement-wiki",
       "title": "Onyxia’s Lair attunement",
       "url": "https://warcraft.wiki.gg/wiki/Onyxia%27s_Lair_attunement",
@@ -17848,6 +19218,314 @@
       "sourceId": "warcraft-chronicle-volume-4",
       "section": "Pandaria through Shadowlands research packet",
       "note": "Working Chronicle Volume 4 support only. Exact edition, chapter, and page locations remain pending human review and block promotion."
+    },
+    {
+      "id": "dungeon-set-two-a-client-from-booty-bay-citation-1",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "Brazier of Invocation: User’s Manual · Lord Valthalak section · A commission from Booty Bay and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Lord Valthalak section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-a-client-from-booty-bay-citation-2",
+      "sourceId": "dungeon-set-two-veiled-blade-locator",
+      "section": "Brazier of Invocation: User’s Manual · Lord Valthalak section · A commission from Booty Bay and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Lord Valthalak section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-a-plea-from-the-dead-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "8945 · Dead Man’s Plea · A plea that cannot wait and the directly relevant description, account, objective or completion text",
+      "questId": "8945 · Dead Man’s Plea",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-a-plea-from-the-dead-citation-2",
+      "sourceId": "dungeon-set-two-anthion-quest-text",
+      "section": "8945 · Dead Man’s Plea · A plea that cannot wait and the directly relevant description, account, objective or completion text",
+      "questId": "8945 · Dead Man’s Plea",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-isalien-citation-1",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "Brazier of Invocation: User’s Manual · Isalien section · Alternative fate · Isalien and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Isalien section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-isalien-citation-2",
+      "sourceId": "dungeon-set-two-veiled-blade-locator",
+      "section": "Brazier of Invocation: User’s Manual · Isalien section · Alternative fate · Isalien and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Isalien section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-jarien-sothos-citation-1",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "Brazier of Invocation: User’s Manual · Jarien and Sothos section · Alternative fate · Jarien and Sothos and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Jarien and Sothos section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-jarien-sothos-citation-2",
+      "sourceId": "dungeon-set-two-veiled-blade-locator",
+      "section": "Brazier of Invocation: User’s Manual · Jarien and Sothos section · Alternative fate · Jarien and Sothos and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Jarien and Sothos section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-kormok-citation-1",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "Brazier of Invocation: User’s Manual · Kormok section · Alternative fate · Kormok and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Kormok section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-kormok-citation-2",
+      "sourceId": "dungeon-set-two-veiled-blade-locator",
+      "section": "Brazier of Invocation: User’s Manual · Kormok section · Alternative fate · Kormok and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Kormok section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-mor-citation-1",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "Brazier of Invocation: User’s Manual · Mor Grayhoof section · Alternative fate · Mor Grayhoof and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Mor Grayhoof section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-mor-citation-2",
+      "sourceId": "dungeon-set-two-veiled-blade-locator",
+      "section": "Brazier of Invocation: User’s Manual · Mor Grayhoof section · Alternative fate · Mor Grayhoof and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Mor Grayhoof section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-bodleys-fate-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "8960 / 9032 · Bodley’s Unfortunate Fate · Bodley, unseen on the balcony and the directly relevant description, account, objective or completion text",
+      "questId": "8960 / 9032 · Bodley’s Unfortunate Fate",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-bodleys-fate-citation-2",
+      "sourceId": "dungeon-set-two-anthion-quest-text",
+      "section": "8960 / 9032 · Bodley’s Unfortunate Fate · Bodley, unseen on the balcony and the directly relevant description, account, objective or completion text",
+      "questId": "8960 / 9032 · Bodley’s Unfortunate Fate",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-falrins-old-friend-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "8948 · Anthion’s Old Friend · Falrin remembers an old friend and the directly relevant description, account, objective or completion text",
+      "questId": "8948 · Anthion’s Old Friend",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-falrins-old-friend-citation-2",
+      "sourceId": "dungeon-set-two-anthion-quest-text",
+      "section": "8949 · Falrin’s Vendetta · Falrin remembers an old friend and the directly relevant description, account, objective or completion text",
+      "questId": "8949 · Falrin’s Vendetta",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-inside-the-slaughter-house-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "8945 · Dead Man’s Plea · Ysida in the Slaughter House and the directly relevant description, account, objective or completion text",
+      "questId": "8945 · Dead Man’s Plea",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-inside-the-slaughter-house-citation-2",
+      "sourceId": "dungeon-set-two-anthion-quest-text",
+      "section": "8945 · Dead Man’s Plea · Ysida in the Slaughter House and the directly relevant description, account, objective or completion text",
+      "questId": "8945 · Dead Man’s Plea",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-mea-culpa-citation-1",
+      "sourceId": "dungeon-set-two-valtalak-quest-text",
+      "section": "8995 · Mea Culpa, Lord Valthalak · Mea Culpa, Lord Valthalak and the directly relevant description, account, objective or completion text",
+      "questId": "8995 · Mea Culpa, Lord Valthalak",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-mea-culpa-citation-2",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "8995 · Mea Culpa, Lord Valthalak · Mea Culpa, Lord Valthalak and the directly relevant description, account, objective or completion text",
+      "questId": "8995 · Mea Culpa, Lord Valthalak",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-parting-words-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "9020 · Anthion’s Parting Words · Anthion’s parting words and the directly relevant description, account, objective or completion text",
+      "questId": "9020 · Anthion’s Parting Words",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-parting-words-citation-2",
+      "sourceId": "dungeon-set-two-anthion-quest-text",
+      "section": "9020 · Anthion’s Parting Words · Anthion’s parting words and the directly relevant description, account, objective or completion text",
+      "questId": "9020 · Anthion’s Parting Words",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-proof-of-life-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "8946 · Proof of Life · Proof of life and the directly relevant description, account, objective or completion text",
+      "questId": "8946 · Proof of Life",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-proof-of-life-citation-2",
+      "sourceId": "dungeon-set-two-anthion-quest-text",
+      "section": "8946 · Proof of Life · Proof of life and the directly relevant description, account, objective or completion text",
+      "questId": "8946 · Proof of Life",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-safe-for-now-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "Return to Bodley · post-8995 quest chain · Safe for now and the directly relevant description, account, objective or completion text",
+      "questId": "Return to Bodley · post-8995 quest chain",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-safe-for-now-citation-2",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "Brazier of Invocation: User’s Manual · Safe for now and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-brazier-attuned-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "Final Preparations · Blackrock Spire quest chain · The brazier is prepared and the directly relevant description, account, objective or completion text",
+      "questId": "Final Preparations · Blackrock Spire quest chain",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-brazier-attuned-citation-2",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "Final Preparations · Blackrock Spire quest chain · The brazier is prepared and the directly relevant description, account, objective or completion text",
+      "questId": "Final Preparations · Blackrock Spire quest chain",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-company-flees-citation-1",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "Brazier of Invocation: User’s Manual · Lord Valthalak section · The company flees the risen spirit and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Lord Valthalak section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-company-flees-citation-2",
+      "sourceId": "dungeon-set-two-veiled-blade-locator",
+      "section": "Brazier of Invocation: User’s Manual · Lord Valthalak section · The company flees the risen spirit and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Lord Valthalak section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-first-fragment-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "8947 · Anthion’s Strange Request · A fragment taken by Theldren and the directly relevant description, account, objective or completion text",
+      "questId": "8947 · Anthion’s Strange Request",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-first-fragment-citation-2",
+      "sourceId": "dungeon-set-two-anthion-quest-text",
+      "section": "8947 · Anthion’s Strange Request · A fragment taken by Theldren and the directly relevant description, account, objective or completion text",
+      "questId": "8947 · Anthion’s Strange Request",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-former-general-citation-1",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "Brazier of Invocation: User’s Manual · Lord Valthalak section · The former general of the Spire and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Lord Valthalak section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-former-general-citation-2",
+      "sourceId": "dungeon-set-two-veiled-blade-locator",
+      "section": "Brazier of Invocation: User’s Manual · Lord Valthalak section · The former general of the Spire and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Lord Valthalak section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-ghost-at-stratholme-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "In Search of Anthion · The ghost at Stratholme’s gate and the directly relevant description, account, objective or completion text",
+      "questId": "In Search of Anthion",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-ghost-at-stratholme-citation-2",
+      "sourceId": "dungeon-set-two-anthion-quest-text",
+      "section": "In Search of Anthion · The ghost at Stratholme’s gate and the directly relevant description, account, objective or completion text",
+      "questId": "In Search of Anthion",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-medallion-dispute-citation-1",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "Brazier of Invocation: User’s Manual · Lord Valthalak section · The medallion in Kormok’s hands and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Lord Valthalak section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-medallion-dispute-citation-2",
+      "sourceId": "dungeon-set-two-veiled-blade-locator",
+      "section": "Brazier of Invocation: User’s Manual · Lord Valthalak section · The medallion in Kormok’s hands and the directly relevant description, account, objective or completion text",
+      "questId": "Brazier of Invocation: User’s Manual · Lord Valthalak section",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-other-pieces-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "Left/Right Piece of Lord Valthalak’s Amulet variants · Finding the other two pieces and the directly relevant description, account, objective or completion text",
+      "questId": "Left/Right Piece of Lord Valthalak’s Amulet variants",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-other-pieces-citation-2",
+      "sourceId": "dungeon-set-two-brazier-manual",
+      "section": "Left/Right Piece of Lord Valthalak’s Amulet variants · Finding the other two pieces and the directly relevant description, account, objective or completion text",
+      "questId": "Left/Right Piece of Lord Valthalak’s Amulet variants",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-ring-of-law-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "8950 · The Instigator’s Enchantment · The Challenge in Blackrock Depths and the directly relevant description, account, objective or completion text",
+      "questId": "8950 · The Instigator’s Enchantment",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-the-ring-of-law-citation-2",
+      "sourceId": "dungeon-set-two-anthion-quest-text",
+      "section": "9015 · The Challenge · The Challenge in Blackrock Depths and the directly relevant description, account, objective or completion text",
+      "questId": "9015 · The Challenge",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-two-faction-doors-citation-1",
+      "sourceId": "dungeon-set-two-quest-locators",
+      "section": "In Search of Anthion (Alliance and Horde variants) · Two doors into the same story and the directly relevant description, account, objective or completion text",
+      "questId": "In Search of Anthion (Alliance and Horde variants)",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
+    },
+    {
+      "id": "dungeon-set-two-two-faction-doors-citation-2",
+      "sourceId": "dungeon-set-two-anthion-quest-text",
+      "section": "In Search of Anthion (Alliance and Horde variants) · Two doors into the same story and the directly relevant description, account, objective or completion text",
+      "questId": "In Search of Anthion (Alliance and Horde variants)",
+      "note": "Original paraphrase from an accessible secondary Classic quest/manual locator. The claim stays in research; capture the original client text and compare the intended edition/build before human lore review."
     },
     {
       "id": "onyxia-alliance-drakefire-amulet-citation-1",
@@ -18928,6 +20606,292 @@
       ],
       "confidence": "explicit",
       "status": "active"
+    },
+    {
+      "id": "dungeon-set-two-a-client-from-booty-bay-claim",
+      "subjectId": "dungeon-set-two-a-client-from-booty-bay-event",
+      "predicate": "questline_scene_account",
+      "value": "Bodley remembers a commission from Gremnik Rizzlesprang, a goblin smuggler-wizard out of Booty Bay. The job was to take Lord Valthalak’s spellbook from Blackrock Spire. Bodley does not know whether Gremnik meant to study it or sell it, and the manual leaves that motive unresolved. The distinction matters: the company’s contract is documented, but its patron’s private purpose is not.",
+      "citationIds": [
+        "dungeon-set-two-a-client-from-booty-bay-citation-1",
+        "dungeon-set-two-a-client-from-booty-bay-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-a-plea-from-the-dead-claim",
+      "subjectId": "dungeon-set-two-a-plea-from-the-dead-event",
+      "predicate": "questline_scene_account",
+      "value": "Anthion’s request carries two losses at once. He has already died in the attempt, yet the thought of losing Ysida still binds him to the road. The quest asks for a living woman held by the Baron, not for a heroic last stand by her husband. No timer is needed in the telling: the source gives the plea and the danger, while the hourglass belongs to the dungeon challenge rather than to a new historical event.",
+      "citationIds": [
+        "dungeon-set-two-a-plea-from-the-dead-citation-1",
+        "dungeon-set-two-a-plea-from-the-dead-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-isalien-claim",
+      "subjectId": "dungeon-set-two-alternate-fate-isalien-event",
+      "predicate": "questline_scene_account",
+      "value": "Isalien left the company for a pilgrimage to Dire Maul, seeking answers about her night elf heritage and perhaps the magic within her amulet piece. Bodley remembers her as a friend of Falrin. In the city’s old kaldorei halls, she was ambushed by Alzzin the Wildshaper and his forces. The manual leaves her at another haunted place: a former companion drawn toward knowledge, then overtaken by the same scattered curse.",
+      "citationIds": [
+        "dungeon-set-two-alternate-fate-isalien-citation-1",
+        "dungeon-set-two-alternate-fate-isalien-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-jarien-sothos-claim",
+      "subjectId": "dungeon-set-two-alternate-fate-jarien-sothos-event",
+      "predicate": "questline_scene_account",
+      "value": "Jarien and Sothos, siblings of the Veiled Blade, turned toward the Scarlet Crusade after the company dissolved. They sought knighthood at Stratholme. Bodley’s account says Sothos failed the final trial; Jarien defended her brother and demanded that they be admitted together. Grand Crusader Dathrohan killed them both. The amulet piece they carried further twisted their spirits. Their chapter, too, is one possible haunted locus in the family of routes.",
+      "citationIds": [
+        "dungeon-set-two-alternate-fate-jarien-sothos-citation-1",
+        "dungeon-set-two-alternate-fate-jarien-sothos-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-kormok-claim",
+      "subjectId": "dungeon-set-two-alternate-fate-kormok-event",
+      "predicate": "questline_scene_account",
+      "value": "Another branch follows Kormok to Scholomance. Once a member of the Veiled Blade, the two-headed ogre became drawn to necromancy; the manual describes one head as clever and cold, the other more foolish. After the company broke apart, he sought further study at Scholomance. Valthalak’s spectral assassins reached him there and killed him before Ras Frostwhisper. The record remembers a comrade turned toward dangerous art, then found by the curse.",
+      "citationIds": [
+        "dungeon-set-two-alternate-fate-kormok-citation-1",
+        "dungeon-set-two-alternate-fate-kormok-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-alternate-fate-mor-claim",
+      "subjectId": "dungeon-set-two-alternate-fate-mor-event",
+      "predicate": "questline_scene_account",
+      "value": "One remembered branch leads to Mor Grayhoof. He survived the fall into Lower Blackrock Spire, but trolls captured him and War Master Voone tortured him. The spectral assassins finished what the fall had not. Mor’s story is one of the manual’s haunted loci; it is an alternative account of a former companion’s fate, not an assertion that every adventurer fought every spirit in this order.",
+      "citationIds": [
+        "dungeon-set-two-alternate-fate-mor-citation-1",
+        "dungeon-set-two-alternate-fate-mor-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-bodleys-fate-claim",
+      "subjectId": "dungeon-set-two-bodleys-fate-event",
+      "predicate": "questline_scene_account",
+      "value": "Near the entrance balcony of Blackrock Spire, Bodley appears only to one who can see ghosts. He had gone back toward the fortress and never returned. The quest giver fears he is dead; Bodley confirms it without ceremony and asks for help undoing the company’s wrong. If the top piece is already found, he can point toward the other two. His greeting is warm, even here, where the old danger began.",
+      "citationIds": [
+        "dungeon-set-two-bodleys-fate-citation-1",
+        "dungeon-set-two-bodleys-fate-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-falrins-old-friend-claim",
+      "subjectId": "dungeon-set-two-falrins-old-friend-event",
+      "predicate": "questline_scene_account",
+      "value": "In Dire Maul’s Athenaeum, Anthion’s old friend Falrin Treeshaper listens to the request. He had thought Anthion dead. Falrin agrees to help prepare an enchantment that can draw Theldren into a fight; his anger at the ogres is personal, rooted in the death of his brother. The required collection is a task in play, not a separate historical episode. What matters to the story is that an old bond supplies the means for a dangerous meeting.",
+      "citationIds": [
+        "dungeon-set-two-falrins-old-friend-citation-1",
+        "dungeon-set-two-falrins-old-friend-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-inside-the-slaughter-house-claim",
+      "subjectId": "dungeon-set-two-inside-the-slaughter-house-event",
+      "predicate": "questline_scene_account",
+      "value": "The way leads through Stratholme to its Slaughter House, where Rivendare holds Ysida. The walls are steeped in the Scourge’s greenish corruption, but the quest’s purpose is rescue: reach her alive and bring her beyond the Baron’s reach. The art marks the room as an interpretation of the Classic dungeon, not a measured reconstruction. Ysida has endured the city’s horror; the next journey carries a message toward the husband she believes is lost.",
+      "citationIds": [
+        "dungeon-set-two-inside-the-slaughter-house-citation-1",
+        "dungeon-set-two-inside-the-slaughter-house-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-mea-culpa-claim",
+      "subjectId": "dungeon-set-two-mea-culpa-event",
+      "predicate": "questline_scene_account",
+      "value": "In the Beast’s chamber, the brazier calls Valthalak back into a body that can be confronted. After the battle, the restored amulet is used on his corpse and his spirit appears, whole again. He recognizes that the seeker was not among the original thieves and demands his property back. The quest does not give the mortal a new claim to the medallion; it asks the traveler to return it to its owner and carry his answer back to Bodley.",
+      "citationIds": [
+        "dungeon-set-two-mea-culpa-citation-1",
+        "dungeon-set-two-mea-culpa-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-parting-words-claim",
+      "subjectId": "dungeon-set-two-parting-words-event",
+      "predicate": "questline_scene_account",
+      "value": "With the top piece returned, Anthion explains the danger that he could not see before. The Veiled Blade split Valthalak’s amulet into three parts out of greed, not knowing that it held much of the warlock’s soul. The curse followed. Anthion asks the seeker to find Bodley, who can guide the search for the other pieces. At last, Anthion believes he may rest; his part in the company’s wrong has become a plea to set it right.",
+      "citationIds": [
+        "dungeon-set-two-parting-words-citation-1",
+        "dungeon-set-two-parting-words-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-proof-of-life-claim",
+      "subjectId": "dungeon-set-two-proof-of-life-event",
+      "predicate": "questline_scene_account",
+      "value": "Ysida gives the rescuer her locket to carry back to Anthion. She believes he perished while trying to save her, and the token is her proof that she remains alive. When the message reaches the roadside ghost, Anthion learns that the rescue succeeded. Their reunion is brief and divided by death, yet Ysida’s survival releases him from the fear that held him there. He can now offer help in the work that remains.",
+      "citationIds": [
+        "dungeon-set-two-proof-of-life-citation-1",
+        "dungeon-set-two-proof-of-life-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-safe-for-now-claim",
+      "subjectId": "dungeon-set-two-safe-for-now-event",
+      "predicate": "questline_scene_account",
+      "value": "Valthalak tells the traveler to return to the Veiled Blade and say they are safe—for now. Bodley is astonished that the spirit will call off his assassins, though the promise carries a warning of future harm. The manual still speaks of echoes at the haunted loci, and the company itself has not been restored. Its members remain scattered among separate lives and deaths. What is repaired is the amulet, and for this moment, the pursuit it unleashed.",
+      "citationIds": [
+        "dungeon-set-two-safe-for-now-citation-1",
+        "dungeon-set-two-safe-for-now-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-the-brazier-attuned-claim",
+      "subjectId": "dungeon-set-two-the-brazier-attuned-event",
+      "predicate": "questline_scene_account",
+      "value": "Bodley prepares a brazier able to call the spirit from its old lair. The chain asks for specific components, but their collection is not another history of the company. Its purpose is to attune the brazier and make the final encounter possible. The manual names haunted places to give the wider meaning: Valthalak’s power has marked the places where his former companions fell, and the Beast’s chamber remains the last of those sites.",
+      "citationIds": [
+        "dungeon-set-two-the-brazier-attuned-citation-1",
+        "dungeon-set-two-the-brazier-attuned-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-the-company-flees-claim",
+      "subjectId": "dungeon-set-two-the-company-flees-event",
+      "predicate": "questline_scene_account",
+      "value": "Valthalak rose as a spirit and called spectral assassins against the mercenaries. Their struggle also roused defenders in the Spire. Most of the Veiled Blade escaped, but safety proved brief: the assassins pursued them wherever they hid. The company soon broke apart, its quarrel made worse by a curse that followed each shard. In the confusion Mor Grayhoof fell toward the lower reaches of the fortress, where his own path would end.",
+      "citationIds": [
+        "dungeon-set-two-the-company-flees-citation-1",
+        "dungeon-set-two-the-company-flees-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-the-first-fragment-claim",
+      "subjectId": "dungeon-set-two-the-first-fragment-event",
+      "predicate": "questline_scene_account",
+      "value": "Anthion’s next account turns from rescue to the Veiled Blade’s spoils. The company did not understand the medallion’s importance, so it was divided with their other plunder. A dwarf named Theldren took the first piece. Anthion tried to win it back and was beaten badly; the fragment would have to be claimed through another challenge. The amulet is already more than an ornament, though its danger has not yet been named.",
+      "citationIds": [
+        "dungeon-set-two-the-first-fragment-citation-1",
+        "dungeon-set-two-the-first-fragment-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-the-former-general-claim",
+      "subjectId": "dungeon-set-two-the-former-general-event",
+      "predicate": "questline_scene_account",
+      "value": "Before Drakkisath, Lord Valthalak was a drakonid noble and warlock who had served as Blackrock Spire’s general. The Veiled Blade entered the upper fortress, slew him, and took the spellbook. Bodley recalls that the company knew too little of Valthalak’s power over souls to understand what they had disturbed. The lair is now called the Beast’s chamber. The manual’s account makes clear that the company’s successful contract was the beginning of its ruin.",
+      "citationIds": [
+        "dungeon-set-two-the-former-general-citation-1",
+        "dungeon-set-two-the-former-general-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-the-ghost-at-stratholme-claim",
+      "subjectId": "dungeon-set-two-the-ghost-at-stratholme-event",
+      "predicate": "questline_scene_account",
+      "value": "At the Eastern Plaguelands road, a goblin device lets the living hear Anthion Harmon. Death has not quieted his concern: Ysida, his wife, was captured by Baron Rivendare inside Stratholme. Anthion says he tried to reach her and failed. He asks the seeker to finish the rescue. The city rises behind him through bare branches and grey-green haze; within it, the question is simple and terrible—whether Ysida still lives.",
+      "citationIds": [
+        "dungeon-set-two-the-ghost-at-stratholme-citation-1",
+        "dungeon-set-two-the-ghost-at-stratholme-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-the-medallion-dispute-claim",
+      "subjectId": "dungeon-set-two-the-medallion-dispute-event",
+      "predicate": "questline_scene_account",
+      "value": "When the company prepared to leave with the book, Kormok claimed Valthalak’s amulet as his share. His insistence turned the group against itself. They argued, nearly came to blows, and finally broke the medallion into three pieces. Only later did they learn that it housed much of Valthalak’s spirit. The distribution followed a lot; Theldren’s top fragment had already returned through Anthion’s challenge, while the other pieces scattered among former companions.",
+      "citationIds": [
+        "dungeon-set-two-the-medallion-dispute-citation-1",
+        "dungeon-set-two-the-medallion-dispute-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-the-other-pieces-claim",
+      "subjectId": "dungeon-set-two-the-other-pieces-event",
+      "predicate": "questline_scene_account",
+      "value": "Bodley guides the search to two further pieces. The quest versions can direct a class or faction branch toward one of several haunted companions; they are alternate targets from the same company history. The four accounts just heard are arranged here as memorials, not as four mandatory kills by one canonical traveler. When the missing pieces are brought together with Theldren’s top fragment, the medallion can be made whole again.",
+      "citationIds": [
+        "dungeon-set-two-the-other-pieces-citation-1",
+        "dungeon-set-two-the-other-pieces-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-the-ring-of-law-claim",
+      "subjectId": "dungeon-set-two-the-ring-of-law-event",
+      "predicate": "questline_scene_account",
+      "value": "Beneath Blackrock Mountain, the Ring of Law becomes the stage for the challenge. As High Justice Grimstone sentences the intruders, they plant Falrin’s banner. Theldren cannot resist the provocation; he enters the arena with his gladiators. The team composition can vary, so this scene gives no fixed roster or race to the company. The battle retrieves the top piece and changes the next question: now the remaining fragments must be traced to Anthion’s other companions.",
+      "citationIds": [
+        "dungeon-set-two-the-ring-of-law-citation-1",
+        "dungeon-set-two-the-ring-of-law-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
+    },
+    {
+      "id": "dungeon-set-two-two-faction-doors-claim",
+      "subjectId": "dungeon-set-two-two-faction-doors-event",
+      "predicate": "questline_scene_account",
+      "value": "Deliana speaks from Ironforge; Mokvar speaks from Orgrimmar. Their faction quests are separate doors into the same old wound, not a shared meeting or a single adventurer’s simultaneous allegiance. Each directs a seeker toward Anthion Harmon, whose ghost waits beyond Stratholme. The armor work that frames the journey is only its threshold. Ahead lie a rescue, a company’s last contract, and a medallion whose pieces carried more than any of its owners understood.",
+      "citationIds": [
+        "dungeon-set-two-two-faction-doors-citation-1",
+        "dungeon-set-two-two-faction-doors-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the accessible quest and manual pages reproduce in-game evidence but are secondary mirrors. The manual is Bodley’s perspective. Alternate class/faction targets are editorially ordered and are not one canonical adventurer’s route."
     },
     {
       "id": "durotan-refuses-blood-claim",
@@ -23266,6 +25230,53 @@
       "contentStatus": "research"
     },
     {
+      "id": "dungeon-set-two-veiled-blade",
+      "slug": "dungeon-set-two-veiled-blade",
+      "title": "The Veiled Blade and Lord Valthalak",
+      "summary": "Anthion seeks the rescue of Ysida from Stratholme; afterward, the Veiled Blade’s divided amulet draws an adventurer through its scattered companions to Valthalak’s old lair.",
+      "opening": "Two faction paths lead to one ghost outside Stratholme. His request begins with a rescue; the road beyond it uncovers an old mercenary company, a broken medallion, and the danger its members left behind.",
+      "primaryEraId": "age-of-adventurers",
+      "eraIds": [
+        "age-of-adventurers"
+      ],
+      "chapters": [
+        {
+          "id": "a-rescue-beyond-death",
+          "eraId": "age-of-adventurers",
+          "title": "A Rescue Beyond Death",
+          "body": "Deliana and Mokvar open distinct faction paths toward Anthion Harmon. Ysida is rescued from Stratholme; her locket carries proof of life back to her husband and lets his ghost turn toward the Veiled Blade’s unresolved wrong. Scenes 1–5."
+        },
+        {
+          "id": "anthion-and-theldren",
+          "eraId": "age-of-adventurers",
+          "title": "Anthion and Theldren",
+          "body": "The first fragment belongs to Theldren. Falrin Treeshaper helps arrange a challenge in Blackrock Depths, and its conclusion retrieves the top piece while revealing why the medallion cannot simply be forgotten. Scenes 6–9."
+        },
+        {
+          "id": "the-company-of-fragments",
+          "eraId": "age-of-adventurers",
+          "title": "The Company of Fragments",
+          "body": "Bodley recounts the Veiled Blade’s last contract and the amulet dispute that divided the company. Four alternative haunted-locus accounts trace Mor Grayhoof, Kormok, Isalien, and Jarien and Sothos without implying they are mandatory consecutive targets for one adventurer. Scenes 10–19."
+        },
+        {
+          "id": "return-the-spirit",
+          "eraId": "age-of-adventurers",
+          "title": "Return the Spirit",
+          "body": "Bodley attunes the brazier, the restored amulet calls Valthalak into the Beast’s chamber, and the traveler returns his property. The spirit promises safety only for now; the company and the echoes of its past remain scattered. Scenes 20–22."
+        }
+      ],
+      "sourceIds": [
+        "dungeon-set-two-quest-locators",
+        "dungeon-set-two-anthion-quest-text",
+        "dungeon-set-two-brazier-manual",
+        "dungeon-set-two-veiled-blade-locator",
+        "dungeon-set-two-valtalak-quest-text"
+      ],
+      "storyGuideId": "dungeon-set-two-veiled-blade-guide",
+      "reviewNote": "Complete 22-scene illustrated research telling with 22 transcript-matched AI narration tracks, separate faction introductions, the Anthion/Ysida rescue, Theldren’s challenge, Bodley’s manual account, four explicitly alternative companion-fate scenes and the Valthalak finale. Main journey: original World of Warcraft Classic / Era 8. Quest text, manual lore, faction variants, and order are drawn from accessible secondary mirrors; capture and compare the original client/build before promotion. Bodley’s account stays attributed and Gremnik’s motive remains unknown. The four haunted-locus variants are an editorial memorial sequence, not four mandatory kills by one canonical character. Art is interpretive and its matching in-game area comparison remains a human review gate. No TBC, Wrath, or later character outcomes are added.",
+      "contentStatus": "research"
+    },
+    {
       "id": "fangs-of-the-father",
       "title": "Fangs of the Father",
       "primaryEraId": "age-of-adventurers",
@@ -24079,7 +26090,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, then Ahn'Qiraj), The Burning Crusade, and Wrath of the Lich King. It organizes story access and does not claim that the selected storylines caused one another. The Scepter guide's ancient prologue remains an explicitly earlier flashback inside that story.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, then the Ahn'Qiraj campaign, then the 1.10-era Dungeon Set 2 story), The Burning Crusade, and Wrath of the Lich King. It organizes access and does not claim the selected storylines caused one another. The Scepter guide’s ancient prologue remains an explicitly earlier flashback; the Dungeon Set 2 companion routes are an editorial memorial sequence rather than a single canonical character’s complete path.",
       "regions": [
         {
           "id": "kalimdor",
@@ -24155,6 +26166,19 @@
           "locationLabel": "Silithus and Ahn'Qiraj"
         },
         {
+          "storylineId": "dungeon-set-two-veiled-blade",
+          "regionIds": [
+            "eastern-kingdoms"
+          ],
+          "mapPositionPercent": [
+            72,
+            51
+          ],
+          "order": 3,
+          "periodLabel": "Original World of Warcraft · Classic 1.10 era",
+          "locationLabel": "Eastern Plaguelands, Stratholme and Blackrock Mountain"
+        },
+        {
           "storylineId": "cipher-of-damnation-oronok",
           "regionIds": [
             "outland"
@@ -24163,7 +26187,7 @@
             82,
             79
           ],
-          "order": 3,
+          "order": 4,
           "periodLabel": "The Burning Crusade",
           "locationLabel": "Shadowmoon Valley · Outland"
         },
@@ -24176,12 +26200,12 @@
             54,
             18
           ],
-          "order": 4,
+          "order": 5,
           "periodLabel": "Wrath of the Lich King",
           "locationLabel": "Dragonblight · Northrend"
         }
       ],
-      "reviewNote": "The current playable entries are the Classic Onyxia and Scepter stories. Outland's Cipher of Damnation and Northrend's Wrathgate are research previews and remain out of playback until their complete stories are authored. Original-client era-map and zone-art comparison, chronology review, source review, and human visual approval remain open.",
+      "reviewNote": "The playable entries are the Classic Onyxia, Scepter and Dungeon Set 2 stories. Outland's Cipher of Damnation and Northrend's Wrathgate remain research previews and stay outside Play All. Original-client quest/build, chronology, map-art and in-game location resemblance reviews remain open for human approval.",
       "contentStatus": "research"
     }
   ],
@@ -24260,6 +26284,37 @@
         "cosmic-origins-story-pantheon",
         "cosmic-origins-story-void-design",
         "cosmic-origins-story-azeroth"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dungeon-set-two-veiled-blade-guide",
+      "eraId": "age-of-adventurers",
+      "title": "The Veiled Blade and Lord Valthalak",
+      "description": "A 22-scene Classic research chronicle follows Anthion and Ysida’s rescue into the Veiled Blade’s last contract, the scattered fates of its companions, and the return of Valthalak’s soul.",
+      "nodeIds": [
+        "dungeon-set-two-story-two-faction-doors",
+        "dungeon-set-two-story-the-ghost-at-stratholme",
+        "dungeon-set-two-story-a-plea-from-the-dead",
+        "dungeon-set-two-story-inside-the-slaughter-house",
+        "dungeon-set-two-story-proof-of-life",
+        "dungeon-set-two-story-the-first-fragment",
+        "dungeon-set-two-story-falrins-old-friend",
+        "dungeon-set-two-story-the-ring-of-law",
+        "dungeon-set-two-story-parting-words",
+        "dungeon-set-two-story-bodleys-fate",
+        "dungeon-set-two-story-a-client-from-booty-bay",
+        "dungeon-set-two-story-the-former-general",
+        "dungeon-set-two-story-the-medallion-dispute",
+        "dungeon-set-two-story-the-company-flees",
+        "dungeon-set-two-story-alternate-fate-mor",
+        "dungeon-set-two-story-alternate-fate-kormok",
+        "dungeon-set-two-story-alternate-fate-isalien",
+        "dungeon-set-two-story-alternate-fate-jarien-sothos",
+        "dungeon-set-two-story-the-other-pieces",
+        "dungeon-set-two-story-the-brazier-attuned",
+        "dungeon-set-two-story-mea-culpa",
+        "dungeon-set-two-story-safe-for-now"
       ],
       "contentStatus": "research"
     },
@@ -26638,6 +28693,941 @@
       ],
       "previousNodeId": "cosmic-origins-story-void-design",
       "nextNodeIds": []
+    },
+    {
+      "id": "dungeon-set-two-story-two-faction-doors",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Two doors into the same story",
+      "narration": "Deliana speaks from Ironforge; Mokvar speaks from Orgrimmar. Their faction quests are separate doors into the same old wound, not a shared meeting or a single adventurer’s simultaneous allegiance. Each directs a seeker toward Anthion Harmon, whose ghost waits beyond Stratholme. The armor work that frames the journey is only its threshold. Ahead lie a rescue, a company’s last contract, and a medallion whose pieces carried more than any of its owners understood.",
+      "durationMs": 58415,
+      "eventIds": [
+        "dungeon-set-two-two-faction-doors-event"
+      ],
+      "entityIds": [
+        "deliana",
+        "mokvar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-ironforge-orgrimmar-halls-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "dungeon-set-two-story-the-ghost-at-stratholme"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-two-faction-doors.mp3",
+        "durationMs": 30475,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-the-ghost-at-stratholme",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "The ghost at Stratholme’s gate",
+      "narration": "At the Eastern Plaguelands road, a goblin device lets the living hear Anthion Harmon. Death has not quieted his concern: Ysida, his wife, was captured by Baron Rivendare inside Stratholme. Anthion says he tried to reach her and failed. He asks the seeker to finish the rescue. The city rises behind him through bare branches and grey-green haze; within it, the question is simple and terrible—whether Ysida still lives.",
+      "durationMs": 55488,
+      "eventIds": [
+        "dungeon-set-two-the-ghost-at-stratholme-event"
+      ],
+      "entityIds": [
+        "anthion-harmon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-plaguelands-road-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-two-faction-doors",
+      "nextNodeIds": [
+        "dungeon-set-two-story-a-plea-from-the-dead"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-ghost-at-stratholme.mp3",
+        "durationMs": 28875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-a-plea-from-the-dead",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "A plea that cannot wait",
+      "narration": "Anthion’s request carries two losses at once. He has already died in the attempt, yet the thought of losing Ysida still binds him to the road. The quest asks for a living woman held by the Baron, not for a heroic last stand by her husband. No timer is needed in the telling: the source gives the plea and the danger, while the hourglass belongs to the dungeon challenge rather than to a new historical event.",
+      "durationMs": 60610,
+      "eventIds": [
+        "dungeon-set-two-a-plea-from-the-dead-event"
+      ],
+      "entityIds": [
+        "anthion-harmon",
+        "ysida-harmon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-plaguelands-road-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-the-ghost-at-stratholme",
+      "nextNodeIds": [
+        "dungeon-set-two-story-inside-the-slaughter-house"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-a-plea-from-the-dead.mp3",
+        "durationMs": 27350,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-inside-the-slaughter-house",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Ysida in the Slaughter House",
+      "narration": "The way leads through Stratholme to its Slaughter House, where Rivendare holds Ysida. The walls are steeped in the Scourge’s greenish corruption, but the quest’s purpose is rescue: reach her alive and bring her beyond the Baron’s reach. The art marks the room as an interpretation of the Classic dungeon, not a measured reconstruction. Ysida has endured the city’s horror; the next journey carries a message toward the husband she believes is lost.",
+      "durationMs": 58415,
+      "eventIds": [
+        "dungeon-set-two-inside-the-slaughter-house-event"
+      ],
+      "entityIds": [
+        "ysida-harmon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-stratholme-slaughterhouse-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-a-plea-from-the-dead",
+      "nextNodeIds": [
+        "dungeon-set-two-story-proof-of-life"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-inside-the-slaughter-house.mp3",
+        "durationMs": 28250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-proof-of-life",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Proof of life",
+      "narration": "Ysida gives the rescuer her locket to carry back to Anthion. She believes he perished while trying to save her, and the token is her proof that she remains alive. When the message reaches the roadside ghost, Anthion learns that the rescue succeeded. Their reunion is brief and divided by death, yet Ysida’s survival releases him from the fear that held him there. He can now offer help in the work that remains.",
+      "durationMs": 58415,
+      "eventIds": [
+        "dungeon-set-two-proof-of-life-event"
+      ],
+      "entityIds": [
+        "ysida-harmon",
+        "anthion-harmon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-plaguelands-road-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-inside-the-slaughter-house",
+      "nextNodeIds": [
+        "dungeon-set-two-story-the-first-fragment"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-proof-of-life.mp3",
+        "durationMs": 26625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-the-first-fragment",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "A fragment taken by Theldren",
+      "narration": "Anthion’s next account turns from rescue to the Veiled Blade’s spoils. The company did not understand the medallion’s importance, so it was divided with their other plunder. A dwarf named Theldren took the first piece. Anthion tried to win it back and was beaten badly; the fragment would have to be claimed through another challenge. The amulet is already more than an ornament, though its danger has not yet been named.",
+      "durationMs": 56951,
+      "eventIds": [
+        "dungeon-set-two-the-first-fragment-event"
+      ],
+      "entityIds": [
+        "anthion-harmon",
+        "valthalak-amulet"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-plaguelands-road-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-proof-of-life",
+      "nextNodeIds": [
+        "dungeon-set-two-story-falrins-old-friend"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-first-fragment.mp3",
+        "durationMs": 26875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-falrins-old-friend",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Falrin remembers an old friend",
+      "narration": "In Dire Maul’s Athenaeum, Anthion’s old friend Falrin Treeshaper listens to the request. He had thought Anthion dead. Falrin agrees to help prepare an enchantment that can draw Theldren into a fight; his anger at the ogres is personal, rooted in the death of his brother. The required collection is a task in play, not a separate historical episode. What matters to the story is that an old bond supplies the means for a dangerous meeting.",
+      "durationMs": 60610,
+      "eventIds": [
+        "dungeon-set-two-falrins-old-friend-event"
+      ],
+      "entityIds": [
+        "falrin-treeshaper"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-dire-maul-athenaeum-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-the-first-fragment",
+      "nextNodeIds": [
+        "dungeon-set-two-story-the-ring-of-law"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-falrins-old-friend.mp3",
+        "durationMs": 29200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-the-ring-of-law",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "The Challenge in Blackrock Depths",
+      "narration": "Beneath Blackrock Mountain, the Ring of Law becomes the stage for the challenge. As High Justice Grimstone sentences the intruders, they plant Falrin’s banner. Theldren cannot resist the provocation; he enters the arena with his gladiators. The team composition can vary, so this scene gives no fixed roster or race to the company. The battle retrieves the top piece and changes the next question: now the remaining fragments must be traced to Anthion’s other companions.",
+      "durationMs": 59878,
+      "eventIds": [
+        "dungeon-set-two-the-ring-of-law-event"
+      ],
+      "entityIds": [
+        "theldren"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-brd-ring-of-law-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-falrins-old-friend",
+      "nextNodeIds": [
+        "dungeon-set-two-story-parting-words"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-ring-of-law.mp3",
+        "durationMs": 30875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-parting-words",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Anthion’s parting words",
+      "narration": "With the top piece returned, Anthion explains the danger that he could not see before. The Veiled Blade split Valthalak’s amulet into three parts out of greed, not knowing that it held much of the warlock’s soul. The curse followed. Anthion asks the seeker to find Bodley, who can guide the search for the other pieces. At last, Anthion believes he may rest; his part in the company’s wrong has become a plea to set it right.",
+      "durationMs": 61341,
+      "eventIds": [
+        "dungeon-set-two-parting-words-event"
+      ],
+      "entityIds": [
+        "anthion-harmon",
+        "valthalak-amulet"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-plaguelands-road-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-the-ring-of-law",
+      "nextNodeIds": [
+        "dungeon-set-two-story-bodleys-fate"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-parting-words.mp3",
+        "durationMs": 28000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-bodleys-fate",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Bodley, unseen on the balcony",
+      "narration": "Near the entrance balcony of Blackrock Spire, Bodley appears only to one who can see ghosts. He had gone back toward the fortress and never returned. The quest giver fears he is dead; Bodley confirms it without ceremony and asks for help undoing the company’s wrong. If the top piece is already found, he can point toward the other two. His greeting is warm, even here, where the old danger began.",
+      "durationMs": 56951,
+      "eventIds": [
+        "dungeon-set-two-bodleys-fate-event"
+      ],
+      "entityIds": [
+        "bodley"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-upper-blackrock-balcony-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-parting-words",
+      "nextNodeIds": [
+        "dungeon-set-two-story-a-client-from-booty-bay"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-bodleys-fate.mp3",
+        "durationMs": 26575,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-a-client-from-booty-bay",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "A commission from Booty Bay",
+      "narration": "Bodley remembers a commission from Gremnik Rizzlesprang, a goblin smuggler-wizard out of Booty Bay. The job was to take Lord Valthalak’s spellbook from Blackrock Spire. Bodley does not know whether Gremnik meant to study it or sell it, and the manual leaves that motive unresolved. The distinction matters: the company’s contract is documented, but its patron’s private purpose is not.",
+      "durationMs": 48902,
+      "eventIds": [
+        "dungeon-set-two-a-client-from-booty-bay-event"
+      ],
+      "entityIds": [
+        "gremnik-rizzlesprang"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-booty-bay-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-bodleys-fate",
+      "nextNodeIds": [
+        "dungeon-set-two-story-the-former-general"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-a-client-from-booty-bay.mp3",
+        "durationMs": 26200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-the-former-general",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "The former general of the Spire",
+      "narration": "Before Drakkisath, Lord Valthalak was a drakonid noble and warlock who had served as Blackrock Spire’s general. The Veiled Blade entered the upper fortress, slew him, and took the spellbook. Bodley recalls that the company knew too little of Valthalak’s power over souls to understand what they had disturbed. The lair is now called the Beast’s chamber. The manual’s account makes clear that the company’s successful contract was the beginning of its ruin.",
+      "durationMs": 58415,
+      "eventIds": [
+        "dungeon-set-two-the-former-general-event"
+      ],
+      "entityIds": [
+        "veiled-blade",
+        "lord-valthalak"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-beasts-chamber-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-a-client-from-booty-bay",
+      "nextNodeIds": [
+        "dungeon-set-two-story-the-medallion-dispute"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-former-general.mp3",
+        "durationMs": 29975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-the-medallion-dispute",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "The medallion in Kormok’s hands",
+      "narration": "When the company prepared to leave with the book, Kormok claimed Valthalak’s amulet as his share. His insistence turned the group against itself. They argued, nearly came to blows, and finally broke the medallion into three pieces. Only later did they learn that it housed much of Valthalak’s spirit. The distribution followed a lot; Theldren’s top fragment had already returned through Anthion’s challenge, while the other pieces scattered among former companions.",
+      "durationMs": 56951,
+      "eventIds": [
+        "dungeon-set-two-the-medallion-dispute-event"
+      ],
+      "entityIds": [
+        "kormok",
+        "valthalak-amulet",
+        "veiled-blade"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-beasts-chamber-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-the-former-general",
+      "nextNodeIds": [
+        "dungeon-set-two-story-the-company-flees"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-medallion-dispute.mp3",
+        "durationMs": 28900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-the-company-flees",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "The company flees the risen spirit",
+      "narration": "Valthalak rose as a spirit and called spectral assassins against the mercenaries. Their struggle also roused defenders in the Spire. Most of the Veiled Blade escaped, but safety proved brief: the assassins pursued them wherever they hid. The company soon broke apart, its quarrel made worse by a curse that followed each shard. In the confusion Mor Grayhoof fell toward the lower reaches of the fortress, where his own path would end.",
+      "durationMs": 57683,
+      "eventIds": [
+        "dungeon-set-two-the-company-flees-event"
+      ],
+      "entityIds": [
+        "veiled-blade",
+        "spectral-assassins",
+        "mor-grayhoof"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-upper-blackrock-balcony-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-the-medallion-dispute",
+      "nextNodeIds": [
+        "dungeon-set-two-story-alternate-fate-mor"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-company-flees.mp3",
+        "durationMs": 29000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-alternate-fate-mor",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Alternative fate · Mor Grayhoof",
+      "narration": "One remembered branch leads to Mor Grayhoof. He survived the fall into Lower Blackrock Spire, but trolls captured him and War Master Voone tortured him. The spectral assassins finished what the fall had not. Mor’s story is one of the manual’s haunted loci; it is an alternative account of a former companion’s fate, not an assertion that every adventurer fought every spirit in this order.",
+      "durationMs": 52561,
+      "eventIds": [
+        "dungeon-set-two-alternate-fate-mor-event"
+      ],
+      "entityIds": [
+        "mor-grayhoof",
+        "spectral-assassins"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-lower-blackrock-spire-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-the-company-flees",
+      "nextNodeIds": [
+        "dungeon-set-two-story-alternate-fate-kormok"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-mor.mp3",
+        "durationMs": 26625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-alternate-fate-kormok",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Alternative fate · Kormok",
+      "narration": "Another branch follows Kormok to Scholomance. Once a member of the Veiled Blade, the two-headed ogre became drawn to necromancy; the manual describes one head as clever and cold, the other more foolish. After the company broke apart, he sought further study at Scholomance. Valthalak’s spectral assassins reached him there and killed him before Ras Frostwhisper. The record remembers a comrade turned toward dangerous art, then found by the curse.",
+      "durationMs": 56220,
+      "eventIds": [
+        "dungeon-set-two-alternate-fate-kormok-event"
+      ],
+      "entityIds": [
+        "kormok",
+        "spectral-assassins"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-scholomance-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-alternate-fate-mor",
+      "nextNodeIds": [
+        "dungeon-set-two-story-alternate-fate-isalien"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-kormok.mp3",
+        "durationMs": 30000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-alternate-fate-isalien",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Alternative fate · Isalien",
+      "narration": "Isalien left the company for a pilgrimage to Dire Maul, seeking answers about her night elf heritage and perhaps the magic within her amulet piece. Bodley remembers her as a friend of Falrin. In the city’s old kaldorei halls, she was ambushed by Alzzin the Wildshaper and his forces. The manual leaves her at another haunted place: a former companion drawn toward knowledge, then overtaken by the same scattered curse.",
+      "durationMs": 56220,
+      "eventIds": [
+        "dungeon-set-two-alternate-fate-isalien-event"
+      ],
+      "entityIds": [
+        "isalien"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-dire-maul-athenaeum-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-alternate-fate-kormok",
+      "nextNodeIds": [
+        "dungeon-set-two-story-alternate-fate-jarien-sothos"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-isalien.mp3",
+        "durationMs": 28025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-alternate-fate-jarien-sothos",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Alternative fate · Jarien and Sothos",
+      "narration": "Jarien and Sothos, siblings of the Veiled Blade, turned toward the Scarlet Crusade after the company dissolved. They sought knighthood at Stratholme. Bodley’s account says Sothos failed the final trial; Jarien defended her brother and demanded that they be admitted together. Grand Crusader Dathrohan killed them both. The amulet piece they carried further twisted their spirits. Their chapter, too, is one possible haunted locus in the family of routes.",
+      "durationMs": 55488,
+      "eventIds": [
+        "dungeon-set-two-alternate-fate-jarien-sothos-event"
+      ],
+      "entityIds": [
+        "jarien-sothos"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-stratholme-scarlet-bastion-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-alternate-fate-isalien",
+      "nextNodeIds": [
+        "dungeon-set-two-story-the-other-pieces"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-jarien-sothos.mp3",
+        "durationMs": 29825,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-the-other-pieces",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Finding the other two pieces",
+      "narration": "Bodley guides the search to two further pieces. The quest versions can direct a class or faction branch toward one of several haunted companions; they are alternate targets from the same company history. The four accounts just heard are arranged here as memorials, not as four mandatory kills by one canonical traveler. When the missing pieces are brought together with Theldren’s top fragment, the medallion can be made whole again.",
+      "durationMs": 56220,
+      "eventIds": [
+        "dungeon-set-two-the-other-pieces-event"
+      ],
+      "entityIds": [
+        "bodley",
+        "valthalak-amulet"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-upper-blackrock-balcony-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-alternate-fate-jarien-sothos",
+      "nextNodeIds": [
+        "dungeon-set-two-story-the-brazier-attuned"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-other-pieces.mp3",
+        "durationMs": 28125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-the-brazier-attuned",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "The brazier is prepared",
+      "narration": "Bodley prepares a brazier able to call the spirit from its old lair. The chain asks for specific components, but their collection is not another history of the company. Its purpose is to attune the brazier and make the final encounter possible. The manual names haunted places to give the wider meaning: Valthalak’s power has marked the places where his former companions fell, and the Beast’s chamber remains the last of those sites.",
+      "durationMs": 58415,
+      "eventIds": [
+        "dungeon-set-two-the-brazier-attuned-event"
+      ],
+      "entityIds": [
+        "bodley",
+        "valthalak-amulet"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-upper-blackrock-balcony-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-the-other-pieces",
+      "nextNodeIds": [
+        "dungeon-set-two-story-mea-culpa"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-brazier-attuned.mp3",
+        "durationMs": 28100,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-mea-culpa",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Mea Culpa, Lord Valthalak",
+      "narration": "In the Beast’s chamber, the brazier calls Valthalak back into a body that can be confronted. After the battle, the restored amulet is used on his corpse and his spirit appears, whole again. He recognizes that the seeker was not among the original thieves and demands his property back. The quest does not give the mortal a new claim to the medallion; it asks the traveler to return it to its owner and carry his answer back to Bodley.",
+      "durationMs": 62805,
+      "eventIds": [
+        "dungeon-set-two-mea-culpa-event"
+      ],
+      "entityIds": [
+        "lord-valthalak",
+        "valthalak-amulet"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-beasts-chamber-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-the-brazier-attuned",
+      "nextNodeIds": [
+        "dungeon-set-two-story-safe-for-now"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-mea-culpa.mp3",
+        "durationMs": 28700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "dungeon-set-two-story-safe-for-now",
+      "guideId": "dungeon-set-two-veiled-blade-guide",
+      "title": "Safe for now",
+      "narration": "Valthalak tells the traveler to return to the Veiled Blade and say they are safe—for now. Bodley is astonished that the spirit will call off his assassins, though the promise carries a warning of future harm. The manual still speaks of echoes at the haunted loci, and the company itself has not been restored. Its members remain scattered among separate lives and deaths. What is repaired is the amulet, and for this moment, the pursuit it unleashed.",
+      "durationMs": 61341,
+      "eventIds": [
+        "dungeon-set-two-safe-for-now-event"
+      ],
+      "entityIds": [
+        "bodley"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "dungeon-set-two-upper-blackrock-balcony-scene"
+        }
+      ],
+      "previousNodeId": "dungeon-set-two-story-mea-culpa",
+      "voiceover": {
+        "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-safe-for-now.mp3",
+        "durationMs": 28975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
     },
     {
       "id": "long-vigil-story-broken-shores",

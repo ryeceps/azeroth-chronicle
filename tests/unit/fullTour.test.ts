@@ -30,8 +30,12 @@ describe('separate era and story tours', () => {
         return story.storyGuideId ? [story.slug] : [];
       });
     expect([...new Set(stops.map((stop) => stop.storylineSlug))]).toEqual(playableStorylines);
-    expect(playableStorylines).toEqual(['stormwind-onyxia-conspiracy', 'scepter-of-the-shifting-sands']);
-    expect(stops.length).toBe(21 + 22);
+    expect(playableStorylines).toEqual([
+      'stormwind-onyxia-conspiracy',
+      'scepter-of-the-shifting-sands',
+      'dungeon-set-two-veiled-blade',
+    ]);
+    expect(stops.length).toBe(21 + 22 + 22);
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('play=all');
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('collection=classic-to-wrath');
     expect(storyTourStoryUrl(tour, stops[0]!)).toContain('play=story');

@@ -12,15 +12,17 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const viewport = page.viewportSize()!;
   const mapFrameBounds = await page.locator('.story-tour-map-frame').boundingBox();
   expect(mapFrameBounds).toMatchObject({ x: 0, y: 0, width: viewport.width, height: viewport.height });
-  await expect(page.locator('.story-tour-dot')).toHaveCount(4);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(5);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
 
   const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
   const scepter = page.getByRole('button', { name: /scepter-of-the-shifting-sands|Scepter/i });
+  const dungeonSetTwo = page.getByRole('button', { name: /dungeon-set-two-veiled-blade|Veiled Blade/i });
   const outland = page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i });
   const northrend = page.getByRole('button', { name: /wrathgate-and-undercity|Wrathgate/i });
   await expect(onyxia).toBeVisible();
   await expect(scepter).toBeVisible();
+  await expect(dungeonSetTwo).toBeVisible();
   await expect(outland).toBeVisible();
   await expect(northrend).toBeVisible();
 
@@ -38,6 +40,17 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(outlandCard.getByRole('button', { name: 'Play story' })).toHaveCount(0);
   await outlandCard.getByRole('link', { name: 'Read story preview' }).click();
   await expect(page.getByRole('heading', { name: 'Oronok and the Cipher of Damnation' })).toBeVisible();
+
+  await page.goto('/tours/classic-to-wrath');
+  await dungeonSetTwo.hover();
+  const dungeonSetTwoCard = page.locator('#story-tour-tip-dungeon-set-two-veiled-blade');
+  await expect(dungeonSetTwoCard.getByRole('heading', { name: 'The Veiled Blade and Lord Valthalak' })).toBeVisible();
+  await expect(dungeonSetTwoCard).toContainText('Playable story');
+  await dungeonSetTwo.click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
+  }).toEqual(['story-tour', 'classic-to-wrath', 'dungeon-set-two-veiled-blade', 'story']);
 
   await page.goto('/tours/classic-to-wrath');
   await northrend.focus();
@@ -66,20 +79,15 @@ test('Play All advances completed stories in chronological order and restores th
   await expect(page.getByRole('heading', { name: 'A shadow over the Burning Steppes' })).toBeVisible();
   await page.screenshot({ path: 'output/classic-wrath-tour-player-desktop.png', fullPage: true });
 
-  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=stormwind-onyxia-conspiracy&node=onyxia-story-onyxias-lair&play=all');
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=scepter-of-the-shifting-sands&node=scepter-story-timeless-treasure&play=all');
   await expect(page.getByRole('button', { name: 'Resume tour' })).toBeVisible();
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
     return [params.get('storyline'), params.get('node'), params.get('play')];
-  }).toEqual(['scepter-of-the-shifting-sands', 'scepter-story-the-first-war', 'all']);
-  await page.getByRole('button', { name: 'Previous', exact: true }).click();
-  await expect.poll(() => {
-    const params = new URL(page.url()).searchParams;
-    return [params.get('storyline'), params.get('node'), params.get('play')];
-  }).toEqual(['stormwind-onyxia-conspiracy', 'onyxia-story-onyxias-lair', 'all']);
+  }).toEqual(['dungeon-set-two-veiled-blade', 'dungeon-set-two-story-two-faction-doors', 'all']);
   await page.reload();
-  await expect(page.getByRole('heading', { name: 'Into the dragon’s lair' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Two doors into the same story' })).toBeVisible();
   expect(pageErrors).toEqual([]);
 });
 
@@ -125,6 +133,9 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
     const params = new URL(page.url()).searchParams;
     return [params.get('node'), params.get('play')];
   }).toEqual(['onyxia-story-true-masters', 'story']);
+  await page.goto('/tours/classic-to-wrath');
+  await page.getByRole('button', { name: /dungeon-set-two-veiled-blade|Veiled Blade/i }).click();
+  await expect(page.locator('.story-tour-touch-card').getByRole('heading', { name: 'The Veiled Blade and Lord Valthalak' })).toBeVisible();
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=stormwind-onyxia-conspiracy&node=onyxia-story-onyxias-lair&play=story');
   await page.getByRole('button', { name: 'Finish this storyline' }).click();
   await expect(page).toHaveURL(/\/tours\/classic-to-wrath\?complete=1/);

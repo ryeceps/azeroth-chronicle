@@ -1,0 +1,25 @@
+{
+  "id": "dungeon-set-two-mea-culpa-event",
+  "kind": "event",
+  "name": "Mea Culpa, Lord Valthalak",
+  "slug": "dungeon-set-two-mea-culpa",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "dungeon-set-two-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Original World of Warcraft Classic · Dungeon Set 2 questline"
+  },
+  "summary": "In the Beast’s chamber, the brazier calls Valthalak back into a body that can be confronted. After the battle, the restored amulet is used on his corpse and his spirit appears, whole again. He recognizes that the seeker was not among the original thieves and demands his property back. The quest does not give the mortal a new claim to the medallion; it asks the traveler to return it to its owner and carry his answer back to Bodley.",
+  "participantEntityIds": [
+    "lord-valthalak",
+    "valthalak-amulet"
+  ],
+  "sourceIds": [
+    "dungeon-set-two-valtalak-quest-text",
+    "dungeon-set-two-brazier-manual"
+  ],
+  "claimIds": [
+    "dungeon-set-two-mea-culpa-claim"
+  ],
+  "contentStatus": "research"
+}
