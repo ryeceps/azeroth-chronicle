@@ -404,11 +404,13 @@ function AtlasScene({
   }), [battles, entities, geometry, highlightedIds, immersive, selectedId, spatialStates]);
 
   useEffect(() => {
+    // Guided scenes use the authored chapter camera; location emphasis must not override it.
+    if (readOnly) return;
     const focused = locations.find((item) => item.entity.id === focusedLocationId);
     if (!focused) return;
     const [x, , z] = focused.runtime.position;
     requestCamera({ position: [x, 4.2, z + 3.2], target: [x, 0, z], durationMs: 800 });
-  }, [focusedLocationId, locations, requestCamera]);
+  }, [focusedLocationId, locations, requestCamera, readOnly]);
 
   return (
     <>

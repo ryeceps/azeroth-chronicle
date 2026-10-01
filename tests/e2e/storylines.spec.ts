@@ -93,7 +93,7 @@ test('era filters lead to a shareable cross-era Scepter storyline', async ({ pag
   await page.goto('/storylines');
   await expect(page.getByRole('heading', { name: 'All storylines' })).toBeVisible();
   await page.getByRole('navigation', { name: 'Filter storylines by era' }).getByRole('link', { name: /Era 5/ }).click();
-  await expect(page).toHaveURL(/storylines\?era=long-vigil-new-kingdoms/);
+  await expect(page).toHaveURL(/tours\?view=storylines&era=long-vigil-new-kingdoms/);
   await page.getByRole('link', { name: /The Scepter of the Shifting Sands/ }).click();
   await expect(page).toHaveURL(/storylines\/scepter-of-the-shifting-sands/);
   await expect(page.getByRole('heading', { level: 1, name: 'The Scepter of the Shifting Sands' })).toBeVisible();
