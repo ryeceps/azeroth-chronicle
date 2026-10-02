@@ -14,9 +14,9 @@ test.describe('responsive application shell', () => {
   test('keeps the minimalist entry and library usable on a phone', async ({ page }) => {
     await page.setViewportSize(phoneViewport);
     await page.goto('/');
-    const primary = page.getByRole('link', { name: /Explore tours/ });
+    const primary = page.getByRole('link', { name: /Explore maps & era tours/ });
     await expect(primary).toBeVisible();
-    await expect(page.getByRole('button', { name: /Full tour of the history/i })).toBeVisible();
+    await expect(page.getByRole('button', { name: /Start the Mega Tour/i })).toBeVisible();
     expect((await primary.boundingBox())!.height).toBeGreaterThanOrEqual(44);
     await expectNoHorizontalOverflow(page);
     await primary.click();
@@ -79,7 +79,7 @@ test.describe('responsive application shell', () => {
     await page.goto('/');
 
     await expect(page.getByRole('link', { name: /Azerothium/ })).toBeVisible();
-    await expect(page.getByRole('link', { name: /Explore tours/ })).toBeVisible();
+    await expect(page.getByRole('link', { name: /Explore maps & era tours/ })).toBeVisible();
     await expectNoHorizontalOverflow(page);
   });
 });
