@@ -26,9 +26,9 @@ export function MapPage() {
   if (params.get('tour') === 'full') {
     const itinerary = fullTourItinerary(staticLoreRepository.getDataset());
     const requested = params.get('node');
-    const stop = itinerary.find(item => item.nodeId === requested && item.eraSlug === params.get('era') && (item.storylineSlug ?? null) === params.get('storyline'));
+    const stop = itinerary.find(item => item.nodeId === requested && item.eraSlug === params.get('era') && (item.storylineSlug ?? null) === params.get('storyline') && (item.storyTourSlug ?? null) === params.get('collection'));
     if (requested && !stop) {
-      const fallback = itinerary.find(item => item.eraSlug === params.get('era') && (item.storylineSlug ?? null) === params.get('storyline')) ?? itinerary[0];
+      const fallback = itinerary.find(item => item.eraSlug === params.get('era') && (item.storylineSlug ?? null) === params.get('storyline') && (item.storyTourSlug ?? null) === params.get('collection')) ?? itinerary[0];
       if (fallback) return <Navigate to={fullTourUrl(fallback)} replace />;
     }
   }

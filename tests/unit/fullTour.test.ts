@@ -1,23 +1,47 @@
 import { describe, expect, it } from 'vitest';
 import { loadDataset } from '../../src/lib/lore/loadDataset';
-import { fullTourItinerary, fullTourUrl } from '../../src/lib/story/fullTour';
+import { fullTourDurationMs, fullTourItinerary, fullTourUrl } from '../../src/lib/story/fullTour';
 import { storyTourItinerary, storyTourPlayAllUrl, storyTourStoryUrl } from '../../src/lib/story/storyTour';
+import { storyNodeDurationMs } from '../../src/lib/story/storyDuration';
 import { validateDatasetReferences } from '../../src/lib/lore/validateDataset';
 import { storylineSchema, storyTourSchema } from '../../src/domain/schemas/loreSchemas';
 import { eraTourOffshoots } from '../../src/lib/story/eraTour';
 
-describe('separate era and story tours', () => {
-  it('keeps the full-history tour to era guides only', () => {
+describe('Mega Tour and separate era and story tours', () => {
+  it('plays all era guides before each playable StoryTour in authored order', () => {
     const dataset = loadDataset();
     const stops = fullTourItinerary(dataset);
-    const eraGuideIds = new Set(dataset.eras.flatMap((era) => era.storyGuideId ? [era.storyGuideId] : []));
-    const expected = dataset.storyGuides.filter((guide) => eraGuideIds.has(guide.id)).flatMap((guide) => guide.nodeIds);
-    expect(stops.map((stop) => stop.nodeId).sort()).toEqual(expected.sort());
+    const expectedEraStops = [...dataset.eras]
+      .sort((a, b) => a.order - b.order)
+      .flatMap((era) => {
+        const guide = dataset.storyGuides.find((item) => item.id === era.storyGuideId);
+        return guide?.nodeIds.map((nodeId) => ({ eraId: era.id, eraSlug: era.slug, guideId: guide.id, nodeId })) ?? [];
+      });
+    const expectedStoryStops = [];
+    const includedStorylines = new Set<string>();
+    for (const tour of dataset.storyTours) {
+      for (const stop of storyTourItinerary(dataset, tour)) {
+        if (includedStorylines.has(stop.storylineSlug)) continue;
+        includedStorylines.add(stop.storylineSlug);
+        expectedStoryStops.push(...storyTourItinerary(dataset, tour).filter((candidate) => candidate.storylineSlug === stop.storylineSlug));
+      }
+    }
+    const expected = [...expectedEraStops, ...expectedStoryStops];
+
+    expect(stops).toEqual(expected);
     expect(new Set(stops.map((stop) => stop.nodeId)).size).toBe(stops.length);
-    expect(stops.every((stop) => stop.storylineSlug === undefined)).toBe(true);
-    const gates = stops.findIndex((stop) => stop.nodeId === 'adventurers-story-gates');
-    expect(stops[gates + 1]?.nodeId).toBe('adventurers-story-outland');
-    expect(fullTourUrl(stops[gates]!)).not.toContain('storyline=');
+    expect(stops.slice(0, expectedEraStops.length).every((stop) => stop.storylineSlug === undefined)).toBe(true);
+    expect(stops.slice(expectedEraStops.length).every((stop) => stop.storylineSlug && stop.storyTourSlug)).toBe(true);
+    expect(stops.at(expectedEraStops.length - 1)?.eraId).toBe(expectedEraStops.at(-1)?.eraId);
+
+    const firstStoryStop = stops[expectedEraStops.length]!;
+    expect(fullTourUrl(firstStoryStop)).toContain(`storyline=${firstStoryStop.storylineSlug}`);
+    expect(fullTourUrl(firstStoryStop)).toContain(`collection=${firstStoryStop.storyTourSlug}`);
+    expect(fullTourUrl(stops[0]!)).not.toContain('storyline=');
+    expect(fullTourDurationMs(dataset, stops)).toBe(stops.reduce((total, stop) => {
+      const node = dataset.storyNodes.find((item) => item.id === stop.nodeId);
+      return total + (node ? storyNodeDurationMs(node) : 0);
+    }, 0));
   });
 
   it('plays only authored playable placards in explicit story chronology', () => {

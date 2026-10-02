@@ -573,10 +573,17 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 /* Quiet entry and the shared tour library. */
 .landing-quiet-sky { position: absolute; z-index: -1; inset: 0; background: radial-gradient(ellipse at 50% 28%, #1a303941, transparent 65%), linear-gradient(#070d13cc, #05070af5); }
-.landing-hero { max-width: 780px; }
-.landing-hero h1 { font-size: clamp(40px, 6vw, 76px); line-height: 1.1; }
-.landing-lede { max-width: 520px; font-size: 17px; }
-.landing-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
+.landing-page { min-height: 100dvh; overflow-x: hidden; overflow-y: auto; padding: 122px 26px 72px; }
+.landing-hero { width: min(1040px, 100%); max-width: none; padding: clamp(28px, 5vw, 58px); border: 1px solid rgba(213,169,95,.32); background: linear-gradient(145deg, rgba(10,20,27,.84), rgba(6,11,16,.76)); box-shadow: inset 0 1px rgba(243,220,175,.08), 0 24px 72px rgba(0,0,0,.48); backdrop-filter: blur(8px); }
+.landing-hero h1 { font-size: clamp(40px, 6vw, 76px); line-height: 1.08; }
+.landing-lede { max-width: 560px; font-size: 17px; }
+.landing-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); justify-items: stretch; width: min(840px, 100%); margin: 38px auto 0; gap: 14px; text-align: left; }
+.landing-choice { min-width: 0; padding: 22px; border: 1px solid rgba(213,169,95,.27); background: linear-gradient(150deg, rgba(24,35,39,.76), rgba(10,17,22,.78)); box-shadow: inset 0 1px rgba(245,225,185,.05); }
+.landing-choice-featured { border-color: rgba(232,192,121,.62); background: linear-gradient(145deg, rgba(74,59,35,.52), rgba(15,22,25,.9) 58%); }
+.landing-choice .eyebrow { margin-bottom: 14px; }
+.landing-choice-button { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 62px; gap: 14px; text-align: left; white-space: normal; }
+.landing-choice-copy { margin: 15px 0 0; color: #c2bdaf; font-size: 13px; line-height: 1.6; }
+.landing-time-estimate { margin: 14px 0 0; color: #e3c98f; font-size: 12px; line-height: 1.5; text-align: center; }
 .tour-primary, .landing-actions > .tour-primary { display: inline-flex; align-items: center; justify-content: center; gap: 24px; min-height: 48px; padding: 14px 25px; border: 1px solid #c8a365; border-radius: 3px; color: #16110a; background: #d1ad70; font-size: 14px; font-weight: 600; text-transform: none; letter-spacing: 0; text-decoration: none; cursor: pointer; }
 .tour-secondary { min-height: 48px; padding: 14px 22px; border: 1px solid #82704c; border-radius: 3px; color: #dfd2b9; background: #10191d99; cursor: pointer; }
 .tour-primary:hover, .tour-secondary:hover { filter: brightness(1.15); }
@@ -660,10 +667,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .story-tour-dot::before { animation: none; }
 }
 @media (max-width: 680px) {
-  .landing-page { padding: 125px 22px 60px; }
-  .landing-actions { flex-direction: column; align-items: stretch; gap: 12px; }
-  .landing-actions > .tour-primary, .landing-actions .tour-secondary { width: 100%; min-height: 48px; }
-  .landing-caption { line-height: 1.7; }
+  .landing-page { min-height: 100dvh; padding: 118px 18px 32px; }
+  .landing-hero { padding: 28px 20px; }
+  .landing-hero h1 { font-size: clamp(36px, 11vw, 54px); }
+  .landing-lede { font-size: 15px; }
+  .landing-actions { grid-template-columns: minmax(0, 1fr); margin-top: 28px; gap: 10px; }
+  .landing-choice { padding: 18px; }
+  .landing-choice-button { min-height: 52px; }
+  .landing-time-estimate { text-align: left; }
   .tour-library { padding-top: 36px; }
   .story-tour-feature { grid-template-columns: minmax(0,1fr); gap: 18px; margin: 26px 0 38px; padding: 20px; }
   .story-tour-feature .tour-primary { width: 100%; }

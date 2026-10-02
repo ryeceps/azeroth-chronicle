@@ -1,6 +1,6 @@
 # Decision: Tour-Led Public Experience
 
-Status: accepted by product direction on 2026-09-25. This supersedes the public explorer controls described in `fixed-map-layers-and-chronicle-scope.md`.
+Status: accepted by product direction on 2026-09-25, amended on 2026-10-02. This supersedes the public explorer controls described in `fixed-map-layers-and-chronicle-scope.md`.
 
 ## Context
 
@@ -8,7 +8,8 @@ The guided journey is now the primary experience. Free camera movement, clickabl
 
 ## Decision
 
-- The landing page offers a full chronological tour and a selector for one era's tour.
+- The landing page leads with the full-history Mega Tour and a duration estimate, then offers the Tours hub for the Classic-to-Wrath story map and individual era tours.
+- The Mega Tour runs all era guides in order followed by playable entries from authored StoryTour collections. Individual era tours and each StoryTour playlist remain available independently.
 - `/map?era=<slug>&tour=full|era` renders a guided, noninteractive scene. Bare legacy `/map` links return to the tour chooser.
 - Story actions continue to drive camera, map state, labels, and figures. Visitors control narration, pause, Previous, Next, and leaving the tour, but cannot orbit, zoom, select map objects, or open inline dossiers.
 - The archive gallery remains the public asset browser. Its detail view can show original lore and provenance alongside the assets, without links into the atlas or dossier routes.

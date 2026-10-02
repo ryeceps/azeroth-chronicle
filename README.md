@@ -8,16 +8,16 @@ This repository implements the [product and technical specification](./docs/azer
 
 ## What works now
 
-- Cinematic landing page with a choice of one era tour or an uninterrupted full-history tour
+- Cinematic landing page with the full Mega Tour, a time estimate, and a Tours hub for era tours and the Classic-to-Wrath story map
 - Vite, React, and TypeScript application shell
 - React Three Fiber guided scenes with generated terrain, relational cosmography, uncertainty-aware regions, and sourced site markers; public camera and map-object interaction is disabled
-- Ten guided eras selectable from the landing page, beginning with a complete Cosmic Origins research prologue
+- Ten Era tours in the Tours hub, beginning with a complete Cosmic Origins research prologue
 - Separate Zustand stores for era, layers, selection, story, and source filters
 - TypeScript domain contracts and Zod schemas
 - File-backed repository adapter with cross-record validation
 - Data-driven StoryNode action interpreter
 - Source-linked research previews for all ten eras, from Cosmic Origins through the Modern Cosmic Age
-- Optional voice-over for every guided chapter, with visible transcripts and an uninterrupted full-history journey
+- Optional voice-over for every guided chapter, with visible transcripts and an uninterrupted Mega Tour across the eras and playable storylines
 - Unit tests, linting, type checks, CI, and Render static-site configuration
 
 The full delivery sequence and architectural decisions are in [`docs/IMPLEMENTATION_PLAN.md`](./docs/IMPLEMENTATION_PLAN.md). The research, terrain, people, battle, and animated-tour program—including the implemented Cosmic Origins prologue—is in [`docs/eras/README.md`](./docs/eras/README.md).
