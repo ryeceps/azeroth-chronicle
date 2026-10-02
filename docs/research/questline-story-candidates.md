@@ -66,6 +66,9 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** use original quests, not the later Eligor quest sharing the title. Source the novella prologue independently; end the main story at this chain's resolution, with links to Wrath packets.
 
+**Implementation:** Complete 14-scene illustrated Classic research story with 14 transcript-matched AI voice tracks, event/claim/citation records, two separately cited quests titled Of Love and Family, recognizable Eastern and Western Plaguelands environments, principal cast and recovered keepsakes, and a fifth Classic marker in the Classic-to-Wrath StoryTour. The chain ends at the In Dreams vow; exact novella pages, original-client comparison, relative Classic placement, matching-build area/model/art review, and voice audition remain open. See the [production ledger](tirion-taelan-of-love-and-family-production.md) and [visual asset ledger](tirion-taelan-of-love-and-family-visual-assets.json).
+
+
 ### 06. Darrowshire: Pamela and a village's memory
 
 **ID:** `darrowshire-lost-and-remembered` · **B** · **Reach:** Plaguelands, multiple witnesses and relic sites.

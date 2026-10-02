@@ -1,0 +1,663 @@
+{
+  "guide": {
+    "id": "tirion-taelan-of-love-and-family-guide",
+    "eraId": "age-of-adventurers",
+    "title": "Tirion and Taelan: Of Love and Family",
+    "description": "A 14-scene illustrated Classic research story follows Tirion’s exile, the recovered memories of his family, Taelan’s decision to leave Hearthglen, and the loss that renews his father’s purpose.",
+    "nodeIds": [
+      "tirion-taelan-of-love-and-family-story-the-old-hermit",
+      "tirion-taelan-of-love-and-family-story-tirions-request",
+      "tirion-taelan-of-love-and-family-story-the-miniature-hammer",
+      "tirion-taelan-of-love-and-family-story-the-silver-hand-symbol",
+      "tirion-taelan-of-love-and-family-story-renfray-remembers",
+      "tirion-taelan-of-love-and-family-story-the-twin-moons",
+      "tirion-taelan-of-love-and-family-story-a-family-restored-in-paint",
+      "tirion-taelan-of-love-and-family-story-myranda-at-uthers-tomb",
+      "tirion-taelan-of-love-and-family-story-a-gift-in-hearthglen",
+      "tirion-taelan-of-love-and-family-story-taelan-chooses-to-leave",
+      "tirion-taelan-of-love-and-family-story-out-through-hearthglen",
+      "tirion-taelan-of-love-and-family-story-isillien-at-the-tower",
+      "tirion-taelan-of-love-and-family-story-tirion-arrives",
+      "tirion-taelan-of-love-and-family-story-a-new-order"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "tirion-taelan-of-love-and-family-story-the-old-hermit",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "The old hermit by Thondroril",
+      "narration": "In the cold reaches of the Eastern Plaguelands, an old hermit accepts help before he offers his name. The early errands are practical work among the dangers of the plague-struck countryside; they prove only that a stranger can be trusted. The narration begins at the bank where the hermit waits, after those tasks have opened his story. They did not cause his exile, and they are not recast here as a single battle. Beyond the river, a family’s long absence is the wound still waiting to be named.",
+      "durationMs": 30575,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-the-old-hermit.mp3",
+        "durationMs": 30575,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-the-old-hermit-event"
+      ],
+      "entityIds": [
+        "tirion-fordring"
+      ],
+      "locationIds": [
+        "thondroril-river"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-thondroril-river-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-tirions-request"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-tirions-request",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "The father in exile",
+      "narration": "The hermit names himself Tirion Fordring. The quest account says that he was convicted of treason and banished from the Alliance; it does not explain the charge’s full history. He chose to remain in exile near his son. Taelan became lord of Mardenholde and later a Highlord of the Scarlet Crusade, an order Tirion sees as fallen from the Silver Hand’s purpose. Tirion asks for help because he believes his son can still remember the honor they once shared.",
+      "durationMs": 29850,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-tirions-request.mp3",
+        "durationMs": 29850,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-tirions-request-event"
+      ],
+      "entityIds": [
+        "tirion-fordring"
+      ],
+      "locationIds": [
+        "thondroril-river"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-thondroril-river-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-the-old-hermit",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-the-miniature-hammer"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-the-miniature-hammer",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "A small hammer beneath a false grave",
+      "narration": "A miniature warhammer, once given to Taelan by his father, lies in the Undercroft. The reproduced quest account connects it to a false grave and to the story Taelan had been told as a child: that Tirion was dead. The object is small enough for a young hand, but it carries the weight of an absence made permanent by a lie. Its recovery does not undo the years apart. It gives Tirion one remembered gift to place before his son.",
+      "durationMs": 28600,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-the-miniature-hammer.mp3",
+        "durationMs": 28600,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-the-miniature-hammer-event"
+      ],
+      "entityIds": [
+        "taelans-miniature-warhammer"
+      ],
+      "locationIds": [
+        "undercroft"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-undercroft-grave-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-tirions-request",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-the-silver-hand-symbol"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-the-silver-hand-symbol",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "The emblem in Northdale’s lake",
+      "narration": "Tirion next asks for a symbol Taelan left behind. The quest recalls his son’s stand at Northdale after Uther’s death and says Taelan laid down the Silver Hand standard; its emblem now lies beneath the lake. The record preserves a moment of disillusion, not a full account of the fighting. We do not invent an exact battlefield line or name the soldiers who stood with him. The small sign of the old order rises from dark water, ready to join the hammer as a piece of shared history.",
+      "durationMs": 31575,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-the-silver-hand-symbol.mp3",
+        "durationMs": 31575,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-the-silver-hand-symbol-event"
+      ],
+      "entityIds": [
+        "silver-hand-insignia"
+      ],
+      "locationIds": [
+        "northdale"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-northdale-lake-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-the-miniature-hammer",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-renfray-remembers"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-renfray-remembers",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "Renfray remembers Caer Darrow",
+      "narration": "Tirion’s memory turns from the marks of duty to family excursions and an artist’s work. He sends the seeker to Caer Darrow, where his old friend Artist Renfray remains among the ruins. She painted the Fordring family in happier days. The island is now a quiet ruin in the lake, and Renfray is a ghost; the quest asks for a portrait, not a return to the life it preserves. Across years of exile, the canvas is a rare piece of the family’s past that has not vanished.",
+      "durationMs": 31200,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-renfray-remembers.mp3",
+        "durationMs": 31200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-renfray-remembers-event"
+      ],
+      "entityIds": [
+        "artist-renfray"
+      ],
+      "locationIds": [
+        "caer-darrow"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-caer-darrow-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-the-silver-hand-symbol",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-the-twin-moons"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-the-twin-moons",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "The portrait behind the twin moons",
+      "narration": "Renfray’s follow-up bears the same title as the task that brought the seeker to her, yet it is a different Classic quest. Its objective leads into Stratholme, where the family painting is hidden behind a picture of twin moons in the Archivist’s room. The crimson city has become a storehouse of other people’s ruin; within it, a small work of family memory survives. This scene shows the concealment as an original interpretation, not an exact dungeon plan or verified painting model.",
+      "durationMs": 31450,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-the-twin-moons.mp3",
+        "durationMs": 31450,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-the-twin-moons-event"
+      ],
+      "entityIds": [
+        "portrait-of-love-and-family"
+      ],
+      "locationIds": [
+        "stratholme"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-stratholme-archive-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-renfray-remembers",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-a-family-restored-in-paint"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-a-family-restored-in-paint",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "A family restored in paint",
+      "narration": "The returned painting brings Karandra and young Taelan into view beside Tirion. The Classic quest connects it to family outings and a portrait made by Renfray; the lakeside colors here interpret that recollection rather than claim an exact beach or the canvas’s original appearance. The painting restores a likeness, not a lost childhood. For Tirion, memory can now be given back in a form his son may recognize, if the son is still willing to receive it.",
+      "durationMs": 31025,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-a-family-restored-in-paint.mp3",
+        "durationMs": 31025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-a-family-restored-in-paint-event"
+      ],
+      "entityIds": [
+        "tirion-fordring",
+        "portrait-of-love-and-family"
+      ],
+      "locationIds": [
+        "thondroril-river"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-fordring-family-memory-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-the-twin-moons",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-myranda-at-uthers-tomb"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-myranda-at-uthers-tomb",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "Myranda at Uther’s Tomb",
+      "narration": "The keepsakes travel onward as a message to Myranda, whom the chain locates at Uther’s Tomb. Tirion asks his former ally to help the seeker pass into Hearthglen. Myranda’s brief place in this story reaches back to her work alongside him, though this quest does not retell every part of her life. Against pale memorial stone and plague-damaged grass, she becomes the last guide before the family’s past is carried directly to Taelan.",
+      "durationMs": 28450,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-myranda-at-uthers-tomb.mp3",
+        "durationMs": 28450,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-myranda-at-uthers-tomb-event"
+      ],
+      "entityIds": [
+        "myranda-the-hag"
+      ],
+      "locationIds": [
+        "uther-s-tomb"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-uther-tomb-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-a-family-restored-in-paint",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-a-gift-in-hearthglen"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-a-gift-in-hearthglen",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "A gift beneath Scarlet colors",
+      "narration": "A disguise opens the way into Hearthglen, where Tirion’s gift can reach Taelan. The Classic chain makes subterfuge the bridge between father and son: the seeker enters the Scarlet Crusade’s stronghold under borrowed colors and gives the package to its Highlord. The banners and pale stone of the settlement frame a tense reunion without placing Tirion there. The audience sees the old family tokens cross a guarded threshold; what Taelan will do with them remains his choice.",
+      "durationMs": 31175,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-a-gift-in-hearthglen.mp3",
+        "durationMs": 31175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-a-gift-in-hearthglen-event"
+      ],
+      "entityIds": [
+        "taelan-fordring",
+        "scarlet-crusade"
+      ],
+      "locationIds": [
+        "hearthglen"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-hearthglen-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-myranda-at-uthers-tomb",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-taelan-chooses-to-leave"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-taelan-chooses-to-leave",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "Taelan ends the dream",
+      "narration": "The gift reaches the part of Taelan that his title could not silence. In the quest account, he recognizes how long he has been made a tool of the Grand Crusader, and his father’s memory has endured beneath that service. Taelan decides to leave Hearthglen. The portrait and keepsakes do not command him; they return a past from which he can make a choice of his own. The hall’s red-and-white standards still surround him, but their claim on his future has broken.",
+      "durationMs": 29075,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-taelan-chooses-to-leave.mp3",
+        "durationMs": 29075,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-taelan-chooses-to-leave-event"
+      ],
+      "entityIds": [
+        "taelan-fordring",
+        "portrait-of-love-and-family",
+        "taelans-miniature-warhammer",
+        "silver-hand-insignia"
+      ],
+      "locationIds": [
+        "mardenholde-keep"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-mardenholde-hall-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-a-gift-in-hearthglen",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-out-through-hearthglen"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-out-through-hearthglen",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "Out through Hearthglen",
+      "narration": "Taelan leaves the keep and makes his way out through Hearthglen. The quest turns this departure into an ordeal as Scarlet Crusade forces oppose him. He is no longer the quiet child Tirion watched from exile: he has chosen to break with the order that shaped his adult life. The guards become a last barrier between the Highlord and the open road. The chain gives no private motive to each soldier, and Taelan’s struggle ends at the tower beyond the settlement.",
+      "durationMs": 28950,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-out-through-hearthglen.mp3",
+        "durationMs": 28950,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-out-through-hearthglen-event"
+      ],
+      "entityIds": [
+        "taelan-fordring",
+        "scarlet-crusade"
+      ],
+      "locationIds": [
+        "hearthglen"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-hearthglen-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-taelan-chooses-to-leave",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-isillien-at-the-tower"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-isillien-at-the-tower",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "The road ends at the tower",
+      "narration": "Beyond Hearthglen, the quest brings Taelan to a roadside tower and Grand Inquisitor Isillien. It records Taelan’s death there at Isillien’s hands. The story does not soften this into a mere interruption: the son who chose to leave the Scarlet Crusade has no return to the father he hoped to meet. The tower stands at the edge of the road, a small human post amid a wounded land, and the long effort to restore memory reaches its cost.",
+      "durationMs": 29275,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-isillien-at-the-tower.mp3",
+        "durationMs": 29275,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-isillien-at-the-tower-event"
+      ],
+      "entityIds": [
+        "taelan-fordring",
+        "grand-inquisitor-isillien",
+        "scarlet-crusade"
+      ],
+      "locationIds": [
+        "hearthglen-roadside-tower"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-taelans-tower-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-out-through-hearthglen",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-tirion-arrives"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-tirion-arrives",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "Tirion arrives",
+      "narration": "Tirion reaches the tower too late to save his son. The quest account then has him defeat Isillien and grieve beside Taelan. The father’s return answers the appeal he made at Thondroril, but not in the way he sought: he has recovered the truth and lost the living voice that might have answered him. We hold the scene to those recorded actions. No dialogue is reconstructed, and the art does not invent a private final exchange.",
+      "durationMs": 28700,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-tirion-arrives.mp3",
+        "durationMs": 28700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-tirion-arrives-event"
+      ],
+      "entityIds": [
+        "tirion-fordring",
+        "grand-inquisitor-isillien"
+      ],
+      "locationIds": [
+        "hearthglen-roadside-tower"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-taelans-tower-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-isillien-at-the-tower",
+      "nextNodeIds": [
+        "tirion-taelan-of-love-and-family-story-a-new-order"
+      ]
+    },
+    {
+      "id": "tirion-taelan-of-love-and-family-story-a-new-order",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "title": "A vow to rebuild the Silver Hand",
+      "narration": "At Taelan’s body, Tirion vows to gather a new Order of the Silver Hand and turn it again toward the defense of the world. The Classic chain ends with a purpose, not with the later history of that order already fulfilled. A small emblem rests beside the grieving father as a visual echo of the honor Taelan once laid down. The quest closes Tirion and Taelan’s story here; later campaigns, including the Wrath-era chapters, belong to their own records.",
+      "durationMs": 30025,
+      "voiceover": {
+        "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-a-new-order.mp3",
+        "durationMs": 30025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "tirion-taelan-of-love-and-family-a-new-order-event"
+      ],
+      "entityIds": [
+        "tirion-fordring",
+        "silver-hand-insignia"
+      ],
+      "locationIds": [
+        "hearthglen-roadside-tower"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.15,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1150
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "tirion-taelan-of-love-and-family-taelans-tower-scene"
+        }
+      ],
+      "previousNodeId": "tirion-taelan-of-love-and-family-story-tirion-arrives"
+    }
+  ]
+}

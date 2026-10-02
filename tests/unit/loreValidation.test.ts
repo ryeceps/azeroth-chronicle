@@ -634,10 +634,11 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(106);
+    expect(events).toHaveLength(120);
     expect(events.filter((event) => event.id.startsWith('onyxia-'))).toHaveLength(21);
     expect(events.filter((event) => event.id.startsWith('dungeon-set-two-'))).toHaveLength(22);
     expect(events.filter((event) => event.id.startsWith('fallen-hero-and-rakhlikh-'))).toHaveLength(15);
+    expect(events.filter((event) => event.id.startsWith('tirion-taelan-of-love-and-family-'))).toHaveLength(14);
     expect(events.filter((event) => event.id.startsWith('karazhan-masters-key-and-nightbane-'))).toHaveLength(18);
     expect(battles).toHaveLength(2);
     expect(guide.nodeIds).toHaveLength(10);
@@ -826,7 +827,7 @@ describe('lore dataset', () => {
   it('keeps the Scepter storyline connected to its actual eras and source leads', () => {
     const data = loadDataset();
     const scepter = data.storylines.find((item) => item.id === 'scepter-of-the-shifting-sands')!;
-    expect(data.storylines).toHaveLength(26);
+    expect(data.storylines).toHaveLength(27);
     expect(data.storylines.find((item) => item.id === 'fallen-hero-and-rakhlikh')?.contentStatus).toBe('research');
     expect(data.storylines.find((item) => item.id === 'suramar-nightwell-rebellion')?.eraIds)
       .toEqual(['war-of-the-ancients', 'age-of-adventurers']);
@@ -841,6 +842,43 @@ describe('lore dataset', () => {
     expect(scepter.contentStatus).toBe('research');
     expect(storylineSchema.safeParse({ ...scepter, primaryEraId: 'war-of-the-ancients' }).success).toBe(false);
     expect(storylineSchema.safeParse({ ...scepter, chapters: [{ ...scepter.chapters[0], eraId: 'war-of-the-ancients' }, ...scepter.chapters.slice(1)] }).success).toBe(false);
+  });
+
+  it('keeps Tirion and Taelan complete, source-linked, illustrated and separate from EraTour', () => {
+    const data = loadDataset();
+    const story = data.storylines.find((item) => item.id === 'tirion-taelan-of-love-and-family')!;
+    const guide = data.storyGuides.find((item) => item.id === story.storyGuideId)!;
+    const nodes = guide.nodeIds.map((id) => data.storyNodes.find((node) => node.id === id)!);
+    const tour = data.storyTours.find((item) => item.slug === 'classic-to-wrath')!;
+    const entry = tour.entries.find((item) => item.storylineId === story.id)!;
+    const portraitIntroduction = data.sources.find((item) => item.id === 'tirion-taelan-portrait-introduction-locator')!;
+    const portraitRecovery = data.sources.find((item) => item.id === 'tirion-taelan-portrait-recovery-locator')!;
+    const medivh = data.entities.find((item) => item.id === 'medivh')!;
+    const karazhanLedger = JSON.parse(readFileSync(resolve('docs/research/karazhan-visual-assets.json'), 'utf8')) as {
+      assetRecords: { id: string; generationPrompt: string; visualReview: string }[];
+    };
+    const medivhAsset = karazhanLedger.assetRecords.find((asset) => asset.id === 'medivh')!;
+    const storyTemplate = readFileSync(resolve('docs/research/storyline-build-template.md'), 'utf8');
+
+    expect(story.contentStatus).toBe('research');
+    expect(guide.nodeIds).toHaveLength(14);
+    expect(nodes.every((node) => node.eventIds?.length === 1 && Boolean(node.entityIds?.length))).toBe(true);
+    expect(nodes.every((node) => Boolean(node.voiceover) && Boolean(node.visualActions?.some((action) => action.type === 'set_map_state')))).toBe(true);
+    expect(data.citations.some((citation) => citation.sourceId === portraitIntroduction.id && citation.questId?.includes('5846'))).toBe(true);
+    expect(data.citations.some((citation) => citation.sourceId === portraitRecovery.id && citation.questId?.includes('5848'))).toBe(true);
+    expect(portraitIntroduction.id).not.toBe(portraitRecovery.id);
+    expect(data.entities.find((item) => item.id === 'tirion-fordring')?.mapFigure?.asset)
+      .toBe('images/storylines/tirion-taelan/tirion-fordring.research.webp');
+    expect(data.entities.find((item) => item.id === 'taelans-miniature-warhammer')?.mapVisual?.asset)
+      .toBe('images/storylines/tirion-taelan/taelans-miniature-warhammer.research.webp');
+    expect(entry.order).toBe(5);
+    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(6);
+    expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId)
+      .not.toBe(guide.id);
+    expect(medivh.mapFigure?.asset).toBe('images/storylines/karazhan/medivh.research.webp');
+    expect(medivhAsset.generationPrompt).toMatch(/Atiesh/);
+    expect(medivhAsset.visualReview).toMatch(/carved raven-head finial/);
+    expect(storyTemplate).toMatch(/Signature equipment.*Medivh should visibly wield Atiesh/);
   });
 
   it('keeps Onyxia in the separate Classic-to-Wrath story atlas', () => {
