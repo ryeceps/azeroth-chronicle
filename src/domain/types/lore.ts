@@ -122,6 +122,7 @@ export interface LoreEntity {
     asset: string;
     anchorEntityId?: EntityId;
     scale?: number;
+    eraVariants?: Array<{ eraId: EntityId; asset: string; scale?: number }>;
   };
   mapVisual?: {
     asset: string;

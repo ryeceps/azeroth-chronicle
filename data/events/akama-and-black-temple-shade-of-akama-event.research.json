@@ -1,0 +1,32 @@
+{
+  "id": "akama-and-black-temple-shade-of-akama-event",
+  "kind": "event",
+  "name": "The Shade of Akama",
+  "slug": "akama-and-black-temple-shade-of-akama",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "akama-black-temple-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Burning Crusade quest chronology; exact in-world dating unknown"
+  },
+  "summary": "With help from the adventurers, Akama defeats his Shade and reclaims the soul held apart from him. The Ashtongue turn from Illidan’s sway; the blow against the Betrayer begins within the tribe before it reaches the summit. Open resistance had seemed too dangerous for a people already brought close to ruin. The story marks a change in agency, not a claim that every Broken in Outland has joined the same revolt.",
+  "locationIds": [
+    "black-temple-sanctuary"
+  ],
+  "participantEntityIds": [
+    "akama",
+    "shade-of-akama",
+    "ashtongue-deathsworn"
+  ],
+  "sourceIds": [
+    "akama-redemption-quest",
+    "akama-blizzard-black-temple-raid-guide"
+  ],
+  "claimIds": [
+    "akama-and-black-temple-shade-of-akama-claim"
+  ],
+  "contentStatus": "research",
+  "causedByEventIds": [
+    "akama-and-black-temple-seek-the-ashtongue-event"
+  ]
+}

@@ -10,6 +10,7 @@ import { useSceneEffectsStore } from '../../app/state/sceneEffectsStore';
 import type { Battle, LoreEntity, Route, SpatialState } from '../../domain/types/lore';
 import type { RuntimeGeometry, RuntimePolygon } from '../../lib/map/geometryAdapter';
 import { layoutMapFigures, type ScreenRect } from '../../lib/map/layoutMapFigures';
+import { resolveMapFigure } from '../../lib/map/resolveMapFigure';
 import { CameraRig } from './CameraRig';
 
 interface MapViewport3DProps {
@@ -331,11 +332,10 @@ function useFigureDistanceFactor(immersive?: boolean) {
   return immersive ? undefined : 5;
 }
 
-function CharacterFigure({ entity, active, immersive, readOnly, onSelect }: { entity: LoreEntity; active: boolean; immersive?: boolean; readOnly?: boolean; onSelect: () => void }) {
+function CharacterFigure({ entity, figure, active, immersive, readOnly, onSelect }: { entity: LoreEntity; figure: NonNullable<LoreEntity['mapFigure']>; active: boolean; immersive?: boolean; readOnly?: boolean; onSelect: () => void }) {
   const distanceFactor = useFigureDistanceFactor(immersive);
-  if (!entity.mapFigure) return null;
-  const width = Math.round(132 * (entity.mapFigure.scale ?? 1));
-  const content = <><img src={`${import.meta.env.BASE_URL}${entity.mapFigure.asset}`} alt="" width={width} /><span>{entity.name}</span></>;
+  const width = Math.round(132 * (figure.scale ?? 1));
+  const content = <><img src={`${import.meta.env.BASE_URL}${figure.asset}`} alt="" width={width} /><span>{entity.name}</span></>;
   return (
     <Html center position={[0, 1.02, 0]} distanceFactor={distanceFactor} zIndexRange={[4, 1]}>
       {readOnly
@@ -394,13 +394,14 @@ function AtlasScene({
     if (entity.type !== 'character' || !entity.mapFigure) return [];
     const anchorId = entity.mapFigure.anchorEntityId ?? entity.id;
     const anchorState = spatialStates.find((state) => state.entityId === anchorId);
+    const figure = resolveMapFigure(entity, anchorState?.eraId);
     const runtime = geometry.find((item) => item.id === anchorState?.geometryId && item.kind === 'point');
     const active = highlightedIds.includes(entity.id) || selectedId === entity.id
       || (immersive === true && battles.some((battle) => (battle.id === selectedId || highlightedIds.includes(battle.id))
         && battle.participantEntityIds?.includes(entity.id)));
     if (immersive && !active) return [];
     if (anchorState?.visualPresence === 'contextual' && !active) return [];
-    return runtime?.kind === 'point' ? [{ active, entity, runtime }] : [];
+    return runtime?.kind === 'point' && figure ? [{ active, entity, figure, runtime }] : [];
   }), [battles, entities, geometry, highlightedIds, immersive, selectedId, spatialStates]);
 
   useEffect(() => {
@@ -485,7 +486,7 @@ function AtlasScene({
         );
       })}
 
-      {layers.locations && characterFigures.map(({ active, entity, runtime }) => (
+      {layers.locations && characterFigures.map(({ active, entity, figure, runtime }) => (
         <group key={`figure-${entity.id}`} position={[runtime.position[0], 0.18, runtime.position[2]]}>
           {active && (
             <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.12, 0]}>
@@ -493,7 +494,7 @@ function AtlasScene({
               <meshBasicMaterial color="#d7b777" transparent opacity={0.5} depthTest={false} />
             </mesh>
           )}
-          <CharacterFigure immersive={immersive} readOnly={readOnly} active={active} entity={entity} onSelect={() => select({ kind: 'entity', id: entity.id })} />
+          <CharacterFigure immersive={immersive} readOnly={readOnly} active={active} entity={entity} figure={figure} onSelect={() => select({ kind: 'entity', id: entity.id })} />
         </group>
       ))}
 

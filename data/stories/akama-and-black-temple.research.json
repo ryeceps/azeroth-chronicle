@@ -1,0 +1,1149 @@
+{
+  "guide": {
+    "id": "akama-and-black-temple-guide",
+    "eraId": "age-of-adventurers",
+    "title": "Akama and the Black Temple",
+    "description": "A twenty-scene illustrated Burning Crusade chronicle follows Akama’s hidden purpose, Olum’s sacrifice, the campaign through raid gates, and the Ashtongue struggle inside the Black Temple.",
+    "nodeIds": [
+      "akama-and-black-temple-story-karabor-under-illidan",
+      "akama-and-black-temple-story-tablets-at-baari",
+      "akama-and-black-temple-story-orders-and-fragments",
+      "akama-and-black-temple-story-beneath-the-wardens-cage",
+      "akama-and-black-temple-story-proof-of-allegiance",
+      "akama-and-black-temple-story-akama-and-maiev",
+      "akama-and-black-temple-story-seer-udalo-in-arcatraz",
+      "akama-and-black-temple-story-the-word-atamal",
+      "akama-and-black-temple-story-heart-of-fury",
+      "akama-and-black-temple-story-akama-promise-to-adal",
+      "akama-and-black-temple-story-olum-found",
+      "akama-and-black-temple-story-olums-last-choice",
+      "akama-and-black-temple-story-ruse-of-the-ashtongue",
+      "akama-and-black-temple-story-hyjal-memory",
+      "akama-and-black-temple-story-hostage-soul",
+      "akama-and-black-temple-story-diversion-at-the-southern-wall",
+      "akama-and-black-temple-story-seek-the-ashtongue",
+      "akama-and-black-temple-story-shade-of-akama",
+      "akama-and-black-temple-story-the-seers-open-the-way",
+      "akama-and-black-temple-story-fall-of-the-betrayer"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "akama-and-black-temple-story-karabor-under-illidan",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Karabor under Illidan",
+      "narration": "Before a black name crowned the height, Karabor was the draenei’s sacred temple in Shadowmoon Valley. War and occupation stripped that name from its halls; the fortress became the Black Temple. Illidan seized it from Magtheridon, and the Broken under Akama joined his ranks. Their public allegiance did not reveal Akama’s private purpose. The quests that begin among Baa’ri’s tablets enter this inherited history, then ask what it has cost his people.",
+      "durationMs": 57683,
+      "eventIds": [
+        "akama-and-black-temple-karabor-under-illidan-event"
+      ],
+      "entityIds": [
+        "akama",
+        "illidan-stormrage",
+        "magtheridon",
+        "ashtongue-deathsworn"
+      ],
+      "locationIds": [
+        "black-temple"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-karabor-black-temple-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "illidan-stormrage"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "magtheridon"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ashtongue-deathsworn"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-karabor-under-illidan.mp3",
+        "durationMs": 29400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "nextNodeIds": [
+        "akama-and-black-temple-story-tablets-at-baari"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-tablets-at-baari",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Tablets at Baa’ri",
+      "narration": "The attunement begins at Baa’ri: a trail of tablets, orders and medallion fragments leads from Shadowmoon toward Akama. Aldor and Scryers receive different opening quests from their own camps; those alternatives later converge. They are not one adventurer’s combined route. The tablets and collection objectives open a path through the valley, but they do not establish that every fragment records a separate historical act.",
+      "durationMs": 51830,
+      "eventIds": [
+        "akama-and-black-temple-tablets-at-baari-event"
+      ],
+      "entityIds": [
+        "tablets-of-baari"
+      ],
+      "locationIds": [
+        "baa-ri-ruins"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-baari-ruins-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "tablets-of-baari"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-tablets-at-baari.mp3",
+        "durationMs": 27975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-karabor-under-illidan",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-orders-and-fragments"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-orders-and-fragments",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Orders and fragments",
+      "narration": "From the ruins, Oronu’s written orders and the Ashtongue shamans redirect the seeker through the valley. Their quest steps recover pieces of the Medallion of Karabor and lead deeper toward Akama. The targets and collection count are player progress, not a census of the tribe or a chain of distinct battles. The trail is valuable because it reveals that an apparent servant of Illidan has left instructions in trusted hands.",
+      "durationMs": 56220,
+      "eventIds": [
+        "akama-and-black-temple-orders-and-fragments-event"
+      ],
+      "entityIds": [
+        "oronu-the-elder",
+        "ashtongue-corruptors",
+        "medallion-fragments"
+      ],
+      "locationIds": [
+        "baa-ri-ruins"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-baari-ruins-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "oronu-the-elder"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ashtongue-corruptors"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "medallion-fragments"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-orders-and-fragments.mp3",
+        "durationMs": 28625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-tablets-at-baari",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-beneath-the-wardens-cage"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-beneath-the-wardens-cage",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Beneath the Warden’s Cage",
+      "narration": "At the Warden’s Cage, a submerged pool hides a chamber beyond the outpost. There the seeker finds Akama, no longer merely a name in another commander’s orders. At this meeting the question changes: the search has found the leader, but his place beside Illidan still conceals what he means to do.",
+      "durationMs": 42318,
+      "eventIds": [
+        "akama-and-black-temple-beneath-the-wardens-cage-event"
+      ],
+      "entityIds": [
+        "akama"
+      ],
+      "locationIds": [
+        "wardens-cage"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-wardens-cage-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-beneath-the-wardens-cage.mp3",
+        "durationMs": 20850,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-orders-and-fragments",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-proof-of-allegiance"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-proof-of-allegiance",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Proof of Allegiance",
+      "narration": "Access to Akama is followed by a test of loyalty. The quest directs the seeker against Ashtongue whom Akama marks as a threat to his cover. This violence belongs to a controlled performance within the chain: his Deathsworn remain the trusted circle while his public service to Illidan is maintained. The objective is not evidence of a massacre of the tribe or that Akama has abandoned his people.",
+      "durationMs": 54757,
+      "eventIds": [
+        "akama-and-black-temple-proof-of-allegiance-event"
+      ],
+      "entityIds": [
+        "akama",
+        "ashtongue-deathsworn"
+      ],
+      "locationIds": [
+        "wardens-cage"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-wardens-cage-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ashtongue-deathsworn"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-proof-of-allegiance.mp3",
+        "durationMs": 27350,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-beneath-the-wardens-cage",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-akama-and-maiev"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-akama-and-maiev",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Akama and Maiev",
+      "narration": "Akama explains the bargain behind the display. Illidan’s rule has made open revolt a danger to the Broken, so the plan must grow in secret. Maiev Shadowsong is imprisoned in Akama’s hidden quarters. She is no obedient instrument in his designs: her anger at Illidan and her own choices remain hers. Their uneasy meeting turns the chamber into a question of agency as well as escape.",
+      "durationMs": 53293,
+      "eventIds": [
+        "akama-and-black-temple-akama-and-maiev-event"
+      ],
+      "entityIds": [
+        "akama",
+        "maiev-shadowsong"
+      ],
+      "locationIds": [
+        "warden-hidden-pool"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-secret-chamber-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "maiev-shadowsong"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-akama-and-maiev.mp3",
+        "durationMs": 27325,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-proof-of-allegiance",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-seer-udalo-in-arcatraz"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-seer-udalo-in-arcatraz",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Seer Udalo in the Arcatraz",
+      "narration": "The next search leads to the Arcatraz, a crystalline prison suspended above Netherstorm. The seeker is sent to find Seer Udalo and discovers that the seer is already dead. The quest offers no return from death here; Akama receives a report and sends the seeker onward. A keeper of the Ashtongue secret has fallen far from Shadowmoon, leaving the living to interpret what he managed to leave behind.",
+      "durationMs": 54757,
+      "eventIds": [
+        "akama-and-black-temple-seer-udalo-in-arcatraz-event"
+      ],
+      "entityIds": [
+        "seer-udalo"
+      ],
+      "locationIds": [
+        "arcatraz"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-arcatraz-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "seer-udalo"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-seer-udalo-in-arcatraz.mp3",
+        "durationMs": 27200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-akama-and-maiev",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-the-word-atamal"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-the-word-atamal",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "The word Ata’mal",
+      "narration": "Udalo left only a single word, Ata’mal, on the floor. Akama reads it as the next place to seek. No fuller prophecy survives in the available quest record, and this fragment cannot bear more certainty than it contains. A name passes from the prison into the valley’s old temple terraces; the slender clue is enough to move the story, but not enough to reveal what waits there.",
+      "durationMs": 54025,
+      "eventIds": [
+        "akama-and-black-temple-the-word-atamal-event"
+      ],
+      "entityIds": [
+        "seer-udalo"
+      ],
+      "locationIds": [
+        "arcatraz"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-arcatraz-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "seer-udalo"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-the-word-atamal.mp3",
+        "durationMs": 26225,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-seer-udalo-in-arcatraz",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-heart-of-fury"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-heart-of-fury",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "The Heart of Fury",
+      "narration": "At Ata’mal Terrace, the seeker recovers the Heart of Fury. Akama recognizes it from Velen’s past and weighs the power it might give him against his people’s freedom. The quest account makes his choice clear: he will not free the Broken only to take Illidan’s place as their master. He sends the artifact onward to A’dal. This refusal gives the hidden plan its clearest purpose.",
+      "durationMs": 52561,
+      "eventIds": [
+        "akama-and-black-temple-heart-of-fury-event"
+      ],
+      "entityIds": [
+        "akama",
+        "heart-of-fury"
+      ],
+      "locationIds": [
+        "ata-mal-terrace"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-atamal-terrace-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "heart-of-fury"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-heart-of-fury.mp3",
+        "durationMs": 25525,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-the-word-atamal",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-akama-promise-to-adal"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-akama-promise-to-adal",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Akama’s promise to A’dal",
+      "narration": "In Shattrath, Akama places the Heart within the Medallion of Karabor and sends it to A’dal. His promise is to stand with the seeker against Illidan; this closes the first Akama chain. The medallion links Karabor’s sacred name to a dangerous plan, but its delivery does not open the raid or free Akama’s soul. The harder struggle still waits inside the Black Temple.",
+      "durationMs": 51098,
+      "eventIds": [
+        "akama-and-black-temple-akama-promise-to-adal-event"
+      ],
+      "entityIds": [
+        "akama",
+        "adal",
+        "medallion-of-karabor"
+      ],
+      "locationIds": [
+        "shattrath-terrace-of-light"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-shattrath-terrace-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "medallion-of-karabor"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-akama-promise-to-adal.mp3",
+        "durationMs": 25950,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-heart-of-fury",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-olum-found"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-olum-found",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "The secret is found",
+      "narration": "After the first chain and a separate raid gate, Seer Olum appears in Serpentshrine Cavern. He tells the seeker that Vashj’s followers uncovered the Deathsworn’s secret and tortured him for it. This is an access-dependent encounter in the Burning Crusade quest order, not proof that the raid gate caused Akama’s conspiracy. Olum has kept silent; now the plan is endangered, and Akama must choose what one friend can bear.",
+      "durationMs": 55488,
+      "eventIds": [
+        "akama-and-black-temple-olum-found-event"
+      ],
+      "entityIds": [
+        "seer-olum",
+        "coilfang-naga"
+      ],
+      "locationIds": [
+        "serpentshrine-cavern"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-serpentshrine-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "seer-olum"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "coilfang-naga"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-olum-found.mp3",
+        "durationMs": 28150,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-akama-promise-to-adal",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-olums-last-choice"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-olums-last-choice",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Olum’s last choice",
+      "narration": "At the Warden’s Cage, Olum chooses the spirit world rather than risk giving his captors the secret. Akama helps him die among his brothers. Illidan’s suspicion then demands another act: Akama reports a genuine betrayal by Kael’thas, diverting attention from the Ashtongue plot. Olum’s sacrifice leaves no triumph in its wake. It preserves the cover at the cost of one of the plan’s oldest companions.",
+      "durationMs": 52561,
+      "eventIds": [
+        "akama-and-black-temple-olums-last-choice-event"
+      ],
+      "entityIds": [
+        "akama",
+        "seer-olum",
+        "kael-thas-sunstrider"
+      ],
+      "locationIds": [
+        "wardens-cage"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-wardens-cage-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "seer-olum"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kael-thas-sunstrider"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-olums-last-choice.mp3",
+        "durationMs": 28000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-olum-found",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-ruse-of-the-ashtongue"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-ruse-of-the-ashtongue",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Ruse of the Ashtongue",
+      "narration": "The ruse is tested in Tempest Keep. Wearing an Ashtongue Cowl, the seeker kills Al’ar, Kael’thas’s phoenix, under the appearance of obeying Illidan. The chain calls for this deed after Olum’s death because Akama needs Illidan to trust the outward story again. It is a raid task used to preserve a disguise, not evidence that the Ashtongue have openly begun their assault.",
+      "durationMs": 50366,
+      "eventIds": [
+        "akama-and-black-temple-ruse-of-the-ashtongue-event"
+      ],
+      "entityIds": [
+        "alar",
+        "kael-thas-sunstrider",
+        "ashtongue-cowl"
+      ],
+      "locationIds": [
+        "tempest-keep-eye"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-tempest-eye-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "alar"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kael-thas-sunstrider"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ashtongue-cowl"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-ruse-of-the-ashtongue.mp3",
+        "durationMs": 25700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-olums-last-choice",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-hyjal-memory"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-hyjal-memory",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Memory · A memory at Mount Hyjal",
+      "narration": "Akama seeks the Time-Phased Phylactery once held by Rage Winterchill. The path sends the adventurer into the Caverns of Time and a memory of the Battle of Mount Hyjal, where the artifact is recovered. This is not present-day travel from Outland into the Third War. A separate raid attunement is required to enter Hyjal; that gate is a game condition, not the cause of Akama’s plan.",
+      "durationMs": 53293,
+      "eventIds": [
+        "akama-and-black-temple-hyjal-memory-event"
+      ],
+      "entityIds": [
+        "rage-winterchill",
+        "time-phased-phylactery"
+      ],
+      "locationIds": [
+        "hyjal-summit-memory"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-hyjal-memory-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "rage-winterchill"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "time-phased-phylactery"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-hyjal-memory.mp3",
+        "durationMs": 26725,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-ruse-of-the-ashtongue",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-hostage-soul"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-hostage-soul",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "The hostage soul",
+      "narration": "When the phylactery returns to Akama, its power over souls makes his design plain: his own soul is imprisoned in the Black Temple, apart from the leader his people see. He intends to reclaim control of it before facing Illidan. The discovery makes this long deception personal without erasing its wider stakes. The quest records a plan and an intended use, not certainty that the artifact will succeed.",
+      "durationMs": 54757,
+      "eventIds": [
+        "akama-and-black-temple-hostage-soul-event"
+      ],
+      "entityIds": [
+        "akama",
+        "time-phased-phylactery"
+      ],
+      "locationIds": [
+        "black-temple"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-karabor-black-temple-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "time-phased-phylactery"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-hostage-soul.mp3",
+        "durationMs": 28050,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-hyjal-memory",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-diversion-at-the-southern-wall"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-diversion-at-the-southern-wall",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "A diversion at the southern wall",
+      "narration": "Entry comes by a raid-scale diversion. Xi’ri and the Sha’tar draw Illidan’s defenders outward while Akama, Maiev and the Deathsworn move on the fortress. Maiev pursues her own vengeance, and Akama continues with his people when she breaks from the plan. At the southern wall they pass through an opening; the account leaves the rest of the temple’s defences untold.",
+      "durationMs": 48903,
+      "eventIds": [
+        "akama-and-black-temple-diversion-at-the-southern-wall-event"
+      ],
+      "entityIds": [
+        "akama",
+        "maiev-shadowsong",
+        "ashtongue-deathsworn",
+        "xi-ri"
+      ],
+      "locationIds": [
+        "black-temple-southern-entry"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-southern-entry-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "maiev-shadowsong"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ashtongue-deathsworn"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "xi-ri"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-diversion-at-the-southern-wall.mp3",
+        "durationMs": 24650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-hostage-soul",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-seek-the-ashtongue"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-seek-the-ashtongue",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "Find the Ashtongue",
+      "narration": "Inside the Black Temple, the seeker finds Akama’s Deathsworn and Seer Kanai. Their message is simple: Akama needs help. The campaign has crossed from a concealed valley plan to a confrontation within Illidan’s fortress. The Ashtongue have not yet escaped his influence; their leader’s soul remains bound, and the next task is to break that hold before the people can turn together.",
+      "durationMs": 50366,
+      "eventIds": [
+        "akama-and-black-temple-seek-the-ashtongue-event"
+      ],
+      "entityIds": [
+        "akama",
+        "seer-kanai",
+        "ashtongue-deathsworn"
+      ],
+      "locationIds": [
+        "black-temple-refectory"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-bt-refectory-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "seer-kanai"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ashtongue-deathsworn"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-seek-the-ashtongue.mp3",
+        "durationMs": 25725,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-diversion-at-the-southern-wall",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-shade-of-akama"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-shade-of-akama",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "The Shade of Akama",
+      "narration": "With help from the adventurers, Akama defeats his Shade and reclaims the soul held apart from him. The Ashtongue turn from Illidan’s sway; the blow against the Betrayer begins within the tribe before it reaches the summit. Open resistance had seemed too dangerous for a people already brought close to ruin. The story marks a change in agency, not a claim that every Broken in Outland has joined the same revolt.",
+      "durationMs": 56952,
+      "eventIds": [
+        "akama-and-black-temple-shade-of-akama-event"
+      ],
+      "entityIds": [
+        "akama",
+        "shade-of-akama",
+        "ashtongue-deathsworn"
+      ],
+      "locationIds": [
+        "black-temple-sanctuary"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-bt-inner-sanctuary-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "shade-of-akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ashtongue-deathsworn"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-shade-of-akama.mp3",
+        "durationMs": 27825,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-seek-the-ashtongue",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-the-seers-open-the-way"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-the-seers-open-the-way",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "The seers open the way",
+      "narration": "After the Council, the spirits of Udalo and Olum open the way to Illidan’s sanctum. Their work has not been forgotten: one left the word that led Akama toward Ata’mal; the other gave his life to guard the hidden plan. Now both seers act beyond death. The other trials fade from view as their purpose brings the company to Illidan’s door.",
+      "durationMs": 49635,
+      "eventIds": [
+        "akama-and-black-temple-the-seers-open-the-way-event"
+      ],
+      "entityIds": [
+        "akama",
+        "seer-udalo",
+        "seer-olum"
+      ],
+      "locationIds": [
+        "temple-summit"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-temple-summit-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "seer-udalo"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "seer-olum"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-the-seers-open-the-way.mp3",
+        "durationMs": 23475,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-shade-of-akama",
+      "nextNodeIds": [
+        "akama-and-black-temple-story-fall-of-the-betrayer"
+      ]
+    },
+    {
+      "id": "akama-and-black-temple-story-fall-of-the-betrayer",
+      "guideId": "akama-and-black-temple-guide",
+      "title": "The fall of the Betrayer",
+      "narration": "At last, Akama and the adventurers face Illidan atop the Black Temple. The Betrayer’s fall ends the Burning Crusade quest that carried the seeker from Baa’ri through the raids and into the fortress. Akama has reclaimed his soul, and the Ashtongue have risen from Illidan’s control. The tale leaves Karabor’s later fate and Akama’s rule unspoken.",
+      "durationMs": 45976,
+      "eventIds": [
+        "akama-and-black-temple-fall-of-the-betrayer-event"
+      ],
+      "entityIds": [
+        "akama",
+        "illidan-stormrage",
+        "ashtongue-deathsworn"
+      ],
+      "locationIds": [
+        "illidan-sanctum"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "akama-and-black-temple-illidan-sanctum-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "akama"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "illidan-stormrage"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ashtongue-deathsworn"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/akama-and-black-temple-guide/akama-and-black-temple-story-fall-of-the-betrayer.mp3",
+        "durationMs": 24225,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "akama-and-black-temple-story-the-seers-open-the-way"
+    }
+  ]
+}

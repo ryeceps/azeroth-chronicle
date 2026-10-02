@@ -433,7 +433,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .story-overlay .story-voiceover, .story-overlay .story-playback, .story-overlay .story-actions { flex: 0 0 auto; }
   .map-character-figure img { max-height: 116px; }
   .map-subject-visual img { max-height: 122px; }
-  .map-character-figure span, .map-subject-visual span { max-width: 120px; overflow: hidden; text-overflow: ellipsis; }
+  .map-character-figure span, .map-subject-visual span { max-width: min(150px, 42vw); overflow: visible; text-align: center; text-overflow: clip; white-space: normal; line-height: 1.2; }
   .atlas-layout { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) 58px; }
   .archive-panel, .detail-panel { position: absolute; top: 0; bottom: 58px; z-index: 6; width: min(88vw, 360px); border: 0; box-shadow: 0 0 34px rgba(0, 0, 0, .52); }
   .archive-panel { left: 0; }

@@ -634,12 +634,13 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(120);
+    expect(events).toHaveLength(140);
     expect(events.filter((event) => event.id.startsWith('onyxia-'))).toHaveLength(21);
     expect(events.filter((event) => event.id.startsWith('dungeon-set-two-'))).toHaveLength(22);
     expect(events.filter((event) => event.id.startsWith('fallen-hero-and-rakhlikh-'))).toHaveLength(15);
     expect(events.filter((event) => event.id.startsWith('tirion-taelan-of-love-and-family-'))).toHaveLength(14);
     expect(events.filter((event) => event.id.startsWith('karazhan-masters-key-and-nightbane-'))).toHaveLength(18);
+    expect(events.filter((event) => event.id.startsWith('akama-and-black-temple-'))).toHaveLength(20);
     expect(battles).toHaveLength(2);
     expect(guide.nodeIds).toHaveLength(10);
     expect(mapStates.map((state) => state.worldspaceId)).toEqual([
@@ -827,8 +828,9 @@ describe('lore dataset', () => {
   it('keeps the Scepter storyline connected to its actual eras and source leads', () => {
     const data = loadDataset();
     const scepter = data.storylines.find((item) => item.id === 'scepter-of-the-shifting-sands')!;
-    expect(data.storylines).toHaveLength(27);
+    expect(data.storylines).toHaveLength(28);
     expect(data.storylines.find((item) => item.id === 'fallen-hero-and-rakhlikh')?.contentStatus).toBe('research');
+    expect(data.storylines.find((item) => item.id === 'akama-and-black-temple')?.contentStatus).toBe('research');
     expect(data.storylines.find((item) => item.id === 'suramar-nightwell-rebellion')?.eraIds)
       .toEqual(['war-of-the-ancients', 'age-of-adventurers']);
     expect(data.storylines.find((item) => item.id === 'beyond-the-dark-portal')?.eraIds)

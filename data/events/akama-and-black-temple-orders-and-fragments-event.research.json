@@ -1,0 +1,29 @@
+{
+  "id": "akama-and-black-temple-orders-and-fragments-event",
+  "kind": "event",
+  "name": "Orders and fragments",
+  "slug": "akama-and-black-temple-orders-and-fragments",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "akama-black-temple-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Burning Crusade quest chronology; exact in-world dating unknown"
+  },
+  "summary": "From the ruins, Oronu’s written orders and the Ashtongue shamans redirect the seeker through the valley. Their quest steps recover pieces of the Medallion of Karabor and lead deeper toward Akama. The targets and collection count are player progress, not a census of the tribe or a chain of distinct battles. The trail is valuable because it reveals that an apparent servant of Illidan has left instructions in trusted hands.",
+  "locationIds": [
+    "baa-ri-ruins"
+  ],
+  "participantEntityIds": [
+    "oronu-the-elder",
+    "ashtongue-corruptors"
+  ],
+  "sourceIds": [
+    "akama-oronu-quest",
+    "akama-corruptors-quest",
+    "akama-black-temple-chain-locator"
+  ],
+  "claimIds": [
+    "akama-and-black-temple-orders-and-fragments-claim"
+  ],
+  "contentStatus": "research"
+}

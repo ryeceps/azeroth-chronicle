@@ -1,0 +1,28 @@
+{
+  "id": "akama-and-black-temple-proof-of-allegiance-event",
+  "kind": "event",
+  "name": "Proof of Allegiance",
+  "slug": "akama-and-black-temple-proof-of-allegiance",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "akama-black-temple-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Burning Crusade quest chronology; exact in-world dating unknown"
+  },
+  "summary": "Access to Akama is followed by a test of loyalty. The quest directs the seeker against Ashtongue whom Akama marks as a threat to his cover. This violence belongs to a controlled performance within the chain: his Deathsworn remain the trusted circle while his public service to Illidan is maintained. The objective is not evidence of a massacre of the tribe or that Akama has abandoned his people.",
+  "locationIds": [
+    "wardens-cage"
+  ],
+  "participantEntityIds": [
+    "akama",
+    "ashtongue-deathsworn"
+  ],
+  "sourceIds": [
+    "akama-proof-allegiance-quest",
+    "akama-reveal-quest"
+  ],
+  "claimIds": [
+    "akama-and-black-temple-proof-of-allegiance-claim"
+  ],
+  "contentStatus": "research"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "akama-and-black-temple-seek-the-ashtongue-event",
+  "kind": "event",
+  "name": "Find the Ashtongue",
+  "slug": "akama-and-black-temple-seek-the-ashtongue",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "akama-black-temple-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Burning Crusade quest chronology; exact in-world dating unknown"
+  },
+  "summary": "Inside the Black Temple, the seeker finds Akama’s Deathsworn and Seer Kanai. Their message is simple: Akama needs help. The campaign has crossed from a concealed valley plan to a confrontation within Illidan’s fortress. The Ashtongue have not yet escaped his influence; their leader’s soul remains bound, and the next task is to break that hold before the people can turn together.",
+  "locationIds": [
+    "black-temple-refectory"
+  ],
+  "participantEntityIds": [
+    "akama",
+    "seer-kanai",
+    "ashtongue-deathsworn"
+  ],
+  "sourceIds": [
+    "akama-seek-ashtongue-quest",
+    "akama-distraction-quest"
+  ],
+  "claimIds": [
+    "akama-and-black-temple-seek-the-ashtongue-claim"
+  ],
+  "contentStatus": "research"
+}

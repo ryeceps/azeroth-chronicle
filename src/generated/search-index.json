@@ -220,6 +220,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "adal",
+    "type": "entity",
+    "name": "A’dal",
+    "slug": "adal",
+    "path": "/locations/adal",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "A’dal, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-promise-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "adventurers-of-azeroth",
     "type": "entity",
     "name": "Adventurers of Azeroth",
@@ -278,6 +296,26 @@
     "contentStatus": "research"
   },
   {
+    "id": "akama",
+    "type": "entity",
+    "name": "Akama",
+    "slug": "akama",
+    "path": "/locations/akama",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Akama, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-bcc-story-so-far",
+      "akama-reveal-quest",
+      "akama-atamal-terrace-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "alakir",
     "type": "entity",
     "name": "Al'Akir",
@@ -294,6 +332,24 @@
     "description": "The cunning Elemental Lord of air, whose forces relied on spying, division, and sudden storms.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "alar",
+    "type": "entity",
+    "name": "Al’ar",
+    "slug": "alar",
+    "path": "/locations/alar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Al’ar, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-ruse-quest"
     ],
     "contentStatus": "research"
   },
@@ -530,13 +586,12 @@
     "eraId": "age-of-adventurers",
     "aliases": [],
     "tags": [
-      "karazhan-story",
-      "burning-crusade-location"
+      "akama-story",
+      "story-setting"
     ],
-    "description": "The Arcatraz, a named setting in the Karazhan research story.",
+    "description": "The Arcatraz, a named setting in the Akama and Black Temple research story.",
     "sourceIds": [
-      "karazhan-fragment-quest-text",
-      "karazhan-official-attunement-overview"
+      "akama-seer-udalo-quest"
     ],
     "contentStatus": "research"
   },
@@ -696,6 +751,80 @@
     "contentStatus": "research"
   },
   {
+    "id": "ashtongue-corruptors",
+    "type": "entity",
+    "name": "Ashtongue Corruptors",
+    "slug": "ashtongue-corruptors",
+    "path": "/factions/ashtongue-corruptors",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Ashtongue Corruptors, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-corruptors-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ashtongue-cowl",
+    "type": "entity",
+    "name": "Ashtongue Cowl",
+    "slug": "ashtongue-cowl",
+    "path": "/locations/ashtongue-cowl",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Ashtongue Cowl, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-ruse-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ashtongue-deathsworn",
+    "type": "entity",
+    "name": "Ashtongue Deathsworn",
+    "slug": "ashtongue-deathsworn",
+    "path": "/factions/ashtongue-deathsworn",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Ashtongue Deathsworn, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-bcc-story-so-far",
+      "akama-black-temple-chain-locator",
+      "akama-secret-compromised-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ata-mal-terrace",
+    "type": "entity",
+    "name": "Ata’mal Terrace",
+    "slug": "ata-mal-terrace",
+    "path": "/locations/ata-mal-terrace",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "Ata’mal Terrace, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-atamal-terrace-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "axtroz",
     "type": "entity",
     "name": "Axtroz",
@@ -794,6 +923,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "baa-ri-ruins",
+    "type": "entity",
+    "name": "Ruins of Baa’ri",
+    "slug": "baa-ri-ruins",
+    "path": "/locations/baa-ri-ruins",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "Ruins of Baa’ri, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-tablets-baari-quest",
+      "akama-oronu-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "baristolth",
     "type": "entity",
     "name": "Baristolth",
@@ -884,6 +1032,80 @@
     "sourceIds": [
       "karazhan-masters-touch-quest-text",
       "karazhan-official-attunement-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "black-temple-refectory",
+    "type": "entity",
+    "name": "The Black Temple Refectory",
+    "slug": "black-temple-refectory",
+    "path": "/locations/black-temple-refectory",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "The Black Temple Refectory, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-seek-ashtongue-quest",
+      "akama-blizzard-black-temple-raid-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "black-temple-sanctuary",
+    "type": "entity",
+    "name": "Sanctuary of Shadows, Black Temple",
+    "slug": "black-temple-sanctuary",
+    "path": "/locations/black-temple-sanctuary",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "Sanctuary of Shadows, Black Temple, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-redemption-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "black-temple-southern-entry",
+    "type": "entity",
+    "name": "Southern wall of the Black Temple",
+    "slug": "black-temple-southern-entry",
+    "path": "/locations/black-temple-southern-entry",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "Southern wall of the Black Temple, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-distraction-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "black-temple",
+    "type": "entity",
+    "name": "The Black Temple / Karabor",
+    "slug": "black-temple",
+    "path": "/locations/black-temple",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "The Black Temple / Karabor, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-blizzard-black-temple-history",
+      "akama-bcc-story-so-far"
     ],
     "contentStatus": "research"
   },
@@ -1160,6 +1382,24 @@
     "description": "An island off the east coast of Zul’Aman where the released Curse of Ula’tek campaign unfolds.",
     "sourceIds": [
       "blizzard-curse-ulatek-live"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "coilfang-naga",
+    "type": "entity",
+    "name": "Vashj’s Coilfang followers",
+    "slug": "coilfang-naga",
+    "path": "/factions/coilfang-naga",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Vashj’s Coilfang followers, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-secret-compromised-quest"
     ],
     "contentStatus": "research"
   },
@@ -2054,6 +2294,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "heart-of-fury",
+    "type": "entity",
+    "name": "Heart of Fury",
+    "slug": "heart-of-fury",
+    "path": "/locations/heart-of-fury",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Heart of Fury, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-atamal-terrace-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "hearthglen-roadside-tower",
     "type": "entity",
     "name": "The roadside tower outside Hearthglen",
@@ -2191,6 +2449,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "hyjal-summit-memory",
+    "type": "entity",
+    "name": "Battle of Mount Hyjal, a historical instance",
+    "slug": "hyjal-summit-memory",
+    "path": "/locations/hyjal-summit-memory",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "Battle of Mount Hyjal, a historical instance, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-hyjal-artifact-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "hyjal-well-of-eternity",
     "type": "entity",
     "name": "The Second Well of Eternity",
@@ -2250,6 +2526,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "illidan-sanctum",
+    "type": "entity",
+    "name": "Illidan’s sanctum, Black Temple",
+    "slug": "illidan-sanctum",
+    "path": "/locations/illidan-sanctum",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "Illidan’s sanctum, Black Temple, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-fall-betrayer-quest",
+      "akama-blizzard-black-temple-raid-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "illidan-stormrage",
     "type": "entity",
     "name": "Illidan Stormrage",
@@ -2260,7 +2555,8 @@
     "tags": [
       "kaldorei",
       "sorcerer",
-      "resistance"
+      "resistance",
+      "akama-story"
     ],
     "description": "A gifted kaldorei sorcerer whose dangerous choices and knowledge of the Legion became part of the struggle at the Well.",
     "sourceIds": [
@@ -2268,7 +2564,29 @@
       "blizzard-well-of-eternity-preview",
       "warcraft-chronicle-volume-3",
       "blizzard-warcraft-iii-story-so-far",
-      "blizzard-burning-crusade-story-so-far"
+      "blizzard-burning-crusade-story-so-far",
+      "akama-bcc-story-so-far",
+      "akama-blizzard-black-temple-history",
+      "akama-blizzard-black-temple-raid-guide",
+      "akama-fall-betrayer-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "illidari-council",
+    "type": "entity",
+    "name": "Illidari Council chamber",
+    "slug": "illidari-council",
+    "path": "/locations/illidari-council",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "Illidari Council chamber, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-blizzard-black-temple-raid-guide"
     ],
     "contentStatus": "research"
   },
@@ -2367,6 +2685,26 @@
     "sourceIds": [
       "dungeon-set-two-brazier-manual",
       "dungeon-set-two-veiled-blade-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "kael-thas-sunstrider",
+    "type": "entity",
+    "name": "Kael’thas Sunstrider",
+    "slug": "kael-thas-sunstrider",
+    "path": "/locations/kael-thas-sunstrider",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Kael’thas Sunstrider, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-secret-compromised-quest",
+      "akama-ruse-quest",
+      "akama-bcc-story-so-far"
     ],
     "contentStatus": "research"
   },
@@ -2938,6 +3276,43 @@
     "contentStatus": "research"
   },
   {
+    "id": "magtheridon",
+    "type": "entity",
+    "name": "Magtheridon",
+    "slug": "magtheridon",
+    "path": "/locations/magtheridon",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Magtheridon, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-bcc-story-so-far"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "maiev-shadowsong",
+    "type": "entity",
+    "name": "Maiev Shadowsong",
+    "slug": "maiev-shadowsong",
+    "path": "/locations/maiev-shadowsong",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Maiev Shadowsong, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-reveal-quest",
+      "akama-distraction-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "malfurion-stormrage",
     "type": "entity",
     "name": "Malfurion Stormrage",
@@ -3074,6 +3449,44 @@
     "description": "Maws, represented in the Scepter of the Shifting Sands research story.",
     "sourceIds": [
       "scepter-sea"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "medallion-fragments",
+    "type": "entity",
+    "name": "Medallion fragments",
+    "slug": "medallion-fragments",
+    "path": "/locations/medallion-fragments",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Medallion fragments, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-oronu-quest",
+      "akama-corruptors-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "medallion-of-karabor",
+    "type": "entity",
+    "name": "Medallion of Karabor",
+    "slug": "medallion-of-karabor",
+    "path": "/locations/medallion-of-karabor",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Medallion of Karabor, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-promise-quest",
+      "akama-distraction-quest"
     ],
     "contentStatus": "research"
   },
@@ -3585,6 +3998,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "oronu-the-elder",
+    "type": "entity",
+    "name": "Oronu the Elder",
+    "slug": "oronu-the-elder",
+    "path": "/locations/oronu-the-elder",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Oronu the Elder, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-oronu-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "outland-location",
     "type": "entity",
     "name": "Outland",
@@ -3722,6 +4153,24 @@
       "blizzard-burning-crusade-story-so-far",
       "warcraft-chronicle-volume-3",
       "blizzard-warcraft-iii-reforged-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "rage-winterchill",
+    "type": "entity",
+    "name": "Rage Winterchill",
+    "slug": "rage-winterchill",
+    "path": "/locations/rage-winterchill",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Rage Winterchill, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-hyjal-artifact-quest"
     ],
     "contentStatus": "research"
   },
@@ -3885,6 +4334,64 @@
     "contentStatus": "research"
   },
   {
+    "id": "seer-kanai",
+    "type": "entity",
+    "name": "Seer Kanai",
+    "slug": "seer-kanai",
+    "path": "/locations/seer-kanai",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Seer Kanai, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-seek-ashtongue-quest",
+      "akama-redemption-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "seer-olum",
+    "type": "entity",
+    "name": "Seer Olum",
+    "slug": "seer-olum",
+    "path": "/locations/seer-olum",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Seer Olum, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-secret-compromised-quest",
+      "akama-blizzard-black-temple-raid-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "seer-udalo",
+    "type": "entity",
+    "name": "Seer Udalo",
+    "slug": "seer-udalo",
+    "path": "/locations/seer-udalo",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Seer Udalo, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-seer-udalo-quest",
+      "akama-mysterious-portent-quest",
+      "akama-blizzard-black-temple-raid-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "serpents-coil",
     "type": "entity",
     "name": "Serpent’s Coil",
@@ -3899,6 +4406,25 @@
     "description": "Broad coastal cave setting in the Blasted Lands for Kirith’s quest.",
     "sourceIds": [
       "fallen-hero-kirith-cover-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "serpentshrine-cavern",
+    "type": "entity",
+    "name": "Serpentshrine Cavern",
+    "slug": "serpentshrine-cavern",
+    "path": "/locations/serpentshrine-cavern",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "Serpentshrine Cavern, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-secret-compromised-quest",
+      "akama-bcc-phase3-black-temple"
     ],
     "contentStatus": "research"
   },
@@ -3952,6 +4478,25 @@
     "description": "Razelikh’s horn, represented in the Classic research story.",
     "sourceIds": [
       "fallen-hero-final-quest-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shade-of-akama",
+    "type": "entity",
+    "name": "Shade of Akama",
+    "slug": "shade-of-akama",
+    "path": "/locations/shade-of-akama",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Shade of Akama, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-redemption-quest",
+      "akama-blizzard-black-temple-raid-guide"
     ],
     "contentStatus": "research"
   },
@@ -4123,6 +4668,24 @@
     "sourceIds": [
       "warcraft-chronicle-volume-2",
       "blizzard-rise-of-the-horde-library"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattrath-terrace-of-light",
+    "type": "entity",
+    "name": "Shattrath, Terrace of Light",
+    "slug": "shattrath-terrace-of-light",
+    "path": "/locations/shattrath-terrace-of-light",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "Shattrath, Terrace of Light, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-promise-quest"
     ],
     "contentStatus": "research"
   },
@@ -4343,6 +4906,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "tablets-of-baari",
+    "type": "entity",
+    "name": "Tablets of Baa’ri",
+    "slug": "tablets-of-baari",
+    "path": "/locations/tablets-of-baari",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Tablets of Baa’ri, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-tablets-baari-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "taelan-fordring",
     "type": "entity",
     "name": "Highlord Taelan Fordring",
@@ -4381,6 +4962,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "tempest-keep-eye",
+    "type": "entity",
+    "name": "The Eye, Tempest Keep",
+    "slug": "tempest-keep-eye",
+    "path": "/locations/tempest-keep-eye",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "The Eye, Tempest Keep, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-ruse-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "temple-of-arkkoran",
     "type": "entity",
     "name": "The Temple of Arkkoran",
@@ -4395,6 +4994,24 @@
     "description": "Coastal Azshara site associated with Lord Arkkoroc’s quest step.",
     "sourceIds": [
       "fallen-hero-loramus-name-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "temple-summit",
+    "type": "entity",
+    "name": "Temple Summit, Black Temple",
+    "slug": "temple-summit",
+    "path": "/locations/temple-summit",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "Temple Summit, Black Temple, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-blizzard-black-temple-raid-guide"
     ],
     "contentStatus": "research"
   },
@@ -4537,6 +5154,25 @@
       "blizzard-mount-hyjal-history",
       "onyxia-classic-attunement",
       "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "time-phased-phylactery",
+    "type": "entity",
+    "name": "Time-Phased Phylactery",
+    "slug": "time-phased-phylactery",
+    "path": "/locations/time-phased-phylactery",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Time-Phased Phylactery, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-hyjal-artifact-quest",
+      "akama-hostage-soul-quest"
     ],
     "contentStatus": "research"
   },
@@ -4933,6 +5569,43 @@
     "contentStatus": "research"
   },
   {
+    "id": "warden-hidden-pool",
+    "type": "entity",
+    "name": "Hidden pool chamber beneath the Warden’s Cage",
+    "slug": "warden-hidden-pool",
+    "path": "/locations/warden-hidden-pool",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "Hidden pool chamber beneath the Warden’s Cage, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-reveal-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wardens-cage",
+    "type": "entity",
+    "name": "The Warden’s Cage",
+    "slug": "wardens-cage",
+    "path": "/locations/wardens-cage",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "story-setting"
+    ],
+    "description": "The Warden’s Cage, a named setting in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-reveal-quest",
+      "akama-proof-allegiance-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "well-of-eternity",
     "type": "entity",
     "name": "The Well of Eternity",
@@ -5008,6 +5681,24 @@
       "blizzard-war-within-live",
       "blizzard-ghosts-karesh-timeline",
       "blizzard-midnight-timeline"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "xi-ri",
+    "type": "entity",
+    "name": "Xi’ri",
+    "slug": "xi-ri",
+    "path": "/locations/xi-ri",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "akama-story",
+      "interpretive-art"
+    ],
+    "description": "Xi’ri, represented in the Akama and Black Temple research story.",
+    "sourceIds": [
+      "akama-distraction-quest"
     ],
     "contentStatus": "research"
   },
@@ -5119,6 +5810,325 @@
     "sourceIds": [
       "blizzard-ahnqiraj-remembrance",
       "warcraft-chronicle-volume-3"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-akama-and-maiev-event",
+    "type": "event",
+    "name": "Akama and Maiev",
+    "slug": "akama-and-black-temple-akama-and-maiev",
+    "path": "/events/akama-and-black-temple-akama-and-maiev",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Akama explains the bargain behind the display. Illidan’s rule has made open revolt a danger to the Broken, so the plan must grow in secret. Maiev Shadowsong is imprisoned in Akama’s hidden quarters. She is no obedient instrument in his designs: her anger at Illidan and her own choices remain hers. Their uneasy meeting turns the chamber into a question of agency as well as escape.",
+    "sourceIds": [
+      "akama-reveal-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-akama-promise-to-adal-event",
+    "type": "event",
+    "name": "Akama’s promise to A’dal",
+    "slug": "akama-and-black-temple-akama-promise-to-adal",
+    "path": "/events/akama-and-black-temple-akama-promise-to-adal",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "In Shattrath, Akama places the Heart within the Medallion of Karabor and sends it to A’dal. His promise is to stand with the seeker against Illidan; this closes the first Akama chain. The medallion links Karabor’s sacred name to a dangerous plan, but its delivery does not open the raid or free Akama’s soul. The harder struggle still waits inside the Black Temple.",
+    "sourceIds": [
+      "akama-promise-quest",
+      "akama-bcc-phase3-black-temple"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-beneath-the-wardens-cage-event",
+    "type": "event",
+    "name": "Beneath the Warden’s Cage",
+    "slug": "akama-and-black-temple-beneath-the-wardens-cage",
+    "path": "/events/akama-and-black-temple-beneath-the-wardens-cage",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At the Warden’s Cage, a submerged pool hides a chamber beyond the outpost. There the seeker finds Akama, no longer merely a name in another commander’s orders. At this meeting the question changes: the search has found the leader, but his place beside Illidan still conceals what he means to do.",
+    "sourceIds": [
+      "akama-bcc-phase3-black-temple",
+      "akama-reveal-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-diversion-at-the-southern-wall-event",
+    "type": "event",
+    "name": "A diversion at the southern wall",
+    "slug": "akama-and-black-temple-diversion-at-the-southern-wall",
+    "path": "/events/akama-and-black-temple-diversion-at-the-southern-wall",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Entry comes by a raid-scale diversion. Xi’ri and the Sha’tar draw Illidan’s defenders outward while Akama, Maiev and the Deathsworn move on the fortress. Maiev pursues her own vengeance, and Akama continues with his people when she breaks from the plan. At the southern wall they pass through an opening; the account leaves the rest of the temple’s defences untold.",
+    "sourceIds": [
+      "akama-distraction-quest",
+      "akama-bcc-phase3-black-temple"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-fall-of-the-betrayer-event",
+    "type": "event",
+    "name": "The fall of the Betrayer",
+    "slug": "akama-and-black-temple-fall-of-the-betrayer",
+    "path": "/events/akama-and-black-temple-fall-of-the-betrayer",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At last, Akama and the adventurers face Illidan atop the Black Temple. The Betrayer’s fall ends the Burning Crusade quest that carried the seeker from Baa’ri through the raids and into the fortress. Akama has reclaimed his soul, and the Ashtongue have risen from Illidan’s control. The tale leaves Karabor’s later fate and Akama’s rule unspoken.",
+    "sourceIds": [
+      "akama-fall-betrayer-quest",
+      "akama-blizzard-black-temple-raid-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-heart-of-fury-event",
+    "type": "event",
+    "name": "The Heart of Fury",
+    "slug": "akama-and-black-temple-heart-of-fury",
+    "path": "/events/akama-and-black-temple-heart-of-fury",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At Ata’mal Terrace, the seeker recovers the Heart of Fury. Akama recognizes it from Velen’s past and weighs the power it might give him against his people’s freedom. The quest account makes his choice clear: he will not free the Broken only to take Illidan’s place as their master. He sends the artifact onward to A’dal. This refusal gives the hidden plan its clearest purpose.",
+    "sourceIds": [
+      "akama-atamal-terrace-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-hostage-soul-event",
+    "type": "event",
+    "name": "The hostage soul",
+    "slug": "akama-and-black-temple-hostage-soul",
+    "path": "/events/akama-and-black-temple-hostage-soul",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "When the phylactery returns to Akama, its power over souls makes his design plain: his own soul is imprisoned in the Black Temple, apart from the leader his people see. He intends to reclaim control of it before facing Illidan. The discovery makes this long deception personal without erasing its wider stakes. The quest records a plan and an intended use, not certainty that the artifact will succeed.",
+    "sourceIds": [
+      "akama-hostage-soul-quest",
+      "akama-hyjal-artifact-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-hyjal-memory-event",
+    "type": "event",
+    "name": "A memory at Mount Hyjal",
+    "slug": "akama-and-black-temple-hyjal-memory",
+    "path": "/events/akama-and-black-temple-hyjal-memory",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Akama seeks the Time-Phased Phylactery once held by Rage Winterchill. The path sends the adventurer into the Caverns of Time and a memory of the Battle of Mount Hyjal, where the artifact is recovered. This is not present-day travel from Outland into the Third War. A separate raid attunement is required to enter Hyjal; that gate is a game condition, not the cause of Akama’s plan.",
+    "sourceIds": [
+      "akama-hyjal-artifact-quest",
+      "akama-bcc-phase3-black-temple"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-karabor-under-illidan-event",
+    "type": "event",
+    "name": "Karabor under Illidan",
+    "slug": "akama-and-black-temple-karabor-under-illidan",
+    "path": "/events/akama-and-black-temple-karabor-under-illidan",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Before a black name crowned the height, Karabor was the draenei’s sacred temple in Shadowmoon Valley. War and occupation stripped that name from its halls; the fortress became the Black Temple. Illidan seized it from Magtheridon, and the Broken under Akama joined his ranks. Their public allegiance did not reveal Akama’s private purpose. The quests that begin among Baa’ri’s tablets enter this inherited history, then ask what it has cost his people.",
+    "sourceIds": [
+      "akama-blizzard-black-temple-history",
+      "akama-bcc-story-so-far"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-olum-found-event",
+    "type": "event",
+    "name": "The secret is found",
+    "slug": "akama-and-black-temple-olum-found",
+    "path": "/events/akama-and-black-temple-olum-found",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "After the first chain and a separate raid gate, Seer Olum appears in Serpentshrine Cavern. He tells the seeker that Vashj’s followers uncovered the Deathsworn’s secret and tortured him for it. This is an access-dependent encounter in the Burning Crusade quest order, not proof that the raid gate caused Akama’s conspiracy. Olum has kept silent; now the plan is endangered, and Akama must choose what one friend can bear.",
+    "sourceIds": [
+      "akama-bcc-phase3-black-temple",
+      "akama-secret-compromised-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-olums-last-choice-event",
+    "type": "event",
+    "name": "Olum’s last choice",
+    "slug": "akama-and-black-temple-olums-last-choice",
+    "path": "/events/akama-and-black-temple-olums-last-choice",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At the Warden’s Cage, Olum chooses the spirit world rather than risk giving his captors the secret. Akama helps him die among his brothers. Illidan’s suspicion then demands another act: Akama reports a genuine betrayal by Kael’thas, diverting attention from the Ashtongue plot. Olum’s sacrifice leaves no triumph in its wake. It preserves the cover at the cost of one of the plan’s oldest companions.",
+    "sourceIds": [
+      "akama-secret-compromised-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-orders-and-fragments-event",
+    "type": "event",
+    "name": "Orders and fragments",
+    "slug": "akama-and-black-temple-orders-and-fragments",
+    "path": "/events/akama-and-black-temple-orders-and-fragments",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "From the ruins, Oronu’s written orders and the Ashtongue shamans redirect the seeker through the valley. Their quest steps recover pieces of the Medallion of Karabor and lead deeper toward Akama. The targets and collection count are player progress, not a census of the tribe or a chain of distinct battles. The trail is valuable because it reveals that an apparent servant of Illidan has left instructions in trusted hands.",
+    "sourceIds": [
+      "akama-oronu-quest",
+      "akama-corruptors-quest",
+      "akama-black-temple-chain-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-proof-of-allegiance-event",
+    "type": "event",
+    "name": "Proof of Allegiance",
+    "slug": "akama-and-black-temple-proof-of-allegiance",
+    "path": "/events/akama-and-black-temple-proof-of-allegiance",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Access to Akama is followed by a test of loyalty. The quest directs the seeker against Ashtongue whom Akama marks as a threat to his cover. This violence belongs to a controlled performance within the chain: his Deathsworn remain the trusted circle while his public service to Illidan is maintained. The objective is not evidence of a massacre of the tribe or that Akama has abandoned his people.",
+    "sourceIds": [
+      "akama-proof-allegiance-quest",
+      "akama-reveal-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-ruse-of-the-ashtongue-event",
+    "type": "event",
+    "name": "Ruse of the Ashtongue",
+    "slug": "akama-and-black-temple-ruse-of-the-ashtongue",
+    "path": "/events/akama-and-black-temple-ruse-of-the-ashtongue",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The ruse is tested in Tempest Keep. Wearing an Ashtongue Cowl, the seeker kills Al’ar, Kael’thas’s phoenix, under the appearance of obeying Illidan. The chain calls for this deed after Olum’s death because Akama needs Illidan to trust the outward story again. It is a raid task used to preserve a disguise, not evidence that the Ashtongue have openly begun their assault.",
+    "sourceIds": [
+      "akama-ruse-quest",
+      "akama-secret-compromised-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-seek-the-ashtongue-event",
+    "type": "event",
+    "name": "Find the Ashtongue",
+    "slug": "akama-and-black-temple-seek-the-ashtongue",
+    "path": "/events/akama-and-black-temple-seek-the-ashtongue",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Inside the Black Temple, the seeker finds Akama’s Deathsworn and Seer Kanai. Their message is simple: Akama needs help. The campaign has crossed from a concealed valley plan to a confrontation within Illidan’s fortress. The Ashtongue have not yet escaped his influence; their leader’s soul remains bound, and the next task is to break that hold before the people can turn together.",
+    "sourceIds": [
+      "akama-seek-ashtongue-quest",
+      "akama-distraction-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-seer-udalo-in-arcatraz-event",
+    "type": "event",
+    "name": "Seer Udalo in the Arcatraz",
+    "slug": "akama-and-black-temple-seer-udalo-in-arcatraz",
+    "path": "/events/akama-and-black-temple-seer-udalo-in-arcatraz",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The next search leads to the Arcatraz, a crystalline prison suspended above Netherstorm. The seeker is sent to find Seer Udalo and discovers that the seer is already dead. The quest offers no return from death here; Akama receives a report and sends the seeker onward. A keeper of the Ashtongue secret has fallen far from Shadowmoon, leaving the living to interpret what he managed to leave behind.",
+    "sourceIds": [
+      "akama-bcc-phase3-black-temple",
+      "akama-seer-udalo-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-shade-of-akama-event",
+    "type": "event",
+    "name": "The Shade of Akama",
+    "slug": "akama-and-black-temple-shade-of-akama",
+    "path": "/events/akama-and-black-temple-shade-of-akama",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "With help from the adventurers, Akama defeats his Shade and reclaims the soul held apart from him. The Ashtongue turn from Illidan’s sway; the blow against the Betrayer begins within the tribe before it reaches the summit. Open resistance had seemed too dangerous for a people already brought close to ruin. The story marks a change in agency, not a claim that every Broken in Outland has joined the same revolt.",
+    "sourceIds": [
+      "akama-redemption-quest",
+      "akama-blizzard-black-temple-raid-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-tablets-at-baari-event",
+    "type": "event",
+    "name": "Tablets at Baa’ri",
+    "slug": "akama-and-black-temple-tablets-at-baari",
+    "path": "/events/akama-and-black-temple-tablets-at-baari",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The attunement begins at Baa’ri: a trail of tablets, orders and medallion fragments leads from Shadowmoon toward Akama. Aldor and Scryers receive different opening quests from their own camps; those alternatives later converge. They are not one adventurer’s combined route. The tablets and collection objectives open a path through the valley, but they do not establish that every fragment records a separate historical act.",
+    "sourceIds": [
+      "akama-bcc-phase3-black-temple",
+      "akama-black-temple-chain-locator",
+      "akama-tablets-baari-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-the-seers-open-the-way-event",
+    "type": "event",
+    "name": "The seers open the way",
+    "slug": "akama-and-black-temple-the-seers-open-the-way",
+    "path": "/events/akama-and-black-temple-the-seers-open-the-way",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "After the Council, the spirits of Udalo and Olum open the way to Illidan’s sanctum. Their work has not been forgotten: one left the word that led Akama toward Ata’mal; the other gave his life to guard the hidden plan. Now both seers act beyond death. The other trials fade from view as their purpose brings the company to Illidan’s door.",
+    "sourceIds": [
+      "akama-blizzard-black-temple-raid-guide",
+      "akama-redemption-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple-the-word-atamal-event",
+    "type": "event",
+    "name": "The word Ata’mal",
+    "slug": "akama-and-black-temple-the-word-atamal",
+    "path": "/events/akama-and-black-temple-the-word-atamal",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Udalo left only a single word, Ata’mal, on the floor. Akama reads it as the next place to seek. No fuller prophecy survives in the available quest record, and this fragment cannot bear more certainty than it contains. A name passes from the prison into the valley’s old temple terraces; the slender clue is enough to move the story, but not enough to reveal what waits there.",
+    "sourceIds": [
+      "akama-mysterious-portent-quest",
+      "akama-seer-udalo-quest"
     ],
     "contentStatus": "research"
   },
@@ -8761,6 +9771,45 @@
       "warcraft-chronicle-volume-1",
       "blizzard-well-of-eternity-preview",
       "blizzard-dragon-aspects-history"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "akama-and-black-temple",
+    "type": "storyline",
+    "name": "Akama and the Black Temple",
+    "slug": "akama-and-black-temple",
+    "path": "/storylines/akama-and-black-temple",
+    "eraId": "age-of-adventurers",
+    "eraIds": [
+      "age-of-adventurers"
+    ],
+    "aliases": [],
+    "tags": [],
+    "description": "Akama hides a plan for the Broken beneath a show of service to Illidan. A trail from Baa’ri to the Black Temple follows his choices, the cost of secrecy, and the recovery of his soul.",
+    "sourceIds": [
+      "akama-bcc-phase3-black-temple",
+      "akama-bcc-story-so-far",
+      "akama-blizzard-black-temple-history",
+      "akama-blizzard-black-temple-raid-guide",
+      "akama-black-temple-chain-locator",
+      "akama-tablets-baari-quest",
+      "akama-oronu-quest",
+      "akama-corruptors-quest",
+      "akama-proof-allegiance-quest",
+      "akama-reveal-quest",
+      "akama-seer-udalo-quest",
+      "akama-mysterious-portent-quest",
+      "akama-atamal-terrace-quest",
+      "akama-promise-quest",
+      "akama-secret-compromised-quest",
+      "akama-ruse-quest",
+      "akama-hyjal-artifact-quest",
+      "akama-hostage-soul-quest",
+      "akama-distraction-quest",
+      "akama-seek-ashtongue-quest",
+      "akama-redemption-quest",
+      "akama-fall-betrayer-quest"
     ],
     "contentStatus": "research"
   },

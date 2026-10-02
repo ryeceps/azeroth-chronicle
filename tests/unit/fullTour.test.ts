@@ -37,8 +37,12 @@ describe('separate era and story tours', () => {
       'fallen-hero-and-rakhlikh',
       'tirion-taelan-of-love-and-family',
       'karazhan-masters-key-and-nightbane',
+      'akama-and-black-temple',
     ]);
-    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 18);
+    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 18 + 20);
+    const akamaStart = stops.findIndex((stop) => stop.storylineSlug === 'akama-and-black-temple');
+    expect(stops[akamaStart - 1]?.storylineSlug).toBe('karazhan-masters-key-and-nightbane');
+    expect(stops.some((stop) => stop.storylineSlug === 'cipher-of-damnation-oronok' || stop.storylineSlug === 'wrathgate-and-undercity')).toBe(false);
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('play=all');
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('collection=classic-to-wrath');
     expect(storyTourStoryUrl(tour, stops[0]!)).toContain('play=story');

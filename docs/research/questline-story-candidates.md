@@ -149,9 +149,11 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Story spine:** Baa'ri and Akama's concealed intentions → Udalo and the portent → a compromised secret → raids that enable the infiltration → Akama's diversion and the temple confrontation. Follow Akama's agency and the plight of his people.
 
-**Anchors:** Tablets of Baa'ri; The Seer Udalo; The Secret Compromised; Ruse of the Ashtongue; A Distraction for Akama. **Sources:** Blizzard's [Phase 3 chain overview](https://worldofwarcraft.blizzard.com/en-us/news/23764312/burning-crusade-classic-phase-3-release-schedule); [Black Temple locator](https://warcraft.wiki.gg/wiki/Black_Temple_Attunement).
+**Anchors:** Tablets of Baa'ri; The Seer Udalo; The Secret Compromised; Ruse of the Ashtongue; A Distraction for Akama. **Sources:** Blizzard's [Phase 3 chain overview](https://news.blizzard.com/en-us/article/23764312/burning-crusade-classic-phase-3-is-now-live); [Black Temple locator](https://warcraft.wiki.gg/wiki/Black_Temple_Attunement).
 
 **Gate:** distinguish personal history, attunement and the raid ending. Audit Serpentshrine, Tempest Keep and Hyjal dependencies by version; don't narrate the achievement title as an in-world office.
+
+**Implementation:** Complete twenty-scene illustrated research story with source/claim/citation records per beat, original Burning Crusade area scenes, distinct cast/group/object art, transcript-matched AI narration, and a separate Classic-to-Wrath StoryTour marker after Karazhan. Aldor/Scryer starts remain alternatives; raid dependencies remain mechanics; the Hyjal passage is a historical instance. The original 2.0.3–2.4.3 client comparison, human lore/art review, and audio audition remain open. See the [research packet](akama-black-temple-research.md), [production ledger](akama-black-temple-production.md), and [visual asset ledger](akama-black-temple-visual-assets.json).
 
 ### 14. Champion of the Naaru: trials across Outland
 
