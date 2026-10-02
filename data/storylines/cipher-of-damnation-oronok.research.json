@@ -1,42 +1,66 @@
 {
   "id": "cipher-of-damnation-oronok",
-  "title": "Oronok and the Cipher of Damnation",
+  "slug": "cipher-of-damnation-oronok",
+  "title": "The Cipher of Damnation: Oronok and the Three Fragments",
+  "summary": "Oronok’s account leads into three separate searches for the Cipher’s fragments. His living sons Grom’tor and Borak return; Ar’tor’s spirit completes its charge before the chain converges at the Altar of Damnation.",
+  "opening": "Shadowmoon Valley still bears the marks of a world broken by words. The Earthen Ring first gathers the suffering elements, then sends the seeker to a farmer who has been something more. Three branches recover what the Cipher lost; at the Altar, Oronok reads it whole and a warning leaves the final mark unresolved.",
   "primaryEraId": "age-of-adventurers",
   "eraIds": [
     "age-of-adventurers"
   ],
-  "summary": "Oronok Torn-heart and his sons recover the Cipher's fragments across Shadowmoon Valley before a final confrontation.",
-  "opening": "The Hand of Gul'dan shadows the land. Oronok's family must find what was scattered before the power tied to that place can be confronted.",
-  "sourceIds": [
-    "story-cipher-attunement"
-  ],
-  "reviewNote": "The Blizzard attunement guide lists the sequence; original quest dialogue is needed for motives and the final outcome.",
   "chapters": [
     {
-      "id": "hand-of-guldan",
+      "id": "oronok-and-the-cipher",
       "eraId": "age-of-adventurers",
-      "title": "At the Hand of Gul'dan",
-      "body": "Establish the threat and why Oronok enters the search."
+      "title": "Oronok and the Cipher",
+      "body": "The Earthen Ring request leads to Oronok, whose attributed account names Gul’dan and the severing of the orcs from the elements."
     },
     {
-      "id": "three-sons",
+      "id": "the-three-fragments",
       "eraId": "age-of-adventurers",
-      "title": "Three sons, three trails",
-      "body": "Follow Grom'tor, Ar'tor, and Borak through separate fragment quests."
+      "title": "Three sons and three fragments",
+      "body": "Grom’tor and Borak complete living searches; Ar’tor’s branch turns through death, a family heirloom, a spirit, and a fading charge. The branches can be completed in any order; this is an editorial itinerary."
     },
     {
-      "id": "fragments",
+      "id": "the-altar-and-the-mark",
       "eraId": "age-of-adventurers",
-      "title": "The Cipher gathered",
-      "body": "Reconstruct how the fragments are recovered and brought together."
-    },
-    {
-      "id": "reckoning",
-      "eraId": "age-of-adventurers",
-      "title": "The final confrontation",
-      "body": "Verify the original concluding scene and its consequence."
+      "title": "The Altar and the unfinished mark",
+      "body": "Oronok reads the reunited Cipher, Cyrukh is defeated, and a warning plus Kael’thas mark point beyond this chain. The level-70 Trial of the Naaru chain remains outside the story."
     }
   ],
-  "slug": "cipher-of-damnation-oronok",
+  "sourceIds": [
+    "cipher-hand-quest",
+    "cipher-blizzard-chain-guide",
+    "cipher-fire-earth-spirits-quest",
+    "cipher-water-spirits-quest",
+    "cipher-air-spirits-quest",
+    "cipher-oronok-intro-quest",
+    "cipher-oronok-tubers-quest",
+    "cipher-lesson-learned-quest",
+    "cipher-oronok-truth-quest",
+    "cipher-gromtor-quest",
+    "cipher-gromtor-charge-quest",
+    "cipher-gromtor-fragment-quest",
+    "cipher-artor-quest",
+    "cipher-artor-crystal-prisons-quest",
+    "cipher-artor-bow-quest",
+    "cipher-artor-charge-quest",
+    "cipher-artor-fragment-quest",
+    "cipher-borak-quest",
+    "cipher-icarius-locator",
+    "cipher-zarath-locator",
+    "cipher-thistleheads-quest",
+    "cipher-tobias-egg-trade-quest",
+    "cipher-thistlehead-trap-quest",
+    "cipher-stormrage-missive-quest",
+    "cipher-shadowmoon-shuffle-quest",
+    "cipher-illidan-wants-quest",
+    "cipher-borak-charge-quest",
+    "cipher-borak-third-fragment-quest",
+    "cipher-final-quest"
+  ],
+  "reviewNote": "Complete illustrated research story with 26 scenes (1773 narration words), separate Grom’tor, Ar’tor, and Borak branches, one source-linked claim and event per scene, dedicated Burning Crusade area illustrations, deliberate principal cast and elemental group art, pivotal fragment, completed Cipher, bloodthistle, and missive visuals. StoryTour order is an editorial sequence across stories. Blizzard’s TBC Classic guide provides the official chain order; other available quest text pages are secondary locators. Compare against the original 2.0.3–2.4.3 client before human review. Oronok’s account stays attributed; Ar’tor’s time of death is unknown and he is not resurrected; no routes or exact positions are asserted. The later level-70 Trial of the Naaru chain is excluded. Original-client area resemblance, precise visual model review, all claims, and narration audition remain open. This story is available in the standalone Classic-to-Wrath StoryTour and library only, with showInEraTourOffshoots false.",
+  "storyGuideId": "cipher-of-damnation-oronok-guide",
+  "showInEraTourOffshoots": false,
   "contentStatus": "research"
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T08:54:28.115Z",
+  "generatedAt": "2026-10-02T12:10:27.474Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 314,
-  "totalDurationMs": 8319700,
+  "trackCount": 340,
+  "totalDurationMs": 9020650,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -2838,6 +2838,240 @@
       "sha256": "0818c926211774d4fed4673e19199f874374548b64ba5ac67b67edcabacf6fa8",
       "transcriptSha256": "8f649bb7dce844cd7b6cf2b8e7e692a0e53829f8a6afb58cc5f177059a2a9c5c",
       "bytes": 316269
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-hand-of-guldan",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-hand-of-guldan.mp3",
+      "durationMs": 28000,
+      "sha256": "dab17d0a7cb4cafb181c083c6b9d03ac27ceac09d74c8eae635ecd1989fe2eb0",
+      "transcriptSha256": "57a7471ce87fe1eb0dc66f082a1c26c3ed2354ddedc2919bb860a71db50a748a",
+      "bytes": 337005
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-fire-and-earth",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-fire-and-earth.mp3",
+      "durationMs": 26275,
+      "sha256": "a02d53fc7b38f39f5f897465f495b2efcf59179f36b4aae5f9da904fe459daec",
+      "transcriptSha256": "104c432d2840d5fddf24f833ad095b5b83c0a85e32aeae2d1edb3a8ae2bd8495",
+      "bytes": 316269
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-water-at-coilskar",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-water-at-coilskar.mp3",
+      "durationMs": 27875,
+      "sha256": "e89d9d0471d8877204a181b2b77f608a4e71bb90c2a747ab3a4476dcf5d39c08",
+      "transcriptSha256": "96ab4e963e0a44852cdfb4da45dc6e0e1ecc4906fde49b6744eecc11a15b6835",
+      "bytes": 335565
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-air-at-netherwing-fields",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-air-at-netherwing-fields.mp3",
+      "durationMs": 27600,
+      "sha256": "602aef38eae40078d89bf464cb8bebe3e2cce5256861167eed837012aaff7959",
+      "transcriptSha256": "b8740ac0e84bef04132fbf85827e969386b141054c0bb715501980677e043377",
+      "bytes": 332109
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-torklok-communes",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-torklok-communes.mp3",
+      "durationMs": 27950,
+      "sha256": "38ba52723fae6ab2cecc3281c0be82b5413fedafecae6cf1fed3a3549fae68eb",
+      "transcriptSha256": "9dce554cddbf60c7e09434d898a59aad151b98e454618ce6d3af100dcf2a9028",
+      "bytes": 336429
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-oronok-introduced",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-oronok-introduced.mp3",
+      "durationMs": 24625,
+      "sha256": "309eefd93a440c89b318d4fc51d3c9abf9065db632e284473c8687898b42fbd6",
+      "transcriptSha256": "469a2b80b49a140dafc1c3183ddd4a420c7561ecb96f12a0700700ac46bba933",
+      "bytes": 296685
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-farmer-with-a-past",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-farmer-with-a-past.mp3",
+      "durationMs": 27475,
+      "sha256": "dde8efd956c90910edcf816e215ec012bd200d41f94641c462bdbe109f161479",
+      "transcriptSha256": "ec213bd78fecd1a5fee0b2bbff69f8896fa8dc6674cc731f5a018d9f8bd5b1e2",
+      "bytes": 330669
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-lesson-learned",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-lesson-learned.mp3",
+      "durationMs": 27725,
+      "sha256": "57aa3755fa443fd70b5dc78ae0c317e678c08ee5ac18198af0f361b556a3e635",
+      "transcriptSha256": "cb5db89788199a2431d53a899345da9030b992eee213421807044fb6621176c2",
+      "bytes": 333837
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-oronoks-account",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-oronoks-account.mp3",
+      "durationMs": 25775,
+      "sha256": "b8f35160d10aca09ebcfbbfaa50cdb8681ad3460f90b5c5f136f618c0d50b4ad",
+      "transcriptSha256": "4f83e4f95e9e9ea9b9c77491dc5eeb8726ddb203008c97add598378ad7121b69",
+      "bytes": 310221
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-gromtor-and-the-first-lead",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-gromtor-and-the-first-lead.mp3",
+      "durationMs": 29275,
+      "sha256": "8d2e40ca0cfe216a43ed34a6fdb8204c4bc20f84916d24445c05db119799e26b",
+      "transcriptSha256": "1f36f7db5d9a23c58f334672ac73ad7f50f5d33c57ac447b573972662e9ddd12",
+      "bytes": 352269
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-first-fragment-returned",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-first-fragment-returned.mp3",
+      "durationMs": 24950,
+      "sha256": "279b1a67031810063a9218c1ffc3f520d176c20d4bbab0abed88d4938e7cda36",
+      "transcriptSha256": "04d90138b2a3db80436e473dc83627f773d8f44f242fd590b41a675b3114bca5",
+      "bytes": 300429
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-artors-crystal-prison",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-artors-crystal-prison.mp3",
+      "durationMs": 25725,
+      "sha256": "abda8a616fb9952fef16965e2357075e7c9a005e4e5c99584ff1c03fcf200a1d",
+      "transcriptSha256": "80beeeab1d3fe1c190eb6b44de60bef5509cfe1f765247731192e557f1acef78",
+      "bytes": 309645
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-lohngoron-recovered",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-lohngoron-recovered.mp3",
+      "durationMs": 27325,
+      "sha256": "f1d85a2e55d94053cea7e643afea6820be2c86851f2ece6f9e4a95bc47a7320a",
+      "transcriptSha256": "81eb60bc6ef42de4dfd8eee3b1fc9bc7504e7a9b1243c4bd6b87ae70b7942ac0",
+      "bytes": 328941
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-artors-charge",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-artors-charge.mp3",
+      "durationMs": 24475,
+      "sha256": "184c73d369bb31974bdefc7302ec6e93859226b8a94cb3a2bc52e18aa604e127",
+      "transcriptSha256": "9ee46d66b82c7b815396af721497989f827dc30f6b0a7d68df997dc568be6322",
+      "bytes": 294669
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-borak-and-the-envoy",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-borak-and-the-envoy.mp3",
+      "durationMs": 26800,
+      "sha256": "db537834ec9ac5aac39c26912e0e73b018d56d389f21ec1e5dbe7d155f2fcf7a",
+      "transcriptSha256": "4c19f2845d358766ad78399f6bc62403fd27b5506b0de0fb26caf953de3a94d7",
+      "bytes": 322605
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-egg-for-tobias",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-egg-for-tobias.mp3",
+      "durationMs": 28650,
+      "sha256": "8dc0335e889468b961abc3b0359b8d9b17d3cfb11ba447380c34e03c7bdbfee7",
+      "transcriptSha256": "b53e6455911a23972cfd568336f56086aaebd858988cab6a4b69f9192cdf333a",
+      "bytes": 344781
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-bloodthistle-delivered",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-bloodthistle-delivered.mp3",
+      "durationMs": 25825,
+      "sha256": "52cbd2b8b841481d0bedfa48e1cf8e7a5d6d30148623499116ed0d34e11b56db",
+      "transcriptSha256": "65312c9569884c2f526eb5affc1002d75b509de34c2c3fe6129e31332ae31bd7",
+      "bytes": 311085
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-stormrage-missive",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-stormrage-missive.mp3",
+      "durationMs": 26325,
+      "sha256": "b40e77fa3e0c9e7df3c9a505a84ecaf194502a53db408500988c394e68b124a5",
+      "transcriptSha256": "b0eb014a76805b37a23c688ee60f32c873bf66248d7647a6fa16af02ad6664b7",
+      "bytes": 316845
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-shadowmoon-disguise",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-shadowmoon-disguise.mp3",
+      "durationMs": 28400,
+      "sha256": "b6a4f940abfc379add567fe58cb7f89d59dec8ca6abd7c0b2b0bbaff9090316c",
+      "transcriptSha256": "f1a0f8bcf1f6a227081c98fa5aa0e22a0fcc6de3e98a5480a8a8222acd93487c",
+      "bytes": 341901
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-illidans-message",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-illidans-message.mp3",
+      "durationMs": 28225,
+      "sha256": "3f8147aa41322b897dca01c5536fada2991a1a6c76057b98cea3e20115df8fc0",
+      "transcriptSha256": "384384004090addd20432c8e5ef7344402de9c31684c7e17d45c397040bfa666",
+      "bytes": 339885
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-ruuls-interception",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-ruuls-interception.mp3",
+      "durationMs": 28275,
+      "sha256": "58824289cd36b3231d8996df0e4e007d31e8136090158d9a89c07da68fff28e8",
+      "transcriptSha256": "1651f6089f39f258fae7c4759fb416df0c99971467fa1e6c93287a6b53af9ab3",
+      "bytes": 340461
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-third-fragment-home",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-third-fragment-home.mp3",
+      "durationMs": 25275,
+      "sha256": "03055fedafd49088cf691b88ca502a83c186d0ba6c9f9dec662aeeadd115b6d1",
+      "transcriptSha256": "e0ed27b1da055cd1563a9016ef20ec37b580708b26f81c1c3e3587f37887635a",
+      "bytes": 304461
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-cipher-reassembled",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-cipher-reassembled.mp3",
+      "durationMs": 27475,
+      "sha256": "a040f27123b6886a8b8545f1198ae923cc31b2805d2ba5b09d9caa31e1fae202",
+      "transcriptSha256": "ac68cdf61514905ad0e6b8cbc360dc4eb46acbd963cffc0dbf32667ce17489c2",
+      "bytes": 330669
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-read-at-altar",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-read-at-altar.mp3",
+      "durationMs": 26975,
+      "sha256": "edafae830008f2cc83276dbdbe63a668210f5327f65d83463f87235f3071009f",
+      "transcriptSha256": "47e73dead0b42f127f1367ddae1d7991d0f980da7385550745408345764a9898",
+      "bytes": 324621
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-cyrukh-and-the-elements",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-cyrukh-and-the-elements.mp3",
+      "durationMs": 25875,
+      "sha256": "7bf2477ac760ccd67b5500d57a6e13b6d8795b338904860d3d5d5f8e85eee572",
+      "transcriptSha256": "0aefc35880f4a8a7e2ac0edd30ff9a216c306a1d57a31c7460b031982156695d",
+      "bytes": 311661
+    },
+    {
+      "nodeId": "cipher-of-damnation-oronok-story-the-mark-of-kaelthas",
+      "guideId": "cipher-of-damnation-oronok-guide",
+      "assetPath": "audio/guided/cipher-of-damnation-oronok-guide/cipher-of-damnation-oronok-story-the-mark-of-kaelthas.mp3",
+      "durationMs": 27800,
+      "sha256": "5c38a0b4eb4d810808cb9faf5a1203d94714af48971fb24332104fb6a79d954a",
+      "transcriptSha256": "33a34cdcfb56b0835925a028a5e0bbc2942ab46606c3ee200df7991fa769a1e9",
+      "bytes": 334701
     }
   ]
 }

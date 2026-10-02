@@ -69,7 +69,36 @@
       "darrowshire-return-chromie",
       "darrowshire-battle-quest",
       "darrowshire-hidden-treasures",
-      "darrowshire-classic-chain"
+      "darrowshire-classic-chain",
+      "cipher-hand-quest",
+      "cipher-blizzard-chain-guide",
+      "cipher-oronok-truth-quest",
+      "cipher-gromtor-quest",
+      "cipher-gromtor-fragment-quest",
+      "cipher-artor-quest",
+      "cipher-artor-crystal-prisons-quest",
+      "cipher-artor-charge-quest",
+      "cipher-borak-quest",
+      "cipher-thistleheads-quest",
+      "cipher-stormrage-missive-quest",
+      "cipher-icarius-locator",
+      "cipher-zarath-locator",
+      "cipher-borak-charge-quest",
+      "cipher-final-quest",
+      "cipher-fire-earth-spirits-quest",
+      "cipher-water-spirits-quest",
+      "cipher-air-spirits-quest",
+      "cipher-oronok-intro-quest",
+      "cipher-oronok-tubers-quest",
+      "cipher-lesson-learned-quest",
+      "cipher-gromtor-charge-quest",
+      "cipher-artor-bow-quest",
+      "cipher-artor-fragment-quest",
+      "cipher-tobias-egg-trade-quest",
+      "cipher-thistlehead-trap-quest",
+      "cipher-shadowmoon-shuffle-quest",
+      "cipher-illidan-wants-quest",
+      "cipher-borak-third-fragment-quest"
     ],
     "contentStatus": "research"
   },
@@ -867,6 +896,45 @@
     "contentStatus": "research"
   },
   {
+    "id": "artor-spirit",
+    "type": "entity",
+    "name": "The spirit of Ar’tor",
+    "slug": "artor-spirit",
+    "path": "/locations/artor-spirit",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "Ar’tor’s spirit helps recover the second fragment before fading.",
+    "sourceIds": [
+      "cipher-artor-bow-quest",
+      "cipher-artor-charge-quest",
+      "cipher-artor-fragment-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "artor-torn-heart",
+    "type": "entity",
+    "name": "Ar’tor Torn-heart",
+    "slug": "artor-torn-heart",
+    "path": "/locations/artor-torn-heart",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "Oronok’s son, found dead at Illidari Point and encountered later as a spirit.",
+    "sourceIds": [
+      "cipher-artor-quest",
+      "cipher-artor-crystal-prisons-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "ashtongue-corruptors",
     "type": "entity",
     "name": "Ashtongue Corruptors",
@@ -1367,6 +1435,28 @@
     "contentStatus": "research"
   },
   {
+    "id": "blood-lord-zarath",
+    "type": "entity",
+    "name": "Blood Lord Zarath",
+    "slug": "blood-lord-zarath",
+    "path": "/locations/blood-lord-zarath",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "The envoy’s bodyguard in the Borak branch.",
+    "sourceIds": [
+      "cipher-borak-quest",
+      "cipher-icarius-locator",
+      "cipher-zarath-locator",
+      "cipher-tobias-egg-trade-quest",
+      "cipher-thistlehead-trap-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "blood-queen-lanathel",
     "type": "entity",
     "name": "Blood-Queen Lana’thel",
@@ -1382,6 +1472,25 @@
     "sourceIds": [
       "quel-delar-sister-blade-article-mirror",
       "quel-delar-wotlk-quest-chain-transcript"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "bloodthistle-bundle",
+    "type": "entity",
+    "name": "Bloodthistle bundle",
+    "slug": "bloodthistle-bundle",
+    "path": "/locations/bloodthistle-bundle",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "An interpretive visual for the bloodthistle used in the envoy distraction.",
+    "sourceIds": [
+      "cipher-tobias-egg-trade-quest",
+      "cipher-thistlehead-trap-quest"
     ],
     "contentStatus": "research"
   },
@@ -1422,6 +1531,36 @@
       "onyxia-classic-attunement",
       "onyxia-attunement-wiki",
       "story-onyxia-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "borak-torn-heart",
+    "type": "entity",
+    "name": "Borak Torn-heart",
+    "slug": "borak-torn-heart",
+    "path": "/locations/borak-torn-heart",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "Oronok’s living son, who surveils an Illidari envoy and pursues the third fragment.",
+    "sourceIds": [
+      "cipher-borak-quest",
+      "cipher-icarius-locator",
+      "cipher-zarath-locator",
+      "cipher-thistleheads-quest",
+      "cipher-tobias-egg-trade-quest",
+      "cipher-thistlehead-trap-quest",
+      "cipher-stormrage-missive-quest",
+      "cipher-shadowmoon-shuffle-quest",
+      "cipher-illidan-wants-quest",
+      "cipher-borak-charge-quest",
+      "cipher-borak-third-fragment-quest",
+      "cipher-blizzard-chain-guide",
+      "cipher-final-quest"
     ],
     "contentStatus": "research"
   },
@@ -1561,6 +1700,245 @@
     "contentStatus": "research"
   },
   {
+    "id": "cipher-altar-of-damnation",
+    "type": "entity",
+    "name": "Altar of Damnation, Shadowmoon Valley",
+    "slug": "cipher-altar-of-damnation",
+    "path": "/locations/cipher-altar-of-damnation",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "burning-crusade-area-reference",
+      "interpretive-art"
+    ],
+    "description": "The Burning Crusade Shadowmoon Valley: a dark ritual platform among ash-black cliffs, burning fel-green fissures and a red, smoke-laden sky. The scene is original and not a dungeon plan.",
+    "sourceIds": [
+      "cipher-blizzard-chain-guide",
+      "cipher-final-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-coilskar-point",
+    "type": "entity",
+    "name": "Coilskar Point, Shadowmoon Valley",
+    "slug": "cipher-coilskar-point",
+    "path": "/locations/cipher-coilskar-point",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "burning-crusade-area-reference",
+      "interpretive-art"
+    ],
+    "description": "The Burning Crusade Shadowmoon Valley: dark rock, cold water, naga-built structures, and green fel haze. No individual prison, chest, or route is located precisely.",
+    "sourceIds": [
+      "cipher-water-spirits-quest",
+      "cipher-gromtor-quest",
+      "cipher-gromtor-charge-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-eclipse-point",
+    "type": "entity",
+    "name": "Eclipse Point, Shadowmoon Valley",
+    "slug": "cipher-eclipse-point",
+    "path": "/locations/cipher-eclipse-point",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "burning-crusade-area-reference",
+      "interpretive-art"
+    ],
+    "description": "The Burning Crusade Shadowmoon Valley: a fortress approach of dark stone over fractured, fel-lit ground beneath the region’s muted green and ash-red atmosphere. Composition and route remain interpretive.",
+    "sourceIds": [
+      "cipher-borak-quest",
+      "cipher-icarius-locator",
+      "cipher-zarath-locator",
+      "cipher-tobias-egg-trade-quest",
+      "cipher-thistlehead-trap-quest",
+      "cipher-stormrage-missive-quest",
+      "cipher-shadowmoon-shuffle-quest",
+      "cipher-illidan-wants-quest",
+      "cipher-borak-third-fragment-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-fragment",
+    "type": "entity",
+    "name": "A fragment of the Cipher of Damnation",
+    "slug": "cipher-fragment",
+    "path": "/locations/cipher-fragment",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "An individual recovered piece. Its writing and exact physical design are an original visual interpretation.",
+    "sourceIds": [
+      "cipher-oronok-truth-quest",
+      "cipher-gromtor-quest",
+      "cipher-gromtor-charge-quest",
+      "cipher-gromtor-fragment-quest",
+      "cipher-artor-charge-quest",
+      "cipher-artor-fragment-quest",
+      "cipher-borak-charge-quest",
+      "cipher-borak-third-fragment-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-hand-of-guldan",
+    "type": "entity",
+    "name": "The Hand of Gul’dan, Shadowmoon Valley",
+    "slug": "cipher-hand-of-guldan",
+    "path": "/locations/cipher-hand-of-guldan",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "burning-crusade-area-reference",
+      "interpretive-art"
+    ],
+    "description": "The Burning Crusade Outland setting: ash-dark broken ground, volcanic rock, dim green fel light, and a distant volcanic presence. Original scene composition, not an exact surveyed landmark.",
+    "sourceIds": [
+      "cipher-hand-quest",
+      "cipher-blizzard-chain-guide",
+      "cipher-fire-earth-spirits-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-illidari-point",
+    "type": "entity",
+    "name": "Illidari Point, Shadowmoon Valley",
+    "slug": "cipher-illidari-point",
+    "path": "/locations/cipher-illidari-point",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "burning-crusade-area-reference",
+      "interpretive-art"
+    ],
+    "description": "The Burning Crusade Shadowmoon Valley: black basalt, jagged ridgelines, green fel illumination, and the dark stone encampment associated with Illidari forces. No exact body position is asserted.",
+    "sourceIds": [
+      "cipher-artor-quest",
+      "cipher-artor-crystal-prisons-quest",
+      "cipher-artor-bow-quest",
+      "cipher-artor-charge-quest",
+      "cipher-artor-fragment-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-netherwing-fields",
+    "type": "entity",
+    "name": "Netherwing fields, Shadowmoon Valley",
+    "slug": "cipher-netherwing-fields",
+    "path": "/locations/cipher-netherwing-fields",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "burning-crusade-area-reference",
+      "interpretive-art"
+    ],
+    "description": "The Burning Crusade Shadowmoon Valley: barren black volcanic ground, green fel light and distant floating shards, recalling Outland’s broken horizon. No exact position for the interception is asserted.",
+    "sourceIds": [
+      "cipher-air-spirits-quest",
+      "cipher-borak-charge-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-oronok-farm",
+    "type": "entity",
+    "name": "Oronok’s farm, Shadowmoon Valley",
+    "slug": "cipher-oronok-farm",
+    "path": "/locations/cipher-oronok-farm",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "burning-crusade-area-reference",
+      "interpretive-art"
+    ],
+    "description": "The Burning Crusade Shadowmoon Valley: blackened earth and fractured volcanic ridges surrounding a sparse, weathered farm among fel-scarred fields. The illustration is an original interpretation.",
+    "sourceIds": [
+      "cipher-oronok-intro-quest",
+      "cipher-oronok-truth-quest",
+      "cipher-gromtor-fragment-quest",
+      "cipher-blizzard-chain-guide",
+      "cipher-final-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-reassembled",
+    "type": "entity",
+    "name": "The reassembled Cipher of Damnation",
+    "slug": "cipher-reassembled",
+    "path": "/locations/cipher-reassembled",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "The three recovered pieces restored as one object; exact canonical markings are not asserted.",
+    "sourceIds": [
+      "cipher-blizzard-chain-guide",
+      "cipher-final-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-shattered-plains",
+    "type": "entity",
+    "name": "The Shattered Plains, Shadowmoon Valley",
+    "slug": "cipher-shattered-plains",
+    "path": "/locations/cipher-shattered-plains",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "burning-crusade-area-reference",
+      "interpretive-art"
+    ],
+    "description": "The Burning Crusade Shadowmoon Valley: hardened dark soil, sparse fel-scarred ground, and scattered burrows among the open Shattered Plains. The original regional illustration does not claim the exact mound or nest position.",
+    "sourceIds": [
+      "cipher-oronok-tubers-quest",
+      "cipher-lesson-learned-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-shattrath-lower-city",
+    "type": "entity",
+    "name": "Lower City, Shattrath",
+    "slug": "cipher-shattrath-lower-city",
+    "path": "/locations/cipher-shattrath-lower-city",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "burning-crusade-area-reference",
+      "interpretive-art"
+    ],
+    "description": "The Burning Crusade Shattrath: weathered tan stone, layered arches, fabric awnings and dense Lower City alleys. Original composition, not an exact street reconstruction.",
+    "sourceIds": [
+      "cipher-thistleheads-quest",
+      "cipher-tobias-egg-trade-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "class-orders",
     "type": "entity",
     "name": "The Class Orders",
@@ -1613,6 +1991,25 @@
     "description": "Vashj’s Coilfang followers, represented in the Akama and Black Temple research story.",
     "sourceIds": [
       "akama-secret-compromised-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "coilskar-commander",
+    "type": "entity",
+    "name": "Coilskar naga commander",
+    "slug": "coilskar-commander",
+    "path": "/locations/coilskar-commander",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "An unnamed naga commander involved in the first-fragment lead. The generated face is not a canonical individual.",
+    "sourceIds": [
+      "cipher-gromtor-quest",
+      "cipher-gromtor-charge-quest"
     ],
     "contentStatus": "research"
   },
@@ -1694,6 +2091,24 @@
     "sourceIds": [
       "story-ahnqiraj-raids",
       "blizzard-ahnqiraj-remembrance"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cyrukh-the-firelord",
+    "type": "entity",
+    "name": "Cyrukh the Firelord",
+    "slug": "cyrukh-the-firelord",
+    "path": "/locations/cyrukh-the-firelord",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "The firelord summoned by reading the completed Cipher at the Altar of Damnation.",
+    "sourceIds": [
+      "cipher-final-quest"
     ],
     "contentStatus": "research"
   },
@@ -2598,6 +3013,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "domesticated-felboars",
+    "type": "entity",
+    "name": "Oronok’s trained felboars",
+    "slug": "domesticated-felboars",
+    "path": "/locations/domesticated-felboars",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "The trained felboars used to dig Shadowmoon tubers at Oronok’s farm.",
+    "sourceIds": [
+      "cipher-oronok-tubers-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "draenei-draenor",
     "type": "entity",
     "name": "The Draenei of Draenor",
@@ -2815,6 +3248,48 @@
     "contentStatus": "research"
   },
   {
+    "id": "earthmender-torlok",
+    "type": "entity",
+    "name": "Earthmender Torlok",
+    "slug": "earthmender-torlok",
+    "path": "/locations/earthmender-torlok",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "An Earthen Ring earthmender involved in the request to aid the Shadowmoon spirits.",
+    "sourceIds": [
+      "cipher-hand-quest",
+      "cipher-blizzard-chain-guide",
+      "cipher-fire-earth-spirits-quest",
+      "cipher-water-spirits-quest",
+      "cipher-air-spirits-quest",
+      "cipher-final-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "eclipsion-disguise",
+    "type": "entity",
+    "name": "Eclipsion blood elf disguise",
+    "slug": "eclipsion-disguise",
+    "path": "/locations/eclipsion-disguise",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "The disguise assembled from clean Eclipsion armor for the message delivery to Grand Commander Ruusk.",
+    "sourceIds": [
+      "cipher-shadowmoon-shuffle-quest",
+      "cipher-illidan-wants-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "edwin-vancleef",
     "type": "entity",
     "name": "Edwin VanCleef",
@@ -2928,6 +3403,29 @@
     "sourceIds": [
       "warcraft-chronicle-volume-1",
       "blizzard-rise-zandalari"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "envoy-icarius",
+    "type": "entity",
+    "name": "Envoy Icarius",
+    "slug": "envoy-icarius",
+    "path": "/locations/envoy-icarius",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "Illidan’s envoy in Borak’s investigation; the recovered missive concerns where the Cipher will be hidden next.",
+    "sourceIds": [
+      "cipher-borak-quest",
+      "cipher-icarius-locator",
+      "cipher-zarath-locator",
+      "cipher-tobias-egg-trade-quest",
+      "cipher-thistlehead-trap-quest",
+      "cipher-stormrage-missive-quest"
     ],
     "contentStatus": "research"
   },
@@ -3196,6 +3694,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "grand-commander-ruusk",
+    "type": "entity",
+    "name": "Grand Commander Ruusk",
+    "slug": "grand-commander-ruusk",
+    "path": "/locations/grand-commander-ruusk",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "An Eclipsion commander who receives Illidan’s message delivered under cover of the disguise.",
+    "sourceIds": [
+      "cipher-illidan-wants-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "grand-inquisitor-isillien",
     "type": "entity",
     "name": "Grand Inquisitor Isillien",
@@ -3311,6 +3827,28 @@
     "contentStatus": "research"
   },
   {
+    "id": "gromtor-torn-heart",
+    "type": "entity",
+    "name": "Grom’tor Torn-heart",
+    "slug": "gromtor-torn-heart",
+    "path": "/locations/gromtor-torn-heart",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "Oronok’s living son, who pursues the first Cipher fragment at Coilskar Point.",
+    "sourceIds": [
+      "cipher-gromtor-quest",
+      "cipher-gromtor-charge-quest",
+      "cipher-gromtor-fragment-quest",
+      "cipher-blizzard-chain-guide",
+      "cipher-final-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "gryan-stoutmantle",
     "type": "entity",
     "name": "Gryan Stoutmantle",
@@ -3329,6 +3867,24 @@
       "defias-quest-141",
       "defias-quest-142",
       "defias-quest-166"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "guldan-memory",
+    "type": "entity",
+    "name": "Gul’dan’s remembered image",
+    "slug": "guldan-memory",
+    "path": "/locations/guldan-memory",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "A memory-like image at the Altar of Damnation. The illustration does not claim canonical appearance or independent agency.",
+    "sourceIds": [
+      "cipher-final-quest"
     ],
     "contentStatus": "research"
   },
@@ -4348,6 +4904,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "lohngoron-bow",
+    "type": "entity",
+    "name": "Lohn’goron, Bow of the Torn-heart",
+    "slug": "lohngoron-bow",
+    "path": "/locations/lohngoron-bow",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "An ancestral Torn-heart bow that Ar’tor asks the adventurer to recover before his fragment charge.",
+    "sourceIds": [
+      "cipher-artor-bow-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "long-vigil-kaldorei",
     "type": "entity",
     "name": "The Kaldorei of the Long Vigil",
@@ -5272,6 +5846,30 @@
     "contentStatus": "research"
   },
   {
+    "id": "oronok-torn-heart",
+    "type": "entity",
+    "name": "Oronok Torn-heart",
+    "slug": "oronok-torn-heart",
+    "path": "/locations/oronok-torn-heart",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "The farmer who recounts his past and guides the search for the Cipher’s fragments.",
+    "sourceIds": [
+      "cipher-oronok-intro-quest",
+      "cipher-oronok-tubers-quest",
+      "cipher-lesson-learned-quest",
+      "cipher-oronok-truth-quest",
+      "cipher-gromtor-fragment-quest",
+      "cipher-blizzard-chain-guide",
+      "cipher-final-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "oronu-the-elder",
     "type": "entity",
     "name": "Oronu the Elder",
@@ -5306,6 +5904,25 @@
     "sourceIds": [
       "warcraft-chronicle-volume-3",
       "blizzard-burning-crusade-story-so-far"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "painmistress-gabrissa",
+    "type": "entity",
+    "name": "Painmistress Gabrissa",
+    "slug": "painmistress-gabrissa",
+    "path": "/locations/painmistress-gabrissa",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "The Illidari jailer whose key opens the demonic crystals holding Ar’tor’s body.",
+    "sourceIds": [
+      "cipher-artor-quest",
+      "cipher-artor-crystal-prisons-quest"
     ],
     "contentStatus": "research"
   },
@@ -5541,6 +6158,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "ravenous-flayer-eggs",
+    "type": "entity",
+    "name": "Ravenous Flayer eggs",
+    "slug": "ravenous-flayer-eggs",
+    "path": "/locations/ravenous-flayer-eggs",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "Eggs destroyed during Oronok’s lesson after flayers attack his boars.",
+    "sourceIds": [
+      "cipher-lesson-learned-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "razelikh-defiler",
     "type": "entity",
     "name": "Razelikh the Defiler",
@@ -5556,6 +6191,25 @@
     "sourceIds": [
       "fallen-hero-amulet-locators",
       "fallen-hero-final-quest-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "redeemed-elemental-spirits",
+    "type": "entity",
+    "name": "The four redeemed elemental spirits",
+    "slug": "redeemed-elemental-spirits",
+    "path": "/locations/redeemed-elemental-spirits",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "An interpretive ensemble representing the four elemental spirits whose presence is reported after Cyrukh’s defeat.",
+    "sourceIds": [
+      "cipher-final-quest",
+      "cipher-blizzard-chain-guide"
     ],
     "contentStatus": "research"
   },
@@ -5594,6 +6248,43 @@
     "sourceIds": [
       "fallen-hero-amulet-locators",
       "fallen-hero-final-quest-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "rotten-arakkoa-egg",
+    "type": "entity",
+    "name": "Rotten Arakkoa egg",
+    "slug": "rotten-arakkoa-egg",
+    "path": "/locations/rotten-arakkoa-egg",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "The egg Borak sends the adventurer to trade for bloodthistle in Shattrath.",
+    "sourceIds": [
+      "cipher-thistleheads-quest",
+      "cipher-tobias-egg-trade-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ruul-the-darkener",
+    "type": "entity",
+    "name": "Ruul the Darkener",
+    "slug": "ruul-the-darkener",
+    "path": "/locations/ruul-the-darkener",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "The target of Borak’s charge during the pursuit of the third fragment.",
+    "sourceIds": [
+      "cipher-borak-charge-quest"
     ],
     "contentStatus": "research"
   },
@@ -6150,6 +6841,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "stormrage-missive",
+    "type": "entity",
+    "name": "Stormrage missive",
+    "slug": "stormrage-missive",
+    "path": "/locations/stormrage-missive",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "A sealed interpretive image of the directive linking Illidan’s order to the Cipher and Zuluhed.",
+    "sourceIds": [
+      "cipher-thistlehead-trap-quest",
+      "cipher-stormrage-missive-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "stormwind-city-ancient",
     "type": "entity",
     "name": "Stormwind City",
@@ -6663,6 +7373,67 @@
     "contentStatus": "research"
   },
   {
+    "id": "tobias-filth-gorger",
+    "type": "entity",
+    "name": "Tobias the Filth Gorger",
+    "slug": "tobias-filth-gorger",
+    "path": "/locations/tobias-filth-gorger",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "A Broken trader in Shattrath who trades bloodthistle to blood elves for rotten Arakkoa eggs.",
+    "sourceIds": [
+      "cipher-thistleheads-quest",
+      "cipher-tobias-egg-trade-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tormented-elemental-spirits",
+    "type": "entity",
+    "name": "The tormented elemental spirits",
+    "slug": "tormented-elemental-spirits",
+    "path": "/locations/tormented-elemental-spirits",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "Fire, earth, water, and air spirits captured for Torlok’s communion. The ensemble is an interpretive group, not four identified individuals.",
+    "sourceIds": [
+      "cipher-fire-earth-spirits-quest",
+      "cipher-water-spirits-quest",
+      "cipher-air-spirits-quest",
+      "cipher-blizzard-chain-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "totem-of-spirits",
+    "type": "entity",
+    "name": "Totem of Spirits",
+    "slug": "totem-of-spirits",
+    "path": "/locations/totem-of-spirits",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "The Earthen Ring totem used to capture the souls of Shadowmoon’s enraged elementals.",
+    "sourceIds": [
+      "cipher-fire-earth-spirits-quest",
+      "cipher-water-spirits-quest",
+      "cipher-air-spirits-quest",
+      "cipher-blizzard-chain-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "trebor-fallen-hero",
     "type": "entity",
     "name": "Trebor the Fallen Hero",
@@ -6914,6 +7685,25 @@
     "sourceIds": [
       "dungeon-set-two-brazier-manual",
       "dungeon-set-two-veiled-blade-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "veneratus-the-many",
+    "type": "entity",
+    "name": "Veneratus the Many",
+    "slug": "veneratus-the-many",
+    "path": "/locations/veneratus-the-many",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "cipher-story",
+      "interpretive-art"
+    ],
+    "description": "The target of Ar’tor’s charge and keeper of the second Cipher fragment.",
+    "sourceIds": [
+      "cipher-artor-charge-quest",
+      "cipher-artor-fragment-quest"
     ],
     "contentStatus": "research"
   },
@@ -7935,6 +8725,407 @@
     "sourceIds": [
       "blizzard-argus-shadows",
       "warcraft-chronicle-volume-4"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-air-at-netherwing-fields-event",
+    "type": "event",
+    "name": "The air spirits of the fields",
+    "slug": "cipher-of-damnation-oronok-air-at-netherwing-fields",
+    "path": "/events/cipher-of-damnation-oronok-air-at-netherwing-fields",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At the Netherwing Fields, the last of Torlok’s errands gathers air spirits wandering the cliffs and mountain bases. The region opens into enormous blue crystal formations and a broken horizon, while the unseen wind carries its own unrest. Fire, earth, water, and air have now each entered the work—not as abstract emblems, but as spirits the Earthen Ring hopes to commune with after their souls are gathered.",
+    "sourceIds": [
+      "cipher-air-spirits-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-artors-charge-event",
+    "type": "event",
+    "name": "Ar’tor’s final charge",
+    "slug": "cipher-of-damnation-oronok-artors-charge",
+    "path": "/events/cipher-of-damnation-oronok-artors-charge",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Ar’tor directs the seeker toward Veneratus and the second fragment, lending a part of his spirit to the task. When the fragment is recovered, his spirit fades. The quest gives no reunion beyond that moment. The piece passes to the living, but Ar’tor’s own path ends there, preserving the cost at the heart of this branch rather than turning his help into a resurrection.",
+    "sourceIds": [
+      "cipher-artor-charge-quest",
+      "cipher-artor-fragment-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-artors-crystal-prison-event",
+    "type": "event",
+    "name": "Ar’tor’s prison at Illidari Point",
+    "slug": "cipher-of-damnation-oronok-artors-crystal-prison",
+    "path": "/events/cipher-of-damnation-oronok-artors-crystal-prison",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Ar’tor’s branch turns to Illidari Point, where his body is found suspended in demonic crystals. Painmistress Gabrissa has the key that allows the prison to be opened. The quest gives no time of death, so the story leaves that absence untouched. The recovered body is a central fact, and the scene does not soften it by implying that Ar’tor has returned to the living.",
+    "sourceIds": [
+      "cipher-artor-quest",
+      "cipher-artor-crystal-prisons-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-bloodthistle-delivered-event",
+    "type": "event",
+    "name": "A bundle becomes a trap",
+    "slug": "cipher-of-damnation-oronok-bloodthistle-delivered",
+    "path": "/events/cipher-of-damnation-oronok-bloodthistle-delivered",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Tobias provides a bundle of bloodthistle for Borak. The plan is to leave it at the far end of the bridge and wait for the envoy to collect it apart from his bodyguard. Borak says blood elves despise Thistleheads; that prejudice is the lever he chooses. The story records a deception and a calculated risk, without claiming every detail of the encounter beyond the quest’s objective.",
+    "sourceIds": [
+      "cipher-tobias-egg-trade-quest",
+      "cipher-thistlehead-trap-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-borak-and-the-envoy-event",
+    "type": "event",
+    "name": "Borak watches Eclipse Point",
+    "slug": "cipher-of-damnation-oronok-borak-and-the-envoy",
+    "path": "/events/cipher-of-damnation-oronok-borak-and-the-envoy",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Borak studied before he became an assassin, and the quest account says he has watched an envoy from the Black Temple for weeks. Icarius travels with Blood Lord Zarath as his bodyguard. Borak is trying to learn where the third fragment has been hidden, but the guard never leaves the envoy’s side. The obstacle is clear; his private thoughts are not. We follow what the account says and let the long watch speak for itself.",
+    "sourceIds": [
+      "cipher-borak-quest",
+      "cipher-icarius-locator",
+      "cipher-zarath-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-cipher-reassembled-event",
+    "type": "event",
+    "name": "Three pieces made whole",
+    "slug": "cipher-of-damnation-oronok-cipher-reassembled",
+    "path": "/events/cipher-of-damnation-oronok-cipher-reassembled",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Once each branch is complete, Oronok holds the three fragments together as the Cipher. Grom’tor and Borak are the sons who can stand with him in the final quest; Ar’tor cannot return from death, even though his spirit helped bring the second piece home. The distinction remains visible in the family’s account. The restored object is not an answer by itself. Its words must be read where Gul’dan’s memory stands.",
+    "sourceIds": [
+      "cipher-blizzard-chain-guide",
+      "cipher-final-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-cyrukh-and-the-elements-event",
+    "type": "event",
+    "name": "Cyrukh the Firelord",
+    "slug": "cipher-of-damnation-oronok-cyrukh-and-the-elements",
+    "path": "/events/cipher-of-damnation-oronok-cyrukh-and-the-elements",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Cyrukh the Firelord is defeated at the Altar with Oronok and his two living sons in the quest’s account. Four redeemed elemental spirits appear, answering the work that began with Torlok and the totem. The ending does not say every wound in Shadowmoon has closed. It records an immediate victory and an elemental response, while leaving the broader state of the valley open to the evidence.",
+    "sourceIds": [
+      "cipher-final-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-egg-for-tobias-event",
+    "type": "event",
+    "name": "An egg for Tobias",
+    "slug": "cipher-of-damnation-oronok-egg-for-tobias",
+    "path": "/events/cipher-of-damnation-oronok-egg-for-tobias",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Borak recognizes signs that the envoy is a Thistlehead and points toward a trade in Shattrath’s Lower City. The seeker brings Tobias a rotten Arakkoa egg; Tobias is known to exchange bloodthistle for such eggs. This is a lead, not a private friendship between Borak and the Broken trader. In the narrow streets of Shattrath, an unlikely commodity becomes the means to break an escort that had seemed unbreakable.",
+    "sourceIds": [
+      "cipher-thistleheads-quest",
+      "cipher-tobias-egg-trade-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-farmer-with-a-past-event",
+    "type": "event",
+    "name": "The farmer’s work",
+    "slug": "cipher-of-damnation-oronok-farmer-with-a-past",
+    "path": "/events/cipher-of-damnation-oronok-farmer-with-a-past",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Oronok asks for Shadowmoon tubers, which his trained felboars dig from the hardened earth of the Shattered Plains. Ravenous flayers have been attacking the animals and interrupting his work. A whistle calls the boars to the mounds; the story shows that small task as a test of attention to the damaged lives around the farm. The land resists even the simplest harvest, and Oronok’s test has more than one layer.",
+    "sourceIds": [
+      "cipher-oronok-tubers-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-fire-and-earth-event",
+    "type": "event",
+    "name": "Fire and earth",
+    "slug": "cipher-of-damnation-oronok-fire-and-earth",
+    "path": "/events/cipher-of-damnation-oronok-fire-and-earth",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Torlok provides a Totem of Spirits and asks the seeker to capture the souls of enraged fire and earth elementals near the Hand. Their fury is not made into a speech, and the quest does not claim that the totem heals them at once. It gives a first measure of the wound: beneath Shadowmoon’s crust, both heat and stone have become hostile, waiting for the Earthen Ring to hear what they carry.",
+    "sourceIds": [
+      "cipher-fire-earth-spirits-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-first-fragment-returned-event",
+    "type": "event",
+    "name": "The first fragment recovered",
+    "slug": "cipher-of-damnation-oronok-first-fragment-returned",
+    "path": "/events/cipher-of-damnation-oronok-first-fragment-returned",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Grom’tor brings the first fragment back to Oronok. The piece is now accounted for, but it is only one part of the whole and the task passes to the next son’s trail. The story pauses on the object that survived Gul’dan’s words across a broken world. Its physical markings remain an original illustration; no invented script is treated as readable canon.",
+    "sourceIds": [
+      "cipher-gromtor-fragment-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-gromtor-and-the-first-lead-event",
+    "type": "event",
+    "name": "Grom’tor at Coilskar",
+    "slug": "cipher-of-damnation-oronok-gromtor-and-the-first-lead",
+    "path": "/events/cipher-of-damnation-oronok-gromtor-and-the-first-lead",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Grom’tor’s branch opens at Coilskar. The charge uses an imprisoned naga commander as the source of a lead, then sends the seeker after the first fragment. The commander is unnamed in our scene art and gains no invented words. This is one of three distinct lines Oronok sets in motion; the guide presents Grom’tor first as an editorial itinerary, while the quests allow the sons’ searches to be completed in any order.",
+    "sourceIds": [
+      "cipher-gromtor-quest",
+      "cipher-gromtor-charge-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-hand-of-guldan-event",
+    "type": "event",
+    "name": "The Hand of Gul’dan",
+    "slug": "cipher-of-damnation-oronok-hand-of-guldan",
+    "path": "/events/cipher-of-damnation-oronok-hand-of-guldan",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "An Earthen Ring request brings the adventurer to Shadowmoon Valley’s damaged ground. The Alliance and Horde have different starting earthmenders, so this account keeps its first step with the shared task: help the troubled spirits. Torlok’s work asks more than force. The story begins among black rock and green-lit fissures with a question about repair—whether those who harmed the land can still answer the elements that remain within it.",
+    "sourceIds": [
+      "cipher-hand-quest",
+      "cipher-blizzard-chain-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-illidans-message-event",
+    "type": "event",
+    "name": "What Illidan wants",
+    "slug": "cipher-of-damnation-oronok-illidans-message",
+    "path": "/events/cipher-of-damnation-oronok-illidans-message",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Wearing the disguise, the adventurer enters Eclipse Point and delivers Illidan’s message to Grand Commander Ruusk. The quest has the seeker tell Ruusk where the Cipher should move next, speaking under the authority of Illidan’s order. The tactic turns the defenders’ chain of command against itself. No dialogue beyond the task is supplied, and the scene does not pretend to reveal the Cipher’s present location.",
+    "sourceIds": [
+      "cipher-illidan-wants-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-lesson-learned-event",
+    "type": "event",
+    "name": "A lesson learned",
+    "slug": "cipher-of-damnation-oronok-lesson-learned",
+    "path": "/events/cipher-of-damnation-oronok-lesson-learned",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Oronok sends the seeker back into flayer territory to destroy their eggs after his boars were attacked. The lesson is practical and severe: the threats around the farm will not leave by themselves. No nest is given an exact position, and no individual flayer is named. When the work is done, the story can leave the farmer’s errands behind. Oronok has decided that the visitor has earned the account he withheld.",
+    "sourceIds": [
+      "cipher-lesson-learned-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-lohngoron-recovered-event",
+    "type": "event",
+    "name": "Lohn’goron, a family bow",
+    "slug": "cipher-of-damnation-oronok-lohngoron-recovered",
+    "path": "/events/cipher-of-damnation-oronok-lohngoron-recovered",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Ar’tor appears as a spirit and asks that his ancestral bow, Lohn’goron, be recovered from the demons of Illidari Point. The weapon was handed down through the Torn-heart family; recovering it precedes the charge for the second fragment. In the story, this object carries a more intimate inheritance than the Cipher’s scattered words: a family’s memory can be held in a thing even when one of its keepers is gone.",
+    "sourceIds": [
+      "cipher-artor-bow-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-oronok-introduced-event",
+    "type": "event",
+    "name": "Oronok Torn-heart",
+    "slug": "cipher-of-damnation-oronok-oronok-introduced",
+    "path": "/events/cipher-of-damnation-oronok-oronok-introduced",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The elemental work leads to Oronok Torn-heart and his farm in Shadowmoon Valley. He does not offer the Cipher’s history at once. In the later telling, he admits that he had tested the seeker and worn the farmer’s role like a cover. His first account begins in ordinary labor; beneath it stands a son and a father whose past reaches back through a shattered world.",
+    "sourceIds": [
+      "cipher-oronok-intro-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-oronoks-account-event",
+    "type": "event",
+    "name": "Oronok’s account of Gul’dan",
+    "slug": "cipher-of-damnation-oronok-oronoks-account",
+    "path": "/events/cipher-of-damnation-oronok-oronoks-account",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Oronok tells how Gul’dan spoke the Cipher’s words, shattered Draenor, and severed the orcs from their elemental ties. This is a memory carried by Oronok’s quest account, not an omniscient transcript of every event on the old world. Its consequence is present around him: spirits strain against the valley’s corruption, and three fragments must be found before the words can be confronted whole.",
+    "sourceIds": [
+      "cipher-oronok-truth-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-read-at-altar-event",
+    "type": "event",
+    "name": "The words at the Altar",
+    "slug": "cipher-of-damnation-oronok-read-at-altar",
+    "path": "/events/cipher-of-damnation-oronok-read-at-altar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At the Altar of Damnation, Oronok is told to read the whole Cipher where the memory of Gul’dan stands. The quest presents the apparition as memory left imprinted on the land, not an independent witness returning to explain himself. Once the words are spoken, Cyrukh is to come. A history gathered piece by piece has crossed into the present, and the final contest begins at the place the quest names.",
+    "sourceIds": [
+      "cipher-final-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-ruuls-interception-event",
+    "type": "event",
+    "name": "Borak’s charge",
+    "slug": "cipher-of-damnation-oronok-ruuls-interception",
+    "path": "/events/cipher-of-damnation-oronok-ruuls-interception",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Borak names Ruul the Darkener and the transport carrying the third part. The quest directs the adventurer to intercept it somewhere between Dragonmaw Fortress and the Sanctum of the Stars, across the Netherwing Fields. We keep that broad description broad rather than drawing a false route or pinpoint. Ruul is a dangerous target, and the instruction warns the seeker to gather help before the fragment can be claimed.",
+    "sourceIds": [
+      "cipher-borak-charge-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-shadowmoon-disguise-event",
+    "type": "event",
+    "name": "The Shadowmoon Shuffle",
+    "slug": "cipher-of-damnation-oronok-shadowmoon-disguise",
+    "path": "/events/cipher-of-damnation-oronok-shadowmoon-disguise",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "To carry a message through Eclipse Point, Borak asks for clean pieces of Eclipsion armor. The disguise must pass for Illidari blood elf equipment, and blood stains would spoil it. The collection turns the plan from watching an envoy to entering the fortress under another appearance. Our armor cutout is an original interpretation, not a canonical costume capture; its purpose in the scene is the deception the quest names.",
+    "sourceIds": [
+      "cipher-shadowmoon-shuffle-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-stormrage-missive-event",
+    "type": "event",
+    "name": "The Stormrage missive",
+    "slug": "cipher-of-damnation-oronok-stormrage-missive",
+    "path": "/events/cipher-of-damnation-oronok-stormrage-missive",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The quest directs the adventurer to kill Icarius once he is alone and recover the Stormrage missive. Borak reads it and learns that Illidan’s directive concerns where the Cipher is to be hidden next; the letter does not reveal where it currently rests. The envoy’s fate is not extended beyond this objective. What Borak gains is a glimpse of the wider contest over the fragments.",
+    "sourceIds": [
+      "cipher-thistlehead-trap-quest",
+      "cipher-stormrage-missive-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-the-mark-of-kaelthas-event",
+    "type": "event",
+    "name": "The mark of Kael’thas",
+    "slug": "cipher-of-damnation-oronok-the-mark-of-kaelthas",
+    "path": "/events/cipher-of-damnation-oronok-the-mark-of-kaelthas",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Torlok carries an unfinished warning from the spirits: another knows the Cipher. A symbol associated with Kael’thas appears, but this chain does not resolve what it means. Blizzard’s sequence separates the level-70 Trial of the Naaru path from the Cipher quest itself. The story therefore closes at the mark—after the spirits have been heard, Cyrukh has fallen, and the recovered words have become a question again.",
+    "sourceIds": [
+      "cipher-final-quest",
+      "cipher-blizzard-chain-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-third-fragment-home-event",
+    "type": "event",
+    "name": "The third fragment recovered",
+    "slug": "cipher-of-damnation-oronok-third-fragment-home",
+    "path": "/events/cipher-of-damnation-oronok-third-fragment-home",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The third fragment is returned to Borak, who places it in a box. The sons’ separate lines have now each yielded one part, though their order here is only a way through the story. The object has been moved through several hands, with a larger conflict trying to direct where it goes. At last, the three pieces can be considered together rather than as unrelated recoveries.",
+    "sourceIds": [
+      "cipher-borak-third-fragment-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-torklok-communes-event",
+    "type": "event",
+    "name": "The Earthen Ring listens",
+    "slug": "cipher-of-damnation-oronok-torklok-communes",
+    "path": "/events/cipher-of-damnation-oronok-torklok-communes",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At the Altar, Torlok places the filled totem and releases the captured souls so the Ring can speak with them. The quest chain treats this labor as the threshold to the story of Oronok: first the spirits, then the words that broke their bond with the orcs. No claim is made that the valley is restored in a moment. The scene holds only to what the task records—the attempt to listen, and a path opening onward.",
+    "sourceIds": [
+      "cipher-blizzard-chain-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "cipher-of-damnation-oronok-water-at-coilskar-event",
+    "type": "event",
+    "name": "Water held in anguish",
+    "slug": "cipher-of-damnation-oronok-water-at-coilskar",
+    "path": "/events/cipher-of-damnation-oronok-water-at-coilskar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The next souls are water spirits around Coilskar, where the quest says Illidari naga control the valley’s only clean water. This branch of the task ties elemental pain to a present pressure on the land: a living supply has been taken and its spirits cry out. The water’s exact source and course are not drawn here. The story keeps its attention on the named place and the souls Torlok asks the adventurer to gather.",
+    "sourceIds": [
+      "cipher-water-spirits-quest"
     ],
     "contentStatus": "research"
   },
@@ -12344,7 +13535,7 @@
   {
     "id": "cipher-of-damnation-oronok",
     "type": "storyline",
-    "name": "Oronok and the Cipher of Damnation",
+    "name": "The Cipher of Damnation: Oronok and the Three Fragments",
     "slug": "cipher-of-damnation-oronok",
     "path": "/storylines/cipher-of-damnation-oronok",
     "eraId": "age-of-adventurers",
@@ -12353,9 +13544,37 @@
     ],
     "aliases": [],
     "tags": [],
-    "description": "Oronok Torn-heart and his sons recover the Cipher's fragments across Shadowmoon Valley before a final confrontation.",
+    "description": "Oronok’s account leads into three separate searches for the Cipher’s fragments. His living sons Grom’tor and Borak return; Ar’tor’s spirit completes its charge before the chain converges at the Altar of Damnation.",
     "sourceIds": [
-      "story-cipher-attunement"
+      "cipher-hand-quest",
+      "cipher-blizzard-chain-guide",
+      "cipher-fire-earth-spirits-quest",
+      "cipher-water-spirits-quest",
+      "cipher-air-spirits-quest",
+      "cipher-oronok-intro-quest",
+      "cipher-oronok-tubers-quest",
+      "cipher-lesson-learned-quest",
+      "cipher-oronok-truth-quest",
+      "cipher-gromtor-quest",
+      "cipher-gromtor-charge-quest",
+      "cipher-gromtor-fragment-quest",
+      "cipher-artor-quest",
+      "cipher-artor-crystal-prisons-quest",
+      "cipher-artor-bow-quest",
+      "cipher-artor-charge-quest",
+      "cipher-artor-fragment-quest",
+      "cipher-borak-quest",
+      "cipher-icarius-locator",
+      "cipher-zarath-locator",
+      "cipher-thistleheads-quest",
+      "cipher-tobias-egg-trade-quest",
+      "cipher-thistlehead-trap-quest",
+      "cipher-stormrage-missive-quest",
+      "cipher-shadowmoon-shuffle-quest",
+      "cipher-illidan-wants-quest",
+      "cipher-borak-charge-quest",
+      "cipher-borak-third-fragment-quest",
+      "cipher-final-quest"
     ],
     "contentStatus": "research"
   },

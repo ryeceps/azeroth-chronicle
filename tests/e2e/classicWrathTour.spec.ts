@@ -4,6 +4,7 @@ import { mkdirSync } from 'node:fs';
 mkdirSync('output/akama-black-temple-visual-review', { recursive: true });
 mkdirSync('output/quel-delar-visual-review', { recursive: true });
 mkdirSync('output/defias-visual-review', { recursive: true });
+mkdirSync('output/cipher-visual-review', { recursive: true });
 
 test('story dots live on the map, expand on hover or focus, and open stories or previews', async ({ page }) => {
   const pageErrors: string[] = [];
@@ -55,10 +56,10 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await outland.hover();
   const outlandCard = page.locator('#story-tour-tip-cipher-of-damnation-oronok');
   await expect(outlandCard.getByRole('heading', { name: /Cipher of Damnation/i })).toBeVisible();
-  await expect(outlandCard).toContainText('Research preview');
-  await expect(outlandCard.getByRole('button', { name: 'Play story' })).toHaveCount(0);
-  await outlandCard.getByRole('link', { name: 'Read story preview' }).click();
-  await expect(page.getByRole('heading', { name: 'Oronok and the Cipher of Damnation' })).toBeVisible();
+  await expect(outlandCard).toContainText('Playable story');
+  await outlandCard.getByRole('button', { name: 'Play story' }).click();
+  await expect(page.getByRole('heading', { name: 'The Hand of Gul’dan' })).toBeVisible();
+  await page.screenshot({ path: 'output/cipher-visual-review/storytour-desktop.png', fullPage: true });
 
   await page.goto('/tours/classic-to-wrath');
   await dungeonSetTwo.hover();
@@ -245,8 +246,12 @@ test('Play All advances completed stories in chronological order and restores th
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
     return [params.get('storyline'), params.get('node'), params.get('play')];
-  }).toEqual(['quel-delar-restored', 'quel-delar-restored-story-battered-hilt-at-rest', 'all']);
+  }).toEqual(['cipher-of-damnation-oronok', 'cipher-of-damnation-oronok-story-hand-of-guldan', 'all']);
+  await expect(page.getByRole('heading', { name: 'The Hand of Gul’dan' })).toBeVisible();
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=cipher-of-damnation-oronok&node=cipher-of-damnation-oronok-story-the-mark-of-kaelthas&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'A hilt without a finder' })).toBeVisible();
+  await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('quel-delar-restored');
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=quel-delar-restored&node=quel-delar-restored-story-faction-handoffs&play=all');
   await page.getByRole('button', { name: 'Finish this story tour' }).click();
   await expect(page).toHaveURL(/\/tours\/classic-to-wrath\?complete=1/);
@@ -340,6 +345,14 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   await page.screenshot({ path: 'output/defias-visual-review/classic-wrath-tour-phone.png', fullPage: true });
   await phoneDefiasCard.getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'Farmers driven from Westfall' })).toBeVisible();
+  await page.goto('/tours/classic-to-wrath');
+  await page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i }).click();
+  const phoneCipherCard = page.locator('.story-tour-touch-card');
+  await expect(phoneCipherCard.getByRole('heading', { name: /Cipher of Damnation/i })).toBeVisible();
+  await expect(phoneCipherCard).toContainText('Playable story');
+  await page.screenshot({ path: 'output/cipher-visual-review/storytour-phone.png', fullPage: true });
+  await phoneCipherCard.getByRole('button', { name: 'Play story' }).click();
+  await expect(page.getByRole('heading', { name: 'The Hand of Gul’dan' })).toBeVisible();
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=stormwind-onyxia-conspiracy&node=onyxia-story-onyxias-lair&play=story');
   await page.getByRole('button', { name: 'Finish this storyline' }).click();
   await expect(page).toHaveURL(/\/tours\/classic-to-wrath\?complete=1/);
