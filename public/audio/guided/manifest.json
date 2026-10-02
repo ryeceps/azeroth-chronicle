@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T02:51:54.596Z",
+  "generatedAt": "2026-10-02T06:13:46.036Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 272,
-  "totalDurationMs": 7232200,
+  "trackCount": 293,
+  "totalDurationMs": 7846375,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -2460,6 +2460,195 @@
       "sha256": "b1ca0b10fd40804022d3339eca673f015b6df9241887f9faff3ffabf4c4f0fca",
       "transcriptSha256": "a9bb129e31fc3457605556e7bec9712ad2e579b132495531d7edfc739fea2e78",
       "bytes": 371277
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-annals-date-conflict",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-annals-date-conflict.mp3",
+      "durationMs": 31475,
+      "sha256": "2ceaece5d327127e631530261b440af231aa56b1c93363a708e995c52e8396aa",
+      "transcriptSha256": "d7d3ba0b38b05a2205ee5cab3ac5412ee99e698e858ffd9a5e13b97848b4456f",
+      "bytes": 378765
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-horgus-arrives",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-horgus-arrives.mp3",
+      "durationMs": 30025,
+      "sha256": "21abae4909a7660408257115559c0537230b11b294b71727b4f65f9415e18e83",
+      "transcriptSha256": "eaaa870bf09ac42501fbe401349d10d03d0efe0306e19888c01ee8100fda177b",
+      "bytes": 361485
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-davil-falls",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-davil-falls.mp3",
+      "durationMs": 29525,
+      "sha256": "3a9eb28f053b25b788bd6d851efd819d1220032ffbd1a748ae2c1b97752dc0a9",
+      "transcriptSha256": "ed1c2e257a49fd8502345e808a4ccc940722296fdeeff5a4f7683a805016fed7",
+      "bytes": 355437
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-joseph-corrupted",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-joseph-corrupted.mp3",
+      "durationMs": 28375,
+      "sha256": "db6df35f344350afa75ef35b911503f7b7e7f31ed51f5dac3ed3a04c6b7d1afd",
+      "transcriptSha256": "a012e23a2272e52e4fea57cd437672d217a7bb41fd1f66b4e514d7eeade6c48a",
+      "bytes": 341613
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-pamela-hidden",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-pamela-hidden.mp3",
+      "durationMs": 28025,
+      "sha256": "a3a7210ded1cdb4b0c2404d0243b6b8d3be2f6cfaf91f96614eb8eed23e83857",
+      "transcriptSha256": "e8bc585fb3a1b412d6ecb31f09dbfcefb9b3cf63904b33010318748f85af8440",
+      "bytes": 337293
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-marlene-seeks",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-marlene-seeks.mp3",
+      "durationMs": 28800,
+      "sha256": "400b14adf7d3030407ca3ed9109c71a58b743b61562a26c4e791476d90656e7e",
+      "transcriptSha256": "33cf48613018d98423a11ffccefa4d0ceba3be5d8082d885c78b7c72dfcc614a",
+      "bytes": 346509
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-pamela-and-doll",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-pamela-and-doll.mp3",
+      "durationMs": 29175,
+      "sha256": "2b433c07401b766ffa1eca497291090dac33905b649c6b0ddbe1cdf8ebcd06d9",
+      "transcriptSha256": "72150e285c14bea27160c775406fc3f585b58903f354ac080f26b290a7fc12f0",
+      "bytes": 351117
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-pamela-asks",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-pamela-asks.mp3",
+      "durationMs": 27300,
+      "sha256": "97c8c3e00936d4611d7c36403522f020e7675109e2e8044c49be913d5010d077",
+      "transcriptSha256": "7c11680870c57ac8e69be93686e1750f40223d67ba2900fc6ec4383dc2eabce6",
+      "bytes": 328653
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-marlene-tells-truth",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-marlene-tells-truth.mp3",
+      "durationMs": 28300,
+      "sha256": "287bf1fbd9cf087f818a14092e193204d734a9bbe7852092685a9deb56fdd225",
+      "transcriptSha256": "1228b8096b1b0b34117d23e9f87b7fe2f1472a6426033835a8e5c8e23ee7e1e1",
+      "bytes": 340749
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-wedding-ring",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-wedding-ring.mp3",
+      "durationMs": 28625,
+      "sha256": "b8f71ff4ef93024f197d46b005af0ec9cfeb1541b90b4a74962847b19dcefd06",
+      "transcriptSha256": "6a5633b24c96656ed35e260e7a17ffdb620d41535622168a31e15a3b287f6a32",
+      "bytes": 344493
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-annals-read",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-annals-read.mp3",
+      "durationMs": 31675,
+      "sha256": "aabce4bc3b622d6caa607b5f170c05d4e651ddcad044201b9c69023b0dee8d32",
+      "transcriptSha256": "1515178e89cfd9f9d52e170032a66e6d3fb1896031b8c8642899812d2058e3ad",
+      "bytes": 381069
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-carlin-witness",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-carlin-witness.mp3",
+      "durationMs": 28400,
+      "sha256": "9ac03891cd665021815907195e76267c0abe446e49f626232da5b45a8a0de457",
+      "transcriptSha256": "450045065094e7cf5d3fe93a874fddaf4430bb65403d73019daf66795484414f",
+      "bytes": 341901
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-villains-relics",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-villains-relics.mp3",
+      "durationMs": 30025,
+      "sha256": "4444ea35c0c834aeb523b308d2479745129db0d4840c2ec57c5844a9561f5b21",
+      "transcriptSha256": "138378aaa42fb0f44825adbd3a9a5c3ff6c933479c84e9805d8755f8d6aae234",
+      "bytes": 361485
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-davil-libram",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-davil-libram.mp3",
+      "durationMs": 26900,
+      "sha256": "28654210f6a64f2ee7834790d2d1ecc65a9798df981e45b365f4f7159444f546",
+      "transcriptSha256": "dd067ede20ee3bb74fbb566914a52ab5ea04f3e9385efeaf02b32ae30602f1e2",
+      "bytes": 323757
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-heroes-relics",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-heroes-relics.mp3",
+      "durationMs": 26475,
+      "sha256": "59b9693964497cb7d6d1f69203cfd4ae7066c2ac0bb684dfa8eae33dce69035f",
+      "transcriptSha256": "fdcc0e89c82a3c1ec35cc8265d1d902ea9b30db67e1066818434be7077a1d5d7",
+      "bytes": 318861
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-marauders-crystal",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-marauders-crystal.mp3",
+      "durationMs": 30025,
+      "sha256": "c20cf5ebea55fe8e05edbc8ddfe40f1b747e3dca66df1d06c8c364d284bfe953",
+      "transcriptSha256": "976a174e18011ea2a016ca0d244c19d32eb4449ce46a0b744a53d1ab841be872",
+      "bytes": 361485
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-extended-account",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-extended-account.mp3",
+      "durationMs": 30375,
+      "sha256": "651bc6b89a4846bf65d4c5902012acbdfc050832440af071e623e6f789c78b31",
+      "transcriptSha256": "785ffb5c7dfcbda634589de0cbf950333da73379bbcc2aa4a0cc5a638133fef8",
+      "bytes": 365517
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-replay-begins",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-replay-begins.mp3",
+      "durationMs": 32825,
+      "sha256": "4a7a907cfbfc38a80261469e6c4d6e2c0761410101ad03f6858e2475c735b0b9",
+      "transcriptSha256": "a61cc8d419cb85d605f5506744d6fac3ff1a065908ea43807a696606a52ca2eb",
+      "bytes": 394893
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-davil-and-horgus",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-davil-and-horgus.mp3",
+      "durationMs": 27875,
+      "sha256": "36a6ce5b2e8a09c26e0b4b347dba04f3d10b2466c768d143d21dc0a91f85041d",
+      "transcriptSha256": "def107b3e5326f3d291b600e015fff806fa5a206e7dd2d7f8209cb3dd4d1922c",
+      "bytes": 335565
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-redpath-corrupted",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-redpath-corrupted.mp3",
+      "durationMs": 28975,
+      "sha256": "fad6ca25cd19545734c91aa5804214c0ae3c58be03932a8e64580f4f106f768b",
+      "transcriptSha256": "cc7dc29b8113eb1847fff9b7417c3e1f5fcbf4cd2745d47a9ed03683832f5b51",
+      "bytes": 348813
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-family-homecoming",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-family-homecoming.mp3",
+      "durationMs": 31000,
+      "sha256": "68d3a61ff97138c8d84ec774a035775a882f344d066428637f77498a43fe4781",
+      "transcriptSha256": "7f5a3a3f795e1c9dd0e39a5f911a7b43a826b21cf5187ec2e212a65a2dd98212",
+      "bytes": 373005
     }
   ]
 }

@@ -391,7 +391,7 @@ function AtlasScene({
     return runtime?.kind === 'point' && entity ? [{ state, runtime, entity }] : [];
   }).sort((a, b) => (b.state.labelPriority ?? 0) - (a.state.labelPriority ?? 0)).slice(0, 80), [entities, geometry, spatialStates]);
   const characterFigures = useMemo(() => entities.flatMap((entity) => {
-    if (entity.type !== 'character' || !entity.mapFigure) return [];
+    if (!entity.mapFigure) return [];
     const anchorId = entity.mapFigure.anchorEntityId ?? entity.id;
     const anchorState = spatialStates.find((state) => state.entityId === anchorId);
     const figure = resolveMapFigure(entity, anchorState?.eraId);

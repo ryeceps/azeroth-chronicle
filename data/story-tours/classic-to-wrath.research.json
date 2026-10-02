@@ -8,7 +8,7 @@
   "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
   "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
   "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth.",
-  "chronologyNote": "Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, then Tirion and Taelan), followed by The Burning Crusade (Karazhan, Akama and the Black Temple, then the Cipher of Damnation preview), and Wrath of the Lich King (Wrathgate preview). The TBC placements organize this map and do not claim canonical relative dates or causal links. The Scepter ancient prologue is a flashback; Dungeon Set 2 companion fates are alternatives; the Fallen Hero faction openings are mutually exclusive; Tirion and Taelan ends at its Classic quest resolution; and Akama raid gates are not one continuous historical campaign. The Hyjal passage is a labeled historical instance, not a route from Outland. Wrath continues from the Wrathgate preview to Quel'Delar at patch 3.3: the order is editorial by expansion-era quest availability, with no causal link implied between those stories. The Quel'Delar chapter distinguishes its randomized Battered Hilt trigger, Third War flashbacks, Lana'thel's prior destruction at Quel'Delar's Rest, and the later Wrath repair. Faction and class endings are alternatives; map pins are editorial, not exact geography or a route.",
+  "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, then Darrowshire), The Burning Crusade (Karazhan, Akama and the Black Temple, then the Outland Cipher preview), and Wrath (Wrathgate preview followed by Quel’Delar). It organizes access and does not claim canonical relative dates or causal links between stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. Other branch, faction and flashback caveats remain as recorded in each story.",
   "regions": [
     {
       "id": "kalimdor",
@@ -124,6 +124,19 @@
       "locationLabel": "The Plaguelands · Tirion and Taelan"
     },
     {
+      "storylineId": "darrowshire-lost-and-remembered",
+      "regionIds": [
+        "eastern-kingdoms"
+      ],
+      "mapPositionPercent": [
+        76,
+        37
+      ],
+      "order": 6,
+      "periodLabel": "Original World of Warcraft · Classic",
+      "locationLabel": "The Plaguelands · Darrowshire"
+    },
+    {
       "storylineId": "karazhan-masters-key-and-nightbane",
       "regionIds": [
         "eastern-kingdoms",
@@ -133,7 +146,7 @@
         77,
         66
       ],
-      "order": 6,
+      "order": 7,
       "periodLabel": "The Burning Crusade · Karazhan",
       "locationLabel": "Deadwind Pass · key fragments across Outland"
     },
@@ -147,7 +160,7 @@
         91,
         66
       ],
-      "order": 7,
+      "order": 8,
       "periodLabel": "The Burning Crusade · Black Temple, patch 2.1",
       "locationLabel": "Shadowmoon Valley · raids across Outland · Hyjal memory"
     },
@@ -160,7 +173,7 @@
         82,
         79
       ],
-      "order": 8,
+      "order": 9,
       "periodLabel": "The Burning Crusade",
       "locationLabel": "Shadowmoon Valley · Outland"
     },
@@ -173,7 +186,7 @@
         54,
         18
       ],
-      "order": 9,
+      "order": 10,
       "periodLabel": "Wrath of the Lich King",
       "locationLabel": "Dragonblight · Northrend"
     },
@@ -187,11 +200,11 @@
         61,
         27
       ],
-      "order": 10,
+      "order": 11,
       "periodLabel": "Wrath of the Lich King · patch 3.3.5",
       "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
     }
   ],
-  "reviewNote": "Playable research stories: The Dragon in Stormwind, Scepter of the Shifting Sands, Dungeon Set 2: The Veiled Blade and Lord Valthalak, The Fallen Hero and Rakhlikh, Tirion and Taelan: Of Love and Family, Karazhan: The Masters Key and Nightbane, and Akama and the Black Temple. The Outland Cipher of Damnation and Northrend Wrathgate remain research previews outside Play All. Original-client quests and builds, faction variants, relative Classic ordering, map art, and matching in-game area/model resemblance remain open for human review; story markers are not exact locations or travel routes. Quel’Delar is now a playable 19-node research story with a full transcript and original interpretive scene/cast art; original-client lore and 3.3.5a resemblance checks remain open.",
+  "reviewNote": "Playable research guides now include Darrowshire as a 21-scene illustrated story after Tirion and Taelan in the Classic sequence. Cipher of Damnation and Wrathgate remain text-first previews outside Play All. Original-client text/build, disputed chronology, character-name variants, permanent temporal outcome, generated area/model resemblance and narration audition remain human review gates. Markers are illustrative interface anchors, not exact locations or travel routes.",
   "contentStatus": "research"
 }

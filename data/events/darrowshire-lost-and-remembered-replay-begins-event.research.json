@@ -1,0 +1,32 @@
+{
+  "id": "darrowshire-lost-and-remembered-replay-begins-event",
+  "kind": "event",
+  "name": "The battle is called back",
+  "slug": "darrowshire-lost-and-remembered-replay-begins",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "darrowshire-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+  },
+  "summary": "Chromie’s spell returns the traveler to a reenactment of Darrowshire’s battle. The scene is explicitly a remembered, playable past, separated from the present-day investigation. Its instructions focus on outcomes: Davil must remain alive until Horgus falls, and Joseph must live long enough to be corrupted before the corrupted captain is defeated. The quest therefore offers a limited correction inside the replay; it does not erase the evidence that the original village was destroyed.",
+  "locationIds": [
+    "darrowshire-village"
+  ],
+  "participantEntityIds": [
+    "darrowshire-lost-and-remembered-chromie",
+    "darrowshire-lost-and-remembered-defenders",
+    "darrowshire-lost-and-remembered-scourge",
+    "darrowshire-lost-and-remembered-davil",
+    "darrowshire-lost-and-remembered-horgus",
+    "darrowshire-lost-and-remembered-relic-bundle"
+  ],
+  "sourceIds": [
+    "darrowshire-return-chromie",
+    "darrowshire-battle-quest"
+  ],
+  "claimIds": [
+    "darrowshire-lost-and-remembered-replay-begins-claim"
+  ],
+  "contentStatus": "research"
+}

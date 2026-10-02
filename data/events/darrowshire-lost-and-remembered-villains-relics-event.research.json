@@ -1,0 +1,29 @@
+{
+  "id": "darrowshire-lost-and-remembered-villains-relics-event",
+  "kind": "event",
+  "name": "The skull and the shattered blade",
+  "slug": "darrowshire-lost-and-remembered-villains-relics",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "darrowshire-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+  },
+  "summary": "The first relic trail turns toward the remembered villains. The quest associates a skull with Horgus and a broken sword with Marduk, leading the search to different places around the Plaguelands. These are clues chosen by a historical investigation, not excavated proof that the objects lay exactly where the illustration places them. The broken weapon gives Marduk a material trace even while the Annals’ version of his name remains unsettled.",
+  "locationIds": [
+    "corins-crossing"
+  ],
+  "participantEntityIds": [
+    "darrowshire-lost-and-remembered-horgus",
+    "darrowshire-lost-and-remembered-marduk",
+    "darrowshire-lost-and-remembered-horgus-skull",
+    "darrowshire-lost-and-remembered-marduk-sword"
+  ],
+  "sourceIds": [
+    "darrowshire-villains"
+  ],
+  "claimIds": [
+    "darrowshire-lost-and-remembered-villains-relics-claim"
+  ],
+  "contentStatus": "research"
+}

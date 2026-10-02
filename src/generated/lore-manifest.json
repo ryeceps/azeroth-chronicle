@@ -56,6 +56,17 @@
       }
     },
     {
+      "id": "darrowshire-story-theater",
+      "name": "Darrowshire — relational story theater",
+      "slug": "darrowshire-story-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "draenor",
       "name": "Draenor",
       "slug": "draenor",
@@ -563,6 +574,86 @@
         "old-gods-relational-research",
         "azeroth-world-soul-relational-research"
       ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-andorhal-scene",
+      "name": "Darrowshire: Andorhal",
+      "worldspaceId": "darrowshire-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/darrowshire/andorhal.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "CLASSIC PLAGUELANDS · STORY SCENE",
+      "interpretationNote": "Original generated Classic Plaguelands illustration for Andorhal. Recognizable version traits: Classic Andorhal reads as a ruined human town with broken pale civic masonry, low rooftops, farms and plague haze; avoid a towering cathedral or oversized fortress. The scene is interpretive art, not a screenshot, exact model, surveyed coordinate, quest object placement or route. Matching-game-build comparison remains open; see docs/research/darrowshire-lost-and-remembered-visual-assets.json."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-corins-crossing-scene",
+      "name": "Darrowshire: Corin’s Crossing and its nearby waters",
+      "worldspaceId": "darrowshire-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/darrowshire/corins-crossing.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "CLASSIC PLAGUELANDS · STORY SCENE",
+      "interpretationNote": "Original generated Classic Plaguelands illustration for Corin’s Crossing and its nearby waters. Recognizable version traits: Sparse road-crossing ruins, a cold lake, low hills and bare trees in the Eastern Plaguelands. Keep the search site as a landscape, not a pinpoint battlefield reconstruction. The scene is interpretive art, not a screenshot, exact model, surveyed coordinate, quest object placement or route. Matching-game-build comparison remains open; see docs/research/darrowshire-lost-and-remembered-visual-assets.json."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-ruins-scene",
+      "name": "Darrowshire: Darrowshire in the Classic quest era",
+      "worldspaceId": "darrowshire-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/darrowshire/darrowshire-ruins.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "DARROWSHIRE · STORY SCENE",
+      "interpretationNote": "Original generated Classic Plaguelands illustration for Darrowshire in the Classic quest era. Recognizable version traits: The pre-Cataclysm ruin is a small destroyed village of broken timber and pale masonry among diseased grass; no exact building plan or standing battle formation is asserted. The scene is interpretive art, not a screenshot, exact model, surveyed coordinate, quest object placement or route. Matching-game-build comparison remains open; see docs/research/darrowshire-lost-and-remembered-visual-assets.json."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-village-scene",
+      "name": "Darrowshire: Darrowshire before its fall",
+      "worldspaceId": "darrowshire-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/darrowshire/darrowshire-before-scourge.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "DARROWSHIRE · STORY SCENE",
+      "interpretationNote": "Original generated Classic Plaguelands illustration for Darrowshire before its fall. Recognizable version traits: Open rural human village with timber cottages, modest pale stone bases, a central commons and low foothills. Keep the small-scale Classic Plaguelands settlement distinct from a royal city or gothic fortress. The scene is interpretive art, not a screenshot, exact model, surveyed coordinate, quest object placement or route. Matching-game-build comparison remains open; see docs/research/darrowshire-lost-and-remembered-visual-assets.json."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-gahrrons-withering-scene",
+      "name": "Darrowshire: Gahrron’s Withering",
+      "worldspaceId": "darrowshire-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/darrowshire/gahrrons-withering.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "CLASSIC PLAGUELANDS · STORY SCENE",
+      "interpretationNote": "Original generated Classic Plaguelands illustration for Gahrron’s Withering. Recognizable version traits: Classic farm country with a leaning timber barn, broken fence, pale diseased fields and skeletal trees; the recovered shield is a clue, not a surveyed coordinates claim. The scene is interpretive art, not a screenshot, exact model, surveyed coordinate, quest object placement or route. Matching-game-build comparison remains open; see docs/research/darrowshire-lost-and-remembered-visual-assets.json."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-hearthglen-scene",
+      "name": "Darrowshire: Hearthglen",
+      "worldspaceId": "darrowshire-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/darrowshire/hearthglen.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "CLASSIC PLAGUELANDS · STORY SCENE",
+      "interpretationNote": "Original generated Classic Plaguelands illustration for Hearthglen. Recognizable version traits: Classic Hearthglen is a fortified human settlement: pale stone and timber, practical defenses and red-white Scarlet Crusade banners against damaged fields. Do not confuse it with Stormwind Keep. The scene is interpretive art, not a screenshot, exact model, surveyed coordinate, quest object placement or route. Matching-game-build comparison remains open; see docs/research/darrowshire-lost-and-remembered-visual-assets.json."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-lights-hope-chapel-scene",
+      "name": "Darrowshire: Light’s Hope Chapel",
+      "worldspaceId": "darrowshire-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/darrowshire/lights-hope-chapel.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "CLASSIC PLAGUELANDS · STORY SCENE",
+      "interpretationNote": "Original generated Classic Plaguelands illustration for Light’s Hope Chapel. Recognizable version traits: A modest pale-stone chapel among open Eastern Plaguelands fields, with restrained blue and gold accents and a small graveyard; it should not resemble a palace. The scene is interpretive art, not a screenshot, exact model, surveyed coordinate, quest object placement or route. Matching-game-build comparison remains open; see docs/research/darrowshire-lost-and-remembered-visual-assets.json."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-sorrow-hill-scene",
+      "name": "Darrowshire: Sorrow Hill",
+      "worldspaceId": "darrowshire-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/darrowshire/sorrow-hill.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "CLASSIC PLAGUELANDS · STORY SCENE",
+      "interpretationNote": "Original generated Classic Plaguelands illustration for Sorrow Hill. Recognizable version traits: The Western Plaguelands rise and farm country use exposed, diseased grassland, bare timber and low plague haze; keep the memorial country quiet and broad. The scene is interpretive art, not a screenshot, exact model, surveyed coordinate, quest object placement or route. Matching-game-build comparison remains open; see docs/research/darrowshire-lost-and-remembered-visual-assets.json."
     },
     {
       "id": "dungeon-set-two-beasts-chamber-scene",
@@ -2865,6 +2956,362 @@
       "editorNote": "The point makes the source-backed relationship to the central Well legible without claiming a precise settlement or migration track.",
       "labelPriority": 124,
       "visualPresence": "contextual"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-annals-theater",
+      "entityId": "darrowshire-lost-and-remembered-annals",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-annals-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-annals-quest"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-carlin-theater",
+      "entityId": "darrowshire-lost-and-remembered-carlin",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-carlin-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-defenders",
+        "darrowshire-extended-annals",
+        "darrowshire-return-chromie"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-chromie-theater",
+      "entityId": "darrowshire-lost-and-remembered-chromie",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-chromie-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-strange-historian",
+        "darrowshire-annals-quest",
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-marauders",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-corrupted-joseph-theater",
+      "entityId": "darrowshire-lost-and-remembered-corrupted-joseph",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-corrupted-joseph-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-battle-quest"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-davil-theater",
+      "entityId": "darrowshire-lost-and-remembered-davil",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-davil-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-defenders-theater",
+      "entityId": "darrowshire-lost-and-remembered-defenders",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-defenders-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-defenders",
+        "darrowshire-extended-annals",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-doll-theater",
+      "entityId": "darrowshire-lost-and-remembered-doll",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-doll-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-auntie-marlene",
+        "darrowshire-little-pamela",
+        "darrowshire-pamelas-doll",
+        "darrowshire-battle-quest",
+        "darrowshire-hidden-treasures",
+        "darrowshire-classic-chain"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-extended-annals-theater",
+      "entityId": "darrowshire-lost-and-remembered-extended-annals",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-extended-annals-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-extended-annals",
+        "darrowshire-return-chromie"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-horgus-skull-theater",
+      "entityId": "darrowshire-lost-and-remembered-horgus-skull",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-horgus-skull-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-villains"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-horgus-theater",
+      "entityId": "darrowshire-lost-and-remembered-horgus",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-horgus-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes",
+        "darrowshire-villains",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-joseph-theater",
+      "entityId": "darrowshire-lost-and-remembered-joseph",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-joseph-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes",
+        "darrowshire-battle-quest",
+        "darrowshire-hidden-treasures",
+        "darrowshire-classic-chain"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-libram-theater",
+      "entityId": "darrowshire-lost-and-remembered-libram",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-libram-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-marduk-sword-theater",
+      "entityId": "darrowshire-lost-and-remembered-marduk-sword",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-marduk-sword-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-villains"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-marduk-theater",
+      "entityId": "darrowshire-lost-and-remembered-marduk",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-marduk-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-villains",
+        "darrowshire-battle-quest"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-marlene-theater",
+      "entityId": "darrowshire-lost-and-remembered-marlene",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-marlene-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-auntie-marlene",
+        "darrowshire-little-pamela"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-pamela-theater",
+      "entityId": "darrowshire-lost-and-remembered-pamela",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-pamela-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-auntie-marlene",
+        "darrowshire-little-pamela",
+        "darrowshire-pamelas-doll",
+        "darrowshire-battle-quest",
+        "darrowshire-hidden-treasures",
+        "darrowshire-classic-chain"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-relic-bundle-theater",
+      "entityId": "darrowshire-lost-and-remembered-relic-bundle",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-relic-bundle-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-marauders",
+        "darrowshire-extended-annals",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-ring-theater",
+      "entityId": "darrowshire-lost-and-remembered-ring",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-ring-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-strange-historian"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-scourge-theater",
+      "entityId": "darrowshire-lost-and-remembered-scourge",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-scourge-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-marauders",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-shield-theater",
+      "entityId": "darrowshire-lost-and-remembered-shield",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "geometryId": "darrowshire-lost-and-remembered-darrowshire-lost-and-remembered-shield-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "darrowshire-heroes"
+      ],
+      "editorNote": "Editorial placement in a relational Darrowshire theater. This position is not a world coordinate, formation, route, historic co-presence claim or canonical model placement.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
     },
     {
       "id": "dathremar-era-five-spatial-research",
@@ -7242,7 +7689,23 @@
         "tirion-taelan-portrait-recovery-locator",
         "tirion-taelan-find-myranda-locator",
         "tirion-taelan-scarlet-subterfuge-locator",
-        "tirion-taelan-in-dreams-locator"
+        "tirion-taelan-in-dreams-locator",
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes",
+        "darrowshire-auntie-marlene",
+        "darrowshire-little-pamela",
+        "darrowshire-pamelas-doll",
+        "darrowshire-strange-historian",
+        "darrowshire-annals-quest",
+        "darrowshire-defenders",
+        "darrowshire-extended-annals",
+        "darrowshire-villains",
+        "darrowshire-marauders",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest",
+        "darrowshire-hidden-treasures",
+        "darrowshire-classic-chain"
       ],
       "contentStatus": "research"
     },
@@ -7608,7 +8071,12 @@
         "forsaken-emerge-in-lordaeron",
         "illidan-seizes-power-in-outland",
         "illidan-assaults-the-frozen-throne",
-        "arthas-ascends-the-frozen-throne"
+        "arthas-ascends-the-frozen-throne",
+        "darrowshire-lost-and-remembered-annals-date-conflict-event",
+        "darrowshire-lost-and-remembered-horgus-arrives-event",
+        "darrowshire-lost-and-remembered-davil-falls-event",
+        "darrowshire-lost-and-remembered-joseph-corrupted-event",
+        "darrowshire-lost-and-remembered-pamela-hidden-event"
       ],
       "featuredBattleIds": [
         "battle-of-mount-hyjal",
@@ -7622,7 +8090,9 @@
         "blizzard-warcraft-iii-story-so-far",
         "blizzard-warcraft-iii-reforged-overview",
         "blizzard-mount-hyjal-history",
-        "blizzard-burning-crusade-story-so-far"
+        "blizzard-burning-crusade-story-so-far",
+        "darrowshire-annals-book",
+        "darrowshire-battle-history"
       ],
       "contentStatus": "research"
     },
@@ -8127,6 +8597,29 @@
         "asset": "images/storylines/quel-delar-restored/ancient-dragonforged-blades-book.research.webp",
         "scale": 0.72
       }
+    },
+    {
+      "id": "andorhal",
+      "type": "location",
+      "name": "Andorhal",
+      "slug": "andorhal",
+      "shortDescription": "Classic Andorhal reads as a ruined human town with broken pale civic masonry, low rooftops, farms and plague haze; avoid a towering cathedral or oversized fortress.",
+      "body": "Classic Andorhal reads as a ruined human town with broken pale civic masonry, low rooftops, farms and plague haze; avoid a towering cathedral or oversized fortress. Map presentation is relational and interpretive. No exact coordinate, historical route, item position, or client-matched layout is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-strange-historian",
+        "darrowshire-annals-quest",
+        "darrowshire-annals-book",
+        "darrowshire-battle-history"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "classic-plaguelands"
+      ],
+      "contentStatus": "research"
     },
     {
       "id": "anduin-lothar",
@@ -9403,6 +9896,27 @@
       "contentStatus": "research"
     },
     {
+      "id": "corins-crossing",
+      "type": "location",
+      "name": "Corin’s Crossing and its nearby waters",
+      "slug": "corins-crossing",
+      "shortDescription": "Sparse road-crossing ruins, a cold lake, low hills and bare trees in the Eastern Plaguelands. Keep the search site as a landscape, not a pinpoint battlefield reconstruction.",
+      "body": "Sparse road-crossing ruins, a cold lake, low hills and bare trees in the Eastern Plaguelands. Keep the search site as a landscape, not a pinpoint battlefield reconstruction. Map presentation is relational and interpretive. No exact coordinate, historical route, item position, or client-matched layout is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-villains",
+        "darrowshire-marauders"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "classic-plaguelands"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "cosmic-forces",
       "type": "other",
       "name": "The Cosmic Forces",
@@ -9546,6 +10060,597 @@
         "asset": "images/subjects/ancient-civilizations/dark-trolls.research.webp",
         "scale": 0.98
       },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-annals",
+      "type": "artifact",
+      "name": "The Annals of Darrowshire",
+      "slug": "darrowshire-lost-and-remembered-annals",
+      "shortDescription": "A worn book of village history; no legible page text is reproduced.",
+      "body": "A worn book of village history; no legible page text is reproduced. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-annals-quest"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/darrowshire/annals-of-darrowshire.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-carlin",
+      "type": "character",
+      "name": "Uncle Carlin Redpath",
+      "slug": "darrowshire-lost-and-remembered-carlin",
+      "shortDescription": "An older human man in practical travel-worn clothes, rendered as a present-day relative and witness, not a combat hero.",
+      "body": "An older human man in practical travel-worn clothes, rendered as a present-day relative and witness, not a combat hero. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-defenders",
+        "darrowshire-extended-annals",
+        "darrowshire-return-chromie"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/darrowshire/carlin-redpath.research.webp",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-chromie",
+      "type": "character",
+      "name": "Chromie",
+      "slug": "darrowshire-lost-and-remembered-chromie",
+      "shortDescription": "A small bronze dragon in gnome form, attentive historian with subtle bronze scales and simple traveling clothes. Original interpretation of the Classic NPC, not canonical model art.",
+      "body": "A small bronze dragon in gnome form, attentive historian with subtle bronze scales and simple traveling clothes. Original interpretation of the Classic NPC, not canonical model art. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-strange-historian",
+        "darrowshire-annals-quest",
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-marauders",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/darrowshire/chromie.research.webp",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-corrupted-joseph",
+      "type": "character",
+      "name": "Redpath the Corrupted",
+      "slug": "darrowshire-lost-and-remembered-corrupted-joseph",
+      "shortDescription": "A spectral Captain Joseph under Scourge corruption: recognizable militia silhouette overtaken by cold green necromantic light. The generated transformation is interpretive, not an exact model.",
+      "body": "A spectral Captain Joseph under Scourge corruption: recognizable militia silhouette overtaken by cold green necromantic light. The generated transformation is interpretive, not an exact model. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-battle-quest"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/darrowshire/redpath-the-corrupted.research.webp",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil",
+      "type": "character",
+      "name": "Davil Lightfire / Davil Crokford",
+      "slug": "darrowshire-lost-and-remembered-davil",
+      "shortDescription": "A village defender carrying a simple sword and modest shield, depicted as an adult human militia fighter. The Annals and quest/history pages vary between Crokford and Lightfire; this is a source-name variant, not proof they are different people.",
+      "body": "A village defender carrying a simple sword and modest shield, depicted as an adult human militia fighter. The Annals and quest/history pages vary between Crokford and Lightfire; this is a source-name variant, not proof they are different people. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/darrowshire/davil-lightfire.research.webp",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-defenders",
+      "type": "faction",
+      "name": "The Defenders of Darrowshire",
+      "slug": "darrowshire-lost-and-remembered-defenders",
+      "shortDescription": "A small ensemble of bound village spirits: human defenders in worn rural militia clothes, shown as a group with spectral chains/light. The image does not assert an exact roster or casualty count.",
+      "body": "A small ensemble of bound village spirits: human defenders in worn rural militia clothes, shown as a group with spectral chains/light. The image does not assert an exact roster or casualty count. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-defenders",
+        "darrowshire-extended-annals",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/darrowshire/darrowshire-defenders.research.webp",
+        "scale": 1.25
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-doll",
+      "type": "artifact",
+      "name": "Pamela’s Doll",
+      "slug": "darrowshire-lost-and-remembered-doll",
+      "shortDescription": "A small cloth child’s doll with stitched features and worn fabric. Its simple, cherished role is source-supported; exact toy design is interpretive.",
+      "body": "A small cloth child’s doll with stitched features and worn fabric. Its simple, cherished role is source-supported; exact toy design is interpretive. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-auntie-marlene",
+        "darrowshire-little-pamela",
+        "darrowshire-pamelas-doll",
+        "darrowshire-battle-quest",
+        "darrowshire-hidden-treasures",
+        "darrowshire-classic-chain"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/darrowshire/pamelas-doll.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-extended-annals",
+      "type": "artifact",
+      "name": "Extended Annals of Darrowshire",
+      "slug": "darrowshire-lost-and-remembered-extended-annals",
+      "shortDescription": "A second, larger historical volume associated with Carlin and the battle replay; no legible page text is reproduced.",
+      "body": "A second, larger historical volume associated with Carlin and the battle replay; no legible page text is reproduced. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-extended-annals",
+        "darrowshire-return-chromie"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/darrowshire/extended-annals-of-darrowshire.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-horgus-skull",
+      "type": "artifact",
+      "name": "Skull attributed to Horgus",
+      "slug": "darrowshire-lost-and-remembered-horgus-skull",
+      "shortDescription": "An ancient undead skull used by the quest as a relic clue; its naming follows the quest locator and does not prove exact remains.",
+      "body": "An ancient undead skull used by the quest as a relic clue; its naming follows the quest locator and does not prove exact remains. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-villains"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/darrowshire/horgus-skull.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-horgus",
+      "type": "character",
+      "name": "Horgus the Ravager",
+      "slug": "darrowshire-lost-and-remembered-horgus",
+      "shortDescription": "An imposing Scourge-aligned undead warrior with rough dark armor and a heavy blade, distinct from the human militia. Exact creature model and battle dress remain open.",
+      "body": "An imposing Scourge-aligned undead warrior with rough dark armor and a heavy blade, distinct from the human militia. Exact creature model and battle dress remain open. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes",
+        "darrowshire-villains",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/darrowshire/horgus-the-ravager.research.webp",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-joseph",
+      "type": "character",
+      "name": "Captain Joseph Redpath",
+      "slug": "darrowshire-lost-and-remembered-joseph",
+      "shortDescription": "Human village captain in practical worn militia armor with a modest shield; represented before and during the battle and as a spectral father. Avoid royal insignia or embellished commander armor.",
+      "body": "Human village captain in practical worn militia armor with a modest shield; represented before and during the battle and as a spectral father. Avoid royal insignia or embellished commander armor. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes",
+        "darrowshire-battle-quest",
+        "darrowshire-hidden-treasures",
+        "darrowshire-classic-chain"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/darrowshire/joseph-redpath.research.webp",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-libram",
+      "type": "artifact",
+      "name": "Davil Lightfire’s Libram",
+      "slug": "darrowshire-lost-and-remembered-libram",
+      "shortDescription": "A worn bound religious book attributed by the quest to Davil Lightfire; the attribution and spelling remain source-variant evidence.",
+      "body": "A worn bound religious book attributed by the quest to Davil Lightfire; the attribution and spelling remain source-variant evidence. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/darrowshire/davil-libram.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marduk-sword",
+      "type": "artifact",
+      "name": "Shattered sword attributed to Marduk",
+      "slug": "darrowshire-lost-and-remembered-marduk-sword",
+      "shortDescription": "A broken dark blade used as a relic clue; its connection follows the quest account, not archaeological verification.",
+      "body": "A broken dark blade used as a relic clue; its connection follows the quest account, not archaeological verification. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-villains"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/darrowshire/shattered-sword-of-marduk.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marduk",
+      "type": "character",
+      "name": "Marduk the Black / Marduk Blackpool",
+      "slug": "darrowshire-lost-and-remembered-marduk",
+      "shortDescription": "A sinister Scourge commander in dark practical armor with green plague light. The Annals, quest and secondary history differ in name form; retain both until client review.",
+      "body": "A sinister Scourge commander in dark practical armor with green plague light. The Annals, quest and secondary history differ in name form; retain both until client review. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-villains",
+        "darrowshire-battle-quest"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/darrowshire/marduk-the-black.research.webp",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marlene",
+      "type": "character",
+      "name": "Auntie Marlene Redpath",
+      "slug": "darrowshire-lost-and-remembered-marlene",
+      "shortDescription": "An older human woman represented as a translucent village spirit in modest rural clothes, with a steady and grieving expression. Costume and likeness are interpretive.",
+      "body": "An older human woman represented as a translucent village spirit in modest rural clothes, with a steady and grieving expression. Costume and likeness are interpretive. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-auntie-marlene",
+        "darrowshire-little-pamela"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/darrowshire/marlene-redpath.research.webp",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela",
+      "type": "character",
+      "name": "Pamela Redpath",
+      "slug": "darrowshire-lost-and-remembered-pamela",
+      "shortDescription": "A young human child shown as a spirit in the quest-era scenes; warm brown hair, simple practical dress and clear, gentle spectral light. Her identity is explicit; exact age, face and costume are interpretive.",
+      "body": "A young human child shown as a spirit in the quest-era scenes; warm brown hair, simple practical dress and clear, gentle spectral light. Her identity is explicit; exact age, face and costume are interpretive. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-auntie-marlene",
+        "darrowshire-little-pamela",
+        "darrowshire-pamelas-doll",
+        "darrowshire-battle-quest",
+        "darrowshire-hidden-treasures",
+        "darrowshire-classic-chain"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/darrowshire/pamela-redpath.research.webp",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-relic-bundle",
+      "type": "artifact",
+      "name": "Bundle of relics and mystic crystal",
+      "slug": "darrowshire-lost-and-remembered-relic-bundle",
+      "shortDescription": "A bundled assembly of recovered relics and a crystal in original interpretive design. It signifies the spell’s ingredients, not an artifact inventory verified by independent sources.",
+      "body": "A bundled assembly of recovered relics and a crystal in original interpretive design. It signifies the spell’s ingredients, not an artifact inventory verified by independent sources. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-marauders",
+        "darrowshire-extended-annals",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/darrowshire/bundle-of-relics.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-ring",
+      "type": "artifact",
+      "name": "Joseph’s wedding ring",
+      "slug": "darrowshire-lost-and-remembered-ring",
+      "shortDescription": "A plain worn gold band, a family keepsake and clue in the chain. No inscription or exact model is asserted.",
+      "body": "A plain worn gold band, a family keepsake and clue in the chain. No inscription or exact model is asserted. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-strange-historian"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/darrowshire/josephs-wedding-ring.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-scourge",
+      "type": "faction",
+      "name": "Scourge attackers",
+      "slug": "darrowshire-lost-and-remembered-scourge",
+      "shortDescription": "Original ensemble of four varied undead soldiers with rusted armor, ragged dark cloth and green plague eyes. Interpretive group art, not an exact count or canonical unit model.",
+      "body": "Original ensemble of four varied undead soldiers with rusted armor, ragged dark cloth and green plague eyes. Interpretive group art, not an exact count or canonical unit model. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-marauders",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/darrowshire/darrowshire-scourge.research.webp",
+        "scale": 1.55
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-shield",
+      "type": "artifact",
+      "name": "Joseph Redpath’s broken shield",
+      "slug": "darrowshire-lost-and-remembered-shield",
+      "shortDescription": "A cracked human militia shield recovered as a historical relic; heraldry and exact item model remain open.",
+      "body": "A cracked human militia shield recovered as a historical relic; heraldry and exact item model remain open. Original interpretive art, not official game art or evidence of canonical appearance. See the visual ledger for comparison limits.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-heroes"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/darrowshire/redpath-shield.research.webp",
+        "scale": 0.68
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-ruins",
+      "type": "location",
+      "name": "Darrowshire in the Classic quest era",
+      "slug": "darrowshire-ruins",
+      "shortDescription": "The pre-Cataclysm ruin is a small destroyed village of broken timber and pale masonry among diseased grass; no exact building plan or standing battle formation is asserted.",
+      "body": "The pre-Cataclysm ruin is a small destroyed village of broken timber and pale masonry among diseased grass; no exact building plan or standing battle formation is asserted. Map presentation is relational and interpretive. No exact coordinate, historical route, item position, or client-matched layout is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes",
+        "darrowshire-little-pamela",
+        "darrowshire-pamelas-doll",
+        "darrowshire-battle-quest",
+        "darrowshire-hidden-treasures",
+        "darrowshire-classic-chain"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "classic-plaguelands"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-village",
+      "type": "location",
+      "name": "Darrowshire before its fall",
+      "slug": "darrowshire-village",
+      "shortDescription": "Open rural human village with timber cottages, modest pale stone bases, a central commons and low foothills. Keep the small-scale Classic Plaguelands settlement distinct from a royal city or gothic fortress.",
+      "body": "Open rural human village with timber cottages, modest pale stone bases, a central commons and low foothills. Keep the small-scale Classic Plaguelands settlement distinct from a royal city or gothic fortress. Map presentation is relational and interpretive. No exact coordinate, historical route, item position, or client-matched layout is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes",
+        "darrowshire-little-pamela",
+        "darrowshire-pamelas-doll",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest",
+        "darrowshire-hidden-treasures",
+        "darrowshire-classic-chain"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "classic-plaguelands"
+      ],
       "contentStatus": "research"
     },
     {
@@ -10307,6 +11412,26 @@
       "contentStatus": "research"
     },
     {
+      "id": "gahrrons-withering",
+      "type": "location",
+      "name": "Gahrron’s Withering",
+      "slug": "gahrrons-withering",
+      "shortDescription": "Classic farm country with a leaning timber barn, broken fence, pale diseased fields and skeletal trees; the recovered shield is a clue, not a surveyed coordinates claim.",
+      "body": "Classic farm country with a leaning timber barn, broken fence, pale diseased fields and skeletal trees; the recovered shield is a clue, not a surveyed coordinates claim. Map presentation is relational and interpretive. No exact coordinate, historical route, item position, or client-matched layout is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-heroes"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "classic-plaguelands"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "galvan-ancient",
       "type": "character",
       "name": "Galvan the Ancient",
@@ -10677,19 +11802,22 @@
       "type": "location",
       "name": "Hearthglen",
       "slug": "hearthglen",
-      "shortDescription": "A fortified human settlement in the Western Plaguelands under the Scarlet Crusade during this quest chain.",
-      "body": "A fortified human settlement in the Western Plaguelands under the Scarlet Crusade during this quest chain. Map placement is broad and interpretive. The story does not assert exact coordinates, a route or an exact instance layout.",
+      "shortDescription": "Classic Hearthglen is a fortified human settlement: pale stone and timber, practical defenses and red-white Scarlet Crusade banners against damaged fields. Do not confuse it with Stormwind Keep.",
+      "body": "Classic Hearthglen is a fortified human settlement: pale stone and timber, practical defenses and red-white Scarlet Crusade banners against damaged fields. Do not confuse it with Stormwind Keep. Map presentation is relational and interpretive. No exact coordinate, historical route, item position, or client-matched layout is asserted.",
       "firstEraId": "age-of-adventurers",
       "featuredEraIds": [
         "age-of-adventurers"
       ],
       "sourceIds": [
         "tirion-taelan-scarlet-subterfuge-locator",
-        "tirion-taelan-in-dreams-locator"
+        "tirion-taelan-in-dreams-locator",
+        "darrowshire-heroes"
       ],
       "tags": [
         "tirion-taelan-story",
-        "classic-era-location"
+        "classic-era-location",
+        "darrowshire-story",
+        "classic-plaguelands"
       ],
       "contentStatus": "research"
     },
@@ -11806,6 +12934,28 @@
         "light",
         "shadow",
         "void"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "lights-hope-chapel",
+      "type": "location",
+      "name": "Light’s Hope Chapel",
+      "slug": "lights-hope-chapel",
+      "shortDescription": "A modest pale-stone chapel among open Eastern Plaguelands fields, with restrained blue and gold accents and a small graveyard; it should not resemble a palace.",
+      "body": "A modest pale-stone chapel among open Eastern Plaguelands fields, with restrained blue and gold accents and a small graveyard; it should not resemble a palace. Map presentation is relational and interpretive. No exact coordinate, historical route, item position, or client-matched layout is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-defenders",
+        "darrowshire-extended-annals",
+        "darrowshire-return-chromie"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "classic-plaguelands"
       ],
       "contentStatus": "research"
     },
@@ -13955,6 +15105,28 @@
         "asset": "images/storylines/tirion-taelan/silver-hand-insignia.research.webp",
         "scale": 0.72
       },
+      "contentStatus": "research"
+    },
+    {
+      "id": "sorrow-hill",
+      "type": "location",
+      "name": "Sorrow Hill",
+      "slug": "sorrow-hill",
+      "shortDescription": "The Western Plaguelands rise and farm country use exposed, diseased grassland, bare timber and low plague haze; keep the memorial country quiet and broad.",
+      "body": "The Western Plaguelands rise and farm country use exposed, diseased grassland, bare timber and low plague haze; keep the memorial country quiet and broad. Map presentation is relational and interpretive. No exact coordinate, historical route, item position, or client-matched layout is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-auntie-marlene",
+        "darrowshire-little-pamela"
+      ],
+      "tags": [
+        "darrowshire-story",
+        "classic-plaguelands"
+      ],
       "contentStatus": "research"
     },
     {
@@ -16778,6 +17950,607 @@
       ],
       "claimIds": [
         "dark-trolls-settle-event-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-annals-date-conflict-event",
+      "kind": "event",
+      "name": "Flashback · Era 7 — The date the Annals give",
+      "slug": "darrowshire-lost-and-remembered-annals-date-conflict",
+      "eraId": "third-war-frozen-throne",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Third War historical prologue · exact date disputed in the Annals"
+      },
+      "summary": "The Annals begin in a village under threat, but their first date creates a problem this telling will not smooth away. The book says the Scourge was rampaging in the middle of the Second War; another historical account places Darrowshire’s fall in the Third War. The Third War frame is used here because the named Scourge war belongs to that later crisis, while the Annals’ wording remains visible as a contradiction in the record. The village is small and rural, its fate more certain than its date.",
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-scourge",
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-davil",
+        "darrowshire-lost-and-remembered-annals"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-annals-date-conflict-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-annals-read-event",
+      "kind": "event",
+      "name": "The Annals keep a broken date",
+      "slug": "darrowshire-lost-and-remembered-annals-read",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "The Annals give the visitor a written account of Darrowshire’s last battle, including the Second War date that cannot be reconciled here with a Scourge attack in the Third War. This telling cites the book as evidence and labels its chronology disputed rather than silently repairing it. The recollection of combat may preserve names and sequence while the date has been miscopied, retconned, or framed differently; the sources consulted do not let us choose among those explanations.",
+      "locationIds": [
+        "andorhal"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-chromie",
+        "darrowshire-lost-and-remembered-annals"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-quest",
+        "darrowshire-annals-book",
+        "darrowshire-battle-history"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-annals-read-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-carlin-witness-event",
+      "kind": "event",
+      "name": "Carlin and the bound defenders",
+      "slug": "darrowshire-lost-and-remembered-carlin-witness",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "At Light’s Hope Chapel, Carlin remembers the people of the village and asks that the dead defenders be freed from Scourge service. The quest records a group of spirits bound in hostile forms; its objective count belongs to play mechanics, not a census of everyone who lived or died. The modest chapel in the open Plaguelands gives this act a place of witness, while the spirits’ exact appearance and number remain unknown.",
+      "locationIds": [
+        "lights-hope-chapel"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-carlin",
+        "darrowshire-lost-and-remembered-defenders"
+      ],
+      "sourceIds": [
+        "darrowshire-defenders",
+        "darrowshire-extended-annals"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-carlin-witness-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil-and-horgus-event",
+      "kind": "event",
+      "name": "Davil survives Horgus",
+      "slug": "darrowshire-lost-and-remembered-davil-and-horgus",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "In the quest’s reenacted battle, Davil is to endure until Horgus is slain. The task reverses the fatal pattern recorded in the Annals without pretending that every part of the old account has been repaired. The defender and the Scourge champion meet in a staged scene, not a recovered battle plan. This moment marks the specific loss the quest allows its visitor to prevent in the remembered battle.",
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-davil",
+        "darrowshire-lost-and-remembered-horgus",
+        "darrowshire-lost-and-remembered-defenders"
+      ],
+      "sourceIds": [
+        "darrowshire-battle-quest"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-davil-and-horgus-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil-falls-event",
+      "kind": "event",
+      "name": "Davil’s last stand",
+      "slug": "darrowshire-lost-and-remembered-davil-falls",
+      "eraId": "third-war-frozen-throne",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Third War historical prologue · exact date disputed in the Annals"
+      },
+      "summary": "Davil fights Horgus and the Annals say he strikes the Scourge champion down, only to die of his own wounds. Later sources call this defender Davil Lightfire in the quest and Davil Crokford in the book and history summary. The story holds both names together as a textual variant pending client comparison. His later libram is treated as a memorial clue; the search quest does not establish where it rested during the original battle.",
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-davil",
+        "darrowshire-lost-and-remembered-horgus",
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-libram"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-davil-falls-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil-libram-event",
+      "kind": "event",
+      "name": "Davil’s libram at Hearthglen",
+      "slug": "darrowshire-lost-and-remembered-davil-libram",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "The Heroes quest associates Davil Lightfire’s libram with Hearthglen, carrying a trace of the defender into the fortified human town. Its pale stone and red-white Scarlet banners identify Classic Hearthglen without turning it into Stormwind’s blue-and-gold keep. The book is a recovered clue attributed to Davil, not proof of its exact earlier route or of every hand through which it passed.",
+      "locationIds": [
+        "hearthglen"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-davil",
+        "darrowshire-lost-and-remembered-libram"
+      ],
+      "sourceIds": [
+        "darrowshire-heroes"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-davil-libram-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-extended-account-event",
+      "kind": "event",
+      "name": "Carlin’s extended account",
+      "slug": "darrowshire-lost-and-remembered-extended-account",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "Carlin provides the extended account and the accumulated relics pass back to Chromie. The text describes a plan to revisit the battle and correct its consequences, but the quest delegates the historical decision to a time spell rather than explaining its larger metaphysics. This gathered bundle is a narrative device supported by quest order; the exact composition of every piece and the intervention’s limits are not independently established.",
+      "locationIds": [
+        "lights-hope-chapel"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-carlin",
+        "darrowshire-lost-and-remembered-extended-annals",
+        "darrowshire-lost-and-remembered-relic-bundle"
+      ],
+      "sourceIds": [
+        "darrowshire-extended-annals",
+        "darrowshire-return-chromie"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-extended-account-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-family-homecoming-event",
+      "kind": "event",
+      "name": "Pamela hears the battle end",
+      "slug": "darrowshire-lost-and-remembered-family-homecoming",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "After the fighting, the quest brings Joseph’s spirit to Pamela, and the child speaks as if her father will come home. The account presents their reunion as the battle’s remembered resolution; the deeper effect of Chromie’s spell on a lasting timeline remains uncertain. Pamela then entrusts the traveler with a key to a chest behind the house. Her small act of welcome closes the chain with an image of homecoming, while the village’s original loss remains part of the record.",
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-pamela",
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-doll"
+      ],
+      "sourceIds": [
+        "darrowshire-battle-quest",
+        "darrowshire-hidden-treasures",
+        "darrowshire-classic-chain"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-family-homecoming-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-heroes-relics-event",
+      "kind": "event",
+      "name": "Joseph’s shield at the ruined farm",
+      "slug": "darrowshire-lost-and-remembered-heroes-relics",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "A separate relic leads to Gahrron’s Withering, where the quest locates Joseph Redpath’s broken shield near a ruined farm. Its damage speaks to the village captain’s remembered role, but the object alone cannot tell how or when it was lost. Here the Plaguelands narrow from the fortified town to a leaning barn, broken fence and pallid field: a rural clue, not a complete account of the battle.",
+      "locationIds": [
+        "gahrrons-withering"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-shield"
+      ],
+      "sourceIds": [
+        "darrowshire-heroes"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-heroes-relics-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-horgus-arrives-event",
+      "kind": "event",
+      "name": "Horgus enters the battle",
+      "slug": "darrowshire-lost-and-remembered-horgus-arrives",
+      "eraId": "third-war-frozen-throne",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Third War historical prologue · exact date disputed in the Annals"
+      },
+      "summary": "The account names Horgus the Ravager among the Scourge force that reaches Darrowshire. Captain Joseph Redpath and Davil lead the village’s defense in the story remembered by the later questline. We can show a small settlement meeting an invading force; we cannot recover its exact formation, the number of attackers, or the moment each defender first fell. The landscape is rendered as the fragile home at stake, not as a measured battlefield plan.",
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-horgus",
+        "darrowshire-lost-and-remembered-scourge",
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-davil"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-horgus-arrives-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-joseph-corrupted-event",
+      "kind": "event",
+      "name": "Marduk turns Joseph",
+      "slug": "darrowshire-lost-and-remembered-joseph-corrupted",
+      "eraId": "third-war-frozen-throne",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Third War historical prologue · exact date disputed in the Annals"
+      },
+      "summary": "After Davil’s fall, the Annals say Marduk the Black corrupts Joseph Redpath. The village captain becomes a danger to the people he led, and the account ends in Darrowshire’s destruction. The secondary history calls Marduk Blackpool. The two forms may reflect a naming variation, but the evidence gathered here does not settle it. Nor can the broad massacre account tell us the position or final moment of every villager.",
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-marduk",
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-corrupted-joseph",
+        "darrowshire-lost-and-remembered-scourge"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-joseph-corrupted-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marauders-crystal-event",
+      "kind": "event",
+      "name": "The crystal answers the skulls",
+      "slug": "darrowshire-lost-and-remembered-marauders-crystal",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "A mystic crystal responds to five skulls associated by the quest with Scourge that took part in the assault. Their collection is a gameplay task, so it cannot be read as a definitive list of every enemy or a complete battle roster. It adds another layer to Chromie’s reconstruction: selected remains, a remembered account, and relics tied to those who fought. The exact mechanism of the crystal is not explained beyond its use in the quest.",
+      "locationIds": [
+        "corins-crossing"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-chromie",
+        "darrowshire-lost-and-remembered-scourge",
+        "darrowshire-lost-and-remembered-relic-bundle"
+      ],
+      "sourceIds": [
+        "darrowshire-marauders"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-marauders-crystal-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marlene-seeks-event",
+      "kind": "event",
+      "name": "Era 8 — Marlene’s request",
+      "slug": "darrowshire-lost-and-remembered-marlene-seeks",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "In the later Classic quest, a wandering spirit named Marlene asks for help finding Pamela. The road begins in the Plaguelands of another age, where the old village no longer stands whole. This is investigation, not the battle itself: every witness and object will be encountered through the quest’s present-day search. The adventurer remains unnamed, and the order of errands records how the game guides that search, not a known calendar.",
+      "locationIds": [
+        "sorrow-hill"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-marlene"
+      ],
+      "sourceIds": [
+        "darrowshire-little-pamela"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-marlene-seeks-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marlene-tells-truth-event",
+      "kind": "event",
+      "name": "The truth Marlene cannot give Pamela",
+      "slug": "darrowshire-lost-and-remembered-marlene-tells-truth",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "Marlene’s account says Pamela died, while Joseph’s fate leads toward the battle’s corrupted captain. Yet she cannot bring herself to tell the child the whole truth. Her silence is a choice in the quest’s present, shaped by the family’s grief; no hidden motive beyond that account is supplied. The village story now has two witnesses at different distances from the event: a child asking, and an aunt carrying an answer she cannot speak.",
+      "locationIds": [
+        "sorrow-hill"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-marlene"
+      ],
+      "sourceIds": [
+        "darrowshire-auntie-marlene"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-marlene-tells-truth-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela-and-doll-event",
+      "kind": "event",
+      "name": "The doll among the ruins",
+      "slug": "darrowshire-lost-and-remembered-pamela-and-doll",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "Pamela appears among the ruined homes, still waiting in the world her family lost. Her doll is missing, and the quest sends the visitor through the broken settlement to recover its scattered parts. The action belongs to the Classic investigation; it does not establish that the doll lay in these exact visible stones or that the child’s spirit understands the history around her. The small object makes a vast catastrophe personal.",
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-pamela",
+        "darrowshire-lost-and-remembered-doll"
+      ],
+      "sourceIds": [
+        "darrowshire-little-pamela",
+        "darrowshire-pamelas-doll"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-pamela-and-doll-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela-asks-event",
+      "kind": "event",
+      "name": "Pamela asks for her family",
+      "slug": "darrowshire-lost-and-remembered-pamela-asks",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "With the doll restored, Pamela’s questions turn toward her parents and the home she remembers. The quest lets the child’s request lead the investigation onward; it does not give the unnamed traveler a private biography or a new place in the Redpath family. We keep the scene quiet: a remembered child, a found keepsake, and an answer that only relatives and the old records can begin to provide.",
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-pamela",
+        "darrowshire-lost-and-remembered-doll"
+      ],
+      "sourceIds": [
+        "darrowshire-pamelas-doll"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-pamela-asks-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela-hidden-event",
+      "kind": "event",
+      "name": "A child hidden from the battle",
+      "slug": "darrowshire-lost-and-remembered-pamela-hidden",
+      "eraId": "third-war-frozen-throne",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Third War historical prologue · exact date disputed in the Annals"
+      },
+      "summary": "The later quest gives a more intimate memory: Marlene says she hid Pamela when the fighting came. That account sits uneasily beside the Annals’ sweeping language that the village was destroyed and its inhabitants slain. The story keeps the difference open. Marlene’s report explains why Pamela is encountered as a child’s spirit, but neither source offers an independent account of how every resident met their end.",
+      "locationIds": [
+        "sorrow-hill"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-marlene",
+        "darrowshire-lost-and-remembered-pamela",
+        "darrowshire-lost-and-remembered-doll"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-auntie-marlene"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-pamela-hidden-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-redpath-corrupted-event",
+      "kind": "event",
+      "name": "The captain falls to corruption",
+      "slug": "darrowshire-lost-and-remembered-redpath-corrupted",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "The second condition cannot be avoided: Joseph must live long enough to become corrupted, and then the visitor must defeat Redpath the Corrupted. Marduk’s role belongs to the Annals’ account; the quest objectives do not show every cause in the reenactment. The story keeps Joseph’s change distinct from Davil’s survival, so the battle’s altered course does not collapse into a claim that no one was lost or that the Scourge never reached Darrowshire.",
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-marduk",
+        "darrowshire-lost-and-remembered-corrupted-joseph",
+        "darrowshire-lost-and-remembered-pamela"
+      ],
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-quest"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-redpath-corrupted-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-replay-begins-event",
+      "kind": "event",
+      "name": "The battle is called back",
+      "slug": "darrowshire-lost-and-remembered-replay-begins",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "Chromie’s spell returns the traveler to a reenactment of Darrowshire’s battle. The scene is explicitly a remembered, playable past, separated from the present-day investigation. Its instructions focus on outcomes: Davil must remain alive until Horgus falls, and Joseph must live long enough to be corrupted before the corrupted captain is defeated. The quest therefore offers a limited correction inside the replay; it does not erase the evidence that the original village was destroyed.",
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-chromie",
+        "darrowshire-lost-and-remembered-defenders",
+        "darrowshire-lost-and-remembered-scourge",
+        "darrowshire-lost-and-remembered-davil",
+        "darrowshire-lost-and-remembered-horgus",
+        "darrowshire-lost-and-remembered-relic-bundle"
+      ],
+      "sourceIds": [
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-replay-begins-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-villains-relics-event",
+      "kind": "event",
+      "name": "The skull and the shattered blade",
+      "slug": "darrowshire-lost-and-remembered-villains-relics",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "The first relic trail turns toward the remembered villains. The quest associates a skull with Horgus and a broken sword with Marduk, leading the search to different places around the Plaguelands. These are clues chosen by a historical investigation, not excavated proof that the objects lay exactly where the illustration places them. The broken weapon gives Marduk a material trace even while the Annals’ version of his name remains unsettled.",
+      "locationIds": [
+        "corins-crossing"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-horgus",
+        "darrowshire-lost-and-remembered-marduk",
+        "darrowshire-lost-and-remembered-horgus-skull",
+        "darrowshire-lost-and-remembered-marduk-sword"
+      ],
+      "sourceIds": [
+        "darrowshire-villains"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-villains-relics-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-wedding-ring-event",
+      "kind": "event",
+      "name": "A ring and a historian",
+      "slug": "darrowshire-lost-and-remembered-wedding-ring",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "darrowshire-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+      },
+      "summary": "A wedding ring becomes the clue that turns a family search toward history. The quest brings the object to Chromie, a bronze dragon who has taken the form of a gnome historian in Andorhal. This small ruined town supplies a believable Classic Plaguelands setting, though the quest does not chart the traveler’s road. The ring binds the family question to Chromie’s larger interest in a battle the living can no longer visit directly.",
+      "locationIds": [
+        "andorhal"
+      ],
+      "participantEntityIds": [
+        "darrowshire-lost-and-remembered-chromie",
+        "darrowshire-lost-and-remembered-ring"
+      ],
+      "sourceIds": [
+        "darrowshire-strange-historian"
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-wedding-ring-claim"
       ],
       "contentStatus": "research"
     },
@@ -26256,6 +28029,118 @@
       "notes": "First-party Blizzard overview: https://worldofwarcraft.blizzard.com/en-us/news/23850850. Supports Icecrown as the Lich King's seat and the broad campaign toward a final confrontation."
     },
     {
+      "id": "darrowshire-annals-book",
+      "title": "The Annals of Darrowshire (book transcription)",
+      "url": "https://warcraft.wiki.gg/wiki/The_Annals_of_Darrowshire",
+      "sourceType": "other",
+      "notes": "Accessed 2026-10-02. Secondary reproduction of the in-game book. The text dates Scourge attacks to the middle of the Second War, a chronology conflict retained in this story. It is not an original-client capture."
+    },
+    {
+      "id": "darrowshire-annals-quest",
+      "title": "The Annals of Darrowshire (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/The_Annals_of_Darrowshire",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary book and quest reproduction. Treat the book’s date as a disputed source claim, not a settled era label."
+    },
+    {
+      "id": "darrowshire-auntie-marlene",
+      "title": "Auntie Marlene (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/Auntie_Marlene",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary reproduction for Marlene’s account, Pamela’s death and Joseph’s reported fate. Exact wording needs in-client comparison."
+    },
+    {
+      "id": "darrowshire-battle-history",
+      "title": "Battle of Darrowshire (historical summary)",
+      "url": "https://warcraft.wiki.gg/wiki/Battle_of_Darrowshire",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-02. Secondary summary frames the fall during the Third War and uses names including Davil Crokford and Marduk Blackpool. It is not an original-client source."
+    },
+    {
+      "id": "darrowshire-battle-quest",
+      "title": "The Battle of Darrowshire (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/The_Battle_of_Darrowshire_(quest)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary objective and completion-text reproduction. The battle is a quest replay. Its resolution is presented as the account the quest offers, not a verified permanent rewrite of every timeline."
+    },
+    {
+      "id": "darrowshire-classic-chain",
+      "title": "Rewriting the Battle of Darrowshire quest chain (Classic)",
+      "url": "https://warcraft.wiki.gg/wiki/Rewriting_the_Battle_of_Darrowshire_quest_chain_(Classic)",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-02. Secondary Classic chain guide. Used to locate dependency and branch order; quest dependencies establish play sequence, not exact chronology."
+    },
+    {
+      "id": "darrowshire-defenders",
+      "title": "Defenders of Darrowshire (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/Defenders_of_Darrowshire_(Classic)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary objective reproduction describes release of bound Darrowshire spirits. The number is a quest objective, not a historical casualty count."
+    },
+    {
+      "id": "darrowshire-extended-annals",
+      "title": "Extended Annals of Darrowshire (quest transcription)",
+      "url": "https://warcraft.wiki.gg/wiki/Brother_Carlin",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary quest-text reproduction and locator. It links Carlin, the extended account and Chromie’s proposed temporal intervention; compare with the intended Classic client."
+    },
+    {
+      "id": "darrowshire-heroes",
+      "title": "Heroes of Darrowshire (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/Heroes_of_Darrowshire_(Classic)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary quest reproduction locates a libram attributed to Davil Lightfire and a damaged Redpath shield."
+    },
+    {
+      "id": "darrowshire-hidden-treasures",
+      "title": "Hidden Treasures (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/Eastern_Plaguelands_quests",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-02. Eastern Plaguelands quest index confirms the quest follows The Battle of Darrowshire and is given by Pamela in Darrowshire. The exact completion text still needs client capture."
+    },
+    {
+      "id": "darrowshire-little-pamela",
+      "title": "Little Pamela (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/Little_Pamela_(Classic)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary locator for Marlene’s request and Pamela’s search. Original client and build comparison remains open."
+    },
+    {
+      "id": "darrowshire-marauders",
+      "title": "Marauders of Darrowshire (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/Marauders_of_Darrowshire_(Classic)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary reproduction describes a crystal’s response to five skulls associated with Scourge participants. Collection requirements are gameplay, not a battle roster."
+    },
+    {
+      "id": "darrowshire-pamelas-doll",
+      "title": "Pamela’s Doll (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/Pamela%27s_Doll_(quest)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary reproduction locates recovery of the doll in the ruins. Repeatable combat mechanics are not treated as historic events."
+    },
+    {
+      "id": "darrowshire-return-chromie",
+      "title": "Return to Chromie (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/Return_to_Chromie",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary quest reproduction for delivery of the relic bundle and temporal preparation."
+    },
+    {
+      "id": "darrowshire-strange-historian",
+      "title": "A Strange Historian (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/A_Strange_Historian_(Classic)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary quest reproduction places a wedding ring in the chain and identifies Chromie at Andorhal; quest dependency is not a geographical travel route."
+    },
+    {
+      "id": "darrowshire-villains",
+      "title": "Villains of Darrowshire (Classic quest locator)",
+      "url": "https://warcraft.wiki.gg/wiki/Villains_of_Darrowshire_(Classic)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary objective reproduction locates the skull attributed to Horgus and a broken sword attributed to Marduk. Item placement is not an exact reconstruction."
+    },
+    {
       "id": "dungeon-set-two-anthion-quest-text",
       "title": "Anthion Harmon quest text locators",
       "url": "https://classicdb.ch/?quest=8945",
@@ -27604,6 +29489,222 @@
       "sourceId": "warcraft-chronicle-volume-4",
       "section": "Pandaria through Shadowlands research packet",
       "note": "Working Chronicle Volume 4 support only. Exact edition, chapter, and page locations remain pending human review and block promotion."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-annals-date-conflict-citation-1",
+      "sourceId": "darrowshire-annals-book",
+      "section": "The Annals of Darrowshire · opening account · Flashback · Era 7 — The date the Annals give; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-annals-date-conflict-citation-2",
+      "sourceId": "darrowshire-battle-history",
+      "section": "Battle of Darrowshire · historical summary · Flashback · Era 7 — The date the Annals give; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-annals-read-citation-1",
+      "sourceId": "darrowshire-annals-quest",
+      "section": "The Annals of Darrowshire · book account · The Annals keep a broken date; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-annals-read-citation-2",
+      "sourceId": "darrowshire-annals-book",
+      "section": "The Annals of Darrowshire · book account · The Annals keep a broken date; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-annals-read-citation-3",
+      "sourceId": "darrowshire-battle-history",
+      "section": "The Annals of Darrowshire · book account · The Annals keep a broken date; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-carlin-witness-citation-1",
+      "sourceId": "darrowshire-defenders",
+      "section": "Uncle Carlin · family account · Carlin and the bound defenders; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-carlin-witness-citation-2",
+      "sourceId": "darrowshire-extended-annals",
+      "section": "Defenders of Darrowshire · objective · Carlin and the bound defenders; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil-and-horgus-citation-1",
+      "sourceId": "darrowshire-battle-quest",
+      "section": "The Battle of Darrowshire · survival objective · Davil survives Horgus; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil-falls-citation-1",
+      "sourceId": "darrowshire-annals-book",
+      "section": "The Annals · Davil’s fight · Davil’s last stand; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil-falls-citation-2",
+      "sourceId": "darrowshire-battle-history",
+      "section": "Heroes of Darrowshire · Davil’s relic · Davil’s last stand; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil-falls-citation-3",
+      "sourceId": "darrowshire-heroes",
+      "section": "Heroes of Darrowshire · Davil’s relic · Davil’s last stand; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil-libram-citation-1",
+      "sourceId": "darrowshire-heroes",
+      "section": "Heroes of Darrowshire · Davil’s libram · Davil’s libram at Hearthglen; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-extended-account-citation-1",
+      "sourceId": "darrowshire-extended-annals",
+      "section": "Brother Carlin · Extended Annals · Carlin’s extended account; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-extended-account-citation-2",
+      "sourceId": "darrowshire-return-chromie",
+      "section": "Return to Chromie · relic bundle · Carlin’s extended account; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-family-homecoming-citation-1",
+      "sourceId": "darrowshire-battle-quest",
+      "section": "The Battle of Darrowshire · completion · Pamela hears the battle end; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-family-homecoming-citation-2",
+      "sourceId": "darrowshire-hidden-treasures",
+      "section": "Hidden Treasures · Pamela’s key · Pamela hears the battle end; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-family-homecoming-citation-3",
+      "sourceId": "darrowshire-classic-chain",
+      "section": "Hidden Treasures · Pamela’s key · Pamela hears the battle end; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-heroes-relics-citation-1",
+      "sourceId": "darrowshire-heroes",
+      "section": "Heroes of Darrowshire · Redpath shield · Joseph’s shield at the ruined farm; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-horgus-arrives-citation-1",
+      "sourceId": "darrowshire-annals-book",
+      "section": "The Annals · Horgus and the attack · Horgus enters the battle; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-horgus-arrives-citation-2",
+      "sourceId": "darrowshire-battle-history",
+      "section": "Battle of Darrowshire · account · Horgus enters the battle; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-joseph-corrupted-citation-1",
+      "sourceId": "darrowshire-annals-book",
+      "section": "The Annals · Joseph’s corruption · Marduk turns Joseph; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-joseph-corrupted-citation-2",
+      "sourceId": "darrowshire-battle-history",
+      "section": "Battle of Darrowshire · account · Marduk turns Joseph; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marauders-crystal-citation-1",
+      "sourceId": "darrowshire-marauders",
+      "section": "Marauders of Darrowshire · crystal and five skulls · The crystal answers the skulls; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marlene-seeks-citation-1",
+      "sourceId": "darrowshire-little-pamela",
+      "section": "Little Pamela · opening request · Era 8 — Marlene’s request; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marlene-tells-truth-citation-1",
+      "sourceId": "darrowshire-auntie-marlene",
+      "section": "Auntie Marlene · family account · The truth Marlene cannot give Pamela; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela-and-doll-citation-1",
+      "sourceId": "darrowshire-little-pamela",
+      "section": "Little Pamela · village search · The doll among the ruins; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela-and-doll-citation-2",
+      "sourceId": "darrowshire-pamelas-doll",
+      "section": "Pamela’s Doll · three pieces · The doll among the ruins; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela-asks-citation-1",
+      "sourceId": "darrowshire-pamelas-doll",
+      "section": "Pamela’s Doll · completion · Pamela asks for her family; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela-hidden-citation-1",
+      "sourceId": "darrowshire-annals-book",
+      "section": "The Annals · destruction account · A child hidden from the battle; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela-hidden-citation-2",
+      "sourceId": "darrowshire-auntie-marlene",
+      "section": "Auntie Marlene · later witness account · A child hidden from the battle; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-redpath-corrupted-citation-1",
+      "sourceId": "darrowshire-annals-book",
+      "section": "The Annals · Joseph’s corruption · The captain falls to corruption; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-redpath-corrupted-citation-2",
+      "sourceId": "darrowshire-battle-quest",
+      "section": "The Battle of Darrowshire · Redpath objective · The captain falls to corruption; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-replay-begins-citation-1",
+      "sourceId": "darrowshire-return-chromie",
+      "section": "Return to Chromie · preparation · The battle is called back; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-replay-begins-citation-2",
+      "sourceId": "darrowshire-battle-quest",
+      "section": "The Battle of Darrowshire · replay begins · The battle is called back; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-villains-relics-citation-1",
+      "sourceId": "darrowshire-villains",
+      "section": "Villains of Darrowshire · Horgus and Marduk relics · The skull and the shattered blade; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-wedding-ring-citation-1",
+      "sourceId": "darrowshire-strange-historian",
+      "section": "A Strange Historian · Joseph’s ring and Chromie · A ring and a historian; directly relevant book account, quest locator, objective or completion entry",
+      "note": "Original paraphrase of secondary book or Classic quest reproductions. No original-client capture is claimed. Compare original quest build and text before human review."
     },
     {
       "id": "dungeon-set-two-a-client-from-booty-bay-citation-1",
@@ -29736,6 +31837,273 @@
       ],
       "confidence": "explicit",
       "status": "active"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-annals-date-conflict-claim",
+      "subjectId": "darrowshire-lost-and-remembered-annals-date-conflict-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "The Annals begin in a village under threat, but their first date creates a problem this telling will not smooth away. The book says the Scourge was rampaging in the middle of the Second War; another historical account places Darrowshire’s fall in the Third War. The Third War frame is used here because the named Scourge war belongs to that later crisis, while the Annals’ wording remains visible as a contradiction in the record. The village is small and rural, its fate more certain than its date.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-annals-date-conflict-citation-1",
+        "darrowshire-lost-and-remembered-annals-date-conflict-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "disputed",
+      "editorNote": "Annals chronology conflicts with the Third War context. Era 7 is the editorial historical frame, not an approval to silently correct the source. Original book edition and game text need review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-annals-read-claim",
+      "subjectId": "darrowshire-lost-and-remembered-annals-read-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "The Annals give the visitor a written account of Darrowshire’s last battle, including the Second War date that cannot be reconciled here with a Scourge attack in the Third War. This telling cites the book as evidence and labels its chronology disputed rather than silently repairing it. The recollection of combat may preserve names and sequence while the date has been miscopied, retconned, or framed differently; the sources consulted do not let us choose among those explanations.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-annals-read-citation-1",
+        "darrowshire-lost-and-remembered-annals-read-citation-2",
+        "darrowshire-lost-and-remembered-annals-read-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "disputed",
+      "editorNote": "Possible error, retcon, or framing difference remains an open research question; none is promoted as fact."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-carlin-witness-claim",
+      "subjectId": "darrowshire-lost-and-remembered-carlin-witness-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "At Light’s Hope Chapel, Carlin remembers the people of the village and asks that the dead defenders be freed from Scourge service. The quest records a group of spirits bound in hostile forms; its objective count belongs to play mechanics, not a census of everyone who lived or died. The modest chapel in the open Plaguelands gives this act a place of witness, while the spirits’ exact appearance and number remain unknown.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-carlin-witness-citation-1",
+        "darrowshire-lost-and-remembered-carlin-witness-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Do not turn the quest objective count into a historical headcount or imply every defender is individually identified."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil-and-horgus-claim",
+      "subjectId": "darrowshire-lost-and-remembered-davil-and-horgus-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "In the quest’s reenacted battle, Davil is to endure until Horgus is slain. The task reverses the fatal pattern recorded in the Annals without pretending that every part of the old account has been repaired. The defender and the Scourge champion meet in a staged scene, not a recovered battle plan. This moment marks the specific loss the quest allows its visitor to prevent in the remembered battle.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-davil-and-horgus-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The objective is explicit in the quest locator. Combat choreography and exact scene composition are interpretive."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil-falls-claim",
+      "subjectId": "darrowshire-lost-and-remembered-davil-falls-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "Davil fights Horgus and the Annals say he strikes the Scourge champion down, only to die of his own wounds. Later sources call this defender Davil Lightfire in the quest and Davil Crokford in the book and history summary. The story holds both names together as a textual variant pending client comparison. His later libram is treated as a memorial clue; the search quest does not establish where it rested during the original battle.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-davil-falls-citation-1",
+        "darrowshire-lost-and-remembered-davil-falls-citation-2",
+        "darrowshire-lost-and-remembered-davil-falls-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Davil’s surname varies by account: Crokford in the Annals/history summary and Lightfire in the quest. Preserve as a disputed source variant."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil-libram-claim",
+      "subjectId": "darrowshire-lost-and-remembered-davil-libram-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "The Heroes quest associates Davil Lightfire’s libram with Hearthglen, carrying a trace of the defender into the fortified human town. Its pale stone and red-white Scarlet banners identify Classic Hearthglen without turning it into Stormwind’s blue-and-gold keep. The book is a recovered clue attributed to Davil, not proof of its exact earlier route or of every hand through which it passed.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-davil-libram-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Hearthglen and the Lightfire name follow the quest locator. Exact building and item placement remain unverified."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-extended-account-claim",
+      "subjectId": "darrowshire-lost-and-remembered-extended-account-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "Carlin provides the extended account and the accumulated relics pass back to Chromie. The text describes a plan to revisit the battle and correct its consequences, but the quest delegates the historical decision to a time spell rather than explaining its larger metaphysics. This gathered bundle is a narrative device supported by quest order; the exact composition of every piece and the intervention’s limits are not independently established.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-extended-account-citation-1",
+        "darrowshire-lost-and-remembered-extended-account-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The extension supplies the quest rationale. Do not claim the player or Chromie can permanently rewrite all history."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-family-homecoming-claim",
+      "subjectId": "darrowshire-lost-and-remembered-family-homecoming-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "After the fighting, the quest brings Joseph’s spirit to Pamela, and the child speaks as if her father will come home. The account presents their reunion as the battle’s remembered resolution; the deeper effect of Chromie’s spell on a lasting timeline remains uncertain. Pamela then entrusts the traveler with a key to a chest behind the house. Her small act of welcome closes the chain with an image of homecoming, while the village’s original loss remains part of the record.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-family-homecoming-citation-1",
+        "darrowshire-lost-and-remembered-family-homecoming-citation-2",
+        "darrowshire-lost-and-remembered-family-homecoming-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Reunion and key follow secondary quest-chain transcription. The persistence and scope of temporal change require original-client and lore review."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-heroes-relics-claim",
+      "subjectId": "darrowshire-lost-and-remembered-heroes-relics-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "A separate relic leads to Gahrron’s Withering, where the quest locates Joseph Redpath’s broken shield near a ruined farm. Its damage speaks to the village captain’s remembered role, but the object alone cannot tell how or when it was lost. Here the Plaguelands narrow from the fortified town to a leaning barn, broken fence and pallid field: a rural clue, not a complete account of the battle.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-heroes-relics-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The quest locates a shield near the farm. Exact coordinates and damage history are not stated."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-horgus-arrives-claim",
+      "subjectId": "darrowshire-lost-and-remembered-horgus-arrives-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "The account names Horgus the Ravager among the Scourge force that reaches Darrowshire. Captain Joseph Redpath and Davil lead the village’s defense in the story remembered by the later questline. We can show a small settlement meeting an invading force; we cannot recover its exact formation, the number of attackers, or the moment each defender first fell. The landscape is rendered as the fragile home at stake, not as a measured battlefield plan.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-horgus-arrives-citation-1",
+        "darrowshire-lost-and-remembered-horgus-arrives-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The sources support an attack and named participants, but not exact force size, formation, or co-presence timing."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-joseph-corrupted-claim",
+      "subjectId": "darrowshire-lost-and-remembered-joseph-corrupted-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "After Davil’s fall, the Annals say Marduk the Black corrupts Joseph Redpath. The village captain becomes a danger to the people he led, and the account ends in Darrowshire’s destruction. The secondary history calls Marduk Blackpool. The two forms may reflect a naming variation, but the evidence gathered here does not settle it. Nor can the broad massacre account tell us the position or final moment of every villager.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-joseph-corrupted-citation-1",
+        "darrowshire-lost-and-remembered-joseph-corrupted-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Marduk the Black and Marduk Blackpool are preserved as variants. The art depicts corruption symbolically and does not assert an exact transformation scene."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marauders-crystal-claim",
+      "subjectId": "darrowshire-lost-and-remembered-marauders-crystal-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "A mystic crystal responds to five skulls associated by the quest with Scourge that took part in the assault. Their collection is a gameplay task, so it cannot be read as a definitive list of every enemy or a complete battle roster. It adds another layer to Chromie’s reconstruction: selected remains, a remembered account, and relics tied to those who fought. The exact mechanism of the crystal is not explained beyond its use in the quest.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-marauders-crystal-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Five skulls is the quest requirement, not an independently verified number of Scourge participants."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marlene-seeks-claim",
+      "subjectId": "darrowshire-lost-and-remembered-marlene-seeks-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "In the later Classic quest, a wandering spirit named Marlene asks for help finding Pamela. The road begins in the Plaguelands of another age, where the old village no longer stands whole. This is investigation, not the battle itself: every witness and object will be encountered through the quest’s present-day search. The adventurer remains unnamed, and the order of errands records how the game guides that search, not a known calendar.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-marlene-seeks-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Era 8 scene. Story order follows quest dependency; the player’s identity and exact date are unknown."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marlene-tells-truth-claim",
+      "subjectId": "darrowshire-lost-and-remembered-marlene-tells-truth-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "Marlene’s account says Pamela died, while Joseph’s fate leads toward the battle’s corrupted captain. Yet she cannot bring herself to tell the child the whole truth. Her silence is a choice in the quest’s present, shaped by the family’s grief; no hidden motive beyond that account is supplied. The village story now has two witnesses at different distances from the event: a child asking, and an aunt carrying an answer she cannot speak.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-marlene-tells-truth-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Marlene’s dialogue is secondary quest reproduction. Do not expand her reluctance into unstated psychology."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela-and-doll-claim",
+      "subjectId": "darrowshire-lost-and-remembered-pamela-and-doll-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "Pamela appears among the ruined homes, still waiting in the world her family lost. Her doll is missing, and the quest sends the visitor through the broken settlement to recover its scattered parts. The action belongs to the Classic investigation; it does not establish that the doll lay in these exact visible stones or that the child’s spirit understands the history around her. The small object makes a vast catastrophe personal.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-pamela-and-doll-citation-1",
+        "darrowshire-lost-and-remembered-pamela-and-doll-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The game quest supports Pamela and the doll search. The precise placement of the illustrated toy is interpretive."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela-asks-claim",
+      "subjectId": "darrowshire-lost-and-remembered-pamela-asks-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "With the doll restored, Pamela’s questions turn toward her parents and the home she remembers. The quest lets the child’s request lead the investigation onward; it does not give the unnamed traveler a private biography or a new place in the Redpath family. We keep the scene quiet: a remembered child, a found keepsake, and an answer that only relatives and the old records can begin to provide.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-pamela-asks-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Narration paraphrases the quest progression and does not reproduce game dialogue."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela-hidden-claim",
+      "subjectId": "darrowshire-lost-and-remembered-pamela-hidden-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "The later quest gives a more intimate memory: Marlene says she hid Pamela when the fighting came. That account sits uneasily beside the Annals’ sweeping language that the village was destroyed and its inhabitants slain. The story keeps the difference open. Marlene’s report explains why Pamela is encountered as a child’s spirit, but neither source offers an independent account of how every resident met their end.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-pamela-hidden-citation-1",
+        "darrowshire-lost-and-remembered-pamela-hidden-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "disputed",
+      "editorNote": "The Annals’ broad death account and Marlene’s statement that Pamela was hidden are not reconciled. Do not invent a survival mechanism or revise either account."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-redpath-corrupted-claim",
+      "subjectId": "darrowshire-lost-and-remembered-redpath-corrupted-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "The second condition cannot be avoided: Joseph must live long enough to become corrupted, and then the visitor must defeat Redpath the Corrupted. Marduk’s role belongs to the Annals’ account; the quest objectives do not show every cause in the reenactment. The story keeps Joseph’s change distinct from Davil’s survival, so the battle’s altered course does not collapse into a claim that no one was lost or that the Scourge never reached Darrowshire.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-redpath-corrupted-citation-1",
+        "darrowshire-lost-and-remembered-redpath-corrupted-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The replay’s objectives constrain what can change. Do not invent a lasting post-spell state beyond the quest account."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-replay-begins-claim",
+      "subjectId": "darrowshire-lost-and-remembered-replay-begins-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "Chromie’s spell returns the traveler to a reenactment of Darrowshire’s battle. The scene is explicitly a remembered, playable past, separated from the present-day investigation. Its instructions focus on outcomes: Davil must remain alive until Horgus falls, and Joseph must live long enough to be corrupted before the corrupted captain is defeated. The quest therefore offers a limited correction inside the replay; it does not erase the evidence that the original village was destroyed.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-replay-begins-citation-1",
+        "darrowshire-lost-and-remembered-replay-begins-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Historical flashback / quest replay in Era 8. Do not treat it as a new Era 7 event or claim a permanent timeline reset."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-villains-relics-claim",
+      "subjectId": "darrowshire-lost-and-remembered-villains-relics-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "The first relic trail turns toward the remembered villains. The quest associates a skull with Horgus and a broken sword with Marduk, leading the search to different places around the Plaguelands. These are clues chosen by a historical investigation, not excavated proof that the objects lay exactly where the illustration places them. The broken weapon gives Marduk a material trace even while the Annals’ version of his name remains unsettled.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-villains-relics-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Quest attributions guide the story. No exact relic coordinates, archaeological provenance or recovered battlefield inventory are asserted."
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-wedding-ring-claim",
+      "subjectId": "darrowshire-lost-and-remembered-wedding-ring-event",
+      "predicate": "darrowshire_story_scene",
+      "value": "A wedding ring becomes the clue that turns a family search toward history. The quest brings the object to Chromie, a bronze dragon who has taken the form of a gnome historian in Andorhal. This small ruined town supplies a believable Classic Plaguelands setting, though the quest does not chart the traveler’s road. The ring binds the family question to Chromie’s larger interest in a battle the living can no longer visit directly.",
+      "citationIds": [
+        "darrowshire-lost-and-remembered-wedding-ring-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The location of Chromie changed across patches; Andorhal is the Classic locator. No exact NPC coordinates or travel path are asserted."
     },
     {
       "id": "dathremar-leads-exiles-claim",
@@ -35137,43 +37505,61 @@
     },
     {
       "id": "darrowshire-lost-and-remembered",
+      "slug": "darrowshire-lost-and-remembered",
       "title": "Darrowshire: Lost and Remembered",
+      "summary": "Pamela’s search follows a ruined village’s divided accounts, the relatives and relics that preserve them, and Chromie’s attempt to revisit the battle that broke the Redpath family.",
+      "opening": "A child in the ruins asks after her family. Her question leads through a village’s torn history, where one book gives a date the wider war will not accept and a later spell offers a limited answer.",
       "primaryEraId": "age-of-adventurers",
       "eraIds": [
         "third-war-frozen-throne",
         "age-of-adventurers"
       ],
-      "summary": "Pamela Redpath's quest revisits a village destroyed by the Scourge and the Battle of Darrowshire.",
-      "opening": "Darrowshire survives in memory after its fall. Pamela's search turns scattered accounts into a journey through what happened there.",
-      "sourceIds": [],
-      "reviewNote": "Primary quest text for Pamela Redpath, Marauders of Darrowshire, and Battle of Darrowshire still needs capture. The later quest does not redate the original fall.",
       "chapters": [
         {
           "id": "the-fall",
           "eraId": "third-war-frozen-throne",
-          "title": "A village in the Scourge war",
-          "body": "Establish the historical fall of Darrowshire from original quests."
+          "title": "The fall of Darrowshire",
+          "body": "The Scourge attack, Davil’s death and Joseph’s corruption establish the remembered catastrophe. The Annals’ Second War date and the Third War framing remain in direct conflict."
         },
         {
-          "id": "pamela",
+          "id": "pamelas-search",
           "eraId": "age-of-adventurers",
-          "title": "Pamela's search",
-          "body": "Follow Pamela Redpath and the memories preserved around the village."
+          "title": "Pamela’s family",
+          "body": "Marlene sends the Classic investigator through the ruins, to Pamela, and back through the relatives who remember the village."
         },
         {
-          "id": "the-reconstruction",
+          "id": "witnesses-and-relics",
           "eraId": "age-of-adventurers",
-          "title": "Fragments of the past",
-          "body": "Gather the accounts and objects required by the questline."
+          "title": "Witnesses and relics",
+          "body": "Carlin, the Annals and scattered relics let Chromie assemble a constrained retelling. Branch order and item recovery are quest structure, not exact chronology or geography."
         },
         {
-          "id": "the-battle",
+          "id": "the-replayed-battle",
           "eraId": "age-of-adventurers",
-          "title": "The battle remembered",
-          "body": "Distinguish the original battle from the later quest's reenactment."
+          "title": "The battle revisited",
+          "body": "The quest replay preserves specific losses and alters others. Joseph and Pamela reunite in the account; the lasting scope of the spell remains unresolved."
         }
       ],
-      "slug": "darrowshire-lost-and-remembered",
+      "sourceIds": [
+        "darrowshire-annals-book",
+        "darrowshire-battle-history",
+        "darrowshire-heroes",
+        "darrowshire-auntie-marlene",
+        "darrowshire-little-pamela",
+        "darrowshire-pamelas-doll",
+        "darrowshire-strange-historian",
+        "darrowshire-annals-quest",
+        "darrowshire-defenders",
+        "darrowshire-extended-annals",
+        "darrowshire-villains",
+        "darrowshire-marauders",
+        "darrowshire-return-chromie",
+        "darrowshire-battle-quest",
+        "darrowshire-hidden-treasures",
+        "darrowshire-classic-chain"
+      ],
+      "reviewNote": "Complete illustrated research story: 21 scenes, full transcript, event/claim/citation per scene, generated Classic Plaguelands environments, named cast/group art and pivotal relic art. Secondary wiki mirrors reproduce book and Classic quest material; no original client capture is claimed. The Annals’ Second War date conflicts with the Third War frame; Davil Crokford/Lightfire and Marduk the Black/Blackpool variants remain open. Pamela’s reunion follows the quest account; permanent timeline consequences remain uncertain. Verify original client/build, visual resemblance, pronunciation and all claims before editorial promotion.",
+      "storyGuideId": "darrowshire-lost-and-remembered-guide",
       "contentStatus": "research"
     },
     {
@@ -36315,7 +38701,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, then Tirion and Taelan), followed by The Burning Crusade (Karazhan, Akama and the Black Temple, then the Cipher of Damnation preview), and Wrath of the Lich King (Wrathgate preview). The TBC placements organize this map and do not claim canonical relative dates or causal links. The Scepter ancient prologue is a flashback; Dungeon Set 2 companion fates are alternatives; the Fallen Hero faction openings are mutually exclusive; Tirion and Taelan ends at its Classic quest resolution; and Akama raid gates are not one continuous historical campaign. The Hyjal passage is a labeled historical instance, not a route from Outland. Wrath continues from the Wrathgate preview to Quel'Delar at patch 3.3: the order is editorial by expansion-era quest availability, with no causal link implied between those stories. The Quel'Delar chapter distinguishes its randomized Battered Hilt trigger, Third War flashbacks, Lana'thel's prior destruction at Quel'Delar's Rest, and the later Wrath repair. Faction and class endings are alternatives; map pins are editorial, not exact geography or a route.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, then Darrowshire), The Burning Crusade (Karazhan, Akama and the Black Temple, then the Outland Cipher preview), and Wrath (Wrathgate preview followed by Quel’Delar). It organizes access and does not claim canonical relative dates or causal links between stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. Other branch, faction and flashback caveats remain as recorded in each story.",
       "regions": [
         {
           "id": "kalimdor",
@@ -36431,6 +38817,19 @@
           "locationLabel": "The Plaguelands · Tirion and Taelan"
         },
         {
+          "storylineId": "darrowshire-lost-and-remembered",
+          "regionIds": [
+            "eastern-kingdoms"
+          ],
+          "mapPositionPercent": [
+            76,
+            37
+          ],
+          "order": 6,
+          "periodLabel": "Original World of Warcraft · Classic",
+          "locationLabel": "The Plaguelands · Darrowshire"
+        },
+        {
           "storylineId": "karazhan-masters-key-and-nightbane",
           "regionIds": [
             "eastern-kingdoms",
@@ -36440,7 +38839,7 @@
             77,
             66
           ],
-          "order": 6,
+          "order": 7,
           "periodLabel": "The Burning Crusade · Karazhan",
           "locationLabel": "Deadwind Pass · key fragments across Outland"
         },
@@ -36454,7 +38853,7 @@
             91,
             66
           ],
-          "order": 7,
+          "order": 8,
           "periodLabel": "The Burning Crusade · Black Temple, patch 2.1",
           "locationLabel": "Shadowmoon Valley · raids across Outland · Hyjal memory"
         },
@@ -36467,7 +38866,7 @@
             82,
             79
           ],
-          "order": 8,
+          "order": 9,
           "periodLabel": "The Burning Crusade",
           "locationLabel": "Shadowmoon Valley · Outland"
         },
@@ -36480,7 +38879,7 @@
             54,
             18
           ],
-          "order": 9,
+          "order": 10,
           "periodLabel": "Wrath of the Lich King",
           "locationLabel": "Dragonblight · Northrend"
         },
@@ -36494,12 +38893,12 @@
             61,
             27
           ],
-          "order": 10,
+          "order": 11,
           "periodLabel": "Wrath of the Lich King · patch 3.3.5",
           "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
         }
       ],
-      "reviewNote": "Playable research stories: The Dragon in Stormwind, Scepter of the Shifting Sands, Dungeon Set 2: The Veiled Blade and Lord Valthalak, The Fallen Hero and Rakhlikh, Tirion and Taelan: Of Love and Family, Karazhan: The Masters Key and Nightbane, and Akama and the Black Temple. The Outland Cipher of Damnation and Northrend Wrathgate remain research previews outside Play All. Original-client quests and builds, faction variants, relative Classic ordering, map art, and matching in-game area/model resemblance remain open for human review; story markers are not exact locations or travel routes. Quel’Delar is now a playable 19-node research story with a full transcript and original interpretive scene/cast art; original-client lore and 3.3.5a resemblance checks remain open.",
+      "reviewNote": "Playable research guides now include Darrowshire as a 21-scene illustrated story after Tirion and Taelan in the Classic sequence. Cipher of Damnation and Wrathgate remain text-first previews outside Play All. Original-client text/build, disputed chronology, character-name variants, permanent temporal outcome, generated area/model resemblance and narration audition remain human review gates. Markers are illustrative interface anchors, not exact locations or travel routes.",
       "contentStatus": "research"
     }
   ],
@@ -36607,6 +39006,36 @@
         "cosmic-origins-story-pantheon",
         "cosmic-origins-story-void-design",
         "cosmic-origins-story-azeroth"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-guide",
+      "eraId": "age-of-adventurers",
+      "title": "Darrowshire: Lost and Remembered",
+      "description": "Twenty-one illustrated scenes follow Darrowshire’s disputed Third War fall, Pamela’s Classic-era search, its witness accounts and relics, and the battle replay that gives the quest its homecoming.",
+      "nodeIds": [
+        "darrowshire-lost-and-remembered-story-annals-date-conflict",
+        "darrowshire-lost-and-remembered-story-horgus-arrives",
+        "darrowshire-lost-and-remembered-story-davil-falls",
+        "darrowshire-lost-and-remembered-story-joseph-corrupted",
+        "darrowshire-lost-and-remembered-story-pamela-hidden",
+        "darrowshire-lost-and-remembered-story-marlene-seeks",
+        "darrowshire-lost-and-remembered-story-pamela-and-doll",
+        "darrowshire-lost-and-remembered-story-pamela-asks",
+        "darrowshire-lost-and-remembered-story-marlene-tells-truth",
+        "darrowshire-lost-and-remembered-story-wedding-ring",
+        "darrowshire-lost-and-remembered-story-annals-read",
+        "darrowshire-lost-and-remembered-story-carlin-witness",
+        "darrowshire-lost-and-remembered-story-villains-relics",
+        "darrowshire-lost-and-remembered-story-davil-libram",
+        "darrowshire-lost-and-remembered-story-heroes-relics",
+        "darrowshire-lost-and-remembered-story-marauders-crystal",
+        "darrowshire-lost-and-remembered-story-extended-account",
+        "darrowshire-lost-and-remembered-story-replay-begins",
+        "darrowshire-lost-and-remembered-story-davil-and-horgus",
+        "darrowshire-lost-and-remembered-story-redpath-corrupted",
+        "darrowshire-lost-and-remembered-story-family-homecoming"
       ],
       "contentStatus": "research"
     },
@@ -40234,6 +42663,987 @@
       ],
       "previousNodeId": "cosmic-origins-story-void-design",
       "nextNodeIds": []
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-annals-date-conflict",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Flashback · Era 7 — The date the Annals give",
+      "narration": "The Annals begin in a village under threat, but their first date creates a problem this telling will not smooth away. The book says the Scourge was rampaging in the middle of the Second War; another historical account places Darrowshire’s fall in the Third War. The Third War frame is used here because the named Scourge war belongs to that later crisis, while the Annals’ wording remains visible as a contradiction in the record. The village is small and rural, its fate more certain than its date.",
+      "durationMs": 31475,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-annals-date-conflict.mp3",
+        "durationMs": 31475,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-annals-date-conflict-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-scourge",
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-davil",
+        "darrowshire-lost-and-remembered-annals"
+      ],
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-darrowshire-village-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-horgus-arrives"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-horgus-arrives",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Horgus enters the battle",
+      "narration": "The account names Horgus the Ravager among the Scourge force that reaches Darrowshire. Captain Joseph Redpath and Davil lead the village’s defense in the story remembered by the later questline. We can show a small settlement meeting an invading force; we cannot recover its exact formation, the number of attackers, or the moment each defender first fell. The landscape is rendered as the fragile home at stake, not as a measured battlefield plan.",
+      "durationMs": 30025,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-horgus-arrives.mp3",
+        "durationMs": 30025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-horgus-arrives-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-horgus",
+        "darrowshire-lost-and-remembered-scourge",
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-davil"
+      ],
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-darrowshire-village-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-annals-date-conflict",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-davil-falls"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-davil-falls",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Davil’s last stand",
+      "narration": "Davil fights Horgus and the Annals say he strikes the Scourge champion down, only to die of his own wounds. Later sources call this defender Davil Lightfire in the quest and Davil Crokford in the book and history summary. The story holds both names together as a textual variant pending client comparison. His later libram is treated as a memorial clue; the search quest does not establish where it rested during the original battle.",
+      "durationMs": 29525,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-davil-falls.mp3",
+        "durationMs": 29525,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-davil-falls-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-davil",
+        "darrowshire-lost-and-remembered-horgus",
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-libram"
+      ],
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-horgus-arrives",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-joseph-corrupted"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-joseph-corrupted",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Marduk turns Joseph",
+      "narration": "After Davil’s fall, the Annals say Marduk the Black corrupts Joseph Redpath. The village captain becomes a danger to the people he led, and the account ends in Darrowshire’s destruction. The secondary history calls Marduk Blackpool. The two forms may reflect a naming variation, but the evidence gathered here does not settle it. Nor can the broad massacre account tell us the position or final moment of every villager.",
+      "durationMs": 28375,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-joseph-corrupted.mp3",
+        "durationMs": 28375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-joseph-corrupted-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-marduk",
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-corrupted-joseph",
+        "darrowshire-lost-and-remembered-scourge"
+      ],
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-davil-falls",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-pamela-hidden"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-pamela-hidden",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "A child hidden from the battle",
+      "narration": "The later quest gives a more intimate memory: Marlene says she hid Pamela when the fighting came. That account sits uneasily beside the Annals’ sweeping language that the village was destroyed and its inhabitants slain. The story keeps the difference open. Marlene’s report explains why Pamela is encountered as a child’s spirit, but neither source offers an independent account of how every resident met their end.",
+      "durationMs": 28025,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-pamela-hidden.mp3",
+        "durationMs": 28025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-pamela-hidden-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-marlene",
+        "darrowshire-lost-and-remembered-pamela",
+        "darrowshire-lost-and-remembered-doll"
+      ],
+      "locationIds": [
+        "sorrow-hill"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-sorrow-hill-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-joseph-corrupted",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-marlene-seeks"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-marlene-seeks",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Era 8 — Marlene’s request",
+      "narration": "In the later Classic quest, a wandering spirit named Marlene asks for help finding Pamela. The road begins in the Plaguelands of another age, where the old village no longer stands whole. This is investigation, not the battle itself: every witness and object will be encountered through the quest’s present-day search. The adventurer remains unnamed, and the order of errands records how the game guides that search, not a known calendar.",
+      "durationMs": 28800,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-marlene-seeks.mp3",
+        "durationMs": 28800,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-marlene-seeks-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-marlene"
+      ],
+      "locationIds": [
+        "sorrow-hill"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-sorrow-hill-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-pamela-hidden",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-pamela-and-doll"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-pamela-and-doll",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "The doll among the ruins",
+      "narration": "Pamela appears among the ruined homes, still waiting in the world her family lost. Her doll is missing, and the quest sends the visitor through the broken settlement to recover its scattered parts. The action belongs to the Classic investigation; it does not establish that the doll lay in these exact visible stones or that the child’s spirit understands the history around her. The small object makes a vast catastrophe personal.",
+      "durationMs": 29175,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-pamela-and-doll.mp3",
+        "durationMs": 29175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-pamela-and-doll-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-pamela",
+        "darrowshire-lost-and-remembered-doll"
+      ],
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-marlene-seeks",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-pamela-asks"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-pamela-asks",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Pamela asks for her family",
+      "narration": "With the doll restored, Pamela’s questions turn toward her parents and the home she remembers. The quest lets the child’s request lead the investigation onward; it does not give the unnamed traveler a private biography or a new place in the Redpath family. We keep the scene quiet: a remembered child, a found keepsake, and an answer that only relatives and the old records can begin to provide.",
+      "durationMs": 27300,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-pamela-asks.mp3",
+        "durationMs": 27300,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-pamela-asks-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-pamela",
+        "darrowshire-lost-and-remembered-doll"
+      ],
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-pamela-and-doll",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-marlene-tells-truth"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-marlene-tells-truth",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "The truth Marlene cannot give Pamela",
+      "narration": "Marlene’s account says Pamela died, while Joseph’s fate leads toward the battle’s corrupted captain. Yet she cannot bring herself to tell the child the whole truth. Her silence is a choice in the quest’s present, shaped by the family’s grief; no hidden motive beyond that account is supplied. The village story now has two witnesses at different distances from the event: a child asking, and an aunt carrying an answer she cannot speak.",
+      "durationMs": 28300,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-marlene-tells-truth.mp3",
+        "durationMs": 28300,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-marlene-tells-truth-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-marlene"
+      ],
+      "locationIds": [
+        "sorrow-hill"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-sorrow-hill-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-pamela-asks",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-wedding-ring"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-wedding-ring",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "A ring and a historian",
+      "narration": "A wedding ring becomes the clue that turns a family search toward history. The quest brings the object to Chromie, a bronze dragon who has taken the form of a gnome historian in Andorhal. This small ruined town supplies a believable Classic Plaguelands setting, though the quest does not chart the traveler’s road. The ring binds the family question to Chromie’s larger interest in a battle the living can no longer visit directly.",
+      "durationMs": 28625,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-wedding-ring.mp3",
+        "durationMs": 28625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-wedding-ring-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-chromie",
+        "darrowshire-lost-and-remembered-ring"
+      ],
+      "locationIds": [
+        "andorhal"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-andorhal-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-marlene-tells-truth",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-annals-read"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-annals-read",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "The Annals keep a broken date",
+      "narration": "The Annals give the visitor a written account of Darrowshire’s last battle, including the Second War date that cannot be reconciled here with a Scourge attack in the Third War. This telling cites the book as evidence and labels its chronology disputed rather than silently repairing it. The recollection of combat may preserve names and sequence while the date has been miscopied, retconned, or framed differently; the sources consulted do not let us choose among those explanations.",
+      "durationMs": 31675,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-annals-read.mp3",
+        "durationMs": 31675,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-annals-read-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-chromie",
+        "darrowshire-lost-and-remembered-annals"
+      ],
+      "locationIds": [
+        "andorhal"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-andorhal-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-wedding-ring",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-carlin-witness"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-carlin-witness",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Carlin and the bound defenders",
+      "narration": "At Light’s Hope Chapel, Carlin remembers the people of the village and asks that the dead defenders be freed from Scourge service. The quest records a group of spirits bound in hostile forms; its objective count belongs to play mechanics, not a census of everyone who lived or died. The modest chapel in the open Plaguelands gives this act a place of witness, while the spirits’ exact appearance and number remain unknown.",
+      "durationMs": 28400,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-carlin-witness.mp3",
+        "durationMs": 28400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-carlin-witness-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-carlin",
+        "darrowshire-lost-and-remembered-defenders"
+      ],
+      "locationIds": [
+        "lights-hope-chapel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-lights-hope-chapel-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-annals-read",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-villains-relics"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-villains-relics",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "The skull and the shattered blade",
+      "narration": "The first relic trail turns toward the remembered villains. The quest associates a skull with Horgus and a broken sword with Marduk, leading the search to different places around the Plaguelands. These are clues chosen by a historical investigation, not excavated proof that the objects lay exactly where the illustration places them. The broken weapon gives Marduk a material trace even while the Annals’ version of his name remains unsettled.",
+      "durationMs": 30025,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-villains-relics.mp3",
+        "durationMs": 30025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-villains-relics-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-horgus",
+        "darrowshire-lost-and-remembered-marduk",
+        "darrowshire-lost-and-remembered-horgus-skull",
+        "darrowshire-lost-and-remembered-marduk-sword"
+      ],
+      "locationIds": [
+        "corins-crossing"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-corins-crossing-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-carlin-witness",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-davil-libram"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-davil-libram",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Davil’s libram at Hearthglen",
+      "narration": "The Heroes quest associates Davil Lightfire’s libram with Hearthglen, carrying a trace of the defender into the fortified human town. Its pale stone and red-white Scarlet banners identify Classic Hearthglen without turning it into Stormwind’s blue-and-gold keep. The book is a recovered clue attributed to Davil, not proof of its exact earlier route or of every hand through which it passed.",
+      "durationMs": 26900,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-davil-libram.mp3",
+        "durationMs": 26900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-davil-libram-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-davil",
+        "darrowshire-lost-and-remembered-libram"
+      ],
+      "locationIds": [
+        "hearthglen"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-hearthglen-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-villains-relics",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-heroes-relics"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-heroes-relics",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Joseph’s shield at the ruined farm",
+      "narration": "A separate relic leads to Gahrron’s Withering, where the quest locates Joseph Redpath’s broken shield near a ruined farm. Its damage speaks to the village captain’s remembered role, but the object alone cannot tell how or when it was lost. Here the Plaguelands narrow from the fortified town to a leaning barn, broken fence and pallid field: a rural clue, not a complete account of the battle.",
+      "durationMs": 26475,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-heroes-relics.mp3",
+        "durationMs": 26475,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-heroes-relics-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-shield"
+      ],
+      "locationIds": [
+        "gahrrons-withering"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-gahrrons-withering-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-davil-libram",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-marauders-crystal"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-marauders-crystal",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "The crystal answers the skulls",
+      "narration": "A mystic crystal responds to five skulls associated by the quest with Scourge that took part in the assault. Their collection is a gameplay task, so it cannot be read as a definitive list of every enemy or a complete battle roster. It adds another layer to Chromie’s reconstruction: selected remains, a remembered account, and relics tied to those who fought. The exact mechanism of the crystal is not explained beyond its use in the quest.",
+      "durationMs": 30025,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-marauders-crystal.mp3",
+        "durationMs": 30025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-marauders-crystal-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-chromie",
+        "darrowshire-lost-and-remembered-scourge",
+        "darrowshire-lost-and-remembered-relic-bundle"
+      ],
+      "locationIds": [
+        "corins-crossing"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-corins-crossing-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-heroes-relics",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-extended-account"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-extended-account",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Carlin’s extended account",
+      "narration": "Carlin provides the extended account and the accumulated relics pass back to Chromie. The text describes a plan to revisit the battle and correct its consequences, but the quest delegates the historical decision to a time spell rather than explaining its larger metaphysics. This gathered bundle is a narrative device supported by quest order; the exact composition of every piece and the intervention’s limits are not independently established.",
+      "durationMs": 30375,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-extended-account.mp3",
+        "durationMs": 30375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-extended-account-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-carlin",
+        "darrowshire-lost-and-remembered-extended-annals",
+        "darrowshire-lost-and-remembered-relic-bundle"
+      ],
+      "locationIds": [
+        "lights-hope-chapel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-lights-hope-chapel-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-marauders-crystal",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-replay-begins"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-replay-begins",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "The battle is called back",
+      "narration": "Chromie’s spell returns the traveler to a reenactment of Darrowshire’s battle. The scene is explicitly a remembered, playable past, separated from the present-day investigation. Its instructions focus on outcomes: Davil must remain alive until Horgus falls, and Joseph must live long enough to be corrupted before the corrupted captain is defeated. The quest therefore offers a limited correction inside the replay; it does not erase the evidence that the original village was destroyed.",
+      "durationMs": 32825,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-replay-begins.mp3",
+        "durationMs": 32825,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-replay-begins-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-chromie",
+        "darrowshire-lost-and-remembered-defenders",
+        "darrowshire-lost-and-remembered-scourge",
+        "darrowshire-lost-and-remembered-davil",
+        "darrowshire-lost-and-remembered-horgus",
+        "darrowshire-lost-and-remembered-relic-bundle"
+      ],
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-darrowshire-village-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-extended-account",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-davil-and-horgus"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-davil-and-horgus",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Davil survives Horgus",
+      "narration": "In the quest’s reenacted battle, Davil is to endure until Horgus is slain. The task reverses the fatal pattern recorded in the Annals without pretending that every part of the old account has been repaired. The defender and the Scourge champion meet in a staged scene, not a recovered battle plan. This moment marks the specific loss the quest allows its visitor to prevent in the remembered battle.",
+      "durationMs": 27875,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-davil-and-horgus.mp3",
+        "durationMs": 27875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-davil-and-horgus-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-davil",
+        "darrowshire-lost-and-remembered-horgus",
+        "darrowshire-lost-and-remembered-defenders"
+      ],
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-replay-begins",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-redpath-corrupted"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-redpath-corrupted",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "The captain falls to corruption",
+      "narration": "The second condition cannot be avoided: Joseph must live long enough to become corrupted, and then the visitor must defeat Redpath the Corrupted. Marduk’s role belongs to the Annals’ account; the quest objectives do not show every cause in the reenactment. The story keeps Joseph’s change distinct from Davil’s survival, so the battle’s altered course does not collapse into a claim that no one was lost or that the Scourge never reached Darrowshire.",
+      "durationMs": 28975,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-redpath-corrupted.mp3",
+        "durationMs": 28975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-redpath-corrupted-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-marduk",
+        "darrowshire-lost-and-remembered-corrupted-joseph",
+        "darrowshire-lost-and-remembered-pamela"
+      ],
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-davil-and-horgus",
+      "nextNodeIds": [
+        "darrowshire-lost-and-remembered-story-family-homecoming"
+      ]
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-story-family-homecoming",
+      "guideId": "darrowshire-lost-and-remembered-guide",
+      "title": "Pamela hears the battle end",
+      "narration": "After the fighting, the quest brings Joseph’s spirit to Pamela, and the child speaks as if her father will come home. The account presents their reunion as the battle’s remembered resolution; the deeper effect of Chromie’s spell on a lasting timeline remains uncertain. Pamela then entrusts the traveler with a key to a chest behind the house. Her small act of welcome closes the chain with an image of homecoming, while the village’s original loss remains part of the record.",
+      "durationMs": 31000,
+      "voiceover": {
+        "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-family-homecoming.mp3",
+        "durationMs": 31000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "eventIds": [
+        "darrowshire-lost-and-remembered-family-homecoming-event"
+      ],
+      "entityIds": [
+        "darrowshire-lost-and-remembered-pamela",
+        "darrowshire-lost-and-remembered-joseph",
+        "darrowshire-lost-and-remembered-doll"
+      ],
+      "locationIds": [
+        "darrowshire-village"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene"
+        }
+      ],
+      "previousNodeId": "darrowshire-lost-and-remembered-story-redpath-corrupted"
     },
     {
       "id": "dungeon-set-two-story-two-faction-doors",

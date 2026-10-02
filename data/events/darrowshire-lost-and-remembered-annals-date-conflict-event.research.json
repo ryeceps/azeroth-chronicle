@@ -1,0 +1,30 @@
+{
+  "id": "darrowshire-lost-and-remembered-annals-date-conflict-event",
+  "kind": "event",
+  "name": "Flashback · Era 7 — The date the Annals give",
+  "slug": "darrowshire-lost-and-remembered-annals-date-conflict",
+  "eraId": "third-war-frozen-throne",
+  "worldspaceId": "darrowshire-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Third War historical prologue · exact date disputed in the Annals"
+  },
+  "summary": "The Annals begin in a village under threat, but their first date creates a problem this telling will not smooth away. The book says the Scourge was rampaging in the middle of the Second War; another historical account places Darrowshire’s fall in the Third War. The Third War frame is used here because the named Scourge war belongs to that later crisis, while the Annals’ wording remains visible as a contradiction in the record. The village is small and rural, its fate more certain than its date.",
+  "locationIds": [
+    "darrowshire-village"
+  ],
+  "participantEntityIds": [
+    "darrowshire-lost-and-remembered-scourge",
+    "darrowshire-lost-and-remembered-joseph",
+    "darrowshire-lost-and-remembered-davil",
+    "darrowshire-lost-and-remembered-annals"
+  ],
+  "sourceIds": [
+    "darrowshire-annals-book",
+    "darrowshire-battle-history"
+  ],
+  "claimIds": [
+    "darrowshire-lost-and-remembered-annals-date-conflict-claim"
+  ],
+  "contentStatus": "research"
+}
