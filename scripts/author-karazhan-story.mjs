@@ -10,6 +10,14 @@ const eraId = 'age-of-adventurers';
 const worldspaceId = 'karazhan-story-theater';
 const artDirectory = 'public/images/storylines/karazhan';
 const existingStoryPath = path.join(root, `data/stories/${storyId}.research.json`);
+const existingAssetLedgerPath = path.join(root, 'docs/research/karazhan-visual-assets.json');
+const existingAssetRecords = new Map();
+try {
+  const existingLedger = JSON.parse(await readFile(existingAssetLedgerPath, 'utf8'));
+  for (const asset of existingLedger.assetRecords ?? []) existingAssetRecords.set(asset.id, asset);
+} catch (error) {
+  if (error.code !== 'ENOENT') throw error;
+}
 const existingVoiceovers = new Map();
 try {
   const existingStory = JSON.parse(await readFile(existingStoryPath, 'utf8'));
@@ -24,6 +32,16 @@ async function write(file, value) {
   const fullPath = path.join(root, file);
   await mkdir(path.dirname(fullPath), { recursive: true });
   await writeFile(fullPath, typeof value === 'string' ? value : `${JSON.stringify(value, null, 2)}\n`);
+}
+
+function assetFileMetadata(id, bytes, info) {
+  const sha256 = createHash('sha256').update(bytes).digest('hex');
+  const existing = existingAssetRecords.get(id);
+  return {
+    byteLength: bytes.length,
+    modifiedAt: existing?.sha256 === sha256 ? existing.modifiedAt : info.mtime.toISOString(),
+    sha256,
+  };
 }
 
 const sources = [
@@ -79,9 +97,9 @@ const sources = [
   {
     id: 'karazhan-atiesh-visual-reference',
     title: 'Atiesh, Greatstaff of the Guardian item reference',
-    url: 'https://www.wowhead.com/classic/item=22631/atiesh-greatstaff-of-the-guardian',
+    url: 'https://www.wowhead.com/classic/item=22589/atiesh-greatstaff-of-the-guardian',
     sourceType: 'website',
-    notes: 'Accessed 2026-10-01. Secondary visual locator for the Classic/TBC item. Its recognizable raven finial and violet streamer inform the focused Medivh staff edit. The art is not canonical game art; compare against the intended client model before human approval.',
+    notes: 'Accessed 2026-10-02. Secondary visual locator for the mage version of the Classic/TBC item. Its recognizable raven carving and red mage streamer inform the focused Medivh staff edit. The art is not canonical game art; compare against the intended client model before human approval.',
   },
 ];
 for (const source of sources) await write(`data/sources/${source.id}.research.json`, source);
@@ -110,7 +128,7 @@ const environments = [
 const cast = [
   { id: 'archmage-alturus', name: 'Archmage Alturus', type: 'character', description: 'Human field leader of the Violet Eye outside Karazhan; rendered as an experienced silvering mage in practical blue-violet robes.', asset: 'archmage-alturus', artifact: 'exec-8d723970-ba85-4e50-874f-bde09345d8e0.png', tile: 'top-left', scale: 0.82 },
   { id: 'khadgar', name: 'Khadgar', type: 'character', description: 'Human archmage and former apprentice to Medivh, shown with long white hair and beard in restrained ivory, slate-blue and silver robes.', asset: 'khadgar', artifact: 'exec-8d723970-ba85-4e50-874f-bde09345d8e0.png', tile: 'top-middle', scale: 0.84 },
-  { id: 'medivh', name: 'Medivh', type: 'character', description: 'The Guardian in his journal memory, carrying Atiesh, Greatstaff of the Guardian: a gnarled wooden staff with a carved raven-head finial, violet crystal accents and a hanging violet streamer.', asset: 'medivh', artifact: 'exec-fafc82b4-9f2a-4521-88e2-bc36f906da51.png', tile: 'single transparent portrait staff edit', scale: 0.94 },
+  { id: 'medivh', name: 'Medivh', type: 'character', description: 'The Guardian in his journal memory, carrying Atiesh, Greatstaff of the Guardian: a dark gnarled wooden staff with an integrated carved seated raven, folded wings and hooked beak, a small violet eye or stone, and the mage version’s hanging red streamer.', asset: 'medivh', artifact: 'exec-4ebac0e7-67f0-4897-b32b-ce58ae9d9185.png', tile: 'single transparent portrait with seated-raven and red-ribbon Atiesh edit', scale: 1.3 },
   { id: 'archmage-cedric', name: 'Archmage Cedric', type: 'character', description: 'Senior human mage of Dalaran and the Violet Eye, represented in formal, dark-violet robes.', asset: 'archmage-cedric', artifact: 'exec-8d723970-ba85-4e50-874f-bde09345d8e0.png', tile: 'top-right', scale: 0.82 },
   { id: 'wravien', name: 'Wravien', type: 'character', description: 'Human Violet Eye mage found among the books in Karazhan’s Guardian’s Library; tired and distracted by the tower.', asset: 'wravien', artifact: 'exec-8d723970-ba85-4e50-874f-bde09345d8e0.png', tile: 'bottom-left', scale: 0.82 },
   { id: 'gradav', name: 'Gradav', type: 'character', description: 'Human Violet Eye warlock in Karazhan’s library, absorbed in his own task and unable to direct the seeker beyond Kamsis.', asset: 'gradav', artifact: 'exec-8d723970-ba85-4e50-874f-bde09345d8e0.png', tile: 'bottom-middle', scale: 0.82 },
@@ -314,16 +332,18 @@ for (const person of cast) {
 // Medivh is an existing entity. Keep that stable record and update its figure to the user-requested Atiesh depiction.
 const medivhPath = path.join(root, 'data/entities/medivh.research.json');
 const medivh = JSON.parse(await readFile(medivhPath, 'utf8'));
-medivh.mapFigure = { asset: 'images/storylines/karazhan/medivh.research.webp', scale: 0.94 };
+medivh.mapFigure = { asset: 'images/storylines/karazhan/medivh.research.webp', scale: 1.3 };
 medivh.sourceIds = [...new Set([...medivh.sourceIds, ...beats.filter((beat) => beat.cast.includes('medivh')).flatMap((beat) => beat.sources)])];
 medivh.featuredEraIds = [...new Set([...(medivh.featuredEraIds ?? []), eraId])];
 medivh.tags = [...new Set([...(medivh.tags ?? []), 'atiesh', 'karazhan-story'])];
 const atieshNotes = [
   'The Karazhan-story figure is a separate original interpretation and depicts the user-requested raven-crowned Atiesh. Its appearance and use in the journal memory remain subject to human comparison with the appropriate TBC client/model.',
-  'The Karazhan-story figure is a separate original interpretation and shows Atiesh as a gnarled wooden staff with an integrated carved raven-head finial, violet crystal accents, and a hanging violet streamer. Its appearance and use in the journal memory remain subject to human comparison with the appropriate TBC client/model.',
+  'The Karazhan-story figure is a separate original interpretation and shows Atiesh, Greatstaff of the Guardian, as a gnarled wooden staff with an integrated carved raven-head finial, violet crystal accents, and a hanging violet streamer. Its appearance and use in the journal memory remain subject to human comparison with the appropriate TBC client/model.',
+  'The Karazhan-story figure is a separate original interpretation and shows Atiesh as a dark gnarled wooden staff with an integrated carved seated raven, folded wings and hooked beak, a small violet eye or stone, and a hanging violet streamer. Its appearance and use in the journal memory remain subject to human comparison with the appropriate TBC client/model.',
+  'The Karazhan-story figure is a separate original interpretation and shows Atiesh as a dark gnarled wooden staff with an integrated carved seated raven, folded wings and hooked beak, a small violet eye or stone, and the mage version’s hanging red streamer. Its appearance and use in the journal memory remain subject to human comparison with the appropriate TBC client/model.',
 ];
 const medivhBodyWithoutAtieshNote = atieshNotes.reduce((body, note) => body.replaceAll(note, ' '), medivh.body ?? '').replace(/\s+/g, ' ').trim();
-const atieshNote = atieshNotes[1];
+const atieshNote = atieshNotes[3];
 medivh.body = [medivhBodyWithoutAtieshNote, atieshNote].filter(Boolean).join(' ');
 await write('data/entities/medivh.research.json', medivh);
 
@@ -351,7 +371,8 @@ for (const artifact of artifacts) {
 for (const location of locations) {
   const imageRecord = environments.find((scene) => scene.id === location.environment);
   const relevantSources = [...new Set(beats.filter((beat) => beat.location === location.id).flatMap((beat) => beat.sources))];
-  await write(`data/entities/${location.id}.research.json`, {
+  const entityPath = `data/entities/${location.id}.research.json`;
+  let entity = {
     id: location.id,
     type: 'location',
     name: location.name,
@@ -363,7 +384,17 @@ for (const location of locations) {
     sourceIds: relevantSources,
     tags: ['karazhan-story', 'burning-crusade-location'],
     contentStatus: 'research',
-  });
+  };
+  try {
+    const existingEntity = JSON.parse(await readFile(path.join(root, entityPath), 'utf8'));
+    const hasForeignSources = existingEntity.sourceIds?.some((sourceId) => !allSourceIds.includes(sourceId));
+    if (!existingEntity.tags?.includes('karazhan-story') || hasForeignSources) {
+      entity = existingEntity;
+    }
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+  }
+  await write(entityPath, entity);
   nameByEntityId.set(location.id, location.name);
 }
 
@@ -533,9 +564,7 @@ for (const environment of environments) {
     generator: 'OpenAI ImageGen; original 2x2 landscape contact sheet tile cropped and converted to WebP with alpha-safe FFmpeg workflow.',
     transparency: false,
     visualReview: 'Prompt and generated image checked for its recorded area palette and skyline; no exact in-client resemblance capture is claimed. Human comparison to the intended Burning Crusade area/build remains open.',
-    byteLength: bytes.length,
-    modifiedAt: info.mtime.toISOString(),
-    sha256: createHash('sha256').update(bytes).digest('hex'),
+    ...assetFileMetadata(environment.id, bytes, info),
   });
 }
 for (const person of cast) {
@@ -550,19 +579,17 @@ for (const person of cast) {
     sourceTile: person.tile,
     targetEditionBuild: 'Burning Crusade quest-era identity; exact client appearance/build comparison remains open.',
     generationPrompt: person.id === 'medivh'
-      ? 'Focused edit of the original transparent Medivh portrait. Preserve the composition, character identity, clothing, body pose and hand grip. Change only the staff into a gnarled wooden Atiesh with a carved raven-head finial integrated into its upper end, violet crystal accents and a hanging violet streamer. No text or scenery; original interpretation, not canonical game art.'
+      ? 'Focused edit of the original transparent Medivh portrait. Preserve the character, face, hair, robes, pose, lighting, framing and transparent background. Replace only the staff with Atiesh: show its entire dark gnarled wooden shaft from the raven carving to the iron-shod base; integrate a clear seated raven carving at the top with rounded head, hooked beak, folded wings and body; add a small violet eye or stone and the mage version’s narrow hanging crimson-red streamer. Keep the staff held naturally in Medivh’s existing hand. No oversized crystals, floating orbs, elaborate filigree, text or scenery; original interpretation, not canonical game art.'
       : `Original isolated interpretation of ${person.name}: ${person.description} Preserve a distinctive readable silhouette, no text, no frame; not canonical game art.`,
     generator: person.id === 'medivh'
       ? 'OpenAI ImageGen; focused staff edit of a transparent portrait cutout, converted to alpha-capable WebP.'
       : 'OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.',
     transparency: true,
     visualReview: person.id === 'medivh'
-      ? 'Atiesh reads as a single staff with an integrated carved raven-head finial, gnarled wood shaft, violet crystal accents and hanging streamer. User-directed interpretation; compare to the intended TBC client item/model before approval.'
+      ? 'Atiesh reads at portrait scale as a complete staff held in Medivh’s hand: a dark gnarled wooden shaft with iron-shod base and an integrated seated raven carving whose head, hooked beak, folded wings and body form one clear silhouette, with a small violet eye or stone and the mage version’s red streamer. User-directed interpretation; compare to the intended TBC client item/model before approval.'
       : 'Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.',
     sourceReferences: [...new Set(beats.filter((beat) => beat.cast.includes(person.id)).flatMap((beat) => beat.sources))].map((sourceId) => ({ sourceId, url: sourceUrlById.get(sourceId) })),
-    byteLength: bytes.length,
-    modifiedAt: info.mtime.toISOString(),
-    sha256: createHash('sha256').update(bytes).digest('hex'),
+    ...assetFileMetadata(person.id, bytes, info),
   });
 }
 for (const artifact of artifacts) {
@@ -583,9 +610,7 @@ for (const artifact of artifacts) {
     transparency: true,
     visualReview: 'Object role and silhouette checked against the authored scene. Exact in-client model comparison remains a human review gate.',
     sourceReferences: [...new Set(beats.filter((beat) => beat.objects.includes(artifact.id)).flatMap((beat) => beat.sources))].map((sourceId) => ({ sourceId, url: sourceUrlById.get(sourceId) })),
-    byteLength: bytes.length,
-    modifiedAt: info.mtime.toISOString(),
-    sha256: createHash('sha256').update(bytes).digest('hex'),
+    ...assetFileMetadata(artifact.id, bytes, info),
   });
 }
 
@@ -616,7 +641,7 @@ await write('docs/research/karazhan-visual-assets.json', {
   status: 'research',
   targetEditionBuild: 'World of Warcraft: The Burning Crusade, original quest era patch 2.0.3 through 2.4.3, before Wrath of the Lich King changes. Exact reference build capture remains open.',
   editorialRule: 'Match the named TBC game areas by their recognizable architecture, material palette, terrain, skyline and landmark forms while using original compositions. Record the reference and keep the in-game resemblance review explicitly open until a human compares each image with the matching client/build.',
-  assetProvenance: 'Original illustrations created with built-in OpenAI ImageGen. Four 2x2 environment contact sheets were cropped into distinct landscape assets. Character and object assets are transparent cutouts; Arcanagos and Nightbane have separate single-subject dragon art. Medivh’s portrait received a focused staff edit so Atiesh has an integrated carved raven-head finial and violet streamer. All art is interpretive, not canonical game art or source evidence.',
+  assetProvenance: 'Original illustrations created with built-in OpenAI ImageGen. Four 2x2 environment contact sheets were cropped into distinct landscape assets. Character and object assets are transparent cutouts; Arcanagos and Nightbane have separate single-subject dragon art. Medivh’s portrait received a focused staff edit so Atiesh has an integrated seated-raven carving, dark gnarled shaft, violet eye detail and the mage version’s red hanging streamer. All art is interpretive, not canonical game art or source evidence.',
   assetRecords: allAssets,
   sceneLedger,
 });
@@ -642,34 +667,32 @@ await write('docs/research/karazhan-masters-key-and-nightbane-research.md', rese
 
 const tourPath = path.join(root, 'data/story-tours/classic-to-wrath.research.json');
 const tour = JSON.parse(await readFile(tourPath, 'utf8'));
+const previousEntry = tour.entries.find((item) => item.storylineId === storyId);
 const entry = {
+  ...(previousEntry ?? {}),
   storylineId: storyId,
   regionIds: ['eastern-kingdoms', 'outland'],
-  mapPositionPercent: [77, 66],
-  order: 4,
+  mapPositionPercent: previousEntry?.mapPositionPercent ?? [77, 66],
+  order: previousEntry?.order ?? 6,
   periodLabel: 'The Burning Crusade · Karazhan',
   locationLabel: 'Deadwind Pass · key fragments across Outland',
 };
-const byId = new Map(tour.entries.map((item) => [item.storylineId, item]));
-tour.entries = [
-  { ...byId.get('stormwind-onyxia-conspiracy'), order: 1 },
-  { ...byId.get('scepter-of-the-shifting-sands'), order: 2 },
-  { ...byId.get('dungeon-set-two-veiled-blade'), order: 3 },
-  entry,
-  { ...byId.get('cipher-of-damnation-oronok'), order: 5 },
-  { ...byId.get('wrathgate-and-undercity'), order: 6 },
-].filter((item) => item.storylineId);
-tour.chronologyNote = 'Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, Scepter, then the 1.10-era Dungeon Set 2 story), The Burning Crusade (Karazhan before the Outland Cipher of Damnation preview), and Wrath of the Lich King (Wrathgate preview). This sequence organizes access and does not claim the selected storylines caused one another. The Scepter’s ancient prologue is an earlier flashback; Dungeon Set 2’s companion fates are alternative memorial accounts; the Karazhan Master’s Key and Nightbane chains are linked editorially, not by a shared quest prerequisite.';
-tour.reviewNote = 'Playable entries: Classic Onyxia, Scepter, Dungeon Set 2, and the TBC Karazhan research story. The Outland Cipher of Damnation and Northrend Wrathgate remain research previews outside Play All. Original-client quest/build, chronology, map art and matching in-game location/model resemblance review remain open for human approval.';
+if (previousEntry) {
+  tour.entries = tour.entries.map((item) => item.storylineId === storyId ? entry : item);
+} else {
+  tour.entries = [...tour.entries, entry].sort((a, b) => a.order - b.order);
+}
+tour.chronologyNote ??= 'Play-all order is an editorial expansion-era sequence; order organizes access and does not claim that the selected storylines caused one another.';
+tour.reviewNote ??= 'Original-client quest/build, chronology, map art and matching in-game location/model resemblance review remain open for human approval.';
 await write('data/story-tours/classic-to-wrath.research.json', tour);
 
 const candidatesPath = path.join(root, 'docs/research/questline-story-candidates.md');
 let candidates = await readFile(candidatesPath, 'utf8');
 const sectionMatch = candidates.match(/### 12\. Karazhan: the Master's Key and Nightbane[\s\S]*?(?=\n### 13\. Akama and the Black Temple)/);
 if (!sectionMatch) throw new Error('Could not locate Karazhan candidate section #12.');
-const cleanSection = sectionMatch[0].replace(/\n\n\*\*Implementation:\*\*[\s\S]*$/, '');
+const cleanSection = sectionMatch[0].replace(/\n*\*\*Implementation:\*\*[\s\S]*$/, '');
 const implementationNote = '\n\n**Implementation:** Complete 18-scene illustrated research story with transcript-matched AI narration, claim/source ledger, named cast and object art (including Medivh with Atiesh), and the Karazhan marker in the Classic-to-Wrath StoryTour. The Master’s Key and Nightbane quest chains remain distinct with an explicit editorial join. Original-client evidence, human lore review, TBC area/model resemblance review and audio audition remain open. See the [production ledger](karazhan-production.md), [research packet](karazhan-masters-key-and-nightbane-research.md), and [visual asset ledger](karazhan-visual-assets.json).';
-candidates = candidates.replace(sectionMatch[0], `${cleanSection}${implementationNote}`);
+candidates = candidates.replace(sectionMatch[0], `${cleanSection.trimEnd()}${implementationNote}`);
 await write('docs/research/questline-story-candidates.md', candidates);
 
 const implementationPlanPath = path.join(root, 'docs/IMPLEMENTATION_PLAN.md');
@@ -678,8 +701,6 @@ const priorTourStatement = 'The Dragon in Stormwind, Scepter of the Shifting San
 const updatedTourStatement = 'The Dragon in Stormwind, Scepter of the Shifting Sands, Dungeon Set 2: The Veiled Blade and Lord Valthalak, and Karazhan: The Master’s Key and Nightbane are its four playable stories; the Outland Cipher of Damnation and Northrend Wrathgate remain research previews.';
 if (implementationPlan.includes(priorTourStatement)) {
   implementationPlan = implementationPlan.replace(priorTourStatement, updatedTourStatement);
-} else if (!implementationPlan.includes(updatedTourStatement)) {
-  throw new Error('Could not locate the Classic-to-Wrath StoryTour summary in the implementation plan.');
 }
 await write('docs/IMPLEMENTATION_PLAN.md', implementationPlan);
 

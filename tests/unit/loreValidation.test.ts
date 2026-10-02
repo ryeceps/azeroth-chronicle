@@ -878,9 +878,11 @@ describe('lore dataset', () => {
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId)
       .not.toBe(guide.id);
     expect(medivh.mapFigure?.asset).toBe('images/storylines/karazhan/medivh.research.webp');
-    expect(medivhAsset.generationPrompt).toMatch(/Atiesh/);
-    expect(medivhAsset.visualReview).toMatch(/carved raven-head finial/);
-    expect(storyTemplate).toMatch(/Signature equipment.*Medivh should visibly wield Atiesh/);
+    expect(medivh.mapFigure?.scale).toBeGreaterThanOrEqual(1.3);
+    expect(medivh.body).toMatch(/Atiesh.*seated raven.*red streamer/);
+    expect(medivhAsset.generationPrompt).toMatch(/Atiesh.*seated raven.*red streamer/);
+    expect(medivhAsset.visualReview).toMatch(/seated raven.*hooked beak.*folded wings.*red streamer/);
+    expect(storyTemplate).toMatch(/Signature equipment.*Medivh should visibly wield Atiesh.*seated raven.*red streamer/);
   });
 
   it('keeps Quel’Delar as a complete, source-linked Classic-to-Wrath story outside EraTour', () => {
