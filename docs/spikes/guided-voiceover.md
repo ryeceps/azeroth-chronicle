@@ -61,3 +61,9 @@ The selected-node generation command uses the existing stock `bm_lewis` voice at
 ## Prior-art lesson
 
 The Ocarina of Trump repository established useful production discipline: deterministic filenames, authored manifests, provenance, normalization, duration awareness, and explicit interruption testing. Azerothium adopts those general safeguards while keeping its implementation web-native, opt-in, and independent of any ROM audio system.
+
+## Classic-to-Wrath transcript alignment — 2026-10-02
+
+A local Whisper `base.en` pass compared the visible narration with all 219 narrated scenes in the Classic-to-Wrath StoryTour. Ten recordings stopped before their final sentence: nine Scepter of the Shifting Sands scenes and one Fallen Hero scene. A second `small.en` pass confirmed those cutoffs. The manifest transcript hashes matched the current text, so the mismatch was inside the generated audio rather than a stale transcript fingerprint.
+
+The voice generator now divides passages longer than 220 characters at sentence boundaries, synthesizes each part, and joins the WAV files before encoding the MP3. Those ten tracks were regenerated with the current narration. A post-generation `base.en` pass recognized each closing sentence; transcript and audio hashes, durations, and repository paths are recorded in the voice manifest. Automatic speech recognition is an alignment check, not human approval of pronunciation or performance.

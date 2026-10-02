@@ -16,10 +16,15 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(map).toBeVisible();
   await expect.poll(() => map.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
   const viewport = page.viewportSize()!;
+  const controlBounds = await page.locator('.story-tour-controls').boundingBox();
   const mapFrameBounds = await page.locator('.story-tour-map-frame').boundingBox();
-  expect(mapFrameBounds).toMatchObject({ x: 0, y: 0, width: viewport.width, height: viewport.height });
+  expect(mapFrameBounds).toMatchObject({ x: 0, width: viewport.width });
+  expect(mapFrameBounds!.y).toBeGreaterThanOrEqual(controlBounds!.y + controlBounds!.height);
+  expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
   await expect(page.locator('.story-tour-dot')).toHaveCount(12);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
+  await expect(page.locator('.story-tour-backdrop, .story-tour-section-heading, .story-tour-map-caption, .story-tour-order-note')).toHaveCount(0);
+  await expect(page.locator('.story-tour-tooltip').first()).toHaveCSS('visibility', 'hidden');
 
   const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
   const scepter = page.getByRole('button', { name: /scepter-of-the-shifting-sands|Scepter/i });
@@ -284,14 +289,19 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
     page: document.documentElement.scrollWidth,
   }));
   expect(dimensions.page).toBeLessThanOrEqual(dimensions.viewport);
+  const controlBounds = await page.locator('.story-tour-controls').boundingBox();
   const mapFrameBounds = await page.locator('.story-tour-map-frame').boundingBox();
-  expect(mapFrameBounds).toMatchObject({ x: 0, y: 0, width: 390, height: 844 });
+  expect(mapFrameBounds).toMatchObject({ x: 0, width: 390 });
+  expect(mapFrameBounds!.y).toBeGreaterThanOrEqual(controlBounds!.y + controlBounds!.height);
+  expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(844);
 
   const phoneAkama = page.getByRole('button', { name: /akama-and-black-temple|Akama and the Black Temple/i });
   await phoneAkama.click();
   const phoneAkamaCard = page.locator('.story-tour-touch-card');
   await expect(phoneAkamaCard.getByRole('heading', { name: 'Akama and the Black Temple' })).toBeVisible();
   await page.screenshot({ path: 'output/akama-black-temple-visual-review/classic-wrath-tour-akama-phone.png', fullPage: true });
+  await phoneAkamaCard.getByRole('button', { name: 'Close story preview' }).click();
+  await expect(phoneAkamaCard).toHaveCount(0);
 
   const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
   await onyxia.click();
