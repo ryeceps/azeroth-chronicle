@@ -21,7 +21,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   expect(mapFrameBounds).toMatchObject({ x: 0, width: viewport.width });
   expect(mapFrameBounds!.y).toBeGreaterThanOrEqual(controlBounds!.y + controlBounds!.height);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
-  await expect(page.locator('.story-tour-dot')).toHaveCount(13);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(14);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
   await expect(page.locator('.story-tour-backdrop, .story-tour-section-heading, .story-tour-map-caption, .story-tour-order-note')).toHaveCount(0);
   await expect(page.locator('.story-tour-tooltip').first()).toHaveCSS('visibility', 'hidden');
@@ -33,6 +33,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const tirionTaelan = page.getByRole('button', { name: /tirion-taelan-of-love-and-family|Tirion and Taelan/i });
   const darrowshire = page.getByRole('button', { name: /darrowshire-lost-and-remembered|Darrowshire/i });
   const defias = page.getByRole('button', { name: /defias-original-conspiracy|Unsent Letter/i });
+  const scythe = page.getByRole('button', { name: /scythe-of-elune-original-mystery|Scythe of Elune/i });
   const karazhan = page.getByRole('button', { name: /karazhan-masters-key-and-nightbane|Master’s Key and Nightbane/i });
   const akama = page.getByRole('button', { name: /akama-and-black-temple|Akama and the Black Temple/i });
   const outland = page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i });
@@ -46,6 +47,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(tirionTaelan).toBeVisible();
   await expect(darrowshire).toBeVisible();
   await expect(defias).toBeVisible();
+  await expect(scythe).toBeVisible();
   await expect(karazhan).toBeVisible();
   await expect(akama).toBeVisible();
   await expect(outland).toBeVisible();
@@ -243,6 +245,13 @@ test('Play All advances completed stories in chronological order and restores th
   }).toEqual(['defias-original-conspiracy', 'defias-original-conspiracy-story-westfall-unrest', 'all']);
   await expect(page.getByRole('heading', { name: 'Farmers driven from Westfall' })).toBeVisible();
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=defias-original-conspiracy&node=defias-original-conspiracy-story-audience-unanswered&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('storyline'), params.get('node'), params.get('play')];
+  }).toEqual(['scythe-of-elune-original-mystery', 'scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale', 'all']);
+  await expect(page.getByRole('heading', { name: 'The wolf-men of the Howling Vale' })).toBeVisible();
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=scythe-of-elune-original-mystery&node=scythe-of-elune-original-mystery-jitters-book-from-svens-farm&play=all');
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
