@@ -66,12 +66,16 @@ describe('Mega Tour and separate era and story tours', () => {
       'karazhan-masters-key-and-nightbane',
       'akama-and-black-temple',
       'cipher-of-damnation-oronok',
+      'missing-diplomat-original-investigation',
       'quel-delar-restored',
     ]);
-    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 21 + 21 + 18 + 20 + 26 + 19);
+    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 21 + 21 + 18 + 20 + 26 + 24 + 19);
     const akamaStart = stops.findIndex((stop) => stop.storylineSlug === 'akama-and-black-temple');
     expect(stops[akamaStart - 1]?.storylineSlug).toBe('karazhan-masters-key-and-nightbane');
     expect(stops.filter((stop) => stop.storylineSlug === 'cipher-of-damnation-oronok')).toHaveLength(26);
+    const diplomatStart = stops.findIndex((stop) => stop.storylineSlug === 'missing-diplomat-original-investigation');
+    expect(stops[diplomatStart - 1]?.storylineSlug).toBe('cipher-of-damnation-oronok');
+    expect(stops[diplomatStart + 24]?.storylineSlug).toBe('quel-delar-restored');
     expect(stops.some((stop) => stop.storylineSlug === 'wrathgate-and-undercity')).toBe(false);
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('play=all');
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('collection=classic-to-wrath');

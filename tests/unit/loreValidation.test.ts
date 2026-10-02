@@ -634,7 +634,7 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(220);
+    expect(events).toHaveLength(244);
     expect(events.filter((event) => event.id.startsWith('onyxia-'))).toHaveLength(21);
     expect(events.filter((event) => event.id.startsWith('dungeon-set-two-'))).toHaveLength(22);
     expect(events.filter((event) => event.id.startsWith('fallen-hero-and-rakhlikh-'))).toHaveLength(15);
@@ -830,7 +830,7 @@ describe('lore dataset', () => {
   it('keeps the Scepter storyline connected to its actual eras and source leads', () => {
     const data = loadDataset();
     const scepter = data.storylines.find((item) => item.id === 'scepter-of-the-shifting-sands')!;
-    expect(data.storylines).toHaveLength(28);
+    expect(data.storylines).toHaveLength(29);
     expect(data.storylines.find((item) => item.id === 'fallen-hero-and-rakhlikh')?.contentStatus).toBe('research');
     expect(data.storylines.find((item) => item.id === 'akama-and-black-temple')?.contentStatus).toBe('research');
     expect(data.storylines.find((item) => item.id === 'suramar-nightwell-rebellion')?.eraIds)
@@ -879,7 +879,8 @@ describe('lore dataset', () => {
     expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(8);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId)
       .not.toBe(guide.id);
-    expect(medivh.mapFigure?.asset).toBe('images/storylines/karazhan/medivh.research.webp');
+    expect(medivh.mapFigure?.asset).toBe('images/characters/rise-of-the-horde/medivh-atiesh.research.webp');
+    expect(existsSync(resolve('public', medivh.mapFigure!.asset))).toBe(true);
     expect(medivh.mapFigure?.scale).toBeGreaterThanOrEqual(1.3);
     expect(medivh.body).toMatch(/Atiesh.*seated raven.*red streamer/);
     expect(medivhAsset.generationPrompt).toMatch(/Atiesh.*seated raven.*red streamer/);
@@ -954,9 +955,9 @@ describe('lore dataset', () => {
     expect(guide.nodeIds).toHaveLength(19);
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
       && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
-    expect(entry.order).toBe(12);
+    expect(entry.order).toBe(13);
     expect(entry.regionIds).toEqual(['northrend', 'eastern-kingdoms']);
-    expect(tour.entries).toHaveLength(12);
+    expect(tour.entries).toHaveLength(13);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
     expect(nodes.find((node) => node.id.endsWith('story-thalorien-last-stand'))?.eventIds?.map(id =>
       data.events.find((event) => event.id === id)?.eraId)).toEqual(['third-war-frozen-throne']);
@@ -980,6 +981,52 @@ describe('lore dataset', () => {
       expect(existsSync(resolve('public', asset.assetPath))).toBe(true);
       expect(asset.outputSha256).toMatch(/^[a-f0-9]{64}$/);
       expect(asset.nodeIds.length).toBeGreaterThan(0);
+    }
+  });
+
+  it('keeps The Missing Diplomat a complete, source-linked Classic-to-Wrath story', () => {
+    const data = loadDataset();
+    const story = data.storylines.find((item) => item.id === 'missing-diplomat-original-investigation')!;
+    const guide = data.storyGuides.find((item) => item.id === story.storyGuideId)!;
+    const tour = data.storyTours.find((item) => item.slug === 'classic-to-wrath')!;
+    const entry = tour.entries.find((item) => item.storylineId === story.id)!;
+    const nodes = guide.nodeIds.map((id) => data.storyNodes.find((node) => node.id === id)!);
+    const assetLedger = JSON.parse(readFileSync(resolve('docs/research/missing-diplomat-original-investigation-visual-assets.json'), 'utf8')) as {
+      scenes: { nodeId: string; environmentAsset: string; recognizableTraits: string; resemblanceReviewStatus: string }[];
+    };
+
+    expect(story.contentStatus).toBe('research');
+    expect(story.showInEraTourOffshoots).toBe(false);
+    expect(guide.nodeIds).toHaveLength(24);
+    expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
+      && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
+    expect(entry.order).toBe(11);
+    expect(entry.regionIds).toEqual(['eastern-kingdoms', 'kalimdor']);
+    expect(tour.entries.find((item) => item.storylineId === 'wrathgate-and-undercity')?.order).toBe(12);
+    expect(tour.entries.find((item) => item.storylineId === 'quel-delar-restored')?.order).toBe(13);
+    expect(tour.chronologyNote).toMatch(/patch 2\.3 continuation.*cross-story quest dependency/i);
+    expect(story.reviewNote).toMatch(/Varian.*missing.*patron.*unnamed/i);
+    expect(story.reviewNote).toMatch(/original-client comparison.*open/i);
+    expect(nodes[12]?.narration).toMatch(/central disappearance remains unresolved/);
+    expect(nodes.at(-1)?.narration).toMatch(/patron remains unnamed/);
+    expect(assetLedger.scenes).toHaveLength(nodes.length);
+
+    for (const [index, node] of nodes.entries()) {
+      const scene = assetLedger.scenes[index]!;
+      expect(scene.nodeId).toBe(node.id);
+      expect(scene.recognizableTraits).toBeTruthy();
+      expect(scene.resemblanceReviewStatus).toBe('awaiting-original-client-comparison');
+      expect(existsSync(resolve('public', scene.environmentAsset))).toBe(true);
+      const stateId = node.visualActions?.find((action) => action.type === 'set_map_state');
+      expect(stateId?.type).toBe('set_map_state');
+      const mapState = data.mapStates.find((item) => item.id === stateId?.mapStateId)!;
+      expect(mapState.presentation).toBe('relational');
+      expect(mapState.terrainTextureAsset).toBe(scene.environmentAsset);
+      const event = data.events.find((item) => item.id === node.eventIds?.[0])!;
+      const claim = data.claims.find((item) => item.id === event.claimIds?.[0])!;
+      expect(claim.citationIds.length).toBeGreaterThan(0);
+      expect(claim.citationIds.every((id) => data.citations.some((citation) => citation.id === id))).toBe(true);
+      expect(claim.citationIds.every((id) => data.sources.some((source) => source.id === data.citations.find((citation) => citation.id === id)?.sourceId))).toBe(true);
     }
   });
 

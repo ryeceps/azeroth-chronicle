@@ -21,7 +21,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   expect(mapFrameBounds).toMatchObject({ x: 0, width: viewport.width });
   expect(mapFrameBounds!.y).toBeGreaterThanOrEqual(controlBounds!.y + controlBounds!.height);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
-  await expect(page.locator('.story-tour-dot')).toHaveCount(12);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(13);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
   await expect(page.locator('.story-tour-backdrop, .story-tour-section-heading, .story-tour-map-caption, .story-tour-order-note')).toHaveCount(0);
   await expect(page.locator('.story-tour-tooltip').first()).toHaveCSS('visibility', 'hidden');
@@ -36,6 +36,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const karazhan = page.getByRole('button', { name: /karazhan-masters-key-and-nightbane|Master’s Key and Nightbane/i });
   const akama = page.getByRole('button', { name: /akama-and-black-temple|Akama and the Black Temple/i });
   const outland = page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i });
+  const missingDiplomat = page.getByRole('button', { name: /missing-diplomat-original-investigation|The Missing Diplomat/i });
   const northrend = page.getByRole('button', { name: /wrathgate-and-undercity|Wrathgate/i });
   const quelDelar = page.getByRole('button', { name: /quel-delar-restored|Broken Blade Restored/i });
   await expect(onyxia).toBeVisible();
@@ -48,6 +49,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(karazhan).toBeVisible();
   await expect(akama).toBeVisible();
   await expect(outland).toBeVisible();
+  await expect(missingDiplomat).toBeVisible();
   await expect(northrend).toBeVisible();
   await expect(quelDelar).toBeVisible();
 
@@ -65,6 +67,15 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await outlandCard.getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'The Hand of Gul’dan' })).toBeVisible();
   await page.screenshot({ path: 'output/cipher-visual-review/storytour-desktop.png', fullPage: true });
+
+  await page.goto('/tours/classic-to-wrath');
+  await missingDiplomat.hover();
+  const missingDiplomatCard = page.locator('#story-tour-tip-missing-diplomat-original-investigation');
+  await expect(missingDiplomatCard.getByRole('heading', { name: 'The Missing Diplomat: From Stormwind to Alcaz' })).toBeVisible();
+  await expect(missingDiplomatCard).toContainText('Playable story');
+  await missingDiplomatCard.getByRole('button', { name: 'Play story' }).click();
+  await expect(page.getByRole('heading', { name: 'A quiet summons' })).toBeVisible();
+  await page.screenshot({ path: 'output/missing-diplomat-visual-review/storytour-desktop.png', fullPage: true });
 
   await page.goto('/tours/classic-to-wrath');
   await dungeonSetTwo.hover();
@@ -254,6 +265,10 @@ test('Play All advances completed stories in chronological order and restores th
   }).toEqual(['cipher-of-damnation-oronok', 'cipher-of-damnation-oronok-story-hand-of-guldan', 'all']);
   await expect(page.getByRole('heading', { name: 'The Hand of Gul’dan' })).toBeVisible();
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=cipher-of-damnation-oronok&node=cipher-of-damnation-oronok-story-the-mark-of-kaelthas&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'A quiet summons' })).toBeVisible();
+  await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('missing-diplomat-original-investigation');
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=missing-diplomat-original-investigation&node=missing-diplomat-original-investigation-story-return-to-jaina&play=all');
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'A hilt without a finder' })).toBeVisible();
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('quel-delar-restored');

@@ -1,0 +1,31 @@
+{
+  "id": "missing-diplomat-original-investigation-story-garn-and-orders-event",
+  "kind": "event",
+  "name": "Orders for precious cargo",
+  "slug": "missing-diplomat-original-investigation-story-garn-and-orders",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "missing-diplomat-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade patch 2.3 continuation; exact in-world date unknown"
+  },
+  "summary": "Garn’s orders reveal valuable cargo and an unnamed wealthy patron.",
+  "description": "Captain Wymor’s scouts describe red-bandana Defias near the wreck, an odd sight far from their Stormwind trade. On a nearby island, Garn Mathers holds a written order telling him to protect the cargo at any cost and promising a rich reward for success and silence. The note implies a patron with means, but it does not name one. Wymor sends the order to Renn McGill, the salvage diver already searching the shore.",
+  "locationIds": [
+    "missing-diplomat-original-investigation-dreadmurk-shore"
+  ],
+  "participantEntityIds": [
+    "captain-wymor",
+    "garn-mathers",
+    "defias-brotherhood",
+    "defias-orders-and-manacles"
+  ],
+  "sourceIds": [
+    "missing-diplomat-patch-23-quest-text",
+    "missing-diplomat-classic-quest-chain"
+  ],
+  "claimIds": [
+    "missing-diplomat-original-investigation-story-garn-and-orders-claim"
+  ],
+  "contentStatus": "research"
+}

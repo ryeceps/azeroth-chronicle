@@ -49,10 +49,11 @@ test('Karazhan traverses all cited scenes, shows Atiesh with Medivh, and returns
     await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED QUESTLINE THEATER');
     await expectIllustratedScene(page, node.title, index, 'desktop');
     if (node.id.endsWith('memory-of-arcanagos')) {
-      const medivhFigure = page.locator('.map-character-figure img[src*="/medivh.research.webp"]');
+      const medivhFigure = page.locator('.map-character-figure img[src*="/medivh-atiesh.research.webp"]');
       await expect(medivhFigure).toBeVisible();
       await expect.poll(() => medivhFigure.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
       await expect.poll(() => medivhFigure.evaluate((image: HTMLImageElement) => image.getBoundingClientRect().height)).toBeGreaterThanOrEqual(240);
+      await page.screenshot({ path: 'output/karazhan-visual-review/medivh-atiesh-desktop.png', fullPage: true });
     }
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
@@ -77,9 +78,10 @@ test('Karazhan keeps its scenes and cast visible at phone width', async ({ page 
     await expect(page.getByLabel('Chapter transcript')).toHaveText(node.narration);
     await expectIllustratedScene(page, node.title, index, 'phone');
     if (node.id.endsWith('memory-of-arcanagos')) {
-      const medivhFigure = page.locator('.map-character-figure img[src*="/medivh.research.webp"]');
+      const medivhFigure = page.locator('.map-character-figure img[src*="/medivh-atiesh.research.webp"]');
       await expect(medivhFigure).toBeVisible();
       await expect.poll(() => medivhFigure.evaluate((image: HTMLImageElement) => image.getBoundingClientRect().height)).toBeGreaterThanOrEqual(120);
+      await page.screenshot({ path: 'output/karazhan-visual-review/medivh-atiesh-phone.png', fullPage: true });
     }
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }

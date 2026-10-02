@@ -101,6 +101,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** separate original and patch 2.3 steps. If the ending needs licensed comic material, obtain and cite exact issues/pages. End with an explicit unresolved boundary until that evidence is reviewed; never fabricate a final rescue scene.
 
+**Implementation status (2026-10-02): research preview.** Authored as 24 illustrated beats across five chapters, with the original Classic investigation ending at its known boundary and the patch 2.3 continuation beginning separately. It is the eleventh placard in the Classic-to-Wrath `StoryTour`, after the Cipher of Damnation entry because the later continuation dates to patch 2.3; this editorial order does not assert a quest dependency. It remains out of the EraTour. The StoryGuide, transcript, citations, claims, map states, scene art, and 24 matching narration tracks are present. Still required before promotion: primary in-client quest capture and human claim review, visual comparison against the relevant client/build for every scene and cast composition, and canonical item-model comparison for Medivh’s Atiesh portrait. The ending remains unresolved: Varian’s location and the patron’s identity are not established by this story’s evidence.
+
 ### 09. The Scythe of Elune: the original mystery
 
 **ID:** `scythe-of-elune-original-mystery` · **C** · **Reach:** Ashenvale and Duskwood, linked investigations across continents.

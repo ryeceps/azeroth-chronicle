@@ -1,0 +1,1059 @@
+{
+  "guide": {
+    "id": "missing-diplomat-original-investigation-guide",
+    "eraId": "age-of-adventurers",
+    "title": "The Missing Diplomat · From Stormwind to Alcaz",
+    "description": "Twenty-four illustrated research scenes follow the original Classic investigation and then the separately sourced patch 2.3 continuation. The original chain ends with Hendel in custody and Varian still missing; the later addition adds a wreck, enchanted manacles and an unresolved patron on Alcaz.",
+    "nodeIds": [
+      "missing-diplomat-original-investigation-story-thomas-summons",
+      "missing-diplomat-original-investigation-story-bishop-reveals-disappearance",
+      "missing-diplomat-original-investigation-story-jorgen-letter",
+      "missing-diplomat-original-investigation-story-elling-to-backus",
+      "missing-diplomat-original-investigation-story-addle-stead-docket",
+      "missing-diplomat-original-investigation-story-ellings-fist-lead",
+      "missing-diplomat-original-investigation-story-dashel-plan-b",
+      "missing-diplomat-original-investigation-story-slim-caught",
+      "missing-diplomat-original-investigation-story-varian-revealed",
+      "missing-diplomat-original-investigation-story-samaul-trail",
+      "missing-diplomat-original-investigation-story-sentry-point",
+      "missing-diplomat-original-investigation-story-tervosh-briefing",
+      "missing-diplomat-original-investigation-story-hendel-custody",
+      "missing-diplomat-original-investigation-story-signet-and-boundary",
+      "missing-diplomat-original-investigation-story-patch-23-report",
+      "missing-diplomat-original-investigation-story-garn-and-orders",
+      "missing-diplomat-original-investigation-story-renn-and-the-wreck",
+      "missing-diplomat-original-investigation-story-salvage-boxes",
+      "missing-diplomat-original-investigation-story-jaina-must-know",
+      "missing-diplomat-original-investigation-story-jaina-orders-survey",
+      "missing-diplomat-original-investigation-story-alcaz-survey",
+      "missing-diplomat-original-investigation-story-upper-echelon-patron",
+      "missing-diplomat-original-investigation-story-bolvar-and-katrana",
+      "missing-diplomat-original-investigation-story-return-to-jaina"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "missing-diplomat-original-investigation-story-thomas-summons",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "A quiet summons",
+      "narration": "At the Cathedral of Light, Thomas asks for an adventurer who can keep a matter private. He names no cause in the open square; only Bishop DeLavey waits inside Stormwind Keep. The request is small in sound and large in implication: someone within the kingdom has chosen discretion before disclosure. The investigation begins with a sealed threshold, not a public alarm.",
+      "durationMs": 49500,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-thomas-summons-event"
+      ],
+      "entityIds": [
+        "thomas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-thomas-summons-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-bishop-reveals-disappearance"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-thomas-summons.mp3",
+        "durationMs": 26100,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-bishop-reveals-disappearance",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "A diplomat does not arrive",
+      "narration": "Bishop DeLavey explains the absence that the city has not yet made common knowledge: a diplomat sent to Theramore to meet Lady Jaina Proudmoore never reached his destination. The king’s agents are already searching, but the bishop will set his own contacts in motion. A sealed letter leads first to Jorgen, a fisherman in the Valley of Heroes. The story has a destination, though not yet a culprit.",
+      "durationMs": 55000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-bishop-reveals-disappearance-event"
+      ],
+      "entityIds": [
+        "bishop-delavey"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-bishop-reveals-disappearance-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-thomas-summons",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-jorgen-letter"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-bishop-reveals-disappearance.mp3",
+        "durationMs": 26500,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-jorgen-letter",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "A fisherman’s letter",
+      "narration": "Jorgen recognizes the bishop’s seal and accepts the duty reluctantly. He writes another letter for Elling Trias and insists that the confidence placed in him pass onward intact. No weapon is drawn, yet the chain of trust is already a route: from a church office, through a fisherman, toward a man who trades in information. The search moves by people who know how to keep a name quiet.",
+      "durationMs": 55000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-jorgen-letter-event"
+      ],
+      "entityIds": [
+        "jorgen",
+        "elling-trias"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-jorgen-letter-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-bishop-reveals-disappearance",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-elling-to-backus"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-jorgen-letter.mp3",
+        "durationMs": 26725,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-elling-to-backus",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "The watcher in Duskwood",
+      "narration": "Elling Trias accepts the courier’s message and sends the search toward Watcher Backus in Duskwood. The instruction concerns recent Defias activity, but it does not yet prove why the brotherhood has entered the inquiry. Each handoff narrows the field while leaving motive uncertain. From Stormwind’s pale walls, the road now leads into a wooded country where old farmsteads and fog keep their own counsel.",
+      "durationMs": 52000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-elling-to-backus-event"
+      ],
+      "entityIds": [
+        "elling-trias"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-elling-to-backus-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-jorgen-letter",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-addle-stead-docket"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-elling-to-backus.mp3",
+        "durationMs": 27000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-addle-stead-docket",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "A docket at Addle’s Stead",
+      "narration": "Watcher Backus recalls unusual Defias activity around Addle’s Stead. The farm lies apart from Stormwind’s ordered streets, its fields dark beneath Duskwood’s clouded canopy. A search of the hideout yields a docket from a chest. Backus can tell that the papers are authentic, but the matter has grown beyond local watchwork. He returns the evidence to Elling, who can read its wider implications.",
+      "durationMs": 51000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-addle-stead-docket-event"
+      ],
+      "entityIds": [
+        "watcher-backus"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-addle-stead-docket-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-elling-to-backus",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-ellings-fist-lead"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-addle-stead-docket.mp3",
+        "durationMs": 27450,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-ellings-fist-lead",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "The name behind the papers",
+      "narration": "Elling studies the docket and finds a name he recognizes: Dashel Stonefist, a resident of Stormwind’s Old Town. Backus had seen the papers; Elling can follow them. That distinction turns a cache of documents into a human lead. The investigation returns to the city not because the danger has passed, but because its next door is hidden among familiar streets and guarded reputations.",
+      "durationMs": 51000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-ellings-fist-lead-event"
+      ],
+      "entityIds": [
+        "elling-trias",
+        "watcher-backus"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-ellings-fist-lead-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-addle-stead-docket",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-dashel-plan-b"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-ellings-fist-lead.mp3",
+        "durationMs": 26150,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-dashel-plan-b",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "The second plan",
+      "narration": "Dashel Stonefist is not the author of the whole scheme. He admits that the first plan failed and points to a second one involving Tapoke “Slim” Jahn in Menethil Harbor. The clue sends the inquiry north, beyond the green woods and toward the Wetlands’ cold coast. A failed operation has left a loose end; the search follows it to the inn where Slim believes he can remain unnoticed.",
+      "durationMs": 55000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-dashel-plan-b-event"
+      ],
+      "entityIds": [
+        "dashel-stonefist"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-dashel-plan-b-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-ellings-fist-lead",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-slim-caught"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-dashel-plan-b.mp3",
+        "durationMs": 26750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-slim-caught",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "A flight through Menethil",
+      "narration": "In Menethil Harbor, Slim hears that Elling’s inquiry has reached the inn. He tries to slip away, and the encounter becomes a brief struggle outside the crowded waterside rooms. The Wetlands are not merely a crossing between continents here; they are the place where a quiet investigation finally meets a suspect face to face. Slim is subdued, and the questions can begin.",
+      "durationMs": 50500,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-slim-caught-event"
+      ],
+      "entityIds": [
+        "tapoke-slim-jahn"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-slim-caught-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-dashel-plan-b",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-varian-revealed"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-slim-caught.mp3",
+        "durationMs": 25350,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-varian-revealed",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "The missing king",
+      "narration": "Slim gives up the name at the center of the search: the “diplomat” is Varian Wrynn, Stormwind’s missing king. Slim says Hendel was meant to board the king’s ship. This portrait is a record of the absent subject, not a claim that Varian stood at the Menethil inn. The trail now has a face and an intended accomplice, but no recovered king and no account of what became of the voyage.",
+      "durationMs": 57000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-varian-revealed-event"
+      ],
+      "entityIds": [
+        "tapoke-slim-jahn",
+        "varian-wrynn"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-varian-revealed-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-slim-caught",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-samaul-trail"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-varian-revealed.mp3",
+        "durationMs": 26175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-samaul-trail",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "The marine commander",
+      "narration": "The harbor account points toward Commander Samaul in Theramore. The lead concerns Kul Tiras marines who travel from Theramore to Menethil on leave; Elling’s name is the sign that earns Samaul’s confidence. The inquiry crosses the sea again, from damp northern docks to a fortified port built on Dustwallow’s marshland. It follows a military posting, not a proven escape route for Varian.",
+      "durationMs": 50500,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-samaul-trail-event"
+      ],
+      "entityIds": [
+        "commander-samaul"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-samaul-trail-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-varian-revealed",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-sentry-point"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-samaul-trail.mp3",
+        "durationMs": 26825,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-sentry-point",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "The first tower",
+      "narration": "Commander Samaul is cautious with a stranger, then names Private Hendel’s last post: Sentry Point, the first tower beyond Theramore. The tower stands as a watch over marsh and shore, a practical outpost between the city and the uncertain coast. The search has narrowed to one soldier, but Samaul’s report does not establish what Hendel knows or whether he still serves the plan Slim described.",
+      "durationMs": 52500,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-sentry-point-event"
+      ],
+      "entityIds": [
+        "commander-samaul"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-sentry-point-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-samaul-trail",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-tervosh-briefing"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-sentry-point.mp3",
+        "durationMs": 26925,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-tervosh-briefing",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "The mage’s assistance",
+      "narration": "At Sentry Point, Archmage Tervosh says Jaina knows of the inquiry and has directed him to assist. Hendel is west of the tower, keeping watch over Theramore’s scouts as they return from searching for Brackenwall. This is an account of the quest’s lead, not a claim that every named figure shares the illustrated frame. The marsh has yielded the soldier’s position; the confrontation itself remains ahead.",
+      "durationMs": 53500,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-tervosh-briefing-event"
+      ],
+      "entityIds": [
+        "archmage-tervosh",
+        "private-hendel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-tervosh-briefing-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-sentry-point",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-hendel-custody"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-tervosh-briefing.mp3",
+        "durationMs": 27400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-hendel-custody",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "Hendel taken into custody",
+      "narration": "Hendel resists when confronted, and nearby guards join the struggle. The adventurer subdues him; Tervosh and Jaina arrive, and custody passes to them. The chain ends with a prisoner and a name already connected to Varian’s ship, not with the king’s rescue. No later comic, later game account, or unseen voyage is used to close the gap. The investigation has found a participant, while its central disappearance remains unresolved.",
+      "durationMs": 55500,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-hendel-custody-event"
+      ],
+      "entityIds": [
+        "private-hendel",
+        "archmage-tervosh",
+        "jaina-proudmoore"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-hendel-custody-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-tervosh-briefing",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-signet-and-boundary"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-hendel-custody.mp3",
+        "durationMs": 29900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-signet-and-boundary",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "The trail stops here",
+      "narration": "Jaina thanks the adventurer with her signet ring. That gift marks the service rendered, not the return of the missing king. The original chain closes at Theramore with Hendel held for questioning and Varian still absent from the story’s known scenes. The evidence has moved across Stormwind, Duskwood, the Wetlands and the marsh coast; the destination of the royal ship and the full design behind its disappearance remain beyond this account.",
+      "durationMs": 57000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-signet-and-boundary-event"
+      ],
+      "entityIds": [
+        "jaina-proudmoore"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-signet-and-boundary-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-hendel-custody",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-patch-23-report"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-signet-and-boundary.mp3",
+        "durationMs": 29400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-patch-23-report",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "A later wreck on the Dreadmurk Shore",
+      "narration": "The original chain and the patch 2.3 continuation are presented as separate historical evidence, joined here by editorial order rather than an asserted quest dependency. Lieutenant Aden reports Defias survivors near a shipwreck on the Dreadmurk Shore and sends the investigator to Captain Wymor at Sentry Point. The report opens a new inquiry: if the wreck is theirs, what did the Defias carry, and why were they searching its scattered remains?",
+      "durationMs": 57000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-patch-23-report-event"
+      ],
+      "entityIds": [
+        "captain-wymor"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-patch-23-report-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-signet-and-boundary",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-garn-and-orders"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-patch-23-report.mp3",
+        "durationMs": 30225,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-garn-and-orders",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "Orders for precious cargo",
+      "narration": "Captain Wymor’s scouts describe red-bandana Defias near the wreck, an odd sight far from their Stormwind trade. On a nearby island, Garn Mathers holds a written order telling him to protect the cargo at any cost and promising a rich reward for success and silence. The note implies a patron with means, but it does not name one. Wymor sends the order to Renn McGill, the salvage diver already searching the shore.",
+      "durationMs": 57500,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-garn-and-orders-event"
+      ],
+      "entityIds": [
+        "captain-wymor",
+        "garn-mathers",
+        "defias-brotherhood",
+        "defias-orders-and-manacles"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-garn-and-orders-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-patch-23-report",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-renn-and-the-wreck"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-garn-and-orders.mp3",
+        "durationMs": 27800,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-renn-and-the-wreck",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "Renn’s secondhand gear",
+      "narration": "Renn McGill confirms that the Defias have divers among the wreckage and accepts the orders as a reason to search first. The scattered ship remains stretch from the eastern coast of the island toward Alcaz, while the naga-held waters are dangerous. Before the diver can enter the search, damaged diving gear and tools must be recovered and repaired. The work turns the hidden cargo into a physical trail under the waterline.",
+      "durationMs": 57000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-renn-and-the-wreck-event"
+      ],
+      "entityIds": [
+        "renn-mcgill",
+        "defias-orders-and-manacles"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-renn-and-the-wreck-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-garn-and-orders",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-salvage-boxes"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-renn-and-the-wreck.mp3",
+        "durationMs": 27400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-salvage-boxes",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "The boxes beneath the water",
+      "narration": "Among the ship’s broken timbers, salvaged strongboxes bring coins, jewelry and letters to the surface. Most are only remnants of a scattered cargo. Renn finds something different among them: enchanted iron manacles. Their presence changes the question. The precious cargo was not simply a cache of valuables; someone had been bound aboard the ship. The evidence points to a human prisoner, but gives no new identity beyond the earlier Classic disclosure.",
+      "durationMs": 57000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-salvage-boxes-event"
+      ],
+      "entityIds": [
+        "renn-mcgill",
+        "defias-orders-and-manacles"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-salvage-boxes-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-renn-and-the-wreck",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-jaina-must-know"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-salvage-boxes.mp3",
+        "durationMs": 29625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-jaina-must-know",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "Jaina must know",
+      "narration": "Renn urges the investigator to report the manacles to Jaina without delay. The prisoner’s identity and fate are not established by the object itself; it only proves that a person was restrained. Theramore’s pale walls rise above the marsh and the sea, a place where the evidence can be weighed against the old report of Varian’s vanished voyage. Jaina now has a new clue, but still not the whole design.",
+      "durationMs": 56000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-jaina-must-know-event"
+      ],
+      "entityIds": [
+        "jaina-proudmoore",
+        "renn-mcgill",
+        "defias-orders-and-manacles"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-jaina-must-know-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-salvage-boxes",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-jaina-orders-survey"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-jaina-must-know.mp3",
+        "durationMs": 27200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-jaina-orders-survey",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "An island not yet entered",
+      "narration": "Jaina says Renn’s suspicion about Alcaz Island merits a survey, but a force large enough to fight through the island would overstrain Theramore’s defenses. She arranges an aerial inspection with Cassa Crimsonwing, an apprentice gryphon handler. The choice is cautious: gather knowledge before committing troops. From above the marsh, the island can be observed without pretending that its hidden defenders or their purpose are already understood.",
+      "durationMs": 53500,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-jaina-orders-survey-event"
+      ],
+      "entityIds": [
+        "jaina-proudmoore",
+        "cassa-crimsonwing"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-jaina-orders-survey-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-jaina-must-know",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-alcaz-survey"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-jaina-orders-survey.mp3",
+        "durationMs": 29375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-alcaz-survey",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "What waits on Alcaz",
+      "narration": "The gryphon passes above Alcaz’s wet, broken ground. The survey sees a rune circle, black dragonflight, naga, hydras and human figures among the island’s marsh pools. These details establish a crowded and dangerous place, not an alliance between every group present.",
+      "durationMs": 55000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-alcaz-survey-event"
+      ],
+      "entityIds": [
+        "cassa-crimsonwing"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-alcaz-survey-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-jaina-orders-survey",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-upper-echelon-patron"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-alcaz-survey.mp3",
+        "durationMs": 20075,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-upper-echelon-patron",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "A patron in high places",
+      "narration": "Jaina concludes that Defias hedge magic cannot explain the rune circle and that the island’s groups leave many questions unanswered. Her firmest inference is narrower: the Defias have a powerful ally high in the Alliance. She also tells the investigator that their plan is tied to Varian’s disappearance. The connection is now stated by Jaina, but neither the patron’s identity nor the groups’ relationship is resolved.",
+      "durationMs": 53500,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-upper-echelon-patron-event"
+      ],
+      "entityIds": [
+        "jaina-proudmoore",
+        "varian-wrynn"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-upper-echelon-patron-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-alcaz-survey",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-bolvar-and-katrana"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-upper-echelon-patron.mp3",
+        "durationMs": 28675,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-bolvar-and-katrana",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "A warning at Stormwind Keep",
+      "narration": "Jaina sends the findings to Highlord Bolvar Fordragon. He accepts the seriousness of her report and plans renewed action against the Defias until the king is returned. Lady Katrana Prestor urges him to turn elsewhere, dismissing the charge as speculation. Her objection is part of the record; it does not identify her as the patron or prove a connection to the disappearance. Bolvar asks that Jaina hear his thanks.",
+      "durationMs": 55500,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-bolvar-and-katrana-event"
+      ],
+      "entityIds": [
+        "bolvar-fordragon",
+        "katrana-prestor"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-bolvar-and-katrana-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-upper-echelon-patron",
+      "nextNodeIds": [
+        "missing-diplomat-original-investigation-story-return-to-jaina"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-bolvar-and-katrana.mp3",
+        "durationMs": 28750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "missing-diplomat-original-investigation-story-return-to-jaina",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "title": "The inquiry remains open",
+      "narration": "The messenger returns to Jaina with Bolvar’s response. The patch 2.3 chain closes on thanks and suspicion, not a rescue. The manacles prove a prisoner was carried; the island holds a rune circle and several groups; Jaina believes a powerful Alliance patron stands behind the Defias. The patron remains unnamed, Varian remains missing, and the original and later quest chains remain distinct evidence. The history stops at the evidence available here.",
+      "durationMs": 57000,
+      "eventIds": [
+        "missing-diplomat-original-investigation-story-return-to-jaina-event"
+      ],
+      "entityIds": [
+        "jaina-proudmoore",
+        "defias-orders-and-manacles"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 850
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "missing-diplomat-original-investigation-story-return-to-jaina-scene"
+        }
+      ],
+      "previousNodeId": "missing-diplomat-original-investigation-story-bolvar-and-katrana",
+      "nextNodeIds": [],
+      "voiceover": {
+        "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-return-to-jaina.mp3",
+        "durationMs": 31475,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    }
+  ]
+}

@@ -333,9 +333,8 @@ for (const person of cast) {
 const medivhPath = path.join(root, 'data/entities/medivh.research.json');
 const medivh = JSON.parse(await readFile(medivhPath, 'utf8'));
 medivh.mapFigure = {
-  asset: 'images/storylines/karazhan/medivh.research.webp',
-  scale: 1.3,
-  eraVariants: [{ eraId, asset: 'images/storylines/karazhan/medivh.research.webp', scale: 2.0 }],
+  asset: 'images/characters/rise-of-the-horde/medivh-atiesh.research.webp',
+  scale: 2,
 };
 medivh.sourceIds = [...new Set([...medivh.sourceIds, ...beats.filter((beat) => beat.cast.includes('medivh')).flatMap((beat) => beat.sources)])];
 medivh.featuredEraIds = [...new Set([...(medivh.featuredEraIds ?? []), eraId])];
