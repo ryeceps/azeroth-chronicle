@@ -1,0 +1,613 @@
+{
+  "storyId": "missing-diplomat-original-investigation",
+  "status": "research",
+  "editionBoundary": "Original World of Warcraft Classic quest chain through its signet-ring ending; separate The Burning Crusade patch 2.3 continuation through Return to Jaina; stop before Proof of Treachery (added in 4.0.3a), comics, or Varian’s later rescue.",
+  "scenes": [
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-thomas-summons",
+      "environmentAsset": "images/storylines/defias/stormwind-cathedral-square.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Stormwind City · Classic 1.12.1 reference",
+      "recognizableTraits": "Pale limestone, cool blue cloth and modest gold trim; the Cathedral square image is reused from the Classic-era Defias research art. Composition remains interpretive.",
+      "assetOrigin": "Reused repository environmental art only where the same city/era palette and setting fit; not repainted or treated as an exact view.",
+      "promptOrLawfulOrigin": "Existing source art ledger for images/storylines/defias/stormwind-cathedral-square.research.webp; reused from an adjacent research story.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "thomas",
+          "asset": "images/characters/missing-diplomat/thomas.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-bishop-reveals-disappearance",
+      "environmentAsset": "images/storylines/onyxia/stormwind-keep.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Stormwind Keep · Classic 1.12.1 reference",
+      "recognizableTraits": "Off-white stone halls and towers with blue and gold Alliance details. Reused Stormwind Keep illustration preserves the requested city palette; no red-brown stone or red banners.",
+      "assetOrigin": "Reused repository environmental art only where the same city/era palette and setting fit; not repainted or treated as an exact view.",
+      "promptOrLawfulOrigin": "Existing source art ledger for images/storylines/onyxia/stormwind-keep.research.webp; reused from an adjacent research story.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "bishop-delavey",
+          "asset": "images/characters/missing-diplomat/bishop-delavey.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-jorgen-letter",
+      "environmentAsset": "images/storylines/defias/stormwind-cathedral-square.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Stormwind City · Classic 1.12.1 reference",
+      "recognizableTraits": "Broad urban view in pale stone and muted blue-gold details. The Valley of Heroes is not separately depicted in the reused city illustration; exact placement is not asserted.",
+      "assetOrigin": "Reused repository environmental art only where the same city/era palette and setting fit; not repainted or treated as an exact view.",
+      "promptOrLawfulOrigin": "Existing source art ledger for images/storylines/defias/stormwind-cathedral-square.research.webp; reused from an adjacent research story.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "jorgen",
+          "asset": "images/characters/missing-diplomat/jorgen.research.webp"
+        },
+        {
+          "entityId": "elling-trias",
+          "asset": "repository entity: elling-trias"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-elling-to-backus",
+      "environmentAsset": "images/storylines/defias/stormwind-oldtown.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Stormwind City · Classic 1.12.1 reference",
+      "recognizableTraits": "Pale masonry and timber-fronted city details in a restrained blue-gold palette; reused Stormwind Old Town research illustration, not a surveyed route.",
+      "assetOrigin": "Reused repository environmental art only where the same city/era palette and setting fit; not repainted or treated as an exact view.",
+      "promptOrLawfulOrigin": "Existing source art ledger for images/storylines/defias/stormwind-oldtown.research.webp; reused from an adjacent research story.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "elling-trias",
+          "asset": "repository entity: elling-trias"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-addle-stead-docket",
+      "environmentAsset": "images/storylines/missing-diplomat/duskwood-addles-stead.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Duskwood · Classic 1.12.1 reference",
+      "recognizableTraits": "Fog-softened woodland, weathered farm buildings, uneven fields and muted green-brown ground. Original interpretive scene; exact farm layout remains open for client comparison.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "watcher-backus",
+          "asset": "images/characters/missing-diplomat/watcher-backus.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-ellings-fist-lead",
+      "environmentAsset": "images/storylines/defias/stormwind-oldtown.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Stormwind City · Classic 1.12.1 reference",
+      "recognizableTraits": "Timber-framed urban buildings against pale stone, with cool blue and muted gold details. Reused Classic Stormwind Old Town scene; no exact building is claimed.",
+      "assetOrigin": "Reused repository environmental art only where the same city/era palette and setting fit; not repainted or treated as an exact view.",
+      "promptOrLawfulOrigin": "Existing source art ledger for images/storylines/defias/stormwind-oldtown.research.webp; reused from an adjacent research story.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "elling-trias",
+          "asset": "repository entity: elling-trias"
+        },
+        {
+          "entityId": "watcher-backus",
+          "asset": "images/characters/missing-diplomat/watcher-backus.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-dashel-plan-b",
+      "environmentAsset": "images/storylines/defias/stormwind-oldtown.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Stormwind City · Classic 1.12.1 reference",
+      "recognizableTraits": "The city’s pale stone and timber frontage remains the visual anchor; the exact Old Town street is interpretive.",
+      "assetOrigin": "Reused repository environmental art only where the same city/era palette and setting fit; not repainted or treated as an exact view.",
+      "promptOrLawfulOrigin": "Existing source art ledger for images/storylines/defias/stormwind-oldtown.research.webp; reused from an adjacent research story.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "dashel-stonefist",
+          "asset": "images/characters/missing-diplomat/dashel-stonefist.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-slim-caught",
+      "environmentAsset": "images/storylines/missing-diplomat/menethil-harbor.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Wetlands · Classic 1.12.1 reference",
+      "recognizableTraits": "Grey-green marsh water, reed-fringed shore, timber docks and a sheltered harbor settlement. Original interpretive scene; not a route map.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "tapoke-slim-jahn",
+          "asset": "images/characters/missing-diplomat/tapoke-slim-jahn.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-varian-revealed",
+      "environmentAsset": "images/storylines/missing-diplomat/menethil-harbor.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Wetlands · Classic 1.12.1 reference",
+      "recognizableTraits": "Cool, misted harbor light, wooded wetlands and timber piers; the king portrait is an interpretive documentary inset, not a scene presence.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "tapoke-slim-jahn",
+          "asset": "images/characters/missing-diplomat/tapoke-slim-jahn.research.webp"
+        },
+        {
+          "entityId": "varian-wrynn",
+          "asset": "images/characters/missing-diplomat/varian-wrynn.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-samaul-trail",
+      "environmentAsset": "images/storylines/missing-diplomat/theramore-isle.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Dustwallow Marsh · The Burning Crusade 2.4.3 reference",
+      "recognizableTraits": "Pale coastal stone, blue banners and restrained gold trim, with low marshland, warm sea light and working docks. Original interpretive art; not an exact port plan.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "commander-samaul",
+          "asset": "images/characters/missing-diplomat/commander-samaul.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-sentry-point",
+      "environmentAsset": "images/storylines/missing-diplomat/sentry-point.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Dustwallow Marsh · The Burning Crusade 2.4.3 reference",
+      "recognizableTraits": "Weathered timber watchtower rising above reeds and shallow water, with a broad humid sky and distant marsh trees. Original scene, not an exact tower reconstruction.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "commander-samaul",
+          "asset": "images/characters/missing-diplomat/commander-samaul.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-tervosh-briefing",
+      "environmentAsset": "images/storylines/missing-diplomat/sentry-point.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Dustwallow Marsh · The Burning Crusade 2.4.3 reference",
+      "recognizableTraits": "Timber lookout, reed beds and rain-heavy marsh horizon. Interpretive exterior of the outpost; figures are staged as a relational cast.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "archmage-tervosh",
+          "asset": "images/characters/missing-diplomat/archmage-tervosh.research.webp"
+        },
+        {
+          "entityId": "private-hendel",
+          "asset": "images/characters/missing-diplomat/private-hendel.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-hendel-custody",
+      "environmentAsset": "images/storylines/missing-diplomat/sentry-point.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Dustwallow Marsh · The Burning Crusade 2.4.3 reference",
+      "recognizableTraits": "Reed-lined wetland clearing, watchtower timber and a pale sky; broad staging avoids claiming a surveyed combat location.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "private-hendel",
+          "asset": "images/characters/missing-diplomat/private-hendel.research.webp"
+        },
+        {
+          "entityId": "archmage-tervosh",
+          "asset": "images/characters/missing-diplomat/archmage-tervosh.research.webp"
+        },
+        {
+          "entityId": "jaina-proudmoore",
+          "asset": "repository entity: jaina-proudmoore"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-signet-and-boundary",
+      "environmentAsset": "images/storylines/missing-diplomat/theramore-isle.research.webp",
+      "referenceEditionBuild": "World of Warcraft Classic original quest version; compare against Classic 1.12.1 / Classic Era 1.13.3 capture",
+      "gameArea": "Dustwallow Marsh · The Burning Crusade 2.4.3 reference",
+      "recognizableTraits": "Pale stone citadel with blue and gold accents, marsh coast and open harbor; exact Theramore architecture remains interpretive.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "jaina-proudmoore",
+          "asset": "repository entity: jaina-proudmoore"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-patch-23-report",
+      "environmentAsset": "images/storylines/missing-diplomat/sentry-point.research.webp",
+      "referenceEditionBuild": "The Burning Crusade patch 2.3 continuation; compare against TBC 2.4.3 / TBC Classic capture",
+      "gameArea": "Dustwallow Marsh · patch 2.3 / TBC 2.4.3 reference",
+      "recognizableTraits": "Timber watch post facing humid marsh coast; new illustration uses Dustwallow palms, reeds and distant water. Editorial join is called out in the transcript.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "captain-wymor",
+          "asset": "images/characters/missing-diplomat/captain-wymor.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-garn-and-orders",
+      "environmentAsset": "images/storylines/missing-diplomat/dreadmurk-wreck.research.webp",
+      "referenceEditionBuild": "The Burning Crusade patch 2.3 continuation; compare against TBC 2.4.3 / TBC Classic capture",
+      "gameArea": "Dustwallow Marsh · patch 2.3 / TBC 2.4.3 reference",
+      "recognizableTraits": "Tropical marsh shore, mangrove roots, mudflats, scattered wreck timber and distant island silhouettes. Original composition; no exact ship path is shown.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "captain-wymor",
+          "asset": "images/characters/missing-diplomat/captain-wymor.research.webp"
+        },
+        {
+          "entityId": "garn-mathers",
+          "asset": "images/characters/missing-diplomat/garn-mathers.research.webp"
+        },
+        {
+          "entityId": "defias-brotherhood",
+          "asset": "repository entity: defias-brotherhood"
+        },
+        {
+          "entityId": "defias-orders-and-manacles",
+          "asset": "repository entity: defias-orders-and-manacles"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-renn-and-the-wreck",
+      "environmentAsset": "images/storylines/missing-diplomat/dreadmurk-wreck.research.webp",
+      "referenceEditionBuild": "The Burning Crusade patch 2.3 continuation; compare against TBC 2.4.3 / TBC Classic capture",
+      "gameArea": "Dustwallow Marsh · patch 2.3 / TBC 2.4.3 reference",
+      "recognizableTraits": "Shallow green-brown water, mud coast, tangled roots and weathered ship timbers; the wreck arrangement is interpretive rather than a surveyed map.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "renn-mcgill",
+          "asset": "images/characters/missing-diplomat/renn-mcgill.research.webp"
+        },
+        {
+          "entityId": "defias-orders-and-manacles",
+          "asset": "repository entity: defias-orders-and-manacles"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-salvage-boxes",
+      "environmentAsset": "images/storylines/missing-diplomat/dreadmurk-wreck.research.webp",
+      "referenceEditionBuild": "The Burning Crusade patch 2.3 continuation; compare against TBC 2.4.3 / TBC Classic capture",
+      "gameArea": "Dustwallow Marsh · patch 2.3 / TBC 2.4.3 reference",
+      "recognizableTraits": "Submerged wreck timbers visible through opaque marsh water, mangrove roots and silt. Salvage activity is interpretive; no exact wreck route or layout is asserted.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "renn-mcgill",
+          "asset": "images/characters/missing-diplomat/renn-mcgill.research.webp"
+        },
+        {
+          "entityId": "defias-orders-and-manacles",
+          "asset": "repository entity: defias-orders-and-manacles"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-jaina-must-know",
+      "environmentAsset": "images/storylines/missing-diplomat/theramore-isle.research.webp",
+      "referenceEditionBuild": "The Burning Crusade patch 2.3 continuation; compare against TBC 2.4.3 / TBC Classic capture",
+      "gameArea": "Dustwallow Marsh · patch 2.3 / TBC 2.4.3 reference",
+      "recognizableTraits": "Pale stone harbor fortress, blue banners, muted gold trim, sea and marsh in the same horizon. Preserve the citadel’s readable blue-white palette.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "jaina-proudmoore",
+          "asset": "repository entity: jaina-proudmoore"
+        },
+        {
+          "entityId": "renn-mcgill",
+          "asset": "images/characters/missing-diplomat/renn-mcgill.research.webp"
+        },
+        {
+          "entityId": "defias-orders-and-manacles",
+          "asset": "repository entity: defias-orders-and-manacles"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-jaina-orders-survey",
+      "environmentAsset": "images/storylines/missing-diplomat/theramore-isle.research.webp",
+      "referenceEditionBuild": "The Burning Crusade patch 2.3 continuation; compare against TBC 2.4.3 / TBC Classic capture",
+      "gameArea": "Dustwallow Marsh · patch 2.3 / TBC 2.4.3 reference",
+      "recognizableTraits": "Pale limestone walls, blue-and-gold Alliance details, docks and palm-lined marsh water; original scene rather than an exact city plan.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "jaina-proudmoore",
+          "asset": "repository entity: jaina-proudmoore"
+        },
+        {
+          "entityId": "cassa-crimsonwing",
+          "asset": "images/characters/missing-diplomat/cassa-crimsonwing.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-alcaz-survey",
+      "environmentAsset": "images/storylines/missing-diplomat/alcaz-survey.research.webp",
+      "referenceEditionBuild": "The Burning Crusade patch 2.3 continuation; compare against TBC 2.4.3 / TBC Classic capture",
+      "gameArea": "Dustwallow Marsh · patch 2.3 / TBC 2.4.3 reference",
+      "recognizableTraits": "Low marsh island, shallow water, mangrove growth, broken stone circle, black dragonkin to one side and naga figures to another. Original illustrative survey; exact locations and formations remain unverified.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "cassa-crimsonwing",
+          "asset": "images/characters/missing-diplomat/cassa-crimsonwing.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-upper-echelon-patron",
+      "environmentAsset": "images/storylines/missing-diplomat/theramore-isle.research.webp",
+      "referenceEditionBuild": "The Burning Crusade patch 2.3 continuation; compare against TBC 2.4.3 / TBC Classic capture",
+      "gameArea": "Dustwallow Marsh · patch 2.3 / TBC 2.4.3 reference",
+      "recognizableTraits": "Theramore’s pale walls and blue-gold details above the marsh; a source-backed verbal report, not an exact recreation of Jaina’s room.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "jaina-proudmoore",
+          "asset": "repository entity: jaina-proudmoore"
+        },
+        {
+          "entityId": "varian-wrynn",
+          "asset": "images/characters/missing-diplomat/varian-wrynn.research.webp"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-bolvar-and-katrana",
+      "environmentAsset": "images/storylines/onyxia/stormwind-keep.research.webp",
+      "referenceEditionBuild": "The Burning Crusade patch 2.3 continuation; compare against TBC 2.4.3 / TBC Classic capture",
+      "gameArea": "Stormwind Keep · patch 2.3 / TBC 2.4.3 reference",
+      "recognizableTraits": "Light limestone keep, blue banners and gold details. Reused original Stormwind Keep illustration; this scene explicitly avoids the red-brown palette that would misidentify it.",
+      "assetOrigin": "Reused repository environmental art only where the same city/era palette and setting fit; not repainted or treated as an exact view.",
+      "promptOrLawfulOrigin": "Existing source art ledger for images/storylines/onyxia/stormwind-keep.research.webp; reused from an adjacent research story.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "bolvar-fordragon",
+          "asset": "repository entity: bolvar-fordragon"
+        },
+        {
+          "entityId": "katrana-prestor",
+          "asset": "repository entity: katrana-prestor"
+        }
+      ]
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-return-to-jaina",
+      "environmentAsset": "images/storylines/missing-diplomat/theramore-isle.research.webp",
+      "referenceEditionBuild": "The Burning Crusade patch 2.3 continuation; compare against TBC 2.4.3 / TBC Classic capture",
+      "gameArea": "Dustwallow Marsh · patch 2.3 / TBC 2.4.3 reference",
+      "recognizableTraits": "Pale coastal keep and warm marsh light return the story to Jaina. Original interpretive port scene; no rescue or later comic ending is depicted.",
+      "assetOrigin": "Original AI-generated environmental research illustration, optimized locally as WebP.",
+      "promptOrLawfulOrigin": "Text-only original illustration prompt; no game screenshot, map texture, or published artwork was supplied.",
+      "interpretiveLimitation": "Not an in-game capture, survey, exact scene layout, route or evidence of characters being together at this position.",
+      "resemblanceReviewStatus": "awaiting-original-client-comparison",
+      "cast": [
+        {
+          "entityId": "jaina-proudmoore",
+          "asset": "repository entity: jaina-proudmoore"
+        },
+        {
+          "entityId": "defias-orders-and-manacles",
+          "asset": "repository entity: defias-orders-and-manacles"
+        }
+      ]
+    }
+  ],
+  "characterAssets": [
+    {
+      "entityId": "thomas",
+      "asset": "images/characters/missing-diplomat/thomas.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "bishop-delavey",
+      "asset": "images/characters/missing-diplomat/bishop-delavey.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "jorgen",
+      "asset": "images/characters/missing-diplomat/jorgen.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "elling-trias",
+      "asset": "images/storylines/defias/elling-trias.research.webp",
+      "origin": "Reused repository entity illustration.",
+      "visualReview": "Reuse is subject to this story’s stage-scale and overlap gate."
+    },
+    {
+      "entityId": "watcher-backus",
+      "asset": "images/characters/missing-diplomat/watcher-backus.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "dashel-stonefist",
+      "asset": "images/characters/missing-diplomat/dashel-stonefist.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "tapoke-slim-jahn",
+      "asset": "images/characters/missing-diplomat/tapoke-slim-jahn.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "varian-wrynn",
+      "asset": "images/characters/missing-diplomat/varian-wrynn.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "commander-samaul",
+      "asset": "images/characters/missing-diplomat/commander-samaul.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "archmage-tervosh",
+      "asset": "images/characters/missing-diplomat/archmage-tervosh.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "private-hendel",
+      "asset": "images/characters/missing-diplomat/private-hendel.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "jaina-proudmoore",
+      "asset": "images/characters/third-war-frozen-throne/jaina-proudmoore.research.webp",
+      "origin": "Reused repository entity illustration.",
+      "visualReview": "Reuse is subject to this story’s stage-scale and overlap gate."
+    },
+    {
+      "entityId": "captain-wymor",
+      "asset": "images/characters/missing-diplomat/captain-wymor.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "garn-mathers",
+      "asset": "images/characters/missing-diplomat/garn-mathers.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "defias-brotherhood",
+      "asset": "images/storylines/defias/defias-brotherhood-group.research.webp",
+      "origin": "Reused repository entity illustration.",
+      "visualReview": "Reuse is subject to this story’s stage-scale and overlap gate."
+    },
+    {
+      "entityId": "defias-orders-and-manacles",
+      "asset": "images/storylines/missing-diplomat/orders-and-manacles.research.webp",
+      "origin": "Reused repository entity illustration.",
+      "visualReview": "Reuse is subject to this story’s stage-scale and overlap gate."
+    },
+    {
+      "entityId": "renn-mcgill",
+      "asset": "images/characters/missing-diplomat/renn-mcgill.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "cassa-crimsonwing",
+      "asset": "images/characters/missing-diplomat/cassa-crimsonwing.research.webp",
+      "origin": "Original AI-generated transparent character cutout, locally optimized as alpha-preserving WebP.",
+      "visualReview": "Original-client model comparison pending; interpretive art only."
+    },
+    {
+      "entityId": "bolvar-fordragon",
+      "asset": "images/storylines/onyxia/bolvar-fordragon.research.webp",
+      "origin": "Reused repository entity illustration.",
+      "visualReview": "Reuse is subject to this story’s stage-scale and overlap gate."
+    },
+    {
+      "entityId": "katrana-prestor",
+      "asset": "images/storylines/onyxia/katrana-prestor.research.webp",
+      "origin": "Reused repository entity illustration.",
+      "visualReview": "Reuse is subject to this story’s stage-scale and overlap gate."
+    }
+  ],
+  "objects": [
+    {
+      "entityId": "defias-orders-and-manacles",
+      "asset": "images/storylines/missing-diplomat/orders-and-manacles.research.webp",
+      "origin": "Original AI-generated still life pairing two evidence clues from different beats; this is an editorial evidence board, not a physical co-location claim.",
+      "review": "Readable on desktop and phone; original-client item appearance pending."
+    }
+  ]
+}

@@ -460,7 +460,7 @@
     {
       "id": "medivh",
       "kind": "character",
-      "file": "public/images/storylines/karazhan/medivh.research.webp",
+      "file": "public/images/characters/rise-of-the-horde/medivh-atiesh.research.webp",
       "representedBy": "Medivh",
       "sourceArtifact": "exec-4ebac0e7-67f0-4897-b32b-ce58ae9d9185.png",
       "sourceTile": "single transparent portrait with seated-raven and red-ribbon Atiesh edit",
@@ -468,7 +468,7 @@
       "generationPrompt": "Focused edit of the original transparent Medivh portrait. Preserve the character, face, hair, robes, pose, lighting, framing and transparent background. Replace only the staff with Atiesh: show its entire dark gnarled wooden shaft from the raven carving to the iron-shod base; integrate a clear seated raven carving at the top with rounded head, hooked beak, folded wings and body; add a small violet eye or stone and the mage version’s narrow hanging crimson-red streamer. Keep the staff held naturally in Medivh’s existing hand. No oversized crystals, floating orbs, elaborate filigree, text or scenery; original interpretation, not canonical game art.",
       "generator": "OpenAI ImageGen; focused staff edit of a transparent portrait cutout, converted to alpha-capable WebP.",
       "transparency": true,
-      "visualReview": "Atiesh reads at portrait scale as a complete staff held in Medivh’s hand: a dark gnarled wooden shaft with iron-shod base and an integrated seated raven carving whose head, hooked beak, folded wings and body form one clear silhouette, with a small violet eye or stone and the mage version’s red streamer. The Karazhan story uses an era-specific 2.0 figure scale so the staff remains legible on phone and desktop. User-directed interpretation; compare to the intended TBC client item/model before approval.",
+      "visualReview": "Atiesh reads at portrait scale as a complete staff held in Medivh’s hand: a dark gnarled wooden shaft with iron-shod base and an integrated seated raven carving whose head, hooked beak, folded wings and body form one clear silhouette, with a small violet eye or stone and the mage version’s red streamer. The complete staff silhouette is preserved at the authored portrait scale; desktop and phone overlap review remains part of visual approval. User-directed interpretation; compare to the intended TBC client item/model before approval.",
       "sourceReferences": [
         {
           "sourceId": "karazhan-masters-touch-quest-text",
@@ -487,9 +487,11 @@
           "url": "https://www.wowhead.com/classic/item=22589/atiesh-greatstaff-of-the-guardian"
         }
       ],
-      "byteLength": 260024,
-      "modifiedAt": "2026-10-02T04:38:04.329Z",
-      "sha256": "08a34c9cd051fea2a024114aed3217425c1ca92d15aefd218efefe63f86a8c24"
+      "byteLength": 200028,
+      "modifiedAt": "2026-10-02T15:20:51.395Z",
+      "sha256": "aa81e5446c024599bf716b90b0c9ec0a5251579273f8d92e0d96441d42e40999",
+      "pixelWidth": 1254,
+      "pixelHeight": 1254
     },
     {
       "id": "archmage-cedric",
@@ -1127,7 +1129,7 @@
         {
           "id": "medivh",
           "name": "Medivh",
-          "image": "images/storylines/karazhan/medivh.research.webp"
+          "image": "images/characters/rise-of-the-horde/medivh-atiesh.research.webp"
         }
       ],
       "artifacts": [
@@ -1302,7 +1304,7 @@
         {
           "id": "medivh",
           "name": "Medivh",
-          "image": "images/storylines/karazhan/medivh.research.webp"
+          "image": "images/characters/rise-of-the-horde/medivh-atiesh.research.webp"
         },
         {
           "id": "arcanagos",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T15:48:52.748Z",
+  "generatedAt": "2026-10-02T16:55:12.909Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 340,
-  "totalDurationMs": 9130250,
+  "trackCount": 364,
+  "totalDurationMs": 9789500,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -3072,6 +3072,222 @@
       "sha256": "5c38a0b4eb4d810808cb9faf5a1203d94714af48971fb24332104fb6a79d954a",
       "transcriptSha256": "33a34cdcfb56b0835925a028a5e0bbc2942ab46606c3ee200df7991fa769a1e9",
       "bytes": 334701
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-thomas-summons",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-thomas-summons.mp3",
+      "durationMs": 26100,
+      "sha256": "e7abfbc239f254e7e1acfbe7db3fea17e23dbc55e4633018c5dfd1bb890d620a",
+      "transcriptSha256": "f5dd80e6d89a51786b93dc97cf882a0e7b4c877b44175865f8254847a572b246",
+      "bytes": 314253
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-bishop-reveals-disappearance",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-bishop-reveals-disappearance.mp3",
+      "durationMs": 26500,
+      "sha256": "f1844d738a418404a8b299105e36665721dc2d66644e1a38b6f4fb36a9f8b0d0",
+      "transcriptSha256": "83875206a5598493282cb62dc0f1a40390389f95fbe98c7cf0d69f4bcd24b901",
+      "bytes": 319149
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-jorgen-letter",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-jorgen-letter.mp3",
+      "durationMs": 26725,
+      "sha256": "5353bd57341ad818e2d6b161f01f5a5a574ddc8cfb4337e509821540eb102afe",
+      "transcriptSha256": "89e4eb5ca8e47ac019655ad54e72bf2a866005cabb11182b14a6d4f9a52d00d0",
+      "bytes": 321741
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-elling-to-backus",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-elling-to-backus.mp3",
+      "durationMs": 27000,
+      "sha256": "bca91a56a23907ec384910b1816ed1e31c0bdc090d74832c694d0d036724d87d",
+      "transcriptSha256": "5f803db10676891f5743e0b67d1729954784e76308f12913f330d438216efef5",
+      "bytes": 324909
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-addle-stead-docket",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-addle-stead-docket.mp3",
+      "durationMs": 27450,
+      "sha256": "3c3ebba14c5772bf58ad894e6a45cb5451910ad53a89e197438a0069ce79f5cf",
+      "transcriptSha256": "dc5a2a21f8cef03db35eedd523bfa4f2a6c7bf22261689a3e34c6268bebee3cf",
+      "bytes": 330381
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-ellings-fist-lead",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-ellings-fist-lead.mp3",
+      "durationMs": 26150,
+      "sha256": "b6e21b59396e91a9d6600ec41bce1e7ff33f5271f372b2ab619d5f2fae4d519f",
+      "transcriptSha256": "3944cb413eff3ad93cdf58dc64baf6cfebbccd44cf509a5e3d62a73e586e751d",
+      "bytes": 314829
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-dashel-plan-b",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-dashel-plan-b.mp3",
+      "durationMs": 26750,
+      "sha256": "3468a6627c743e3e4593cb89e6b66e8517f58cc3f7cfcd22bf5aa24d0844f3f5",
+      "transcriptSha256": "2263edf18be89dc284ec003fba8ce99563dbf4ed7da7d1f769d008aabc31b528",
+      "bytes": 322029
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-slim-caught",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-slim-caught.mp3",
+      "durationMs": 25350,
+      "sha256": "e3299d65082860021fc4d6ff398fe2327f5f42132c1b2a2ed16aa70ca16cb6db",
+      "transcriptSha256": "d34217c0bccf3b04e20e438b172488248cb87a09ffb593e7f586dadb7696b3e5",
+      "bytes": 305325
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-varian-revealed",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-varian-revealed.mp3",
+      "durationMs": 26175,
+      "sha256": "74fb8ba749787c65bcd64a60649c9b9c37c688f97a6fc330bdd18d374a8077b4",
+      "transcriptSha256": "db309d4c8103c6307d87866abe596d4a916cb85b3e1b8ecde7fc1e65ecdabd47",
+      "bytes": 315117
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-samaul-trail",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-samaul-trail.mp3",
+      "durationMs": 26825,
+      "sha256": "23b829be81f93165891cd875bdaf5dc898015c28405336a791093981f9f29621",
+      "transcriptSha256": "beabf4f3f8337ceb9935ddf70ff1512290f1cf27b4a291f21b727f863e4c4053",
+      "bytes": 322893
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-sentry-point",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-sentry-point.mp3",
+      "durationMs": 26925,
+      "sha256": "9b04ea189ec2ccaa2d7ed656968578e6087cc84d8facbb80c157b844ce312bdf",
+      "transcriptSha256": "9ccc55e4f329571647fb6ddd96701a178243f76d2ee8a380cd4a648443258418",
+      "bytes": 324045
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-tervosh-briefing",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-tervosh-briefing.mp3",
+      "durationMs": 27400,
+      "sha256": "31074f9196aed783aec900f55cbf54a9de5a09774e866b2f33ed726268ab8c48",
+      "transcriptSha256": "7ccaf281c203d3fd300b3829acba5a00817ecd9357c1f1e68a214a51aaacb592",
+      "bytes": 329805
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-hendel-custody",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-hendel-custody.mp3",
+      "durationMs": 29900,
+      "sha256": "083b0ddbf03770529f5f9d1765b57e397f90a696b2fda0cfbdb9e2383cccb0f3",
+      "transcriptSha256": "ae5784875d500272556de362052fca3e758108eb427b2fdde1a13f11b1ce5322",
+      "bytes": 359757
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-signet-and-boundary",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-signet-and-boundary.mp3",
+      "durationMs": 29400,
+      "sha256": "368926719f204038e4f16df1d5c67de1fef99213229ede40e98c0d07834ff399",
+      "transcriptSha256": "b97df266d61b4150583756e6f57a240763e3b9b281a478eb8b0d282b77948562",
+      "bytes": 353709
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-patch-23-report",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-patch-23-report.mp3",
+      "durationMs": 30225,
+      "sha256": "68531748f3210ee610ff5dcc3ae1f9f64e5748067f498f92d19948354b92c2b2",
+      "transcriptSha256": "cf58cc67d69625e7610623daca4dfff7efc28f72eebd2a82d3a56500483bf5e9",
+      "bytes": 363789
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-garn-and-orders",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-garn-and-orders.mp3",
+      "durationMs": 27800,
+      "sha256": "367bbcb7dadd01900ae1ef6a85b37a01c05ff11f9ceaa07a5fb071f9769bc366",
+      "transcriptSha256": "6015cb42badc71d2eb2d30c42c8091c342ce023244177a22441587ff3c1da209",
+      "bytes": 334701
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-renn-and-the-wreck",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-renn-and-the-wreck.mp3",
+      "durationMs": 27400,
+      "sha256": "0efe4c67d4ddb93f27d4f5d50c1cd34763afa4199ca285c302b4b94d4aa5fc46",
+      "transcriptSha256": "243237f3ea73be2c23f058615c40f2c604bf5073051008956e16a630e5a24ec0",
+      "bytes": 329805
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-salvage-boxes",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-salvage-boxes.mp3",
+      "durationMs": 29625,
+      "sha256": "4e75398f4b075be8bc6fd392f4b8c266f09f24cf9ddc8355562b384fa12ee471",
+      "transcriptSha256": "5e530a535feff1087af69fbf6ccd6e67ab6d005f66f9d4a561d22aefbc4458c4",
+      "bytes": 356589
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-jaina-must-know",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-jaina-must-know.mp3",
+      "durationMs": 27200,
+      "sha256": "9b7e25f69cae57473b354d4cb6822f6c968f49ddd8821a45f7c7cad8fb54ed25",
+      "transcriptSha256": "fa1f40f5ece0a08e4e1c55e33c05c38575a0ceb76921751901a643cf5fc62360",
+      "bytes": 327501
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-jaina-orders-survey",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-jaina-orders-survey.mp3",
+      "durationMs": 29375,
+      "sha256": "4c31044727d92f0bb5c92289f066ca125a1ae733e68b4c3eebea0465bd7d616c",
+      "transcriptSha256": "9b7e88a254d6be2511c94f0b79b1df5afc15d948c4be1a633cd2d963fa83350c",
+      "bytes": 353421
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-alcaz-survey",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-alcaz-survey.mp3",
+      "durationMs": 20075,
+      "sha256": "d075a7fd3027aed75321f3e3d1e6f8fb0d2656c9d5b063cf9766ca1530af8d0f",
+      "transcriptSha256": "997ade8c92eed1340132e73a231998e1d42aca0d8e50613b00d86da7b368303c",
+      "bytes": 241965
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-upper-echelon-patron",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-upper-echelon-patron.mp3",
+      "durationMs": 28675,
+      "sha256": "c2185c2ac5e7cb2fdd66afea08b2c85a4c1500ed9a4500ed60b125a865bdf556",
+      "transcriptSha256": "928c9b83fb87c47e161330b62fff9dc0f42e37f8d4637a425369219058ac31f3",
+      "bytes": 345069
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-bolvar-and-katrana",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-bolvar-and-katrana.mp3",
+      "durationMs": 28750,
+      "sha256": "4c998650e60cf2e7d62c7d8c06d7e419bd0b875ca45c098b4944cbeec63223b0",
+      "transcriptSha256": "b6c1d90c5c04136d9bd2a1f0789a1f05786c6925c7b72eb3c79d58e423366b20",
+      "bytes": 345933
+    },
+    {
+      "nodeId": "missing-diplomat-original-investigation-story-return-to-jaina",
+      "guideId": "missing-diplomat-original-investigation-guide",
+      "assetPath": "audio/guided/missing-diplomat-original-investigation-guide/missing-diplomat-original-investigation-story-return-to-jaina.mp3",
+      "durationMs": 31475,
+      "sha256": "5e6f13c8546831a9fc27cbdd20f7052e020d39e09801e5d03e75249fb846c907",
+      "transcriptSha256": "a46632a1bc90b721b560882b7ed276e9e611ceb8c2539721d430d021d92af7b3",
+      "bytes": 378765
     }
   ]
 }
