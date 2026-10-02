@@ -9,6 +9,7 @@ The flat full-history itinerary currently inserts each playable storyline immedi
 ## Decision
 
 - Keep an era tour and the full-history tour composed only of era-guide nodes. A Storyline may still link to a StoryGuide for its standalone playback, but it does not declare placement inside an era tour.
+- A Storyline may retain its era links for chronology and the text-first library while setting `showInEraTourOffshoots: false` when it belongs only to an authored StoryTour. That keeps it out of the era tour's connected-story list without removing its standalone page or its dedicated StoryTour placard.
 - Add a validated, data-authored `StoryTour` collection. It explicitly orders Storyline entries, assigns each entry to a named map region, and records the game-era label and research status. UI code must not infer chronology or geography from filenames, titles, or era IDs.
 - Keep existing StoryGuides as the only narration/playback unit. “Play all” flattens the selected StoryTour’s explicitly ordered playable entries into one itinerary of their existing nodes; it never copies guide data or inserts StoryNodes into era playback. Research previews remain browsable placards and are omitted from playback.
 - Give each StoryTour a dedicated route and selection screen. A placard opens the existing text-first storyline page; its Play control opens the same immersive guide. The StoryTour player carries an explicit collection and storyline in its URL and advances across guide boundaries while preserving pause and voice preferences.
@@ -22,6 +23,7 @@ This adds `StoryTour` records to the validated lore dataset and repository contr
 ## Acceptance
 
 - Era tours and the full-history itinerary contain era-guide nodes only.
+- An explicitly StoryTour-only storyline appears on its authored StoryTour and stays out of the era tour's connected-story list.
 - `/tours/classic-to-wrath` presents a Wrath-era Azeroth overview and a separately clickable Outland inset, with map regions and their placards operable by mouse and keyboard.
 - Each playable placard can start its story. “Play all” traverses the ordered playable entries exactly once, across guide boundaries, and has a direct-linkable current chapter. Research-only entries open their text-first preview and never appear in “Play all.”
 - Refresh, Previous/Next, audio completion, pause/resume, finish, and return preserve StoryTour context and do not disturb standalone storyline or era playback.

@@ -4,6 +4,7 @@ import { fullTourItinerary, fullTourUrl } from '../../src/lib/story/fullTour';
 import { storyTourItinerary, storyTourPlayAllUrl, storyTourStoryUrl } from '../../src/lib/story/storyTour';
 import { validateDatasetReferences } from '../../src/lib/lore/validateDataset';
 import { storylineSchema, storyTourSchema } from '../../src/domain/schemas/loreSchemas';
+import { eraTourOffshoots } from '../../src/lib/story/eraTour';
 
 describe('separate era and story tours', () => {
   it('keeps the full-history tour to era guides only', () => {
@@ -37,11 +38,12 @@ describe('separate era and story tours', () => {
       'fallen-hero-and-rakhlikh',
       'tirion-taelan-of-love-and-family',
       'darrowshire-lost-and-remembered',
+      'defias-original-conspiracy',
       'karazhan-masters-key-and-nightbane',
       'akama-and-black-temple',
       'quel-delar-restored',
     ]);
-    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 21 + 18 + 20 + 19);
+    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 21 + 21 + 18 + 20 + 19);
     const akamaStart = stops.findIndex((stop) => stop.storylineSlug === 'akama-and-black-temple');
     expect(stops[akamaStart - 1]?.storylineSlug).toBe('karazhan-masters-key-and-nightbane');
     expect(stops.some((stop) => stop.storylineSlug === 'cipher-of-damnation-oronok' || stop.storylineSlug === 'wrathgate-and-undercity')).toBe(false);
@@ -77,5 +79,14 @@ describe('separate era and story tours', () => {
     const missingStoryline = structuredClone(dataset);
     missingStoryline.storyTours[0]!.entries[0]!.storylineId = 'unknown-story';
     expect(validateDatasetReferences(missingStoryline).some((issue) => issue.path.includes('storyTours') && issue.message.includes('Unknown storyline'))).toBe(true);
+  });
+
+  it('keeps a Classic-to-Wrath-only storyline out of the era-tour offshoot list', () => {
+    const dataset = loadDataset();
+    const classicStories = dataset.storylines.filter((storyline) => storyline.eraIds.includes('age-of-adventurers'));
+    const visible = eraTourOffshoots(classicStories);
+
+    expect(visible.some((storyline) => storyline.id === 'defias-original-conspiracy')).toBe(false);
+    expect(visible.some((storyline) => storyline.id === 'darrowshire-lost-and-remembered')).toBe(true);
   });
 });

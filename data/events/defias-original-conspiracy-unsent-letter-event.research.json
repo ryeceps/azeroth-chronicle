@@ -1,0 +1,27 @@
+{
+  "id": "defias-original-conspiracy-unsent-letter-event",
+  "kind": "event",
+  "name": "An unsent letter opens a second trail",
+  "slug": "defias-original-conspiracy-unsent-letter",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "defias-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "Original World of Warcraft Classic Alliance quest chain; exact in-world date unknown"
+  },
+  "summary": "An item found on VanCleef begins a separate investigation: the Unsent Letter is carried to Baros Alexston. The recovered page is a hinge between the Deadmines and Stormwind, but the quest locator does not provide its full contents. We show a sealed, unreadable object and follow only the next step the record establishes.",
+  "locationIds": [
+    "defias-stormwind-cathedral-square"
+  ],
+  "participantEntityIds": [
+    "baros-alexston",
+    "unsent-letter"
+  ],
+  "sourceIds": [
+    "defias-quest-373"
+  ],
+  "claimIds": [
+    "defias-original-conspiracy-unsent-letter-claim"
+  ],
+  "contentStatus": "research"
+}

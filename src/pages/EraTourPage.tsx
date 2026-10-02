@@ -4,13 +4,14 @@ import { StorylineCard } from '../components/story/StorylineCard';
 import { beginStoryGuide, endStoryGuide } from '../lib/story/storyRuntime';
 import { useEraStore } from '../app/state/eraStore';
 import { NotFound } from './EraPage';
+import { eraTourOffshoots } from '../lib/story/eraTour';
 
 export function EraTourPage() {
   const { slug } = useParams();
   const navigate = useNavigate();
   const era = staticLoreRepository.findEraBySlug(slug ?? '');
   if (!era) return <NotFound />;
-  const stories = [...staticLoreRepository.listStorylinesForEra(era.id)].sort((a, b) => Number(Boolean(b.storyGuideId)) - Number(Boolean(a.storyGuideId)) || a.title.localeCompare(b.title));
+  const stories = eraTourOffshoots(staticLoreRepository.listStorylinesForEra(era.id)).sort((a, b) => Number(Boolean(b.storyGuideId)) - Number(Boolean(a.storyGuideId)) || a.title.localeCompare(b.title));
   return <main className="tour-library era-tour-entry">
     <Link to="/tours">← Era tours</Link>
     <header className="tour-library-header"><p className="eyebrow">Era {era.order} · {era.dateLabel}</p><h1>{era.name}</h1><p>{era.summary}</p>

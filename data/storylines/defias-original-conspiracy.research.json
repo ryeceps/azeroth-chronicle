@@ -1,0 +1,63 @@
+{
+  "id": "defias-original-conspiracy",
+  "slug": "defias-original-conspiracy",
+  "title": "The Defias and the Unsent Letter",
+  "summary": "Gryan Stoutmantle’s Westfall inquiry exposes the grievance Shaw attributes to the Stonemasons, leads into VanCleef’s Deadmines stronghold, and follows a separate letter into a Stormwind investigation that ends without resolving the court’s future.",
+  "opening": "The road from Westfall’s farms descends beneath a mine, then returns to Stormwind carrying a letter the quest never fully opens. Gryan’s militia can strike at the Brotherhood’s leader; the evidence that follows reaches the edge of the law and stops at an unanswered report.",
+  "primaryEraId": "age-of-adventurers",
+  "eraIds": [
+    "age-of-adventurers"
+  ],
+  "chapters": [
+    {
+      "id": "westfall-and-the-stonemasons",
+      "eraId": "age-of-adventurers",
+      "title": "Westfall and the Stonemasons",
+      "body": "Gryan’s investigation crosses into Lakeshire and Stormwind. Wiley’s note remains intelligence; Shaw and Bazil give separate, attributed accounts of the Stonemasons’ grievance."
+    },
+    {
+      "id": "the-deadmines-campaign",
+      "eraId": "age-of-adventurers",
+      "title": "From bargain to hideout",
+      "body": "A messenger, an unnamed captive, Moonbrook, the Deadmines, and VanCleef’s ship move the investigation toward the Brotherhood’s leader. Quest order is not treated as a dated route."
+    },
+    {
+      "id": "the-unsent-letter",
+      "eraId": "age-of-adventurers",
+      "title": "A letter and a prison account",
+      "body": "The item found on VanCleef opens a second trail. Bazil’s account is attributed to him; the visitor registered as Maelik remains unidentified until Shaw’s later report."
+    },
+    {
+      "id": "the-unquiet-court",
+      "eraId": "age-of-adventurers",
+      "title": "A report without an answer",
+      "body": "Shaw’s view of the noble case leads outside ordinary justice. The story ends when Katrana Prestor receives Baros’s report while Varian is away; it does not join the Defias to Onyxia."
+    }
+  ],
+  "sourceIds": [
+    "defias-quest-65",
+    "defias-quest-132",
+    "defias-quest-135",
+    "defias-quest-141",
+    "defias-quest-142",
+    "defias-quest-155",
+    "defias-quest-166",
+    "defias-quest-373",
+    "defias-quest-389",
+    "defias-quest-391",
+    "defias-quest-392",
+    "defias-quest-393",
+    "defias-quest-350",
+    "defias-quest-2745",
+    "defias-quest-2746",
+    "defias-quest-434",
+    "defias-quest-394",
+    "defias-quest-395",
+    "defias-quest-396",
+    "defias-chain-locator"
+  ],
+  "reviewNote": "Complete illustrated research story with 21 linked scenes, one cited event and claim per scene, Classic-specific area art, distinct cast and group portraits, and a visible letter prop. Audio assets are generated from transcript-stable nodes and must be regenerated if narration changes. ClassicDB quest transcriptions are secondary locators, not original-client captures. Exact dates, quest dependencies, the Stonemasons’ grievance, the visitor’s identity, court continuity, and original-client art resemblance remain human-review gates. The tale excludes Vanessa and the Cataclysm-era Deadmines, preserves speaker attribution, and makes no causal link to Onyxia. `showInEraTourOffshoots: false` keeps this storyline in the Classic-to-Wrath StoryTour and standalone library without listing it among era-tour offshoots.",
+  "storyGuideId": "defias-original-conspiracy-guide",
+  "showInEraTourOffshoots": false,
+  "contentStatus": "research"
+}
