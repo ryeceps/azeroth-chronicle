@@ -1,0 +1,27 @@
+{
+  "id": "quel-delar-restored-battered-hilt-at-rest-event",
+  "kind": "event",
+  "name": "A hilt without a finder",
+  "slug": "quel-delar-restored-battered-hilt-at-rest-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "quel-delar-restored-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+  },
+  "summary": "In the Frozen Halls, a battered hilt may fall among the spoils of heroic danger. Its appearance is randomized game loot; no single finder belongs to history. The quest then brings the relic to Quel’Delar’s Rest, where the Silver Covenant or Sunreavers take up the question it carries. Before the sword is whole, its broken remnant has already drawn two rival courts toward the same inheritance.",
+  "locationIds": [
+    "frozen-halls",
+    "quel-delars-rest"
+  ],
+  "participantEntityIds": [
+    "battered-hilt"
+  ],
+  "sourceIds": [
+    "quel-delar-battered-hilt-quest-locator"
+  ],
+  "claimIds": [
+    "quel-delar-restored-battered-hilt-at-rest-claim"
+  ],
+  "contentStatus": "research"
+}

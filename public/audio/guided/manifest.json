@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T00:53:52.457Z",
+  "generatedAt": "2026-10-02T02:51:54.596Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 253,
-  "totalDurationMs": 6710550,
+  "trackCount": 272,
+  "totalDurationMs": 7232200,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -2289,6 +2289,177 @@
       "sha256": "1d59d2a713d23855517c1175774082553b7b80c3804fd1b5fc2025aceeee7184",
       "transcriptSha256": "4a5b5fa3748352c6f459090d2a0ee3c37b3bd3a8299d3d0807ba34b03b3870d5",
       "bytes": 314829
+    },
+    {
+      "nodeId": "quel-delar-restored-story-battered-hilt-at-rest",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-battered-hilt-at-rest.mp3",
+      "durationMs": 27050,
+      "sha256": "91ed9bbc19f1a881b20311a404e152e596eef302d5cb06fd74a55ffed681d60b",
+      "transcriptSha256": "d9f004380d6454646fc898c29314d15be450a64938fefc8909818d05d2be4862",
+      "bytes": 325773
+    },
+    {
+      "nodeId": "quel-delar-restored-story-two-courts",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-two-courts.mp3",
+      "durationMs": 28125,
+      "sha256": "dbe226f1ff15e134139cebf7fb402bb364ea80d4baf9c0f10c55e281a529b5c6",
+      "transcriptSha256": "75f5bb934f37937ea8fae06f0aefced7d79df1c8a8bc2855db06645683b5bed1",
+      "bytes": 338445
+    },
+    {
+      "nodeId": "quel-delar-restored-story-dragon-counsel",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-dragon-counsel.mp3",
+      "durationMs": 26500,
+      "sha256": "f15a2b2b15df49650a711f7d4627b1c3e438985761183189b5711e0474f9d4ae",
+      "transcriptSha256": "988880ad20fecbdb6ed6c0f44c45115df512bdefa8c7dd7c96ecb79623808caf",
+      "bytes": 319149
+    },
+    {
+      "nodeId": "quel-delar-restored-story-rival-orders",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-rival-orders.mp3",
+      "durationMs": 25625,
+      "sha256": "5298543089931ed9e7016940e0b83a2f045a3f053ef7fa7d616d9e4f5d3e961d",
+      "transcriptSha256": "8311fd64a883778751697a8a52b575399804e86f0997d97f07e7202f2886bbd0",
+      "bytes": 308493
+    },
+    {
+      "nodeId": "quel-delar-restored-story-borrowed-disguise",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-borrowed-disguise.mp3",
+      "durationMs": 28000,
+      "sha256": "572be68358ee0a7ac932e4a6ea1c6d8266c52a2f2608a5528c230f6aac3fd9a4",
+      "transcriptSha256": "6755bc4e1b5b7d4d5f94a659516812c65e68b6072e05154660308fcbf37004ca",
+      "bytes": 337005
+    },
+    {
+      "nodeId": "quel-delar-restored-story-blade-identified",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-blade-identified.mp3",
+      "durationMs": 26175,
+      "sha256": "82a4933400160a2f0bbc5b4871e2cceff1fda73c2fa358c7db8eb85de12d5e38",
+      "transcriptSha256": "7f9a6d6bc85337728d75b9caf9344a4c1799160021532f2f048f8c6b3d1eb19c",
+      "bytes": 315117
+    },
+    {
+      "nodeId": "quel-delar-restored-story-blade-gift",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-blade-gift.mp3",
+      "durationMs": 26950,
+      "sha256": "23e144454cee5f7dd30bdbcd7657884790f7294e4998dba9923f9f846e82367c",
+      "transcriptSha256": "4b7a0430d9ef27a5ee3b5ccf4e9ae909c5d5c306463ca006c742f88d7082e03a",
+      "bytes": 324333
+    },
+    {
+      "nodeId": "quel-delar-restored-story-thalorien-last-stand",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-thalorien-last-stand.mp3",
+      "durationMs": 26350,
+      "sha256": "faad632a411b61679e98f17af1172464b4e838fad0ab7965d25881c99a8c2590",
+      "transcriptSha256": "76df5b94a9994534df4ff7bc8975f6f6320821f5353f452698b51dcefc05b5be",
+      "bytes": 317133
+    },
+    {
+      "nodeId": "quel-delar-restored-story-lanathel-breaks-blade",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-lanathel-breaks-blade.mp3",
+      "durationMs": 26700,
+      "sha256": "b5429255968613e39a25f42d348cc92cad87ffa4c300d5d4ef3be786379df3de",
+      "transcriptSha256": "d6bad0eb1d3d274b5e6d9c9f3d88ce932180244af55c5042640f2b59fb331393",
+      "bytes": 321453
+    },
+    {
+      "nodeId": "quel-delar-restored-story-vow-to-restore",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-vow-to-restore.mp3",
+      "durationMs": 27550,
+      "sha256": "13916851d6357d4470e894c08b4fb8edd9237df35115de17d5a6ce1723c66057",
+      "transcriptSha256": "47565e4cacbcfc3b33daa524ea73e464ead8cb8eb743dd9bbd539b28bfd5f00c",
+      "bytes": 331533
+    },
+    {
+      "nodeId": "quel-delar-restored-story-pit-reforging",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-pit-reforging.mp3",
+      "durationMs": 27750,
+      "sha256": "c4efdaa16f4822302197ca476613726298f936791ade32e44ad3cbc128585baa",
+      "transcriptSha256": "ddf475f62421b34b32c48ba856de85584371e37a0461bb24d0a1c32c5c4548ee",
+      "bytes": 334125
+    },
+    {
+      "nodeId": "quel-delar-restored-story-forge-tempering",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-forge-tempering.mp3",
+      "durationMs": 25050,
+      "sha256": "2ba80b2f9f9544da489a7eaf144711addf51ea74c9a474a2396ead4cac6dc33c",
+      "transcriptSha256": "09c0b8e197e867916426fb79f31dabdfd7428ecb63e0fd61008f6093cc366631",
+      "bytes": 301581
+    },
+    {
+      "nodeId": "quel-delar-restored-story-blade-compulsion",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-blade-compulsion.mp3",
+      "durationMs": 27850,
+      "sha256": "3c893b13e71d2d2f4edf5f95fcc7e547cc7f7c0569571022b78a83ad63be194b",
+      "transcriptSha256": "525cc63b76a987f211681ce19439c9a3547ce262927cfcbac31f2433f92369e5",
+      "bytes": 335277
+    },
+    {
+      "nodeId": "quel-delar-restored-story-will-subdued",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-will-subdued.mp3",
+      "durationMs": 26925,
+      "sha256": "e264b2c523ba619da9a35cbeb0a55325f87819d8fa0ea10ee35714935ae9c680",
+      "transcriptSha256": "4100bd7f04508cbb27f87544ab8e05208011e46783a215d461a5cfd2abcd388c",
+      "bytes": 324045
+    },
+    {
+      "nodeId": "quel-delar-restored-story-uther-warning",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-uther-warning.mp3",
+      "durationMs": 28600,
+      "sha256": "11c11e2ffb73d2fd0078ed3958d1596cbad29c3edc6cf207619a83c183902ac8",
+      "transcriptSha256": "ba28fc8d45daf5956454787106a54fcdc179cb19c6f2e73634758cd5c1228774",
+      "bytes": 344205
+    },
+    {
+      "nodeId": "quel-delar-restored-story-halduron-refusal",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-halduron-refusal.mp3",
+      "durationMs": 28175,
+      "sha256": "5d2abc109847013cb22bef97b326cda7e2bcd4b3c02a2f6304f0dbfef6dd90bf",
+      "transcriptSha256": "31757db3b9b1ea3b24c8b10bc3fc401da3e095f3e95140ce1b37c3287d20fa24",
+      "bytes": 339021
+    },
+    {
+      "nodeId": "quel-delar-restored-story-thalorien-test",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-thalorien-test.mp3",
+      "durationMs": 28325,
+      "sha256": "9ae438579a189f342ac908a4c24986e5b240d230ab06238fae29c4cdf8e86ba0",
+      "transcriptSha256": "fd59698b072c78b876d4373c03149647a3075b4864f4ef42b40d14251ad3d082",
+      "bytes": 341037
+    },
+    {
+      "nodeId": "quel-delar-restored-story-sunwell-purification",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-sunwell-purification.mp3",
+      "durationMs": 29100,
+      "sha256": "7c2a3ec78d3488fb6f03fc9995ee255ceb6b113eb1abf5837dfb67a640f59643",
+      "transcriptSha256": "943a914bf663d5b7a4bc2a7435c26f2bef6112eb82c76dc4db167ff52d063619",
+      "bytes": 350253
+    },
+    {
+      "nodeId": "quel-delar-restored-story-faction-handoffs",
+      "guideId": "quel-delar-restored-guide",
+      "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-faction-handoffs.mp3",
+      "durationMs": 30850,
+      "sha256": "b1ca0b10fd40804022d3339eca673f015b6df9241887f9faff3ffabf4c4f0fca",
+      "transcriptSha256": "a9bb129e31fc3457605556e7bec9712ad2e579b132495531d7edfc739fea2e78",
+      "bytes": 371277
     }
   ]
 }

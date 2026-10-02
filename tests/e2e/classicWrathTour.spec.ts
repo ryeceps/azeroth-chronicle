@@ -2,6 +2,7 @@ import { expect, test } from '@playwright/test';
 import { mkdirSync } from 'node:fs';
 
 mkdirSync('output/akama-black-temple-visual-review', { recursive: true });
+mkdirSync('output/quel-delar-visual-review', { recursive: true });
 
 test('story dots live on the map, expand on hover or focus, and open stories or previews', async ({ page }) => {
   const pageErrors: string[] = [];
@@ -15,7 +16,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const viewport = page.viewportSize()!;
   const mapFrameBounds = await page.locator('.story-tour-map-frame').boundingBox();
   expect(mapFrameBounds).toMatchObject({ x: 0, y: 0, width: viewport.width, height: viewport.height });
-  await expect(page.locator('.story-tour-dot')).toHaveCount(9);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(10);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
 
   const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
@@ -27,6 +28,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const akama = page.getByRole('button', { name: /akama-and-black-temple|Akama and the Black Temple/i });
   const outland = page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i });
   const northrend = page.getByRole('button', { name: /wrathgate-and-undercity|Wrathgate/i });
+  const quelDelar = page.getByRole('button', { name: /quel-delar-restored|Broken Blade Restored/i });
   await expect(onyxia).toBeVisible();
   await expect(scepter).toBeVisible();
   await expect(dungeonSetTwo).toBeVisible();
@@ -36,6 +38,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(akama).toBeVisible();
   await expect(outland).toBeVisible();
   await expect(northrend).toBeVisible();
+  await expect(quelDelar).toBeVisible();
 
   await onyxia.hover();
   const onyxiaCard = page.locator('#story-tour-tip-stormwind-onyxia-conspiracy');
@@ -118,6 +121,20 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const northrendCard = page.locator('#story-tour-tip-wrathgate-and-undercity');
   await expect(northrendCard.getByRole('heading', { name: 'The Wrathgate and Undercity' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Play all stories' })).toBeEnabled();
+  await northrend.evaluate((marker: HTMLButtonElement) => marker.blur());
+  await quelDelar.hover();
+  const quelDelarCard = page.locator('#story-tour-tip-quel-delar-restored');
+  await expect(quelDelarCard.getByRole('heading', { name: 'Quel’Delar: The Broken Blade Restored' })).toBeVisible();
+  await expect(quelDelarCard).toContainText('Playable story');
+  await page.screenshot({ path: 'output/quel-delar-visual-review/classic-wrath-tour-dot-desktop.png', fullPage: true });
+  await quelDelar.click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
+  }).toEqual(['story-tour', 'classic-to-wrath', 'quel-delar-restored', 'story']);
+  await expect(page.getByRole('heading', { name: 'A hilt without a finder' })).toBeVisible();
+
+  await page.goto('/tours/classic-to-wrath');
   await onyxia.hover();
   await onyxia.click();
   await expect.poll(() => {
@@ -179,6 +196,17 @@ test('Play All advances completed stories in chronological order and restores th
     return [params.get('storyline'), params.get('node'), params.get('play')];
   }).toEqual(['akama-and-black-temple', 'akama-and-black-temple-story-karabor-under-illidan', 'all']);
   await expect(page.getByRole('heading', { name: 'Karabor under Illidan' })).toBeVisible();
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=akama-and-black-temple&node=akama-and-black-temple-story-fall-of-the-betrayer&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('storyline'), params.get('node'), params.get('play')];
+  }).toEqual(['quel-delar-restored', 'quel-delar-restored-story-battered-hilt-at-rest', 'all']);
+  await expect(page.getByRole('heading', { name: 'A hilt without a finder' })).toBeVisible();
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=quel-delar-restored&node=quel-delar-restored-story-faction-handoffs&play=all');
+  await page.getByRole('button', { name: 'Finish this story tour' }).click();
+  await expect(page).toHaveURL(/\/tours\/classic-to-wrath\?complete=1/);
+  await expect(page.getByRole('status')).toContainText('chronicle is complete');
   expect(pageErrors).toEqual([]);
 });
 
@@ -243,6 +271,14 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   await page.locator('.story-tour-touch-card').getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'Two roads to the Fallen Hero' })).toBeVisible();
   await page.goto('/tours/classic-to-wrath');
+  await page.getByRole('button', { name: /quel-delar-restored|Broken Blade Restored/i }).click();
+  const phoneQuelDelarCard = page.locator('.story-tour-touch-card');
+  await expect(phoneQuelDelarCard.getByRole('heading', { name: 'Quel’Delar: The Broken Blade Restored' })).toBeVisible();
+  await expect(phoneQuelDelarCard).toContainText('Playable story');
+  await page.screenshot({ path: 'output/quel-delar-visual-review/classic-wrath-tour-phone.png' });
+  await phoneQuelDelarCard.getByRole('button', { name: 'Play story' }).click();
+  await expect(page.getByRole('heading', { name: 'A hilt without a finder' })).toBeVisible();
+  await page.goto('/tours/classic-to-wrath');
   await page.getByRole('button', { name: /dungeon-set-two-veiled-blade|Veiled Blade/i }).click();
   await expect(page.locator('.story-tour-touch-card').getByRole('heading', { name: 'The Veiled Blade and Lord Valthalak' })).toBeVisible();
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=stormwind-onyxia-conspiracy&node=onyxia-story-onyxias-lair&play=story');
@@ -250,7 +286,7 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   await expect(page).toHaveURL(/\/tours\/classic-to-wrath\?complete=1/);
   await expect(page.getByRole('status')).toContainText('chronicle is complete');
 
-  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=akama-and-black-temple&node=akama-and-black-temple-story-fall-of-the-betrayer&play=all');
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=quel-delar-restored&node=quel-delar-restored-story-faction-handoffs&play=all');
   await page.getByRole('button', { name: 'Finish this story tour' }).click();
   await expect(page).toHaveURL(/\/tours\/classic-to-wrath\?complete=1/);
   await expect(page.getByRole('status')).toContainText('chronicle is complete');

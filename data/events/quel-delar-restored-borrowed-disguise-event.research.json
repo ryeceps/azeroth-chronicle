@@ -1,0 +1,28 @@
+{
+  "id": "quel-delar-restored-borrowed-disguise-event",
+  "kind": "event",
+  "name": "A borrowed guise for old records",
+  "slug": "quel-delar-restored-borrowed-disguise-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "quel-delar-restored-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+  },
+  "summary": "A disguise opens a way to records guarded by suspicion and old allegiances. The faction quest asks its chosen seeker to recover the ancient dragonforged blades’ history, not to invent a new forging tale. In this retelling, the folio is an interpretive emblem for that record. A successful theft is a game objective; the chronicle keeps the danger and purpose, not every repeated step of play.",
+  "locationIds": [
+    "dalaran-wrath"
+  ],
+  "participantEntityIds": [
+    "ancient-dragonforged-blades-record",
+    "silver-covenant",
+    "sunreavers"
+  ],
+  "sourceIds": [
+    "quel-delar-wotlk-quest-chain-transcript"
+  ],
+  "claimIds": [
+    "quel-delar-restored-borrowed-disguise-claim"
+  ],
+  "contentStatus": "research"
+}

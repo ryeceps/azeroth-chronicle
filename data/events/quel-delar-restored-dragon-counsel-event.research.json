@@ -1,0 +1,29 @@
+{
+  "id": "quel-delar-restored-dragon-counsel-event",
+  "kind": "event",
+  "name": "The dragons weigh the risk",
+  "slug": "quel-delar-restored-dragon-counsel-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "quel-delar-restored-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+  },
+  "summary": "At Wyrmrest Temple, Krasus lends the seekers a record of the ancient blade. Kalecgos asks whether mortals should command such power: the dragons have known the grief of a mighty weapon turned against them. Alexstrasza permits the search to continue, though permission is not an answer to every fear. Beneath the red-bronze shrine, the hilt’s past begins to emerge as both a promise and a warning.",
+  "locationIds": [
+    "wyrmrest-temple"
+  ],
+  "participantEntityIds": [
+    "krasus",
+    "kalecgos",
+    "alexstrasza",
+    "battered-hilt"
+  ],
+  "sourceIds": [
+    "quel-delar-what-dragons-know-quest-locator"
+  ],
+  "claimIds": [
+    "quel-delar-restored-dragon-counsel-claim"
+  ],
+  "contentStatus": "research"
+}
