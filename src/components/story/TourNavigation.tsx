@@ -10,13 +10,13 @@ export function TourSections({ storylines = false }: { storylines?: boolean }) {
   </nav>;
 }
 
-export function FullTourButton() {
+export function FullTourButton({ className = 'tour-secondary' }: { className?: string }) {
   const navigate = useNavigate();
   const first = fullTourItinerary(staticLoreRepository.getDataset())[0];
-  return <button className="tour-secondary" disabled={!first} onClick={() => {
+  return <button type="button" className={className} disabled={!first} onClick={() => {
     if (!first) return;
     endStoryGuide(); useEraStore.getState().setEra(first.eraId); beginStoryGuide(first.guideId);
     navigate(fullTourUrl(first));
-  }}>Begin the full tour →</button>;
+  }}>Start the Mega Tour <span aria-hidden="true">→</span></button>;
 }
 

@@ -7,13 +7,8 @@ import { createPortal } from 'react-dom';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { fullTourItinerary, fullTourUrl } from '../../lib/story/fullTour';
 import { storyTourItinerary, storyTourPlayAllUrl, storyTourStoryUrl } from '../../lib/story/storyTour';
+import { storyNodeDurationMs } from '../../lib/story/storyDuration';
 import { useEraStore } from '../../app/state/eraStore';
-
-function narrationDurationMs(narration: string): number {
-  const words = narration.trim().split(/\s+/).filter(Boolean).length;
-  const spokenMs = (words / 82) * 60_000;
-  return Math.min(90_000, Math.max(18_000, Math.round(spokenMs / 500) * 500 + 5_000));
-}
 
 export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHost }: { guideId: string; showLauncher?: boolean; voiceControlsHost?: HTMLElement | null }) {
   const navigate = useNavigate();
@@ -28,7 +23,7 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
     ? storyTourItinerary(staticLoreRepository.getDataset(), storyTour)
     : [];
   const selectedEraTour = params.get('tour') === 'era';
-  const storyline = params.get('tour') === 'storyline' || storyTourMode ? staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '') : undefined;
+  const storyline = params.get('tour') === 'storyline' || storyTourMode || (fullTour && params.has('storyline')) ? staticLoreRepository.findStorylineBySlug(params.get('storyline') ?? '') : undefined;
   const tourActive = fullTour || selectedEraTour || storyTourMode || Boolean(storyline?.storyGuideId === guideId);
   const setEra = useEraStore((state) => state.setEra);
   const guide = staticLoreRepository.findStoryGuide(guideId);
@@ -99,7 +94,7 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
     const target = staticLoreRepository.findStoryNode(nodeId);
     if (!target) return;
     if (fullTour) {
-      const stop = fullTourItinerary(staticLoreRepository.getDataset()).find((item) => item.nodeId === nodeId);
+      const stop = fullTourItinerary(staticLoreRepository.getDataset()).find((item) => item.guideId === target.guideId && item.nodeId === nodeId);
       if (!stop) return;
       setEra(stop.eraId);
       if (stop.guideId !== useStoryStore.getState().guideId) beginStoryGuide(stop.guideId, nodeId, useStoryStore.getState().status);
@@ -116,7 +111,7 @@ export function StoryGuidePanel({ guideId, showLauncher = true, voiceControlsHos
     } else enterStoryNode(target);
   }, [fullTour, navigate, setEra, storyTour, storyTourMode, storyTourPlayAll]);
 
-  const durationMs = node?.durationMs ?? (node ? narrationDurationMs(node.narration) : 0);
+  const durationMs = node ? storyNodeDurationMs(node) : 0;
 
   useEffect(() => {
     remainingMs.current = durationMs;
