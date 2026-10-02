@@ -1,0 +1,30 @@
+{
+  "id": "darrowshire-lost-and-remembered-horgus-arrives-event",
+  "kind": "event",
+  "name": "Horgus enters the battle",
+  "slug": "darrowshire-lost-and-remembered-horgus-arrives",
+  "eraId": "third-war-frozen-throne",
+  "worldspaceId": "darrowshire-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Third War historical prologue · exact date disputed in the Annals"
+  },
+  "summary": "The account names Horgus the Ravager among the Scourge force that reaches Darrowshire. Captain Joseph Redpath and Davil lead the village’s defense in the story remembered by the later questline. We can show a small settlement meeting an invading force; we cannot recover its exact formation, the number of attackers, or the moment each defender first fell. The landscape is rendered as the fragile home at stake, not as a measured battlefield plan.",
+  "locationIds": [
+    "darrowshire-village"
+  ],
+  "participantEntityIds": [
+    "darrowshire-lost-and-remembered-horgus",
+    "darrowshire-lost-and-remembered-scourge",
+    "darrowshire-lost-and-remembered-joseph",
+    "darrowshire-lost-and-remembered-davil"
+  ],
+  "sourceIds": [
+    "darrowshire-annals-book",
+    "darrowshire-battle-history"
+  ],
+  "claimIds": [
+    "darrowshire-lost-and-remembered-horgus-arrives-claim"
+  ],
+  "contentStatus": "research"
+}

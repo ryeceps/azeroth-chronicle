@@ -1,0 +1,31 @@
+{
+  "id": "darrowshire-lost-and-remembered-davil-falls-event",
+  "kind": "event",
+  "name": "Davil’s last stand",
+  "slug": "darrowshire-lost-and-remembered-davil-falls",
+  "eraId": "third-war-frozen-throne",
+  "worldspaceId": "darrowshire-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Third War historical prologue · exact date disputed in the Annals"
+  },
+  "summary": "Davil fights Horgus and the Annals say he strikes the Scourge champion down, only to die of his own wounds. Later sources call this defender Davil Lightfire in the quest and Davil Crokford in the book and history summary. The story holds both names together as a textual variant pending client comparison. His later libram is treated as a memorial clue; the search quest does not establish where it rested during the original battle.",
+  "locationIds": [
+    "darrowshire-village"
+  ],
+  "participantEntityIds": [
+    "darrowshire-lost-and-remembered-davil",
+    "darrowshire-lost-and-remembered-horgus",
+    "darrowshire-lost-and-remembered-joseph",
+    "darrowshire-lost-and-remembered-libram"
+  ],
+  "sourceIds": [
+    "darrowshire-annals-book",
+    "darrowshire-battle-history",
+    "darrowshire-heroes"
+  ],
+  "claimIds": [
+    "darrowshire-lost-and-remembered-davil-falls-claim"
+  ],
+  "contentStatus": "research"
+}

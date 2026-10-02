@@ -1,0 +1,1291 @@
+{
+  "storyId": "darrowshire-lost-and-remembered",
+  "status": "research",
+  "targetEditionBuild": "Original World of Warcraft Classic / pre-Cataclysm Plaguelands; original 1.12-era visual/text comparison remains open.",
+  "editorialRule": "Preserve recognizable Classic zone architecture, palette, rural scale, terrain and vegetation. Compare every scene and principal subject with a matching game build before approval.",
+  "sourceProvenance": "Original AI-generated environment and transparent cast/prop illustrations, optimized as WebP. No official game art or source-page screenshots included.",
+  "humanReview": "Compare generated Darrowshire, Sorrow Hill, Andorhal, Light’s Hope, Corin’s Crossing, Hearthglen and Gahrron’s Withering against the intended Classic client. Verify each actor and relic model. Written trait checks are not in-client review.",
+  "assetRecords": [
+    {
+      "id": "darrowshire-village",
+      "kind": "environment",
+      "file": "public/images/storylines/darrowshire/darrowshire-before-scourge.research.webp",
+      "representedBy": "Darrowshire before its fall",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifacts": [
+        "exec-51720304-eda2-4d69-af4c-d519350ccdfb.png"
+      ],
+      "recognizableTraits": "Open rural human village with timber cottages, modest pale stone bases, a central commons and low foothills. Keep the small-scale Classic Plaguelands settlement distinct from a royal city or gothic fortress.",
+      "generationPrompt": "Original Classic-era Western/Eastern Plaguelands village impression: modest human cottages, timber roofs, pale fieldstone footings, open commons, fenced garden strips, cold grassland and low hills. Rural and small, not a keep or city. No text, UI, banner, or copied game screenshot.",
+      "generator": "OpenAI ImageGen; cropped from original multi-panel environment artwork and optimized to WebP. Hearthglen includes a separate generated edit.",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm Plaguelands area identity; 1.12-era comparison remains open.",
+      "transparency": false,
+      "visualReference": "Written trait check only; no matching-client screenshot or approval is claimed.",
+      "byteLength": 298638,
+      "modifiedAt": "2026-10-02T05:35:34.908Z",
+      "sha256": "dec0283032eb1b5d679808bf3382cb0746094fa8637bcdef36ae0ff74a811ce5"
+    },
+    {
+      "id": "darrowshire-ruins",
+      "kind": "environment",
+      "file": "public/images/storylines/darrowshire/darrowshire-ruins.research.webp",
+      "representedBy": "Darrowshire in the Classic quest era",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifacts": [
+        "exec-51720304-eda2-4d69-af4c-d519350ccdfb.png"
+      ],
+      "recognizableTraits": "The pre-Cataclysm ruin is a small destroyed village of broken timber and pale masonry among diseased grass; no exact building plan or standing battle formation is asserted.",
+      "generationPrompt": "Original Classic-era ruined Plaguelands village: broken timber cottage frames, scattered pale masonry, diseased grass, sparse bare trees and muted gray-green sky. A village ruin rather than a cathedral or large gothic city. No people, text, UI, map labels or copied screenshot.",
+      "generator": "OpenAI ImageGen; cropped from original multi-panel environment artwork and optimized to WebP. Hearthglen includes a separate generated edit.",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm Plaguelands area identity; 1.12-era comparison remains open.",
+      "transparency": false,
+      "visualReference": "Written trait check only; no matching-client screenshot or approval is claimed.",
+      "byteLength": 201656,
+      "modifiedAt": "2026-10-02T05:35:35.069Z",
+      "sha256": "ac7530711ae892cffe12fb2b8523413750261da3cc3610ab8ebeecaa4cb35b7f"
+    },
+    {
+      "id": "sorrow-hill",
+      "kind": "environment",
+      "file": "public/images/storylines/darrowshire/sorrow-hill.research.webp",
+      "representedBy": "Sorrow Hill",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifacts": [
+        "exec-51720304-eda2-4d69-af4c-d519350ccdfb.png"
+      ],
+      "recognizableTraits": "The Western Plaguelands rise and farm country use exposed, diseased grassland, bare timber and low plague haze; keep the memorial country quiet and broad.",
+      "generationPrompt": "Original Classic Western Plaguelands landscape at Sorrow Hill: windswept diseased field, sparse leafless trees, low gray-green plague haze, modest human farm remnants and an overcast sky. No Gothic citadel, characters, writing, UI or copied game screenshot.",
+      "generator": "OpenAI ImageGen; cropped from original multi-panel environment artwork and optimized to WebP. Hearthglen includes a separate generated edit.",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm Plaguelands area identity; 1.12-era comparison remains open.",
+      "transparency": false,
+      "visualReference": "Written trait check only; no matching-client screenshot or approval is claimed.",
+      "byteLength": 262120,
+      "modifiedAt": "2026-10-02T05:35:35.242Z",
+      "sha256": "ea56904cbb1703f8743279ab2fb0dbd35cdc74070fbd552f70a09e4c09045e2d"
+    },
+    {
+      "id": "andorhal",
+      "kind": "environment",
+      "file": "public/images/storylines/darrowshire/andorhal.research.webp",
+      "representedBy": "Andorhal",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifacts": [
+        "exec-51720304-eda2-4d69-af4c-d519350ccdfb.png"
+      ],
+      "recognizableTraits": "Classic Andorhal reads as a ruined human town with broken pale civic masonry, low rooftops, farms and plague haze; avoid a towering cathedral or oversized fortress.",
+      "generationPrompt": "Original pre-Cataclysm Andorhal: compact ruined human town, broken low pale stone civic buildings, timber roofs, abandoned grain stores and cold green-gray plague light. Keep the town scale human and agricultural; no giant cathedral, faction heraldry, people, text or UI.",
+      "generator": "OpenAI ImageGen; cropped from original multi-panel environment artwork and optimized to WebP. Hearthglen includes a separate generated edit.",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm Plaguelands area identity; 1.12-era comparison remains open.",
+      "transparency": false,
+      "visualReference": "Written trait check only; no matching-client screenshot or approval is claimed.",
+      "byteLength": 241676,
+      "modifiedAt": "2026-10-02T05:35:35.422Z",
+      "sha256": "bbcf102517f579154c5820f1625776345c2f710e5ad6184e8e5a4d415f8545be"
+    },
+    {
+      "id": "lights-hope-chapel",
+      "kind": "environment",
+      "file": "public/images/storylines/darrowshire/lights-hope-chapel.research.webp",
+      "representedBy": "Light’s Hope Chapel",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifacts": [
+        "exec-f3f56e45-0856-42cf-9dd2-f82bc959f2cf.png"
+      ],
+      "recognizableTraits": "A modest pale-stone chapel among open Eastern Plaguelands fields, with restrained blue and gold accents and a small graveyard; it should not resemble a palace.",
+      "generationPrompt": "Original Classic Eastern Plaguelands Light’s Hope Chapel: modest pale human stone chapel with restrained blue and gold trim, low grave markers, open diseased grassland and cold clear light. Small sanctuary, not a palace or fortress. No characters, text, UI or copied screenshot.",
+      "generator": "OpenAI ImageGen; cropped from original multi-panel environment artwork and optimized to WebP. Hearthglen includes a separate generated edit.",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm Plaguelands area identity; 1.12-era comparison remains open.",
+      "transparency": false,
+      "visualReference": "Written trait check only; no matching-client screenshot or approval is claimed.",
+      "byteLength": 278914,
+      "modifiedAt": "2026-10-02T05:35:35.592Z",
+      "sha256": "7caa366c8871ea4b90272f8893cf661d272f6d19ca592286c584db05fedbc4e0"
+    },
+    {
+      "id": "corins-crossing",
+      "kind": "environment",
+      "file": "public/images/storylines/darrowshire/corins-crossing.research.webp",
+      "representedBy": "Corin’s Crossing and its nearby waters",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifacts": [
+        "exec-f3f56e45-0856-42cf-9dd2-f82bc959f2cf.png"
+      ],
+      "recognizableTraits": "Sparse road-crossing ruins, a cold lake, low hills and bare trees in the Eastern Plaguelands. Keep the search site as a landscape, not a pinpoint battlefield reconstruction.",
+      "generationPrompt": "Original Classic Eastern Plaguelands around Corin’s Crossing: quiet slate lake, sparse dead trees, broken low stone roadwork, pale diseased grass and distant low hills. No large city skyline, characters, exact item position, text, UI or copied game screenshot.",
+      "generator": "OpenAI ImageGen; cropped from original multi-panel environment artwork and optimized to WebP. Hearthglen includes a separate generated edit.",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm Plaguelands area identity; 1.12-era comparison remains open.",
+      "transparency": false,
+      "visualReference": "Written trait check only; no matching-client screenshot or approval is claimed.",
+      "byteLength": 220476,
+      "modifiedAt": "2026-10-02T05:35:35.758Z",
+      "sha256": "952e9adb8df5de016f44c495e1852cd4f776d65843efd17c2e898ce7bdd88f19"
+    },
+    {
+      "id": "hearthglen",
+      "kind": "environment",
+      "file": "public/images/storylines/darrowshire/hearthglen.research.webp",
+      "representedBy": "Hearthglen",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifacts": [
+        "exec-f3f56e45-0856-42cf-9dd2-f82bc959f2cf.png",
+        "exec-e43078c6-9206-41f9-a556-1b2e48453f2c.png"
+      ],
+      "recognizableTraits": "Classic Hearthglen is a fortified human settlement: pale stone and timber, practical defenses and red-white Scarlet Crusade banners against damaged fields. Do not confuse it with Stormwind Keep.",
+      "generationPrompt": "Original Classic pre-Cataclysm Hearthglen, fortified human town with pale gray-white stone, timber buildings, practical wall and watch defenses, restrained red-white Scarlet Crusade banners and cold green-gray plague country. No Stormwind Keep silhouette, no oversized cathedral, no characters, text or UI.",
+      "generator": "OpenAI ImageGen; cropped from original multi-panel environment artwork and optimized to WebP. Hearthglen includes a separate generated edit.",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm Plaguelands area identity; 1.12-era comparison remains open.",
+      "transparency": false,
+      "visualReference": "Written trait check only; no matching-client screenshot or approval is claimed.",
+      "byteLength": 345902,
+      "modifiedAt": "2026-10-02T06:06:49.143Z",
+      "sha256": "1165267195477fe885db05dd831419deddf34cb6cee5698d0a1de671dba87251"
+    },
+    {
+      "id": "gahrrons-withering",
+      "kind": "environment",
+      "file": "public/images/storylines/darrowshire/gahrrons-withering.research.webp",
+      "representedBy": "Gahrron’s Withering",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifacts": [
+        "exec-f3f56e45-0856-42cf-9dd2-f82bc959f2cf.png"
+      ],
+      "recognizableTraits": "Classic farm country with a leaning timber barn, broken fence, pale diseased fields and skeletal trees; the recovered shield is a clue, not a surveyed coordinates claim.",
+      "generationPrompt": "Original Classic Western Plaguelands farm at Gahrron’s Withering: leaning timber barn, broken fence rails, pallid diseased field and leafless trees beneath a gray-green sky. Rural and sparse; no characters, exact object placement, text, UI or copied screenshot.",
+      "generator": "OpenAI ImageGen; cropped from original multi-panel environment artwork and optimized to WebP. Hearthglen includes a separate generated edit.",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm Plaguelands area identity; 1.12-era comparison remains open.",
+      "transparency": false,
+      "visualReference": "Written trait check only; no matching-client screenshot or approval is claimed.",
+      "byteLength": 263390,
+      "modifiedAt": "2026-10-02T05:35:36.121Z",
+      "sha256": "0c27a94580774c395f29e9ae6655e7dafd180938174924f87bebb319fc3621fd"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-pamela",
+      "kind": "character",
+      "file": "public/images/storylines/darrowshire/pamela-redpath.research.webp",
+      "representedBy": "Pamela Redpath",
+      "pixelWidth": 397,
+      "pixelHeight": 397,
+      "sourceArtifacts": [
+        "exec-479de87b-7c2c-4dc7-8e11-58cd5489e55a.png"
+      ],
+      "recognizableTraits": "A young human child shown as a spirit in the quest-era scenes; warm brown hair, simple practical dress and clear, gentle spectral light. Her identity is explicit; exact age, face and costume are interpretive.",
+      "generationPrompt": "Original illustrated cutout direction: A young human child shown as a spirit in the quest-era scenes; warm brown hair, simple practical dress and clear, gentle spectral light. Her identity is explicit; exact age, face and costume are interpretive. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 44022,
+      "modifiedAt": "2026-10-02T05:35:36.252Z",
+      "sha256": "f8db91c064260a37e2c41da6061b804c240503973e39d6b87d2e10dd67b9223e"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-joseph",
+      "kind": "character",
+      "file": "public/images/storylines/darrowshire/joseph-redpath.research.webp",
+      "representedBy": "Captain Joseph Redpath",
+      "pixelWidth": 397,
+      "pixelHeight": 397,
+      "sourceArtifacts": [
+        "exec-479de87b-7c2c-4dc7-8e11-58cd5489e55a.png"
+      ],
+      "recognizableTraits": "Human village captain in practical worn militia armor with a modest shield; represented before and during the battle and as a spectral father. Avoid royal insignia or embellished commander armor.",
+      "generationPrompt": "Original illustrated cutout direction: Human village captain in practical worn militia armor with a modest shield; represented before and during the battle and as a spectral father. Avoid royal insignia or embellished commander armor. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 35576,
+      "modifiedAt": "2026-10-02T05:35:36.406Z",
+      "sha256": "198c90588cbe9e4af43c6d208b353eec437bcc55da5134223e755be765de4a92"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marlene",
+      "kind": "character",
+      "file": "public/images/storylines/darrowshire/marlene-redpath.research.webp",
+      "representedBy": "Auntie Marlene Redpath",
+      "pixelWidth": 397,
+      "pixelHeight": 397,
+      "sourceArtifacts": [
+        "exec-479de87b-7c2c-4dc7-8e11-58cd5489e55a.png"
+      ],
+      "recognizableTraits": "An older human woman represented as a translucent village spirit in modest rural clothes, with a steady and grieving expression. Costume and likeness are interpretive.",
+      "generationPrompt": "Original illustrated cutout direction: An older human woman represented as a translucent village spirit in modest rural clothes, with a steady and grieving expression. Costume and likeness are interpretive. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 53618,
+      "modifiedAt": "2026-10-02T05:35:36.558Z",
+      "sha256": "0a3c39f9ec93a270cf9daba6866cd0dbff0f420e0882c9999951cb2cc76f4288"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-carlin",
+      "kind": "character",
+      "file": "public/images/storylines/darrowshire/carlin-redpath.research.webp",
+      "representedBy": "Uncle Carlin Redpath",
+      "pixelWidth": 397,
+      "pixelHeight": 397,
+      "sourceArtifacts": [
+        "exec-479de87b-7c2c-4dc7-8e11-58cd5489e55a.png"
+      ],
+      "recognizableTraits": "An older human man in practical travel-worn clothes, rendered as a present-day relative and witness, not a combat hero.",
+      "generationPrompt": "Original illustrated cutout direction: An older human man in practical travel-worn clothes, rendered as a present-day relative and witness, not a combat hero. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 41252,
+      "modifiedAt": "2026-10-02T05:35:36.721Z",
+      "sha256": "38bc10581135294029669c019d25fcb81b3076209471f8996e74936de63190ed"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-davil",
+      "kind": "character",
+      "file": "public/images/storylines/darrowshire/davil-lightfire.research.webp",
+      "representedBy": "Davil Lightfire / Davil Crokford",
+      "pixelWidth": 397,
+      "pixelHeight": 397,
+      "sourceArtifacts": [
+        "exec-479de87b-7c2c-4dc7-8e11-58cd5489e55a.png"
+      ],
+      "recognizableTraits": "A village defender carrying a simple sword and modest shield, depicted as an adult human militia fighter. The Annals and quest/history pages vary between Crokford and Lightfire; this is a source-name variant, not proof they are different people.",
+      "generationPrompt": "Original illustrated cutout direction: A village defender carrying a simple sword and modest shield, depicted as an adult human militia fighter. The Annals and quest/history pages vary between Crokford and Lightfire; this is a source-name variant, not proof they are different people. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 41058,
+      "modifiedAt": "2026-10-02T05:35:36.881Z",
+      "sha256": "a7773dac71aeccae5f42514a6ad84dcb89c8061dbd2c2f8024a3a6f735ef95e3"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-horgus",
+      "kind": "character",
+      "file": "public/images/storylines/darrowshire/horgus-the-ravager.research.webp",
+      "representedBy": "Horgus the Ravager",
+      "pixelWidth": 397,
+      "pixelHeight": 397,
+      "sourceArtifacts": [
+        "exec-479de87b-7c2c-4dc7-8e11-58cd5489e55a.png"
+      ],
+      "recognizableTraits": "An imposing Scourge-aligned undead warrior with rough dark armor and a heavy blade, distinct from the human militia. Exact creature model and battle dress remain open.",
+      "generationPrompt": "Original illustrated cutout direction: An imposing Scourge-aligned undead warrior with rough dark armor and a heavy blade, distinct from the human militia. Exact creature model and battle dress remain open. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 81218,
+      "modifiedAt": "2026-10-02T05:35:37.084Z",
+      "sha256": "52b54587f3c63da77d6416604a23b77da8aa482b158b1c0acfc8de18e1180dbe"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marduk",
+      "kind": "character",
+      "file": "public/images/storylines/darrowshire/marduk-the-black.research.webp",
+      "representedBy": "Marduk the Black / Marduk Blackpool",
+      "pixelWidth": 397,
+      "pixelHeight": 397,
+      "sourceArtifacts": [
+        "exec-479de87b-7c2c-4dc7-8e11-58cd5489e55a.png"
+      ],
+      "recognizableTraits": "A sinister Scourge commander in dark practical armor with green plague light. The Annals, quest and secondary history differ in name form; retain both until client review.",
+      "generationPrompt": "Original illustrated cutout direction: A sinister Scourge commander in dark practical armor with green plague light. The Annals, quest and secondary history differ in name form; retain both until client review. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 54994,
+      "modifiedAt": "2026-10-02T05:35:37.285Z",
+      "sha256": "9c30e0dfca015b9b5de117fe0bdc6ad6503edd61fe4bfaf15b7b6b3bdbe47a50"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-corrupted-joseph",
+      "kind": "character",
+      "file": "public/images/storylines/darrowshire/redpath-the-corrupted.research.webp",
+      "representedBy": "Redpath the Corrupted",
+      "pixelWidth": 397,
+      "pixelHeight": 397,
+      "sourceArtifacts": [
+        "exec-479de87b-7c2c-4dc7-8e11-58cd5489e55a.png"
+      ],
+      "recognizableTraits": "A spectral Captain Joseph under Scourge corruption: recognizable militia silhouette overtaken by cold green necromantic light. The generated transformation is interpretive, not an exact model.",
+      "generationPrompt": "Original illustrated cutout direction: A spectral Captain Joseph under Scourge corruption: recognizable militia silhouette overtaken by cold green necromantic light. The generated transformation is interpretive, not an exact model. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 75194,
+      "modifiedAt": "2026-10-02T05:35:37.442Z",
+      "sha256": "097d4cd94e5bb9f0416f591e4a5e83e5bd62106ed5737e2177d8e5d04b2fa7d0"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-chromie",
+      "kind": "character",
+      "file": "public/images/storylines/darrowshire/chromie.research.webp",
+      "representedBy": "Chromie",
+      "pixelWidth": 397,
+      "pixelHeight": 397,
+      "sourceArtifacts": [
+        "exec-479de87b-7c2c-4dc7-8e11-58cd5489e55a.png"
+      ],
+      "recognizableTraits": "A small bronze dragon in gnome form, attentive historian with subtle bronze scales and simple traveling clothes. Original interpretation of the Classic NPC, not canonical model art.",
+      "generationPrompt": "Original illustrated cutout direction: A small bronze dragon in gnome form, attentive historian with subtle bronze scales and simple traveling clothes. Original interpretation of the Classic NPC, not canonical model art. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 70414,
+      "modifiedAt": "2026-10-02T05:35:37.639Z",
+      "sha256": "bdffdbe3b3c585410b2af6746ab509a85b6a4e72fdfe9681294441d400bdb78e"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-defenders",
+      "kind": "faction",
+      "file": "public/images/storylines/darrowshire/darrowshire-defenders.research.webp",
+      "representedBy": "The Defenders of Darrowshire",
+      "pixelWidth": 397,
+      "pixelHeight": 397,
+      "sourceArtifacts": [
+        "exec-479de87b-7c2c-4dc7-8e11-58cd5489e55a.png"
+      ],
+      "recognizableTraits": "A small ensemble of bound village spirits: human defenders in worn rural militia clothes, shown as a group with spectral chains/light. The image does not assert an exact roster or casualty count.",
+      "generationPrompt": "Original illustrated cutout direction: A small ensemble of bound village spirits: human defenders in worn rural militia clothes, shown as a group with spectral chains/light. The image does not assert an exact roster or casualty count. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 81430,
+      "modifiedAt": "2026-10-02T05:35:37.826Z",
+      "sha256": "8b946b75b8959a8ab7e31e1e7ff7b630adc035ce41f900971fc480b5d0117ed3"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-scourge",
+      "kind": "faction",
+      "file": "public/images/storylines/darrowshire/darrowshire-scourge.research.webp",
+      "representedBy": "Scourge attackers",
+      "pixelWidth": 1200,
+      "pixelHeight": 800,
+      "sourceArtifacts": [
+        "exec-d6d28106-afad-4b50-9ea5-7d7c99484f19.png"
+      ],
+      "recognizableTraits": "Original ensemble of four varied undead soldiers with rusted armor, ragged dark cloth and green plague eyes. Interpretive group art, not an exact count or canonical unit model.",
+      "generationPrompt": "Original illustrated cutout direction: Original ensemble of four varied undead soldiers with rusted armor, ragged dark cloth and green plague eyes. Interpretive group art, not an exact count or canonical unit model. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 332084,
+      "modifiedAt": "2026-10-02T05:49:35.145Z",
+      "sha256": "3bc18d5b524d7e6314e3c3663cc81913c03a57682331aba63282433f9652a6f9"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-doll",
+      "kind": "artifact",
+      "file": "public/images/storylines/darrowshire/pamelas-doll.research.webp",
+      "representedBy": "Pamela’s Doll",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifacts": [
+        "exec-45ab109f-35d1-4e79-a86e-d94ae55b1edd.png"
+      ],
+      "recognizableTraits": "A small cloth child’s doll with stitched features and worn fabric. Its simple, cherished role is source-supported; exact toy design is interpretive.",
+      "generationPrompt": "Original illustrated cutout direction: A small cloth child’s doll with stitched features and worn fabric. Its simple, cherished role is source-supported; exact toy design is interpretive. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 44690,
+      "modifiedAt": "2026-10-02T05:35:38.061Z",
+      "sha256": "2d5c0947a9c86b8db200fafadd8a706ef33d01ac56605c82f59a75f2396de52f"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-ring",
+      "kind": "artifact",
+      "file": "public/images/storylines/darrowshire/josephs-wedding-ring.research.webp",
+      "representedBy": "Joseph’s wedding ring",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifacts": [
+        "exec-45ab109f-35d1-4e79-a86e-d94ae55b1edd.png"
+      ],
+      "recognizableTraits": "A plain worn gold band, a family keepsake and clue in the chain. No inscription or exact model is asserted.",
+      "generationPrompt": "Original illustrated cutout direction: A plain worn gold band, a family keepsake and clue in the chain. No inscription or exact model is asserted. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 31544,
+      "modifiedAt": "2026-10-02T05:35:38.279Z",
+      "sha256": "22dff89ee28d68f18bc59da2167defdf37c2cd42ca69ecde13a905fdb5e54b39"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-annals",
+      "kind": "artifact",
+      "file": "public/images/storylines/darrowshire/annals-of-darrowshire.research.webp",
+      "representedBy": "The Annals of Darrowshire",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifacts": [
+        "exec-45ab109f-35d1-4e79-a86e-d94ae55b1edd.png"
+      ],
+      "recognizableTraits": "A worn book of village history; no legible page text is reproduced.",
+      "generationPrompt": "Original illustrated cutout direction: A worn book of village history; no legible page text is reproduced. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 54870,
+      "modifiedAt": "2026-10-02T05:35:38.509Z",
+      "sha256": "19bc7fbf9ca1535806bd0fd72a7d0b94345972646722c640b92370d44f17fe4b"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-extended-annals",
+      "kind": "artifact",
+      "file": "public/images/storylines/darrowshire/extended-annals-of-darrowshire.research.webp",
+      "representedBy": "Extended Annals of Darrowshire",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifacts": [
+        "exec-45ab109f-35d1-4e79-a86e-d94ae55b1edd.png"
+      ],
+      "recognizableTraits": "A second, larger historical volume associated with Carlin and the battle replay; no legible page text is reproduced.",
+      "generationPrompt": "Original illustrated cutout direction: A second, larger historical volume associated with Carlin and the battle replay; no legible page text is reproduced. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 60384,
+      "modifiedAt": "2026-10-02T05:35:38.763Z",
+      "sha256": "081ee57cde5ae3a91df1c317b3cf2675f8ed37995d137fc8d5679bb4c72c89e2"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-libram",
+      "kind": "artifact",
+      "file": "public/images/storylines/darrowshire/davil-libram.research.webp",
+      "representedBy": "Davil Lightfire’s Libram",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifacts": [
+        "exec-45ab109f-35d1-4e79-a86e-d94ae55b1edd.png"
+      ],
+      "recognizableTraits": "A worn bound religious book attributed by the quest to Davil Lightfire; the attribution and spelling remain source-variant evidence.",
+      "generationPrompt": "Original illustrated cutout direction: A worn bound religious book attributed by the quest to Davil Lightfire; the attribution and spelling remain source-variant evidence. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 54470,
+      "modifiedAt": "2026-10-02T05:35:38.997Z",
+      "sha256": "ffdadb6523db07fd509199c34492dada1506a061b9b3582c712e89fc6bcd03e7"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-shield",
+      "kind": "artifact",
+      "file": "public/images/storylines/darrowshire/redpath-shield.research.webp",
+      "representedBy": "Joseph Redpath’s broken shield",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifacts": [
+        "exec-45ab109f-35d1-4e79-a86e-d94ae55b1edd.png"
+      ],
+      "recognizableTraits": "A cracked human militia shield recovered as a historical relic; heraldry and exact item model remain open.",
+      "generationPrompt": "Original illustrated cutout direction: A cracked human militia shield recovered as a historical relic; heraldry and exact item model remain open. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 58744,
+      "modifiedAt": "2026-10-02T05:35:39.242Z",
+      "sha256": "80291a82ae10b4b2f919a19fe705bffb8d65903202ec9398fdc3fbef343cb8da"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-horgus-skull",
+      "kind": "artifact",
+      "file": "public/images/storylines/darrowshire/horgus-skull.research.webp",
+      "representedBy": "Skull attributed to Horgus",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifacts": [
+        "exec-45ab109f-35d1-4e79-a86e-d94ae55b1edd.png"
+      ],
+      "recognizableTraits": "An ancient undead skull used by the quest as a relic clue; its naming follows the quest locator and does not prove exact remains.",
+      "generationPrompt": "Original illustrated cutout direction: An ancient undead skull used by the quest as a relic clue; its naming follows the quest locator and does not prove exact remains. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 44136,
+      "modifiedAt": "2026-10-02T05:35:39.497Z",
+      "sha256": "78da778918e4b68774b11ca970d298449df0c55cf13b16c2b929693c7d411633"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-marduk-sword",
+      "kind": "artifact",
+      "file": "public/images/storylines/darrowshire/shattered-sword-of-marduk.research.webp",
+      "representedBy": "Shattered sword attributed to Marduk",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifacts": [
+        "exec-45ab109f-35d1-4e79-a86e-d94ae55b1edd.png"
+      ],
+      "recognizableTraits": "A broken dark blade used as a relic clue; its connection follows the quest account, not archaeological verification.",
+      "generationPrompt": "Original illustrated cutout direction: A broken dark blade used as a relic clue; its connection follows the quest account, not archaeological verification. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 34816,
+      "modifiedAt": "2026-10-02T05:35:39.735Z",
+      "sha256": "adef7ca9279802519af81afce2787442cafbaf5d0c3036c60f9e1573a9cea079"
+    },
+    {
+      "id": "darrowshire-lost-and-remembered-relic-bundle",
+      "kind": "artifact",
+      "file": "public/images/storylines/darrowshire/bundle-of-relics.research.webp",
+      "representedBy": "Bundle of relics and mystic crystal",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifacts": [
+        "exec-45ab109f-35d1-4e79-a86e-d94ae55b1edd.png"
+      ],
+      "recognizableTraits": "A bundled assembly of recovered relics and a crystal in original interpretive design. It signifies the spell’s ingredients, not an artifact inventory verified by independent sources.",
+      "generationPrompt": "Original illustrated cutout direction: A bundled assembly of recovered relics and a crystal in original interpretive design. It signifies the spell’s ingredients, not an artifact inventory verified by independent sources. Transparent background, clear silhouette, no text or copied game art. The cutout was cropped from the referenced subject sheet.",
+      "generator": "OpenAI ImageGen; original cutout optimized as alpha-capable WebP.",
+      "targetEditionBuild": "Classic quest-era identity; precise 1.12-era model match remains open.",
+      "transparency": true,
+      "visualReference": "No in-client screenshot comparison or model approval is claimed.",
+      "byteLength": 55638,
+      "modifiedAt": "2026-10-02T05:35:39.991Z",
+      "sha256": "2bb7fae4415107cb04d06e9991d51299bf82eb13b4e9dd73253cba08155bfd6a"
+    }
+  ],
+  "sceneLedger": [
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-annals-date-conflict",
+      "title": "Flashback · Era 7 — The date the Annals give",
+      "eraId": "third-war-frozen-throne",
+      "mapStateId": "darrowshire-lost-and-remembered-darrowshire-village-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/darrowshire-before-scourge.research.webp",
+      "gameArea": "Darrowshire before its fall",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "Open rural human village with timber cottages, modest pale stone bases, a central commons and low foothills. Keep the small-scale Classic Plaguelands settlement distinct from a royal city or gothic fortress.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-scourge",
+          "name": "Scourge attackers",
+          "image": "public/images/storylines/darrowshire/darrowshire-scourge.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-joseph",
+          "name": "Captain Joseph Redpath",
+          "image": "public/images/storylines/darrowshire/joseph-redpath.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-davil",
+          "name": "Davil Lightfire / Davil Crokford",
+          "image": "public/images/storylines/darrowshire/davil-lightfire.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-annals",
+          "name": "The Annals of Darrowshire",
+          "image": "public/images/storylines/darrowshire/annals-of-darrowshire.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-annals-date-conflict-claim"
+      ],
+      "chronologyAndGeography": "Annals chronology conflicts with the Third War context. Era 7 is the editorial historical frame, not an approval to silently correct the source. Original book edition and game text need review."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-horgus-arrives",
+      "title": "Horgus enters the battle",
+      "eraId": "third-war-frozen-throne",
+      "mapStateId": "darrowshire-lost-and-remembered-darrowshire-village-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/darrowshire-before-scourge.research.webp",
+      "gameArea": "Darrowshire before its fall",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "Open rural human village with timber cottages, modest pale stone bases, a central commons and low foothills. Keep the small-scale Classic Plaguelands settlement distinct from a royal city or gothic fortress.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-horgus",
+          "name": "Horgus the Ravager",
+          "image": "public/images/storylines/darrowshire/horgus-the-ravager.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-scourge",
+          "name": "Scourge attackers",
+          "image": "public/images/storylines/darrowshire/darrowshire-scourge.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-joseph",
+          "name": "Captain Joseph Redpath",
+          "image": "public/images/storylines/darrowshire/joseph-redpath.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-davil",
+          "name": "Davil Lightfire / Davil Crokford",
+          "image": "public/images/storylines/darrowshire/davil-lightfire.research.webp"
+        }
+      ],
+      "objects": [],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-horgus-arrives-claim"
+      ],
+      "chronologyAndGeography": "The sources support an attack and named participants, but not exact force size, formation, or co-presence timing."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-davil-falls",
+      "title": "Davil’s last stand",
+      "eraId": "third-war-frozen-throne",
+      "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/darrowshire-ruins.research.webp",
+      "gameArea": "Darrowshire in the Classic quest era",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "The pre-Cataclysm ruin is a small destroyed village of broken timber and pale masonry among diseased grass; no exact building plan or standing battle formation is asserted.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-davil",
+          "name": "Davil Lightfire / Davil Crokford",
+          "image": "public/images/storylines/darrowshire/davil-lightfire.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-horgus",
+          "name": "Horgus the Ravager",
+          "image": "public/images/storylines/darrowshire/horgus-the-ravager.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-joseph",
+          "name": "Captain Joseph Redpath",
+          "image": "public/images/storylines/darrowshire/joseph-redpath.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-libram",
+          "name": "Davil Lightfire’s Libram",
+          "image": "public/images/storylines/darrowshire/davil-libram.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-davil-falls-claim"
+      ],
+      "chronologyAndGeography": "Davil’s surname varies by account: Crokford in the Annals/history summary and Lightfire in the quest. Preserve as a disputed source variant."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-joseph-corrupted",
+      "title": "Marduk turns Joseph",
+      "eraId": "third-war-frozen-throne",
+      "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/darrowshire-ruins.research.webp",
+      "gameArea": "Darrowshire in the Classic quest era",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "The pre-Cataclysm ruin is a small destroyed village of broken timber and pale masonry among diseased grass; no exact building plan or standing battle formation is asserted.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-marduk",
+          "name": "Marduk the Black / Marduk Blackpool",
+          "image": "public/images/storylines/darrowshire/marduk-the-black.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-joseph",
+          "name": "Captain Joseph Redpath",
+          "image": "public/images/storylines/darrowshire/joseph-redpath.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-corrupted-joseph",
+          "name": "Redpath the Corrupted",
+          "image": "public/images/storylines/darrowshire/redpath-the-corrupted.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-scourge",
+          "name": "Scourge attackers",
+          "image": "public/images/storylines/darrowshire/darrowshire-scourge.research.webp"
+        }
+      ],
+      "objects": [],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-joseph-corrupted-claim"
+      ],
+      "chronologyAndGeography": "Marduk the Black and Marduk Blackpool are preserved as variants. The art depicts corruption symbolically and does not assert an exact transformation scene."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-pamela-hidden",
+      "title": "A child hidden from the battle",
+      "eraId": "third-war-frozen-throne",
+      "mapStateId": "darrowshire-lost-and-remembered-sorrow-hill-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/sorrow-hill.research.webp",
+      "gameArea": "Sorrow Hill",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "The Western Plaguelands rise and farm country use exposed, diseased grassland, bare timber and low plague haze; keep the memorial country quiet and broad.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-marlene",
+          "name": "Auntie Marlene Redpath",
+          "image": "public/images/storylines/darrowshire/marlene-redpath.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-pamela",
+          "name": "Pamela Redpath",
+          "image": "public/images/storylines/darrowshire/pamela-redpath.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-doll",
+          "name": "Pamela’s Doll",
+          "image": "public/images/storylines/darrowshire/pamelas-doll.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-pamela-hidden-claim"
+      ],
+      "chronologyAndGeography": "The Annals’ broad death account and Marlene’s statement that Pamela was hidden are not reconciled. Do not invent a survival mechanism or revise either account."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-marlene-seeks",
+      "title": "Era 8 — Marlene’s request",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-sorrow-hill-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/sorrow-hill.research.webp",
+      "gameArea": "Sorrow Hill",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "The Western Plaguelands rise and farm country use exposed, diseased grassland, bare timber and low plague haze; keep the memorial country quiet and broad.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-marlene",
+          "name": "Auntie Marlene Redpath",
+          "image": "public/images/storylines/darrowshire/marlene-redpath.research.webp"
+        }
+      ],
+      "objects": [],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-marlene-seeks-claim"
+      ],
+      "chronologyAndGeography": "Era 8 scene. Story order follows quest dependency; the player’s identity and exact date are unknown."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-pamela-and-doll",
+      "title": "The doll among the ruins",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/darrowshire-ruins.research.webp",
+      "gameArea": "Darrowshire in the Classic quest era",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "The pre-Cataclysm ruin is a small destroyed village of broken timber and pale masonry among diseased grass; no exact building plan or standing battle formation is asserted.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-pamela",
+          "name": "Pamela Redpath",
+          "image": "public/images/storylines/darrowshire/pamela-redpath.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-doll",
+          "name": "Pamela’s Doll",
+          "image": "public/images/storylines/darrowshire/pamelas-doll.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-pamela-and-doll-claim"
+      ],
+      "chronologyAndGeography": "The game quest supports Pamela and the doll search. The precise placement of the illustrated toy is interpretive."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-pamela-asks",
+      "title": "Pamela asks for her family",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/darrowshire-ruins.research.webp",
+      "gameArea": "Darrowshire in the Classic quest era",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "The pre-Cataclysm ruin is a small destroyed village of broken timber and pale masonry among diseased grass; no exact building plan or standing battle formation is asserted.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-pamela",
+          "name": "Pamela Redpath",
+          "image": "public/images/storylines/darrowshire/pamela-redpath.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-doll",
+          "name": "Pamela’s Doll",
+          "image": "public/images/storylines/darrowshire/pamelas-doll.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-pamela-asks-claim"
+      ],
+      "chronologyAndGeography": "Narration paraphrases the quest progression and does not reproduce game dialogue."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-marlene-tells-truth",
+      "title": "The truth Marlene cannot give Pamela",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-sorrow-hill-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/sorrow-hill.research.webp",
+      "gameArea": "Sorrow Hill",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "The Western Plaguelands rise and farm country use exposed, diseased grassland, bare timber and low plague haze; keep the memorial country quiet and broad.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-marlene",
+          "name": "Auntie Marlene Redpath",
+          "image": "public/images/storylines/darrowshire/marlene-redpath.research.webp"
+        }
+      ],
+      "objects": [],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-marlene-tells-truth-claim"
+      ],
+      "chronologyAndGeography": "Marlene’s dialogue is secondary quest reproduction. Do not expand her reluctance into unstated psychology."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-wedding-ring",
+      "title": "A ring and a historian",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-andorhal-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/andorhal.research.webp",
+      "gameArea": "Andorhal",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Andorhal reads as a ruined human town with broken pale civic masonry, low rooftops, farms and plague haze; avoid a towering cathedral or oversized fortress.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-chromie",
+          "name": "Chromie",
+          "image": "public/images/storylines/darrowshire/chromie.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-ring",
+          "name": "Joseph’s wedding ring",
+          "image": "public/images/storylines/darrowshire/josephs-wedding-ring.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-wedding-ring-claim"
+      ],
+      "chronologyAndGeography": "The location of Chromie changed across patches; Andorhal is the Classic locator. No exact NPC coordinates or travel path are asserted."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-annals-read",
+      "title": "The Annals keep a broken date",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-andorhal-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/andorhal.research.webp",
+      "gameArea": "Andorhal",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Andorhal reads as a ruined human town with broken pale civic masonry, low rooftops, farms and plague haze; avoid a towering cathedral or oversized fortress.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-chromie",
+          "name": "Chromie",
+          "image": "public/images/storylines/darrowshire/chromie.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-annals",
+          "name": "The Annals of Darrowshire",
+          "image": "public/images/storylines/darrowshire/annals-of-darrowshire.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-annals-read-claim"
+      ],
+      "chronologyAndGeography": "Possible error, retcon, or framing difference remains an open research question; none is promoted as fact."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-carlin-witness",
+      "title": "Carlin and the bound defenders",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-lights-hope-chapel-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/lights-hope-chapel.research.webp",
+      "gameArea": "Light’s Hope Chapel",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "A modest pale-stone chapel among open Eastern Plaguelands fields, with restrained blue and gold accents and a small graveyard; it should not resemble a palace.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-carlin",
+          "name": "Uncle Carlin Redpath",
+          "image": "public/images/storylines/darrowshire/carlin-redpath.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-defenders",
+          "name": "The Defenders of Darrowshire",
+          "image": "public/images/storylines/darrowshire/darrowshire-defenders.research.webp"
+        }
+      ],
+      "objects": [],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-carlin-witness-claim"
+      ],
+      "chronologyAndGeography": "Do not turn the quest objective count into a historical headcount or imply every defender is individually identified."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-villains-relics",
+      "title": "The skull and the shattered blade",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-corins-crossing-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/corins-crossing.research.webp",
+      "gameArea": "Corin’s Crossing and its nearby waters",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "Sparse road-crossing ruins, a cold lake, low hills and bare trees in the Eastern Plaguelands. Keep the search site as a landscape, not a pinpoint battlefield reconstruction.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-horgus",
+          "name": "Horgus the Ravager",
+          "image": "public/images/storylines/darrowshire/horgus-the-ravager.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-marduk",
+          "name": "Marduk the Black / Marduk Blackpool",
+          "image": "public/images/storylines/darrowshire/marduk-the-black.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-horgus-skull",
+          "name": "Skull attributed to Horgus",
+          "image": "public/images/storylines/darrowshire/horgus-skull.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-marduk-sword",
+          "name": "Shattered sword attributed to Marduk",
+          "image": "public/images/storylines/darrowshire/shattered-sword-of-marduk.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-villains-relics-claim"
+      ],
+      "chronologyAndGeography": "Quest attributions guide the story. No exact relic coordinates, archaeological provenance or recovered battlefield inventory are asserted."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-davil-libram",
+      "title": "Davil’s libram at Hearthglen",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-hearthglen-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/hearthglen.research.webp",
+      "gameArea": "Hearthglen",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Hearthglen is a fortified human settlement: pale stone and timber, practical defenses and red-white Scarlet Crusade banners against damaged fields. Do not confuse it with Stormwind Keep.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-davil",
+          "name": "Davil Lightfire / Davil Crokford",
+          "image": "public/images/storylines/darrowshire/davil-lightfire.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-libram",
+          "name": "Davil Lightfire’s Libram",
+          "image": "public/images/storylines/darrowshire/davil-libram.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-davil-libram-claim"
+      ],
+      "chronologyAndGeography": "Hearthglen and the Lightfire name follow the quest locator. Exact building and item placement remain unverified."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-heroes-relics",
+      "title": "Joseph’s shield at the ruined farm",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-gahrrons-withering-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/gahrrons-withering.research.webp",
+      "gameArea": "Gahrron’s Withering",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic farm country with a leaning timber barn, broken fence, pale diseased fields and skeletal trees; the recovered shield is a clue, not a surveyed coordinates claim.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-joseph",
+          "name": "Captain Joseph Redpath",
+          "image": "public/images/storylines/darrowshire/joseph-redpath.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-shield",
+          "name": "Joseph Redpath’s broken shield",
+          "image": "public/images/storylines/darrowshire/redpath-shield.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-heroes-relics-claim"
+      ],
+      "chronologyAndGeography": "The quest locates a shield near the farm. Exact coordinates and damage history are not stated."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-marauders-crystal",
+      "title": "The crystal answers the skulls",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-corins-crossing-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/corins-crossing.research.webp",
+      "gameArea": "Corin’s Crossing and its nearby waters",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "Sparse road-crossing ruins, a cold lake, low hills and bare trees in the Eastern Plaguelands. Keep the search site as a landscape, not a pinpoint battlefield reconstruction.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-chromie",
+          "name": "Chromie",
+          "image": "public/images/storylines/darrowshire/chromie.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-scourge",
+          "name": "Scourge attackers",
+          "image": "public/images/storylines/darrowshire/darrowshire-scourge.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-relic-bundle",
+          "name": "Bundle of relics and mystic crystal",
+          "image": "public/images/storylines/darrowshire/bundle-of-relics.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-marauders-crystal-claim"
+      ],
+      "chronologyAndGeography": "Five skulls is the quest requirement, not an independently verified number of Scourge participants."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-extended-account",
+      "title": "Carlin’s extended account",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-lights-hope-chapel-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/lights-hope-chapel.research.webp",
+      "gameArea": "Light’s Hope Chapel",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "A modest pale-stone chapel among open Eastern Plaguelands fields, with restrained blue and gold accents and a small graveyard; it should not resemble a palace.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-carlin",
+          "name": "Uncle Carlin Redpath",
+          "image": "public/images/storylines/darrowshire/carlin-redpath.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-extended-annals",
+          "name": "Extended Annals of Darrowshire",
+          "image": "public/images/storylines/darrowshire/extended-annals-of-darrowshire.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-relic-bundle",
+          "name": "Bundle of relics and mystic crystal",
+          "image": "public/images/storylines/darrowshire/bundle-of-relics.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-extended-account-claim"
+      ],
+      "chronologyAndGeography": "The extension supplies the quest rationale. Do not claim the player or Chromie can permanently rewrite all history."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-replay-begins",
+      "title": "The battle is called back",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-darrowshire-village-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/darrowshire-before-scourge.research.webp",
+      "gameArea": "Darrowshire before its fall",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "Open rural human village with timber cottages, modest pale stone bases, a central commons and low foothills. Keep the small-scale Classic Plaguelands settlement distinct from a royal city or gothic fortress.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-chromie",
+          "name": "Chromie",
+          "image": "public/images/storylines/darrowshire/chromie.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-defenders",
+          "name": "The Defenders of Darrowshire",
+          "image": "public/images/storylines/darrowshire/darrowshire-defenders.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-scourge",
+          "name": "Scourge attackers",
+          "image": "public/images/storylines/darrowshire/darrowshire-scourge.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-davil",
+          "name": "Davil Lightfire / Davil Crokford",
+          "image": "public/images/storylines/darrowshire/davil-lightfire.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-horgus",
+          "name": "Horgus the Ravager",
+          "image": "public/images/storylines/darrowshire/horgus-the-ravager.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-relic-bundle",
+          "name": "Bundle of relics and mystic crystal",
+          "image": "public/images/storylines/darrowshire/bundle-of-relics.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-replay-begins-claim"
+      ],
+      "chronologyAndGeography": "Historical flashback / quest replay in Era 8. Do not treat it as a new Era 7 event or claim a permanent timeline reset."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-davil-and-horgus",
+      "title": "Davil survives Horgus",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/darrowshire-ruins.research.webp",
+      "gameArea": "Darrowshire in the Classic quest era",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "The pre-Cataclysm ruin is a small destroyed village of broken timber and pale masonry among diseased grass; no exact building plan or standing battle formation is asserted.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-davil",
+          "name": "Davil Lightfire / Davil Crokford",
+          "image": "public/images/storylines/darrowshire/davil-lightfire.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-horgus",
+          "name": "Horgus the Ravager",
+          "image": "public/images/storylines/darrowshire/horgus-the-ravager.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-defenders",
+          "name": "The Defenders of Darrowshire",
+          "image": "public/images/storylines/darrowshire/darrowshire-defenders.research.webp"
+        }
+      ],
+      "objects": [],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-davil-and-horgus-claim"
+      ],
+      "chronologyAndGeography": "The objective is explicit in the quest locator. Combat choreography and exact scene composition are interpretive."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-redpath-corrupted",
+      "title": "The captain falls to corruption",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/darrowshire-ruins.research.webp",
+      "gameArea": "Darrowshire in the Classic quest era",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "The pre-Cataclysm ruin is a small destroyed village of broken timber and pale masonry among diseased grass; no exact building plan or standing battle formation is asserted.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-joseph",
+          "name": "Captain Joseph Redpath",
+          "image": "public/images/storylines/darrowshire/joseph-redpath.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-marduk",
+          "name": "Marduk the Black / Marduk Blackpool",
+          "image": "public/images/storylines/darrowshire/marduk-the-black.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-corrupted-joseph",
+          "name": "Redpath the Corrupted",
+          "image": "public/images/storylines/darrowshire/redpath-the-corrupted.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-pamela",
+          "name": "Pamela Redpath",
+          "image": "public/images/storylines/darrowshire/pamela-redpath.research.webp"
+        }
+      ],
+      "objects": [],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-redpath-corrupted-claim"
+      ],
+      "chronologyAndGeography": "The replay’s objectives constrain what can change. Do not invent a lasting post-spell state beyond the quest account."
+    },
+    {
+      "nodeId": "darrowshire-lost-and-remembered-story-family-homecoming",
+      "title": "Pamela hears the battle end",
+      "eraId": "age-of-adventurers",
+      "mapStateId": "darrowshire-lost-and-remembered-darrowshire-ruins-scene",
+      "worldspaceId": "darrowshire-story-theater",
+      "environmentPath": "public/images/storylines/darrowshire/darrowshire-ruins.research.webp",
+      "gameArea": "Darrowshire in the Classic quest era",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; precise original 1.12-era comparison remains open.",
+      "recognizableTraits": "The pre-Cataclysm ruin is a small destroyed village of broken timber and pale masonry among diseased grass; no exact building plan or standing battle formation is asserted.",
+      "resemblanceReview": "Written trait check recorded; matching-client side-by-side visual review remains open.",
+      "cast": [
+        {
+          "id": "darrowshire-lost-and-remembered-pamela",
+          "name": "Pamela Redpath",
+          "image": "public/images/storylines/darrowshire/pamela-redpath.research.webp"
+        },
+        {
+          "id": "darrowshire-lost-and-remembered-joseph",
+          "name": "Captain Joseph Redpath",
+          "image": "public/images/storylines/darrowshire/joseph-redpath.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "darrowshire-lost-and-remembered-doll",
+          "name": "Pamela’s Doll",
+          "image": "public/images/storylines/darrowshire/pamelas-doll.research.webp"
+        }
+      ],
+      "claimIds": [
+        "darrowshire-lost-and-remembered-family-homecoming-claim"
+      ],
+      "chronologyAndGeography": "Reunion and key follow secondary quest-chain transcription. The persistence and scope of temporal change require original-client and lore review."
+    }
+  ]
+}

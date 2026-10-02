@@ -79,6 +79,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** reconcile the annals' chronology wording against the Third War context rather than silently correcting a source. Place the fall in an Era 7 prologue and the investigation in Era 8; capture the original event ending.
 
+
+**Implementation:** Complete 21-scene illustrated research story, with transcript-matched Classic quest narration, per-scene events/claims/citations, the Era 7 fall and Era 8 investigation/replay, and the sixth Classic marker in the separate Classic-to-Wrath StoryTour. It keeps the Annals’ date conflict, Davil and Marduk name variants, Pamela’s conflicting accounts, and the replay’s unresolved temporal scope visible. Original-client comparison, human lore review, matching-build area/model resemblance and voice audition remain open. See the [production ledger](darrowshire-lost-and-remembered-production.md) and [visual asset ledger](darrowshire-lost-and-remembered-visual-assets.json).
 ### 07. The Defias and the Unsent Letter
 
 **ID:** `defias-original-conspiracy` · **A** · **Reach:** Westfall, Redridge, Stormwind, two dungeons.

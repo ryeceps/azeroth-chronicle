@@ -1,41 +1,59 @@
 {
   "id": "darrowshire-lost-and-remembered",
+  "slug": "darrowshire-lost-and-remembered",
   "title": "Darrowshire: Lost and Remembered",
+  "summary": "Pamela’s search follows a ruined village’s divided accounts, the relatives and relics that preserve them, and Chromie’s attempt to revisit the battle that broke the Redpath family.",
+  "opening": "A child in the ruins asks after her family. Her question leads through a village’s torn history, where one book gives a date the wider war will not accept and a later spell offers a limited answer.",
   "primaryEraId": "age-of-adventurers",
   "eraIds": [
     "third-war-frozen-throne",
     "age-of-adventurers"
   ],
-  "summary": "Pamela Redpath's quest revisits a village destroyed by the Scourge and the Battle of Darrowshire.",
-  "opening": "Darrowshire survives in memory after its fall. Pamela's search turns scattered accounts into a journey through what happened there.",
-  "sourceIds": [],
-  "reviewNote": "Primary quest text for Pamela Redpath, Marauders of Darrowshire, and Battle of Darrowshire still needs capture. The later quest does not redate the original fall.",
   "chapters": [
     {
       "id": "the-fall",
       "eraId": "third-war-frozen-throne",
-      "title": "A village in the Scourge war",
-      "body": "Establish the historical fall of Darrowshire from original quests."
+      "title": "The fall of Darrowshire",
+      "body": "The Scourge attack, Davil’s death and Joseph’s corruption establish the remembered catastrophe. The Annals’ Second War date and the Third War framing remain in direct conflict."
     },
     {
-      "id": "pamela",
+      "id": "pamelas-search",
       "eraId": "age-of-adventurers",
-      "title": "Pamela's search",
-      "body": "Follow Pamela Redpath and the memories preserved around the village."
+      "title": "Pamela’s family",
+      "body": "Marlene sends the Classic investigator through the ruins, to Pamela, and back through the relatives who remember the village."
     },
     {
-      "id": "the-reconstruction",
+      "id": "witnesses-and-relics",
       "eraId": "age-of-adventurers",
-      "title": "Fragments of the past",
-      "body": "Gather the accounts and objects required by the questline."
+      "title": "Witnesses and relics",
+      "body": "Carlin, the Annals and scattered relics let Chromie assemble a constrained retelling. Branch order and item recovery are quest structure, not exact chronology or geography."
     },
     {
-      "id": "the-battle",
+      "id": "the-replayed-battle",
       "eraId": "age-of-adventurers",
-      "title": "The battle remembered",
-      "body": "Distinguish the original battle from the later quest's reenactment."
+      "title": "The battle revisited",
+      "body": "The quest replay preserves specific losses and alters others. Joseph and Pamela reunite in the account; the lasting scope of the spell remains unresolved."
     }
   ],
-  "slug": "darrowshire-lost-and-remembered",
+  "sourceIds": [
+    "darrowshire-annals-book",
+    "darrowshire-battle-history",
+    "darrowshire-heroes",
+    "darrowshire-auntie-marlene",
+    "darrowshire-little-pamela",
+    "darrowshire-pamelas-doll",
+    "darrowshire-strange-historian",
+    "darrowshire-annals-quest",
+    "darrowshire-defenders",
+    "darrowshire-extended-annals",
+    "darrowshire-villains",
+    "darrowshire-marauders",
+    "darrowshire-return-chromie",
+    "darrowshire-battle-quest",
+    "darrowshire-hidden-treasures",
+    "darrowshire-classic-chain"
+  ],
+  "reviewNote": "Complete illustrated research story: 21 scenes, full transcript, event/claim/citation per scene, generated Classic Plaguelands environments, named cast/group art and pivotal relic art. Secondary wiki mirrors reproduce book and Classic quest material; no original client capture is claimed. The Annals’ Second War date conflicts with the Third War frame; Davil Crokford/Lightfire and Marduk the Black/Blackpool variants remain open. Pamela’s reunion follows the quest account; permanent timeline consequences remain uncertain. Verify original client/build, visual resemblance, pronunciation and all claims before editorial promotion.",
+  "storyGuideId": "darrowshire-lost-and-remembered-guide",
   "contentStatus": "research"
 }

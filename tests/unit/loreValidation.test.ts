@@ -548,7 +548,7 @@ describe('lore dataset', () => {
     expect(era.previousEraId).toBe('rise-of-the-horde');
     expect(era.nextEraId).toBe('age-of-adventurers');
     expect(featuredEntities).toHaveLength(25);
-    expect(events).toHaveLength(17);
+    expect(events).toHaveLength(22);
     expect(battles).toHaveLength(2);
     expect(spatialStates).toHaveLength(25);
     expect(guide.nodeIds).toHaveLength(15);
@@ -634,11 +634,12 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(157);
+    expect(events).toHaveLength(173);
     expect(events.filter((event) => event.id.startsWith('onyxia-'))).toHaveLength(21);
     expect(events.filter((event) => event.id.startsWith('dungeon-set-two-'))).toHaveLength(22);
     expect(events.filter((event) => event.id.startsWith('fallen-hero-and-rakhlikh-'))).toHaveLength(15);
     expect(events.filter((event) => event.id.startsWith('tirion-taelan-of-love-and-family-'))).toHaveLength(14);
+    expect(events.filter((event) => event.id.startsWith('darrowshire-lost-and-remembered-'))).toHaveLength(16);
     expect(events.filter((event) => event.id.startsWith('karazhan-masters-key-and-nightbane-'))).toHaveLength(18);
     expect(events.filter((event) => event.id.startsWith('akama-and-black-temple-'))).toHaveLength(20);
     expect(battles).toHaveLength(2);
@@ -874,7 +875,7 @@ describe('lore dataset', () => {
     expect(data.entities.find((item) => item.id === 'taelans-miniature-warhammer')?.mapVisual?.asset)
       .toBe('images/storylines/tirion-taelan/taelans-miniature-warhammer.research.webp');
     expect(entry.order).toBe(5);
-    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(6);
+    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(7);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId)
       .not.toBe(guide.id);
     expect(medivh.mapFigure?.asset).toBe('images/storylines/karazhan/medivh.research.webp');
@@ -883,6 +884,54 @@ describe('lore dataset', () => {
     expect(medivhAsset.generationPrompt).toMatch(/Atiesh.*seated raven.*red streamer/);
     expect(medivhAsset.visualReview).toMatch(/seated raven.*hooked beak.*folded wings.*red streamer/);
     expect(storyTemplate).toMatch(/Signature equipment.*Medivh should visibly wield Atiesh.*seated raven.*red streamer/);
+  });
+
+  it('keeps Darrowshire’s disputed history and Classic replay as a complete standalone research story', () => {
+    const data = loadDataset();
+    const story = data.storylines.find((item) => item.id === 'darrowshire-lost-and-remembered')!;
+    const guide = data.storyGuides.find((item) => item.id === story.storyGuideId)!;
+    const nodes = guide.nodeIds.map((id) => data.storyNodes.find((node) => node.id === id)!);
+    const tour = data.storyTours.find((item) => item.slug === 'classic-to-wrath')!;
+    const entry = tour.entries.find((item) => item.storylineId === story.id)!;
+    const visualLedger = JSON.parse(readFileSync(resolve('docs/research/darrowshire-lost-and-remembered-visual-assets.json'), 'utf8')) as {
+      assetRecords: { id: string; file: string; sha256: string }[];
+      sceneLedger: { nodeId: string; environmentPath: string; cast: { id: string; image: string }[]; objects: { id: string; image: string }[] }[];
+    };
+    const annalsClaim = data.claims.find((claim) => claim.id === 'darrowshire-lost-and-remembered-annals-date-conflict-claim')!;
+    const pamelaClaim = data.claims.find((claim) => claim.id === 'darrowshire-lost-and-remembered-pamela-hidden-claim')!;
+
+    expect(story.contentStatus).toBe('research');
+    expect(story.eraIds).toEqual(['third-war-frozen-throne', 'age-of-adventurers']);
+    expect(guide.nodeIds).toHaveLength(21);
+    expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
+      && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
+    expect(nodes.filter((node) => data.events.find((event) => event.id === node.eventIds?.[0])?.eraId === 'third-war-frozen-throne')).toHaveLength(5);
+    expect(nodes.filter((node) => data.events.find((event) => event.id === node.eventIds?.[0])?.eraId === 'age-of-adventurers')).toHaveLength(16);
+    expect(annalsClaim.status).toBe('disputed');
+    expect(pamelaClaim.status).toBe('disputed');
+    expect(data.claims.find((claim) => claim.id === 'darrowshire-lost-and-remembered-annals-read-claim')?.status).toBe('disputed');
+    expect(data.sources.find((source) => source.id === 'darrowshire-annals-book')?.notes).toMatch(/Second War/);
+    expect(story.reviewNote).toMatch(/Crokford\/Lightfire.*Black\/Blackpool/);
+    expect(story.reviewNote).toMatch(/permanent timeline consequences remain uncertain/i);
+    expect(entry.order).toBe(6);
+    expect(entry.regionIds).toEqual(['eastern-kingdoms']);
+    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(7);
+    expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
+    expect(visualLedger.sceneLedger).toHaveLength(nodes.length);
+    for (const scene of visualLedger.sceneLedger) {
+      expect(nodes.some((node) => node.id === scene.nodeId)).toBe(true);
+      expect(existsSync(resolve(scene.environmentPath))).toBe(true);
+      for (const asset of [...scene.cast, ...scene.objects]) expect(existsSync(resolve(asset.image))).toBe(true);
+      const event = data.events.find((item) => item.id === nodes.find((node) => node.id === scene.nodeId)?.eventIds?.[0])!;
+      const claim = data.claims.find((item) => item.id === event.claimIds?.[0])!;
+      expect(claim.citationIds.length).toBeGreaterThan(0);
+      expect(claim.citationIds.every((id) => data.citations.some((citation) => citation.id === id))).toBe(true);
+      expect(claim.citationIds.every((id) => data.sources.some((source) => source.id === data.citations.find((citation) => citation.id === id)?.sourceId))).toBe(true);
+    }
+    for (const asset of visualLedger.assetRecords) {
+      expect(existsSync(resolve(asset.file))).toBe(true);
+      expect(asset.sha256).toMatch(/^[a-f0-9]{64}$/);
+    }
   });
 
   it('keeps Quel’Delar as a complete, source-linked Classic-to-Wrath story outside EraTour', () => {
@@ -904,9 +953,9 @@ describe('lore dataset', () => {
     expect(guide.nodeIds).toHaveLength(19);
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
       && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
-    expect(entry.order).toBe(10);
+    expect(entry.order).toBe(11);
     expect(entry.regionIds).toEqual(['northrend', 'eastern-kingdoms']);
-    expect(tour.entries).toHaveLength(10);
+    expect(tour.entries).toHaveLength(11);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
     expect(nodes.find((node) => node.id.endsWith('story-thalorien-last-stand'))?.eventIds?.map(id =>
       data.events.find((event) => event.id === id)?.eraId)).toEqual(['third-war-frozen-throne']);

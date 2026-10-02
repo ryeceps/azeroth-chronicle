@@ -1,0 +1,29 @@
+{
+  "id": "darrowshire-lost-and-remembered-annals-read-event",
+  "kind": "event",
+  "name": "The Annals keep a broken date",
+  "slug": "darrowshire-lost-and-remembered-annals-read",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "darrowshire-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Original World of Warcraft Classic quest sequence · exact date unknown"
+  },
+  "summary": "The Annals give the visitor a written account of Darrowshire’s last battle, including the Second War date that cannot be reconciled here with a Scourge attack in the Third War. This telling cites the book as evidence and labels its chronology disputed rather than silently repairing it. The recollection of combat may preserve names and sequence while the date has been miscopied, retconned, or framed differently; the sources consulted do not let us choose among those explanations.",
+  "locationIds": [
+    "andorhal"
+  ],
+  "participantEntityIds": [
+    "darrowshire-lost-and-remembered-chromie",
+    "darrowshire-lost-and-remembered-annals"
+  ],
+  "sourceIds": [
+    "darrowshire-annals-quest",
+    "darrowshire-annals-book",
+    "darrowshire-battle-history"
+  ],
+  "claimIds": [
+    "darrowshire-lost-and-remembered-annals-read-claim"
+  ],
+  "contentStatus": "research"
+}
