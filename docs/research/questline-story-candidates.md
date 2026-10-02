@@ -125,6 +125,9 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** prove the link between the egg errands and later events from quest evidence; distinguish avatar from deity. Exclude Cataclysm Zul'Gurub and later returns.
 
+
+**Implementation status (2026-10-02): illustrated research preview.** The 15-node Yehkinya guide is linked from the Classic-to-Wrath StoryTour after the Scythe entry, stays outside EraTour, and ends at the Yojamba request for aid. Original-client dialogue capture, regional resemblance comparison, human lore review and generated-voice audition remain open; records remain contentStatus research.
+
 ### 11. Ras Frostwhisper: a lich's mortality
 
 **ID:** `ras-frostwhisper-and-the-soulbound-keepsake` · **A** · **Reach:** Scholomance, Plaguelands, Alterac and Stratholme-related evidence.

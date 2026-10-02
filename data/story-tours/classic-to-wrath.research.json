@@ -164,6 +164,20 @@
       "locationLabel": "Ashenvale to Duskwood · the Scythe of Elune"
     },
     {
+      "storylineId": "yehkinya-and-hakkars-return",
+      "regionIds": [
+        "kalimdor",
+        "eastern-kingdoms"
+      ],
+      "mapPositionPercent": [
+        29,
+        75
+      ],
+      "order": 9,
+      "periodLabel": "Original World of Warcraft · Classic",
+      "locationLabel": "Tanaris, Feralas and the Hinterlands · the Ancient Egg"
+    },
+    {
       "storylineId": "karazhan-masters-key-and-nightbane",
       "regionIds": [
         "eastern-kingdoms",
@@ -173,7 +187,7 @@
         77,
         66
       ],
-      "order": 9,
+      "order": 10,
       "periodLabel": "The Burning Crusade · Karazhan",
       "locationLabel": "Deadwind Pass · key fragments across Outland"
     },
@@ -187,7 +201,7 @@
         91,
         66
       ],
-      "order": 10,
+      "order": 11,
       "periodLabel": "The Burning Crusade · Black Temple, patch 2.1",
       "locationLabel": "Shadowmoon Valley · raids across Outland · Hyjal memory"
     },
@@ -200,7 +214,7 @@
         82,
         79
       ],
-      "order": 11,
+      "order": 12,
       "periodLabel": "The Burning Crusade · Shadowmoon Valley",
       "locationLabel": "Shadowmoon Valley · Outland"
     },
@@ -214,7 +228,7 @@
         58,
         62
       ],
-      "order": 12,
+      "order": 13,
       "periodLabel": "Original Classic investigation · Burning Crusade patch 2.3 continuation",
       "locationLabel": "Stormwind · Duskwood · Wetlands · Theramore"
     },
@@ -227,7 +241,7 @@
         54,
         18
       ],
-      "order": 13,
+      "order": 14,
       "periodLabel": "Wrath of the Lich King",
       "locationLabel": "Dragonblight · Northrend"
     },
@@ -241,11 +255,11 @@
         61,
         27
       ],
-      "order": 14,
+      "order": 15,
       "periodLabel": "Wrath of the Lich King · patch 3.3.5",
       "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
     }
   ],
-  "reviewNote": "Playable research guides include Oronok and the Cipher as the tenth placard in an editorial Classic-to-Wrath sequence. Its Outland map anchor and all story-stage art are interpretive, not exact geography. Wrathgate remains a preview outside Play All. Original-client quest and area comparison, chronology, claim review, generated asset review, and narration audition remain human gates. The Missing Diplomat marker joins Classic and patch 2.3 material by editorial sequence only; its Classic investigation remains an earlier subperiod. Original-chain and later continuation boundaries are explicit, and the story ends with Varian still missing and the patron unnamed.",
+  "reviewNote": "Research StoryTour collection with 15 map placards, 14 playable research StoryGuides and one research preview. Play All follows the explicit editorial order and skips the preview. Yeh'kinya's cross-continent marker is a UI anchor, not precise geography. Each storyline remains research until its human review gates are complete.",
   "contentStatus": "research"
 }
