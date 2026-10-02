@@ -31,7 +31,6 @@ export function StoryTourPage() {
     storyline: dataset.storylines.find((item) => item.id === entry.storylineId)!,
   }));
   const touchStory = storylines.find(({ storyline }) => storyline.id === touchStoryId);
-  const playableCount = storylines.filter(({ storyline }) => Boolean(storyline.storyGuideId)).length;
   const stops = storyTourItinerary(dataset, tour);
   const complete = params.get('complete') === '1';
   const mapImage = `${import.meta.env.BASE_URL}${tour.mapAsset}`;
@@ -46,32 +45,20 @@ export function StoryTourPage() {
 
   return (
     <main className="story-tour-page">
-      <nav className="story-tour-breadcrumbs" aria-label="Breadcrumb"><Link to="/tours">Tours</Link><span aria-hidden="true">/</span><span>{tour.title}</span></nav>
-      <header className="story-tour-header">
-        <div>
-          <p className="eyebrow">Story atlas · {tour.contentStatus}</p>
+      <header className="story-tour-controls">
+        <div className="story-tour-title">
+          <p className="eyebrow">{storylines.length} story locations · {tour.contentStatus}</p>
           <h1>{tour.title}</h1>
-          <p className="story-tour-edition">{tour.editionLabel}</p>
-          <p className="story-tour-summary">{tour.summary}</p>
         </div>
-        <aside className="story-tour-play-all">
-          <p className="eyebrow">Follow the story in order</p>
-          <button type="button" className="tour-primary" disabled={!stops.length} onClick={() => playTour(tour, navigate)}>
-            Play all stories <span aria-hidden="true">→</span>
-          </button>
-          <p>Chronological · Classic to Wrath · {playableCount} playable stories</p>
-        </aside>
+        <button type="button" className="tour-primary" disabled={!stops.length} onClick={() => playTour(tour, navigate)}>
+          Play all stories <span aria-hidden="true">→</span>
+        </button>
+        {complete && <p className="story-tour-complete" role="status">The chronicle is complete. Choose a marker to begin another story.</p>}
       </header>
 
-      {complete && <p className="story-tour-complete" role="status">The chronicle is complete. Choose another story marker or begin the full sequence again.</p>}
-
-      <section className="story-tour-map-section" aria-labelledby="story-tour-map-title">
-        <div className="story-tour-section-heading">
-          <div><p className="eyebrow">{storylines.length} stories · arranged by place</p><h2 id="story-tour-map-title">Choose a story</h2></div>
-          <p className="story-tour-map-help">Hover or focus a marker to preview it. On touch screens, tap for details.</p>
-        </div>
-        <div className="story-tour-map-frame" aria-label="Story locations on Wrath-era Azeroth and Outland">
-          <img className="story-tour-backdrop" src={mapImage} alt="" aria-hidden="true" />
+      <p id="story-tour-map-context" className="story-tour-sr-only">{tour.mapAlt} {tour.mapInterpretationNote}</p>
+      <section className="story-tour-map-section" aria-label={`${tour.title} story map`} aria-describedby="story-tour-map-context">
+        <div className="story-tour-map-frame">
           <div className="story-tour-map-art">
             <img className="story-tour-map-image" src={mapImage} alt={tour.mapAlt} />
             <div className="story-tour-markers" aria-label="Stories in chronological order">
@@ -129,9 +116,9 @@ export function StoryTourPage() {
             })}
             </div>
           </div>
-          <span className="story-tour-map-caption">Wrath-era Azeroth · Outland inset</span>
         </div>
         {touchStory && <article className="story-tour-touch-card" aria-live="polite">
+          <button type="button" className="story-tour-touch-card-close" aria-label="Close story preview" onClick={() => setTouchStoryId(undefined)}>×</button>
           <div>
             <p className="eyebrow">{touchStory.entry.periodLabel} · {touchStory.storyline.storyGuideId ? 'Playable story' : 'Research preview'}</p>
             <h3>{touchStory.storyline.title}</h3>
@@ -142,15 +129,7 @@ export function StoryTourPage() {
             ? <button type="button" className="tour-primary" onClick={() => startStory(touchStory.storyline.id)}>Play story</button>
             : <Link to={'/storylines/' + touchStory.storyline.slug + '?fromTour=' + tour.slug}>Read story preview</Link>}
         </article>}
-        <p className="story-tour-touch-help">On a touch screen, tap a story marker to open its details, then choose Play story or Read story preview.</p>
       </section>
-
-      <details className="story-tour-order-note">
-        <summary>About the route and review status</summary>
-        <p>{tour.mapInterpretationNote}</p>
-        <p>{tour.chronologyNote}</p>
-        <p>{tour.reviewNote}</p>
-      </details>
     </main>
   );
 }

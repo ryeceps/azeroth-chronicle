@@ -12,6 +12,7 @@ const FUNCTION_INDEX = 4;
 const DEFAULT_VOICE = 'bm_lewis';
 const DEFAULT_SPEED = 0.9;
 const POST_TEMPO = 1;
+const MAX_TTS_CHUNK_CHARACTERS = 220;
 const OUTPUT_ROOT = resolve('public/audio/guided');
 const args = new Map(process.argv.slice(2).map((arg) => {
   const [key, value = 'true'] = arg.replace(/^--/, '').split('=', 2);
@@ -49,19 +50,62 @@ function wavDurationMs(buffer) {
   return Math.round((dataSize / byteRate) * 1000);
 }
 
-function runFfmpeg(inputPath, outputPath) {
+function splitNarration(narration) {
+  const sentences = narration.match(/[^.!?]+(?:[.!?]+|$)/g) ?? [narration];
+  const chunks = [];
+  let current = '';
+
+  for (const sentence of sentences) {
+    const trimmed = sentence.trim();
+    const candidate = current ? `${current} ${trimmed}` : trimmed;
+    if (candidate.length <= MAX_TTS_CHUNK_CHARACTERS) {
+      current = candidate;
+      continue;
+    }
+    if (current) chunks.push(current);
+    current = '';
+
+    if (trimmed.length <= MAX_TTS_CHUNK_CHARACTERS) {
+      current = trimmed;
+      continue;
+    }
+
+    for (const word of trimmed.split(/\s+/)) {
+      const next = current ? `${current} ${word}` : word;
+      if (next.length > MAX_TTS_CHUNK_CHARACTERS && current) {
+        chunks.push(current);
+        current = word;
+      } else {
+        current = next;
+      }
+    }
+  }
+
+  if (current) chunks.push(current);
+  return chunks;
+}
+
+function runFfmpeg(inputPaths, outputPath) {
   return new Promise((resolvePromise, reject) => {
-    const child = spawn(ffmpegPath, [
-      '-hide_banner', '-loglevel', 'error', '-y',
-      '-i', inputPath,
-      '-map_metadata', '-1',
-      '-ac', '1',
-      '-ar', '24000',
-      '-filter:a', 'loudnorm=I=-16:TP=-1.5:LRA=11',
-      '-codec:a', 'libmp3lame',
-      '-b:a', '96k',
-      outputPath,
-    ], { stdio: ['ignore', 'inherit', 'inherit'] });
+    const args = ['-hide_banner', '-loglevel', 'error', '-y'];
+    for (const inputPath of inputPaths) args.push('-i', inputPath);
+
+    if (inputPaths.length > 1) {
+      const normalizedInputs = inputPaths.map((_, index) =>
+        `[${index}:a]aresample=24000,aformat=channel_layouts=mono[a${index}]`,
+      ).join(';');
+      const concatInputs = inputPaths.map((_, index) => `[a${index}]`).join('');
+      args.push(
+        '-filter_complex',
+        `${normalizedInputs};${concatInputs}concat=n=${inputPaths.length}:v=0:a=1[joined];[joined]loudnorm=I=-16:TP=-1.5:LRA=11[normalized]`,
+        '-map', '[normalized]',
+      );
+    } else {
+      args.push('-map', '0:a', '-filter:a', 'loudnorm=I=-16:TP=-1.5:LRA=11');
+    }
+
+    args.push('-map_metadata', '-1', '-ac', '1', '-ar', '24000', '-codec:a', 'libmp3lame', '-b:a', '96k', outputPath);
+    const child = spawn(ffmpegPath, args, { stdio: ['ignore', 'inherit', 'inherit'] });
     child.once('error', reject);
     child.once('exit', (code) => code === 0
       ? resolvePromise()
@@ -115,22 +159,29 @@ const tracks = [];
 for (const [index, { story, node }] of work.entries()) {
   const relativePath = `audio/guided/${story.value.guide.id}/${node.id}.mp3`;
   const outputPath = resolve('public', relativePath);
-  const tempPath = `${outputPath}.wav`;
+  const tempPaths = [];
   let durationMs = node.voiceover?.durationMs;
 
   try {
     if (force || !(await stat(outputPath).catch(() => undefined))) {
       process.stdout.write(`[${index + 1}/${work.length}] Generating ${node.id}...\n`);
-      const result = await client.predict(FUNCTION_INDEX, [node.narration, voice, speed, useGpu]);
-      const audio = result.data?.[0];
-      if (!audio?.url) throw new Error(`No audio URL returned for ${node.id}`);
-      const response = await globalThis.fetch(audio.url);
-      if (!response.ok) throw new Error(`Audio download failed (${response.status}) for ${node.id}`);
-      const wav = Buffer.from(await response.arrayBuffer());
-      durationMs = Math.round(wavDurationMs(wav) / POST_TEMPO);
       await mkdir(dirname(outputPath), { recursive: true });
-      await writeFile(tempPath, wav);
-      await runFfmpeg(tempPath, outputPath);
+      const chunks = splitNarration(node.narration);
+      let sourceDurationMs = 0;
+      for (const [chunkIndex, chunk] of chunks.entries()) {
+        const result = await client.predict(FUNCTION_INDEX, [chunk, voice, speed, useGpu]);
+        const audio = result.data?.[0];
+        if (!audio?.url) throw new Error(`No audio URL returned for ${node.id} chunk ${chunkIndex + 1}`);
+        const response = await globalThis.fetch(audio.url);
+        if (!response.ok) throw new Error(`Audio download failed (${response.status}) for ${node.id} chunk ${chunkIndex + 1}`);
+        const wav = Buffer.from(await response.arrayBuffer());
+        sourceDurationMs += wavDurationMs(wav);
+        const tempPath = `${outputPath}.chunk-${chunkIndex + 1}.wav`;
+        tempPaths.push(tempPath);
+        await writeFile(tempPath, wav);
+      }
+      durationMs = Math.round(sourceDurationMs / POST_TEMPO);
+      await runFfmpeg(tempPaths, outputPath);
     } else {
       process.stdout.write(`[${index + 1}/${work.length}] Reusing ${node.id}.\n`);
     }
@@ -153,7 +204,7 @@ for (const [index, { story, node }] of work.entries()) {
     });
     await writeStoryVoiceover(story.path, node.id, node.voiceover);
   } finally {
-    await rm(tempPath, { force: true });
+    await Promise.all(tempPaths.map((tempPath) => rm(tempPath, { force: true })));
   }
 }
 
