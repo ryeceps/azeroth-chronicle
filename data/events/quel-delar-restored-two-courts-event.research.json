@@ -1,0 +1,27 @@
+{
+  "id": "quel-delar-restored-two-courts-event",
+  "kind": "event",
+  "name": "Two courts, one inheritance",
+  "slug": "quel-delar-restored-two-courts-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "quel-delar-restored-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+  },
+  "summary": "At Quel’Delar’s Rest, an Alliance seeker answers Caladis Brightspear; a Horde seeker answers Myralion Sunblaze. Their plans pass through separate faction halls, and the player follows one allegiance, not both. In the city’s violet heights, old kinship between high and blood elves cannot settle who may claim the blade. The story keeps both roads visible as alternatives, without giving either branch a universal adventurer.",
+  "locationIds": [
+    "quel-delars-rest"
+  ],
+  "participantEntityIds": [
+    "silver-covenant",
+    "sunreavers"
+  ],
+  "sourceIds": [
+    "quel-delar-wotlk-quest-chain-transcript"
+  ],
+  "claimIds": [
+    "quel-delar-restored-two-courts-claim"
+  ],
+  "contentStatus": "research"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "quel-delar-restored-thalorien-test-event",
+  "kind": "event",
+  "name": "A later trial at Thalorien’s rest",
+  "slug": "quel-delar-restored-thalorien-test-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "quel-delar-restored-theater",
+  "date": {
+    "precision": "relative",
+    "label": "A later Wrath quest test at the remains of a Third War defender"
+  },
+  "summary": "At Thalorien’s resting place, the Wrath quest sets a new seeker against a trial and a memory of the fallen knight. This encounter does not undo his death or make him a living participant in the restoration. His blessing links the blade’s old bearer to its present burden. The story holds both moments apart: Thalorien fell at the Sunwell in the Third War; a later test asks whether the seeker is worthy to carry his memory onward.",
+  "locationIds": [
+    "sunwell-ancient"
+  ],
+  "participantEntityIds": [
+    "thalorien-dawnseeker",
+    "quel-delar"
+  ],
+  "sourceIds": [
+    "quel-delar-thalorien-dawnseeker-quest-transcript"
+  ],
+  "claimIds": [
+    "quel-delar-restored-thalorien-test-claim"
+  ],
+  "contentStatus": "research"
+}

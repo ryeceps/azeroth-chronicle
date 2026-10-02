@@ -1,40 +1,52 @@
 {
   "id": "quel-delar-restored",
-  "title": "Quel'Delar Restored",
+  "slug": "quel-delar-restored",
+  "title": "Quel’Delar: The Broken Blade Restored",
+  "summary": "A battered hilt leads into the sister blade’s contested history, its reforging in Icecrown, purification at the Sunwell, and distinct faction and class endings.",
+  "opening": "The Wrath questline begins with a blade already broken. The seeker’s identity, faction, and eventual reward branch vary; the story follows that shared search without inventing a canonical player.",
   "primaryEraId": "age-of-adventurers",
   "eraIds": [
     "age-of-adventurers"
   ],
-  "summary": "A lost blade's hilt leads through identification, reforging, purification, and a contested return at the Sunwell.",
-  "opening": "A broken remnant can carry a people's memory. The Quel'Delar questline asks who may restore that memory and who may claim the blade afterward.",
-  "sourceIds": [],
-  "reviewNote": "Capture original Wrath quest text and faction-specific endings before treating the outline as a settled account.",
+  "storyGuideId": "quel-delar-restored-guide",
+  "sourceIds": [
+    "quel-delar-wotlk-quest-chain-transcript",
+    "quel-delar-sister-blade-article-mirror",
+    "blizzard-wrath-icecrown-guide",
+    "quel-delar-battered-hilt-quest-locator",
+    "quel-delar-what-dragons-know-quest-locator",
+    "quel-delar-halls-of-reflection-quest-transcript",
+    "quel-delar-journey-and-purification-transcript",
+    "quel-delar-thalorien-dawnseeker-quest-transcript",
+    "quel-delar-faction-and-class-endings-transcript",
+    "blizzard-quel-delar-achievement-overview"
+  ],
   "chapters": [
     {
-      "id": "the-hilt",
+      "id": "the-battered-hilt",
       "eraId": "age-of-adventurers",
-      "title": "The damaged hilt",
-      "body": "Identify where the quest begins and what the hilt reveals."
+      "title": "The battered hilt",
+      "body": "A randomized quest item opens one faction-specific road to Quel’Delar’s Rest and the dragon record."
     },
     {
-      "id": "the-name",
+      "id": "a-blade-remembered",
       "eraId": "age-of-adventurers",
       "title": "A blade remembered",
-      "body": "Trace how Quel'Delar's identity and prior history are established."
+      "body": "Dragon counsel and a returned record lead backward to Anasterian, Thalorien and Lana’thel’s destruction of the blade."
     },
     {
-      "id": "the-forge",
+      "id": "make-the-blade-whole",
       "eraId": "age-of-adventurers",
-      "title": "The reforging",
-      "body": "Follow the steps that restore the physical blade."
+      "title": "Make the blade whole",
+      "body": "The chosen faction promises restoration; saronite reforging and soul-forge tempering lead to the Halls of Reflection."
     },
     {
-      "id": "the-sunwell",
+      "id": "light-and-inheritance",
       "eraId": "age-of-adventurers",
-      "title": "Purification and return",
-      "body": "Review the Sunwell ritual and alternate final handoffs."
+      "title": "Light and inheritance",
+      "body": "The story distinguishes Thalorien’s old death from a later trial, purifies Quel’Delar and resolves into mutually exclusive rewards."
     }
   ],
-  "slug": "quel-delar-restored",
+  "reviewNote": "Research story with secondary quest transcripts and a secondary mirror of an archived Blizzard article. Original Wrath 3.3.5a quest text, relative flashback dates, and faction variants need client comparison and editor review. Randomized loot is a gameplay trigger; Alliance and Horde lines are alternatives; Thalorien’s historical death is distinct from his later quest test; no named adventurer is canonical. Generated art is interpretive; in-client area/model resemblance review remains open.",
   "contentStatus": "research"
 }

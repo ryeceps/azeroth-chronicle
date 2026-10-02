@@ -1,0 +1,27 @@
+{
+  "id": "quel-delar-restored-halduron-refusal-event",
+  "kind": "event",
+  "name": "A sacred shore must be approached",
+  "slug": "quel-delar-restored-halduron-refusal-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "quel-delar-restored-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+  },
+  "summary": "At Quel’Danas, Halduron Brightwing first refuses the seeker entry to a sacred place recently reclaimed by the blood elves. The Sunwell is no casual road’s end. Its shores carry the memory of a kingdom nearly lost, and trust must be earned before the blade can reach its light. Beyond the Dead Scar, pale stone and red-gold towers frame a question of stewardship: who may bring this dangerous inheritance to the well?",
+  "locationIds": [
+    "isle-of-quel-danas"
+  ],
+  "participantEntityIds": [
+    "halduron-brightwing",
+    "quel-delar"
+  ],
+  "sourceIds": [
+    "quel-delar-journey-and-purification-transcript"
+  ],
+  "claimIds": [
+    "quel-delar-restored-halduron-refusal-claim"
+  ],
+  "contentStatus": "research"
+}

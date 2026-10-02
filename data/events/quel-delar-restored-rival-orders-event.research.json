@@ -1,0 +1,27 @@
+{
+  "id": "quel-delar-restored-rival-orders-event",
+  "kind": "event",
+  "name": "Orders in the violet city",
+  "slug": "quel-delar-restored-rival-orders-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "quel-delar-restored-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+  },
+  "summary": "In Dalaran, Caladis Brightspear and Myralion Sunblaze each direct their own faction’s search. Their orders are parallel branches in the quest, not a single council where both factions agree. The city’s pale towers and violet enchantments stand above a contest of memory: each side would restore the old blade, and each expects its own people to guard the inheritance.",
+  "locationIds": [
+    "dalaran-wrath"
+  ],
+  "participantEntityIds": [
+    "caladis-brightspear",
+    "myralion-sunblaze"
+  ],
+  "sourceIds": [
+    "quel-delar-wotlk-quest-chain-transcript"
+  ],
+  "claimIds": [
+    "quel-delar-restored-rival-orders-claim"
+  ],
+  "contentStatus": "research"
+}

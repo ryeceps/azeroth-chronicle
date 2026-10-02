@@ -1,0 +1,31 @@
+{
+  "id": "quel-delar-restored-faction-handoffs-event",
+  "kind": "event",
+  "name": "Two returns, no single heir",
+  "slug": "quel-delar-restored-faction-handoffs-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "quel-delar-restored-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Wrath of the Lich King, patch 3.3.5 quest resolution; individual character choices vary"
+  },
+  "summary": "The restored weapon returns to Dalaran by faction-specific roads. An Alliance seeker reports through Caladis and the Silver Covenant; a Horde seeker through Myralion and the Sunreavers. In the blood-elf sword branch, Aethas publicly presents the new bearer. Other characters unable to wield the sword receive a different weapon type. These are alternative game outcomes, not one champion’s combined history, and no named adventurer is made the canonical heir.",
+  "locationIds": [
+    "dalaran-wrath"
+  ],
+  "participantEntityIds": [
+    "caladis-brightspear",
+    "myralion-sunblaze",
+    "aethas-sunreaver",
+    "silver-covenant",
+    "sunreavers",
+    "quel-delar"
+  ],
+  "sourceIds": [
+    "quel-delar-faction-and-class-endings-transcript"
+  ],
+  "claimIds": [
+    "quel-delar-restored-faction-handoffs-claim"
+  ],
+  "contentStatus": "research"
+}

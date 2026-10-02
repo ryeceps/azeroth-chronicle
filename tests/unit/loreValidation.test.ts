@@ -548,7 +548,7 @@ describe('lore dataset', () => {
     expect(era.previousEraId).toBe('rise-of-the-horde');
     expect(era.nextEraId).toBe('age-of-adventurers');
     expect(featuredEntities).toHaveLength(25);
-    expect(events).toHaveLength(15);
+    expect(events).toHaveLength(17);
     expect(battles).toHaveLength(2);
     expect(spatialStates).toHaveLength(25);
     expect(guide.nodeIds).toHaveLength(15);
@@ -634,7 +634,7 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(140);
+    expect(events).toHaveLength(157);
     expect(events.filter((event) => event.id.startsWith('onyxia-'))).toHaveLength(21);
     expect(events.filter((event) => event.id.startsWith('dungeon-set-two-'))).toHaveLength(22);
     expect(events.filter((event) => event.id.startsWith('fallen-hero-and-rakhlikh-'))).toHaveLength(15);
@@ -881,6 +881,54 @@ describe('lore dataset', () => {
     expect(medivhAsset.generationPrompt).toMatch(/Atiesh/);
     expect(medivhAsset.visualReview).toMatch(/carved raven-head finial/);
     expect(storyTemplate).toMatch(/Signature equipment.*Medivh should visibly wield Atiesh/);
+  });
+
+  it('keeps Quel’Delar as a complete, source-linked Classic-to-Wrath story outside EraTour', () => {
+    const data = loadDataset();
+    const story = data.storylines.find((item) => item.id === 'quel-delar-restored')!;
+    const guide = data.storyGuides.find((item) => item.id === story.storyGuideId)!;
+    const nodes = guide.nodeIds.map((id) => data.storyNodes.find((node) => node.id === id)!);
+    const tour = data.storyTours.find((item) => item.slug === 'classic-to-wrath')!;
+    const entry = tour.entries.find((item) => item.storylineId === story.id)!;
+    const sceneIndex = JSON.parse(readFileSync(resolve('docs/research/quel-delar-restored-scene-index.json'), 'utf8')) as {
+      nodes: { id: string; environmentAsset: string; actorIds: string[] }[];
+    };
+    const visualLedger = JSON.parse(readFileSync(resolve('docs/research/quel-delar-restored-visual-assets.json'), 'utf8')) as {
+      assets: { assetPath: string; outputSha256: string; nodeIds: string[] }[];
+    };
+
+    expect(story.contentStatus).toBe('research');
+    expect(guide.contentStatus).toBe('research');
+    expect(guide.nodeIds).toHaveLength(19);
+    expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
+      && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
+    expect(entry.order).toBe(10);
+    expect(entry.regionIds).toEqual(['northrend', 'eastern-kingdoms']);
+    expect(tour.entries).toHaveLength(10);
+    expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
+    expect(nodes.find((node) => node.id.endsWith('story-thalorien-last-stand'))?.eventIds?.map(id =>
+      data.events.find((event) => event.id === id)?.eraId)).toEqual(['third-war-frozen-throne']);
+    expect(nodes.find((node) => node.id.endsWith('story-thalorien-test'))?.eventIds?.map(id =>
+      data.events.find((event) => event.id === id)?.eraId)).toEqual(['age-of-adventurers']);
+    expect(nodes[0]?.narration).toMatch(/randomized game loot/);
+    expect(nodes.at(-1)?.narration).toMatch(/no named adventurer is made the canonical heir/);
+
+    for (const [index, node] of nodes.entries()) {
+      const nodeLedger = sceneIndex.nodes[index]!;
+      expect(nodeLedger.id).toBe(node.id);
+      expect(nodeLedger.actorIds).toEqual(node.entityIds);
+      expect(existsSync(resolve('public', nodeLedger.environmentAsset))).toBe(true);
+      const event = data.events.find((item) => item.id === node.eventIds?.[0])!;
+      const claim = data.claims.find((item) => item.id === event.claimIds?.[0])!;
+      expect(event.contentStatus).toBe('research');
+      expect(claim.citationIds.every(id => data.citations.some(citation => citation.id === id))).toBe(true);
+      expect(claim.citationIds.every(id => data.sources.some(source => source.id === data.citations.find(citation => citation.id === id)?.sourceId))).toBe(true);
+    }
+    for (const asset of visualLedger.assets) {
+      expect(existsSync(resolve('public', asset.assetPath))).toBe(true);
+      expect(asset.outputSha256).toMatch(/^[a-f0-9]{64}$/);
+      expect(asset.nodeIds.length).toBeGreaterThan(0);
+    }
   });
 
   it('keeps Onyxia in the separate Classic-to-Wrath story atlas', () => {

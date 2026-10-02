@@ -1,0 +1,446 @@
+{
+  "storyId": "quel-delar-restored",
+  "guideId": "quel-delar-restored-guide",
+  "nodes": [
+    {
+      "order": 1,
+      "id": "quel-delar-restored-story-battered-hilt-at-rest",
+      "title": "A hilt without a finder",
+      "eventId": "quel-delar-restored-battered-hilt-at-rest-event",
+      "claimId": "quel-delar-restored-battered-hilt-at-rest-claim",
+      "citationId": "quel-delar-restored-battered-hilt-at-rest-citation",
+      "mapStateId": "quel-delar-restored-quel-delars-rest-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/quel-delars-rest.research.webp",
+      "actorIds": [
+        "battered-hilt"
+      ],
+      "locationIds": [
+        "frozen-halls",
+        "quel-delars-rest"
+      ],
+      "sourceIds": [
+        "quel-delar-battered-hilt-quest-locator"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Random loot; no unique finder."
+    },
+    {
+      "order": 2,
+      "id": "quel-delar-restored-story-two-courts",
+      "title": "Two courts, one inheritance",
+      "eventId": "quel-delar-restored-two-courts-event",
+      "claimId": "quel-delar-restored-two-courts-claim",
+      "citationId": "quel-delar-restored-two-courts-citation",
+      "mapStateId": "quel-delar-restored-quel-delars-rest-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/quel-delars-rest.research.webp",
+      "actorIds": [
+        "silver-covenant",
+        "sunreavers"
+      ],
+      "locationIds": [
+        "quel-delars-rest"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Faction outcomes are mutually exclusive, shown as comparative alternatives."
+    },
+    {
+      "order": 3,
+      "id": "quel-delar-restored-story-dragon-counsel",
+      "title": "The dragons weigh the risk",
+      "eventId": "quel-delar-restored-dragon-counsel-event",
+      "claimId": "quel-delar-restored-dragon-counsel-claim",
+      "citationId": "quel-delar-restored-dragon-counsel-citation",
+      "mapStateId": "quel-delar-restored-wyrmrest-temple-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/wyrmrest-temple.research.webp",
+      "actorIds": [
+        "krasus",
+        "kalecgos",
+        "alexstrasza",
+        "battered-hilt"
+      ],
+      "locationIds": [
+        "wyrmrest-temple"
+      ],
+      "sourceIds": [
+        "quel-delar-what-dragons-know-quest-locator"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 4,
+      "id": "quel-delar-restored-story-rival-orders",
+      "title": "Orders in the violet city",
+      "eventId": "quel-delar-restored-rival-orders-event",
+      "claimId": "quel-delar-restored-rival-orders-claim",
+      "citationId": "quel-delar-restored-rival-orders-citation",
+      "mapStateId": "quel-delar-restored-dalaran-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/dalaran.research.webp",
+      "actorIds": [
+        "caladis-brightspear",
+        "myralion-sunblaze"
+      ],
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Faction outcomes are mutually exclusive, shown as comparative alternatives."
+    },
+    {
+      "order": 5,
+      "id": "quel-delar-restored-story-borrowed-disguise",
+      "title": "A borrowed guise for old records",
+      "eventId": "quel-delar-restored-borrowed-disguise-event",
+      "claimId": "quel-delar-restored-borrowed-disguise-claim",
+      "citationId": "quel-delar-restored-borrowed-disguise-citation",
+      "mapStateId": "quel-delar-restored-dalaran-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/dalaran.research.webp",
+      "actorIds": [
+        "ancient-dragonforged-blades-record",
+        "silver-covenant",
+        "sunreavers"
+      ],
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 6,
+      "id": "quel-delar-restored-story-blade-identified",
+      "title": "The name in the record",
+      "eventId": "quel-delar-restored-blade-identified-event",
+      "claimId": "quel-delar-restored-blade-identified-claim",
+      "citationId": "quel-delar-restored-blade-identified-citation",
+      "mapStateId": "quel-delar-restored-dalaran-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/dalaran.research.webp",
+      "actorIds": [
+        "ancient-dragonforged-blades-record",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "sourceIds": [
+        "quel-delar-sister-blade-article-mirror"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; remembered history predates the quest",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 7,
+      "id": "quel-delar-restored-story-blade-gift",
+      "title": "A gift carried through generations",
+      "eventId": "quel-delar-restored-blade-gift-event",
+      "claimId": "quel-delar-restored-blade-gift-claim",
+      "citationId": "quel-delar-restored-blade-gift-citation",
+      "mapStateId": "quel-delar-restored-sunwell-chamber-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/sunwell-chamber.research.webp",
+      "actorIds": [
+        "alexstrasza",
+        "anasterian-sunstrider",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "quelthalas-region"
+      ],
+      "sourceIds": [
+        "quel-delar-sister-blade-article-mirror"
+      ],
+      "historicalDateLabel": "Before the Third War; exact date and ceremony location are not established here",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 8,
+      "id": "quel-delar-restored-story-thalorien-last-stand",
+      "title": "Thalorien at the Sunwell gate",
+      "eventId": "quel-delar-restored-thalorien-last-stand-event",
+      "claimId": "quel-delar-restored-thalorien-last-stand-claim",
+      "citationId": "quel-delar-restored-thalorien-last-stand-citation",
+      "mapStateId": "quel-delar-restored-sunwell-exterior-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/quel-danas-exterior.research.webp",
+      "actorIds": [
+        "thalorien-dawnseeker",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "sourceIds": [
+        "quel-delar-thalorien-dawnseeker-quest-transcript"
+      ],
+      "historicalDateLabel": "During the Third War, as the Scourge reached Quel’Thalas; exact date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 9,
+      "id": "quel-delar-restored-story-lanathel-breaks-blade",
+      "title": "Lana’thel breaks the blade",
+      "eventId": "quel-delar-restored-lanathel-breaks-blade-event",
+      "claimId": "quel-delar-restored-lanathel-breaks-blade-claim",
+      "citationId": "quel-delar-restored-lanathel-breaks-blade-citation",
+      "mapStateId": "quel-delar-restored-quel-delars-rest-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/quel-delars-rest.research.webp",
+      "actorIds": [
+        "blood-queen-lanathel",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "quel-delars-rest"
+      ],
+      "sourceIds": [
+        "quel-delar-sister-blade-article-mirror"
+      ],
+      "historicalDateLabel": "Before the Wrath restoration quest; exact date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 10,
+      "id": "quel-delar-restored-story-vow-to-restore",
+      "title": "A vow to make the blade whole",
+      "eventId": "quel-delar-restored-vow-to-restore-event",
+      "claimId": "quel-delar-restored-vow-to-restore-claim",
+      "citationId": "quel-delar-restored-vow-to-restore-citation",
+      "mapStateId": "quel-delar-restored-quel-delars-rest-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/quel-delars-rest.research.webp",
+      "actorIds": [
+        "caladis-brightspear",
+        "myralion-sunblaze",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "quel-delars-rest"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 11,
+      "id": "quel-delar-restored-story-pit-reforging",
+      "title": "Reforged in the Pit of Saron",
+      "eventId": "quel-delar-restored-pit-reforging-event",
+      "claimId": "quel-delar-restored-pit-reforging-claim",
+      "citationId": "quel-delar-restored-pit-reforging-citation",
+      "mapStateId": "quel-delar-restored-pit-of-saron-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/pit-of-saron.research.webp",
+      "actorIds": [
+        "quel-delar"
+      ],
+      "locationIds": [
+        "pit-of-saron"
+      ],
+      "sourceIds": [
+        "blizzard-wrath-icecrown-guide"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 12,
+      "id": "quel-delar-restored-story-forge-tempering",
+      "title": "Tempered in the Forge of Souls",
+      "eventId": "quel-delar-restored-forge-tempering-event",
+      "claimId": "quel-delar-restored-forge-tempering-claim",
+      "citationId": "quel-delar-restored-forge-tempering-citation",
+      "mapStateId": "quel-delar-restored-forge-of-souls-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/forge-of-souls.research.webp",
+      "actorIds": [
+        "quel-delar"
+      ],
+      "locationIds": [
+        "forge-of-souls"
+      ],
+      "sourceIds": [
+        "blizzard-wrath-icecrown-guide"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 13,
+      "id": "quel-delar-restored-story-blade-compulsion",
+      "title": "The sword draws toward the Halls",
+      "eventId": "quel-delar-restored-blade-compulsion-event",
+      "claimId": "quel-delar-restored-blade-compulsion-claim",
+      "citationId": "quel-delar-restored-blade-compulsion-citation",
+      "mapStateId": "quel-delar-restored-halls-of-reflection-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/halls-of-reflection.research.webp",
+      "actorIds": [
+        "quel-delar"
+      ],
+      "locationIds": [
+        "halls-of-reflection"
+      ],
+      "sourceIds": [
+        "quel-delar-halls-of-reflection-quest-transcript"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 14,
+      "id": "quel-delar-restored-story-will-subdued",
+      "title": "The blade’s will is subdued",
+      "eventId": "quel-delar-restored-will-subdued-event",
+      "claimId": "quel-delar-restored-will-subdued-claim",
+      "citationId": "quel-delar-restored-will-subdued-citation",
+      "mapStateId": "quel-delar-restored-halls-of-reflection-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/halls-of-reflection.research.webp",
+      "actorIds": [
+        "quel-delar"
+      ],
+      "locationIds": [
+        "halls-of-reflection"
+      ],
+      "sourceIds": [
+        "quel-delar-halls-of-reflection-quest-transcript"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 15,
+      "id": "quel-delar-restored-story-uther-warning",
+      "title": "Uther names the taint",
+      "eventId": "quel-delar-restored-uther-warning-event",
+      "claimId": "quel-delar-restored-uther-warning-claim",
+      "citationId": "quel-delar-restored-uther-warning-citation",
+      "mapStateId": "quel-delar-restored-halls-of-reflection-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/halls-of-reflection.research.webp",
+      "actorIds": [
+        "uther-lightbringer",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "halls-of-reflection"
+      ],
+      "sourceIds": [
+        "quel-delar-halls-of-reflection-quest-transcript"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 16,
+      "id": "quel-delar-restored-story-halduron-refusal",
+      "title": "A sacred shore must be approached",
+      "eventId": "quel-delar-restored-halduron-refusal-event",
+      "claimId": "quel-delar-restored-halduron-refusal-claim",
+      "citationId": "quel-delar-restored-halduron-refusal-citation",
+      "mapStateId": "quel-delar-restored-sunwell-exterior-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/quel-danas-exterior.research.webp",
+      "actorIds": [
+        "halduron-brightwing",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "isle-of-quel-danas"
+      ],
+      "sourceIds": [
+        "quel-delar-journey-and-purification-transcript"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 17,
+      "id": "quel-delar-restored-story-thalorien-test",
+      "title": "A later trial at Thalorien’s rest",
+      "eventId": "quel-delar-restored-thalorien-test-event",
+      "claimId": "quel-delar-restored-thalorien-test-claim",
+      "citationId": "quel-delar-restored-thalorien-test-citation",
+      "mapStateId": "quel-delar-restored-sunwell-exterior-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/quel-danas-exterior.research.webp",
+      "actorIds": [
+        "thalorien-dawnseeker",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "sourceIds": [
+        "quel-delar-thalorien-dawnseeker-quest-transcript"
+      ],
+      "historicalDateLabel": "A later Wrath quest test at the remains of a Third War defender",
+      "branchOrUncertainty": "Later quest test is distinct from the Third War death."
+    },
+    {
+      "order": 18,
+      "id": "quel-delar-restored-story-sunwell-purification",
+      "title": "Purified in the Sunwell",
+      "eventId": "quel-delar-restored-sunwell-purification-event",
+      "claimId": "quel-delar-restored-sunwell-purification-claim",
+      "citationId": "quel-delar-restored-sunwell-purification-citation",
+      "mapStateId": "quel-delar-restored-sunwell-chamber-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/sunwell-chamber.research.webp",
+      "actorIds": [
+        "quel-delar"
+      ],
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "sourceIds": [
+        "quel-delar-journey-and-purification-transcript"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown",
+      "branchOrUncertainty": "Research paraphrase; exact client verification remains open."
+    },
+    {
+      "order": 19,
+      "id": "quel-delar-restored-story-faction-handoffs",
+      "title": "Two returns, no single heir",
+      "eventId": "quel-delar-restored-faction-handoffs-event",
+      "claimId": "quel-delar-restored-faction-handoffs-claim",
+      "citationId": "quel-delar-restored-faction-handoffs-citation",
+      "mapStateId": "quel-delar-restored-dalaran-scene",
+      "environmentAsset": "images/storylines/quel-delar-restored/dalaran.research.webp",
+      "actorIds": [
+        "caladis-brightspear",
+        "myralion-sunblaze",
+        "aethas-sunreaver",
+        "silver-covenant",
+        "sunreavers",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "sourceIds": [
+        "quel-delar-faction-and-class-endings-transcript"
+      ],
+      "historicalDateLabel": "Wrath of the Lich King, patch 3.3.5 quest resolution; individual character choices vary",
+      "branchOrUncertainty": "Faction outcomes are mutually exclusive, shown as comparative alternatives."
+    }
+  ],
+  "sources": [
+    "quel-delar-wotlk-quest-chain-transcript",
+    "quel-delar-sister-blade-article-mirror",
+    "blizzard-wrath-icecrown-guide",
+    "quel-delar-battered-hilt-quest-locator",
+    "quel-delar-what-dragons-know-quest-locator",
+    "quel-delar-halls-of-reflection-quest-transcript",
+    "quel-delar-journey-and-purification-transcript",
+    "quel-delar-thalorien-dawnseeker-quest-transcript",
+    "quel-delar-faction-and-class-endings-transcript",
+    "blizzard-quel-delar-achievement-overview"
+  ],
+  "reviewGates": [
+    "Original Wrath 3.3.5a client quest and faction branch comparison.",
+    "Human in-client resemblance check for each named map area and actor representation.",
+    "Compare the archived Blizzard Sister Blade article with an accessible direct archive.",
+    "Human lore editor review before any content status promotion."
+  ]
+}

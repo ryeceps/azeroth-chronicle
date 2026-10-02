@@ -38,8 +38,9 @@ describe('separate era and story tours', () => {
       'tirion-taelan-of-love-and-family',
       'karazhan-masters-key-and-nightbane',
       'akama-and-black-temple',
+      'quel-delar-restored',
     ]);
-    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 18 + 20);
+    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 18 + 20 + 19);
     const akamaStart = stops.findIndex((stop) => stop.storylineSlug === 'akama-and-black-temple');
     expect(stops[akamaStart - 1]?.storylineSlug).toBe('karazhan-masters-key-and-nightbane');
     expect(stops.some((stop) => stop.storylineSlug === 'cipher-of-damnation-oronok' || stop.storylineSlug === 'wrathgate-and-undercity')).toBe(false);

@@ -133,6 +133,17 @@
       }
     },
     {
+      "id": "quel-delar-restored-theater",
+      "name": "Quel’Delar restoration — relational story theater",
+      "slug": "quel-delar-restored-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "scepter-story-theater",
       "name": "Scepter storyline — relational theater",
       "slug": "scepter-story-theater",
@@ -1269,6 +1280,222 @@
         "keepers-ordering-focus-research",
         "old-gods-containment-focus-research"
       ]
+    },
+    {
+      "id": "quel-delar-restored-dalaran-scene",
+      "name": "Quel’Delar story: Dalaran · Northrend",
+      "worldspaceId": "quel-delar-restored-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/quel-delar-restored/dalaran.research.webp",
+      "geometryIds": [
+        "quel-delar-restored-thalorien-dawnseeker-focus",
+        "quel-delar-restored-blood-queen-lanathel-focus",
+        "quel-delar-restored-krasus-focus",
+        "quel-delar-restored-kalecgos-focus",
+        "quel-delar-restored-alexstrasza-focus",
+        "quel-delar-restored-anasterian-sunstrider-focus",
+        "quel-delar-restored-caladis-brightspear-focus",
+        "quel-delar-restored-myralion-sunblaze-focus",
+        "quel-delar-restored-halduron-brightwing-focus",
+        "quel-delar-restored-aethas-sunreaver-focus",
+        "quel-delar-restored-uther-lightbringer-focus",
+        "quel-delar-restored-silver-covenant-focus",
+        "quel-delar-restored-sunreavers-focus",
+        "quel-delar-restored-quel-delar-focus",
+        "quel-delar-restored-battered-hilt-focus",
+        "quel-delar-restored-ancient-dragonforged-blades-record-focus"
+      ],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated setting illustration inspired by Dalaran · Northrend. Version reference: Wrath of the Lich King 3.3.5a. Preserve the violet magical skyline, pale stone towers, crystal light, suspended-city silhouette and cool lavender palette of the Northrend city. Do not substitute the ruined crater. Human client resemblance review remains open. Actors and artifacts are editorial placements, not a literal event composition, exact geographic marker, dungeon map or travel route. See docs/research/quel-delar-restored-visual-assets.json."
+    },
+    {
+      "id": "quel-delar-restored-forge-of-souls-scene",
+      "name": "Quel’Delar story: Forge of Souls · Icecrown",
+      "worldspaceId": "quel-delar-restored-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/quel-delar-restored/forge-of-souls.research.webp",
+      "geometryIds": [
+        "quel-delar-restored-thalorien-dawnseeker-focus",
+        "quel-delar-restored-blood-queen-lanathel-focus",
+        "quel-delar-restored-krasus-focus",
+        "quel-delar-restored-kalecgos-focus",
+        "quel-delar-restored-alexstrasza-focus",
+        "quel-delar-restored-anasterian-sunstrider-focus",
+        "quel-delar-restored-caladis-brightspear-focus",
+        "quel-delar-restored-myralion-sunblaze-focus",
+        "quel-delar-restored-halduron-brightwing-focus",
+        "quel-delar-restored-aethas-sunreaver-focus",
+        "quel-delar-restored-uther-lightbringer-focus",
+        "quel-delar-restored-silver-covenant-focus",
+        "quel-delar-restored-sunreavers-focus",
+        "quel-delar-restored-quel-delar-focus",
+        "quel-delar-restored-battered-hilt-focus",
+        "quel-delar-restored-ancient-dragonforged-blades-record-focus"
+      ],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated setting illustration inspired by Forge of Souls · Icecrown. Version reference: Wrath of the Lich King 3.3.5a. Preserve a Scourge-built interior, monumental dark stone, cold blue soul energy and forge machinery. The Crucible is represented interpretively; no exact floor plan is asserted. Human client resemblance review remains open. Actors and artifacts are editorial placements, not a literal event composition, exact geographic marker, dungeon map or travel route. See docs/research/quel-delar-restored-visual-assets.json."
+    },
+    {
+      "id": "quel-delar-restored-halls-of-reflection-scene",
+      "name": "Quel’Delar story: Halls of Reflection · Icecrown",
+      "worldspaceId": "quel-delar-restored-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/quel-delar-restored/halls-of-reflection.research.webp",
+      "geometryIds": [
+        "quel-delar-restored-thalorien-dawnseeker-focus",
+        "quel-delar-restored-blood-queen-lanathel-focus",
+        "quel-delar-restored-krasus-focus",
+        "quel-delar-restored-kalecgos-focus",
+        "quel-delar-restored-alexstrasza-focus",
+        "quel-delar-restored-anasterian-sunstrider-focus",
+        "quel-delar-restored-caladis-brightspear-focus",
+        "quel-delar-restored-myralion-sunblaze-focus",
+        "quel-delar-restored-halduron-brightwing-focus",
+        "quel-delar-restored-aethas-sunreaver-focus",
+        "quel-delar-restored-uther-lightbringer-focus",
+        "quel-delar-restored-silver-covenant-focus",
+        "quel-delar-restored-sunreavers-focus",
+        "quel-delar-restored-quel-delar-focus",
+        "quel-delar-restored-battered-hilt-focus",
+        "quel-delar-restored-ancient-dragonforged-blades-record-focus"
+      ],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated setting illustration inspired by Halls of Reflection · Icecrown. Version reference: Wrath of the Lich King 3.3.5a. Preserve the frozen gothic hall, dark blue-black arches, icy spires, broad reflective floor and centered blade chamber. Do not imply a measured dungeon layout. Human client resemblance review remains open. Actors and artifacts are editorial placements, not a literal event composition, exact geographic marker, dungeon map or travel route. See docs/research/quel-delar-restored-visual-assets.json."
+    },
+    {
+      "id": "quel-delar-restored-pit-of-saron-scene",
+      "name": "Quel’Delar story: Pit of Saron · Icecrown",
+      "worldspaceId": "quel-delar-restored-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/quel-delar-restored/pit-of-saron.research.webp",
+      "geometryIds": [
+        "quel-delar-restored-thalorien-dawnseeker-focus",
+        "quel-delar-restored-blood-queen-lanathel-focus",
+        "quel-delar-restored-krasus-focus",
+        "quel-delar-restored-kalecgos-focus",
+        "quel-delar-restored-alexstrasza-focus",
+        "quel-delar-restored-anasterian-sunstrider-focus",
+        "quel-delar-restored-caladis-brightspear-focus",
+        "quel-delar-restored-myralion-sunblaze-focus",
+        "quel-delar-restored-halduron-brightwing-focus",
+        "quel-delar-restored-aethas-sunreaver-focus",
+        "quel-delar-restored-uther-lightbringer-focus",
+        "quel-delar-restored-silver-covenant-focus",
+        "quel-delar-restored-sunreavers-focus",
+        "quel-delar-restored-quel-delar-focus",
+        "quel-delar-restored-battered-hilt-focus",
+        "quel-delar-restored-ancient-dragonforged-blades-record-focus"
+      ],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated setting illustration inspired by Pit of Saron · Icecrown. Version reference: Wrath of the Lich King 3.3.5a. Preserve the frozen Scourge quarry, industrial chains and platforms, dark saronite ore, steep ice walls, and blue-black Icecrown lighting. Human client resemblance review remains open. Actors and artifacts are editorial placements, not a literal event composition, exact geographic marker, dungeon map or travel route. See docs/research/quel-delar-restored-visual-assets.json."
+    },
+    {
+      "id": "quel-delar-restored-quel-delars-rest-scene",
+      "name": "Quel’Delar story: Quel’Delar’s Rest · Icecrown",
+      "worldspaceId": "quel-delar-restored-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/quel-delar-restored/quel-delars-rest.research.webp",
+      "geometryIds": [
+        "quel-delar-restored-thalorien-dawnseeker-focus",
+        "quel-delar-restored-blood-queen-lanathel-focus",
+        "quel-delar-restored-krasus-focus",
+        "quel-delar-restored-kalecgos-focus",
+        "quel-delar-restored-alexstrasza-focus",
+        "quel-delar-restored-anasterian-sunstrider-focus",
+        "quel-delar-restored-caladis-brightspear-focus",
+        "quel-delar-restored-myralion-sunblaze-focus",
+        "quel-delar-restored-halduron-brightwing-focus",
+        "quel-delar-restored-aethas-sunreaver-focus",
+        "quel-delar-restored-uther-lightbringer-focus",
+        "quel-delar-restored-silver-covenant-focus",
+        "quel-delar-restored-sunreavers-focus",
+        "quel-delar-restored-quel-delar-focus",
+        "quel-delar-restored-battered-hilt-focus",
+        "quel-delar-restored-ancient-dragonforged-blades-record-focus"
+      ],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated setting illustration inspired by Quel’Delar’s Rest · Icecrown. Version reference: Wrath of the Lich King 3.3.5a. Preserve Icecrown snow, cold blue-gray sky, dark broken stone, a low ruined resting place, and the wind-scoured plateau north of Silent Vigil. Human client resemblance review remains open. Actors and artifacts are editorial placements, not a literal event composition, exact geographic marker, dungeon map or travel route. See docs/research/quel-delar-restored-visual-assets.json."
+    },
+    {
+      "id": "quel-delar-restored-sunwell-chamber-scene",
+      "name": "Quel’Delar story: The Sunwell · interior",
+      "worldspaceId": "quel-delar-restored-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/quel-delar-restored/sunwell-chamber.research.webp",
+      "geometryIds": [
+        "quel-delar-restored-thalorien-dawnseeker-focus",
+        "quel-delar-restored-blood-queen-lanathel-focus",
+        "quel-delar-restored-krasus-focus",
+        "quel-delar-restored-kalecgos-focus",
+        "quel-delar-restored-alexstrasza-focus",
+        "quel-delar-restored-anasterian-sunstrider-focus",
+        "quel-delar-restored-caladis-brightspear-focus",
+        "quel-delar-restored-myralion-sunblaze-focus",
+        "quel-delar-restored-halduron-brightwing-focus",
+        "quel-delar-restored-aethas-sunreaver-focus",
+        "quel-delar-restored-uther-lightbringer-focus",
+        "quel-delar-restored-silver-covenant-focus",
+        "quel-delar-restored-sunreavers-focus",
+        "quel-delar-restored-quel-delar-focus",
+        "quel-delar-restored-battered-hilt-focus",
+        "quel-delar-restored-ancient-dragonforged-blades-record-focus"
+      ],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated setting illustration inspired by The Sunwell · interior. Version reference: Wrath of the Lich King 3.3.5a. Preserve the sacred high elven red/gold and pale-stone palette, arcaded chamber and brilliant contained Sunwell radiance. Composition is interpretive rather than an exact raid-room plan. Human client resemblance review remains open. Actors and artifacts are editorial placements, not a literal event composition, exact geographic marker, dungeon map or travel route. See docs/research/quel-delar-restored-visual-assets.json."
+    },
+    {
+      "id": "quel-delar-restored-sunwell-exterior-scene",
+      "name": "Quel’Delar story: Quel’Danas · Sunwell plateau",
+      "worldspaceId": "quel-delar-restored-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/quel-delar-restored/quel-danas-exterior.research.webp",
+      "geometryIds": [
+        "quel-delar-restored-thalorien-dawnseeker-focus",
+        "quel-delar-restored-blood-queen-lanathel-focus",
+        "quel-delar-restored-krasus-focus",
+        "quel-delar-restored-kalecgos-focus",
+        "quel-delar-restored-alexstrasza-focus",
+        "quel-delar-restored-anasterian-sunstrider-focus",
+        "quel-delar-restored-caladis-brightspear-focus",
+        "quel-delar-restored-myralion-sunblaze-focus",
+        "quel-delar-restored-halduron-brightwing-focus",
+        "quel-delar-restored-aethas-sunreaver-focus",
+        "quel-delar-restored-uther-lightbringer-focus",
+        "quel-delar-restored-silver-covenant-focus",
+        "quel-delar-restored-sunreavers-focus",
+        "quel-delar-restored-quel-delar-focus",
+        "quel-delar-restored-battered-hilt-focus",
+        "quel-delar-restored-ancient-dragonforged-blades-record-focus"
+      ],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated setting illustration inspired by Quel’Danas · Sunwell plateau. Version reference: Wrath of the Lich King 3.3.5a. Preserve the red-and-gold high elven architecture, warm stone, reclaimed green margin beside the Dead Scar, and bright island sky. Human client resemblance review remains open. Actors and artifacts are editorial placements, not a literal event composition, exact geographic marker, dungeon map or travel route. See docs/research/quel-delar-restored-visual-assets.json."
+    },
+    {
+      "id": "quel-delar-restored-wyrmrest-temple-scene",
+      "name": "Quel’Delar story: Wyrmrest Temple · Dragonblight",
+      "worldspaceId": "quel-delar-restored-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/quel-delar-restored/wyrmrest-temple.research.webp",
+      "geometryIds": [
+        "quel-delar-restored-thalorien-dawnseeker-focus",
+        "quel-delar-restored-blood-queen-lanathel-focus",
+        "quel-delar-restored-krasus-focus",
+        "quel-delar-restored-kalecgos-focus",
+        "quel-delar-restored-alexstrasza-focus",
+        "quel-delar-restored-anasterian-sunstrider-focus",
+        "quel-delar-restored-caladis-brightspear-focus",
+        "quel-delar-restored-myralion-sunblaze-focus",
+        "quel-delar-restored-halduron-brightwing-focus",
+        "quel-delar-restored-aethas-sunreaver-focus",
+        "quel-delar-restored-uther-lightbringer-focus",
+        "quel-delar-restored-silver-covenant-focus",
+        "quel-delar-restored-sunreavers-focus",
+        "quel-delar-restored-quel-delar-focus",
+        "quel-delar-restored-battered-hilt-focus",
+        "quel-delar-restored-ancient-dragonforged-blades-record-focus"
+      ],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Original AI-generated setting illustration inspired by Wyrmrest Temple · Dragonblight. Version reference: Wrath of the Lich King 3.3.5a. Preserve the immense red-bronze dragon shrine, circular tiered structure, warm red/bronze surfaces and snowy Dragonblight approach. Human client resemblance review remains open. Actors and artifacts are editorial placements, not a literal event composition, exact geographic marker, dungeon map or travel route. See docs/research/quel-delar-restored-visual-assets.json."
     },
     {
       "id": "rise-of-the-horde-draenor-before-map-research",
@@ -5117,6 +5344,246 @@
       "labelPriority": 40
     },
     {
+      "id": "quel-delar-restored-aethas-sunreaver-theater",
+      "entityId": "aethas-sunreaver",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-aethas-sunreaver-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 219
+    },
+    {
+      "id": "quel-delar-restored-alexstrasza-theater",
+      "entityId": "alexstrasza",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-alexstrasza-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 214
+    },
+    {
+      "id": "quel-delar-restored-anasterian-sunstrider-theater",
+      "entityId": "anasterian-sunstrider",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-anasterian-sunstrider-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 215
+    },
+    {
+      "id": "quel-delar-restored-ancient-dragonforged-blades-record-theater",
+      "entityId": "ancient-dragonforged-blades-record",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-ancient-dragonforged-blades-record-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 225
+    },
+    {
+      "id": "quel-delar-restored-battered-hilt-theater",
+      "entityId": "battered-hilt",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-battered-hilt-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-battered-hilt-quest-locator"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 224
+    },
+    {
+      "id": "quel-delar-restored-blood-queen-lanathel-theater",
+      "entityId": "blood-queen-lanathel",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-blood-queen-lanathel-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 211
+    },
+    {
+      "id": "quel-delar-restored-caladis-brightspear-theater",
+      "entityId": "caladis-brightspear",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-caladis-brightspear-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 216
+    },
+    {
+      "id": "quel-delar-restored-halduron-brightwing-theater",
+      "entityId": "halduron-brightwing",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-halduron-brightwing-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 218
+    },
+    {
+      "id": "quel-delar-restored-kalecgos-theater",
+      "entityId": "kalecgos",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-kalecgos-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 213
+    },
+    {
+      "id": "quel-delar-restored-krasus-theater",
+      "entityId": "krasus",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-krasus-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 212
+    },
+    {
+      "id": "quel-delar-restored-myralion-sunblaze-theater",
+      "entityId": "myralion-sunblaze",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-myralion-sunblaze-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 217
+    },
+    {
+      "id": "quel-delar-restored-quel-delar-theater",
+      "entityId": "quel-delar",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-quel-delar-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 223
+    },
+    {
+      "id": "quel-delar-restored-silver-covenant-theater",
+      "entityId": "silver-covenant",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-silver-covenant-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 221
+    },
+    {
+      "id": "quel-delar-restored-sunreavers-theater",
+      "entityId": "sunreavers",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-sunreavers-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 222
+    },
+    {
+      "id": "quel-delar-restored-thalorien-dawnseeker-theater",
+      "entityId": "thalorien-dawnseeker",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-thalorien-dawnseeker-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 210
+    },
+    {
+      "id": "quel-delar-restored-uther-lightbringer-theater",
+      "entityId": "uther-lightbringer",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "geometryId": "quel-delar-restored-uther-lightbringer-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "editorNote": "Editorial relational placement in the standalone Quel’Delar story theater. It asserts no exact game coordinates or literal co-presence; branch comparisons are alternatives. See docs/research/quel-delar-restored-production.md.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
       "id": "quelthalas-era-five-spatial-research",
       "entityId": "quelthalas-ancient",
       "eraId": "long-vigil-new-kingdoms",
@@ -7263,6 +7730,32 @@
       "contentStatus": "research"
     },
     {
+      "id": "aethas-sunreaver",
+      "type": "character",
+      "name": "Aethas Sunreaver",
+      "slug": "aethas-sunreaver",
+      "shortDescription": "Aethas Sunreaver, represented in the Quel’Delar restoration research story.",
+      "body": "Sunreaver archmage in red and gold, shown for the blood-elf sword presentation branch; attire is interpretive. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript",
+        "quel-delar-battered-hilt-quest-locator",
+        "quel-delar-faction-and-class-endings-transcript"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/quel-delar-restored/aethas-sunreaver.research.webp",
+        "scale": 0.78
+      }
+    },
+    {
       "id": "aggramar",
       "type": "character",
       "name": "Aggramar",
@@ -7385,6 +7878,31 @@
       "mapFigure": {
         "asset": "images/storylines/akama-black-temple/alar.research.webp",
         "scale": 0.9
+      }
+    },
+    {
+      "id": "alexstrasza",
+      "type": "character",
+      "name": "Alexstrasza",
+      "slug": "alexstrasza",
+      "shortDescription": "Alexstrasza, represented in the Quel’Delar restoration research story.",
+      "body": "Alexstrasza in an elven guise, based on her role in the quest account; costume detail remains interpretive. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-sister-blade-article-mirror",
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/quel-delar-restored/alexstrasza.research.webp",
+        "scale": 0.78
       }
     },
     {
@@ -7559,6 +8077,56 @@
         "scale": 0.86
       },
       "contentStatus": "research"
+    },
+    {
+      "id": "anasterian-sunstrider",
+      "type": "character",
+      "name": "Anasterian Sunstrider",
+      "slug": "anasterian-sunstrider",
+      "shortDescription": "Anasterian Sunstrider, represented in the Quel’Delar restoration research story.",
+      "body": "An older high elven king receives the blade in a remembered scene; armor and likeness are interpretive. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-sister-blade-article-mirror",
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/quel-delar-restored/anasterian-sunstrider.research.webp",
+        "scale": 0.78
+      }
+    },
+    {
+      "id": "ancient-dragonforged-blades-record",
+      "type": "artifact",
+      "name": "Dragonforged blade records",
+      "slug": "ancient-dragonforged-blades-record",
+      "shortDescription": "Dragonforged blade records, represented in the Quel’Delar restoration research story.",
+      "body": "Interpretive folio representing the borrowed research record; not an exact published book model. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript",
+        "quel-delar-what-dragons-know-quest-locator"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/quel-delar-restored/ancient-dragonforged-blades-book.research.webp",
+        "scale": 0.72
+      }
     },
     {
       "id": "anduin-lothar",
@@ -8185,6 +8753,30 @@
       "contentStatus": "research"
     },
     {
+      "id": "battered-hilt",
+      "type": "artifact",
+      "name": "Battered Hilt",
+      "slug": "battered-hilt",
+      "shortDescription": "Battered Hilt, represented in the Quel’Delar restoration research story.",
+      "body": "Original interpretive object for the quest item, not an exact game model or a unique historical finder. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-battered-hilt-quest-locator"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/quel-delar-restored/battered-hilt.research.webp",
+        "scale": 0.72
+      }
+    },
+    {
       "id": "bengor",
       "type": "character",
       "name": "Bengor",
@@ -8464,6 +9056,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "blood-queen-lanathel",
+      "type": "character",
+      "name": "Blood-Queen Lana’thel",
+      "slug": "blood-queen-lanathel",
+      "shortDescription": "Blood-Queen Lana’thel, represented in the Quel’Delar restoration research story.",
+      "body": "A darkfallen blood queen in red-black regalia with the blade; outfit is original interpretive art. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-sister-blade-article-mirror",
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/quel-delar-restored/blood-queen-lanathel.research.webp",
+        "scale": 0.78
+      }
+    },
+    {
       "id": "bodley",
       "type": "character",
       "name": "Bodley",
@@ -8610,6 +9227,32 @@
         "classic-era-location"
       ],
       "contentStatus": "research"
+    },
+    {
+      "id": "caladis-brightspear",
+      "type": "character",
+      "name": "Caladis Brightspear",
+      "slug": "caladis-brightspear",
+      "shortDescription": "Caladis Brightspear, represented in the Quel’Delar restoration research story.",
+      "body": "Silver Covenant quest representative in distinct blue and silver attire; costume is interpretive. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript",
+        "quel-delar-battered-hilt-quest-locator",
+        "quel-delar-faction-and-class-endings-transcript"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/quel-delar-restored/caladis-brightspear.research.webp",
+        "scale": 0.78
+      }
     },
     {
       "id": "cenarius",
@@ -8832,6 +9475,25 @@
         "burning-crusade-location"
       ],
       "contentStatus": "research"
+    },
+    {
+      "id": "dalaran-wrath",
+      "type": "location",
+      "name": "Dalaran in Northrend",
+      "slug": "dalaran-wrath",
+      "shortDescription": "The faction quest representatives and research stages are presented in the Wrath-era city. The portrait scene does not claim a precise building interior unless the quest names one.",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript",
+        "quel-delar-what-dragons-know-quest-locator"
+      ],
+      "tags": [
+        "quel-delar-story-location"
+      ],
+      "contentStatus": "research",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ]
     },
     {
       "id": "dark-portal",
@@ -9561,6 +10223,25 @@
       "contentStatus": "research"
     },
     {
+      "id": "forge-of-souls",
+      "type": "location",
+      "name": "Forge of Souls",
+      "slug": "forge-of-souls",
+      "shortDescription": "The first wing of the Frozen Halls and the location of the Crucible used to temper the blade.",
+      "sourceIds": [
+        "blizzard-wrath-icecrown-guide",
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "tags": [
+        "quel-delar-story-location"
+      ],
+      "contentStatus": "research",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ]
+    },
+    {
       "id": "forsaken",
       "type": "faction",
       "name": "The Forsaken",
@@ -9584,6 +10265,25 @@
         "scale": 0.9
       },
       "contentStatus": "research"
+    },
+    {
+      "id": "frozen-halls",
+      "type": "location",
+      "name": "The Frozen Halls",
+      "slug": "frozen-halls",
+      "shortDescription": "A group of Icecrown dungeon wings comprising the Forge of Souls, Pit of Saron and Halls of Reflection. The quest-item drop is randomized gameplay, not a singular event with a known finder.",
+      "sourceIds": [
+        "blizzard-wrath-icecrown-guide",
+        "quel-delar-battered-hilt-quest-locator"
+      ],
+      "tags": [
+        "quel-delar-story-location"
+      ],
+      "contentStatus": "research",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ]
     },
     {
       "id": "frozen-throne",
@@ -9861,6 +10561,30 @@
       "contentStatus": "research"
     },
     {
+      "id": "halduron-brightwing",
+      "type": "character",
+      "name": "Halduron Brightwing",
+      "slug": "halduron-brightwing",
+      "shortDescription": "Halduron Brightwing, represented in the Quel’Delar restoration research story.",
+      "body": "Quel’Thalas ranger, shown in an original interpretive portrait. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-journey-and-purification-transcript"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/quel-delar-restored/halduron-brightwing.research.webp",
+        "scale": 0.78
+      }
+    },
+    {
       "id": "haleh",
       "name": "Haleh",
       "slug": "haleh",
@@ -9884,6 +10608,25 @@
         "asset": "images/storylines/onyxia/haleh.research.webp",
         "scale": 0.86
       }
+    },
+    {
+      "id": "halls-of-reflection",
+      "type": "location",
+      "name": "Halls of Reflection",
+      "slug": "halls-of-reflection",
+      "shortDescription": "The final Frozen Halls wing, within the Lich King’s chambers, where Quel’Delar draws the player and Uther explains the danger.",
+      "sourceIds": [
+        "blizzard-wrath-icecrown-guide",
+        "quel-delar-halls-of-reflection-quest-transcript"
+      ],
+      "tags": [
+        "quel-delar-story-location"
+      ],
+      "contentStatus": "research",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ]
     },
     {
       "id": "heart-of-fury",
@@ -10343,6 +11086,24 @@
       }
     },
     {
+      "id": "isle-of-quel-danas",
+      "type": "location",
+      "name": "Isle of Quel’Danas",
+      "slug": "isle-of-quel-danas",
+      "shortDescription": "The reclaimed island and the approach to the Sunwell in the Wrath quest sequence.",
+      "sourceIds": [
+        "quel-delar-journey-and-purification-transcript"
+      ],
+      "tags": [
+        "quel-delar-story-location"
+      ],
+      "contentStatus": "research",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ]
+    },
+    {
       "id": "jaina-proudmoore",
       "type": "character",
       "name": "Jaina Proudmoore",
@@ -10450,6 +11211,30 @@
         "scale": 1.02
       },
       "contentStatus": "research"
+    },
+    {
+      "id": "kalecgos",
+      "type": "character",
+      "name": "Kalecgos",
+      "slug": "kalecgos",
+      "shortDescription": "Kalecgos, represented in the Quel’Delar restoration research story.",
+      "body": "Kalecgos in an elven guise, an original portrait rather than a canonical model claim. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-what-dragons-know-quest-locator"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/quel-delar-restored/kalecgos.research.webp",
+        "scale": 0.78
+      }
     },
     {
       "id": "kalynna-lathred",
@@ -10912,6 +11697,30 @@
       "mapFigure": {
         "asset": "images/storylines/dungeon-set-two/kormok.research.webp",
         "scale": 0.82
+      }
+    },
+    {
+      "id": "krasus",
+      "type": "character",
+      "name": "Krasus",
+      "slug": "krasus",
+      "shortDescription": "Krasus, represented in the Quel’Delar restoration research story.",
+      "body": "Krasus in a red and ivory human guise, based on the quest identity; portrait details remain interpretive. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-what-dragons-know-quest-locator"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/quel-delar-restored/krasus.research.webp",
+        "scale": 0.78
       }
     },
     {
@@ -11612,6 +12421,32 @@
       "contentStatus": "research"
     },
     {
+      "id": "myralion-sunblaze",
+      "type": "character",
+      "name": "Myralion Sunblaze",
+      "slug": "myralion-sunblaze",
+      "shortDescription": "Myralion Sunblaze, represented in the Quel’Delar restoration research story.",
+      "body": "Sunreaver quest representative in red and gold; costume is interpretive. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript",
+        "quel-delar-battered-hilt-quest-locator",
+        "quel-delar-faction-and-class-endings-transcript"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/quel-delar-restored/myralion-sunblaze.research.webp",
+        "scale": 0.78
+      }
+    },
+    {
       "id": "myranda-the-hag",
       "name": "Myranda the Hag",
       "slug": "myranda-the-hag",
@@ -12240,6 +13075,25 @@
       "contentStatus": "research"
     },
     {
+      "id": "pit-of-saron",
+      "type": "location",
+      "name": "Pit of Saron",
+      "slug": "pit-of-saron",
+      "shortDescription": "A saronite mine within the Frozen Halls where the reforging quest is staged.",
+      "sourceIds": [
+        "blizzard-wrath-icecrown-guide",
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "tags": [
+        "quel-delar-story-location"
+      ],
+      "contentStatus": "research",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ]
+    },
+    {
       "id": "portrait-of-love-and-family",
       "type": "artifact",
       "name": "Of Love and Family — recovered portrait",
@@ -12289,6 +13143,50 @@
       "contentStatus": "research"
     },
     {
+      "id": "quel-delar",
+      "type": "artifact",
+      "name": "Quel’Delar",
+      "slug": "quel-delar",
+      "shortDescription": "Quel’Delar, represented in the Quel’Delar restoration research story.",
+      "body": "Original interpretive image of the restored sister blade; hilt, runes and geometry are not canonical item-model evidence. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript",
+        "blizzard-quel-delar-achievement-overview"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/quel-delar-restored/quel-delar.research.webp",
+        "scale": 0.72
+      }
+    },
+    {
+      "id": "quel-delars-rest",
+      "type": "location",
+      "name": "Quel’Delar’s Rest",
+      "slug": "quel-delars-rest",
+      "shortDescription": "A snowy ruin in Icecrown where the faction quests begin and the blade’s breaking is remembered. The image is an interpretive regional view, not a surveyed position or ruin reconstruction.",
+      "sourceIds": [
+        "quel-delar-battered-hilt-quest-locator",
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "tags": [
+        "quel-delar-story-location"
+      ],
+      "contentStatus": "research",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ]
+    },
+    {
       "id": "quelthalas-ancient",
       "type": "faction",
       "name": "Quel'Thalas",
@@ -12319,6 +13217,24 @@
         "scale": 0.82
       },
       "contentStatus": "research"
+    },
+    {
+      "id": "quelthalas-region",
+      "type": "location",
+      "name": "Quel’Thalas",
+      "slug": "quelthalas-region",
+      "shortDescription": "Regional setting for the remembered blade history. No precise gift ceremony location is established by the cited account.",
+      "sourceIds": [
+        "quel-delar-sister-blade-article-mirror"
+      ],
+      "tags": [
+        "quel-delar-story-location"
+      ],
+      "contentStatus": "research",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ]
     },
     {
       "id": "rage-winterchill",
@@ -12991,6 +13907,32 @@
       "contentStatus": "research"
     },
     {
+      "id": "silver-covenant",
+      "type": "faction",
+      "name": "Silver Covenant",
+      "slug": "silver-covenant",
+      "shortDescription": "Silver Covenant, represented in the Quel’Delar restoration research story.",
+      "body": "Blue and silver ensemble for the Alliance quest branch; three figures form one faction representation, not a named party. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript",
+        "quel-delar-battered-hilt-quest-locator",
+        "quel-delar-faction-and-class-endings-transcript"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/quel-delar-restored/silver-covenant.research.webp",
+        "scale": 0.7
+      }
+    },
+    {
       "id": "silver-hand-insignia",
       "type": "artifact",
       "name": "Silver Hand insignia",
@@ -13175,6 +14117,32 @@
         "human"
       ],
       "contentStatus": "research"
+    },
+    {
+      "id": "sunreavers",
+      "type": "faction",
+      "name": "Sunreavers",
+      "slug": "sunreavers",
+      "shortDescription": "Sunreavers, represented in the Quel’Delar restoration research story.",
+      "body": "Red and gold ensemble for the Horde quest branch; figures form one faction representation, not a named party. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript",
+        "quel-delar-battered-hilt-quest-locator",
+        "quel-delar-faction-and-class-endings-transcript"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/quel-delar-restored/sunreaver-guards.research.webp",
+        "scale": 0.7
+      }
     },
     {
       "id": "sunwell-ancient",
@@ -13414,6 +14382,31 @@
       "mapVisual": {
         "asset": "images/storylines/onyxia/test-skull-dragons.research.webp",
         "scale": 0.88
+      }
+    },
+    {
+      "id": "thalorien-dawnseeker",
+      "type": "character",
+      "name": "Thalorien Dawnseeker",
+      "slug": "thalorien-dawnseeker",
+      "shortDescription": "Thalorien Dawnseeker, represented in the Quel’Delar restoration research story.",
+      "body": "A high elf in pale silver and blue, shown as an interpretive memory figure, not a canonical model or proof of costume. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-thalorien-dawnseeker-quest-transcript",
+        "quel-delar-sister-blade-article-mirror"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/quel-delar-restored/thalorien-dawnseeker.research.webp",
+        "scale": 0.78
       }
     },
     {
@@ -13820,6 +14813,30 @@
         "classic-era-location"
       ],
       "contentStatus": "research"
+    },
+    {
+      "id": "uther-lightbringer",
+      "type": "character",
+      "name": "Uther Lightbringer",
+      "slug": "uther-lightbringer",
+      "shortDescription": "Uther Lightbringer, represented in the Quel’Delar restoration research story.",
+      "body": "Uther appears as a spectral memory in the Halls of Reflection; armor details are interpretive. Original AI-generated story-theater art, not licensed game art, canonical appearance, evidence of co-presence, or proof of map geography. See docs/research/quel-delar-restored-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "quel-delar-halls-of-reflection-quest-transcript"
+      ],
+      "tags": [
+        "quel-delar-story",
+        "interpretive-art"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/storylines/quel-delar-restored/uther-lightbringer.research.webp",
+        "scale": 0.78
+      }
     },
     {
       "id": "uther-s-tomb",
@@ -14234,6 +15251,24 @@
         "scale": 0.82
       },
       "contentStatus": "research"
+    },
+    {
+      "id": "wyrmrest-temple",
+      "type": "location",
+      "name": "Wyrmrest Temple",
+      "slug": "wyrmrest-temple",
+      "shortDescription": "The dragon counsel takes place at the temple in Dragonblight, as located by the quest text.",
+      "sourceIds": [
+        "quel-delar-what-dragons-know-quest-locator"
+      ],
+      "tags": [
+        "quel-delar-story-location"
+      ],
+      "contentStatus": "research",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ]
     },
     {
       "id": "xalatath",
@@ -19650,6 +20685,523 @@
       "contentStatus": "research"
     },
     {
+      "id": "quel-delar-restored-battered-hilt-at-rest-event",
+      "kind": "event",
+      "name": "A hilt without a finder",
+      "slug": "quel-delar-restored-battered-hilt-at-rest-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "In the Frozen Halls, a battered hilt may fall among the spoils of heroic danger. Its appearance is randomized game loot; no single finder belongs to history. The quest then brings the relic to Quel’Delar’s Rest, where the Silver Covenant or Sunreavers take up the question it carries. Before the sword is whole, its broken remnant has already drawn two rival courts toward the same inheritance.",
+      "locationIds": [
+        "frozen-halls",
+        "quel-delars-rest"
+      ],
+      "participantEntityIds": [
+        "battered-hilt"
+      ],
+      "sourceIds": [
+        "quel-delar-battered-hilt-quest-locator"
+      ],
+      "claimIds": [
+        "quel-delar-restored-battered-hilt-at-rest-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-blade-compulsion-event",
+      "kind": "event",
+      "name": "The sword draws toward the Halls",
+      "slug": "quel-delar-restored-blade-compulsion-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "From the frozen forge, Quel’Delar presses its bearer toward the Halls of Reflection. The quest frames this as compulsion: the blade has a will, and its direction leads into the Lich King’s chamber. This is a magical story beat, not a route inferred across a map. In the blue-black hall, the sword’s restoration turns inward. The first danger is no longer whether it can be wielded, but who commands whom.",
+      "locationIds": [
+        "halls-of-reflection"
+      ],
+      "participantEntityIds": [
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-halls-of-reflection-quest-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-blade-compulsion-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-blade-gift-event",
+      "kind": "event",
+      "name": "A gift carried through generations",
+      "slug": "quel-delar-restored-blade-gift-event",
+      "eraId": "third-war-frozen-throne",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Before the Third War; exact date and ceremony location are not established here"
+      },
+      "summary": "In the older account, Alexstrasza gives the blade to Anasterian, and the high king later entrusts it to Thalorien Dawnseeker. This is a remembered handoff, not a ceremony whose room or date the tale records. The Sunwell’s light fills this interpretive scene because the sword’s future defense is bound to Quel’Thalas. Its gold and red radiance now illuminates a gift moving toward its trial.",
+      "locationIds": [
+        "quelthalas-region"
+      ],
+      "participantEntityIds": [
+        "alexstrasza",
+        "anasterian-sunstrider",
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-sister-blade-article-mirror"
+      ],
+      "claimIds": [
+        "quel-delar-restored-blade-gift-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-blade-identified-event",
+      "kind": "event",
+      "name": "The name in the record",
+      "slug": "quel-delar-restored-blade-identified-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; remembered history predates the quest"
+      },
+      "summary": "Returned to the dragon’s record, the story of the hilt resolves into a name: Quel’Delar, sister to Quel’Serrar. Its remembered history binds red dragonflight craft to the high elven crown and to a defender who stood before the Sunwell. The book does not make the sword’s inheritance simple. It tells how a gift can outlive a kingdom’s wound, while leaving its next bearer to be contested.",
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "participantEntityIds": [
+        "ancient-dragonforged-blades-record",
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-sister-blade-article-mirror"
+      ],
+      "claimIds": [
+        "quel-delar-restored-blade-identified-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-borrowed-disguise-event",
+      "kind": "event",
+      "name": "A borrowed guise for old records",
+      "slug": "quel-delar-restored-borrowed-disguise-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "A disguise opens a way to records guarded by suspicion and old allegiances. The faction quest asks its chosen seeker to recover the ancient dragonforged blades’ history, not to invent a new forging tale. In this retelling, the folio is an interpretive emblem for that record. A successful theft is a game objective; the chronicle keeps the danger and purpose, not every repeated step of play.",
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "participantEntityIds": [
+        "ancient-dragonforged-blades-record",
+        "silver-covenant",
+        "sunreavers"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-borrowed-disguise-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-dragon-counsel-event",
+      "kind": "event",
+      "name": "The dragons weigh the risk",
+      "slug": "quel-delar-restored-dragon-counsel-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "At Wyrmrest Temple, Krasus lends the seekers a record of the ancient blade. Kalecgos asks whether mortals should command such power: the dragons have known the grief of a mighty weapon turned against them. Alexstrasza permits the search to continue, though permission is not an answer to every fear. Beneath the red-bronze shrine, the hilt’s past begins to emerge as both a promise and a warning.",
+      "locationIds": [
+        "wyrmrest-temple"
+      ],
+      "participantEntityIds": [
+        "krasus",
+        "kalecgos",
+        "alexstrasza",
+        "battered-hilt"
+      ],
+      "sourceIds": [
+        "quel-delar-what-dragons-know-quest-locator"
+      ],
+      "claimIds": [
+        "quel-delar-restored-dragon-counsel-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-faction-handoffs-event",
+      "kind": "event",
+      "name": "Two returns, no single heir",
+      "slug": "quel-delar-restored-faction-handoffs-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest resolution; individual character choices vary"
+      },
+      "summary": "The restored weapon returns to Dalaran by faction-specific roads. An Alliance seeker reports through Caladis and the Silver Covenant; a Horde seeker through Myralion and the Sunreavers. In the blood-elf sword branch, Aethas publicly presents the new bearer. Other characters unable to wield the sword receive a different weapon type. These are alternative game outcomes, not one champion’s combined history, and no named adventurer is made the canonical heir.",
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "participantEntityIds": [
+        "caladis-brightspear",
+        "myralion-sunblaze",
+        "aethas-sunreaver",
+        "silver-covenant",
+        "sunreavers",
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-faction-and-class-endings-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-faction-handoffs-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-forge-tempering-event",
+      "kind": "event",
+      "name": "Tempered in the Forge of Souls",
+      "slug": "quel-delar-restored-forge-tempering-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "The newly joined blade travels to the Crucible of Souls, deep within the Forge of Souls. There it is tempered amid the machinery of the Lich King’s frozen halls. The glowing furnace is an interpretive setting for a named quest step, not a measured reconstruction of the dungeon room. The work succeeds in shaping the weapon, yet the next chamber reveals that a finished edge and a clean spirit are not the same thing.",
+      "locationIds": [
+        "forge-of-souls"
+      ],
+      "participantEntityIds": [
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "blizzard-wrath-icecrown-guide"
+      ],
+      "claimIds": [
+        "quel-delar-restored-forge-tempering-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-halduron-refusal-event",
+      "kind": "event",
+      "name": "A sacred shore must be approached",
+      "slug": "quel-delar-restored-halduron-refusal-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "At Quel’Danas, Halduron Brightwing first refuses the seeker entry to a sacred place recently reclaimed by the blood elves. The Sunwell is no casual road’s end. Its shores carry the memory of a kingdom nearly lost, and trust must be earned before the blade can reach its light. Beyond the Dead Scar, pale stone and red-gold towers frame a question of stewardship: who may bring this dangerous inheritance to the well?",
+      "locationIds": [
+        "isle-of-quel-danas"
+      ],
+      "participantEntityIds": [
+        "halduron-brightwing",
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-journey-and-purification-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-halduron-refusal-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-lanathel-breaks-blade-event",
+      "kind": "event",
+      "name": "Lana’thel breaks the blade",
+      "slug": "quel-delar-restored-lanathel-breaks-blade-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Before the Wrath restoration quest; exact date unknown"
+      },
+      "summary": "At Quel’Delar’s Rest, a more recent memory darkens the snow. Lana’thel recounts how the sword passed from Thalorien into her hands after his fall, and how, as the Lich King’s servant, she was ordered to destroy it. She carried Quel’Delar north and broke it here. Her account joins a knight’s last defense to a queen’s enslavement; the broken hilt at the quest’s opening is the remnant of that command.",
+      "locationIds": [
+        "quel-delars-rest"
+      ],
+      "participantEntityIds": [
+        "blood-queen-lanathel",
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-sister-blade-article-mirror"
+      ],
+      "claimIds": [
+        "quel-delar-restored-lanathel-breaks-blade-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-pit-reforging-event",
+      "kind": "event",
+      "name": "Reforged in the Pit of Saron",
+      "slug": "quel-delar-restored-pit-reforging-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "In the Pit of Saron, the quest sets the old blade against saronite: five infused bars and a forgehammer remake its broken length. The mine is a place of forced labor beneath Icecrown, its black ore cut from a frozen wound. This is a player objective, not a separate campaign of named smiths. When the pieces are joined, the sword is whole again—but the material that holds it also carries a peril.",
+      "locationIds": [
+        "pit-of-saron"
+      ],
+      "participantEntityIds": [
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "blizzard-wrath-icecrown-guide"
+      ],
+      "claimIds": [
+        "quel-delar-restored-pit-reforging-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-rival-orders-event",
+      "kind": "event",
+      "name": "Orders in the violet city",
+      "slug": "quel-delar-restored-rival-orders-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "In Dalaran, Caladis Brightspear and Myralion Sunblaze each direct their own faction’s search. Their orders are parallel branches in the quest, not a single council where both factions agree. The city’s pale towers and violet enchantments stand above a contest of memory: each side would restore the old blade, and each expects its own people to guard the inheritance.",
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "participantEntityIds": [
+        "caladis-brightspear",
+        "myralion-sunblaze"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-rival-orders-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-sunwell-purification-event",
+      "kind": "event",
+      "name": "Purified in the Sunwell",
+      "slug": "quel-delar-restored-sunwell-purification-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "At last the tempered blade is lowered into the Sunwell. Light passes through the old steel and the saronite taint is cleansed; the quest presents a purified Quel’Delar where the corrupted weapon had rested. The well does not erase Lana’Thel’s command, Thalorien’s sacrifice, or the peril of the halls. It changes what can be carried forward. A weapon once broken and then remade leaves the sacred waters with a new claim upon the living.",
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "participantEntityIds": [
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-journey-and-purification-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-sunwell-purification-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-thalorien-last-stand-event",
+      "kind": "event",
+      "name": "Thalorien at the Sunwell gate",
+      "slug": "quel-delar-restored-thalorien-last-stand-event",
+      "eraId": "third-war-frozen-throne",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "During the Third War, as the Scourge reached Quel’Thalas; exact date unknown"
+      },
+      "summary": "When the Scourge reached Quel’Thalas, Thalorien held the approach before the Sunwell. He fell in that defense, buying time for those behind him; the quest’s memory binds his name to the blade he carried. The golden island was not spared its wound, and the champion was not carried into the future. His stand belongs to the Third War, long before this Wrath quest asks another hand to restore his sword.",
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "participantEntityIds": [
+        "thalorien-dawnseeker",
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-thalorien-dawnseeker-quest-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-thalorien-last-stand-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-thalorien-test-event",
+      "kind": "event",
+      "name": "A later trial at Thalorien’s rest",
+      "slug": "quel-delar-restored-thalorien-test-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "A later Wrath quest test at the remains of a Third War defender"
+      },
+      "summary": "At Thalorien’s resting place, the Wrath quest sets a new seeker against a trial and a memory of the fallen knight. This encounter does not undo his death or make him a living participant in the restoration. His blessing links the blade’s old bearer to its present burden. The story holds both moments apart: Thalorien fell at the Sunwell in the Third War; a later test asks whether the seeker is worthy to carry his memory onward.",
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "participantEntityIds": [
+        "thalorien-dawnseeker",
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-thalorien-dawnseeker-quest-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-thalorien-test-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-two-courts-event",
+      "kind": "event",
+      "name": "Two courts, one inheritance",
+      "slug": "quel-delar-restored-two-courts-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "At Quel’Delar’s Rest, an Alliance seeker answers Caladis Brightspear; a Horde seeker answers Myralion Sunblaze. Their plans pass through separate faction halls, and the player follows one allegiance, not both. In the city’s violet heights, old kinship between high and blood elves cannot settle who may claim the blade. The story keeps both roads visible as alternatives, without giving either branch a universal adventurer.",
+      "locationIds": [
+        "quel-delars-rest"
+      ],
+      "participantEntityIds": [
+        "silver-covenant",
+        "sunreavers"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-two-courts-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-uther-warning-event",
+      "kind": "event",
+      "name": "Uther names the taint",
+      "slug": "quel-delar-restored-uther-warning-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "Uther’s spirit speaks beside the chamber’s blade: saronite is the blood of an Old God, and the ore has tainted what the hammer restored. His counsel turns the quest toward the Sunwell. No forging technique can cleanse this wound. Beyond the frozen halls lies a place of older light, reclaimed by the blood elves after its earlier fall. There, the sword’s makers’ legacy may be tested against the darkness forced into it.",
+      "locationIds": [
+        "halls-of-reflection"
+      ],
+      "participantEntityIds": [
+        "uther-lightbringer",
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-halls-of-reflection-quest-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-uther-warning-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-vow-to-restore-event",
+      "kind": "event",
+      "name": "A vow to make the blade whole",
+      "slug": "quel-delar-restored-vow-to-restore-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "The sword’s breaking does not end its history. Myralion vows that the Sunreavers will restore it; Caladis leads the Silver Covenant along its separate path. The two representatives are shown here as a comparative split scene, not as companions sharing one event. Their promise gives purpose to the work ahead: remake the blade, face the will bound within it, and seek a cleansing strong enough to remove what the Scourge has left.",
+      "locationIds": [
+        "quel-delars-rest"
+      ],
+      "participantEntityIds": [
+        "caladis-brightspear",
+        "myralion-sunblaze",
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-vow-to-restore-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-will-subdued-event",
+      "kind": "event",
+      "name": "The blade’s will is subdued",
+      "slug": "quel-delar-restored-will-subdued-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "quel-delar-restored-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Wrath of the Lich King, patch 3.3.5 quest sequence; exact in-world date unknown"
+      },
+      "summary": "The seeker resists the sword’s command and brings its will to heel. Quel’Delar survives the struggle; neither its steel nor the story’s inherited name is discarded. Yet victory in the Halls of Reflection is only restraint. The blade was reforged with the dark ore of Icecrown, and a quieted weapon may still bear the touch of the place that shaped it. A voice from the chamber names the deeper danger.",
+      "locationIds": [
+        "halls-of-reflection"
+      ],
+      "participantEntityIds": [
+        "quel-delar"
+      ],
+      "sourceIds": [
+        "quel-delar-halls-of-reflection-quest-transcript"
+      ],
+      "claimIds": [
+        "quel-delar-restored-will-subdued-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "quelthalas-and-sunwell-founded",
       "kind": "event",
       "name": "Quel'Thalas and the Sunwell Are Founded",
@@ -24594,6 +26146,13 @@
       "notes": "First-party Blizzard overview: https://worldofwarcraft.blizzard.com/en-us/news/24252017. Supports Garrosh's devastation of the Vale, the joint opposition to his rule, and the siege ending his leadership."
     },
     {
+      "id": "blizzard-quel-delar-achievement-overview",
+      "title": "The Sword in the Skull — Blizzard achievement summary",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/worldsoul/us/armory/character/anubarak/lifegiver/achievements/expansion-features/argent-tournament",
+      "sourceType": "website",
+      "notes": "Official Blizzard achievement listing used as a high-level cross-check of the recover, reforge, purify and present sequence. Consulted 2026-10-01; individual quest dialogue is supported by separately identified secondary locators."
+    },
+    {
       "id": "blizzard-rise-of-the-horde-library",
       "title": "The Library — Rise of the Horde",
       "sourceType": "website",
@@ -24877,6 +26436,63 @@
       "url": "https://www.wowhead.com/classic/guide/onyxia-onyxias-lair-raid-overview-wow-classic",
       "sourceType": "website",
       "notes": "Accessed 2026-09-30. Secondary reference for the original Classic lair encounter and Drakefire Amulet attunement requirement."
+    },
+    {
+      "id": "quel-delar-battered-hilt-quest-locator",
+      "title": "The Battered Hilt — quest 24554 (quest text locator)",
+      "url": "https://www.wowhead.com/quest=24554/the-battered-hilt",
+      "sourceType": "quest",
+      "notes": "Secondary Wrath quest text locator, accessed 2026-10-01. Used to distinguish the gameplay item trigger and quest-giver location; compare with the original client."
+    },
+    {
+      "id": "quel-delar-faction-and-class-endings-transcript",
+      "title": "Quel’Delar faction and class ending transcripts",
+      "url": "https://warcraft.wiki.gg/wiki/A_Victory_For_The_Sunreavers_%28sword%2C_blood_elf%29",
+      "sourceType": "quest",
+      "notes": "Secondary quest transcript, accessed 2026-10-01. Alliance Silver Covenant and Horde Sunreaver outcomes differ; Aethas’s presentation is the blood-elf sword branch, while class-ineligible characters can receive another weapon type. No single adventurer or outcome is universal."
+    },
+    {
+      "id": "quel-delar-halls-of-reflection-quest-transcript",
+      "title": "The Halls of Reflection (Quel’Delar quest text transcript)",
+      "url": "https://warcraft.wiki.gg/wiki/The_Halls_Of_Reflection_%28Alliance%29",
+      "sourceType": "quest",
+      "notes": "Secondary transcript used to locate the sword compulsion and Uther’s explanation. Quest text is paraphrased; compare both faction quest variants against the 3.3.5a client."
+    },
+    {
+      "id": "quel-delar-journey-and-purification-transcript",
+      "title": "Journey to the Sunwell and purification quest transcripts",
+      "url": "https://warcraft.wiki.gg/wiki/Journey_To_The_Sunwell",
+      "sourceType": "quest",
+      "notes": "Secondary quest transcript, accessed 2026-10-01. Used for Halduron’s initial refusal and the Sunwell approach. Purification locator: https://warcraft.wiki.gg/wiki/The_Purification_of_Quel%27Delar. Compare with the original client."
+    },
+    {
+      "id": "quel-delar-sister-blade-article-mirror",
+      "title": "Quel’Delar: The Sister Blade (archived Blizzard article, secondary mirror)",
+      "url": "https://warcraft.wiki.gg/wiki/Underdev/Quel%27Delar%3A_The_Sister_Blade",
+      "sourceType": "website",
+      "publicationDate": "2009-10-30",
+      "notes": "The page identifies itself as a mirror/transcript of a Blizzard article whose original page no longer survives after a site overhaul. Consulted 2026-10-01. Use as an attributed secondary reproduction pending comparison with an accessible Blizzard archive and the original client."
+    },
+    {
+      "id": "quel-delar-thalorien-dawnseeker-quest-transcript",
+      "title": "Thalorien Dawnseeker quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/Thalorien_Dawnseeker_%28quest%29",
+      "sourceType": "quest",
+      "notes": "Secondary transcript, accessed 2026-10-01. Distinguishes Thalorien’s Third War death from the later in-game test at his remains. Compare with the original Wrath client."
+    },
+    {
+      "id": "quel-delar-what-dragons-know-quest-locator",
+      "title": "What The Dragons Know — quest 24555 (quest text locator)",
+      "url": "https://www.wowhead.com/quest=24555/what-the-dragons-know",
+      "sourceType": "quest",
+      "notes": "Secondary Wrath quest text locator, accessed 2026-10-01. Used for Krasus, the borrowed book, Kalecgos and Alexstrasza counsel; dialogue is paraphrased."
+    },
+    {
+      "id": "quel-delar-wotlk-quest-chain-transcript",
+      "title": "The Return of Quel’Delar quest chain (secondary transcript)",
+      "url": "https://warcraft.wiki.gg/wiki/The_Return_of_Quel%27Delar_quest_chain",
+      "sourceType": "website",
+      "notes": "Quest names and objectives are paraphrased from a secondary transcript. Consulted 2026-10-01. Original Wrath 3.3.5a client comparison remains open; this locator is not primary source evidence."
     },
     {
       "id": "scepter-book",
@@ -26869,6 +28485,139 @@
       "sourceId": "onyxia-attunement-wiki",
       "section": "Alliance chain: The marshal in Blackrock Depths and adjacent prerequisites",
       "note": "Original paraphrase from a secondary Classic quest locator. Original quest capture and target-client/build comparison remain pending; Blizzard is cited only within its stated scope."
+    },
+    {
+      "id": "quel-delar-restored-battered-hilt-at-rest-citation",
+      "sourceId": "quel-delar-battered-hilt-quest-locator",
+      "section": "Random heroic Frozen Halls loot and the quest’s opening handoff to Quel’Delar’s Rest",
+      "questId": "24554 · The Battered Hilt",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-blade-compulsion-citation",
+      "sourceId": "quel-delar-halls-of-reflection-quest-transcript",
+      "section": "Quest framing: Quel’Delar’s compulsion draws the player toward the Halls of Reflection",
+      "questId": "24561 · The Halls of Reflection",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-blade-gift-citation",
+      "sourceId": "quel-delar-sister-blade-article-mirror",
+      "section": "Alexstrasza’s gift to Anasterian and the blade’s passage to Thalorien",
+      "questId": "Quel’Delar: The Sister Blade · historical account",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-blade-identified-citation",
+      "sourceId": "quel-delar-sister-blade-article-mirror",
+      "section": "Sister blade history, dragonforged origin and previous keepers",
+      "questId": "The Return of Quel’Delar · book returned after Wyrmrest",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-borrowed-disguise-citation",
+      "sourceId": "quel-delar-wotlk-quest-chain-transcript",
+      "section": "Disguise and recovery of the ancient dragonforged blade records",
+      "questId": "The Return of Quel’Delar · faction-dependent research stages",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-dragon-counsel-citation",
+      "sourceId": "quel-delar-what-dragons-know-quest-locator",
+      "section": "Krasus at Wyrmrest Temple; the borrowed book, Kalecgos’s concern, Alexstrasza’s permission",
+      "questId": "24555 · What The Dragons Know",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-faction-handoffs-citation",
+      "sourceId": "quel-delar-faction-and-class-endings-transcript",
+      "section": "Faction endings, Aethas’s blood-elf sword presentation, and class-ineligible alternate weapon reward",
+      "questId": "A Victory for the Silver Covenant / A Victory for the Sunreavers",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-forge-tempering-citation",
+      "sourceId": "blizzard-wrath-icecrown-guide",
+      "section": "The Crucible of Souls in the Forge of Souls",
+      "questId": "The Return of Quel’Delar · Tempering the Blade",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-halduron-refusal-citation",
+      "sourceId": "quel-delar-journey-and-purification-transcript",
+      "section": "Halduron initially refuses entry and directs the seeker to gain passage to the sacred reclaimed site",
+      "questId": "Journey to the Sunwell",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-lanathel-breaks-blade-citation",
+      "sourceId": "quel-delar-sister-blade-article-mirror",
+      "section": "Lana’thel recounts Thalorien, her fall to the San’layn and the order to destroy Quel’Delar at its Rest",
+      "questId": "24558 · Return to Myralion Sunblaze / historical memory",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-pit-reforging-citation",
+      "sourceId": "blizzard-wrath-icecrown-guide",
+      "section": "Pit of Saron saronite ingots and forgehammer objective; game objective is not a historical battle",
+      "questId": "The Return of Quel’Delar · Reforging the Sword",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-rival-orders-citation",
+      "sourceId": "quel-delar-wotlk-quest-chain-transcript",
+      "section": "Silver Covenant scheme / Sunreavers’ plan; mutually exclusive quest branch",
+      "questId": "24557–24558 · faction-specific plans",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-sunwell-purification-citation",
+      "sourceId": "quel-delar-journey-and-purification-transcript",
+      "section": "The tempered blade is immersed in the Sunwell and replaced with its purified form",
+      "questId": "The Purification of Quel’Delar",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-thalorien-last-stand-citation",
+      "sourceId": "quel-delar-thalorien-dawnseeker-quest-transcript",
+      "section": "Historical account of the Third War defense before the Sunwell",
+      "questId": "Thalorien Dawnseeker · later memory quest",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-thalorien-test-citation",
+      "sourceId": "quel-delar-thalorien-dawnseeker-quest-transcript",
+      "section": "The present seeker faces a later test/memory and receives the fallen knight’s blessing",
+      "questId": "Thalorien Dawnseeker",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-two-courts-citation",
+      "sourceId": "quel-delar-wotlk-quest-chain-transcript",
+      "section": "Silver Covenant and Sunreaver quest branches at Quel’Delar’s Rest and Dalaran",
+      "questId": "24554–24558 · faction-specific branches",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-uther-warning-citation",
+      "sourceId": "quel-delar-halls-of-reflection-quest-transcript",
+      "section": "Uther explains saronite as the blood of an Old God and points toward purification at the Sunwell",
+      "questId": "24561 · The Halls of Reflection",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-vow-to-restore-citation",
+      "sourceId": "quel-delar-wotlk-quest-chain-transcript",
+      "section": "The faction leaders’ promise to restore Quel’Delar",
+      "questId": "24558 · Return to Myralion Sunblaze and Alliance counterpart",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
+    },
+    {
+      "id": "quel-delar-restored-will-subdued-citation",
+      "sourceId": "quel-delar-halls-of-reflection-quest-transcript",
+      "section": "The player subdues Quel’Delar’s compulsion rather than destroying or purifying it",
+      "questId": "24561 · The Halls of Reflection",
+      "note": "Original paraphrase for research status. Secondary quest transcript or article mirror is a locator only; do not treat it as a replacement for original Wrath-client review."
     },
     {
       "id": "scepter-a-world-prepares-citation-1",
@@ -30259,6 +32008,234 @@
       "confidence": "inferred",
       "status": "active",
       "editorNote": "Do not interpret the polygon as a precise canonical coastline."
+    },
+    {
+      "id": "quel-delar-restored-battered-hilt-at-rest-claim",
+      "subjectId": "quel-delar-restored-battered-hilt-at-rest-event",
+      "predicate": "questline_scene_account",
+      "value": "In the Frozen Halls, a battered hilt may fall among the spoils of heroic danger. Its appearance is randomized game loot; no single finder belongs to history. The quest then brings the relic to Quel’Delar’s Rest, where the Silver Covenant or Sunreavers take up the question it carries. Before the sword is whole, its broken remnant has already drawn two rival courts toward the same inheritance.",
+      "citationIds": [
+        "quel-delar-restored-battered-hilt-at-rest-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-blade-compulsion-claim",
+      "subjectId": "quel-delar-restored-blade-compulsion-event",
+      "predicate": "questline_scene_account",
+      "value": "From the frozen forge, Quel’Delar presses its bearer toward the Halls of Reflection. The quest frames this as compulsion: the blade has a will, and its direction leads into the Lich King’s chamber. This is a magical story beat, not a route inferred across a map. In the blue-black hall, the sword’s restoration turns inward. The first danger is no longer whether it can be wielded, but who commands whom.",
+      "citationIds": [
+        "quel-delar-restored-blade-compulsion-citation"
+      ],
+      "confidence": "explicit",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-blade-gift-claim",
+      "subjectId": "quel-delar-restored-blade-gift-event",
+      "predicate": "questline_scene_account",
+      "value": "In the older account, Alexstrasza gives the blade to Anasterian, and the high king later entrusts it to Thalorien Dawnseeker. This is a remembered handoff, not a ceremony whose room or date the tale records. The Sunwell’s light fills this interpretive scene because the sword’s future defense is bound to Quel’Thalas. Its gold and red radiance now illuminates a gift moving toward its trial.",
+      "citationIds": [
+        "quel-delar-restored-blade-gift-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-blade-identified-claim",
+      "subjectId": "quel-delar-restored-blade-identified-event",
+      "predicate": "questline_scene_account",
+      "value": "Returned to the dragon’s record, the story of the hilt resolves into a name: Quel’Delar, sister to Quel’Serrar. Its remembered history binds red dragonflight craft to the high elven crown and to a defender who stood before the Sunwell. The book does not make the sword’s inheritance simple. It tells how a gift can outlive a kingdom’s wound, while leaving its next bearer to be contested.",
+      "citationIds": [
+        "quel-delar-restored-blade-identified-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-borrowed-disguise-claim",
+      "subjectId": "quel-delar-restored-borrowed-disguise-event",
+      "predicate": "questline_scene_account",
+      "value": "A disguise opens a way to records guarded by suspicion and old allegiances. The faction quest asks its chosen seeker to recover the ancient dragonforged blades’ history, not to invent a new forging tale. In this retelling, the folio is an interpretive emblem for that record. A successful theft is a game objective; the chronicle keeps the danger and purpose, not every repeated step of play.",
+      "citationIds": [
+        "quel-delar-restored-borrowed-disguise-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-dragon-counsel-claim",
+      "subjectId": "quel-delar-restored-dragon-counsel-event",
+      "predicate": "questline_scene_account",
+      "value": "At Wyrmrest Temple, Krasus lends the seekers a record of the ancient blade. Kalecgos asks whether mortals should command such power: the dragons have known the grief of a mighty weapon turned against them. Alexstrasza permits the search to continue, though permission is not an answer to every fear. Beneath the red-bronze shrine, the hilt’s past begins to emerge as both a promise and a warning.",
+      "citationIds": [
+        "quel-delar-restored-dragon-counsel-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-faction-handoffs-claim",
+      "subjectId": "quel-delar-restored-faction-handoffs-event",
+      "predicate": "questline_scene_account",
+      "value": "The restored weapon returns to Dalaran by faction-specific roads. An Alliance seeker reports through Caladis and the Silver Covenant; a Horde seeker through Myralion and the Sunreavers. In the blood-elf sword branch, Aethas publicly presents the new bearer. Other characters unable to wield the sword receive a different weapon type. These are alternative game outcomes, not one champion’s combined history, and no named adventurer is made the canonical heir.",
+      "citationIds": [
+        "quel-delar-restored-faction-handoffs-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-forge-tempering-claim",
+      "subjectId": "quel-delar-restored-forge-tempering-event",
+      "predicate": "questline_scene_account",
+      "value": "The newly joined blade travels to the Crucible of Souls, deep within the Forge of Souls. There it is tempered amid the machinery of the Lich King’s frozen halls. The glowing furnace is an interpretive setting for a named quest step, not a measured reconstruction of the dungeon room. The work succeeds in shaping the weapon, yet the next chamber reveals that a finished edge and a clean spirit are not the same thing.",
+      "citationIds": [
+        "quel-delar-restored-forge-tempering-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-halduron-refusal-claim",
+      "subjectId": "quel-delar-restored-halduron-refusal-event",
+      "predicate": "questline_scene_account",
+      "value": "At Quel’Danas, Halduron Brightwing first refuses the seeker entry to a sacred place recently reclaimed by the blood elves. The Sunwell is no casual road’s end. Its shores carry the memory of a kingdom nearly lost, and trust must be earned before the blade can reach its light. Beyond the Dead Scar, pale stone and red-gold towers frame a question of stewardship: who may bring this dangerous inheritance to the well?",
+      "citationIds": [
+        "quel-delar-restored-halduron-refusal-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-lanathel-breaks-blade-claim",
+      "subjectId": "quel-delar-restored-lanathel-breaks-blade-event",
+      "predicate": "questline_scene_account",
+      "value": "At Quel’Delar’s Rest, a more recent memory darkens the snow. Lana’thel recounts how the sword passed from Thalorien into her hands after his fall, and how, as the Lich King’s servant, she was ordered to destroy it. She carried Quel’Delar north and broke it here. Her account joins a knight’s last defense to a queen’s enslavement; the broken hilt at the quest’s opening is the remnant of that command.",
+      "citationIds": [
+        "quel-delar-restored-lanathel-breaks-blade-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-pit-reforging-claim",
+      "subjectId": "quel-delar-restored-pit-reforging-event",
+      "predicate": "questline_scene_account",
+      "value": "In the Pit of Saron, the quest sets the old blade against saronite: five infused bars and a forgehammer remake its broken length. The mine is a place of forced labor beneath Icecrown, its black ore cut from a frozen wound. This is a player objective, not a separate campaign of named smiths. When the pieces are joined, the sword is whole again—but the material that holds it also carries a peril.",
+      "citationIds": [
+        "quel-delar-restored-pit-reforging-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-rival-orders-claim",
+      "subjectId": "quel-delar-restored-rival-orders-event",
+      "predicate": "questline_scene_account",
+      "value": "In Dalaran, Caladis Brightspear and Myralion Sunblaze each direct their own faction’s search. Their orders are parallel branches in the quest, not a single council where both factions agree. The city’s pale towers and violet enchantments stand above a contest of memory: each side would restore the old blade, and each expects its own people to guard the inheritance.",
+      "citationIds": [
+        "quel-delar-restored-rival-orders-citation"
+      ],
+      "confidence": "explicit",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-sunwell-purification-claim",
+      "subjectId": "quel-delar-restored-sunwell-purification-event",
+      "predicate": "questline_scene_account",
+      "value": "At last the tempered blade is lowered into the Sunwell. Light passes through the old steel and the saronite taint is cleansed; the quest presents a purified Quel’Delar where the corrupted weapon had rested. The well does not erase Lana’Thel’s command, Thalorien’s sacrifice, or the peril of the halls. It changes what can be carried forward. A weapon once broken and then remade leaves the sacred waters with a new claim upon the living.",
+      "citationIds": [
+        "quel-delar-restored-sunwell-purification-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-thalorien-last-stand-claim",
+      "subjectId": "quel-delar-restored-thalorien-last-stand-event",
+      "predicate": "questline_scene_account",
+      "value": "When the Scourge reached Quel’Thalas, Thalorien held the approach before the Sunwell. He fell in that defense, buying time for those behind him; the quest’s memory binds his name to the blade he carried. The golden island was not spared its wound, and the champion was not carried into the future. His stand belongs to the Third War, long before this Wrath quest asks another hand to restore his sword.",
+      "citationIds": [
+        "quel-delar-restored-thalorien-last-stand-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-thalorien-test-claim",
+      "subjectId": "quel-delar-restored-thalorien-test-event",
+      "predicate": "questline_scene_account",
+      "value": "At Thalorien’s resting place, the Wrath quest sets a new seeker against a trial and a memory of the fallen knight. This encounter does not undo his death or make him a living participant in the restoration. His blessing links the blade’s old bearer to its present burden. The story holds both moments apart: Thalorien fell at the Sunwell in the Third War; a later test asks whether the seeker is worthy to carry his memory onward.",
+      "citationIds": [
+        "quel-delar-restored-thalorien-test-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-two-courts-claim",
+      "subjectId": "quel-delar-restored-two-courts-event",
+      "predicate": "questline_scene_account",
+      "value": "At Quel’Delar’s Rest, an Alliance seeker answers Caladis Brightspear; a Horde seeker answers Myralion Sunblaze. Their plans pass through separate faction halls, and the player follows one allegiance, not both. In the city’s violet heights, old kinship between high and blood elves cannot settle who may claim the blade. The story keeps both roads visible as alternatives, without giving either branch a universal adventurer.",
+      "citationIds": [
+        "quel-delar-restored-two-courts-citation"
+      ],
+      "confidence": "explicit",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-uther-warning-claim",
+      "subjectId": "quel-delar-restored-uther-warning-event",
+      "predicate": "questline_scene_account",
+      "value": "Uther’s spirit speaks beside the chamber’s blade: saronite is the blood of an Old God, and the ore has tainted what the hammer restored. His counsel turns the quest toward the Sunwell. No forging technique can cleanse this wound. Beyond the frozen halls lies a place of older light, reclaimed by the blood elves after its earlier fall. There, the sword’s makers’ legacy may be tested against the darkness forced into it.",
+      "citationIds": [
+        "quel-delar-restored-uther-warning-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-vow-to-restore-claim",
+      "subjectId": "quel-delar-restored-vow-to-restore-event",
+      "predicate": "questline_scene_account",
+      "value": "The sword’s breaking does not end its history. Myralion vows that the Sunreavers will restore it; Caladis leads the Silver Covenant along its separate path. The two representatives are shown here as a comparative split scene, not as companions sharing one event. Their promise gives purpose to the work ahead: remake the blade, face the will bound within it, and seek a cleansing strong enough to remove what the Scourge has left.",
+      "citationIds": [
+        "quel-delar-restored-vow-to-restore-citation"
+      ],
+      "confidence": "explicit",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
+    },
+    {
+      "id": "quel-delar-restored-will-subdued-claim",
+      "subjectId": "quel-delar-restored-will-subdued-event",
+      "predicate": "questline_scene_account",
+      "value": "The seeker resists the sword’s command and brings its will to heel. Quel’Delar survives the struggle; neither its steel nor the story’s inherited name is discarded. Yet victory in the Halls of Reflection is only restraint. The blade was reforged with the dark ore of Icecrown, and a quieted weapon may still bear the touch of the place that shaped it. A voice from the chamber names the deeper danger.",
+      "citationIds": [
+        "quel-delar-restored-will-subdued-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Check quest sequence, faction branch and setting against the original 3.3.5a client before lore approval. Randomized gameplay or mutually exclusive branches do not assert a unique canonical adventurer."
     },
     {
       "id": "quelthalas-fall-event-claim",
@@ -33724,42 +35701,54 @@
     },
     {
       "id": "quel-delar-restored",
-      "title": "Quel'Delar Restored",
+      "slug": "quel-delar-restored",
+      "title": "Quel’Delar: The Broken Blade Restored",
+      "summary": "A battered hilt leads into the sister blade’s contested history, its reforging in Icecrown, purification at the Sunwell, and distinct faction and class endings.",
+      "opening": "The Wrath questline begins with a blade already broken. The seeker’s identity, faction, and eventual reward branch vary; the story follows that shared search without inventing a canonical player.",
       "primaryEraId": "age-of-adventurers",
       "eraIds": [
         "age-of-adventurers"
       ],
-      "summary": "A lost blade's hilt leads through identification, reforging, purification, and a contested return at the Sunwell.",
-      "opening": "A broken remnant can carry a people's memory. The Quel'Delar questline asks who may restore that memory and who may claim the blade afterward.",
-      "sourceIds": [],
-      "reviewNote": "Capture original Wrath quest text and faction-specific endings before treating the outline as a settled account.",
+      "storyGuideId": "quel-delar-restored-guide",
+      "sourceIds": [
+        "quel-delar-wotlk-quest-chain-transcript",
+        "quel-delar-sister-blade-article-mirror",
+        "blizzard-wrath-icecrown-guide",
+        "quel-delar-battered-hilt-quest-locator",
+        "quel-delar-what-dragons-know-quest-locator",
+        "quel-delar-halls-of-reflection-quest-transcript",
+        "quel-delar-journey-and-purification-transcript",
+        "quel-delar-thalorien-dawnseeker-quest-transcript",
+        "quel-delar-faction-and-class-endings-transcript",
+        "blizzard-quel-delar-achievement-overview"
+      ],
       "chapters": [
         {
-          "id": "the-hilt",
+          "id": "the-battered-hilt",
           "eraId": "age-of-adventurers",
-          "title": "The damaged hilt",
-          "body": "Identify where the quest begins and what the hilt reveals."
+          "title": "The battered hilt",
+          "body": "A randomized quest item opens one faction-specific road to Quel’Delar’s Rest and the dragon record."
         },
         {
-          "id": "the-name",
+          "id": "a-blade-remembered",
           "eraId": "age-of-adventurers",
           "title": "A blade remembered",
-          "body": "Trace how Quel'Delar's identity and prior history are established."
+          "body": "Dragon counsel and a returned record lead backward to Anasterian, Thalorien and Lana’thel’s destruction of the blade."
         },
         {
-          "id": "the-forge",
+          "id": "make-the-blade-whole",
           "eraId": "age-of-adventurers",
-          "title": "The reforging",
-          "body": "Follow the steps that restore the physical blade."
+          "title": "Make the blade whole",
+          "body": "The chosen faction promises restoration; saronite reforging and soul-forge tempering lead to the Halls of Reflection."
         },
         {
-          "id": "the-sunwell",
+          "id": "light-and-inheritance",
           "eraId": "age-of-adventurers",
-          "title": "Purification and return",
-          "body": "Review the Sunwell ritual and alternate final handoffs."
+          "title": "Light and inheritance",
+          "body": "The story distinguishes Thalorien’s old death from a later trial, purifies Quel’Delar and resolves into mutually exclusive rewards."
         }
       ],
-      "slug": "quel-delar-restored",
+      "reviewNote": "Research story with secondary quest transcripts and a secondary mirror of an archived Blizzard article. Original Wrath 3.3.5a quest text, relative flashback dates, and faction variants need client comparison and editor review. Randomized loot is a gameplay trigger; Alliance and Horde lines are alternatives; Thalorien’s historical death is distinct from his later quest test; no named adventurer is canonical. Generated art is interpretive; in-client area/model resemblance review remains open.",
       "contentStatus": "research"
     },
     {
@@ -34326,7 +36315,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, then Tirion and Taelan), followed by The Burning Crusade (Karazhan, Akama and the Black Temple, then the Cipher of Damnation preview), and Wrath of the Lich King (Wrathgate preview). The TBC placements organize this map and do not claim canonical relative dates or causal links. The Scepter ancient prologue is a flashback; Dungeon Set 2 companion fates are alternatives; the Fallen Hero faction openings are mutually exclusive; Tirion and Taelan ends at its Classic quest resolution; and Akama raid gates are not one continuous historical campaign. The Hyjal passage is a labeled historical instance, not a route from Outland.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: original Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, then Tirion and Taelan), followed by The Burning Crusade (Karazhan, Akama and the Black Temple, then the Cipher of Damnation preview), and Wrath of the Lich King (Wrathgate preview). The TBC placements organize this map and do not claim canonical relative dates or causal links. The Scepter ancient prologue is a flashback; Dungeon Set 2 companion fates are alternatives; the Fallen Hero faction openings are mutually exclusive; Tirion and Taelan ends at its Classic quest resolution; and Akama raid gates are not one continuous historical campaign. The Hyjal passage is a labeled historical instance, not a route from Outland. Wrath continues from the Wrathgate preview to Quel'Delar at patch 3.3: the order is editorial by expansion-era quest availability, with no causal link implied between those stories. The Quel'Delar chapter distinguishes its randomized Battered Hilt trigger, Third War flashbacks, Lana'thel's prior destruction at Quel'Delar's Rest, and the later Wrath repair. Faction and class endings are alternatives; map pins are editorial, not exact geography or a route.",
       "regions": [
         {
           "id": "kalimdor",
@@ -34494,9 +36483,23 @@
           "order": 9,
           "periodLabel": "Wrath of the Lich King",
           "locationLabel": "Dragonblight · Northrend"
+        },
+        {
+          "storylineId": "quel-delar-restored",
+          "regionIds": [
+            "northrend",
+            "eastern-kingdoms"
+          ],
+          "mapPositionPercent": [
+            61,
+            27
+          ],
+          "order": 10,
+          "periodLabel": "Wrath of the Lich King · patch 3.3.5",
+          "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
         }
       ],
-      "reviewNote": "Playable research stories: The Dragon in Stormwind, Scepter of the Shifting Sands, Dungeon Set 2: The Veiled Blade and Lord Valthalak, The Fallen Hero and Rakhlikh, Tirion and Taelan: Of Love and Family, Karazhan: The Masters Key and Nightbane, and Akama and the Black Temple. The Outland Cipher of Damnation and Northrend Wrathgate remain research previews outside Play All. Original-client quests and builds, faction variants, relative Classic ordering, map art, and matching in-game area/model resemblance remain open for human review; story markers are not exact locations or travel routes.",
+      "reviewNote": "Playable research stories: The Dragon in Stormwind, Scepter of the Shifting Sands, Dungeon Set 2: The Veiled Blade and Lord Valthalak, The Fallen Hero and Rakhlikh, Tirion and Taelan: Of Love and Family, Karazhan: The Masters Key and Nightbane, and Akama and the Black Temple. The Outland Cipher of Damnation and Northrend Wrathgate remain research previews outside Play All. Original-client quests and builds, faction variants, relative Classic ordering, map art, and matching in-game area/model resemblance remain open for human review; story markers are not exact locations or travel routes. Quel’Delar is now a playable 19-node research story with a full transcript and original interpretive scene/cast art; original-client lore and 3.3.5a resemblance checks remain open.",
       "contentStatus": "research"
     }
   ],
@@ -34751,6 +36754,34 @@
         "ordering-story-world-forges",
         "ordering-story-world-shaped",
         "ordering-story-pantheon-departs"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "quel-delar-restored-guide",
+      "eraId": "age-of-adventurers",
+      "title": "Quel’Delar: The Broken Blade Restored",
+      "description": "Nineteen illustrated scenes follow the battered hilt through rival faction plans, the blade’s older history, reforging and tempering in the Frozen Halls, the Sunwell’s cleansing light, and alternative returns to Alliance or Horde hands.",
+      "nodeIds": [
+        "quel-delar-restored-story-battered-hilt-at-rest",
+        "quel-delar-restored-story-two-courts",
+        "quel-delar-restored-story-dragon-counsel",
+        "quel-delar-restored-story-rival-orders",
+        "quel-delar-restored-story-borrowed-disguise",
+        "quel-delar-restored-story-blade-identified",
+        "quel-delar-restored-story-blade-gift",
+        "quel-delar-restored-story-thalorien-last-stand",
+        "quel-delar-restored-story-lanathel-breaks-blade",
+        "quel-delar-restored-story-vow-to-restore",
+        "quel-delar-restored-story-pit-reforging",
+        "quel-delar-restored-story-forge-tempering",
+        "quel-delar-restored-story-blade-compulsion",
+        "quel-delar-restored-story-will-subdued",
+        "quel-delar-restored-story-uther-warning",
+        "quel-delar-restored-story-halduron-refusal",
+        "quel-delar-restored-story-thalorien-test",
+        "quel-delar-restored-story-sunwell-purification",
+        "quel-delar-restored-story-faction-handoffs"
       ],
       "contentStatus": "research"
     },
@@ -42902,6 +44933,1044 @@
       ],
       "previousNodeId": "ordering-story-world-shaped",
       "nextNodeIds": []
+    },
+    {
+      "id": "quel-delar-restored-story-battered-hilt-at-rest",
+      "guideId": "quel-delar-restored-guide",
+      "title": "A hilt without a finder",
+      "narration": "In the Frozen Halls, a battered hilt may fall among the spoils of heroic danger. Its appearance is randomized game loot; no single finder belongs to history. The quest then brings the relic to Quel’Delar’s Rest, where the Silver Covenant or Sunreavers take up the question it carries. Before the sword is whole, its broken remnant has already drawn two rival courts toward the same inheritance.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-battered-hilt-at-rest-event"
+      ],
+      "entityIds": [
+        "battered-hilt"
+      ],
+      "locationIds": [
+        "frozen-halls",
+        "quel-delars-rest"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-quel-delars-rest-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "battered-hilt"
+        }
+      ],
+      "nextNodeIds": [
+        "quel-delar-restored-story-two-courts"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-battered-hilt-at-rest.mp3",
+        "durationMs": 27050,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-two-courts",
+      "guideId": "quel-delar-restored-guide",
+      "title": "Two courts, one inheritance",
+      "narration": "At Quel’Delar’s Rest, an Alliance seeker answers Caladis Brightspear; a Horde seeker answers Myralion Sunblaze. Their plans pass through separate faction halls, and the player follows one allegiance, not both. In the city’s violet heights, old kinship between high and blood elves cannot settle who may claim the blade. The story keeps both roads visible as alternatives, without giving either branch a universal adventurer.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-two-courts-event"
+      ],
+      "entityIds": [
+        "silver-covenant",
+        "sunreavers"
+      ],
+      "locationIds": [
+        "quel-delars-rest"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-quel-delars-rest-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "silver-covenant"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "sunreavers"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-battered-hilt-at-rest",
+      "nextNodeIds": [
+        "quel-delar-restored-story-dragon-counsel"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-two-courts.mp3",
+        "durationMs": 28125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-dragon-counsel",
+      "guideId": "quel-delar-restored-guide",
+      "title": "The dragons weigh the risk",
+      "narration": "At Wyrmrest Temple, Krasus lends the seekers a record of the ancient blade. Kalecgos asks whether mortals should command such power: the dragons have known the grief of a mighty weapon turned against them. Alexstrasza permits the search to continue, though permission is not an answer to every fear. Beneath the red-bronze shrine, the hilt’s past begins to emerge as both a promise and a warning.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-dragon-counsel-event"
+      ],
+      "entityIds": [
+        "krasus",
+        "kalecgos",
+        "alexstrasza",
+        "battered-hilt"
+      ],
+      "locationIds": [
+        "wyrmrest-temple"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-wyrmrest-temple-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "krasus"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kalecgos"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "alexstrasza"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "battered-hilt"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-two-courts",
+      "nextNodeIds": [
+        "quel-delar-restored-story-rival-orders"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-dragon-counsel.mp3",
+        "durationMs": 26500,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-rival-orders",
+      "guideId": "quel-delar-restored-guide",
+      "title": "Orders in the violet city",
+      "narration": "In Dalaran, Caladis Brightspear and Myralion Sunblaze each direct their own faction’s search. Their orders are parallel branches in the quest, not a single council where both factions agree. The city’s pale towers and violet enchantments stand above a contest of memory: each side would restore the old blade, and each expects its own people to guard the inheritance.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-rival-orders-event"
+      ],
+      "entityIds": [
+        "caladis-brightspear",
+        "myralion-sunblaze"
+      ],
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-dalaran-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "caladis-brightspear"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "myralion-sunblaze"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-dragon-counsel",
+      "nextNodeIds": [
+        "quel-delar-restored-story-borrowed-disguise"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-rival-orders.mp3",
+        "durationMs": 25625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-borrowed-disguise",
+      "guideId": "quel-delar-restored-guide",
+      "title": "A borrowed guise for old records",
+      "narration": "A disguise opens a way to records guarded by suspicion and old allegiances. The faction quest asks its chosen seeker to recover the ancient dragonforged blades’ history, not to invent a new forging tale. Here the folio stands for those recovered records, not an exact published volume. The theft is a game objective; the story keeps its danger and purpose, not every repeated step of play.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-borrowed-disguise-event"
+      ],
+      "entityIds": [
+        "ancient-dragonforged-blades-record",
+        "silver-covenant",
+        "sunreavers"
+      ],
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-dalaran-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ancient-dragonforged-blades-record"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "silver-covenant"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "sunreavers"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-rival-orders",
+      "nextNodeIds": [
+        "quel-delar-restored-story-blade-identified"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-borrowed-disguise.mp3",
+        "durationMs": 28000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-blade-identified",
+      "guideId": "quel-delar-restored-guide",
+      "title": "The name in the record",
+      "narration": "Returned to the dragon’s record, the story of the hilt resolves into a name: Quel’Delar, sister to Quel’Serrar. Its remembered history binds red dragonflight craft to the high elven crown and to a defender who stood before the Sunwell. The book does not make the sword’s inheritance simple. It tells how a gift can outlive a kingdom’s wound, while leaving its next bearer to be contested.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-blade-identified-event"
+      ],
+      "entityIds": [
+        "ancient-dragonforged-blades-record",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-dalaran-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ancient-dragonforged-blades-record"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-borrowed-disguise",
+      "nextNodeIds": [
+        "quel-delar-restored-story-blade-gift"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-blade-identified.mp3",
+        "durationMs": 26175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-blade-gift",
+      "guideId": "quel-delar-restored-guide",
+      "title": "A gift carried through generations",
+      "narration": "In the older account, Alexstrasza gives the blade to Anasterian, and the high king later entrusts it to Thalorien Dawnseeker. This is a remembered handoff, not a ceremony whose room or date the tale records. The Sunwell’s ancient light matters because the sword’s future defense is bound to Quel’Thalas. Its gold and red radiance now illuminates a gift moving toward its trial.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-blade-gift-event"
+      ],
+      "entityIds": [
+        "alexstrasza",
+        "anasterian-sunstrider",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "quelthalas-region"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-sunwell-chamber-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "alexstrasza"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "anasterian-sunstrider"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-blade-identified",
+      "nextNodeIds": [
+        "quel-delar-restored-story-thalorien-last-stand"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-blade-gift.mp3",
+        "durationMs": 26950,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-thalorien-last-stand",
+      "guideId": "quel-delar-restored-guide",
+      "title": "Thalorien at the Sunwell gate",
+      "narration": "When the Scourge reached Quel’Thalas, Thalorien held the approach before the Sunwell. He fell in that defense, buying time for those behind him; the quest’s memory binds his name to the blade he carried. The golden island was not spared its wound, and the champion was not carried into the future. His stand belongs to the Third War, long before this Wrath quest asks another hand to restore his sword.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-thalorien-last-stand-event"
+      ],
+      "entityIds": [
+        "thalorien-dawnseeker",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-sunwell-exterior-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "thalorien-dawnseeker"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-blade-gift",
+      "nextNodeIds": [
+        "quel-delar-restored-story-lanathel-breaks-blade"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-thalorien-last-stand.mp3",
+        "durationMs": 26350,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-lanathel-breaks-blade",
+      "guideId": "quel-delar-restored-guide",
+      "title": "Lana’thel breaks the blade",
+      "narration": "At Quel’Delar’s Rest, a more recent memory darkens the snow. Lana’thel recounts how the sword passed from Thalorien into her hands after his fall, and how, as the Lich King’s servant, she was ordered to destroy it. She carried Quel’Delar north and broke it here. Her account joins a knight’s last defense to a queen’s enslavement; the broken hilt at the quest’s opening is the remnant of that command.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-lanathel-breaks-blade-event"
+      ],
+      "entityIds": [
+        "blood-queen-lanathel",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "quel-delars-rest"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-quel-delars-rest-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "blood-queen-lanathel"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-thalorien-last-stand",
+      "nextNodeIds": [
+        "quel-delar-restored-story-vow-to-restore"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-lanathel-breaks-blade.mp3",
+        "durationMs": 26700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-vow-to-restore",
+      "guideId": "quel-delar-restored-guide",
+      "title": "A vow to make the blade whole",
+      "narration": "The sword’s breaking does not end its history. Myralion vows that the Sunreavers will restore it; Caladis leads the Silver Covenant along its separate path. The two representatives are shown here as a comparative split scene, not as companions sharing one event. Their promise gives purpose to the work ahead: remake the blade, face the will bound within it, and seek a cleansing strong enough to remove what the Scourge has left.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-vow-to-restore-event"
+      ],
+      "entityIds": [
+        "caladis-brightspear",
+        "myralion-sunblaze",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "quel-delars-rest"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-quel-delars-rest-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "caladis-brightspear"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "myralion-sunblaze"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-lanathel-breaks-blade",
+      "nextNodeIds": [
+        "quel-delar-restored-story-pit-reforging"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-vow-to-restore.mp3",
+        "durationMs": 27550,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-pit-reforging",
+      "guideId": "quel-delar-restored-guide",
+      "title": "Reforged in the Pit of Saron",
+      "narration": "In the Pit of Saron, the quest sets the old blade against saronite: five infused bars and a forgehammer remake its broken length. The mine is a place of forced labor beneath Icecrown, its black ore cut from a frozen wound. This is a player objective, not a separate campaign of named smiths. When the pieces are joined, the sword is whole again—but the material that holds it also carries a peril.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-pit-reforging-event"
+      ],
+      "entityIds": [
+        "quel-delar"
+      ],
+      "locationIds": [
+        "pit-of-saron"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-pit-of-saron-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-vow-to-restore",
+      "nextNodeIds": [
+        "quel-delar-restored-story-forge-tempering"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-pit-reforging.mp3",
+        "durationMs": 27750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-forge-tempering",
+      "guideId": "quel-delar-restored-guide",
+      "title": "Tempered in the Forge of Souls",
+      "narration": "The newly joined blade travels to the Crucible of Souls, deep within the Forge of Souls. There it is tempered amid the machinery of the Lich King’s frozen halls. Blue soul-light gathers around the Crucible as the blade takes its new shape. The work succeeds in making a weapon whole, yet the next chamber reveals that a finished edge and a clean spirit are not the same thing.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-forge-tempering-event"
+      ],
+      "entityIds": [
+        "quel-delar"
+      ],
+      "locationIds": [
+        "forge-of-souls"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-forge-of-souls-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-pit-reforging",
+      "nextNodeIds": [
+        "quel-delar-restored-story-blade-compulsion"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-forge-tempering.mp3",
+        "durationMs": 25050,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-blade-compulsion",
+      "guideId": "quel-delar-restored-guide",
+      "title": "The sword draws toward the Halls",
+      "narration": "From the frozen forge, Quel’Delar presses its bearer toward the Halls of Reflection. The quest frames this as compulsion: the blade has a will, and its direction leads into the Lich King’s chamber. This direction belongs to the quest’s magic, not any trail blazed by the seeker. In the blue-black hall, the sword’s restoration turns inward. The first danger is no longer whether it can be wielded, but who commands whom.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-blade-compulsion-event"
+      ],
+      "entityIds": [
+        "quel-delar"
+      ],
+      "locationIds": [
+        "halls-of-reflection"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-halls-of-reflection-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-forge-tempering",
+      "nextNodeIds": [
+        "quel-delar-restored-story-will-subdued"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-blade-compulsion.mp3",
+        "durationMs": 27850,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-will-subdued",
+      "guideId": "quel-delar-restored-guide",
+      "title": "The blade’s will is subdued",
+      "narration": "The seeker resists the sword’s command and brings its will to heel. Quel’Delar survives the struggle; neither its steel nor the story’s inherited name is discarded. Yet victory in the Halls of Reflection is only restraint. The blade was reforged with the dark ore of Icecrown, and a quieted weapon may still bear the touch of the place that shaped it. A voice from the chamber names the deeper danger.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-will-subdued-event"
+      ],
+      "entityIds": [
+        "quel-delar"
+      ],
+      "locationIds": [
+        "halls-of-reflection"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-halls-of-reflection-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-blade-compulsion",
+      "nextNodeIds": [
+        "quel-delar-restored-story-uther-warning"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-will-subdued.mp3",
+        "durationMs": 26925,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-uther-warning",
+      "guideId": "quel-delar-restored-guide",
+      "title": "Uther names the taint",
+      "narration": "Uther’s spirit speaks beside the chamber’s blade: saronite is the blood of an Old God, and the ore has tainted what the hammer restored. His counsel turns the quest toward the Sunwell. No forging technique can cleanse this wound. Beyond the frozen halls lies a place of older light, reclaimed by the blood elves after its earlier fall. There, the sword’s makers’ legacy may be tested against the darkness forced into it.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-uther-warning-event"
+      ],
+      "entityIds": [
+        "uther-lightbringer",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "halls-of-reflection"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-halls-of-reflection-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "uther-lightbringer"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-will-subdued",
+      "nextNodeIds": [
+        "quel-delar-restored-story-halduron-refusal"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-uther-warning.mp3",
+        "durationMs": 28600,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-halduron-refusal",
+      "guideId": "quel-delar-restored-guide",
+      "title": "A sacred shore must be approached",
+      "narration": "At Quel’Danas, Halduron Brightwing first refuses the seeker entry to a sacred place recently reclaimed by the blood elves. The Sunwell is no casual road’s end. Its shores carry the memory of a kingdom nearly lost, and trust must be earned before the blade can reach its light. Beyond the Dead Scar, pale stone and red-gold towers frame a question of stewardship: who may bring this dangerous inheritance to the well?",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-halduron-refusal-event"
+      ],
+      "entityIds": [
+        "halduron-brightwing",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "isle-of-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-sunwell-exterior-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "halduron-brightwing"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-uther-warning",
+      "nextNodeIds": [
+        "quel-delar-restored-story-thalorien-test"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-halduron-refusal.mp3",
+        "durationMs": 28175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-thalorien-test",
+      "guideId": "quel-delar-restored-guide",
+      "title": "A later trial at Thalorien’s rest",
+      "narration": "At Thalorien’s resting place, the Wrath quest sets a new seeker against a trial and a memory of the fallen knight. This encounter does not undo his death or make him a living participant in the restoration. His blessing links the blade’s old bearer to its present burden. The story holds both moments apart: Thalorien fell at the Sunwell in the Third War; a later test asks whether the seeker is worthy to carry his memory onward.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-thalorien-test-event"
+      ],
+      "entityIds": [
+        "thalorien-dawnseeker",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-sunwell-exterior-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "thalorien-dawnseeker"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-halduron-refusal",
+      "nextNodeIds": [
+        "quel-delar-restored-story-sunwell-purification"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-thalorien-test.mp3",
+        "durationMs": 28325,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-sunwell-purification",
+      "guideId": "quel-delar-restored-guide",
+      "title": "Purified in the Sunwell",
+      "narration": "At last the tempered blade is lowered into the Sunwell. Light passes through the old steel and the saronite taint is cleansed; the quest presents a purified Quel’Delar where the corrupted weapon had rested. The well does not erase Lana’Thel’s command, Thalorien’s sacrifice, or the peril of the halls. It changes what can be carried forward. A weapon once broken and then remade leaves the sacred waters with a new claim upon the living.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-sunwell-purification-event"
+      ],
+      "entityIds": [
+        "quel-delar"
+      ],
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-sunwell-chamber-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-thalorien-test",
+      "nextNodeIds": [
+        "quel-delar-restored-story-faction-handoffs"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-sunwell-purification.mp3",
+        "durationMs": 29100,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "quel-delar-restored-story-faction-handoffs",
+      "guideId": "quel-delar-restored-guide",
+      "title": "Two returns, no single heir",
+      "narration": "The restored weapon returns to Dalaran by faction-specific roads. An Alliance seeker reports through Caladis and the Silver Covenant; a Horde seeker through Myralion and the Sunreavers. In the blood-elf sword branch, Aethas publicly presents the new bearer. Other characters unable to wield the sword receive a different weapon type. These are alternative game outcomes, not one champion’s combined history, and no named adventurer is made the canonical heir.",
+      "durationMs": 5500,
+      "eventIds": [
+        "quel-delar-restored-faction-handoffs-event"
+      ],
+      "entityIds": [
+        "caladis-brightspear",
+        "myralion-sunblaze",
+        "aethas-sunreaver",
+        "silver-covenant",
+        "sunreavers",
+        "quel-delar"
+      ],
+      "locationIds": [
+        "dalaran-wrath"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "quel-delar-restored-dalaran-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "caladis-brightspear"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "myralion-sunblaze"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "aethas-sunreaver"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "silver-covenant"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "sunreavers"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "quel-delar"
+        }
+      ],
+      "previousNodeId": "quel-delar-restored-story-sunwell-purification",
+      "voiceover": {
+        "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-faction-handoffs.mp3",
+        "durationMs": 30850,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
     },
     {
       "id": "horde-rise-story-two-peoples",
