@@ -634,7 +634,7 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(194);
+    expect(events).toHaveLength(220);
     expect(events.filter((event) => event.id.startsWith('onyxia-'))).toHaveLength(21);
     expect(events.filter((event) => event.id.startsWith('dungeon-set-two-'))).toHaveLength(22);
     expect(events.filter((event) => event.id.startsWith('fallen-hero-and-rakhlikh-'))).toHaveLength(15);
@@ -642,6 +642,7 @@ describe('lore dataset', () => {
     expect(events.filter((event) => event.id.startsWith('darrowshire-lost-and-remembered-'))).toHaveLength(16);
     expect(events.filter((event) => event.id.startsWith('karazhan-masters-key-and-nightbane-'))).toHaveLength(18);
     expect(events.filter((event) => event.id.startsWith('akama-and-black-temple-'))).toHaveLength(20);
+    expect(events.filter((event) => event.id.startsWith('cipher-of-damnation-oronok-'))).toHaveLength(26);
     expect(battles).toHaveLength(2);
     expect(guide.nodeIds).toHaveLength(10);
     expect(mapStates.map((state) => state.worldspaceId)).toEqual([

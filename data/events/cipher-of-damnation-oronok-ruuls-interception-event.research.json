@@ -1,0 +1,27 @@
+{
+  "id": "cipher-of-damnation-oronok-ruuls-interception-event",
+  "kind": "event",
+  "name": "Borak’s charge",
+  "slug": "cipher-of-damnation-oronok-ruuls-interception",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "cipher-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "Burning Crusade Shadowmoon quest chain; exact in-world date unknown"
+  },
+  "summary": "Borak names Ruul the Darkener and the transport carrying the third part. The quest directs the adventurer to intercept it somewhere between Dragonmaw Fortress and the Sanctum of the Stars, across the Netherwing Fields. We keep that broad description broad rather than drawing a false route or pinpoint. Ruul is a dangerous target, and the instruction warns the seeker to gather help before the fragment can be claimed.",
+  "locationIds": [
+    "cipher-netherwing-fields"
+  ],
+  "participantEntityIds": [
+    "borak-torn-heart",
+    "ruul-the-darkener"
+  ],
+  "sourceIds": [
+    "cipher-borak-charge-quest"
+  ],
+  "claimIds": [
+    "cipher-of-damnation-oronok-ruuls-interception-claim"
+  ],
+  "contentStatus": "research"
+}

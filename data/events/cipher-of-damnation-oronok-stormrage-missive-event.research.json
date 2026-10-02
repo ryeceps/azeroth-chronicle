@@ -1,0 +1,29 @@
+{
+  "id": "cipher-of-damnation-oronok-stormrage-missive-event",
+  "kind": "event",
+  "name": "The Stormrage missive",
+  "slug": "cipher-of-damnation-oronok-stormrage-missive",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "cipher-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "Burning Crusade Shadowmoon quest chain; exact in-world date unknown"
+  },
+  "summary": "The quest directs the adventurer to kill Icarius once he is alone and recover the Stormrage missive. Borak reads it and learns that Illidan’s directive concerns where the Cipher is to be hidden next; the letter does not reveal where it currently rests. The envoy’s fate is not extended beyond this objective. What Borak gains is a glimpse of the wider contest over the fragments.",
+  "locationIds": [
+    "cipher-eclipse-point"
+  ],
+  "participantEntityIds": [
+    "borak-torn-heart",
+    "envoy-icarius",
+    "stormrage-missive"
+  ],
+  "sourceIds": [
+    "cipher-thistlehead-trap-quest",
+    "cipher-stormrage-missive-quest"
+  ],
+  "claimIds": [
+    "cipher-of-damnation-oronok-stormrage-missive-claim"
+  ],
+  "contentStatus": "research"
+}
