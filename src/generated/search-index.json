@@ -1077,6 +1077,27 @@
     "contentStatus": "research"
   },
   {
+    "id": "baros-alexston",
+    "type": "entity",
+    "name": "Baros Alexston",
+    "slug": "baros-alexston",
+    "path": "/locations/baros-alexston",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "The former architect who receives the Unsent Letter and prepares a report for the absent king.",
+    "sourceIds": [
+      "defias-quest-373",
+      "defias-quest-394",
+      "defias-quest-395",
+      "defias-quest-396"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "battered-hilt",
     "type": "entity",
     "name": "Battered Hilt",
@@ -1091,6 +1112,25 @@
     "description": "Battered Hilt, represented in the Quel’Delar restoration research story.",
     "sourceIds": [
       "quel-delar-battered-hilt-quest-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "bazil-thredd",
+    "type": "entity",
+    "name": "Bazil Thredd",
+    "slug": "bazil-thredd",
+    "path": "/locations/bazil-thredd",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "A Stockades prisoner whose account describes the Stonemasons’ grievance from his viewpoint.",
+    "sourceIds": [
+      "defias-quest-389",
+      "defias-quest-391"
     ],
     "contentStatus": "research"
   },
@@ -2257,6 +2297,252 @@
     "contentStatus": "research"
   },
   {
+    "id": "defias-brotherhood",
+    "type": "entity",
+    "name": "The Defias Brotherhood",
+    "slug": "defias-brotherhood",
+    "path": "/factions/defias-brotherhood",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "The organization opposing Gryan’s militia in Westfall and named in the later Stormwind investigation.",
+    "sourceIds": [
+      "defias-quest-65",
+      "defias-quest-132",
+      "defias-quest-142",
+      "defias-quest-155",
+      "defias-quest-166"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-deadmines-ship",
+    "type": "entity",
+    "name": "VanCleef’s ship in the Deadmines",
+    "slug": "defias-deadmines-ship",
+    "path": "/locations/defias-deadmines-ship",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "classic-area-reference",
+      "interpretive-art"
+    ],
+    "description": "Original World of Warcraft Classic: dark timber, rigging, warm torchlight, and rock enclosing an underground ship. Exact placement and deck layout remain interpretive.",
+    "sourceIds": [
+      "defias-quest-166"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-deadmines",
+    "type": "entity",
+    "name": "The Deadmines",
+    "slug": "defias-deadmines",
+    "path": "/locations/defias-deadmines",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "classic-area-reference",
+      "interpretive-art"
+    ],
+    "description": "Original World of Warcraft Classic: timber bracing, rough worked shafts, red ore, stone walls, and torchlit mine passages. The illustration is not a surveyed dungeon layout.",
+    "sourceIds": [
+      "defias-quest-155",
+      "defias-quest-166"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-lakeshire",
+    "type": "entity",
+    "name": "Lakeshire, Redridge Mountains",
+    "slug": "defias-lakeshire",
+    "path": "/locations/defias-lakeshire",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "classic-area-reference",
+      "interpretive-art"
+    ],
+    "description": "Original World of Warcraft Classic: red-orange wooded slopes, a blue lake, and Lakeshire’s timber waterfront. No exact travel path from Westfall is asserted.",
+    "sourceIds": [
+      "defias-quest-65",
+      "defias-quest-132"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-moonbrook",
+    "type": "entity",
+    "name": "Moonbrook",
+    "slug": "defias-moonbrook",
+    "path": "/locations/defias-moonbrook",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "classic-area-reference",
+      "interpretive-art"
+    ],
+    "description": "Original World of Warcraft Classic: a poor, weathered Westfall village near the mine entrance, among dry farmland. No particular house or hideout entrance is located precisely.",
+    "sourceIds": [
+      "defias-quest-155"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-stormwind-cathedral-square",
+    "type": "entity",
+    "name": "Stormwind Cathedral Square and city hall",
+    "slug": "defias-stormwind-cathedral-square",
+    "path": "/locations/defias-stormwind-cathedral-square",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "classic-area-reference",
+      "interpretive-art"
+    ],
+    "description": "Original World of Warcraft Classic: open civic square, luminous pale limestone, white cathedral spires, blue rooflines, and gold trim. The composition is original, not a map capture.",
+    "sourceIds": [
+      "defias-quest-373",
+      "defias-quest-394",
+      "defias-quest-395"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-stormwind-keep-garden",
+    "type": "entity",
+    "name": "Stormwind Keep gardens",
+    "slug": "defias-stormwind-keep-garden",
+    "path": "/locations/defias-stormwind-keep-garden",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "classic-area-reference",
+      "interpretive-art"
+    ],
+    "description": "Original World of Warcraft Classic: cultivated keep gardens beside pale or white stone, blue roofs, and restrained gold details. Keep architecture is not rendered in red-brown stone.",
+    "sourceIds": [
+      "defias-quest-2745",
+      "defias-quest-2746",
+      "defias-quest-434"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-stormwind-keep-hall",
+    "type": "entity",
+    "name": "Stormwind Keep throne hall",
+    "slug": "defias-stormwind-keep-hall",
+    "path": "/locations/defias-stormwind-keep-hall",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "classic-area-reference",
+      "interpretive-art"
+    ],
+    "description": "Original World of Warcraft Classic: pale limestone, blue standards, and gold accents. Reuses the matching-era Stormwind Keep interpretation made for the Onyxia story.",
+    "sourceIds": [
+      "defias-quest-396"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-stormwind-old-town",
+    "type": "entity",
+    "name": "Stormwind Old Town and SI:7",
+    "slug": "defias-stormwind-old-town",
+    "path": "/locations/defias-stormwind-old-town",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "classic-area-reference",
+      "interpretive-art"
+    ],
+    "description": "Original World of Warcraft Classic: compact Old Town streets, pale limestone, blue roof tile, restrained gold accents, and a discreet intelligence hall.",
+    "sourceIds": [
+      "defias-quest-135",
+      "defias-quest-141",
+      "defias-quest-393",
+      "defias-quest-350",
+      "defias-quest-394",
+      "defias-quest-395"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-stormwind-stockades",
+    "type": "entity",
+    "name": "Stormwind Stockades",
+    "slug": "defias-stormwind-stockades",
+    "path": "/locations/defias-stormwind-stockades",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "classic-area-reference",
+      "interpretive-art"
+    ],
+    "description": "Original World of Warcraft Classic: close gray stone blocks, iron bars, low arches, damp shadow, and torch pools. The scene does not reconstruct a precise cell block.",
+    "sourceIds": [
+      "defias-quest-389",
+      "defias-quest-391",
+      "defias-quest-392"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-tyrion",
+    "type": "entity",
+    "name": "Tyrion",
+    "slug": "defias-tyrion",
+    "path": "/locations/defias-tyrion",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "The observer Trias introduces, who prepares the Spybot operation against Lescovar.",
+    "sourceIds": [
+      "defias-quest-2745",
+      "defias-quest-2746",
+      "defias-quest-434"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-westfall",
+    "type": "entity",
+    "name": "Westfall",
+    "slug": "defias-westfall",
+    "path": "/locations/defias-westfall",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "classic-area-reference",
+      "interpretive-art"
+    ],
+    "description": "Original World of Warcraft Classic: dry, wind-scoured golden fields, sparse farms, pale dirt roads, and the Sentinel Hill watchtower. No exact farm or battle position is asserted.",
+    "sourceIds": [
+      "defias-quest-65",
+      "defias-quest-142"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "deliana",
     "type": "entity",
     "name": "Deliana",
@@ -2529,6 +2815,26 @@
     "contentStatus": "research"
   },
   {
+    "id": "edwin-vancleef",
+    "type": "entity",
+    "name": "Edwin VanCleef",
+    "slug": "edwin-vancleef",
+    "path": "/locations/edwin-vancleef",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "The former Stonemasons leader named in Shaw’s report and the leader pursued in the Deadmines.",
+    "sourceIds": [
+      "defias-quest-141",
+      "defias-quest-166",
+      "defias-quest-373"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "eitrigg",
     "type": "entity",
     "name": "Eitrigg",
@@ -2563,6 +2869,26 @@
     "description": "The innumerable air, fire, earth, and water spirits led by Azeroth's four Elemental Lords.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "elling-trias",
+    "type": "entity",
+    "name": "Elling Trias",
+    "slug": "elling-trias",
+    "path": "/locations/elling-trias",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "The contact Shaw directs the player to when he doubts a noble can be brought to trial.",
+    "sourceIds": [
+      "defias-quest-350",
+      "defias-quest-2745",
+      "defias-quest-2746"
     ],
     "contentStatus": "research"
   },
@@ -2981,6 +3307,28 @@
     "sourceIds": [
       "warcraft-chronicle-volume-3",
       "blizzard-warcraft-iii-story-so-far"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "gryan-stoutmantle",
+    "type": "entity",
+    "name": "Gryan Stoutmantle",
+    "slug": "gryan-stoutmantle",
+    "path": "/locations/gryan-stoutmantle",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "The Westfall militia leader who directs the opening investigations and reports their outcomes.",
+    "sourceIds": [
+      "defias-quest-65",
+      "defias-quest-135",
+      "defias-quest-141",
+      "defias-quest-142",
+      "defias-quest-166"
     ],
     "contentStatus": "research"
   },
@@ -4056,6 +4404,27 @@
     "contentStatus": "research"
   },
   {
+    "id": "lord-gregor-lescovar",
+    "type": "entity",
+    "name": "Lord Gregor Lescovar",
+    "slug": "lord-gregor-lescovar",
+    "path": "/locations/lord-gregor-lescovar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "The Stormwind noble named in Shaw’s report and encountered in the garden investigation.",
+    "sourceIds": [
+      "defias-quest-393",
+      "defias-quest-2745",
+      "defias-quest-2746",
+      "defias-quest-434"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "lord-valthalak",
     "type": "entity",
     "name": "Lord Valthalak",
@@ -4237,6 +4606,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "marzon",
+    "type": "entity",
+    "name": "Marzon",
+    "slug": "marzon",
+    "path": "/locations/marzon",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "The covert agent Shaw identifies as Lescovar’s employee.",
+    "sourceIds": [
+      "defias-quest-393",
+      "defias-quest-434"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "masters-key-fragments",
     "type": "entity",
     "name": "The Master’s Key fragments",
@@ -4274,6 +4662,29 @@
       "karazhan-masters-touch-quest-text",
       "karazhan-official-attunement-overview",
       "karazhan-key-quest-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "mathias-shaw",
+    "type": "entity",
+    "name": "Mathias Shaw",
+    "slug": "mathias-shaw",
+    "path": "/locations/mathias-shaw",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "Stormwind’s SI:7 head, who reports on the Stonemasons and later directs the noble investigation.",
+    "sourceIds": [
+      "defias-quest-135",
+      "defias-quest-141",
+      "defias-quest-393",
+      "defias-quest-350",
+      "defias-quest-394",
+      "defias-quest-395"
     ],
     "contentStatus": "research"
   },
@@ -5759,6 +6170,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "stormwind-stonemasons",
+    "type": "entity",
+    "name": "The Stonemasons",
+    "slug": "stormwind-stonemasons",
+    "path": "/factions/stormwind-stonemasons",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "The rebuilding guild described in Shaw’s report and Bazil’s later recollection.",
+    "sourceIds": [
+      "defias-quest-141",
+      "defias-quest-389"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "stranglethorn-vale-camp",
     "type": "entity",
     "name": "Galvan’s camp in Stranglethorn Vale",
@@ -6356,6 +6786,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "unsent-letter",
+    "type": "entity",
+    "name": "The Unsent Letter",
+    "slug": "unsent-letter",
+    "path": "/locations/unsent-letter",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "A letter recovered from VanCleef that starts a separate investigation. Its full contents are not supplied by the quest locator.",
+    "sourceIds": [
+      "defias-quest-373"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "uther-lightbringer",
     "type": "entity",
     "name": "Uther Lightbringer",
@@ -6619,6 +7067,26 @@
     "contentStatus": "research"
   },
   {
+    "id": "warden-thelwater",
+    "type": "entity",
+    "name": "Warden Thelwater",
+    "slug": "warden-thelwater",
+    "path": "/locations/warden-thelwater",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "The Stockades warden who gives the riot order and recalls a visitor registered as Maelik.",
+    "sourceIds": [
+      "defias-quest-389",
+      "defias-quest-391",
+      "defias-quest-392"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "wardens-cage",
     "type": "entity",
     "name": "The Warden’s Cage",
@@ -6653,6 +7121,46 @@
     "description": "The immense arcane lake formed when the keepers stabilized the wound left by Y'Shaarj's removal.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "westfall-peoples-militia",
+    "type": "entity",
+    "name": "The People’s Militia of Westfall",
+    "slug": "westfall-peoples-militia",
+    "path": "/factions/westfall-peoples-militia",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "The local militia whose leader investigates the Brotherhood’s pressure on Westfall residents.",
+    "sourceIds": [
+      "defias-quest-65",
+      "defias-quest-142",
+      "defias-quest-155",
+      "defias-quest-166"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wiley-the-black",
+    "type": "entity",
+    "name": "Wiley the Black",
+    "slug": "wiley-the-black",
+    "path": "/locations/wiley-the-black",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "defias-story",
+      "interpretive-art"
+    ],
+    "description": "A Lakeshire informant whose written report describes Defias cooperation with other groups.",
+    "sourceIds": [
+      "defias-quest-65",
+      "defias-quest-132"
     ],
     "contentStatus": "research"
   },
@@ -7849,6 +8357,324 @@
     "sourceIds": [
       "blizzard-cataclysm-deathwing",
       "warcraft-chronicle-volume-3"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-audience-unanswered-event",
+    "type": "event",
+    "name": "An audience without Varian",
+    "slug": "defias-original-conspiracy-audience-unanswered",
+    "path": "/events/defias-original-conspiracy-audience-unanswered",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Baros’s report is delivered to Katrana Prestor because King Varian is away on diplomacy. The quest closes at this handoff and records a token of royal appreciation, but it does not answer what the report will change. The Keep’s pale stone, blue standards, and gold accents frame an unfinished political question; the story ends here without joining it to another conspiracy.",
+    "sourceIds": [
+      "defias-quest-396"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-bazil-account-event",
+    "type": "event",
+    "name": "Bazil tells his version",
+    "slug": "defias-original-conspiracy-bazil-account",
+    "path": "/events/defias-original-conspiracy-bazil-account",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "In the Stockades, Bazil Thredd describes the Stonemasons’ work as unpaid and cheated, then recounts the riot and VanCleef’s leadership. His account is evidence of what Bazil says, not a neutral verdict on every detail. The prison’s close stone and iron make the testimony feel contained, while the grievance reaches back to the rebuilt city.",
+    "sourceIds": [
+      "defias-quest-389"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-deadmines-descent-event",
+    "type": "event",
+    "name": "Below the mine",
+    "slug": "defias-original-conspiracy-deadmines-descent",
+    "path": "/events/defias-original-conspiracy-deadmines-descent",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Moonbrook opens toward the Deadmines, where conflict passes from exposed farmland into worked passages. Timber braces, ore, and torchlit stone give the underground settlement a character distinct from the fields above. The refuge lies beneath the farmland, though the precise chambers are unknown.",
+    "sourceIds": [
+      "defias-quest-155",
+      "defias-quest-166"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-garden-meeting-event",
+    "type": "event",
+    "name": "The meeting in the garden",
+    "slug": "defias-original-conspiracy-garden-meeting",
+    "path": "/events/defias-original-conspiracy-garden-meeting",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The quest sends the adventurer to overhear a meeting about the Defias, then kill Lescovar and Marzon. Its transcription leaves the precise exchange unknown. Pale stone, blue roofs, and gold trim frame the garden beside Stormwind Keep, where the city’s formal face surrounds a secret meeting.",
+    "sourceIds": [
+      "defias-quest-434"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-justice-outside-law-event",
+    "type": "event",
+    "name": "When evidence meets rank",
+    "slug": "defias-original-conspiracy-justice-outside-law",
+    "path": "/events/defias-original-conspiracy-justice-outside-law",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Shaw doubts that evidence against a connected noble will readily bring justice through ordinary channels. He sends the investigator to Elling Trias, placing the next step outside the formal report he has just described. This is Shaw’s judgment, not a universal statement about Stormwind law, and the story does not conceal the cost of taking the extralegal path.",
+    "sourceIds": [
+      "defias-quest-350"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-maeliks-visits-event",
+    "type": "event",
+    "name": "The visitor named Maelik",
+    "slug": "defias-original-conspiracy-maeliks-visits",
+    "path": "/events/defias-original-conspiracy-maeliks-visits",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "After the riot, Thelwater recalls a recent visitor who signed in as Maelik. At this point the name is a mark in a warden’s account, not a solved identity. The story lets uncertainty remain for one scene: a visitor came, a name was recorded, and the next question belongs to Shaw’s investigation.",
+    "sourceIds": [
+      "defias-quest-392"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-marzon-unmasked-event",
+    "type": "event",
+    "name": "Shaw identifies Marzon",
+    "slug": "defias-original-conspiracy-marzon-unmasked",
+    "path": "/events/defias-original-conspiracy-marzon-unmasked",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Shaw recognizes Marzon as the name behind the alias and says the agent works for Lord Gregor Lescovar. The report turns a vague visitor into a path toward a powerful household. These are Shaw’s conclusions as recorded by the quest, and the Defias inquiry remains bounded by that evidence; no link to Onyxia is introduced.",
+    "sourceIds": [
+      "defias-quest-393"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-messenger-hunted-event",
+    "type": "event",
+    "name": "A messenger carries the trail",
+    "slug": "defias-original-conspiracy-messenger-hunted",
+    "path": "/events/defias-original-conspiracy-messenger-hunted",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Gryan seeks a message from a Defias courier. The quest asks the adventurer to find that messenger, while leaving the meeting place on Westfall’s roads unspecified. The inquiry widens from scattered unrest to written evidence.",
+    "sourceIds": [
+      "defias-quest-142"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-moonbrook-escort-event",
+    "type": "event",
+    "name": "Through Moonbrook",
+    "slug": "defias-original-conspiracy-moonbrook-escort",
+    "path": "/events/defias-original-conspiracy-moonbrook-escort",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The next assignment is an escort through Moonbrook with the traitor leading the way to the hideout. The militia enters familiar Westfall ground now shadowed by the enemy’s presence. No individual adventurer is made the hero of a history they were never named in; the scene follows the objective and leaves the exact path open.",
+    "sourceIds": [
+      "defias-quest-155"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-pirate-ship-event",
+    "type": "event",
+    "name": "The ship beneath the Deadmines",
+    "slug": "defias-original-conspiracy-pirate-ship",
+    "path": "/events/defias-original-conspiracy-pirate-ship",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The quest brings the search to VanCleef’s ship, hidden within the mine. Dark timber and rigging stand against the enclosing rock; the Brotherhood’s stronghold has become a vessel held far from open water. The composition follows the dungeon’s recognizable setting while leaving its exact scale, position, and deck arrangement to the game rather than the illustration.",
+    "sourceIds": [
+      "defias-quest-166"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-report-and-secrecy-event",
+    "type": "event",
+    "name": "Secrecy and Baros’s report",
+    "slug": "defias-original-conspiracy-report-and-secrecy",
+    "path": "/events/defias-original-conspiracy-report-and-secrecy",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The player reports Lescovar’s death to Shaw. Shaw then advises secrecy about who carried out the killing and sends the investigator back to Baros, who prepares a report for the king. The chain records both the violence and the attempt to move its evidence upward; it does not describe a public trial or settle the noble plot.",
+    "sourceIds": [
+      "defias-quest-394",
+      "defias-quest-395"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-shaws-question-event",
+    "type": "event",
+    "name": "Gryan asks SI:7",
+    "slug": "defias-original-conspiracy-shaws-question",
+    "path": "/events/defias-original-conspiracy-shaws-question",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "A clue points Gryan toward Stormwind’s rebuilding guild, but his first link is framed as a question. He asks Mathias Shaw, head of SI:7, to examine the Stonemasons’ history. The inquiry moves from a troubled farming district to the city that the guild once helped rebuild; suspicion has not yet become proof.",
+    "sourceIds": [
+      "defias-quest-135"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-stockades-riot-event",
+    "type": "event",
+    "name": "Riot inside the Stockades",
+    "slug": "defias-original-conspiracy-stockades-riot",
+    "path": "/events/defias-original-conspiracy-stockades-riot",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Warden Thelwater sends the adventurer into the prison riot and orders Bazil killed. The order is what this quest records; it is not a trial, and the story does not invent a speech from Bazil or a count of unnamed prisoners. The investigation has moved from a letter to testimony, then to violence carried out inside the state’s own prison.",
+    "sourceIds": [
+      "defias-quest-391"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-stonemasons-report-event",
+    "type": "event",
+    "name": "What the Stonemasons were owed",
+    "slug": "defias-original-conspiracy-stonemasons-report",
+    "path": "/events/defias-original-conspiracy-stonemasons-report",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Shaw’s report names Edwin VanCleef as leader of the Stonemasons, the guild that rebuilt Stormwind after the First War. Shaw says the builders were treated poorly after their work. This is his account of the grievance, carried back to Gryan as intelligence. The story shows VanCleef as the subject of that report, not as a participant in the conversation.",
+    "sourceIds": [
+      "defias-quest-141"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-traitor-bargain-event",
+    "type": "event",
+    "name": "A captive offers the hideout",
+    "slug": "defias-original-conspiracy-traitor-bargain",
+    "path": "/events/defias-original-conspiracy-traitor-bargain",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Gryan reports that a captured thief offers to reveal the Brotherhood’s hideout in exchange for his life. The offer changes the investigation from scattered evidence to a possible entrance. The captive remains unnamed in the account, and the story does not invent private terms or a scene the quest text does not establish.",
+    "sourceIds": [
+      "defias-quest-142"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-tyrion-and-spybot-event",
+    "type": "event",
+    "name": "Tyrion prepares the watch",
+    "slug": "defias-original-conspiracy-tyrion-and-spybot",
+    "path": "/events/defias-original-conspiracy-tyrion-and-spybot",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Trias introduces Tyrion, who has watched Lescovar. The next preparations are a Spybot, silk, and apples for the observation. The record names Tyrion’s task but leaves his private motives unspoken.",
+    "sourceIds": [
+      "defias-quest-2745",
+      "defias-quest-2746"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-unsent-letter-event",
+    "type": "event",
+    "name": "An unsent letter opens a second trail",
+    "slug": "defias-original-conspiracy-unsent-letter",
+    "path": "/events/defias-original-conspiracy-unsent-letter",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "An item found on VanCleef begins a separate investigation: the Unsent Letter is carried to Baros Alexston. The recovered page is a hinge between the Deadmines and Stormwind, but the quest locator does not provide its full contents. We show a sealed, unreadable object and follow only the next step the record establishes.",
+    "sourceIds": [
+      "defias-quest-373"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-vancleef-falls-event",
+    "type": "event",
+    "name": "VanCleef falls",
+    "slug": "defias-original-conspiracy-vancleef-falls",
+    "path": "/events/defias-original-conspiracy-vancleef-falls",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "VanCleef is killed in the Deadmines, and Gryan sends word that the blow may mark the beginning of the Brotherhood’s end. His hope is not a claim that every Defias cell has vanished. The ship, mine, and leadership have been struck; what remains beyond the quest’s reported outcome is left unresolved.",
+    "sourceIds": [
+      "defias-quest-166"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-westfall-unrest-event",
+    "type": "event",
+    "name": "Farmers driven from Westfall",
+    "slug": "defias-original-conspiracy-westfall-unrest",
+    "path": "/events/defias-original-conspiracy-westfall-unrest",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Gryan Stoutmantle describes people driven from Westfall and asks for a lead on the Defias Brotherhood. The quest gives no calendar date and names no single attack that explains every departure. We begin among thin farms and dry roads, beside the militia post at Sentinel Hill, with Gryan’s report kept distinct from the unseen lives it summarizes.",
+    "sourceIds": [
+      "defias-quest-65"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-wiley-note-event",
+    "type": "event",
+    "name": "Wiley’s written warning",
+    "slug": "defias-original-conspiracy-wiley-note",
+    "path": "/events/defias-original-conspiracy-wiley-note",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Wiley’s note reports that the Defias work with gnolls, kobolds, and goblins. That is intelligence supplied by an informant, not independent confirmation of every alliance he names. Even with that limit, the report widens the problem: Gryan is facing an organized force described as joining people and creatures across Westfall.",
+    "sourceIds": [
+      "defias-quest-132"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "defias-original-conspiracy-wiley-summons-event",
+    "type": "event",
+    "name": "The question moves to Lakeshire",
+    "slug": "defias-original-conspiracy-wiley-summons",
+    "path": "/events/defias-original-conspiracy-wiley-summons",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Instead of sending the militia after every rumor, Gryan directs the adventurer to Wiley the Black in Lakeshire. The quest names the destination but leaves the route unstated. The shift from Westfall’s open gold to Redridge’s wooded shore marks an inquiry crossing into another community, where a written answer awaits.",
+    "sourceIds": [
+      "defias-quest-65"
     ],
     "contentStatus": "research"
   },
@@ -11568,20 +12394,39 @@
     "contentStatus": "research"
   },
   {
-    "id": "defias-two-generations",
+    "id": "defias-original-conspiracy",
     "type": "storyline",
-    "name": "The Defias Across Two Generations",
-    "slug": "defias-two-generations",
-    "path": "/storylines/defias-two-generations",
+    "name": "The Defias and the Unsent Letter",
+    "slug": "defias-original-conspiracy",
+    "path": "/storylines/defias-original-conspiracy",
     "eraId": "age-of-adventurers",
     "eraIds": [
       "age-of-adventurers"
     ],
     "aliases": [],
     "tags": [],
-    "description": "The Defias Brotherhood's grievance, Edwin VanCleef's rebellion, and Vanessa's later vengeance form a generational history of Westfall and Stormwind.",
+    "description": "Gryan Stoutmantle’s Westfall inquiry exposes the grievance Shaw attributes to the Stonemasons, leads into VanCleef’s Deadmines stronghold, and follows a separate letter into a Stormwind investigation that ends without resolving the court’s future.",
     "sourceIds": [
-      "story-defias-deadmines"
+      "defias-quest-65",
+      "defias-quest-132",
+      "defias-quest-135",
+      "defias-quest-141",
+      "defias-quest-142",
+      "defias-quest-155",
+      "defias-quest-166",
+      "defias-quest-373",
+      "defias-quest-389",
+      "defias-quest-391",
+      "defias-quest-392",
+      "defias-quest-393",
+      "defias-quest-350",
+      "defias-quest-2745",
+      "defias-quest-2746",
+      "defias-quest-434",
+      "defias-quest-394",
+      "defias-quest-395",
+      "defias-quest-396",
+      "defias-chain-locator"
     ],
     "contentStatus": "research"
   },

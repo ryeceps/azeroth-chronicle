@@ -8,7 +8,7 @@
   "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
   "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
   "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth.",
-  "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, then Darrowshire), The Burning Crusade (Karazhan, Akama and the Black Temple, then the Outland Cipher preview), and Wrath (Wrathgate preview followed by Quel’Delar). It organizes access and does not claim canonical relative dates or causal links between stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. Other branch, faction and flashback caveats remain as recorded in each story.",
+  "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter), The Burning Crusade (Karazhan, Akama and the Black Temple, then the Outland Cipher preview), and Wrath (Wrathgate preview followed by Quel’Delar). The Classic ordering is a navigational sequence and does not claim canonical relative dates, quest-dependency order across separate stories, or causal links. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story.",
   "regions": [
     {
       "id": "kalimdor",
@@ -137,6 +137,19 @@
       "locationLabel": "The Plaguelands · Darrowshire"
     },
     {
+      "storylineId": "defias-original-conspiracy",
+      "regionIds": [
+        "eastern-kingdoms"
+      ],
+      "mapPositionPercent": [
+        55,
+        73
+      ],
+      "order": 7,
+      "periodLabel": "Original World of Warcraft · Classic",
+      "locationLabel": "Westfall and Stormwind"
+    },
+    {
       "storylineId": "karazhan-masters-key-and-nightbane",
       "regionIds": [
         "eastern-kingdoms",
@@ -146,7 +159,7 @@
         77,
         66
       ],
-      "order": 7,
+      "order": 8,
       "periodLabel": "The Burning Crusade · Karazhan",
       "locationLabel": "Deadwind Pass · key fragments across Outland"
     },
@@ -160,7 +173,7 @@
         91,
         66
       ],
-      "order": 8,
+      "order": 9,
       "periodLabel": "The Burning Crusade · Black Temple, patch 2.1",
       "locationLabel": "Shadowmoon Valley · raids across Outland · Hyjal memory"
     },
@@ -173,7 +186,7 @@
         82,
         79
       ],
-      "order": 9,
+      "order": 10,
       "periodLabel": "The Burning Crusade",
       "locationLabel": "Shadowmoon Valley · Outland"
     },
@@ -186,7 +199,7 @@
         54,
         18
       ],
-      "order": 10,
+      "order": 11,
       "periodLabel": "Wrath of the Lich King",
       "locationLabel": "Dragonblight · Northrend"
     },
@@ -200,11 +213,11 @@
         61,
         27
       ],
-      "order": 11,
+      "order": 12,
       "periodLabel": "Wrath of the Lich King · patch 3.3.5",
       "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
     }
   ],
-  "reviewNote": "Playable research guides now include Darrowshire as a 21-scene illustrated story after Tirion and Taelan in the Classic sequence. Cipher of Damnation and Wrathgate remain text-first previews outside Play All. Original-client text/build, disputed chronology, character-name variants, permanent temporal outcome, generated area/model resemblance and narration audition remain human review gates. Markers are illustrative interface anchors, not exact locations or travel routes.",
+  "reviewNote": "Playable research guides include the Defias story as an Eastern Kingdoms Classic placard after Darrowshire in editorial tour order. Defias is explicitly hidden from the Era Tour offshoot list and remains available through its placard and the text-first storyline library. Cipher of Damnation and Wrathgate remain previews outside Play All. Original-client quest text/build, chronology, court continuity, generated area/model resemblance and narration audition remain human-review gates. Markers are interface anchors, not exact locations or travel routes.",
   "contentStatus": "research"
 }

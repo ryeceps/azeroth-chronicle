@@ -634,7 +634,7 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(173);
+    expect(events).toHaveLength(194);
     expect(events.filter((event) => event.id.startsWith('onyxia-'))).toHaveLength(21);
     expect(events.filter((event) => event.id.startsWith('dungeon-set-two-'))).toHaveLength(22);
     expect(events.filter((event) => event.id.startsWith('fallen-hero-and-rakhlikh-'))).toHaveLength(15);
@@ -875,7 +875,7 @@ describe('lore dataset', () => {
     expect(data.entities.find((item) => item.id === 'taelans-miniature-warhammer')?.mapVisual?.asset)
       .toBe('images/storylines/tirion-taelan/taelans-miniature-warhammer.research.webp');
     expect(entry.order).toBe(5);
-    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(7);
+    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(8);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId)
       .not.toBe(guide.id);
     expect(medivh.mapFigure?.asset).toBe('images/storylines/karazhan/medivh.research.webp');
@@ -915,7 +915,7 @@ describe('lore dataset', () => {
     expect(story.reviewNote).toMatch(/permanent timeline consequences remain uncertain/i);
     expect(entry.order).toBe(6);
     expect(entry.regionIds).toEqual(['eastern-kingdoms']);
-    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(7);
+    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(8);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
     expect(visualLedger.sceneLedger).toHaveLength(nodes.length);
     for (const scene of visualLedger.sceneLedger) {
@@ -953,9 +953,9 @@ describe('lore dataset', () => {
     expect(guide.nodeIds).toHaveLength(19);
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
       && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
-    expect(entry.order).toBe(11);
+    expect(entry.order).toBe(12);
     expect(entry.regionIds).toEqual(['northrend', 'eastern-kingdoms']);
-    expect(tour.entries).toHaveLength(11);
+    expect(tour.entries).toHaveLength(12);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
     expect(nodes.find((node) => node.id.endsWith('story-thalorien-last-stand'))?.eventIds?.map(id =>
       data.events.find((event) => event.id === id)?.eraId)).toEqual(['third-war-frozen-throne']);

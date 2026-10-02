@@ -3,6 +3,7 @@ import { mkdirSync } from 'node:fs';
 
 mkdirSync('output/akama-black-temple-visual-review', { recursive: true });
 mkdirSync('output/quel-delar-visual-review', { recursive: true });
+mkdirSync('output/defias-visual-review', { recursive: true });
 
 test('story dots live on the map, expand on hover or focus, and open stories or previews', async ({ page }) => {
   const pageErrors: string[] = [];
@@ -16,7 +17,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const viewport = page.viewportSize()!;
   const mapFrameBounds = await page.locator('.story-tour-map-frame').boundingBox();
   expect(mapFrameBounds).toMatchObject({ x: 0, y: 0, width: viewport.width, height: viewport.height });
-  await expect(page.locator('.story-tour-dot')).toHaveCount(11);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(12);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
 
   const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
@@ -25,6 +26,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const fallenHero = page.getByRole('button', { name: /fallen-hero-and-rakhlikh|Fallen Hero/i });
   const tirionTaelan = page.getByRole('button', { name: /tirion-taelan-of-love-and-family|Tirion and Taelan/i });
   const darrowshire = page.getByRole('button', { name: /darrowshire-lost-and-remembered|Darrowshire/i });
+  const defias = page.getByRole('button', { name: /defias-original-conspiracy|Unsent Letter/i });
   const karazhan = page.getByRole('button', { name: /karazhan-masters-key-and-nightbane|Master’s Key and Nightbane/i });
   const akama = page.getByRole('button', { name: /akama-and-black-temple|Akama and the Black Temple/i });
   const outland = page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i });
@@ -36,6 +38,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(fallenHero).toBeVisible();
   await expect(tirionTaelan).toBeVisible();
   await expect(darrowshire).toBeVisible();
+  await expect(defias).toBeVisible();
   await expect(karazhan).toBeVisible();
   await expect(akama).toBeVisible();
   await expect(outland).toBeVisible();
@@ -117,6 +120,19 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
     return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
   }).toEqual(['story-tour', 'classic-to-wrath', 'darrowshire-lost-and-remembered', 'story']);
   await expect(page.getByRole('heading', { name: 'Flashback · Era 7 — The date the Annals give' })).toBeVisible();
+
+  await page.goto('/tours/classic-to-wrath');
+  await defias.hover();
+  const defiasCard = page.locator('#story-tour-tip-defias-original-conspiracy');
+  await expect(defiasCard.getByRole('heading', { name: 'The Defias and the Unsent Letter' })).toBeVisible();
+  await expect(defiasCard).toContainText('Playable story');
+  await page.screenshot({ path: 'output/defias-visual-review/classic-wrath-tour-desktop.png', fullPage: true });
+  await defias.click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
+  }).toEqual(['story-tour', 'classic-to-wrath', 'defias-original-conspiracy', 'story']);
+  await expect(page.getByRole('heading', { name: 'Farmers driven from Westfall' })).toBeVisible();
 
   await page.goto('/tours/classic-to-wrath');
   await akama.hover();
@@ -207,6 +223,13 @@ test('Play All advances completed stories in chronological order and restores th
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
     return [params.get('storyline'), params.get('node'), params.get('play')];
+  }).toEqual(['defias-original-conspiracy', 'defias-original-conspiracy-story-westfall-unrest', 'all']);
+  await expect(page.getByRole('heading', { name: 'Farmers driven from Westfall' })).toBeVisible();
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=defias-original-conspiracy&node=defias-original-conspiracy-story-audience-unanswered&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('storyline'), params.get('node'), params.get('play')];
   }).toEqual(['karazhan-masters-key-and-nightbane', 'karazhan-masters-key-and-nightbane-story-reports-from-deadwind', 'all']);
   await expect(page.getByRole('heading', { name: 'Reports from Deadwind Pass' })).toBeVisible();
 
@@ -232,6 +255,7 @@ test('Play All advances completed stories in chronological order and restores th
 });
 
 test('phone layout fits and touch opens a story card before playback', async ({ page }) => {
+  test.setTimeout(60_000);
   await page.setViewportSize({ width: 390, height: 844 });
   await page.addInitScript(() => {
     const nativeMatchMedia = window.matchMedia.bind(window);
@@ -308,6 +332,14 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   await page.goto('/tours/classic-to-wrath');
   await page.getByRole('button', { name: /dungeon-set-two-veiled-blade|Veiled Blade/i }).click();
   await expect(page.locator('.story-tour-touch-card').getByRole('heading', { name: 'The Veiled Blade and Lord Valthalak' })).toBeVisible();
+  await page.goto('/tours/classic-to-wrath');
+  await page.getByRole('button', { name: /defias-original-conspiracy|Unsent Letter/i }).click();
+  const phoneDefiasCard = page.locator('.story-tour-touch-card');
+  await expect(phoneDefiasCard.getByRole('heading', { name: 'The Defias and the Unsent Letter' })).toBeVisible();
+  await expect(phoneDefiasCard).toContainText('Playable story');
+  await page.screenshot({ path: 'output/defias-visual-review/classic-wrath-tour-phone.png', fullPage: true });
+  await phoneDefiasCard.getByRole('button', { name: 'Play story' }).click();
+  await expect(page.getByRole('heading', { name: 'Farmers driven from Westfall' })).toBeVisible();
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=stormwind-onyxia-conspiracy&node=onyxia-story-onyxias-lair&play=story');
   await page.getByRole('button', { name: 'Finish this storyline' }).click();
   await expect(page).toHaveURL(/\/tours\/classic-to-wrath\?complete=1/);

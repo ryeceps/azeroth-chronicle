@@ -322,6 +322,7 @@ export interface Storyline {
   sourceIds: EntityId[];
   reviewNote: string;
   storyGuideId?: EntityId;
+  showInEraTourOffshoots?: boolean;
   contentStatus: 'placeholder' | 'research' | 'reviewed' | 'published';
 }
 

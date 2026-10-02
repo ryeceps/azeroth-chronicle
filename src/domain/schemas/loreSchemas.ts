@@ -298,6 +298,7 @@ export const storylineSchema = z.object({
   sourceIds: z.array(id),
   reviewNote: z.string().min(1),
   storyGuideId: id.optional(),
+  showInEraTourOffshoots: z.boolean().optional(),
   contentStatus,
 }).superRefine((value, context) => {
   if (!value.eraIds.includes(value.primaryEraId)) {
