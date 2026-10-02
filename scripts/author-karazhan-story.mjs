@@ -332,7 +332,11 @@ for (const person of cast) {
 // Medivh is an existing entity. Keep that stable record and update its figure to the user-requested Atiesh depiction.
 const medivhPath = path.join(root, 'data/entities/medivh.research.json');
 const medivh = JSON.parse(await readFile(medivhPath, 'utf8'));
-medivh.mapFigure = { asset: 'images/storylines/karazhan/medivh.research.webp', scale: 1.3 };
+medivh.mapFigure = {
+  asset: 'images/storylines/karazhan/medivh.research.webp',
+  scale: 1.3,
+  eraVariants: [{ eraId, asset: 'images/storylines/karazhan/medivh.research.webp', scale: 2.0 }],
+};
 medivh.sourceIds = [...new Set([...medivh.sourceIds, ...beats.filter((beat) => beat.cast.includes('medivh')).flatMap((beat) => beat.sources)])];
 medivh.featuredEraIds = [...new Set([...(medivh.featuredEraIds ?? []), eraId])];
 medivh.tags = [...new Set([...(medivh.tags ?? []), 'atiesh', 'karazhan-story'])];
@@ -586,7 +590,7 @@ for (const person of cast) {
       : 'OpenAI ImageGen; transparent figure contact-sheet cell cropped and converted to alpha-capable WebP.',
     transparency: true,
     visualReview: person.id === 'medivh'
-      ? 'Atiesh reads at portrait scale as a complete staff held in Medivh’s hand: a dark gnarled wooden shaft with iron-shod base and an integrated seated raven carving whose head, hooked beak, folded wings and body form one clear silhouette, with a small violet eye or stone and the mage version’s red streamer. User-directed interpretation; compare to the intended TBC client item/model before approval.'
+      ? 'Atiesh reads at portrait scale as a complete staff held in Medivh’s hand: a dark gnarled wooden shaft with iron-shod base and an integrated seated raven carving whose head, hooked beak, folded wings and body form one clear silhouette, with a small violet eye or stone and the mage version’s red streamer. The Karazhan story uses an era-specific 2.0 figure scale so the staff remains legible on phone and desktop. User-directed interpretation; compare to the intended TBC client item/model before approval.'
       : 'Distinct silhouette checked in the authored scene. Exact in-client model and costume comparison remains a human review gate.',
     sourceReferences: [...new Set(beats.filter((beat) => beat.cast.includes(person.id)).flatMap((beat) => beat.sources))].map((sourceId) => ({ sourceId, url: sourceUrlById.get(sourceId) })),
     ...assetFileMetadata(person.id, bytes, info),
