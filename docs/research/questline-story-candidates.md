@@ -113,6 +113,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** explicitly exclude Gilneas/Cataclysm, later comics and the Legion artifact campaign from the narrative. Do not claim the entire mystery is solved, or assign all of Duskwood's condition to the scythe without evidence.
 
+**Implementation status (2026-10-02): complete illustrated research story.** The 15-node guide follows the nine-quest Classic chain and presents Jitters's separate item-2161 testimony as an explicitly editorially linked strand. It is the eighth Classic-to-Wrath StoryTour entry, after the Defias and before Karazhan, and remains outside the EraTour. Claim-level citations, 15 event/map-state records, source/production dossiers, eleven Classic-area environments, named witness/group art, four evidence-object illustrations, and 15 voice tracks are included. The end remains bounded: these accounts do not identify the Scythe's subsequent bearer, and Jitters's recovered object is not proven to be the same item. Original-client source capture and human claim, visual-comparison, and audio review remain open; every record stays `contentStatus: research`.
+
 ### 10. Yeh'kinya, the Ancient Egg, and Hakkar
 
 **ID:** `yehkinya-and-hakkars-return` · **A** · **Reach:** Tanaris, Feralas, Hinterlands, Sunken Temple; Zul'Gurub follow-on.

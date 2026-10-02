@@ -199,6 +199,17 @@
       }
     },
     {
+      "id": "scythe-of-elune-original-mystery-theater",
+      "name": "Scythe of Elune — relational story theater",
+      "slug": "scythe-of-elune-original-mystery-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "shadowlands",
       "name": "The Shadowlands",
       "slug": "shadowlands",
@@ -2285,6 +2296,156 @@
       "geometryIds": [],
       "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
       "interpretationNote": "Original landscape impression and editorial cast arrangement, not a geographic reconstruction or raid layout. Scene titles/transcripts identify the historical destinations."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-answers-return-to-darnassus-scene",
+      "name": "The report returns to Darnassus · Warrior’s Terrace, Darnassus",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/darnassus-warriors-terrace.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for Warrior’s Terrace, Darnassus. Target reference: original pre-Cataclysm World of Warcraft Classic Warrior’s Terrace, Darnassus. Preserve recognizable traits: Original Darnassus identity: immense living tree forms, curving pale stone and timber walkways, elevated bridges, carved night-elf arches, muted ivory, lavender and cool teal accents. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-carevin-contains-the-threat-scene",
+      "name": "Containment, not a cure · The Carevin household, Darkshire",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/carevin-home.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for The Carevin household, Darkshire. Target reference: original pre-Cataclysm World of Warcraft Classic The Carevin household, Darkshire. Preserve recognizable traits: Classic Duskwood hunter household: sturdy dark timber, rough stone, a candlelit common room and practical hunting equipment; no trophy gore or unsupported family members. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-daltrys-records-scene",
+      "name": "No room recorded for Velinde · Darkshire town hall, Duskwood",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/darkshire-town-hall.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for Darkshire town hall, Duskwood. Target reference: original pre-Cataclysm World of Warcraft Classic Darkshire town hall, Duskwood. Preserve recognizable traits: Classic Duskwood settlement: dark timber-and-stone civic interior, pointed roof beams, lantern glow, rain-worn fittings and bare, fogbound trees. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-scene",
+      "name": "Jitters’s separate testimony · Sven’s farm barn, Duskwood",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/svens-farm-barn.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for Sven’s farm barn, Duskwood. Target reference: original pre-Cataclysm World of Warcraft Classic Sven’s farm barn, Duskwood. Preserve recognizable traits: Classic Duskwood farm outbuilding: worn dark planks, hay loft, dim cloudy light, simple agricultural tools and a concealed refuge. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-orders-no-longer-hold-scene",
+      "name": "When the summons outlasted its caller · The Howling Vale and Shrine of Mel’Thandris",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/howling-vale.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for The Howling Vale and Shrine of Mel’Thandris. Target reference: original pre-Cataclysm World of Warcraft Classic The Howling Vale and Shrine of Mel’Thandris. Preserve recognizable traits: Classic Ashenvale at Felwood’s edge: mossed ancient stone, a ruined moon-elf shrine within a hollow hill, twisting roots, deep blue-green forest shade and distant Felwood gloom. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-ruzzgot-remembers-scene",
+      "name": "Ruzzgot remembers the road · Booty Bay docks, Stranglethorn Vale",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/booty-bay.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for Booty Bay docks, Stranglethorn Vale. Target reference: original pre-Cataclysm World of Warcraft Classic Booty Bay docks, Stranglethorn Vale. Preserve recognizable traits: Classic Booty Bay: tropical green water, layered wooden buildings on stilts, crowded boardwalks, moored ships, weathered cranes and lush jungle behind the harbor. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-search-for-arugal-scene",
+      "name": "A lead east from Darnassus · Warrior’s Terrace, Darnassus",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/darnassus-warriors-terrace.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for Warrior’s Terrace, Darnassus. Target reference: original pre-Cataclysm World of Warcraft Classic Warrior’s Terrace, Darnassus. Preserve recognizable traits: Original Darnassus identity: immense living tree forms, curving pale stone and timber walkways, elevated bridges, carved night-elf arches, muted ivory, lavender and cool teal accents. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-black-osprey-scene",
+      "name": "The Black Osprey in the ledger · Ratchet port, the Barrens",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/ratchet-port.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for Ratchet port, the Barrens. Target reference: original pre-Cataclysm World of Warcraft Classic Ratchet port, the Barrens. Preserve recognizable traits: Classic Ratchet on the dry Barrens coast: ochre dust and sunlit water, weathered timber docks, goblin-built cranes, rough harbor sheds and a working ledger counter. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-carevin-lead-scene",
+      "name": "A mine south of Darkshire · The Carevin household, Darkshire",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/carevin-home.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for The Carevin household, Darkshire. Target reference: original pre-Cataclysm World of Warcraft Classic The Carevin household, Darkshire. Preserve recognizable traits: Classic Duskwood hunter household: sturdy dark timber, rough stone, a candlelit common room and practical hunting equipment; no trophy gore or unsupported family members. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-first-summoning-scene",
+      "name": "The Scythe’s first purpose · Felwood forest frontier",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/felwood-frontier.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for Felwood forest frontier. Target reference: original pre-Cataclysm World of Warcraft Classic Felwood forest frontier. Preserve recognizable traits: Original Classic Felwood forest: dense conifers, soot-dark bark, sickly green corrupted patches and low mist; environmental battlefield signs without a named demon, formation or exact battlefield. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-journal-in-darnassus-scene",
+      "name": "The journal in the bunkhouse · Sentinels’ bunkhouse, Darnassus",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/darnassus-sentinels-bunkhouse.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for Sentinels’ bunkhouse, Darnassus. Target reference: original pre-Cataclysm World of Warcraft Classic Sentinels’ bunkhouse, Darnassus. Preserve recognizable traits: A restrained interior beneath a living city: curved pale timber, night-elf stonework, violet-blue window light, a practical chest and modest sentry equipment; no copied game UI or readable text. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-mound-at-rolands-doom-scene",
+      "name": "A voice beneath the mound · Roland’s Doom, Duskwood",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/rolands-doom-mine.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for Roland’s Doom, Duskwood. Target reference: original pre-Cataclysm World of Warcraft Classic Roland’s Doom, Duskwood. Preserve recognizable traits: Classic Duskwood mine: narrow rough-hewn stone passage, old timber braces, exposed roots, earth and scattered rubble; interpretive interior, not a copied layout or exact waypoint. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale-scene",
+      "name": "The wolf-men of the Howling Vale · Forest Song, Ashenvale",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/forest-song.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for Forest Song, Ashenvale. Target reference: original pre-Cataclysm World of Warcraft Classic Forest Song, Ashenvale. Preserve recognizable traits: Classic Ashenvale sentinel outpost: tall deep-green canopy, cool blue-green shade, broad night-elf tree roots, modest pale stone and timber platforms, wild forest clearings. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-tome-of-melthandris-scene",
+      "name": "A memory in Mel’Thandris · The Howling Vale and Shrine of Mel’Thandris",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/howling-vale.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for The Howling Vale and Shrine of Mel’Thandris. Target reference: original pre-Cataclysm World of Warcraft Classic The Howling Vale and Shrine of Mel’Thandris. Preserve recognizable traits: Classic Ashenvale at Felwood’s edge: mossed ancient stone, a ruined moon-elf shrine within a hollow hill, twisting roots, deep blue-green forest shade and distant Felwood gloom. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-velindes-disappearance-scene",
+      "name": "A trusted Sentinel is missing · Warrior’s Terrace, Darnassus",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/scythe-of-elune/environments/darnassus-warriors-terrace.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive environment art for Warrior’s Terrace, Darnassus. Target reference: original pre-Cataclysm World of Warcraft Classic Warrior’s Terrace, Darnassus. Preserve recognizable traits: Original Darnassus identity: immense living tree forms, curving pale stone and timber walkways, elevated bridges, carved night-elf arches, muted ivory, lavender and cool teal accents. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
     },
     {
       "id": "third-war-frozen-throne-map-research",
@@ -8098,6 +8259,218 @@
       "editorNote": "Contextual Scourge campaign focus, not a fixed army position.",
       "labelPriority": 225,
       "visualPresence": "contextual"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-book-from-svens-farm-theater",
+      "entityId": "scythe-of-elune-original-mystery-book-from-svens-farm",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-book-from-svens-farm-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-jitters-book-2161",
+        "scythe-of-elune-original-mystery-jitters-quest-453"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-caravaneer-ruzzgot-theater",
+      "entityId": "scythe-of-elune-original-mystery-caravaneer-ruzzgot",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-caravaneer-ruzzgot-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1041"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-clerk-daltry-theater",
+      "entityId": "scythe-of-elune-original-mystery-clerk-daltry",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-clerk-daltry-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1042"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-duskwood-worgen-theater",
+      "entityId": "scythe-of-elune-original-mystery-duskwood-worgen",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-duskwood-worgen-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-velindes-journal-5520",
+        "scythe-of-elune-original-mystery-quest-1043",
+        "scythe-of-elune-original-mystery-jitters-book-2161"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-jitters-theater",
+      "entityId": "scythe-of-elune-original-mystery-jitters",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-jitters-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-jitters-book-2161",
+        "scythe-of-elune-original-mystery-jitters-quest-453"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-jonathan-carevin-theater",
+      "entityId": "scythe-of-elune-original-mystery-jonathan-carevin",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-jonathan-carevin-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043",
+        "scythe-of-elune-original-mystery-quest-1044"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-melyria-frostshadow-theater",
+      "entityId": "scythe-of-elune-original-mystery-melyria-frostshadow",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-melyria-frostshadow-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1023"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-scythe-artifact-theater",
+      "entityId": "scythe-of-elune-original-mystery-scythe-artifact",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-scythe-artifact-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-velindes-journal-5520",
+        "scythe-of-elune-original-mystery-quest-1043",
+        "scythe-of-elune-original-mystery-jitters-book-2161"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-thyntel-bladeweaver-theater",
+      "entityId": "scythe-of-elune-original-mystery-thyntel-bladeweaver",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-thyntel-bladeweaver-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1023",
+        "scythe-of-elune-original-mystery-quest-1038",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1044"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-tome-artifact-theater",
+      "entityId": "scythe-of-elune-original-mystery-tome-artifact",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-tome-artifact-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022"
+      ],
+      "editorNote": "Editorial object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-velinde-starsong-theater",
+      "entityId": "scythe-of-elune-original-mystery-velinde-starsong",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-velinde-starsong-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1023",
+        "scythe-of-elune-original-mystery-quest-1038",
+        "scythe-of-elune-original-mystery-velindes-journal-5520"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-velindes-journal-theater",
+      "entityId": "scythe-of-elune-original-mystery-velindes-journal",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-velindes-journal-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1038",
+        "scythe-of-elune-original-mystery-velindes-journal-5520"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-wharfmaster-dizzywig-theater",
+      "entityId": "scythe-of-elune-original-mystery-wharfmaster-dizzywig",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "scythe-of-elune-original-mystery-theater",
+      "geometryId": "scythe-of-elune-original-mystery-wharfmaster-dizzywig-theater-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1040"
+      ],
+      "editorNote": "Editorial cast or object placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
     },
     {
       "id": "seven-kingdoms-era-five-spatial-research",
@@ -18102,6 +18475,624 @@
         "scale": 0.96
       },
       "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-book-from-svens-farm",
+      "type": "artifact",
+      "name": "Book from Sven’s Farm",
+      "slug": "scythe-of-elune-original-mystery-book-from-svens-farm",
+      "shortDescription": "Partial first-person Duskwood testimony from a separate Classic quest path.",
+      "body": "Interpretive dirt-stained book; its illustration does not imply physical co-presence with Velinde’s return to Darnassus. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-jitters-book-2161",
+        "scythe-of-elune-original-mystery-jitters-quest-453"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/scythe-of-elune/objects/book-from-svens-farm.research.webp",
+        "scale": 1.6
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-booty-bay",
+      "type": "location",
+      "name": "Booty Bay",
+      "slug": "scythe-of-elune-original-mystery-booty-bay",
+      "shortDescription": "Destination written in the Black Osprey ledger.",
+      "body": "Destination written in the Black Osprey ledger. Exact in-world coordinates and route geometry are not asserted. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic",
+        "story-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-caravaneer-ruzzgot",
+      "type": "character",
+      "name": "Caravaneer Ruzzgot",
+      "slug": "scythe-of-elune-original-mystery-caravaneer-ruzzgot",
+      "shortDescription": "Booty Bay caravaner who recalls a night-elf priestess heading north toward Darkshire.",
+      "body": "Interpretive goblin portrait; exact costume/model review remains open. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1041"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/characters/scythe-of-elune/caravaneer-ruzzgot.research.webp",
+        "scale": 2
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-carevin-home",
+      "type": "location",
+      "name": "Carevin household, Darkshire",
+      "slug": "scythe-of-elune-original-mystery-carevin-home",
+      "shortDescription": "Jonathan Carevin’s household; no exact floor plan is asserted.",
+      "body": "Jonathan Carevin’s household; no exact floor plan is asserted. Exact in-world coordinates and route geometry are not asserted. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic",
+        "story-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-clerk-daltry",
+      "type": "character",
+      "name": "Clerk Daltry",
+      "slug": "scythe-of-elune-original-mystery-clerk-daltry",
+      "shortDescription": "Darkshire clerk whose records contain no lodging entry for Velinde and who refers the inquiry to the Carevin household.",
+      "body": "Interpretive human portrait; exact costume/model review remains open. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1042"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/characters/scythe-of-elune/clerk-daltry.research.webp",
+        "scale": 2
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-darkshire-town-hall",
+      "type": "location",
+      "name": "Darkshire town hall",
+      "slug": "scythe-of-elune-original-mystery-darkshire-town-hall",
+      "shortDescription": "Clerk Daltry’s records, shown as an interpretive Classic interior.",
+      "body": "Clerk Daltry’s records, shown as an interpretive Classic interior. Exact in-world coordinates and route geometry are not asserted. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic",
+        "story-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-darnassus-sentinels-bunkhouse",
+      "type": "location",
+      "name": "Sentinels’ bunkhouse, Darnassus",
+      "slug": "scythe-of-elune-original-mystery-darnassus-sentinels-bunkhouse",
+      "shortDescription": "Place of Velinde’s stored effects and journal in the Classic quest text.",
+      "body": "Place of Velinde’s stored effects and journal in the Classic quest text. Exact in-world coordinates and route geometry are not asserted. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic",
+        "story-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-darnassus-warriors-terrace",
+      "type": "location",
+      "name": "Warrior’s Terrace, Darnassus",
+      "slug": "scythe-of-elune-original-mystery-darnassus-warriors-terrace",
+      "shortDescription": "Original Classic city scene for Thyn’tel’s handoffs; not a navigable city map.",
+      "body": "Original Classic city scene for Thyn’tel’s handoffs; not a navigable city map. Exact in-world coordinates and route geometry are not asserted. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic",
+        "story-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-duskwood-worgen",
+      "type": "other",
+      "name": "Duskwood worgen",
+      "slug": "scythe-of-elune-original-mystery-duskwood-worgen",
+      "shortDescription": "The wolf-men called worgen in the original Ashenvale and Duskwood quest testimony.",
+      "body": "Interpretive group art based on the Classic-area creature reference. It does not assign every worgen in Duskwood to Velinde’s packs or assert one cause for all local conditions. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-velindes-journal-5520",
+        "scythe-of-elune-original-mystery-quest-1043",
+        "scythe-of-elune-original-mystery-jitters-book-2161"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/characters/scythe-of-elune/duskwood-worgen.research.webp",
+        "scale": 1.8
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-felwood-frontier",
+      "type": "location",
+      "name": "Felwood and the northern forest frontier",
+      "slug": "scythe-of-elune-original-mystery-felwood-frontier",
+      "shortDescription": "Broad setting from Velinde’s journal; no exact battlefield is assigned.",
+      "body": "Broad setting from Velinde’s journal; no exact battlefield is assigned. Exact in-world coordinates and route geometry are not asserted. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic",
+        "story-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-forest-song",
+      "type": "location",
+      "name": "Forest Song",
+      "slug": "scythe-of-elune-original-mystery-forest-song",
+      "shortDescription": "Ashenvale sentinel outpost where Melyria gives the first task.",
+      "body": "Ashenvale sentinel outpost where Melyria gives the first task. Exact in-world coordinates and route geometry are not asserted. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic",
+        "story-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-howling-vale",
+      "type": "location",
+      "name": "The Howling Vale and Shrine of Mel’Thandris",
+      "slug": "scythe-of-elune-original-mystery-howling-vale",
+      "shortDescription": "Original Classic shrine site, represented as an interpretive ruin rather than a surveyed cave interior.",
+      "body": "Original Classic shrine site, represented as an interpretive ruin rather than a surveyed cave interior. Exact in-world coordinates and route geometry are not asserted. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic",
+        "story-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-jitters",
+      "type": "character",
+      "name": "Jitters",
+      "slug": "scythe-of-elune-original-mystery-jitters",
+      "shortDescription": "Duskwood witness identified through a separate quest branch; his partial book recounts a scythe found at Roland’s Doom, an ensuing attack and his escape.",
+      "body": "Interpretive human portrait based on the separate Duskwood quest and item testimony. No formal faction membership is asserted. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-jitters-book-2161",
+        "scythe-of-elune-original-mystery-jitters-quest-453"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/characters/scythe-of-elune/jitters.research.webp",
+        "scale": 2
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-jonathan-carevin",
+      "type": "character",
+      "name": "Jonathan Carevin",
+      "slug": "scythe-of-elune-original-mystery-jonathan-carevin",
+      "shortDescription": "Head of the Carevin household, who identifies Roland’s Doom as a place where Duskwood’s worgen were first found and asks for evidence of the Scythe.",
+      "body": "Interpretive human portrait; exact costume/model review remains open. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043",
+        "scythe-of-elune-original-mystery-quest-1044"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/characters/scythe-of-elune/jonathan-carevin.research.webp",
+        "scale": 2
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-melyria-frostshadow",
+      "type": "character",
+      "name": "Sentinel Melyria Frostshadow",
+      "slug": "scythe-of-elune-original-mystery-melyria-frostshadow",
+      "shortDescription": "Ashenvale sentinel who asks the adventurer to examine the wolf-men at the Shrine of Mel’Thandris and investigate Velinde’s disappearance.",
+      "body": "Interpretive night-elf sentinel portrait; exact costume and face are not asserted pending Classic-model comparison. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1023"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/characters/scythe-of-elune/melyria-frostshadow.research.webp",
+        "scale": 2
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-ratchet",
+      "type": "location",
+      "name": "Ratchet port",
+      "slug": "scythe-of-elune-original-mystery-ratchet",
+      "shortDescription": "Barrens port named in the journal trail and quest handoff.",
+      "body": "Barrens port named in the journal trail and quest handoff. Exact in-world coordinates and route geometry are not asserted. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic",
+        "story-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-rolands-doom",
+      "type": "location",
+      "name": "Roland’s Doom",
+      "slug": "scythe-of-elune-original-mystery-rolands-doom",
+      "shortDescription": "Duskwood mine named by the quest and witness; artwork is not a mine map.",
+      "body": "Duskwood mine named by the quest and witness; artwork is not a mine map. Exact in-world coordinates and route geometry are not asserted. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic",
+        "story-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-scythe-artifact",
+      "type": "artifact",
+      "name": "The Scythe of Elune",
+      "slug": "scythe-of-elune-original-mystery-scythe-artifact",
+      "shortDescription": "The gnarled branch-like weapon in Velinde’s journal; at the end of the original chain it is no longer in her keeping.",
+      "body": "Interpretive object art based on the journal’s branch-and-weapon description. No exact Classic item model, blade fitting, rune or later redesign is asserted. Kept distinct from a staff such as Atiesh. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-velindes-journal-5520",
+        "scythe-of-elune-original-mystery-quest-1043",
+        "scythe-of-elune-original-mystery-jitters-book-2161"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/scythe-of-elune/objects/scythe-artifact.research.webp",
+        "scale": 1.6
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-svens-farm",
+      "type": "location",
+      "name": "Sven’s farm",
+      "slug": "scythe-of-elune-original-mystery-svens-farm",
+      "shortDescription": "Setting named in Jitters’s separate partial-book testimony.",
+      "body": "Setting named in Jitters’s separate partial-book testimony. Exact in-world coordinates and route geometry are not asserted. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic",
+        "story-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-thyntel-bladeweaver",
+      "type": "character",
+      "name": "Thyn’tel Bladeweaver",
+      "slug": "scythe-of-elune-original-mystery-thyntel-bladeweaver",
+      "shortDescription": "Darnassian Sentinel who receives the search into Velinde’s disappearance and the final report from Duskwood.",
+      "body": "Interpretive night-elf Sentinel portrait; exact costume/model review remains open. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1023",
+        "scythe-of-elune-original-mystery-quest-1038",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1044"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/characters/scythe-of-elune/thyntel-bladeweaver.research.webp",
+        "scale": 2
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-tome-artifact",
+      "type": "artifact",
+      "name": "Tome of Mel’Thandris",
+      "slug": "scythe-of-elune-original-mystery-tome-artifact",
+      "shortDescription": "The text Melyria asks the seeker to read; the Classic quest shows it revealing a remembered scene without explaining the Tome’s workings.",
+      "body": "Original interpretive prop art. No exact item model, inscription, authorship or supernatural mechanism is asserted beyond the quest account. See the Scythe of Elune research and visual ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022"
+      ],
+      "tags": [
+        "classic-story",
+        "howling-vale",
+        "tome"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/scythe-of-elune/objects/tome-of-melthandris.research.webp",
+        "scale": 1.55
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-velinde-starsong",
+      "type": "character",
+      "name": "Velinde Starsong",
+      "slug": "scythe-of-elune-original-mystery-velinde-starsong",
+      "shortDescription": "Night-elf priestess whose journal records her use of the Scythe to summon worgen and her concern when their numbers grow without her intervention.",
+      "body": "Interpretive portrait. Her journal describes an ancient gnarled branch and weapon; the complete held object is visible in the relevant art. Costume, face and exact item model remain open to Classic comparison. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1023",
+        "scythe-of-elune-original-mystery-quest-1038",
+        "scythe-of-elune-original-mystery-velindes-journal-5520"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/characters/scythe-of-elune/velinde-starsong.research.webp",
+        "scale": 2
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-velindes-journal",
+      "type": "artifact",
+      "name": "Velinde’s Journal",
+      "slug": "scythe-of-elune-original-mystery-velindes-journal",
+      "shortDescription": "Quest record whose first-person entries document Velinde’s use of the Scythe and her concern about the worgen.",
+      "body": "Interpretive closed journal; no copied game text or page design. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1038",
+        "scythe-of-elune-original-mystery-velindes-journal-5520"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapVisual": {
+        "asset": "images/storylines/scythe-of-elune/objects/velindes-journal.research.webp",
+        "scale": 1.6
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-wharfmaster-dizzywig",
+      "type": "character",
+      "name": "Wharfmaster Dizzywig",
+      "slug": "scythe-of-elune-original-mystery-wharfmaster-dizzywig",
+      "shortDescription": "Ratchet dockmaster who checks the ledger for Velinde’s passage on the Black Osprey.",
+      "body": "Interpretive goblin portrait; exact costume/model review remains open. See docs/research/scythe-of-elune-original-mystery-research.md and docs/research/scythe-of-elune-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1040"
+      ],
+      "tags": [
+        "scythe-of-elune",
+        "classic-story"
+      ],
+      "contentStatus": "research",
+      "mapFigure": {
+        "asset": "images/characters/scythe-of-elune/wharfmaster-dizzywig.research.webp",
+        "scale": 2
+      }
     },
     {
       "id": "seer-kanai",
@@ -29482,6 +30473,419 @@
       "contentStatus": "research"
     },
     {
+      "id": "scythe-of-elune-original-mystery-answers-return-to-darnassus-event",
+      "kind": "event",
+      "name": "The report returns to Darnassus",
+      "slug": "scythe-of-elune-original-mystery-answers-return-to-darnassus-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "Thyn’tel receives the report and calls the account Velinde’s fate. She recalls a trusted friend and accepts that the Scythe has passed out of her people’s hands. Her thanks closes the nine-step chain, but the mystery remains open: the quest does not recover the weapon, identify whoever may have found it, or explain the later fate of every worgen pack. Darnassus can record the loss. It cannot tell the seeker where the Scythe went.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-darnassus-warriors-terrace"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-thyntel-bladeweaver",
+        "scythe-of-elune-original-mystery-scythe-artifact"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1044"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-answers-return-to-darnassus-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-carevin-contains-the-threat-event",
+      "kind": "event",
+      "name": "Containment, not a cure",
+      "slug": "scythe-of-elune-original-mystery-carevin-contains-the-threat-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "Carevin hears the account and does not claim he can end the worgen problem. He will make containing their numbers a priority, while the root of the trouble remains beyond the household’s reach. That is the local resolution the quest supports: a promise to resist a danger, not a cure, a recovered weapon, or a verdict on every cause shaping Duskwood. The trail now returns to Darnassus, where Thyn’tel can hear what the mound revealed.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-carevin-home",
+        "scythe-of-elune-original-mystery-rolands-doom"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-jonathan-carevin"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-carevin-contains-the-threat-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-daltrys-records-event",
+      "kind": "event",
+      "name": "No room recorded for Velinde",
+      "slug": "scythe-of-elune-original-mystery-daltrys-records-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "Daltry finds no record of Velinde staying at the inn. That silence is limited to the records he knows; it cannot prove she never passed through Darkshire. But when the seeker describes the wolf-men, the clerk has heard of them. He points toward the Carevin household, whose hunters work against monsters in the wood. The search has found no lodging entry and no living witness to Velinde’s arrival. It has found a local lead: a mine to the south where the worgen were first encountered.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-darkshire-town-hall"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-clerk-daltry"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1042"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-daltrys-records-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-event",
+      "kind": "event",
+      "name": "Jitters’s separate testimony",
+      "slug": "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Separate original World of Warcraft Duskwood witness item; in-world date unknown"
+      },
+      "summary": "A separate Duskwood quest path preserves a partial book from Sven’s farm, later connected to Jitters. Its author says he found a scythe in the rubble at Roland’s Doom; after he pulled it free, worgen attacked his companions, and he fled, losing the weapon along the way. He wonders whether his act brought the worgen, but marks that as a guess. This is a witness’s account from another chain, not a guaranteed continuation of Velinde’s investigation. Together the records narrow the loss to Duskwood, yet they do not name the Scythe’s next bearer or prove that it explains every worgen presence in the forest.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-svens-farm",
+        "scythe-of-elune-original-mystery-rolands-doom"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-jitters",
+        "scythe-of-elune-original-mystery-duskwood-worgen",
+        "scythe-of-elune-original-mystery-scythe-artifact",
+        "scythe-of-elune-original-mystery-book-from-svens-farm"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-jitters-book-2161",
+        "scythe-of-elune-original-mystery-jitters-quest-453"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-orders-no-longer-hold-event",
+      "kind": "event",
+      "name": "When the summons outlasted its caller",
+      "slug": "scythe-of-elune-original-mystery-orders-no-longer-hold-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "Later entries darken the triumph. Velinde says the packs grew even when she no longer summoned them; one group sent to range through the forest never returned. She worried that the leaders she had trusted were beyond her control, gathered what worgen she could, and ordered them to remain at the shrine. Her journal then records a search through Darnassus and Darkshore for knowledge, and a rumor that the wizard Arugal had also summoned worgen. It gives her reason to seek him, but does not show that meeting or settle what happened to every pack.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-howling-vale"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-velinde-starsong",
+        "scythe-of-elune-original-mystery-duskwood-worgen",
+        "scythe-of-elune-original-mystery-scythe-artifact",
+        "scythe-of-elune-original-mystery-velindes-journal"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-velindes-journal-5520"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-orders-no-longer-hold-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-ruzzgot-remembers-event",
+      "kind": "event",
+      "name": "Ruzzgot remembers the road",
+      "slug": "scythe-of-elune-original-mystery-ruzzgot-remembers-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "In Booty Bay, Caravaneer Ruzzgot recalls a night-elf priestess who travelled with his company. They parted on the northbound road, and he remembers her heading for Darkshire. His recollection supplies a lead, not a measured route or a reason for Velinde’s choice. Still, it places her search in Duskwood, where the worgen are already a local fear. The story moves from a ship’s ledger to one person’s memory, and from there to the town records kept by Clerk Daltry.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-booty-bay"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-caravaneer-ruzzgot"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1041"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-ruzzgot-remembers-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-search-for-arugal-event",
+      "kind": "event",
+      "name": "A lead east from Darnassus",
+      "slug": "scythe-of-elune-original-mystery-search-for-arugal-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "Velinde’s final entry says she means to seek passage from a port in the Barrens and follow a lead concerning Arugal. Thyn’tel turns that intention into the seeker’s next task: speak to Wharfmaster Dizzywig in Ratchet. The quest order traces an investigation; it does not prove every step of Velinde’s own travel or that she ever reached the wizard. One last plan survives in her writing. Beyond it, the trail must be tested against the accounts of people who worked the docks.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-darnassus-warriors-terrace",
+        "scythe-of-elune-original-mystery-ratchet"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-thyntel-bladeweaver",
+        "scythe-of-elune-original-mystery-velindes-journal"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-velindes-journal-5520",
+        "scythe-of-elune-original-mystery-quest-1039"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-search-for-arugal-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-black-osprey-event",
+      "kind": "event",
+      "name": "The Black Osprey in the ledger",
+      "slug": "scythe-of-elune-original-mystery-the-black-osprey-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "At Ratchet, Dizzywig searches the port ledger and finds Velinde’s name beside passage on the Black Osprey to Booty Bay. With no contrary entry, he assumes the vessel arrived safely. That is a reasonable reading of a dock record, but it is still an inference by the wharfmaster; Velinde leaves no message from the far shore. The harbor narrows the search to a named crossing and a likely destination, then hands the question to a caravaner who may remember what happened after the ship berthed.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-ratchet"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-wharfmaster-dizzywig"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1040"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-the-black-osprey-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-carevin-lead-event",
+      "kind": "event",
+      "name": "A mine south of Darkshire",
+      "slug": "scythe-of-elune-original-mystery-the-carevin-lead-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "Jonathan Carevin has no record of the elven priestess, but he knows the worgen and the place where they were first found in Duskwood. His family cannot follow every rumor; he asks the seeker to inspect Roland’s Doom and report any sign of the Scythe. The request points toward evidence rather than certainty. The quest does not say that the artifact caused every darkness in the forest, only that the mine may connect the missing weapon with the creatures who appeared there.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-carevin-home",
+        "scythe-of-elune-original-mystery-rolands-doom"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-jonathan-carevin"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-the-carevin-lead-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-first-summoning-event",
+      "kind": "event",
+      "name": "The Scythe’s first purpose",
+      "slug": "scythe-of-elune-original-mystery-the-first-summoning-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "Velinde writes that the Scythe let her communicate with the worgen and draw them into her world. She says the first pack she summoned followed her against the demons in Felwood. To her, the weapon answered a desperate need: allies for a war her dwindling companions could no longer sustain alone. This is her account of its power and purpose, not an outside chronicle of every battle. Yet it changes the meaning of the pack at Mel’Thandris. The wolf-men are no longer only an unexplained presence; Velinde’s journal says she had summoned worgen in the forest campaign.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-felwood-frontier"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-velinde-starsong",
+        "scythe-of-elune-original-mystery-duskwood-worgen",
+        "scythe-of-elune-original-mystery-scythe-artifact",
+        "scythe-of-elune-original-mystery-velindes-journal"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-velindes-journal-5520"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-the-first-summoning-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-journal-in-darnassus-event",
+      "kind": "event",
+      "name": "The journal in the bunkhouse",
+      "slug": "scythe-of-elune-original-mystery-the-journal-in-darnassus-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "The Tome and Melyria’s report persuade Thyn’tel to lend the key to Velinde’s chest in the Sentinels’ bunkhouse. The search yields a journal, not a final explanation. Its entries are Velinde’s own record of her work and her doubts, written without dates that would fix the events on a calendar. What follows is an attributed account: it tells us what Velinde believed she had done with the Scythe, while leaving room for what one witness could not see.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-darnassus-sentinels-bunkhouse"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-thyntel-bladeweaver",
+        "scythe-of-elune-original-mystery-velindes-journal"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1038"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-the-journal-in-darnassus-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-mound-at-rolands-doom-event",
+      "kind": "event",
+      "name": "A voice beneath the mound",
+      "slug": "scythe-of-elune-original-mystery-the-mound-at-rolands-doom-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "At a mound of earth inside Roland’s Doom, Velinde’s specter appears. Her words convey failure, worgen beyond control, and the loss of Elune’s Scythe; she wonders whose hand now directs its power. The scene lets the seeker hear her grief, but it does not show the moment of her death or name a new bearer. The mine has yielded the missing priestess’s testimony and confirmed that the artifact is no longer with her. Its path after that loss remains unseen.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-rolands-doom"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-velinde-starsong",
+        "scythe-of-elune-original-mystery-duskwood-worgen"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1043"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-the-mound-at-rolands-doom-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale-event",
+      "kind": "event",
+      "name": "The wolf-men of the Howling Vale",
+      "slug": "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "At Forest Song, Melyria measures the sentinels’ work against a forest that will not quiet. Her report speaks of the struggle against demons pressing out of Felwood, while a ruined shrine near the northern border has been overtaken by mysterious wolf-men. Their cries have given the hollow its name. She asks the seeker to read the Tome of Mel’Thandris and learn what may have drawn them there. That is the first question the Classic chain sets before us: a sacred ruin, a strange pack, and a record whose workings no one fully understands.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-forest-song",
+        "scythe-of-elune-original-mystery-howling-vale"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-melyria-frostshadow"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-tome-of-melthandris-event",
+      "kind": "event",
+      "name": "A memory in Mel’Thandris",
+      "slug": "scythe-of-elune-original-mystery-tome-of-melthandris-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "At the shrine, the Tome answers by showing a remembered scene. Velinde Starsong calls to Elune as her companions dwindle and her own strength falters against the demons. In the vision, she receives the Scythe of Elune and regards it as an answer to her prayer. Melyria says the image leaves more to investigate. The quest does not make the Tome’s nature plain, and this first scene does not yet show how the gift will alter the danger in the forest.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-howling-vale"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-velinde-starsong",
+        "scythe-of-elune-original-mystery-scythe-artifact"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-tome-of-melthandris-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-velindes-disappearance-event",
+      "kind": "event",
+      "name": "A trusted Sentinel is missing",
+      "slug": "scythe-of-elune-original-mystery-velindes-disappearance-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "Original World of Warcraft Classic quest-chain scene; in-world date unknown"
+      },
+      "summary": "Melyria sends the inquiry to Thyn’tel Bladeweaver in Darnassus. Velinde had served before Melyria at Forest Song, and her disappearance has left the Sentinels without an answer. Thyn’tel is reluctant to expose her belongings to a stranger; the priestess had earned the trust of her people, who still expect her to return. The quest supplies no calendar date for this absence. The search begins between two records: a vision at the ruined shrine and a city that has kept Velinde’s effects in the hope she might come home.",
+      "locationIds": [
+        "scythe-of-elune-original-mystery-forest-song",
+        "scythe-of-elune-original-mystery-darnassus-warriors-terrace"
+      ],
+      "participantEntityIds": [
+        "scythe-of-elune-original-mystery-melyria-frostshadow",
+        "scythe-of-elune-original-mystery-thyntel-bladeweaver"
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1023"
+      ],
+      "claimIds": [
+        "scythe-of-elune-original-mystery-velindes-disappearance-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "second-war-begins",
       "kind": "event",
       "name": "The Second War Begins",
@@ -34655,6 +36059,97 @@
       "notes": "Research accessed 2026-09-30. Original WoW 1.9–1.12 / Classic recreation evidence. Secondary locator for the chain epilogue; completion is distinct from earning a time-limited mount."
     },
     {
+      "id": "scythe-of-elune-original-mystery-jitters-book-2161",
+      "title": "Book from Sven’s Farm · Classic quest item 2161",
+      "url": "https://warcraft.wiki.gg/wiki/Book_from_Sven%27s_Farm",
+      "sourceType": "other",
+      "notes": "Accessed 2026-10-02. Partial first-person item text in the distinct Sven/Jitters Duskwood chain; witness, not omniscient narration. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-jitters-quest-453",
+      "title": "Finding the Shadowy Figure · Classic quest 453",
+      "url": "https://www.wowhead.com/classic/quest=453/finding-the-shadowy-figure",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Separate Duskwood quest identifies Jitters; not a prerequisite for quests 1022–1044. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-quest-1022",
+      "title": "The Howling Vale · Classic quest 1022",
+      "url": "https://classic.warcraftdb.com/data/quest/1022",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Quest description and Tome of Mel’Thandris interaction; secondary transcript locator, not original-client capture. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-quest-1023",
+      "title": "Velinde Starsong · Classic quest 1023",
+      "url": "https://www.wowhead.com/classic/quest=1023/velinde-starsong",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Quest handoff from Melyria to Thyn’tel; secondary transcript locator, not original-client capture. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-quest-1038",
+      "title": "Velinde’s Effects · Classic quest 1038",
+      "url": "https://www.wowhead.com/classic/quest=1038/velindes-effects",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Quest description, key, Sentinels’ bunkhouse and Velinde’s Journal; secondary transcript locator. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-quest-1039",
+      "title": "The Barrens Port · Classic quest 1039",
+      "url": "https://classicdb.ch/?quest=1039",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Thyn’tel handoff to the Ratchet dock search; secondary transcript locator. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-quest-1040",
+      "title": "Passage to Booty Bay · Classic quest 1040",
+      "url": "https://www.wowhead.com/classic/quest=1040/passage-to-booty-bay",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Wharfmaster’s Black Osprey ledger entry and Booty Bay lead; secondary transcript locator. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-quest-1041",
+      "title": "The Caravan Road · Classic quest 1041",
+      "url": "https://www.wowhead.com/classic/quest=1041/the-caravan-road",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Caravaneer recollection and Darkshire lead; secondary transcript locator. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-quest-1042",
+      "title": "The Carevin Family · Classic quest 1042",
+      "url": "https://www.wowhead.com/classic/quest=1042/the-carevin-family",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Clerk Daltry’s records and referral to Jonathan Carevin; secondary transcript locator. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-quest-1043",
+      "title": "The Scythe of Elune · Classic quest 1043",
+      "url": "https://www.wowhead.com/classic/quest=1043/the-scythe-of-elune",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Carevin’s mine lead, mound apparition and containment response; secondary transcript locator. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-quest-1044",
+      "title": "Answered Questions · Classic quest 1044",
+      "url": "https://www.wowhead.com/classic/quest=1044/answered-questions",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Final handoff and Thyn’tel’s response; secondary transcript locator. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-quest-chain-locator",
+      "title": "The Scythe of Elune quest chain · Classic order locator",
+      "url": "https://warcraft.wiki.gg/wiki/The_Scythe_of_Elune_quest_chain",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-02. Secondary locator for the nine quest IDs, order, Classic removal boundary and zone span. Navigation only; does not join the Sven/Jitters quest dependency. Original-client/build verification remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-velindes-journal-5520",
+      "title": "Velinde’s Journal · Classic quest item 5520",
+      "url": "https://warcraft.wiki.gg/wiki/Velinde%27s_Journal",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. In-game item text reproduced by a secondary reference. Used only for attributed claims about Velinde’s account; verify item 5520 against the original Classic client. Original-client/build verification remains open."
+    },
+    {
       "id": "story-ahnqiraj-raids",
       "title": "Explore the Temple and Ruins of Ahn'Qiraj",
       "url": "https://worldofwarcraft.blizzard.com/en-us/news/23493335",
@@ -37621,6 +39116,120 @@
       "sourceId": "scepter-book",
       "section": "Quest description/objective/completion, associated scene or Blizzard account as identified in source notes",
       "note": "Research paraphrase. No original-client capture claimed; mirrored evidence and chronological frame require human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-answers-return-to-darnassus-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1044",
+      "section": "Classic quest 1044 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1044",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-carevin-contains-the-threat-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1043",
+      "section": "Classic quest 1043 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1043",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-daltrys-records-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1042",
+      "section": "Classic quest 1042 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1042",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-jitters-book-2161",
+      "section": "Classic quest item 2161 · Book from Sven’s Farm, partial first-person witness account",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-claim-citation-2",
+      "sourceId": "scythe-of-elune-original-mystery-jitters-quest-453",
+      "section": "Classic quest 453 · Finding the Shadowy Figure; separate Duskwood quest line identifying Jitters",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-orders-no-longer-hold-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-velindes-journal-5520",
+      "section": "Classic quest item 5520 · Velinde’s Journal, attributed first-person entries",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-ruzzgot-remembers-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1041",
+      "section": "Classic quest 1041 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1041",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-search-for-arugal-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-velindes-journal-5520",
+      "section": "Classic quest item 5520 · Velinde’s Journal, attributed first-person entries",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-search-for-arugal-claim-citation-2",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1039",
+      "section": "Classic quest 1039 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1039",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-black-osprey-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1040",
+      "section": "Classic quest 1040 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1040",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-carevin-lead-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1043",
+      "section": "Classic quest 1043 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1043",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-first-summoning-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-velindes-journal-5520",
+      "section": "Classic quest item 5520 · Velinde’s Journal, attributed first-person entries",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-journal-in-darnassus-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1038",
+      "section": "Classic quest 1038 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1038",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-mound-at-rolands-doom-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1043",
+      "section": "Classic quest 1043 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1043",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1022",
+      "section": "Classic quest 1022 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1022",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-tome-of-melthandris-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1022",
+      "section": "Classic quest 1022 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1022",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-velindes-disappearance-claim-citation-1",
+      "sourceId": "scythe-of-elune-original-mystery-quest-1023",
+      "section": "Classic quest 1023 · directly relevant description, objective, completion text or chain entry",
+      "questId": "1023",
+      "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
     },
     {
       "id": "tirion-taelan-of-love-and-family-a-family-restored-in-paint-citation-1",
@@ -42567,6 +44176,188 @@
       "status": "active"
     },
     {
+      "id": "scythe-of-elune-original-mystery-answers-return-to-darnassus-claim",
+      "subjectId": "scythe-of-elune-original-mystery-answers-return-to-darnassus-event",
+      "predicate": "scythe_story_scene",
+      "value": "Thyn’tel receives the report and calls the account Velinde’s fate. She recalls a trusted friend and accepts that the Scythe has passed out of her people’s hands. Her thanks closes the nine-step chain, but the mystery remains open: the quest does not recover the weapon, identify whoever may have found it, or explain the later fate of every worgen pack. Darnassus can record the loss. It cannot tell the seeker where the Scythe went.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-answers-return-to-darnassus-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-carevin-contains-the-threat-claim",
+      "subjectId": "scythe-of-elune-original-mystery-carevin-contains-the-threat-event",
+      "predicate": "scythe_story_scene",
+      "value": "Carevin hears the account and does not claim he can end the worgen problem. He will make containing their numbers a priority, while the root of the trouble remains beyond the household’s reach. That is the local resolution the quest supports: a promise to resist a danger, not a cure, a recovered weapon, or a verdict on every cause shaping Duskwood. The trail now returns to Darnassus, where Thyn’tel can hear what the mound revealed.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-carevin-contains-the-threat-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-daltrys-records-claim",
+      "subjectId": "scythe-of-elune-original-mystery-daltrys-records-event",
+      "predicate": "scythe_story_scene",
+      "value": "Daltry finds no record of Velinde staying at the inn. That silence is limited to the records he knows; it cannot prove she never passed through Darkshire. But when the seeker describes the wolf-men, the clerk has heard of them. He points toward the Carevin household, whose hunters work against monsters in the wood. The search has found no lodging entry and no living witness to Velinde’s arrival. It has found a local lead: a mine to the south where the worgen were first encountered.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-daltrys-records-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-claim",
+      "subjectId": "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-event",
+      "predicate": "scythe_story_scene",
+      "value": "A separate Duskwood quest path preserves a partial book from Sven’s farm, later connected to Jitters. Its author says he found a scythe in the rubble at Roland’s Doom; after he pulled it free, worgen attacked his companions, and he fled, losing the weapon along the way. He wonders whether his act brought the worgen, but marks that as a guess. This is a witness’s account from another chain, not a guaranteed continuation of Velinde’s investigation. Together the records narrow the loss to Duskwood, yet they do not name the Scythe’s next bearer or prove that it explains every worgen presence in the forest.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-claim-citation-1",
+        "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-claim-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-orders-no-longer-hold-claim",
+      "subjectId": "scythe-of-elune-original-mystery-orders-no-longer-hold-event",
+      "predicate": "scythe_story_scene",
+      "value": "Later entries darken the triumph. Velinde says the packs grew even when she no longer summoned them; one group sent to range through the forest never returned. She worried that the leaders she had trusted were beyond her control, gathered what worgen she could, and ordered them to remain at the shrine. Her journal then records a search through Darnassus and Darkshore for knowledge, and a rumor that the wizard Arugal had also summoned worgen. It gives her reason to seek him, but does not show that meeting or settle what happened to every pack.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-orders-no-longer-hold-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-ruzzgot-remembers-claim",
+      "subjectId": "scythe-of-elune-original-mystery-ruzzgot-remembers-event",
+      "predicate": "scythe_story_scene",
+      "value": "In Booty Bay, Caravaneer Ruzzgot recalls a night-elf priestess who travelled with his company. They parted on the northbound road, and he remembers her heading for Darkshire. His recollection supplies a lead, not a measured route or a reason for Velinde’s choice. Still, it places her search in Duskwood, where the worgen are already a local fear. The story moves from a ship’s ledger to one person’s memory, and from there to the town records kept by Clerk Daltry.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-ruzzgot-remembers-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-search-for-arugal-claim",
+      "subjectId": "scythe-of-elune-original-mystery-search-for-arugal-event",
+      "predicate": "scythe_story_scene",
+      "value": "Velinde’s final entry says she means to seek passage from a port in the Barrens and follow a lead concerning Arugal. Thyn’tel turns that intention into the seeker’s next task: speak to Wharfmaster Dizzywig in Ratchet. The quest order traces an investigation; it does not prove every step of Velinde’s own travel or that she ever reached the wizard. One last plan survives in her writing. Beyond it, the trail must be tested against the accounts of people who worked the docks.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-search-for-arugal-claim-citation-1",
+        "scythe-of-elune-original-mystery-search-for-arugal-claim-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-black-osprey-claim",
+      "subjectId": "scythe-of-elune-original-mystery-the-black-osprey-event",
+      "predicate": "scythe_story_scene",
+      "value": "At Ratchet, Dizzywig searches the port ledger and finds Velinde’s name beside passage on the Black Osprey to Booty Bay. With no contrary entry, he assumes the vessel arrived safely. That is a reasonable reading of a dock record, but it is still an inference by the wharfmaster; Velinde leaves no message from the far shore. The harbor narrows the search to a named crossing and a likely destination, then hands the question to a caravaner who may remember what happened after the ship berthed.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-the-black-osprey-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-carevin-lead-claim",
+      "subjectId": "scythe-of-elune-original-mystery-the-carevin-lead-event",
+      "predicate": "scythe_story_scene",
+      "value": "Jonathan Carevin has no record of the elven priestess, but he knows the worgen and the place where they were first found in Duskwood. His family cannot follow every rumor; he asks the seeker to inspect Roland’s Doom and report any sign of the Scythe. The request points toward evidence rather than certainty. The quest does not say that the artifact caused every darkness in the forest, only that the mine may connect the missing weapon with the creatures who appeared there.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-the-carevin-lead-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-first-summoning-claim",
+      "subjectId": "scythe-of-elune-original-mystery-the-first-summoning-event",
+      "predicate": "scythe_story_scene",
+      "value": "Velinde writes that the Scythe let her communicate with the worgen and draw them into her world. She says the first pack she summoned followed her against the demons in Felwood. To her, the weapon answered a desperate need: allies for a war her dwindling companions could no longer sustain alone. This is her account of its power and purpose, not an outside chronicle of every battle. Yet it changes the meaning of the pack at Mel’Thandris. The wolf-men are no longer only an unexplained presence; Velinde’s journal says she had summoned worgen in the forest campaign.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-the-first-summoning-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-journal-in-darnassus-claim",
+      "subjectId": "scythe-of-elune-original-mystery-the-journal-in-darnassus-event",
+      "predicate": "scythe_story_scene",
+      "value": "The Tome and Melyria’s report persuade Thyn’tel to lend the key to Velinde’s chest in the Sentinels’ bunkhouse. The search yields a journal, not a final explanation. Its entries are Velinde’s own record of her work and her doubts, written without dates that would fix the events on a calendar. What follows is an attributed account: it tells us what Velinde believed she had done with the Scythe, while leaving room for what one witness could not see.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-the-journal-in-darnassus-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-mound-at-rolands-doom-claim",
+      "subjectId": "scythe-of-elune-original-mystery-the-mound-at-rolands-doom-event",
+      "predicate": "scythe_story_scene",
+      "value": "At a mound of earth inside Roland’s Doom, Velinde’s specter appears. Her words convey failure, worgen beyond control, and the loss of Elune’s Scythe; she wonders whose hand now directs its power. The scene lets the seeker hear her grief, but it does not show the moment of her death or name a new bearer. The mine has yielded the missing priestess’s testimony and confirmed that the artifact is no longer with her. Its path after that loss remains unseen.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-the-mound-at-rolands-doom-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale-claim",
+      "subjectId": "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale-event",
+      "predicate": "scythe_story_scene",
+      "value": "At Forest Song, Melyria measures the sentinels’ work against a forest that will not quiet. Her report speaks of the struggle against demons pressing out of Felwood, while a ruined shrine near the northern border has been overtaken by mysterious wolf-men. Their cries have given the hollow its name. She asks the seeker to read the Tome of Mel’Thandris and learn what may have drawn them there. That is the first question the Classic chain sets before us: a sacred ruin, a strange pack, and a record whose workings no one fully understands.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-tome-of-melthandris-claim",
+      "subjectId": "scythe-of-elune-original-mystery-tome-of-melthandris-event",
+      "predicate": "scythe_story_scene",
+      "value": "At the shrine, the Tome answers by showing a remembered scene. Velinde Starsong calls to Elune as her companions dwindle and her own strength falters against the demons. In the vision, she receives the Scythe of Elune and regards it as an answer to her prayer. Melyria says the image leaves more to investigate. The quest does not make the Tome’s nature plain, and this first scene does not yet show how the gift will alter the danger in the forest.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-tome-of-melthandris-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-velindes-disappearance-claim",
+      "subjectId": "scythe-of-elune-original-mystery-velindes-disappearance-event",
+      "predicate": "scythe_story_scene",
+      "value": "Melyria sends the inquiry to Thyn’tel Bladeweaver in Darnassus. Velinde had served before Melyria at Forest Song, and her disappearance has left the Sentinels without an answer. Thyn’tel is reluctant to expose her belongings to a stranger; the priestess had earned the trust of her people, who still expect her to return. The quest supplies no calendar date for this absence. The search begins between two records: a vision at the ruined shrine and a city that has kept Velinde’s effects in the hope she might come home.",
+      "citationIds": [
+        "scythe-of-elune-original-mystery-velindes-disappearance-claim-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Attribution and evidential limits remain explicit in the transcript. This claim is based on a secondary transcription; original-client comparison remains open."
+    },
+    {
       "id": "second-war-battle-claim",
       "subjectId": "second-war",
       "predicate": "ended_with_horde_defeat_and_dark_portal_destruction",
@@ -46065,6 +47856,56 @@
       "storyGuideId": "scepter-of-the-shifting-sands-guide"
     },
     {
+      "id": "scythe-of-elune-original-mystery",
+      "slug": "scythe-of-elune-original-mystery",
+      "title": "The Scythe of Elune: The Original Mystery",
+      "summary": "An Ashenvale inquiry follows Velinde Starsong’s journal across ports to Duskwood. A separate witness account deepens the trail without resolving who next held the Scythe or making every worgen mystery one cause.",
+      "opening": "A tome in a ruined Ashenvale shrine holds a memory of a missing priestess and an ancient weapon. Her journal follows the summons beyond its keeper’s control; a later quest sends the seeker through the ports to Duskwood, where another witness’s account waits in a different chain. The records meet at Roland’s Doom, then stop before the Scythe’s next hand is named.",
+      "primaryEraId": "age-of-adventurers",
+      "eraIds": [
+        "age-of-adventurers"
+      ],
+      "chapters": [
+        {
+          "id": "at-the-shrine",
+          "eraId": "age-of-adventurers",
+          "title": "The shrine and the journal",
+          "body": "Melyria’s question leads to the Tome of Mel’Thandris and then to Velinde’s own account. Keep the Tome’s remembered scene distinct from the journal’s first-person claims."
+        },
+        {
+          "id": "a-search-crosses-the-sea",
+          "eraId": "age-of-adventurers",
+          "title": "A trail of records",
+          "body": "Thyn’tel follows Velinde’s stated plan through Ratchet, Booty Bay and Darkshire. The player’s quest order is a research path, not proof of every step in Velinde’s own journey."
+        },
+        {
+          "id": "rolands-doom",
+          "eraId": "age-of-adventurers",
+          "title": "Two accounts at Roland’s Doom",
+          "body": "Jonathan Carevin’s request yields a spirit’s testimony. Jitters’s partial book comes from a separate Classic quest line and is presented as a linked witness account, not a prerequisite or guaranteed continuation."
+        }
+      ],
+      "sourceIds": [
+        "scythe-of-elune-original-mystery-quest-1022",
+        "scythe-of-elune-original-mystery-quest-1023",
+        "scythe-of-elune-original-mystery-quest-1038",
+        "scythe-of-elune-original-mystery-velindes-journal-5520",
+        "scythe-of-elune-original-mystery-quest-1039",
+        "scythe-of-elune-original-mystery-quest-1040",
+        "scythe-of-elune-original-mystery-quest-1041",
+        "scythe-of-elune-original-mystery-quest-1042",
+        "scythe-of-elune-original-mystery-quest-1043",
+        "scythe-of-elune-original-mystery-quest-1044",
+        "scythe-of-elune-original-mystery-jitters-book-2161",
+        "scythe-of-elune-original-mystery-jitters-quest-453",
+        "scythe-of-elune-original-mystery-quest-chain-locator"
+      ],
+      "storyGuideId": "scythe-of-elune-original-mystery-guide",
+      "showInEraTourOffshoots": false,
+      "reviewNote": "Complete illustrated research story with 15 transcript nodes, nine Classic Scythe quest beats, an independent Sven/Jitters Duskwood witness record, a claim and citation ledger, dedicated Classic-area scenes and cast/object art, and matching narration tracks. All records remain contentStatus research. The two chains are joined editorially, not as quest prerequisites. The story keeps attribution and uncertainty, gives no exact date, route or unproved Duskwood causality, and excludes Gilneas/Cataclysm, later comics, post-Cataclysm area states and the Legion artifact campaign. Original-client quest/item capture, Classic-area/cast comparison, citation/claim review and narration audition remain open. The included Classic accounts do not identify the Scythe’s subsequent bearer; Jitters’s recovered object is not proven to be the same item.",
+      "contentStatus": "research"
+    },
+    {
       "id": "stormwind-onyxia-conspiracy",
       "slug": "stormwind-onyxia-conspiracy",
       "title": "The Dragon in Stormwind",
@@ -46416,7 +48257,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story.",
       "regions": [
         {
           "id": "kalimdor",
@@ -46558,6 +48399,20 @@
           "locationLabel": "Westfall and Stormwind"
         },
         {
+          "storylineId": "scythe-of-elune-original-mystery",
+          "regionIds": [
+            "kalimdor",
+            "eastern-kingdoms"
+          ],
+          "mapPositionPercent": [
+            63,
+            66
+          ],
+          "order": 8,
+          "periodLabel": "Original World of Warcraft · Classic",
+          "locationLabel": "Ashenvale to Duskwood · the Scythe of Elune"
+        },
+        {
           "storylineId": "karazhan-masters-key-and-nightbane",
           "regionIds": [
             "eastern-kingdoms",
@@ -46567,7 +48422,7 @@
             77,
             66
           ],
-          "order": 8,
+          "order": 9,
           "periodLabel": "The Burning Crusade · Karazhan",
           "locationLabel": "Deadwind Pass · key fragments across Outland"
         },
@@ -46581,7 +48436,7 @@
             91,
             66
           ],
-          "order": 9,
+          "order": 10,
           "periodLabel": "The Burning Crusade · Black Temple, patch 2.1",
           "locationLabel": "Shadowmoon Valley · raids across Outland · Hyjal memory"
         },
@@ -46594,7 +48449,7 @@
             82,
             79
           ],
-          "order": 10,
+          "order": 11,
           "periodLabel": "The Burning Crusade · Shadowmoon Valley",
           "locationLabel": "Shadowmoon Valley · Outland"
         },
@@ -46608,7 +48463,7 @@
             58,
             62
           ],
-          "order": 11,
+          "order": 12,
           "periodLabel": "Original Classic investigation · Burning Crusade patch 2.3 continuation",
           "locationLabel": "Stormwind · Duskwood · Wetlands · Theramore"
         },
@@ -46621,7 +48476,7 @@
             54,
             18
           ],
-          "order": 12,
+          "order": 13,
           "periodLabel": "Wrath of the Lich King",
           "locationLabel": "Dragonblight · Northrend"
         },
@@ -46635,7 +48490,7 @@
             61,
             27
           ],
-          "order": 13,
+          "order": 14,
           "periodLabel": "Wrath of the Lich King · patch 3.3.5",
           "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
         }
@@ -47106,6 +48961,30 @@
         "scepter-story-the-gong",
         "scepter-story-beyond-the-wall",
         "scepter-story-timeless-treasure"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-guide",
+      "eraId": "age-of-adventurers",
+      "title": "The Scythe of Elune: The Original Mystery",
+      "description": "Fifteen illustrated Classic-era scenes trace Velinde Starsong’s journal and original Duskwood evidence, keeping the quest branches separate and ending at the source-supported mystery.",
+      "nodeIds": [
+        "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale",
+        "scythe-of-elune-original-mystery-tome-of-melthandris",
+        "scythe-of-elune-original-mystery-velindes-disappearance",
+        "scythe-of-elune-original-mystery-the-journal-in-darnassus",
+        "scythe-of-elune-original-mystery-the-first-summoning",
+        "scythe-of-elune-original-mystery-orders-no-longer-hold",
+        "scythe-of-elune-original-mystery-search-for-arugal",
+        "scythe-of-elune-original-mystery-the-black-osprey",
+        "scythe-of-elune-original-mystery-ruzzgot-remembers",
+        "scythe-of-elune-original-mystery-daltrys-records",
+        "scythe-of-elune-original-mystery-the-carevin-lead",
+        "scythe-of-elune-original-mystery-the-mound-at-rolands-doom",
+        "scythe-of-elune-original-mystery-carevin-contains-the-threat",
+        "scythe-of-elune-original-mystery-answers-return-to-darnassus",
+        "scythe-of-elune-original-mystery-jitters-book-from-svens-farm"
       ],
       "contentStatus": "research"
     },
@@ -62319,6 +64198,696 @@
       "eventIds": [
         "scepter-timeless-treasure-event"
       ]
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "The wolf-men of the Howling Vale",
+      "narration": "At Forest Song, Melyria measures the sentinels’ work against a forest that will not quiet. Her report speaks of the struggle against demons pressing out of Felwood, while a ruined shrine near the northern border has been overtaken by mysterious wolf-men. Their cries have given the hollow its name. She asks the seeker to read the Tome of Mel’Thandris and learn what may have drawn them there. That is the first question the Classic chain sets before us: a sacred ruin, a strange pack, and a record whose workings no one fully understands.",
+      "durationMs": 73049,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-melyria-frostshadow",
+        "scythe-of-elune-original-mystery-tome-artifact",
+        "scythe-of-elune-original-mystery-duskwood-worgen"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-forest-song",
+        "scythe-of-elune-original-mystery-howling-vale"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-tome-of-melthandris"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale.mp3",
+        "durationMs": 39900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-tome-of-melthandris",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "A memory in Mel’Thandris",
+      "narration": "At the shrine, the Tome answers by showing a remembered scene. Velinde Starsong calls to Elune as her companions dwindle and her own strength falters against the demons. In the vision, she receives the Scythe of Elune and regards it as an answer to her prayer. Melyria says the image leaves more to investigate. The quest does not make the Tome’s nature plain, and this first scene does not yet show how the gift will alter the danger in the forest.",
+      "durationMs": 64268,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-tome-of-melthandris-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-velinde-starsong",
+        "scythe-of-elune-original-mystery-scythe-artifact",
+        "scythe-of-elune-original-mystery-tome-artifact"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-howling-vale"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-tome-of-melthandris-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-velindes-disappearance"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-tome-of-melthandris.mp3",
+        "durationMs": 32650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-velindes-disappearance",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "A trusted Sentinel is missing",
+      "narration": "Melyria sends the inquiry to Thyn’tel Bladeweaver in Darnassus. Velinde had served before Melyria at Forest Song, and her disappearance has left the Sentinels without an answer. Thyn’tel is reluctant to expose her belongings to a stranger; the priestess had earned the trust of her people, who still expect her to return. The quest supplies no calendar date for this absence. The search begins between two records: a vision at the ruined shrine and a city that has kept Velinde’s effects in the hope she might come home.",
+      "durationMs": 69390,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-velindes-disappearance-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-melyria-frostshadow",
+        "scythe-of-elune-original-mystery-thyntel-bladeweaver"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-forest-song",
+        "scythe-of-elune-original-mystery-darnassus-warriors-terrace"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-velindes-disappearance-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-tome-of-melthandris",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-the-journal-in-darnassus"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-velindes-disappearance.mp3",
+        "durationMs": 37275,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-journal-in-darnassus",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "The journal in the bunkhouse",
+      "narration": "The Tome and Melyria’s report persuade Thyn’tel to lend the key to Velinde’s chest in the Sentinels’ bunkhouse. The search yields a journal, not a final explanation. Its entries are Velinde’s own record of her work and her doubts, written without dates that would fix the events on a calendar. What follows is an attributed account: it tells us what Velinde believed she had done with the Scythe, while leaving room for what one witness could not see.",
+      "durationMs": 62073,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-the-journal-in-darnassus-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-thyntel-bladeweaver",
+        "scythe-of-elune-original-mystery-velindes-journal"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-darnassus-sentinels-bunkhouse"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-the-journal-in-darnassus-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-velindes-disappearance",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-the-first-summoning"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-the-journal-in-darnassus.mp3",
+        "durationMs": 31575,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-first-summoning",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "The Scythe’s first purpose",
+      "narration": "Velinde writes that the Scythe let her communicate with the worgen and draw them into her world. She says the first pack she summoned followed her against the demons in Felwood. To her, the weapon answered a desperate need: allies for a war her dwindling companions could no longer sustain alone. These are her claims about its power and purpose, not an independent record of every battle. Yet it changes the meaning of the pack at Mel’Thandris. The wolf-men are no longer only an unexplained presence; Velinde’s journal says she had summoned worgen in the forest campaign.",
+      "durationMs": 75976,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-the-first-summoning-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-velinde-starsong",
+        "scythe-of-elune-original-mystery-duskwood-worgen",
+        "scythe-of-elune-original-mystery-scythe-artifact"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-felwood-frontier"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-the-first-summoning-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-the-journal-in-darnassus",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-orders-no-longer-hold"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-the-first-summoning.mp3",
+        "durationMs": 39900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-orders-no-longer-hold",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "When the summons outlasted its caller",
+      "narration": "Later entries darken the triumph. Velinde says the packs grew even when she no longer summoned them; one group sent to range through the forest never returned. She worried that the leaders she had trusted were beyond her control, gathered what worgen she could, and ordered them to remain at the shrine. Her journal then records a search through Darnassus and Darkshore for knowledge, and a rumor that the wizard Arugal had also summoned worgen. It gives her reason to seek him, but does not show that meeting or settle what happened to every pack.",
+      "durationMs": 74512,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-orders-no-longer-hold-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-velinde-starsong",
+        "scythe-of-elune-original-mystery-duskwood-worgen",
+        "scythe-of-elune-original-mystery-scythe-artifact"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-howling-vale"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-orders-no-longer-hold-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-the-first-summoning",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-search-for-arugal"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-orders-no-longer-hold.mp3",
+        "durationMs": 37750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-search-for-arugal",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "A lead east from Darnassus",
+      "narration": "Velinde’s final entry says she means to seek passage from a port in the Barrens and follow a lead concerning Arugal. Thyn’tel turns that intention into the seeker’s next task: speak to Wharfmaster Dizzywig in Ratchet. The quest order traces an investigation; it does not prove every step of Velinde’s own travel or that she ever reached the wizard. One last plan survives in her writing. Beyond it, the trail must be tested against the accounts of people who worked the docks.",
+      "durationMs": 65000,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-search-for-arugal-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-thyntel-bladeweaver"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-darnassus-warriors-terrace",
+        "scythe-of-elune-original-mystery-ratchet"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-search-for-arugal-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-orders-no-longer-hold",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-the-black-osprey"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-search-for-arugal.mp3",
+        "durationMs": 34600,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-black-osprey",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "The Black Osprey in the ledger",
+      "narration": "At Ratchet, Dizzywig searches the port ledger and finds Velinde’s name beside passage on the Black Osprey to Booty Bay. With no contrary entry, he assumes the vessel arrived safely. That is a reasonable reading of a dock record, but it is still an inference by the wharfmaster; Velinde leaves no message from the far shore. The harbor narrows the search to a named crossing and a likely destination, then hands the question to a caravaner who may remember what happened after the ship berthed.",
+      "durationMs": 67195,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-the-black-osprey-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-wharfmaster-dizzywig"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-ratchet"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-the-black-osprey-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-search-for-arugal",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-ruzzgot-remembers"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-the-black-osprey.mp3",
+        "durationMs": 35625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-ruzzgot-remembers",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "Ruzzgot remembers the road",
+      "narration": "In Booty Bay, Caravaneer Ruzzgot recalls a night-elf priestess who travelled with his company. They parted on the northbound road, and he remembers her heading for Darkshire. His recollection supplies a lead, not a measured route or a reason for Velinde’s choice. Still, it places her search in Duskwood, where the worgen are already a local fear. The story moves from a ship’s ledger to one person’s memory, and from there to the town records kept by Clerk Daltry.",
+      "durationMs": 62805,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-ruzzgot-remembers-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-caravaneer-ruzzgot"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-booty-bay"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-ruzzgot-remembers-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-the-black-osprey",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-daltrys-records"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-ruzzgot-remembers.mp3",
+        "durationMs": 34100,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-daltrys-records",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "No room recorded for Velinde",
+      "narration": "Daltry finds no record of Velinde staying at the inn. That silence is limited to the records he knows; it cannot prove she never passed through Darkshire. But when the seeker describes the wolf-men, the clerk has heard of them. He points toward the Carevin household, whose hunters work against monsters in the wood. The search has found no lodging entry and no living witness to Velinde’s arrival. It has found a local lead: a mine to the south where the worgen were first encountered.",
+      "durationMs": 67195,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-daltrys-records-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-clerk-daltry"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-darkshire-town-hall"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-daltrys-records-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-ruzzgot-remembers",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-the-carevin-lead"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-daltrys-records.mp3",
+        "durationMs": 34075,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-carevin-lead",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "A mine south of Darkshire",
+      "narration": "Jonathan Carevin has no record of the elven priestess, but he knows the worgen and the place where they were first found in Duskwood. His family cannot follow every rumor; he asks the seeker to inspect Roland’s Doom and report any sign of the Scythe. The request points toward evidence rather than certainty. The quest does not say that the artifact caused every darkness in the forest, only that the mine may connect the missing weapon with the creatures who appeared there.",
+      "durationMs": 65000,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-the-carevin-lead-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-jonathan-carevin"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-carevin-home",
+        "scythe-of-elune-original-mystery-rolands-doom"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-the-carevin-lead-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-daltrys-records",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-the-mound-at-rolands-doom"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-the-carevin-lead.mp3",
+        "durationMs": 34000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-the-mound-at-rolands-doom",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "A voice beneath the mound",
+      "narration": "At a mound of earth inside Roland’s Doom, Velinde’s specter appears. Her words convey failure, worgen beyond control, and the loss of Elune’s Scythe; she wonders whose hand now directs its power. The scene lets the seeker hear her grief, but it does not show the moment of her death or name a new bearer. The mine has yielded the missing priestess’s testimony and confirmed that the artifact is no longer with her. Its path after that loss remains unseen.",
+      "durationMs": 63537,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-the-mound-at-rolands-doom-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-velinde-starsong",
+        "scythe-of-elune-original-mystery-duskwood-worgen"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-rolands-doom"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-the-mound-at-rolands-doom-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-the-carevin-lead",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-carevin-contains-the-threat"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-the-mound-at-rolands-doom.mp3",
+        "durationMs": 33750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-carevin-contains-the-threat",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "Containment, not a cure",
+      "narration": "Carevin hears the account and does not claim he can end the worgen problem. He will make containing their numbers a priority, while the root of the trouble remains beyond the household’s reach. That is the local resolution the quest supports: a promise to resist a danger, not a cure, a recovered weapon, or a verdict on every cause shaping Duskwood. The trail now returns to Darnassus, where Thyn’tel can hear what the mound revealed.",
+      "durationMs": 59878,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-carevin-contains-the-threat-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-jonathan-carevin"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-carevin-home",
+        "scythe-of-elune-original-mystery-rolands-doom"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-carevin-contains-the-threat-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-the-mound-at-rolands-doom",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-answers-return-to-darnassus"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-carevin-contains-the-threat.mp3",
+        "durationMs": 31650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-answers-return-to-darnassus",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "The report returns to Darnassus",
+      "narration": "Thyn’tel receives the report and calls the account Velinde’s fate. She recalls a trusted friend and accepts that the Scythe has passed out of her people’s hands. Her thanks closes the nine-step chain, but the mystery remains open: the quest does not recover the weapon, identify whoever may have found it, or explain the later fate of every worgen pack. Darnassus can record the loss. It cannot tell the seeker where the Scythe went.",
+      "durationMs": 59146,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-answers-return-to-darnassus-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-thyntel-bladeweaver"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-darnassus-warriors-terrace"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-answers-return-to-darnassus-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-carevin-contains-the-threat",
+      "nextNodeIds": [
+        "scythe-of-elune-original-mystery-jitters-book-from-svens-farm"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-answers-return-to-darnassus.mp3",
+        "durationMs": 31650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "scythe-of-elune-original-mystery-jitters-book-from-svens-farm",
+      "guideId": "scythe-of-elune-original-mystery-guide",
+      "title": "Jitters’s separate testimony",
+      "narration": "A separate Duskwood quest path preserves a partial book from Sven’s farm, later connected to Jitters. Its author says he found a scythe in the rubble at Roland’s Doom; after he pulled it free, worgen attacked his companions, and he fled, losing the weapon along the way. He wonders whether his act brought the worgen, but marks that as a guess. This is a witness’s account from another chain, not a guaranteed continuation of Velinde’s investigation. Together the records narrow the loss to Duskwood, yet they do not name the Scythe’s next bearer or prove that it explains every worgen presence in the forest.",
+      "durationMs": 81098,
+      "eventIds": [
+        "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-event"
+      ],
+      "entityIds": [
+        "scythe-of-elune-original-mystery-jitters",
+        "scythe-of-elune-original-mystery-duskwood-worgen",
+        "scythe-of-elune-original-mystery-book-from-svens-farm"
+      ],
+      "locationIds": [
+        "scythe-of-elune-original-mystery-svens-farm",
+        "scythe-of-elune-original-mystery-rolands-doom"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "scythe-of-elune-original-mystery-jitters-book-from-svens-farm-scene"
+        }
+      ],
+      "previousNodeId": "scythe-of-elune-original-mystery-answers-return-to-darnassus",
+      "voiceover": {
+        "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-jitters-book-from-svens-farm.mp3",
+        "durationMs": 43975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
     },
     {
       "id": "onyxia-story-dragonkin-menace",
