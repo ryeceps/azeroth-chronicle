@@ -1,6 +1,6 @@
 import { Html, Line, OrbitControls, useGLTF, useTexture } from '@react-three/drei';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { Suspense, useEffect, useMemo, useRef, useState, type ElementRef } from 'react';
+import { Suspense, useEffect, useMemo, useRef, useState, type CSSProperties, type ElementRef } from 'react';
 import { Link } from 'react-router-dom';
 import { DataTexture, Group, LinearFilter, Path, PerspectiveCamera, RGBAFormat, Shape, ShapeGeometry, SRGBColorSpace, Vector2 } from 'three';
 import { useLayerStore } from '../../app/state/layerStore';
@@ -334,8 +334,10 @@ function useFigureDistanceFactor(immersive?: boolean) {
 
 function CharacterFigure({ entity, figure, active, immersive, readOnly, onSelect }: { entity: LoreEntity; figure: NonNullable<LoreEntity['mapFigure']>; active: boolean; immersive?: boolean; readOnly?: boolean; onSelect: () => void }) {
   const distanceFactor = useFigureDistanceFactor(immersive);
-  const width = Math.round(132 * (figure.scale ?? 1));
-  const content = <><img src={`${import.meta.env.BASE_URL}${figure.asset}`} alt="" width={width} /><span>{entity.name}</span></>;
+  const scale = figure.scale ?? 1;
+  const width = Math.round(132 * scale);
+  const figureStyle = { '--figure-growth': Math.max(1, scale / 1.3) } as CSSProperties;
+  const content = <><img src={`${import.meta.env.BASE_URL}${figure.asset}`} alt="" width={width} style={figureStyle} /><span>{entity.name}</span></>;
   return (
     <Html center position={[0, 1.02, 0]} distanceFactor={distanceFactor} zIndexRange={[4, 1]}>
       {readOnly
