@@ -3,7 +3,7 @@
   "status": "research",
   "targetEditionBuild": "World of Warcraft: The Burning Crusade, original quest era patch 2.0.3 through 2.4.3, before Wrath of the Lich King changes. Exact reference build capture remains open.",
   "editorialRule": "Match the named TBC game areas by their recognizable architecture, material palette, terrain, skyline and landmark forms while using original compositions. Record the reference and keep the in-game resemblance review explicitly open until a human compares each image with the matching client/build.",
-  "assetProvenance": "Original illustrations created with built-in OpenAI ImageGen. Four 2x2 environment contact sheets were cropped into distinct landscape assets. Character and object assets are transparent cutouts; Arcanagos and Nightbane have separate single-subject dragon art. Medivh’s portrait received a focused staff edit so Atiesh has an integrated carved raven-head finial and violet streamer. All art is interpretive, not canonical game art or source evidence.",
+  "assetProvenance": "Original illustrations created with built-in OpenAI ImageGen. Four 2x2 environment contact sheets were cropped into distinct landscape assets. Character and object assets are transparent cutouts; Arcanagos and Nightbane have separate single-subject dragon art. Medivh’s portrait received a focused staff edit so Atiesh has an integrated seated-raven carving, dark gnarled shaft, violet eye detail and the mage version’s red hanging streamer. All art is interpretive, not canonical game art or source evidence.",
   "assetRecords": [
     {
       "id": "deadwind-pass-tower",
@@ -462,13 +462,13 @@
       "kind": "character",
       "file": "public/images/storylines/karazhan/medivh.research.webp",
       "representedBy": "Medivh",
-      "sourceArtifact": "exec-fafc82b4-9f2a-4521-88e2-bc36f906da51.png",
-      "sourceTile": "single transparent portrait staff edit",
+      "sourceArtifact": "exec-4ebac0e7-67f0-4897-b32b-ce58ae9d9185.png",
+      "sourceTile": "single transparent portrait with seated-raven and red-ribbon Atiesh edit",
       "targetEditionBuild": "Burning Crusade quest-era identity; exact client appearance/build comparison remains open.",
-      "generationPrompt": "Focused edit of the original transparent Medivh portrait. Preserve the composition, character identity, clothing, body pose and hand grip. Change only the staff into a gnarled wooden Atiesh with a carved raven-head finial integrated into its upper end, violet crystal accents and a hanging violet streamer. No text or scenery; original interpretation, not canonical game art.",
+      "generationPrompt": "Focused edit of the original transparent Medivh portrait. Preserve the character, face, hair, robes, pose, lighting, framing and transparent background. Replace only the staff with Atiesh: show its entire dark gnarled wooden shaft from the raven carving to the iron-shod base; integrate a clear seated raven carving at the top with rounded head, hooked beak, folded wings and body; add a small violet eye or stone and the mage version’s narrow hanging crimson-red streamer. Keep the staff held naturally in Medivh’s existing hand. No oversized crystals, floating orbs, elaborate filigree, text or scenery; original interpretation, not canonical game art.",
       "generator": "OpenAI ImageGen; focused staff edit of a transparent portrait cutout, converted to alpha-capable WebP.",
       "transparency": true,
-      "visualReview": "Atiesh reads as a single staff with an integrated carved raven-head finial, gnarled wood shaft, violet crystal accents and hanging streamer. User-directed interpretation; compare to the intended TBC client item/model before approval.",
+      "visualReview": "Atiesh reads at portrait scale as a complete staff held in Medivh’s hand: a dark gnarled wooden shaft with iron-shod base and an integrated seated raven carving whose head, hooked beak, folded wings and body form one clear silhouette, with a small violet eye or stone and the mage version’s red streamer. User-directed interpretation; compare to the intended TBC client item/model before approval.",
       "sourceReferences": [
         {
           "sourceId": "karazhan-masters-touch-quest-text",
@@ -484,12 +484,12 @@
         },
         {
           "sourceId": "karazhan-atiesh-visual-reference",
-          "url": "https://www.wowhead.com/classic/item=22631/atiesh-greatstaff-of-the-guardian"
+          "url": "https://www.wowhead.com/classic/item=22589/atiesh-greatstaff-of-the-guardian"
         }
       ],
-      "byteLength": 233180,
-      "modifiedAt": "2026-10-01T18:46:33.472Z",
-      "sha256": "cfd7c3202db5dc7aaae8f4c8363d22b9698197cfeeb77cff17cb4095066c7849"
+      "byteLength": 260024,
+      "modifiedAt": "2026-10-02T04:38:04.329Z",
+      "sha256": "08a34c9cd051fea2a024114aed3217425c1ca92d15aefd218efefe63f86a8c24"
     },
     {
       "id": "archmage-cedric",
@@ -680,7 +680,7 @@
         },
         {
           "sourceId": "karazhan-atiesh-visual-reference",
-          "url": "https://www.wowhead.com/classic/item=22631/atiesh-greatstaff-of-the-guardian"
+          "url": "https://www.wowhead.com/classic/item=22589/atiesh-greatstaff-of-the-guardian"
         }
       ],
       "byteLength": 122020,
@@ -792,7 +792,7 @@
         },
         {
           "sourceId": "karazhan-atiesh-visual-reference",
-          "url": "https://www.wowhead.com/classic/item=22631/atiesh-greatstaff-of-the-guardian"
+          "url": "https://www.wowhead.com/classic/item=22589/atiesh-greatstaff-of-the-guardian"
         }
       ],
       "byteLength": 296068,

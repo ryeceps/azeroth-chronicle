@@ -141,7 +141,6 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Sources:** Blizzard's [Outland attunement overview](https://worldofwarcraft.blizzard.com/en-us/news/23716331/get-attuned-and-face-the-overlords-of-outland); [key locator](https://warcraft.wiki.gg/wiki/Karazhan_attunement). **Gate:** historical time-travel scenes are not contemporary travel routes. Capture released journal dialogue and Nightbane's history.
 
-
 **Implementation:** Complete 18-scene illustrated research story with transcript-matched AI narration, claim/source ledger, named cast and object art (including Medivh with Atiesh), and the Karazhan marker in the Classic-to-Wrath StoryTour. The Master’s Key and Nightbane quest chains remain distinct with an explicit editorial join. Original-client evidence, human lore review, TBC area/model resemblance review and audio audition remain open. See the [production ledger](karazhan-production.md), [research packet](karazhan-masters-key-and-nightbane-research.md), and [visual asset ledger](karazhan-visual-assets.json).
 ### 13. Akama and the Black Temple
 

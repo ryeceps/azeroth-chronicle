@@ -52,6 +52,7 @@ test('Karazhan traverses all cited scenes, shows Atiesh with Medivh, and returns
       const medivhFigure = page.locator('.map-character-figure img[src*="/medivh.research.webp"]');
       await expect(medivhFigure).toBeVisible();
       await expect.poll(() => medivhFigure.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
+      await expect.poll(() => medivhFigure.evaluate((image: HTMLImageElement) => image.width)).toBeGreaterThanOrEqual(170);
     }
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
