@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T21:45:20.190Z",
+  "generatedAt": "2026-10-01T23:44:35.484Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 219,
-  "totalDurationMs": 5761675,
+  "trackCount": 233,
+  "totalDurationMs": 6181600,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -1862,6 +1862,132 @@
       "sha256": "fbe033c5cb3f2a07c08ac03b2960aaec89ec0827d128e00de9f8087b7a628608",
       "transcriptSha256": "3a2a5c17fca0ff2185d8dab98a9e1eb4fc92a965d4edba3ed3340be859f6c181",
       "bytes": 369549
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-the-old-hermit",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-the-old-hermit.mp3",
+      "durationMs": 30575,
+      "sha256": "5b867f08beef3bfb6c6e6ab8dc587e3b6c969f770df3f0cde48a9e1cbf48246a",
+      "transcriptSha256": "82256705ac7dba20714ec6b85fb2e299e6ed2cfa3e5cebcee5a2e9285bee91d9",
+      "bytes": 367821
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-tirions-request",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-tirions-request.mp3",
+      "durationMs": 29850,
+      "sha256": "82af00f6c8d2d07f48169bcfa8c1e24b9083e79971ccf04a3c7db9d00a92891d",
+      "transcriptSha256": "d2a6fba3b9a72aad7f6c3a62a12338b3bc6a58cd4b9ac3da8fc797b0e8984f91",
+      "bytes": 359181
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-the-miniature-hammer",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-the-miniature-hammer.mp3",
+      "durationMs": 28600,
+      "sha256": "e7d1a10bf6fb3f042fa3087ae1b1133e5551591f3c58766983b146f2e130cc82",
+      "transcriptSha256": "2172e3ffc3c2d459302169059c68af4334abf3e8593d055a34fcb814d026385b",
+      "bytes": 344205
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-the-silver-hand-symbol",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-the-silver-hand-symbol.mp3",
+      "durationMs": 31575,
+      "sha256": "286702aa28a0cde3d990eb10af00914ac22f47e78eafdd21e3b9026d0de3bd96",
+      "transcriptSha256": "927f067865f33be53f258a9aed265c626b76ed156f43b826703207a9a6d591d5",
+      "bytes": 379917
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-renfray-remembers",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-renfray-remembers.mp3",
+      "durationMs": 31200,
+      "sha256": "a9810a3375ac9f97287fe3e72ca23c6baf01112926d1542a3ec92f0b256776b7",
+      "transcriptSha256": "07b575711adee2c8c0f4670ccedd3fda02bc5754f43624d03794a3f40f2f871f",
+      "bytes": 375309
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-the-twin-moons",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-the-twin-moons.mp3",
+      "durationMs": 31450,
+      "sha256": "a73d20841478f2b9de426c39c65f1b318c3ce9d1e6354491a62d8cb12748583b",
+      "transcriptSha256": "68d07625dbd12fdc66addad5424853ce9b260cb617c3fce59e70d709d88cdfab",
+      "bytes": 378477
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-a-family-restored-in-paint",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-a-family-restored-in-paint.mp3",
+      "durationMs": 31025,
+      "sha256": "2908d2ea6bb3e3419fd0781fcebafbc71822b2aa47651aeed18f21fbe4660258",
+      "transcriptSha256": "2ef1e59972b6ff22b6408d472a06c2cd79e8b18ec7d66ed592b7ff226a63095b",
+      "bytes": 373293
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-myranda-at-uthers-tomb",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-myranda-at-uthers-tomb.mp3",
+      "durationMs": 28450,
+      "sha256": "67bab534e1b3e11648e787382c99475f8ee62609db71328e9ce6103fdc670ad1",
+      "transcriptSha256": "df850f427a30e27f6eaa163721bd68fa5210ae159c7b0406e6bfd9f6542dad9e",
+      "bytes": 342477
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-a-gift-in-hearthglen",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-a-gift-in-hearthglen.mp3",
+      "durationMs": 31175,
+      "sha256": "5f1edc16d33a599521271c6bc0c6215d537bfa664d465e5a2a403d6f7c8e00f4",
+      "transcriptSha256": "5476566bf6f3658230a08679de13b218fe34d78a449063f1ef8f807bb5f80359",
+      "bytes": 375021
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-taelan-chooses-to-leave",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-taelan-chooses-to-leave.mp3",
+      "durationMs": 29075,
+      "sha256": "22b66112bc8e65133bfafeeb16babe08c7de4e01b4aad1a9841bd7bcf0255b32",
+      "transcriptSha256": "4de3960a075dc1b4ec1a76541fae7bf9705cfbd6d1449c0b3b34061d8dfdaff4",
+      "bytes": 349965
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-out-through-hearthglen",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-out-through-hearthglen.mp3",
+      "durationMs": 28950,
+      "sha256": "45ff61309c1e4acc8a682d8ec7850db10f62232d580c9a85d12c42be6060ed43",
+      "transcriptSha256": "f66b1bcd9dc41df404fabb418ef07534d97a3c5dfc9a61658d17c58b1120371a",
+      "bytes": 348525
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-isillien-at-the-tower",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-isillien-at-the-tower.mp3",
+      "durationMs": 29275,
+      "sha256": "3df26a363b64fd98368e5cf7ee781209ec3d85fe4f6e5e379df631421c433139",
+      "transcriptSha256": "c5c4b1d25d17fb15c6e3355fb8690763feff067afe7273b6a1e1da3940fda28b",
+      "bytes": 352269
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-tirion-arrives",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-tirion-arrives.mp3",
+      "durationMs": 28700,
+      "sha256": "b455108c96e8a25de1bba3753c8e901c5d96cb04b9035931e0c6ebbeb979f143",
+      "transcriptSha256": "611ef9be813e56753bc9102707700cc1411285432d7fe4cebcc89216dde69be6",
+      "bytes": 345357
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-a-new-order",
+      "guideId": "tirion-taelan-of-love-and-family-guide",
+      "assetPath": "audio/guided/tirion-taelan-of-love-and-family-guide/tirion-taelan-of-love-and-family-story-a-new-order.mp3",
+      "durationMs": 30025,
+      "sha256": "9d100fa8e013f82d66404b307d9691bf46120ae01160fdcb2a5409a8312d2816",
+      "transcriptSha256": "e757bef108670821c776573fdde89287be9223a767f621fe4bcaee4b1b1f1a7b",
+      "bytes": 361485
     }
   ]
 }

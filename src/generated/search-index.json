@@ -44,7 +44,16 @@
       "fallen-hero-loramus-name-locators",
       "fallen-hero-felbane-weapon-locators",
       "fallen-hero-amulet-locators",
-      "fallen-hero-final-quest-locator"
+      "fallen-hero-final-quest-locator",
+      "tirion-taelan-classic-chain-guide",
+      "tirion-taelan-redemption-locator",
+      "tirion-taelan-forgotten-memories-locator",
+      "tirion-taelan-lost-honor-locator",
+      "tirion-taelan-portrait-introduction-locator",
+      "tirion-taelan-portrait-recovery-locator",
+      "tirion-taelan-find-myranda-locator",
+      "tirion-taelan-scarlet-subterfuge-locator",
+      "tirion-taelan-in-dreams-locator"
     ],
     "contentStatus": "research"
   },
@@ -669,6 +678,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "artist-renfray",
+    "type": "entity",
+    "name": "Artist Renfray",
+    "slug": "artist-renfray",
+    "path": "/locations/artist-renfray",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "interpretive-art"
+    ],
+    "description": "Artist Renfray, represented in the Classic Tirion and Taelan research story.",
+    "sourceIds": [
+      "tirion-taelan-portrait-introduction-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "axtroz",
     "type": "entity",
     "name": "Axtroz",
@@ -1039,6 +1066,24 @@
       "warcraft-chronicle-volume-3",
       "blizzard-warcraft-iii-story-so-far",
       "blizzard-mount-hyjal-history"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "caer-darrow",
+    "type": "entity",
+    "name": "Caer Darrow",
+    "slug": "caer-darrow",
+    "path": "/locations/caer-darrow",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "classic-era-location"
+    ],
+    "description": "A ruined island settlement in the Western Plaguelands where Artist Renfray is found.",
+    "sourceIds": [
+      "tirion-taelan-portrait-introduction-locator"
     ],
     "contentStatus": "research"
   },
@@ -1854,6 +1899,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "grand-inquisitor-isillien",
+    "type": "entity",
+    "name": "Grand Inquisitor Isillien",
+    "slug": "grand-inquisitor-isillien",
+    "path": "/locations/grand-inquisitor-isillien",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "interpretive-art"
+    ],
+    "description": "Grand Inquisitor Isillien, represented in the Classic Tirion and Taelan research story.",
+    "sourceIds": [
+      "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "great-dark-beyond",
     "type": "entity",
     "name": "The Great Dark Beyond",
@@ -1987,6 +2050,43 @@
     "sourceIds": [
       "onyxia-classic-attunement",
       "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hearthglen-roadside-tower",
+    "type": "entity",
+    "name": "The roadside tower outside Hearthglen",
+    "slug": "hearthglen-roadside-tower",
+    "path": "/locations/hearthglen-roadside-tower",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "classic-era-location"
+    ],
+    "description": "A broad watchtower setting along the Western Plaguelands road, where the Classic In Dreams quest resolves.",
+    "sourceIds": [
+      "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hearthglen",
+    "type": "entity",
+    "name": "Hearthglen",
+    "slug": "hearthglen",
+    "path": "/locations/hearthglen",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "classic-era-location"
+    ],
+    "description": "A fortified human settlement in the Western Plaguelands under the Scarlet Crusade during this quest chain.",
+    "sourceIds": [
+      "tirion-taelan-scarlet-subterfuge-locator",
+      "tirion-taelan-in-dreams-locator"
     ],
     "contentStatus": "research"
   },
@@ -2882,6 +2982,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "mardenholde-keep",
+    "type": "entity",
+    "name": "Mardenholde Keep",
+    "slug": "mardenholde-keep",
+    "path": "/locations/mardenholde-keep",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "classic-era-location"
+    ],
+    "description": "The keep at Hearthglen associated with Taelan’s title and the Scarlet Crusade period.",
+    "sourceIds": [
+      "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "marshal-windsor",
     "type": "entity",
     "name": "Marshal Windsor",
@@ -3094,12 +3212,14 @@
     "aliases": [],
     "tags": [
       "onyxia-story",
-      "interpretive-art"
+      "interpretive-art",
+      "tirion-taelan-story"
     ],
     "description": "Myranda the Hag, represented in the Onyxia research story.",
     "sourceIds": [
       "onyxia-classic-attunement",
-      "onyxia-attunement-wiki"
+      "onyxia-attunement-wiki",
+      "tirion-taelan-find-myranda-locator"
     ],
     "contentStatus": "research"
   },
@@ -3284,6 +3404,24 @@
       "warcraft-chronicle-volume-1",
       "warcraft-chronicle-volume-3",
       "blizzard-mount-hyjal-history"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "northdale",
+    "type": "entity",
+    "name": "Northdale",
+    "slug": "northdale",
+    "path": "/locations/northdale",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "classic-era-location"
+    ],
+    "description": "A ruined settlement and lake in the Eastern Plaguelands, associated with Taelan’s account of lost honor.",
+    "sourceIds": [
+      "tirion-taelan-lost-honor-locator"
     ],
     "contentStatus": "research"
   },
@@ -3526,6 +3664,26 @@
     "contentStatus": "research"
   },
   {
+    "id": "portrait-of-love-and-family",
+    "type": "entity",
+    "name": "Of Love and Family — recovered portrait",
+    "slug": "portrait-of-love-and-family",
+    "path": "/locations/portrait-of-love-and-family",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "interpretive-art"
+    ],
+    "description": "Of Love and Family — recovered portrait, represented in the Classic Tirion and Taelan research story.",
+    "sourceIds": [
+      "tirion-taelan-portrait-recovery-locator",
+      "tirion-taelan-portrait-introduction-locator",
+      "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "primordial-kalimdor",
     "type": "entity",
     "name": "Primordial Kalimdor",
@@ -3661,6 +3819,25 @@
     "sourceIds": [
       "warcraft-chronicle-volume-1",
       "blizzard-well-of-eternity-preview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "scarlet-crusade",
+    "type": "entity",
+    "name": "Scarlet Crusade pursuers",
+    "slug": "scarlet-crusade",
+    "path": "/factions/scarlet-crusade",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "interpretive-art"
+    ],
+    "description": "Scarlet Crusade pursuers, represented in the Classic Tirion and Taelan research story.",
+    "sourceIds": [
+      "tirion-taelan-scarlet-subterfuge-locator",
+      "tirion-taelan-in-dreams-locator"
     ],
     "contentStatus": "research"
   },
@@ -3950,6 +4127,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "silver-hand-insignia",
+    "type": "entity",
+    "name": "Silver Hand insignia",
+    "slug": "silver-hand-insignia",
+    "path": "/locations/silver-hand-insignia",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "interpretive-art"
+    ],
+    "description": "Silver Hand insignia, represented in the Classic Tirion and Taelan research story.",
+    "sourceIds": [
+      "tirion-taelan-lost-honor-locator",
+      "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "spectral-assassins",
     "type": "entity",
     "name": "Spectral Assassins",
@@ -4053,12 +4249,14 @@
     "tags": [
       "lordaeron",
       "plague",
-      "city"
+      "city",
+      "tirion-taelan-story"
     ],
     "description": "A Lordaeron city whose infected population became the center of Arthas's catastrophic decision to purge it.",
     "sourceIds": [
       "warcraft-chronicle-volume-3",
-      "blizzard-warcraft-iii-story-so-far"
+      "blizzard-warcraft-iii-story-so-far",
+      "tirion-taelan-portrait-recovery-locator"
     ],
     "contentStatus": "research"
   },
@@ -4141,6 +4339,44 @@
     "sourceIds": [
       "warcraft-chronicle-volume-3",
       "blizzard-warcraft-iii-reforged-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "taelan-fordring",
+    "type": "entity",
+    "name": "Highlord Taelan Fordring",
+    "slug": "taelan-fordring",
+    "path": "/locations/taelan-fordring",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "interpretive-art"
+    ],
+    "description": "Highlord Taelan Fordring, represented in the Classic Tirion and Taelan research story.",
+    "sourceIds": [
+      "tirion-taelan-scarlet-subterfuge-locator",
+      "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "taelans-miniature-warhammer",
+    "type": "entity",
+    "name": "Taelan’s miniature warhammer",
+    "slug": "taelans-miniature-warhammer",
+    "path": "/locations/taelans-miniature-warhammer",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "interpretive-art"
+    ],
+    "description": "Taelan’s miniature warhammer, represented in the Classic Tirion and Taelan research story.",
+    "sourceIds": [
+      "tirion-taelan-forgotten-memories-locator",
+      "tirion-taelan-in-dreams-locator"
     ],
     "contentStatus": "research"
   },
@@ -4241,6 +4477,27 @@
     "contentStatus": "research"
   },
   {
+    "id": "thondroril-river",
+    "type": "entity",
+    "name": "Thondroril River",
+    "slug": "thondroril-river",
+    "path": "/locations/thondroril-river",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "classic-era-location"
+    ],
+    "description": "A broad riverbank in the Eastern Plaguelands where Tirion’s Classic quest chain begins; no exact camp coordinate is asserted.",
+    "sourceIds": [
+      "tirion-taelan-classic-chain-guide",
+      "tirion-taelan-redemption-locator",
+      "tirion-taelan-portrait-introduction-locator",
+      "tirion-taelan-portrait-recovery-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "thoradin",
     "type": "entity",
     "name": "King Thoradin",
@@ -4280,6 +4537,28 @@
       "blizzard-mount-hyjal-history",
       "onyxia-classic-attunement",
       "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-fordring",
+    "type": "entity",
+    "name": "Highlord Tirion Fordring",
+    "slug": "tirion-fordring",
+    "path": "/locations/tirion-fordring",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "interpretive-art"
+    ],
+    "description": "Highlord Tirion Fordring, represented in the Classic Tirion and Taelan research story.",
+    "sourceIds": [
+      "tirion-taelan-classic-chain-guide",
+      "tirion-taelan-redemption-locator",
+      "tirion-taelan-portrait-introduction-locator",
+      "tirion-taelan-portrait-recovery-locator",
+      "tirion-taelan-in-dreams-locator"
     ],
     "contentStatus": "research"
   },
@@ -4405,6 +4684,42 @@
     "description": "The keepers' great northern stronghold and the seat of the Forge of Wills during the ordering of Azeroth.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "undercroft",
+    "type": "entity",
+    "name": "The Undercroft",
+    "slug": "undercroft",
+    "path": "/locations/undercroft",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "classic-era-location"
+    ],
+    "description": "A broad Western Plaguelands cemetery setting for the miniature-hammer recovery; the scene does not place the exact grave.",
+    "sourceIds": [
+      "tirion-taelan-forgotten-memories-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "uther-s-tomb",
+    "type": "entity",
+    "name": "Uther’s Tomb at Sorrow Hill",
+    "slug": "uther-s-tomb",
+    "path": "/locations/uther-s-tomb",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "tirion-taelan-story",
+      "classic-era-location"
+    ],
+    "description": "A human memorial in the Western Plaguelands, where the quest chain locates Myranda.",
+    "sourceIds": [
+      "tirion-taelan-find-myranda-locator"
     ],
     "contentStatus": "research"
   },
@@ -7710,6 +8025,218 @@
     "contentStatus": "research"
   },
   {
+    "id": "tirion-taelan-of-love-and-family-a-family-restored-in-paint-event",
+    "type": "event",
+    "name": "A family restored in paint",
+    "slug": "tirion-taelan-of-love-and-family-a-family-restored-in-paint",
+    "path": "/events/tirion-taelan-of-love-and-family-a-family-restored-in-paint",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The returned painting brings Karandra and young Taelan into view beside Tirion. The Classic quest connects it to family outings and a portrait made by Renfray; the lakeside colors here interpret that recollection rather than claim an exact beach or the canvas’s original appearance. The painting restores a likeness, not a lost childhood. For Tirion, memory can now be given back in a form his son may recognize, if the son is still willing to receive it.",
+    "sourceIds": [
+      "tirion-taelan-portrait-introduction-locator",
+      "tirion-taelan-portrait-recovery-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-a-gift-in-hearthglen-event",
+    "type": "event",
+    "name": "A gift beneath Scarlet colors",
+    "slug": "tirion-taelan-of-love-and-family-a-gift-in-hearthglen",
+    "path": "/events/tirion-taelan-of-love-and-family-a-gift-in-hearthglen",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "A disguise opens the way into Hearthglen, where Tirion’s gift can reach Taelan. The Classic chain makes subterfuge the bridge between father and son: the seeker enters the Scarlet Crusade’s stronghold under borrowed colors and gives the package to its Highlord. The banners and pale stone of the settlement frame a tense reunion without placing Tirion there. The audience sees the old family tokens cross a guarded threshold; what Taelan will do with them remains his choice.",
+    "sourceIds": [
+      "tirion-taelan-scarlet-subterfuge-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-a-new-order-event",
+    "type": "event",
+    "name": "A vow to rebuild the Silver Hand",
+    "slug": "tirion-taelan-of-love-and-family-a-new-order",
+    "path": "/events/tirion-taelan-of-love-and-family-a-new-order",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At Taelan’s body, Tirion vows to gather a new Order of the Silver Hand and turn it again toward the defense of the world. The Classic chain ends with a purpose, not with the later history of that order already fulfilled. A small emblem rests beside the grieving father as a visual echo of the honor Taelan once laid down. The quest closes Tirion and Taelan’s story here; later campaigns, including the Wrath-era chapters, belong to their own records.",
+    "sourceIds": [
+      "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-isillien-at-the-tower-event",
+    "type": "event",
+    "name": "The road ends at the tower",
+    "slug": "tirion-taelan-of-love-and-family-isillien-at-the-tower",
+    "path": "/events/tirion-taelan-of-love-and-family-isillien-at-the-tower",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Beyond Hearthglen, the quest brings Taelan to a roadside tower and Grand Inquisitor Isillien. It records Taelan’s death there at Isillien’s hands. The story does not soften this into a mere interruption: the son who chose to leave the Scarlet Crusade has no return to the father he hoped to meet. The tower stands at the edge of the road, a small human post amid a wounded land, and the long effort to restore memory reaches its cost.",
+    "sourceIds": [
+      "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-myranda-at-uthers-tomb-event",
+    "type": "event",
+    "name": "Myranda at Uther’s Tomb",
+    "slug": "tirion-taelan-of-love-and-family-myranda-at-uthers-tomb",
+    "path": "/events/tirion-taelan-of-love-and-family-myranda-at-uthers-tomb",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The keepsakes travel onward as a message to Myranda, whom the chain locates at Uther’s Tomb. Tirion asks his former ally to help the seeker pass into Hearthglen. Myranda’s brief place in this story reaches back to her work alongside him, though this quest does not retell every part of her life. Against pale memorial stone and plague-damaged grass, she becomes the last guide before the family’s past is carried directly to Taelan.",
+    "sourceIds": [
+      "tirion-taelan-find-myranda-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-out-through-hearthglen-event",
+    "type": "event",
+    "name": "Out through Hearthglen",
+    "slug": "tirion-taelan-of-love-and-family-out-through-hearthglen",
+    "path": "/events/tirion-taelan-of-love-and-family-out-through-hearthglen",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Taelan leaves the keep and makes his way out through Hearthglen. The quest turns this departure into an ordeal as Scarlet Crusade forces oppose him. He is no longer the quiet child Tirion watched from exile: he has chosen to break with the order that shaped his adult life. The guards become a last barrier between the Highlord and the open road. The chain gives no private motive to each soldier, and Taelan’s struggle ends at the tower beyond the settlement.",
+    "sourceIds": [
+      "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-renfray-remembers-event",
+    "type": "event",
+    "name": "Renfray remembers Caer Darrow",
+    "slug": "tirion-taelan-of-love-and-family-renfray-remembers",
+    "path": "/events/tirion-taelan-of-love-and-family-renfray-remembers",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Tirion’s memory turns from the marks of duty to family excursions and an artist’s work. He sends the seeker to Caer Darrow, where his old friend Artist Renfray remains among the ruins. She painted the Fordring family in happier days. The island is now a quiet ruin in the lake, and Renfray is a ghost; the quest asks for a portrait, not a return to the life it preserves. Across years of exile, the canvas is a rare piece of the family’s past that has not vanished.",
+    "sourceIds": [
+      "tirion-taelan-portrait-introduction-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-taelan-chooses-to-leave-event",
+    "type": "event",
+    "name": "Taelan ends the dream",
+    "slug": "tirion-taelan-of-love-and-family-taelan-chooses-to-leave",
+    "path": "/events/tirion-taelan-of-love-and-family-taelan-chooses-to-leave",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The gift reaches the part of Taelan that his title could not silence. In the quest account, he recognizes how long he has been made a tool of the Grand Crusader, and his father’s memory has endured beneath that service. Taelan decides to leave Hearthglen. The portrait and keepsakes do not command him; they return a past from which he can make a choice of his own. The hall’s red-and-white standards still surround him, but their claim on his future has broken.",
+    "sourceIds": [
+      "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-the-miniature-hammer-event",
+    "type": "event",
+    "name": "A small hammer beneath a false grave",
+    "slug": "tirion-taelan-of-love-and-family-the-miniature-hammer",
+    "path": "/events/tirion-taelan-of-love-and-family-the-miniature-hammer",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "A miniature warhammer, once given to Taelan by his father, lies in the Undercroft. The reproduced quest account connects it to a false grave and to the story Taelan had been told as a child: that Tirion was dead. The object is small enough for a young hand, but it carries the weight of an absence made permanent by a lie. Its recovery does not undo the years apart. It gives Tirion one remembered gift to place before his son.",
+    "sourceIds": [
+      "tirion-taelan-forgotten-memories-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-the-old-hermit-event",
+    "type": "event",
+    "name": "The old hermit by Thondroril",
+    "slug": "tirion-taelan-of-love-and-family-the-old-hermit",
+    "path": "/events/tirion-taelan-of-love-and-family-the-old-hermit",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "In the cold reaches of the Eastern Plaguelands, an old hermit accepts help before he offers his name. The early errands are practical work among the dangers of the plague-struck countryside; they prove only that a stranger can be trusted. The narration begins at the bank where the hermit waits, after those tasks have opened his story. They did not cause his exile, and they are not recast here as a single battle. Beyond the river, a family’s long absence is the wound still waiting to be named.",
+    "sourceIds": [
+      "tirion-taelan-classic-chain-guide",
+      "tirion-taelan-redemption-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-the-silver-hand-symbol-event",
+    "type": "event",
+    "name": "The emblem in Northdale’s lake",
+    "slug": "tirion-taelan-of-love-and-family-the-silver-hand-symbol",
+    "path": "/events/tirion-taelan-of-love-and-family-the-silver-hand-symbol",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Tirion next asks for a symbol Taelan left behind. The quest recalls his son’s stand at Northdale after Uther’s death and says Taelan laid down the Silver Hand standard; its emblem now lies beneath the lake. The record preserves a moment of disillusion, not a full account of the fighting. We do not invent an exact battlefield line or name the soldiers who stood with him. The small sign of the old order rises from dark water, ready to join the hammer as a piece of shared history.",
+    "sourceIds": [
+      "tirion-taelan-lost-honor-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-the-twin-moons-event",
+    "type": "event",
+    "name": "The portrait behind the twin moons",
+    "slug": "tirion-taelan-of-love-and-family-the-twin-moons",
+    "path": "/events/tirion-taelan-of-love-and-family-the-twin-moons",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Renfray’s follow-up bears the same title as the task that brought the seeker to her, yet it is a different Classic quest. Its objective leads into Stratholme, where the family painting is hidden behind a picture of twin moons in the Archivist’s room. The crimson city has become a storehouse of other people’s ruin; within it, a small work of family memory survives. This scene shows the concealment as an original interpretation, not an exact dungeon plan or verified painting model.",
+    "sourceIds": [
+      "tirion-taelan-portrait-recovery-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-tirion-arrives-event",
+    "type": "event",
+    "name": "Tirion arrives",
+    "slug": "tirion-taelan-of-love-and-family-tirion-arrives",
+    "path": "/events/tirion-taelan-of-love-and-family-tirion-arrives",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Tirion reaches the tower too late to save his son. The quest account then has him defeat Isillien and grieve beside Taelan. The father’s return answers the appeal he made at Thondroril, but not in the way he sought: he has recovered the truth and lost the living voice that might have answered him. We hold the scene to those recorded actions. No dialogue is reconstructed, and the art does not invent a private final exchange.",
+    "sourceIds": [
+      "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family-tirions-request-event",
+    "type": "event",
+    "name": "The father in exile",
+    "slug": "tirion-taelan-of-love-and-family-tirions-request",
+    "path": "/events/tirion-taelan-of-love-and-family-tirions-request",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The hermit names himself Tirion Fordring. The quest account says that he was convicted of treason and banished from the Alliance; it does not explain the charge’s full history. He chose to remain in exile near his son. Taelan became lord of Mardenholde and later a Highlord of the Scarlet Crusade, an order Tirion sees as fallen from the Silver Hand’s purpose. Tirion asks for help because he believes his son can still remember the honor they once shared.",
+    "sourceIds": [
+      "tirion-taelan-redemption-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "titan-forged-mustered",
     "type": "event",
     "name": "The Titan-forged Are Mustered",
@@ -8676,6 +9203,32 @@
     "sourceIds": [
       "blizzard-thunder-king-portrait",
       "story-thunder-king-return"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "tirion-taelan-of-love-and-family",
+    "type": "storyline",
+    "name": "Tirion and Taelan: Of Love and Family",
+    "slug": "tirion-taelan-of-love-and-family",
+    "path": "/storylines/tirion-taelan-of-love-and-family",
+    "eraId": "age-of-adventurers",
+    "eraIds": [
+      "age-of-adventurers"
+    ],
+    "aliases": [],
+    "tags": [],
+    "description": "Tirion asks a stranger to help his son remember his family and honor. A childhood gift, a lost emblem and Renfray’s portrait reach Taelan in Hearthglen; his choice to leave ends in death and gives Tirion a renewed purpose.",
+    "sourceIds": [
+      "tirion-taelan-classic-chain-guide",
+      "tirion-taelan-redemption-locator",
+      "tirion-taelan-forgotten-memories-locator",
+      "tirion-taelan-lost-honor-locator",
+      "tirion-taelan-portrait-introduction-locator",
+      "tirion-taelan-portrait-recovery-locator",
+      "tirion-taelan-find-myranda-locator",
+      "tirion-taelan-scarlet-subterfuge-locator",
+      "tirion-taelan-in-dreams-locator"
     ],
     "contentStatus": "research"
   },

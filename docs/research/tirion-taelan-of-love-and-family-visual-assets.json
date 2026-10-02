@@ -1,0 +1,1092 @@
+{
+  "storyId": "tirion-taelan-of-love-and-family",
+  "status": "research",
+  "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm areas and quest identity. Classic Era 1.15.8 pages are secondary locators; exact original 1.12-era client comparison remains open.",
+  "editorialRule": "For every released game area, preserve its recognizable version-specific palette, architecture, terrain, vegetation, skyline and landmarks with an original composition. Compare each scene and cast cutout against the matching in-game area/model before approval.",
+  "sourceProvenance": "All new environment and cutout illustrations were generated with OpenAI ImageGen, then converted to repository WebP assets. No official game art or source-page screenshots are included. Myranda’s existing Classic Onyxia portrait is reused.",
+  "humanReview": "Review every scene and principal model in the matching Classic game client/build. Verify the original 1.12-era quest text and event, especially the 5846/5848 title distinction and In Dreams ending. The written trait list is not an in-game visual comparison.",
+  "assetRecords": [
+    {
+      "id": "thondroril-river",
+      "kind": "environment",
+      "file": "public/images/storylines/tirion-taelan/thondroril-river.research.webp",
+      "pixelWidth": 1536,
+      "pixelHeight": 860,
+      "area": "Thondroril River and the Eastern Plaguelands",
+      "sourceArtifact": "exec-baa94e01-cdc7-44f5-a358-bffe40bad126.png",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; Classic Era 1.15.8 is the accessible secondary quest locator. Compare the original 1.12-era area where available.",
+      "recognizableTraits": "Classic Eastern Plaguelands: a broad cold river through diseased grassland, gray-green light, sparse dead trees and distant ruined human stonework. Keep it distinct from the thick forest of Caer Darrow and the warmer sunset memory scene.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm area presentation",
+        "locator": "https://warcraft.wiki.gg/wiki/Eastern_Plaguelands",
+        "comparisonCapture": "No in-client capture claimed. Human side-by-side area/build review remains open."
+      },
+      "generationPrompt": "Original painterly Classic-era fantasy environment for the Thondroril River, an exposed cold riverbank running through the plague-sick Eastern Plaguelands. Broad landscape view, gray-green and muted brown grasses, sparse leafless trees, low mist, an old timber refuge near the water, distant ruined stonework. No characters, no text or interface, no copied game screenshot; preserve the recognizable pre-Cataclysm Eastern Plaguelands palette and terrain.",
+      "generator": "OpenAI ImageGen; original landscape illustration, converted to optimized WebP for repository playback.",
+      "transparency": false,
+      "visualReview": "Checked against its written palette and area traits. Human in-client resemblance comparison for the intended Classic build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-classic-chain-guide",
+          "url": "https://www.wowhead.com/classic/guide/tirion-fordring-questline-in-dreams-classic-wow"
+        },
+        {
+          "sourceId": "tirion-taelan-redemption-locator",
+          "url": "https://www.wowhead.com/classic/quest=5742/redemption"
+        }
+      ],
+      "byteLength": 226740,
+      "modifiedAt": "2026-10-01T23:15:37.964Z",
+      "sha256": "9dc14a3952309c71d44125cb890024fe019774221d3b8eb969afc666213dee1a"
+    },
+    {
+      "id": "undercroft-grave",
+      "kind": "environment",
+      "file": "public/images/storylines/tirion-taelan/undercroft-grave.research.webp",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "area": "The Undercroft",
+      "sourceArtifact": "exec-1b901268-f4ce-4d83-b94d-3eb652833901.png",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; Classic Era 1.15.8 is the accessible secondary quest locator. Compare the original 1.12-era area where available.",
+      "recognizableTraits": "Classic Western Plaguelands graveyard: low earth mounds and worn stones among pallid grass, sickly green-gray mist and dead timber. The image is a broad cemetery impression, not the exact marked grave or a verified encounter layout.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm area presentation",
+        "locator": "https://warcraft.wiki.gg/wiki/Undercroft",
+        "comparisonCapture": "No in-client capture claimed. Human side-by-side area/build review remains open."
+      },
+      "generationPrompt": "Original painterly environmental art for a broad Classic Western Plaguelands graveyard near the Undercroft: low earth mounds, worn gray grave markers, pallid grass, diseased green-grey haze and bare trees. Make it unmistakably a quiet Plaguelands burial ground, not a gothic cathedral crypt. No characters, lettering, UI, or copied screenshot. Do not imply a surveyed position or exact quest-layout.",
+      "generator": "OpenAI ImageGen; original landscape illustration, converted to optimized WebP for repository playback.",
+      "transparency": false,
+      "visualReview": "Checked against its written palette and area traits. Human in-client resemblance comparison for the intended Classic build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-forgotten-memories-locator",
+          "url": "https://www.wowhead.com/classic/quest=5781/of-forgotten-memories"
+        }
+      ],
+      "byteLength": 270148,
+      "modifiedAt": "2026-10-01T23:15:38.542Z",
+      "sha256": "18a6392611fac01f8031cc5cf4937d192130143687f457fc600b5b38512f3a42"
+    },
+    {
+      "id": "northdale-lake",
+      "kind": "environment",
+      "file": "public/images/storylines/tirion-taelan/northdale-lake.research.webp",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "area": "The waters near Northdale",
+      "sourceArtifact": "exec-62b843f4-851f-4898-bb64-4d85e1aa39d6.png",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; Classic Era 1.15.8 is the accessible secondary quest locator. Compare the original 1.12-era area where available.",
+      "recognizableTraits": "Classic Eastern Plaguelands lake and ruined settlement: slate water, dead trees, ruined pale human masonry and low plague fog. A fallen emblem is visible beneath the water as interpretive symbolism, not a game-model reconstruction.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm area presentation",
+        "locator": "https://warcraft.wiki.gg/wiki/Northdale",
+        "comparisonCapture": "No in-client capture claimed. Human side-by-side area/build review remains open."
+      },
+      "generationPrompt": "Original Classic-era Eastern Plaguelands landscape at the lake near the ruins of Northdale: slate still water, diseased yellow-green reeds, bare trees, broken pale human stonework and low plague fog. A small silver hand emblem is faintly visible under the water as an interpretive story clue. No characters or text, no exact coordinate or in-game screenshot.",
+      "generator": "OpenAI ImageGen; original landscape illustration, converted to optimized WebP for repository playback.",
+      "transparency": false,
+      "visualReview": "Checked against its written palette and area traits. Human in-client resemblance comparison for the intended Classic build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-lost-honor-locator",
+          "url": "https://www.wowhead.com/classic/quest=5845/of-lost-honor"
+        }
+      ],
+      "byteLength": 314102,
+      "modifiedAt": "2026-10-01T23:15:39.166Z",
+      "sha256": "d07bc78fa72bfc09bea9304ee3d6bc2a616ff5686190942a118ad6d86f562df2"
+    },
+    {
+      "id": "caer-darrow",
+      "kind": "environment",
+      "file": "public/images/storylines/tirion-taelan/caer-darrow.research.webp",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "area": "Caer Darrow",
+      "sourceArtifact": "exec-bd2f9b13-ca0a-4c51-acd0-55fbede3ae52.png",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; Classic Era 1.15.8 is the accessible secondary quest locator. Compare the original 1.12-era area where available.",
+      "recognizableTraits": "Classic Western Plaguelands island settlement: a ruin-worn stone village on a lake, a narrow bridge and the distant Scholomance silhouette. Use old pale masonry and sickly lake haze, not a healthy living city or dense modern town.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm area presentation",
+        "locator": "https://warcraft.wiki.gg/wiki/Caer_Darrow",
+        "comparisonCapture": "No in-client capture claimed. Human side-by-side area/build review remains open."
+      },
+      "generationPrompt": "Original painterly Classic Western Plaguelands landscape of Caer Darrow, a lonely ruined island village in a cold plague lake. Pale worn stone homes, narrow bridge, sparse dead trees, green-gray lake mist and Scholomance on a distant ridge. No characters or text, no exact map reconstruction, no copied game image. Make the island, ruin and distant school clearly distinct from Stratholme.",
+      "generator": "OpenAI ImageGen; original landscape illustration, converted to optimized WebP for repository playback.",
+      "transparency": false,
+      "visualReview": "Checked against its written palette and area traits. Human in-client resemblance comparison for the intended Classic build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-portrait-introduction-locator",
+          "url": "https://www.wowhead.com/classic/quest=5846/of-love-and-family"
+        }
+      ],
+      "byteLength": 320876,
+      "modifiedAt": "2026-10-01T23:15:39.788Z",
+      "sha256": "395fb32ba845df4aefa64347eb96b8f1f7015b88f89668af3ee4b3a13977d255"
+    },
+    {
+      "id": "fordring-family-memory",
+      "kind": "environment",
+      "file": "public/images/storylines/tirion-taelan/fordring-family-memory.research.webp",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "area": "The family recalled in a portrait",
+      "sourceArtifact": "exec-63b2c18f-c0e9-4961-93f8-466c11d0cafd.png",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; Classic Era 1.15.8 is the accessible secondary quest locator. Compare the original 1.12-era area where available.",
+      "recognizableTraits": "An interpretive painted family memory of Tirion, Karandra and their young son beside a lake. The outdoor view is an artistic reading of reported family excursions, not a verified beach, exact location or canonical appearance.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm area presentation",
+        "locator": "https://www.wowhead.com/classic/quest=5846/of-love-and-family",
+        "comparisonCapture": "No in-client capture claimed. Human side-by-side area/build review remains open."
+      },
+      "generationPrompt": "Original warm oil-painted memory of a father, mother and young son together beside a quiet lake near sunset. The father is a human knight at rest, not wearing a battle uniform; the mother and child are close beside him. This interpretive family tableau evokes the portrait described in the Classic quest, not a canonical image, exact shore, costume or game scene. No text, border, UI or copied art.",
+      "generator": "OpenAI ImageGen; original landscape illustration, converted to optimized WebP for repository playback.",
+      "transparency": false,
+      "visualReview": "Checked against its written palette and area traits. Human in-client resemblance comparison for the intended Classic build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-portrait-introduction-locator",
+          "url": "https://www.wowhead.com/classic/quest=5846/of-love-and-family"
+        },
+        {
+          "sourceId": "tirion-taelan-portrait-recovery-locator",
+          "url": "https://www.wowhead.com/classic/quest=5848/of-love-and-family"
+        }
+      ],
+      "byteLength": 415246,
+      "modifiedAt": "2026-10-01T23:15:40.510Z",
+      "sha256": "8c2e46316711e011eaddf3b6848b23672b3b5b4846af93b37a743072e3ae2192"
+    },
+    {
+      "id": "hearthglen",
+      "kind": "environment",
+      "file": "public/images/storylines/tirion-taelan/hearthglen.research.webp",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "area": "Hearthglen from the road",
+      "sourceArtifact": "exec-46574977-85b5-4998-ac59-7a690795a7ae.png",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; Classic Era 1.15.8 is the accessible secondary quest locator. Compare the original 1.12-era area where available.",
+      "recognizableTraits": "Classic pre-Cataclysm Hearthglen: a fortified human settlement with pale gray stone, timber and red-white Scarlet Crusade banners against plague-damaged land. Keep the human keep silhouette and orderly defenses readable; it must not resemble Stormwind Keep or a red-brown fortress.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm area presentation",
+        "locator": "https://warcraft.wiki.gg/wiki/Hearthglen",
+        "comparisonCapture": "No in-client capture claimed. Human side-by-side area/build review remains open."
+      },
+      "generationPrompt": "Original Classic Western Plaguelands landscape of Hearthglen, a fortified human settlement: pale gray stone keep and clustered houses, red-white Scarlet Crusade banners, restrained timber defenses, diseased countryside and cold green-gray light. Recognizable as a northern human stronghold but original in composition. No text, UI or copied screenshot.",
+      "generator": "OpenAI ImageGen; original landscape illustration, converted to optimized WebP for repository playback.",
+      "transparency": false,
+      "visualReview": "Checked against its written palette and area traits. Human in-client resemblance comparison for the intended Classic build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-scarlet-subterfuge-locator",
+          "url": "https://www.wowhead.com/classic/quest=5862/scarlet-subterfuge"
+        },
+        {
+          "sourceId": "tirion-taelan-in-dreams-locator",
+          "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+        }
+      ],
+      "byteLength": 324576,
+      "modifiedAt": "2026-10-01T23:15:41.154Z",
+      "sha256": "c4d5330fd48a7cecfcf77b14859bb5991ee2aef894095f161fffb179015d37d5"
+    },
+    {
+      "id": "taelans-tower",
+      "kind": "environment",
+      "file": "public/images/storylines/tirion-taelan/taelans-tower.research.webp",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "area": "The roadside tower near Hearthglen",
+      "sourceArtifact": "exec-665ef37f-8be5-4219-8e45-21a9bc8438b2.png",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; Classic Era 1.15.8 is the accessible secondary quest locator. Compare the original 1.12-era area where available.",
+      "recognizableTraits": "Classic Western Plaguelands roadside watchtower: sturdy pale stone and timber beside an exposed road, distant bleak hills and damaged trees. This broad scene does not claim an exact sightline, road course or floor plan.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm area presentation",
+        "locator": "https://warcraft.wiki.gg/wiki/Taelan%27s_Tower",
+        "comparisonCapture": "No in-client capture claimed. Human side-by-side area/build review remains open."
+      },
+      "generationPrompt": "Original painterly Classic Western Plaguelands road scene with a modest pale-stone and timber roadside watchtower, bleak green-gray fields, broken trees, misty hills and an exposed travel path. Readable as a human guard tower outside Hearthglen, not a tall gothic citadel. No characters, words or UI; no exact surveyed route or copied screenshot.",
+      "generator": "OpenAI ImageGen; original landscape illustration, converted to optimized WebP for repository playback.",
+      "transparency": false,
+      "visualReview": "Checked against its written palette and area traits. Human in-client resemblance comparison for the intended Classic build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-in-dreams-locator",
+          "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+        }
+      ],
+      "byteLength": 303914,
+      "modifiedAt": "2026-10-01T23:15:41.760Z",
+      "sha256": "e2e8e4dcc32fcce8e67100b611cc08a79e7601bd53bf6d4953608df328076c93"
+    },
+    {
+      "id": "uther-tomb",
+      "kind": "environment",
+      "file": "public/images/storylines/tirion-taelan/uther-tomb.research.webp",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "area": "Uther’s Tomb at Sorrow Hill",
+      "sourceArtifact": "exec-4986c6af-c6c2-451a-8d91-fb56863d04cd.png",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; Classic Era 1.15.8 is the accessible secondary quest locator. Compare the original 1.12-era area where available.",
+      "recognizableTraits": "Classic Western Plaguelands memorial: pale carved stone tomb and broad steps, restrained silver-and-blue accents, diseased grassland, bare trees and low gray-green sky. A solemn human memorial, not a ruined cathedral.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm area presentation",
+        "locator": "https://warcraft.wiki.gg/wiki/Uther%27s_Tomb",
+        "comparisonCapture": "No in-client capture claimed. Human side-by-side area/build review remains open."
+      },
+      "generationPrompt": "Original painterly Classic-era landscape near Uther’s Tomb at Sorrow Hill in the Western Plaguelands. Broad view of the pale stone tomb and weathered memorial rising from windswept diseased green-brown field, sparse dead trees, low gray-green sky, solemn cold light. No characters, labels, logo, border, UI or copied screenshot.",
+      "generator": "OpenAI ImageGen; original landscape illustration, converted to optimized WebP for repository playback.",
+      "transparency": false,
+      "visualReview": "Checked against its written palette and area traits. Human in-client resemblance comparison for the intended Classic build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-find-myranda-locator",
+          "url": "https://www.wowhead.com/classic/quest=5861/find-myranda"
+        }
+      ],
+      "byteLength": 337138,
+      "modifiedAt": "2026-10-01T23:15:42.394Z",
+      "sha256": "a96c2ee20f35b5e06c0a0b625ce95cc0756f5232b432ed48b23c2ddbba678e20"
+    },
+    {
+      "id": "stratholme-archive",
+      "kind": "environment",
+      "file": "public/images/storylines/tirion-taelan/stratholme-archive.research.webp",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "area": "The Archivist’s room in Stratholme",
+      "sourceArtifact": "exec-1b936f1f-916a-4828-8397-288558e951e0.png",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; Classic Era 1.15.8 is the accessible secondary quest locator. Compare the original 1.12-era area where available.",
+      "recognizableTraits": "Classic Stratholme interior: scarlet masonry, old stone, shelves, cloth banners, candlelight and visible plague-green light beyond a broken arch. Twin-moons painting and hidden portrait are story clues. Interior geometry is interpretive and not a dungeon-floor reconstruction.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm area presentation",
+        "locator": "https://warcraft.wiki.gg/wiki/Stratholme",
+        "comparisonCapture": "No in-client capture claimed. Human side-by-side area/build review remains open."
+      },
+      "generationPrompt": "Original painterly environmental art for the ruined Scarlet Bastion Archivist chamber in Classic Stratholme. Narrow old stone archive, shelves, parchment, candlelight, a family painting mostly concealed by an ornate twin-moons painting, restrained red and ivory cloth, plague-green light through a broken arch. No people, no legible writing, logos, UI, border or copied screenshot. This is not an exact dungeon layout.",
+      "generator": "OpenAI ImageGen; original landscape illustration, converted to optimized WebP for repository playback.",
+      "transparency": false,
+      "visualReview": "Checked against its written palette and area traits. Human in-client resemblance comparison for the intended Classic build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-portrait-recovery-locator",
+          "url": "https://www.wowhead.com/classic/quest=5848/of-love-and-family"
+        }
+      ],
+      "byteLength": 247232,
+      "modifiedAt": "2026-10-01T23:15:42.940Z",
+      "sha256": "f85da32f9daecaaa595985669292153d6c6b93a78323878812b02126c010dddb"
+    },
+    {
+      "id": "mardenholde-hall",
+      "kind": "environment",
+      "file": "public/images/storylines/tirion-taelan/mardenholde-hall.research.webp",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "area": "Mardenholde Keep at Hearthglen",
+      "sourceArtifact": "exec-514a1af1-7fcf-45a4-9560-2589d3031a90.png",
+      "targetEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm zone identity; Classic Era 1.15.8 is the accessible secondary quest locator. Compare the original 1.12-era area where available.",
+      "recognizableTraits": "Classic Hearthglen keep interior: sturdy pale gray human masonry, high arches, red-white Scarlet Crusade banners and a cold view toward the Plaguelands. It reads as a military hall within a human settlement, not a black fortress or cathedral.",
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm area presentation",
+        "locator": "https://warcraft.wiki.gg/wiki/Hearthglen",
+        "comparisonCapture": "No in-client capture claimed. Human side-by-side area/build review remains open."
+      },
+      "generationPrompt": "Original painterly Classic Western Plaguelands interior of Mardenholde Keep: sturdy pale gray-white human masonry, practical arches, a view onto sickly green-gray fields, Scarlet Crusade red-white banners and lived-in military furniture. This is a grounded human keep, not a gothic cathedral or red-brown fortress. No characters, text, UI, frame or copied game screenshot.",
+      "generator": "OpenAI ImageGen; original landscape illustration, converted to optimized WebP for repository playback.",
+      "transparency": false,
+      "visualReview": "Checked against its written palette and area traits. Human in-client resemblance comparison for the intended Classic build remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-in-dreams-locator",
+          "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+        }
+      ],
+      "byteLength": 280992,
+      "modifiedAt": "2026-10-01T23:15:43.531Z",
+      "sha256": "2b0ea65b100f2c1ee7430e3058d0a7439304a67f373fa9cc61926b5b0f60832d"
+    },
+    {
+      "id": "tirion-fordring",
+      "kind": "character",
+      "file": "public/images/storylines/tirion-taelan/tirion-fordring.research.webp",
+      "representedBy": "Highlord Tirion Fordring",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-4621d1f9-8649-436d-91bd-e1cccf48352f.png",
+      "targetEditionBuild": "Original World of Warcraft Classic character or object identity; exact 1.12-era model match remains unreviewed.",
+      "recognizableTraits": "Older human paladin in worn armor and a travel cloak, interpreted as an exile; face and costume require original Classic model review.",
+      "generationPrompt": "Original full-body transparent cutout of an older exiled human paladin, Tirion Fordring: weathered face, gray cloak over worn practical plate, quiet strength rather than triumphant ornament. Do not assert exact Classic armor. Clear, readable silhouette; no scene, text, frame, or copied game art.",
+      "generator": "OpenAI ImageGen; original illustrated portrait or object cutout, optimized as alpha-capable WebP.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm quest identity",
+        "sourceReferences": [
+          {
+            "sourceId": "tirion-taelan-classic-chain-guide",
+            "url": "https://www.wowhead.com/classic/guide/tirion-fordring-questline-in-dreams-classic-wow"
+          },
+          {
+            "sourceId": "tirion-taelan-redemption-locator",
+            "url": "https://www.wowhead.com/classic/quest=5742/redemption"
+          },
+          {
+            "sourceId": "tirion-taelan-portrait-introduction-locator",
+            "url": "https://www.wowhead.com/classic/quest=5846/of-love-and-family"
+          },
+          {
+            "sourceId": "tirion-taelan-portrait-recovery-locator",
+            "url": "https://www.wowhead.com/classic/quest=5848/of-love-and-family"
+          },
+          {
+            "sourceId": "tirion-taelan-in-dreams-locator",
+            "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+          }
+        ],
+        "comparisonCapture": "Generated art is not canonical. Human comparison with the intended Classic character/item presentation remains open."
+      },
+      "visualReview": "Subject is readable at its authored scale and the delivered cutout retains transparent pixels. Exact costume, species, object shape and matching-build resemblance require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-classic-chain-guide",
+          "url": "https://www.wowhead.com/classic/guide/tirion-fordring-questline-in-dreams-classic-wow"
+        },
+        {
+          "sourceId": "tirion-taelan-redemption-locator",
+          "url": "https://www.wowhead.com/classic/quest=5742/redemption"
+        },
+        {
+          "sourceId": "tirion-taelan-portrait-introduction-locator",
+          "url": "https://www.wowhead.com/classic/quest=5846/of-love-and-family"
+        },
+        {
+          "sourceId": "tirion-taelan-portrait-recovery-locator",
+          "url": "https://www.wowhead.com/classic/quest=5848/of-love-and-family"
+        },
+        {
+          "sourceId": "tirion-taelan-in-dreams-locator",
+          "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+        }
+      ],
+      "byteLength": 257730,
+      "modifiedAt": "2026-10-01T23:16:23.034Z",
+      "sha256": "98da49785f4aa177c7ca4fd8425d61aa690728aba3b829dea283e83d484dad56"
+    },
+    {
+      "id": "taelan-fordring",
+      "kind": "character",
+      "file": "public/images/storylines/tirion-taelan/taelan-fordring.research.webp",
+      "representedBy": "Highlord Taelan Fordring",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-1d0c0374-06d9-46ba-89b4-89bfc9cfa3d1.png",
+      "targetEditionBuild": "Original World of Warcraft Classic character or object identity; exact 1.12-era model match remains unreviewed.",
+      "recognizableTraits": "Young adult human paladin in interpreted Scarlet Crusade colors; armor and likeness remain open for Classic model review.",
+      "generationPrompt": "Original full-body transparent cutout of Highlord Taelan Fordring, a young adult human paladin: earnest face, practical steel plate, restrained ivory and red cloth of a Scarlet Crusade commander. His armor should distinguish him from his father without claiming an exact model. Clear silhouette; no scenery, text, frame or copied game art.",
+      "generator": "OpenAI ImageGen; original illustrated portrait or object cutout, optimized as alpha-capable WebP.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm quest identity",
+        "sourceReferences": [
+          {
+            "sourceId": "tirion-taelan-scarlet-subterfuge-locator",
+            "url": "https://www.wowhead.com/classic/quest=5862/scarlet-subterfuge"
+          },
+          {
+            "sourceId": "tirion-taelan-in-dreams-locator",
+            "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+          }
+        ],
+        "comparisonCapture": "Generated art is not canonical. Human comparison with the intended Classic character/item presentation remains open."
+      },
+      "visualReview": "Subject is readable at its authored scale and the delivered cutout retains transparent pixels. Exact costume, species, object shape and matching-build resemblance require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-scarlet-subterfuge-locator",
+          "url": "https://www.wowhead.com/classic/quest=5862/scarlet-subterfuge"
+        },
+        {
+          "sourceId": "tirion-taelan-in-dreams-locator",
+          "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+        }
+      ],
+      "byteLength": 243818,
+      "modifiedAt": "2026-10-01T23:16:27.900Z",
+      "sha256": "92ca58b10b2b128e9af9463773284d9f496c6285af61440316cdded7841fde1d"
+    },
+    {
+      "id": "artist-renfray",
+      "kind": "character",
+      "file": "public/images/storylines/tirion-taelan/artist-renfray.research.webp",
+      "representedBy": "Artist Renfray",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-fef61d95-6ab6-4046-a399-a33ce99b43cb.png",
+      "targetEditionBuild": "Original World of Warcraft Classic character or object identity; exact 1.12-era model match remains unreviewed.",
+      "recognizableTraits": "Human ghost and artist with painter’s tools; spectral appearance is informed by the Classic identity, while costume and exact visual model require review.",
+      "generationPrompt": "Original full-body transparent cutout of Artist Renfray, a human woman ghost and painter from Classic Caer Darrow. Wispy silver-white hair, pale-blue spectral cloak over weathered painter clothing, translucent but readable face, one hand with a paintbrush, rolled canvas at her side. No scenery or copied game art.",
+      "generator": "OpenAI ImageGen; original illustrated portrait or object cutout, optimized as alpha-capable WebP.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm quest identity",
+        "sourceReferences": [
+          {
+            "sourceId": "tirion-taelan-portrait-introduction-locator",
+            "url": "https://www.wowhead.com/classic/quest=5846/of-love-and-family"
+          }
+        ],
+        "comparisonCapture": "Generated art is not canonical. Human comparison with the intended Classic character/item presentation remains open."
+      },
+      "visualReview": "Subject is readable at its authored scale and the delivered cutout retains transparent pixels. Exact costume, species, object shape and matching-build resemblance require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-portrait-introduction-locator",
+          "url": "https://www.wowhead.com/classic/quest=5846/of-love-and-family"
+        }
+      ],
+      "byteLength": 298558,
+      "modifiedAt": "2026-10-01T23:16:35.380Z",
+      "sha256": "7670d0671d03866c52a18c1448a508b4bd73d808ad2d6565f8243d8c55fb73e1"
+    },
+    {
+      "id": "grand-inquisitor-isillien",
+      "kind": "character",
+      "file": "public/images/storylines/tirion-taelan/grand-inquisitor-isillien.research.webp",
+      "representedBy": "Grand Inquisitor Isillien",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-6703c8d3-6b68-4054-8a7d-a2d932e449f9.png",
+      "targetEditionBuild": "Original World of Warcraft Classic character or object identity; exact 1.12-era model match remains unreviewed.",
+      "recognizableTraits": "Older human Scarlet Crusade inquisitor, represented in interpretive pale plate and red cloth; specific armor and weapon model remain to be reviewed.",
+      "generationPrompt": "Original full-body transparent cutout of older male human Grand Inquisitor Isillien: severe face, disciplined ivory plate and red Scarlet Crusade robes, a mace held low. Readable original interpretation, no exact model claim, no scenery, words, UI or copied game art.",
+      "generator": "OpenAI ImageGen; original illustrated portrait or object cutout, optimized as alpha-capable WebP.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm quest identity",
+        "sourceReferences": [
+          {
+            "sourceId": "tirion-taelan-in-dreams-locator",
+            "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+          }
+        ],
+        "comparisonCapture": "Generated art is not canonical. Human comparison with the intended Classic character/item presentation remains open."
+      },
+      "visualReview": "Subject is readable at its authored scale and the delivered cutout retains transparent pixels. Exact costume, species, object shape and matching-build resemblance require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-in-dreams-locator",
+          "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+        }
+      ],
+      "byteLength": 280190,
+      "modifiedAt": "2026-10-01T23:16:40.950Z",
+      "sha256": "9248167017ab31a8d0d1e7931fe93e57aa909c55afa131c0562ef91eb6619679"
+    },
+    {
+      "id": "scarlet-crusade",
+      "kind": "faction",
+      "file": "public/images/storylines/tirion-taelan/scarlet-pursuers.research.webp",
+      "representedBy": "Scarlet Crusade pursuers",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-1f51a228-7d88-456b-8c31-336688e1f392.png",
+      "targetEditionBuild": "Original World of Warcraft Classic character or object identity; exact 1.12-era model match remains unreviewed.",
+      "recognizableTraits": "Ensemble of human Scarlet Crusade soldiers illustrating the armed organization; the number and equipment are interpretive, not a canonical roster.",
+      "generationPrompt": "Original transparent ensemble cutout of three distinct human Scarlet Crusade pursuers in pale ivory armor and red-white tabards, with swords and shields at rest. No exact member count or uniform model is asserted. No scene, text, UI or copied game art.",
+      "generator": "OpenAI ImageGen; original illustrated portrait or object cutout, optimized as alpha-capable WebP.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm quest identity",
+        "sourceReferences": [
+          {
+            "sourceId": "tirion-taelan-scarlet-subterfuge-locator",
+            "url": "https://www.wowhead.com/classic/quest=5862/scarlet-subterfuge"
+          },
+          {
+            "sourceId": "tirion-taelan-in-dreams-locator",
+            "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+          }
+        ],
+        "comparisonCapture": "Generated art is not canonical. Human comparison with the intended Classic character/item presentation remains open."
+      },
+      "visualReview": "Subject is readable at its authored scale and the delivered cutout retains transparent pixels. Exact costume, species, object shape and matching-build resemblance require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-scarlet-subterfuge-locator",
+          "url": "https://www.wowhead.com/classic/quest=5862/scarlet-subterfuge"
+        },
+        {
+          "sourceId": "tirion-taelan-in-dreams-locator",
+          "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+        }
+      ],
+      "byteLength": 370842,
+      "modifiedAt": "2026-10-01T23:17:22.659Z",
+      "sha256": "614411717f2388907177129f60fe6286ebcf90d19986f993b52553f1e90cd02c"
+    },
+    {
+      "id": "taelans-miniature-warhammer",
+      "kind": "artifact",
+      "file": "public/images/storylines/tirion-taelan/taelans-miniature-warhammer.research.webp",
+      "representedBy": "Taelan’s miniature warhammer",
+      "pixelWidth": 1298,
+      "pixelHeight": 1210,
+      "sourceArtifact": "exec-2889a722-c7db-4076-8887-e26d70f36ad3.png",
+      "targetEditionBuild": "Original World of Warcraft Classic character or object identity; exact 1.12-era model match remains unreviewed.",
+      "recognizableTraits": "Small childhood gift that connects Tirion and Taelan; the design is interpretive and not an exact Classic item model.",
+      "generationPrompt": "Original isolated transparent fantasy prop for Taelan’s miniature warhammer: compact child-sized model in aged bronze and dark carved wood with a small silver inset, short handle, understated detail. Not a giant battle weapon and not a verified client model.",
+      "generator": "OpenAI ImageGen; original illustrated portrait or object cutout, optimized as alpha-capable WebP.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm quest identity",
+        "sourceReferences": [
+          {
+            "sourceId": "tirion-taelan-forgotten-memories-locator",
+            "url": "https://www.wowhead.com/classic/quest=5781/of-forgotten-memories"
+          },
+          {
+            "sourceId": "tirion-taelan-in-dreams-locator",
+            "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+          }
+        ],
+        "comparisonCapture": "Generated art is not canonical. Human comparison with the intended Classic character/item presentation remains open."
+      },
+      "visualReview": "Subject is readable at its authored scale and the delivered cutout retains transparent pixels. Exact costume, species, object shape and matching-build resemblance require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-forgotten-memories-locator",
+          "url": "https://www.wowhead.com/classic/quest=5781/of-forgotten-memories"
+        },
+        {
+          "sourceId": "tirion-taelan-in-dreams-locator",
+          "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+        }
+      ],
+      "byteLength": 245844,
+      "modifiedAt": "2026-10-01T23:17:28.209Z",
+      "sha256": "79d38d490ae9894b55c9c5691a5dbafa178467cc5e78a5c7f7204b9eb2f33971"
+    },
+    {
+      "id": "silver-hand-insignia",
+      "kind": "artifact",
+      "file": "public/images/storylines/tirion-taelan/silver-hand-insignia.research.webp",
+      "representedBy": "Silver Hand insignia",
+      "pixelWidth": 1278,
+      "pixelHeight": 1230,
+      "sourceArtifact": "exec-90f6448a-3f23-4990-ab8c-05bab627a3a3.png",
+      "targetEditionBuild": "Original World of Warcraft Classic character or object identity; exact 1.12-era model match remains unreviewed.",
+      "recognizableTraits": "Interpretive badge representing the recovered Silver Hand symbol; its shape, material and color need in-game comparison.",
+      "generationPrompt": "Original isolated transparent fantasy prop: a weathered silver badge with a simple upright hand over dark blue enamel, representing the recovered Silver Hand symbol. Interpretive shape and materials; not a verified Classic object model.",
+      "generator": "OpenAI ImageGen; original illustrated portrait or object cutout, optimized as alpha-capable WebP.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm quest identity",
+        "sourceReferences": [
+          {
+            "sourceId": "tirion-taelan-lost-honor-locator",
+            "url": "https://www.wowhead.com/classic/quest=5845/of-lost-honor"
+          },
+          {
+            "sourceId": "tirion-taelan-in-dreams-locator",
+            "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+          }
+        ],
+        "comparisonCapture": "Generated art is not canonical. Human comparison with the intended Classic character/item presentation remains open."
+      },
+      "visualReview": "Subject is readable at its authored scale and the delivered cutout retains transparent pixels. Exact costume, species, object shape and matching-build resemblance require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-lost-honor-locator",
+          "url": "https://www.wowhead.com/classic/quest=5845/of-lost-honor"
+        },
+        {
+          "sourceId": "tirion-taelan-in-dreams-locator",
+          "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+        }
+      ],
+      "byteLength": 362228,
+      "modifiedAt": "2026-10-01T23:17:34.570Z",
+      "sha256": "78986b9054a10697680ffb25aea97fac0bf6bab2df72a9cd83a8877db6ef19a4"
+    },
+    {
+      "id": "portrait-of-love-and-family",
+      "kind": "artifact",
+      "file": "public/images/storylines/tirion-taelan/family-portrait-of-love-and-family.research.webp",
+      "representedBy": "Of Love and Family — recovered portrait",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-745e4bf4-3edb-4ff1-b331-226cc40e5383.png",
+      "targetEditionBuild": "Original World of Warcraft Classic character or object identity; exact 1.12-era model match remains unreviewed.",
+      "recognizableTraits": "The recovered family painting shows Tirion, Karandra and their young son in an original lakeside interpretation. Its detailed appearance is not evidence for canonical faces, clothing or exact geography.",
+      "generationPrompt": "An isolated transparent dark-wood framed family painting: father, mother and young son beside a calm lake at sunset. Original interpretation of the quest’s recovered painting, not canonical faces, attire or exact location.",
+      "generator": "OpenAI ImageGen; original illustrated portrait or object cutout, optimized as alpha-capable WebP.",
+      "transparency": true,
+      "visualReference": {
+        "editionBuild": "Original World of Warcraft Classic, pre-Cataclysm quest identity",
+        "sourceReferences": [
+          {
+            "sourceId": "tirion-taelan-portrait-recovery-locator",
+            "url": "https://www.wowhead.com/classic/quest=5848/of-love-and-family"
+          },
+          {
+            "sourceId": "tirion-taelan-portrait-introduction-locator",
+            "url": "https://www.wowhead.com/classic/quest=5846/of-love-and-family"
+          },
+          {
+            "sourceId": "tirion-taelan-in-dreams-locator",
+            "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+          }
+        ],
+        "comparisonCapture": "Generated art is not canonical. Human comparison with the intended Classic character/item presentation remains open."
+      },
+      "visualReview": "Subject is readable at its authored scale and the delivered cutout retains transparent pixels. Exact costume, species, object shape and matching-build resemblance require human review.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-portrait-recovery-locator",
+          "url": "https://www.wowhead.com/classic/quest=5848/of-love-and-family"
+        },
+        {
+          "sourceId": "tirion-taelan-portrait-introduction-locator",
+          "url": "https://www.wowhead.com/classic/quest=5846/of-love-and-family"
+        },
+        {
+          "sourceId": "tirion-taelan-in-dreams-locator",
+          "url": "https://www.wowhead.com/classic/quest=5944/in-dreams"
+        }
+      ],
+      "byteLength": 413934,
+      "modifiedAt": "2026-10-01T23:22:11.048Z",
+      "sha256": "69f19bca7b1dbfc749ed7607ae2c647d21fe12497c459944d93a5647f7a6b9f6"
+    },
+    {
+      "id": "myranda-the-hag",
+      "kind": "character",
+      "file": "public/images/storylines/onyxia/myranda-the-hag.research.webp",
+      "representedBy": "Myranda the Hag",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "reuseFrom": "docs/research/onyxia-visual-assets.json",
+      "targetEditionBuild": "Classic Era 1.15.8 quest locator; original Classic character identity; exact 1.12-era model comparison remains open.",
+      "generationPrompt": "Reuses the existing transparent Myranda cutout from the Classic Onyxia storyline; no new character image was generated.",
+      "generator": "Existing repository asset from the Onyxia story; reused in this relational StoryGuide and StoryTour.",
+      "transparency": true,
+      "visualReview": "Reused repository character image loads in the new story theater; human matching-build model review remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "tirion-taelan-find-myranda-locator",
+          "url": "https://www.wowhead.com/classic/quest=5861/find-myranda"
+        }
+      ],
+      "byteLength": 433342,
+      "modifiedAt": "2026-10-01T20:45:11.329Z",
+      "sha256": "cce825856b774615d13a1e5fa05a200beb9534370ebec430083fd001eb8b68a2"
+    }
+  ],
+  "sceneLedger": [
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-the-old-hermit",
+      "title": "The old hermit by Thondroril",
+      "environmentPath": "public/images/storylines/tirion-taelan/thondroril-river.research.webp",
+      "gameArea": "Thondroril River and the Eastern Plaguelands",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Eastern Plaguelands: a broad cold river through diseased grassland, gray-green light, sparse dead trees and distant ruined human stonework. Keep it distinct from the thick forest of Caer Darrow and the warmer sunset memory scene.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [
+        {
+          "id": "tirion-fordring",
+          "name": "Highlord Tirion Fordring",
+          "image": "public/images/storylines/tirion-taelan/tirion-fordring.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "Quest prerequisites are compressed as a threshold, not retold as unique historical events. The image is a broad Classic Eastern Plaguelands impression, not an exact camp reconstruction.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-the-old-hermit-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-tirions-request",
+      "title": "The father in exile",
+      "environmentPath": "public/images/storylines/tirion-taelan/thondroril-river.research.webp",
+      "gameArea": "Thondroril River and the Eastern Plaguelands",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Eastern Plaguelands: a broad cold river through diseased grassland, gray-green light, sparse dead trees and distant ruined human stonework. Keep it distinct from the thick forest of Caer Darrow and the warmer sunset memory scene.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [
+        {
+          "id": "tirion-fordring",
+          "name": "Highlord Tirion Fordring",
+          "image": "public/images/storylines/tirion-taelan/tirion-fordring.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "The cause and circumstances behind Tirion’s conviction are not expanded from the quest text. The exact edition and page of the novella Of Blood and Honor remain unverified.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-tirions-request-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-the-miniature-hammer",
+      "title": "A small hammer beneath a false grave",
+      "environmentPath": "public/images/storylines/tirion-taelan/undercroft-grave.research.webp",
+      "gameArea": "The Undercroft",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Western Plaguelands graveyard: low earth mounds and worn stones among pallid grass, sickly green-gray mist and dead timber. The image is a broad cemetery impression, not the exact marked grave or a verified encounter layout.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [],
+      "objects": [
+        {
+          "id": "taelans-miniature-warhammer",
+          "name": "Taelan’s miniature warhammer",
+          "image": "public/images/storylines/tirion-taelan/taelans-miniature-warhammer.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "The hammer’s appearance is interpretive. The scene refers to a false grave in the quest account, without claiming the exact plot position or encounter layout.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-the-miniature-hammer-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-the-silver-hand-symbol",
+      "title": "The emblem in Northdale’s lake",
+      "environmentPath": "public/images/storylines/tirion-taelan/northdale-lake.research.webp",
+      "gameArea": "The waters near Northdale",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Eastern Plaguelands lake and ruined settlement: slate water, dead trees, ruined pale human masonry and low plague fog. A fallen emblem is visible beneath the water as interpretive symbolism, not a game-model reconstruction.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [],
+      "objects": [
+        {
+          "id": "silver-hand-insignia",
+          "name": "Silver Hand insignia",
+          "image": "public/images/storylines/tirion-taelan/silver-hand-insignia.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "The lake retrieval is supported; the precise battle, companions, formation and emblem model remain open. The scene is not a surveyed Northdale view.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-the-silver-hand-symbol-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-renfray-remembers",
+      "title": "Renfray remembers Caer Darrow",
+      "environmentPath": "public/images/storylines/tirion-taelan/caer-darrow.research.webp",
+      "gameArea": "Caer Darrow",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Western Plaguelands island settlement: a ruin-worn stone village on a lake, a narrow bridge and the distant Scholomance silhouette. Use old pale masonry and sickly lake haze, not a healthy living city or dense modern town.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [
+        {
+          "id": "artist-renfray",
+          "name": "Artist Renfray",
+          "image": "public/images/storylines/tirion-taelan/artist-renfray.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "Renfray is identified as a human ghost in Classic-era references. Her clothing, face and exact house are interpretive and need matching-build review.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-renfray-remembers-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-the-twin-moons",
+      "title": "The portrait behind the twin moons",
+      "environmentPath": "public/images/storylines/tirion-taelan/stratholme-archive.research.webp",
+      "gameArea": "The Archivist’s room in Stratholme",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Stratholme interior: scarlet masonry, old stone, shelves, cloth banners, candlelight and visible plague-green light beyond a broken arch. Twin-moons painting and hidden portrait are story clues. Interior geometry is interpretive and not a dungeon-floor reconstruction.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [],
+      "objects": [
+        {
+          "id": "portrait-of-love-and-family",
+          "name": "Of Love and Family — recovered portrait",
+          "image": "public/images/storylines/tirion-taelan/family-portrait-of-love-and-family.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "Quest 5846 and quest 5848 are separate tasks with distinct givers. This entry covers only recovery from the Archivist’s room; the later Eligor quest with the same title is excluded.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-the-twin-moons-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-a-family-restored-in-paint",
+      "title": "A family restored in paint",
+      "environmentPath": "public/images/storylines/tirion-taelan/fordring-family-memory.research.webp",
+      "gameArea": "The family recalled in a portrait",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "An interpretive painted family memory of Tirion, Karandra and their young son beside a lake. The outdoor view is an artistic reading of reported family excursions, not a verified beach, exact location or canonical appearance.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [
+        {
+          "id": "tirion-fordring",
+          "name": "Highlord Tirion Fordring",
+          "image": "public/images/storylines/tirion-taelan/tirion-fordring.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "portrait-of-love-and-family",
+          "name": "Of Love and Family — recovered portrait",
+          "image": "public/images/storylines/tirion-taelan/family-portrait-of-love-and-family.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "The event returns to Tirion at Thondroril; the image is a labeled family-memory passage and does not place the family together there in present time.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-a-family-restored-in-paint-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-myranda-at-uthers-tomb",
+      "title": "Myranda at Uther’s Tomb",
+      "environmentPath": "public/images/storylines/tirion-taelan/uther-tomb.research.webp",
+      "gameArea": "Uther’s Tomb at Sorrow Hill",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Western Plaguelands memorial: pale carved stone tomb and broad steps, restrained silver-and-blue accents, diseased grassland, bare trees and low gray-green sky. A solemn human memorial, not a ruined cathedral.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [
+        {
+          "id": "myranda-the-hag",
+          "name": "Myranda the Hag",
+          "image": "public/images/storylines/onyxia/myranda-the-hag.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "Myranda’s character art is reused from the existing Classic Onyxia story. It remains interpretive, and no exact costume or human model comparison is claimed.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-myranda-at-uthers-tomb-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-a-gift-in-hearthglen",
+      "title": "A gift beneath Scarlet colors",
+      "environmentPath": "public/images/storylines/tirion-taelan/hearthglen.research.webp",
+      "gameArea": "Hearthglen from the road",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic pre-Cataclysm Hearthglen: a fortified human settlement with pale gray stone, timber and red-white Scarlet Crusade banners against plague-damaged land. Keep the human keep silhouette and orderly defenses readable; it must not resemble Stormwind Keep or a red-brown fortress.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [
+        {
+          "id": "taelan-fordring",
+          "name": "Highlord Taelan Fordring",
+          "image": "public/images/storylines/tirion-taelan/taelan-fordring.research.webp"
+        },
+        {
+          "id": "scarlet-crusade",
+          "name": "Scarlet Crusade pursuers",
+          "image": "public/images/storylines/tirion-taelan/scarlet-pursuers.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "The adventurer’s appearance and faction are not represented. The Scarlet figures are illustrative; the scene does not claim a uniform roster or exact patrol arrangement.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-a-gift-in-hearthglen-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-taelan-chooses-to-leave",
+      "title": "Taelan ends the dream",
+      "environmentPath": "public/images/storylines/tirion-taelan/mardenholde-hall.research.webp",
+      "gameArea": "Mardenholde Keep at Hearthglen",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Hearthglen keep interior: sturdy pale gray human masonry, high arches, red-white Scarlet Crusade banners and a cold view toward the Plaguelands. It reads as a military hall within a human settlement, not a black fortress or cathedral.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [
+        {
+          "id": "taelan-fordring",
+          "name": "Highlord Taelan Fordring",
+          "image": "public/images/storylines/tirion-taelan/taelan-fordring.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "portrait-of-love-and-family",
+          "name": "Of Love and Family — recovered portrait",
+          "image": "public/images/storylines/tirion-taelan/family-portrait-of-love-and-family.research.webp"
+        },
+        {
+          "id": "taelans-miniature-warhammer",
+          "name": "Taelan’s miniature warhammer",
+          "image": "public/images/storylines/tirion-taelan/taelans-miniature-warhammer.research.webp"
+        },
+        {
+          "id": "silver-hand-insignia",
+          "name": "Silver Hand insignia",
+          "image": "public/images/storylines/tirion-taelan/silver-hand-insignia.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "The keepsakes are shown together as an editorial visual summary, not as a claim that all three objects appear in one in-game inventory or scene.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-taelan-chooses-to-leave-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-out-through-hearthglen",
+      "title": "Out through Hearthglen",
+      "environmentPath": "public/images/storylines/tirion-taelan/hearthglen.research.webp",
+      "gameArea": "Hearthglen from the road",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic pre-Cataclysm Hearthglen: a fortified human settlement with pale gray stone, timber and red-white Scarlet Crusade banners against plague-damaged land. Keep the human keep silhouette and orderly defenses readable; it must not resemble Stormwind Keep or a red-brown fortress.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [
+        {
+          "id": "taelan-fordring",
+          "name": "Highlord Taelan Fordring",
+          "image": "public/images/storylines/tirion-taelan/taelan-fordring.research.webp"
+        },
+        {
+          "id": "scarlet-crusade",
+          "name": "Scarlet Crusade pursuers",
+          "image": "public/images/storylines/tirion-taelan/scarlet-pursuers.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "The opposition is represented as an ensemble, not an exact count or canonical formation. Quest order names the settlement and outcome but does not support a surveyed route.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-out-through-hearthglen-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-isillien-at-the-tower",
+      "title": "The road ends at the tower",
+      "environmentPath": "public/images/storylines/tirion-taelan/taelans-tower.research.webp",
+      "gameArea": "The roadside tower near Hearthglen",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Western Plaguelands roadside watchtower: sturdy pale stone and timber beside an exposed road, distant bleak hills and damaged trees. This broad scene does not claim an exact sightline, road course or floor plan.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [
+        {
+          "id": "taelan-fordring",
+          "name": "Highlord Taelan Fordring",
+          "image": "public/images/storylines/tirion-taelan/taelan-fordring.research.webp"
+        },
+        {
+          "id": "grand-inquisitor-isillien",
+          "name": "Grand Inquisitor Isillien",
+          "image": "public/images/storylines/tirion-taelan/grand-inquisitor-isillien.research.webp"
+        },
+        {
+          "id": "scarlet-crusade",
+          "name": "Scarlet Crusade pursuers",
+          "image": "public/images/storylines/tirion-taelan/scarlet-pursuers.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "The scripted quest ending establishes Taelan’s death and Isillien’s role. Tower shape, combat staging and exact geography are interpretive; no alternate ending is asserted.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-isillien-at-the-tower-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-tirion-arrives",
+      "title": "Tirion arrives",
+      "environmentPath": "public/images/storylines/tirion-taelan/taelans-tower.research.webp",
+      "gameArea": "The roadside tower near Hearthglen",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Western Plaguelands roadside watchtower: sturdy pale stone and timber beside an exposed road, distant bleak hills and damaged trees. This broad scene does not claim an exact sightline, road course or floor plan.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [
+        {
+          "id": "tirion-fordring",
+          "name": "Highlord Tirion Fordring",
+          "image": "public/images/storylines/tirion-taelan/tirion-fordring.research.webp"
+        },
+        {
+          "id": "grand-inquisitor-isillien",
+          "name": "Grand Inquisitor Isillien",
+          "image": "public/images/storylines/tirion-taelan/grand-inquisitor-isillien.research.webp"
+        }
+      ],
+      "objects": [],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "The scene depicts the quest-completion event only. It makes no claim about unrecorded dialogue or exact character positions.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-tirion-arrives-claim"
+      ]
+    },
+    {
+      "nodeId": "tirion-taelan-of-love-and-family-story-a-new-order",
+      "title": "A vow to rebuild the Silver Hand",
+      "environmentPath": "public/images/storylines/tirion-taelan/taelans-tower.research.webp",
+      "gameArea": "The roadside tower near Hearthglen",
+      "referenceEditionBuild": "Original World of Warcraft Classic, pre-Cataclysm area identity; Classic Era 1.15.8 quest reproduction used as a locator, original 1.12-era comparison remains open.",
+      "recognizableTraits": "Classic Western Plaguelands roadside watchtower: sturdy pale stone and timber beside an exposed road, distant bleak hills and damaged trees. This broad scene does not claim an exact sightline, road course or floor plan.",
+      "resemblanceReview": "Written trait check recorded; no in-client screenshot or human matching-build approval is claimed.",
+      "cast": [
+        {
+          "id": "tirion-fordring",
+          "name": "Highlord Tirion Fordring",
+          "image": "public/images/storylines/tirion-taelan/tirion-fordring.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "silver-hand-insignia",
+          "name": "Silver Hand insignia",
+          "image": "public/images/storylines/tirion-taelan/silver-hand-insignia.research.webp"
+        }
+      ],
+      "visualActions": [
+        "set_map_state",
+        "show contextual illustrated cast and recovered objects"
+      ],
+      "geographyAndChronologyNote": "The ending is Tirion’s immediate vow in the Classic quest chain. Do not substitute the later Argent Crusade or attribute later Wrath events to this resolution.",
+      "claimIds": [
+        "tirion-taelan-of-love-and-family-a-new-order-claim"
+      ]
+    }
+  ]
+}

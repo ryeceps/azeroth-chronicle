@@ -181,7 +181,7 @@ Era 9 extends beyond Chronicle Volume 4. Dragonflight and Worldsoul Saga materia
 
 ## Story-animation authoring template
 
-For questline stories using the same presentation and scene pattern, follow the [full storyline build guide](../research/storyline-build-template.md). The active [questline candidate slate](../research/questline-story-candidates.md) prioritizes substantial journeys and ends with Wrath of the Lich King. These research packets do not replace the era guides or constitute finished tours.
+For questline stories using the same presentation and scene pattern, follow the [full storyline build guide](../research/storyline-build-template.md). The active [questline candidate slate](../research/questline-story-candidates.md) prioritizes substantial journeys and ends with Wrath of the Lich King. These research packets do not replace the era guides or constitute finished tours. The separate Classic-to-Wrath StoryTour now includes the complete illustrated Tirion and Taelan questline after the earlier Classic stories; it reuses its own StoryGuide and does not enter EraTour or full-history playback.
 
 For each depicted place that exists in World of Warcraft, record the matching edition/build and the area's recognizable architecture, materials, colors, terrain, vegetation, skyline, and landmarks. Review the original interpretive scene art against that same game area and report the reference and review result in the asset ledger. Do not substitute generic fantasy scenery or another zone's visual language: Stormwind Keep should read as pale or white stone with blue and gold details, not red-brown stone and red banners.
 
