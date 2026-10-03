@@ -265,6 +265,17 @@
       }
     },
     {
+      "id": "swift-flight-form-raven-legacy-theater",
+      "name": "Swift Flight Form · relational story theater",
+      "slug": "swift-flight-form-raven-legacy-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "tirion-taelan-story-theater",
       "name": "Tirion and Taelan — relational story theater",
       "slug": "tirion-taelan-story-theater",
@@ -2781,6 +2792,126 @@
       "geometryIds": [],
       "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
       "interpretationNote": "Original interpretive environment art for Warrior’s Terrace, Darnassus. Target reference: original pre-Cataclysm World of Warcraft Classic Warrior’s Terrace, Darnassus. Preserve recognizable traits: Original Darnassus identity: immense living tree forms, curving pale stone and timber walkways, elevated bridges, carved night-elf arches, muted ivory, lavender and cool teal accents. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-barrow-scene",
+      "name": "Swift Flight Form: Stormrage Barrow Dens · Moonglade",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/swift-flight-form/moonglade-stormrage-barrows.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · STORMRAGE BARROW DENS · MOONGLADE",
+      "interpretationNote": "Interpretive story scene. Moonlit conifers and a low druidic barrow approach; the southern den interior and exact architecture are not reconstructed. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-dream-scene",
+      "name": "Swift Flight Form: The Emerald Dream · barrow echo",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/swift-flight-form/emerald-dream-barrows.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · THE EMERALD DREAM · BARROW ECHO",
+      "interpretationNote": "Interpretive story scene. Luminous dream echo tied to the barrow sequence; deliberately interpretive, with no claimed plane layout. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-eagle-scene",
+      "name": "Swift Flight Form: Eagle shrine · Terokkar Forest",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/swift-flight-form/eagle-shrine.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · EAGLE SHRINE · TEROKKAR FOREST",
+      "interpretationNote": "Interpretive story scene. Separate named Eagle shrine scene; compare against TBC Terokkar client. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-evergrove-scene",
+      "name": "Swift Flight Form: Evergrove · Blade’s Edge Mountains",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/swift-flight-form/evergrove.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · EVERGROVE · BLADE’S EDGE MOUNTAINS",
+      "interpretationNote": "Interpretive story scene. Sheltered green grove set against Blade’s Edge ochre ridges and jagged silhouettes. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-falcon-scene",
+      "name": "Swift Flight Form: Falcon shrine · Lake Ere’Noru",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/swift-flight-form/falcon-shrine.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · FALCON SHRINE · LAKE ERE’NORU",
+      "interpretationNote": "Interpretive story scene. Separate named Falcon shrine scene near the lake; compare against TBC Terokkar client. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-hawk-scene",
+      "name": "Swift Flight Form: Hawk shrine · Sorrow Wing Point",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/swift-flight-form/hawk-shrine.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · HAWK SHRINE · SORROW WING POINT",
+      "interpretationNote": "Interpretive story scene. Separate named Hawk shrine scene at the island landmark; compare against TBC Terokkar client. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-nagrand-scene",
+      "name": "Swift Flight Form: Twilight Ridge · Nagrand",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/hero-of-the-maghar/nagrand-valley.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · TWILIGHT RIDGE · NAGRAND",
+      "interpretationNote": "Interpretive story scene. Reused TBC Nagrand research painting with open green pasture, mesas, watercourses, and floating islands; Twilight Ridge placement is interpretive. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-refuge-scene",
+      "name": "Swift Flight Form: Cenarion Refuge · Zangarmarsh",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/swift-flight-form/cenarion-refuge-zangarmarsh.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · CENARION REFUGE · ZANGARMARSH",
+      "interpretationNote": "Interpretive story scene. Flooded teal marsh, broad waters, spore mounds, and oversized mushroom forms; refuge scene is broad and interpretive. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-sethekk-scene",
+      "name": "Swift Flight Form: Heroic Sethekk Halls · Terokkar Forest",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/karazhan/sethekk-halls.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · HEROIC SETHEKK HALLS · TEROKKAR FOREST",
+      "interpretationNote": "Interpretive story scene. Reused purple-lit avian interior reference; composition is atmospheric and not an exact dungeon floor plan. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-skettis-scene",
+      "name": "Swift Flight Form: Skettis · Terokkar Forest",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/swift-flight-form/skettis.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · SKETTIS · TEROKKAR FOREST",
+      "interpretationNote": "Interpretive story scene. Arakkoa skyline and bone-pale terrain; broad view, not an exact site reconstruction. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-southfury-scene",
+      "name": "Swift Flight Form: Southfury River · Azshara",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/swift-flight-form/southfury-river.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · SOUTHFURY RIVER · AZSHARA",
+      "interpretationNote": "Interpretive story scene. Pre-Cataclysm forested river with blue-green water and eastern cliffs; the chase route and exact bank are unknown. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-vortex-scene",
+      "name": "Swift Flight Form: Vortex Pinnacle · Blade’s Edge Mountains",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/swift-flight-form/vortex-pinnacle.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · VORTEX PINNACLE · BLADE’S EDGE MOUNTAINS",
+      "interpretationNote": "Interpretive story scene. Broad highland view with crystal spires; not an exact summit or room plan. Theater background only; it asserts no exact geography, dungeon plan, or travel route. Human side-by-side review against the target TBC client remains open."
     },
     {
       "id": "third-war-frozen-throne-map-research",
@@ -9948,6 +10079,312 @@
       "visualPresence": "contextual"
     },
     {
+      "id": "swift-flight-form-raven-legacy-anzu-raven-god-theater",
+      "entityId": "anzu-raven-god",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-anzu-raven-god-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-stones",
+        "swift-flight-return-essences",
+        "swift-flight-anzu",
+        "swift-flight-vigilance"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 233
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-arthorn-windsong-theater",
+      "entityId": "arthorn-windsong",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-arthorn-windsong-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-evergrove",
+        "swift-flight-book",
+        "swift-flight-stones",
+        "swift-flight-return-essences"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 244
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-aspect-of-raven-theater",
+      "entityId": "aspect-of-raven",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-aspect-of-raven-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-dream"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 245
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-clintar-divided-spirit-theater",
+      "entityId": "clintar-divided-spirit",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-clintar-divided-spirit-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-dream"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 247
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-clintar-dreamwalker-theater",
+      "entityId": "clintar-dreamwalker",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-clintar-dreamwalker-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-waking",
+        "swift-flight-dream",
+        "swift-flight-return-morthis"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 248
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-dreamwarden-lurosa-theater",
+      "entityId": "dreamwarden-lurosa",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-dreamwarden-lurosa-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-dream"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 246
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-guardian-of-eagle-theater",
+      "entityId": "guardian-of-eagle",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-guardian-of-eagle-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-eagle"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 238
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-guardian-of-falcon-theater",
+      "entityId": "guardian-of-falcon",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-guardian-of-falcon-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-falcon"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 237
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-guardian-of-hawk-theater",
+      "entityId": "guardian-of-hawk",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-guardian-of-hawk-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-hawk"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 236
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-morthis-whisperwing-theater",
+      "entityId": "morthis-whisperwing",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-morthis-whisperwing-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-morthis-start",
+        "swift-flight-ward",
+        "swift-flight-return-morthis",
+        "swift-flight-evergrove",
+        "swift-flight-return-essences",
+        "swift-flight-moonstone",
+        "swift-flight-anzu",
+        "swift-flight-vigilance"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 250
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-raven-book-artifact-theater",
+      "entityId": "raven-book-artifact",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-raven-book-artifact-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-book",
+        "swift-flight-stones"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 239
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-rizzle-sprysprocket-theater",
+      "entityId": "rizzle-sprysprocket",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-rizzle-sprysprocket-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-moonstone"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 235
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-saikkal-theater",
+      "entityId": "saikkal",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-saikkal-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-book"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 242
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-southfury-moonstone-theater",
+      "entityId": "southfury-moonstone",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-southfury-moonstone-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-moonstone",
+        "swift-flight-anzu",
+        "swift-flight-vigilance"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 234
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-swift-flight-seeker-theater",
+      "entityId": "swift-flight-seeker",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-swift-flight-seeker-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-chain"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 249
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-swift-flight-stormcrow-theater",
+      "entityId": "swift-flight-stormcrow",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-swift-flight-stormcrow-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-morthis-start",
+        "swift-flight-anzu",
+        "swift-flight-swift-timeline"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 232
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-timeon-theater",
+      "entityId": "timeon",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-timeon-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-book"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 243
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-watcher-elaira-theater",
+      "entityId": "watcher-elaira",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-watcher-elaira-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-eyes",
+        "swift-flight-sparrowhawk"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 241
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-wild-sparrowhawk-theater",
+      "entityId": "wild-sparrowhawk",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "geometryId": "swift-flight-form-raven-legacy-wild-sparrowhawk-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "swift-flight-sparrowhawk"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, route, or permanent presence is asserted. The seeker is representative and non-canonical. See docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
       "id": "sylvanas-era-seven-spatial-research",
       "entityId": "sylvanas-windrunner",
       "eraId": "third-war-frozen-throne",
@@ -12211,6 +12648,33 @@
       }
     },
     {
+      "id": "anzu-raven-god",
+      "type": "other",
+      "name": "Anzu, the Raven God",
+      "slug": "anzu-raven-god",
+      "shortDescription": "The being named in the recovered raven-book account and confronted in Heroic Sethekk Halls.",
+      "body": "The being named in the recovered raven-book account and confronted in Heroic Sethekk Halls. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-stones",
+        "swift-flight-return-essences",
+        "swift-flight-anzu",
+        "swift-flight-vigilance"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/anzu.research.webp",
+        "scale": 1.04
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "aqir",
       "type": "faction",
       "name": "Aqir",
@@ -12515,6 +12979,33 @@
       "contentStatus": "research"
     },
     {
+      "id": "arthorn-windsong",
+      "type": "character",
+      "name": "Arthorn Windsong",
+      "slug": "arthorn-windsong",
+      "shortDescription": "A Druid researcher whose work connects the Outland raven-cult inquiry to the recovered book.",
+      "body": "A Druid researcher whose work connects the Outland raven-cult inquiry to the recovered book. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-evergrove",
+        "swift-flight-book",
+        "swift-flight-stones",
+        "swift-flight-return-essences"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/arthorn-windsong.research.webp",
+        "scale": 0.82
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "artist-renfray",
       "type": "character",
       "name": "Artist Renfray",
@@ -12662,6 +13153,30 @@
         "asset": "images/storylines/akama-black-temple/ashtongue-deathsworn.research.webp",
         "scale": 0.9
       }
+    },
+    {
+      "id": "aspect-of-raven",
+      "type": "other",
+      "name": "Aspect of the Raven",
+      "slug": "aspect-of-raven",
+      "shortDescription": "A raven aspect that threatens the escort in the dream sequence; its exact appearance and chamber remain interpretive.",
+      "body": "A raven aspect that threatens the escort in the dream sequence; its exact appearance and chamber remain interpretive. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-dream"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/aspect-of-raven.research.webp",
+        "scale": 0.86
+      },
+      "contentStatus": "research"
     },
     {
       "id": "ata-mal-terrace",
@@ -13647,6 +14162,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "cenarion-refuge-zangarmarsh",
+      "type": "location",
+      "name": "Cenarion Refuge, Zangarmarsh",
+      "slug": "cenarion-refuge-zangarmarsh",
+      "shortDescription": "Cenarion refuge in the marsh where Morthis receives the Druid and the quest chain begins and ends.",
+      "body": "Cenarion refuge in the marsh where Morthis receives the Druid and the quest chain begins and ends. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-ward",
+        "swift-flight-morthis-start",
+        "swift-flight-return-morthis",
+        "swift-flight-return-essences",
+        "swift-flight-vigilance",
+        "swift-flight-visual-zangarmarsh"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "cenarius",
       "type": "character",
       "name": "Cenarius",
@@ -13990,6 +14530,56 @@
       "mapVisual": {
         "asset": "images/subjects/age-of-adventurers/adventurers-of-azeroth.research.webp",
         "scale": 1.04
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "clintar-divided-spirit",
+      "type": "other",
+      "name": "Clintar’s divided spirit",
+      "slug": "clintar-divided-spirit",
+      "shortDescription": "A separate visual representation of Clintar’s spirit in the dream sequence, not a second character or exact apparition model.",
+      "body": "A separate visual representation of Clintar’s spirit in the dream sequence, not a second character or exact apparition model. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-dream"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/clintar-spirit.research.webp",
+        "scale": 0.8
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "clintar-dreamwalker",
+      "type": "character",
+      "name": "Clintar Dreamwalker",
+      "slug": "clintar-dreamwalker",
+      "shortDescription": "The Dream-bound witness awakened in the Stormrage Barrow Den; his physical and divided-spirit depictions are separate interpretive research art.",
+      "body": "The Dream-bound witness awakened in the Stormrage Barrow Den; his physical and divided-spirit depictions are separate interpretive research art. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-waking",
+        "swift-flight-dream",
+        "swift-flight-return-morthis"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/clintar-dream-witness.research.webp",
+        "scale": 0.82
       },
       "contentStatus": "research"
     },
@@ -15708,6 +16298,30 @@
       }
     },
     {
+      "id": "dreamwarden-lurosa",
+      "type": "character",
+      "name": "Dreamwarden Lurosa",
+      "slug": "dreamwarden-lurosa",
+      "shortDescription": "The Dreamwarden encountered during Clintar’s escort through the dream sequence.",
+      "body": "The Dreamwarden encountered during Clintar’s escort through the dream sequence. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-dream"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/dreamwarden-lurosa.research.webp",
+        "scale": 0.8
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "durotan",
       "type": "character",
       "name": "Durotan",
@@ -15765,6 +16379,27 @@
         "asset": "images/subjects/long-vigil-new-kingdoms/dwarven-clans.research.webp",
         "scale": 0.9
       },
+      "contentStatus": "research"
+    },
+    {
+      "id": "eagles-shrine-terokkar",
+      "type": "site",
+      "name": "Eagle shrine, Terokkar Forest",
+      "slug": "eagles-shrine-terokkar",
+      "shortDescription": "The named shrine where the Eagle guardian’s essence is tested and recovered.",
+      "body": "The named shrine where the Eagle guardian’s essence is tested and recovered. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-eagle",
+        "swift-flight-visual-terokkar"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
+      ],
       "contentStatus": "research"
     },
     {
@@ -15971,6 +16606,27 @@
       }
     },
     {
+      "id": "emerald-dream-echo",
+      "type": "site",
+      "name": "Emerald Dream · barrow echo",
+      "slug": "emerald-dream-echo",
+      "shortDescription": "An interpretive dream echo associated with the barrow sequence. The exact plane layout and apparition chamber are not claimed.",
+      "body": "An interpretive dream echo associated with the barrow sequence. The exact plane layout and apparition chamber are not claimed. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-dream",
+        "swift-flight-visual-moonglade"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "empire-of-zul",
       "type": "faction",
       "name": "The Empire of Zul",
@@ -16104,6 +16760,28 @@
       "contentStatus": "research"
     },
     {
+      "id": "evergrove-blades-edge",
+      "type": "location",
+      "name": "Evergrove, Blade’s Edge Mountains",
+      "slug": "evergrove-blades-edge",
+      "shortDescription": "The forested refuge in Blade’s Edge where Arthorn investigates the raven cult.",
+      "body": "The forested refuge in Blade’s Edge where Arthorn investigates the raven cult. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-evergrove",
+        "swift-flight-book",
+        "swift-flight-visual-blades-edge"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "eversong-woods",
       "type": "location",
       "name": "Eversong Woods",
@@ -16120,6 +16798,27 @@
         "quelthalas",
         "midnight",
         "released-campaign"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "falcons-shrine-terokkar",
+      "type": "site",
+      "name": "Falcon shrine, Lake Ere’Noru",
+      "slug": "falcons-shrine-terokkar",
+      "shortDescription": "The separate shrine associated with the Falcon essence trial.",
+      "body": "The separate shrine associated with the Falcon essence trial. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-falcon",
+        "swift-flight-visual-terokkar"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
       ],
       "contentStatus": "research"
     },
@@ -16734,6 +17433,78 @@
       "contentStatus": "research"
     },
     {
+      "id": "guardian-of-eagle",
+      "type": "other",
+      "name": "Guardian of the Eagle",
+      "slug": "guardian-of-eagle",
+      "shortDescription": "The distinct guardian named by the Eagle essence trial. Its generated design is interpretive, not a canonical model claim.",
+      "body": "The distinct guardian named by the Eagle essence trial. Its generated design is interpretive, not a canonical model claim. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-eagle"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/guardian-of-eagle.research.webp",
+        "scale": 0.78
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "guardian-of-falcon",
+      "type": "other",
+      "name": "Guardian of the Falcon",
+      "slug": "guardian-of-falcon",
+      "shortDescription": "The distinct guardian named by the Falcon essence trial. Its generated design is interpretive, not a canonical model claim.",
+      "body": "The distinct guardian named by the Falcon essence trial. Its generated design is interpretive, not a canonical model claim. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-falcon"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/guardian-of-falcon.research.webp",
+        "scale": 0.78
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "guardian-of-hawk",
+      "type": "other",
+      "name": "Guardian of the Hawk",
+      "slug": "guardian-of-hawk",
+      "shortDescription": "The distinct guardian named by the Hawk essence trial. Its generated design is interpretive, not a canonical model claim.",
+      "body": "The distinct guardian named by the Hawk essence trial. Its generated design is interpretive, not a canonical model claim. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-hawk"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/guardian-of-hawk.research.webp",
+        "scale": 0.78
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "guldan-memory",
       "type": "character",
       "name": "Gul’dan’s remembered image",
@@ -16853,6 +17624,27 @@
       "featuredEraIds": [
         "age-of-adventurers"
       ]
+    },
+    {
+      "id": "hawks-shrine-sorrow-wing",
+      "type": "site",
+      "name": "Hawk shrine, Sorrow Wing Point",
+      "slug": "hawks-shrine-sorrow-wing",
+      "shortDescription": "The separate Hawk shrine on the island at Sorrow Wing Point.",
+      "body": "The separate Hawk shrine on the island at Sorrow Wing Point. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-hawk",
+        "swift-flight-visual-terokkar"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
     },
     {
       "id": "heart-of-fury",
@@ -19394,6 +20186,37 @@
       "contentStatus": "research"
     },
     {
+      "id": "morthis-whisperwing",
+      "type": "character",
+      "name": "Morthis Whisperwing",
+      "slug": "morthis-whisperwing",
+      "shortDescription": "A Cenarion Druid who guides the seeker through the Stormcrow trial and warns that Anzu may rise again.",
+      "body": "A Cenarion Druid who guides the seeker through the Stormcrow trial and warns that Anzu may rise again. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-morthis-start",
+        "swift-flight-ward",
+        "swift-flight-return-morthis",
+        "swift-flight-evergrove",
+        "swift-flight-return-essences",
+        "swift-flight-moonstone",
+        "swift-flight-anzu",
+        "swift-flight-vigilance"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/morthis-whisperwing.research.webp",
+        "scale": 0.82
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "mother-kashur",
       "type": "character",
       "name": "Mother Kashur",
@@ -20886,6 +21709,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "raven-book-artifact",
+      "type": "artifact",
+      "name": "The Raven’s Book",
+      "slug": "raven-book-artifact",
+      "shortDescription": "A damaged account reconstructed from stone fragments at Skettis; the illustration is interpretive and contains no invented readable text.",
+      "body": "A damaged account reconstructed from stone fragments at Skettis; the illustration is interpretive and contains no invented readable text. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-book",
+        "swift-flight-stones"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/book-of-raven.research.webp",
+        "scale": 0.66
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "ravenous-flayer-eggs",
       "type": "artifact",
       "name": "Ravenous Flayer eggs",
@@ -21032,6 +21880,30 @@
       "contentStatus": "research"
     },
     {
+      "id": "rizzle-sprysprocket",
+      "type": "character",
+      "name": "Rizzle Sprysprocket",
+      "slug": "rizzle-sprysprocket",
+      "shortDescription": "The goblin involved in the Southfury Moonstone chase; the illustrated design is interpretive research art.",
+      "body": "The goblin involved in the Southfury Moonstone chase; the illustrated design is interpretive research art. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-moonstone"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/rizzle-sprysprocket.research.webp",
+        "scale": 0.72
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "rotten-arakkoa-egg",
       "type": "artifact",
       "name": "Rotten Arakkoa egg",
@@ -21077,6 +21949,30 @@
       "mapFigure": {
         "asset": "images/storylines/cipher-of-damnation/ruul-the-darkener.research.webp",
         "scale": 0.78
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "saikkal",
+      "type": "other",
+      "name": "Sai’kkal",
+      "slug": "saikkal",
+      "shortDescription": "An arakkoa shade whose account is reached through the Druid investigation’s aided sight.",
+      "body": "An arakkoa shade whose account is reached through the Druid investigation’s aided sight. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-book"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/saikkal.research.webp",
+        "scale": 0.8
       },
       "contentStatus": "research"
     },
@@ -21924,6 +22820,28 @@
       "contentStatus": "research"
     },
     {
+      "id": "sethekk-halls-heroic",
+      "type": "site",
+      "name": "Heroic Sethekk Halls, Auchindoun",
+      "slug": "sethekk-halls-heroic",
+      "shortDescription": "The heroic Sethekk Halls setting for the Raven’s Claw and Anzu confrontation; no dungeon floor plan is asserted.",
+      "body": "The heroic Sethekk Halls setting for the Raven’s Claw and Anzu confrontation; no dungeon floor plan is asserted. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-anzu",
+        "swift-flight-sethekk",
+        "swift-flight-visual-sethekk"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "sethekk-halls",
       "type": "location",
       "name": "Sethekk Halls",
@@ -22299,6 +23217,27 @@
       "contentStatus": "research"
     },
     {
+      "id": "skettis-terokkar",
+      "type": "location",
+      "name": "Skettis, Terokkar Forest",
+      "slug": "skettis-terokkar",
+      "shortDescription": "The arakkoa settlement in the Bone Wastes where the Raven Stones are recovered.",
+      "body": "The arakkoa settlement in the Bone Wastes where the Raven Stones are recovered. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-stones",
+        "swift-flight-visual-terokkar"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "sorrow-hill",
       "type": "location",
       "name": "Sorrow Hill",
@@ -22317,6 +23256,53 @@
       "tags": [
         "darrowshire-story",
         "classic-plaguelands"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "southfury-moonstone",
+      "type": "artifact",
+      "name": "Southfury Moonstone",
+      "slug": "southfury-moonstone",
+      "shortDescription": "The stone used in the attempt to call Anzu at the Raven’s Claw; the illustration is interpretive research art.",
+      "body": "The stone used in the attempt to call Anzu at the Raven’s Claw; the illustration is interpretive research art. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-moonstone",
+        "swift-flight-anzu",
+        "swift-flight-vigilance"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/southfury-moonstone.research.webp",
+        "scale": 0.52
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "southfury-river-azshara",
+      "type": "site",
+      "name": "Southfury River, Azshara",
+      "slug": "southfury-river-azshara",
+      "shortDescription": "The broad river area associated with the Moonstone chase. Exact coordinates and the pursuit route remain unknown.",
+      "body": "The broad river area associated with the Moonstone chase. Exact coordinates and the pursuit route remain unknown. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-moonstone",
+        "swift-flight-visual-azshara"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
       ],
       "contentStatus": "research"
     },
@@ -22387,6 +23373,28 @@
         "asset": "images/storylines/scepter/stewvul.research.webp",
         "scale": 0.86
       },
+      "contentStatus": "research"
+    },
+    {
+      "id": "stormrage-barrow-dens",
+      "type": "site",
+      "name": "Stormrage Barrow Dens, Moonglade",
+      "slug": "stormrage-barrow-dens",
+      "shortDescription": "The named Moonglade barrows where Clintar is awakened and the divided-spirit account begins.",
+      "body": "The named Moonglade barrows where Clintar is awakened and the divided-spirit account begins. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-waking",
+        "swift-flight-dream",
+        "swift-flight-visual-moonglade"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
+      ],
       "contentStatus": "research"
     },
     {
@@ -22607,6 +23615,56 @@
         "fallen-hero-story",
         "classic-era-location"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-seeker",
+      "type": "other",
+      "name": "Druid seeker · representative viewpoint",
+      "slug": "swift-flight-seeker",
+      "shortDescription": "An interpretive Night Elf Druid viewpoint for the class quest. It is not a named or canonical player character; the original chain also allowed a Tauren Druid viewpoint.",
+      "body": "An interpretive Night Elf Druid viewpoint for the class quest. It is not a named or canonical player character; the original chain also allowed a Tauren Druid viewpoint. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-chain"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/druid-adventurer-viewpoint.research.webp",
+        "scale": 0.8
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-stormcrow",
+      "type": "other",
+      "name": "Swift Flight Form · stormcrow interpretation",
+      "slug": "swift-flight-stormcrow",
+      "shortDescription": "An interpretive bird-form representation of the rewarded Druid flight form; compare its model with the original TBC client before approval.",
+      "body": "An interpretive bird-form representation of the rewarded Druid flight form; compare its model with the original TBC client before approval. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-morthis-start",
+        "swift-flight-anzu",
+        "swift-flight-swift-timeline"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/swift-flight-stormcrow.research.webp",
+        "scale": 0.96
+      },
       "contentStatus": "research"
     },
     {
@@ -23087,6 +24145,30 @@
       }
     },
     {
+      "id": "timeon",
+      "type": "character",
+      "name": "Timeon",
+      "slug": "timeon",
+      "shortDescription": "The Druid whose clue helps direct the inquiry toward the book’s account.",
+      "body": "The Druid whose clue helps direct the inquiry toward the book’s account. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-book"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/timeon.research.webp",
+        "scale": 0.78
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "tirion-fordring",
       "type": "character",
       "name": "Highlord Tirion Fordring",
@@ -23278,6 +24360,28 @@
         "asset": "images/characters/rise-of-the-horde/turalyon.research.webp",
         "scale": 0.96
       },
+      "contentStatus": "research"
+    },
+    {
+      "id": "twilight-ridge-nagrand",
+      "type": "site",
+      "name": "Twilight Ridge, Nagrand",
+      "slug": "twilight-ridge-nagrand",
+      "shortDescription": "A named ridge where Watcher Elaira helps the seeker search for raven-book fragments.",
+      "body": "A named ridge where Watcher Elaira helps the seeker search for raven-book fragments. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-eyes",
+        "swift-flight-sparrowhawk",
+        "swift-flight-visual-nagrand"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
+      ],
       "contentStatus": "research"
     },
     {
@@ -23753,6 +24857,27 @@
       "contentStatus": "research"
     },
     {
+      "id": "vortex-pinnacle-blades-edge",
+      "type": "site",
+      "name": "Vortex Pinnacle, Blade’s Edge Mountains",
+      "slug": "vortex-pinnacle-blades-edge",
+      "shortDescription": "A highland destination in the Blade’s Edge raven investigation. The painting is a broad area view, not a surveyed summit.",
+      "body": "A highland destination in the Blade’s Edge raven investigation. The painting is a broad area view, not a surveyed summit. Scene placement is relational. Exact coordinates, floor plans, and travel routes are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-book",
+        "swift-flight-visual-blades-edge"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "warchief-orders",
       "type": "artifact",
       "name": "The missing Warchief’s orders",
@@ -23943,6 +25068,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "watcher-elaira",
+      "type": "character",
+      "name": "Watcher Elaira",
+      "slug": "watcher-elaira",
+      "shortDescription": "A Druid on Twilight Ridge who directs the sparrowhawk search for the Raven Stones.",
+      "body": "A Druid on Twilight Ridge who directs the sparrowhawk search for the Raven Stones. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-eyes",
+        "swift-flight-sparrowhawk"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/watcher-elaira.research.webp",
+        "scale": 0.78
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "well-of-eternity",
       "type": "location",
       "name": "The Well of Eternity",
@@ -23994,6 +25144,30 @@
       "mapFigure": {
         "asset": "images/storylines/defias/westfall-people-militia.research.webp",
         "scale": 0.95
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "wild-sparrowhawk",
+      "type": "other",
+      "name": "Wild sparrowhawk",
+      "slug": "wild-sparrowhawk",
+      "shortDescription": "A small wild hawk used in Elaira’s search; the image does not assert a unique named bird.",
+      "body": "A small wild hawk used in Elaira’s search; the image does not assert a unique named bird. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "swift-flight-sparrowhawk"
+      ],
+      "tags": [
+        "swift-flight-form-raven-legacy",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/swift-flight-form/wild-sparrowhawk.research.webp",
+        "scale": 0.48
       },
       "contentStatus": "research"
     },
@@ -36078,6 +37252,490 @@
       "contentStatus": "research"
     },
     {
+      "id": "swift-flight-form-raven-legacy-anzu-confrontation-event",
+      "kind": "event",
+      "name": "The Raven God is called",
+      "slug": "swift-flight-form-raven-legacy-anzu-confrontation",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "The Moonstone set at the Raven’s Claw calls Anzu in Heroic Sethekk Halls; the seeker defeats him and earns Swift Flight Form.",
+      "locationIds": [
+        "sethekk-halls-heroic"
+      ],
+      "participantEntityIds": [
+        "anzu-raven-god",
+        "southfury-moonstone",
+        "swift-flight-seeker",
+        "swift-flight-stormcrow"
+      ],
+      "sourceIds": [
+        "swift-flight-anzu",
+        "swift-flight-sethekk"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-anzu-confrontation-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-apprenticeship-event",
+      "kind": "event",
+      "name": "A calling at Cenarion Refuge",
+      "slug": "swift-flight-form-raven-legacy-apprenticeship",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "Morthis offers the Stormcrow’s secrets through a Druid trial, opening the quest chain at Cenarion Refuge.",
+      "locationIds": [
+        "cenarion-refuge-zangarmarsh"
+      ],
+      "participantEntityIds": [
+        "morthis-whisperwing",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-morthis-start",
+        "swift-flight-chain"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-apprenticeship-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-book-of-raven-event",
+      "kind": "event",
+      "name": "What Sai’kkal remembers",
+      "slug": "swift-flight-form-raven-legacy-book-of-raven",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "With the aid of a Seer’s Stone and an aether ray eye, the seeker reaches Sai’kkal’s account of the ravens’ book.",
+      "locationIds": [
+        "evergrove-blades-edge",
+        "vortex-pinnacle-blades-edge"
+      ],
+      "participantEntityIds": [
+        "arthorn-windsong",
+        "timeon",
+        "saikkal",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-book"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-book-of-raven-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-dream-escort-event",
+      "kind": "event",
+      "name": "A witness divided",
+      "slug": "swift-flight-form-raven-legacy-dream-escort",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "Clintar’s divided spirit leads the seeker to three relics while a Raven aspect threatens the escort.",
+      "locationIds": [
+        "stormrage-barrow-dens",
+        "emerald-dream-echo"
+      ],
+      "participantEntityIds": [
+        "clintar-divided-spirit",
+        "dreamwarden-lurosa",
+        "aspect-of-raven",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-dream"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-dream-escort-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-eagle-essence-event",
+      "kind": "event",
+      "name": "The first shrine: Eagle",
+      "slug": "swift-flight-form-raven-legacy-eagle-essence",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "The Eagle guardian is defeated at its named shrine and its essence is recovered.",
+      "locationIds": [
+        "eagles-shrine-terokkar"
+      ],
+      "participantEntityIds": [
+        "guardian-of-eagle",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-eagle"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-eagle-essence-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-eternal-vigilance-event",
+      "kind": "event",
+      "name": "A victory without certainty",
+      "slug": "swift-flight-form-raven-legacy-eternal-vigilance",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "Morthis warns Anzu may rise again and leaves the Moonstone available for future use.",
+      "locationIds": [
+        "cenarion-refuge-zangarmarsh"
+      ],
+      "participantEntityIds": [
+        "morthis-whisperwing",
+        "southfury-moonstone",
+        "swift-flight-seeker",
+        "swift-flight-stormcrow"
+      ],
+      "sourceIds": [
+        "swift-flight-vigilance",
+        "swift-flight-swift-timeline"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-eternal-vigilance-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-evergrove-lead-event",
+      "kind": "event",
+      "name": "A lead among Blade’s Edge trees",
+      "slug": "swift-flight-form-raven-legacy-evergrove-lead",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "Morthis directs the seeker to Arthorn, whose raven-cult research offers a new line of inquiry.",
+      "locationIds": [
+        "evergrove-blades-edge"
+      ],
+      "participantEntityIds": [
+        "morthis-whisperwing",
+        "arthorn-windsong",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-evergrove"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-evergrove-lead-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-eyes-in-the-sky-event",
+      "kind": "event",
+      "name": "A watcher above Nagrand",
+      "slug": "swift-flight-form-raven-legacy-eyes-in-the-sky",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "Arthorn sends the seeker to Watcher Elaira at Twilight Ridge to prepare the search for the buried fragments.",
+      "locationIds": [
+        "twilight-ridge-nagrand"
+      ],
+      "participantEntityIds": [
+        "arthorn-windsong",
+        "watcher-elaira",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-eyes"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-eyes-in-the-sky-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-falcon-essence-event",
+      "kind": "event",
+      "name": "The second shrine: Falcon",
+      "slug": "swift-flight-form-raven-legacy-falcon-essence",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "The Falcon guardian is defeated at a different Terokkar shrine beside Lake Ere’Noru.",
+      "locationIds": [
+        "falcons-shrine-terokkar"
+      ],
+      "participantEntityIds": [
+        "guardian-of-falcon",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-falcon"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-falcon-essence-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-hawk-essence-event",
+      "kind": "event",
+      "name": "The third shrine: Hawk",
+      "slug": "swift-flight-form-raven-legacy-hawk-essence",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "At Sorrow Wing Point, the Hawk guardian is defeated and the third essence completes the set.",
+      "locationIds": [
+        "hawks-shrine-sorrow-wing"
+      ],
+      "participantEntityIds": [
+        "guardian-of-hawk",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-hawk"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-hawk-essence-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-moonstone-event",
+      "kind": "event",
+      "name": "The Moonstone chase",
+      "slug": "swift-flight-form-raven-legacy-moonstone",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "A chase through the Southfury River area recovers the Moonstone needed for the Raven God’s summons.",
+      "locationIds": [
+        "southfury-river-azshara"
+      ],
+      "participantEntityIds": [
+        "rizzle-sprysprocket",
+        "southfury-moonstone",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-moonstone",
+        "swift-flight-chain"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-moonstone-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-raven-stones-event",
+      "kind": "event",
+      "name": "Anzu named in the broken book",
+      "slug": "swift-flight-form-raven-legacy-raven-stones",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "The Skettis fragments restore the book’s account; Arthorn identifies Anzu and learns of three captive bird spirits.",
+      "locationIds": [
+        "skettis-terokkar",
+        "evergrove-blades-edge"
+      ],
+      "participantEntityIds": [
+        "arthorn-windsong",
+        "raven-book-artifact",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-stones",
+        "swift-flight-book"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-raven-stones-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-return-essences-event",
+      "kind": "event",
+      "name": "A dangerous name, a greater foe",
+      "slug": "swift-flight-form-raven-legacy-return-essences",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "The three essences return to Morthis; he recognizes Anzu as powerful and says the seeker is not yet ready.",
+      "locationIds": [
+        "cenarion-refuge-zangarmarsh"
+      ],
+      "participantEntityIds": [
+        "arthorn-windsong",
+        "morthis-whisperwing",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-return-essences",
+        "swift-flight-stones"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-return-essences-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-return-report-event",
+      "kind": "event",
+      "name": "The warning returns with the relics",
+      "slug": "swift-flight-form-raven-legacy-return-report",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "The relics and witness return to Morthis, but the cause of the Dream disturbance remains unresolved.",
+      "locationIds": [
+        "cenarion-refuge-zangarmarsh"
+      ],
+      "participantEntityIds": [
+        "morthis-whisperwing",
+        "clintar-dreamwalker",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-return-morthis",
+        "swift-flight-dream"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-return-report-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-sparrowhawk-event",
+      "kind": "event",
+      "name": "The sparrowhawk’s search",
+      "slug": "swift-flight-form-raven-legacy-sparrowhawk",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "Elaira prepares a wild sparrowhawk to help locate fragments and intends that the bird be released afterward.",
+      "locationIds": [
+        "twilight-ridge-nagrand"
+      ],
+      "participantEntityIds": [
+        "watcher-elaira",
+        "wild-sparrowhawk",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-sparrowhawk"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-sparrowhawk-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-waking-clintar-event",
+      "kind": "event",
+      "name": "The sleeper in the barrow",
+      "slug": "swift-flight-form-raven-legacy-waking-clintar",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "Clintar Dreamwalker wakes in the southern Stormrage Barrow Den, carrying knowledge of a disturbance within the Dream.",
+      "locationIds": [
+        "stormrage-barrow-dens"
+      ],
+      "participantEntityIds": [
+        "clintar-dreamwalker",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-waking"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-waking-clintar-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-ward-event",
+      "kind": "event",
+      "name": "Preparing the ward",
+      "slug": "swift-flight-form-raven-legacy-ward",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "swift-flight-form-raven-legacy-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+      },
+      "summary": "After the requested preparation, Morthis makes a ward intended to wake the sleeping witness safely.",
+      "locationIds": [
+        "cenarion-refuge-zangarmarsh"
+      ],
+      "participantEntityIds": [
+        "morthis-whisperwing",
+        "swift-flight-seeker"
+      ],
+      "sourceIds": [
+        "swift-flight-ward"
+      ],
+      "claimIds": [
+        "swift-flight-form-raven-legacy-ward-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "thoradin-unites-arathor",
       "kind": "event",
       "name": "Thoradin Unites Arathor",
@@ -41935,6 +43593,202 @@
       "notes": "First-party recap of Wrathion's Mists legendary questline."
     },
     {
+      "id": "swift-flight-anzu",
+      "title": "Vanquish the Raven God",
+      "url": "https://warcraft.wiki.gg/wiki/Vanquish_the_Raven_God",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the Heroic Sethekk Halls confrontation and Swift Flight Form reward. Encounter tactics are excluded."
+    },
+    {
+      "id": "swift-flight-blizzard-bcc-anniversary",
+      "title": "BCC Anniversary Edition: Overlords of Outland Now Live!",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24276751/bcc-anniversary-edition-overlords-of-outland-now-live",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. First-party confirmation that the current Anniversary Edition presents a Druid questline culminating with Anzu in Heroic Sethekk Halls. Not evidence for original 2007 wording or prerequisites."
+    },
+    {
+      "id": "swift-flight-book",
+      "title": "The Book of the Raven (quest)",
+      "url": "https://warcraft.wiki.gg/wiki/The_Book_of_the_Raven_(quest)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary locator for Arthorn, Timeon, the Seer’s Stone, an aether ray eye, and Sai’kkal’s account."
+    },
+    {
+      "id": "swift-flight-chain",
+      "title": "Swift Flight Form quest chain",
+      "url": "https://warcraft.wiki.gg/wiki/Swift_Flight_Form_quest_chain",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary sequence locator for the 17-quest TBC Druid chain. It does not replace primary-client capture."
+    },
+    {
+      "id": "swift-flight-dream",
+      "title": "No Mere Dream",
+      "url": "https://warcraft.wiki.gg/wiki/No_Mere_Dream",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary locator for Clintar’s divided spirit, Relics of Aviana, Dreamwarden Lurosa, and the Aspect of the Raven. Exact chamber for the apparition remains unknown."
+    },
+    {
+      "id": "swift-flight-eagle",
+      "title": "The Eagle's Essence",
+      "url": "https://warcraft.wiki.gg/wiki/The_Eagle%27s_Essence",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the Eagle shrine trial and essence. Combat mechanics are excluded."
+    },
+    {
+      "id": "swift-flight-evergrove",
+      "title": "To the Evergrove",
+      "url": "https://warcraft.wiki.gg/wiki/To_the_Evergrove",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Morthis’s lead to Arthorn Windsong and the raven-cult inquiry."
+    },
+    {
+      "id": "swift-flight-eyes",
+      "title": "Eyes in the Sky",
+      "url": "https://warcraft.wiki.gg/wiki/Eyes_in_the_Sky",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the handoff to Watcher Elaira at Twilight Ridge."
+    },
+    {
+      "id": "swift-flight-falcon",
+      "title": "The Falcon's Essence",
+      "url": "https://warcraft.wiki.gg/wiki/The_Falcon%27s_Essence",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the distinct Falcon shrine by Lake Ere’Noru. Combat mechanics are excluded."
+    },
+    {
+      "id": "swift-flight-hawk",
+      "title": "The Hawk's Essence",
+      "url": "https://warcraft.wiki.gg/wiki/The_Hawk%27s_Essence",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the Hawk shrine at Sorrow Wing Point. Combat mechanics are excluded."
+    },
+    {
+      "id": "swift-flight-moonstone",
+      "title": "Chasing the Moonstone",
+      "url": "https://warcraft.wiki.gg/wiki/Chasing_the_Moonstone",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the Southfury Moonstone and the chase after Rizzle. Repeated pursuit mechanics are compressed."
+    },
+    {
+      "id": "swift-flight-morthis-start",
+      "title": "Morthis Whisperwing (quest)",
+      "url": "https://warcraft.wiki.gg/wiki/Morthis_Whisperwing_(quest)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Morthis’s offer and opening handoff."
+    },
+    {
+      "id": "swift-flight-return-essences",
+      "title": "Return to Cenarion Refuge",
+      "url": "https://warcraft.wiki.gg/wiki/Return_to_Cenarion_Refuge",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for returning the essences and Morthis’s assessment of Anzu."
+    },
+    {
+      "id": "swift-flight-return-morthis",
+      "title": "Return to Morthis Whisperwing",
+      "url": "https://warcraft.wiki.gg/wiki/Return_to_Morthis_Whisperwing",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the relic report and unresolved concern."
+    },
+    {
+      "id": "swift-flight-sethekk",
+      "title": "Sethekk Halls",
+      "url": "https://warcraft.wiki.gg/wiki/Sethekk_Halls",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary instance locator. The illustrated interior does not claim an exact floor plan."
+    },
+    {
+      "id": "swift-flight-sparrowhawk",
+      "title": "To Catch A Sparrowhawk",
+      "url": "https://warcraft.wiki.gg/wiki/To_Catch_A_Sparrowhawk",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Elaira’s sparrowhawk search and intended release after training."
+    },
+    {
+      "id": "swift-flight-stones",
+      "title": "The Raven Stones",
+      "url": "https://warcraft.wiki.gg/wiki/The_Raven_Stones",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary locator for the Skettis fragments, reconstructed book, Anzu identification, and account of the captive bird spirits."
+    },
+    {
+      "id": "swift-flight-swift-timeline",
+      "title": "Swift Flight Form",
+      "url": "https://warcraft.wiki.gg/wiki/Swift_Flight_Form",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary timeline locator for the patch 2.1 chain, patch 3.0.3 trainer change, and patch 4.0.1 removal. Later changes are outside this story."
+    },
+    {
+      "id": "swift-flight-vigilance",
+      "title": "Eternal Vigilance",
+      "url": "https://warcraft.wiki.gg/wiki/Eternal_Vigilance",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Morthis’s concern that Anzu might rise again and the Moonstone’s later use."
+    },
+    {
+      "id": "swift-flight-visual-azshara",
+      "title": "TBC Classic Azshara area reference",
+      "url": "https://www.wowhead.com/tbc/zone=16/azshara#screenshots",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Area-image reference for pre-Cataclysm forest, river, and eastern cliffs. Secondary visual locator; human comparison remains open."
+    },
+    {
+      "id": "swift-flight-visual-blades-edge",
+      "title": "TBC Classic Blade's Edge Mountains area reference",
+      "url": "https://www.wowhead.com/tbc/zone=3522/blades-edge-mountains#screenshots",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Area-image reference for Evergrove and the jagged highlands, floating crags, and Vortex Pinnacle. Secondary visual locator; human comparison remains open."
+    },
+    {
+      "id": "swift-flight-visual-moonglade",
+      "title": "TBC Classic Moonglade area reference",
+      "url": "https://www.wowhead.com/tbc/zone=493/moonglade#screenshots",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Area-image reference for the moonlit conifer refuge and Stormrage Barrow Dens. Secondary visual locator; human comparison remains open."
+    },
+    {
+      "id": "swift-flight-visual-nagrand",
+      "title": "TBC Classic Nagrand area reference",
+      "url": "https://www.wowhead.com/tbc/zone=3518/nagrand#screenshots",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Area-image reference for open green pasture, mesas, waterways, and floating islands around Twilight Ridge. Secondary visual locator; human comparison remains open."
+    },
+    {
+      "id": "swift-flight-visual-sethekk",
+      "title": "TBC Classic Sethekk Halls area reference",
+      "url": "https://www.wowhead.com/tbc/zone=3791/sethekk-halls#screenshots",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Area-image reference for the darker avian interior in Heroic Sethekk Halls. Secondary visual locator; human comparison remains open."
+    },
+    {
+      "id": "swift-flight-visual-terokkar",
+      "title": "TBC Classic Terokkar Forest area reference",
+      "url": "https://www.wowhead.com/tbc/zone=3519/terokkar-forest#screenshots",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Area-image reference for the pale Bone Wastes, arakkoa skyline at Skettis, and Auchindoun. Secondary visual locator; human comparison remains open."
+    },
+    {
+      "id": "swift-flight-visual-zangarmarsh",
+      "title": "TBC Classic Zangarmarsh area reference",
+      "url": "https://www.wowhead.com/tbc/zone=3521/zangarmarsh#screenshots",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Area-image reference for the flooded teal marsh, giant mushrooms, and Cenarion Refuge setting. Secondary visual locator; human comparison against the intended 2.0.3–2.4.3 build remains open."
+    },
+    {
+      "id": "swift-flight-waking",
+      "title": "Waking the Sleeper",
+      "url": "https://warcraft.wiki.gg/wiki/Waking_the_Sleeper",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Clintar, the southern Stormrage Barrow Den, and the waking potion."
+    },
+    {
+      "id": "swift-flight-ward",
+      "title": "The Ward of Wakening",
+      "url": "https://warcraft.wiki.gg/wiki/The_Ward_of_Wakening",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Morthis’s preparation task and ward. Repeated ingredient gathering is not narrated as history."
+    },
+    {
       "id": "tirion-taelan-classic-chain-guide",
       "title": "In Dreams — WoW Classic Tirion Fordring Questline Guide",
       "url": "https://www.wowhead.com/classic/guide/tirion-fordring-questline-in-dreams-classic-wow",
@@ -45504,6 +47358,174 @@
       "section": "Classic quest 1023 · directly relevant description, objective, completion text or chain entry",
       "questId": "1023",
       "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-anzu-confrontation-citation-1",
+      "sourceId": "swift-flight-anzu",
+      "questId": "Vanquish the Raven God",
+      "section": "Heroic Sethekk Halls, Raven’s Claw, encounter, and reward",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-anzu-confrontation-citation-2",
+      "sourceId": "swift-flight-sethekk",
+      "questId": "Sethekk Halls",
+      "section": "Instance placement and interior locator",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-apprenticeship-citation-1",
+      "sourceId": "swift-flight-morthis-start",
+      "questId": "Morthis Whisperwing",
+      "section": "Offer and opening dialogue",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-apprenticeship-citation-2",
+      "sourceId": "swift-flight-chain",
+      "questId": "Swift Flight Form quest chain",
+      "section": "Opening class-quest sequence",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-book-of-raven-citation-1",
+      "sourceId": "swift-flight-book",
+      "questId": "The Book of the Raven",
+      "section": "Timeon’s clue, aided sight, and Sai’kkal’s account",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-dream-escort-citation-1",
+      "sourceId": "swift-flight-dream",
+      "questId": "No Mere Dream",
+      "section": "Relics of Aviana, escort, Dreamwarden Lurosa, and Aspect appearance",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-eagle-essence-citation-1",
+      "sourceId": "swift-flight-eagle",
+      "questId": "The Eagle's Essence",
+      "section": "Shrine and recovered essence",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-eternal-vigilance-citation-1",
+      "sourceId": "swift-flight-vigilance",
+      "questId": "Eternal Vigilance",
+      "section": "Morthis’s warning and reusable Moonstone",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-eternal-vigilance-citation-2",
+      "sourceId": "swift-flight-swift-timeline",
+      "questId": "Swift Flight Form",
+      "section": "TBC chain cutoff before later class and training changes",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-evergrove-lead-citation-1",
+      "sourceId": "swift-flight-evergrove",
+      "questId": "To the Evergrove",
+      "section": "Morthis’s lead and Arthorn handoff",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-eyes-in-the-sky-citation-1",
+      "sourceId": "swift-flight-eyes",
+      "questId": "Eyes in the Sky",
+      "section": "Arthorn’s referral to Watcher Elaira",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-falcon-essence-citation-1",
+      "sourceId": "swift-flight-falcon",
+      "questId": "The Falcon's Essence",
+      "section": "Lake Ere’Noru shrine and recovered essence",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-hawk-essence-citation-1",
+      "sourceId": "swift-flight-hawk",
+      "questId": "The Hawk's Essence",
+      "section": "Sorrow Wing Point shrine and recovered essence",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-moonstone-citation-1",
+      "sourceId": "swift-flight-moonstone",
+      "questId": "Chasing the Moonstone",
+      "section": "Southfury Moonstone and Rizzle chase",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-moonstone-citation-2",
+      "sourceId": "swift-flight-chain",
+      "questId": "Swift Flight Form quest chain",
+      "section": "Quest sequence locator",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-raven-stones-citation-1",
+      "sourceId": "swift-flight-stones",
+      "questId": "The Raven Stones",
+      "section": "Fragment recovery, Arthorn’s reconstruction, and Anzu identification",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-raven-stones-citation-2",
+      "sourceId": "swift-flight-book",
+      "questId": "The Book of the Raven",
+      "section": "Sai’kkal’s account as prior testimony",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-return-essences-citation-1",
+      "sourceId": "swift-flight-return-essences",
+      "questId": "Return to Cenarion Refuge",
+      "section": "Essence report and Morthis’s assessment",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-return-essences-citation-2",
+      "sourceId": "swift-flight-stones",
+      "questId": "The Raven Stones",
+      "section": "Anzu’s name and the three shrines",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-return-report-citation-1",
+      "sourceId": "swift-flight-return-morthis",
+      "questId": "Return to Morthis Whisperwing",
+      "section": "Relic return and report",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-return-report-citation-2",
+      "sourceId": "swift-flight-dream",
+      "questId": "No Mere Dream",
+      "section": "Clintar’s account, kept distinct from established fact",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-sparrowhawk-citation-1",
+      "sourceId": "swift-flight-sparrowhawk",
+      "questId": "To Catch A Sparrowhawk",
+      "section": "Sparrowhawk training and intended release",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-waking-clintar-citation-1",
+      "sourceId": "swift-flight-waking",
+      "questId": "Waking the Sleeper",
+      "section": "Clintar’s named den and waking scene",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-ward-citation-1",
+      "sourceId": "swift-flight-ward",
+      "questId": "The Ward of Wakening",
+      "section": "Material handoff and Morthis’s stated purpose",
+      "note": "Original paraphrase from a secondary quest-text, item, or sequence locator. Original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
     },
     {
       "id": "tirion-taelan-of-love-and-family-a-family-restored-in-paint-citation-1",
@@ -51583,6 +53605,217 @@
       "editorNote": "This causal handoff ends at refuge and does not pre-author the institutions of Era 5."
     },
     {
+      "id": "swift-flight-form-raven-legacy-anzu-confrontation-claim",
+      "subjectId": "swift-flight-form-raven-legacy-anzu-confrontation-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "The Moonstone set at the Raven’s Claw calls Anzu in Heroic Sethekk Halls; the seeker defeats him and earns Swift Flight Form.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-anzu-confrontation-citation-1",
+        "swift-flight-form-raven-legacy-anzu-confrontation-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The encounter and reward follow the secondary quest locator. Generated stormcrow art is an interpretation, not a canonical model claim; no permanent eradication is inferred. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-apprenticeship-claim",
+      "subjectId": "swift-flight-form-raven-legacy-apprenticeship-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "Morthis offers the Stormcrow’s secrets through a Druid trial, opening the quest chain at Cenarion Refuge.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-apprenticeship-citation-1",
+        "swift-flight-form-raven-legacy-apprenticeship-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Quest offer paraphrased from a secondary transcription. Druid viewpoint is intentionally non-canonical; no exact in-world date is known. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-book-of-raven-claim",
+      "subjectId": "swift-flight-form-raven-legacy-book-of-raven-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "With the aid of a Seer’s Stone and an aether ray eye, the seeker reaches Sai’kkal’s account of the ravens’ book.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-book-of-raven-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The chain’s item and dialogue sequence is paraphrased. Sai’kkal’s account remains attributed testimony; no extra motive or exact pinnacle room is supplied. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-dream-escort-claim",
+      "subjectId": "swift-flight-form-raven-legacy-dream-escort-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "Clintar’s divided spirit leads the seeker to three relics while a Raven aspect threatens the escort.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-dream-escort-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Quest events are paraphrased. Clintar’s claim remains attributed to him; the apparition’s exact location and design are unknown. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-eagle-essence-claim",
+      "subjectId": "swift-flight-form-raven-legacy-eagle-essence-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "The Eagle guardian is defeated at its named shrine and its essence is recovered.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-eagle-essence-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Named guardian and essence are quest-supported; creature design, exact shrine composition, and spirit origin remain interpretive or unknown. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-eternal-vigilance-claim",
+      "subjectId": "swift-flight-form-raven-legacy-eternal-vigilance-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "Morthis warns Anzu may rise again and leaves the Moonstone available for future use.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-eternal-vigilance-citation-1",
+        "swift-flight-form-raven-legacy-eternal-vigilance-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The continuing threat is sourced to Morthis’s closing quest. Later Wrath and post-Cataclysm material remains excluded. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-evergrove-lead-claim",
+      "subjectId": "swift-flight-form-raven-legacy-evergrove-lead-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "Morthis directs the seeker to Arthorn, whose raven-cult research offers a new line of inquiry.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-evergrove-lead-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Arthorn’s research is linked by the quest handoff; no causal link between the cult and the Dream is asserted yet. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-eyes-in-the-sky-claim",
+      "subjectId": "swift-flight-form-raven-legacy-eyes-in-the-sky-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "Arthorn sends the seeker to Watcher Elaira at Twilight Ridge to prepare the search for the buried fragments.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-eyes-in-the-sky-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The handoff names Twilight Ridge and Elaira. No exact travel path or surveyed lookout is claimed. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-falcon-essence-claim",
+      "subjectId": "swift-flight-form-raven-legacy-falcon-essence-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "The Falcon guardian is defeated at a different Terokkar shrine beside Lake Ere’Noru.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-falcon-essence-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Quest locator supports the distinct Lake Ere’Noru shrine. No route, relative travel time, or guardian backstory is inferred. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-hawk-essence-claim",
+      "subjectId": "swift-flight-form-raven-legacy-hawk-essence-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "At Sorrow Wing Point, the Hawk guardian is defeated and the third essence completes the set.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-hawk-essence-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The shrine and essence follow the quest locator. Guardian origins and any geographic route remain unstated. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-moonstone-claim",
+      "subjectId": "swift-flight-form-raven-legacy-moonstone-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "A chase through the Southfury River area recovers the Moonstone needed for the Raven God’s summons.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-moonstone-citation-1",
+        "swift-flight-form-raven-legacy-moonstone-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The chain reports the chase and item handoff. The scene uses broad Southfury River geography; exact path and Rizzle’s motive remain unknown. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-raven-stones-claim",
+      "subjectId": "swift-flight-form-raven-legacy-raven-stones-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "The Skettis fragments restore the book’s account; Arthorn identifies Anzu and learns of three captive bird spirits.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-raven-stones-citation-1",
+        "swift-flight-form-raven-legacy-raven-stones-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Anzu’s identification and the shrine sequence follow the reconstructed-book quest locator. Prophecy is explicitly attributed to a fragmentary source. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-return-essences-claim",
+      "subjectId": "swift-flight-form-raven-legacy-return-essences-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "The three essences return to Morthis; he recognizes Anzu as powerful and says the seeker is not yet ready.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-return-essences-citation-1",
+        "swift-flight-form-raven-legacy-return-essences-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Morthis’s assessment and Moonstone handoff follow the quest chain. The essences’ efficacy is described only as the characters’ preparation. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-return-report-claim",
+      "subjectId": "swift-flight-form-raven-legacy-return-report-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "The relics and witness return to Morthis, but the cause of the Dream disturbance remains unresolved.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-return-report-citation-1",
+        "swift-flight-form-raven-legacy-return-report-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Quest handoff paraphrased. The source leaves the disturbance unexplained at this stage. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-sparrowhawk-claim",
+      "subjectId": "swift-flight-form-raven-legacy-sparrowhawk-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "Elaira prepares a wild sparrowhawk to help locate fragments and intends that the bird be released afterward.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-sparrowhawk-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The intended release is stated in the quest locator. No named bird, exact route, or ownership after the task is asserted. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-waking-clintar-claim",
+      "subjectId": "swift-flight-form-raven-legacy-waking-clintar-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "Clintar Dreamwalker wakes in the southern Stormrage Barrow Den, carrying knowledge of a disturbance within the Dream.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-waking-clintar-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Named setting and awakening follow the quest locator; no exact chamber geometry or canonical adventurer identity is asserted. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-ward-claim",
+      "subjectId": "swift-flight-form-raven-legacy-ward-event",
+      "predicate": "swift_flight_story_beat",
+      "value": "After the requested preparation, Morthis makes a ward intended to wake the sleeping witness safely.",
+      "citationIds": [
+        "swift-flight-form-raven-legacy-ward-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The ward’s intended use is taken from the quest text locator. Ingredients and objective counts are compressed; no additional magical effect is inferred. Keep content in research status until human claim, original-client, and visual comparison review."
+    },
+    {
       "id": "sylvanas-resistance-transformation-claim",
       "subjectId": "sylvanas-windrunner",
       "predicate": "resisted_scourge_was_raised_and_later_led_free_willed_undead",
@@ -55406,6 +57639,77 @@
       "contentStatus": "research"
     },
     {
+      "id": "swift-flight-form-raven-legacy",
+      "slug": "swift-flight-form-raven-legacy",
+      "title": "Swift Flight Form: the raven’s legacy",
+      "summary": "A Druid follows Morthis Whisperwing from Moonglade’s sleeping barrows to Outland’s raven cult. The recovered book names Anzu; three separate shrine trials and the Southfury Moonstone prepare the confrontation, while Morthis’s final warning leaves the future open.",
+      "opening": "The marsh refuge offers a promise: Morthis can teach the Stormcrow’s secrets, if a Druid is willing to follow the evidence. What begins as a troubling dream leads through an old book, three guarded essences, and a stone that can call the Raven God into reach.",
+      "primaryEraId": "age-of-adventurers",
+      "eraIds": [
+        "age-of-adventurers"
+      ],
+      "chapters": [
+        {
+          "id": "swift-flight-form-raven-legacy-chapter-dream",
+          "eraId": "age-of-adventurers",
+          "title": "A warning within the Dream",
+          "body": "Morthis’s trial awakens Clintar and follows his divided spirit, but the first account leaves the cause uncertain."
+        },
+        {
+          "id": "swift-flight-form-raven-legacy-chapter-book",
+          "eraId": "age-of-adventurers",
+          "title": "The raven’s broken history",
+          "body": "The Druids pursue Sai’kkal’s account and reconstruct the book that names Anzu and three captive bird spirits."
+        },
+        {
+          "id": "swift-flight-form-raven-legacy-chapter-shrines",
+          "eraId": "age-of-adventurers",
+          "title": "Three essences of Terokkar",
+          "body": "Eagle, Falcon, and Hawk are kept at separate named shrines; each trial contributes one essence."
+        },
+        {
+          "id": "swift-flight-form-raven-legacy-chapter-vigilance",
+          "eraId": "age-of-adventurers",
+          "title": "A summons and an open threat",
+          "body": "The Moonstone enables the Heroic Sethekk Halls confrontation; Swift Flight Form is earned, but Anzu may rise again."
+        }
+      ],
+      "sourceIds": [
+        "swift-flight-chain",
+        "swift-flight-morthis-start",
+        "swift-flight-ward",
+        "swift-flight-waking",
+        "swift-flight-dream",
+        "swift-flight-return-morthis",
+        "swift-flight-evergrove",
+        "swift-flight-book",
+        "swift-flight-eyes",
+        "swift-flight-sparrowhawk",
+        "swift-flight-stones",
+        "swift-flight-eagle",
+        "swift-flight-falcon",
+        "swift-flight-hawk",
+        "swift-flight-return-essences",
+        "swift-flight-moonstone",
+        "swift-flight-anzu",
+        "swift-flight-vigilance",
+        "swift-flight-sethekk",
+        "swift-flight-blizzard-bcc-anniversary",
+        "swift-flight-swift-timeline",
+        "swift-flight-visual-zangarmarsh",
+        "swift-flight-visual-moonglade",
+        "swift-flight-visual-blades-edge",
+        "swift-flight-visual-nagrand",
+        "swift-flight-visual-terokkar",
+        "swift-flight-visual-sethekk",
+        "swift-flight-visual-azshara"
+      ],
+      "storyGuideId": "swift-flight-form-raven-legacy-guide",
+      "showInEraTourOffshoots": false,
+      "reviewNote": "Complete illustrated research StoryGuide draft with 17 nodes, one for each named quest-chain beat; repetitive collection and combat mechanics are compressed. This is a class quest, not a canonical player biography. Primary gates remain original-client quest text and prerequisite comparison; TBC area and character-model comparison; narration/audio audition; scene-by-scene desktop and phone visual review; and human claim review. Includes the complete TBC endpoint Eternal Vigilance and excludes later form-training changes and Druid campaigns. Added to the independent Classic-to-Wrath StoryTour, not an EraTour. See docs/research/swift-flight-form-raven-legacy-research.md and docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+      "contentStatus": "research"
+    },
+    {
       "id": "thunder-king-returns",
       "slug": "thunder-king-returns",
       "title": "The Thunder King Returns",
@@ -55722,7 +58026,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth. Anchors were checked against the depicted landmasses: Stormwind, Westfall, Duskwood, Deadwind Pass and the Blasted Lands in the southern Eastern Kingdoms; the Plaguelands in the north; Theramore and Tanaris on eastern Kalimdor; Dragonblight and Icecrown in Northrend; and Shadowmoon Valley in southeastern Outland. Multi-region stories use one representative anchor, not their entire route.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Swift Flight Form’s Druid quest chain was added in patch 2.1 and is placed after the Netherwing editorial stop, before The Missing Diplomat’s patch 2.3 continuation; its exact relative in-world date is unknown, and no cross-story dependency is claimed. Its quest trail crosses Zangarmarsh, Moonglade, Outland, and Azshara, while its marker remains a tour-layout anchor.",
       "regions": [
         {
           "id": "kalimdor",
@@ -55985,6 +58289,20 @@
           "locationLabel": "Shadowmoon Valley · fields, fortress, and Netherwing Ledge"
         },
         {
+          "storylineId": "swift-flight-form-raven-legacy",
+          "regionIds": [
+            "outland",
+            "kalimdor"
+          ],
+          "mapPositionPercent": [
+            82,
+            84
+          ],
+          "order": 17,
+          "periodLabel": "The Burning Crusade · patch 2.1 Druid chain",
+          "locationLabel": "Zangarmarsh · Moonglade · Terokkar · Azshara"
+        },
+        {
           "storylineId": "missing-diplomat-original-investigation",
           "regionIds": [
             "eastern-kingdoms",
@@ -55994,7 +58312,7 @@
             28,
             57
           ],
-          "order": 17,
+          "order": 18,
           "periodLabel": "Original Classic investigation · Burning Crusade patch 2.3 continuation",
           "locationLabel": "Stormwind · Duskwood · Wetlands · Theramore"
         },
@@ -56007,7 +58325,7 @@
             48,
             23
           ],
-          "order": 18,
+          "order": 19,
           "periodLabel": "Wrath of the Lich King",
           "locationLabel": "Dragonblight · Northrend"
         },
@@ -56021,12 +58339,12 @@
             49,
             12
           ],
-          "order": 19,
+          "order": 20,
           "periodLabel": "Wrath of the Lich King · patch 3.3.5",
           "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
         }
       ],
-      "reviewNote": "Research StoryTour collection with 19 map placards, 18 playable research StoryGuides, and one research preview. Play All follows the authored expansion-era sequence and skips the preview. Hero of the Mag'har is an early TBC Horde story; its marker is navigational layout only, not an exact coordinate. Stories remain research until human review gates are complete.",
+      "reviewNote": "Research StoryTour collection with 20 map placards, 19 playable research StoryGuides, and one research preview. Play All follows the authored expansion-era sequence and skips the preview. Swift Flight Form is a patch 2.1 Druid chain placed editorially among the TBC stops; its marker is navigational layout only, not an exact coordinate. Stories remain research until human review gates are complete.",
       "contentStatus": "research"
     }
   ],
@@ -56636,6 +58954,32 @@
         "onyxia-story-horde-drakkisath",
         "onyxia-story-rexxars-amulet",
         "onyxia-story-onyxias-lair"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-guide",
+      "eraId": "age-of-adventurers",
+      "title": "Swift Flight Form · the raven’s legacy",
+      "description": "Seventeen illustrated Burning Crusade scenes follow a Druid from Morthis’s trial through Clintar’s dream warning, the recovery of the Raven’s Book, three distinct Terokkar shrines, the Moonstone chase, and Anzu’s defeat. The story ends with Eternal Vigilance; later Druid campaigns and form-training changes are excluded.",
+      "nodeIds": [
+        "swift-flight-form-raven-legacy-story-apprenticeship",
+        "swift-flight-form-raven-legacy-story-ward",
+        "swift-flight-form-raven-legacy-story-waking-clintar",
+        "swift-flight-form-raven-legacy-story-dream-escort",
+        "swift-flight-form-raven-legacy-story-return-report",
+        "swift-flight-form-raven-legacy-story-evergrove-lead",
+        "swift-flight-form-raven-legacy-story-book-of-raven",
+        "swift-flight-form-raven-legacy-story-eyes-in-the-sky",
+        "swift-flight-form-raven-legacy-story-sparrowhawk",
+        "swift-flight-form-raven-legacy-story-raven-stones",
+        "swift-flight-form-raven-legacy-story-eagle-essence",
+        "swift-flight-form-raven-legacy-story-falcon-essence",
+        "swift-flight-form-raven-legacy-story-hawk-essence",
+        "swift-flight-form-raven-legacy-story-return-essences",
+        "swift-flight-form-raven-legacy-story-moonstone",
+        "swift-flight-form-raven-legacy-story-anzu-confrontation",
+        "swift-flight-form-raven-legacy-story-eternal-vigilance"
       ],
       "contentStatus": "research"
     },
@@ -75933,6 +78277,785 @@
       "voiceover": {
         "assetPath": "audio/guided/stormwind-onyxia-conspiracy-guide/onyxia-story-onyxias-lair.mp3",
         "durationMs": 30725,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-apprenticeship",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "A calling at Cenarion Refuge",
+      "narration": "In the drowned green reaches of Zangarmarsh, Cenarion Refuge stands among spore towers and shallow water. Morthis Whisperwing offers a Druid a way toward the Stormcrow’s secrets, but his teaching begins with a trial. The chain names its destination more clearly than its calendar: it belongs to the Burning Crusade, while the day and the adventurer’s private history remain unknown. This seeker is a representative viewpoint, not a fixed hero whom every player must share. What matters first is the promise Morthis makes, and the work he sets before any new form can be learned.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-apprenticeship-event"
+      ],
+      "entityIds": [
+        "morthis-whisperwing",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "cenarion-refuge-zangarmarsh"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-refuge-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-ward"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-apprenticeship.mp3",
+        "durationMs": 42400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-ward",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "Preparing the ward",
+      "narration": "The first task is preparation. Morthis asks for materials, then fashions a ward meant to help wake a sleeper without leaving him undefended. The gathering itself is a game objective, not a record of every plant or path across Outland; here its repeated errands fall away, leaving the reason for them in view. A witness lies dormant in the barrows of Moonglade, and the Druid’s next step is to approach him with care. The trial has moved from promise to responsibility: even a search for knowledge can harm the one who keeps it, unless the seeker first considers how to wake him.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-ward-event"
+      ],
+      "entityIds": [
+        "morthis-whisperwing",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "cenarion-refuge-zangarmarsh"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-refuge-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-apprenticeship",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-waking-clintar"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-ward.mp3",
+        "durationMs": 42700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-waking-clintar",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "The sleeper in the barrow",
+      "narration": "The journey returns from Outland to Moonglade, where the Stormrage Barrow Dens keep their old silence beneath the pines. In the southern den, Clintar Dreamwalker stirs under Morthis’s ward. He is not a guide who arrives with a clear explanation; he wakes confused, and the quest turns on the danger of what he has witnessed. The sleeper’s spirit must be followed beyond the waking world, where his divided soul can speak more freely than the body left behind.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-waking-clintar-event"
+      ],
+      "entityIds": [
+        "clintar-dreamwalker",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "stormrage-barrow-dens"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-barrow-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-ward",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-dream-escort"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-waking-clintar.mp3",
+        "durationMs": 32975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-dream-escort",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "A witness divided",
+      "narration": "Clintar’s spirit leads beyond the barrow’s ordinary walls. In this dream echo, he guides the seeker toward three Relics of Aviana while the Dreamwarden Lurosa helps keep the passage open. The danger comes from an Aspect of the Raven, which appears during the escort and threatens the work. Clintar’s fear points toward an outside presence, but here it remains the witness’s suspicion, not the voice of an all-seeing narrator. The relics are recovered; the mystery is not.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-dream-escort-event"
+      ],
+      "entityIds": [
+        "clintar-divided-spirit",
+        "dreamwarden-lurosa",
+        "aspect-of-raven",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "stormrage-barrow-dens",
+        "emerald-dream-echo"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-dream-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-waking-clintar",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-return-report"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-dream-escort.mp3",
+        "durationMs": 34725,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-return-report",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "The warning returns with the relics",
+      "narration": "Back in Zangarmarsh, Morthis receives the relics and the report. Their recovery matters, yet neither the witness nor the objects settle what entered the Dream or when it began. Clintar’s concern remains part of the evidence, and Morthis does not turn suspicion into certainty. The first passage of the trial closes with a question still alive: if the danger is tied to an older raven tradition, can its history be found in Outland? Morthis sends the seeker toward the Evergrove and Arthorn Windsong. The search now changes from tending a sleeping guardian to tracing a memory that has outlasted its keepers.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-return-report-event"
+      ],
+      "entityIds": [
+        "morthis-whisperwing",
+        "clintar-dreamwalker",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "cenarion-refuge-zangarmarsh"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-refuge-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-dream-escort",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-evergrove-lead"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-return-report.mp3",
+        "durationMs": 45075,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-evergrove-lead",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "A lead among Blade’s Edge trees",
+      "narration": "Blade’s Edge rises in broken ridges around the Evergrove, a green sanctuary sheltered among the harsher heights. Morthis points the seeker to Arthorn Windsong, whose research concerns an old raven cult. This is a promising connection, not yet proof that the cult caused Clintar’s dream. The story’s evidence must carry the claim forward one witness at a time. Arthorn’s work brings other Druids into the inquiry, and the next question is not how to fight a god but how to recover a history that was scattered and buried. The quiet grove becomes a place of study before it becomes a place of warning.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-evergrove-lead-event"
+      ],
+      "entityIds": [
+        "morthis-whisperwing",
+        "arthorn-windsong",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "evergrove-blades-edge"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-evergrove-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-return-report",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-book-of-raven"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-evergrove-lead.mp3",
+        "durationMs": 43800,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-book-of-raven",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "What Sai’kkal remembers",
+      "narration": "The inquiry climbs toward the Vortex Pinnacle, where Arthorn’s notes and Timeon’s clue lead to Sai’kkal. A Seer’s Stone and the eye of an aether ray help the seeker perceive the arakkoa shade. In that account, a book of the ravens was stolen, broken apart, and buried. The testimony offers history in fragments and through a witness encountered by magical means; it does not yet give Arthorn a complete record. The book’s pieces are said to lie at Skettis. There, scattered stone may restore the name behind Clintar’s fear, but the tale must first be made whole enough to read.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-book-of-raven-event"
+      ],
+      "entityIds": [
+        "arthorn-windsong",
+        "timeon",
+        "saikkal",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "evergrove-blades-edge",
+        "vortex-pinnacle-blades-edge"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-vortex-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-evergrove-lead",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-eyes-in-the-sky"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-book-of-raven.mp3",
+        "durationMs": 41400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-eyes-in-the-sky",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "A watcher above Nagrand",
+      "narration": "From the splintered heights of Blade’s Edge, the search turns to Nagrand’s broad grasslands. Arthorn sends the seeker to Watcher Elaira on Twilight Ridge, where the open sky and far mesas offer another way to seek what is hidden. Nagrand’s floating islands and waterways belong to the landscape around the ridge, not to a travel route drawn between the quests. Elaira knows how to enlist a bird’s keen sight. The evidence has led the Druid from a spirit’s account to a ruined book; now the search asks for help from a living creature whose flight can reach ground the seeker cannot easily read.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-eyes-in-the-sky-event"
+      ],
+      "entityIds": [
+        "arthorn-windsong",
+        "watcher-elaira",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "twilight-ridge-nagrand"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-nagrand-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-book-of-raven",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-sparrowhawk"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-eyes-in-the-sky.mp3",
+        "durationMs": 43450,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-sparrowhawk",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "The sparrowhawk’s search",
+      "narration": "Elaira’s plan depends on a small hunter of the open air. The chain asks the seeker to train a wild sparrowhawk for the search, then let it go when its part is done. That intention matters: the bird is an ally for a task, not a prize to be kept. From Twilight Ridge, the story looks outward across Nagrand’s open reaches, but it does not claim a precise flight path. The sparrowhawk helps the Druids seek the buried stones at Skettis. A living eye can find what human memory and broken testimony could not, and the next scene will show what the fragments have preserved.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-sparrowhawk-event"
+      ],
+      "entityIds": [
+        "watcher-elaira",
+        "wild-sparrowhawk",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "twilight-ridge-nagrand"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-nagrand-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-eyes-in-the-sky",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-raven-stones"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-sparrowhawk.mp3",
+        "durationMs": 41025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-raven-stones",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "Anzu named in the broken book",
+      "narration": "At Skettis, in the pale wastes of Terokkar, the scattered Raven Stones are brought together. Arthorn reconstructs the book and reads its account: Anzu is named as the Raven God, and three bird spirits are described as bound to shrines. Now the druids have more than an early suspicion. The identity comes from the recovered text, whose broken state still asks for care; its prophecy belongs to that source, not to an all-seeing narrator. Arthorn points to three distinct trials in Terokkar. What began as a dream disturbance has become a search for knowledge strong enough to call a dangerous power into reach.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-raven-stones-event"
+      ],
+      "entityIds": [
+        "arthorn-windsong",
+        "raven-book-artifact",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "skettis-terokkar",
+        "evergrove-blades-edge"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-skettis-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-sparrowhawk",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-eagle-essence"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-raven-stones.mp3",
+        "durationMs": 45425,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-eagle-essence",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "The first shrine: Eagle",
+      "narration": "The first shrine holds the Eagle guardian. The seeker confronts it and recovers the Eagle’s essence, a trial the quest names distinctly from those that follow. The story does not enlarge the encounter into a history the source never gives, nor does it turn combat technique into narration. What changes is the seeker’s preparation: one spirit’s power has been gathered, and two separate shrines remain. The Bone Wastes are not empty ground; old places still hold their own guarded meanings. Each essence will mark a passage in the trial, but none alone explains the origin of the birds or the Raven God.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-eagle-essence-event"
+      ],
+      "entityIds": [
+        "guardian-of-eagle",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "eagles-shrine-terokkar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-eagle-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-raven-stones",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-falcon-essence"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-eagle-essence.mp3",
+        "durationMs": 44250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-falcon-essence",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "The second shrine: Falcon",
+      "narration": "The second trial lies by Lake Ere’Noru, at another shrine with its own guardian. The Falcon falls, and its essence joins the first. The landscape changes from the Eagle’s place, but the story keeps the same discipline: no invented route connects the sites, and no single composite guardian stands in for all three. Each shrine has a name in the quest chain, and that naming gives the journey its order. The Falcon’s essence does not close the path. One more spirit remains at Sorrow Wing Point, farther from the safety of the refuge, and the seeker must carry the unfinished work onward.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-falcon-essence-event"
+      ],
+      "entityIds": [
+        "guardian-of-falcon",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "falcons-shrine-terokkar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-falcon-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-eagle-essence",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-hawk-essence"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-falcon-essence.mp3",
+        "durationMs": 43475,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-hawk-essence",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "The third shrine: Hawk",
+      "narration": "At Sorrow Wing Point, the last named shrine keeps the Hawk guardian. The seeker prevails and brings back the third essence. Eagle, Falcon, and Hawk have each had a separate place and challenge; together they complete a set that Morthis and Arthorn believe can prepare a confrontation. Their collection is not a claim that the raven cult created the spirits, and the quest gives no broader history for them. The trial has gathered what it needs without resolving every old question. Now the Druid must return to Cenarion Refuge and learn whether the essences are enough for the danger Arthorn has uncovered.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-hawk-essence-event"
+      ],
+      "entityIds": [
+        "guardian-of-hawk",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "hawks-shrine-sorrow-wing"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-hawk-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-falcon-essence",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-return-essences"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-hawk-essence.mp3",
+        "durationMs": 44075,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-return-essences",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "A dangerous name, a greater foe",
+      "narration": "The three essences return with the seeker to Cenarion Refuge, where Arthorn’s report and Morthis’s judgment meet. The name is no longer hidden: Anzu is the Raven God named in the book. But knowledge and readiness are not the same. Morthis tells the Druid that the adversary is powerful, and the trials have not yet made a direct summons possible. The next task is not another shrine. It is the recovery of an object that can call the Raven God into reach. Only then can the seeker learn whether the recovered history is enough to change the present danger.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-return-essences-event"
+      ],
+      "entityIds": [
+        "arthorn-windsong",
+        "morthis-whisperwing",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "cenarion-refuge-zangarmarsh"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-refuge-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-hawk-essence",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-moonstone"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-return-essences.mp3",
+        "durationMs": 40125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-moonstone",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "The Moonstone chase",
+      "narration": "Morthis sends the seeker toward the Southfury Moonstone in Azshara. The quest’s chase brings Rizzle Sprysprocket into the story, and the stone passes through a pursuit before it is recovered. The repeated movement is compressed; no exact route, distance, or private motive is invented for the goblin. What matters is the object’s purpose. The Moonstone is the remaining means by which the druids hope to summon Anzu, and its cool light gives the final trial a focus. The search now leaves open country behind. The next threshold is not a shrine but the darkened halls of Auchindoun.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-moonstone-event"
+      ],
+      "entityIds": [
+        "rizzle-sprysprocket",
+        "southfury-moonstone",
+        "swift-flight-seeker"
+      ],
+      "locationIds": [
+        "southfury-river-azshara"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-southfury-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-return-essences",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-anzu-confrontation"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-moonstone.mp3",
+        "durationMs": 43750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-anzu-confrontation",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "The Raven God is called",
+      "narration": "In Heroic Sethekk Halls, beneath the broken arches of Auchindoun, the Moonstone is set in the Raven’s Claw. Anzu answers the summons. The trial reaches its purpose: the seeker confronts the Raven God and defeats him. The quest grants the knowledge of Swift Flight Form, the swift stormcrow shape Morthis promised at the start. This victory does not prove that every threat to the Emerald Dream began with Anzu, nor that the Raven God can never return. It marks a hard-won answer to one chain of evidence, and the Druid leaves with a new form as well as a warning still to be heard.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-anzu-confrontation-event"
+      ],
+      "entityIds": [
+        "anzu-raven-god",
+        "southfury-moonstone",
+        "swift-flight-seeker",
+        "swift-flight-stormcrow"
+      ],
+      "locationIds": [
+        "sethekk-halls-heroic"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-sethekk-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-moonstone",
+      "nextNodeIds": [
+        "swift-flight-form-raven-legacy-story-eternal-vigilance"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-anzu-confrontation.mp3",
+        "durationMs": 43025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-story-eternal-vigilance",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "title": "A victory without certainty",
+      "narration": "At Cenarion Refuge, the new stormcrow form is no ending to the history beneath it. Morthis warns that Anzu’s followers might help him rise again, and the Moonstone is kept for another day. The chain closes with earned knowledge and continued watchfulness: the Raven God has been defeated, but the old account leaves room for a return. Beyond this point lie later changes to how Druids learn the form and later campaigns in the Dream; they are outside this TBC story. Here the seeker’s task is complete, while the unanswered future remains in the care of those who remember what the broken book said.",
+      "eventIds": [
+        "swift-flight-form-raven-legacy-eternal-vigilance-event"
+      ],
+      "entityIds": [
+        "morthis-whisperwing",
+        "southfury-moonstone",
+        "swift-flight-seeker",
+        "swift-flight-stormcrow"
+      ],
+      "locationIds": [
+        "cenarion-refuge-zangarmarsh"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "swift-flight-form-raven-legacy-refuge-scene"
+        }
+      ],
+      "previousNodeId": "swift-flight-form-raven-legacy-story-anzu-confrontation",
+      "voiceover": {
+        "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-eternal-vigilance.mp3",
+        "durationMs": 44425,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }

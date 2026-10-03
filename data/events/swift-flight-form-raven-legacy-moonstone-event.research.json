@@ -1,0 +1,29 @@
+{
+  "id": "swift-flight-form-raven-legacy-moonstone-event",
+  "kind": "event",
+  "name": "The Moonstone chase",
+  "slug": "swift-flight-form-raven-legacy-moonstone",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "swift-flight-form-raven-legacy-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+  },
+  "summary": "A chase through the Southfury River area recovers the Moonstone needed for the Raven God’s summons.",
+  "locationIds": [
+    "southfury-river-azshara"
+  ],
+  "participantEntityIds": [
+    "rizzle-sprysprocket",
+    "southfury-moonstone",
+    "swift-flight-seeker"
+  ],
+  "sourceIds": [
+    "swift-flight-moonstone",
+    "swift-flight-chain"
+  ],
+  "claimIds": [
+    "swift-flight-form-raven-legacy-moonstone-claim"
+  ],
+  "contentStatus": "research"
+}

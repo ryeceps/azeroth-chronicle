@@ -1,0 +1,30 @@
+{
+  "id": "swift-flight-form-raven-legacy-anzu-confrontation-event",
+  "kind": "event",
+  "name": "The Raven God is called",
+  "slug": "swift-flight-form-raven-legacy-anzu-confrontation",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "swift-flight-form-raven-legacy-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+  },
+  "summary": "The Moonstone set at the Raven’s Claw calls Anzu in Heroic Sethekk Halls; the seeker defeats him and earns Swift Flight Form.",
+  "locationIds": [
+    "sethekk-halls-heroic"
+  ],
+  "participantEntityIds": [
+    "anzu-raven-god",
+    "southfury-moonstone",
+    "swift-flight-seeker",
+    "swift-flight-stormcrow"
+  ],
+  "sourceIds": [
+    "swift-flight-anzu",
+    "swift-flight-sethekk"
+  ],
+  "claimIds": [
+    "swift-flight-form-raven-legacy-anzu-confrontation-claim"
+  ],
+  "contentStatus": "research"
+}

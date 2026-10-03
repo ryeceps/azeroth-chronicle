@@ -1,0 +1,71 @@
+{
+  "id": "swift-flight-form-raven-legacy",
+  "slug": "swift-flight-form-raven-legacy",
+  "title": "Swift Flight Form: the raven’s legacy",
+  "summary": "A Druid follows Morthis Whisperwing from Moonglade’s sleeping barrows to Outland’s raven cult. The recovered book names Anzu; three separate shrine trials and the Southfury Moonstone prepare the confrontation, while Morthis’s final warning leaves the future open.",
+  "opening": "The marsh refuge offers a promise: Morthis can teach the Stormcrow’s secrets, if a Druid is willing to follow the evidence. What begins as a troubling dream leads through an old book, three guarded essences, and a stone that can call the Raven God into reach.",
+  "primaryEraId": "age-of-adventurers",
+  "eraIds": [
+    "age-of-adventurers"
+  ],
+  "chapters": [
+    {
+      "id": "swift-flight-form-raven-legacy-chapter-dream",
+      "eraId": "age-of-adventurers",
+      "title": "A warning within the Dream",
+      "body": "Morthis’s trial awakens Clintar and follows his divided spirit, but the first account leaves the cause uncertain."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-chapter-book",
+      "eraId": "age-of-adventurers",
+      "title": "The raven’s broken history",
+      "body": "The Druids pursue Sai’kkal’s account and reconstruct the book that names Anzu and three captive bird spirits."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-chapter-shrines",
+      "eraId": "age-of-adventurers",
+      "title": "Three essences of Terokkar",
+      "body": "Eagle, Falcon, and Hawk are kept at separate named shrines; each trial contributes one essence."
+    },
+    {
+      "id": "swift-flight-form-raven-legacy-chapter-vigilance",
+      "eraId": "age-of-adventurers",
+      "title": "A summons and an open threat",
+      "body": "The Moonstone enables the Heroic Sethekk Halls confrontation; Swift Flight Form is earned, but Anzu may rise again."
+    }
+  ],
+  "sourceIds": [
+    "swift-flight-chain",
+    "swift-flight-morthis-start",
+    "swift-flight-ward",
+    "swift-flight-waking",
+    "swift-flight-dream",
+    "swift-flight-return-morthis",
+    "swift-flight-evergrove",
+    "swift-flight-book",
+    "swift-flight-eyes",
+    "swift-flight-sparrowhawk",
+    "swift-flight-stones",
+    "swift-flight-eagle",
+    "swift-flight-falcon",
+    "swift-flight-hawk",
+    "swift-flight-return-essences",
+    "swift-flight-moonstone",
+    "swift-flight-anzu",
+    "swift-flight-vigilance",
+    "swift-flight-sethekk",
+    "swift-flight-blizzard-bcc-anniversary",
+    "swift-flight-swift-timeline",
+    "swift-flight-visual-zangarmarsh",
+    "swift-flight-visual-moonglade",
+    "swift-flight-visual-blades-edge",
+    "swift-flight-visual-nagrand",
+    "swift-flight-visual-terokkar",
+    "swift-flight-visual-sethekk",
+    "swift-flight-visual-azshara"
+  ],
+  "storyGuideId": "swift-flight-form-raven-legacy-guide",
+  "showInEraTourOffshoots": false,
+  "reviewNote": "Complete illustrated research StoryGuide draft with 17 nodes, one for each named quest-chain beat; repetitive collection and combat mechanics are compressed. This is a class quest, not a canonical player biography. Primary gates remain original-client quest text and prerequisite comparison; TBC area and character-model comparison; narration/audio audition; scene-by-scene desktop and phone visual review; and human claim review. Includes the complete TBC endpoint Eternal Vigilance and excludes later form-training changes and Druid campaigns. Added to the independent Classic-to-Wrath StoryTour, not an EraTour. See docs/research/swift-flight-form-raven-legacy-research.md and docs/research/swift-flight-form-raven-legacy-visual-assets.json.",
+  "contentStatus": "research"
+}

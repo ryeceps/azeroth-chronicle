@@ -1,0 +1,28 @@
+{
+  "id": "swift-flight-form-raven-legacy-apprenticeship-event",
+  "kind": "event",
+  "name": "A calling at Cenarion Refuge",
+  "slug": "swift-flight-form-raven-legacy-apprenticeship",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "swift-flight-form-raven-legacy-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+  },
+  "summary": "Morthis offers the Stormcrow’s secrets through a Druid trial, opening the quest chain at Cenarion Refuge.",
+  "locationIds": [
+    "cenarion-refuge-zangarmarsh"
+  ],
+  "participantEntityIds": [
+    "morthis-whisperwing",
+    "swift-flight-seeker"
+  ],
+  "sourceIds": [
+    "swift-flight-morthis-start",
+    "swift-flight-chain"
+  ],
+  "claimIds": [
+    "swift-flight-form-raven-legacy-apprenticeship-claim"
+  ],
+  "contentStatus": "research"
+}

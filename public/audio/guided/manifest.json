@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T09:00:52.434Z",
+  "generatedAt": "2026-10-03T10:56:55.964Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 448,
-  "totalDurationMs": 12515350,
+  "trackCount": 465,
+  "totalDurationMs": 13231450,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -4044,6 +4044,159 @@
       "sha256": "ace50ca524c8ac87465ad2609904cebb232ff4747e61b47c09d8faf52f3026d5",
       "transcriptSha256": "94a872d33bd920566893d65031cf2234728cd2345f77fb37bb8ccdb26c95ca1c",
       "bytes": 510093
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-apprenticeship",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-apprenticeship.mp3",
+      "durationMs": 42400,
+      "sha256": "0fceb9b36314a455a2312954635d6aa3727ae1acc6d82a557d6fdf83107a4b76",
+      "transcriptSha256": "870ef7dc8be17576394ad28141b50f5753d4e88c7535286ec2be4af74958959f",
+      "bytes": 509805
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-ward",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-ward.mp3",
+      "durationMs": 42700,
+      "sha256": "23e34a96980711d43eb8155feb0227e0a13bfcac23c598d7bf3f7a99b476f4cb",
+      "transcriptSha256": "8be19842a97586bf413946255777ec0dfca734f18036db1822a4985c44e3d9f4",
+      "bytes": 513549
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-waking-clintar",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-waking-clintar.mp3",
+      "durationMs": 32975,
+      "sha256": "361126d34bf1780b46047713bc60dc33c05de3013971eb1cc41295b9636ecba3",
+      "transcriptSha256": "9f56e60640dd6bef71787449fdbd6c46bda210795029afcb27d526597eede968",
+      "bytes": 396621
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-dream-escort",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-dream-escort.mp3",
+      "durationMs": 34725,
+      "sha256": "2d74c07b56b34107f0ecc55a8bb43b2a4d84439ef027c291902d667e762f08ac",
+      "transcriptSha256": "aa80b6a1866c04af32639934b540cf91652b78f03a4b503613a95113da90c555",
+      "bytes": 417645
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-return-report",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-return-report.mp3",
+      "durationMs": 45075,
+      "sha256": "a5306bf1803baa09a10a8dedc7f7a901b29283d7762fe06907585489ced5cb66",
+      "transcriptSha256": "157c53f4e2809dacb3e86d8a6eb5414a86b6e39cb42a9475fc42fafc0f43f593",
+      "bytes": 542061
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-evergrove-lead",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-evergrove-lead.mp3",
+      "durationMs": 43800,
+      "sha256": "3f7e3158c2df158da71a27d792ccfb9392a8832774412c20ed60085b5670478b",
+      "transcriptSha256": "98115b8da9d5a5609e9730803aa2e7f1b77d9c1e1336d16478863874ceb24fa1",
+      "bytes": 526509
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-book-of-raven",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-book-of-raven.mp3",
+      "durationMs": 41400,
+      "sha256": "a1717f5eec544ea19c708a77b97648de2b17fd0632817ac20cf3b54e9489f226",
+      "transcriptSha256": "8ed1b996b3eabc88654cb2f5b48f32342b746d7f2e156fa952ca2b8e18897f77",
+      "bytes": 497709
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-eyes-in-the-sky",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-eyes-in-the-sky.mp3",
+      "durationMs": 43450,
+      "sha256": "46b67223f005a163df5b450eb3659774a593221576505f48532720f13b4b3f4d",
+      "transcriptSha256": "ccd3834df35563b874872d4d76d32cfbd52fb64f00b93c2041d6dbcd12c76e81",
+      "bytes": 522477
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-sparrowhawk",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-sparrowhawk.mp3",
+      "durationMs": 41025,
+      "sha256": "d288d73aa920e74f3fb9552f6240a67507a2fc8343faf5a0951ed30fd53b8f56",
+      "transcriptSha256": "e6827e6442beeb7fce7e3d87dadec473278762e78f80ce67d6006517a4a20a27",
+      "bytes": 493389
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-raven-stones",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-raven-stones.mp3",
+      "durationMs": 45425,
+      "sha256": "281907d71303ea6d90bca6427bffee9cb5c1b1310170f34aa60510c296fff052",
+      "transcriptSha256": "6f0ab7bd9bc30962783457802755756e8d5d23c769b40ba555b6c631395b8a86",
+      "bytes": 546093
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-eagle-essence",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-eagle-essence.mp3",
+      "durationMs": 44250,
+      "sha256": "b8632807fd8c42ce56badfe984a9e378ea13553a8fba130ed57f9ff861c28891",
+      "transcriptSha256": "fae506ea1e414c8f2cc1495f6a3433cbd8ffa08e21e2a09f0238942f3688e4e0",
+      "bytes": 531981
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-falcon-essence",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-falcon-essence.mp3",
+      "durationMs": 43475,
+      "sha256": "5a5f16c0bfc592c8d885b305bc029a279b8cfbeb80c2b37e37ac73c2b5d43cde",
+      "transcriptSha256": "a56a19c87f71455e21e7fa749bf09c4bf468fa741ab50605356f42cb2404a273",
+      "bytes": 522765
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-hawk-essence",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-hawk-essence.mp3",
+      "durationMs": 44075,
+      "sha256": "67d783ad0b369cbb31200b5b8913029cdc80631e720453f5936ebf0c70b7fc0a",
+      "transcriptSha256": "b27fade4a3ba4d40b0391f8480f19a23f9dc74208bb851bafe5044af67fd2c49",
+      "bytes": 529965
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-return-essences",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-return-essences.mp3",
+      "durationMs": 40125,
+      "sha256": "12b6fd348f005ffc0578e23a47ff62f8bbd6be39c2875538b9c11cd4f2044e20",
+      "transcriptSha256": "b9b9179207403074efc920506f2b6b4f663bcf23e72497696a91b2c8ea08fd4c",
+      "bytes": 482445
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-moonstone",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-moonstone.mp3",
+      "durationMs": 43750,
+      "sha256": "cbf6ec1d61d3d39ae36151db9c4ab5ef864455ff0353aa6acd6162afcf4768a9",
+      "transcriptSha256": "7d4572cfbee5275975834570383d34e6189b37e73070c115951b8d256c1a4cd2",
+      "bytes": 525933
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-anzu-confrontation",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-anzu-confrontation.mp3",
+      "durationMs": 43025,
+      "sha256": "a451bc97b9c582b3307044be7b43d3bbfd568f9e71a9d1eae46ee8f9c6b47a96",
+      "transcriptSha256": "72f03064184a3903ea61136d7fa4bc14229102591542afaf4631bc47bcee3f92",
+      "bytes": 517293
+    },
+    {
+      "nodeId": "swift-flight-form-raven-legacy-story-eternal-vigilance",
+      "guideId": "swift-flight-form-raven-legacy-guide",
+      "assetPath": "audio/guided/swift-flight-form-raven-legacy-guide/swift-flight-form-raven-legacy-story-eternal-vigilance.mp3",
+      "durationMs": 44425,
+      "sha256": "a11db56fcdcbacd4246d0e3fe7563210271de74d4b33f5e481a495e9a75e4b35",
+      "transcriptSha256": "55abcdc9325d2abc6f8ede2145c498761cabbdb6d290eca682f6be04676864ad",
+      "bytes": 534285
     }
   ]
 }

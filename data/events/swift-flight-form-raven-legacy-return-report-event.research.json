@@ -1,0 +1,29 @@
+{
+  "id": "swift-flight-form-raven-legacy-return-report-event",
+  "kind": "event",
+  "name": "The warning returns with the relics",
+  "slug": "swift-flight-form-raven-legacy-return-report",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "swift-flight-form-raven-legacy-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+  },
+  "summary": "The relics and witness return to Morthis, but the cause of the Dream disturbance remains unresolved.",
+  "locationIds": [
+    "cenarion-refuge-zangarmarsh"
+  ],
+  "participantEntityIds": [
+    "morthis-whisperwing",
+    "clintar-dreamwalker",
+    "swift-flight-seeker"
+  ],
+  "sourceIds": [
+    "swift-flight-return-morthis",
+    "swift-flight-dream"
+  ],
+  "claimIds": [
+    "swift-flight-form-raven-legacy-return-report-claim"
+  ],
+  "contentStatus": "research"
+}
