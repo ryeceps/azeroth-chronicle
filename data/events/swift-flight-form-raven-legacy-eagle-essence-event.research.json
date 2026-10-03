@@ -1,0 +1,27 @@
+{
+  "id": "swift-flight-form-raven-legacy-eagle-essence-event",
+  "kind": "event",
+  "name": "The first shrine: Eagle",
+  "slug": "swift-flight-form-raven-legacy-eagle-essence",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "swift-flight-form-raven-legacy-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Druid quest arc; exact in-world date unknown"
+  },
+  "summary": "The Eagle guardian is defeated at its named shrine and its essence is recovered.",
+  "locationIds": [
+    "eagles-shrine-terokkar"
+  ],
+  "participantEntityIds": [
+    "guardian-of-eagle",
+    "swift-flight-seeker"
+  ],
+  "sourceIds": [
+    "swift-flight-eagle"
+  ],
+  "claimIds": [
+    "swift-flight-form-raven-legacy-eagle-essence-claim"
+  ],
+  "contentStatus": "research"
+}

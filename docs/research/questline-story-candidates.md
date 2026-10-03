@@ -217,6 +217,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** verify each destination and NPC; flight training changes are mechanical. Do not substitute later druid campaign lore for the original Anzu material.
 
+**Implementation status (2026-10-03): complete research story.** Seventeen illustrated StoryNodes across four chapters follow the quest chain from Morthis's first calling through the Heroic Sethekk Halls confrontation and return to Cenarion Refuge. Its dedicated Classic-to-Wrath placard follows Netherwing and precedes The Missing Diplomat; it remains independent of EraTour. The research/source and claim records, per-scene area and cast art, 17 voice tracks, desktop/phone screenshots, and chronological Play All handoffs are in place. Validation passed with 84 unit tests and 67 E2E tests; two configured visual tests were skipped. Content remains `research`. Original 2.1–2.4.3 client quest/build capture, exact prerequisite edges, human comparison of area/model resemblance, and listening audition remain open. See the [research packet](swift-flight-form-raven-legacy-research.md) and [visual asset ledger](swift-flight-form-raven-legacy-visual-assets.json).
+
 ### 19. The Consortium and the Arcatraz prison
 
 **ID:** `consortium-and-arcatraz` · **A** · **Reach:** Netherstorm, Shattrath, Mechanar, Botanica and Arcatraz.

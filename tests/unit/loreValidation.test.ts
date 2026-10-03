@@ -634,7 +634,7 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(328);
+    expect(events).toHaveLength(345);
     expect(events.filter((event) => event.id.startsWith('onyxia-'))).toHaveLength(21);
     expect(events.filter((event) => event.id.startsWith('dungeon-set-two-'))).toHaveLength(22);
     expect(events.filter((event) => event.id.startsWith('fallen-hero-and-rakhlikh-'))).toHaveLength(15);
@@ -849,7 +849,7 @@ describe('lore dataset', () => {
     expect(story.reviewNote).toMatch(/not proven to be the same/i);
     expect(entry.order).toBe(8);
     expect(entry.regionIds).toEqual(['kalimdor', 'eastern-kingdoms']);
-    expect(tour.entries).toHaveLength(19);
+    expect(tour.entries).toHaveLength(20);
     expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(11);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
     expect(ledger.nodeVisuals).toHaveLength(nodes.length);
@@ -878,7 +878,7 @@ describe('lore dataset', () => {
   it('keeps the Scepter storyline connected to its actual eras and source leads', () => {
     const data = loadDataset();
     const scepter = data.storylines.find((item) => item.id === 'scepter-of-the-shifting-sands')!;
-    expect(data.storylines).toHaveLength(35);
+    expect(data.storylines).toHaveLength(36);
     expect(data.storylines.find((item) => item.id === 'fallen-hero-and-rakhlikh')?.contentStatus).toBe('research');
     expect(data.storylines.find((item) => item.id === 'akama-and-black-temple')?.contentStatus).toBe('research');
     expect(data.storylines.find((item) => item.id === 'suramar-nightwell-rebellion')?.eraIds)
@@ -918,9 +918,10 @@ describe('lore dataset', () => {
     expect(guide.contentStatus).toBe('research');
     expect(guide.nodeIds).toHaveLength(9);
     expect(entry.order).toBe(15);
-    expect(tour.entries).toHaveLength(19);
+    expect(tour.entries).toHaveLength(20);
     expect(tour.entries.find((item) => item.storylineId === 'cipher-of-damnation-oronok')?.order).toBe(14);
-    expect(tour.entries.find((item) => item.storylineId === 'missing-diplomat-original-investigation')?.order).toBe(17);
+    expect(tour.entries.find((item) => item.storylineId === 'swift-flight-form-raven-legacy')?.order).toBe(17);
+    expect(tour.entries.find((item) => item.storylineId === 'missing-diplomat-original-investigation')?.order).toBe(18);
     expect(tour.chronologyNote).toMatch(/Champion of the Naaru stop follows the Cipher/);
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
       && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
@@ -1062,9 +1063,9 @@ describe('lore dataset', () => {
     expect(guide.nodeIds).toHaveLength(19);
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
       && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
-    expect(entry.order).toBe(19);
+    expect(entry.order).toBe(20);
     expect(entry.regionIds).toEqual(['northrend', 'eastern-kingdoms']);
-    expect(tour.entries).toHaveLength(19);
+    expect(tour.entries).toHaveLength(20);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
     expect(nodes.find((node) => node.id.endsWith('story-thalorien-last-stand'))?.eventIds?.map(id =>
       data.events.find((event) => event.id === id)?.eraId)).toEqual(['third-war-frozen-throne']);
@@ -1107,10 +1108,10 @@ describe('lore dataset', () => {
     expect(guide.nodeIds).toHaveLength(24);
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
       && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
-    expect(entry.order).toBe(17);
+    expect(entry.order).toBe(18);
     expect(entry.regionIds).toEqual(['eastern-kingdoms', 'kalimdor']);
-    expect(tour.entries.find((item) => item.storylineId === 'wrathgate-and-undercity')?.order).toBe(18);
-    expect(tour.entries.find((item) => item.storylineId === 'quel-delar-restored')?.order).toBe(19);
+    expect(tour.entries.find((item) => item.storylineId === 'wrathgate-and-undercity')?.order).toBe(19);
+    expect(tour.entries.find((item) => item.storylineId === 'quel-delar-restored')?.order).toBe(20);
     expect(tour.chronologyNote).toMatch(/patch 2\.3 continuation.*cross-story quest dependency/i);
     expect(story.reviewNote).toMatch(/Varian.*missing.*patron.*unnamed/i);
     expect(story.reviewNote).toMatch(/original-client comparison.*open/i);
@@ -1157,7 +1158,7 @@ describe('lore dataset', () => {
       && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
     expect(entry.order).toBe(10);
     expect(entry.regionIds).toEqual(['eastern-kingdoms']);
-    expect(tour.entries).toHaveLength(19);
+    expect(tour.entries).toHaveLength(20);
     expect(tour.entries.find((item) => item.storylineId === 'yehkinya-and-hakkars-return')?.order).toBe(9);
     expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(11);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
@@ -1205,7 +1206,7 @@ describe('lore dataset', () => {
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
     expect(entry.order).toBe(9);
     expect(entry.regionIds).toEqual(['kalimdor', 'eastern-kingdoms']);
-    expect(tour.entries).toHaveLength(19);
+    expect(tour.entries).toHaveLength(20);
     expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(11);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
     expect(nodes[7]?.narration).toMatch(/avatar of Hakkar/);
@@ -1352,6 +1353,74 @@ describe('lore dataset', () => {
     expect(data.entities).toEqual([]);
     expect(data.battles).toEqual([]);
     expect(data.sources).toEqual([]);
+  });
+
+  it('keeps Swift Flight Form fully sourced and in the Burning Crusade story order', () => {
+    const data = loadDataset();
+    const story = data.storylines.find((item) => item.id === 'swift-flight-form-raven-legacy')!;
+    const guide = data.storyGuides.find((item) => item.id === story.storyGuideId)!;
+    const nodes = guide.nodeIds.map((id) => data.storyNodes.find((node) => node.id === id)!);
+    const tour = data.storyTours.find((item) => item.slug === 'classic-to-wrath')!;
+    const entry = tour.entries.find((item) => item.storylineId === story.id)!;
+    const ledger = JSON.parse(readFileSync(resolve('docs/research/swift-flight-form-raven-legacy-visual-assets.json'), 'utf8')) as {
+      assets: { imagePath: string; byteLength: number; sha256: string; alphaExpected: boolean }[];
+      scenes: { nodeId: string; environmentAsset: string; cast: { entityId: string; imagePath: string | null }[] }[];
+      audio: { tracks: { nodeId: string; assetPath: string; byteLength: number; sha256: string; transcriptSha256: string }[] };
+    };
+    const audio = JSON.parse(readFileSync(resolve('public/audio/guided/manifest.json'), 'utf8')) as {
+      tracks: { nodeId: string; assetPath: string; durationMs: number; sha256: string; transcriptSha256: string }[];
+    };
+
+    expect(story.contentStatus).toBe('research');
+    expect(story.eraIds).toEqual(['age-of-adventurers']);
+    expect(story.showInEraTourOffshoots).toBe(false);
+    expect(guide.contentStatus).toBe('research');
+    expect(guide.nodeIds).toHaveLength(17);
+    expect(entry.order).toBe(17);
+    expect(entry.regionIds).toEqual(['outland', 'kalimdor']);
+    expect(tour.entries).toHaveLength(20);
+    expect(tour.entries.find((item) => item.storylineId === 'netherwing-liberation')?.order).toBe(16);
+    expect(tour.entries.find((item) => item.storylineId === 'missing-diplomat-original-investigation')?.order).toBe(18);
+    expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
+    expect(nodes.map((node) => node.id)).toEqual(ledger.scenes.map((scene) => scene.nodeId));
+    expect(ledger.audio.tracks).toHaveLength(nodes.length);
+    expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
+      && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
+    expect(nodes[3]?.narration).toMatch(/witness’s suspicion/i);
+    expect(nodes[9]?.narration).toMatch(/Anzu/);
+    expect(nodes.slice(10, 13).map((node) => node.title)).toEqual([
+      'The first shrine: Eagle', 'The second shrine: Falcon', 'The third shrine: Hawk',
+    ]);
+    expect(nodes.at(-1)?.narration).toMatch(/followers might help him rise again/);
+
+    for (const [index, node] of nodes.entries()) {
+      const scene = ledger.scenes[index]!;
+      expect(scene.cast.map((visual) => visual.entityId)).toEqual(node.entityIds);
+      expect(existsSync(resolve('public', scene.environmentAsset))).toBe(true);
+      expect(scene.cast.every((visual) => visual.imagePath && existsSync(resolve('public', visual.imagePath)))).toBe(true);
+      const stateId = node.visualActions?.find((action) => action.type === 'set_map_state');
+      expect(stateId?.type).toBe('set_map_state');
+      const mapState = data.mapStates.find((item) => item.id === stateId?.mapStateId)!;
+      expect(mapState.presentation).toBe('relational');
+      expect(mapState.terrainTextureAsset).toBe(scene.environmentAsset);
+      const event = data.events.find((item) => item.id === node.eventIds?.[0])!;
+      const claim = data.claims.find((item) => item.id === event.claimIds?.[0])!;
+      expect(claim.citationIds.length).toBeGreaterThan(0);
+      expect(claim.citationIds.every((citationId) => data.citations.some((citation) => citation.id === citationId))).toBe(true);
+      expect(claim.citationIds.every((citationId) => data.sources.some((source) => source.id === data.citations.find((citation) => citation.id === citationId)?.sourceId))).toBe(true);
+      const track = audio.tracks.find((item) => item.nodeId === node.id)!;
+      expect(track.assetPath).toBe(node.voiceover?.assetPath);
+      expect(track.transcriptSha256).toBe(createHash('sha256').update(node.narration).digest('hex'));
+      expect(track.sha256).toBe(createHash('sha256').update(readFileSync(resolve('public', track.assetPath))).digest('hex'));
+      expect(track.durationMs).toBeGreaterThan(0);
+    }
+    const environmentAssets = new Set(ledger.scenes.map((scene) => scene.environmentAsset));
+    for (const asset of ledger.assets) {
+      const bytes = readFileSync(resolve('public', asset.imagePath));
+      expect(bytes.length).toBe(asset.byteLength);
+      expect(createHash('sha256').update(bytes).digest('hex')).toBe(asset.sha256);
+      expect(asset.alphaExpected).toBe(!environmentAssets.has(asset.imagePath));
+    }
   });
 
   it('detects missing published citations and unintended causal cycles', () => {

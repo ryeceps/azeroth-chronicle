@@ -24,7 +24,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   expect(mapFrameBounds!.y).toBe(0);
   expect(controlBounds!.y).toBe(0);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
-  await expect(page.locator('.story-tour-dot')).toHaveCount(17);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(20);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
   await expect(page.locator('.story-tour-backdrop, .story-tour-section-heading, .story-tour-map-caption, .story-tour-order-note')).toHaveCount(0);
   await expect(page.locator('.story-tour-tooltip').first()).toHaveCSS('visibility', 'hidden');
@@ -40,9 +40,12 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const yehkinya = page.getByRole('button', { name: /yehkinya-and-hakkars-return|Yeh'kinya/i });
   const ras = page.getByRole('button', { name: /ras-frostwhisper-and-the-soulbound-keepsake|Ras Frostwhisper/i });
   const karazhan = page.getByRole('button', { name: /karazhan-masters-key-and-nightbane|Master’s Key and Nightbane/i });
+  const maghar = page.getByRole('button', { name: /hero-of-the-maghar|Hero of the Mag'har/i });
   const akama = page.getByRole('button', { name: /akama-and-black-temple|Akama and the Black Temple/i });
   const outland = page.getByRole('button', { name: /The Cipher of Damnation: Oronok/i });
   const championOfTheNaaru = page.getByRole('button', { name: /champion-of-the-naaru-outland-trials|Champion of the Naaru/i });
+  const netherwing = page.getByRole('button', { name: /netherwing-liberation|Netherwing/i });
+  const swiftFlight = page.getByRole('button', { name: /swift-flight-form-raven-legacy|Swift Flight Form/i });
   const missingDiplomat = page.getByRole('button', { name: /missing-diplomat-original-investigation|The Missing Diplomat/i });
   const northrend = page.getByRole('button', { name: /wrathgate-and-undercity|Wrathgate/i });
   const quelDelar = page.getByRole('button', { name: /quel-delar-restored|Broken Blade Restored/i });
@@ -57,9 +60,12 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(yehkinya).toBeVisible();
   await expect(ras).toBeVisible();
   await expect(karazhan).toBeVisible();
+  await expect(maghar).toBeVisible();
   await expect(akama).toBeVisible();
   await expect(outland).toBeVisible();
   await expect(championOfTheNaaru).toBeVisible();
+  await expect(netherwing).toBeVisible();
+  await expect(swiftFlight).toBeVisible();
   await expect(missingDiplomat).toBeVisible();
   await expect(northrend).toBeVisible();
   await expect(quelDelar).toBeVisible();
@@ -321,6 +327,13 @@ test('Play All advances completed stories in chronological order and restores th
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
     return [params.get('storyline'), params.get('node'), params.get('play')];
+  }).toEqual(['hero-of-the-maghar', 'hero-of-the-maghar-story-garadar-burden', 'all']);
+  await expect(page.getByRole('heading', { name: 'Garadar beneath the Hellscream name' })).toBeVisible();
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=hero-of-the-maghar&node=hero-of-the-maghar-story-garrosh-name-restored&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('storyline'), params.get('node'), params.get('play')];
   }).toEqual(['akama-and-black-temple', 'akama-and-black-temple-story-karabor-under-illidan', 'all']);
   await expect(page.getByRole('heading', { name: 'Karabor under Illidan' })).toBeVisible();
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=akama-and-black-temple&node=akama-and-black-temple-story-fall-of-the-betrayer&play=all');
@@ -335,6 +348,14 @@ test('Play All advances completed stories in chronological order and restores th
   await expect(page.getByRole('heading', { name: 'A letter after the Cipher' })).toBeVisible();
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('champion-of-the-naaru-outland-trials');
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=champion-of-the-naaru-outland-trials&node=champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'A kindness in the fields' })).toBeVisible();
+  await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('netherwing-liberation');
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=netherwing-liberation&node=netherwing-liberation-story-barthamus-offer&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'A calling at Cenarion Refuge' })).toBeVisible();
+  await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('swift-flight-form-raven-legacy');
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=swift-flight-form-raven-legacy&node=swift-flight-form-raven-legacy-story-eternal-vigilance&play=all');
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'A quiet summons' })).toBeVisible();
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('missing-diplomat-original-investigation');
