@@ -1,0 +1,33 @@
+{
+  "id": "magistrate-marduke",
+  "type": "character",
+  "name": "Magistrate Marduke",
+  "slug": "magistrate-marduke",
+  "shortDescription": "Magistrate Marduke, represented in the Ras Frostwhisper research story.",
+  "body": "A ghostly magistrate of Caer Darrow who opens the quest inquiry and receives the outcome. The image is an original interpretive illustration, not canonical game art or proof of exact costume, body, location, or simultaneous presence.  See docs/research/ras-frostwhisper-production.md and docs/research/ras-frostwhisper-visual-assets.json.",
+  "firstEraId": "age-of-adventurers",
+  "featuredEraIds": [
+    "age-of-adventurers"
+  ],
+  "sourceIds": [
+    "ras-frostwhisper-and-the-soulbound-keepsake-quest-5461",
+    "ras-frostwhisper-and-the-soulbound-keepsake-quest-chain-locator",
+    "ras-frostwhisper-and-the-soulbound-keepsake-marduke-npc-locator",
+    "ras-frostwhisper-and-the-soulbound-keepsake-quest-5465",
+    "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466"
+  ],
+  "claimIds": [
+    "ras-frostwhisper-and-the-soulbound-keepsake-an-unseen-magistrate-claim",
+    "ras-frostwhisper-and-the-soulbound-keepsake-back-to-marduke-claim",
+    "ras-frostwhisper-and-the-soulbound-keepsake-mardukes-accounting-claim"
+  ],
+  "tags": [
+    "ras-frostwhisper-story",
+    "interpretive-art"
+  ],
+  "mapFigure": {
+    "asset": "images/storylines/ras-frostwhisper/magistrate-marduke.research.webp",
+    "scale": 0.84
+  },
+  "contentStatus": "research"
+}

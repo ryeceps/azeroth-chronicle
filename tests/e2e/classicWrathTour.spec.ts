@@ -6,6 +6,7 @@ mkdirSync('output/akama-black-temple-visual-review', { recursive: true });
 mkdirSync('output/quel-delar-visual-review', { recursive: true });
 mkdirSync('output/defias-visual-review', { recursive: true });
 mkdirSync('output/cipher-visual-review', { recursive: true });
+mkdirSync('output/ras-frostwhisper-visual-review', { recursive: true });
 
 test('story dots live on the map, expand on hover or focus, and open stories or previews', async ({ page }) => {
   const pageErrors: string[] = [];
@@ -22,7 +23,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   expect(mapFrameBounds).toMatchObject({ x: 0, width: viewport.width });
   expect(mapFrameBounds!.y).toBeGreaterThanOrEqual(controlBounds!.y + controlBounds!.height);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
-  await expect(page.locator('.story-tour-dot')).toHaveCount(15);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(16);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
   await expect(page.locator('.story-tour-backdrop, .story-tour-section-heading, .story-tour-map-caption, .story-tour-order-note')).toHaveCount(0);
   await expect(page.locator('.story-tour-tooltip').first()).toHaveCSS('visibility', 'hidden');
@@ -36,6 +37,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const defias = page.getByRole('button', { name: /defias-original-conspiracy|Unsent Letter/i });
   const scythe = page.getByRole('button', { name: /scythe-of-elune-original-mystery|Scythe of Elune/i });
   const yehkinya = page.getByRole('button', { name: /yehkinya-and-hakkars-return|Yeh'kinya/i });
+  const ras = page.getByRole('button', { name: /ras-frostwhisper-and-the-soulbound-keepsake|Ras Frostwhisper/i });
   const karazhan = page.getByRole('button', { name: /karazhan-masters-key-and-nightbane|Master’s Key and Nightbane/i });
   const akama = page.getByRole('button', { name: /akama-and-black-temple|Akama and the Black Temple/i });
   const outland = page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i });
@@ -51,6 +53,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(defias).toBeVisible();
   await expect(scythe).toBeVisible();
   await expect(yehkinya).toBeVisible();
+  await expect(ras).toBeVisible();
   await expect(karazhan).toBeVisible();
   await expect(akama).toBeVisible();
   await expect(outland).toBeVisible();
@@ -64,6 +67,20 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(onyxiaCard).toHaveCSS('opacity', '1');
   await expect(onyxiaCard).toContainText('Playable story');
   await captureVisualReview(page, { path: 'output/akama-black-temple-visual-review/classic-wrath-tour-desktop.png', fullPage: true });
+
+  await page.goto('/tours/classic-to-wrath');
+  await expect(onyxiaCard).toHaveCSS('visibility', 'hidden');
+  await ras.hover();
+  const rasCard = page.locator('#story-tour-tip-ras-frostwhisper-and-the-soulbound-keepsake');
+  await expect(rasCard.getByRole('heading', { name: 'Ras Frostwhisper: a lich’s mortality' })).toBeVisible();
+  await expect(rasCard).toContainText('Playable story');
+  await expect(page.locator('.story-tour-tooltip:visible')).toHaveCount(1);
+  await expect(onyxiaCard).toHaveCSS('opacity', '0');
+  await page.screenshot({ path: 'output/ras-frostwhisper-visual-review/classic-wrath-map-ras-hover.png', fullPage: true, animations: 'disabled' });
+  await rasCard.getByRole('button', { name: 'Play story' }).click();
+  await expect(page).toHaveURL(/storyline=ras-frostwhisper-and-the-soulbound-keepsake/);
+  await expect(page.getByRole('heading', { name: 'An unseen magistrate', exact: true })).toBeVisible();
+  await page.goto('/tours/classic-to-wrath');
 
   await outland.hover();
   const outlandCard = page.locator('#story-tour-tip-cipher-of-damnation-oronok');

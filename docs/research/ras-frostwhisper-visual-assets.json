@@ -1,0 +1,707 @@
+{
+  "storyId": "ras-frostwhisper-and-the-soulbound-keepsake",
+  "status": "research",
+  "targetEditionBuild": "Classic Era 1.12 / Burning Crusade 2.4.3 / Wrath 3.3.5 pre-Cataclysm old-world state. No exact original-client capture is claimed.",
+  "editorialRule": "Use the old-world Classic-through-Wrath area palette and recognizable local architecture; keep story staging relational and separate from surveyed geography. Where versions change a site, identify the relevant build and avoid later Cataclysm redesigns.",
+  "sourceProvenance": "Four new wide environments were generated for Caer Darrow, Stromgarde, Light’s Hope and Stratholme; five actor/object cutouts were generated as a transparent contact sheet and cropped to independent lossless WebP assets. The Classic Scholomance chamber environment is reused from the Dungeon Set 2 story and referenced in place.",
+  "assetRecords": [
+    {
+      "id": "caer-darrow",
+      "kind": "environment",
+      "file": "public/images/storylines/ras-frostwhisper/caer-darrow.research.webp",
+      "area": "Caer Darrow and the Scholomance approach",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-1ca59077-9d11-461a-ba1c-3f1411e9c4fd.png",
+      "targetEditionBuild": "Original World of Warcraft Classic 1.12, Burning Crusade 2.4.3 and Wrath 3.3.5 pre-Cataclysm geography; exact build comparison remains open.",
+      "recognizableTraits": "The pre-Cataclysm Western Plaguelands island approach, low ruined cottages, grey water, bare trees and the Scholomance manor silhouette. The exact NPC spawn and island layout are not reconstructed.",
+      "generationPrompt": "Original painterly wide environment: the crooked lakeshore causeway and island estate at Caer Darrow, Scholomance as a weathered grey stone manor, dead trees, old gravestones, marsh grass and green-grey Plaguelands mist; no characters, exact route or NPC coordinate.",
+      "generator": "OpenAI ImageGen; original environment, encoded as high-quality WebP.",
+      "transparency": false,
+      "visualReview": "Checked against the stated Classic-era area palette and available in-game area references. Human side-by-side comparison with the exact 1.12 / 2.4.3 / 3.3.5 area remains open.",
+      "referenceUrls": [
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-marduke-npc-locator",
+          "url": "https://www.wowhead.com/classic/npc=11286/magistrate-marduke"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-scholomance-area-reference",
+          "url": "https://www.wowhead.com/classic/guide/scholomance-dungeon-strategy-wow-classic"
+        }
+      ],
+      "byteLength": 301744,
+      "sha256": "fc619707823cf859fc0d7d9237775829f9d46b2c8203658fb93ee7302451ab6d"
+    },
+    {
+      "id": "stromgarde-keep",
+      "kind": "environment",
+      "file": "public/images/storylines/ras-frostwhisper/stromgarde-keep.research.webp",
+      "area": "Stromgarde Keep, Arathi Highlands",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-bf0dd335-baae-474c-8dbb-60edc7704a2f.png",
+      "targetEditionBuild": "Original World of Warcraft Classic 1.12, Burning Crusade 2.4.3 and Wrath 3.3.5 pre-Cataclysm geography; exact build comparison remains open.",
+      "recognizableTraits": "Original Classic-era Arathi Highlands ruin language: weathered grey human masonry, broken keeps and arches, abandoned courtyards, dry grass and rocky hills. The Keepsake of Remembrance has a variable search location and is not pinned to one building.",
+      "generationPrompt": "Original painterly wide environment: ruined Stromgarde Keep in Arathi Highlands, broken square human-stone fortification, modest tower, collapsed roofs, old bridge and arches, sparse dry grass and rocky green-brown highland; no snow, no desert, no fixed Keepsake spawn.",
+      "generator": "OpenAI ImageGen; original environment, encoded as high-quality WebP.",
+      "transparency": false,
+      "visualReview": "Checked against the stated Classic-era area palette and available in-game area references. Human side-by-side comparison with the exact 1.12 / 2.4.3 / 3.3.5 area remains open.",
+      "referenceUrls": [
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-stromgarde-area-reference",
+          "url": "https://www.wowhead.com/classic/de/quest=682/abzeichen-von-stromgarde"
+        }
+      ],
+      "byteLength": 385078,
+      "sha256": "21ae25de9ccd5a67aa2224985d9106f44891c10189c101a66307ad7807f1ec4e"
+    },
+    {
+      "id": "lights-hope-chapel",
+      "kind": "environment",
+      "file": "public/images/storylines/ras-frostwhisper/lights-hope-chapel.research.webp",
+      "area": "Light’s Hope Chapel, Eastern Plaguelands",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-4ef27c36-9f36-42ee-90a0-52da4a042684.png",
+      "targetEditionBuild": "Original World of Warcraft Classic 1.12, Burning Crusade 2.4.3 and Wrath 3.3.5 pre-Cataclysm geography; exact build comparison remains open.",
+      "recognizableTraits": "The Classic-to-Wrath chapel is a small, weathered timber building with a steep dark reddish-brown roof on the Eastern Plaguelands slope; it is not the later expanded stone fortress. Sparse bare trees, muted Plaguelands earth and a modest encampment frame the chapel.",
+      "generationPrompt": "Original painterly wide environment for pre-Cataclysm Classic: Light’s Hope is a humble, weathered brown-timber chapel with a steep dark reddish-brown roof and slender simple wooden steeple, on a sparse Eastern Plaguelands hillside, bare trees, muted earth, grey-green haze and a few tents. Deliberately not the later stone fortress.",
+      "generator": "OpenAI ImageGen; original environment, encoded as high-quality WebP.",
+      "transparency": false,
+      "visualReview": "Checked against the stated Classic-era area palette and available in-game area references. Human side-by-side comparison with the exact 1.12 / 2.4.3 / 3.3.5 area remains open.",
+      "referenceUrls": [
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-area-reference",
+          "url": "https://news.blizzard.com/en-us/article/24171906/season-of-discovery-phase-7-naxxramas-now-live"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-leonid-npc-locator",
+          "url": "https://www.wowhead.com/classic/npc=11036/leonid-barthalomew-the-revered"
+        }
+      ],
+      "byteLength": 317312,
+      "sha256": "6598fb25ccf7fc6f476973f0680434ba9a8eda18755474a4bea7bc9b7df1889e"
+    },
+    {
+      "id": "stratholme-menethils-gift",
+      "kind": "environment",
+      "file": "public/images/storylines/ras-frostwhisper/stratholme-menethils-gift.research.webp",
+      "area": "Stratholme Undead-side · Menethil’s Gift",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-808f5029-3b4b-45a3-980f-762f78dff9cb.png",
+      "targetEditionBuild": "Original World of Warcraft Classic 1.12, Burning Crusade 2.4.3 and Wrath 3.3.5 pre-Cataclysm geography; exact build comparison remains open.",
+      "recognizableTraits": "Cold grey Lordaeron stone, low old-city Gothic arches and worn flagstones in Stratholme’s Undead-side. A restrained ground sigil marks Menethil’s Gift. The sigil’s reported placement in Baron Rivendare’s quarters is secondary and remains an in-client verification gate.",
+      "generationPrompt": "Original painterly wide environment for pre-Cataclysm Classic Stratholme: an old Lordaeron stone hall, modest pointed arches, cold grey flagstone floor, one restrained reddish-violet summoning sigil, faint sickly-green shadow at the edges and a few aged amber sconces; no characters, bright neon magic or Scarlet Crusade decor.",
+      "generator": "OpenAI ImageGen; original environment, encoded as high-quality WebP.",
+      "transparency": false,
+      "visualReview": "Checked against the stated Classic-era area palette and available in-game area references. Human side-by-side comparison with the exact 1.12 / 2.4.3 / 3.3.5 area remains open.",
+      "referenceUrls": [
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-area-reference",
+          "url": "https://www.buffed.de/World-of-Warcraft-Spiel-42971/Guides/WoW-Classic-Stratholme-Rivendare-Guide-1334436/"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5463",
+          "url": "https://www.wowhead.com/classic/quest=5463/menethils-gift"
+        }
+      ],
+      "byteLength": 220722,
+      "sha256": "153f26813a1e16b0a9cb2d821cc3a17359a9fcb5ce748c1fb0ad3b0a27e2e96f"
+    },
+    {
+      "id": "scholomance-ras-chamber",
+      "kind": "environment",
+      "file": "public/images/storylines/dungeon-set-two/scholomance.research.webp",
+      "area": "Scholomance, Ras Frostwhisper’s chamber",
+      "pixelWidth": 768,
+      "pixelHeight": 512,
+      "sourceArtifact": "dungeon-set-two-visual-assets.json · scholomance asset record",
+      "targetEditionBuild": "Original World of Warcraft Classic / Vanilla area identity; exact client comparison remains open.",
+      "recognizableTraits": "The existing Classic Scholomance illustration uses cold slate-blue necromantic stone, tombs, shelves and restrained green alchemical light. Its room composition is interpretive, not a dungeon map.",
+      "generationPrompt": "Reused and provenance-linked to the Dungeon Set 2 Classic Scholomance environment illustration; no new image generation for this destination.",
+      "generator": "Reused and provenance-linked Classic environment art from Dungeon Set 2.",
+      "transparency": false,
+      "visualReview": "Checked against the stated Classic-era area palette and available in-game area references. Human side-by-side comparison with the exact 1.12 / 2.4.3 / 3.3.5 area remains open.",
+      "referenceUrls": [
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-scholomance-area-reference",
+          "url": "https://www.wowhead.com/classic/guide/scholomance-dungeon-strategy-wow-classic"
+        }
+      ],
+      "byteLength": 67720,
+      "sha256": "43ded808a1c65f3e05a745009de03fce2ce97df38884a54ad7b2545e4fc66378"
+    },
+    {
+      "id": "magistrate-marduke",
+      "kind": "character",
+      "file": "public/images/storylines/ras-frostwhisper/magistrate-marduke.research.webp",
+      "representedBy": "Magistrate Marduke",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-715494f2-4afa-4b17-8171-149854d3ef41.png; cropped from its dedicated contact-sheet cell",
+      "targetEditionBuild": "Original World of Warcraft Classic identity; exact 1.12/2.4.3/3.3.5 model comparison remains open.",
+      "generationPrompt": "A ghostly magistrate of Caer Darrow who opens the quest inquiry and receives the outcome.",
+      "generator": "OpenAI ImageGen; transparent contact-sheet cutout cropped to lossless WebP.",
+      "transparency": true,
+      "visualReview": "The subject is distinct and readable in its authored story scenes. Exact in-client model/costume review remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5461",
+          "url": "https://www.wowhead.com/classic/quest=5461/the-human-ras-frostwhisper"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-chain-locator",
+          "url": "https://www.wowhead.com/classic/guide/ras-frostwhisper-questchain-classic-wow"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-marduke-npc-locator",
+          "url": "https://www.wowhead.com/classic/npc=11286/magistrate-marduke"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5465",
+          "url": "https://www.wowhead.com/classic/quest=5465/soulbound-keepsake"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466",
+          "url": "https://www.wowhead.com/classic/quest=5466/the-lich-ras-frostwhisper"
+        }
+      ],
+      "byteLength": 228356,
+      "sha256": "626be516991286567762fa0b332b0a92b354203279e98dbbfec191c3e1aec124"
+    },
+    {
+      "id": "leonid-barthalomew-revered",
+      "kind": "character",
+      "file": "public/images/storylines/ras-frostwhisper/leonid-barthalomew.research.webp",
+      "representedBy": "Leonid Barthalomew the Revered",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-715494f2-4afa-4b17-8171-149854d3ef41.png; cropped from its dedicated contact-sheet cell",
+      "targetEditionBuild": "Original World of Warcraft Classic identity; exact 1.12/2.4.3/3.3.5 model comparison remains open.",
+      "generationPrompt": "A Forsaken human and Argent Dawn ally whose quest account supplies the proposed history of Ras’s transformation.",
+      "generator": "OpenAI ImageGen; transparent contact-sheet cutout cropped to lossless WebP.",
+      "transparency": true,
+      "visualReview": "The subject is distinct and readable in its authored story scenes. Exact in-client model/costume review remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5462",
+          "url": "https://www.wowhead.com/classic/quest=5462/the-dying-ras-frostwhisper"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-leonid-npc-locator",
+          "url": "https://www.wowhead.com/classic/npc=11036/leonid-barthalomew-the-revered"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5463",
+          "url": "https://www.wowhead.com/classic/quest=5463/menethils-gift"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-menethils-gift-area-reference",
+          "url": "https://www.wowhead.com/classic/quest=5463/menethils-gift#comments"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5464",
+          "url": "https://www.wowhead.com/classic/quest=5464/menethils-gift"
+        }
+      ],
+      "byteLength": 171126,
+      "sha256": "e88b5c5a9a967e83194b9886b2daf2b5494f7010d6f3724c52fd57db70e5fe3d"
+    },
+    {
+      "id": "ras-frostwhisper",
+      "kind": "character",
+      "file": "public/images/storylines/ras-frostwhisper/ras-frostwhisper-lich.research.webp",
+      "representedBy": "Ras Frostwhisper",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-715494f2-4afa-4b17-8171-149854d3ef41.png; cropped from its dedicated contact-sheet cell",
+      "targetEditionBuild": "Original World of Warcraft Classic identity; exact 1.12/2.4.3/3.3.5 model comparison remains open.",
+      "generationPrompt": "The lich encountered in Scholomance.",
+      "generator": "OpenAI ImageGen; transparent contact-sheet cutout cropped to lossless WebP.",
+      "transparency": true,
+      "visualReview": "The subject is distinct and readable in its authored story scenes. Exact in-client model/costume review remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466",
+          "url": "https://www.wowhead.com/classic/quest=5466/the-lich-ras-frostwhisper"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-ras-npc-locator",
+          "url": "https://www.wowhead.com/classic/npc=10508/ras-frostwhisper"
+        }
+      ],
+      "byteLength": 317908,
+      "sha256": "80d826396c289bbb9e9cb7f7867d095fb9fb8e9339cc2fbeb3f4d337ccf9a94f"
+    },
+    {
+      "id": "ras-frostwhisper-human-memory",
+      "kind": "character",
+      "file": "public/images/storylines/ras-frostwhisper/ras-frostwhisper-human.research.webp",
+      "representedBy": "Ras Frostwhisper in Leonid’s memory",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-715494f2-4afa-4b17-8171-149854d3ef41.png; cropped from its dedicated contact-sheet cell",
+      "targetEditionBuild": "Original World of Warcraft Classic identity; exact 1.12/2.4.3/3.3.5 model comparison remains open.",
+      "generationPrompt": "An appearance-specific depiction of the same Ras Frostwhisper before his death, shown only in Leonid’s recalled scene. It is not a second character record.",
+      "generator": "OpenAI ImageGen; transparent contact-sheet cutout cropped to lossless WebP.",
+      "transparency": true,
+      "visualReview": "The subject is distinct and readable in its authored story scenes. Exact in-client model/costume review remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5463",
+          "url": "https://www.wowhead.com/classic/quest=5463/menethils-gift"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466",
+          "url": "https://www.wowhead.com/classic/quest=5466/the-lich-ras-frostwhisper"
+        }
+      ],
+      "byteLength": 143770,
+      "sha256": "02a5e747156879bddf1a4233e4db073daf08b7fd969fb78c117687fb1b46ce92"
+    },
+    {
+      "id": "keepsake-of-remembrance",
+      "kind": "artifact",
+      "file": "public/images/storylines/ras-frostwhisper/keepsake-of-remembrance.research.webp",
+      "representedBy": "Keepsake of Remembrance",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-715494f2-4afa-4b17-8171-149854d3ef41.png; cropped from its dedicated contact-sheet cell",
+      "targetEditionBuild": "Original World of Warcraft Classic identity; exact 1.12/2.4.3/3.3.5 model comparison remains open.",
+      "generationPrompt": "A visually unspecified token from Ras’s human life, represented symbolically as a small worn book. This is not a claim about its Classic item icon.",
+      "generator": "OpenAI ImageGen; transparent contact-sheet cutout cropped to lossless WebP.",
+      "transparency": true,
+      "visualReview": "The subject is distinct and readable in its authored story scenes. Exact in-client model/costume review remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5461",
+          "url": "https://www.wowhead.com/classic/quest=5461/the-human-ras-frostwhisper"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5462",
+          "url": "https://www.wowhead.com/classic/quest=5462/the-dying-ras-frostwhisper"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-leonid-npc-locator",
+          "url": "https://www.wowhead.com/classic/npc=11036/leonid-barthalomew-the-revered"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5463",
+          "url": "https://www.wowhead.com/classic/quest=5463/menethils-gift"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-menethils-gift-area-reference",
+          "url": "https://www.wowhead.com/classic/quest=5463/menethils-gift#comments"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5464",
+          "url": "https://www.wowhead.com/classic/quest=5464/menethils-gift"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-area-reference",
+          "url": "https://www.buffed.de/World-of-Warcraft-Spiel-42971/Guides/WoW-Classic-Stratholme-Rivendare-Guide-1334436/"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5465",
+          "url": "https://www.wowhead.com/classic/quest=5465/soulbound-keepsake"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466",
+          "url": "https://www.wowhead.com/classic/quest=5466/the-lich-ras-frostwhisper"
+        },
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-ras-npc-locator",
+          "url": "https://www.wowhead.com/classic/npc=10508/ras-frostwhisper"
+        }
+      ],
+      "byteLength": 207894,
+      "sha256": "c7a28b6f49490120c6b7699197c536896572abc1943c96b831a9f4185991d150"
+    },
+    {
+      "id": "human-head-of-ras-frostwhisper",
+      "kind": "artifact",
+      "file": "public/images/storylines/ras-frostwhisper/human-head-of-ras-frostwhisper.research.webp",
+      "representedBy": "Human Head of Ras Frostwhisper",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "sourceArtifact": "exec-715494f2-4afa-4b17-8171-149854d3ef41.png; cropped from its dedicated contact-sheet cell",
+      "targetEditionBuild": "Original World of Warcraft Classic identity; exact 1.12/2.4.3/3.3.5 model comparison remains open.",
+      "generationPrompt": "The quest objective returned to Marduke after Ras is made mortal and killed. The respectful wrapped image is symbolic and non-graphic.",
+      "generator": "OpenAI ImageGen; transparent contact-sheet cutout cropped to lossless WebP.",
+      "transparency": true,
+      "visualReview": "The subject is distinct and readable in its authored story scenes. Exact in-client model/costume review remains open.",
+      "sourceReferences": [
+        {
+          "sourceId": "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466",
+          "url": "https://www.wowhead.com/classic/quest=5466/the-lich-ras-frostwhisper"
+        }
+      ],
+      "byteLength": 230032,
+      "sha256": "0409037db5294b093ddd17f06db9b3bb5fb1fa37f4f77cd520f3b70aef8d6156"
+    }
+  ],
+  "sceneLedger": [
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-an-unseen-magistrate",
+      "title": "An unseen magistrate",
+      "environmentPath": "public/images/storylines/ras-frostwhisper/caer-darrow.research.webp",
+      "gameArea": "Caer Darrow",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "The pre-Cataclysm Western Plaguelands island approach, low ruined cottages, grey water, bare trees and the Scholomance manor silhouette. The exact NPC spawn and island layout are not reconstructed.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [
+        {
+          "id": "magistrate-marduke",
+          "name": "Magistrate Marduke",
+          "image": "public/images/storylines/ras-frostwhisper/magistrate-marduke.research.webp"
+        }
+      ],
+      "objects": [],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-an-unseen-magistrate-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-an-unseen-magistrate-citation-1",
+        "ras-frostwhisper-and-the-soulbound-keepsake-an-unseen-magistrate-citation-2",
+        "ras-frostwhisper-and-the-soulbound-keepsake-an-unseen-magistrate-citation-3"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-ruined-home",
+      "title": "The ruined home",
+      "environmentPath": "public/images/storylines/ras-frostwhisper/stromgarde-keep.research.webp",
+      "gameArea": "Stromgarde Keep",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "Original Classic-era Arathi Highlands ruin language: weathered grey human masonry, broken keeps and arches, abandoned courtyards, dry grass and rocky hills. The Keepsake of Remembrance has a variable search location and is not pinned to one building.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [],
+      "objects": [],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-ruined-home-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-ruined-home-citation-1"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-token-from-life",
+      "title": "A token from life",
+      "environmentPath": "public/images/storylines/ras-frostwhisper/stromgarde-keep.research.webp",
+      "gameArea": "Stromgarde Keep",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "Original Classic-era Arathi Highlands ruin language: weathered grey human masonry, broken keeps and arches, abandoned courtyards, dry grass and rocky hills. The Keepsake of Remembrance has a variable search location and is not pinned to one building.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [],
+      "objects": [
+        {
+          "id": "keepsake-of-remembrance",
+          "name": "Keepsake of Remembrance",
+          "image": "public/images/storylines/ras-frostwhisper/keepsake-of-remembrance.research.webp"
+        }
+      ],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-a-token-from-life-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-a-token-from-life-citation-1"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-rumor-at-lights-hope",
+      "title": "A rumor at Light’s Hope",
+      "environmentPath": "public/images/storylines/ras-frostwhisper/lights-hope-chapel.research.webp",
+      "gameArea": "Light’s Hope Chapel",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "The Classic-to-Wrath chapel is a small, weathered timber building with a steep dark reddish-brown roof on the Eastern Plaguelands slope; it is not the later expanded stone fortress. Sparse bare trees, muted Plaguelands earth and a modest encampment frame the chapel.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [
+        {
+          "id": "leonid-barthalomew-revered",
+          "name": "Leonid Barthalomew the Revered",
+          "image": "public/images/storylines/ras-frostwhisper/leonid-barthalomew.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "keepsake-of-remembrance",
+          "name": "Keepsake of Remembrance",
+          "image": "public/images/storylines/ras-frostwhisper/keepsake-of-remembrance.research.webp"
+        }
+      ],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-a-rumor-at-lights-hope-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-a-rumor-at-lights-hope-citation-1",
+        "ras-frostwhisper-and-the-soulbound-keepsake-a-rumor-at-lights-hope-citation-2"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-leonids-memory",
+      "title": "Leonid’s memory",
+      "environmentPath": "public/images/storylines/ras-frostwhisper/stratholme-menethils-gift.research.webp",
+      "gameArea": "Menethil’s Gift",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "Cold grey Lordaeron stone, low old-city Gothic arches and worn flagstones in Stratholme’s Undead-side. A restrained ground sigil marks Menethil’s Gift. The sigil’s reported placement in Baron Rivendare’s quarters is secondary and remains an in-client verification gate.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [
+        {
+          "id": "leonid-barthalomew-revered",
+          "name": "Leonid Barthalomew the Revered",
+          "image": "public/images/storylines/ras-frostwhisper/leonid-barthalomew.research.webp"
+        },
+        {
+          "id": "ras-frostwhisper-human-memory",
+          "name": "Ras Frostwhisper in Leonid’s memory",
+          "image": "public/images/storylines/ras-frostwhisper/ras-frostwhisper-human.research.webp"
+        }
+      ],
+      "objects": [],
+      "chronologyNote": "Flashback to the earlier Stratholme scene, as recalled by Leonid; it is not an independently narrated eyewitness recording.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-leonids-memory-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-leonids-memory-citation-1"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-name-for-the-ground",
+      "title": "A name for the ground",
+      "environmentPath": "public/images/storylines/ras-frostwhisper/lights-hope-chapel.research.webp",
+      "gameArea": "Light’s Hope Chapel",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "The Classic-to-Wrath chapel is a small, weathered timber building with a steep dark reddish-brown roof on the Eastern Plaguelands slope; it is not the later expanded stone fortress. Sparse bare trees, muted Plaguelands earth and a modest encampment frame the chapel.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [
+        {
+          "id": "leonid-barthalomew-revered",
+          "name": "Leonid Barthalomew the Revered",
+          "image": "public/images/storylines/ras-frostwhisper/leonid-barthalomew.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "keepsake-of-remembrance",
+          "name": "Keepsake of Remembrance",
+          "image": "public/images/storylines/ras-frostwhisper/keepsake-of-remembrance.research.webp"
+        }
+      ],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-a-name-for-the-ground-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-a-name-for-the-ground-citation-1",
+        "ras-frostwhisper-and-the-soulbound-keepsake-a-name-for-the-ground-citation-2"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-soulbound-keepsake",
+      "title": "The soulbound keepsake",
+      "environmentPath": "public/images/storylines/ras-frostwhisper/stratholme-menethils-gift.research.webp",
+      "gameArea": "Menethil’s Gift",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "Cold grey Lordaeron stone, low old-city Gothic arches and worn flagstones in Stratholme’s Undead-side. A restrained ground sigil marks Menethil’s Gift. The sigil’s reported placement in Baron Rivendare’s quarters is secondary and remains an in-client verification gate.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [],
+      "objects": [
+        {
+          "id": "keepsake-of-remembrance",
+          "name": "Keepsake of Remembrance",
+          "image": "public/images/storylines/ras-frostwhisper/keepsake-of-remembrance.research.webp"
+        }
+      ],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-soulbound-keepsake-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-soulbound-keepsake-citation-1",
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-soulbound-keepsake-citation-2",
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-soulbound-keepsake-citation-3"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-leonid-explains-the-bond",
+      "title": "Leonid explains the bond",
+      "environmentPath": "public/images/storylines/ras-frostwhisper/lights-hope-chapel.research.webp",
+      "gameArea": "Light’s Hope Chapel",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "The Classic-to-Wrath chapel is a small, weathered timber building with a steep dark reddish-brown roof on the Eastern Plaguelands slope; it is not the later expanded stone fortress. Sparse bare trees, muted Plaguelands earth and a modest encampment frame the chapel.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [
+        {
+          "id": "leonid-barthalomew-revered",
+          "name": "Leonid Barthalomew the Revered",
+          "image": "public/images/storylines/ras-frostwhisper/leonid-barthalomew.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "keepsake-of-remembrance",
+          "name": "Keepsake of Remembrance",
+          "image": "public/images/storylines/ras-frostwhisper/keepsake-of-remembrance.research.webp"
+        }
+      ],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-leonid-explains-the-bond-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-leonid-explains-the-bond-citation-1",
+        "ras-frostwhisper-and-the-soulbound-keepsake-leonid-explains-the-bond-citation-2"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-back-to-marduke",
+      "title": "Back to Marduke",
+      "environmentPath": "public/images/storylines/ras-frostwhisper/caer-darrow.research.webp",
+      "gameArea": "Caer Darrow",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "The pre-Cataclysm Western Plaguelands island approach, low ruined cottages, grey water, bare trees and the Scholomance manor silhouette. The exact NPC spawn and island layout are not reconstructed.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [
+        {
+          "id": "magistrate-marduke",
+          "name": "Magistrate Marduke",
+          "image": "public/images/storylines/ras-frostwhisper/magistrate-marduke.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "keepsake-of-remembrance",
+          "name": "Keepsake of Remembrance",
+          "image": "public/images/storylines/ras-frostwhisper/keepsake-of-remembrance.research.webp"
+        }
+      ],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-back-to-marduke-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-back-to-marduke-citation-1"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-lich-in-scholomance",
+      "title": "The lich in Scholomance",
+      "environmentPath": "public/images/storylines/dungeon-set-two/scholomance.research.webp",
+      "gameArea": "Scholomance",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "The existing Classic Scholomance illustration uses cold slate-blue necromantic stone, tombs, shelves and restrained green alchemical light. Its room composition is interpretive, not a dungeon map.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [
+        {
+          "id": "ras-frostwhisper",
+          "name": "Ras Frostwhisper",
+          "image": "public/images/storylines/ras-frostwhisper/ras-frostwhisper-lich.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "keepsake-of-remembrance",
+          "name": "Keepsake of Remembrance",
+          "image": "public/images/storylines/ras-frostwhisper/keepsake-of-remembrance.research.webp"
+        }
+      ],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-lich-in-scholomance-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-lich-in-scholomance-citation-1",
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-lich-in-scholomance-citation-2"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-mortal-again-for-a-moment",
+      "title": "Mortal again for a moment",
+      "environmentPath": "public/images/storylines/dungeon-set-two/scholomance.research.webp",
+      "gameArea": "Scholomance",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "The existing Classic Scholomance illustration uses cold slate-blue necromantic stone, tombs, shelves and restrained green alchemical light. Its room composition is interpretive, not a dungeon map.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [
+        {
+          "id": "ras-frostwhisper-human-memory",
+          "name": "Ras Frostwhisper in Leonid’s memory",
+          "image": "public/images/storylines/ras-frostwhisper/ras-frostwhisper-human.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "keepsake-of-remembrance",
+          "name": "Keepsake of Remembrance",
+          "image": "public/images/storylines/ras-frostwhisper/keepsake-of-remembrance.research.webp"
+        }
+      ],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-mortal-again-for-a-moment-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-mortal-again-for-a-moment-citation-1"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-head-returned",
+      "title": "The head returned",
+      "environmentPath": "public/images/storylines/dungeon-set-two/scholomance.research.webp",
+      "gameArea": "Scholomance",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "The existing Classic Scholomance illustration uses cold slate-blue necromantic stone, tombs, shelves and restrained green alchemical light. Its room composition is interpretive, not a dungeon map.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [],
+      "objects": [
+        {
+          "id": "human-head-of-ras-frostwhisper",
+          "name": "Human Head of Ras Frostwhisper",
+          "image": "public/images/storylines/ras-frostwhisper/human-head-of-ras-frostwhisper.research.webp"
+        }
+      ],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-head-returned-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-head-returned-citation-1"
+      ]
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-mardukes-accounting",
+      "title": "Marduke’s accounting",
+      "environmentPath": "public/images/storylines/ras-frostwhisper/caer-darrow.research.webp",
+      "gameArea": "Caer Darrow",
+      "referenceEditionBuild": "Classic Era 1.12 and the pre-Cataclysm version shown through TBC 2.4.3 / Wrath 3.3.5. Patch/client comparison remains open.",
+      "recognizableTraits": "The pre-Cataclysm Western Plaguelands island approach, low ruined cottages, grey water, bare trees and the Scholomance manor silhouette. The exact NPC spawn and island layout are not reconstructed.",
+      "visualReview": "Original or provenance-linked area art, wired to this StoryNode through its validated MapState. Human screenshot comparison against the exact game build remains open.",
+      "cast": [
+        {
+          "id": "magistrate-marduke",
+          "name": "Magistrate Marduke",
+          "image": "public/images/storylines/ras-frostwhisper/magistrate-marduke.research.webp"
+        }
+      ],
+      "objects": [
+        {
+          "id": "human-head-of-ras-frostwhisper",
+          "name": "Human Head of Ras Frostwhisper",
+          "image": "public/images/storylines/ras-frostwhisper/human-head-of-ras-frostwhisper.research.webp"
+        }
+      ],
+      "chronologyNote": "The present-day investigation follows Classic quest dependency order. Order does not assert exact event dates or a causal link between separate historical acts.",
+      "claimIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-mardukes-accounting-claim"
+      ],
+      "citationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-mardukes-accounting-citation-1"
+      ]
+    }
+  ]
+}
