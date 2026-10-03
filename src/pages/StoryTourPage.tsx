@@ -47,9 +47,14 @@ export function StoryTourPage() {
     <main className="story-tour-page">
       <header className="story-tour-controls">
         <div className="story-tour-title">
+          <Link to="/" className="story-tour-home">Azerothium · Unofficial fan atlas</Link>
           <p className="eyebrow">{storylines.length} story locations · {tour.contentStatus}</p>
           <h1>{tour.title}</h1>
         </div>
+        <nav className="story-tour-navigation" aria-label="Primary navigation">
+          <Link to="/tours">Tours</Link>
+          <Link to="/archive">Archive</Link>
+        </nav>
         <button type="button" className="tour-primary" disabled={!stops.length} onClick={() => playTour(tour, navigate)}>
           Play all stories <span aria-hidden="true">→</span>
         </button>

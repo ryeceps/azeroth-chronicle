@@ -653,21 +653,27 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .era-tour-card > .eyebrow { grid-column: 1 / -1; margin: 0; }
   .topbar nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
-/* StoryTour places navigation above the map so only the selected marker's card covers the atlas. */
-.app-shell:has(.story-tour-page) { position: relative; width: 100%; height: 100vh; height: 100dvh; min-height: 0; overflow: hidden; }
-.app-shell:has(.story-tour-page) > .topbar { position: absolute; inset: 0 0 auto; min-height: 78px; border-bottom-color: rgba(213,169,95,.3); background: #101c27; box-shadow: 0 4px 14px rgba(0,0,0,.28); }
+/* StoryTour floats compact navigation over a full-viewport illustrated map. */
+.app-shell:has(.story-tour-page) { position: relative; width: 100%; height: 100vh; height: 100dvh; min-height: 0; overflow: clip; }
+.app-shell:has(.story-tour-page) > .topbar { display: none; }
 .app-shell:has(.story-tour-page) > .footer { display: none; }
-.story-tour-page { --story-tour-map-start: 140px; position: relative; flex: 1; width: 100%; height: 100dvh; min-height: 0; margin: 0; padding: 0; overflow: hidden; isolation: isolate; background: #071017; }
-.story-tour-controls { position: absolute; z-index: 4; top: 78px; right: 0; left: 0; min-height: 62px; display: flex; align-items: center; gap: 18px; padding: 7px clamp(16px, 3vw, 48px); border-bottom: 1px solid rgba(213,169,95,.2); background: #09131bf5; }
+.story-tour-page { position: relative; flex: 1; width: 100%; height: 100dvh; min-height: 0; margin: 0; padding: 0; overflow: clip; isolation: isolate; background: #071017; }
+.story-tour-controls { position: absolute; z-index: 4; inset: 0 0 auto; display: flex; align-items: flex-start; gap: 18px; padding: max(16px, env(safe-area-inset-top)) clamp(16px, 3vw, 48px) 35px; background: linear-gradient(#071017e6, #07101780 65%, transparent); pointer-events: none; }
+.story-tour-controls a, .story-tour-controls button { pointer-events: auto; }
+.story-tour-home { display: inline-block; margin-bottom: 8px; color: #f1d9a9; font-size: 11px; text-decoration: none; }
+.story-tour-navigation { display: flex; gap: 14px; margin-left: auto; }
+.story-tour-navigation a { display: grid; min-height: 42px; align-items: center; font-size: 12px; text-underline-offset: 4px; }
 .story-tour-title { min-width: 0; }
 .story-tour-title .eyebrow { margin: 0 0 2px; font-size: 9px; }
 .story-tour-title h1 { margin: 0; color: #f1d9a9; font: 600 clamp(20px, 2.5vw, 30px)/1.1 Cinzel, Georgia, serif; }
-.story-tour-controls > .tour-primary { flex: 0 0 auto; min-height: 42px; margin-left: auto; padding: 9px 15px; }
-.story-tour-complete { position: static; flex: 0 1 auto; max-width: 390px; margin: 0; padding: 7px 10px; border-left: 2px solid var(--gold); color: #f1ddb5; background: rgba(213,169,95,.08); font-size: 11px; line-height: 1.35; }
-.story-tour-map-section { position: absolute; z-index: 1; inset: var(--story-tour-map-start) 0 0; }
+.story-tour-controls > .tour-primary { flex: 0 0 auto; min-height: 42px; padding: 9px 15px; }
+.story-tour-complete { position: absolute; top: 100px; left: clamp(16px, 3vw, 48px); max-width: 390px; margin: 0; padding: 7px 10px; border-left: 2px solid var(--gold); color: #f1ddb5; background: rgba(213,169,95,.08); font-size: 11px; line-height: 1.35; }
+.story-tour-map-section { position: absolute; z-index: 1; inset: 0; }
 .story-tour-map-frame { position: absolute; inset: 0; overflow: visible; aspect-ratio: auto; border: 0; background: #071017; box-shadow: none; }
-.story-tour-map-art { position: absolute; top: 50%; left: 50%; width: auto; height: min(66.6667vw, calc(100dvh - var(--story-tour-map-start))); aspect-ratio: 3 / 2; transform: translate(-50%,-50%); }
-.story-tour-map-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+/* Trim only the painted rim. Art and percentage anchors share the same box;
+   filling both axes keeps every continent and story visible without letterboxing. */
+.story-tour-map-art { position: absolute; inset: -1.5%; }
+.story-tour-map-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: fill; }
 .story-tour-markers { position: absolute; z-index: 2; inset: 0; }
 .story-tour-map-frame .story-tour-marker { width: 34px; height: 34px; }
 .story-tour-dot { width: 34px; height: 34px; border-color: #f5dfa9; background: rgba(17,29,31,.94); box-shadow: 0 0 0 3px rgba(213,169,95,.18), 0 3px 12px rgba(0,0,0,.72); }
@@ -685,13 +691,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 @media (max-width: 680px) {
   .app-shell:has(.story-tour-page) > .topbar { padding-top: max(8px, env(safe-area-inset-top)); }
-  .story-tour-page { --story-tour-map-start: calc(168px + env(safe-area-inset-top)); }
-  .story-tour-controls { top: calc(var(--story-tour-map-start) - 52px); min-height: 52px; gap: 8px; padding: 5px 10px; }
+  .story-tour-controls { gap: 8px; padding: max(10px, env(safe-area-inset-top)) 10px 24px; }
+  .story-tour-home { max-width: 165px; margin-bottom: 6px; font-size: 9px; }
+  .story-tour-navigation { position: absolute; top: 54px; right: 10px; gap: 12px; }
+  .story-tour-navigation a { min-height: 34px; font-size: 10px; }
   .story-tour-title .eyebrow { margin-bottom: 1px; font-size: 7px; }
   .story-tour-title h1 { font-size: clamp(17px, 5vw, 22px); }
-  .story-tour-controls > .tour-primary { min-height: 40px; padding: 8px 10px; font-size: 9px; }
-  .story-tour-complete { max-width: 150px; padding: 5px 7px; font-size: 9px; }
-  .story-tour-map-art { top: 0; height: min(66.6667vw, calc(100dvh - var(--story-tour-map-start))); transform: translateX(-50%); }
+  .story-tour-controls > .tour-primary { min-height: 40px; margin-left: auto; padding: 8px 10px; font-size: 9px; }
+  .story-tour-complete { top: 96px; left: 10px; max-width: 180px; padding: 5px 7px; font-size: 9px; }
   .story-tour-map-frame .story-tour-marker, .story-tour-map-frame .story-tour-dot { width: 30px; height: 30px; }
   .story-tour-dot-number { font-size: 9px; }
   .story-tour-map-frame .story-tour-tooltip { width: min(230px, 70vw); padding: 12px; }

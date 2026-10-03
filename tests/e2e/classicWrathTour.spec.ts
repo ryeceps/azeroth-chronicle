@@ -21,7 +21,8 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const controlBounds = await page.locator('.story-tour-controls').boundingBox();
   const mapFrameBounds = await page.locator('.story-tour-map-frame').boundingBox();
   expect(mapFrameBounds).toMatchObject({ x: 0, width: viewport.width });
-  expect(mapFrameBounds!.y).toBeGreaterThanOrEqual(controlBounds!.y + controlBounds!.height);
+  expect(mapFrameBounds!.y).toBe(0);
+  expect(controlBounds!.y).toBe(0);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
   await expect(page.locator('.story-tour-dot')).toHaveCount(17);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
@@ -376,7 +377,8 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   const controlBounds = await page.locator('.story-tour-controls').boundingBox();
   const mapFrameBounds = await page.locator('.story-tour-map-frame').boundingBox();
   expect(mapFrameBounds).toMatchObject({ x: 0, width: 390 });
-  expect(mapFrameBounds!.y).toBeGreaterThanOrEqual(controlBounds!.y + controlBounds!.height);
+  expect(mapFrameBounds!.y).toBe(0);
+  expect(controlBounds!.y).toBe(0);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(844);
 
   const phoneAkama = page.getByRole('button', { name: /akama-and-black-temple|Akama and the Black Temple/i });

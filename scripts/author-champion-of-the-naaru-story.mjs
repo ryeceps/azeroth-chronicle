@@ -491,10 +491,12 @@ await write(`data/storylines/${storyId}.research.json`, storyline);
 
 const tourPath = 'data/story-tours/classic-to-wrath.research.json';
 const tour = await readJson(tourPath);
-tour.chronologyNote = tour.chronologyNote.replace(
-  'then The Missing Diplomat’s patch 2.3 continuation',
-  'then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation',
-);
+if (!tour.chronologyNote.includes('then Champion of the Naaru’s Outland trials after the Cipher prerequisite')) {
+  tour.chronologyNote = tour.chronologyNote.replace(
+    'then The Missing Diplomat’s patch 2.3 continuation',
+    'then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation',
+  );
+}
 const existingIndex = tour.entries.findIndex((entry) => entry.storylineId === storyId);
 const [storyEntry] = existingIndex >= 0 ? tour.entries.splice(existingIndex, 1) : [];
 const index = tour.entries.findIndex((entry) => entry.storylineId === 'missing-diplomat-original-investigation');
