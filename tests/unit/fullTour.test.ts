@@ -79,9 +79,10 @@ describe('Mega Tour and separate era and story tours', () => {
       'swift-flight-form-raven-legacy',
       'missing-diplomat-original-investigation',
       'shattered-sun-and-sunwell',
+      'wrathgate-and-undercity',
       'quel-delar-restored',
     ]);
-    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 21 + 21 + 15 + 15 + 13 + 18 + 15 + 15 + 20 + 26 + 9 + 17 + 17 + 24 + 21 + 19);
+    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 21 + 21 + 15 + 15 + 13 + 18 + 15 + 15 + 20 + 26 + 9 + 17 + 17 + 24 + 21 + 19 + 19);
     const akamaStart = stops.findIndex((stop) => stop.storylineSlug === 'akama-and-black-temple');
     expect(stops[akamaStart - 1]?.storylineSlug).toBe('hero-of-the-maghar');
     const consortiumStart = stops.findIndex((stop) => stop.storylineSlug === 'consortium-and-arcatraz');
@@ -102,8 +103,9 @@ describe('Mega Tour and separate era and story tours', () => {
     const diplomatStart = stops.findIndex((stop) => stop.storylineSlug === 'missing-diplomat-original-investigation');
     expect(stops[diplomatStart - 1]?.storylineSlug).toBe('swift-flight-form-raven-legacy');
     expect(stops[diplomatStart + 24]?.storylineSlug).toBe('shattered-sun-and-sunwell');
-    expect(stops[diplomatStart + 24 + 21]?.storylineSlug).toBe('quel-delar-restored');
-    expect(stops.some((stop) => stop.storylineSlug === 'wrathgate-and-undercity')).toBe(false);
+    expect(stops[diplomatStart + 24 + 21]?.storylineSlug).toBe('wrathgate-and-undercity');
+    expect(stops[diplomatStart + 24 + 21 + 19]?.storylineSlug).toBe('quel-delar-restored');
+    expect(stops.filter((stop) => stop.storylineSlug === 'wrathgate-and-undercity')).toHaveLength(19);
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('play=all');
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('collection=classic-to-wrath');
     expect(storyTourStoryUrl(tour, stops[0]!)).toContain('play=story');

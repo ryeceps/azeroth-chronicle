@@ -1,42 +1,50 @@
 {
   "id": "wrathgate-and-undercity",
+  "slug": "wrathgate-and-undercity",
   "title": "The Wrathgate and Undercity",
+  "summary": "At Angrathar, plague broke the joint assault on the Scourge. The betrayal drew Alliance and Horde into separate operations beneath Lordaeron, where their rival accounts nearly became a second war.",
+  "opening": "In Dragonblight, Alliance and Horde advanced beneath different banners toward one gate. At Angrathar the plague turned one campaign into two; beneath Lordaeron, each faction sought an answer in Undercity.",
   "primaryEraId": "age-of-adventurers",
   "eraIds": [
     "age-of-adventurers"
   ],
-  "summary": "The Wrathgate disaster breaks an offensive against the Lich King and sends Alliance and Horde toward the Battle for Undercity.",
-  "opening": "Two armies faced the same enemy at Angrathar. What happened there fractured trust and carried the war back to Undercity.",
   "sourceIds": [
-    "story-wrathgate"
+    "story-wrathgate",
+    "wrathgate-wotlk-dragonblight-quest-index",
+    "wrathgate-undercity-alliance-quest-13377",
+    "wrathgate-undercity-horde-quest-13267",
+    "wrathgate-angrathar-event-locator",
+    "wrathgate-undercity-event-locator",
+    "wrathgate-putress-wotlk-npc-record"
   ],
-  "reviewNote": "Review the original cinematic and both factions' questlines. Later game versions changed or removed parts of the Undercity sequence. Editorial chapter research tasks retained here: Establish the Alliance and Horde forces approaching the Lich King's gate. Follow the cinematic event and immediate losses. Compare what each faction learns and whom each holds responsible. Reconstruct the Battle for Undercity from both quest perspectives.",
+  "storyGuideId": "wrathgate-and-undercity-guide",
+  "showInEraTourOffshoots": false,
+  "contentStatus": "research",
+  "reviewNote": "Complete illustrated research story; every claim and scene remains research. Alliance and Horde approaches and Undercity operations are preserved as separate accounts and interleaved editorially. Exact relative timing between the two city assaults is not asserted. The original removed WotLK Undercity scenes require version-specific capture and comparison. Bolvar is presumed lost only within this account; later survival is outside the story cutoff. Do not infer Sylvanas’s foreknowledge or responsibility beyond the cited evidence. This is the Wrath-era Undercity conflict, not the Fourth War Battle for Lordaeron. Compare every area, faction palette, figure, and signature prop to the matching client; keep lore and narration review open.",
   "chapters": [
     {
-      "id": "the-offensive",
+      "id": "the-road-to-angrathar",
       "eraId": "age-of-adventurers",
-      "title": "The advance to Angrathar",
-      "body": "Alliance and Horde forces approached Angrathar, standing before the Lich King’s gate beneath different banners."
+      "title": "The road to Angrathar",
+      "body": "At the edge of Dragonblight, the Alliance advanced beneath blue and gold. Highlord Bolvar Fordragon led its host north against the Scourge, with the Wrathgate beyond the frozen ridges. The land offered little shelter from the Lich King’s shadow. The army moved toward Angrathar, where the Horde, too, had come to strike the same enemy. For a moment, separate campaigns gathered beneath one purpose. The Horde’s vanguard gathered beneath red banners in the same northern waste. Warlord Dranosh Saurfang held command at Angrathar, where the Scourge guarded the way to Icecrown. The Horde’s road was its own, yet the enemy beyond the gate was shared. The armies drew nearer from different positions, neither surrendering its colors as the field widened before the Lich King’s fortress. At Angrathar, Bolvar and Dranosh led the two hosts into a common assault against the Scourge. The dark gate barred the road to Icecrown. Shields crossed beside shields beneath banners that had long met as rivals. Here, divided campaigns came face to face with the Lich King’s host. The attack gathered force before the gate, but it would not remain a battle only of steel."
     },
     {
-      "id": "the-disaster",
+      "id": "the-fall-of-the-gate",
       "eraId": "age-of-adventurers",
-      "title": "At the Wrathgate",
-      "body": "The disaster at the Wrathgate broke the offensive. Immediate losses changed the struggle and deepened the breach between its armies."
+      "title": "The fall of the gate",
+      "body": "Arthas, crowned by the Frozen Throne, came out to meet the assault. Dranosh met him in the field; the Lich King struck him down with Frostmourne. Bolvar and the armies pressed onward against the undead, yet one of the Horde’s commanders was gone from the living. The gate’s horror was already at hand: the Scourge had not been the only danger waiting among the banners. Forsaken plague engines opened, and green fire and vapour rolled across the snow, taking the Scourge and the living armies alike. The Alliance and Horde had crossed the field against one enemy; now their ranks fell to the same substance. Bolvar vanished in the ruin. The source of the order lay beyond the stricken field, and no survivor there could yet answer who had set the attack in motion. Then red wings came out of the northern sky. The Red Dragonflight poured cleansing fire across the blighted valley, breaking the plague’s hold on snow and stone. The battle ended, but the flame could not restore the fallen or return those lost behind its veil. What remained was a gate, a silent field, and two armies carrying different answers to the same catastrophe. Word reached Stormwind that Bolvar and many of the Alliance had been lost at Angrathar. The first Alliance account treated the missing commander as dead and laid the gate’s betrayal at the Horde’s door. At Stormwind Keep, Varian’s anger hardened that judgment. The full shape of the treachery had yet to be weighed, and the roads beneath Lordaeron were already turning toward a second conflict."
     },
     {
-      "id": "the-accusations",
+      "id": "two-paths-under-lordaeron",
       "eraId": "age-of-adventurers",
-      "title": "After the betrayal",
-      "body": "Each faction sought an answer and laid responsibility from its own understanding. Shared loss did not produce shared trust."
+      "title": "Two paths beneath Lordaeron",
+      "body": "Beyond the battlefield, Varimathras and Grand Apothecary Putress turned against Sylvanas and seized Undercity. Its ruler had lost the halls beneath Lordaeron to a revolt within her own people. Later accounts name the two traitors, yet whether Sylvanas knew their design before Angrathar remains unresolved. With the city in other hands, the Horde’s answer would need to begin at its own gates. Thrall called the Horde back to Lordaeron. Sylvanas, driven from her own city, sought to reclaim the halls and confront Varimathras’s forces. The capital had fallen to traitors, not to an open Scourge host, yet the plague had made that distinction bitterly contested. The counterattack turned from the northern front to a fight within Forsaken stone, while the Lich King still commanded the north. Jaina came to Orgrimmar with word that Varian would answer the Wrathgate by judging the Horde as one. She spoke with Thrall and Sylvanas while the Horde prepared to reclaim Undercity. The meeting restored no trust and promised no peace; it revealed how near the two factions had come to open war. Beyond the city walls, each account of Angrathar still carried a different wound. Varian led an Alliance force into Undercity by the sewers, with Jaina at his side. Their purpose was to reach Grand Apothecary Putress, whom they held responsible for the Wrathgate slaughter. Below Lordaeron, wet stone and iron conduits enclosed the column. The Alliance moved through a city already contested by the Horde; each assault sought its own answer to the betrayal. From Undercity’s outer approaches, the Horde force advanced to reclaim its capital. Thrall and Sylvanas led the assault against Varimathras’s occupiers. The city had been built for its own people, yet its stairs and rising halls now narrowed into a battlefield. The Alliance had come by another way. Beneath Lordaeron, two separate offensives moved toward the same traitors. A destroyed elevator shaft divided the lower city from the heights. Thrall called on the elements of air to lift the Horde across the breach, and Sylvanas led them onward through the rising chambers. Behind them, the occupied halls had begun to fall. Ahead, the way climbed toward the Royal Quarter, where the dreadlord’s last defense waited in shadow. In the Royal Quarter, Varimathras turned the inner halls toward demonic allies and a final defense. Thrall and Sylvanas reached the dreadlord, bringing an end to his hold over Undercity. To the Horde, the city was retaken; yet the larger damage could not be named settled. Putress remained beyond Alliance hands, and Varian’s anger still pointed toward Thrall. Through the Apothecarium’s low chambers, the Alliance assault reached Grand Apothecary Putress. His work lay exposed behind Undercity’s curved stone: among the evidence were human victims and signs of experiments. Their presence turned a pursuit for the gate’s poisoner into another wound between Forsaken and Alliance, one no victory over a single conspirator could heal. Putress’s defense failed before the Alliance force. The accused apothecary who had stood at the center of the Wrathgate betrayal no longer commanded the halls below Lordaeron. In another quarter, Thrall and Sylvanas had broken Varimathras’s hold. Each faction could name its target overcome, but the victories did not make their purposes one. Undercity had been retaken and searched, while trust remained lost."
     },
     {
-      "id": "undercity",
+      "id": "a-war-barely-averted",
       "eraId": "age-of-adventurers",
-      "title": "The city below",
-      "body": "The conflict returned toward Undercity. Alliance and Horde entered the battle carrying different purposes and the wounds of the gate."
+      "title": "A war barely averted",
+      "body": "At the Royal Quarter, Varian found Thrall and sought an answer from the Warchief. Grief and anger pressed the Alliance king toward his rival, while Jaina remained close enough to see what was coming. The leaders’ blades drew near above Undercity’s black water. The Scourge had brought both armies north; beneath Lordaeron, they nearly turned upon one another. Jaina crossed the space between commanders. She froze the moment before steel could answer steel, then tore open a path for the Alliance to leave Undercity. Her magic spared the two forces an immediate battle, but it did not reconcile their leaders. The storm that had gathered at the gate now lived within the factions themselves, and the city’s dark waters held witness to a war barely averted. The Horde held Undercity again; the Alliance had withdrawn; neither army could return to the old understanding. Thrall turned the eyes north once more: the Lich King still waited, and Icecrown had not fallen. The Wrathgate and the struggle beneath Lordaeron marked no true end to that war. A city had changed hands, one king was presumed lost, and trust remained divided between rival accounts."
     }
-  ],
-  "slug": "wrathgate-and-undercity",
-  "contentStatus": "research"
+  ]
 }

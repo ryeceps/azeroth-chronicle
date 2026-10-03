@@ -706,6 +706,26 @@
     "contentStatus": "research"
   },
   {
+    "id": "angrathar-the-wrathgate",
+    "type": "entity",
+    "name": "Angrathar, the Wrathgate",
+    "slug": "angrathar-the-wrathgate",
+    "path": "/locations/angrathar-the-wrathgate",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "northrend",
+      "icecrown",
+      "wrathgate"
+    ],
+    "description": "The gate before Icecrown where Alliance and Horde attacked the Scourge.",
+    "sourceIds": [
+      "story-wrathgate",
+      "wrathgate-angrathar-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "anthion-harmon",
     "type": "entity",
     "name": "Anthion Harmon",
@@ -977,6 +997,26 @@
     "description": "The shattered world that served as the Burning Legion's seat of power and the final theater of this era's Legion campaign.",
     "sourceIds": [
       "blizzard-argus-shadows"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "arthas-as-the-lich-king",
+    "type": "entity",
+    "name": "Arthas Menethil as the Lich King",
+    "slug": "arthas-as-the-lich-king",
+    "path": "/locations/arthas-as-the-lich-king",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "arthas-menethil",
+      "lich-king",
+      "frostmourne"
+    ],
+    "description": "The Lich King who met the assault at Angrathar and struck down Dranosh Saurfang.",
+    "sourceIds": [
+      "story-wrathgate",
+      "wrathgate-angrathar-event-locator"
     ],
     "contentStatus": "research"
   },
@@ -3853,6 +3893,26 @@
     "contentStatus": "research"
   },
   {
+    "id": "dranosh-saurfang",
+    "type": "entity",
+    "name": "Dranosh Saurfang",
+    "slug": "dranosh-saurfang",
+    "path": "/locations/dranosh-saurfang",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "saurfang",
+      "horde",
+      "wrathgate"
+    ],
+    "description": "The Horde warlord who fought beside Bolvar at Angrathar and fell to the Lich King.",
+    "sourceIds": [
+      "story-wrathgate",
+      "wrathgate-angrathar-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "dreamwarden-lurosa",
     "type": "entity",
     "name": "Dreamwarden Lurosa",
@@ -4621,6 +4681,27 @@
     "description": "Gradav, represented in the Karazhan research story.",
     "sourceIds": [
       "karazhan-journal-and-nightbane-quest-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "grand-apothecary-putress",
+    "type": "entity",
+    "name": "Grand Apothecary Putress",
+    "slug": "grand-apothecary-putress",
+    "path": "/locations/grand-apothecary-putress",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "forsaken",
+      "apothecary",
+      "wrathgate"
+    ],
+    "description": "The Forsaken apothecary named by the Alliance as responsible for the plague attack.",
+    "sourceIds": [
+      "wrathgate-undercity-alliance-quest-13377",
+      "wrathgate-undercity-event-locator",
+      "wrathgate-putress-wotlk-npc-record"
     ],
     "contentStatus": "research"
   },
@@ -8540,6 +8621,26 @@
     "contentStatus": "research"
   },
   {
+    "id": "red-dragonflight-wrathgate",
+    "type": "entity",
+    "name": "The Red Dragonflight at Angrathar",
+    "slug": "red-dragonflight-wrathgate",
+    "path": "/factions/red-dragonflight-wrathgate",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "red-dragonflight",
+      "dragons",
+      "wrathgate"
+    ],
+    "description": "The dragons whose fire cleansed the plague from the Wrathgate battlefield.",
+    "sourceIds": [
+      "story-wrathgate",
+      "wrathgate-angrathar-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "redeemed-elemental-spirits",
     "type": "entity",
     "name": "The four redeemed elemental spirits",
@@ -10153,7 +10254,10 @@
     "description": "The ranger-general who resisted the Scourge at Quel'Thalas, was raised into undeath, and later led free-willed undead in Lordaeron.",
     "sourceIds": [
       "warcraft-chronicle-volume-3",
-      "blizzard-warcraft-iii-reforged-overview"
+      "blizzard-warcraft-iii-reforged-overview",
+      "story-wrathgate",
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-undercity-event-locator"
     ],
     "contentStatus": "research"
   },
@@ -10974,6 +11078,27 @@
     "contentStatus": "research"
   },
   {
+    "id": "varimathras-wrathgate",
+    "type": "entity",
+    "name": "Varimathras",
+    "slug": "varimathras-wrathgate",
+    "path": "/locations/varimathras-wrathgate",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "dreadlord",
+      "legion",
+      "forsaken-coup",
+      "undercity"
+    ],
+    "description": "The dreadlord who seized Undercity with Putress and fell in the Horde operation.",
+    "sourceIds": [
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-undercity-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "veiled-blade",
     "type": "entity",
     "name": "The Veiled Blade",
@@ -11406,6 +11531,124 @@
     "description": "Mysterious titan spirits that can form within some worlds and awaken after ages of growth.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-dragonblight",
+    "type": "entity",
+    "name": "Dragonblight",
+    "slug": "wrathgate-dragonblight",
+    "path": "/locations/wrathgate-dragonblight",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "northrend",
+      "dragonblight"
+    ],
+    "description": "The frozen Northrend region where the armies advanced toward Angrathar.",
+    "sourceIds": [
+      "wrathgate-wotlk-dragonblight-quest-index",
+      "wrathgate-angrathar-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-orgrimmar",
+    "type": "entity",
+    "name": "Orgrimmar",
+    "slug": "wrathgate-orgrimmar",
+    "path": "/locations/wrathgate-orgrimmar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "orgrimmar",
+      "horde"
+    ],
+    "description": "The Horde capital where Thrall and Sylvanas prepared their answer.",
+    "sourceIds": [
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-undercity-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-stormwind-keep",
+    "type": "entity",
+    "name": "Stormwind Keep",
+    "slug": "wrathgate-stormwind-keep",
+    "path": "/locations/wrathgate-stormwind-keep",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "stormwind",
+      "alliance"
+    ],
+    "description": "The Alliance seat where early reports from Angrathar were weighed.",
+    "sourceIds": [
+      "wrathgate-undercity-alliance-quest-13377",
+      "wrathgate-undercity-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-undercity-apothecarium",
+    "type": "entity",
+    "name": "The Apothecarium",
+    "slug": "wrathgate-undercity-apothecarium",
+    "path": "/locations/wrathgate-undercity-apothecarium",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "undercity",
+      "forsaken",
+      "apothecarium"
+    ],
+    "description": "The Royal Apothecary Society’s chambers in Undercity.",
+    "sourceIds": [
+      "wrathgate-undercity-alliance-quest-13377",
+      "wrathgate-undercity-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-undercity-royal-quarter",
+    "type": "entity",
+    "name": "The Royal Quarter",
+    "slug": "wrathgate-undercity-royal-quarter",
+    "path": "/locations/wrathgate-undercity-royal-quarter",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "undercity",
+      "forsaken",
+      "royal-quarter"
+    ],
+    "description": "The throne district fought over during the two Undercity operations.",
+    "sourceIds": [
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-undercity-alliance-quest-13377"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-undercity",
+    "type": "entity",
+    "name": "Undercity",
+    "slug": "wrathgate-undercity",
+    "path": "/locations/wrathgate-undercity",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "lordaeron",
+      "forsaken",
+      "undercity"
+    ],
+    "description": "The Forsaken capital contested after the Wrathgate catastrophe.",
+    "sourceIds": [
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-undercity-alliance-quest-13377",
+      "wrathgate-undercity-event-locator"
     ],
     "contentStatus": "research"
   },
@@ -19214,6 +19457,312 @@
     "contentStatus": "research"
   },
   {
+    "id": "wrathgate-and-undercity-story-alliance-apothecarium-event",
+    "type": "event",
+    "name": "The Apothecarium’s evidence",
+    "slug": "wrathgate-and-undercity-story-alliance-apothecarium",
+    "path": "/events/wrathgate-and-undercity-story-alliance-apothecarium",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Alliance reached Putress in the Apothecarium and uncovered human victims and evidence of Forsaken experimentation.",
+    "sourceIds": [
+      "wrathgate-undercity-alliance-quest-13377",
+      "wrathgate-undercity-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-alliance-approach-event",
+    "type": "event",
+    "name": "A winter road for the Alliance",
+    "slug": "wrathgate-and-undercity-story-alliance-approach",
+    "path": "/events/wrathgate-and-undercity-story-alliance-approach",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Alliance forces advanced through Dragonblight toward Angrathar under Highlord Bolvar Fordragon.",
+    "sourceIds": [
+      "wrathgate-wotlk-dragonblight-quest-index",
+      "wrathgate-angrathar-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-alliance-sewer-entry-event",
+    "type": "event",
+    "name": "The Alliance descends",
+    "slug": "wrathgate-and-undercity-story-alliance-sewer-entry",
+    "path": "/events/wrathgate-and-undercity-story-alliance-sewer-entry",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Varian and Jaina led an Alliance operation into Undercity through its sewers to bring Putress to justice.",
+    "sourceIds": [
+      "wrathgate-undercity-alliance-quest-13377",
+      "wrathgate-undercity-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-armies-at-the-gate-event",
+    "type": "event",
+    "name": "Two banners beneath one gate",
+    "slug": "wrathgate-and-undercity-story-armies-at-the-gate",
+    "path": "/events/wrathgate-and-undercity-story-armies-at-the-gate",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Alliance and Horde forces converged at Angrathar and fought the Scourge together.",
+    "sourceIds": [
+      "story-wrathgate",
+      "wrathgate-angrathar-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-broken-elevator-event",
+    "type": "event",
+    "name": "A passage through the broken lift",
+    "slug": "wrathgate-and-undercity-story-broken-elevator",
+    "path": "/events/wrathgate-and-undercity-story-broken-elevator",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "After the Undercity lift was destroyed, Thrall called on the elements to carry the Horde force onward.",
+    "sourceIds": [
+      "wrathgate-undercity-horde-quest-13267"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-dranosh-falls-event",
+    "type": "event",
+    "name": "The Lich King answers",
+    "slug": "wrathgate-and-undercity-story-dranosh-falls",
+    "path": "/events/wrathgate-and-undercity-story-dranosh-falls",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Lich King struck down Dranosh Saurfang at the Wrathgate as Bolvar and the armies fought the Scourge.",
+    "sourceIds": [
+      "story-wrathgate",
+      "wrathgate-angrathar-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-horde-approach-event",
+    "type": "event",
+    "name": "The Kor’kron muster",
+    "slug": "wrathgate-and-undercity-story-horde-approach",
+    "path": "/events/wrathgate-and-undercity-story-horde-approach",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Horde forces under Warlord Dranosh Saurfang advanced toward the Wrathgate to confront the Scourge.",
+    "sourceIds": [
+      "wrathgate-wotlk-dragonblight-quest-index",
+      "wrathgate-angrathar-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-horde-counterattack-event",
+    "type": "event",
+    "name": "The Horde turns back to Lordaeron",
+    "slug": "wrathgate-and-undercity-story-horde-counterattack",
+    "path": "/events/wrathgate-and-undercity-story-horde-counterattack",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Thrall and Sylvanas prepared a Horde operation to retake Undercity from Varimathras.",
+    "sourceIds": [
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-undercity-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-horde-courtyard-event",
+    "type": "event",
+    "name": "The Horde re-enters the city",
+    "slug": "wrathgate-and-undercity-story-horde-courtyard",
+    "path": "/events/wrathgate-and-undercity-story-horde-courtyard",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Thrall and Sylvanas led the Horde assault to reclaim Undercity from Varimathras’s forces.",
+    "sourceIds": [
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-undercity-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-jaina-withdraws-alliance-event",
+    "type": "event",
+    "name": "Jaina opens the way out",
+    "slug": "wrathgate-and-undercity-story-jaina-withdraws-alliance",
+    "path": "/events/wrathgate-and-undercity-story-jaina-withdraws-alliance",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Jaina used magic to take the Alliance away from Undercity and prevent the confrontation from becoming a battle.",
+    "sourceIds": [
+      "wrathgate-undercity-event-locator",
+      "wrathgate-undercity-alliance-quest-13377"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-jainas-warning-event",
+    "type": "event",
+    "name": "Jaina carries a warning",
+    "slug": "wrathgate-and-undercity-story-jainas-warning",
+    "path": "/events/wrathgate-and-undercity-story-jainas-warning",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Jaina warned Thrall and Sylvanas that Varian’s response to the Wrathgate threatened war with the Horde.",
+    "sourceIds": [
+      "wrathgate-undercity-event-locator",
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-undercity-alliance-quest-13377"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-leaders-converge-event",
+    "type": "event",
+    "name": "Blades before the throne",
+    "slug": "wrathgate-and-undercity-story-leaders-converge",
+    "path": "/events/wrathgate-and-undercity-story-leaders-converge",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Varian confronted Thrall in the Royal Quarter after the faction operations, bringing the leaders close to open violence.",
+    "sourceIds": [
+      "wrathgate-undercity-event-locator",
+      "wrathgate-undercity-alliance-quest-13377",
+      "wrathgate-undercity-horde-quest-13267"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-putress-defeated-event",
+    "type": "event",
+    "name": "The Alliance reaches Putress",
+    "slug": "wrathgate-and-undercity-story-putress-defeated",
+    "path": "/events/wrathgate-and-undercity-story-putress-defeated",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Alliance operation defeated Putress in Undercity.",
+    "sourceIds": [
+      "wrathgate-undercity-alliance-quest-13377",
+      "wrathgate-putress-wotlk-npc-record"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-red-flight-cleansing-event",
+    "type": "event",
+    "name": "Fire from the red sky",
+    "slug": "wrathgate-and-undercity-story-red-flight-cleansing",
+    "path": "/events/wrathgate-and-undercity-story-red-flight-cleansing",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Red Dragonflight cleansed the plague from the Wrathgate after the catastrophe.",
+    "sourceIds": [
+      "story-wrathgate",
+      "wrathgate-angrathar-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-stormwind-report-event",
+    "type": "event",
+    "name": "The report in Stormwind",
+    "slug": "wrathgate-and-undercity-story-stormwind-report",
+    "path": "/events/wrathgate-and-undercity-story-stormwind-report",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Early Alliance accounts treated Bolvar as lost at the Wrathgate and King Varian held the Horde responsible for the attack.",
+    "sourceIds": [
+      "wrathgate-undercity-alliance-quest-13377",
+      "wrathgate-undercity-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-the-plague-falls-event",
+    "type": "event",
+    "name": "A betrayal in green fire",
+    "slug": "wrathgate-and-undercity-story-the-plague-falls",
+    "path": "/events/wrathgate-and-undercity-story-the-plague-falls",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Forsaken plague was released across the Wrathgate battlefield and struck the Scourge, Alliance, and Horde.",
+    "sourceIds": [
+      "story-wrathgate",
+      "wrathgate-angrathar-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-the-war-continues-event",
+    "type": "event",
+    "name": "No peace in the north",
+    "slug": "wrathgate-and-undercity-story-the-war-continues",
+    "path": "/events/wrathgate-and-undercity-story-the-war-continues",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Horde retook Undercity, but hostility between the factions endured as the campaign against the Lich King continued.",
+    "sourceIds": [
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-undercity-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-undercity-coup-event",
+    "type": "event",
+    "name": "Undercity falls to its traitors",
+    "slug": "wrathgate-and-undercity-story-undercity-coup",
+    "path": "/events/wrathgate-and-undercity-story-undercity-coup",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Varimathras and Grand Apothecary Putress led a coup that seized Undercity from Sylvanas.",
+    "sourceIds": [
+      "wrathgate-undercity-event-locator",
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-undercity-alliance-quest-13377"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "wrathgate-and-undercity-story-varimathras-defeated-event",
+    "type": "event",
+    "name": "The dreadlord in the Royal Quarter",
+    "slug": "wrathgate-and-undercity-story-varimathras-defeated",
+    "path": "/events/wrathgate-and-undercity-story-varimathras-defeated",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Horde defeated Varimathras and retook Undercity from the coup forces.",
+    "sourceIds": [
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-undercity-event-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "yehkinya-and-hakkars-return-a-request-at-the-port-event",
     "type": "event",
     "name": "A request at the port",
@@ -20782,9 +21331,15 @@
     ],
     "aliases": [],
     "tags": [],
-    "description": "The Wrathgate disaster breaks an offensive against the Lich King and sends Alliance and Horde toward the Battle for Undercity.",
+    "description": "At Angrathar, plague broke the joint assault on the Scourge. The betrayal drew Alliance and Horde into separate operations beneath Lordaeron, where their rival accounts nearly became a second war.",
     "sourceIds": [
-      "story-wrathgate"
+      "story-wrathgate",
+      "wrathgate-wotlk-dragonblight-quest-index",
+      "wrathgate-undercity-alliance-quest-13377",
+      "wrathgate-undercity-horde-quest-13267",
+      "wrathgate-angrathar-event-locator",
+      "wrathgate-undercity-event-locator",
+      "wrathgate-putress-wotlk-npc-record"
     ],
     "contentStatus": "research"
   },

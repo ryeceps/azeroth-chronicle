@@ -1,0 +1,903 @@
+{
+  "guide": {
+    "id": "wrathgate-and-undercity-guide",
+    "eraId": "age-of-adventurers",
+    "title": "The Wrathgate and Undercity",
+    "description": "Two faction accounts approach Angrathar, suffer the Wrathgate disaster, and return to a divided Undercity. Separate Alliance and Horde operations nearly draw their leaders into another war.",
+    "nodeIds": [
+      "wrathgate-and-undercity-story-alliance-approach",
+      "wrathgate-and-undercity-story-horde-approach",
+      "wrathgate-and-undercity-story-armies-at-the-gate",
+      "wrathgate-and-undercity-story-dranosh-falls",
+      "wrathgate-and-undercity-story-the-plague-falls",
+      "wrathgate-and-undercity-story-red-flight-cleansing",
+      "wrathgate-and-undercity-story-stormwind-report",
+      "wrathgate-and-undercity-story-undercity-coup",
+      "wrathgate-and-undercity-story-horde-counterattack",
+      "wrathgate-and-undercity-story-jainas-warning",
+      "wrathgate-and-undercity-story-alliance-sewer-entry",
+      "wrathgate-and-undercity-story-horde-courtyard",
+      "wrathgate-and-undercity-story-broken-elevator",
+      "wrathgate-and-undercity-story-varimathras-defeated",
+      "wrathgate-and-undercity-story-alliance-apothecarium",
+      "wrathgate-and-undercity-story-putress-defeated",
+      "wrathgate-and-undercity-story-leaders-converge",
+      "wrathgate-and-undercity-story-jaina-withdraws-alliance",
+      "wrathgate-and-undercity-story-the-war-continues"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "wrathgate-and-undercity-story-alliance-approach",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "A winter road for the Alliance",
+      "narration": "At the edge of Dragonblight, the Alliance advanced beneath blue and gold. Highlord Bolvar Fordragon led its host north against the Scourge, with the Wrathgate beyond the frozen ridges. The land offered little shelter from the Lich King’s shadow. The army moved toward Angrathar, where the Horde, too, had come to strike the same enemy. For a moment, separate campaigns gathered beneath one purpose.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-alliance-approach-event"
+      ],
+      "entityIds": [
+        "bolvar-fordragon"
+      ],
+      "locationIds": [
+        "wrathgate-dragonblight"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-dragonblight-alliance-approach-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-horde-approach"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-alliance-approach.mp3",
+        "durationMs": 28650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-horde-approach",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "The Kor’kron muster",
+      "narration": "The Horde’s vanguard gathered beneath red banners in the same northern waste. Warlord Dranosh Saurfang held command at Angrathar, where the Scourge guarded the way to Icecrown. The Horde’s road was its own, yet the enemy beyond the gate was shared. The armies drew nearer from different positions, neither surrendering its colors as the field widened before the Lich King’s fortress.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-horde-approach-event"
+      ],
+      "entityIds": [
+        "dranosh-saurfang"
+      ],
+      "locationIds": [
+        "wrathgate-dragonblight"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-dragonblight-horde-approach-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-alliance-approach",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-armies-at-the-gate"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-horde-approach.mp3",
+        "durationMs": 26975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-armies-at-the-gate",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "Two banners beneath one gate",
+      "narration": "At Angrathar, Bolvar and Dranosh led the two hosts into a common assault against the Scourge. The dark gate barred the road to Icecrown. Shields crossed beside shields beneath banners that had long met as rivals. Here, divided campaigns came face to face with the Lich King’s host. The attack gathered force before the gate, but it would not remain a battle only of steel.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-armies-at-the-gate-event"
+      ],
+      "entityIds": [
+        "bolvar-fordragon",
+        "dranosh-saurfang"
+      ],
+      "locationIds": [
+        "angrathar-the-wrathgate"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-wrathgate-battlefield-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-horde-approach",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-dranosh-falls"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-armies-at-the-gate.mp3",
+        "durationMs": 27150,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-dranosh-falls",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "The Lich King answers",
+      "narration": "Arthas, crowned by the Frozen Throne, came out to meet the assault. Dranosh met him in the field; the Lich King struck him down with Frostmourne. Bolvar and the armies pressed onward against the undead, yet one of the Horde’s commanders was gone from the living. The gate’s horror was already at hand: the Scourge had not been the only danger waiting among the banners.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-dranosh-falls-event"
+      ],
+      "entityIds": [
+        "dranosh-saurfang",
+        "arthas-as-the-lich-king",
+        "bolvar-fordragon"
+      ],
+      "locationIds": [
+        "angrathar-the-wrathgate"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-wrathgate-battlefield-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-armies-at-the-gate",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-the-plague-falls"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-dranosh-falls.mp3",
+        "durationMs": 25975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-the-plague-falls",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "A betrayal in green fire",
+      "narration": "Forsaken plague engines opened, and green fire and vapour rolled across the snow, taking the Scourge and the living armies alike. The Alliance and Horde had crossed the field against one enemy; now their ranks fell to the same substance. Bolvar vanished in the ruin. The source of the order lay beyond the stricken field, and no survivor there could yet answer who had set the attack in motion.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-the-plague-falls-event"
+      ],
+      "entityIds": [],
+      "locationIds": [
+        "angrathar-the-wrathgate"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-wrathgate-battlefield-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-dranosh-falls",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-red-flight-cleansing"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-the-plague-falls.mp3",
+        "durationMs": 28450,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-red-flight-cleansing",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "Fire from the red sky",
+      "narration": "Then red wings came out of the northern sky. The Red Dragonflight poured cleansing fire across the blighted valley, breaking the plague’s hold on snow and stone. The battle ended, but the flame could not restore the fallen or return those lost behind its veil. What remained was a gate, a silent field, and two armies carrying different answers to the same catastrophe.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-red-flight-cleansing-event"
+      ],
+      "entityIds": [
+        "red-dragonflight-wrathgate"
+      ],
+      "locationIds": [
+        "angrathar-the-wrathgate"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-wrathgate-red-flight-cleansing-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-the-plague-falls",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-stormwind-report"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-red-flight-cleansing.mp3",
+        "durationMs": 26700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-stormwind-report",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "The report in Stormwind",
+      "narration": "Word reached Stormwind that Bolvar and many of the Alliance had been lost at Angrathar. The first Alliance account treated the missing commander as dead and laid the gate’s betrayal at the Horde’s door. At Stormwind Keep, Varian’s anger hardened that judgment. The full shape of the treachery had yet to be weighed, and the roads beneath Lordaeron were already turning toward a second conflict.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-stormwind-report-event"
+      ],
+      "entityIds": [
+        "varian-wrynn"
+      ],
+      "locationIds": [
+        "wrathgate-stormwind-keep"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-stormwind-keep-wrath-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-red-flight-cleansing",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-undercity-coup"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-stormwind-report.mp3",
+        "durationMs": 27800,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-undercity-coup",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "Undercity falls to its traitors",
+      "narration": "Beyond the battlefield, Varimathras and Grand Apothecary Putress turned against Sylvanas and seized Undercity. Its ruler had lost the halls beneath Lordaeron to a revolt within her own people. Later accounts name the two traitors, yet whether Sylvanas knew their design before Angrathar remains unresolved. With the city in other hands, the Horde’s answer would need to begin at its own gates.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-undercity-coup-event"
+      ],
+      "entityIds": [
+        "grand-apothecary-putress",
+        "varimathras-wrathgate"
+      ],
+      "locationIds": [
+        "wrathgate-undercity"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-undercity-royal-quarter-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-stormwind-report",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-horde-counterattack"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-undercity-coup.mp3",
+        "durationMs": 28800,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-horde-counterattack",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "The Horde turns back to Lordaeron",
+      "narration": "Thrall called the Horde back to Lordaeron. Sylvanas, driven from her own city, sought to reclaim the halls and confront Varimathras’s forces. The capital had fallen to traitors, not to an open Scourge host, yet the plague had made that distinction bitterly contested. The counterattack turned from the northern front to a fight within Forsaken stone, while the Lich King still commanded the north.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-horde-counterattack-event"
+      ],
+      "entityIds": [
+        "thrall",
+        "sylvanas-windrunner"
+      ],
+      "locationIds": [
+        "wrathgate-orgrimmar",
+        "wrathgate-undercity"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-orgrimmar-war-council-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-undercity-coup",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-jainas-warning"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-horde-counterattack.mp3",
+        "durationMs": 29075,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-jainas-warning",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "Jaina carries a warning",
+      "narration": "Jaina came to Orgrimmar with word that Varian would answer the Wrathgate by judging the Horde as one. She spoke with Thrall and Sylvanas while the Horde prepared to reclaim Undercity. The meeting restored no trust and promised no peace; it revealed how near the two factions had come to open war. Beyond the city walls, each account of Angrathar still carried a different wound.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-jainas-warning-event"
+      ],
+      "entityIds": [
+        "jaina-proudmoore",
+        "thrall",
+        "sylvanas-windrunner"
+      ],
+      "locationIds": [
+        "wrathgate-orgrimmar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-orgrimmar-war-council-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-horde-counterattack",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-alliance-sewer-entry"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-jainas-warning.mp3",
+        "durationMs": 27200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-alliance-sewer-entry",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "The Alliance descends",
+      "narration": "Varian led an Alliance force into Undercity by the sewers, with Jaina at his side. Their purpose was to reach Grand Apothecary Putress, whom they held responsible for the Wrathgate slaughter. Below Lordaeron, wet stone and iron conduits enclosed the column. The Alliance moved through a city already contested by the Horde; each assault sought its own answer to the betrayal.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-alliance-sewer-entry-event"
+      ],
+      "entityIds": [
+        "varian-wrynn",
+        "jaina-proudmoore"
+      ],
+      "locationIds": [
+        "wrathgate-undercity"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-undercity-sewers-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-jainas-warning",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-horde-courtyard"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-alliance-sewer-entry.mp3",
+        "durationMs": 27175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-horde-courtyard",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "The Horde re-enters the city",
+      "narration": "From Undercity’s outer approaches, the Horde force advanced to reclaim its capital. Thrall and Sylvanas led the assault against Varimathras’s occupiers. The city had been built for its own people, yet its stairs and rising halls now narrowed into a battlefield. The Alliance had come by another way. Beneath Lordaeron, two separate offensives moved toward the same traitors.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-horde-courtyard-event"
+      ],
+      "entityIds": [
+        "thrall",
+        "sylvanas-windrunner"
+      ],
+      "locationIds": [
+        "wrathgate-undercity"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-undercity-sewers-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-alliance-sewer-entry",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-broken-elevator"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-horde-courtyard.mp3",
+        "durationMs": 28375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-broken-elevator",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "A passage through the broken lift",
+      "narration": "A destroyed elevator shaft divided the lower city from the heights. Thrall called on the elements of air to lift the Horde across the breach, and Sylvanas led them onward through the rising chambers. Behind them, the occupied halls had begun to fall. Ahead, the way climbed toward the Royal Quarter, where the dreadlord’s last defense waited in shadow.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-broken-elevator-event"
+      ],
+      "entityIds": [
+        "thrall",
+        "sylvanas-windrunner"
+      ],
+      "locationIds": [
+        "wrathgate-undercity"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-undercity-sewers-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-horde-courtyard",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-varimathras-defeated"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-broken-elevator.mp3",
+        "durationMs": 25150,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-varimathras-defeated",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "The dreadlord in the Royal Quarter",
+      "narration": "In the Royal Quarter, Varimathras turned the inner halls toward demonic allies and a final defense. Thrall and Sylvanas reached the dreadlord, bringing an end to his hold over Undercity. To the Horde, the city was retaken; yet the larger damage could not be named settled. Putress remained beyond Alliance hands, and Varian’s anger still pointed toward Thrall.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-varimathras-defeated-event"
+      ],
+      "entityIds": [
+        "thrall",
+        "sylvanas-windrunner",
+        "varimathras-wrathgate"
+      ],
+      "locationIds": [
+        "wrathgate-undercity-royal-quarter"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-undercity-royal-quarter-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-broken-elevator",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-alliance-apothecarium"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-varimathras-defeated.mp3",
+        "durationMs": 26975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-alliance-apothecarium",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "The Apothecarium’s evidence",
+      "narration": "Through the Apothecarium’s low chambers, the Alliance assault reached Grand Apothecary Putress. His work lay exposed behind Undercity’s curved stone: among the evidence were human victims and signs of experiments. Their presence turned a pursuit for the gate’s poisoner into another wound between Forsaken and Alliance, one no victory over a single conspirator could heal.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-alliance-apothecarium-event"
+      ],
+      "entityIds": [
+        "varian-wrynn",
+        "jaina-proudmoore",
+        "grand-apothecary-putress"
+      ],
+      "locationIds": [
+        "wrathgate-undercity-apothecarium"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-undercity-apothecarium-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-varimathras-defeated",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-putress-defeated"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-alliance-apothecarium.mp3",
+        "durationMs": 26875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-putress-defeated",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "The Alliance reaches Putress",
+      "narration": "Putress’s defense failed before the Alliance force. The accused apothecary who had stood at the center of the Wrathgate betrayal no longer commanded the halls below Lordaeron. In another quarter, Thrall and Sylvanas had broken Varimathras’s hold. Each faction could name its target overcome, but the victories did not make their purposes one. Undercity had been retaken and searched, while trust remained lost.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-putress-defeated-event"
+      ],
+      "entityIds": [
+        "varian-wrynn",
+        "jaina-proudmoore",
+        "grand-apothecary-putress"
+      ],
+      "locationIds": [
+        "wrathgate-undercity-apothecarium"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-undercity-apothecarium-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-alliance-apothecarium",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-leaders-converge"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-putress-defeated.mp3",
+        "durationMs": 30025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-leaders-converge",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "Blades before the throne",
+      "narration": "At the Royal Quarter, Varian found Thrall and sought an answer from the Warchief. Grief and anger pressed the Alliance king toward his rival, while Jaina remained close enough to see what was coming. The leaders’ blades drew near above Undercity’s black water. The Scourge had brought both armies north; beneath Lordaeron, they nearly turned upon one another.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-leaders-converge-event"
+      ],
+      "entityIds": [
+        "varian-wrynn",
+        "thrall",
+        "jaina-proudmoore"
+      ],
+      "locationIds": [
+        "wrathgate-undercity-royal-quarter"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-undercity-royal-quarter-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-putress-defeated",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-jaina-withdraws-alliance"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-leaders-converge.mp3",
+        "durationMs": 25350,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-jaina-withdraws-alliance",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "Jaina opens the way out",
+      "narration": "Jaina crossed the space between commanders. She froze the moment before steel could answer steel, then tore open a path for the Alliance to leave Undercity. Her magic spared the two forces an immediate battle, but it did not reconcile their leaders. The storm that had gathered at the gate now lived within the factions themselves, and the city’s dark waters held witness to a war barely averted.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-jaina-withdraws-alliance-event"
+      ],
+      "entityIds": [
+        "jaina-proudmoore",
+        "varian-wrynn",
+        "thrall"
+      ],
+      "locationIds": [
+        "wrathgate-undercity-royal-quarter"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-undercity-royal-quarter-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-leaders-converge",
+      "nextNodeIds": [
+        "wrathgate-and-undercity-story-the-war-continues"
+      ],
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-jaina-withdraws-alliance.mp3",
+        "durationMs": 27750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "wrathgate-and-undercity-story-the-war-continues",
+      "guideId": "wrathgate-and-undercity-guide",
+      "title": "No peace in the north",
+      "narration": "The Horde held Undercity again; the Alliance had withdrawn; neither army could return to the old understanding. Thrall turned the eyes north once more: the Lich King still waited, and Icecrown had not fallen. The Wrathgate and the struggle beneath Lordaeron marked no true end to that war. A city had changed hands, one king was presumed lost, and trust remained divided between rival accounts.",
+      "eventIds": [
+        "wrathgate-and-undercity-story-the-war-continues-event"
+      ],
+      "entityIds": [
+        "thrall",
+        "sylvanas-windrunner"
+      ],
+      "locationIds": [
+        "wrathgate-orgrimmar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "wrathgate-and-undercity-orgrimmar-war-council-scene"
+        }
+      ],
+      "previousNodeId": "wrathgate-and-undercity-story-jaina-withdraws-alliance",
+      "durationMs": 52000,
+      "voiceover": {
+        "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-the-war-continues.mp3",
+        "durationMs": 29375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    }
+  ]
+}

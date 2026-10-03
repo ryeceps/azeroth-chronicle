@@ -255,6 +255,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** original removed quests require version-specific capture. Avoid assigning secret knowledge or responsibility beyond the evidence. This is the Wrath Undercity battle, not the Fourth War's Battle for Lordaeron.
 
+**Implementation:** Complete 19-node illustrated research StoryGuide with separate Alliance and Horde approaches and Undercity operations, source-linked claims and citations, transcript-matched voiceovers, nine original Dragonblight, Stormwind, Orgrimmar and Undercity environments, and deliberate portraits for the principal named actors plus the Red Dragonflight cleansing. Added as placard 21 in the standalone Classic-to-Wrath StoryTour, after the patch-2.4 Sunwell campaign and before Quel’Delar. Separate faction assaults are interleaved editorially without claiming precise timing. Visuals use Wrath-era regional palettes and architecture; compare every area and model against the 3.3.5a client before human review. Review original removed quest scenes, chronology, citations, and audio pronunciation before promotion. See the [research packet](wrathgate-and-undercity-research.md) and [visual asset ledger](wrathgate-and-undercity-visual-assets.json).
+
 ### 22. Drakuru: trust, betrayal, and infiltration
 
 **ID:** `drakuru-betrayal` · **A** · **Reach:** Grizzly Hills, Drak'Tharon Keep and Zul'Drak.
