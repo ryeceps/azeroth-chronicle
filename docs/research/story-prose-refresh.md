@@ -1,6 +1,6 @@
 # Storyline prose and narration pass
 
-This is Phase 4 content work: continuous historical telling through the existing StoryGuide, with text-first access and matching optional audio. The audit covers all 29 guides (465 nodes), all 36 Storylines, and the reusable authoring prompt. No lore record is promoted beyond its existing research status.
+This is Phase 4 content work: continuous historical telling through the existing StoryGuide, with text-first access and matching optional audio. The audit covers all 30 guides (480 nodes), all 37 Storylines, and the reusable authoring prompt. No lore record is promoted beyond its existing research status.
 
 The prose uses the original Tolkien-esque era voice: landscape, remembered lives, loss, choices, and consequences. Quest walkthroughs and editorial explanations move out of public narrative fields. Playable text-first chapters reproduce their guide's narrative in existing chapter groups. Preview chapter outlines use restrained prose about their existing premises; their original research instructions remain in `reviewNote`, and they remain previews without new playback or recordings.
 
@@ -41,6 +41,8 @@ An earlier set of tests required gameplay caveats in narration. That conflicts w
 
 ## Final local verification
 
-The audit revised 307 spoken passages and regenerated exactly their 307 MP3s. The other 158 recordings are unchanged. All 465 transcript and audio hashes agree, and all 307 changed MP3s decode without errors. Existing source links, scenes, cast and actions are preserved; silent-reading timers follow the revised passage lengths.
+The audit revised 322 spoken passages and regenerated exactly their 322 MP3s. The other 158 recordings are unchanged. All 480 transcript and audio hashes agree, and all 322 changed MP3s decode without errors. Existing source links, scenes, cast and actions are preserved; silent-reading timers follow the revised passage lengths.
 
-The 44 desktop/phone browser scenarios passed across the 19 playable storylines and tour-library behavior. The final source, type, unit, lore-data and production-build results are recorded in the pull request.
+The 44 desktop/phone browser scenarios passed across the original 19 playable storylines and tour-library behavior. The final source, type, unit, lore-data and production-build results are recorded in the pull request.
+
+The concurrently merged Consortium and Arcatraz guide adds 15 passages to this pass. It retains Khay’ji’s and Gahruj’s attributed reports, Haramad’s relayed legend, A’dal’s question about Velen, separate shard journeys, and the limited Skyriss ending. Its earlier prose remains in the editorial ledger; fresh desktop and phone coverage is included in the PR verification.

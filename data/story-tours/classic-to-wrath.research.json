@@ -8,7 +8,7 @@
   "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
   "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
   "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth. Anchors were checked against the depicted landmasses: Stormwind, Westfall, Duskwood, Deadwind Pass and the Blasted Lands in the southern Eastern Kingdoms; the Plaguelands in the north; Theramore and Tanaris on eastern Kalimdor; Dragonblight and Icecrown in Northrend; and Shadowmoon Valley in southeastern Outland. Multi-region stories use one representative anchor, not their entire route.",
-  "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Swift Flight Form’s Druid quest chain was added in patch 2.1 and is placed after the Netherwing editorial stop, before The Missing Diplomat’s patch 2.3 continuation; its exact relative in-world date is unknown, and no cross-story dependency is claimed. Its quest trail crosses Zangarmarsh, Moonglade, Outland, and Azshara, while its marker remains a tour-layout anchor.",
+  "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Swift Flight Form’s Druid quest chain was added in patch 2.1 and is placed after the Netherwing editorial stop, before The Missing Diplomat’s patch 2.3 continuation; its exact relative in-world date is unknown, and no cross-story dependency is claimed. Its quest trail crosses Zangarmarsh, Moonglade, Outland, and Azshara, while its marker remains a tour-layout anchor. The Consortium and Arcatraz stop follows Karazhan as an editorial Burning Crusade placement; it claims neither a precise date nor a dependency between stories. Karazhan’s Arcatraz visit is a separate key-fragment quest and is not retold here.",
   "regions": [
     {
       "id": "kalimdor",
@@ -205,6 +205,19 @@
       "locationLabel": "Deadwind Pass · key fragments across Outland"
     },
     {
+      "storylineId": "consortium-and-arcatraz",
+      "regionIds": [
+        "outland"
+      ],
+      "mapPositionPercent": [
+        88,
+        74
+      ],
+      "order": 12,
+      "periodLabel": "The Burning Crusade · Consortium and Arcatraz quest chain",
+      "locationLabel": "Netherstorm · Shattrath · Tempest Keep"
+    },
+    {
       "storylineId": "hero-of-the-maghar",
       "regionIds": [
         "outland"
@@ -213,7 +226,7 @@
         84,
         85
       ],
-      "order": 12,
+      "order": 13,
       "periodLabel": "The Burning Crusade · patch 2.0.3 Horde chain",
       "locationLabel": "Nagrand · Garadar, Oshu'gun, and the Ancestral Grounds"
     },
@@ -227,7 +240,7 @@
         91,
         83
       ],
-      "order": 13,
+      "order": 14,
       "periodLabel": "The Burning Crusade · Black Temple, patch 2.1",
       "locationLabel": "Shadowmoon Valley · raids across Outland · Hyjal memory"
     },
@@ -240,7 +253,7 @@
         86,
         80
       ],
-      "order": 14,
+      "order": 15,
       "periodLabel": "The Burning Crusade · Shadowmoon Valley",
       "locationLabel": "Shadowmoon Valley · Outland"
     },
@@ -253,7 +266,7 @@
         93,
         87
       ],
-      "order": 15,
+      "order": 16,
       "periodLabel": "The Burning Crusade · A’dal’s trials and Tempest Key",
       "locationLabel": "Shattrath · heroic trials across Outland"
     },
@@ -266,7 +279,7 @@
         79,
         91
       ],
-      "order": 16,
+      "order": 17,
       "periodLabel": "The Burning Crusade · Netherwing quest campaign",
       "locationLabel": "Shadowmoon Valley · fields, fortress, and Netherwing Ledge"
     },
@@ -280,7 +293,7 @@
         82,
         84
       ],
-      "order": 17,
+      "order": 18,
       "periodLabel": "The Burning Crusade · patch 2.1 Druid chain",
       "locationLabel": "Zangarmarsh · Moonglade · Terokkar · Azshara"
     },
@@ -294,7 +307,7 @@
         28,
         57
       ],
-      "order": 18,
+      "order": 19,
       "periodLabel": "Original Classic investigation · Burning Crusade patch 2.3 continuation",
       "locationLabel": "Stormwind · Duskwood · Wetlands · Theramore"
     },
@@ -307,7 +320,7 @@
         48,
         23
       ],
-      "order": 19,
+      "order": 20,
       "periodLabel": "Wrath of the Lich King",
       "locationLabel": "Dragonblight · Northrend"
     },
@@ -321,11 +334,11 @@
         49,
         12
       ],
-      "order": 20,
+      "order": 21,
       "periodLabel": "Wrath of the Lich King · patch 3.3.5",
       "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
     }
   ],
-  "reviewNote": "Research StoryTour collection with 20 map placards, 19 playable research StoryGuides, and one research preview. Play All follows the authored expansion-era sequence and skips the preview. Swift Flight Form is a patch 2.1 Druid chain placed editorially among the TBC stops; its marker is navigational layout only, not an exact coordinate. Stories remain research until human review gates are complete.",
+  "reviewNote": "Research StoryTour collection with 21 map placards, 20 playable research StoryGuides and one research preview. Play All follows the authored editorial sequence and skips the preview. Story-tour map markers are navigational layout positions, not exact geography; each storyline remains research until its human review gates are complete.",
   "contentStatus": "research"
 }

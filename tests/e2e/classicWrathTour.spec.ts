@@ -24,7 +24,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   expect(mapFrameBounds!.y).toBe(0);
   expect(controlBounds!.y).toBe(0);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
-  await expect(page.locator('.story-tour-dot')).toHaveCount(20);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(21);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
   await expect(page.locator('.story-tour-backdrop, .story-tour-section-heading, .story-tour-map-caption, .story-tour-order-note')).toHaveCount(0);
   await expect(page.locator('.story-tour-tooltip').first()).toHaveCSS('visibility', 'hidden');
@@ -40,6 +40,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const yehkinya = page.getByRole('button', { name: /yehkinya-and-hakkars-return|Yeh'kinya/i });
   const ras = page.getByRole('button', { name: /ras-frostwhisper-and-the-soulbound-keepsake|Ras Frostwhisper/i });
   const karazhan = page.getByRole('button', { name: /karazhan-masters-key-and-nightbane|Master’s Key and Nightbane/i });
+  const consortiumArcatraz = page.getByRole('button', { name: /consortium-and-arcatraz|Consortium and the Arcatraz/i });
   const maghar = page.getByRole('button', { name: /hero-of-the-maghar|Hero of the Mag'har/i });
   const akama = page.getByRole('button', { name: /akama-and-black-temple|Akama and the Black Temple/i });
   const outland = page.getByRole('button', { name: /The Cipher of Damnation: Oronok/i });
@@ -60,6 +61,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(yehkinya).toBeVisible();
   await expect(ras).toBeVisible();
   await expect(karazhan).toBeVisible();
+  await expect(consortiumArcatraz).toBeVisible();
   await expect(maghar).toBeVisible();
   await expect(akama).toBeVisible();
   await expect(outland).toBeVisible();
@@ -137,6 +139,14 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
     const params = new URL(page.url()).searchParams;
     return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
   }).toEqual(['story-tour', 'classic-to-wrath', 'karazhan-masters-key-and-nightbane', 'story']);
+
+  await page.goto('/tours/classic-to-wrath');
+  await consortiumArcatraz.hover();
+  const consortiumArcatrazCard = page.locator('#story-tour-tip-consortium-and-arcatraz');
+  await expect(consortiumArcatrazCard.getByRole('heading', { name: 'The Consortium and the Arcatraz prison' })).toBeVisible();
+  await expect(consortiumArcatrazCard).toContainText('Playable story');
+  await consortiumArcatrazCard.getByRole('button', { name: 'Play story' }).click();
+  await expect(page.getByRole('heading', { name: 'The crystal that is not the answer', exact: true })).toBeVisible();
 
   await page.goto('/tours/classic-to-wrath');
   await yehkinya.hover();
@@ -327,6 +337,13 @@ test('Play All advances completed stories in chronological order and restores th
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
     return [params.get('storyline'), params.get('node'), params.get('play')];
+  }).toEqual(['consortium-and-arcatraz', 'consortium-and-arcatraz-story-the-arklon-crystal', 'all']);
+  await expect(page.getByRole('heading', { name: 'The crystal that is not the answer' })).toBeVisible();
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=consortium-and-arcatraz&node=consortium-and-arcatraz-story-skyriss-contained&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('storyline'), params.get('node'), params.get('play')];
   }).toEqual(['hero-of-the-maghar', 'hero-of-the-maghar-story-garadar-burden', 'all']);
   await expect(page.getByRole('heading', { name: 'Garadar beneath the Hellscream name' })).toBeVisible();
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=hero-of-the-maghar&node=hero-of-the-maghar-story-garrosh-name-restored&play=all');
@@ -409,6 +426,7 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   await captureVisualReview(page, { path: 'output/akama-black-temple-visual-review/classic-wrath-tour-akama-phone.png', fullPage: true });
   await phoneAkamaCard.getByRole('button', { name: 'Close story preview' }).click();
   await expect(phoneAkamaCard).toHaveCount(0);
+  await page.mouse.move(5, 5);
 
   const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
   await onyxia.click();

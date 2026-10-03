@@ -95,17 +95,29 @@ test('Classic-to-Wrath map opens the Mag’har story placard', async ({ page }) 
   await expect(page.getByRole('heading', { name: nodes[0]!.title, exact: true })).toBeVisible();
 });
 
-test('Play All advances from Karazhan into the Mag’har story', async ({ page }) => {
+test('Play All advances from Karazhan through the Consortium story into the Mag’har', async ({ page }) => {
   const karazhan = JSON.parse(readFileSync('data/stories/karazhan-masters-key-and-nightbane.research.json', 'utf8')) as {
+    guide: { nodeIds: string[] };
+    nodes: Array<{ id: string; title: string }>;
+  };
+  const consortium = JSON.parse(readFileSync('data/stories/consortium-and-arcatraz.research.json', 'utf8')) as {
     guide: { nodeIds: string[] };
     nodes: Array<{ id: string; title: string }>;
   };
   const finalNodeId = karazhan.guide.nodeIds.at(-1)!;
   const finalNode = karazhan.nodes.find((node) => node.id === finalNodeId)!;
+  const firstConsortiumNode = consortium.nodes.find((node) => node.id === consortium.guide.nodeIds[0])!;
+  const finalConsortiumNodeId = consortium.guide.nodeIds.at(-1)!;
   await page.goto(`/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=karazhan-masters-key-and-nightbane&node=${finalNodeId}&play=all`);
   const pause = page.getByRole('button', { name: 'Pause tour' });
   if (await pause.isVisible()) await pause.click();
   await expect(page.getByRole('heading', { name: finalNode.title, exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect(page).toHaveURL(/storyline=consortium-and-arcatraz/);
+  await expect(page.getByRole('heading', { name: firstConsortiumNode.title, exact: true })).toBeVisible();
+  await page.goto(`/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=consortium-and-arcatraz&node=${finalConsortiumNodeId}&play=all`);
+  const finalConsortiumHeading = consortium.nodes.find((node) => node.id === finalConsortiumNodeId)!.title;
+  await expect(page.getByRole('heading', { name: finalConsortiumHeading, exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect(page).toHaveURL(/storyline=hero-of-the-maghar/);
   await expect(page.getByRole('heading', { name: nodes[0]!.title, exact: true })).toBeVisible();

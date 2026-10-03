@@ -1,0 +1,29 @@
+{
+  "id": "consortium-and-arcatraz-story-the-princes-image-event",
+  "kind": "event",
+  "name": "An audience at the Stormspire",
+  "slug": "consortium-and-arcatraz-story-the-princes-image-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "consortium-and-arcatraz-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "The Burning Crusade · quest sequence; exact date unknown"
+  },
+  "summary": "Once the boxes of surveying equipment are returned, Gahruj asks for one more delivery: the gear must go to the Stormspire. Haramad is often present there as an image, and the quest calls that meeting an audience. The prince welcomes the traveler, then says the equipment may be set anywhere and suspects it will soon be picked up again. The exchange is almost casual. Beneath it, the surveying tools become the means by which Haramad hopes to locate the crystal missed at Arklon.",
+  "locationIds": [
+    "consortium-stormspire"
+  ],
+  "participantEntityIds": [
+    "consortium-agent-gahruj",
+    "nexus-prince-haramad"
+  ],
+  "sourceIds": [
+    "consortium-audience-prince",
+    "consortium-triangulation-one",
+    "consortium-full-triangle"
+  ],
+  "claimIds": [
+    "consortium-and-arcatraz-story-the-princes-image-claim"
+  ],
+  "contentStatus": "research"
+}

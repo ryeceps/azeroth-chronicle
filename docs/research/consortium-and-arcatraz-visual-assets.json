@@ -1,0 +1,419 @@
+{
+  "storyId": "consortium-and-arcatraz",
+  "targetEditionBuild": "World of Warcraft: The Burning Crusade original quest era, before Wrath-era changes; exact 2.0.3–2.4.3 client/build comparison remains open.",
+  "status": "research",
+  "note": "All new art is original interpretive illustration. Recognizable zone materials, silhouettes and palettes guide resemblance; none of these files is an in-client screenshot or a source for lore claims.",
+  "assets": [
+    {
+      "id": "area-52",
+      "kind": "environment",
+      "title": "Area 52",
+      "assetPath": "images/storylines/karazhan/area-52.research.webp",
+      "sha256": "897412095397346357b300f53df840a8e1388c0b30d3474f62e48dfaad194ddb",
+      "byteLength": 90096,
+      "provenance": "Reused original project illustration from Karazhan research story.",
+      "recognizableTbcTraits": "A compact goblin settlement on a broken Netherstorm island: warm timber-and-metal structures, practical lamps and canvas, with the purple void beyond.",
+      "visualReference": {
+        "locator": [
+          "https://www.wowhead.com/tbc/quest=10265/consortium-crystal-collection"
+        ],
+        "comparisonCapture": "Not captured; human side-by-side review against the original TBC area/build remains open."
+      },
+      "compositionPrompt": "Existing project art reused because the named place and historical presentation fit this scene.",
+      "transparency": false,
+      "sourceIds": [
+        "consortium-crystal-collection"
+      ],
+      "visualReview": "Reused original project illustration; side-by-side comparison to the original TBC Area 52 remains open. The image is interpretive and does not establish exact coordinates, layout or character co-presence."
+    },
+    {
+      "id": "arklon-ruins",
+      "kind": "environment",
+      "title": "The Arklon Ruins",
+      "assetPath": "images/storylines/consortium-arcatraz/arklon-ruins.research.webp",
+      "sha256": "586086f1f9084c22df05060049c4abe299387efdd39f1d9421643115dbee95df",
+      "byteLength": 270650,
+      "provenance": "Original AI-generated environment illustration.",
+      "recognizableTbcTraits": "Old draenei stonework cut by a Burning Legion excavation, with pale angular ruins against Netherstorm’s violet sky and floating rock.",
+      "visualReference": {
+        "locator": [
+          "https://www.wowhead.com/tbc/quest=10265/consortium-crystal-collection"
+        ],
+        "comparisonCapture": "Not captured; human side-by-side review against the original TBC area/build remains open."
+      },
+      "compositionPrompt": "Original painterly illustration for The Arklon Ruins. Preserve these Burning Crusade-era traits: Old draenei stonework cut by a Burning Legion excavation, with pale angular ruins against Netherstorm’s violet sky and floating rock. No copied game screenshot, logos, text or UI.",
+      "transparency": false,
+      "sourceIds": [
+        "consortium-crystal-collection"
+      ],
+      "visualReview": "New original AI environment art; original-client resemblance comparison remains open. The image is interpretive and does not establish exact coordinates, layout or character co-presence."
+    },
+    {
+      "id": "heap",
+      "kind": "environment",
+      "title": "The Heap",
+      "assetPath": "images/storylines/consortium-arcatraz/heap-of-zaxxis.research.webp",
+      "sha256": "e0e3e1ce9c479205f46a49bd8c88c22bb5ee1e02099337d5d83453d1a7727ea7",
+      "byteLength": 261154,
+      "provenance": "Original AI-generated environment illustration.",
+      "recognizableTbcTraits": "A dangerous open-air ethereal scavenger camp on a broken Netherstorm shelf, with dark rock, salvage, sparse crystal lamps and distant manaforge light; distinct from an enclosed Eco-Dome.",
+      "visualReference": {
+        "locator": [
+          "https://www.wowhead.com/tbc/quest=10262/a-heap-of-ethereals",
+          "https://www.wowhead.com/tbc/quest=10205/warp-raider-nesaad"
+        ],
+        "comparisonCapture": "Not captured; human side-by-side review against the original TBC area/build remains open."
+      },
+      "compositionPrompt": "Original painterly illustration for The Heap. Preserve these Burning Crusade-era traits: A dangerous open-air ethereal scavenger camp on a broken Netherstorm shelf, with dark rock, salvage, sparse crystal lamps and distant manaforge light; distinct from an enclosed Eco-Dome. No copied game screenshot, logos, text or UI.",
+      "transparency": false,
+      "sourceIds": [
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad"
+      ],
+      "visualReview": "New original AI environment art; the staging is illustrative, not a camp plan or exact NPC placement. The image is interpretive and does not establish exact coordinates, layout or character co-presence."
+    },
+    {
+      "id": "eco-dome",
+      "kind": "environment",
+      "title": "Eco-Dome Midrealm",
+      "assetPath": "images/storylines/consortium-arcatraz/eco-dome-midrealm.research.webp",
+      "sha256": "d81a9b8bb340a23c01215ccd3e5bcc4e53dd727d7e5792162ee311b91d53415a",
+      "byteLength": 279878,
+      "provenance": "Original AI-generated environment illustration.",
+      "recognizableTbcTraits": "A contained Netherstorm biodome with a luminous green canopy, cultivated alien plants, a pale Consortium outpost and violet fractured ground beyond.",
+      "visualReference": {
+        "locator": [
+          "https://www.wowhead.com/tbc/quest=10266/request-for-assistance",
+          "https://www.wowhead.com/quest=10267/rightful-repossession"
+        ],
+        "comparisonCapture": "Not captured; human side-by-side review against the original TBC area/build remains open."
+      },
+      "compositionPrompt": "Original painterly illustration for Eco-Dome Midrealm. Preserve these Burning Crusade-era traits: A contained Netherstorm biodome with a luminous green canopy, cultivated alien plants, a pale Consortium outpost and violet fractured ground beyond. No copied game screenshot, logos, text or UI.",
+      "transparency": false,
+      "sourceIds": [
+        "consortium-request-assistance",
+        "consortium-rightful-repossession"
+      ],
+      "visualReview": "New original AI environment art; original-client resemblance comparison remains open. The image is interpretive and does not establish exact coordinates, layout or character co-presence."
+    },
+    {
+      "id": "stormspire",
+      "kind": "environment",
+      "title": "The Stormspire",
+      "assetPath": "images/storylines/consortium-arcatraz/stormspire.research.webp",
+      "sha256": "a8fdaf86f88940fa5b2497785695f4e3e5d11548fee346a81924a58d218f84f1",
+      "byteLength": 284228,
+      "provenance": "Original AI-generated environment illustration.",
+      "recognizableTbcTraits": "A suspended Consortium tower with pale metal, layered decks and arcane mechanisms above Netherstorm’s broken violet islands.",
+      "visualReference": {
+        "locator": [
+          "https://www.wowhead.com/tbc/quest=10268/an-audience-with-the-prince",
+          "https://www.wowhead.com/tbc/quest=10269/triangulation-point-one",
+          "https://www.wowhead.com/tbc/quest=10276/full-triangle"
+        ],
+        "comparisonCapture": "Not captured; human side-by-side review against the original TBC area/build remains open."
+      },
+      "compositionPrompt": "Original painterly illustration for The Stormspire. Preserve these Burning Crusade-era traits: A suspended Consortium tower with pale metal, layered decks and arcane mechanisms above Netherstorm’s broken violet islands. No copied game screenshot, logos, text or UI.",
+      "transparency": false,
+      "sourceIds": [
+        "consortium-audience-prince",
+        "consortium-triangulation-one",
+        "consortium-full-triangle"
+      ],
+      "visualReview": "New original AI environment art; no exact building plan or location is claimed. The image is interpretive and does not establish exact coordinates, layout or character co-presence."
+    },
+    {
+      "id": "farahlon",
+      "kind": "environment",
+      "title": "The Ruins of Farahlon",
+      "assetPath": "images/storylines/consortium-arcatraz/farahlon.research.webp",
+      "sha256": "1cb8e3b83da3e0c1ddeba95c6a39f83e122d0a0f52115c17f63bd8ef94ca0a62",
+      "byteLength": 251246,
+      "provenance": "Original AI-generated environment illustration.",
+      "recognizableTbcTraits": "An ancient draenei ruin on a shattered Netherstorm island, with violet haze, weathered pale stone and a distinct site for the Ata’mal Crystal encounter.",
+      "visualReference": {
+        "locator": [
+          "https://www.wowhead.com/tbc/quest=10276/full-triangle"
+        ],
+        "comparisonCapture": "Not captured; human side-by-side review against the original TBC area/build remains open."
+      },
+      "compositionPrompt": "Original painterly illustration for The Ruins of Farahlon. Preserve these Burning Crusade-era traits: An ancient draenei ruin on a shattered Netherstorm island, with violet haze, weathered pale stone and a distinct site for the Ata’mal Crystal encounter. No copied game screenshot, logos, text or UI.",
+      "transparency": false,
+      "sourceIds": [
+        "consortium-full-triangle"
+      ],
+      "visualReview": "New original AI environment art; exact geography, crystal placement and composition remain interpretive. The image is interpretive and does not establish exact coordinates, layout or character co-presence."
+    },
+    {
+      "id": "shattrath",
+      "kind": "environment",
+      "title": "Shattrath, Terrace of Light",
+      "assetPath": "images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "sha256": "7792b5d44ff73ea102ded7b2f16678110386a7ca1cf62262f989621deb304553",
+      "byteLength": 88526,
+      "provenance": "Reused original project illustration from Karazhan research story.",
+      "recognizableTbcTraits": "Pale cream draenei stone and open arches, a luminous naaru crystal, and dusty ground beyond the city.",
+      "visualReference": {
+        "locator": [
+          "https://www.wowhead.com/tbc/quest=10280/special-delivery-to-shattrath-city",
+          "https://www.wowhead.com/tbc/quest=10704/how-to-break-into-the-arcatraz"
+        ],
+        "comparisonCapture": "Not captured; human side-by-side review against the original TBC area/build remains open."
+      },
+      "compositionPrompt": "Existing project art reused because the named place and historical presentation fit this scene.",
+      "transparency": false,
+      "sourceIds": [
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest"
+      ],
+      "visualReview": "Reused original project illustration; original-client comparison remains open. The image is interpretive and does not establish exact coordinates, layout or character co-presence."
+    },
+    {
+      "id": "mechanar",
+      "kind": "environment",
+      "title": "Tempest Keep: The Mechanar",
+      "assetPath": "images/storylines/consortium-arcatraz/mechanar.research.webp",
+      "sha256": "c18dd0e429fbbb957673043faf5d23255f9e5c320f6ea36bfb1a1568650c63e0",
+      "byteLength": 217922,
+      "provenance": "Original AI-generated environment illustration.",
+      "recognizableTbcTraits": "A high, mechanical Tempest Keep wing: floating draenei-built architecture, pale metal and crystal, precise machinery, and Netherstorm’s violet void.",
+      "visualReference": {
+        "locator": [
+          "https://www.wowhead.com/tbc/quest=10704/how-to-break-into-the-arcatraz"
+        ],
+        "comparisonCapture": "Not captured; human side-by-side review against the original TBC area/build remains open."
+      },
+      "compositionPrompt": "Original painterly illustration for Tempest Keep: The Mechanar. Preserve these Burning Crusade-era traits: A high, mechanical Tempest Keep wing: floating draenei-built architecture, pale metal and crystal, precise machinery, and Netherstorm’s violet void. No copied game screenshot, logos, text or UI.",
+      "transparency": false,
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "visualReview": "New original AI environment art; it is not a dungeon layout or exact encounter screenshot. The image is interpretive and does not establish exact coordinates, layout or character co-presence."
+    },
+    {
+      "id": "botanica",
+      "kind": "environment",
+      "title": "Tempest Keep: The Botanica",
+      "assetPath": "images/storylines/consortium-arcatraz/botanica.research.webp",
+      "sha256": "450c1a3f7d6275df34f630e219be977f5352641fcfc0bf9a7611fa843833e50a",
+      "byteLength": 275304,
+      "provenance": "Original AI-generated environment illustration.",
+      "recognizableTbcTraits": "A floating Tempest Keep conservatory with pale draenei geometry, green growth within crystal structures, and the purple void outside.",
+      "visualReference": {
+        "locator": [
+          "https://www.wowhead.com/tbc/quest=10704/how-to-break-into-the-arcatraz"
+        ],
+        "comparisonCapture": "Not captured; human side-by-side review against the original TBC area/build remains open."
+      },
+      "compositionPrompt": "Original painterly illustration for Tempest Keep: The Botanica. Preserve these Burning Crusade-era traits: A floating Tempest Keep conservatory with pale draenei geometry, green growth within crystal structures, and the purple void outside. No copied game screenshot, logos, text or UI.",
+      "transparency": false,
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "visualReview": "New original AI environment art; it is not a dungeon layout or exact encounter screenshot. The image is interpretive and does not establish exact coordinates, layout or character co-presence."
+    },
+    {
+      "id": "arcatraz",
+      "kind": "environment",
+      "title": "The Arcatraz, Tempest Keep",
+      "assetPath": "images/storylines/akama-black-temple/arcatraz.research.webp",
+      "sha256": "70e00eea24da73e6d29b883031b09e4361154a73c01c1bff6328e197af24f403",
+      "byteLength": 73300,
+      "provenance": "Reused original project illustration from Akama and the Black Temple research story.",
+      "recognizableTbcTraits": "A floating crystalline draenei prison, angular ivory-and-red structures, energy cells and Netherstorm’s violet void.",
+      "visualReference": {
+        "locator": [
+          "https://www.wowhead.com/tbc/quest=10704/how-to-break-into-the-arcatraz",
+          "https://www.wowhead.com/tbc/quest=10882/harbinger-of-doom"
+        ],
+        "comparisonCapture": "Not captured; human side-by-side review against the original TBC area/build remains open."
+      },
+      "compositionPrompt": "Existing project art reused because the named place and historical presentation fit this scene.",
+      "transparency": false,
+      "sourceIds": [
+        "consortium-arcatraz-key-quest",
+        "consortium-harbinger-quest"
+      ],
+      "visualReview": "Reused original project illustration; distinguish the Consortium key and prison-break narrative from Karazhan’s separate third-fragment visit. The image is interpretive and does not establish exact coordinates, layout or character co-presence."
+    },
+    {
+      "id": "nether-stalker-khayji",
+      "kind": "figure",
+      "title": "Nether-Stalker Khay’ji",
+      "assetPath": "images/storylines/consortium-arcatraz/khayji.research.webp",
+      "sha256": "4e957edd48013f0267285a467aca34962f6aa0a405622a11dff45400025b3153",
+      "byteLength": 360442,
+      "provenance": "Original AI-generated interpretive cutout.",
+      "recognizableTraits": "Consortium agent at Area 52 who assigns the Arklon artifact, reports the Zaxxis break and refers the seeker to Gahruj.",
+      "sourceIds": [
+        "consortium-crystal-collection",
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad",
+        "consortium-request-assistance"
+      ],
+      "transparency": true,
+      "visualReview": "Compare against the original TBC client/item model. The art is not canonical model evidence, does not establish exact appearance, and is shown only in the relevant story beats."
+    },
+    {
+      "id": "warp-raider-nesaad",
+      "kind": "figure",
+      "title": "Warp-Raider Nesaad",
+      "assetPath": "images/storylines/consortium-arcatraz/nesaad.research.webp",
+      "sha256": "20256519ecf5d331d2ab8587718ce45d6dc0ea184e92cf133a9cc3010ffadb93",
+      "byteLength": 405782,
+      "provenance": "Original AI-generated interpretive cutout.",
+      "recognizableTraits": "Named Zaxxis warp-raider Khay’ji says survived his failed attack.",
+      "sourceIds": [
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad"
+      ],
+      "transparency": true,
+      "visualReview": "Compare against the original TBC client/item model. The art is not canonical model evidence, does not establish exact appearance, and is shown only in the relevant story beats."
+    },
+    {
+      "id": "consortium-agent-gahruj",
+      "kind": "figure",
+      "title": "Gahruj",
+      "assetPath": "images/storylines/consortium-arcatraz/gahruj.research.webp",
+      "sha256": "9ef2419738d9fd1cdd4f60a60b431399813f4559ec1c7563f9406b7111ada6f9",
+      "byteLength": 323816,
+      "provenance": "Original AI-generated interpretive cutout.",
+      "recognizableTraits": "Consortium representative at Eco-Dome Midrealm who describes the equipment dispute and requests its recovery.",
+      "sourceIds": [
+        "consortium-request-assistance",
+        "consortium-rightful-repossession",
+        "consortium-audience-prince"
+      ],
+      "transparency": true,
+      "visualReview": "Compare against the original TBC client/item model. The art is not canonical model evidence, does not establish exact appearance, and is shown only in the relevant story beats."
+    },
+    {
+      "id": "nexus-prince-haramad",
+      "kind": "figure",
+      "title": "Nexus-Prince Haramad",
+      "assetPath": "images/storylines/consortium-arcatraz/haramad.research.webp",
+      "sha256": "5621915093653f87599d2c00dc4e1a8353984dfc2c22a927c5eede0f3a21b44d",
+      "byteLength": 310286,
+      "provenance": "Original AI-generated interpretive cutout.",
+      "recognizableTraits": "Consortium leader encountered through an image at the Stormspire; names the crystal search and receives the recovered Ata’mal Crystal.",
+      "sourceIds": [
+        "consortium-audience-prince",
+        "consortium-triangulation-one",
+        "consortium-full-triangle",
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest"
+      ],
+      "transparency": true,
+      "visualReview": "Compare against the original TBC client/item model. The art is not canonical model evidence, does not establish exact appearance, and is shown only in the relevant story beats."
+    },
+    {
+      "id": "culuthas",
+      "kind": "figure",
+      "title": "Culuthas",
+      "assetPath": "images/storylines/consortium-arcatraz/culuthas.research.webp",
+      "sha256": "8d4f916e335865666ee2a8b611cc420f5d649f960acf83b511c3150ecb42db30",
+      "byteLength": 446380,
+      "provenance": "Original AI-generated interpretive cutout.",
+      "recognizableTraits": "Demon named in the Full Triangle quest as the bearer of the Ata’mal Crystal.",
+      "sourceIds": [
+        "consortium-full-triangle"
+      ],
+      "transparency": true,
+      "visualReview": "Compare against the original TBC client/item model. The art is not canonical model evidence, does not establish exact appearance, and is shown only in the relevant story beats."
+    },
+    {
+      "id": "adal",
+      "kind": "figure",
+      "title": "A’dal",
+      "assetPath": "images/storylines/akama-black-temple/adal.research.webp",
+      "sha256": "029ea8f2cbc66f19e109ef8ded9c306ef64201618a70468b1451588d7b1ff63e",
+      "byteLength": 140520,
+      "provenance": "Reused original project figure from Akama and the Black Temple research story.",
+      "recognizableTraits": "Naaru leader at Shattrath’s Terrace of Light; existing original abstract story figure.",
+      "sourceIds": [
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest",
+        "consortium-harbinger-quest"
+      ],
+      "transparency": true,
+      "visualReview": "Compare against the original TBC client/item model. The art is not canonical model evidence, does not establish exact appearance, and is shown only in the relevant story beats."
+    },
+    {
+      "id": "pathaleon-the-calculator",
+      "kind": "figure",
+      "title": "Pathaleon the Calculator",
+      "assetPath": "images/storylines/consortium-arcatraz/pathaleon.research.webp",
+      "sha256": "ff7d476e53cdfa3254a0eda44402c3b543b1bc5a0162b3104f0992b16ced55e3",
+      "byteLength": 338954,
+      "provenance": "Original AI-generated interpretive cutout.",
+      "recognizableTraits": "Named as holder of the Bottom Shard of the Arcatraz Key in the Mechanar.",
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "transparency": true,
+      "visualReview": "Compare against the original TBC client/item model. The art is not canonical model evidence, does not establish exact appearance, and is shown only in the relevant story beats."
+    },
+    {
+      "id": "warp-splinter",
+      "kind": "figure",
+      "title": "Warp Splinter",
+      "assetPath": "images/storylines/consortium-arcatraz/warp-splinter.research.webp",
+      "sha256": "de5b8f55c66015f636452450667e2b52533966b3ed2934c77034286deb5d70a7",
+      "byteLength": 496956,
+      "provenance": "Original AI-generated interpretive cutout.",
+      "recognizableTraits": "Named as holder of the Top Shard of the Arcatraz Key in the Botanica.",
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "transparency": true,
+      "visualReview": "Compare against the original TBC client/item model. The art is not canonical model evidence, does not establish exact appearance, and is shown only in the relevant story beats."
+    },
+    {
+      "id": "harbinger-skyriss",
+      "kind": "figure",
+      "title": "Harbinger Skyriss",
+      "assetPath": "images/storylines/consortium-arcatraz/skyriss.research.webp",
+      "sha256": "9869c3bbc3229062b556cf0e6a42cf683d2280cfe31451d51880bc42ddf778f1",
+      "byteLength": 474894,
+      "provenance": "Original AI-generated interpretive cutout.",
+      "recognizableTraits": "Prisoner A’dal identifies as a servant of the Old Gods and a threat if he escapes; original interpretive art, not model evidence.",
+      "sourceIds": [
+        "consortium-harbinger-quest"
+      ],
+      "transparency": true,
+      "visualReview": "Compare against the original TBC client/item model. The art is not canonical model evidence, does not establish exact appearance, and is shown only in the relevant story beats."
+    },
+    {
+      "id": "ata-mal-crystal",
+      "kind": "artifact",
+      "title": "Ata’mal Crystal — Spirit’s Song",
+      "assetPath": "images/storylines/consortium-arcatraz/ata-mal-crystal.research.webp",
+      "sha256": "9110e612d75f62302c75761e9d124e10c094482be1a2d54bc1d12d2f911f7d40",
+      "byteLength": 243628,
+      "provenance": "Original AI-generated interpretive cutout.",
+      "recognizableTraits": "The crystal recovered from Culuthas, later named Spirit’s Song by A’dal. Shape and glow are interpretive, not canonical item-model evidence.",
+      "sourceIds": [
+        "consortium-full-triangle",
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest"
+      ],
+      "transparency": true,
+      "visualReview": "Compare against the original TBC client/item model. The art is not canonical model evidence, does not establish exact appearance, and is shown only in the relevant story beats."
+    },
+    {
+      "id": "key-to-the-arcatraz",
+      "kind": "artifact",
+      "title": "Key to the Arcatraz",
+      "assetPath": "images/storylines/consortium-arcatraz/key-of-the-arcatraz.research.webp",
+      "sha256": "f8dc2bbfd5d514f753a2cf808513ccf344fb19e02818038f1bd6a10e1ea600f2",
+      "byteLength": 238162,
+      "provenance": "Original AI-generated interpretive cutout.",
+      "recognizableTraits": "A’dal’s combined key made from the two recovered shards; exact item appearance remains interpretive.",
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "transparency": true,
+      "visualReview": "Compare against the original TBC client/item model. The art is not canonical model evidence, does not establish exact appearance, and is shown only in the relevant story beats."
+    }
+  ]
+}
