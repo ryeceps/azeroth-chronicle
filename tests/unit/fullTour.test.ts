@@ -82,7 +82,7 @@ describe('Mega Tour and separate era and story tours', () => {
       'wrathgate-and-undercity',
       'quel-delar-restored',
     ]);
-    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 21 + 21 + 15 + 15 + 13 + 18 + 15 + 15 + 20 + 26 + 9 + 17 + 17 + 24 + 21 + 19 + 19);
+    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 21 + 21 + 15 + 17 + 13 + 18 + 15 + 15 + 20 + 26 + 9 + 17 + 17 + 24 + 21 + 19 + 19);
     const akamaStart = stops.findIndex((stop) => stop.storylineSlug === 'akama-and-black-temple');
     expect(stops[akamaStart - 1]?.storylineSlug).toBe('hero-of-the-maghar');
     const consortiumStart = stops.findIndex((stop) => stop.storylineSlug === 'consortium-and-arcatraz');

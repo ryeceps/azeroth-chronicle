@@ -634,7 +634,7 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(399);
+    expect(events).toHaveLength(401);
     expect(events.filter((event) => event.id.startsWith('onyxia-'))).toHaveLength(21);
     expect(events.filter((event) => event.id.startsWith('dungeon-set-two-'))).toHaveLength(22);
     expect(events.filter((event) => event.id.startsWith('fallen-hero-and-rakhlikh-'))).toHaveLength(15);
@@ -1326,7 +1326,7 @@ describe('lore dataset', () => {
     expect(story.contentStatus).toBe('research');
     expect(story.showInEraTourOffshoots).toBe(false);
     expect(guide.contentStatus).toBe('research');
-    expect(guide.nodeIds).toHaveLength(15);
+    expect(guide.nodeIds).toHaveLength(17);
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
     expect(entry.order).toBe(9);
     expect(entry.regionIds).toEqual(['kalimdor', 'eastern-kingdoms']);
@@ -1337,7 +1337,7 @@ describe('lore dataset', () => {
     expect(nodes[7]?.narration).toMatch(/later physical manifestation/);
     expect(story.reviewNote).toMatch(/Sunken Temple summons an avatar.*later physical summoning/);
     expect(nodes[7]?.narration).toMatch(/victory had reached an avatar/);
-    expect(assets.assets).toHaveLength(19);
+    expect(assets.assets).toHaveLength(25);
     expect(assets.assets.every((asset) => asset.promptId && asset.visualIntent)).toBe(true);
     for (const asset of assets.assets) {
       const bytes = readFileSync(resolve('public', asset.assetPath));
@@ -1363,7 +1363,14 @@ describe('lore dataset', () => {
         if (image) expect(existsSync(resolve('public', image))).toBe(true);
       }
     }
-    expect(nodes.at(-1)?.narration).toMatch(/Yojamba Isle/);
+    expect(nodes[14]?.narration).toMatch(/Yojamba Isle/);
+    expect(nodes[15]?.narration).toMatch(/No source .* proves that Yeh'kinya's egg enabled Jin'do's separate summoning/);
+    expect(nodes.at(-1)?.narration).toMatch(/Hakkar banished to the plane from which he came/);
+    const physicalHakkar = data.entities.find((item) => item.id === 'yehkinya-and-hakkars-return-hakkar-soulflayer')!;
+    const templeAvatar = data.entities.find((item) => item.id === 'yehkinya-and-hakkars-return-avatar-of-hakkar')!;
+    expect(physicalHakkar.mapFigure?.asset).not.toBe(templeAvatar.mapFigure?.asset);
+    expect(nodes.at(-1)?.entityIds).toContain('yehkinya-and-hakkars-return-zulgurub');
+    expect(nodes.at(-1)?.entityIds).not.toContain(physicalHakkar.id);
   });
 
   it('keeps Onyxia in the separate Classic-to-Wrath story atlas', () => {

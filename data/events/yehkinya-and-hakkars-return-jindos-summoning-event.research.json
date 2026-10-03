@@ -1,0 +1,32 @@
+{
+  "id": "yehkinya-and-hakkars-return-jindos-summoning-event",
+  "kind": "event",
+  "name": "Jin'do summons Hakkar at Zul'Gurub",
+  "slug": "yehkinya-and-hakkars-return-jindos-summoning-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "azeroth",
+  "date": {
+    "precision": "unknown",
+    "label": "WoW Classic Zul'Gurub campaign; exact in-world date unknown"
+  },
+  "summary": "During WoW Classic, Jin'do summoned Hakkar the Soulflayer into Azeroth at Zul'Gurub. Blizzard's Burning Crusade manual distinguishes this later physical return from the avatar summoned earlier in the Sunken Temple. The sources gathered here do not establish that Yeh'kinya's Ancient Egg caused Jin'do's separate rite.",
+  "locationIds": [
+    "yehkinya-and-hakkars-return-zulgurub"
+  ],
+  "participantEntityIds": [
+    "yehkinya-and-hakkars-return-jindo-hexxer",
+    "yehkinya-and-hakkars-return-hakkar-soulflayer",
+    "yehkinya-and-hakkars-return-hakkar-priests-zulgurub"
+  ],
+  "relationshipIds": [
+    "yehkinya-and-hakkars-return-jindos-summoning-precedes-banishment"
+  ],
+  "sourceIds": [
+    "yehkinya-and-hakkars-return-manual",
+    "yehkinya-and-hakkars-return-blizzard-patch-1-7"
+  ],
+  "claimIds": [
+    "yehkinya-and-hakkars-return-jindos-physical-summoning-claim"
+  ],
+  "contentStatus": "research"
+}

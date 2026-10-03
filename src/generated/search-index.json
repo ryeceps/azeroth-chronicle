@@ -11858,6 +11858,67 @@
     "contentStatus": "research"
   },
   {
+    "id": "yehkinya-and-hakkars-return-hakkar-priests-zulgurub",
+    "type": "entity",
+    "name": "Hakkar's priests at Zul'Gurub",
+    "slug": "yehkinya-and-hakkars-return-hakkar-priests-zulgurub",
+    "path": "/locations/yehkinya-and-hakkars-return-hakkar-priests-zulgurub",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hakkar",
+      "gurubashi",
+      "classic-story"
+    ],
+    "description": "A composite group representing the priests associated with Hakkar's Zul'Gurub return.",
+    "sourceIds": [
+      "yehkinya-and-hakkars-return-manual",
+      "yehkinya-and-hakkars-return-blizzard-patch-1-7"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "yehkinya-and-hakkars-return-hakkar-soulflayer",
+    "type": "entity",
+    "name": "Hakkar the Soulflayer",
+    "slug": "yehkinya-and-hakkars-return-hakkar-soulflayer",
+    "path": "/locations/yehkinya-and-hakkars-return-hakkar-soulflayer",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hakkar",
+      "physical-manifestation",
+      "classic-story"
+    ],
+    "description": "The blood god physically summoned into Azeroth at Zul'Gurub during WoW Classic.",
+    "sourceIds": [
+      "yehkinya-and-hakkars-return-manual",
+      "yehkinya-and-hakkars-return-blizzard-patch-1-7",
+      "blizzard-burning-crusade-story-so-far"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "yehkinya-and-hakkars-return-jindo-hexxer",
+    "type": "entity",
+    "name": "Jin'do the Hexxer",
+    "slug": "yehkinya-and-hakkars-return-jindo-hexxer",
+    "path": "/locations/yehkinya-and-hakkars-return-jindo-hexxer",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "gurubashi",
+      "hexxer",
+      "classic-story"
+    ],
+    "description": "The Hexxer who summoned Hakkar the Soulflayer into Azeroth at Zul'Gurub.",
+    "sourceIds": [
+      "yehkinya-and-hakkars-return-manual",
+      "yehkinya-and-hakkars-return-blizzard-patch-1-7"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "yehkinya-and-hakkars-return-jintha-alor-ancient-egg",
     "type": "entity",
     "name": "Jintha'Alor and the Ancient Egg",
@@ -12121,6 +12182,26 @@
     "description": "Interpretive troll ziggurat for two of the later Mosh'aru tablets.",
     "sourceIds": [
       "yehkinya-and-hakkars-return-quest-5065"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "yehkinya-and-hakkars-return-zulgurub",
+    "type": "entity",
+    "name": "Zul'Gurub",
+    "slug": "yehkinya-and-hakkars-return-zulgurub",
+    "path": "/locations/yehkinya-and-hakkars-return-zulgurub",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "gurubashi",
+      "classic-story",
+      "hakkar"
+    ],
+    "description": "Ancient Gurubashi capital where Jin'do summoned Hakkar into Azeroth during WoW Classic.",
+    "sourceIds": [
+      "yehkinya-and-hakkars-return-manual",
+      "yehkinya-and-hakkars-return-blizzard-patch-1-7"
     ],
     "contentStatus": "research"
   },
@@ -19825,6 +19906,22 @@
     "contentStatus": "research"
   },
   {
+    "id": "yehkinya-and-hakkars-return-hakkar-banished-event",
+    "type": "event",
+    "name": "Hakkar banished from Azeroth",
+    "slug": "yehkinya-and-hakkars-return-hakkar-banished-event",
+    "path": "/events/yehkinya-and-hakkars-return-hakkar-banished-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Blizzard's Burning Crusade Classic retrospective records that Hakkar was banished to the plane from which he came. This closes the immediate Zul'Gurub threat in that Classic-era account; the summary does not name individual victors or establish a causal link to Yeh'kinya's Ancient Egg.",
+    "sourceIds": [
+      "yehkinya-and-hakkars-return-blizzard-patch-1-7",
+      "blizzard-burning-crusade-story-so-far"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "yehkinya-and-hakkars-return-ironboot-finds-six-tablets-event",
     "type": "event",
     "name": "Ironboot and the six tablets",
@@ -19852,6 +19949,22 @@
     "sourceIds": [
       "yehkinya-and-hakkars-return-quest-8181",
       "yehkinya-and-hakkars-return-manual"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "yehkinya-and-hakkars-return-jindos-summoning-event",
+    "type": "event",
+    "name": "Jin'do summons Hakkar at Zul'Gurub",
+    "slug": "yehkinya-and-hakkars-return-jindos-summoning-event",
+    "path": "/events/yehkinya-and-hakkars-return-jindos-summoning-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "During WoW Classic, Jin'do summoned Hakkar the Soulflayer into Azeroth at Zul'Gurub. Blizzard's Burning Crusade manual distinguishes this later physical return from the avatar summoned earlier in the Sunken Temple. The sources gathered here do not establish that Yeh'kinya's Ancient Egg caused Jin'do's separate rite.",
+    "sourceIds": [
+      "yehkinya-and-hakkars-return-manual",
+      "yehkinya-and-hakkars-return-blizzard-patch-1-7"
     ],
     "contentStatus": "research"
   },
@@ -21373,7 +21486,7 @@
     ],
     "aliases": [],
     "tags": [],
-    "description": "Spirits, tablets and an ancient vessel draw a stranger into Yeh’kinya’s concealed purpose. A victory in the Sunken Temple gives way to a warning and an appeal for aid.",
+    "description": "A stranger's search reveals Yeh'kinya's purpose, then reaches beyond the Ancient Egg tale to the separately sourced Classic return and banishment of Hakkar at Zul'Gurub.",
     "sourceIds": [
       "yehkinya-and-hakkars-return-quest-3520",
       "yehkinya-and-hakkars-return-quest-3527",
@@ -21385,7 +21498,9 @@
       "yehkinya-and-hakkars-return-quest-8182",
       "yehkinya-and-hakkars-return-manual",
       "yehkinya-and-hakkars-return-yehkinya-character",
-      "yehkinya-and-hakkars-return-avatar-character"
+      "yehkinya-and-hakkars-return-avatar-character",
+      "yehkinya-and-hakkars-return-blizzard-patch-1-7",
+      "blizzard-burning-crusade-story-so-far"
     ],
     "contentStatus": "research"
   }
