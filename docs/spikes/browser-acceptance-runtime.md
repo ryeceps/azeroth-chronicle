@@ -26,4 +26,5 @@ Production main c8576d8, Ubuntu 24.04 GitHub runner, Chromium, one worker, conti
 - pnpm check: 24 unit files, 78 tests, and 3,204 validated records passed.
 - pnpm build passed.
 - Initial local capture/config run: 50 passed, 2 Linux-only skips, 1 phone layout race failed, and the dependent renderer test did not run (6m 24s). After polling the same layout condition, both Quel’Delar tests and the isolated renderer test passed (33.9s).
-- Full local browser suite with optional review captures and equivalent fresh Linux CI measurement pending.
+- Final local profile: Windows, Chromium, CI mode, two acceptance workers, isolated renderer worker, 1920x1080 default viewport, optional review captures disabled: **52 passed, 2 Linux-only visual skips, 0 retries, 5.0 minutes**, including the 90-frame renderer benchmark.
+- Final Linux CI execution and timing evidence is linked from [PR #35](https://github.com/ryeceps/azeroth-chronicle/pull/35). Compare the browser step against the 1,733-second Linux baseline, rather than treating Windows timing as a Linux result.
