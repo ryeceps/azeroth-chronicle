@@ -24,7 +24,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   expect(mapFrameBounds!.y).toBe(0);
   expect(controlBounds!.y).toBe(0);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
-  await expect(page.locator('.story-tour-dot')).toHaveCount(21);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(22);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
   await expect(page.locator('.story-tour-backdrop, .story-tour-section-heading, .story-tour-map-caption, .story-tour-order-note')).toHaveCount(0);
   await expect(page.locator('.story-tour-tooltip').first()).toHaveCSS('visibility', 'hidden');
@@ -48,6 +48,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const netherwing = page.getByRole('button', { name: /netherwing-liberation|Netherwing/i });
   const swiftFlight = page.getByRole('button', { name: /swift-flight-form-raven-legacy|Swift Flight Form/i });
   const missingDiplomat = page.getByRole('button', { name: /missing-diplomat-original-investigation|The Missing Diplomat/i });
+  const shatteredSun = page.getByRole('button', { name: /shattered-sun-and-sunwell|Shattered Sun and the restored Sunwell/i });
   const northrend = page.getByRole('button', { name: /wrathgate-and-undercity|Wrathgate/i });
   const quelDelar = page.getByRole('button', { name: /quel-delar-restored|Broken Blade Restored/i });
   await expect(onyxia).toBeVisible();
@@ -69,6 +70,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(netherwing).toBeVisible();
   await expect(swiftFlight).toBeVisible();
   await expect(missingDiplomat).toBeVisible();
+  await expect(shatteredSun).toBeVisible();
   await expect(northrend).toBeVisible();
   await expect(quelDelar).toBeVisible();
 
@@ -230,6 +232,11 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(northrendCard.getByRole('heading', { name: 'The Wrathgate and Undercity' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Play all stories' })).toBeEnabled();
   await northrend.evaluate((marker: HTMLButtonElement) => marker.blur());
+  await shatteredSun.hover();
+  const shatteredSunCard = page.locator('#story-tour-tip-shattered-sun-and-sunwell');
+  await expect(shatteredSunCard.getByRole('heading', { name: 'The Shattered Sun and the restored Sunwell' })).toBeVisible();
+  await expect(shatteredSunCard).toContainText('Playable story');
+  await captureVisualReview(page, { path: 'output/shattered-sun-sunwell-visual-review/classic-wrath-tour-desktop.png', fullPage: true });
   await quelDelar.hover();
   const quelDelarCard = page.locator('#story-tour-tip-quel-delar-restored');
   await expect(quelDelarCard.getByRole('heading', { name: 'Quel’Delar: The Broken Blade Restored' })).toBeVisible();
@@ -378,6 +385,10 @@ test('Play All advances completed stories in chronological order and restores th
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('missing-diplomat-original-investigation');
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=missing-diplomat-original-investigation&node=missing-diplomat-original-investigation-story-return-to-jaina&play=all');
   await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'A fount for a new home', exact: true })).toBeVisible();
+  await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('shattered-sun-and-sunwell');
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=shattered-sun-and-sunwell&node=shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'A hilt without a finder' })).toBeVisible();
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('quel-delar-restored');
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=quel-delar-restored&node=quel-delar-restored-story-faction-handoffs&play=all');
@@ -443,6 +454,14 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
     const params = new URL(page.url()).searchParams;
     return [params.get('node'), params.get('play')];
   }).toEqual(['onyxia-story-true-masters', 'story']);
+  await page.goto('/tours/classic-to-wrath');
+  const phoneShatteredSun = page.getByRole('button', { name: /shattered-sun-and-sunwell|Shattered Sun and the restored Sunwell/i });
+  await phoneShatteredSun.click();
+  const phoneShatteredSunCard = page.locator('.story-tour-touch-card');
+  await expect(phoneShatteredSunCard.getByRole('heading', { name: 'The Shattered Sun and the restored Sunwell' })).toBeVisible();
+  await captureVisualReview(page, { path: 'output/shattered-sun-sunwell-visual-review/classic-wrath-tour-phone.png', fullPage: true });
+  await phoneShatteredSunCard.getByRole('button', { name: 'Play story' }).click();
+  await expect(page.getByRole('heading', { name: 'A fount for a new home', exact: true })).toBeVisible();
   await page.goto('/tours/classic-to-wrath');
   await page.getByRole('button', { name: /darrowshire-lost-and-remembered|Darrowshire/i }).click();
   await expect(page.locator('.story-tour-touch-card').getByRole('heading', { name: 'Darrowshire: Lost and Remembered' })).toBeVisible();

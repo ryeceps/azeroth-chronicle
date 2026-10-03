@@ -1,0 +1,1028 @@
+{
+  "guide": {
+    "id": "shattered-sun-and-sunwell-guide",
+    "eraId": "age-of-adventurers",
+    "title": "The Shattered Sun and the restored Sunwell",
+    "description": "Twenty-one illustrated research scenes follow the Sunwell’s earlier history, Kael’thas’s patch-2.4 scheme, the joint Shattered Sun campaign, parallel island and Outland operations, the named raid encounters, Anveena’s sacrifice and the original epilogue.",
+    "nodeIds": [
+      "shattered-sun-and-sunwell-story-a-fount-for-a-new-home",
+      "shattered-sun-and-sunwell-story-a-sacred-water-defiled",
+      "shattered-sun-and-sunwell-story-the-prince-returns",
+      "shattered-sun-and-sunwell-story-shattrath-stands-together",
+      "shattered-sun-and-sunwell-story-two-calls-to-the-isle",
+      "shattered-sun-and-sunwell-story-shorehead-on-quel-danas",
+      "shattered-sun-and-sunwell-story-the-island-front-opens",
+      "shattered-sun-and-sunwell-story-outland-support-fronts",
+      "shattered-sun-and-sunwell-story-the-missing-contact",
+      "shattered-sun-and-sunwell-story-kael-at-the-terrace",
+      "shattered-sun-and-sunwell-story-the-plateau-breach",
+      "shattered-sun-and-sunwell-story-kalecgos-under-control",
+      "shattered-sun-and-sunwell-story-brutallus-and-madrigosa",
+      "shattered-sun-and-sunwell-story-felmyst-rises",
+      "shattered-sun-and-sunwell-story-the-eredar-twins",
+      "shattered-sun-and-sunwell-story-muru-becomes-entropius",
+      "shattered-sun-and-sunwell-story-kiljaeden-crosses-the-well",
+      "shattered-sun-and-sunwell-story-anveena-acts",
+      "shattered-sun-and-sunwell-story-the-deceiver-driven-back",
+      "shattered-sun-and-sunwell-story-the-tainted-fount-remains",
+      "shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "shattered-sun-and-sunwell-story-a-fount-for-a-new-home",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "A fount for a new home",
+      "narration": "Long before this campaign, exiles from Kalimdor crossed to the northern Eastern Kingdoms and made Quel’Thalas their home. There, at a convergence of arcane power, they raised the Sunwell. Its waters became a center of their new nation and a source the blood elves would later struggle to live without. The people built their home around the fount, and all that followed would be measured against its loss.",
+      "durationMs": 55000,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-a-fount-for-a-new-home-event"
+      ],
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-a-fount-for-a-new-home-scene"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-a-fount-for-a-new-home.mp3",
+        "durationMs": 27750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-a-sacred-water-defiled"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-a-sacred-water-defiled",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "A sacred water defiled",
+      "narration": "When the Scourge reached Quel’Thalas, its advance ended in ruin for the kingdom. Arthas Menethil corrupted the Sunwell in the course of that invasion. The fount that had sustained the high elves was lost, leaving the surviving blood elves to seek other ways through their hunger for magic. Its loss cast a long shadow across the years ahead.",
+      "durationMs": 47500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-a-sacred-water-defiled-event"
+      ],
+      "locationIds": [
+        "sunwell-ancient"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-a-sacred-water-defiled-scene"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-a-sacred-water-defiled.mp3",
+        "durationMs": 24250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-a-fount-for-a-new-home",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-the-prince-returns"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-the-prince-returns",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "The prince returns",
+      "narration": "After his defeat in Outland, Kael’thas returned to Silvermoon. He betrayed the people he had promised to lead and turned toward a new design: using the Sunwell to summon Kil’jaeden. Thus the fount became an immediate danger once more, and an inheritance the blood elves could not reclaim.",
+      "durationMs": 40000,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-the-prince-returns-event"
+      ],
+      "entityIds": [
+        "kael-thas-sunwell-appearance"
+      ],
+      "locationIds": [
+        "silvermoon-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-the-prince-returns-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kael-thas-sunwell-appearance"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-prince-returns.mp3",
+        "durationMs": 21025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-a-sacred-water-defiled",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-shattrath-stands-together"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-shattrath-stands-together",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "Shattrath stands together",
+      "narration": "In Shattrath, blood elves and draenei joined the Shattered Sun Offensive against Kael’thas and the Legion. The coalition crossed old divisions to confront a threat aimed at Quel’Thalas. Heroes of the Horde and Alliance also took part; together, they turned toward the endangered fount.",
+      "durationMs": 37000,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-shattrath-stands-together-event"
+      ],
+      "locationIds": [
+        "shattrath-terrace-of-light"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-shattrath-stands-together-scene"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-shattrath-stands-together.mp3",
+        "durationMs": 21000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-the-prince-returns",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-two-calls-to-the-isle"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-two-calls-to-the-isle",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "Two calls to the Isle",
+      "narration": "From Shattrath came two calls to the isle’s work. Aldor agents sent the seeker north with “Crisis at the Sunwell,” while the Scryers offered “Duty Calls.” The choice began on opposite sides of the Terrace of Light, yet both led across the sea toward Quel’Danas and the staging ground near the fount.",
+      "durationMs": 43000,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-two-calls-to-the-isle-event"
+      ],
+      "locationIds": [
+        "shattrath-terrace-of-light"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-two-calls-to-the-isle-scene"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-two-calls-to-the-isle.mp3",
+        "durationMs": 21550,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-shattrath-stands-together",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-shorehead-on-quel-danas"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-shorehead-on-quel-danas",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "A shorehead on Quel’Danas",
+      "narration": "The first position on the island is small and exposed. The Offensive arrives with limited forces near the Sunwell Plateau, where blood elves aligned with Kael’thas and demons hold the way inward. From that shorehead, the scattered coalition begins to press the island and its guarded approach.",
+      "durationMs": 39500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-shorehead-on-quel-danas-event"
+      ],
+      "locationIds": [
+        "isle-of-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-shorehead-on-quel-danas-scene"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-shorehead-on-quel-danas.mp3",
+        "durationMs": 21025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-two-calls-to-the-isle",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-the-island-front-opens"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-the-island-front-opens",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "The island front opens",
+      "narration": "Across the sanctum, armory and harbor, the coalition presses against Kael’thas’s banners. Farther off, a portal opens toward Shattrath, widening the reach of the island front. Each gain brings the defenders nearer to the plateau and the fount they guard.",
+      "durationMs": 34500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-the-island-front-opens-event"
+      ],
+      "locationIds": [
+        "isle-of-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-the-island-front-opens-scene"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-island-front-opens.mp3",
+        "durationMs": 18750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-shorehead-on-quel-danas",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-outland-support-fronts"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-outland-support-fronts",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "Outland supports the campaign",
+      "narration": "The Offensive’s work reached back into Outland as well. Bands struck Sunfury holdings and gathered what the campaign needed, while other soldiers held the island front. Each force bore its own burden beneath the broken sky, far from the shore of Quel’Danas.",
+      "durationMs": 35500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-outland-support-fronts-event"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-outland-support-fronts-scene"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-outland-support-fronts.mp3",
+        "durationMs": 19000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-the-island-front-opens",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-the-missing-contact"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-the-missing-contact",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "The missing contact",
+      "narration": "An intelligence contact inside Magisters’ Terrace stops reporting. The Shattered Sun sends a search party into the blood-elf complex to find the missing spy and recover what they learned. Within those polished halls, the campaign meets another face of Kael’thas’s rule.",
+      "durationMs": 35000,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-the-missing-contact-event"
+      ],
+      "locationIds": [
+        "magisters-terrace-sunwell"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-the-missing-contact-scene"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-missing-contact.mp3",
+        "durationMs": 20175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-outland-support-fronts",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-kael-at-the-terrace"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-kael-at-the-terrace",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "Kael’thas at the Terrace",
+      "narration": "Elsewhere on the isle, the Shattered Sun confronts Kael’thas within Magisters’ Terrace. His stand ends there; at the plateau, the Sunwell remains beneath his design. The prince is stopped, yet the fount itself is still in danger.",
+      "durationMs": 32000,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-kael-at-the-terrace-event"
+      ],
+      "entityIds": [
+        "kael-thas-sunwell-appearance"
+      ],
+      "locationIds": [
+        "magisters-terrace-sunwell"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-kael-at-the-terrace-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kael-thas-sunwell-appearance"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-kael-at-the-terrace.mp3",
+        "durationMs": 17000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-the-missing-contact",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-the-plateau-breach"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-the-plateau-breach",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "The plateau breach",
+      "narration": "Beyond the island’s outer battles lies Sunwell Plateau, where Kael’thas has turned the fount toward his summoning. Demons and corrupted light gather around the heart of Quel’Thalas. The defenders must cross the high sanctum and reach the well itself.",
+      "durationMs": 33500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-the-plateau-breach-event"
+      ],
+      "locationIds": [
+        "sunwell-plateau-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-the-plateau-breach-scene"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-plateau-breach.mp3",
+        "durationMs": 18100,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-kael-at-the-terrace",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-kalecgos-under-control"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-kalecgos-under-control",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "Kalecgos under control",
+      "narration": "At the edge of the inner sanctum, Sathrovarr holds Kalecgos in thrall. The blue dragon fights from within a shadowed realm even as allies face the dreadlord outside. When his captor’s hold breaks, Kalecgos is free to lend his strength to the defense.",
+      "durationMs": 36500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-kalecgos-under-control-event"
+      ],
+      "entityIds": [
+        "kalecgos-dragon-form",
+        "sathrovarr-the-corruptor"
+      ],
+      "locationIds": [
+        "sunwell-plateau-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-kalecgos-under-control-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kalecgos-dragon-form"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "sathrovarr-the-corruptor"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-kalecgos-under-control.mp3",
+        "durationMs": 18000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-the-plateau-breach",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-brutallus-and-madrigosa"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-brutallus-and-madrigosa",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "Brutallus and Madrigosa",
+      "narration": "Above the Dead Scar, Madrigosa challenges Brutallus. The pit lord strikes the blue dragon down, and her fall dims the defenders’ hopes. Yet the fel blood spilled from Brutallus will not leave her body in peace.",
+      "durationMs": 31500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-brutallus-and-madrigosa-event"
+      ],
+      "entityIds": [
+        "brutallus",
+        "madrigosa"
+      ],
+      "locationIds": [
+        "sunwell-plateau-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-brutallus-and-madrigosa-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "brutallus"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "madrigosa"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-brutallus-and-madrigosa.mp3",
+        "durationMs": 15650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-kalecgos-under-control",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-felmyst-rises"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-felmyst-rises",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "Felmyst rises",
+      "narration": "From Brutallus’s wound, fel blood spreads beneath Madrigosa and stirs the fallen dragon once more. She rises as Felmyst, her blue form emptied of its old grace and wreathed in green fire. The cost of the battle follows the attackers deeper into the plateau.",
+      "durationMs": 37000,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-felmyst-rises-event"
+      ],
+      "entityIds": [
+        "felmyst"
+      ],
+      "locationIds": [
+        "sunwell-plateau-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-felmyst-rises-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "felmyst"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-felmyst-rises.mp3",
+        "durationMs": 20250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-brutallus-and-madrigosa",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-the-eredar-twins"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-the-eredar-twins",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "The paired warlocks",
+      "narration": "Lady Sacrolash and Grand Warlock Alythess stand together before the deeper halls. Their crimson and violet powers guard the way toward M’uru. Together, the Eredar Twins form one last wall between the Offensive and the fount.",
+      "durationMs": 31500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-the-eredar-twins-event"
+      ],
+      "entityIds": [
+        "eredar-twins"
+      ],
+      "locationIds": [
+        "sunwell-plateau-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-the-eredar-twins-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "eredar-twins"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-eredar-twins.mp3",
+        "durationMs": 17900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-felmyst-rises",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-muru-becomes-entropius"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-muru-becomes-entropius",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "M’uru and Entropius",
+      "narration": "Within the Shrine of the Eclipse, the Offensive reaches M’uru, the naaru taken from Silvermoon. Its light has darkened into Entropius, and the defenders are forced to destroy the captive they had hoped to save. A spark endures within the heart that remains.",
+      "durationMs": 36500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-muru-becomes-entropius-event"
+      ],
+      "entityIds": [
+        "muru-entropius"
+      ],
+      "locationIds": [
+        "sunwell-plateau-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-muru-becomes-entropius-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "muru-entropius"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-muru-becomes-entropius.mp3",
+        "durationMs": 18925,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-the-eredar-twins",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-kiljaeden-crosses-the-well"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-kiljaeden-crosses-the-well",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "Kil’jaeden crosses the well",
+      "narration": "At the last chamber, Kil’jaeden rises from the Sunwell, and the portal he sought begins to take shape. Kalecgos and the blue dragonflight join the defense around the threatened fount. Only Anveena’s act can break the demon’s advance.",
+      "durationMs": 33000,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-kiljaeden-crosses-the-well-event"
+      ],
+      "entityIds": [
+        "kiljaeden-sunwell-appearance",
+        "kalecgos-dragon-form"
+      ],
+      "locationIds": [
+        "sunwell-plateau-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-kiljaeden-crosses-the-well-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kiljaeden-sunwell-appearance"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kalecgos-dragon-form"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-kiljaeden-crosses-the-well.mp3",
+        "durationMs": 17425,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-muru-becomes-entropius",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-anveena-acts"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-anveena-acts",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "Anveena’s choice",
+      "narration": "As Kil’jaeden threatens to break through, Anveena turns her power against him. Her sacrifice weakens the demon, and the attackers drive him from the well. The light she gives is spent; still, taint remains in the waters below.",
+      "durationMs": 33000,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-anveena-acts-event"
+      ],
+      "entityIds": [
+        "anveena-teague",
+        "kiljaeden-sunwell-appearance",
+        "kalecgos-dragon-form"
+      ],
+      "locationIds": [
+        "sunwell-plateau-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-anveena-acts-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "anveena-teague"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kiljaeden-sunwell-appearance"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kalecgos-dragon-form"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-anveena-acts.mp3",
+        "durationMs": 16650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-kiljaeden-crosses-the-well",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-the-deceiver-driven-back"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-the-deceiver-driven-back",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "The Deceiver is driven back",
+      "narration": "The heroes banish Kil’jaeden from the fount and stop the summoning before the Legion can pour through. The immediate invasion is ended. Yet the Sunwell’s waters remain polluted, and the blood elves face a second peril: the loss of the fount around which their kingdom gathered.",
+      "durationMs": 38500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-the-deceiver-driven-back-event"
+      ],
+      "entityIds": [
+        "kiljaeden-sunwell-appearance"
+      ],
+      "locationIds": [
+        "sunwell-plateau-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-the-deceiver-driven-back-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kiljaeden-sunwell-appearance"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-deceiver-driven-back.mp3",
+        "durationMs": 19875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-anveena-acts",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-the-tainted-fount-remains"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-the-tainted-fount-remains",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "A victory with a danger left",
+      "narration": "Kil’jaeden is gone, yet corruption still clouds the Sunwell. Regent Lord Lor’themar considers destroying it lest the sickness spread beyond the fount. A victory has spared Quel’Thalas from one catastrophe, but the price may yet be the heart of the kingdom. Then Velen comes to honor M’uru.",
+      "durationMs": 39500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-the-tainted-fount-remains-event"
+      ],
+      "entityIds": [
+        "lor-themar-theron"
+      ],
+      "locationIds": [
+        "sunwell-plateau-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-the-tainted-fount-remains-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "lor-themar-theron"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-tainted-fount-remains.mp3",
+        "durationMs": 21250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-the-deceiver-driven-back",
+      "nextNodeIds": [
+        "shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell"
+      ]
+    },
+    {
+      "id": "shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "title": "The heart renews the Sunwell",
+      "narration": "Velen arrives with Lady Liadrin and recovers the spark that remains in M’uru’s heart. He turns it upon the tainted water, and the Sunwell shines again, bearing both arcane light and the naaru’s gift. Liadrin grieves for what the Blood Knights did to M’uru; Velen answers with hope for what may grow from the loss. The old danger is ended, while the future of the nation is left open.",
+      "durationMs": 55500,
+      "eventIds": [
+        "shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell-event"
+      ],
+      "entityIds": [
+        "prophet-velen",
+        "lady-liadrin",
+        "muru-heart"
+      ],
+      "locationIds": [
+        "sunwell-plateau-quel-danas"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shattered-sun-and-sunwell-murus-heart-renews-the-sunwell-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "prophet-velen"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "lady-liadrin"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "muru-heart"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell.mp3",
+        "durationMs": 28000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "shattered-sun-and-sunwell-story-the-tainted-fount-remains"
+    }
+  ]
+}

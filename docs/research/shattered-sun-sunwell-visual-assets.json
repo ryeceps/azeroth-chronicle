@@ -1,0 +1,315 @@
+{
+  "storyId": "shattered-sun-and-sunwell",
+  "status": "research",
+  "generationMethod": "Built-in image_gen; original images converted to WebP for the project while preserving transparent cutouts.",
+  "referencePeriod": "Original World of Warcraft: The Burning Crusade patch 2.4.0; foundation and Scourge-fall prologues are labeled earlier states.",
+  "interpretationPolicy": "AI-generated fan illustrations are not canonical game art, exact encounter screenshots, surveyed locations or dungeon floor plans. UI figure positions are relational story-theater anchors, never map coordinates.",
+  "areaComparison": "Pending human comparison with matching client scenes. Silvermoon uses pale ivory towers, restrained red banners and antique gold; Shattrath uses angular pale draenei stone with distinct blood-elf/draenei environmental figures; Quel’Danas uses pale coastal limestone and red-gold high-elf ornament; Magisters’ Terrace is a separate polished elven interior; Outland keeps broken red terrain and a violet sky; Sunwell Plateau changes from constrained fel corruption to clear gold-white restoration.",
+  "generatedAssets": [
+    {
+      "kind": "environment",
+      "id": "silvermoon-return",
+      "title": "Kael'thas returns to Silvermoon",
+      "asset": "public/images/storylines/shattered-sun-sunwell/silvermoon-return.webp",
+      "sourceIds": [
+        "sunwell-blizzard-fury-timeline"
+      ],
+      "tbcVisualTraits": "Burning Crusade-era high-elven city view: pale ivory masonry, graceful red-gold towers and bridges, restrained red banners, distant arcane fel glow. This is Silvermoon, separate from the island and dungeon scenes.",
+      "generationPromptBrief": "Original 2007 TBC-style Silvermoon: ivory high-elven city, restrained red/gold, small distant fel corruption; no later redesign.",
+      "inGameComparison": "Open; compare this original image-generation interpretation against the corresponding Burning Crusade-era zone/build before human approval."
+    },
+    {
+      "kind": "environment",
+      "id": "sunwell-founding-memory",
+      "title": "The Sunwell founded",
+      "asset": "public/images/storylines/shattered-sun-sunwell/sunwell-founding-memory.webp",
+      "sourceIds": [
+        "warcraft-chronicle-volume-1",
+        "blizzard-burning-crusade-story-so-far"
+      ],
+      "tbcVisualTraits": "Interpretive earlier-state high-elven sanctuary: pale carved stone, quiet gold ornament, old forest and clear arcane water. It is a memory, not the TBC patch-2.4 map or a surveyed reconstruction.",
+      "generationPromptBrief": "Interpretive ancient Sunwell sanctuary: pale stone, antique gold, forest and quiet water before the Scourge; no people.",
+      "inGameComparison": "Open; compare this original image-generation interpretation against the corresponding Burning Crusade-era zone/build before human approval."
+    },
+    {
+      "kind": "environment",
+      "id": "sunwell-scourge-fall",
+      "title": "The Sunwell after the Scourge",
+      "asset": "public/images/storylines/shattered-sun-sunwell/sunwell-scourge-fall.webp",
+      "sourceIds": [
+        "warcraft-chronicle-volume-3",
+        "blizzard-warcraft-iii-reforged-overview"
+      ],
+      "tbcVisualTraits": "Brief pre-TBC flashback to a defiled high-elven fount: pale gold arches and broken paving under ash, with a contained sickly green corruption. No later Void design or present-day rebuild.",
+      "generationPromptBrief": "Interpretive Scourge-era Sunwell aftermath: white stone and gold tainted by dark water and faint fel-green contamination.",
+      "inGameComparison": "Open; compare this original image-generation interpretation against the corresponding Burning Crusade-era zone/build before human approval."
+    },
+    {
+      "kind": "environment",
+      "id": "shattrath-offensive-briefing",
+      "title": "Shattrath and the joint offensive",
+      "asset": "public/images/storylines/shattered-sun-sunwell/shattrath-offensive-briefing.webp",
+      "sourceIds": [
+        "sunwell-blizzard-fury-timeline",
+        "sunwell-blizzard-classic-release",
+        "sunwell-shattered-sun-offensive"
+      ],
+      "tbcVisualTraits": "Terrace of Light view with pale angular draenei stone, a luminous naaru presence, blood-elf red/gold and draenei blue-gray accents. Environmental figures deliberately communicate cooperation; not an exact historic formation or a named roster.",
+      "generationPromptBrief": "Burning Crusade Shattrath Terrace of Light: pale draenei stone, floating naaru, distinct blood-elf and draenei troops cooperating.",
+      "inGameComparison": "Open; compare this original image-generation interpretation against the corresponding Burning Crusade-era zone/build before human approval."
+    },
+    {
+      "kind": "environment",
+      "id": "quel-danas-offensive",
+      "title": "The Quel'Danas foothold",
+      "asset": "public/images/storylines/shattered-sun-sunwell/quel-danas-offensive.webp",
+      "sourceIds": [
+        "sunwell-blizzard-classic-release",
+        "sunwell-shattered-sun-offensive",
+        "sunwell-isle-phase-objectives"
+      ],
+      "tbcVisualTraits": "TBC Quel'Danas coastal pale limestone, restrained red-gold blood-elf architecture and nearby Shattered Sun staging tents, with the besieged plateau in the distance. It does not name an exact route or battle position.",
+      "generationPromptBrief": "TBC Quel'Danas coast and temporary Offensive staging area: pale limestone, red-gold elven towers, sea and a fel-threatened plateau.",
+      "inGameComparison": "Open; compare this original image-generation interpretation against the corresponding Burning Crusade-era zone/build before human approval."
+    },
+    {
+      "kind": "environment",
+      "id": "outland-support-front",
+      "title": "Outland support fronts",
+      "asset": "public/images/storylines/shattered-sun-sunwell/outland-support-front.webp",
+      "sourceIds": [
+        "sunwell-shattered-sun-offensive",
+        "sunwell-isle-phase-objectives"
+      ],
+      "tbcVisualTraits": "Relational panorama of Outland's broken red ground, floating rock, violet sky, isolated towers and scattered outposts. This is a campaign montage, not a geographic map, supply route, or claimed sequence between zones.",
+      "generationPromptBrief": "TBC Outland support missions as a relational panorama of shattered terrain and separated outposts; no routes or map pins.",
+      "inGameComparison": "Open; compare this original image-generation interpretation against the corresponding Burning Crusade-era zone/build before human approval."
+    },
+    {
+      "kind": "environment",
+      "id": "magisters-terrace",
+      "title": "The Magisters' Terrace",
+      "asset": "public/images/storylines/shattered-sun-sunwell/magisters-terrace.webp",
+      "sourceIds": [
+        "sunwell-magisters-terrace-quests",
+        "sunwell-magisters-terrace-area"
+      ],
+      "tbcVisualTraits": "Original-TBC Magisters' Terrace cues: polished pale stone, red banners, antique gold, angular blue arcane panels and an open inner hall. It is not the raid's darker Sunwell chamber or a later rebuilding.",
+      "generationPromptBrief": "Original TBC Magisters' Terrace: pale polished elven hall, red banners, gold edging and modest blue arcane glass.",
+      "inGameComparison": "Open; compare this original image-generation interpretation against the corresponding Burning Crusade-era zone/build before human approval."
+    },
+    {
+      "kind": "environment",
+      "id": "sunwell-raid-corrupted",
+      "title": "Sunwell Plateau raid chamber",
+      "asset": "public/images/storylines/shattered-sun-sunwell/sunwell-plateau-corrupted-chamber.webp",
+      "sourceIds": [
+        "sunwell-blizzard-classic-release",
+        "sunwell-original-raid"
+      ],
+      "tbcVisualTraits": "A circular pre-restoration Sunwell room with curved pale elven columns, gold inlays and a fount under constrained fel corruption. This original environmental illustration is a relational theater, not an exact raid floor plan.",
+      "generationPromptBrief": "Original-TBC Sunwell raid chamber before purification: curved pale elven columns, antique gold, bright fount and a narrow fel breach.",
+      "inGameComparison": "Open; compare this original image-generation interpretation against the corresponding Burning Crusade-era zone/build before human approval."
+    },
+    {
+      "kind": "environment",
+      "id": "sunwell-raid-renewed",
+      "title": "The Sunwell restored",
+      "asset": "public/images/storylines/shattered-sun-sunwell/sunwell-renewed-epilogue.webp",
+      "sourceIds": [
+        "sunwell-epilogue-transcript",
+        "sunwell-blizzard-fury-timeline"
+      ],
+      "tbcVisualTraits": "Same campaign setting after the original TBC epilogue: clear gold-white fount, pale stone and quiet water, with no fel. The separate M'uru-heart figure remains a story actor/object, not a pixel in the background.",
+      "generationPromptBrief": "TBC Sunwell Plateau epilogue: same restrained pale-stone/gold chamber, clean clear fount and a renewed warm holy-arcane light.",
+      "inGameComparison": "Open; compare this original image-generation interpretation against the corresponding Burning Crusade-era zone/build before human approval."
+    },
+    {
+      "kind": "figure",
+      "id": "kael-thas-sunwell-appearance",
+      "title": "Kael'thas Sunstrider",
+      "asset": "public/images/storylines/shattered-sun-sunwell/kael-thas-sunstrider.webp",
+      "sourceIds": [
+        "sunwell-blizzard-fury-timeline",
+        "sunwell-blizzard-classic-release",
+        "sunwell-magisters-terrace-area",
+        "sunwell-magisters-terrace-quests"
+      ],
+      "generationPromptBrief": "TBC fallen blood-elf prince: pale hair, crimson and violet mage robes, antique gold, contained fel-green magic; single figure.",
+      "representationNote": "The same prince recorded as kael-thas-sunstrider, represented in his Burning Crusade Sunwell campaign guise. This appearance record is not a second person.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "kalecgos-dragon-form",
+      "title": "Kalecgos in dragon form",
+      "asset": "public/images/storylines/shattered-sun-sunwell/kalecgos-dragon.webp",
+      "sourceIds": [
+        "sunwell-kalecgos-encounter",
+        "sunwell-original-raid",
+        "sunwell-blizzard-fury-timeline",
+        "sunwell-blizzard-classic-release",
+        "sunwell-kiljaeden-encounter"
+      ],
+      "generationPromptBrief": "Azure-blue adult dragon Kalecgos, silver under-scales and restrained arcane blue; full coiled creature, separate from the elf guise.",
+      "representationNote": "A TBC Sunwell appearance of the existing Kalecgos character in his true blue-dragon form; it does not replace the elven guise used in later story scenes.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "sathrovarr-the-corruptor",
+      "title": "Sathrovarr the Corruptor",
+      "asset": "public/images/storylines/shattered-sun-sunwell/sathrovarr.webp",
+      "sourceIds": [
+        "sunwell-kalecgos-encounter",
+        "sunwell-original-raid"
+      ],
+      "generationPromptBrief": "TBC dreadlord in indigo and violet shadow armor with bat wings and a binding tether; solitary full-body cutout.",
+      "representationNote": "Dreadlord controlling Kalecgos in the first TBC Sunwell encounter; original-raid visual comparison remains open.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "brutallus",
+      "title": "Brutallus",
+      "asset": "public/images/storylines/shattered-sun-sunwell/brutallus.webp",
+      "sourceIds": [
+        "sunwell-brutallus-encounter",
+        "sunwell-madrigosa-felmyst"
+      ],
+      "generationPromptBrief": "Huge rust-red pit lord with horns, broad leathery wings, dark plate and cleaver; compact transparent raid cutout.",
+      "representationNote": "Pit lord confronted at Sunwell Plateau; interpretive early-TBC raid-creature art, with model comparison still open.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "madrigosa",
+      "title": "Madrigosa",
+      "asset": "public/images/storylines/shattered-sun-sunwell/madrigosa.webp",
+      "sourceIds": [
+        "sunwell-brutallus-encounter",
+        "sunwell-madrigosa-felmyst"
+      ],
+      "generationPromptBrief": "Noble cobalt blue dragon with silver-blue under-scales and icy light, full coiled three-quarter silhouette.",
+      "representationNote": "Blue dragon who fights Brutallus in the original TBC raid account; this cutout is not a canonical model.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "felmyst",
+      "title": "Felmyst",
+      "asset": "public/images/storylines/shattered-sun-sunwell/felmyst.webp",
+      "sourceIds": [
+        "sunwell-madrigosa-felmyst"
+      ],
+      "generationPromptBrief": "Felmyst as a desaturated skeletal blue dragon with green fel fire and a wide but readable wing silhouette.",
+      "representationNote": "The fel dragon raised from Madrigosa's remains in the original raid account; the transformation is attributed to its secondary quest locator pending game review.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "eredar-twins",
+      "title": "The Eredar Twins: Lady Sacrolash and Alythess",
+      "asset": "public/images/storylines/shattered-sun-sunwell/eredar-twins.webp",
+      "sourceIds": [
+        "sunwell-eredar-twins",
+        "sunwell-original-raid"
+      ],
+      "generationPromptBrief": "Paired TBC demon encounter, one violet and one crimson, both in fully covering robes and armor, two clear silhouettes.",
+      "representationNote": "One paired representation for the single named raid encounter; not two separate event claims or a claim of co-presence outside that encounter.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "muru-entropius",
+      "title": "M'uru / Entropius",
+      "asset": "public/images/storylines/shattered-sun-sunwell/muru-entropius.webp",
+      "sourceIds": [
+        "sunwell-muru-encounter",
+        "sunwell-epilogue-transcript"
+      ],
+      "generationPromptBrief": "Single floating faceted naaru with dim blue-gold light and violet-black corruption, the TBC M'uru/Entropius encounter state.",
+      "representationNote": "The encounter's darkened, diminished naaru form, shown as the transformation named by Velen in the original raid epilogue; later M'uru material is excluded.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "kiljaeden-sunwell-appearance",
+      "title": "Kil'jaeden at the Sunwell",
+      "asset": "public/images/storylines/shattered-sun-sunwell/kiljaeden.webp",
+      "sourceIds": [
+        "sunwell-blizzard-fury-timeline",
+        "sunwell-blizzard-classic-release",
+        "sunwell-kiljaeden-encounter"
+      ],
+      "generationPromptBrief": "TBC Kil'jaeden: imposing red-skinned eredar, dark ember armor, controlled fel power; solitary full-body transparent cutout.",
+      "representationNote": "The same demon recorded in the existing kiljaeden entity, represented at the TBC Sunwell threshold; this is not a second character.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "anveena-teague",
+      "title": "Anveena Teague",
+      "asset": "public/images/storylines/shattered-sun-sunwell/anveena-teague.webp",
+      "sourceIds": [
+        "sunwell-kiljaeden-encounter",
+        "sunwell-blizzard-fury-timeline"
+      ],
+      "generationPromptBrief": "Solemn young woman in modest pale cream and sky-blue robes with restrained light, interpretive TBC raid figure.",
+      "representationNote": "TBC raid participant whose sacrifice weakens Kil'jaeden in the encounter record. Her broader comic biography is outside this story.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "prophet-velen",
+      "title": "Prophet Velen",
+      "asset": "public/images/storylines/shattered-sun-sunwell/prophet-velen.webp",
+      "sourceIds": [
+        "sunwell-epilogue-transcript",
+        "sunwell-blizzard-fury-timeline"
+      ],
+      "generationPromptBrief": "Elder blue draenei prophet with pale facial tendrils, ivory robes and silver crystal staff; TBC-era epilogue cutout.",
+      "representationNote": "Draenei prophet who appears in the raid epilogue and uses M'uru's recovered heart at the Sunwell.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "lady-liadrin",
+      "title": "Lady Liadrin",
+      "asset": "public/images/storylines/shattered-sun-sunwell/lady-liadrin.webp",
+      "sourceIds": [
+        "sunwell-epilogue-transcript",
+        "sunwell-blizzard-fury-timeline"
+      ],
+      "generationPromptBrief": "Blood-elf paladin leader in fully covering red-and-gold plate over pale cloth, battle-worn and helmetless.",
+      "representationNote": "Blood Knight leader who appears with Velen in the original TBC epilogue; the art is an original, unreviewed interpretation.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "figure",
+      "id": "lor-themar-theron",
+      "title": "Lor’themar Theron",
+      "asset": "public/images/storylines/shattered-sun-sunwell/lor-themar-theron.webp",
+      "sourceIds": [
+        "sunwell-original-raid",
+        "sunwell-epilogue-transcript"
+      ],
+      "generationPromptBrief": "Early TBC blood-elf regent: pale blond hair, red cloth blindfold, crimson and antique-gold armor, dark red cloak, sword down at his side.",
+      "representationNote": "Blood-elf regent whose consideration of the still-tainted fount is reported after the Sunwell raid; the figure is an original, unreviewed early-TBC interpretation.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    },
+    {
+      "kind": "object",
+      "id": "muru-heart",
+      "title": "The recovered heart of M'uru",
+      "asset": "public/images/storylines/shattered-sun-sunwell/muru-heart.webp",
+      "sourceIds": [
+        "sunwell-epilogue-transcript",
+        "sunwell-blizzard-fury-timeline"
+      ],
+      "generationPromptBrief": "Small, separate floating silver-white crystal heart with a pale blue-gold spark and clean silhouette.",
+      "representationNote": "The crystalline remnant Velen presents in the original raid epilogue; it is not the earlier whole M'uru/Entropius form.",
+      "inGameComparison": "Open; verify silhouette, outfit/model and recognizable traits against the intended Burning Crusade-era game asset."
+    }
+  ]
+}

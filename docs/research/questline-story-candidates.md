@@ -241,6 +241,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** obtain primary support for Anveena, Kalecgos, M'uru and Velen's roles. Separate server progression from historical chronology. Source earlier Sunwell history as a prologue; stop before later expansion reinterpretations.
 
+**Implementation:** Complete 21-scene illustrated research StoryGuide with per-scene citation and claim records, transcript-matched narration, original Silvermoon, Quel’Danas, Shattrath, Outland, Magisters’ Terrace and Sunwell art, and deliberate figures for the named raid actors. Added as placard 20 in Classic to Wrath after the patch-2.3 Missing Diplomat continuation and before Wrathgate. The foundation and fall remain short prologues; Aldor/Scryer starts, phased Isle goals, Outland missions, Magisters’ Terrace and raid gates retain their gameplay and parallel-branch boundaries. The Blizzard timeline header’s patch-2.3 conflict, original-client quest/encounter comparison, area/model resemblance review, lore/source review and audio audition remain open. See the [research packet](shattered-sun-and-sunwell-research.md), [production ledger](shattered-sun-and-sunwell-production.md), and [visual asset ledger](shattered-sun-sunwell-visual-assets.json).
+
 ## Wrath of the Lich King
 
 ### 21. The Wrathgate and the Battle for Undercity
