@@ -21,7 +21,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   expect(mapFrameBounds).toMatchObject({ x: 0, width: viewport.width });
   expect(mapFrameBounds!.y).toBeGreaterThanOrEqual(controlBounds!.y + controlBounds!.height);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
-  await expect(page.locator('.story-tour-dot')).toHaveCount(14);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(15);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
   await expect(page.locator('.story-tour-backdrop, .story-tour-section-heading, .story-tour-map-caption, .story-tour-order-note')).toHaveCount(0);
   await expect(page.locator('.story-tour-tooltip').first()).toHaveCSS('visibility', 'hidden');
@@ -34,6 +34,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const darrowshire = page.getByRole('button', { name: /darrowshire-lost-and-remembered|Darrowshire/i });
   const defias = page.getByRole('button', { name: /defias-original-conspiracy|Unsent Letter/i });
   const scythe = page.getByRole('button', { name: /scythe-of-elune-original-mystery|Scythe of Elune/i });
+  const yehkinya = page.getByRole('button', { name: /yehkinya-and-hakkars-return|Yeh'kinya/i });
   const karazhan = page.getByRole('button', { name: /karazhan-masters-key-and-nightbane|Master’s Key and Nightbane/i });
   const akama = page.getByRole('button', { name: /akama-and-black-temple|Akama and the Black Temple/i });
   const outland = page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i });
@@ -48,6 +49,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(darrowshire).toBeVisible();
   await expect(defias).toBeVisible();
   await expect(scythe).toBeVisible();
+  await expect(yehkinya).toBeVisible();
   await expect(karazhan).toBeVisible();
   await expect(akama).toBeVisible();
   await expect(outland).toBeVisible();
@@ -100,6 +102,18 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
     const params = new URL(page.url()).searchParams;
     return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
   }).toEqual(['story-tour', 'classic-to-wrath', 'karazhan-masters-key-and-nightbane', 'story']);
+
+  await page.goto('/tours/classic-to-wrath');
+  await yehkinya.hover();
+  const yehkinyaCard = page.locator('#story-tour-tip-yehkinya-and-hakkars-return');
+  await expect(yehkinyaCard.getByRole('heading', { name: "Yeh'kinya, the Ancient Egg, and Hakkar" })).toBeVisible();
+  await expect(yehkinyaCard).toContainText('Playable story');
+  await yehkinyaCard.getByRole('button', { name: 'Play story' }).click();
+  await expect(page.getByRole('heading', { name: 'A request at the port' })).toBeVisible();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
+  }).toEqual(['story-tour', 'classic-to-wrath', 'yehkinya-and-hakkars-return', 'story']);
 
   await page.goto('/tours/classic-to-wrath');
   await fallenHero.hover();
@@ -252,6 +266,13 @@ test('Play All advances completed stories in chronological order and restores th
   }).toEqual(['scythe-of-elune-original-mystery', 'scythe-of-elune-original-mystery-the-wolf-men-of-howling-vale', 'all']);
   await expect(page.getByRole('heading', { name: 'The wolf-men of the Howling Vale' })).toBeVisible();
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=scythe-of-elune-original-mystery&node=scythe-of-elune-original-mystery-jitters-book-from-svens-farm&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('storyline'), params.get('node'), params.get('play')];
+  }).toEqual(['yehkinya-and-hakkars-return', 'yehkinya-and-hakkars-return-a-request-at-the-port', 'all']);
+  await expect(page.getByRole('heading', { name: 'A request at the port' })).toBeVisible();
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=yehkinya-and-hakkars-return&node=yehkinya-and-hakkars-return-the-hand-of-rastakhan&play=all');
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;

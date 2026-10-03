@@ -1,0 +1,719 @@
+{
+  "guide": {
+    "id": "yehkinya-and-hakkars-return-guide",
+    "eraId": "age-of-adventurers",
+    "title": "Yeh'kinya, the Ancient Egg, and Hakkar",
+    "description": "Fifteen illustrated research scenes follow the Classic quest chain from Yeh'kinya's request through the Sunken Temple avatar, the six tablets and the warning that leads toward Zul'Gurub.",
+    "nodeIds": [
+      "yehkinya-and-hakkars-return-a-request-at-the-port",
+      "yehkinya-and-hakkars-return-essence-from-the-vale",
+      "yehkinya-and-hakkars-return-the-prophecy-of-mosharu",
+      "yehkinya-and-hakkars-return-two-tablets-one-promise",
+      "yehkinya-and-hakkars-return-the-ancient-egg-in-jintha-alor",
+      "yehkinya-and-hakkars-return-the-egg-changes-hands",
+      "yehkinya-and-hakkars-return-sanctum-of-the-fallen-god",
+      "yehkinya-and-hakkars-return-avatar-enters-the-world",
+      "yehkinya-and-hakkars-return-the-egg-stirs",
+      "yehkinya-and-hakkars-return-ironboot-finds-six-tablets",
+      "yehkinya-and-hakkars-return-third-and-fourth-tablets",
+      "yehkinya-and-hakkars-return-final-pair-in-the-mountain",
+      "yehkinya-and-hakkars-return-ironboots-warning",
+      "yehkinya-and-hakkars-return-yehkinya-unmasked",
+      "yehkinya-and-hakkars-return-the-hand-of-rastakhan"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "yehkinya-and-hakkars-return-a-request-at-the-port",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "A request at the port",
+      "narration": "At Steamwheedle Port, Yeh'kinya gives the seeker a task that begins with the restless Vale Screechers of Feralas. He provides a bramble and asks that their spirits be captured, a request whose purpose the first words do not fully disclose. The desert harbor is only the threshold: the answer lies among the forested hills to the north.",
+      "durationMs": 46707,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-a-request-at-the-port-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-yehkinya",
+        "yehkinya-and-hakkars-return-yehkinyas-bramble"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-steamwheedle-port"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-a-request-at-the-port-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-essence-from-the-vale"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-a-request-at-the-port.mp3",
+        "durationMs": 25550,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-essence-from-the-vale",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "Essence from the Vale",
+      "narration": "The task turns from harbor dust to the green shade of Feralas. The bramble is used to capture the spirits of three Vale Screechers, as the quest requires; this is a repeated objective, not proof that three named individuals met in one event. Their gathered essence gives Yeh'kinya evidence to interpret, but it does not yet reveal what he means to do with it.",
+      "durationMs": 51829,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-essence-from-the-vale-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-vale-screecher-spirits",
+        "yehkinya-and-hakkars-return-yehkinyas-bramble"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-feralas-screecher-thicket"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-essence-from-the-vale-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-a-request-at-the-port",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-the-prophecy-of-mosharu"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-essence-from-the-vale.mp3",
+        "durationMs": 26600,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-the-prophecy-of-mosharu",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "The prophecy of Mosh'aru",
+      "narration": "Back in Tanaris, Yeh'kinya speaks of Hakkar and asks for the tablets of Mosh'aru. His account gives the captured spirits a place in a larger prophecy, but his motive remains his own stated explanation, not an independently confirmed account of the old god's return. The first pair of tablets is the next evidence the seeker can bring to him.",
+      "durationMs": 48171,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-the-prophecy-of-mosharu-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-yehkinya",
+        "yehkinya-and-hakkars-return-yehkinyas-bramble",
+        "yehkinya-and-hakkars-return-mosharu-tablets"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-steamwheedle-port"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-the-prophecy-of-mosharu-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-essence-from-the-vale",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-two-tablets-one-promise"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-the-prophecy-of-mosharu.mp3",
+        "durationMs": 26250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-two-tablets-one-promise",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "Two tablets, one promise",
+      "narration": "Within the sandstone halls of Zul'Farrak, the search turns to two Mosh'aru tablets held by guardians of the ruins. The prophecy describes a means to contain an essence. The recovered fragments are evidence for a plan, not a guarantee that the plan is safe, or that Yeh'kinya has disclosed every purpose for which he seeks them.",
+      "durationMs": 45976,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-two-tablets-one-promise-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-mosharu-tablets"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-zul-farrak-tablet-sanctuary"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-two-tablets-one-promise-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-the-prophecy-of-mosharu",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-the-ancient-egg-in-jintha-alor"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-two-tablets-one-promise.mp3",
+        "durationMs": 23525,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-the-ancient-egg-in-jintha-alor",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "The Ancient Egg in Jintha'Alor",
+      "narration": "The search climbs to Jintha'Alor in the Hinterlands, where the Ancient Egg lies in a cave behind the high amphitheater. Its isolation makes it a fitting vessel in the story Yeh'kinya is assembling, though the place of discovery alone says nothing about what the egg can contain. The tablets and the relic now travel back into his keeping.",
+      "durationMs": 47439,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-the-ancient-egg-in-jintha-alor-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-ancient-egg"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-jintha-alor-ancient-egg"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-the-ancient-egg-in-jintha-alor-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-two-tablets-one-promise",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-the-egg-changes-hands"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-the-ancient-egg-in-jintha-alor.mp3",
+        "durationMs": 23525,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-the-egg-changes-hands",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "The egg changes hands",
+      "narration": "At the port, the egg and the tablets meet the seeker who gathered them. Yeh'kinya's next request leads toward the Sunken Temple and a rite tied to Hakkar's essence. The game presents this as a chain of tasks offered by Yeh'kinya; it does not establish an exact date, nor does it make every step a single witnessed event.",
+      "durationMs": 47439,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-the-egg-changes-hands-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-yehkinya",
+        "yehkinya-and-hakkars-return-ancient-egg",
+        "yehkinya-and-hakkars-return-mosharu-tablets"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-steamwheedle-port"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-the-egg-changes-hands-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-the-ancient-egg-in-jintha-alor",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-sanctum-of-the-fallen-god"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-the-egg-changes-hands.mp3",
+        "durationMs": 23875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-sanctum-of-the-fallen-god",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "The Sanctum of the Fallen God",
+      "narration": "Deep in the drowned temple, the seeker reaches the Sanctum of the Fallen God. Atal’ai bloodrinkers stand among the threats within its halls; the Mosh’aru tablets and Ancient Egg frame Yeh’kinya’s rite. The deep waters hold their silence as the summoning begins.",
+      "durationMs": 47439,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-sanctum-of-the-fallen-god-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-atalai-bloodrinkers",
+        "yehkinya-and-hakkars-return-ancient-egg",
+        "yehkinya-and-hakkars-return-mosharu-tablets"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-sunken-temple-sanctum"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-sanctum-of-the-fallen-god-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-the-egg-changes-hands",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-avatar-enters-the-world"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-sanctum-of-the-fallen-god.mp3",
+        "durationMs": 19950,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-avatar-enters-the-world",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "An avatar enters the world",
+      "narration": "The rite brings forth an avatar of Hakkar: a skeletal wind serpent, not the old god's later physical manifestation. The seeker's fight is with this summoned presence in the Sunken Temple. Blizzard's Burning Crusade manual distinguishes the temple's avatar from the later physical summoning in Zul'Gurub, a boundary that keeps this victory from becoming a claim that Hakkar himself was slain here.",
+      "durationMs": 50366,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-avatar-enters-the-world-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-avatar-of-hakkar",
+        "yehkinya-and-hakkars-return-atalai-bloodrinkers"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-sunken-temple-sanctum"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-avatar-enters-the-world-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-sanctum-of-the-fallen-god",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-the-egg-stirs"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-avatar-enters-the-world.mp3",
+        "durationMs": 29100,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-the-egg-stirs",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "The egg stirs",
+      "narration": "After the avatar is defeated, its essence is placed within the Ancient Egg. Yeh'kinya says he will keep the vessel safe, yet the quest's closing unease leaves the matter unsettled: the egg stirs. A containment ritual has reached its stated end, but the story does not grant the seeker proof that the danger has passed.",
+      "durationMs": 45244,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-the-egg-stirs-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-yehkinya",
+        "yehkinya-and-hakkars-return-ancient-egg",
+        "yehkinya-and-hakkars-return-filled-egg-of-hakkar"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-steamwheedle-port"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-the-egg-stirs-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-avatar-enters-the-world",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-ironboot-finds-six-tablets"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-the-egg-stirs.mp3",
+        "durationMs": 22950,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-ironboot-finds-six-tablets",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "Ironboot and the six tablets",
+      "narration": "The search resumes with Prospector Ironboot, who sends the seeker after the remaining tablets of Mosh'aru. The account now expands beyond the first pair: six tablets form the record under pursuit. Their collection is a quest objective, while the meanings attributed to them must still be read through the words of the characters who interpret them.",
+      "durationMs": 45976,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-ironboot-finds-six-tablets-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-prospector-ironboot",
+        "yehkinya-and-hakkars-return-mosharu-tablets"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-steamwheedle-port"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-ironboot-finds-six-tablets-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-the-egg-stirs",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-third-and-fourth-tablets"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-ironboot-finds-six-tablets.mp3",
+        "durationMs": 23800,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-third-and-fourth-tablets",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "The third and fourth tablets",
+      "narration": "From the scarlet fields of the Eastern Plaguelands, the search climbs to the old troll ziggurat. Two tablets are found among its stones, bringing Ironboot another pair. The seeker carries the record deeper into the plague-scarred north, where the ziggurat adds its fragment to the tale.",
+      "durationMs": 41585,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-third-and-fourth-tablets-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-prospector-ironboot",
+        "yehkinya-and-hakkars-return-mosharu-tablets"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-zul-mashar-ep-ziggurat"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-third-and-fourth-tablets-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-ironboot-finds-six-tablets",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-final-pair-in-the-mountain"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-third-and-fourth-tablets.mp3",
+        "durationMs": 20125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-final-pair-in-the-mountain",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "The final pair in the mountain",
+      "narration": "The last two tablets lie among the Smolderthorn trolls in Blackrock Spire. With this pair, the quest's six-tablet search reaches its stated count. The tablets deepen the written record, but the seeker still depends on Ironboot to interpret what they mean for the egg and for the power Yeh'kinya tried to contain.",
+      "durationMs": 43049,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-final-pair-in-the-mountain-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-prospector-ironboot",
+        "yehkinya-and-hakkars-return-mosharu-tablets"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-lower-blackrock-spire-tablet-hall"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-final-pair-in-the-mountain-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-third-and-fourth-tablets",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-ironboots-warning"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-final-pair-in-the-mountain.mp3",
+        "durationMs": 22450,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-ironboots-warning",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "Ironboot's warning",
+      "narration": "Back in Tanaris, Ironboot reads the tablets as evidence that the egg can serve a larger purpose: Hakkar may be reborn in the depths of Zul'Gurub. That is Ironboot's interpretation of the text, not a fact the seeker has yet witnessed. The later manual's account of Zul'Gurub shows why his warning matters, while keeping this warning distinct from the temple avatar's defeat.",
+      "durationMs": 50366,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-ironboots-warning-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-prospector-ironboot",
+        "yehkinya-and-hakkars-return-mosharu-tablets",
+        "yehkinya-and-hakkars-return-filled-egg-of-hakkar"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-steamwheedle-port"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-ironboots-warning-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-final-pair-in-the-mountain",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-yehkinya-unmasked"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-ironboots-warning.mp3",
+        "durationMs": 28250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-yehkinya-unmasked",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "Yeh'kinya unmasked",
+      "narration": "Confronted with the tablets, Yeh'kinya reveals that his stated purpose is not to guard the egg from Hakkar's return, but to use it in that return. The quest gives the disclosure to Yeh'kinya himself; a secondary character account says he escapes as a green wind serpent. The scene marks that detail as a secondary report. The promised rebirth remains beyond this chain's immediate confrontation.",
+      "durationMs": 51829,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-yehkinya-unmasked-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-yehkinya",
+        "yehkinya-and-hakkars-return-yehkinya-wind-serpent",
+        "yehkinya-and-hakkars-return-filled-egg-of-hakkar"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-steamwheedle-port"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-yehkinya-unmasked-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-ironboots-warning",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-the-hand-of-rastakhan"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-yehkinya-unmasked.mp3",
+        "durationMs": 29875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-the-hand-of-rastakhan",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "The Hand of Rastakhan",
+      "narration": "The trail ends on Yojamba Isle, where the seeker is directed to Molthor and asked to bring aid against Hakkar. The quest handoff points toward a later Zul'Gurub campaign; it does not include the raid's outcome. Here the Ancient Egg story stops at the request, with the physical summoning of Hakkar held for its own evidence and its own telling.",
+      "durationMs": 48902,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-the-hand-of-rastakhan-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-molthor",
+        "yehkinya-and-hakkars-return-filled-egg-of-hakkar"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-yojamba-isle-camp"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-the-hand-of-rastakhan-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-yehkinya-unmasked",
+      "nextNodeIds": [],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-the-hand-of-rastakhan.mp3",
+        "durationMs": 24925,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    }
+  ]
+}
