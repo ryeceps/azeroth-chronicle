@@ -1,3 +1,4 @@
+import { captureVisualReview } from './helpers/visualReview';
 import { expect, test } from '@playwright/test';
 import { mkdirSync } from 'node:fs';
 
@@ -60,7 +61,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(onyxiaCard.getByRole('heading', { name: 'The Dragon in Stormwind' })).toBeVisible();
   await expect(onyxiaCard).toHaveCSS('opacity', '1');
   await expect(onyxiaCard).toContainText('Playable story');
-  await page.screenshot({ path: 'output/akama-black-temple-visual-review/classic-wrath-tour-desktop.png', fullPage: true });
+  await captureVisualReview(page, { path: 'output/akama-black-temple-visual-review/classic-wrath-tour-desktop.png', fullPage: true });
 
   await outland.hover();
   const outlandCard = page.locator('#story-tour-tip-cipher-of-damnation-oronok');
@@ -68,7 +69,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(outlandCard).toContainText('Playable story');
   await outlandCard.getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'The Hand of Gul’dan' })).toBeVisible();
-  await page.screenshot({ path: 'output/cipher-visual-review/storytour-desktop.png', fullPage: true });
+  await captureVisualReview(page, { path: 'output/cipher-visual-review/storytour-desktop.png', fullPage: true });
 
   await page.goto('/tours/classic-to-wrath');
   await missingDiplomat.hover();
@@ -77,7 +78,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(missingDiplomatCard).toContainText('Playable story');
   await missingDiplomatCard.getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'A quiet summons' })).toBeVisible();
-  await page.screenshot({ path: 'output/missing-diplomat-visual-review/storytour-desktop.png', fullPage: true });
+  await captureVisualReview(page, { path: 'output/missing-diplomat-visual-review/storytour-desktop.png', fullPage: true });
 
   await page.goto('/tours/classic-to-wrath');
   await dungeonSetTwo.hover();
@@ -106,7 +107,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const fallenHeroCard = page.locator('#story-tour-tip-fallen-hero-and-rakhlikh');
   await expect(fallenHeroCard.getByRole('heading', { name: 'The Fallen Hero and Rakh’likh' })).toBeVisible();
   await expect(fallenHeroCard).toContainText('Playable story');
-  await page.screenshot({ path: 'output/fallen-hero-tour-desktop.png' });
+  await captureVisualReview(page, { path: 'output/fallen-hero-tour-desktop.png' });
   await fallenHero.click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
@@ -120,7 +121,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const tirionTaelanCard = page.locator('#story-tour-tip-tirion-taelan-of-love-and-family');
   await expect(tirionTaelanCard.getByRole('heading', { name: 'Tirion and Taelan: Of Love and Family' })).toBeVisible();
   await expect(tirionTaelanCard).toContainText('Playable story');
-  await page.screenshot({ path: 'output/tirion-taelan-tour-desktop.png' });
+  await captureVisualReview(page, { path: 'output/tirion-taelan-tour-desktop.png' });
   await tirionTaelan.click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
@@ -145,7 +146,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const defiasCard = page.locator('#story-tour-tip-defias-original-conspiracy');
   await expect(defiasCard.getByRole('heading', { name: 'The Defias and the Unsent Letter' })).toBeVisible();
   await expect(defiasCard).toContainText('Playable story');
-  await page.screenshot({ path: 'output/defias-visual-review/classic-wrath-tour-desktop.png', fullPage: true });
+  await captureVisualReview(page, { path: 'output/defias-visual-review/classic-wrath-tour-desktop.png', fullPage: true });
   await defias.click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
@@ -158,7 +159,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const akamaCard = page.locator('#story-tour-tip-akama-and-black-temple');
   await expect(akamaCard.getByRole('heading', { name: 'Akama and the Black Temple' })).toBeVisible();
   await expect(akamaCard).toContainText('Playable story');
-  await page.screenshot({ path: 'output/akama-black-temple-visual-review/classic-wrath-tour-akama-hover.png', fullPage: true });
+  await captureVisualReview(page, { path: 'output/akama-black-temple-visual-review/classic-wrath-tour-akama-hover.png', fullPage: true });
   await akama.click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
@@ -175,7 +176,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const quelDelarCard = page.locator('#story-tour-tip-quel-delar-restored');
   await expect(quelDelarCard.getByRole('heading', { name: 'Quel’Delar: The Broken Blade Restored' })).toBeVisible();
   await expect(quelDelarCard).toContainText('Playable story');
-  await page.screenshot({ path: 'output/quel-delar-visual-review/classic-wrath-tour-dot-desktop.png', fullPage: true });
+  await captureVisualReview(page, { path: 'output/quel-delar-visual-review/classic-wrath-tour-dot-desktop.png', fullPage: true });
   await quelDelar.click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
@@ -204,7 +205,7 @@ test('Play All advances completed stories in chronological order and restores th
     return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
   }).toEqual(['story-tour', 'classic-to-wrath', 'stormwind-onyxia-conspiracy', 'all']);
   await expect(page.getByRole('heading', { name: 'A shadow over the Burning Steppes' })).toBeVisible();
-  await page.screenshot({ path: 'output/akama-black-temple-visual-review/classic-wrath-tour-player-desktop.png', fullPage: true });
+  await captureVisualReview(page, { path: 'output/akama-black-temple-visual-review/classic-wrath-tour-player-desktop.png', fullPage: true });
 
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=scepter-of-the-shifting-sands&node=scepter-story-timeless-treasure&play=all');
   await expect(page.getByRole('button', { name: 'Resume tour' })).toBeVisible();
@@ -323,14 +324,14 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   await phoneAkama.click();
   const phoneAkamaCard = page.locator('.story-tour-touch-card');
   await expect(phoneAkamaCard.getByRole('heading', { name: 'Akama and the Black Temple' })).toBeVisible();
-  await page.screenshot({ path: 'output/akama-black-temple-visual-review/classic-wrath-tour-akama-phone.png', fullPage: true });
+  await captureVisualReview(page, { path: 'output/akama-black-temple-visual-review/classic-wrath-tour-akama-phone.png', fullPage: true });
   await phoneAkamaCard.getByRole('button', { name: 'Close story preview' }).click();
   await expect(phoneAkamaCard).toHaveCount(0);
 
   const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
   await onyxia.click();
   await expect(page.locator('.story-tour-touch-card').getByRole('heading', { name: 'The Dragon in Stormwind' })).toBeVisible();
-  await page.screenshot({ path: 'output/akama-black-temple-visual-review/classic-wrath-tour-phone.png', fullPage: true });
+  await captureVisualReview(page, { path: 'output/akama-black-temple-visual-review/classic-wrath-tour-phone.png', fullPage: true });
   await page.locator('.story-tour-touch-card').getByRole('button', { name: 'Play story' }).click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
@@ -345,19 +346,19 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   await page.goto('/tours/classic-to-wrath');
   await page.getByRole('button', { name: /darrowshire-lost-and-remembered|Darrowshire/i }).click();
   await expect(page.locator('.story-tour-touch-card').getByRole('heading', { name: 'Darrowshire: Lost and Remembered' })).toBeVisible();
-  await page.screenshot({ path: 'output/darrowshire-visual-review/classic-wrath-tour-phone.png' });
+  await captureVisualReview(page, { path: 'output/darrowshire-visual-review/classic-wrath-tour-phone.png' });
   await page.locator('.story-tour-touch-card').getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'Flashback · Era 7 — The date the Annals give' })).toBeVisible();
   await page.goto('/tours/classic-to-wrath');
   await page.getByRole('button', { name: /tirion-taelan-of-love-and-family|Tirion and Taelan/i }).click();
   await expect(page.locator('.story-tour-touch-card').getByRole('heading', { name: 'Tirion and Taelan: Of Love and Family' })).toBeVisible();
-  await page.screenshot({ path: 'output/tirion-taelan-tour-phone.png' });
+  await captureVisualReview(page, { path: 'output/tirion-taelan-tour-phone.png' });
   await page.locator('.story-tour-touch-card').getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'The old hermit by Thondroril' })).toBeVisible();
   await page.goto('/tours/classic-to-wrath');
   await page.getByRole('button', { name: /fallen-hero-and-rakhlikh|Fallen Hero/i }).click();
   await expect(page.locator('.story-tour-touch-card').getByRole('heading', { name: 'The Fallen Hero and Rakh’likh' })).toBeVisible();
-  await page.screenshot({ path: 'output/fallen-hero-tour-phone.png' });
+  await captureVisualReview(page, { path: 'output/fallen-hero-tour-phone.png' });
   await page.locator('.story-tour-touch-card').getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'Two roads to the Fallen Hero' })).toBeVisible();
   await page.goto('/tours/classic-to-wrath');
@@ -365,7 +366,7 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   const phoneQuelDelarCard = page.locator('.story-tour-touch-card');
   await expect(phoneQuelDelarCard.getByRole('heading', { name: 'Quel’Delar: The Broken Blade Restored' })).toBeVisible();
   await expect(phoneQuelDelarCard).toContainText('Playable story');
-  await page.screenshot({ path: 'output/quel-delar-visual-review/classic-wrath-tour-phone.png' });
+  await captureVisualReview(page, { path: 'output/quel-delar-visual-review/classic-wrath-tour-phone.png' });
   await phoneQuelDelarCard.getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'A hilt without a finder' })).toBeVisible();
   await page.goto('/tours/classic-to-wrath');
@@ -376,7 +377,7 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   const phoneDefiasCard = page.locator('.story-tour-touch-card');
   await expect(phoneDefiasCard.getByRole('heading', { name: 'The Defias and the Unsent Letter' })).toBeVisible();
   await expect(phoneDefiasCard).toContainText('Playable story');
-  await page.screenshot({ path: 'output/defias-visual-review/classic-wrath-tour-phone.png', fullPage: true });
+  await captureVisualReview(page, { path: 'output/defias-visual-review/classic-wrath-tour-phone.png', fullPage: true });
   await phoneDefiasCard.getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'Farmers driven from Westfall' })).toBeVisible();
   await page.goto('/tours/classic-to-wrath');
@@ -384,7 +385,7 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   const phoneCipherCard = page.locator('.story-tour-touch-card');
   await expect(phoneCipherCard.getByRole('heading', { name: /Cipher of Damnation/i })).toBeVisible();
   await expect(phoneCipherCard).toContainText('Playable story');
-  await page.screenshot({ path: 'output/cipher-visual-review/storytour-phone.png', fullPage: true });
+  await captureVisualReview(page, { path: 'output/cipher-visual-review/storytour-phone.png', fullPage: true });
   await phoneCipherCard.getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'The Hand of Gul’dan' })).toBeVisible();
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=stormwind-onyxia-conspiracy&node=onyxia-story-onyxias-lair&play=story');

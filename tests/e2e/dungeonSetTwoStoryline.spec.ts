@@ -1,3 +1,4 @@
+import { captureVisualReview, visualReviewEnabled } from './helpers/visualReview';
 import { expect, test, type Page } from '@playwright/test';
 import { mkdirSync, readFileSync } from 'node:fs';
 
@@ -20,8 +21,8 @@ async function expectIllustratedScene(page: Page, title: string, index: number, 
     return image.complete && image.naturalWidth >= 400 && image.naturalHeight >= 400
       && !image.currentSrc.endsWith('.svg');
   })), { message: `Environment and cast images load for ${title}` }).toBe(true);
-  if (!process.env.CI) {
-    await page.screenshot({
+  if (visualReviewEnabled) {
+    await captureVisualReview(page, {
       path: `output/dungeon-set-two-visual-review/${profile}-${String(index + 1).padStart(2, '0')}-${story.nodes[index]!.id}.png`,
     });
   }
@@ -49,7 +50,7 @@ test('Dungeon Set 2 traverses every cited scene and returns to its text-first st
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
 
-  await page.screenshot({ path: 'output/dungeon-set-two-visual-review/desktop-final.png' });
+  await captureVisualReview(page, { path: 'output/dungeon-set-two-visual-review/desktop-final.png' });
   await page.getByRole('button', { name: 'Finish this storyline' }).click();
   await expect(page).toHaveURL(/storylines\/dungeon-set-two-veiled-blade$/);
   await expect(page.getByRole('heading', { level: 1, name: 'The Veiled Blade and Lord Valthalak' })).toBeVisible();
@@ -72,7 +73,7 @@ test('Dungeon Set 2 keeps every scene and its cast visible at phone width', asyn
   }
 
   expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(1);
-  await page.screenshot({ path: 'output/dungeon-set-two-visual-review/phone-final.png' });
+  await captureVisualReview(page, { path: 'output/dungeon-set-two-visual-review/phone-final.png' });
   await page.getByRole('button', { name: 'Leave tour' }).click();
   await expect(page).toHaveURL(/storylines\/dungeon-set-two-veiled-blade$/);
 });

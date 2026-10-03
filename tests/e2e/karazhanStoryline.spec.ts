@@ -1,3 +1,4 @@
+import { captureVisualReview, visualReviewEnabled } from './helpers/visualReview';
 import { expect, test, type Page } from '@playwright/test';
 import { mkdirSync, readFileSync } from 'node:fs';
 
@@ -22,8 +23,8 @@ async function expectIllustratedScene(page: Page, title: string, index: number, 
   })), { message: `Environment, cast and object images load for ${title}` }).toBe(true);
   await expect(page.locator('.map-character-figure, .map-subject-visual')).toHaveCount(story.nodes[index]!.entityIds.length);
 
-  if (!process.env.CI) {
-    await page.screenshot({
+  if (visualReviewEnabled) {
+    await captureVisualReview(page, {
       path: `output/karazhan-visual-review/${profile}-${String(index + 1).padStart(2, '0')}-${story.nodes[index]!.id}.png`,
     });
   }
@@ -53,12 +54,12 @@ test('Karazhan traverses all cited scenes, shows Atiesh with Medivh, and returns
       await expect(medivhFigure).toBeVisible();
       await expect.poll(() => medivhFigure.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
       await expect.poll(() => medivhFigure.evaluate((image: HTMLImageElement) => image.getBoundingClientRect().height)).toBeGreaterThanOrEqual(240);
-      await page.screenshot({ path: 'output/karazhan-visual-review/medivh-atiesh-desktop.png', fullPage: true });
+      await captureVisualReview(page, { path: 'output/karazhan-visual-review/medivh-atiesh-desktop.png', fullPage: true });
     }
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
 
-  await page.screenshot({ path: 'output/karazhan-visual-review/desktop-final.png' });
+  await captureVisualReview(page, { path: 'output/karazhan-visual-review/desktop-final.png' });
   await page.getByRole('button', { name: 'Finish this storyline' }).click();
   await expect(page).toHaveURL(/storylines\/karazhan-masters-key-and-nightbane$/);
   await expect(page.getByRole('heading', { level: 1, name: 'Karazhan: The Master’s Key and Nightbane' })).toBeVisible();
@@ -81,13 +82,13 @@ test('Karazhan keeps its scenes and cast visible at phone width', async ({ page 
       const medivhFigure = page.locator('.map-character-figure img[src*="/medivh-atiesh.research.webp"]');
       await expect(medivhFigure).toBeVisible();
       await expect.poll(() => medivhFigure.evaluate((image: HTMLImageElement) => image.getBoundingClientRect().height)).toBeGreaterThanOrEqual(120);
-      await page.screenshot({ path: 'output/karazhan-visual-review/medivh-atiesh-phone.png', fullPage: true });
+      await captureVisualReview(page, { path: 'output/karazhan-visual-review/medivh-atiesh-phone.png', fullPage: true });
     }
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
 
   expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(1);
-  await page.screenshot({ path: 'output/karazhan-visual-review/phone-final.png' });
+  await captureVisualReview(page, { path: 'output/karazhan-visual-review/phone-final.png' });
   await page.getByRole('button', { name: 'Leave tour' }).click();
   await expect(page).toHaveURL(/storylines\/karazhan-masters-key-and-nightbane$/);
 });

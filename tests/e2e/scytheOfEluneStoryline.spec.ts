@@ -1,3 +1,4 @@
+import { captureVisualReview } from './helpers/visualReview';
 import { expect, test, type Page } from '@playwright/test';
 import { mkdirSync, readFileSync } from 'node:fs';
 
@@ -27,7 +28,7 @@ async function expectIllustratedScene(page: Page, index: number, profile: 'deskt
   await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED CLASSIC STORY THEATER');
 
   if (screenshotNodes.has(index)) {
-    await page.screenshot({
+    await captureVisualReview(page, {
       path: `${screenshotRoot}/${profile}-${String(index + 1).padStart(2, '0')}-${node.id}.png`,
     });
   }
@@ -41,7 +42,7 @@ test('Scythe story placard opens from its Classic-to-Wrath map position', async 
   const card = page.locator('#story-tour-tip-scythe-of-elune-original-mystery');
   await expect(card.getByRole('heading', { name: 'The Scythe of Elune: The Original Mystery' })).toBeVisible();
   await expect(card).toContainText('Playable story');
-  await page.screenshot({ path: `${screenshotRoot}/story-tour-map-desktop.png` });
+  await captureVisualReview(page, { path: `${screenshotRoot}/story-tour-map-desktop.png` });
   await card.getByRole('button', { name: 'Play story' }).click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
@@ -71,7 +72,7 @@ test('Scythe story traverses every cited scene at desktop width', async ({ page 
   }
 
   expect(pageErrors).toEqual([]);
-  await page.screenshot({ path: `${screenshotRoot}/desktop-final.png` });
+  await captureVisualReview(page, { path: `${screenshotRoot}/desktop-final.png` });
   await page.getByRole('button', { name: 'Finish this storyline' }).click();
   await expect(page).toHaveURL(/storylines\/scythe-of-elune-original-mystery$/);
 });
@@ -92,7 +93,7 @@ test('Scythe scenes remain usable and illustrated at phone width', async ({ page
   }
 
   expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(1);
-  await page.screenshot({ path: `${screenshotRoot}/phone-final.png` });
+  await captureVisualReview(page, { path: `${screenshotRoot}/phone-final.png` });
   await page.getByRole('button', { name: 'Leave tour' }).click();
   await expect(page).toHaveURL(/storylines\/scythe-of-elune-original-mystery$/);
 });

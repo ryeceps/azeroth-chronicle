@@ -17,11 +17,13 @@ Production main c8576d8, Ubuntu 24.04 GitHub runner, Chromium, one worker, conti
 - Use two CI acceptance workers, then run the unchanged 90-frame renderer benchmark in a dependent one-worker project to avoid competing WebGL contexts during measurement.
 - Reuse the production build already validated by CI. Normal local runs still build automatically.
 - Validate pull requests and main pushes without duplicate feature-branch push runs; cancel superseded runs of the same pull request or ref.
-- Keep every scene traversal, transcript, loaded-image check, layout assertion, audio test, and Linux visual baseline. Authored visual-review captures remain available.
+- Keep every scene traversal, transcript, loaded-image check, layout assertion, audio test, and Linux visual baseline. Human review contact sheets remain enabled locally and can be requested in CI with PLAYWRIGHT_VISUAL_REVIEW=1. Successful CI runs no longer create and discard these unasserted captures; the screenshot byte-size assertion remains active.
+- Poll the unchanged Quel’Delar phone collision limits until layout settles. Removing continuous capture exposed an immediate geometry assertion racing projected layout after image decode.
 - Allow PLAYWRIGHT_PORT to isolate browser servers in simultaneous checkouts.
 
 ## Verification
 
 - pnpm check: 24 unit files, 78 tests, and 3,204 validated records passed.
 - pnpm build passed.
-- Full local browser suite and equivalent fresh Linux CI measurement pending.
+- Initial local capture/config run: 50 passed, 2 Linux-only skips, 1 phone layout race failed, and the dependent renderer test did not run (6m 24s). After polling the same layout condition, both Quel’Delar tests and the isolated renderer test passed (33.9s).
+- Full local browser suite with optional review captures and equivalent fresh Linux CI measurement pending.
