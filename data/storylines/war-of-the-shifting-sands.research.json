@@ -5,14 +5,38 @@
   "summary": "The night elves, qiraji, and dragonflights fight a war that ends with Ahn'Qiraj sealed behind the Scarab Wall.",
   "opening": "Long before the gates were opened again, the war in Silithus drove its defenders toward a decision they could not mistake for victory.",
   "primaryEraId": "long-vigil-new-kingdoms",
-  "eraIds": ["long-vigil-new-kingdoms"],
-  "chapters": [
-    { "id": "silithus-front", "eraId": "long-vigil-new-kingdoms", "title": "War across Silithus", "body": "Follow Fandral Staghelm's night elf forces against the qiraji and silithid, keeping the campaign's movements broad where the source does not give surveyed routes." },
-    { "id": "dragons-answer", "eraId": "long-vigil-new-kingdoms", "title": "The dragons answer", "body": "Anachronos and the dragonflights enter the defense. Review the short story's perspective to distinguish what its narrator recalls from a neutral account of every battlefield." },
-    { "id": "the-loss", "eraId": "long-vigil-new-kingdoms", "title": "The cost to Fandral", "body": "Valstann's death brings the war's personal cost into focus. Trace how this loss affects Fandral's response to the dragons and to the proposed seal." },
-    { "id": "scarab-wall", "eraId": "long-vigil-new-kingdoms", "title": "The Scarab Wall", "body": "The defenders contain Ahn'Qiraj behind a barrier and leave a scepter able to open it. Fandral's breaking of that key carries the war's unresolved danger into a later age." }
+  "eraIds": [
+    "long-vigil-new-kingdoms"
   ],
-  "sourceIds": ["story-war-shifting-sands"],
-  "reviewNote": "Keep this ancient war separate from the Era 8 Scepter questline. Check chronology and the short story's narrative perspective before publishing a full account.",
+  "chapters": [
+    {
+      "id": "silithus-front",
+      "eraId": "long-vigil-new-kingdoms",
+      "title": "War across Silithus",
+      "body": "Fandral Staghelm led night elf forces against the qiraji and silithid in Silithus. Beneath the harsh southern sky, the struggle pressed upon the defenders."
+    },
+    {
+      "id": "dragons-answer",
+      "eraId": "long-vigil-new-kingdoms",
+      "title": "The dragons answer",
+      "body": "Anachronos and the dragonflights joined the defense. Ancient power stood beside mortal courage against an enemy neither could readily destroy."
+    },
+    {
+      "id": "the-loss",
+      "eraId": "long-vigil-new-kingdoms",
+      "title": "The cost to Fandral",
+      "body": "Valstann’s death brought the war into Fandral’s own grief. The loss shadowed his response to the dragons and the seal they proposed."
+    },
+    {
+      "id": "scarab-wall",
+      "eraId": "long-vigil-new-kingdoms",
+      "title": "The Scarab Wall",
+      "body": "The defenders closed Ahn’Qiraj behind a barrier and left a scepter that could open it. Fandral shattered the key, carrying grief and unfinished danger into the age that followed."
+    }
+  ],
+  "sourceIds": [
+    "story-war-shifting-sands"
+  ],
+  "reviewNote": "Keep this ancient war separate from the Era 8 Scepter questline. Check chronology and the short story's narrative perspective before publishing a full account. Editorial chapter research tasks retained here: Follow Fandral Staghelm's night elf forces against the qiraji and silithid, keeping the campaign's movements broad where the source does not give surveyed routes. Anachronos and the dragonflights enter the defense. Review the short story's perspective to distinguish what its narrator recalls from a neutral account of every battlefield. Valstann's death brings the war's personal cost into focus. Trace how this loss affects Fandral's response to the dragons and to the proposed seal. The defenders contain Ahn'Qiraj behind a barrier and leave a scepter able to open it. Fandral's breaking of that key carries the war's unresolved danger into a later age.",
   "contentStatus": "research"
 }

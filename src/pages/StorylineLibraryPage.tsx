@@ -18,7 +18,7 @@ export function StorylineLibraryPage() {
 
   return (
     <main className="storyline-library">
-      <header className="tour-library-header"><p className="eyebrow">Choose your journey</p><h1>Tours</h1><p>Questlines, wars, and lives woven through the eras.</p><FullTourButton /></header>
+      <header className="tour-library-header"><p className="eyebrow">Choose your journey</p><h1>Tours</h1><p>Journeys, wars, and lives woven through the eras.</p><FullTourButton /></header>
       <TourSections storylines />
       <p className="tour-note">Playable journeys are marked below. Research previews contain chapter outlines and sources.</p>
 

@@ -3,7 +3,7 @@
     "id": "dungeon-set-two-veiled-blade-guide",
     "eraId": "age-of-adventurers",
     "title": "The Veiled Blade and Lord Valthalak",
-    "description": "A 22-scene Classic research chronicle follows Anthion and Ysida’s rescue into the Veiled Blade’s last contract, the scattered fates of its companions, and the return of Valthalak’s soul.",
+    "description": "Anthion seeks the rescue of Ysida from Stratholme; afterward, the Veiled Blade’s divided amulet draws an adventurer through its scattered companions to Valthalak’s old lair.",
     "nodeIds": [
       "dungeon-set-two-story-two-faction-doors",
       "dungeon-set-two-story-the-ghost-at-stratholme",
@@ -35,8 +35,8 @@
       "id": "dungeon-set-two-story-two-faction-doors",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Two doors into the same story",
-      "narration": "Deliana speaks from Ironforge; Mokvar speaks from Orgrimmar. Their faction quests are separate doors into the same old wound, not a shared meeting or a single adventurer’s simultaneous allegiance. Each directs a seeker toward Anthion Harmon, whose ghost waits beyond Stratholme. The armor work that frames the journey is only its threshold. Ahead lie a rescue, a company’s last contract, and a medallion whose pieces carried more than any of its owners understood.",
-      "durationMs": 58415,
+      "narration": "From Ironforge or Orgrimmar, separate appeals led seekers toward the same old wound. Beyond Stratholme waited Anthion Harmon’s ghost. Armor and its improvement had opened the journey, but a deeper burden lay ahead: a captive wife, a company’s last contract, and a medallion whose divided pieces carried more than any of their owners had understood.",
+      "durationMs": 45000,
       "eventIds": [
         "dungeon-set-two-two-faction-doors-event"
       ],
@@ -68,7 +68,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-two-faction-doors.mp3",
-        "durationMs": 30475,
+        "durationMs": 25625,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -77,8 +77,8 @@
       "id": "dungeon-set-two-story-the-ghost-at-stratholme",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "The ghost at Stratholme’s gate",
-      "narration": "At the Eastern Plaguelands road, a goblin device lets the living hear Anthion Harmon. Death has not quieted his concern: Ysida, his wife, was captured by Baron Rivendare inside Stratholme. Anthion says he tried to reach her and failed. He asks the seeker to finish the rescue. The city rises behind him through bare branches and grey-green haze; within it, the question is simple and terrible—whether Ysida still lives.",
-      "durationMs": 55488,
+      "narration": "Beside the Eastern Plaguelands road, a goblin device let the living hear Anthion Harmon. Death had not quieted his concern. Baron Rivendare held Ysida, his wife, inside Stratholme; Anthion had tried to reach her and failed. Behind the bare branches and grey-green haze rose the city. Within it waited the question that still bound him: whether Ysida lived.",
+      "durationMs": 47500,
       "eventIds": [
         "dungeon-set-two-the-ghost-at-stratholme-event"
       ],
@@ -110,7 +110,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-ghost-at-stratholme.mp3",
-        "durationMs": 28875,
+        "durationMs": 28325,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -119,8 +119,8 @@
       "id": "dungeon-set-two-story-a-plea-from-the-dead",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "A plea that cannot wait",
-      "narration": "Anthion’s request carries two losses at once. He has already died in the attempt, yet the thought of losing Ysida still binds him to the road. The quest asks for a living woman held by the Baron, not for a heroic last stand by her husband. No timer is needed in the telling: the source gives the plea and the danger, while the hourglass belongs to the dungeon challenge rather than to a new historical event.",
-      "durationMs": 60610,
+      "narration": "Anthion’s plea carried two losses at once. He had died trying to reach Ysida, yet the fear of losing her still held him beside the road. He asked that another finish the rescue. Beyond his restless spirit, Stratholme sheltered the danger he had been unable to overcome. Hope endured there only while his wife could still be brought beyond the Baron’s reach.",
+      "durationMs": 50500,
       "eventIds": [
         "dungeon-set-two-a-plea-from-the-dead-event"
       ],
@@ -153,7 +153,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-a-plea-from-the-dead.mp3",
-        "durationMs": 27350,
+        "durationMs": 25125,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -162,8 +162,8 @@
       "id": "dungeon-set-two-story-inside-the-slaughter-house",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Ysida in the Slaughter House",
-      "narration": "The way leads through Stratholme to its Slaughter House, where Rivendare holds Ysida. The walls are steeped in the Scourge’s greenish corruption, but the quest’s purpose is rescue: reach her alive and bring her beyond the Baron’s reach. The art marks the room as an interpretation of the Classic dungeon, not a measured reconstruction. Ysida has endured the city’s horror; the next journey carries a message toward the husband she believes is lost.",
-      "durationMs": 58415,
+      "narration": "The way through Stratholme led to the Slaughter House, where Rivendare held Ysida. Amid walls steeped in the Scourge’s corruption, the rescuers reached her alive and brought her beyond his grasp. The city’s horror had not taken her. Now a message could be carried back to the husband she believed lost, answering the fear that had kept his spirit upon the road.",
+      "durationMs": 50500,
       "eventIds": [
         "dungeon-set-two-inside-the-slaughter-house-event"
       ],
@@ -195,7 +195,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-inside-the-slaughter-house.mp3",
-        "durationMs": 28250,
+        "durationMs": 24200,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -204,8 +204,8 @@
       "id": "dungeon-set-two-story-proof-of-life",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Proof of life",
-      "narration": "Ysida gives the rescuer her locket to carry back to Anthion. She believes he perished while trying to save her, and the token is her proof that she remains alive. When the message reaches the roadside ghost, Anthion learns that the rescue succeeded. Their reunion is brief and divided by death, yet Ysida’s survival releases him from the fear that held him there. He can now offer help in the work that remains.",
-      "durationMs": 58415,
+      "narration": "Ysida gave the rescuer her locket to carry to Anthion, proof that she remained alive. When it reached the roadside ghost, he learned that the rescue had succeeded. Their reunion was divided by death, yet her survival released him from the fear that held him there. The token of a living wife brought peace to a husband who could no longer return to her.",
+      "durationMs": 52000,
       "eventIds": [
         "dungeon-set-two-proof-of-life-event"
       ],
@@ -238,7 +238,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-proof-of-life.mp3",
-        "durationMs": 26625,
+        "durationMs": 24575,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -247,8 +247,8 @@
       "id": "dungeon-set-two-story-the-first-fragment",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "A fragment taken by Theldren",
-      "narration": "Anthion’s next account turns from rescue to the Veiled Blade’s spoils. The company did not understand the medallion’s importance, so it was divided with their other plunder. A dwarf named Theldren took the first piece. Anthion tried to win it back and was beaten badly; the fragment would have to be claimed through another challenge. The amulet is already more than an ornament, though its danger has not yet been named.",
-      "durationMs": 56951,
+      "narration": "Anthion turned toward the Veiled Blade’s spoils. The company had divided a medallion among its plunder without understanding its importance. Theldren, a dwarf, had taken the top piece. Anthion had tried to win it back and suffered a harsh defeat. Another challenger would have to recover it, and the old company’s scattered treasure began to reveal a burden greater than greed.",
+      "durationMs": 49500,
       "eventIds": [
         "dungeon-set-two-the-first-fragment-event"
       ],
@@ -281,7 +281,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-first-fragment.mp3",
-        "durationMs": 26875,
+        "durationMs": 27150,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -290,8 +290,8 @@
       "id": "dungeon-set-two-story-falrins-old-friend",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Falrin remembers an old friend",
-      "narration": "In Dire Maul’s Athenaeum, Anthion’s old friend Falrin Treeshaper listens to the request. He had thought Anthion dead. Falrin agrees to help prepare an enchantment that can draw Theldren into a fight; his anger at the ogres is personal, rooted in the death of his brother. The required collection is a task in play, not a separate historical episode. What matters to the story is that an old bond supplies the means for a dangerous meeting.",
-      "durationMs": 60610,
+      "narration": "In Dire Maul’s Athenaeum, Falrin Treeshaper heard the request from his old friend. He had believed Anthion dead. Now he agreed to prepare an enchantment that could draw Theldren into a fight. Falrin’s anger at the ogres carried the memory of his brother’s death. Amid the ancient halls, an old bond offered the means to reach a fragment that Anthion could not reclaim himself.",
+      "durationMs": 52000,
       "eventIds": [
         "dungeon-set-two-falrins-old-friend-event"
       ],
@@ -323,7 +323,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-falrins-old-friend.mp3",
-        "durationMs": 29200,
+        "durationMs": 26825,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -332,8 +332,8 @@
       "id": "dungeon-set-two-story-the-ring-of-law",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "The Challenge in Blackrock Depths",
-      "narration": "Beneath Blackrock Mountain, the Ring of Law becomes the stage for the challenge. As High Justice Grimstone sentences the intruders, they plant Falrin’s banner. Theldren cannot resist the provocation; he enters the arena with his gladiators. The team composition can vary, so this scene gives no fixed roster or race to the company. The battle retrieves the top piece and changes the next question: now the remaining fragments must be traced to Anthion’s other companions.",
-      "durationMs": 59878,
+      "narration": "Beneath Blackrock Mountain, the challenge reached the Ring of Law. As High Justice Grimstone pronounced sentence, the intruders planted Falrin’s banner. Theldren answered the provocation and entered with his gladiators. The battle yielded the top piece of the medallion. What had been divided among the company could now begin to return, though the whereabouts of the remaining fragments still lay with its scattered companions.",
+      "durationMs": 52000,
       "eventIds": [
         "dungeon-set-two-the-ring-of-law-event"
       ],
@@ -365,7 +365,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-ring-of-law.mp3",
-        "durationMs": 30875,
+        "durationMs": 29175,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -374,8 +374,8 @@
       "id": "dungeon-set-two-story-parting-words",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Anthion’s parting words",
-      "narration": "With the top piece returned, Anthion explains the danger that he could not see before. The Veiled Blade split Valthalak’s amulet into three parts out of greed, not knowing that it held much of the warlock’s soul. The curse followed. Anthion asks the seeker to find Bodley, who can guide the search for the other pieces. At last, Anthion believes he may rest; his part in the company’s wrong has become a plea to set it right.",
-      "durationMs": 61341,
+      "narration": "Anthion explained what the Veiled Blade had learned too late. They had broken Valthalak’s amulet into three parts out of greed, unaware that it held much of the warlock’s soul. A curse had followed. He sent the seeker toward Bodley, who could guide the recovery of the other pieces. The rescued husband’s gratitude became a plea to repair the company’s wrong.",
+      "durationMs": 49500,
       "eventIds": [
         "dungeon-set-two-parting-words-event"
       ],
@@ -408,7 +408,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-parting-words.mp3",
-        "durationMs": 28000,
+        "durationMs": 25500,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -417,8 +417,8 @@
       "id": "dungeon-set-two-story-bodleys-fate",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Bodley, unseen on the balcony",
-      "narration": "Near the entrance balcony of Blackrock Spire, Bodley appears only to one who can see ghosts. He had gone back toward the fortress and never returned. The quest giver fears he is dead; Bodley confirms it without ceremony and asks for help undoing the company’s wrong. If the top piece is already found, he can point toward the other two. His greeting is warm, even here, where the old danger began.",
-      "durationMs": 56951,
+      "narration": "Near Blackrock Spire’s entrance balcony, Bodley’s ghost waited. He had returned toward the fortress and never come back alive. With the top fragment recovered, he could point toward the other pieces. His welcome carried warmth even beside the place where the danger had begun. Death had left him with knowledge, and with the wish that another might undo what the company had done.",
+      "durationMs": 51000,
       "eventIds": [
         "dungeon-set-two-bodleys-fate-event"
       ],
@@ -450,7 +450,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-bodleys-fate.mp3",
-        "durationMs": 26575,
+        "durationMs": 26250,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -459,8 +459,8 @@
       "id": "dungeon-set-two-story-a-client-from-booty-bay",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "A commission from Booty Bay",
-      "narration": "Bodley remembers a commission from Gremnik Rizzlesprang, a goblin smuggler-wizard out of Booty Bay. The job was to take Lord Valthalak’s spellbook from Blackrock Spire. Bodley does not know whether Gremnik meant to study it or sell it, and the manual leaves that motive unresolved. The distinction matters: the company’s contract is documented, but its patron’s private purpose is not.",
-      "durationMs": 48902,
+      "narration": "Bodley remembered the commission from Gremnik Rizzlesprang, a goblin smuggler-wizard of Booty Bay. The Veiled Blade had been hired to steal Lord Valthalak’s spellbook from Blackrock Spire. Whether Gremnik meant to study it or sell it, Bodley did not know. The company had accepted the work without understanding the power of the lord whose possession they intended to take.",
+      "durationMs": 48000,
       "eventIds": [
         "dungeon-set-two-a-client-from-booty-bay-event"
       ],
@@ -492,7 +492,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-a-client-from-booty-bay.mp3",
-        "durationMs": 26200,
+        "durationMs": 26350,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -501,8 +501,8 @@
       "id": "dungeon-set-two-story-the-former-general",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "The former general of the Spire",
-      "narration": "Before Drakkisath, Lord Valthalak was a drakonid noble and warlock who had served as Blackrock Spire’s general. The Veiled Blade entered the upper fortress, slew him, and took the spellbook. Bodley recalls that the company knew too little of Valthalak’s power over souls to understand what they had disturbed. The lair is now called the Beast’s chamber. The manual’s account makes clear that the company’s successful contract was the beginning of its ruin.",
-      "durationMs": 58415,
+      "narration": "Before Drakkisath, Valthalak had served as Blackrock Spire’s general, a drakonid noble and warlock. The Veiled Blade entered the upper fortress, slew him and took his spellbook. They knew too little of his power over souls to understand what they had disturbed. In the lair later called the Beast’s chamber, their successful theft opened the way to their ruin.",
+      "durationMs": 48000,
       "eventIds": [
         "dungeon-set-two-the-former-general-event"
       ],
@@ -535,7 +535,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-former-general.mp3",
-        "durationMs": 29975,
+        "durationMs": 25275,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -544,8 +544,8 @@
       "id": "dungeon-set-two-story-the-medallion-dispute",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "The medallion in Kormok’s hands",
-      "narration": "When the company prepared to leave with the book, Kormok claimed Valthalak’s amulet as his share. His insistence turned the group against itself. They argued, nearly came to blows, and finally broke the medallion into three pieces. Only later did they learn that it housed much of Valthalak’s spirit. The distribution followed a lot; Theldren’s top fragment had already returned through Anthion’s challenge, while the other pieces scattered among former companions.",
-      "durationMs": 56951,
+      "narration": "As the company prepared to leave, Kormok claimed Valthalak’s amulet. The quarrel nearly brought them to blows. They broke it into three pieces and divided them by lot, learning only later how much of his spirit it held. Theldren’s fragment had already returned through Anthion’s challenge. The others carried the consequences of that quarrel into the scattered lives of their owners.",
+      "durationMs": 49500,
       "eventIds": [
         "dungeon-set-two-the-medallion-dispute-event"
       ],
@@ -579,7 +579,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-medallion-dispute.mp3",
-        "durationMs": 28900,
+        "durationMs": 27025,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -588,8 +588,8 @@
       "id": "dungeon-set-two-story-the-company-flees",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "The company flees the risen spirit",
-      "narration": "Valthalak rose as a spirit and called spectral assassins against the mercenaries. Their struggle also roused defenders in the Spire. Most of the Veiled Blade escaped, but safety proved brief: the assassins pursued them wherever they hid. The company soon broke apart, its quarrel made worse by a curse that followed each shard. In the confusion Mor Grayhoof fell toward the lower reaches of the fortress, where his own path would end.",
-      "durationMs": 57683,
+      "narration": "Valthalak rose as a spirit and called spectral assassins against the mercenaries. Their struggle roused the Spire’s defenders. Most of the Veiled Blade escaped, but the assassins followed wherever they hid. The company broke apart beneath a curse that pursued each shard. Amid the confusion, Mor Grayhoof fell toward the fortress’s lower reaches, beginning another loss the survivors would remember.",
+      "durationMs": 49000,
       "eventIds": [
         "dungeon-set-two-the-company-flees-event"
       ],
@@ -623,7 +623,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-company-flees.mp3",
-        "durationMs": 29000,
+        "durationMs": 28750,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -632,8 +632,8 @@
       "id": "dungeon-set-two-story-alternate-fate-mor",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Alternative fate · Mor Grayhoof",
-      "narration": "One remembered branch leads to Mor Grayhoof. He survived the fall into Lower Blackrock Spire, but trolls captured him and War Master Voone tortured him. The spectral assassins finished what the fall had not. Mor’s story is one of the manual’s haunted loci; it is an alternative account of a former companion’s fate, not an assertion that every adventurer fought every spirit in this order.",
-      "durationMs": 52561,
+      "narration": "Mor Grayhoof survived the fall into Lower Blackrock Spire. Trolls captured him, and War Master Voone tortured him. Valthalak’s spectral assassins finished what the fall had not. His fate became one of the haunted memories left by the company’s flight. The fortress that had yielded its plunder now held another of those who had taken it.",
+      "durationMs": 46000,
       "eventIds": [
         "dungeon-set-two-alternate-fate-mor-event"
       ],
@@ -666,7 +666,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-mor.mp3",
-        "durationMs": 26625,
+        "durationMs": 24075,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -675,8 +675,8 @@
       "id": "dungeon-set-two-story-alternate-fate-kormok",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Alternative fate · Kormok",
-      "narration": "Another branch follows Kormok to Scholomance. Once a member of the Veiled Blade, the two-headed ogre became drawn to necromancy; the manual describes one head as clever and cold, the other more foolish. After the company broke apart, he sought further study at Scholomance. Valthalak’s spectral assassins reached him there and killed him before Ras Frostwhisper. The record remembers a comrade turned toward dangerous art, then found by the curse.",
-      "durationMs": 56220,
+      "narration": "Kormok turned toward Scholomance. The two-headed ogre had been drawn to necromancy, with a cold and clever mind beside a more foolish one. After the company scattered, he sought further study in that dark place. Valthalak’s spectral assassins reached him there and killed him before Ras Frostwhisper. His new pursuit had offered no refuge from the old curse.",
+      "durationMs": 47500,
       "eventIds": [
         "dungeon-set-two-alternate-fate-kormok-event"
       ],
@@ -709,7 +709,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-kormok.mp3",
-        "durationMs": 30000,
+        "durationMs": 25950,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -718,8 +718,8 @@
       "id": "dungeon-set-two-story-alternate-fate-isalien",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Alternative fate · Isalien",
-      "narration": "Isalien left the company for a pilgrimage to Dire Maul, seeking answers about her night elf heritage and perhaps the magic within her amulet piece. Bodley remembers her as a friend of Falrin. In the city’s old kaldorei halls, she was ambushed by Alzzin the Wildshaper and his forces. The manual leaves her at another haunted place: a former companion drawn toward knowledge, then overtaken by the same scattered curse.",
-      "durationMs": 56220,
+      "narration": "Isalien travelled to Dire Maul, seeking answers about her night elf heritage and perhaps the magic within her fragment. Bodley remembered her friendship with Falrin. In the old kaldorei halls, Alzzin the Wildshaper and his forces ambushed her. The company’s scattered history had reached another haunted place, where a search for knowledge met the danger that followed its plunder.",
+      "durationMs": 48000,
       "eventIds": [
         "dungeon-set-two-alternate-fate-isalien-event"
       ],
@@ -751,7 +751,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-isalien.mp3",
-        "durationMs": 28025,
+        "durationMs": 26575,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -760,8 +760,8 @@
       "id": "dungeon-set-two-story-alternate-fate-jarien-sothos",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Alternative fate · Jarien and Sothos",
-      "narration": "Jarien and Sothos, siblings of the Veiled Blade, turned toward the Scarlet Crusade after the company dissolved. They sought knighthood at Stratholme. Bodley’s account says Sothos failed the final trial; Jarien defended her brother and demanded that they be admitted together. Grand Crusader Dathrohan killed them both. The amulet piece they carried further twisted their spirits. Their chapter, too, is one possible haunted locus in the family of routes.",
-      "durationMs": 55488,
+      "narration": "Jarien and Sothos sought knighthood in the Scarlet Crusade at Stratholme. When Sothos failed the final trial, Jarien defended her brother and demanded that they be admitted together. Grand Crusader Dathrohan killed them both. The amulet piece further twisted their spirits. Their hope of a new allegiance had ended in death, and the company’s burden endured beyond it.",
+      "durationMs": 47500,
       "eventIds": [
         "dungeon-set-two-alternate-fate-jarien-sothos-event"
       ],
@@ -793,7 +793,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-alternate-fate-jarien-sothos.mp3",
-        "durationMs": 29825,
+        "durationMs": 26300,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -802,8 +802,8 @@
       "id": "dungeon-set-two-story-the-other-pieces",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Finding the other two pieces",
-      "narration": "Bodley guides the search to two further pieces. The quest versions can direct a class or faction branch toward one of several haunted companions; they are alternate targets from the same company history. The four accounts just heard are arranged here as memorials, not as four mandatory kills by one canonical traveler. When the missing pieces are brought together with Theldren’s top fragment, the medallion can be made whole again.",
-      "durationMs": 56220,
+      "narration": "Bodley guided the search among the places haunted by his former companions. Different seekers faced different spirits, but the fragments belonged to the same broken amulet and the same ruined company. With the missing pieces recovered and joined to Theldren’s top fragment, the medallion could become whole again. Its restoration would bring the search back to the owner whose wrath had followed them.",
+      "durationMs": 51000,
       "eventIds": [
         "dungeon-set-two-the-other-pieces-event"
       ],
@@ -836,7 +836,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-other-pieces.mp3",
-        "durationMs": 28125,
+        "durationMs": 27450,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -845,8 +845,8 @@
       "id": "dungeon-set-two-story-the-brazier-attuned",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "The brazier is prepared",
-      "narration": "Bodley prepares a brazier able to call the spirit from its old lair. The chain asks for specific components, but their collection is not another history of the company. Its purpose is to attune the brazier and make the final encounter possible. The manual names haunted places to give the wider meaning: Valthalak’s power has marked the places where his former companions fell, and the Beast’s chamber remains the last of those sites.",
-      "durationMs": 58415,
+      "narration": "Bodley prepared a brazier to call Valthalak in his old lair. Its making drew upon the haunted places where the company’s companions had fallen. Their scattered fates had brought the search near its end. In the Beast’s chamber, the brazier would offer the means to summon the warlock and confront the power that still pursued the broken company.",
+      "durationMs": 47500,
       "eventIds": [
         "dungeon-set-two-the-brazier-attuned-event"
       ],
@@ -879,7 +879,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-the-brazier-attuned.mp3",
-        "durationMs": 28100,
+        "durationMs": 23400,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -888,8 +888,8 @@
       "id": "dungeon-set-two-story-mea-culpa",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Mea Culpa, Lord Valthalak",
-      "narration": "In the Beast’s chamber, the brazier calls Valthalak back into a body that can be confronted. After the battle, the restored amulet is used on his corpse and his spirit appears, whole again. He recognizes that the seeker was not among the original thieves and demands his property back. The quest does not give the mortal a new claim to the medallion; it asks the traveler to return it to its owner and carry his answer back to Bodley.",
-      "durationMs": 62805,
+      "narration": "In the Beast’s chamber, the brazier called Valthalak into a body that could be fought. After his defeat, the restored amulet was placed upon his corpse, and his spirit appeared whole again. He recognized that the seeker had not belonged to the original thieves. He demanded his property back, and sent an answer to those whose theft had divided it.",
+      "durationMs": 49000,
       "eventIds": [
         "dungeon-set-two-mea-culpa-event"
       ],
@@ -922,7 +922,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-mea-culpa.mp3",
-        "durationMs": 28700,
+        "durationMs": 24350,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -931,8 +931,8 @@
       "id": "dungeon-set-two-story-safe-for-now",
       "guideId": "dungeon-set-two-veiled-blade-guide",
       "title": "Safe for now",
-      "narration": "Valthalak tells the traveler to return to the Veiled Blade and say they are safe—for now. Bodley is astonished that the spirit will call off his assassins, though the promise carries a warning of future harm. The manual still speaks of echoes at the haunted loci, and the company itself has not been restored. Its members remain scattered among separate lives and deaths. What is repaired is the amulet, and for this moment, the pursuit it unleashed.",
-      "durationMs": 61341,
+      "narration": "Valthalak declared the Veiled Blade safe—for now. Bodley was astonished that the spirit would call off his assassins, though the promise still carried a warning. The company remained scattered among separate lives and deaths. Its lost fellowship could not be restored with the amulet. Yet the object was whole again, and for this moment the pursuit it had unleashed was ended.",
+      "durationMs": 49500,
       "eventIds": [
         "dungeon-set-two-safe-for-now-event"
       ],
@@ -961,7 +961,7 @@
       "previousNodeId": "dungeon-set-two-story-mea-culpa",
       "voiceover": {
         "assetPath": "audio/guided/dungeon-set-two-veiled-blade-guide/dungeon-set-two-story-safe-for-now.mp3",
-        "durationMs": 28975,
+        "durationMs": 26550,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }

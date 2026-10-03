@@ -57,7 +57,7 @@ test('Akama traverses every cited scene with loaded setting, cast, and time-spec
   for (const [index, node] of story.nodes.entries()) {
     await expect(page.getByRole('heading', { name: node.title, exact: true })).toBeVisible();
     await expect(page.getByLabel('Chapter transcript')).toHaveText(node.narration);
-    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED QUESTLINE THEATER');
+    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED STORY THEATER');
     await expectIllustratedScene(page, index, 'desktop');
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }

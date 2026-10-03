@@ -5,14 +5,39 @@
   "summary": "Suramar's ancient refuge becomes a modern point of dependence and conflict when the Legion returns and rebellion grows under Elisande's rule.",
   "opening": "A city that survived the Sundering by sheltering behind its own power eventually had to decide what that survival had cost.",
   "primaryEraId": "age-of-adventurers",
-  "eraIds": ["war-of-the-ancients", "age-of-adventurers"],
-  "chapters": [
-    { "id": "ancient-refuge", "eraId": "war-of-the-ancients", "title": "A refuge from the Sundering", "body": "Examine Elisande's ancient choice, the creation of the Nightwell, and the city's isolation. Confirm the sequence against Chronicle and in-game Suramar records." },
-    { "id": "legions-demand", "eraId": "age-of-adventurers", "title": "The Legion's demand", "body": "Gul'dan's pressure places the Nightwell and Suramar's survival at the center of a new war. The original campaign should settle Elisande's options and response." },
-    { "id": "the-rebellion", "eraId": "age-of-adventurers", "title": "The rebellion", "body": "Follow the resistance within and around the city, including the Nightborne whose lives depend on the Nightwell. Distinguish the city's people from its ruler's decision." },
-    { "id": "the-nighthold", "eraId": "age-of-adventurers", "title": "The Nighthold", "body": "Review the assault on the Nighthold and the Nightwell's fate from released raid and quest evidence before writing the final outcome." }
+  "eraIds": [
+    "war-of-the-ancients",
+    "age-of-adventurers"
   ],
-  "sourceIds": ["story-nighthold-preview"],
-  "reviewNote": "The raid preview is an entry point; capture original Suramar campaign and Nighthold text. Review the ancient prologue separately from the modern rebellion.",
+  "chapters": [
+    {
+      "id": "ancient-refuge",
+      "eraId": "war-of-the-ancients",
+      "title": "A refuge from the Sundering",
+      "body": "Elisande’s ancient choice and the creation of the Nightwell shaped Suramar’s long isolation. Behind the city’s shelter endured a dependence that time had deepened."
+    },
+    {
+      "id": "legions-demand",
+      "eraId": "age-of-adventurers",
+      "title": "The Legion's demand",
+      "body": "Gul’dan’s pressure brought Suramar and its Nightwell into another war. Survival stood at the heart of the ruler’s decision."
+    },
+    {
+      "id": "the-rebellion",
+      "eraId": "age-of-adventurers",
+      "title": "The rebellion",
+      "body": "Resistance gathered within and around the city. The Nightborne’s lives depended upon the well, yet their ruler’s choice did not speak for every person beneath its light."
+    },
+    {
+      "id": "the-nighthold",
+      "eraId": "age-of-adventurers",
+      "title": "The Nighthold",
+      "body": "The struggle reached the Nighthold. Its outcome and the Nightwell’s fate remain unfinished in this telling."
+    }
+  ],
+  "sourceIds": [
+    "story-nighthold-preview"
+  ],
+  "reviewNote": "The raid preview is an entry point; capture original Suramar campaign and Nighthold text. Review the ancient prologue separately from the modern rebellion. Editorial chapter research tasks retained here: Examine Elisande's ancient choice, the creation of the Nightwell, and the city's isolation. Confirm the sequence against Chronicle and in-game Suramar records. Gul'dan's pressure places the Nightwell and Suramar's survival at the center of a new war. The original campaign should settle Elisande's options and response. Follow the resistance within and around the city, including the Nightborne whose lives depend on the Nightwell. Distinguish the city's people from its ruler's decision. Review the assault on the Nighthold and the Nightwell's fate from released raid and quest evidence before writing the final outcome.",
   "contentStatus": "research"
 }

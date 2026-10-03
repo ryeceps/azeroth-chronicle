@@ -76,7 +76,7 @@ test('Quel’Delar plays all nineteen illustrated scenes and returns to its doss
     await expect(page.getByRole('heading', { name: node.title, exact: true })).toBeVisible();
     await expect(page.getByLabel('Chapter transcript')).toHaveText(node.narration);
     await expect(page.locator('audio')).toHaveAttribute('src', '/' + node.voiceover.assetPath);
-    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED QUESTLINE THEATER');
+    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED STORY THEATER');
     await expectIllustratedScene(page, node);
     await captureUniqueScene(page, 'desktop', node, index, capturedScenes);
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();

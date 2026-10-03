@@ -3,7 +3,7 @@
     "id": "defias-original-conspiracy-guide",
     "eraId": "age-of-adventurers",
     "title": "The Defias and the Unsent Letter",
-    "description": "Twenty-one illustrated Classic-era scenes follow Gryan’s Westfall investigation from a local report to the Deadmines, then trace the Unsent Letter through the Stockades and an unresolved Stormwind court handoff.",
+    "description": "Gryan Stoutmantle’s Westfall inquiry exposes the grievance Shaw attributes to the Stonemasons, leads into VanCleef’s Deadmines stronghold, and follows a separate letter into a Stormwind investigation that ends without resolving the court’s future.",
     "nodeIds": [
       "defias-original-conspiracy-story-westfall-unrest",
       "defias-original-conspiracy-story-wiley-summons",
@@ -34,11 +34,11 @@
       "id": "defias-original-conspiracy-story-westfall-unrest",
       "guideId": "defias-original-conspiracy-guide",
       "title": "Farmers driven from Westfall",
-      "narration": "Gryan Stoutmantle describes people driven from Westfall and asks for a lead on the Defias Brotherhood. The quest gives no calendar date and names no single attack that explains every departure. We begin among thin farms and dry roads, beside the militia post at Sentinel Hill, with Gryan’s report kept distinct from the unseen lives it summarizes.",
-      "durationMs": 25175,
+      "narration": "Around Sentinel Hill, thin farms and dry roads bore the burden of Westfall’s unrest. Gryan Stoutmantle spoke of people driven from their homes and sought a lead on the Defias Brotherhood. The militia needed more than rumors. From the troubled countryside, an inquiry began into a force whose reach had already unsettled the lives the defenders hoped to protect.",
+      "durationMs": 48000,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-westfall-unrest.mp3",
-        "durationMs": 25175,
+        "durationMs": 26450,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -80,11 +80,11 @@
       "id": "defias-original-conspiracy-story-wiley-summons",
       "guideId": "defias-original-conspiracy-guide",
       "title": "The question moves to Lakeshire",
-      "narration": "Instead of sending the militia after every rumor, Gryan directs the adventurer to Wiley the Black in Lakeshire. The quest names the destination but leaves the route unstated. The shift from Westfall’s open gold to Redridge’s wooded shore marks an inquiry crossing into another community, where a written answer awaits.",
-      "durationMs": 22350,
+      "narration": "Gryan sent the adventurer to Wiley the Black in Lakeshire. Beyond Westfall’s open fields, the wooded shore of Redridge offered another place to seek an answer. The investigation crossed into a different community, where an informant’s knowledge might give shape to the danger. A written reply would carry that knowledge back to the militia.",
+      "durationMs": 44500,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-wiley-summons.mp3",
-        "durationMs": 22350,
+        "durationMs": 23175,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -127,11 +127,11 @@
       "id": "defias-original-conspiracy-story-wiley-note",
       "guideId": "defias-original-conspiracy-guide",
       "title": "Wiley’s written warning",
-      "narration": "Wiley’s note reports that the Defias work with gnolls, kobolds, and goblins. That is intelligence supplied by an informant, not independent confirmation of every alliance he names. Even with that limit, the report widens the problem: Gryan is facing an organized force described as joining people and creatures across Westfall.",
-      "durationMs": 23775,
+      "narration": "Wiley’s note said the Defias worked with gnolls, kobolds and goblins. His report widened Gryan’s concern. The Brotherhood appeared to be more than scattered thieves upon Westfall’s roads; it could draw upon allies beyond its own ranks. The militia’s search now followed the signs of an organized force, though the full extent of those ties remained unseen.",
+      "durationMs": 46500,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-wiley-note.mp3",
-        "durationMs": 23775,
+        "durationMs": 26675,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -173,11 +173,11 @@
       "id": "defias-original-conspiracy-story-shaws-question",
       "guideId": "defias-original-conspiracy-guide",
       "title": "Gryan asks SI:7",
-      "narration": "A clue points Gryan toward Stormwind’s rebuilding guild, but his first link is framed as a question. He asks Mathias Shaw, head of SI:7, to examine the Stonemasons’ history. The inquiry moves from a troubled farming district to the city that the guild once helped rebuild; suspicion has not yet become proof.",
-      "durationMs": 22775,
+      "narration": "A clue turned Gryan toward the guild that had rebuilt Stormwind. He asked Mathias Shaw, head of SI:7, to examine the Stonemasons’ history. From a troubled farming district, the inquiry reached the city the builders had once restored. Their old work lay behind its familiar walls. Whether that history explained Westfall’s present danger had yet to be learned.",
+      "durationMs": 47500,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-shaws-question.mp3",
-        "durationMs": 22775,
+        "durationMs": 26500,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -219,11 +219,11 @@
       "id": "defias-original-conspiracy-story-stonemasons-report",
       "guideId": "defias-original-conspiracy-guide",
       "title": "What the Stonemasons were owed",
-      "narration": "Shaw’s report names Edwin VanCleef as leader of the Stonemasons, the guild that rebuilt Stormwind after the First War. Shaw says the builders were treated poorly after their work. This is his account of the grievance, carried back to Gryan as intelligence. The story shows VanCleef as the subject of that report, not as a participant in the conversation.",
-      "durationMs": 24575,
+      "narration": "Shaw named Edwin VanCleef as leader of the Stonemasons who had rebuilt Stormwind after the First War. He reported that the builders had been treated poorly once their work was done. The grievance reached back beneath the city’s restored splendor. Carried to Gryan as intelligence, it gave the militia a name and a past to pursue.",
+      "durationMs": 46000,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-stonemasons-report.mp3",
-        "durationMs": 24575,
+        "durationMs": 24375,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -267,11 +267,11 @@
       "id": "defias-original-conspiracy-story-messenger-hunted",
       "guideId": "defias-original-conspiracy-guide",
       "title": "A messenger carries the trail",
-      "narration": "Gryan seeks a message from a Defias courier. The quest asks the adventurer to find that messenger, while leaving the meeting place on Westfall’s roads unspecified. The inquiry widens from scattered unrest to written evidence.",
-      "durationMs": 16150,
+      "narration": "Gryan sought a message carried by a Defias courier. Across Westfall’s roads, the adventurer searched for the messenger. The Brotherhood’s intentions might endure in writing where rumor had left only suspicion. A captured message could bring the militia nearer the force troubling the farms, and nearer the leadership concealed behind its scattered actions.",
+      "durationMs": 44000,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-messenger-hunted.mp3",
-        "durationMs": 16150,
+        "durationMs": 24825,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -313,11 +313,11 @@
       "id": "defias-original-conspiracy-story-traitor-bargain",
       "guideId": "defias-original-conspiracy-guide",
       "title": "A captive offers the hideout",
-      "narration": "Gryan reports that a captured thief offers to reveal the Brotherhood’s hideout in exchange for his life. The offer changes the investigation from scattered evidence to a possible entrance. The captive remains unnamed in the account, and the story does not invent private terms or a scene the quest text does not establish.",
-      "durationMs": 22275,
+      "narration": "A captured thief offered Gryan the Brotherhood’s hideout in exchange for his life. The inquiry had reached a dangerous bargain. Written leads and rumors could now yield a way into the enemy’s refuge, if the captive’s promise held. The militia accepted a guide whose former allegiance made every step toward the hidden entrance uncertain.",
+      "durationMs": 44500,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-traitor-bargain.mp3",
-        "durationMs": 22275,
+        "durationMs": 24225,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -360,11 +360,11 @@
       "id": "defias-original-conspiracy-story-moonbrook-escort",
       "guideId": "defias-original-conspiracy-guide",
       "title": "Through Moonbrook",
-      "narration": "The next assignment is an escort through Moonbrook with the traitor leading the way to the hideout. The militia enters familiar Westfall ground now shadowed by the enemy’s presence. No individual adventurer is made the hero of a history they were never named in; the scene follows the objective and leaves the exact path open.",
-      "durationMs": 22900,
+      "narration": "Through Moonbrook, the former Defias led the way toward the hideout. Familiar Westfall ground had become an approach into the Brotherhood’s shelter. The journey depended upon the captive who had offered it, carrying the investigation beyond reports and into the place from which the enemy could be confronted. Beneath the settlement, another world waited.",
+      "durationMs": 44500,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-moonbrook-escort.mp3",
-        "durationMs": 22900,
+        "durationMs": 24300,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -406,11 +406,11 @@
       "id": "defias-original-conspiracy-story-deadmines-descent",
       "guideId": "defias-original-conspiracy-guide",
       "title": "Below the mine",
-      "narration": "Moonbrook opens toward the Deadmines, where conflict passes from exposed farmland into worked passages. Timber braces, ore, and torchlit stone give the underground settlement a character distinct from the fields above. The refuge lies beneath the farmland, though the precise chambers are unknown.",
-      "durationMs": 21050,
+      "narration": "Moonbrook opened toward the Deadmines. Timber braces, ore and torchlit stone replaced the exposed fields above. The Brotherhood’s refuge lay within worked passages beneath the farmland, where the search moved deeper into its strength. Westfall’s danger had taken root underground, hidden from the roads and homes that bore its consequences.",
+      "durationMs": 41500,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-deadmines-descent.mp3",
-        "durationMs": 21050,
+        "durationMs": 25700,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -452,11 +452,11 @@
       "id": "defias-original-conspiracy-story-pirate-ship",
       "guideId": "defias-original-conspiracy-guide",
       "title": "The ship beneath the Deadmines",
-      "narration": "The quest brings the search to VanCleef’s ship, hidden within the mine. Dark timber and rigging stand against the enclosing rock; the Brotherhood’s stronghold has become a vessel held far from open water. The composition follows the dungeon’s recognizable setting while leaving its exact scale, position, and deck arrangement to the game rather than the illustration.",
-      "durationMs": 24925,
+      "narration": "Within the mine stood VanCleef’s ship. Dark timber and rigging rose against enclosing rock, a vessel sheltered far from open water. The search that began beside Westfall’s farms had reached the Brotherhood’s hidden stronghold. Among its decks, the leader named in Shaw’s report could be confronted, and the militia’s scattered inquiry approached its first reckoning.",
+      "durationMs": 45000,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-pirate-ship.mp3",
-        "durationMs": 24925,
+        "durationMs": 27350,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -498,11 +498,11 @@
       "id": "defias-original-conspiracy-story-vancleef-falls",
       "guideId": "defias-original-conspiracy-guide",
       "title": "VanCleef falls",
-      "narration": "VanCleef is killed in the Deadmines, and Gryan sends word that the blow may mark the beginning of the Brotherhood’s end. His hope is not a claim that every Defias cell has vanished. The ship, mine, and leadership have been struck; what remains beyond the quest’s reported outcome is left unresolved.",
-      "durationMs": 20800,
+      "narration": "VanCleef was killed in the Deadmines. Gryan hoped the blow might mark the beginning of the Brotherhood’s end. Its leader and stronghold had been struck, though the fate of every scattered band remained unknown. Above the mine, Westfall’s homes still carried the burden of unrest. A victory had been won; the wounds behind it were older than the battle.",
+      "durationMs": 48000,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-vancleef-falls.mp3",
-        "durationMs": 20800,
+        "durationMs": 24825,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -545,11 +545,11 @@
       "id": "defias-original-conspiracy-story-unsent-letter",
       "guideId": "defias-original-conspiracy-guide",
       "title": "An unsent letter opens a second trail",
-      "narration": "An item found on VanCleef begins a separate investigation: the Unsent Letter is carried to Baros Alexston. The recovered page is a hinge between the Deadmines and Stormwind, but the quest locator does not provide its full contents. We show a sealed, unreadable object and follow only the next step the record establishes.",
-      "durationMs": 23250,
+      "narration": "An Unsent Letter found upon VanCleef opened another inquiry. It was carried to Baros Alexston in Stormwind. From the hidden ship, a page returned the search to the city the Stonemasons had rebuilt. VanCleef’s death had closed one confrontation without ending the questions around him. The letter offered a way toward people whose involvement had yet to be understood.",
+      "durationMs": 48000,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-unsent-letter.mp3",
-        "durationMs": 23250,
+        "durationMs": 27400,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -592,11 +592,11 @@
       "id": "defias-original-conspiracy-story-bazil-account",
       "guideId": "defias-original-conspiracy-guide",
       "title": "Bazil tells his version",
-      "narration": "In the Stockades, Bazil Thredd describes the Stonemasons’ work as unpaid and cheated, then recounts the riot and VanCleef’s leadership. His account is evidence of what Bazil says, not a neutral verdict on every detail. The prison’s close stone and iron make the testimony feel contained, while the grievance reaches back to the rebuilt city.",
-      "durationMs": 24275,
+      "narration": "In the Stockades, Bazil Thredd spoke of unpaid work, cheated builders, a riot and VanCleef’s leadership. His testimony carried the Stonemasons’ grievance into the prison’s close stone and iron. Beyond those walls stood the city they had restored. The investigator heard an account of the bitterness beneath that restoration, spoken by a man whose own part in the unrest remained bound to it.",
+      "durationMs": 51000,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-bazil-account.mp3",
-        "durationMs": 24275,
+        "durationMs": 28450,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -639,11 +639,11 @@
       "id": "defias-original-conspiracy-story-stockades-riot",
       "guideId": "defias-original-conspiracy-guide",
       "title": "Riot inside the Stockades",
-      "narration": "Warden Thelwater sends the adventurer into the prison riot and orders Bazil killed. The order is what this quest records; it is not a trial, and the story does not invent a speech from Bazil or a count of unnamed prisoners. The investigation has moved from a letter to testimony, then to violence carried out inside the state’s own prison.",
-      "durationMs": 23875,
+      "narration": "Warden Thelwater sent the adventurer into the prison riot with orders to kill Bazil. The inquiry had moved from a recovered letter to testimony, and then to violence within Stormwind’s own prison. Bazil’s words had recalled the city’s rebuilding; now his death became part of the investigation that followed its grievance. The riot ended without settling the wider plot.",
+      "durationMs": 48000,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-stockades-riot.mp3",
-        "durationMs": 23875,
+        "durationMs": 27025,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -685,11 +685,11 @@
       "id": "defias-original-conspiracy-story-maeliks-visits",
       "guideId": "defias-original-conspiracy-guide",
       "title": "The visitor named Maelik",
-      "narration": "After the riot, Thelwater recalls a recent visitor who signed in as Maelik. At this point the name is a mark in a warden’s account, not a solved identity. The story lets uncertainty remain for one scene: a visitor came, a name was recorded, and the next question belongs to Shaw’s investigation.",
-      "durationMs": 21750,
+      "narration": "After the riot, Thelwater remembered a recent visitor who had signed himself Maelik. The name offered a new thread, but no resolved identity. Someone had come to the prison, leaving a mark the warden could recall. The investigator carried that small remembrance onward, seeking what purpose had brought the visitor into Bazil’s reach.",
+      "durationMs": 44000,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-maeliks-visits.mp3",
-        "durationMs": 21750,
+        "durationMs": 23975,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -730,11 +730,11 @@
       "id": "defias-original-conspiracy-story-marzon-unmasked",
       "guideId": "defias-original-conspiracy-guide",
       "title": "Shaw identifies Marzon",
-      "narration": "Shaw recognizes Marzon as the name behind the alias and says the agent works for Lord Gregor Lescovar. The report turns a vague visitor into a path toward a powerful household. These are Shaw’s conclusions as recorded by the quest, and the Defias inquiry remains bounded by that evidence; no link to Onyxia is introduced.",
-      "durationMs": 23600,
+      "narration": "Shaw recognized Marzon behind the alias and said the agent served Lord Gregor Lescovar. A prison visitor’s name had become a path toward a powerful household. The Defias inquiry now reached beyond the Brotherhood’s hidden mine and into Stormwind’s nobility. Shaw’s intelligence gave the investigator another connection to pursue within the city’s guarded life.",
+      "durationMs": 44500,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-marzon-unmasked.mp3",
-        "durationMs": 23600,
+        "durationMs": 26900,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -777,11 +777,11 @@
       "id": "defias-original-conspiracy-story-justice-outside-law",
       "guideId": "defias-original-conspiracy-guide",
       "title": "When evidence meets rank",
-      "narration": "Shaw doubts that evidence against a connected noble will readily bring justice through ordinary channels. He sends the investigator to Elling Trias, placing the next step outside the formal report he has just described. This is Shaw’s judgment, not a universal statement about Stormwind law, and the story does not conceal the cost of taking the extralegal path.",
-      "durationMs": 24875,
+      "narration": "Shaw doubted that evidence against a connected noble would readily bring justice. He sent the investigator to Elling Trias. The inquiry passed beyond the formal channels whose weakness he feared, accepting another path with dangers of its own. Within Stormwind, the search for truth now moved through quieter hands, where power could be watched before it could be openly challenged.",
+      "durationMs": 49000,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-justice-outside-law.mp3",
-        "durationMs": 24875,
+        "durationMs": 27300,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -823,11 +823,11 @@
       "id": "defias-original-conspiracy-story-tyrion-and-spybot",
       "guideId": "defias-original-conspiracy-guide",
       "title": "Tyrion prepares the watch",
-      "narration": "Trias introduces Tyrion, who has watched Lescovar. The next preparations are a Spybot, silk, and apples for the observation. The record names Tyrion’s task but leaves his private motives unspoken.",
-      "durationMs": 15325,
+      "narration": "Trias introduced Tyrion, who had been watching Lescovar. A Spybot, silk and apples were gathered for his preparations. The small instruments of deception stood beside the weight of the inquiry they served. To learn what the noble concealed, the investigator would have to observe him without revealing the search that had reached his household.",
+      "durationMs": 44500,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-tyrion-and-spybot.mp3",
-        "durationMs": 15325,
+        "durationMs": 24350,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -870,11 +870,11 @@
       "id": "defias-original-conspiracy-story-garden-meeting",
       "guideId": "defias-original-conspiracy-guide",
       "title": "The meeting in the garden",
-      "narration": "The quest sends the adventurer to overhear a meeting about the Defias, then kill Lescovar and Marzon. Its transcription leaves the precise exchange unknown. Pale stone, blue roofs, and gold trim frame the garden beside Stormwind Keep, where the city’s formal face surrounds a secret meeting.",
-      "durationMs": 20975,
+      "narration": "Near Stormwind Keep, the investigator overheard a secret meeting concerning the Defias. Lescovar and Marzon were then killed. Pale stone, blue roofs and gold trim framed the garden where the city’s formal splendor surrounded the conspiracy. The inquiry had reached its suspects through concealment, and its reckoning left no public trial to explain what had passed there.",
+      "durationMs": 46500,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-garden-meeting.mp3",
-        "durationMs": 20975,
+        "durationMs": 27875,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -917,11 +917,11 @@
       "id": "defias-original-conspiracy-story-report-and-secrecy",
       "guideId": "defias-original-conspiracy-guide",
       "title": "Secrecy and Baros’s report",
-      "narration": "The player reports Lescovar’s death to Shaw. Shaw then advises secrecy about who carried out the killing and sends the investigator back to Baros, who prepares a report for the king. The chain records both the violence and the attempt to move its evidence upward; it does not describe a public trial or settle the noble plot.",
-      "durationMs": 22375,
+      "narration": "The investigator reported Lescovar’s death to Shaw. Shaw urged secrecy about those who had carried out the killing and sent the evidence back to Baros. A report was prepared for the king. The violence beside the Keep had brought the inquiry closer to royal authority, while leaving its own part in that violence hidden from the city.",
+      "durationMs": 46500,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-report-and-secrecy.mp3",
-        "durationMs": 22375,
+        "durationMs": 24100,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -964,11 +964,11 @@
       "id": "defias-original-conspiracy-story-audience-unanswered",
       "guideId": "defias-original-conspiracy-guide",
       "title": "An audience without Varian",
-      "narration": "Baros’s report is delivered to Katrana Prestor because King Varian is away on diplomacy. The quest closes at this handoff and records a token of royal appreciation, but it does not answer what the report will change. The Keep’s pale stone, blue standards, and gold accents frame an unfinished political question; the story ends here without joining it to another conspiracy.",
-      "durationMs": 26275,
+      "narration": "With King Varian away on diplomacy, Baros’s report was delivered to Katrana Prestor. A token of royal appreciation followed, but no answer to what the evidence would change. Within the Keep’s pale walls, the inquiry ended in a handoff. The Defias leader had fallen, the noble suspects were dead, and Stormwind’s response to the truths carried upward remained uncertain.",
+      "durationMs": 48000,
       "voiceover": {
         "assetPath": "audio/guided/defias-original-conspiracy-guide/defias-original-conspiracy-story-audience-unanswered.mp3",
-        "durationMs": 26275,
+        "durationMs": 28075,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },

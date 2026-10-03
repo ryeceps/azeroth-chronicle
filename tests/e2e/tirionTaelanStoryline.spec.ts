@@ -41,7 +41,7 @@ test('Tirion and Taelan traverses all 14 Classic scenes with their area, cast an
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('/storylines/tirion-taelan-of-love-and-family');
   await expect(page.getByRole('heading', { level: 1, name: 'Tirion and Taelan: Of Love and Family' })).toBeVisible();
-  await expect(page.getByText(/two Classic quests named Of Love and Family remain separate/i)).toBeVisible();
+  await expect(page.getByText(/In the Archivist’s room, the Fordring family portrait lay hidden behind a picture of twin moons/i)).toBeVisible();
   await page.getByRole('link', { name: 'Experience this storyline' }).click();
   await expect(page).toHaveURL(/tour=storyline&storyline=tirion-taelan-of-love-and-family/);
   await page.getByRole('button', { name: 'Pause tour' }).click();

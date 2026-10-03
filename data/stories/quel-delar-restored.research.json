@@ -3,7 +3,7 @@
     "id": "quel-delar-restored-guide",
     "eraId": "age-of-adventurers",
     "title": "Quel’Delar: The Broken Blade Restored",
-    "description": "Nineteen illustrated scenes follow the battered hilt through rival faction plans, the blade’s older history, reforging and tempering in the Frozen Halls, the Sunwell’s cleansing light, and alternative returns to Alliance or Horde hands.",
+    "description": "A broken blade carries a kingdom’s sacrifice into a search for restoration. Rival heirs, the darkness of Icecrown and the Sunwell’s light shape what the living may inherit.",
     "nodeIds": [
       "quel-delar-restored-story-battered-hilt-at-rest",
       "quel-delar-restored-story-two-courts",
@@ -32,8 +32,8 @@
       "id": "quel-delar-restored-story-battered-hilt-at-rest",
       "guideId": "quel-delar-restored-guide",
       "title": "A hilt without a finder",
-      "narration": "In the Frozen Halls, a battered hilt may fall among the spoils of heroic danger. Its appearance is randomized game loot; no single finder belongs to history. The quest then brings the relic to Quel’Delar’s Rest, where the Silver Covenant or Sunreavers take up the question it carries. Before the sword is whole, its broken remnant has already drawn two rival courts toward the same inheritance.",
-      "durationMs": 5500,
+      "narration": "From the dangers of the Frozen Halls came a battered hilt, the remnant of a blade whose history had not ended with its breaking. At Quel’Delar’s Rest, the Silver Covenant and Sunreavers took up the question it carried. Before the sword could be made whole, its surviving fragment had drawn rival heirs toward an inheritance neither could leave forgotten.",
+      "durationMs": 48000,
       "eventIds": [
         "quel-delar-restored-battered-hilt-at-rest-event"
       ],
@@ -72,7 +72,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-battered-hilt-at-rest.mp3",
-        "durationMs": 27050,
+        "durationMs": 24725,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -81,8 +81,8 @@
       "id": "quel-delar-restored-story-two-courts",
       "guideId": "quel-delar-restored-guide",
       "title": "Two courts, one inheritance",
-      "narration": "At Quel’Delar’s Rest, an Alliance seeker answers Caladis Brightspear; a Horde seeker answers Myralion Sunblaze. Their plans pass through separate faction halls, and the player follows one allegiance, not both. In the city’s violet heights, old kinship between high and blood elves cannot settle who may claim the blade. The story keeps both roads visible as alternatives, without giving either branch a universal adventurer.",
-      "durationMs": 5500,
+      "narration": "Caladis Brightspear received seekers of the Silver Covenant; Myralion Sunblaze received those of the Sunreavers. Their allegiances opened different roads through Dalaran. Old kinship between high elves and blood elves could not settle who should hold the blade. Above the city’s violet heights, the hope of restoration stood beside a rivalry over the memory it would carry.",
+      "durationMs": 46500,
       "eventIds": [
         "quel-delar-restored-two-courts-event"
       ],
@@ -126,7 +126,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-two-courts.mp3",
-        "durationMs": 28125,
+        "durationMs": 26650,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -135,8 +135,8 @@
       "id": "quel-delar-restored-story-dragon-counsel",
       "guideId": "quel-delar-restored-guide",
       "title": "The dragons weigh the risk",
-      "narration": "At Wyrmrest Temple, Krasus lends the seekers a record of the ancient blade. Kalecgos asks whether mortals should command such power: the dragons have known the grief of a mighty weapon turned against them. Alexstrasza permits the search to continue, though permission is not an answer to every fear. Beneath the red-bronze shrine, the hilt’s past begins to emerge as both a promise and a warning.",
-      "durationMs": 5500,
+      "narration": "At Wyrmrest Temple, Krasus lent the seekers a history of the ancient blade. Kalecgos questioned whether mortals should command such power; the dragons knew the grief of a mighty weapon turned against them. Alexstrasza permitted the search to continue. Beneath the red-bronze shrine, the hilt’s past began to emerge as both a promise and a warning.",
+      "durationMs": 46000,
       "eventIds": [
         "quel-delar-restored-dragon-counsel-event"
       ],
@@ -190,7 +190,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-dragon-counsel.mp3",
-        "durationMs": 26500,
+        "durationMs": 25325,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -199,8 +199,8 @@
       "id": "quel-delar-restored-story-rival-orders",
       "guideId": "quel-delar-restored-guide",
       "title": "Orders in the violet city",
-      "narration": "In Dalaran, Caladis Brightspear and Myralion Sunblaze each direct their own faction’s search. Their orders are parallel branches in the quest, not a single council where both factions agree. The city’s pale towers and violet enchantments stand above a contest of memory: each side would restore the old blade, and each expects its own people to guard the inheritance.",
-      "durationMs": 5500,
+      "narration": "In Dalaran, Caladis and Myralion each directed the search among their own people. Both sought the old blade’s restoration, yet their purposes did not make them one council. Beneath the city’s pale towers and violet enchantments, a shared inheritance remained contested. Each hoped the sword would return to hands worthy of the history their people remembered.",
+      "durationMs": 46000,
       "eventIds": [
         "quel-delar-restored-rival-orders-event"
       ],
@@ -244,7 +244,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-rival-orders.mp3",
-        "durationMs": 25625,
+        "durationMs": 26225,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -253,8 +253,8 @@
       "id": "quel-delar-restored-story-borrowed-disguise",
       "guideId": "quel-delar-restored-guide",
       "title": "A borrowed guise for old records",
-      "narration": "A disguise opens a way to records guarded by suspicion and old allegiances. The faction quest asks its chosen seeker to recover the ancient dragonforged blades’ history, not to invent a new forging tale. Here the folio stands for those recovered records, not an exact published volume. The theft is a game objective; the story keeps its danger and purpose, not every repeated step of play.",
-      "durationMs": 5500,
+      "narration": "A disguise opened the way to guarded knowledge. Suspicion and old allegiances stood around the history of the dragonforged blades, and the seeker recovered it under a borrowed appearance. The pages offered something steel alone could not restore. Before the broken hilt could become a weapon again, its name and the burden of its past had to be understood.",
+      "durationMs": 48000,
       "eventIds": [
         "quel-delar-restored-borrowed-disguise-event"
       ],
@@ -303,7 +303,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-borrowed-disguise.mp3",
-        "durationMs": 28000,
+        "durationMs": 25250,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -312,8 +312,8 @@
       "id": "quel-delar-restored-story-blade-identified",
       "guideId": "quel-delar-restored-guide",
       "title": "The name in the record",
-      "narration": "Returned to the dragon’s record, the story of the hilt resolves into a name: Quel’Delar, sister to Quel’Serrar. Its remembered history binds red dragonflight craft to the high elven crown and to a defender who stood before the Sunwell. The book does not make the sword’s inheritance simple. It tells how a gift can outlive a kingdom’s wound, while leaving its next bearer to be contested.",
-      "durationMs": 5500,
+      "narration": "The recovered history gave the hilt a name: Quel’Delar, sister to Quel’Serrar. Its past bound the red dragonflight’s craft to the high elven crown and a defender who stood before the Sunwell. A gift had endured beyond a kingdom’s wound. Yet remembering the blade did not settle who might bear it next, or how its broken length could be restored.",
+      "durationMs": 49000,
       "eventIds": [
         "quel-delar-restored-blade-identified-event"
       ],
@@ -357,7 +357,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-blade-identified.mp3",
-        "durationMs": 26175,
+        "durationMs": 24650,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -366,8 +366,8 @@
       "id": "quel-delar-restored-story-blade-gift",
       "guideId": "quel-delar-restored-guide",
       "title": "A gift carried through generations",
-      "narration": "In the older account, Alexstrasza gives the blade to Anasterian, and the high king later entrusts it to Thalorien Dawnseeker. This is a remembered handoff, not a ceremony whose room or date the tale records. The Sunwell’s ancient light matters because the sword’s future defense is bound to Quel’Thalas. Its gold and red radiance now illuminates a gift moving toward its trial.",
-      "durationMs": 5500,
+      "narration": "In the older memory, Alexstrasza gave the blade to Anasterian, who later entrusted it to Thalorien Dawnseeker. The gift passed from a dragon to a king and onward to a defender. Quel’Thalas’s fate would test the inheritance. Beside the Sunwell’s ancient light, the sword’s promise waited upon the courage of the hand that carried it.",
+      "durationMs": 45000,
       "eventIds": [
         "quel-delar-restored-blade-gift-event"
       ],
@@ -416,7 +416,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-blade-gift.mp3",
-        "durationMs": 26950,
+        "durationMs": 24925,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -425,8 +425,8 @@
       "id": "quel-delar-restored-story-thalorien-last-stand",
       "guideId": "quel-delar-restored-guide",
       "title": "Thalorien at the Sunwell gate",
-      "narration": "When the Scourge reached Quel’Thalas, Thalorien held the approach before the Sunwell. He fell in that defense, buying time for those behind him; the quest’s memory binds his name to the blade he carried. The golden island was not spared its wound, and the champion was not carried into the future. His stand belongs to the Third War, long before this Wrath quest asks another hand to restore his sword.",
-      "durationMs": 5500,
+      "narration": "During the Third War, the Scourge reached Quel’Thalas. Thalorien held the approach before the Sunwell and fell buying time for those behind him. His defense could not spare the kingdom its wound, but his name remained bound to the blade he bore. Long afterward, another search would seek to restore what had survived that loss.",
+      "durationMs": 45000,
       "eventIds": [
         "quel-delar-restored-thalorien-last-stand-event"
       ],
@@ -470,7 +470,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-thalorien-last-stand.mp3",
-        "durationMs": 26350,
+        "durationMs": 22850,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -479,8 +479,8 @@
       "id": "quel-delar-restored-story-lanathel-breaks-blade",
       "guideId": "quel-delar-restored-guide",
       "title": "Lana’thel breaks the blade",
-      "narration": "At Quel’Delar’s Rest, a more recent memory darkens the snow. Lana’thel recounts how the sword passed from Thalorien into her hands after his fall, and how, as the Lich King’s servant, she was ordered to destroy it. She carried Quel’Delar north and broke it here. Her account joins a knight’s last defense to a queen’s enslavement; the broken hilt at the quest’s opening is the remnant of that command.",
-      "durationMs": 5500,
+      "narration": "At Quel’Delar’s Rest, Lana’thel brought a darker memory. After Thalorien’s fall, the sword had passed into her hands. As the Lich King’s servant, she was ordered to destroy it. She carried Quel’Delar north and broke it there. A knight’s last defense and a queen’s enslavement now met in the shattered steel lying beneath the snow.",
+      "durationMs": 45000,
       "eventIds": [
         "quel-delar-restored-lanathel-breaks-blade-event"
       ],
@@ -524,7 +524,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-lanathel-breaks-blade.mp3",
-        "durationMs": 26700,
+        "durationMs": 23550,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -533,8 +533,8 @@
       "id": "quel-delar-restored-story-vow-to-restore",
       "guideId": "quel-delar-restored-guide",
       "title": "A vow to make the blade whole",
-      "narration": "The sword’s breaking does not end its history. Myralion vows that the Sunreavers will restore it; Caladis leads the Silver Covenant along its separate path. The two representatives are shown here as a comparative split scene, not as companions sharing one event. Their promise gives purpose to the work ahead: remake the blade, face the will bound within it, and seek a cleansing strong enough to remove what the Scourge has left.",
-      "durationMs": 5500,
+      "narration": "The breaking had not ended Quel’Delar’s history. Myralion vowed that the Sunreavers would restore it, while Caladis led the Silver Covenant’s separate search. Their resolve gave purpose to the work ahead. The blade had to be remade, the will within it faced, and the touch left by the Scourge cleansed. Beyond the hilt’s recovery waited a more perilous restoration.",
+      "durationMs": 48000,
       "eventIds": [
         "quel-delar-restored-vow-to-restore-event"
       ],
@@ -583,7 +583,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-vow-to-restore.mp3",
-        "durationMs": 27550,
+        "durationMs": 25725,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -592,8 +592,8 @@
       "id": "quel-delar-restored-story-pit-reforging",
       "guideId": "quel-delar-restored-guide",
       "title": "Reforged in the Pit of Saron",
-      "narration": "In the Pit of Saron, the quest sets the old blade against saronite: five infused bars and a forgehammer remake its broken length. The mine is a place of forced labor beneath Icecrown, its black ore cut from a frozen wound. This is a player objective, not a separate campaign of named smiths. When the pieces are joined, the sword is whole again—but the material that holds it also carries a peril.",
-      "durationMs": 5500,
+      "narration": "In the Pit of Saron, infused bars and a forgehammer joined the blade’s broken length. The mine lay beneath Icecrown, a place of forced labor and dark ore within the frozen land. Quel’Delar became whole again. Yet the material that held its pieces carried a peril of its own, and the restored weapon had not been freed from the darkness around its making.",
+      "durationMs": 51000,
       "eventIds": [
         "quel-delar-restored-pit-reforging-event"
       ],
@@ -632,7 +632,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-pit-reforging.mp3",
-        "durationMs": 27750,
+        "durationMs": 25500,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -641,8 +641,8 @@
       "id": "quel-delar-restored-story-forge-tempering",
       "guideId": "quel-delar-restored-guide",
       "title": "Tempered in the Forge of Souls",
-      "narration": "The newly joined blade travels to the Crucible of Souls, deep within the Forge of Souls. There it is tempered amid the machinery of the Lich King’s frozen halls. Blue soul-light gathers around the Crucible as the blade takes its new shape. The work succeeds in making a weapon whole, yet the next chamber reveals that a finished edge and a clean spirit are not the same thing.",
-      "durationMs": 5500,
+      "narration": "The joined blade was carried to the Crucible of Souls within the Forge of Souls. There it was tempered amid the machinery of the Lich King’s frozen halls. The weapon had regained its shape, but its next passage would expose a deeper difficulty. An edge made whole could still bear a spirit that had not been cleansed.",
+      "durationMs": 46500,
       "eventIds": [
         "quel-delar-restored-forge-tempering-event"
       ],
@@ -681,7 +681,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-forge-tempering.mp3",
-        "durationMs": 25050,
+        "durationMs": 22100,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -690,8 +690,8 @@
       "id": "quel-delar-restored-story-blade-compulsion",
       "guideId": "quel-delar-restored-guide",
       "title": "The sword draws toward the Halls",
-      "narration": "From the frozen forge, Quel’Delar presses its bearer toward the Halls of Reflection. The quest frames this as compulsion: the blade has a will, and its direction leads into the Lich King’s chamber. This direction belongs to the quest’s magic, not any trail blazed by the seeker. In the blue-black hall, the sword’s restoration turns inward. The first danger is no longer whether it can be wielded, but who commands whom.",
-      "durationMs": 5500,
+      "narration": "Quel’Delar pressed its bearer toward the Halls of Reflection. The blade possessed a will, and its command led into the Lich King’s chamber. Within the blue-black hall, the search for restoration became a struggle for mastery. A finished edge could be carried in the hand; the power directing that hand now had to be confronted.",
+      "durationMs": 45000,
       "eventIds": [
         "quel-delar-restored-blade-compulsion-event"
       ],
@@ -730,7 +730,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-blade-compulsion.mp3",
-        "durationMs": 27850,
+        "durationMs": 22800,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -739,8 +739,8 @@
       "id": "quel-delar-restored-story-will-subdued",
       "guideId": "quel-delar-restored-guide",
       "title": "The blade’s will is subdued",
-      "narration": "The seeker resists the sword’s command and brings its will to heel. Quel’Delar survives the struggle; neither its steel nor the story’s inherited name is discarded. Yet victory in the Halls of Reflection is only restraint. The blade was reforged with the dark ore of Icecrown, and a quieted weapon may still bear the touch of the place that shaped it. A voice from the chamber names the deeper danger.",
-      "durationMs": 5500,
+      "narration": "The seeker resisted Quel’Delar’s command and brought its will to heel. The sword survived the struggle, yet restraint did not make it pure. Icecrown’s dark ore still held the repaired steel together. A voice within the chamber would name what the reforging had carried into it, and the search would turn from mastery toward cleansing.",
+      "durationMs": 45000,
       "eventIds": [
         "quel-delar-restored-will-subdued-event"
       ],
@@ -779,7 +779,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-will-subdued.mp3",
-        "durationMs": 26925,
+        "durationMs": 23400,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -788,8 +788,8 @@
       "id": "quel-delar-restored-story-uther-warning",
       "guideId": "quel-delar-restored-guide",
       "title": "Uther names the taint",
-      "narration": "Uther’s spirit speaks beside the chamber’s blade: saronite is the blood of an Old God, and the ore has tainted what the hammer restored. His counsel turns the quest toward the Sunwell. No forging technique can cleanse this wound. Beyond the frozen halls lies a place of older light, reclaimed by the blood elves after its earlier fall. There, the sword’s makers’ legacy may be tested against the darkness forced into it.",
-      "durationMs": 5500,
+      "narration": "Uther’s spirit named the deeper wound: saronite was the blood of an Old God, and its taint had entered the restored blade. His counsel turned the seeker toward the Sunwell. Beyond Icecrown’s frozen halls lay older light, in a sacred place the blood elves had reclaimed. There the sword might be cleansed of what its new forging had forced into it.",
+      "durationMs": 49500,
       "eventIds": [
         "quel-delar-restored-uther-warning-event"
       ],
@@ -833,7 +833,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-uther-warning.mp3",
-        "durationMs": 28600,
+        "durationMs": 25175,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -842,8 +842,8 @@
       "id": "quel-delar-restored-story-halduron-refusal",
       "guideId": "quel-delar-restored-guide",
       "title": "A sacred shore must be approached",
-      "narration": "At Quel’Danas, Halduron Brightwing first refuses the seeker entry to a sacred place recently reclaimed by the blood elves. The Sunwell is no casual road’s end. Its shores carry the memory of a kingdom nearly lost, and trust must be earned before the blade can reach its light. Beyond the Dead Scar, pale stone and red-gold towers frame a question of stewardship: who may bring this dangerous inheritance to the well?",
-      "durationMs": 5500,
+      "narration": "At Quel’Danas, Halduron Brightwing refused entry to the sacred place the blood elves had recently reclaimed. The Sunwell’s shores carried the memory of a kingdom nearly lost. Before the dangerous blade could reach its light, the seeker had to earn trust. Beyond the Dead Scar, the journey approached those whose duty was to guard that inheritance.",
+      "durationMs": 46000,
       "eventIds": [
         "quel-delar-restored-halduron-refusal-event"
       ],
@@ -887,7 +887,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-halduron-refusal.mp3",
-        "durationMs": 28175,
+        "durationMs": 25250,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -896,8 +896,8 @@
       "id": "quel-delar-restored-story-thalorien-test",
       "guideId": "quel-delar-restored-guide",
       "title": "A later trial at Thalorien’s rest",
-      "narration": "At Thalorien’s resting place, the Wrath quest sets a new seeker against a trial and a memory of the fallen knight. This encounter does not undo his death or make him a living participant in the restoration. His blessing links the blade’s old bearer to its present burden. The story holds both moments apart: Thalorien fell at the Sunwell in the Third War; a later test asks whether the seeker is worthy to carry his memory onward.",
-      "durationMs": 5500,
+      "narration": "At Thalorien’s resting place, the seeker faced a trial and the memory of the fallen knight. His death remained in the Third War, yet his blessing could reach the bearer who now carried his blade. The past had not returned him to life. It offered a bond between the defender’s sacrifice and the burden of restoring what had survived him.",
+      "durationMs": 49000,
       "eventIds": [
         "quel-delar-restored-thalorien-test-event"
       ],
@@ -941,7 +941,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-thalorien-test.mp3",
-        "durationMs": 28325,
+        "durationMs": 23975,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -950,8 +950,8 @@
       "id": "quel-delar-restored-story-sunwell-purification",
       "guideId": "quel-delar-restored-guide",
       "title": "Purified in the Sunwell",
-      "narration": "At last the tempered blade is lowered into the Sunwell. Light passes through the old steel and the saronite taint is cleansed; the quest presents a purified Quel’Delar where the corrupted weapon had rested. The well does not erase Lana’Thel’s command, Thalorien’s sacrifice, or the peril of the halls. It changes what can be carried forward. A weapon once broken and then remade leaves the sacred waters with a new claim upon the living.",
-      "durationMs": 5500,
+      "narration": "At last, the tempered blade was lowered into the Sunwell. Its light cleansed the saronite taint, and Quel’Delar emerged purified. Thalorien’s sacrifice and Lana’thel’s enslavement remained part of its history. What changed was the inheritance the living could carry. Broken and remade, the sword left the sacred waters free of the darkness that had entered its steel.",
+      "durationMs": 46500,
       "eventIds": [
         "quel-delar-restored-sunwell-purification-event"
       ],
@@ -990,7 +990,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-sunwell-purification.mp3",
-        "durationMs": 29100,
+        "durationMs": 26575,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
@@ -999,8 +999,8 @@
       "id": "quel-delar-restored-story-faction-handoffs",
       "guideId": "quel-delar-restored-guide",
       "title": "Two returns, no single heir",
-      "narration": "The restored weapon returns to Dalaran by faction-specific roads. An Alliance seeker reports through Caladis and the Silver Covenant; a Horde seeker through Myralion and the Sunreavers. In the blood-elf sword branch, Aethas publicly presents the new bearer. Other characters unable to wield the sword receive a different weapon type. These are alternative game outcomes, not one champion’s combined history, and no named adventurer is made the canonical heir.",
-      "durationMs": 5500,
+      "narration": "The restored blade returned toward Dalaran along the paths of the Silver Covenant and Sunreavers. Each people could welcome the recovery without ending the rivalry around its inheritance. Among the blood elves, Aethas could present a new bearer. Yet no single name settled the sword’s future for all. Quel’Delar’s long passage through gift, sacrifice and corruption had reached the hope of restoration.",
+      "durationMs": 50500,
       "eventIds": [
         "quel-delar-restored-faction-handoffs-event"
       ],
@@ -1061,7 +1061,7 @@
       "previousNodeId": "quel-delar-restored-story-sunwell-purification",
       "voiceover": {
         "assetPath": "audio/guided/quel-delar-restored-guide/quel-delar-restored-story-faction-handoffs.mp3",
-        "durationMs": 30850,
+        "durationMs": 28875,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
