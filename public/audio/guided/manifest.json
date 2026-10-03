@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T02:15:10.985Z",
+  "generatedAt": "2026-10-03T04:05:07.170Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 407,
-  "totalDurationMs": 11061650,
+  "trackCount": 416,
+  "totalDurationMs": 11346800,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -3675,6 +3675,87 @@
       "sha256": "128c9efca9c1a3de5311f7464f1ba1f0e0d6a0c97aa3bd1260fae46f5d63a584",
       "transcriptSha256": "407cb543c88a1caa9a38d159b979de4c4c0c0cf973009a5db9829eea90891f7d",
       "bytes": 345645
+    },
+    {
+      "nodeId": "champion-of-the-naaru-outland-trials-story-khadgars-missive",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-khadgars-missive.mp3",
+      "durationMs": 28975,
+      "sha256": "fd27be1f7e77980c78e0b646f3353b03cb2dfb5c992fd61e33bbedbd45547afa",
+      "transcriptSha256": "0c2a2ffdc60c5850963eac09dfcec148bd6b5aa3180fb9603803ca2320b90e3c",
+      "bytes": 348813
+    },
+    {
+      "nodeId": "champion-of-the-naaru-outland-trials-story-adal-names-the-danger",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-adal-names-the-danger.mp3",
+      "durationMs": 29200,
+      "sha256": "3ef601278a73b252a0fed0bbba8321be7dccb00a1e1362ef78c97d01f5687c4b",
+      "transcriptSha256": "760ae214e07c5a19b0077c01ef52c89b86c402b459f0af056568c40142d5ada8",
+      "bytes": 351405
+    },
+    {
+      "nodeId": "champion-of-the-naaru-outland-trials-story-trial-of-mercy",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-trial-of-mercy.mp3",
+      "durationMs": 35625,
+      "sha256": "a5c76bcdc7928a0c259b78a52b4df88302188c5eacd3425e6db9958413f1eb76",
+      "transcriptSha256": "1e60a89015620a58fcf5e7c9f38ab17c5b208c1ead8dc7067218f0252f9d1cf3",
+      "bytes": 428589
+    },
+    {
+      "nodeId": "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault.mp3",
+      "durationMs": 33400,
+      "sha256": "a34d7f92a0f7387b04cee8b433d37705eb0f8a059d61e69a5041c5ba1b8963ea",
+      "transcriptSha256": "98c3a298b46472dd77c7c0f3f8c6ec5ef2f097ab741a7d5e85646e7a3ea24194",
+      "bytes": 401805
+    },
+    {
+      "nodeId": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth.mp3",
+      "durationMs": 32675,
+      "sha256": "a31bfdde6cf939ab189168a4498a49733c591c16517a9a74e06a26d2ff45487c",
+      "transcriptSha256": "fa87756c77f7ca29d5063e53d6e19c565fcc62d6f2a23d38ef82d7c53f263d65",
+      "bytes": 393165
+    },
+    {
+      "nodeId": "champion-of-the-naaru-outland-trials-story-trial-of-tenacity",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-trial-of-tenacity.mp3",
+      "durationMs": 32475,
+      "sha256": "2d194c53327437a9317846a66a6347a4fefbd830039e4d29469c8d62b7735a53",
+      "transcriptSha256": "ad2b92162893d9ba87d4e19c5765e1fa49710c4837c811c941eceefbae094941",
+      "bytes": 390861
+    },
+    {
+      "nodeId": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-trial-of-magtheridon.mp3",
+      "durationMs": 31375,
+      "sha256": "a9ade2c62f0105fdf445dcd034c07da96ed6c2c7004e3b4d9531205beda786f5",
+      "transcriptSha256": "1c968b369ac1d098cf615a014953b097e03d7b34b58db2f2a5947ac2fa8e5859",
+      "bytes": 377613
+    },
+    {
+      "nodeId": "champion-of-the-naaru-outland-trials-story-the-tempest-key",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-the-tempest-key.mp3",
+      "durationMs": 26500,
+      "sha256": "9edd50b0b076a6c2f8d3bcf349fcf63f53e2650e413ad339d1d0698a9094e658",
+      "transcriptSha256": "9a7d8bc5a8906628922c82a68da3ab06fe58b77d1e5c2d4a1b416a5fa08f3c46",
+      "bytes": 319149
+    },
+    {
+      "nodeId": "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate.mp3",
+      "durationMs": 34925,
+      "sha256": "d17d605036a1be9fcb7d06841e4bcba38a81da5cc33198891bce44c422a21fe2",
+      "transcriptSha256": "b30cc82d4f76b6509d360d1610d748b7b3adefb5e4aba9c02d505caf70023c0e",
+      "bytes": 420237
     }
   ]
 }

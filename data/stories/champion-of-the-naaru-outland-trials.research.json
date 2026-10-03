@@ -1,0 +1,494 @@
+{
+  "guide": {
+    "id": "champion-of-the-naaru-outland-trials-guide",
+    "eraId": "age-of-adventurers",
+    "title": "Champion of the Naaru: Trials across Outland",
+    "description": "Nine illustrated scenes follow A’dal’s four trials, the divided test of Strength, Magtheridon’s defeat, and the distinct access condition behind the title.",
+    "nodeIds": [
+      "champion-of-the-naaru-outland-trials-story-khadgars-missive",
+      "champion-of-the-naaru-outland-trials-story-adal-names-the-danger",
+      "champion-of-the-naaru-outland-trials-story-trial-of-mercy",
+      "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault",
+      "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth",
+      "champion-of-the-naaru-outland-trials-story-trial-of-tenacity",
+      "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon",
+      "champion-of-the-naaru-outland-trials-story-the-tempest-key",
+      "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-khadgars-missive",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "A letter after the Cipher",
+      "narration": "At Shadowmoon’s end, the Cipher’s final answer names the danger A’dal now sees in Kael’thas. A letter from Khadgar calls the seeker to Shattrath. This passage begins where Oronok’s story ends; it does not fold his long work into a second mission. The road now turns toward Tempest Keep, and the naaru who once had no need to reopen their vessel ask for help against a threat within it.",
+      "durationMs": 55500,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-khadgars-missive-event"
+      ],
+      "entityIds": [
+        "khadgar",
+        "adal"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-khadgars-missive-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "khadgar"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        }
+      ],
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-adal-names-the-danger"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-khadgars-missive.mp3",
+        "durationMs": 28975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-adal-names-the-danger",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "The danger named by A’dal",
+      "narration": "Tempest Keep was made by the naaru, and A’dal says they had once judged a return unnecessary. Now Kael’thas must be stopped before he can use the Cipher of Damnation. A’dal asks adventurers to prove themselves in four trials before entering the vessel. The quests describe readiness for a dangerous undertaking; this story does not turn the achievement title into an office bestowed by the naaru.",
+      "durationMs": 53500,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-adal-names-the-danger-event"
+      ],
+      "entityIds": [
+        "adal"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-adal-names-the-danger-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-khadgars-missive",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-mercy"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-adal-names-the-danger.mp3",
+        "durationMs": 29200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-mercy",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "Mercy in the Shattered Halls",
+      "narration": "A’dal places the word Mercy beside a threatened life. In the Shattered Halls, Kargath holds three prisoners and intends to execute them. A’dal calls them the seeker’s people but does not name their allegiance. The task asks that they be saved; its named proof is an unused executioner’s axe with no blood on the blade. The quest records the trial passed when the axe is returned, but gives no named count of survivors. We leave that uncertainty where the record leaves it.",
+      "durationMs": 65000,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-mercy-event"
+      ],
+      "entityIds": [
+        "kargath-bladefist",
+        "prisoners-of-the-shattered-halls",
+        "unused-executioners-axe"
+      ],
+      "locationIds": [
+        "shattered-halls"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.3
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-trial-of-mercy-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kargath-bladefist"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "prisoners-of-the-shattered-halls"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "unused-executioners-axe"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-adal-names-the-danger",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-trial-of-mercy.mp3",
+        "durationMs": 35625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "Strength, divided: the Steamvault",
+      "narration": "Strength is the trial A’dal explicitly divides. In the Steamvault, its first named feat is to defeat Warlord Kalithresh and bring back his trident. The flooded Coilfang works become one half of a single test. The trident is the proof the quest asks for; its description adds no new campaign against Coilfang and no further use for the weapon. The trial’s moral meaning beyond its name is not supplied, so the telling does not invent one.",
+      "durationMs": 60500,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault-event"
+      ],
+      "entityIds": [
+        "warlord-kalithresh",
+        "kalithresh-trident"
+      ],
+      "locationIds": [
+        "steamvault"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-strength-in-the-steamvault-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "warlord-kalithresh"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kalithresh-trident"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-trial-of-mercy",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault.mp3",
+        "durationMs": 33400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "Strength, divided: Murmur",
+      "narration": "A’dal’s second named task lies in Auchindoun’s Shadow Labyrinth. Murmur is described as an extra-planar being; the adventurer is sent to defeat it and return its essence. This scene follows the Steamvault because the quest text names those two halves in that order, not because the source establishes a fixed historical sequence between separate runs. The essence serves as proof of the assigned trial; the quest gives it no further use.",
+      "durationMs": 57000,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-event"
+      ],
+      "entityIds": [
+        "murmur",
+        "murmurs-essence"
+      ],
+      "locationIds": [
+        "shadow-labyrinth"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-strength-in-shadow-labyrinth-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "murmur"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "murmurs-essence"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-tenacity"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth.mp3",
+        "durationMs": 32675,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-tenacity",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "Tenacity in the Arcatraz",
+      "narration": "At the Arcatraz, A’dal’s account turns the trial toward persistence. The naaru have imprisoned dangerous beings aboard Tempest Keep, but A’dal distinguishes Millhouse: a gnome stowaway caught on the wrong vessel at the wrong moment. The adventurer must rescue him and ensure he survives. That account of how Millhouse came to be imprisoned belongs to A’dal’s quest text; the story does not turn it into an independent capture report.",
+      "durationMs": 55500,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-tenacity-event"
+      ],
+      "entityIds": [
+        "millhouse-manastorm"
+      ],
+      "locationIds": [
+        "arcatraz"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-trial-of-tenacity-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "millhouse-manastorm"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-trial-of-tenacity.mp3",
+        "durationMs": 32475,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "Only Magtheridon remains",
+      "narration": "Only Magtheridon remains. A’dal calls for an army and sends it deep beneath Hellfire Citadel, to the pit lord’s lair. The final task is to fight through the chamber and destroy the corrupter. The quest marks a change of scale from dungeon trials to a raid and says the naaru approve when the foe is defeated. It does not claim that Kael’thas has already been reached or that the battle inside Tempest Keep has been won.",
+      "durationMs": 60500,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon-event"
+      ],
+      "entityIds": [
+        "magtheridon"
+      ],
+      "locationIds": [
+        "hellfire-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-trial-of-magtheridon-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "magtheridon"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-trial-of-tenacity",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-the-tempest-key"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-trial-of-magtheridon.mp3",
+        "durationMs": 31375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-tempest-key",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "The way into Tempest Keep",
+      "narration": "With the final trial returned to A’dal, the Tempest Key is granted. Blizzard’s attunement overview identifies it as the means of entry to the Eye, the central wing of Tempest Keep in Netherstorm. The key is an access threshold, not the battle with Kael’thas. This telling ends at the gate the trials were meant to open; the fight within belongs to another story.",
+      "durationMs": 51000,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-the-tempest-key-event"
+      ],
+      "entityIds": [
+        "adal",
+        "tempest-key"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-the-tempest-key-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "tempest-key"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-the-tempest-key.mp3",
+        "durationMs": 26500,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "A title beyond one key",
+      "narration": "Champion of the Naaru is a title with a version history, not a rank granted by this chain alone. Blizzard’s attunement guide ties it to access to both the Eye and Serpentshrine Cavern; the Cudgel of Kar’desh belongs to that separate path. A later Classic ruleset removed raid-entry attunements, so its door rules cannot be read back into the original quest. The story closes with the Tempest Key, before the second gate and before either raid’s final reckoning.",
+      "durationMs": 62000,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate-event"
+      ],
+      "entityIds": [
+        "adal",
+        "tempest-key"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-the-title-and-the-separate-gate-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "tempest-key"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-the-tempest-key",
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate.mp3",
+        "durationMs": 34925,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    }
+  ]
+}

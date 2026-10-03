@@ -1,0 +1,28 @@
+{
+  "id": "champion-of-the-naaru-outland-trials-story-khadgars-missive-event",
+  "kind": "event",
+  "name": "A letter after the Cipher",
+  "slug": "champion-of-the-naaru-outland-trials-story-khadgars-missive-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Original Burning Crusade attunement quest era; exact date unknown"
+  },
+  "summary": "At Shadowmoon’s end, the Cipher’s final answer names the danger A’dal now sees in Kael’thas. A letter from Khadgar calls the seeker to Shattrath. This passage begins where Oronok’s story ends; it does not fold his long work into a second mission. The road now turns toward Tempest Keep, and the naaru who once had no need to reopen their vessel ask for help against a threat within it.",
+  "locationIds": [
+    "shattrath-city"
+  ],
+  "participantEntityIds": [
+    "khadgar",
+    "adal"
+  ],
+  "sourceIds": [
+    "champion-naaru-blizzard-attunement-overview",
+    "champion-naaru-tempest-key-quest-10883"
+  ],
+  "claimIds": [
+    "champion-of-the-naaru-outland-trials-story-khadgars-missive-claim"
+  ],
+  "contentStatus": "research"
+}
