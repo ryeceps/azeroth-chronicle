@@ -491,7 +491,7 @@ function AtlasScene({
 
       {layers.locations && characterFigures.map(({ active, entity, figure, runtime }) => (
         <group key={`figure-${entity.id}`} position={[runtime.position[0], 0.18, runtime.position[2]]}>
-          {active && (
+          {active && presentation !== 'relational' && (
             <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.12, 0]}>
               <ringGeometry args={[0.27, 0.32, 32]} />
               <meshBasicMaterial color="#d7b777" transparent opacity={0.5} depthTest={false} />

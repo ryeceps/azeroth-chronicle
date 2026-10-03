@@ -133,6 +133,17 @@
       }
     },
     {
+      "id": "hero-of-the-maghar-theater",
+      "name": "Hero of the Mag'har · relational story theater",
+      "slug": "hero-of-the-maghar-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "karazhan-story-theater",
       "name": "Karazhan — relational story theater",
       "slug": "karazhan-story-theater",
@@ -1212,6 +1223,86 @@
       "geometryIds": [],
       "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
       "interpretationNote": "Original AI-generated landscape for The Temple of Arkkoran. Target edition: pre-Cataclysm World of Warcraft Classic area identity. Preserve these recognizable traits: The ruined coastal temple in Classic Azshara: pale weathered night-elf stone, slender broken arches, carved but eroded surfaces, blue sea and cliff edges. Keep its architecture ancient and kaldorei without copying an in-game screenshot. This is an original interpretive scene, not a screenshot, surveyed geography, exact dungeon layout, fixed route or evidence of character co-presence. See docs/research/fallen-hero-and-rakhlikh-visual-assets.json for the matching-build review gate."
+    },
+    {
+      "id": "hero-of-the-maghar-ancestral-scene",
+      "name": "Mag'har story: The Ancestral Grounds",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/hero-of-the-maghar/ancestral-grounds.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · THE ANCESTRAL GROUNDS",
+      "interpretationNote": "Interpretive story scene. Open Nagrand grassland, weathered stones and ancestor markers beside a spring, with floating islands and mesas in the distance. Theater background only; no exact geography or surveyed layout is asserted. Human side-by-side review against the target client remains open."
+    },
+    {
+      "id": "hero-of-the-maghar-crypts-scene",
+      "name": "Mag'har story: Auchenai Crypts",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/hero-of-the-maghar/auchenai-crypts.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · AUCHENAI CRYPTS",
+      "interpretationNote": "Interpretive story scene. Blue-gray Draenei funerary arches, carved stone, crypt hall, cobwebs, bones and restrained violet-blue braziers. Theater background only; no exact geography or surveyed layout is asserted. Human side-by-side review against the target client remains open."
+    },
+    {
+      "id": "hero-of-the-maghar-garadar-scene",
+      "name": "Mag'har story: Garadar",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/hero-of-the-maghar/garadar.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · GARADAR",
+      "interpretationNote": "Interpretive story scene. TBC Mag'har village: modest hide-and-timber shelters, rough fences, fire ring, totems, grassland, ochre mesas and distant floating islands. Theater background only; no exact geography or surveyed layout is asserted. Human side-by-side review against the target client remains open."
+    },
+    {
+      "id": "hero-of-the-maghar-memory-scene",
+      "name": "Mag'har story: Flashback · Demon Fall Canyon",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/hero-of-the-maghar/demon-fall-memory.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THIRD WAR MEMORY · DEMON FALL CANYON",
+      "interpretationNote": "Interpretive story scene. Barren red-rock Ashenvale ravine, scorched earth, ash, dark stone and restrained fel-green light; explicit Third War memory. Theater background only; no exact geography or surveyed layout is asserted. Human side-by-side review against the target client remains open."
+    },
+    {
+      "id": "hero-of-the-maghar-nagrand-scene",
+      "name": "Mag'har story: Nagrand's green reaches",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/hero-of-the-maghar/nagrand-valley.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · NAGRAND'S GREEN REACHES",
+      "interpretationNote": "Interpretive story scene. Rolling green-gold grassland, turquoise waterways, broad-canopy trees, plateaus, floating islands and waterfalls. Theater background only; no exact geography or surveyed layout is asserted. Human side-by-side review against the target client remains open."
+    },
+    {
+      "id": "hero-of-the-maghar-orgrimmar-scene",
+      "name": "Mag'har story: Orgrimmar",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/onyxia/orgrimmar.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · ORGRIMMAR",
+      "interpretationNote": "Interpretive story scene. Reused red-stone Horde capital painting; contextual exterior, not a precise Hall of the Warchief plan. Theater background only; no exact geography or surveyed layout is asserted. Human side-by-side review against the target client remains open."
+    },
+    {
+      "id": "hero-of-the-maghar-oshugun-scene",
+      "name": "Mag'har story: Oshu'gun",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/hero-of-the-maghar/oshugun.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · OSHU'GUN",
+      "interpretationNote": "Interpretive story scene. Nagrand's immense pale crystalline mass amid green pasture, waterways and floating islands; a restrained violet shadow suggests spiritual danger. Theater background only; no exact geography or surveyed layout is asserted. Human side-by-side review against the target client remains open."
+    },
+    {
+      "id": "hero-of-the-maghar-shattrath-scene",
+      "name": "Mag'har story: Shattrath City",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/akama-black-temple/shattrath-terrace.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · SHATTRATH CITY",
+      "interpretationNote": "Interpretive story scene. Reused TBC Shattrath art with bright draenei arches, crystal light and water; not an exact quest-scene capture. Theater background only; no exact geography or surveyed layout is asserted. Human side-by-side review against the target client remains open."
     },
     {
       "id": "karazhan-masters-key-and-nightbane-arcatraz-scene",
@@ -6166,6 +6257,197 @@
       "editorNote": "A story-only focus for Gul'dan's political and magical influence, not a permanent location.",
       "labelPriority": 165,
       "visualPresence": "contextual"
+    },
+    {
+      "id": "hero-of-the-maghar-adal-theater",
+      "entityId": "adal",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "geometryId": "hero-of-the-maghar-adal-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "akama-promise-quest",
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883",
+        "champion-naaru-mercy-quest-10884",
+        "champion-naaru-strength-quest-10885",
+        "champion-naaru-tenacity-quest-10886",
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, formation, route, or permanent presence is asserted. Grom and Mannoroth appear only in the labeled Third War memory. See docs/research/hero-of-the-maghar-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 244
+    },
+    {
+      "id": "hero-of-the-maghar-ancient-orc-ancestors-maghar-theater",
+      "entityId": "ancient-orc-ancestors-maghar",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "geometryId": "hero-of-the-maghar-ancient-orc-ancestors-maghar-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "hero-maghar-ancestors",
+        "hero-maghar-spirits-speak",
+        "hero-maghar-soul-sees"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, formation, route, or permanent presence is asserted. Grom and Mannoroth appear only in the labeled Third War memory. See docs/research/hero-of-the-maghar-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 246
+    },
+    {
+      "id": "hero-of-the-maghar-dore-auchenai-theater",
+      "entityId": "dore-auchenai",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "geometryId": "hero-of-the-maghar-dore-auchenai-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "hero-maghar-soul-sees"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, formation, route, or permanent presence is asserted. Grom and Mannoroth appear only in the labeled Third War memory. See docs/research/hero-of-the-maghar-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 243
+    },
+    {
+      "id": "hero-of-the-maghar-garrosh-hellscream-theater",
+      "entityId": "garrosh-hellscream",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "geometryId": "hero-of-the-maghar-garrosh-hellscream-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "hero-maghar-greatmother",
+        "blizzard-garrosh"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, formation, route, or permanent presence is asserted. Grom and Mannoroth appear only in the labeled Third War memory. See docs/research/hero-of-the-maghar-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 250
+    },
+    {
+      "id": "hero-of-the-maghar-geyah-theater",
+      "entityId": "geyah",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "geometryId": "hero-of-the-maghar-geyah-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "hero-maghar-greatmother",
+        "hero-maghar-no-hope",
+        "hero-maghar-ending"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, formation, route, or permanent presence is asserted. Grom and Mannoroth appear only in the labeled Third War memory. See docs/research/hero-of-the-maghar-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 248
+    },
+    {
+      "id": "hero-of-the-maghar-grom-hellscream-theater",
+      "entityId": "grom-hellscream",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "geometryId": "hero-of-the-maghar-grom-hellscream-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "warcraft-chronicle-volume-3",
+        "blizzard-warcraft-iii-story-so-far",
+        "hero-maghar-ending",
+        "hero-maghar-chain"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, formation, route, or permanent presence is asserted. Grom and Mannoroth appear only in the labeled Third War memory. See docs/research/hero-of-the-maghar-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 241
+    },
+    {
+      "id": "hero-of-the-maghar-kure-oshu-gun-theater",
+      "entityId": "kure-oshu-gun",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "geometryId": "hero-of-the-maghar-kure-oshu-gun-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "hero-maghar-secret"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, formation, route, or permanent presence is asserted. Grom and Mannoroth appear only in the labeled Third War memory. See docs/research/hero-of-the-maghar-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 245
+    },
+    {
+      "id": "hero-of-the-maghar-maghar-community-theater",
+      "entityId": "maghar-community",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "geometryId": "hero-of-the-maghar-maghar-community-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "hero-maghar-chain",
+        "hero-maghar-nagrand-visual"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, formation, route, or permanent presence is asserted. Grom and Mannoroth appear only in the labeled Third War memory. See docs/research/hero-of-the-maghar-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 249
+    },
+    {
+      "id": "hero-of-the-maghar-mannoroth-theater",
+      "entityId": "mannoroth",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "geometryId": "hero-of-the-maghar-mannoroth-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "warcraft-chronicle-volume-2",
+        "blizzard-rise-of-the-horde-library",
+        "warcraft-chronicle-volume-3",
+        "blizzard-warcraft-iii-story-so-far",
+        "hero-maghar-ending",
+        "hero-maghar-chain"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, formation, route, or permanent presence is asserted. Grom and Mannoroth appear only in the labeled Third War memory. See docs/research/hero-of-the-maghar-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "hero-of-the-maghar-mother-kashur-theater",
+      "entityId": "mother-kashur",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "geometryId": "hero-of-the-maghar-mother-kashur-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "hero-maghar-kashur",
+        "hero-maghar-agitated-ancestors",
+        "hero-maghar-return"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, formation, route, or permanent presence is asserted. Grom and Mannoroth appear only in the labeled Third War memory. See docs/research/hero-of-the-maghar-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 247
+    },
+    {
+      "id": "hero-of-the-maghar-thrall-theater",
+      "entityId": "thrall",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "geometryId": "hero-of-the-maghar-thrall-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "warcraft-chronicle-volume-3",
+        "blizzard-warcraft-iii-story-so-far",
+        "blizzard-mount-hyjal-history",
+        "onyxia-classic-attunement",
+        "onyxia-attunement-wiki"
+      ],
+      "editorNote": "Editorial figure anchor in the illustrated TBC story theater; no exact coordinates, formation, route, or permanent presence is asserted. Grom and Mannoroth appear only in the labeled Third War memory. See docs/research/hero-of-the-maghar-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 242
     },
     {
       "id": "highborne-exiles-era-five-spatial-research",
@@ -11826,6 +12108,32 @@
       }
     },
     {
+      "id": "ancient-orc-ancestors-maghar",
+      "type": "other",
+      "name": "Ancient Orc Ancestors",
+      "slug": "ancient-orc-ancestors-maghar",
+      "shortDescription": "An unnamed interpretive spirit group; no individual ancestor is named or assigned an invented history.",
+      "body": "An unnamed interpretive spirit group; no individual ancestor is named or assigned an invented history. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-ancestors",
+        "hero-maghar-spirits-speak",
+        "hero-maghar-soul-sees"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/hero-of-the-maghar/ancient-orc-ancestors.research.webp",
+        "scale": 0.7
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "andorhal",
       "type": "location",
       "name": "Andorhal",
@@ -12372,6 +12680,49 @@
       "tags": [
         "akama-story",
         "story-setting"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "auchenai-crypts",
+      "type": "site",
+      "name": "Auchenai Crypts",
+      "slug": "auchenai-crypts",
+      "shortDescription": "A funerary wing of Auchindoun where D'ore explains the soul cycle and the Soul Mirror is used.",
+      "body": "A funerary wing of Auchindoun where D'ore explains the soul cycle and the Soul Mirror is used. Story placements and images are interpretive; no exact coordinate, floor plan, or travel route is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-soul-sees",
+        "hero-maghar-mirror",
+        "hero-maghar-crypt-visual"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "auchindoun",
+      "type": "location",
+      "name": "Auchindoun",
+      "slug": "auchindoun",
+      "shortDescription": "The ruined draenei complex in Terokkar Forest that contains the Auchenai Crypts.",
+      "body": "The ruined draenei complex in Terokkar Forest that contains the Auchenai Crypts. Story placements and images are interpretive; no exact coordinate, floor plan, or travel route is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-chain",
+        "hero-maghar-crypt-visual"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "tbc-area-reference"
       ],
       "contentStatus": "research"
     },
@@ -14969,6 +15320,28 @@
       }
     },
     {
+      "id": "demon-fall-canyon",
+      "type": "site",
+      "name": "Demon Fall Canyon, Ashenvale",
+      "slug": "demon-fall-canyon",
+      "shortDescription": "The Third War battlefield shown as a distinct remembered scene when Thrall recounts Grom's sacrifice.",
+      "body": "The Third War battlefield shown as a distinct remembered scene when Thrall recounts Grom's sacrifice. Story placements and images are interpretive; no exact coordinate, floor plan, or travel route is asserted.",
+      "firstEraId": "third-war-frozen-throne",
+      "featuredEraIds": [
+        "third-war-frozen-throne"
+      ],
+      "sourceIds": [
+        "hero-maghar-ending",
+        "hero-maghar-demon-fall",
+        "warcraft-chronicle-volume-3"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "dirge-quikcleave",
       "type": "character",
       "name": "Dirge Quikcleave",
@@ -15037,6 +15410,30 @@
       "mapVisual": {
         "asset": "images/storylines/cipher-of-damnation/domesticated-felboars.research.webp",
         "scale": 0.78
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "dore-auchenai",
+      "type": "other",
+      "name": "D'ore",
+      "slug": "dore-auchenai",
+      "shortDescription": "The naaru in Auchenai Crypts whose account explains the Light and Void cycle and the Soul Mirror response.",
+      "body": "The naaru in Auchenai Crypts whose account explains the Light and Void cycle and the Soul Mirror response. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-soul-sees"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/hero-of-the-maghar/dore.research.webp",
+        "scale": 0.7
       },
       "contentStatus": "research"
     },
@@ -15954,6 +16351,27 @@
       "contentStatus": "research"
     },
     {
+      "id": "garadar",
+      "type": "location",
+      "name": "Garadar",
+      "slug": "garadar",
+      "shortDescription": "The Mag'har village in Nagrand where Garrosh and Greatmother Geyah anchor the Horde chain.",
+      "body": "The Mag'har village in Nagrand where Garrosh and Greatmother Geyah anchor the Horde chain. Story placements and images are interpretive; no exact coordinate, floor plan, or travel route is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-greatmother",
+        "hero-maghar-nagrand-visual"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "garn-mathers",
       "type": "character",
       "name": "Garn Mathers",
@@ -15976,6 +16394,31 @@
       "mapFigure": {
         "asset": "images/characters/missing-diplomat/garn-mathers.research.webp",
         "scale": 0.94
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "garrosh-hellscream",
+      "type": "character",
+      "name": "Garrosh Hellscream",
+      "slug": "garrosh-hellscream",
+      "shortDescription": "The young Mag'har whose shame over Grom and fear of inherited rage form the opening conflict.",
+      "body": "The young Mag'har whose shame over Grom and fear of inherited rage form the opening conflict. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-greatmother",
+        "blizzard-garrosh"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/hero-of-the-maghar/garrosh.research.webp",
+        "scale": 0.88
       },
       "contentStatus": "research"
     },
@@ -16003,6 +16446,32 @@
         "asset": "images/storylines/onyxia/general-drakkisath.research.webp",
         "scale": 0.86
       }
+    },
+    {
+      "id": "geyah",
+      "type": "character",
+      "name": "Greatmother Geyah",
+      "slug": "geyah",
+      "shortDescription": "The Mag'har elder who guides the ancestor inquiry and discovers Thrall is her grandson.",
+      "body": "The Mag'har elder who guides the ancestor inquiry and discovers Thrall is her grandson. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-greatmother",
+        "hero-maghar-no-hope",
+        "hero-maghar-ending"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/hero-of-the-maghar/greatmother-geyah.research.webp",
+        "scale": 0.8
+      },
+      "contentStatus": "research"
     },
     {
       "id": "gradav",
@@ -16184,11 +16653,14 @@
       "firstEraId": "third-war-frozen-throne",
       "lastEraId": "third-war-frozen-throne",
       "featuredEraIds": [
-        "third-war-frozen-throne"
+        "third-war-frozen-throne",
+        "age-of-adventurers"
       ],
       "sourceIds": [
         "warcraft-chronicle-volume-3",
-        "blizzard-warcraft-iii-story-so-far"
+        "blizzard-warcraft-iii-story-so-far",
+        "hero-maghar-ending",
+        "hero-maghar-chain"
       ],
       "claimIds": [
         "grom-breaks-mannoroth-bond-claim"
@@ -16202,7 +16674,8 @@
         "asset": "images/characters/third-war-frozen-throne/grom-hellscream.research.webp",
         "scale": 0.9
       },
-      "contentStatus": "research"
+      "contentStatus": "research",
+      "body": " Featured in the age-of-adventurers StoryGuide only as a clearly labeled Third War memory; the relational figure anchor does not assert continued life or a Nagrand location."
     },
     {
       "id": "gromtor-torn-heart",
@@ -17673,6 +18146,30 @@
       }
     },
     {
+      "id": "kure-oshu-gun",
+      "type": "other",
+      "name": "K'ure",
+      "slug": "kure-oshu-gun",
+      "shortDescription": "A Naaru associated with Oshu'gun whose quest account describes fading Light, growing Void, and ancestral spirits.",
+      "body": "A Naaru associated with Oshu'gun whose quest account describes fading Light, growing Void, and ancestral spirits. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-secret"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/hero-of-the-maghar/kure.research.webp",
+        "scale": 0.72
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "lady-sevine",
       "type": "character",
       "name": "Lady Sevine",
@@ -18023,6 +18520,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "maghar-community",
+      "type": "faction",
+      "name": "The Mag'har of Garadar",
+      "slug": "maghar-community",
+      "shortDescription": "Interpretive community ensemble; not an exact census, named roster, or claim that each villager is present in every scene.",
+      "body": "Interpretive community ensemble; not an exact census, named roster, or claim that each villager is present in every scene. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-chain",
+        "hero-maghar-nagrand-visual"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/hero-of-the-maghar/maghar-community.research.webp",
+        "scale": 0.65
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "magistrate-marduke",
       "type": "character",
       "name": "Magistrate Marduke",
@@ -18150,13 +18672,16 @@
       "lastEraId": "third-war-frozen-throne",
       "featuredEraIds": [
         "rise-of-the-horde",
-        "third-war-frozen-throne"
+        "third-war-frozen-throne",
+        "age-of-adventurers"
       ],
       "sourceIds": [
         "warcraft-chronicle-volume-2",
         "blizzard-rise-of-the-horde-library",
         "warcraft-chronicle-volume-3",
-        "blizzard-warcraft-iii-story-so-far"
+        "blizzard-warcraft-iii-story-so-far",
+        "hero-maghar-ending",
+        "hero-maghar-chain"
       ],
       "claimIds": [
         "mannoroth-blood-binds-horde-claim"
@@ -18170,7 +18695,8 @@
         "asset": "images/characters/rise-of-the-horde/mannoroth.research.webp",
         "scale": 1.04
       },
-      "contentStatus": "research"
+      "contentStatus": "research",
+      "body": " Featured in the age-of-adventurers StoryGuide only as a clearly labeled Third War memory; the relational figure anchor does not assert continued life or a Nagrand location."
     },
     {
       "id": "mardenholde-keep",
@@ -18868,6 +19394,32 @@
       "contentStatus": "research"
     },
     {
+      "id": "mother-kashur",
+      "type": "character",
+      "name": "Mother Kashur",
+      "slug": "mother-kashur",
+      "shortDescription": "The ancestral figure who directs the seeker toward Oshu'gun and receives news of the spirits' release.",
+      "body": "The ancestral figure who directs the seeker toward Oshu'gun and receives news of the spirits' release. The original research illustration is interpretive, not canonical model evidence; compare it with the relevant client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-kashur",
+        "hero-maghar-agitated-ancestors",
+        "hero-maghar-return"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/hero-of-the-maghar/mother-kashur.research.webp",
+        "scale": 0.76
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "mount-hyjal-ancient",
       "type": "location",
       "name": "Mount Hyjal",
@@ -19020,6 +19572,28 @@
         "asset": "images/storylines/onyxia/myranda-the-hag.research.webp",
         "scale": 0.86
       }
+    },
+    {
+      "id": "nagrand-ancestral-grounds",
+      "type": "site",
+      "name": "Ancestral Grounds, Nagrand",
+      "slug": "nagrand-ancestral-grounds",
+      "shortDescription": "A named spiritual site where Mother Kashur receives the seeker and the ancestor inquiry begins.",
+      "body": "A named spiritual site where Mother Kashur receives the seeker and the ancestor inquiry begins. Story placements and images are interpretive; no exact coordinate, floor plan, or travel route is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-kashur",
+        "hero-maghar-agitated-ancestors",
+        "hero-maghar-nagrand-visual"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
     },
     {
       "id": "narain-soothfancy",
@@ -19635,6 +20209,26 @@
       "contentStatus": "research"
     },
     {
+      "id": "orgrimmar",
+      "type": "location",
+      "name": "Orgrimmar",
+      "slug": "orgrimmar",
+      "shortDescription": "The Horde capital where Geyah's message reaches Thrall in the original TBC continuation.",
+      "body": "The Horde capital where Geyah's message reaches Thrall in the original TBC continuation. Story placements and images are interpretive; no exact coordinate, floor plan, or travel route is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-thrall"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "oronok-torn-heart",
       "type": "character",
       "name": "Oronok Torn-heart",
@@ -19687,6 +20281,28 @@
         "asset": "images/storylines/akama-black-temple/oronu-the-elder.research.webp",
         "scale": 0.84
       }
+    },
+    {
+      "id": "oshugun",
+      "type": "site",
+      "name": "Oshu'gun, Nagrand",
+      "slug": "oshugun",
+      "shortDescription": "The pale sacred mass in Nagrand associated with the ancestors' call and K'ure's account.",
+      "body": "The pale sacred mass in Nagrand associated with the ancestors' call and K'ure's account. Story placements and images are interpretive; no exact coordinate, floor plan, or travel route is asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "hero-maghar-spirits-speak",
+        "hero-maghar-secret",
+        "hero-maghar-nagrand-visual"
+      ],
+      "tags": [
+        "hero-of-the-maghar-story",
+        "tbc-area-reference"
+      ],
+      "contentStatus": "research"
     },
     {
       "id": "outland-location",
@@ -29086,6 +29702,428 @@
       ],
       "claimIds": [
         "guldan-shadow-council-event-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-adal-answers-event",
+      "kind": "event",
+      "name": "A'dal's answer",
+      "slug": "hero-of-the-maghar-adal-answers",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "A'dal cannot simply end the ancestors' suffering, but directs the seeker toward the naaru in Auchindoun.",
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "participantEntityIds": [
+        "adal"
+      ],
+      "sourceIds": [
+        "hero-maghar-secret"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-adal-answers-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-ancestors-walk-south-event",
+      "kind": "event",
+      "name": "A valley of restless voices",
+      "slug": "hero-of-the-maghar-ancestors-walk-south",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "Reports of unrest lead the seeker through Nagrand's named ancestral sites, where the spirits point toward Oshu'gun.",
+      "locationIds": [
+        "nagrand-ancestral-grounds",
+        "garadar"
+      ],
+      "participantEntityIds": [
+        "mother-kashur",
+        "ancient-orc-ancestors-maghar"
+      ],
+      "sourceIds": [
+        "hero-maghar-agitated-ancestors",
+        "hero-maghar-ancestors"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-ancestors-walk-south-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-dore-explains-cycle-event",
+      "kind": "event",
+      "name": "The cycle beneath Auchindoun",
+      "slug": "hero-of-the-maghar-dore-explains-cycle",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "D'ore says the Light and Void cannot be separated from the naaru cycle, leaving a difficult choice for the ancestors.",
+      "locationIds": [
+        "auchindoun",
+        "auchenai-crypts"
+      ],
+      "participantEntityIds": [
+        "dore-auchenai"
+      ],
+      "sourceIds": [
+        "hero-maghar-soul-sees"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-dore-explains-cycle-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-flashback-demon-fall-event",
+      "kind": "event",
+      "name": "Flashback · Demon Fall Canyon",
+      "slug": "hero-of-the-maghar-flashback-demon-fall",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "Thrall's return brings Grom's last battle into view as a clearly labeled memory from the Third War.",
+      "locationIds": [
+        "garadar",
+        "demon-fall-canyon"
+      ],
+      "participantEntityIds": [
+        "thrall",
+        "grom-hellscream",
+        "mannoroth"
+      ],
+      "sourceIds": [
+        "hero-maghar-ending",
+        "blizzard-garrosh",
+        "hero-maghar-demon-fall",
+        "warcraft-chronicle-volume-3"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-flashback-demon-fall-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-garadar-burden-event",
+      "kind": "event",
+      "name": "Garadar beneath the Hellscream name",
+      "slug": "hero-of-the-maghar-garadar-burden",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "Garrosh carries shame over Grom's corruption and fears the same weakness lies within him.",
+      "locationIds": [
+        "garadar"
+      ],
+      "participantEntityIds": [
+        "garrosh-hellscream",
+        "maghar-community"
+      ],
+      "sourceIds": [
+        "hero-maghar-greatmother",
+        "blizzard-garrosh"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-garadar-burden-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-garrosh-confession-event",
+      "kind": "event",
+      "name": "A grandmother's urgent message",
+      "slug": "hero-of-the-maghar-garrosh-confession",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "Geyah learns Thrall is her grandson and asks the seeker to carry her message across the sea.",
+      "locationIds": [
+        "garadar"
+      ],
+      "participantEntityIds": [
+        "geyah",
+        "garrosh-hellscream",
+        "maghar-community"
+      ],
+      "sourceIds": [
+        "hero-maghar-no-hope"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-garrosh-confession-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-garrosh-name-restored-event",
+      "kind": "event",
+      "name": "Garrosh, son of Grom",
+      "slug": "hero-of-the-maghar-garrosh-name-restored",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "The truth of Grom's sacrifice lifts Garrosh's shame; the story ends with restored pride and Geyah's recognition.",
+      "locationIds": [
+        "garadar"
+      ],
+      "participantEntityIds": [
+        "garrosh-hellscream",
+        "thrall",
+        "geyah",
+        "maghar-community"
+      ],
+      "sourceIds": [
+        "hero-maghar-ending",
+        "blizzard-garrosh"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-garrosh-name-restored-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-geyah-sends-to-garrosh-event",
+      "kind": "event",
+      "name": "A chieftain who cannot hope",
+      "slug": "hero-of-the-maghar-geyah-sends-to-garrosh",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "Garrosh refuses the comfort offered by the seeker's service and names himself unfit to lead.",
+      "locationIds": [
+        "garadar"
+      ],
+      "participantEntityIds": [
+        "geyah",
+        "garrosh-hellscream"
+      ],
+      "sourceIds": [
+        "hero-maghar-inconsolable",
+        "blizzard-garrosh"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-geyah-sends-to-garrosh-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-greatmother-counsel-event",
+      "kind": "event",
+      "name": "The Greatmother's path",
+      "slug": "hero-of-the-maghar-greatmother-counsel",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "Geyah directs the seeker through a short preparation task before the inquiry turns toward the ancestors.",
+      "locationIds": [
+        "garadar"
+      ],
+      "participantEntityIds": [
+        "geyah",
+        "garrosh-hellscream",
+        "maghar-community"
+      ],
+      "sourceIds": [
+        "hero-maghar-greatmother",
+        "hero-maghar-materials"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-greatmother-counsel-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-kure-reveals-event",
+      "kind": "event",
+      "name": "A light bleeding away",
+      "slug": "hero-of-the-maghar-kure-reveals",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "K'ure explains that fading energies have left a Void that draws in the orc ancestors.",
+      "locationIds": [
+        "oshugun"
+      ],
+      "participantEntityIds": [
+        "kure-oshu-gun",
+        "ancient-orc-ancestors-maghar"
+      ],
+      "sourceIds": [
+        "hero-maghar-secret"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-kure-reveals-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-message-to-thrall-event",
+      "kind": "event",
+      "name": "A message in Orgrimmar",
+      "slug": "hero-of-the-maghar-message-to-thrall",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "Thrall hears that Geyah lives and his family remains in Nagrand.",
+      "locationIds": [
+        "orgrimmar"
+      ],
+      "participantEntityIds": [
+        "thrall"
+      ],
+      "sourceIds": [
+        "hero-maghar-thrall"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-message-to-thrall-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-mother-kashurs-counsel-event",
+      "kind": "event",
+      "name": "A listening place",
+      "slug": "hero-of-the-maghar-mother-kashurs-counsel",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "At the Ancestral Grounds, Mother Kashur gives the seeker a way to listen to the unsettled spirits.",
+      "locationIds": [
+        "nagrand-ancestral-grounds"
+      ],
+      "participantEntityIds": [
+        "mother-kashur",
+        "ancient-orc-ancestors-maghar"
+      ],
+      "sourceIds": [
+        "hero-maghar-kashur"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-mother-kashurs-counsel-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-oshugun-calls-event",
+      "kind": "event",
+      "name": "The mountain calls",
+      "slug": "hero-of-the-maghar-oshugun-calls",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "At Oshu'gun, the seeker follows the ancestors' call to its source.",
+      "locationIds": [
+        "oshugun"
+      ],
+      "participantEntityIds": [
+        "ancient-orc-ancestors-maghar",
+        "kure-oshu-gun"
+      ],
+      "sourceIds": [
+        "hero-maghar-spirits-speak"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-oshugun-calls-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-return-to-garadar-event",
+      "kind": "event",
+      "name": "News for the Greatmother",
+      "slug": "hero-of-the-maghar-return-to-garadar",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "Mother Kashur's gratitude returns the seeker to Garadar, where Geyah asks that the news reach Garrosh.",
+      "locationIds": [
+        "nagrand-ancestral-grounds",
+        "garadar"
+      ],
+      "participantEntityIds": [
+        "mother-kashur",
+        "geyah",
+        "maghar-community"
+      ],
+      "sourceIds": [
+        "hero-maghar-return"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-return-to-garadar-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-soul-mirror-event",
+      "kind": "event",
+      "name": "The mirror and the darkened spirit",
+      "slug": "hero-of-the-maghar-soul-mirror",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "hero-of-the-maghar-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade quest arc; exact in-world date unknown"
+      },
+      "summary": "The Soul Mirror reveals darkened ancestor spirits so they can be released before transformation is complete.",
+      "locationIds": [
+        "auchenai-crypts",
+        "nagrand-ancestral-grounds"
+      ],
+      "participantEntityIds": [
+        "dore-auchenai",
+        "ancient-orc-ancestors-maghar"
+      ],
+      "sourceIds": [
+        "hero-maghar-mirror",
+        "hero-maghar-soul-sees"
+      ],
+      "claimIds": [
+        "hero-of-the-maghar-soul-mirror-claim"
       ],
       "contentStatus": "research"
     },
@@ -39309,6 +40347,13 @@
       "notes": "First-party Blizzard recap: https://worldofwarcraft.blizzard.com/en-us/news/23149530. Supports the Fourth War campaign, faction footholds, rebellion against Sylvanas, and the war campaign's conclusion."
     },
     {
+      "id": "blizzard-garrosh",
+      "title": "Garrosh Hellscream: Then and Now",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/2629898/garrosh-hellscream-then-and-now",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. First-party retrospective supporting Garrosh's shame, fear, Thrall's visit, Grom's sacrifice, and Garrosh's renewed confidence; later career material is excluded."
+    },
+    {
       "id": "blizzard-ghosts-karesh-timeline",
       "title": "Ghosts of K’aresh — WoW Timeline Chapter 48",
       "sourceType": "website",
@@ -40089,6 +41134,132 @@
       "url": "https://www.wowhead.com/classic/quest=2801/a-tale-of-sorrow",
       "sourceType": "quest",
       "notes": "Accessed 2026-10-01. Secondary WoW Classic reproduction used to locate Trebor’s shared quest account. Exact gossip, troop count and context require comparison with the original Classic build."
+    },
+    {
+      "id": "hero-maghar-agitated-ancestors",
+      "title": "The Agitated Ancestors",
+      "url": "https://warcraft.wiki.gg/wiki/The_Agitated_Ancestors",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the ancestors' unrest."
+    },
+    {
+      "id": "hero-maghar-ancestors",
+      "title": "A Visit With the Ancestors",
+      "url": "https://warcraft.wiki.gg/wiki/A_Visit_With_the_Ancestors",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the named ancestral sites and spirits moving toward Oshu'gun."
+    },
+    {
+      "id": "hero-maghar-chain",
+      "title": "Hero of the Mag'har quest chain",
+      "url": "https://warcraft.wiki.gg/wiki/Hero_of_the_Mag%27har_quest_chain",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest sequence and dialogue locator for the Horde-only TBC chain and its prerequisite branches; not an original-client capture."
+    },
+    {
+      "id": "hero-maghar-crypt-visual",
+      "title": "TBC Auchenai Crypts visual reference",
+      "url": "https://www.wowhead.com/tbc/zone=3790/auchenai-crypts#screenshots",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. TBC visual locator for the Draenei crypt architecture and violet-blue lighting. Visual reference only."
+    },
+    {
+      "id": "hero-maghar-demon-fall",
+      "title": "Demon Fall Canyon",
+      "url": "https://warcraft.wiki.gg/wiki/Demon_Fall_Canyon",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary locator for the Third War battle site in Ashenvale; exact scene comparison remains open."
+    },
+    {
+      "id": "hero-maghar-ending",
+      "title": "Hero of the Mag'har",
+      "url": "https://warcraft.wiki.gg/wiki/Hero_of_the_Mag%27har",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest and scene locator for Thrall's visit, the recalled battle, and the final return to Geyah; removed in 4.0.1."
+    },
+    {
+      "id": "hero-maghar-greatmother",
+      "title": "A Visit with the Greatmother",
+      "url": "https://warcraft.wiki.gg/wiki/A_Visit_with_the_Greatmother",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Garrosh's introduction and Geyah's opening handoff."
+    },
+    {
+      "id": "hero-maghar-inconsolable",
+      "title": "The Inconsolable Chieftain",
+      "url": "https://warcraft.wiki.gg/wiki/The_Inconsolable_Chieftain",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Garrosh's shame and despair."
+    },
+    {
+      "id": "hero-maghar-kashur",
+      "title": "To Meet Mother Kashur",
+      "url": "https://warcraft.wiki.gg/wiki/To_Meet_Mother_Kashur",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Geyah's direction to Mother Kashur."
+    },
+    {
+      "id": "hero-maghar-materials",
+      "title": "Material Components",
+      "url": "https://warcraft.wiki.gg/wiki/Material_Components",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the material-gathering task and potion; repeated gathering is compressed."
+    },
+    {
+      "id": "hero-maghar-mirror",
+      "title": "Soul Mirror quest item",
+      "url": "https://warcraft.wiki.gg/wiki/Soul_Mirror_(quest_item)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary item and quest locator for darkened ancestral spirits."
+    },
+    {
+      "id": "hero-maghar-nagrand-visual",
+      "title": "TBC Nagrand and Garadar visual reference",
+      "url": "https://www.wowhead.com/tbc/zone=3518/nagrand#screenshots",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. TBC area visual locator for grassland, waterways, mesas, floating islands, Oshu'gun, and the Garadar screenshot gallery. Visual reference only."
+    },
+    {
+      "id": "hero-maghar-no-hope",
+      "title": "There Is No Hope",
+      "url": "https://warcraft.wiki.gg/wiki/There_Is_No_Hope",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest and cutscene locator; it became the chain endpoint after patch 4.0.1."
+    },
+    {
+      "id": "hero-maghar-return",
+      "title": "Return to the Greatmother",
+      "url": "https://warcraft.wiki.gg/wiki/Return_to_the_Greatmother",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the report returning to Garadar."
+    },
+    {
+      "id": "hero-maghar-secret",
+      "title": "A Secret Revealed",
+      "url": "https://warcraft.wiki.gg/wiki/A_Secret_Revealed",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for K'ure's account and A'dal's response."
+    },
+    {
+      "id": "hero-maghar-soul-sees",
+      "title": "What the Soul Sees",
+      "url": "https://warcraft.wiki.gg/wiki/What_the_Soul_Sees",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for D'ore, the Soul Mirror, and Mother Kashur."
+    },
+    {
+      "id": "hero-maghar-spirits-speak",
+      "title": "When Spirits Speak",
+      "url": "https://warcraft.wiki.gg/wiki/When_Spirits_Speak",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Oshu'gun and the ancestral voices."
+    },
+    {
+      "id": "hero-maghar-thrall",
+      "title": "Thrall, Son of Durotan",
+      "url": "https://warcraft.wiki.gg/wiki/Thrall,_Son_of_Durotan",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary locator for Geyah's message to Thrall; removed in 4.0.1, retained in the TBC-era chain."
     },
     {
       "id": "karazhan-atiesh-visual-reference",
@@ -42874,6 +44045,174 @@
       "section": "2784 · Fall From Grace; 2622 · The Missing Orders; 2623 · The Swamp Talker (Horde) · Two roads to the Fallen Hero; directly relevant quest description, objective, completion, gossip or chain entry",
       "questId": "2784 · Fall From Grace; 2622 · The Missing Orders; 2623 · The Swamp Talker (Horde)",
       "note": "Narration is an original paraphrase of an accessible Classic quest reproduction. This secondary locator is not an original-client capture; compare the intended pre-Cataclysm Classic build and released text before human lore approval."
+    },
+    {
+      "id": "hero-of-the-maghar-adal-answers-citation-1",
+      "sourceId": "hero-maghar-secret",
+      "questId": "A Secret Revealed",
+      "section": "A'dal's completion dialogue and direction",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-ancestors-walk-south-citation-1",
+      "sourceId": "hero-maghar-agitated-ancestors",
+      "questId": "The Agitated Ancestors",
+      "section": "Spirit dialogue and next objective",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-ancestors-walk-south-citation-2",
+      "sourceId": "hero-maghar-ancestors",
+      "questId": "A Visit With the Ancestors",
+      "section": "Named sites and spirit dialogue",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-dore-explains-cycle-citation-1",
+      "sourceId": "hero-maghar-soul-sees",
+      "questId": "What the Soul Sees",
+      "section": "D'ore's account of the Light and Void cycle",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-flashback-demon-fall-citation-1",
+      "sourceId": "hero-maghar-ending",
+      "questId": "Hero of the Mag'har",
+      "section": "Thrall's visit and vision of Grom's last battle",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-flashback-demon-fall-citation-2",
+      "sourceId": "blizzard-garrosh",
+      "questId": "Garrosh Hellscream: Then and Now",
+      "section": "Grom's martyrdom and Garrosh's change",
+      "note": "First-party retrospective paraphrase; coverage is limited to the cited character-history point."
+    },
+    {
+      "id": "hero-of-the-maghar-flashback-demon-fall-citation-3",
+      "sourceId": "hero-maghar-demon-fall",
+      "questId": "Demon Fall Canyon",
+      "section": "Ashenvale battle location",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-flashback-demon-fall-citation-4",
+      "sourceId": "warcraft-chronicle-volume-3",
+      "questId": "Warcraft Chronicle, Volume III",
+      "section": "Third War; exact edition page review remains open",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-garadar-burden-citation-1",
+      "sourceId": "hero-maghar-greatmother",
+      "questId": "A Visit with the Greatmother",
+      "section": "Opening dialogue and handoff",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-garadar-burden-citation-2",
+      "sourceId": "blizzard-garrosh",
+      "questId": "Garrosh Hellscream: Then and Now",
+      "section": "Garrosh's shame before Thrall's visit",
+      "note": "First-party retrospective paraphrase; coverage is limited to the cited character-history point."
+    },
+    {
+      "id": "hero-of-the-maghar-garrosh-confession-citation-1",
+      "sourceId": "hero-maghar-no-hope",
+      "questId": "There Is No Hope",
+      "section": "Garrosh's confession and Geyah's response",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-garrosh-name-restored-citation-1",
+      "sourceId": "hero-maghar-ending",
+      "questId": "Hero of the Mag'har",
+      "section": "Garrosh's response, Thrall's farewell, and final Geyah turn-in",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-garrosh-name-restored-citation-2",
+      "sourceId": "blizzard-garrosh",
+      "questId": "Garrosh Hellscream: Then and Now",
+      "section": "Renewed strength and confidence",
+      "note": "First-party retrospective paraphrase; coverage is limited to the cited character-history point."
+    },
+    {
+      "id": "hero-of-the-maghar-geyah-sends-to-garrosh-citation-1",
+      "sourceId": "hero-maghar-inconsolable",
+      "questId": "The Inconsolable Chieftain",
+      "section": "Garrosh's words about shame and leadership",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-geyah-sends-to-garrosh-citation-2",
+      "sourceId": "blizzard-garrosh",
+      "questId": "Garrosh Hellscream: Then and Now",
+      "section": "Garrosh's burden before Thrall's visit",
+      "note": "First-party retrospective paraphrase; coverage is limited to the cited character-history point."
+    },
+    {
+      "id": "hero-of-the-maghar-greatmother-counsel-citation-1",
+      "sourceId": "hero-maghar-greatmother",
+      "questId": "A Visit with the Greatmother",
+      "section": "Geyah's dialogue and handoff",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-greatmother-counsel-citation-2",
+      "sourceId": "hero-maghar-materials",
+      "questId": "Material Components",
+      "section": "Gathering task and potion",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-kure-reveals-citation-1",
+      "sourceId": "hero-maghar-secret",
+      "questId": "A Secret Revealed",
+      "section": "K'ure's account of Light, Void, and the spirits",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-message-to-thrall-citation-1",
+      "sourceId": "hero-maghar-thrall",
+      "questId": "Thrall, Son of Durotan",
+      "section": "Message objective and Thrall's response",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-mother-kashurs-counsel-citation-1",
+      "sourceId": "hero-maghar-kashur",
+      "questId": "To Meet Mother Kashur",
+      "section": "Destination and dialogue",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-oshugun-calls-citation-1",
+      "sourceId": "hero-maghar-spirits-speak",
+      "questId": "When Spirits Speak",
+      "section": "Quest destination and objective",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-return-to-garadar-citation-1",
+      "sourceId": "hero-maghar-return",
+      "questId": "Return to the Greatmother",
+      "section": "Return objective and Geyah's handoff",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-soul-mirror-citation-1",
+      "sourceId": "hero-maghar-mirror",
+      "questId": "Soul Mirror",
+      "section": "Item effect and use",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
+    },
+    {
+      "id": "hero-of-the-maghar-soul-mirror-citation-2",
+      "sourceId": "hero-maghar-soul-sees",
+      "questId": "What the Soul Sees",
+      "section": "Objective and return to Mother Kashur",
+      "note": "Original paraphrase from a secondary quest-text or sequence locator. Exact original TBC wording, dependency edges, build variants, and omitted dialogue remain subject to human verification."
     },
     {
       "id": "karazhan-masters-key-and-nightbane-a-key-in-three-pieces-citation-1",
@@ -46992,6 +48331,195 @@
       "confidence": "strongly_supported",
       "status": "active",
       "editorNote": "Exact page verification remains required."
+    },
+    {
+      "id": "hero-of-the-maghar-adal-answers-claim",
+      "subjectId": "hero-of-the-maghar-adal-answers-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "A'dal cannot simply end the ancestors' suffering, but directs the seeker toward the naaru in Auchindoun.",
+      "citationIds": [
+        "hero-of-the-maghar-adal-answers-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "A'dal's reply is paraphrased; Shattrath painting is reused from another TBC storyline. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-ancestors-walk-south-claim",
+      "subjectId": "hero-of-the-maghar-ancestors-walk-south-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "Reports of unrest lead the seeker through Nagrand's named ancestral sites, where the spirits point toward Oshu'gun.",
+      "citationIds": [
+        "hero-of-the-maghar-ancestors-walk-south-citation-1",
+        "hero-of-the-maghar-ancestors-walk-south-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Spirit statements and quest-named locations are paraphrased; this is not a surveyed itinerary, and no named ancestor or count is invented. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-dore-explains-cycle-claim",
+      "subjectId": "hero-of-the-maghar-dore-explains-cycle-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "D'ore says the Light and Void cannot be separated from the naaru cycle, leaving a difficult choice for the ancestors.",
+      "citationIds": [
+        "hero-of-the-maghar-dore-explains-cycle-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "D'ore's account is attributed to the quest. Crypt layout remains interpretive. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-flashback-demon-fall-claim",
+      "subjectId": "hero-of-the-maghar-flashback-demon-fall-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "Thrall's return brings Grom's last battle into view as a clearly labeled memory from the Third War.",
+      "citationIds": [
+        "hero-of-the-maghar-flashback-demon-fall-citation-1",
+        "hero-of-the-maghar-flashback-demon-fall-citation-2",
+        "hero-of-the-maghar-flashback-demon-fall-citation-3",
+        "hero-of-the-maghar-flashback-demon-fall-citation-4"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The memory is explicitly distinguished from present-day Nagrand; Geyah and Garrosh are staged in the following Garadar scene. The battle art is not a game capture. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-garadar-burden-claim",
+      "subjectId": "hero-of-the-maghar-garadar-burden-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "Garrosh carries shame over Grom's corruption and fears the same weakness lies within him.",
+      "citationIds": [
+        "hero-of-the-maghar-garadar-burden-citation-1",
+        "hero-of-the-maghar-garadar-burden-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Garrosh's shame and fear are supported by Blizzard's retrospective and the quest chain. No exact date or population is asserted. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-garrosh-confession-claim",
+      "subjectId": "hero-of-the-maghar-garrosh-confession-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "Geyah learns Thrall is her grandson and asks the seeker to carry her message across the sea.",
+      "citationIds": [
+        "hero-of-the-maghar-garrosh-confession-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The family revelation follows the TBC quest/cutscene; no route or travel duration is invented. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-garrosh-name-restored-claim",
+      "subjectId": "hero-of-the-maghar-garrosh-name-restored-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "The truth of Grom's sacrifice lifts Garrosh's shame; the story ends with restored pride and Geyah's recognition.",
+      "citationIds": [
+        "hero-of-the-maghar-garrosh-name-restored-citation-1",
+        "hero-of-the-maghar-garrosh-name-restored-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The full original TBC ending is included; Garrosh's later career is excluded. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-geyah-sends-to-garrosh-claim",
+      "subjectId": "hero-of-the-maghar-geyah-sends-to-garrosh-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "Garrosh refuses the comfort offered by the seeker's service and names himself unfit to lead.",
+      "citationIds": [
+        "hero-of-the-maghar-geyah-sends-to-garrosh-citation-1",
+        "hero-of-the-maghar-geyah-sends-to-garrosh-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Garrosh's dialogue is paraphrased. Later politics are excluded. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-greatmother-counsel-claim",
+      "subjectId": "hero-of-the-maghar-greatmother-counsel-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "Geyah directs the seeker through a short preparation task before the inquiry turns toward the ancestors.",
+      "citationIds": [
+        "hero-of-the-maghar-greatmother-counsel-citation-1",
+        "hero-of-the-maghar-greatmother-counsel-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Quest objectives are paraphrased. The potion is not described as granting permanent spirit sight. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-kure-reveals-claim",
+      "subjectId": "hero-of-the-maghar-kure-reveals-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "K'ure explains that fading energies have left a Void that draws in the orc ancestors.",
+      "citationIds": [
+        "hero-of-the-maghar-kure-reveals-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Vortex and Legion claims remain attributed to K'ure. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-message-to-thrall-claim",
+      "subjectId": "hero-of-the-maghar-message-to-thrall-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "Thrall hears that Geyah lives and his family remains in Nagrand.",
+      "citationIds": [
+        "hero-of-the-maghar-message-to-thrall-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Message and response are paraphrased; no route, duration, or escort is asserted. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-mother-kashurs-counsel-claim",
+      "subjectId": "hero-of-the-maghar-mother-kashurs-counsel-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "At the Ancestral Grounds, Mother Kashur gives the seeker a way to listen to the unsettled spirits.",
+      "citationIds": [
+        "hero-of-the-maghar-mother-kashurs-counsel-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The site and handoff follow the quest locator; construction and ritual visuals remain interpretive. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-oshugun-calls-claim",
+      "subjectId": "hero-of-the-maghar-oshugun-calls-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "At Oshu'gun, the seeker follows the ancestors' call to its source.",
+      "citationIds": [
+        "hero-of-the-maghar-oshugun-calls-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Oshu'gun is the named destination; art is a broad impression, not exact geography. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-return-to-garadar-claim",
+      "subjectId": "hero-of-the-maghar-return-to-garadar-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "Mother Kashur's gratitude returns the seeker to Garadar, where Geyah asks that the news reach Garrosh.",
+      "citationIds": [
+        "hero-of-the-maghar-return-to-garadar-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Adjacent quest handoffs are summarized; no claim that every Mag'har is safe. Keep research status until human claim and original-client review."
+    },
+    {
+      "id": "hero-of-the-maghar-soul-mirror-claim",
+      "subjectId": "hero-of-the-maghar-soul-mirror-event",
+      "predicate": "hero_of_the_maghar_story_beat",
+      "value": "The Soul Mirror reveals darkened ancestor spirits so they can be released before transformation is complete.",
+      "citationIds": [
+        "hero-of-the-maghar-soul-mirror-citation-1",
+        "hero-of-the-maghar-soul-mirror-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The quest asks for a bounded set of spirits; it does not claim every ancestor is saved. Keep research status until human claim and original-client review."
     },
     {
       "id": "highborne-exile-claim",
@@ -53095,6 +54623,69 @@
       "contentStatus": "research"
     },
     {
+      "id": "hero-of-the-maghar",
+      "slug": "hero-of-the-maghar",
+      "title": "Hero of the Mag'har: Garrosh, Geyah, and Thrall's Return",
+      "summary": "Garrosh's shame leads the seeker from Garadar to Oshu'gun, Shattrath, and Auchindoun. The ancestors' danger brings a message to Thrall, whose return and account of Grom's sacrifice change the name Garrosh can bear.",
+      "opening": "Beneath Nagrand's floating islands, the Mag'har live with a history their young Hellscream cannot yet forgive. Follow the Horde-only TBC chain from Garrosh's doubt through the ancestors' unrest, then carry Geyah's message to Thrall and return to Garadar for the memory that changes everything.",
+      "primaryEraId": "age-of-adventurers",
+      "eraIds": [
+        "age-of-adventurers"
+      ],
+      "chapters": [
+        {
+          "id": "hero-of-the-maghar-chapter-valley",
+          "eraId": "age-of-adventurers",
+          "title": "A burden in Garadar",
+          "body": "Garrosh's shame brings the seeker to Geyah and Mother Kashur; the ancestors' unease leads toward Oshu'gun."
+        },
+        {
+          "id": "hero-of-the-maghar-chapter-cycle",
+          "eraId": "age-of-adventurers",
+          "title": "The voices beneath the Light",
+          "body": "K'ure, A'dal, and D'ore expose the Light and Void cycle. The Soul Mirror offers a bounded response for darkened spirits."
+        },
+        {
+          "id": "hero-of-the-maghar-chapter-message",
+          "eraId": "age-of-adventurers",
+          "title": "A message to the Warchief",
+          "body": "The return to Garadar reveals Garrosh's despair and Geyah's family connection to Thrall. The original TBC follow-up carries her message to Orgrimmar."
+        },
+        {
+          "id": "hero-of-the-maghar-chapter-memory",
+          "eraId": "age-of-adventurers",
+          "title": "A memory returned",
+          "body": "Thrall's Third War memory is distinct from the present-day Nagrand scene. Garrosh accepts Grom's sacrifice and the story ends with the original TBC chain."
+        }
+      ],
+      "sourceIds": [
+        "hero-maghar-chain",
+        "hero-maghar-greatmother",
+        "hero-maghar-materials",
+        "hero-maghar-kashur",
+        "hero-maghar-agitated-ancestors",
+        "hero-maghar-ancestors",
+        "hero-maghar-spirits-speak",
+        "hero-maghar-secret",
+        "hero-maghar-soul-sees",
+        "hero-maghar-mirror",
+        "hero-maghar-return",
+        "hero-maghar-inconsolable",
+        "hero-maghar-no-hope",
+        "hero-maghar-thrall",
+        "hero-maghar-ending",
+        "blizzard-garrosh",
+        "hero-maghar-demon-fall",
+        "hero-maghar-nagrand-visual",
+        "hero-maghar-crypt-visual",
+        "warcraft-chronicle-volume-3"
+      ],
+      "reviewNote": "Complete illustrated research StoryGuide with 15 scenes and source-linked events and claims. The Horde-only unlock has its actual prerequisite branches: Totem of Kar'dash/Murkblood and the Nagrand diplomacy and Forge Camp threads ending at Message to Garadar and Forge Camp: Annihilated; it does not require every Nagrand quest. The original TBC continuation includes Thrall, Son of Durotan and Hero of the Mag'har, removed in 4.0.1. Human gates: original quest/build and prerequisite-edge review; exact claim and Chronicle page review; TBC side-by-side area and model resemblance; visual composition review; and voice audition. The Third War scene is labeled as memory. The story ends before Garrosh's later career. Added to the independent Classic-to-Wrath StoryTour, not an EraTour. See hero-of-the-maghar-research.md, hero-of-the-maghar-production.md, and hero-of-the-maghar-visual-assets.json.",
+      "storyGuideId": "hero-of-the-maghar-guide",
+      "showInEraTourOffshoots": false,
+      "contentStatus": "research"
+    },
+    {
       "id": "karazhan-masters-key-and-nightbane",
       "slug": "karazhan-masters-key-and-nightbane",
       "title": "Karazhan: The Master’s Key and Nightbane",
@@ -54131,7 +55722,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth. Anchors were checked against the depicted landmasses: Stormwind, Westfall, Duskwood, Deadwind Pass and the Blasted Lands in the southern Eastern Kingdoms; the Plaguelands in the north; Theramore and Tanaris on eastern Kalimdor; Dragonblight and Icecrown in Northrend; and Shadowmoon Valley in southeastern Outland. Multi-region stories use one representative anchor, not their entire route.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending.",
       "regions": [
         {
           "id": "kalimdor",
@@ -54328,6 +55919,19 @@
           "locationLabel": "Deadwind Pass · key fragments across Outland"
         },
         {
+          "storylineId": "hero-of-the-maghar",
+          "regionIds": [
+            "outland"
+          ],
+          "mapPositionPercent": [
+            84,
+            85
+          ],
+          "order": 12,
+          "periodLabel": "The Burning Crusade · patch 2.0.3 Horde chain",
+          "locationLabel": "Nagrand · Garadar, Oshu'gun, and the Ancestral Grounds"
+        },
+        {
           "storylineId": "akama-and-black-temple",
           "regionIds": [
             "outland",
@@ -54337,7 +55941,7 @@
             91,
             83
           ],
-          "order": 12,
+          "order": 13,
           "periodLabel": "The Burning Crusade · Black Temple, patch 2.1",
           "locationLabel": "Shadowmoon Valley · raids across Outland · Hyjal memory"
         },
@@ -54350,7 +55954,7 @@
             86,
             80
           ],
-          "order": 13,
+          "order": 14,
           "periodLabel": "The Burning Crusade · Shadowmoon Valley",
           "locationLabel": "Shadowmoon Valley · Outland"
         },
@@ -54363,7 +55967,7 @@
             93,
             87
           ],
-          "order": 14,
+          "order": 15,
           "periodLabel": "The Burning Crusade · A’dal’s trials and Tempest Key",
           "locationLabel": "Shattrath · heroic trials across Outland"
         },
@@ -54376,7 +55980,7 @@
             79,
             91
           ],
-          "order": 15,
+          "order": 16,
           "periodLabel": "The Burning Crusade · Netherwing quest campaign",
           "locationLabel": "Shadowmoon Valley · fields, fortress, and Netherwing Ledge"
         },
@@ -54390,7 +55994,7 @@
             28,
             57
           ],
-          "order": 16,
+          "order": 17,
           "periodLabel": "Original Classic investigation · Burning Crusade patch 2.3 continuation",
           "locationLabel": "Stormwind · Duskwood · Wetlands · Theramore"
         },
@@ -54403,7 +56007,7 @@
             48,
             23
           ],
-          "order": 17,
+          "order": 18,
           "periodLabel": "Wrath of the Lich King",
           "locationLabel": "Dragonblight · Northrend"
         },
@@ -54417,12 +56021,12 @@
             49,
             12
           ],
-          "order": 18,
+          "order": 19,
           "periodLabel": "Wrath of the Lich King · patch 3.3.5",
           "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
         }
       ],
-      "reviewNote": "Research StoryTour collection with 18 map placards, 17 playable research StoryGuides and one research preview. Play All follows the explicit editorial order and skips the preview. Netherwing follows Champion of the Naaru as a Burning Crusade playlist placement, not a claim of exact relative dating; repeatable reputation work is not rendered as unique events. Story-tour map markers are navigational layout positions rather than exact locations; each storyline remains research until its human review gates are complete.",
+      "reviewNote": "Research StoryTour collection with 19 map placards, 18 playable research StoryGuides, and one research preview. Play All follows the authored expansion-era sequence and skips the preview. Hero of the Mag'har is an early TBC Horde story; its marker is navigational layout only, not an exact coordinate. Stories remain research until human review gates are complete.",
       "contentStatus": "research"
     }
   ],
@@ -54698,6 +56302,30 @@
         "fallen-hero-and-rakhlikh-story-the-three-lieutenants",
         "fallen-hero-and-rakhlikh-story-summoning-rakhlikh",
         "fallen-hero-and-rakhlikh-story-horn-and-ward"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "hero-of-the-maghar-guide",
+      "eraId": "age-of-adventurers",
+      "title": "Hero of the Mag'har · Garrosh, Geyah, and Thrall",
+      "description": "Fifteen illustrated TBC scenes follow Garrosh's burden through the ancestor quest, the Light and Void cycle, Geyah's message to Thrall, and the remembered battle that restores Garrosh's pride. Later history is excluded.",
+      "nodeIds": [
+        "hero-of-the-maghar-story-garadar-burden",
+        "hero-of-the-maghar-story-greatmother-counsel",
+        "hero-of-the-maghar-story-mother-kashurs-counsel",
+        "hero-of-the-maghar-story-ancestors-walk-south",
+        "hero-of-the-maghar-story-oshugun-calls",
+        "hero-of-the-maghar-story-kure-reveals",
+        "hero-of-the-maghar-story-adal-answers",
+        "hero-of-the-maghar-story-dore-explains-cycle",
+        "hero-of-the-maghar-story-soul-mirror",
+        "hero-of-the-maghar-story-return-to-garadar",
+        "hero-of-the-maghar-story-geyah-sends-to-garrosh",
+        "hero-of-the-maghar-story-garrosh-confession",
+        "hero-of-the-maghar-story-message-to-thrall",
+        "hero-of-the-maghar-story-flashback-demon-fall",
+        "hero-of-the-maghar-story-garrosh-name-restored"
       ],
       "contentStatus": "research"
     },
@@ -63665,6 +65293,686 @@
       "voiceover": {
         "assetPath": "audio/guided/fallen-hero-and-rakhlikh-guide/fallen-hero-and-rakhlikh-story-horn-and-ward.mp3",
         "durationMs": 30700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-garadar-burden",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "Garadar beneath the Hellscream name",
+      "narration": "Garadar is no fortress of a conquering clan. It is a home held together beneath Nagrand's bright sky, where the Mag'har endure without the strength of the greater Horde around them. At its center stands Garrosh Hellscream, son of a name that brings him no comfort. He remembers Grom through the corruption that claimed the old chieftain and fears that the same rage may live in him. The quest sends the seeker first to Greatmother Geyah. Before Garrosh can imagine a future for his people, the weight of the past must be spoken aloud.",
+      "eventIds": [
+        "hero-of-the-maghar-garadar-burden-event"
+      ],
+      "entityIds": [
+        "garrosh-hellscream",
+        "maghar-community"
+      ],
+      "locationIds": [
+        "garadar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-garadar-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-greatmother-counsel"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-garadar-burden.mp3",
+        "durationMs": 37550,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-greatmother-counsel",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "The Greatmother's path",
+      "narration": "Geyah receives the seeker as a guest of her people and gives a small task before the deeper questions begin. The chain asks for materials gathered across Outland, then turns them into a potion. Those repeated errands are compressed here; the story is not a record of every plant picked or each path crossed. The important change is one of readiness. Geyah is opening a way toward a witness older than Garrosh's grief: the ancestors who still walk the green places of Nagrand. Her next direction leads beyond the village, to Mother Kashur.",
+      "eventIds": [
+        "hero-of-the-maghar-greatmother-counsel-event"
+      ],
+      "entityIds": [
+        "geyah",
+        "garrosh-hellscream",
+        "maghar-community"
+      ],
+      "locationIds": [
+        "garadar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-garadar-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-garadar-burden",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-mother-kashurs-counsel"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-greatmother-counsel.mp3",
+        "durationMs": 38950,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-mother-kashurs-counsel",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "A listening place",
+      "narration": "The Ancestral Grounds hold the valley's memory in quieter forms: weathered stones, a spring, and the presence of those who came before. Mother Kashur receives the seeker there. Geyah's preparation has brought the traveler to a listening place, but no potion can make the ancestors' meaning simple. Their unrest is the question now. Mother Kashur turns the inquiry outward, asking that the old sites be visited and the spirits' words carried back. The story follows that chain of testimony rather than inventing a private vision or a prophecy the quests do not give.",
+      "eventIds": [
+        "hero-of-the-maghar-mother-kashurs-counsel-event"
+      ],
+      "entityIds": [
+        "mother-kashur",
+        "ancient-orc-ancestors-maghar"
+      ],
+      "locationIds": [
+        "nagrand-ancestral-grounds"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-ancestral-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-greatmother-counsel",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-ancestors-walk-south"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-mother-kashurs-counsel.mp3",
+        "durationMs": 41775,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-ancestors-walk-south",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "A valley of restless voices",
+      "narration": "The first reports are not of an army crossing the grass, but of spirits who cannot rest. Their broken words speak of a call from the south, so Mother Kashur sends the seeker to look and listen. The investigation reaches Sunspring Post, the Laughing Skull ruins, Garadar, and the Bleeding Hollow ruins; at each, different fragments of memory carry the same pull. The ancestors speak of Oshu'gun, the pale mountain that has long watched over the valley. The quest does not establish that every spirit has left or that these sites share one history. It gives a route of witnesses whose words point in the same direction. A scattered unease now has a destination, and Mother Kashur sends the seeker onward.",
+      "eventIds": [
+        "hero-of-the-maghar-ancestors-walk-south-event"
+      ],
+      "entityIds": [
+        "mother-kashur",
+        "ancient-orc-ancestors-maghar"
+      ],
+      "locationIds": [
+        "nagrand-ancestral-grounds",
+        "garadar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-nagrand-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-mother-kashurs-counsel",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-oshugun-calls"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-ancestors-walk-south.mp3",
+        "durationMs": 51275,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-oshugun-calls",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "The mountain calls",
+      "narration": "Oshu'gun rises from Nagrand like a fragment of another world set among grass and water. The ancestor trail ends at its pale mass, where the call grows stronger and the old whispers find a voice. The chain sends the seeker to hear what lies beneath the mountain's silence. The scene treats Oshu'gun as the sacred place the Mag'har know, while the art suggests its deeper nature without claiming a precise interior layout. The voices have not chosen the mountain as a refuge by chance; they are being drawn to something whose light is failing.",
+      "eventIds": [
+        "hero-of-the-maghar-oshugun-calls-event"
+      ],
+      "entityIds": [
+        "ancient-orc-ancestors-maghar",
+        "kure-oshu-gun"
+      ],
+      "locationIds": [
+        "oshugun"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-oshugun-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-ancestors-walk-south",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-kure-reveals"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-oshugun-calls.mp3",
+        "durationMs": 39875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-kure-reveals",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "A light bleeding away",
+      "narration": "K'ure's account changes the meaning of the pilgrimage. The Naaru says that its energies have bled away over centuries and a Void has grown in their place, consuming the souls nearby. Generation after generation of orc ancestors have been drawn into that vortex. K'ure also says the Burning Legion recently harnessed it to bring void minions into its ranks. This is the Naaru's testimony, not an omniscient explanation of every spirit's fate. One part of the cycle may still be answered, K'ure tells the seeker, but the path now leads away from Nagrand to A'dal in Shattrath.",
+      "eventIds": [
+        "hero-of-the-maghar-kure-reveals-event"
+      ],
+      "entityIds": [
+        "kure-oshu-gun",
+        "ancient-orc-ancestors-maghar"
+      ],
+      "locationIds": [
+        "oshugun"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-oshugun-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-oshugun-calls",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-adal-answers"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-kure-reveals.mp3",
+        "durationMs": 43625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-adal-answers",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "A'dal's answer",
+      "narration": "In Shattrath, A'dal hears K'ure's account and answers with caution. The suffering of the ancestors cannot be lifted by a word of Light alone. Another Naaru is tied to the problem, and A'dal points the seeker toward Auchindoun, where its fate may reveal what can still be done. The city offers no easy comfort: even beings devoted to the Light cannot promise that every wound can be undone. Yet the direction matters. What happened at Oshu'gun belongs to a larger cycle, and the next witness waits beneath the ruined halls of Terokkar.",
+      "eventIds": [
+        "hero-of-the-maghar-adal-answers-event"
+      ],
+      "entityIds": [
+        "adal"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-shattrath-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-kure-reveals",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-dore-explains-cycle"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-adal-answers.mp3",
+        "durationMs": 40100,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-dore-explains-cycle",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "The cycle beneath Auchindoun",
+      "narration": "The Auchenai Crypts descend through blue-gray stone and a silence made for the dead. There, D'ore explains that the cycle cannot simply be stopped: without the Void, the Light cannot exist. The words do not offer a cure that restores each ancestor to the life they knew. They name a harder limit. The spirits drawn toward corruption must be released before the same darkness consumes them. The quest moves from listening to action, but the choice belongs to the seeker who carries a mirror through the crypt, not to a prophecy that has already decided each spirit's fate.",
+      "eventIds": [
+        "hero-of-the-maghar-dore-explains-cycle-event"
+      ],
+      "entityIds": [
+        "dore-auchenai"
+      ],
+      "locationIds": [
+        "auchindoun",
+        "auchenai-crypts"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-crypts-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-adal-answers",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-soul-mirror"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-dore-explains-cycle.mp3",
+        "durationMs": 40150,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-soul-mirror",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "The mirror and the darkened spirit",
+      "narration": "A Soul Mirror turns the crypt's lesson into a difficult act. Its reflection exposes a darkened spirit drawn from the ancient orc ancestors, and the seeker must defeat those already changing before the Void takes them fully. The task is repeated, but repetition is not made into separate history: the meaningful change is that the unseen danger can now be confronted. When the work is done, Mother Kashur receives the news at the Ancestral Grounds. The journey has not restored the dead to life. It has given them a chance to rest without being consumed by the force that called them south.",
+      "eventIds": [
+        "hero-of-the-maghar-soul-mirror-event"
+      ],
+      "entityIds": [
+        "dore-auchenai",
+        "ancient-orc-ancestors-maghar"
+      ],
+      "locationIds": [
+        "auchenai-crypts",
+        "nagrand-ancestral-grounds"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-crypts-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-dore-explains-cycle",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-return-to-garadar"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-soul-mirror.mp3",
+        "durationMs": 44100,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-return-to-garadar",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "News for the Greatmother",
+      "narration": "Mother Kashur receives the report with gratitude for the ancestors who have been freed from the darkening cycle. She sends the seeker back to Garadar with news of the victory. The walk home matters because it returns the story from the crypt to the people who were waiting on an answer. Geyah says the Mag'har have endured and their people have more than one season ahead of them; then she asks for a more personal message. Garrosh has heard of the seeker's work. Geyah hopes that words of service to the clan may reach him where comfort has not.",
+      "eventIds": [
+        "hero-of-the-maghar-return-to-garadar-event"
+      ],
+      "entityIds": [
+        "mother-kashur",
+        "geyah",
+        "maghar-community"
+      ],
+      "locationIds": [
+        "nagrand-ancestral-grounds",
+        "garadar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-garadar-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-soul-mirror",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-geyah-sends-to-garrosh"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-return-to-garadar.mp3",
+        "durationMs": 37975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-geyah-sends-to-garrosh",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "A chieftain who cannot hope",
+      "narration": "Geyah sends the seeker to tell Garrosh that the work was done for him and his people. The words do not lift him. Garrosh sees a clan that may survive another winter, yet he cannot imagine a future beyond it. He asks whether the seeker should lead instead, then speaks of his family's name as a shame he wishes he could lay down. His grief is not only sorrow for Grom; it is fear that the same curse waits inside him. The chain lets his despair stand plainly, without pretending that a stranger's praise has already cured it.",
+      "eventIds": [
+        "hero-of-the-maghar-geyah-sends-to-garrosh-event"
+      ],
+      "entityIds": [
+        "geyah",
+        "garrosh-hellscream"
+      ],
+      "locationIds": [
+        "garadar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-garadar-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-return-to-garadar",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-garrosh-confession"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-geyah-sends-to-garrosh.mp3",
+        "durationMs": 36950,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-garrosh-confession",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "A grandmother's urgent message",
+      "narration": "Garrosh asks the seeker to return to Geyah with the words he cannot bear to carry himself: he believes he is unfit to lead and fears that the old corruption will damn the orcs again. Geyah hears more than his despair. In the exchange that follows, she learns that the Horde's Warchief is Thrall, son of her lost child Durotan. The revelation turns a family line separated by the Dark Portal into an urgent summons. Geyah cannot make the journey herself, so she asks the seeker to find Thrall in Orgrimmar and tell him that his blood remains on Draenor.",
+      "eventIds": [
+        "hero-of-the-maghar-garrosh-confession-event"
+      ],
+      "entityIds": [
+        "geyah",
+        "garrosh-hellscream",
+        "maghar-community"
+      ],
+      "locationIds": [
+        "garadar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-garadar-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-geyah-sends-to-garrosh",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-message-to-thrall"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-garrosh-confession.mp3",
+        "durationMs": 40125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-message-to-thrall",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "A message in Orgrimmar",
+      "narration": "The seeker carries Geyah's message to Orgrimmar: her blood is still in the broken world, and Grom's legacy lives on there too. Thrall answers first with astonishment. He has a grandmother, and she lives. The quest offers no measured travel account for the journey from one world to another, so the scene follows only the message and the decision it changes. Thrall now has a reason to return to Nagrand that reaches beyond old war or duty. He must meet the family who remained behind when his parents crossed the Dark Portal.",
+      "eventIds": [
+        "hero-of-the-maghar-message-to-thrall-event"
+      ],
+      "entityIds": [
+        "thrall"
+      ],
+      "locationIds": [
+        "orgrimmar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-orgrimmar-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-garrosh-confession",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-flashback-demon-fall"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-message-to-thrall.mp3",
+        "durationMs": 38150,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-flashback-demon-fall",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "Flashback · Demon Fall Canyon",
+      "narration": "Thrall returns to Garadar, where Geyah at last meets the grandson she feared she had lost. Garrosh sees the likeness of his father, but resemblance is not yet an answer. Thrall tells him what the old shame left out: at Demon Fall Canyon in Ashenvale, Grom Hellscream stood against Mannoroth and struck the blow that ended the demon's hold over the orcs. Grom died in that act. This is a remembered Third War scene, distinct from the present gathering in Nagrand. The vision does not erase the corruption or the cost; it reveals the choice Grom made when the moment came.",
+      "eventIds": [
+        "hero-of-the-maghar-flashback-demon-fall-event",
+        "grom-breaks-mannoroths-bond"
+      ],
+      "entityIds": [
+        "thrall",
+        "grom-hellscream",
+        "mannoroth"
+      ],
+      "locationIds": [
+        "garadar",
+        "demon-fall-canyon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-memory-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-message-to-thrall",
+      "nextNodeIds": [
+        "hero-of-the-maghar-story-garrosh-name-restored"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-flashback-demon-fall.mp3",
+        "durationMs": 41650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "hero-of-the-maghar-story-garrosh-name-restored",
+      "guideId": "hero-of-the-maghar-guide",
+      "title": "Garrosh, son of Grom",
+      "narration": "The memory returns to Garadar, but Garrosh is no longer looking at the name Hellscream as an inherited sentence. He learns that his father did not leave the orcs bound to the Legion forever; Grom chose to break that hold and paid with his life. Garrosh's burden lifts, and he can name himself with pride: son of Grom, chieftain of the Mag'har. Thrall remains long enough to honor the bond he shared with Grom, then returns to Geyah. The seeker carries the final news to the Greatmother, who names the service done for her people. The chain ends here, before Garrosh's later campaigns.",
+      "eventIds": [
+        "hero-of-the-maghar-garrosh-name-restored-event"
+      ],
+      "entityIds": [
+        "garrosh-hellscream",
+        "thrall",
+        "geyah",
+        "maghar-community"
+      ],
+      "locationIds": [
+        "garadar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "hero-of-the-maghar-garadar-scene"
+        }
+      ],
+      "previousNodeId": "hero-of-the-maghar-story-flashback-demon-fall",
+      "voiceover": {
+        "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-garrosh-name-restored.mp3",
+        "durationMs": 42425,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }

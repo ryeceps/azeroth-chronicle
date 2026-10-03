@@ -610,6 +610,26 @@
     "contentStatus": "research"
   },
   {
+    "id": "ancient-orc-ancestors-maghar",
+    "type": "entity",
+    "name": "Ancient Orc Ancestors",
+    "slug": "ancient-orc-ancestors-maghar",
+    "path": "/locations/ancient-orc-ancestors-maghar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "interpretive-art"
+    ],
+    "description": "An unnamed interpretive spirit group; no individual ancestor is named or assigned an invented history.",
+    "sourceIds": [
+      "hero-maghar-ancestors",
+      "hero-maghar-spirits-speak",
+      "hero-maghar-soul-sees"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "andorhal",
     "type": "entity",
     "name": "Andorhal",
@@ -1031,6 +1051,45 @@
     "description": "Ata’mal Terrace, a named setting in the Akama and Black Temple research story.",
     "sourceIds": [
       "akama-atamal-terrace-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "auchenai-crypts",
+    "type": "entity",
+    "name": "Auchenai Crypts",
+    "slug": "auchenai-crypts",
+    "path": "/locations/auchenai-crypts",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "tbc-area-reference"
+    ],
+    "description": "A funerary wing of Auchindoun where D'ore explains the soul cycle and the Soul Mirror is used.",
+    "sourceIds": [
+      "hero-maghar-soul-sees",
+      "hero-maghar-mirror",
+      "hero-maghar-crypt-visual"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "auchindoun",
+    "type": "entity",
+    "name": "Auchindoun",
+    "slug": "auchindoun",
+    "path": "/locations/auchindoun",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "tbc-area-reference"
+    ],
+    "description": "The ruined draenei complex in Terokkar Forest that contains the Auchenai Crypts.",
+    "sourceIds": [
+      "hero-maghar-chain",
+      "hero-maghar-crypt-visual"
     ],
     "contentStatus": "research"
   },
@@ -3136,6 +3195,26 @@
     "contentStatus": "research"
   },
   {
+    "id": "demon-fall-canyon",
+    "type": "entity",
+    "name": "Demon Fall Canyon, Ashenvale",
+    "slug": "demon-fall-canyon",
+    "path": "/locations/demon-fall-canyon",
+    "eraId": "third-war-frozen-throne",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "tbc-area-reference"
+    ],
+    "description": "The Third War battlefield shown as a distinct remembered scene when Thrall recounts Grom's sacrifice.",
+    "sourceIds": [
+      "hero-maghar-ending",
+      "hero-maghar-demon-fall",
+      "warcraft-chronicle-volume-3"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "dirge-quikcleave",
     "type": "entity",
     "name": "Dirge Quikcleave",
@@ -3186,6 +3265,24 @@
     "description": "The trained felboars used to dig Shadowmoon tubers at Oronok’s farm.",
     "sourceIds": [
       "cipher-oronok-tubers-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "dore-auchenai",
+    "type": "entity",
+    "name": "D'ore",
+    "slug": "dore-auchenai",
+    "path": "/locations/dore-auchenai",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "interpretive-art"
+    ],
+    "description": "The naaru in Auchenai Crypts whose account explains the Light and Void cycle and the Soul Mirror response.",
+    "sourceIds": [
+      "hero-maghar-soul-sees"
     ],
     "contentStatus": "research"
   },
@@ -3912,6 +4009,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "garadar",
+    "type": "entity",
+    "name": "Garadar",
+    "slug": "garadar",
+    "path": "/locations/garadar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "tbc-area-reference"
+    ],
+    "description": "The Mag'har village in Nagrand where Garrosh and Greatmother Geyah anchor the Horde chain.",
+    "sourceIds": [
+      "hero-maghar-greatmother",
+      "hero-maghar-nagrand-visual"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "garn-mathers",
     "type": "entity",
     "name": "Garn Mathers",
@@ -3931,6 +4047,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "garrosh-hellscream",
+    "type": "entity",
+    "name": "Garrosh Hellscream",
+    "slug": "garrosh-hellscream",
+    "path": "/locations/garrosh-hellscream",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "interpretive-art"
+    ],
+    "description": "The young Mag'har whose shame over Grom and fear of inherited rage form the opening conflict.",
+    "sourceIds": [
+      "hero-maghar-greatmother",
+      "blizzard-garrosh"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "general-drakkisath",
     "type": "entity",
     "name": "General Drakkisath",
@@ -3946,6 +4081,26 @@
     "sourceIds": [
       "onyxia-classic-attunement",
       "onyxia-attunement-wiki"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "geyah",
+    "type": "entity",
+    "name": "Greatmother Geyah",
+    "slug": "geyah",
+    "path": "/locations/geyah",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "interpretive-art"
+    ],
+    "description": "The Mag'har elder who guides the ancestor inquiry and discovers Thrall is her grandson.",
+    "sourceIds": [
+      "hero-maghar-greatmother",
+      "hero-maghar-no-hope",
+      "hero-maghar-ending"
     ],
     "contentStatus": "research"
   },
@@ -4096,7 +4251,9 @@
     "description": "An orc chieftain who fell again beneath Mannoroth's corruption and then died breaking the pit lord's hold over his people.",
     "sourceIds": [
       "warcraft-chronicle-volume-3",
-      "blizzard-warcraft-iii-story-so-far"
+      "blizzard-warcraft-iii-story-so-far",
+      "hero-maghar-ending",
+      "hero-maghar-chain"
     ],
     "contentStatus": "research"
   },
@@ -5233,6 +5390,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "kure-oshu-gun",
+    "type": "entity",
+    "name": "K'ure",
+    "slug": "kure-oshu-gun",
+    "path": "/locations/kure-oshu-gun",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "interpretive-art"
+    ],
+    "description": "A Naaru associated with Oshu'gun whose quest account describes fading Light, growing Void, and ancestral spirits.",
+    "sourceIds": [
+      "hero-maghar-secret"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "lady-sevine",
     "type": "entity",
     "name": "Lady Sevine",
@@ -5497,6 +5672,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "maghar-community",
+    "type": "entity",
+    "name": "The Mag'har of Garadar",
+    "slug": "maghar-community",
+    "path": "/factions/maghar-community",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "interpretive-art"
+    ],
+    "description": "Interpretive community ensemble; not an exact census, named roster, or claim that each villager is present in every scene.",
+    "sourceIds": [
+      "hero-maghar-chain",
+      "hero-maghar-nagrand-visual"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "magistrate-marduke",
     "type": "entity",
     "name": "Magistrate Marduke",
@@ -5597,7 +5791,9 @@
       "warcraft-chronicle-volume-2",
       "blizzard-rise-of-the-horde-library",
       "warcraft-chronicle-volume-3",
-      "blizzard-warcraft-iii-story-so-far"
+      "blizzard-warcraft-iii-story-so-far",
+      "hero-maghar-ending",
+      "hero-maghar-chain"
     ],
     "contentStatus": "research"
   },
@@ -6170,6 +6366,26 @@
     "contentStatus": "research"
   },
   {
+    "id": "mother-kashur",
+    "type": "entity",
+    "name": "Mother Kashur",
+    "slug": "mother-kashur",
+    "path": "/locations/mother-kashur",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "interpretive-art"
+    ],
+    "description": "The ancestral figure who directs the seeker toward Oshu'gun and receives news of the spirits' release.",
+    "sourceIds": [
+      "hero-maghar-kashur",
+      "hero-maghar-agitated-ancestors",
+      "hero-maghar-return"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "mount-hyjal-ancient",
     "type": "entity",
     "name": "Mount Hyjal",
@@ -6283,6 +6499,26 @@
       "onyxia-classic-attunement",
       "onyxia-attunement-wiki",
       "tirion-taelan-find-myranda-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "nagrand-ancestral-grounds",
+    "type": "entity",
+    "name": "Ancestral Grounds, Nagrand",
+    "slug": "nagrand-ancestral-grounds",
+    "path": "/locations/nagrand-ancestral-grounds",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "tbc-area-reference"
+    ],
+    "description": "A named spiritual site where Mother Kashur receives the seeker and the ancestor inquiry begins.",
+    "sourceIds": [
+      "hero-maghar-kashur",
+      "hero-maghar-agitated-ancestors",
+      "hero-maghar-nagrand-visual"
     ],
     "contentStatus": "research"
   },
@@ -6762,6 +6998,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "orgrimmar",
+    "type": "entity",
+    "name": "Orgrimmar",
+    "slug": "orgrimmar",
+    "path": "/locations/orgrimmar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "tbc-area-reference"
+    ],
+    "description": "The Horde capital where Geyah's message reaches Thrall in the original TBC continuation.",
+    "sourceIds": [
+      "hero-maghar-thrall"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "oronok-torn-heart",
     "type": "entity",
     "name": "Oronok Torn-heart",
@@ -6800,6 +7054,26 @@
     "description": "Oronu the Elder, represented in the Akama and Black Temple research story.",
     "sourceIds": [
       "akama-oronu-quest"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "oshugun",
+    "type": "entity",
+    "name": "Oshu'gun, Nagrand",
+    "slug": "oshugun",
+    "path": "/locations/oshugun",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "hero-of-the-maghar-story",
+      "tbc-area-reference"
+    ],
+    "description": "The pale sacred mass in Nagrand associated with the ancestors' call and K'ure's account.",
+    "sourceIds": [
+      "hero-maghar-spirits-speak",
+      "hero-maghar-secret",
+      "hero-maghar-nagrand-visual"
     ],
     "contentStatus": "research"
   },
@@ -12975,6 +13249,240 @@
     "contentStatus": "research"
   },
   {
+    "id": "hero-of-the-maghar-adal-answers-event",
+    "type": "event",
+    "name": "A'dal's answer",
+    "slug": "hero-of-the-maghar-adal-answers",
+    "path": "/events/hero-of-the-maghar-adal-answers",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "A'dal cannot simply end the ancestors' suffering, but directs the seeker toward the naaru in Auchindoun.",
+    "sourceIds": [
+      "hero-maghar-secret"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-ancestors-walk-south-event",
+    "type": "event",
+    "name": "A valley of restless voices",
+    "slug": "hero-of-the-maghar-ancestors-walk-south",
+    "path": "/events/hero-of-the-maghar-ancestors-walk-south",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Reports of unrest lead the seeker through Nagrand's named ancestral sites, where the spirits point toward Oshu'gun.",
+    "sourceIds": [
+      "hero-maghar-agitated-ancestors",
+      "hero-maghar-ancestors"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-dore-explains-cycle-event",
+    "type": "event",
+    "name": "The cycle beneath Auchindoun",
+    "slug": "hero-of-the-maghar-dore-explains-cycle",
+    "path": "/events/hero-of-the-maghar-dore-explains-cycle",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "D'ore says the Light and Void cannot be separated from the naaru cycle, leaving a difficult choice for the ancestors.",
+    "sourceIds": [
+      "hero-maghar-soul-sees"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-flashback-demon-fall-event",
+    "type": "event",
+    "name": "Flashback · Demon Fall Canyon",
+    "slug": "hero-of-the-maghar-flashback-demon-fall",
+    "path": "/events/hero-of-the-maghar-flashback-demon-fall",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Thrall's return brings Grom's last battle into view as a clearly labeled memory from the Third War.",
+    "sourceIds": [
+      "hero-maghar-ending",
+      "blizzard-garrosh",
+      "hero-maghar-demon-fall",
+      "warcraft-chronicle-volume-3"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-garadar-burden-event",
+    "type": "event",
+    "name": "Garadar beneath the Hellscream name",
+    "slug": "hero-of-the-maghar-garadar-burden",
+    "path": "/events/hero-of-the-maghar-garadar-burden",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Garrosh carries shame over Grom's corruption and fears the same weakness lies within him.",
+    "sourceIds": [
+      "hero-maghar-greatmother",
+      "blizzard-garrosh"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-garrosh-confession-event",
+    "type": "event",
+    "name": "A grandmother's urgent message",
+    "slug": "hero-of-the-maghar-garrosh-confession",
+    "path": "/events/hero-of-the-maghar-garrosh-confession",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Geyah learns Thrall is her grandson and asks the seeker to carry her message across the sea.",
+    "sourceIds": [
+      "hero-maghar-no-hope"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-garrosh-name-restored-event",
+    "type": "event",
+    "name": "Garrosh, son of Grom",
+    "slug": "hero-of-the-maghar-garrosh-name-restored",
+    "path": "/events/hero-of-the-maghar-garrosh-name-restored",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The truth of Grom's sacrifice lifts Garrosh's shame; the story ends with restored pride and Geyah's recognition.",
+    "sourceIds": [
+      "hero-maghar-ending",
+      "blizzard-garrosh"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-geyah-sends-to-garrosh-event",
+    "type": "event",
+    "name": "A chieftain who cannot hope",
+    "slug": "hero-of-the-maghar-geyah-sends-to-garrosh",
+    "path": "/events/hero-of-the-maghar-geyah-sends-to-garrosh",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Garrosh refuses the comfort offered by the seeker's service and names himself unfit to lead.",
+    "sourceIds": [
+      "hero-maghar-inconsolable",
+      "blizzard-garrosh"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-greatmother-counsel-event",
+    "type": "event",
+    "name": "The Greatmother's path",
+    "slug": "hero-of-the-maghar-greatmother-counsel",
+    "path": "/events/hero-of-the-maghar-greatmother-counsel",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Geyah directs the seeker through a short preparation task before the inquiry turns toward the ancestors.",
+    "sourceIds": [
+      "hero-maghar-greatmother",
+      "hero-maghar-materials"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-kure-reveals-event",
+    "type": "event",
+    "name": "A light bleeding away",
+    "slug": "hero-of-the-maghar-kure-reveals",
+    "path": "/events/hero-of-the-maghar-kure-reveals",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "K'ure explains that fading energies have left a Void that draws in the orc ancestors.",
+    "sourceIds": [
+      "hero-maghar-secret"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-message-to-thrall-event",
+    "type": "event",
+    "name": "A message in Orgrimmar",
+    "slug": "hero-of-the-maghar-message-to-thrall",
+    "path": "/events/hero-of-the-maghar-message-to-thrall",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Thrall hears that Geyah lives and his family remains in Nagrand.",
+    "sourceIds": [
+      "hero-maghar-thrall"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-mother-kashurs-counsel-event",
+    "type": "event",
+    "name": "A listening place",
+    "slug": "hero-of-the-maghar-mother-kashurs-counsel",
+    "path": "/events/hero-of-the-maghar-mother-kashurs-counsel",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At the Ancestral Grounds, Mother Kashur gives the seeker a way to listen to the unsettled spirits.",
+    "sourceIds": [
+      "hero-maghar-kashur"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-oshugun-calls-event",
+    "type": "event",
+    "name": "The mountain calls",
+    "slug": "hero-of-the-maghar-oshugun-calls",
+    "path": "/events/hero-of-the-maghar-oshugun-calls",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At Oshu'gun, the seeker follows the ancestors' call to its source.",
+    "sourceIds": [
+      "hero-maghar-spirits-speak"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-return-to-garadar-event",
+    "type": "event",
+    "name": "News for the Greatmother",
+    "slug": "hero-of-the-maghar-return-to-garadar",
+    "path": "/events/hero-of-the-maghar-return-to-garadar",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Mother Kashur's gratitude returns the seeker to Garadar, where Geyah asks that the news reach Garrosh.",
+    "sourceIds": [
+      "hero-maghar-return"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar-soul-mirror-event",
+    "type": "event",
+    "name": "The mirror and the darkened spirit",
+    "slug": "hero-of-the-maghar-soul-mirror",
+    "path": "/events/hero-of-the-maghar-soul-mirror",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Soul Mirror reveals darkened ancestor spirits so they can be released before transformation is complete.",
+    "sourceIds": [
+      "hero-maghar-mirror",
+      "hero-maghar-soul-sees"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "highborne-exiled-from-kalimdor",
     "type": "event",
     "name": "The Highborne Are Exiled",
@@ -17454,6 +17962,43 @@
     "sourceIds": [
       "story-gilneas-origins",
       "story-gilneas-return"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "hero-of-the-maghar",
+    "type": "storyline",
+    "name": "Hero of the Mag'har: Garrosh, Geyah, and Thrall's Return",
+    "slug": "hero-of-the-maghar",
+    "path": "/storylines/hero-of-the-maghar",
+    "eraId": "age-of-adventurers",
+    "eraIds": [
+      "age-of-adventurers"
+    ],
+    "aliases": [],
+    "tags": [],
+    "description": "Garrosh's shame leads the seeker from Garadar to Oshu'gun, Shattrath, and Auchindoun. The ancestors' danger brings a message to Thrall, whose return and account of Grom's sacrifice change the name Garrosh can bear.",
+    "sourceIds": [
+      "hero-maghar-chain",
+      "hero-maghar-greatmother",
+      "hero-maghar-materials",
+      "hero-maghar-kashur",
+      "hero-maghar-agitated-ancestors",
+      "hero-maghar-ancestors",
+      "hero-maghar-spirits-speak",
+      "hero-maghar-secret",
+      "hero-maghar-soul-sees",
+      "hero-maghar-mirror",
+      "hero-maghar-return",
+      "hero-maghar-inconsolable",
+      "hero-maghar-no-hope",
+      "hero-maghar-thrall",
+      "hero-maghar-ending",
+      "blizzard-garrosh",
+      "hero-maghar-demon-fall",
+      "hero-maghar-nagrand-visual",
+      "hero-maghar-crypt-visual",
+      "warcraft-chronicle-volume-3"
     ],
     "contentStatus": "research"
   },

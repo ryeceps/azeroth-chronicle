@@ -205,6 +205,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** Horde viewpoint; source the reenacted past as a distinct historical scene. Audit the actual unlock chain rather than treating all Nagrand quests as prerequisites. End with Thrall's visit, not future wars.
 
+**Implementation status (2026-10-03): complete research story.** Fifteen illustrated StoryNodes follow the original TBC chain through its removed Thrall continuation and final Garrosh recognition. The independent Classic-to-Wrath StoryTour placard follows Karazhan; the story remains out of EraTour. The source/claim packet, TBC-area asset ledger, 15 generated voiceovers, desktop/phone traversal, and Play All transition are present. Content remains `research`. Original-client quest/build capture, exact prerequisite edges, Chronicle page verification, human visual resemblance approval, and listening audition remain open. See the [research packet](hero-of-the-maghar-research.md), [production ledger](hero-of-the-maghar-production.md), and [visual asset ledger](hero-of-the-maghar-visual-assets.json).
+
 ### 18. Swift Flight Form: the raven's legacy
 
 **ID:** `swift-flight-form-raven-legacy` · **A** · **Reach:** druid centers on Azeroth, Outland wilderness, Sethekk Halls.

@@ -1,0 +1,28 @@
+{
+  "id": "hero-of-the-maghar-garrosh-confession-event",
+  "kind": "event",
+  "name": "A grandmother's urgent message",
+  "slug": "hero-of-the-maghar-garrosh-confession",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "hero-of-the-maghar-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade quest arc; exact in-world date unknown"
+  },
+  "summary": "Geyah learns Thrall is her grandson and asks the seeker to carry her message across the sea.",
+  "locationIds": [
+    "garadar"
+  ],
+  "participantEntityIds": [
+    "geyah",
+    "garrosh-hellscream",
+    "maghar-community"
+  ],
+  "sourceIds": [
+    "hero-maghar-no-hope"
+  ],
+  "claimIds": [
+    "hero-of-the-maghar-garrosh-confession-claim"
+  ],
+  "contentStatus": "research"
+}

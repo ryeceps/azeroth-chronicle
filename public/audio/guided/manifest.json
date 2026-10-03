@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T06:39:49.004Z",
+  "generatedAt": "2026-10-03T09:00:52.434Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 433,
-  "totalDurationMs": 11900675,
+  "trackCount": 448,
+  "totalDurationMs": 12515350,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -3909,6 +3909,141 @@
       "sha256": "ad0ee10eea0e80ac34b7c99c0778cfb3d2d43b27bfb69f0782497fd6960cc373",
       "transcriptSha256": "6a971deaac824c07fdf7d9808029534ecd8636a66a1899114c18b8acc49a5838",
       "bytes": 413613
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-garadar-burden",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-garadar-burden.mp3",
+      "durationMs": 37550,
+      "sha256": "e6092e44d12f478f194020fb87ac6ab56569126bd6b18857916d2cf41f565cea",
+      "transcriptSha256": "e909cf51c4d0d3a621cff32455b931cc7d089ad4394a301662f8e72c69db3dc7",
+      "bytes": 451629
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-greatmother-counsel",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-greatmother-counsel.mp3",
+      "durationMs": 38950,
+      "sha256": "860d77ec5c88fd078b1f4e48faa27b3a4588153ba729847b97a44ecbf55d3f40",
+      "transcriptSha256": "9a05b4e497908b8298e80b5698a921ffe89a03d0e1a235f3db52cce7371ea87f",
+      "bytes": 468333
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-mother-kashurs-counsel",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-mother-kashurs-counsel.mp3",
+      "durationMs": 41775,
+      "sha256": "dfbeca4d03934acaf9e3b536b8b03e6427666465e064bcaf224dab0ccc383994",
+      "transcriptSha256": "f1c71a07b8787a878690fd8ea13ec1c9769515c2c31cae73f0296933e6a96650",
+      "bytes": 502317
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-ancestors-walk-south",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-ancestors-walk-south.mp3",
+      "durationMs": 51275,
+      "sha256": "de64d6b432f9a7577f9394ae535fd78a6fde81eadfb799c5508830611127fe0d",
+      "transcriptSha256": "28fc5e65f2fbf2689c1bbdc0bef455964eba616dccfc97ebfd939b07c1a9773e",
+      "bytes": 616365
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-oshugun-calls",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-oshugun-calls.mp3",
+      "durationMs": 39875,
+      "sha256": "df19e9db685304c7070d1bb942699c3398fe0b8ec1423a9dfae6b359d8db1027",
+      "transcriptSha256": "51cbb83fa591dde72942389c509adf008404d7c4ea20580fc9dd41c4143c38f6",
+      "bytes": 479565
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-kure-reveals",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-kure-reveals.mp3",
+      "durationMs": 43625,
+      "sha256": "223841ba0bab740cc7d748d68d07fd4a3afc7a1f39c6d8fb0d4ec2b45ebc3746",
+      "transcriptSha256": "e98a35323dad31b6d6327356dc50a43e8bb0881592c84d0cff7237f236186c49",
+      "bytes": 524493
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-adal-answers",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-adal-answers.mp3",
+      "durationMs": 40100,
+      "sha256": "4cfcdf36ae9d843d862f5685c16d000627d330f60a80967f002119e52ebc5033",
+      "transcriptSha256": "9039bb59568aea1e14e0213586d6d60bcaa58f0bf122775e1ef1dbcf39337ebe",
+      "bytes": 482157
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-dore-explains-cycle",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-dore-explains-cycle.mp3",
+      "durationMs": 40150,
+      "sha256": "5df16cb5dc82a408246354c5ef421132101d0dda71074cf30204ed91f7d28d81",
+      "transcriptSha256": "de5892e11c94e61cea4332225908c04ca88ad69b87b1260062dc5352946888d2",
+      "bytes": 482733
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-soul-mirror",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-soul-mirror.mp3",
+      "durationMs": 44100,
+      "sha256": "00263c6351e3dd0f8b3d2f2aee06c5256d5a0fc39fe0a4af93f86125eaa1006b",
+      "transcriptSha256": "26759db24ce155e2f7462a80865fbf8576b0483d6c97326339676d7ebab0dc23",
+      "bytes": 530253
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-return-to-garadar",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-return-to-garadar.mp3",
+      "durationMs": 37975,
+      "sha256": "baa4de845553ab1ba8d7c9b83e0580a16f9a1f6e07eea11cffc60888dced2c72",
+      "transcriptSha256": "ab48b95403b2ae84d69c6b35e9726dae8fe3ca053fa83f9583dddda239b71d03",
+      "bytes": 456813
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-geyah-sends-to-garrosh",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-geyah-sends-to-garrosh.mp3",
+      "durationMs": 36950,
+      "sha256": "fe5d91490e9a3e5981b506be9827abd61ad79fdddfa478b8bc6c950d5191329f",
+      "transcriptSha256": "d9e614dbcebfbb0c8c9237b9529601076b24727714dd907c1c9cb87bdb91c9f8",
+      "bytes": 444429
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-garrosh-confession",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-garrosh-confession.mp3",
+      "durationMs": 40125,
+      "sha256": "6b345f570e0eaf0d844d5ad62116868a2ee9e78628eb364407487f71d890658a",
+      "transcriptSha256": "6b2a1a9e41f718f8da08e40e1dafefa6d271fc4afbf2337b6d58beac11681ff9",
+      "bytes": 482445
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-message-to-thrall",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-message-to-thrall.mp3",
+      "durationMs": 38150,
+      "sha256": "2ad3dfdbc0715f02a04c4da650c74ae0224f3971f2036807501a02ec37112a04",
+      "transcriptSha256": "3ee7e2640c7beebda8f3cce838fb7d3a68ee87c52df89d512ee9b14446f8b75a",
+      "bytes": 458829
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-flashback-demon-fall",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-flashback-demon-fall.mp3",
+      "durationMs": 41650,
+      "sha256": "6c4c612b3e680589cbb80ebfaeffbe755c97ea407e3946bb44dc8fbb5fb51aef",
+      "transcriptSha256": "7f1d7e61a80360f2bfecf6aa2319a564920d24a2e981734ab5394e92cf3d2cc2",
+      "bytes": 500877
+    },
+    {
+      "nodeId": "hero-of-the-maghar-story-garrosh-name-restored",
+      "guideId": "hero-of-the-maghar-guide",
+      "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-garrosh-name-restored.mp3",
+      "durationMs": 42425,
+      "sha256": "ace50ca524c8ac87465ad2609904cebb232ff4747e61b47c09d8faf52f3026d5",
+      "transcriptSha256": "94a872d33bd920566893d65031cf2234728cd2345f77fb37bb8ccdb26c95ca1c",
+      "bytes": 510093
     }
   ]
 }
