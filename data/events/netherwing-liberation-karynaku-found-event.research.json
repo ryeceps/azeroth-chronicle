@@ -1,0 +1,26 @@
+{
+  "id": "netherwing-liberation-karynaku-found-event",
+  "kind": "event",
+  "name": "Karynaku above the bailey",
+  "slug": "netherwing-liberation-karynaku-found",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "netherwing-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+  },
+  "summary": "The chain turns from freeing captive drakes to reaching Karynaku, who remains bound at the fortress.",
+  "locationIds": [
+    "dragonmaw-fortress-shadowmoon"
+  ],
+  "participantEntityIds": [
+    "karynaku"
+  ],
+  "sourceIds": [
+    "netherwing-ally-chain"
+  ],
+  "claimIds": [
+    "netherwing-liberation-karynaku-found-claim"
+  ],
+  "contentStatus": "research"
+}

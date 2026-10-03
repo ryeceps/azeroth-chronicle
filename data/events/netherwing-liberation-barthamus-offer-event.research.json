@@ -1,0 +1,28 @@
+{
+  "id": "netherwing-liberation-barthamus-offer-event",
+  "kind": "event",
+  "name": "A choice in the Lower City",
+  "slug": "netherwing-liberation-barthamus-offer",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "netherwing-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+  },
+  "summary": "Barthamus receives the survivor in Shattrath and presents one of six possible Netherwing drake companions.",
+  "locationIds": [
+    "cipher-shattrath-lower-city"
+  ],
+  "participantEntityIds": [
+    "barthamus",
+    "netherwing-drake-companions"
+  ],
+  "sourceIds": [
+    "netherwing-lord-illidan",
+    "netherwing-barthamus"
+  ],
+  "claimIds": [
+    "netherwing-liberation-barthamus-offer-claim"
+  ],
+  "contentStatus": "research"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "netherwing-liberation-murkblood-plans-event",
+  "kind": "event",
+  "name": "A revolt beneath the ledge",
+  "slug": "netherwing-liberation-murkblood-plans",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "netherwing-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+  },
+  "summary": "An optional friendly-standing branch leads from escape plans to an interrogation. An unnamed Murkblood overseer describes an attempted mine revolt and makes allegations about Dragonmaw extraction and buyers.",
+  "locationIds": [
+    "netherwing-mines-shadowmoon"
+  ],
+  "participantEntityIds": [
+    "mistress-of-the-mines",
+    "unnamed-murkblood-informant",
+    "murkblood-escape-plans"
+  ],
+  "sourceIds": [
+    "netherwing-murkblood-revolt",
+    "netherwing-seeker-of-truth"
+  ],
+  "claimIds": [
+    "netherwing-liberation-murkblood-plans-claim"
+  ],
+  "contentStatus": "research"
+}

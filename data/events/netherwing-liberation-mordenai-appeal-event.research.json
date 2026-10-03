@@ -1,0 +1,27 @@
+{
+  "id": "netherwing-liberation-mordenai-appeal-event",
+  "kind": "event",
+  "name": "A kindness in the fields",
+  "slug": "netherwing-liberation-mordenai-appeal",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "netherwing-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+  },
+  "summary": "Mordenai asks the seeker to aid the disturbed Netherwing drakes. The opening task pairs the gathering of Rocknail prey with feeding the drakes; the scene treats those objectives as one appeal rather than a string of farming actions.",
+  "locationIds": [
+    "netherwing-fields-shadowmoon"
+  ],
+  "participantEntityIds": [
+    "mordenai",
+    "enslaved-netherwing-drakes"
+  ],
+  "sourceIds": [
+    "netherwing-ally-chain"
+  ],
+  "claimIds": [
+    "netherwing-liberation-mordenai-appeal-claim"
+  ],
+  "contentStatus": "research"
+}

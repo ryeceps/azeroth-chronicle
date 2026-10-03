@@ -1,0 +1,28 @@
+{
+  "id": "netherwing-liberation-highlord-summons-event",
+  "kind": "event",
+  "name": "The summons of the Highlord",
+  "slug": "netherwing-liberation-highlord-summons",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "netherwing-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+  },
+  "summary": "After a reputation-gated interval, Varkule summons the exalted seeker; Mor’ghor names them the first Highlord of the Dragonmaw.",
+  "locationIds": [
+    "dragonmaw-base-camp-shadowmoon"
+  ],
+  "participantEntityIds": [
+    "overlord-morghor",
+    "dragonmaw-overseers"
+  ],
+  "sourceIds": [
+    "netherwing-faction-index",
+    "netherwing-bow-to-highlord"
+  ],
+  "claimIds": [
+    "netherwing-liberation-highlord-summons-claim"
+  ],
+  "contentStatus": "research"
+}

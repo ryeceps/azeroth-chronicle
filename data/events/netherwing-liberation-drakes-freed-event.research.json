@@ -1,0 +1,28 @@
+{
+  "id": "netherwing-liberation-drakes-freed-event",
+  "kind": "event",
+  "name": "The crystal’s force",
+  "slug": "netherwing-liberation-drakes-freed",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "netherwing-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+  },
+  "summary": "The enchanted crystal is used on enslaved Netherwing drakes; the freed drakes turn on their captors.",
+  "locationIds": [
+    "dragonmaw-fortress-shadowmoon"
+  ],
+  "participantEntityIds": [
+    "enslaved-netherwing-drakes",
+    "dragonmaw-overseers",
+    "enchanted-nethervine-crystal"
+  ],
+  "sourceIds": [
+    "netherwing-ally-chain"
+  ],
+  "claimIds": [
+    "netherwing-liberation-drakes-freed-claim"
+  ],
+  "contentStatus": "research"
+}

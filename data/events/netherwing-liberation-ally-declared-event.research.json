@@ -1,0 +1,26 @@
+{
+  "id": "netherwing-liberation-ally-declared-event",
+  "kind": "event",
+  "name": "An ally of the Netherwing",
+  "slug": "netherwing-liberation-ally-declared",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "netherwing-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+  },
+  "summary": "The chain returns to Mordenai, who recognizes the seeker as an ally of the Netherwing.",
+  "locationIds": [
+    "netherwing-fields-shadowmoon"
+  ],
+  "participantEntityIds": [
+    "mordenai"
+  ],
+  "sourceIds": [
+    "netherwing-ally-chain"
+  ],
+  "claimIds": [
+    "netherwing-liberation-ally-declared-claim"
+  ],
+  "contentStatus": "research"
+}

@@ -185,6 +185,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 ### 16. Netherwing: rescue, disguise, and liberation
 
+**Implementation:** 17-scene research StoryGuide with original TBC-inspired environments, contextual character and artifact figures, generated narration, and a new placard in the Classic-to-Wrath StoryTour. See the [research packet](netherwing-liberation-research.md), [production ledger](netherwing-liberation-production.md), and [visual-asset ledger](netherwing-liberation-visual-assets.json). Client-build, human lore, visual resemblance, and narration audition gates remain open.
+
 **ID:** `netherwing-liberation` · **B** · **Reach:** Shadowmoon Valley/Netherwing Ledge and Shattrath.
 
 **Story spine:** Mordenai's appeal → Neltharaku and Karynaku → gaining trust → infiltration of the Dragonmaw operation → exposure and escape. A sustained regional campaign with a clear captivity/liberation arc.
