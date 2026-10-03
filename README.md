@@ -54,6 +54,8 @@ pnpm build
 pnpm check
 ```
 
+Browser acceptance: run `pnpm test:e2e` (builds before starting). CI reuses its production build with `PLAYWRIGHT_SKIP_BUILD=1`, runs acceptance with two workers, then runs the renderer benchmark alone. Set `PLAYWRIGHT_PORT` when another checkout uses the default port 4173. Failure screenshots and retry traces are retained; continuous video is disabled to avoid encoding large scenes throughout passing tests. All scene, image, transcript, layout, audio, and visual-baseline assertions still run.
+
 ## Content rules
 
 1. Research notes do not go directly into publishable summaries.
