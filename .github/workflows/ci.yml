@@ -4,6 +4,12 @@ on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
+    inputs:
+      full_browser_suite:
+        description: Run all browser scenarios and the isolated renderer benchmark
+        type: boolean
+        default: false
 
 concurrency:
   group: ci-${{ github.event.pull_request.number || github.ref }}
@@ -35,7 +41,7 @@ jobs:
       - name: Install Chromium and system dependencies
         run: pnpm exec playwright install --with-deps chromium
       - name: Run browser acceptance tests
-        run: pnpm test:e2e
+        run: ${{ github.event_name == 'workflow_dispatch' && inputs.full_browser_suite && 'pnpm test:e2e' || 'pnpm test:e2e:smoke' }}
         env:
           PLAYWRIGHT_SKIP_BUILD: '1'
         timeout-minutes: 15

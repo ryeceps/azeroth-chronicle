@@ -54,7 +54,7 @@ pnpm build
 pnpm check
 ```
 
-Browser acceptance: run `pnpm test:e2e` (builds before starting). CI reuses its production build with `PLAYWRIGHT_SKIP_BUILD=1`, runs acceptance with two workers, then runs the renderer benchmark alone. Set `PLAYWRIGHT_PORT` when another checkout uses the default port 4173. Failure screenshots and retry traces are retained; continuous video is disabled to avoid encoding large scenes throughout passing tests. All scene, image, transcript, layout, audio, and visual-baseline assertions still run. Human review screenshots are generated locally; set `PLAYWRIGHT_VISUAL_REVIEW=1` to generate them in CI too.
+Browser acceptance: run `pnpm test:e2e:smoke` for eight representative scenarios. Normal CI runs this smoke suite. Run `pnpm test:e2e` for all browser scenarios and the renderer benchmark, or manually run the CI workflow with `full_browser_suite` enabled. Both commands build before starting locally. CI reuses its production build with `PLAYWRIGHT_SKIP_BUILD=1`, runs acceptance with two workers, then runs the renderer benchmark alone. Set `PLAYWRIGHT_PORT` when another checkout uses the default port 4173. Failure screenshots and retry traces are retained; continuous video is disabled to avoid encoding large scenes throughout passing tests. All scene, image, transcript, layout, audio, and visual-baseline assertions still run. Human review screenshots are generated locally; set `PLAYWRIGHT_VISUAL_REVIEW=1` to generate them in CI too.
 
 ## Content rules
 

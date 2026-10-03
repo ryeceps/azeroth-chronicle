@@ -48,7 +48,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 768, height: 1024
   });
 }
 
-test('audio carries the journey into the next era and keeps voice enabled', async ({ page }) => {
+test('audio carries the journey into the next era and keeps voice enabled', { tag: '@smoke' }, async ({ page }) => {
   await page.goto('/map?era=cosmic-origins&tour=full');
   for (let chapter = 0; chapter < 8; chapter += 1) {
     await page.getByRole('button', { name: 'Next', exact: true }).click();

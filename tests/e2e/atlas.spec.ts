@@ -8,7 +8,7 @@ test('legacy atlas links open the tour chooser instead of a free explorer', asyn
   await expect(page.getByRole('link', { name: 'Explore the atlas freely' })).toHaveCount(0);
 });
 
-test('a selected era opens a guided scene without atlas or dossier interaction', async ({ page }) => {
+test('a selected era opens a guided scene without atlas or dossier interaction', { tag: '@smoke' }, async ({ page }) => {
   await page.goto('/tours/eras/long-vigil-new-kingdoms');
   await page.getByRole('button', { name: 'Tour this era' }).click();
   await expect(page).toHaveURL(/era=long-vigil-new-kingdoms&tour=era/);
@@ -36,7 +36,7 @@ test('Era 5 moves from Hyjal to Strom and the later kingdoms on the corrected te
   await expect(page.locator('.map-caption')).toContainText('INTERPRETIVE LATE KINGDOM STATE');
 });
 
-test('a single-era tour finishes at the chooser without continuing into another era', async ({ page }) => {
+test('a single-era tour finishes at the chooser without continuing into another era', { tag: '@smoke' }, async ({ page }) => {
   test.setTimeout(90_000);
   await page.goto('/map?era=cosmic-origins&tour=era');
   for (let chapter = 0; chapter < 8; chapter += 1) await page.getByRole('button', { name: 'Next', exact: true }).click();

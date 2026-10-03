@@ -26,7 +26,7 @@ test.describe('responsive application shell', () => {
     await expectNoHorizontalOverflow(page);
   });
 
-  test('keeps guided playback controls in view on a phone', async ({ page }) => {
+  test('keeps guided playback controls in view on a phone', { tag: '@smoke' }, async ({ page }) => {
     await page.setViewportSize(phoneViewport);
     await page.goto('/map?era=third-war-frozen-throne&tour=full');
     const card = page.locator('.story-card');

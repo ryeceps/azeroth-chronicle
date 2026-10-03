@@ -34,7 +34,7 @@ async function expectIllustratedScene(page: Page, index: number, profile: 'deskt
   }
 }
 
-test('Scythe story placard opens from its Classic-to-Wrath map position', async ({ page }) => {
+test('Scythe story placard opens from its Classic-to-Wrath map position', { tag: '@smoke' }, async ({ page }) => {
   await page.goto('/tours/classic-to-wrath');
   const marker = page.getByRole('button', { name: /scythe of elune: the original mystery/i });
   await expect(marker).toBeVisible();

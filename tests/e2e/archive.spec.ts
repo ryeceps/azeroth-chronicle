@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test('the generated archive opens Aman’Thul as an illustrated, shareable record', async ({ page }) => {
+test('the generated archive opens Aman’Thul as an illustrated, shareable record', { tag: '@smoke' }, async ({ page }) => {
   await page.goto('/archive');
 
   await expect(page.getByRole('heading', { name: 'Explore the archive.' })).toBeVisible();
