@@ -45,6 +45,17 @@
       }
     },
     {
+      "id": "champion-of-the-naaru-outland-trials-theater",
+      "name": "Champion of the Naaru — relational story theater",
+      "slug": "champion-of-the-naaru-outland-trials-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "cipher-story-theater",
       "name": "The Cipher of Damnation · relational story theater",
       "slug": "cipher-story-theater",
@@ -619,6 +630,96 @@
         "therazane-domain-focus-research",
         "neptulon-domain-focus-research"
       ]
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-adal-names-the-danger-scene",
+      "name": "champion-of-the-naaru-outland-trials story: Shattrath, Terrace of Light",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Existing original environment illustration. Compare against the original TBC Terrace of Light in-client; the scene is relational, not an exact NPC coordinate. Recognizable original TBC area traits: Pale cream draenei arches and open terrace, with a luminous naaru crystal and the dusty, broken world beyond the city. The illustration is a scene backdrop, not source evidence, a surveyed location, dungeon plan, exact formation or proof that every staged figure was present simultaneously. See docs/research/champion-of-the-naaru-visual-assets.json."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-khadgars-missive-scene",
+      "name": "champion-of-the-naaru-outland-trials story: Shattrath, Lower City",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/cipher-of-damnation/shattrath-lower-city.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Existing original environment illustration. Compare against the original TBC Lower City in-client; no exact meeting position is asserted. Recognizable original TBC area traits: Pale draenei stone, stepped Outland city walls and the layered, inhabited silhouette of Lower City; warm dust beyond the pale masonry. The illustration is a scene backdrop, not source evidence, a surveyed location, dungeon plan, exact formation or proof that every staged figure was present simultaneously. See docs/research/champion-of-the-naaru-visual-assets.json."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-strength-in-shadow-labyrinth-scene",
+      "name": "champion-of-the-naaru-outland-trials story: Shadow Labyrinth, Auchindoun",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/karazhan/shadow-labyrinth.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Existing original environment illustration. It is not a surveyed dungeon plan; compare the named area against the matching TBC build. Recognizable original TBC area traits: Auchenai monumental stonework, dark violet-blue interior light and a deep, enclosed chamber distinct from the Coilfang works. The illustration is a scene backdrop, not source evidence, a surveyed location, dungeon plan, exact formation or proof that every staged figure was present simultaneously. See docs/research/champion-of-the-naaru-visual-assets.json."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-strength-in-the-steamvault-scene",
+      "name": "champion-of-the-naaru-outland-trials story: The Steamvault, Coilfang Reservoir",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/karazhan/steamvault.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Existing original environment illustration. It is not a surveyed dungeon plan; compare the named area against the matching TBC build. Recognizable original TBC area traits: Water-filled cavern works, enormous dark pipes, naga-built pumps, turquoise channels and wet industrial stone. The illustration is a scene backdrop, not source evidence, a surveyed location, dungeon plan, exact formation or proof that every staged figure was present simultaneously. See docs/research/champion-of-the-naaru-visual-assets.json."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-the-tempest-key-scene",
+      "name": "champion-of-the-naaru-outland-trials story: Shattrath, Terrace of Light",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Existing original environment illustration. Compare against the original TBC Terrace of Light in-client; the scene is relational, not an exact NPC coordinate. Recognizable original TBC area traits: Pale cream draenei arches and open terrace, with a luminous naaru crystal and the dusty, broken world beyond the city. The illustration is a scene backdrop, not source evidence, a surveyed location, dungeon plan, exact formation or proof that every staged figure was present simultaneously. See docs/research/champion-of-the-naaru-visual-assets.json."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-the-title-and-the-separate-gate-scene",
+      "name": "champion-of-the-naaru-outland-trials story: Shattrath, Terrace of Light",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Existing original environment illustration. Compare against the original TBC Terrace of Light in-client; the scene is relational, not an exact NPC coordinate. Recognizable original TBC area traits: Pale cream draenei arches and open terrace, with a luminous naaru crystal and the dusty, broken world beyond the city. The illustration is a scene backdrop, not source evidence, a surveyed location, dungeon plan, exact formation or proof that every staged figure was present simultaneously. See docs/research/champion-of-the-naaru-visual-assets.json."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-trial-of-magtheridon-scene",
+      "name": "champion-of-the-naaru-outland-trials story: Magtheridon’s lair, Hellfire Citadel",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/champion-of-the-naaru/magtheridons-lair.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI illustration, refined to include a small anonymous force as part of the environment. No dungeon layout, exact party, co-presence beyond the quest, or canonical staging is asserted. Compare the area against the matching TBC build. Recognizable original TBC area traits: A vast black-iron prison chamber under Hellfire Citadel, heavy chains and a deep central pit; furnace red and ash frame restrained fel-green light. Small, anonymous silhouettes communicate A’dal’s instruction to gather an army, without claiming a specific roster. The illustration is a scene backdrop, not source evidence, a surveyed location, dungeon plan, exact formation or proof that every staged figure was present simultaneously. See docs/research/champion-of-the-naaru-visual-assets.json."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-trial-of-mercy-scene",
+      "name": "champion-of-the-naaru-outland-trials story: Shattered Halls, Hellfire Citadel",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/karazhan/shattered-halls.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Existing original environment illustration. The route, gauntlet timer and dungeon layout are not asserted; compare the area against the matching TBC build. Recognizable original TBC area traits: Blackened iron gates, brutal rust-red fortress masonry, forge glow and a restrained fel-orc palette. The illustration is a scene backdrop, not source evidence, a surveyed location, dungeon plan, exact formation or proof that every staged figure was present simultaneously. See docs/research/champion-of-the-naaru-visual-assets.json."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-trial-of-tenacity-scene",
+      "name": "champion-of-the-naaru-outland-trials story: The Arcatraz, Tempest Keep",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/akama-black-temple/arcatraz.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Existing original environment illustration. It is not an exact ship plan or prison-cell location; compare against the matching TBC area and build. Recognizable original TBC area traits: A floating crystalline prison with sharp draenei geometry, ivory and red structures, and Netherstorm’s violet void and broken rocks. The illustration is a scene backdrop, not source evidence, a surveyed location, dungeon plan, exact formation or proof that every staged figure was present simultaneously. See docs/research/champion-of-the-naaru-visual-assets.json."
     },
     {
       "id": "cipher-of-damnation-oronok-altar-of-damnation-scene",
@@ -3772,6 +3873,194 @@
       "editorNote": "The figure symbolizes the wild powers joining the defense rather than an exact engagement location.",
       "labelPriority": 131,
       "visualPresence": "contextual"
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-adal-theater",
+      "entityId": "adal",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-adal-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883",
+        "champion-naaru-mercy-quest-10884",
+        "champion-naaru-strength-quest-10885",
+        "champion-naaru-tenacity-quest-10886",
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "editorNote": "Editorial A’dal placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 249
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-kalithresh-trident-theater",
+      "entityId": "kalithresh-trident",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-kalithresh-trident-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "editorNote": "Editorial Kalithresh’s Trident placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 241
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-kargath-bladefist-theater",
+      "entityId": "kargath-bladefist",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-kargath-bladefist-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "editorNote": "Editorial Kargath Bladefist placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 248
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-khadgar-theater",
+      "entityId": "khadgar",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-khadgar-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883"
+      ],
+      "editorNote": "Editorial Khadgar placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 250
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-magtheridon-theater",
+      "entityId": "magtheridon",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-magtheridon-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "editorNote": "Editorial Magtheridon placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 243
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-millhouse-manastorm-theater",
+      "entityId": "millhouse-manastorm",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-millhouse-manastorm-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-tenacity-quest-10886"
+      ],
+      "editorNote": "Editorial Millhouse Manastorm placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 244
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-murmur-theater",
+      "entityId": "murmur",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-murmur-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "editorNote": "Editorial Murmur placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 245
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-murmurs-essence-theater",
+      "entityId": "murmurs-essence",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-murmurs-essence-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "editorNote": "Editorial Murmur’s Essence placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-prisoners-of-the-shattered-halls-theater",
+      "entityId": "prisoners-of-the-shattered-halls",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-prisoners-of-the-shattered-halls-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "editorNote": "Editorial The prisoners in the Shattered Halls placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 247
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-tempest-key-theater",
+      "entityId": "tempest-key",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-tempest-key-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883",
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "editorNote": "Editorial The Tempest Key placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 239
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-unused-executioners-axe-theater",
+      "entityId": "unused-executioners-axe",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-unused-executioners-axe-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "editorNote": "Editorial Unused Axe of the Executioner placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 242
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-warlord-kalithresh-theater",
+      "entityId": "warlord-kalithresh",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "geometryId": "champion-of-the-naaru-outland-trials-warlord-kalithresh-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "editorNote": "Editorial Warlord Kalithresh placement in the champion-of-the-naaru-outland-trials illustrated theater. This focus is a stage anchor, not a geographic position, journey route, exact encounter layout or roster claim. Visual comparison for the original TBC 2.0.3–2.4.3 build remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 246
     },
     {
       "id": "cipher-of-damnation-oronok-artor-spirit-theater",
@@ -10737,20 +11026,27 @@
       "name": "A’dal",
       "slug": "adal",
       "shortDescription": "A’dal, represented in the Akama and Black Temple research story.",
-      "body": "Original abstract naaru illustration for Akama’s promise in Shattrath; the form is interpretive. This is original AI-generated artwork for the story theater, not licensed game art, canonical model evidence, an exact costume claim or proof of co-presence. See the research and visual asset ledgers.",
+      "body": "A’dal as a naaru in Shattrath. The story-stage portrait is an original abstract interpretation, not canonical model evidence. It is contextually staged and visible only during the relevant story beats.",
       "firstEraId": "age-of-adventurers",
       "featuredEraIds": [
         "age-of-adventurers"
       ],
       "sourceIds": [
-        "akama-promise-quest"
+        "akama-promise-quest",
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883",
+        "champion-naaru-mercy-quest-10884",
+        "champion-naaru-strength-quest-10885",
+        "champion-naaru-tenacity-quest-10886",
+        "champion-naaru-magtheridon-quest-10888"
       ],
       "tags": [
         "akama-story",
-        "interpretive-art"
+        "interpretive-art",
+        "champion-naaru-story"
       ],
       "contentStatus": "research",
-      "mapVisual": {
+      "mapFigure": {
         "asset": "images/storylines/akama-black-temple/adal.research.webp",
         "scale": 0.95
       }
@@ -15663,6 +15959,26 @@
       "contentStatus": "research"
     },
     {
+      "id": "hellfire-citadel",
+      "type": "location",
+      "name": "Hellfire Citadel",
+      "slug": "hellfire-citadel",
+      "shortDescription": "Hellfire Citadel, where A’dal places Magtheridon’s final trial.",
+      "body": "A named Burning Crusade location in the final Trial of the Naaru. Its Magtheridon lair illustration is an original interpretation, not a surveyed dungeon plan or exact chamber layout.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "tags": [
+        "champion-naaru-story",
+        "burning-crusade-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "hetaera",
       "type": "character",
       "name": "Hetaera",
@@ -16261,6 +16577,30 @@
       }
     },
     {
+      "id": "kalithresh-trident",
+      "type": "artifact",
+      "name": "Kalithresh’s Trident",
+      "slug": "kalithresh-trident",
+      "shortDescription": "Original interpretive object art for the trident named by A’dal; no exact item model or magical property is asserted.",
+      "body": "Original interpretive object art for the trident named by A’dal; no exact item model or magical property is asserted. This is original AI-generated art for the research story theater, not canonical game art, exact model evidence or proof of co-presence. See the production and visual asset ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "tags": [
+        "champion-naaru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/champion-of-the-naaru/kalithresh-trident.research.webp",
+        "scale": 0.62
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "kalynna-lathred",
       "type": "character",
       "name": "Kalynna Lathred",
@@ -16439,6 +16779,30 @@
       "contentStatus": "research"
     },
     {
+      "id": "kargath-bladefist",
+      "type": "character",
+      "name": "Kargath Bladefist",
+      "slug": "kargath-bladefist",
+      "shortDescription": "Orc leader of the Shattered Hand, illustrated with one curved blade integrated into a forearm. Armor and exact model details remain interpretive.",
+      "body": "Orc leader of the Shattered Hand, illustrated with one curved blade integrated into a forearm. Armor and exact model details remain interpretive. This is original AI-generated art for the research story theater, not canonical game art, exact model evidence or proof of co-presence. See the production and visual asset ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "tags": [
+        "champion-naaru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/champion-of-the-naaru/kargath-bladefist.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "katrana-prestor",
       "name": "Katrana Prestor",
       "slug": "katrana-prestor",
@@ -16606,11 +16970,14 @@
         "karazhan-key-quest-locators",
         "karazhan-entry-quest-text",
         "karazhan-fragment-quest-text",
-        "karazhan-masters-touch-quest-text"
+        "karazhan-masters-touch-quest-text",
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883"
       ],
       "tags": [
         "karazhan-story",
-        "interpretive-art"
+        "interpretive-art",
+        "champion-naaru-story"
       ],
       "mapFigure": {
         "asset": "images/storylines/karazhan/khadgar.research.webp",
@@ -17179,17 +17546,19 @@
       "name": "Magtheridon",
       "slug": "magtheridon",
       "shortDescription": "Magtheridon, represented in the Akama and Black Temple research story.",
-      "body": "Original interpretation of the pit lord displaced at the Black Temple in the preceding campaign. This is original AI-generated artwork for the story theater, not licensed game art, canonical model evidence, an exact costume claim or proof of co-presence. See the research and visual asset ledgers.",
+      "body": "Original interpretation of the pit lord displaced at the Black Temple in the preceding campaign. This is original AI-generated artwork for the story theater, not licensed game art, canonical model evidence, an exact costume claim or proof of co-presence. See the research and visual asset ledgers. The Champion of the Naaru story reuses this interpretive figure only for A’dal’s later quest target; it does not retell Magtheridon’s earlier defeat by Illidan.",
       "firstEraId": "age-of-adventurers",
       "featuredEraIds": [
         "age-of-adventurers"
       ],
       "sourceIds": [
-        "akama-bcc-story-so-far"
+        "akama-bcc-story-so-far",
+        "champion-naaru-magtheridon-quest-10888"
       ],
       "tags": [
         "akama-story",
-        "interpretive-art"
+        "interpretive-art",
+        "champion-naaru-story"
       ],
       "contentStatus": "research",
       "mapFigure": {
@@ -17579,6 +17948,30 @@
       "contentStatus": "research"
     },
     {
+      "id": "millhouse-manastorm",
+      "type": "character",
+      "name": "Millhouse Manastorm",
+      "slug": "millhouse-manastorm",
+      "shortDescription": "The rescued gnome mage; robe and facial details are an original interpretation, not canonical model art.",
+      "body": "The rescued gnome mage; robe and facial details are an original interpretation, not canonical model art. This is original AI-generated art for the research story theater, not canonical game art, exact model evidence or proof of co-presence. See the production and visual asset ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "champion-naaru-tenacity-quest-10886"
+      ],
+      "tags": [
+        "champion-naaru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/champion-of-the-naaru/millhouse-manastorm.research.webp",
+        "scale": 0.76
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "missing-diplomat-original-investigation-addle-stead",
       "type": "location",
       "name": "Addle’s Stead, Duskwood",
@@ -17935,6 +18328,54 @@
         "survivors",
         "refuge"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "murmur",
+      "type": "character",
+      "name": "Murmur",
+      "slug": "murmur",
+      "shortDescription": "An original abstract interpretation of the extra-planar being named in A’dal’s quest. Its form is not treated as canonical model evidence.",
+      "body": "An original abstract interpretation of the extra-planar being named in A’dal’s quest. Its form is not treated as canonical model evidence. This is original AI-generated art for the research story theater, not canonical game art, exact model evidence or proof of co-presence. See the production and visual asset ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "tags": [
+        "champion-naaru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/champion-of-the-naaru/murmur.research.webp",
+        "scale": 0.96
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "murmurs-essence",
+      "type": "artifact",
+      "name": "Murmur’s Essence",
+      "slug": "murmurs-essence",
+      "shortDescription": "A small interpretive violet-blue crystalline sphere for the quest objective; its shape does not claim a canonical item model.",
+      "body": "A small interpretive violet-blue crystalline sphere for the quest objective; its shape does not claim a canonical item model. This is original AI-generated art for the research story theater, not canonical game art, exact model evidence or proof of co-presence. See the production and visual asset ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "tags": [
+        "champion-naaru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/champion-of-the-naaru/murmurs-essence.research.webp",
+        "scale": 0.58
+      },
       "contentStatus": "research"
     },
     {
@@ -18712,6 +19153,30 @@
         "inferred-geography",
         "primordial"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "prisoners-of-the-shattered-halls",
+      "type": "other",
+      "name": "The prisoners in the Shattered Halls",
+      "slug": "prisoners-of-the-shattered-halls",
+      "shortDescription": "An illustrative group of three captives. Their race, faction and identity are intentionally unspecified because the quest text does not name them.",
+      "body": "An illustrative group of three captives. Their race, faction and identity are intentionally unspecified because the quest text does not name them. This is original AI-generated art for the research story theater, not canonical game art, exact model evidence or proof of co-presence. See the production and visual asset ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "tags": [
+        "champion-naaru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/champion-of-the-naaru/prisoners-of-the-shattered-halls.research.webp",
+        "scale": 0.84
+      },
       "contentStatus": "research"
     },
     {
@@ -20924,6 +21389,32 @@
       "contentStatus": "research"
     },
     {
+      "id": "tempest-key",
+      "type": "artifact",
+      "name": "The Tempest Key",
+      "slug": "tempest-key",
+      "shortDescription": "Original interpretive key-shaped illustration. The quest awards a key; its exact shape is not treated as canonical item art.",
+      "body": "Original interpretive key-shaped illustration. The quest awards a key; its exact shape is not treated as canonical item art. This is original AI-generated art for the research story theater, not canonical game art, exact model evidence or proof of co-presence. See the production and visual asset ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883",
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "tags": [
+        "champion-naaru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/champion-of-the-naaru/tempest-key.research.webp",
+        "scale": 0.62
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "temple-of-arkkoran",
       "type": "location",
       "name": "The Temple of Arkkoran",
@@ -21548,6 +22039,30 @@
       "contentStatus": "research"
     },
     {
+      "id": "unused-executioners-axe",
+      "type": "artifact",
+      "name": "Unused Axe of the Executioner",
+      "slug": "unused-executioners-axe",
+      "shortDescription": "Original interpretive rendering of the quest proof item. It is shown clean; its exact item model is not asserted.",
+      "body": "Original interpretive rendering of the quest proof item. It is shown clean; its exact item model is not asserted. This is original AI-generated art for the research story theater, not canonical game art, exact model evidence or proof of co-presence. See the production and visual asset ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "tags": [
+        "champion-naaru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/champion-of-the-naaru/unused-executioners-axe.research.webp",
+        "scale": 0.64
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "uther-lightbringer",
       "type": "character",
       "name": "Uther Lightbringer",
@@ -21981,6 +22496,30 @@
         "akama-story",
         "story-setting"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "warlord-kalithresh",
+      "type": "character",
+      "name": "Warlord Kalithresh",
+      "slug": "warlord-kalithresh",
+      "shortDescription": "Naga warlord in an original interpretive figure; exact armor and model details await client comparison.",
+      "body": "Naga warlord in an original interpretive figure; exact armor and model details await client comparison. This is original AI-generated art for the research story theater, not canonical game art, exact model evidence or proof of co-presence. See the production and visual asset ledgers.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "tags": [
+        "champion-naaru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/champion-of-the-naaru/warlord-kalithresh.research.webp",
+        "scale": 0.94
+      },
       "contentStatus": "research"
     },
     {
@@ -23985,6 +24524,254 @@
       ],
       "claimIds": [
         "legion-defeat-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-adal-names-the-danger-event",
+      "kind": "event",
+      "name": "The danger named by A’dal",
+      "slug": "champion-of-the-naaru-outland-trials-story-adal-names-the-danger-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original Burning Crusade attunement quest era; exact date unknown"
+      },
+      "summary": "Tempest Keep was made by the naaru, and A’dal says they had once judged a return unnecessary. Now Kael’thas must be stopped before he can use the Cipher of Damnation. A’dal asks adventurers to prove themselves in four trials before entering the vessel. The quests describe readiness for a dangerous undertaking; this story does not turn the achievement title into an office bestowed by the naaru.",
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "participantEntityIds": [
+        "adal"
+      ],
+      "sourceIds": [
+        "champion-naaru-tempest-key-quest-10883",
+        "champion-naaru-blizzard-attunement-overview"
+      ],
+      "claimIds": [
+        "champion-of-the-naaru-outland-trials-story-adal-names-the-danger-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-khadgars-missive-event",
+      "kind": "event",
+      "name": "A letter after the Cipher",
+      "slug": "champion-of-the-naaru-outland-trials-story-khadgars-missive-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original Burning Crusade attunement quest era; exact date unknown"
+      },
+      "summary": "At Shadowmoon’s end, the Cipher’s final answer names the danger A’dal now sees in Kael’thas. A letter from Khadgar calls the seeker to Shattrath. This passage begins where Oronok’s story ends; it does not fold his long work into a second mission. The road now turns toward Tempest Keep, and the naaru who once had no need to reopen their vessel ask for help against a threat within it.",
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "participantEntityIds": [
+        "khadgar",
+        "adal"
+      ],
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883"
+      ],
+      "claimIds": [
+        "champion-of-the-naaru-outland-trials-story-khadgars-missive-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-event",
+      "kind": "event",
+      "name": "Strength, divided: Murmur",
+      "slug": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original Burning Crusade attunement quest era; exact date unknown"
+      },
+      "summary": "A’dal’s second named task lies in Auchindoun’s Shadow Labyrinth. Murmur is described as an extra-planar being; the adventurer is sent to defeat it and return its essence. This scene follows the Steamvault because the quest text names those two halves in that order, not because the source establishes a fixed historical sequence between separate runs. The essence serves as proof of the assigned trial; the quest gives it no further use.",
+      "locationIds": [
+        "shadow-labyrinth"
+      ],
+      "participantEntityIds": [
+        "murmur",
+        "murmurs-essence"
+      ],
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "claimIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault-event",
+      "kind": "event",
+      "name": "Strength, divided: the Steamvault",
+      "slug": "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original Burning Crusade attunement quest era; exact date unknown"
+      },
+      "summary": "Strength is the trial A’dal explicitly divides. In the Steamvault, its first named feat is to defeat Warlord Kalithresh and bring back his trident. The flooded Coilfang works become one half of a single test. The trident is the proof the quest asks for; its description adds no new campaign against Coilfang and no further use for the weapon. The trial’s moral meaning beyond its name is not supplied, so the telling does not invent one.",
+      "locationIds": [
+        "steamvault"
+      ],
+      "participantEntityIds": [
+        "warlord-kalithresh",
+        "kalithresh-trident"
+      ],
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "claimIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-tempest-key-event",
+      "kind": "event",
+      "name": "The way into Tempest Keep",
+      "slug": "champion-of-the-naaru-outland-trials-story-the-tempest-key-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original Burning Crusade attunement quest era; exact date unknown"
+      },
+      "summary": "With the final trial returned to A’dal, the Tempest Key is granted. Blizzard’s attunement overview identifies it as the means of entry to the Eye, the central wing of Tempest Keep in Netherstorm. The key is an access threshold, not the battle with Kael’thas. This telling ends at the gate the trials were meant to open; the fight within belongs to another story.",
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "participantEntityIds": [
+        "adal",
+        "tempest-key"
+      ],
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-magtheridon-quest-10888",
+        "champion-naaru-tempest-key-quest-10883"
+      ],
+      "claimIds": [
+        "champion-of-the-naaru-outland-trials-story-the-tempest-key-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate-event",
+      "kind": "event",
+      "name": "A title beyond one key",
+      "slug": "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original Burning Crusade attunement quest era; exact date unknown"
+      },
+      "summary": "Champion of the Naaru is a title with a version history, not a rank granted by this chain alone. Blizzard’s attunement guide ties it to access to both the Eye and Serpentshrine Cavern; the Cudgel of Kar’desh belongs to that separate path. A later Classic ruleset removed raid-entry attunements, so its door rules cannot be read back into the original quest. The story closes with the Tempest Key, before the second gate and before either raid’s final reckoning.",
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "participantEntityIds": [
+        "adal",
+        "tempest-key"
+      ],
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tbc-classic-attunement-hotfix",
+        "champion-naaru-tempest-key-quest-10883"
+      ],
+      "claimIds": [
+        "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon-event",
+      "kind": "event",
+      "name": "Only Magtheridon remains",
+      "slug": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original Burning Crusade attunement quest era; exact date unknown"
+      },
+      "summary": "Only Magtheridon remains. A’dal calls for an army and sends it deep beneath Hellfire Citadel, to the pit lord’s lair. The final task is to fight through the chamber and destroy the corrupter. The quest marks a change of scale from dungeon trials to a raid and says the naaru approve when the foe is defeated. It does not claim that Kael’thas has already been reached or that the battle inside Tempest Keep has been won.",
+      "locationIds": [
+        "hellfire-citadel"
+      ],
+      "participantEntityIds": [
+        "magtheridon"
+      ],
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "claimIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-mercy-event",
+      "kind": "event",
+      "name": "Mercy in the Shattered Halls",
+      "slug": "champion-of-the-naaru-outland-trials-story-trial-of-mercy-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original Burning Crusade attunement quest era; exact date unknown"
+      },
+      "summary": "A’dal places the word Mercy beside a threatened life. In the Shattered Halls, Kargath holds three prisoners and intends to execute them. A’dal calls them the seeker’s people but does not name their allegiance. The task asks that they be saved; its named proof is an unused executioner’s axe with no blood on the blade. The quest records the trial passed when the axe is returned, but gives no named count of survivors. We leave that uncertainty where the record leaves it.",
+      "locationIds": [
+        "shattered-halls"
+      ],
+      "participantEntityIds": [
+        "kargath-bladefist",
+        "prisoners-of-the-shattered-halls",
+        "unused-executioners-axe"
+      ],
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "claimIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-mercy-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-tenacity-event",
+      "kind": "event",
+      "name": "Tenacity in the Arcatraz",
+      "slug": "champion-of-the-naaru-outland-trials-story-trial-of-tenacity-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+      "date": {
+        "precision": "relative",
+        "label": "Original Burning Crusade attunement quest era; exact date unknown"
+      },
+      "summary": "At the Arcatraz, A’dal’s account turns the trial toward persistence. The naaru have imprisoned dangerous beings aboard Tempest Keep, but A’dal distinguishes Millhouse: a gnome stowaway caught on the wrong vessel at the wrong moment. The adventurer must rescue him and ensure he survives. That account of how Millhouse came to be imprisoned belongs to A’dal’s quest text; the story does not turn it into an independent capture report.",
+      "locationIds": [
+        "arcatraz"
+      ],
+      "participantEntityIds": [
+        "millhouse-manastorm"
+      ],
+      "sourceIds": [
+        "champion-naaru-tenacity-quest-10886"
+      ],
+      "claimIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-tenacity-claim"
       ],
       "contentStatus": "research"
     },
@@ -37353,6 +38140,55 @@
       "notes": "First-party Blizzard overview: https://worldofwarcraft.blizzard.com/en-us/news/23850850. Supports Icecrown as the Lich King's seat and the broad campaign toward a final confrontation."
     },
     {
+      "id": "champion-naaru-blizzard-attunement-overview",
+      "title": "Get Attuned and Face the Overlords of Outland",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/23716331/get-attuned-and-face-the-overlords-of-outland",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-02. First-party Blizzard overview for the Cipher handoff to Khadgar and A’dal, all four trial destinations, The Tempest Key and Eye access, and the separate Serpentshrine Cavern condition described for the Champion of the Naaru title. Retrospective Burning Crusade Classic guide, not an original 2007 client capture or a guarantee that every historical patch used the same title rules."
+    },
+    {
+      "id": "champion-naaru-magtheridon-quest-10888",
+      "title": "Trial of the Naaru: Magtheridon (quest 10888)",
+      "url": "https://www.wowhead.com/quest=10888/trial-of-the-naaru-magtheridon",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest ID 10888, including A’dal’s final trial description and completion text. Later replacement quest ID 13430 and later eligibility outcomes are excluded from the story."
+    },
+    {
+      "id": "champion-naaru-mercy-quest-10884",
+      "title": "Trial of the Naaru: Mercy (quest 10884)",
+      "url": "https://www.wowhead.com/tbc/quest=10884/trial-of-the-naaru-mercy",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest description and completion text. It names three prisoners held by Kargath, the requested rescue, the unused executioner’s axe and the passed-trial result. It does not supply a named survivor roll; player comments are not used as event evidence."
+    },
+    {
+      "id": "champion-naaru-strength-quest-10885",
+      "title": "Trial of the Naaru: Strength (quest 10885)",
+      "url": "https://www.wowhead.com/tbc/quest=10885/trial-of-the-naaru-strength",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest description and completion text. It explicitly divides Strength into Kalithresh’s trident in the Steamvault and Murmur’s essence in the Shadow Labyrinth. The story preserves them as halves of one trial."
+    },
+    {
+      "id": "champion-naaru-tbc-classic-attunement-hotfix",
+      "title": "Hotfixes: February 15, 2022",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/23739169/hotfixes-february-15-2022",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-02. First-party Blizzard hotfix entry used only to distinguish the later Burning Crusade Classic raid-entry state from original quest-era attunement. Not used to revise original TBC story events or prove patch-independent Champion of the Naaru title eligibility."
+    },
+    {
+      "id": "champion-naaru-tempest-key-quest-10883",
+      "title": "The Tempest Key (quest 10883)",
+      "url": "https://www.wowhead.com/tbc/quest=10883/the-tempest-key",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest description and completion text. It preserves A’dal’s stated reason Kael’thas must be stopped, the naaru origin of Tempest Keep, and the purpose of the trials. Compare exact wording and client state against the original TBC build before lore promotion."
+    },
+    {
+      "id": "champion-naaru-tenacity-quest-10886",
+      "title": "Trial of the Naaru: Tenacity (quest 10886)",
+      "url": "https://www.wowhead.com/tbc/quest=10886/trial-of-the-naaru-tenacity",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest description and completion text. It names Millhouse Manastorm as a stowaway caught by circumstance, requests his rescue from the Arcatraz, and requires that he survive. The capture explanation remains attributed to A’dal."
+    },
+    {
       "id": "cipher-air-spirits-quest",
       "title": "Enraged Spirits of Air",
       "url": "https://www.wowhead.com/tbc/quest=10481/enraged-spirits-of-air",
@@ -39174,6 +40010,97 @@
       "sourceId": "blizzard-wrath-icecrown-guide",
       "section": "Icecrown",
       "note": "Broad support for the Lich King's command from Icecrown Citadel and the champions' final confrontation."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-adal-names-the-danger-citation-1",
+      "sourceId": "champion-naaru-tempest-key-quest-10883",
+      "questId": "The Tempest Key",
+      "section": "Secondary transcription of original Burning Crusade quest description, objective and completion text; exact build comparison remains open.",
+      "note": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest description and completion text. It preserves A’dal’s stated reason Kael’thas must be stopped, the naaru origin of Tempest Keep, and the purpose of the trials. Compare exact wording and client state against the original TBC build before lore promotion."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-khadgars-missive-citation-1",
+      "sourceId": "champion-naaru-blizzard-attunement-overview",
+      "questId": "The Cipher of Damnation; The Tempest Key",
+      "section": "TBC Classic attunement overview; only the listed quest sequence, destinations, raid access or title condition relevant to this paraphrase.",
+      "note": "Accessed 2026-10-02. First-party Blizzard overview for the Cipher handoff to Khadgar and A’dal, all four trial destinations, The Tempest Key and Eye access, and the separate Serpentshrine Cavern condition described for the Champion of the Naaru title. Retrospective Burning Crusade Classic guide, not an original 2007 client capture or a guarantee that every historical patch used the same title rules."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-khadgars-missive-citation-2",
+      "sourceId": "champion-naaru-tempest-key-quest-10883",
+      "questId": "The Cipher of Damnation; The Tempest Key",
+      "section": "Secondary transcription of original Burning Crusade quest description, objective and completion text; exact build comparison remains open.",
+      "note": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest description and completion text. It preserves A’dal’s stated reason Kael’thas must be stopped, the naaru origin of Tempest Keep, and the purpose of the trials. Compare exact wording and client state against the original TBC build before lore promotion."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-citation-1",
+      "sourceId": "champion-naaru-strength-quest-10885",
+      "questId": "Trial of the Naaru: Strength",
+      "section": "Secondary transcription of original Burning Crusade quest description, objective and completion text; exact build comparison remains open.",
+      "note": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest description and completion text. It explicitly divides Strength into Kalithresh’s trident in the Steamvault and Murmur’s essence in the Shadow Labyrinth. The story preserves them as halves of one trial."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault-citation-1",
+      "sourceId": "champion-naaru-strength-quest-10885",
+      "questId": "Trial of the Naaru: Strength",
+      "section": "Secondary transcription of original Burning Crusade quest description, objective and completion text; exact build comparison remains open.",
+      "note": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest description and completion text. It explicitly divides Strength into Kalithresh’s trident in the Steamvault and Murmur’s essence in the Shadow Labyrinth. The story preserves them as halves of one trial."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-tempest-key-citation-1",
+      "sourceId": "champion-naaru-blizzard-attunement-overview",
+      "questId": "Trial of the Naaru: Magtheridon",
+      "section": "TBC Classic attunement overview; only the listed quest sequence, destinations, raid access or title condition relevant to this paraphrase.",
+      "note": "Accessed 2026-10-02. First-party Blizzard overview for the Cipher handoff to Khadgar and A’dal, all four trial destinations, The Tempest Key and Eye access, and the separate Serpentshrine Cavern condition described for the Champion of the Naaru title. Retrospective Burning Crusade Classic guide, not an original 2007 client capture or a guarantee that every historical patch used the same title rules."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-tempest-key-citation-2",
+      "sourceId": "champion-naaru-magtheridon-quest-10888",
+      "questId": "Trial of the Naaru: Magtheridon",
+      "section": "Secondary transcription of original Burning Crusade quest description, objective and completion text; exact build comparison remains open.",
+      "note": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest ID 10888, including A’dal’s final trial description and completion text. Later replacement quest ID 13430 and later eligibility outcomes are excluded from the story."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate-citation-1",
+      "sourceId": "champion-naaru-blizzard-attunement-overview",
+      "questId": "The Cudgel of Kar’desh; Trial of the Naaru: Magtheridon",
+      "section": "TBC Classic attunement overview; only the listed quest sequence, destinations, raid access or title condition relevant to this paraphrase.",
+      "note": "Accessed 2026-10-02. First-party Blizzard overview for the Cipher handoff to Khadgar and A’dal, all four trial destinations, The Tempest Key and Eye access, and the separate Serpentshrine Cavern condition described for the Champion of the Naaru title. Retrospective Burning Crusade Classic guide, not an original 2007 client capture or a guarantee that every historical patch used the same title rules."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate-citation-2",
+      "sourceId": "champion-naaru-tbc-classic-attunement-hotfix",
+      "questId": "The Cudgel of Kar’desh; Trial of the Naaru: Magtheridon",
+      "section": "February 15, 2022 hotfix entry; later Classic access state only.",
+      "note": "Accessed 2026-10-02. First-party Blizzard hotfix entry used only to distinguish the later Burning Crusade Classic raid-entry state from original quest-era attunement. Not used to revise original TBC story events or prove patch-independent Champion of the Naaru title eligibility."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon-citation-1",
+      "sourceId": "champion-naaru-blizzard-attunement-overview",
+      "questId": "Trial of the Naaru: Magtheridon",
+      "section": "TBC Classic attunement overview; only the listed quest sequence, destinations, raid access or title condition relevant to this paraphrase.",
+      "note": "Accessed 2026-10-02. First-party Blizzard overview for the Cipher handoff to Khadgar and A’dal, all four trial destinations, The Tempest Key and Eye access, and the separate Serpentshrine Cavern condition described for the Champion of the Naaru title. Retrospective Burning Crusade Classic guide, not an original 2007 client capture or a guarantee that every historical patch used the same title rules."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon-citation-2",
+      "sourceId": "champion-naaru-magtheridon-quest-10888",
+      "questId": "Trial of the Naaru: Magtheridon",
+      "section": "Secondary transcription of original Burning Crusade quest description, objective and completion text; exact build comparison remains open.",
+      "note": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest ID 10888, including A’dal’s final trial description and completion text. Later replacement quest ID 13430 and later eligibility outcomes are excluded from the story."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-mercy-citation-1",
+      "sourceId": "champion-naaru-mercy-quest-10884",
+      "questId": "Trial of the Naaru: Mercy",
+      "section": "Secondary transcription of original Burning Crusade quest description, objective and completion text; exact build comparison remains open.",
+      "note": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest description and completion text. It names three prisoners held by Kargath, the requested rescue, the unused executioner’s axe and the passed-trial result. It does not supply a named survivor roll; player comments are not used as event evidence."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-tenacity-citation-1",
+      "sourceId": "champion-naaru-tenacity-quest-10886",
+      "questId": "Trial of the Naaru: Tenacity",
+      "section": "Secondary transcription of original Burning Crusade quest description, objective and completion text; exact build comparison remains open.",
+      "note": "Accessed 2026-10-02. Secondary transcription of the original Burning Crusade quest description and completion text. It names Millhouse Manastorm as a stowaway caught by circumstance, requests his rescue from the Arcatraz, and requires that he survive. The capture explanation remains attributed to A’dal."
     },
     {
       "id": "chronicle-v1-arathor-troll-wars",
@@ -42631,6 +43558,118 @@
       "confidence": "explicit",
       "status": "active",
       "editorNote": "The displayed point is approximate because the source provides a relative description rather than coordinates."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-adal-names-the-danger-claim",
+      "subjectId": "champion-of-the-naaru-outland-trials-story-adal-names-the-danger-event",
+      "predicate": "questline_scene_account",
+      "value": "Tempest Keep was made by the naaru, and A’dal says they had once judged a return unnecessary. Now Kael’thas must be stopped before he can use the Cipher of Damnation. A’dal asks adventurers to prove themselves in four trials before entering the vessel. The quests describe readiness for a dangerous undertaking; this story does not turn the achievement title into an office bestowed by the naaru.",
+      "citationIds": [
+        "champion-of-the-naaru-outland-trials-story-adal-names-the-danger-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Quest dialogue is transcribed from a secondary mirror of primary in-game text. No source dialogue is copied into public narration; compare to the original TBC client before review."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-khadgars-missive-claim",
+      "subjectId": "champion-of-the-naaru-outland-trials-story-khadgars-missive-event",
+      "predicate": "questline_scene_account",
+      "value": "At Shadowmoon’s end, the Cipher’s final answer names the danger A’dal now sees in Kael’thas. A letter from Khadgar calls the seeker to Shattrath. This passage begins where Oronok’s story ends; it does not fold his long work into a second mission. The road now turns toward Tempest Keep, and the naaru who once had no need to reopen their vessel ask for help against a threat within it.",
+      "citationIds": [
+        "champion-of-the-naaru-outland-trials-story-khadgars-missive-citation-1",
+        "champion-of-the-naaru-outland-trials-story-khadgars-missive-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Quest dialogue is transcribed from a secondary mirror of primary in-game text. No source dialogue is copied into public narration; compare to the original TBC client before review."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-claim",
+      "subjectId": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-event",
+      "predicate": "questline_scene_account",
+      "value": "A’dal’s second named task lies in Auchindoun’s Shadow Labyrinth. Murmur is described as an extra-planar being; the adventurer is sent to defeat it and return its essence. This scene follows the Steamvault because the quest text names those two halves in that order, not because the source establishes a fixed historical sequence between separate runs. The essence serves as proof of the assigned trial; the quest gives it no further use.",
+      "citationIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Quest dialogue is transcribed from a secondary mirror of primary in-game text. No source dialogue is copied into public narration; compare to the original TBC client before review."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault-claim",
+      "subjectId": "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault-event",
+      "predicate": "questline_scene_account",
+      "value": "Strength is the trial A’dal explicitly divides. In the Steamvault, its first named feat is to defeat Warlord Kalithresh and bring back his trident. The flooded Coilfang works become one half of a single test. The trident is the proof the quest asks for; its description adds no new campaign against Coilfang and no further use for the weapon. The trial’s moral meaning beyond its name is not supplied, so the telling does not invent one.",
+      "citationIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Quest dialogue is transcribed from a secondary mirror of primary in-game text. No source dialogue is copied into public narration; compare to the original TBC client before review."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-tempest-key-claim",
+      "subjectId": "champion-of-the-naaru-outland-trials-story-the-tempest-key-event",
+      "predicate": "questline_scene_account",
+      "value": "With the final trial returned to A’dal, the Tempest Key is granted. Blizzard’s attunement overview identifies it as the means of entry to the Eye, the central wing of Tempest Keep in Netherstorm. The key is an access threshold, not the battle with Kael’thas. This telling ends at the gate the trials were meant to open; the fight within belongs to another story.",
+      "citationIds": [
+        "champion-of-the-naaru-outland-trials-story-the-tempest-key-citation-1",
+        "champion-of-the-naaru-outland-trials-story-the-tempest-key-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Quest dialogue is transcribed from a secondary mirror of primary in-game text. No source dialogue is copied into public narration; compare to the original TBC client before review."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate-claim",
+      "subjectId": "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate-event",
+      "predicate": "questline_scene_account",
+      "value": "Champion of the Naaru is a title with a version history, not a rank granted by this chain alone. Blizzard’s attunement guide ties it to access to both the Eye and Serpentshrine Cavern; the Cudgel of Kar’desh belongs to that separate path. A later Classic ruleset removed raid-entry attunements, so its door rules cannot be read back into the original quest. The story closes with the Tempest Key, before the second gate and before either raid’s final reckoning.",
+      "citationIds": [
+        "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate-citation-1",
+        "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Quest dialogue is transcribed from a secondary mirror of primary in-game text. No source dialogue is copied into public narration; compare to the original TBC client before review."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon-claim",
+      "subjectId": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon-event",
+      "predicate": "questline_scene_account",
+      "value": "Only Magtheridon remains. A’dal calls for an army and sends it deep beneath Hellfire Citadel, to the pit lord’s lair. The final task is to fight through the chamber and destroy the corrupter. The quest marks a change of scale from dungeon trials to a raid and says the naaru approve when the foe is defeated. It does not claim that Kael’thas has already been reached or that the battle inside Tempest Keep has been won.",
+      "citationIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon-citation-1",
+        "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Quest dialogue is transcribed from a secondary mirror of primary in-game text. No source dialogue is copied into public narration; compare to the original TBC client before review."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-mercy-claim",
+      "subjectId": "champion-of-the-naaru-outland-trials-story-trial-of-mercy-event",
+      "predicate": "questline_scene_account",
+      "value": "A’dal places the word Mercy beside a threatened life. In the Shattered Halls, Kargath holds three prisoners and intends to execute them. A’dal calls them the seeker’s people but does not name their allegiance. The task asks that they be saved; its named proof is an unused executioner’s axe with no blood on the blade. The quest records the trial passed when the axe is returned, but gives no named count of survivors. We leave that uncertainty where the record leaves it.",
+      "citationIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-mercy-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Quest dialogue is transcribed from a secondary mirror of primary in-game text. No source dialogue is copied into public narration; compare to the original TBC client before review."
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-tenacity-claim",
+      "subjectId": "champion-of-the-naaru-outland-trials-story-trial-of-tenacity-event",
+      "predicate": "questline_scene_account",
+      "value": "At the Arcatraz, A’dal’s account turns the trial toward persistence. The naaru have imprisoned dangerous beings aboard Tempest Keep, but A’dal distinguishes Millhouse: a gnome stowaway caught on the wrong vessel at the wrong moment. The adventurer must rescue him and ensure he survives. That account of how Millhouse came to be imprisoned belongs to A’dal’s quest text; the story does not turn it into an independent capture report.",
+      "citationIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-tenacity-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Original paraphrase for research status. Quest dialogue is transcribed from a secondary mirror of primary in-game text. No source dialogue is copied into public narration; compare to the original TBC client before review."
     },
     {
       "id": "cipher-of-damnation-oronok-air-at-netherwing-fields-claim",
@@ -49739,6 +50778,50 @@
       "contentStatus": "research"
     },
     {
+      "id": "champion-of-the-naaru-outland-trials",
+      "slug": "champion-of-the-naaru-outland-trials",
+      "title": "Champion of the Naaru: Trials across Outland",
+      "summary": "After the Cipher of Damnation, A’dal sets four trials before the way to Tempest Keep can open. The story separates dungeon tests, Magtheridon’s raid, and the patch-sensitive title condition.",
+      "opening": "A letter from Khadgar carries the Shadowmoon finding to Shattrath. A’dal names the danger, then measures the road to Tempest Keep through four trials whose purpose is readiness for the fight ahead.",
+      "primaryEraId": "age-of-adventurers",
+      "eraIds": [
+        "age-of-adventurers"
+      ],
+      "chapters": [
+        {
+          "id": "the-warning-at-shattrath",
+          "eraId": "age-of-adventurers",
+          "title": "The warning at Shattrath",
+          "body": "Khadgar’s letter after the Cipher and A’dal’s stated reason to reopen Tempest Keep. Scenes 1–2."
+        },
+        {
+          "id": "four-trials-across-outland",
+          "eraId": "age-of-adventurers",
+          "title": "Four trials across Outland",
+          "body": "Mercy, the two halves of Strength, Tenacity, and Magtheridon. The first three are parallel requirements; this presentation order is editorial. Scenes 3–7."
+        },
+        {
+          "id": "key-and-title-boundary",
+          "eraId": "age-of-adventurers",
+          "title": "The key and its boundary",
+          "body": "The Tempest Key opens the Eye in the original attunement story; Serpentshrine Cavern and the Champion title condition remain separate and patch-sensitive. Scenes 8–9."
+        }
+      ],
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883",
+        "champion-naaru-mercy-quest-10884",
+        "champion-naaru-strength-quest-10885",
+        "champion-naaru-tenacity-quest-10886",
+        "champion-naaru-magtheridon-quest-10888",
+        "champion-naaru-tbc-classic-attunement-hotfix"
+      ],
+      "storyGuideId": "champion-of-the-naaru-outland-trials-guide",
+      "showInEraTourOffshoots": false,
+      "reviewNote": "Complete nine-scene illustrated research story with original paraphrase, transcript-matched AI narration, source/claim/citation records per node, TBC-matched reused dungeon art, new named-figure/object art, and a dedicated Magtheridon environment. The story begins after Oronok’s Cipher of Damnation and does not retell his chain. Mercy, Strength and Tenacity are parallel requirements; Strength is one trial with two named targets. The title condition is kept separate from The Tempest Key and is patch-sensitive. Original-client quest/build capture, area/model resemblance review, human lore approval, exact title eligibility by original patch and narration audition remain open. No record is reviewed or published.",
+      "contentStatus": "research"
+    },
+    {
       "id": "cipher-of-damnation-oronok",
       "slug": "cipher-of-damnation-oronok",
       "title": "The Cipher of Damnation: Oronok and the Three Fragments",
@@ -51225,7 +52308,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive.",
       "regions": [
         {
           "id": "kalimdor",
@@ -51400,8 +52483,8 @@
             "eastern-kingdoms"
           ],
           "mapPositionPercent": [
-            74,
-            43
+            82,
+            37
           ],
           "order": 10,
           "periodLabel": "Original World of Warcraft · Classic quest chain",
@@ -51449,6 +52532,19 @@
           "locationLabel": "Shadowmoon Valley · Outland"
         },
         {
+          "storylineId": "champion-of-the-naaru-outland-trials",
+          "regionIds": [
+            "outland"
+          ],
+          "mapPositionPercent": [
+            93,
+            87
+          ],
+          "order": 14,
+          "periodLabel": "The Burning Crusade · A’dal’s trials and Tempest Key",
+          "locationLabel": "Shattrath · heroic trials across Outland"
+        },
+        {
           "storylineId": "missing-diplomat-original-investigation",
           "regionIds": [
             "eastern-kingdoms",
@@ -51458,7 +52554,7 @@
             58,
             62
           ],
-          "order": 14,
+          "order": 15,
           "periodLabel": "Original Classic investigation · Burning Crusade patch 2.3 continuation",
           "locationLabel": "Stormwind · Duskwood · Wetlands · Theramore"
         },
@@ -51471,7 +52567,7 @@
             54,
             18
           ],
-          "order": 15,
+          "order": 16,
           "periodLabel": "Wrath of the Lich King",
           "locationLabel": "Dragonblight · Northrend"
         },
@@ -51485,12 +52581,12 @@
             61,
             27
           ],
-          "order": 16,
+          "order": 17,
           "periodLabel": "Wrath of the Lich King · patch 3.3.5",
           "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
         }
       ],
-      "reviewNote": "Research StoryTour collection with 16 map placards, 15 playable research StoryGuides and one research preview. Play All follows the explicit editorial order and skips the preview. Story-tour map markers are navigational layout positions rather than exact locations; each storyline remains research until its human review gates are complete.",
+      "reviewNote": "Research StoryTour collection with 17 map placards, 16 playable research StoryGuides and one research preview. Play All follows the explicit editorial order and skips the preview. Story-tour map markers are navigational layout positions rather than exact locations; each storyline remains research until its human review gates are complete.",
       "contentStatus": "research"
     }
   ],
@@ -51580,6 +52676,24 @@
         "black-empire-story-empire-spreads",
         "black-empire-story-elemental-resistance",
         "black-empire-story-dominion"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-guide",
+      "eraId": "age-of-adventurers",
+      "title": "Champion of the Naaru: Trials across Outland",
+      "description": "Nine illustrated scenes follow A’dal’s four trials, the divided test of Strength, Magtheridon’s defeat, and the distinct access condition behind the title.",
+      "nodeIds": [
+        "champion-of-the-naaru-outland-trials-story-khadgars-missive",
+        "champion-of-the-naaru-outland-trials-story-adal-names-the-danger",
+        "champion-of-the-naaru-outland-trials-story-trial-of-mercy",
+        "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault",
+        "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth",
+        "champion-of-the-naaru-outland-trials-story-trial-of-tenacity",
+        "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon",
+        "champion-of-the-naaru-outland-trials-story-the-tempest-key",
+        "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate"
       ],
       "contentStatus": "research"
     },
@@ -54981,6 +56095,478 @@
       ],
       "previousNodeId": "black-empire-story-elemental-resistance",
       "nextNodeIds": []
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-khadgars-missive",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "A letter after the Cipher",
+      "narration": "At Shadowmoon’s end, the Cipher’s final answer names the danger A’dal now sees in Kael’thas. A letter from Khadgar calls the seeker to Shattrath. This passage begins where Oronok’s story ends; it does not fold his long work into a second mission. The road now turns toward Tempest Keep, and the naaru who once had no need to reopen their vessel ask for help against a threat within it.",
+      "durationMs": 55500,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-khadgars-missive-event"
+      ],
+      "entityIds": [
+        "khadgar",
+        "adal"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-khadgars-missive-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "khadgar"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        }
+      ],
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-adal-names-the-danger"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-khadgars-missive.mp3",
+        "durationMs": 28975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-adal-names-the-danger",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "The danger named by A’dal",
+      "narration": "Tempest Keep was made by the naaru, and A’dal says they had once judged a return unnecessary. Now Kael’thas must be stopped before he can use the Cipher of Damnation. A’dal asks adventurers to prove themselves in four trials before entering the vessel. The quests describe readiness for a dangerous undertaking; this story does not turn the achievement title into an office bestowed by the naaru.",
+      "durationMs": 53500,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-adal-names-the-danger-event"
+      ],
+      "entityIds": [
+        "adal"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-adal-names-the-danger-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-khadgars-missive",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-mercy"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-adal-names-the-danger.mp3",
+        "durationMs": 29200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-mercy",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "Mercy in the Shattered Halls",
+      "narration": "A’dal places the word Mercy beside a threatened life. In the Shattered Halls, Kargath holds three prisoners and intends to execute them. A’dal calls them the seeker’s people but does not name their allegiance. The task asks that they be saved; its named proof is an unused executioner’s axe with no blood on the blade. The quest records the trial passed when the axe is returned, but gives no named count of survivors. We leave that uncertainty where the record leaves it.",
+      "durationMs": 65000,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-mercy-event"
+      ],
+      "entityIds": [
+        "kargath-bladefist",
+        "prisoners-of-the-shattered-halls",
+        "unused-executioners-axe"
+      ],
+      "locationIds": [
+        "shattered-halls"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.3
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-trial-of-mercy-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kargath-bladefist"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "prisoners-of-the-shattered-halls"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "unused-executioners-axe"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-adal-names-the-danger",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-trial-of-mercy.mp3",
+        "durationMs": 35625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "Strength, divided: the Steamvault",
+      "narration": "Strength is the trial A’dal explicitly divides. In the Steamvault, its first named feat is to defeat Warlord Kalithresh and bring back his trident. The flooded Coilfang works become one half of a single test. The trident is the proof the quest asks for; its description adds no new campaign against Coilfang and no further use for the weapon. The trial’s moral meaning beyond its name is not supplied, so the telling does not invent one.",
+      "durationMs": 60500,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault-event"
+      ],
+      "entityIds": [
+        "warlord-kalithresh",
+        "kalithresh-trident"
+      ],
+      "locationIds": [
+        "steamvault"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-strength-in-the-steamvault-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "warlord-kalithresh"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "kalithresh-trident"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-trial-of-mercy",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault.mp3",
+        "durationMs": 33400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "Strength, divided: Murmur",
+      "narration": "A’dal’s second named task lies in Auchindoun’s Shadow Labyrinth. Murmur is described as an extra-planar being; the adventurer is sent to defeat it and return its essence. This scene follows the Steamvault because the quest text names those two halves in that order, not because the source establishes a fixed historical sequence between separate runs. The essence serves as proof of the assigned trial; the quest gives it no further use.",
+      "durationMs": 57000,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-event"
+      ],
+      "entityIds": [
+        "murmur",
+        "murmurs-essence"
+      ],
+      "locationIds": [
+        "shadow-labyrinth"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-strength-in-shadow-labyrinth-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "murmur"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "murmurs-essence"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-tenacity"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth.mp3",
+        "durationMs": 32675,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-tenacity",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "Tenacity in the Arcatraz",
+      "narration": "At the Arcatraz, A’dal’s account turns the trial toward persistence. The naaru have imprisoned dangerous beings aboard Tempest Keep, but A’dal distinguishes Millhouse: a gnome stowaway caught on the wrong vessel at the wrong moment. The adventurer must rescue him and ensure he survives. That account of how Millhouse came to be imprisoned belongs to A’dal’s quest text; the story does not turn it into an independent capture report.",
+      "durationMs": 55500,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-tenacity-event"
+      ],
+      "entityIds": [
+        "millhouse-manastorm"
+      ],
+      "locationIds": [
+        "arcatraz"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-trial-of-tenacity-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "millhouse-manastorm"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-trial-of-tenacity.mp3",
+        "durationMs": 32475,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "Only Magtheridon remains",
+      "narration": "Only Magtheridon remains. A’dal calls for an army and sends it deep beneath Hellfire Citadel, to the pit lord’s lair. The final task is to fight through the chamber and destroy the corrupter. The quest marks a change of scale from dungeon trials to a raid and says the naaru approve when the foe is defeated. It does not claim that Kael’thas has already been reached or that the battle inside Tempest Keep has been won.",
+      "durationMs": 60500,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon-event"
+      ],
+      "entityIds": [
+        "magtheridon"
+      ],
+      "locationIds": [
+        "hellfire-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-trial-of-magtheridon-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "magtheridon"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-trial-of-tenacity",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-the-tempest-key"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-trial-of-magtheridon.mp3",
+        "durationMs": 31375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-tempest-key",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "The way into Tempest Keep",
+      "narration": "With the final trial returned to A’dal, the Tempest Key is granted. Blizzard’s attunement overview identifies it as the means of entry to the Eye, the central wing of Tempest Keep in Netherstorm. The key is an access threshold, not the battle with Kael’thas. This telling ends at the gate the trials were meant to open; the fight within belongs to another story.",
+      "durationMs": 51000,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-the-tempest-key-event"
+      ],
+      "entityIds": [
+        "adal",
+        "tempest-key"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-the-tempest-key-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "tempest-key"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon",
+      "nextNodeIds": [
+        "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-the-tempest-key.mp3",
+        "durationMs": 26500,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate",
+      "guideId": "champion-of-the-naaru-outland-trials-guide",
+      "title": "A title beyond one key",
+      "narration": "Champion of the Naaru is a title with a version history, not a rank granted by this chain alone. Blizzard’s attunement guide ties it to access to both the Eye and Serpentshrine Cavern; the Cudgel of Kar’desh belongs to that separate path. A later Classic ruleset removed raid-entry attunements, so its door rules cannot be read back into the original quest. The story closes with the Tempest Key, before the second gate and before either raid’s final reckoning.",
+      "durationMs": 62000,
+      "eventIds": [
+        "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate-event"
+      ],
+      "entityIds": [
+        "adal",
+        "tempest-key"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.8
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1000
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "champion-of-the-naaru-outland-trials-the-title-and-the-separate-gate-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "tempest-key"
+        }
+      ],
+      "previousNodeId": "champion-of-the-naaru-outland-trials-story-the-tempest-key",
+      "voiceover": {
+        "assetPath": "audio/guided/champion-of-the-naaru-outland-trials-guide/champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate.mp3",
+        "durationMs": 34925,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
     },
     {
       "id": "cipher-of-damnation-oronok-story-hand-of-guldan",

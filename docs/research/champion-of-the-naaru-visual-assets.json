@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "storyId": "champion-of-the-naaru-outland-trials",
+  "targetEditionBuild": "Original World of Warcraft: The Burning Crusade, patches 2.0.3–2.4.3; exact patch comparison remains open.",
+  "note": "Story theater placement is relational and illustrative, not exact geographic evidence. All AI-generated art is unofficial interpretive fan art, not canonical model/area proof. Contact-sheet crops are transparent WebP cutouts optimized for the static site. Every node maps to one illustrated environment and active entities; the Magtheridon environment itself carries the anonymous-force ensemble.",
+  "generationArtifacts": [
+    {
+      "id": "exec-44a76401-3f4e-444b-bb99-a4e2f4f44d2f",
+      "role": "four-subject transparent character contact sheet"
+    },
+    {
+      "id": "exec-17238a1f-5187-4681-99bf-bbd8d4fbdd1b",
+      "role": "four-object transparent contact sheet"
+    },
+    {
+      "id": "exec-c7303735-6f20-4f79-a5c1-72cc5226bb3e",
+      "role": "single-subject Kargath figure"
+    },
+    {
+      "id": "exec-ea838831-d7c9-4d5f-8e46-9dadd1ef8aba",
+      "role": "single-subject Millhouse figure"
+    },
+    {
+      "id": "exec-1ca4b443-abc6-4a32-b22d-d6e5c3d4157b",
+      "role": "original empty Magtheridon lair environment before edit"
+    },
+    {
+      "id": "exec-6b508329-aeae-4501-a5ad-d6783b858c2c",
+      "role": "Magtheridon lair environment edited to include a small anonymous adventurer company"
+    }
+  ],
+  "environments": [
+    {
+      "id": "shattrath-lower-city",
+      "title": "Shattrath, Lower City",
+      "assetPath": "images/storylines/cipher-of-damnation/shattrath-lower-city.research.webp",
+      "sha256": "dde5fbf0b5a4191a2b6bb46fc4b4015f0c4d4da541a2e69e861afe1fcedb225f",
+      "provenance": "reused original project illustration",
+      "reuseSource": "Cipher of Damnation / Oronok story environment",
+      "recognizableTraits": "Pale draenei stone, stepped Outland city walls and the layered, inhabited silhouette of Lower City; warm dust beyond the pale masonry.",
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883"
+      ],
+      "targetEditionBuild": "Original World of Warcraft: The Burning Crusade, patches 2.0.3–2.4.3",
+      "resemblanceReview": "Existing original environment illustration. Compare against the original TBC Lower City in-client; no exact meeting position is asserted."
+    },
+    {
+      "id": "shattrath-terrace-of-light",
+      "title": "Shattrath, Terrace of Light",
+      "assetPath": "images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "sha256": "7792b5d44ff73ea102ded7b2f16678110386a7ca1cf62262f989621deb304553",
+      "provenance": "reused original project illustration",
+      "reuseSource": "Karazhan / Master’s Key and Nightbane story environment",
+      "recognizableTraits": "Pale cream draenei arches and open terrace, with a luminous naaru crystal and the dusty, broken world beyond the city.",
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883"
+      ],
+      "targetEditionBuild": "Original World of Warcraft: The Burning Crusade, patches 2.0.3–2.4.3",
+      "resemblanceReview": "Existing original environment illustration. Compare against the original TBC Terrace of Light in-client; the scene is relational, not an exact NPC coordinate."
+    },
+    {
+      "id": "shattered-halls",
+      "title": "Shattered Halls, Hellfire Citadel",
+      "assetPath": "images/storylines/karazhan/shattered-halls.research.webp",
+      "sha256": "2f8e65c00cf497050e6b25676e2f38829776179ed6f36972dc1c1ee54a143b11",
+      "provenance": "reused original project illustration",
+      "reuseSource": "Karazhan / Master’s Key and Nightbane story environment",
+      "recognizableTraits": "Blackened iron gates, brutal rust-red fortress masonry, forge glow and a restrained fel-orc palette.",
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "targetEditionBuild": "Original World of Warcraft: The Burning Crusade, patches 2.0.3–2.4.3",
+      "resemblanceReview": "Existing original environment illustration. The route, gauntlet timer and dungeon layout are not asserted; compare the area against the matching TBC build."
+    },
+    {
+      "id": "steamvault",
+      "title": "The Steamvault, Coilfang Reservoir",
+      "assetPath": "images/storylines/karazhan/steamvault.research.webp",
+      "sha256": "4d533fa6b13fe45ba41bea98a1d775e6f95c0ff762ffa77e1ca5b8a480dc65b2",
+      "provenance": "reused original project illustration",
+      "reuseSource": "Karazhan / Master’s Key and Nightbane story environment",
+      "recognizableTraits": "Water-filled cavern works, enormous dark pipes, naga-built pumps, turquoise channels and wet industrial stone.",
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "targetEditionBuild": "Original World of Warcraft: The Burning Crusade, patches 2.0.3–2.4.3",
+      "resemblanceReview": "Existing original environment illustration. It is not a surveyed dungeon plan; compare the named area against the matching TBC build."
+    },
+    {
+      "id": "shadow-labyrinth",
+      "title": "Shadow Labyrinth, Auchindoun",
+      "assetPath": "images/storylines/karazhan/shadow-labyrinth.research.webp",
+      "sha256": "82674f19be337aa49e92964e3fd8e6e19afffe5f97c8c79c904414b5315f8615",
+      "provenance": "reused original project illustration",
+      "reuseSource": "Karazhan / Master’s Key and Nightbane story environment",
+      "recognizableTraits": "Auchenai monumental stonework, dark violet-blue interior light and a deep, enclosed chamber distinct from the Coilfang works.",
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "targetEditionBuild": "Original World of Warcraft: The Burning Crusade, patches 2.0.3–2.4.3",
+      "resemblanceReview": "Existing original environment illustration. It is not a surveyed dungeon plan; compare the named area against the matching TBC build."
+    },
+    {
+      "id": "arcatraz",
+      "title": "The Arcatraz, Tempest Keep",
+      "assetPath": "images/storylines/akama-black-temple/arcatraz.research.webp",
+      "sha256": "70e00eea24da73e6d29b883031b09e4361154a73c01c1bff6328e197af24f403",
+      "provenance": "reused original project illustration",
+      "reuseSource": "Akama and the Black Temple story environment",
+      "recognizableTraits": "A floating crystalline prison with sharp draenei geometry, ivory and red structures, and Netherstorm’s violet void and broken rocks.",
+      "sourceIds": [
+        "champion-naaru-tenacity-quest-10886"
+      ],
+      "targetEditionBuild": "Original World of Warcraft: The Burning Crusade, patches 2.0.3–2.4.3",
+      "resemblanceReview": "Existing original environment illustration. It is not an exact ship plan or prison-cell location; compare against the matching TBC area and build."
+    },
+    {
+      "id": "magtheridons-lair",
+      "title": "Magtheridon’s lair, Hellfire Citadel",
+      "assetPath": "images/storylines/champion-of-the-naaru/magtheridons-lair.research.webp",
+      "sha256": "e56c1961fb3b3b02956680acc77aeaff13f436e1f637d20341bfd3e49d60208f",
+      "provenance": "original AI-generated illustration; one focused edit added an anonymous force for quest scale",
+      "reuseSource": null,
+      "recognizableTraits": "A vast black-iron prison chamber under Hellfire Citadel, heavy chains and a deep central pit; furnace red and ash frame restrained fel-green light. Small, anonymous silhouettes communicate A’dal’s instruction to gather an army, without claiming a specific roster.",
+      "sourceIds": [
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "targetEditionBuild": "Original World of Warcraft: The Burning Crusade, patches 2.0.3–2.4.3",
+      "resemblanceReview": "New original AI illustration, refined to include a small anonymous force as part of the environment. No dungeon layout, exact party, co-presence beyond the quest, or canonical staging is asserted. Compare the area against the matching TBC build."
+    }
+  ],
+  "figures": [
+    {
+      "id": "khadgar",
+      "name": "Khadgar",
+      "kind": "character",
+      "assetPath": "images/storylines/karazhan/khadgar.research.webp",
+      "sha256": "b8dd1d24e442a6760b25ec75a333bf35fd876b183ee828f705050ba8d2083f4a",
+      "provenance": "reused Karazhan story figure; original interpretive portrait.",
+      "reuseSource": "Karazhan story figure; original interpretive portrait.",
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    },
+    {
+      "id": "adal",
+      "name": "A’dal",
+      "kind": "other",
+      "assetPath": "images/storylines/akama-black-temple/adal.research.webp",
+      "sha256": "029ea8f2cbc66f19e109ef8ded9c306ef64201618a70468b1451588d7b1ff63e",
+      "provenance": "reused Akama story figure; existing original abstract naaru art.",
+      "reuseSource": "Akama story figure; existing original abstract naaru art.",
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883",
+        "champion-naaru-mercy-quest-10884",
+        "champion-naaru-strength-quest-10885",
+        "champion-naaru-tenacity-quest-10886",
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    },
+    {
+      "id": "kargath-bladefist",
+      "name": "Kargath Bladefist",
+      "kind": "character",
+      "assetPath": "images/storylines/champion-of-the-naaru/kargath-bladefist.research.webp",
+      "sha256": "4f87dc29c3f2a882dd82b75419ee9dc5b96e83fcefcab53c6c307491ad9ee4ba",
+      "provenance": "original AI-generated interpretive cutout; contact-sheet crops optimized as transparent WebP",
+      "reuseSource": null,
+      "generationNote": "Single original full-body Kargath illustration with a curved blade integrated into one forearm; scarred rust-red and iron armor, green orc, no blood, isolated transparent cutout.",
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    },
+    {
+      "id": "prisoners-of-the-shattered-halls",
+      "name": "The prisoners in the Shattered Halls",
+      "kind": "other",
+      "assetPath": "images/storylines/champion-of-the-naaru/prisoners-of-the-shattered-halls.research.webp",
+      "sha256": "1cf9e2d84ba1fdb1040dc55f132c0fdc6a327b1721be968606de8b3b4676a53a",
+      "provenance": "original AI-generated interpretive cutout; contact-sheet crops optimized as transparent WebP",
+      "reuseSource": null,
+      "generationNote": "Top-right cell of the four-subject transparent character contact sheet: exactly three adult captives in unmarked travel clothing; no faction heraldry, weapons or identified race.",
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    },
+    {
+      "id": "warlord-kalithresh",
+      "name": "Warlord Kalithresh",
+      "kind": "character",
+      "assetPath": "images/storylines/champion-of-the-naaru/warlord-kalithresh.research.webp",
+      "sha256": "c89be9457816912234be1e1bf68cfec7fb1ca6462b6e09056371d01eb18e153d",
+      "provenance": "original AI-generated interpretive cutout; contact-sheet crops optimized as transparent WebP",
+      "reuseSource": null,
+      "generationNote": "Bottom-left cell of the four-subject transparent character contact sheet: armored blue-green naga commander with serpentine tail and trident.",
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    },
+    {
+      "id": "murmur",
+      "name": "Murmur",
+      "kind": "character",
+      "assetPath": "images/storylines/champion-of-the-naaru/murmur.research.webp",
+      "sha256": "96e8880faf302c08ad3e54e4e0bf879906731bb479bfc65e58043c21d105313f",
+      "provenance": "original AI-generated interpretive cutout; contact-sheet crops optimized as transparent WebP",
+      "reuseSource": null,
+      "generationNote": "Bottom-right cell of the four-subject transparent character contact sheet: deep-violet and blue-black sound vortex with a luminous core, no face or humanoid anatomy.",
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    },
+    {
+      "id": "millhouse-manastorm",
+      "name": "Millhouse Manastorm",
+      "kind": "character",
+      "assetPath": "images/storylines/champion-of-the-naaru/millhouse-manastorm.research.webp",
+      "sha256": "2f388f1982e511af101374ec4797520e915ea7299f50baa694741aa76e6c20a0",
+      "provenance": "original AI-generated interpretive cutout; contact-sheet crops optimized as transparent WebP",
+      "reuseSource": null,
+      "generationNote": "Original full-body gnome mage cutout in violet and slate-blue travel robes; pale skin, light tousled hair, alert expression, empty hands.",
+      "sourceIds": [
+        "champion-naaru-tenacity-quest-10886"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    },
+    {
+      "id": "magtheridon",
+      "name": "Magtheridon",
+      "kind": "character",
+      "assetPath": "images/storylines/akama-black-temple/magtheridon.research.webp",
+      "sha256": "6eaea86a9e9c64d715d9d0bfbc9a7ed2f18d9bdec217cae5bf0388a94b5a7bd5",
+      "provenance": "reused Akama and the Black Temple story figure; original interpretive art, not canonical model evidence.",
+      "reuseSource": "Akama and the Black Temple story figure; original interpretive art, not canonical model evidence.",
+      "sourceIds": [
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    },
+    {
+      "id": "unused-executioners-axe",
+      "name": "Unused Axe of the Executioner",
+      "kind": "artifact",
+      "assetPath": "images/storylines/champion-of-the-naaru/unused-executioners-axe.research.webp",
+      "sha256": "789bf3516371120861a9caab85d793a0f2ef769ee038806150a915fa964d1057",
+      "provenance": "original AI-generated interpretive cutout; contact-sheet crops optimized as transparent WebP",
+      "reuseSource": null,
+      "generationNote": "Top-left cell of the four-object transparent contact sheet: full dark iron executioner axe and worn haft, clean blade, no blood.",
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    },
+    {
+      "id": "kalithresh-trident",
+      "name": "Kalithresh’s Trident",
+      "kind": "artifact",
+      "assetPath": "images/storylines/champion-of-the-naaru/kalithresh-trident.research.webp",
+      "sha256": "f81323d9c549d76d3497537bf5897fd68553b3b4c27947889916cd40dce53f0a",
+      "provenance": "original AI-generated interpretive cutout; contact-sheet crops optimized as transparent WebP",
+      "reuseSource": null,
+      "generationNote": "Top-right cell of the four-object transparent contact sheet: full naga trident with three barbed points, dark bronze and blue-green corrosion.",
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    },
+    {
+      "id": "murmurs-essence",
+      "name": "Murmur’s Essence",
+      "kind": "artifact",
+      "assetPath": "images/storylines/champion-of-the-naaru/murmurs-essence.research.webp",
+      "sha256": "3c06358c85da6ed07f8fcb8c3fb45cfb37e4eb5f1ff0b06f0bfde251c1830c44",
+      "provenance": "original AI-generated interpretive cutout; contact-sheet crops optimized as transparent WebP",
+      "reuseSource": null,
+      "generationNote": "Bottom-left cell of the four-object transparent contact sheet: violet-blue sound essence as a luminous crystal sphere with concentric ripple rings.",
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    },
+    {
+      "id": "tempest-key",
+      "name": "The Tempest Key",
+      "kind": "artifact",
+      "assetPath": "images/storylines/champion-of-the-naaru/tempest-key.research.webp",
+      "sha256": "b382ebcf0fd468e2d138bc741316e5509d1514062cd9db3883972713a4688f12",
+      "provenance": "original AI-generated interpretive cutout; contact-sheet crops optimized as transparent WebP",
+      "reuseSource": null,
+      "generationNote": "Bottom-right cell of the four-object transparent contact sheet: pale ivory-and-blue crystalline key with simple teeth, gold ring and star-like crystal head; interpretive, not a copied icon.",
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883",
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "reviewStatus": "Open: original TBC client/model comparison and human visual approval."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "nodeId": "champion-of-the-naaru-outland-trials-story-khadgars-missive",
+      "environmentId": "shattrath-lower-city",
+      "environmentAsset": "images/storylines/cipher-of-damnation/shattrath-lower-city.research.webp",
+      "entityIds": [
+        "khadgar",
+        "adal"
+      ],
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tempest-key-quest-10883"
+      ],
+      "placement": "Relational theater focus only; no exact coordinate, route, dungeon floor plan or unverified co-presence claim."
+    },
+    {
+      "order": 2,
+      "nodeId": "champion-of-the-naaru-outland-trials-story-adal-names-the-danger",
+      "environmentId": "shattrath-terrace-of-light",
+      "environmentAsset": "images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "entityIds": [
+        "adal"
+      ],
+      "sourceIds": [
+        "champion-naaru-tempest-key-quest-10883"
+      ],
+      "placement": "Relational theater focus only; no exact coordinate, route, dungeon floor plan or unverified co-presence claim."
+    },
+    {
+      "order": 3,
+      "nodeId": "champion-of-the-naaru-outland-trials-story-trial-of-mercy",
+      "environmentId": "shattered-halls",
+      "environmentAsset": "images/storylines/karazhan/shattered-halls.research.webp",
+      "entityIds": [
+        "kargath-bladefist",
+        "prisoners-of-the-shattered-halls",
+        "unused-executioners-axe"
+      ],
+      "sourceIds": [
+        "champion-naaru-mercy-quest-10884"
+      ],
+      "placement": "Relational theater focus only; no exact coordinate, route, dungeon floor plan or unverified co-presence claim."
+    },
+    {
+      "order": 4,
+      "nodeId": "champion-of-the-naaru-outland-trials-story-strength-in-the-steamvault",
+      "environmentId": "steamvault",
+      "environmentAsset": "images/storylines/karazhan/steamvault.research.webp",
+      "entityIds": [
+        "warlord-kalithresh",
+        "kalithresh-trident"
+      ],
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "placement": "Relational theater focus only; no exact coordinate, route, dungeon floor plan or unverified co-presence claim."
+    },
+    {
+      "order": 5,
+      "nodeId": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth",
+      "environmentId": "shadow-labyrinth",
+      "environmentAsset": "images/storylines/karazhan/shadow-labyrinth.research.webp",
+      "entityIds": [
+        "murmur",
+        "murmurs-essence"
+      ],
+      "sourceIds": [
+        "champion-naaru-strength-quest-10885"
+      ],
+      "placement": "Relational theater focus only; no exact coordinate, route, dungeon floor plan or unverified co-presence claim."
+    },
+    {
+      "order": 6,
+      "nodeId": "champion-of-the-naaru-outland-trials-story-trial-of-tenacity",
+      "environmentId": "arcatraz",
+      "environmentAsset": "images/storylines/akama-black-temple/arcatraz.research.webp",
+      "entityIds": [
+        "millhouse-manastorm"
+      ],
+      "sourceIds": [
+        "champion-naaru-tenacity-quest-10886"
+      ],
+      "placement": "Relational theater focus only; no exact coordinate, route, dungeon floor plan or unverified co-presence claim."
+    },
+    {
+      "order": 7,
+      "nodeId": "champion-of-the-naaru-outland-trials-story-trial-of-magtheridon",
+      "environmentId": "magtheridons-lair",
+      "environmentAsset": "images/storylines/champion-of-the-naaru/magtheridons-lair.research.webp",
+      "entityIds": [
+        "magtheridon"
+      ],
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "placement": "Relational theater focus only; no exact coordinate, route, dungeon floor plan or unverified co-presence claim."
+    },
+    {
+      "order": 8,
+      "nodeId": "champion-of-the-naaru-outland-trials-story-the-tempest-key",
+      "environmentId": "shattrath-terrace-of-light",
+      "environmentAsset": "images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "entityIds": [
+        "adal",
+        "tempest-key"
+      ],
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-magtheridon-quest-10888"
+      ],
+      "placement": "Relational theater focus only; no exact coordinate, route, dungeon floor plan or unverified co-presence claim."
+    },
+    {
+      "order": 9,
+      "nodeId": "champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate",
+      "environmentId": "shattrath-terrace-of-light",
+      "environmentAsset": "images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "entityIds": [
+        "adal",
+        "tempest-key"
+      ],
+      "sourceIds": [
+        "champion-naaru-blizzard-attunement-overview",
+        "champion-naaru-tbc-classic-attunement-hotfix"
+      ],
+      "placement": "Relational theater focus only; no exact coordinate, route, dungeon floor plan or unverified co-presence claim."
+    }
+  ],
+  "remainingHumanReview": [
+    "Original-client area resemblance",
+    "Original-client character/item model resemblance",
+    "TBC patch/build and title-eligibility audit",
+    "Human source/lore approval"
+  ]
+}

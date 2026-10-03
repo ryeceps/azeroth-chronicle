@@ -23,7 +23,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   expect(mapFrameBounds).toMatchObject({ x: 0, width: viewport.width });
   expect(mapFrameBounds!.y).toBeGreaterThanOrEqual(controlBounds!.y + controlBounds!.height);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
-  await expect(page.locator('.story-tour-dot')).toHaveCount(16);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(17);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
   await expect(page.locator('.story-tour-backdrop, .story-tour-section-heading, .story-tour-map-caption, .story-tour-order-note')).toHaveCount(0);
   await expect(page.locator('.story-tour-tooltip').first()).toHaveCSS('visibility', 'hidden');
@@ -40,7 +40,8 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const ras = page.getByRole('button', { name: /ras-frostwhisper-and-the-soulbound-keepsake|Ras Frostwhisper/i });
   const karazhan = page.getByRole('button', { name: /karazhan-masters-key-and-nightbane|Master’s Key and Nightbane/i });
   const akama = page.getByRole('button', { name: /akama-and-black-temple|Akama and the Black Temple/i });
-  const outland = page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i });
+  const outland = page.getByRole('button', { name: /The Cipher of Damnation: Oronok/i });
+  const championOfTheNaaru = page.getByRole('button', { name: /champion-of-the-naaru-outland-trials|Champion of the Naaru/i });
   const missingDiplomat = page.getByRole('button', { name: /missing-diplomat-original-investigation|The Missing Diplomat/i });
   const northrend = page.getByRole('button', { name: /wrathgate-and-undercity|Wrathgate/i });
   const quelDelar = page.getByRole('button', { name: /quel-delar-restored|Broken Blade Restored/i });
@@ -57,6 +58,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(karazhan).toBeVisible();
   await expect(akama).toBeVisible();
   await expect(outland).toBeVisible();
+  await expect(championOfTheNaaru).toBeVisible();
   await expect(missingDiplomat).toBeVisible();
   await expect(northrend).toBeVisible();
   await expect(quelDelar).toBeVisible();
@@ -89,6 +91,14 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await outlandCard.getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'The Hand of Gul’dan' })).toBeVisible();
   await captureVisualReview(page, { path: 'output/cipher-visual-review/storytour-desktop.png', fullPage: true });
+
+  await page.goto('/tours/classic-to-wrath');
+  await championOfTheNaaru.hover();
+  const championCard = page.locator('#story-tour-tip-champion-of-the-naaru-outland-trials');
+  await expect(championCard.getByRole('heading', { name: 'Champion of the Naaru: Trials across Outland' })).toBeVisible();
+  await expect(championCard).toContainText('Playable story');
+  await championCard.getByRole('button', { name: 'Play story' }).click();
+  await expect(page.getByRole('heading', { name: 'A letter after the Cipher', exact: true })).toBeVisible();
 
   await page.goto('/tours/classic-to-wrath');
   await missingDiplomat.hover();
@@ -295,6 +305,13 @@ test('Play All advances completed stories in chronological order and restores th
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;
     return [params.get('storyline'), params.get('node'), params.get('play')];
+  }).toEqual(['ras-frostwhisper-and-the-soulbound-keepsake', 'ras-frostwhisper-and-the-soulbound-keepsake-story-an-unseen-magistrate', 'all']);
+  await expect(page.getByRole('heading', { name: 'An unseen magistrate' })).toBeVisible();
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=ras-frostwhisper-and-the-soulbound-keepsake&node=ras-frostwhisper-and-the-soulbound-keepsake-story-mardukes-accounting&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect.poll(() => {
+    const params = new URL(page.url()).searchParams;
+    return [params.get('storyline'), params.get('node'), params.get('play')];
   }).toEqual(['karazhan-masters-key-and-nightbane', 'karazhan-masters-key-and-nightbane-story-reports-from-deadwind', 'all']);
   await expect(page.getByRole('heading', { name: 'Reports from Deadwind Pass' })).toBeVisible();
 
@@ -313,6 +330,10 @@ test('Play All advances completed stories in chronological order and restores th
   }).toEqual(['cipher-of-damnation-oronok', 'cipher-of-damnation-oronok-story-hand-of-guldan', 'all']);
   await expect(page.getByRole('heading', { name: 'The Hand of Gul’dan' })).toBeVisible();
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=cipher-of-damnation-oronok&node=cipher-of-damnation-oronok-story-the-mark-of-kaelthas&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'A letter after the Cipher' })).toBeVisible();
+  await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('champion-of-the-naaru-outland-trials');
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=champion-of-the-naaru-outland-trials&node=champion-of-the-naaru-outland-trials-story-the-title-and-the-separate-gate&play=all');
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'A quiet summons' })).toBeVisible();
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('missing-diplomat-original-investigation');
@@ -419,7 +440,7 @@ test('phone layout fits and touch opens a story card before playback', async ({ 
   await phoneDefiasCard.getByRole('button', { name: 'Play story' }).click();
   await expect(page.getByRole('heading', { name: 'Farmers driven from Westfall' })).toBeVisible();
   await page.goto('/tours/classic-to-wrath');
-  await page.getByRole('button', { name: /cipher-of-damnation-oronok|Cipher/i }).click();
+  await page.getByRole('button', { name: /The Cipher of Damnation: Oronok/i }).click();
   const phoneCipherCard = page.locator('.story-tour-touch-card');
   await expect(phoneCipherCard.getByRole('heading', { name: /Cipher of Damnation/i })).toBeVisible();
   await expect(phoneCipherCard).toContainText('Playable story');

@@ -1,0 +1,27 @@
+{
+  "id": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-event",
+  "kind": "event",
+  "name": "Strength, divided: Murmur",
+  "slug": "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "champion-of-the-naaru-outland-trials-theater",
+  "date": {
+    "precision": "relative",
+    "label": "Original Burning Crusade attunement quest era; exact date unknown"
+  },
+  "summary": "A’dal’s second named task lies in Auchindoun’s Shadow Labyrinth. Murmur is described as an extra-planar being; the adventurer is sent to defeat it and return its essence. This scene follows the Steamvault because the quest text names those two halves in that order, not because the source establishes a fixed historical sequence between separate runs. The essence serves as proof of the assigned trial; the quest gives it no further use.",
+  "locationIds": [
+    "shadow-labyrinth"
+  ],
+  "participantEntityIds": [
+    "murmur",
+    "murmurs-essence"
+  ],
+  "sourceIds": [
+    "champion-naaru-strength-quest-10885"
+  ],
+  "claimIds": [
+    "champion-of-the-naaru-outland-trials-story-strength-in-shadow-labyrinth-claim"
+  ],
+  "contentStatus": "research"
+}

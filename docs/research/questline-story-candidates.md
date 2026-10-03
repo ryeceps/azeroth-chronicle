@@ -171,6 +171,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** exact prerequisites and achievement eligibility vary by patch. Separate Cipher's historical story from its mechanical prerequisite role; do not merge all raid attunements into one invented mission. Requires full primary dialogue before scheduling narration.
 
+**Implementation:** Complete nine-scene illustrated research StoryGuide with per-node source/claim/citation records, transcript-matched AI narration, original cast and pivotal-object art, reused matched TBC dungeon backdrops, and an original Magtheridon lair scene. Added to the Classic-to-Wrath StoryTour after the Cipher of Damnation because its completion is a prerequisite; the three dungeon trials remain parallel. The title and Tempest Key are distinguished from the separate Serpentshrine path. Original-client dialogue/build comparison, title eligibility audit by patch, human lore review, area/model resemblance review and narration audition remain open. See the [research packet](champion-of-the-naaru-outland-trials-research.md), [production ledger](champion-of-the-naaru-outland-trials-production.md), and [visual asset ledger](champion-of-the-naaru-visual-assets.json).
+
 ### 15. Oronok and the Cipher of Damnation
 
 **ID:** `cipher-of-damnation-oronok` · **B** · **Reach:** Shadowmoon Valley, three substantial branches.
