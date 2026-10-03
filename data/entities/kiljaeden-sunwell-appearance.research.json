@@ -1,0 +1,27 @@
+{
+  "id": "kiljaeden-sunwell-appearance",
+  "type": "character",
+  "name": "Kil'jaeden at the Sunwell",
+  "slug": "kiljaeden-sunwell-appearance",
+  "shortDescription": "Kil'jaeden at the Sunwell, represented in the Shattered Sun and Sunwell research story.",
+  "body": "The same demon recorded in the existing kiljaeden entity, represented at the TBC Sunwell threshold; this is not a second character. This is a theater-specific visual alias of the existing kiljaeden record, not a separate character. Original image-generation art; not canonical game art or proof of exact appearance, costume, size or simultaneous presence. Compare it with the Burning Crusade patch-2.4 client/model before human review. See docs/research/shattered-sun-sunwell-visual-assets.json.",
+  "firstEraId": "age-of-adventurers",
+  "featuredEraIds": [
+    "age-of-adventurers"
+  ],
+  "sourceIds": [
+    "sunwell-blizzard-fury-timeline",
+    "sunwell-blizzard-classic-release",
+    "sunwell-kiljaeden-encounter"
+  ],
+  "tags": [
+    "shattered-sun-sunwell-story",
+    "interpretive-art",
+    "theater-appearance"
+  ],
+  "mapFigure": {
+    "asset": "images/storylines/shattered-sun-sunwell/kiljaeden.webp",
+    "scale": 1.06
+  },
+  "contentStatus": "research"
+}

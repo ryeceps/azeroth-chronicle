@@ -112,7 +112,24 @@
       "consortium-arcatraz-key-quest",
       "consortium-blizzard-arcatraz-chain",
       "consortium-harbinger-quest",
-      "consortium-netherstorm-visual-locator"
+      "consortium-netherstorm-visual-locator",
+      "warcraft-chronicle-volume-1",
+      "blizzard-burning-crusade-story-so-far",
+      "blizzard-warcraft-iii-reforged-overview",
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release",
+      "sunwell-shattered-sun-offensive",
+      "sunwell-isle-phase-objectives",
+      "sunwell-magisters-terrace-quests",
+      "sunwell-magisters-terrace-area",
+      "sunwell-original-raid",
+      "sunwell-kalecgos-encounter",
+      "sunwell-brutallus-encounter",
+      "sunwell-madrigosa-felmyst",
+      "sunwell-eredar-twins",
+      "sunwell-muru-encounter",
+      "sunwell-epilogue-transcript",
+      "sunwell-kiljaeden-encounter"
     ],
     "contentStatus": "research"
   },
@@ -704,6 +721,25 @@
     "sourceIds": [
       "dungeon-set-two-quest-locators",
       "dungeon-set-two-anthion-quest-text"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "anveena-teague",
+    "type": "entity",
+    "name": "Anveena Teague",
+    "slug": "anveena-teague",
+    "path": "/locations/anveena-teague",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art"
+    ],
+    "description": "Anveena Teague, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-kiljaeden-encounter",
+      "sunwell-blizzard-fury-timeline"
     ],
     "contentStatus": "research"
   },
@@ -1822,6 +1858,25 @@
     "description": "The island region at the center of the Burning Legion's renewed invasion of Azeroth.",
     "sourceIds": [
       "blizzard-legion-now-live"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "brutallus",
+    "type": "entity",
+    "name": "Brutallus",
+    "slug": "brutallus",
+    "path": "/locations/brutallus",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art"
+    ],
+    "description": "Brutallus, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-brutallus-encounter",
+      "sunwell-madrigosa-felmyst"
     ],
     "contentStatus": "research"
   },
@@ -4173,6 +4228,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "eredar-twins",
+    "type": "entity",
+    "name": "The Eredar Twins: Lady Sacrolash and Alythess",
+    "slug": "eredar-twins",
+    "path": "/factions/eredar-twins",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art"
+    ],
+    "description": "The Eredar Twins: Lady Sacrolash and Alythess, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-eredar-twins",
+      "sunwell-original-raid"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "evergrove-blades-edge",
     "type": "entity",
     "name": "Evergrove, Blade’s Edge Mountains",
@@ -4284,6 +4358,24 @@
     "sourceIds": [
       "fallen-hero-felbane-weapon-locators",
       "fallen-hero-amulet-locators"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "felmyst",
+    "type": "entity",
+    "name": "Felmyst",
+    "slug": "felmyst",
+    "path": "/locations/felmyst",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art"
+    ],
+    "description": "Felmyst, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-madrigosa-felmyst"
     ],
     "contentStatus": "research"
   },
@@ -5299,11 +5391,15 @@
     "eraId": "age-of-adventurers",
     "aliases": [],
     "tags": [
-      "quel-delar-story-location"
+      "quel-delar-story-location",
+      "shattered-sun-sunwell-story"
     ],
-    "description": "The reclaimed island and the approach to the Sunwell in the Wrath quest sequence.",
+    "description": "The northern Eastern Kingdoms isle that hosts the TBC Shattered Sun Offensive and the approach to Sunwell Plateau; it also appears in the later Wrath Quel’Delar quest.",
     "sourceIds": [
-      "quel-delar-journey-and-purification-transcript"
+      "quel-delar-journey-and-purification-transcript",
+      "sunwell-blizzard-classic-release",
+      "sunwell-shattered-sun-offensive",
+      "sunwell-isle-phase-objectives"
     ],
     "contentStatus": "research"
   },
@@ -5387,6 +5483,28 @@
     "contentStatus": "research"
   },
   {
+    "id": "kael-thas-sunwell-appearance",
+    "type": "entity",
+    "name": "Kael'thas Sunstrider",
+    "slug": "kael-thas-sunwell-appearance",
+    "path": "/locations/kael-thas-sunwell-appearance",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art",
+      "theater-appearance"
+    ],
+    "description": "Kael'thas Sunstrider, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release",
+      "sunwell-magisters-terrace-area",
+      "sunwell-magisters-terrace-quests"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "kaldorei-empire",
     "type": "entity",
     "name": "The Kaldorei Empire",
@@ -5402,6 +5520,29 @@
     "description": "The civilization that arose around the Well of Eternity, mastered its arcane energies, and expanded swiftly across ancient Kalimdor.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "kalecgos-dragon-form",
+    "type": "entity",
+    "name": "Kalecgos in dragon form",
+    "slug": "kalecgos-dragon-form",
+    "path": "/locations/kalecgos-dragon-form",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art",
+      "theater-appearance"
+    ],
+    "description": "Kalecgos in dragon form, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-kalecgos-encounter",
+      "sunwell-original-raid",
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release",
+      "sunwell-kiljaeden-encounter"
     ],
     "contentStatus": "research"
   },
@@ -5795,6 +5936,27 @@
     "contentStatus": "research"
   },
   {
+    "id": "kiljaeden-sunwell-appearance",
+    "type": "entity",
+    "name": "Kil'jaeden at the Sunwell",
+    "slug": "kiljaeden-sunwell-appearance",
+    "path": "/locations/kiljaeden-sunwell-appearance",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art",
+      "theater-appearance"
+    ],
+    "description": "Kil'jaeden at the Sunwell, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release",
+      "sunwell-kiljaeden-encounter"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "kiljaeden",
     "type": "entity",
     "name": "Kil'jaeden",
@@ -5925,6 +6087,25 @@
     "description": "A Naaru associated with Oshu'gun whose quest account describes fading Light, growing Void, and ancestral spirits.",
     "sourceIds": [
       "hero-maghar-secret"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "lady-liadrin",
+    "type": "entity",
+    "name": "Lady Liadrin",
+    "slug": "lady-liadrin",
+    "path": "/locations/lady-liadrin",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art"
+    ],
+    "description": "Lady Liadrin, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-epilogue-transcript",
+      "sunwell-blizzard-fury-timeline"
     ],
     "contentStatus": "research"
   },
@@ -6072,6 +6253,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "lor-themar-theron",
+    "type": "entity",
+    "name": "Lor’themar Theron",
+    "slug": "lor-themar-theron",
+    "path": "/locations/lor-themar-theron",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art"
+    ],
+    "description": "Lor’themar Theron, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-original-raid",
+      "sunwell-epilogue-transcript"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "loramus-thalipedes",
     "type": "entity",
     "name": "Loramus Thalipedes",
@@ -6173,6 +6373,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "madrigosa",
+    "type": "entity",
+    "name": "Madrigosa",
+    "slug": "madrigosa",
+    "path": "/locations/madrigosa",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art"
+    ],
+    "description": "Madrigosa, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-brutallus-encounter",
+      "sunwell-madrigosa-felmyst"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "maelstrom",
     "type": "entity",
     "name": "The Maelstrom",
@@ -6208,6 +6427,25 @@
     "sourceIds": [
       "hero-maghar-chain",
       "hero-maghar-nagrand-visual"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "magisters-terrace-sunwell",
+    "type": "entity",
+    "name": "Magisters' Terrace",
+    "slug": "magisters-terrace-sunwell",
+    "path": "/locations/magisters-terrace-sunwell",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "burning-crusade-location"
+    ],
+    "description": "Magisters' Terrace, a Burning Crusade setting in the Shattered Sun research story.",
+    "sourceIds": [
+      "sunwell-magisters-terrace-quests",
+      "sunwell-magisters-terrace-area"
     ],
     "contentStatus": "research"
   },
@@ -7022,6 +7260,44 @@
     "description": "A small interpretive violet-blue crystalline sphere for the quest objective; its shape does not claim a canonical item model.",
     "sourceIds": [
       "champion-naaru-strength-quest-10885"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "muru-entropius",
+    "type": "entity",
+    "name": "M'uru / Entropius",
+    "slug": "muru-entropius",
+    "path": "/locations/muru-entropius",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art"
+    ],
+    "description": "M'uru / Entropius, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-muru-encounter",
+      "sunwell-epilogue-transcript"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "muru-heart",
+    "type": "entity",
+    "name": "The recovered heart of M'uru",
+    "slug": "muru-heart",
+    "path": "/locations/muru-heart",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art"
+    ],
+    "description": "The recovered heart of M'uru, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-epilogue-transcript",
+      "sunwell-blizzard-fury-timeline"
     ],
     "contentStatus": "research"
   },
@@ -7938,6 +8214,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "prophet-velen",
+    "type": "entity",
+    "name": "Prophet Velen",
+    "slug": "prophet-velen",
+    "path": "/locations/prophet-velen",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art"
+    ],
+    "description": "Prophet Velen, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-epilogue-transcript",
+      "sunwell-blizzard-fury-timeline"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "quel-delar",
     "type": "entity",
     "name": "Quel’Delar",
@@ -8410,6 +8705,25 @@
     "sourceIds": [
       "warcraft-chronicle-volume-1",
       "blizzard-well-of-eternity-preview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "sathrovarr-the-corruptor",
+    "type": "entity",
+    "name": "Sathrovarr the Corruptor",
+    "slug": "sathrovarr-the-corruptor",
+    "path": "/locations/sathrovarr-the-corruptor",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "interpretive-art"
+    ],
+    "description": "Sathrovarr the Corruptor, represented in the Shattered Sun and Sunwell research story.",
+    "sourceIds": [
+      "sunwell-kalecgos-encounter",
+      "sunwell-original-raid"
     ],
     "contentStatus": "research"
   },
@@ -9288,6 +9602,27 @@
     "contentStatus": "research"
   },
   {
+    "id": "shattered-sun-offensive",
+    "type": "entity",
+    "name": "The Shattered Sun Offensive",
+    "slug": "shattered-sun-offensive",
+    "path": "/factions/shattered-sun-offensive",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "burning-crusade",
+      "shattered-sun-sunwell-story",
+      "coalition"
+    ],
+    "description": "A joint blood-elf and draenei task force formed to stop Kael'thas and Kil'jaeden at the Sunwell.",
+    "sourceIds": [
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release",
+      "sunwell-shattered-sun-offensive"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "shattrath-city",
     "type": "entity",
     "name": "Shattrath City",
@@ -9340,11 +9675,14 @@
     "aliases": [],
     "tags": [
       "akama-story",
-      "story-setting"
+      "story-setting",
+      "shattered-sun-sunwell-story"
     ],
     "description": "Shattrath, Terrace of Light, a named setting in the Akama and Black Temple research story.",
     "sourceIds": [
-      "akama-promise-quest"
+      "akama-promise-quest",
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release"
     ],
     "contentStatus": "research"
   },
@@ -9384,6 +9722,24 @@
     "sourceIds": [
       "tirion-taelan-lost-honor-locator",
       "tirion-taelan-in-dreams-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "silvermoon-city",
+    "type": "entity",
+    "name": "Silvermoon City",
+    "slug": "silvermoon-city",
+    "path": "/locations/silvermoon-city",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "burning-crusade-location"
+    ],
+    "description": "Silvermoon City, a Burning Crusade setting in the Shattered Sun research story.",
+    "sourceIds": [
+      "sunwell-blizzard-fury-timeline"
     ],
     "contentStatus": "research"
   },
@@ -9690,7 +10046,8 @@
       "arcane",
       "quelthalas",
       "midnight",
-      "dawnwell"
+      "dawnwell",
+      "shattered-sun-sunwell-story"
     ],
     "description": "The arcane fount created by the high elves at a convergence of ley energies in their new homeland.",
     "sourceIds": [
@@ -9698,7 +10055,29 @@
       "blizzard-burning-crusade-story-so-far",
       "warcraft-chronicle-volume-3",
       "blizzard-warcraft-iii-reforged-overview",
-      "blizzard-midnight-timeline"
+      "blizzard-midnight-timeline",
+      "sunwell-blizzard-classic-release",
+      "sunwell-epilogue-transcript"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "sunwell-plateau-quel-danas",
+    "type": "entity",
+    "name": "Sunwell Plateau",
+    "slug": "sunwell-plateau-quel-danas",
+    "path": "/locations/sunwell-plateau-quel-danas",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "shattered-sun-sunwell-story",
+      "burning-crusade-location"
+    ],
+    "description": "Sunwell Plateau, a Burning Crusade setting in the Shattered Sun research story.",
+    "sourceIds": [
+      "sunwell-blizzard-classic-release",
+      "sunwell-original-raid",
+      "sunwell-epilogue-transcript"
     ],
     "contentStatus": "research"
   },
@@ -17756,6 +18135,362 @@
     "contentStatus": "research"
   },
   {
+    "id": "shattered-sun-and-sunwell-story-a-fount-for-a-new-home-event",
+    "type": "event",
+    "name": "A fount for a new home",
+    "slug": "shattered-sun-and-sunwell-story-a-fount-for-a-new-home-event",
+    "path": "/events/shattered-sun-and-sunwell-story-a-fount-for-a-new-home-event",
+    "eraId": "long-vigil-new-kingdoms",
+    "aliases": [],
+    "tags": [],
+    "description": "Long before this campaign, exiles from Kalimdor crossed to the northern Eastern Kingdoms and made Quel’Thalas their home. There, at a convergence of arcane power, they raised the Sunwell. Its waters became a center of their new nation and a source the blood elves would later struggle to live without. The people built their home around the fount, and all that followed would be measured against its loss.",
+    "sourceIds": [
+      "warcraft-chronicle-volume-1",
+      "blizzard-burning-crusade-story-so-far"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-a-sacred-water-defiled-event",
+    "type": "event",
+    "name": "A sacred water defiled",
+    "slug": "shattered-sun-and-sunwell-story-a-sacred-water-defiled-event",
+    "path": "/events/shattered-sun-and-sunwell-story-a-sacred-water-defiled-event",
+    "eraId": "third-war-frozen-throne",
+    "aliases": [],
+    "tags": [],
+    "description": "When the Scourge reached Quel’Thalas, its advance ended in ruin for the kingdom. Arthas Menethil corrupted the Sunwell in the course of that invasion. The fount that had sustained the high elves was lost, leaving the surviving blood elves to seek other ways through their hunger for magic. Its loss cast a long shadow across the years ahead.",
+    "sourceIds": [
+      "warcraft-chronicle-volume-3",
+      "blizzard-warcraft-iii-reforged-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-anveena-acts-event",
+    "type": "event",
+    "name": "Anveena’s choice",
+    "slug": "shattered-sun-and-sunwell-story-anveena-acts-event",
+    "path": "/events/shattered-sun-and-sunwell-story-anveena-acts-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "As Kil’jaeden threatens to break through, Anveena turns her power against him. Her sacrifice weakens the demon, and the attackers drive him from the well. The light she gives is spent; still, taint remains in the waters below.",
+    "sourceIds": [
+      "sunwell-kiljaeden-encounter",
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release",
+      "sunwell-original-raid"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-brutallus-and-madrigosa-event",
+    "type": "event",
+    "name": "Brutallus and Madrigosa",
+    "slug": "shattered-sun-and-sunwell-story-brutallus-and-madrigosa-event",
+    "path": "/events/shattered-sun-and-sunwell-story-brutallus-and-madrigosa-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Above the Dead Scar, Madrigosa challenges Brutallus. The pit lord strikes the blue dragon down, and her fall dims the defenders’ hopes. Yet the fel blood spilled from Brutallus will not leave her body in peace.",
+    "sourceIds": [
+      "sunwell-brutallus-encounter",
+      "sunwell-madrigosa-felmyst",
+      "sunwell-blizzard-classic-release",
+      "sunwell-original-raid"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-felmyst-rises-event",
+    "type": "event",
+    "name": "Felmyst rises",
+    "slug": "shattered-sun-and-sunwell-story-felmyst-rises-event",
+    "path": "/events/shattered-sun-and-sunwell-story-felmyst-rises-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "From Brutallus’s wound, fel blood spreads beneath Madrigosa and stirs the fallen dragon once more. She rises as Felmyst, her blue form emptied of its old grace and wreathed in green fire. The cost of the battle follows the attackers deeper into the plateau.",
+    "sourceIds": [
+      "sunwell-madrigosa-felmyst",
+      "sunwell-blizzard-classic-release",
+      "sunwell-original-raid"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-kael-at-the-terrace-event",
+    "type": "event",
+    "name": "Kael’thas at the Terrace",
+    "slug": "shattered-sun-and-sunwell-story-kael-at-the-terrace-event",
+    "path": "/events/shattered-sun-and-sunwell-story-kael-at-the-terrace-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Elsewhere on the isle, the Shattered Sun confronts Kael’thas within Magisters’ Terrace. His stand ends there; at the plateau, the Sunwell remains beneath his design. The prince is stopped, yet the fount itself is still in danger.",
+    "sourceIds": [
+      "sunwell-magisters-terrace-area",
+      "sunwell-magisters-terrace-quests",
+      "sunwell-blizzard-fury-timeline"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-kalecgos-under-control-event",
+    "type": "event",
+    "name": "Kalecgos under control",
+    "slug": "shattered-sun-and-sunwell-story-kalecgos-under-control-event",
+    "path": "/events/shattered-sun-and-sunwell-story-kalecgos-under-control-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At the edge of the inner sanctum, Sathrovarr holds Kalecgos in thrall. The blue dragon fights from within a shadowed realm even as allies face the dreadlord outside. When his captor’s hold breaks, Kalecgos is free to lend his strength to the defense.",
+    "sourceIds": [
+      "sunwell-kalecgos-encounter",
+      "sunwell-original-raid",
+      "sunwell-blizzard-classic-release"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-kiljaeden-crosses-the-well-event",
+    "type": "event",
+    "name": "Kil’jaeden crosses the well",
+    "slug": "shattered-sun-and-sunwell-story-kiljaeden-crosses-the-well-event",
+    "path": "/events/shattered-sun-and-sunwell-story-kiljaeden-crosses-the-well-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At the last chamber, Kil’jaeden rises from the Sunwell, and the portal he sought begins to take shape. Kalecgos and the blue dragonflight join the defense around the threatened fount. Only Anveena’s act can break the demon’s advance.",
+    "sourceIds": [
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release",
+      "sunwell-kiljaeden-encounter",
+      "sunwell-original-raid"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-muru-becomes-entropius-event",
+    "type": "event",
+    "name": "M’uru and Entropius",
+    "slug": "shattered-sun-and-sunwell-story-muru-becomes-entropius-event",
+    "path": "/events/shattered-sun-and-sunwell-story-muru-becomes-entropius-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Within the Shrine of the Eclipse, the Offensive reaches M’uru, the naaru taken from Silvermoon. Its light has darkened into Entropius, and the defenders are forced to destroy the captive they had hoped to save. A spark endures within the heart that remains.",
+    "sourceIds": [
+      "sunwell-muru-encounter",
+      "sunwell-epilogue-transcript",
+      "sunwell-blizzard-classic-release",
+      "sunwell-original-raid"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell-event",
+    "type": "event",
+    "name": "The heart renews the Sunwell",
+    "slug": "shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell-event",
+    "path": "/events/shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Velen arrives with Lady Liadrin and recovers the spark that remains in M’uru’s heart. He turns it upon the tainted water, and the Sunwell shines again, bearing both arcane light and the naaru’s gift. Liadrin grieves for what the Blood Knights did to M’uru; Velen answers with hope for what may grow from the loss. The old danger is ended, while the future of the nation is left open.",
+    "sourceIds": [
+      "sunwell-epilogue-transcript",
+      "sunwell-blizzard-fury-timeline"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-outland-support-fronts-event",
+    "type": "event",
+    "name": "Outland supports the campaign",
+    "slug": "shattered-sun-and-sunwell-story-outland-support-fronts-event",
+    "path": "/events/shattered-sun-and-sunwell-story-outland-support-fronts-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The Offensive’s work reached back into Outland as well. Bands struck Sunfury holdings and gathered what the campaign needed, while other soldiers held the island front. Each force bore its own burden beneath the broken sky, far from the shore of Quel’Danas.",
+    "sourceIds": [
+      "sunwell-shattered-sun-offensive",
+      "sunwell-isle-phase-objectives"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-shattrath-stands-together-event",
+    "type": "event",
+    "name": "Shattrath stands together",
+    "slug": "shattered-sun-and-sunwell-story-shattrath-stands-together-event",
+    "path": "/events/shattered-sun-and-sunwell-story-shattrath-stands-together-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "In Shattrath, blood elves and draenei joined the Shattered Sun Offensive against Kael’thas and the Legion. The coalition crossed old divisions to confront a threat aimed at Quel’Thalas. Heroes of the Horde and Alliance also took part; together, they turned toward the endangered fount.",
+    "sourceIds": [
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release",
+      "sunwell-shattered-sun-offensive"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-shorehead-on-quel-danas-event",
+    "type": "event",
+    "name": "A shorehead on Quel’Danas",
+    "slug": "shattered-sun-and-sunwell-story-shorehead-on-quel-danas-event",
+    "path": "/events/shattered-sun-and-sunwell-story-shorehead-on-quel-danas-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The first position on the island is small and exposed. The Offensive arrives with limited forces near the Sunwell Plateau, where blood elves aligned with Kael’thas and demons hold the way inward. From that shorehead, the scattered coalition begins to press the island and its guarded approach.",
+    "sourceIds": [
+      "sunwell-blizzard-classic-release",
+      "sunwell-shattered-sun-offensive",
+      "sunwell-isle-phase-objectives"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-the-deceiver-driven-back-event",
+    "type": "event",
+    "name": "The Deceiver is driven back",
+    "slug": "shattered-sun-and-sunwell-story-the-deceiver-driven-back-event",
+    "path": "/events/shattered-sun-and-sunwell-story-the-deceiver-driven-back-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The heroes banish Kil’jaeden from the fount and stop the summoning before the Legion can pour through. The immediate invasion is ended. Yet the Sunwell’s waters remain polluted, and the blood elves face a second peril: the loss of the fount around which their kingdom gathered.",
+    "sourceIds": [
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release",
+      "sunwell-kiljaeden-encounter",
+      "sunwell-original-raid"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-the-eredar-twins-event",
+    "type": "event",
+    "name": "The paired warlocks",
+    "slug": "shattered-sun-and-sunwell-story-the-eredar-twins-event",
+    "path": "/events/shattered-sun-and-sunwell-story-the-eredar-twins-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Lady Sacrolash and Grand Warlock Alythess stand together before the deeper halls. Their crimson and violet powers guard the way toward M’uru. Together, the Eredar Twins form one last wall between the Offensive and the fount.",
+    "sourceIds": [
+      "sunwell-eredar-twins",
+      "sunwell-original-raid",
+      "sunwell-blizzard-classic-release"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-the-island-front-opens-event",
+    "type": "event",
+    "name": "The island front opens",
+    "slug": "shattered-sun-and-sunwell-story-the-island-front-opens-event",
+    "path": "/events/shattered-sun-and-sunwell-story-the-island-front-opens-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Across the sanctum, armory and harbor, the coalition presses against Kael’thas’s banners. Farther off, a portal opens toward Shattrath, widening the reach of the island front. Each gain brings the defenders nearer to the plateau and the fount they guard.",
+    "sourceIds": [
+      "sunwell-shattered-sun-offensive",
+      "sunwell-isle-phase-objectives",
+      "sunwell-blizzard-classic-release"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-the-missing-contact-event",
+    "type": "event",
+    "name": "The missing contact",
+    "slug": "shattered-sun-and-sunwell-story-the-missing-contact-event",
+    "path": "/events/shattered-sun-and-sunwell-story-the-missing-contact-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "An intelligence contact inside Magisters’ Terrace stops reporting. The Shattered Sun sends a search party into the blood-elf complex to find the missing spy and recover what they learned. Within those polished halls, the campaign meets another face of Kael’thas’s rule.",
+    "sourceIds": [
+      "sunwell-magisters-terrace-quests",
+      "sunwell-magisters-terrace-area"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-the-plateau-breach-event",
+    "type": "event",
+    "name": "The plateau breach",
+    "slug": "shattered-sun-and-sunwell-story-the-plateau-breach-event",
+    "path": "/events/shattered-sun-and-sunwell-story-the-plateau-breach-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Beyond the island’s outer battles lies Sunwell Plateau, where Kael’thas has turned the fount toward his summoning. Demons and corrupted light gather around the heart of Quel’Thalas. The defenders must cross the high sanctum and reach the well itself.",
+    "sourceIds": [
+      "sunwell-blizzard-classic-release",
+      "sunwell-original-raid"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-the-prince-returns-event",
+    "type": "event",
+    "name": "The prince returns",
+    "slug": "shattered-sun-and-sunwell-story-the-prince-returns-event",
+    "path": "/events/shattered-sun-and-sunwell-story-the-prince-returns-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "After his defeat in Outland, Kael’thas returned to Silvermoon. He betrayed the people he had promised to lead and turned toward a new design: using the Sunwell to summon Kil’jaeden. Thus the fount became an immediate danger once more, and an inheritance the blood elves could not reclaim.",
+    "sourceIds": [
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-the-tainted-fount-remains-event",
+    "type": "event",
+    "name": "A victory with a danger left",
+    "slug": "shattered-sun-and-sunwell-story-the-tainted-fount-remains-event",
+    "path": "/events/shattered-sun-and-sunwell-story-the-tainted-fount-remains-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Kil’jaeden is gone, yet corruption still clouds the Sunwell. Regent Lord Lor’themar considers destroying it lest the sickness spread beyond the fount. A victory has spared Quel’Thalas from one catastrophe, but the price may yet be the heart of the kingdom. Then Velen comes to honor M’uru.",
+    "sourceIds": [
+      "sunwell-original-raid",
+      "sunwell-epilogue-transcript",
+      "sunwell-blizzard-classic-release"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell-story-two-calls-to-the-isle-event",
+    "type": "event",
+    "name": "Two calls to the Isle",
+    "slug": "shattered-sun-and-sunwell-story-two-calls-to-the-isle-event",
+    "path": "/events/shattered-sun-and-sunwell-story-two-calls-to-the-isle-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "From Shattrath came two calls to the isle’s work. Aldor agents sent the seeker north with “Crisis at the Sunwell,” while the Scryers offered “Duty Calls.” The choice began on opposite sides of the Terrace of Light, yet both led across the sea toward Quel’Danas and the staging ground near the fount.",
+    "sourceIds": [
+      "sunwell-shattered-sun-offensive",
+      "sunwell-isle-phase-objectives",
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "shattrath-falls-to-horde",
     "type": "event",
     "name": "Shattrath Falls to the Horde",
@@ -19828,6 +20563,43 @@
       "scythe-of-elune-original-mystery-jitters-book-2161",
       "scythe-of-elune-original-mystery-jitters-quest-453",
       "scythe-of-elune-original-mystery-quest-chain-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "shattered-sun-and-sunwell",
+    "type": "storyline",
+    "name": "The Shattered Sun and the restored Sunwell",
+    "slug": "shattered-sun-and-sunwell",
+    "path": "/storylines/shattered-sun-and-sunwell",
+    "eraId": "age-of-adventurers",
+    "eraIds": [
+      "long-vigil-new-kingdoms",
+      "third-war-frozen-throne",
+      "age-of-adventurers"
+    ],
+    "aliases": [],
+    "tags": [],
+    "description": "Kael’thas turns toward the Sunwell to summon Kil’jaeden. Blood elves and draenei join the Shattered Sun Offensive across Quel’Danas and parallel Outland fronts; the Sunwell Plateau campaign ends in Anveena’s sacrifice and Velen’s renewal of the fount.",
+    "sourceIds": [
+      "warcraft-chronicle-volume-1",
+      "blizzard-burning-crusade-story-so-far",
+      "warcraft-chronicle-volume-3",
+      "blizzard-warcraft-iii-reforged-overview",
+      "sunwell-blizzard-fury-timeline",
+      "sunwell-blizzard-classic-release",
+      "sunwell-shattered-sun-offensive",
+      "sunwell-isle-phase-objectives",
+      "sunwell-magisters-terrace-quests",
+      "sunwell-magisters-terrace-area",
+      "sunwell-original-raid",
+      "sunwell-kalecgos-encounter",
+      "sunwell-brutallus-encounter",
+      "sunwell-madrigosa-felmyst",
+      "sunwell-eredar-twins",
+      "sunwell-muru-encounter",
+      "sunwell-epilogue-transcript",
+      "sunwell-kiljaeden-encounter"
     ],
     "contentStatus": "research"
   },

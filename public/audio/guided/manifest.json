@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T14:30:33.957Z",
+  "generatedAt": "2026-10-03T16:09:00.680Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 480,
-  "totalDurationMs": 12482925,
+  "trackCount": 501,
+  "totalDurationMs": 12906475,
   "tracks": [
     {
       "nodeId": "adventurers-story-alternate-draenor",
@@ -4332,6 +4332,195 @@
       "sha256": "b1633130af9ef81d2e02260f7b536c9b7bf6e793eb20a4f855e0d4b48060ccb5",
       "transcriptSha256": "9a67c5458a38bf6b8c2514b93d7dce0b4f9a5ee9306355f2e9be4aa6e80a9db5",
       "bytes": 349965
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-a-fount-for-a-new-home",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-a-fount-for-a-new-home.mp3",
+      "durationMs": 27750,
+      "sha256": "193297b2f1bb110d03dd5e2cda38d45394d246fe7ed557a91c5b3ae9f7818eb6",
+      "transcriptSha256": "a82eff4d0dccd7fdf614badbf36c66842a9370ad0189f47ac7823e75f5524511",
+      "bytes": 334125
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-a-sacred-water-defiled",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-a-sacred-water-defiled.mp3",
+      "durationMs": 24250,
+      "sha256": "add8ac4444796711e1ea9701e4e9e3c32f8fa2feb1897ec7c9ab4ac308988ec6",
+      "transcriptSha256": "4d8bddaaa29046c7487703f4d5930d090afb0ea3938f563b4d28a6804e878f0c",
+      "bytes": 292077
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-the-prince-returns",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-prince-returns.mp3",
+      "durationMs": 21025,
+      "sha256": "81d435882711b39fa3a1615ca80c20b6b5bc730253c8a05b66f818a045adaf45",
+      "transcriptSha256": "decbf6ea5253f4b446e3773812ac629489e19d21ef41cf0378b2e24726b1e8b6",
+      "bytes": 253485
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-shattrath-stands-together",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-shattrath-stands-together.mp3",
+      "durationMs": 21000,
+      "sha256": "fe086f95f12f7e43d4661c56a3fd6fd96fad5353bfb5e65a8a402e3dedf3986e",
+      "transcriptSha256": "fbbdb899f291a41539c49ffa437b2667578e655675199c29f2c0c9447de4af10",
+      "bytes": 252909
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-two-calls-to-the-isle",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-two-calls-to-the-isle.mp3",
+      "durationMs": 21550,
+      "sha256": "82eca7f9ec8fecfbe1a7f7a212c395c801bc7321a6cc12e669bcfd2843c336f4",
+      "transcriptSha256": "002ef2c4d32d1a2601d08f3cd1c870a4191f802a28635381afc86004dd872f73",
+      "bytes": 259533
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-shorehead-on-quel-danas",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-shorehead-on-quel-danas.mp3",
+      "durationMs": 21025,
+      "sha256": "0b5fa84fe7131b017d755110a2b9e8ca51332c02811894dd5bdba8aabb4c64f3",
+      "transcriptSha256": "1b48fd959df15f843b796f75b95e608294863adc0d3edd36209172f830562bf1",
+      "bytes": 253485
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-the-island-front-opens",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-island-front-opens.mp3",
+      "durationMs": 18750,
+      "sha256": "4a3a535f1e6eac4e4c027cc336bea26adb8fb5dab6be1f201d11ef9449d0a1aa",
+      "transcriptSha256": "9a35ca8db5275ab17fa4b5d2f5ffde590da4f25c3b04c8ad3a20b991e64302c4",
+      "bytes": 226125
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-outland-support-fronts",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-outland-support-fronts.mp3",
+      "durationMs": 19000,
+      "sha256": "a1e623a13bcf06afb9bf8486b09e8cd08d81019dd38642a90eb70765923ca271",
+      "transcriptSha256": "3775219da1a86031a03abe509fd101c6c82c9230bb3332b33d8bc3834c56de30",
+      "bytes": 229005
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-the-missing-contact",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-missing-contact.mp3",
+      "durationMs": 20175,
+      "sha256": "27e4e80c4f7c069cfee9d0c03be324183fa78ea5096ca70a118ce63bb1436edd",
+      "transcriptSha256": "ab79e4f07171feb5506e52146a00229994dbd61a46f3cf6d695f9f6c24f4195d",
+      "bytes": 243117
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-kael-at-the-terrace",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-kael-at-the-terrace.mp3",
+      "durationMs": 17000,
+      "sha256": "e424768f8e6a3a91a8b3243ec8cc6f4ef6dfccbdfb037614f9f1e050bf736c12",
+      "transcriptSha256": "9cde2c29d642294a46b42219bf60ae61adbf447e2396eae4d72402530d89d835",
+      "bytes": 205101
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-the-plateau-breach",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-plateau-breach.mp3",
+      "durationMs": 18100,
+      "sha256": "70e945f8cde2db383520f9b301ac6a6539eaf187c2e360e4e7c50f923154f0f6",
+      "transcriptSha256": "c509bbc85ada56bfaefd64502d6afb2a8ee39fff6eb569f05c16e52b98cee896",
+      "bytes": 218349
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-kalecgos-under-control",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-kalecgos-under-control.mp3",
+      "durationMs": 18000,
+      "sha256": "bc382212f248e9619b240bcfe842fdd0156268883446604a0f369eb8bcd15041",
+      "transcriptSha256": "81730e30989c3b997f2f1bd4758de99c56e190e9b3fd3dbdddfaed98f2630f62",
+      "bytes": 216909
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-brutallus-and-madrigosa",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-brutallus-and-madrigosa.mp3",
+      "durationMs": 15650,
+      "sha256": "40c101804c1a2a0a1f92da2e2c41dea2057848bed4c25089140907a6e6136fcf",
+      "transcriptSha256": "6b37ee93b12df032307a7b35a6a55871ada80fe9b4a7c7deac79d5743b7342b8",
+      "bytes": 188973
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-felmyst-rises",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-felmyst-rises.mp3",
+      "durationMs": 20250,
+      "sha256": "2846cb06a320b48d1dd39726296c7055981a1aefc278bc03a8bb0b173563bd37",
+      "transcriptSha256": "8b265e25f8f6d517839a9d3efebc4d61b8f510802bee968599f92574f904434c",
+      "bytes": 243981
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-the-eredar-twins",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-eredar-twins.mp3",
+      "durationMs": 17900,
+      "sha256": "3b5b14643e84472bf11845e5d05494e8db2b8ed958da50b07a8220c06908bd46",
+      "transcriptSha256": "012c96b7463b036089ad8884c935a2f04d2cd945633b12552eac77d7e83e880c",
+      "bytes": 215757
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-muru-becomes-entropius",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-muru-becomes-entropius.mp3",
+      "durationMs": 18925,
+      "sha256": "715078c213951b99a8f18dce3fb59239e0bcc8ae9f7ec6713de4f5cbe77a9493",
+      "transcriptSha256": "7353160a9979a02fed3999fdd2b102d85463996583870bb4d9db7fa41a66cea9",
+      "bytes": 228141
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-kiljaeden-crosses-the-well",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-kiljaeden-crosses-the-well.mp3",
+      "durationMs": 17425,
+      "sha256": "fcdb0d9f907b1abda6041d7c8461308e2028d8f307366ea7ff8ebc08ed2f8b04",
+      "transcriptSha256": "52165a61d2337b17ef7c4b137ea8895bdd007bb1164f8d0c333a05fb5b025344",
+      "bytes": 210285
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-anveena-acts",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-anveena-acts.mp3",
+      "durationMs": 16650,
+      "sha256": "b9bc3c940596e0badcfcc397df45d918bff9d497cb63f39e18b8de5a5902f9d3",
+      "transcriptSha256": "36537730cc9c9a80dfe46a23ee586aac2968fb73541332d29e01dd85e66a8a4a",
+      "bytes": 200781
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-the-deceiver-driven-back",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-deceiver-driven-back.mp3",
+      "durationMs": 19875,
+      "sha256": "55e4e4c6c0d93273a41161561d70033f9c747e22215c246d4f5a0c30fb01729e",
+      "transcriptSha256": "555823217b7f7e5b754e4c2af36221fc1e24df98d5a84d629a8a5cef96bdaf00",
+      "bytes": 239661
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-the-tainted-fount-remains",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-the-tainted-fount-remains.mp3",
+      "durationMs": 21250,
+      "sha256": "a566d3dac80937194620b3d818bc9697f06f2a43af18334b793715bf54e5cf51",
+      "transcriptSha256": "86b0e9b11ab4e419ad51c4e5f5d40388f0637c91bd0c0bd9248a91b9fe009abc",
+      "bytes": 256077
+    },
+    {
+      "nodeId": "shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell",
+      "guideId": "shattered-sun-and-sunwell-guide",
+      "assetPath": "audio/guided/shattered-sun-and-sunwell-guide/shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell.mp3",
+      "durationMs": 28000,
+      "sha256": "30b4f6aa684166f5d7cda01bbd61a02b0bbe875663a11af4bc70f6956d6c0e0f",
+      "transcriptSha256": "0cc28e1e6c6e39cc21858513186c97dde0b38d1a607ea3bc79ffc717c776ca57",
+      "bytes": 337005
     }
   ]
 }
