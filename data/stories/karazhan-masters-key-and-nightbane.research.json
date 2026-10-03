@@ -3,7 +3,7 @@
     "id": "karazhan-masters-key-and-nightbane-guide",
     "eraId": "age-of-adventurers",
     "title": "Karazhan: The Master’s Key and Nightbane",
-    "description": "An 18-scene illustrated Burning Crusade research chronicle follows two distinct quest chains linked by Karazhan: Khadgar’s divided key, then the Violet Eye’s journal investigation and Nightbane.",
+    "description": "Alturus’s investigation leads Khadgar to restore a key divided across Outland. A separate Violet Eye search for Medivh’s Journal uncovers a memory of Arcanagos and a ritual that raises Nightbane.",
     "nodeIds": [
       "karazhan-masters-key-and-nightbane-story-reports-from-deadwind",
       "karazhan-masters-key-and-nightbane-story-beneath-the-tower",
@@ -31,8 +31,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-reports-from-deadwind",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "Reports from Deadwind Pass",
-      "narration": "Archmage Alturus watches the road below Karazhan while the Violet Eye studies a tower that has kept its doors closed. His first assignments open along two parallel paths: Arcane Disturbances and Restless Activity. One sends the seeker beneath the tower; the other concerns the restless dead around it. The quests establish a troubled place and an order to investigate. They do not establish that either task caused the tower’s condition, or that the source of every disturbance is already known.",
-      "durationMs": 63500,
+      "narration": "Below Karazhan, Archmage Alturus watched a tower whose doors had closed against the world. The Violet Eye sought answers among arcane disturbances and restless dead. Beneath the tower and around its grounds, the investigation began along separate paths. An old place had withdrawn into silence, leaving those outside to discover what troubled it and what had become of the people within.",
+      "durationMs": 49500,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-reports-from-deadwind-event"
       ],
@@ -64,7 +64,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-reports-from-deadwind.mp3",
-        "durationMs": 33075,
+        "durationMs": 29250,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -76,8 +76,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-beneath-the-tower",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "Beneath the sealed tower",
-      "narration": "Alturus gives the seeker a Violet Scrying Crystal and asks for readings from underground water in the Master’s Cellar. In the quest’s report, the expected arcane currents are absent: the tower registers as a vast energy vacuum, with only a faint demonic echo. That phrase is Alturus’s reading of the crystal, not a confirmed identity for the presence. The cellar returns a warning, but not yet an answer.",
-      "durationMs": 55000,
+      "narration": "Alturus gave the seeker a Violet Scrying Crystal to read the underground waters of the Master’s Cellar. The result troubled him. Where arcane currents should have flowed, he found a vast energy vacuum and only a faint demonic echo. The cellar had yielded a warning without naming the presence behind it. Above, Karazhan remained closed.",
+      "durationMs": 45000,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-beneath-the-tower-event"
       ],
@@ -109,7 +109,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-beneath-the-tower.mp3",
-        "durationMs": 28350,
+        "durationMs": 25350,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -122,8 +122,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-contact-from-dalaran",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "A report reaches Dalaran",
-      "narration": "Alturus sends his report to Archmage Cedric in Dalaran’s old crater. Cedric has learned that the tower sealed itself off and that the Violet Eye lost contact with agents within it. The new reading gives the old silence another urgency. Cedric points toward one person who might reopen the way: Khadgar, Medivh’s former apprentice, now living in Shattrath. The ruined crater is Dalaran’s original site, not the city’s later home in Northrend.",
-      "durationMs": 57500,
+      "narration": "Alturus’s report reached Archmage Cedric in Dalaran’s old crater. Cedric knew the tower had sealed itself, and that the Violet Eye had lost contact with agents inside. The strange reading deepened that silence. He pointed toward Khadgar, Medivh’s former apprentice, now in Shattrath. Someone who remembered the tower’s master might know how its door could be opened.",
+      "durationMs": 46500,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-contact-from-dalaran-event"
       ],
@@ -155,7 +155,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-contact-from-dalaran.mp3",
-        "durationMs": 29450,
+        "durationMs": 26750,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -168,8 +168,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-khadgar-in-shattrath",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "Khadgar in Shattrath",
-      "narration": "In Shattrath, Khadgar receives Alturus’s account and sees a familiar problem in it. Karazhan cannot simply be forced open; the Master’s Key once held that power, and he knows the key’s history. He will help restore it, though the next stages will cross Outland’s changed strongholds. The meeting begins the fragment quest line. It is a new undertaking prompted by Alturus’s report, not proof that the Violet Eye has already learned what happened inside the tower.",
-      "durationMs": 60500,
+      "narration": "In Shattrath, Khadgar received the report and recognized a familiar difficulty. Karazhan could not simply be forced open. The Master’s Key had once held that power, and he knew its history. He agreed to help restore it. The way back to the old tower would first pass through Outland’s changed strongholds, seeking what he had left there in another time.",
+      "durationMs": 49000,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-khadgar-in-shattrath-event"
       ],
@@ -201,7 +201,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-khadgar-in-shattrath.mp3",
-        "durationMs": 30175,
+        "durationMs": 25000,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -214,8 +214,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-a-key-in-three-pieces",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "A key in three pieces",
-      "narration": "Khadgar explains that, while stranded in Outland, he split his key into three and hid the pieces inside enchanted containers. The places seemed safe when he chose them; Outland has changed since then. His explanation gives the search its shape, but not a single road: each fragment lies in a separate dungeon, and each location reflects a world now fought over by new powers.",
-      "durationMs": 52000,
+      "narration": "While stranded in Outland, Khadgar had divided his key into three fragments and hidden them in enchanted containers. Their resting places had seemed safe then. The broken world had changed since, and each refuge now bore other dangers. To restore the key, the seeker would have to recover its pieces from places no longer sheltered as their keeper remembered them.",
+      "durationMs": 49000,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-a-key-in-three-pieces-event"
       ],
@@ -247,7 +247,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-a-key-in-three-pieces.mp3",
-        "durationMs": 26100,
+        "durationMs": 26025,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -260,7 +260,7 @@
       "id": "karazhan-masters-key-and-nightbane-story-first-key-fragment",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "The first fragment in Auchindoun",
-      "narration": "The first fragment rests in the Shadow Labyrinth, among passages occupied by the Shadow Council. Khadgar’s account places the container there because the labyrinth once seemed a safe hiding place. The return of the fragment changes the key from a distant memory into a recoverable object. It does not yet open the tower; two pieces remain beyond reach.",
+      "narration": "One fragment waited in the Shadow Labyrinth, among passages occupied by the Shadow Council. Khadgar had once trusted that hiding place. Its recovery brought a part of the key out of his memory and into the seeker’s hands. Yet Karazhan’s door remained beyond reach. Elsewhere in Outland, two more fragments lay within strongholds changed by time and occupation.",
       "durationMs": 47500,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-first-key-fragment-event"
@@ -293,7 +293,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-first-key-fragment.mp3",
-        "durationMs": 24575,
+        "durationMs": 27300,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -306,8 +306,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-second-key-fragment",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "A fragment under the Steamvault",
-      "narration": "The second container is found in the Steamvault beneath Coilfang Reservoir. Khadgar recalls hiding it under Serpent Lake before the place was known by that name; he suspects the naga’s great drain carried it into the reservoir. That explanation is his best account of a changed landscape, not a witnessed transfer. The fragment is recovered, while the precise course of its movement remains uncertain.",
-      "durationMs": 52000,
+      "narration": "Another container was recovered in the Steamvault beneath Coilfang Reservoir. Khadgar had hidden it under Serpent Lake before the place bore that name. He suspected the naga’s great drain had carried it into the reservoir. Whatever course the waters had given it, the fragment was found. A changed landscape had yielded another part of the old key.",
+      "durationMs": 46500,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-second-key-fragment-event"
       ],
@@ -339,7 +339,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-second-key-fragment.mp3",
-        "durationMs": 27025,
+        "durationMs": 24800,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -352,8 +352,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-third-key-fragment",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "The prison above Netherstorm",
-      "narration": "The third fragment lies within the Arcatraz, a prison in the Tempest Keep complex. Khadgar had hidden it while the naaru held the fortress; by the time the seeker arrives, Kael’thas’s forces have turned the vessel into a place of confinement. The key’s last piece is retrieved from a refuge that has become dangerous. The three fragments can now be taken back to their maker.",
-      "durationMs": 52500,
+      "narration": "The last fragment lay in the Arcatraz, a prison within Tempest Keep. Khadgar had hidden it when the naaru held the fortress. Now Kael’thas’s forces had turned the vessel into a place of confinement. From a refuge made dangerous, the seeker recovered the final piece. All three could return to the man who had divided them.",
+      "durationMs": 46000,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-third-key-fragment-event"
       ],
@@ -385,7 +385,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-third-key-fragment.mp3",
-        "durationMs": 25100,
+        "durationMs": 23200,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -398,8 +398,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-the-masters-touch",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "The Master’s Touch",
-      "narration": "Khadgar restores the key but says it will remain useless without Medivh’s consent. In the Black Morass, the seeker travels to a remembered past at the Opening of the Dark Portal. There, Medivh recognizes the key as Khadgar’s and acknowledges that he has not yet given it to his apprentice. The meeting belongs to a time-travel quest scene, not to a present-day journey through the swamp. The key receives the permission Khadgar could not grant for himself.",
-      "durationMs": 61500,
+      "narration": "Khadgar restored the key, but it still required Medivh’s consent. Through time, the seeker entered the Black Morass at the Opening of the Dark Portal. Medivh recognized the key as Khadgar’s, though he had not yet given it to his apprentice. Within that remembered past, the restored object received the permission its keeper could not grant for himself.",
+      "durationMs": 47500,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-the-masters-touch-event"
       ],
@@ -432,7 +432,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-the-masters-touch.mp3",
-        "durationMs": 29450,
+        "durationMs": 24650,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -445,8 +445,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-return-to-khadgar",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "The key returns to Shattrath",
-      "narration": "The restored key returns to Khadgar in Shattrath, and the attunement chain reaches its stated end. A way into Karazhan now exists. The tower’s condition and the fate of its trapped investigators remain matters for the Violet Eye to examine. That distinction closes one quest and leaves another question standing at the gate.",
-      "durationMs": 44000,
+      "narration": "The key returned to Khadgar in Shattrath. A way into Karazhan now existed. Across changed strongholds and a memory of the past, the seeker had restored the means of entry. Yet an open door could not explain the tower’s silence or the fate of its investigators. Those questions remained with the Violet Eye, waiting beyond the threshold.",
+      "durationMs": 46500,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-return-to-khadgar-event"
       ],
@@ -478,7 +478,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-return-to-khadgar.mp3",
-        "durationMs": 22875,
+        "durationMs": 24900,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -491,8 +491,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-the-journal-search",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "A separate search for the journal",
-      "narration": "The Violet Eye’s next inquiry is related by the tower, not by a shared quest dependency: after establishing a foothold inside Karazhan and earning the required standing, Alturus asks the adventurer to find Medivh’s Journal. Agents sent before have not returned; Wravien was the last named seeker. This is a distinct research chain joined here for its evidence about the tower’s history. It does not follow automatically from handing Khadgar the key.",
-      "durationMs": 57500,
+      "narration": "Within Karazhan, another Violet Eye inquiry sought Medivh’s Journal. Alturus’s earlier agents had not returned; Wravien was the last named seeker. The tower linked this search to the work that had opened its door, but the lost book carried a burden of its own. Among halls rich with knowledge, the investigators hoped to recover a memory of the Guardian himself.",
+      "durationMs": 49000,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-the-journal-search-event"
       ],
@@ -525,7 +525,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-the-journal-search.mp3",
-        "durationMs": 30525,
+        "durationMs": 26475,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -538,8 +538,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-the-lost-investigators",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "The investigators among the books",
-      "narration": "Inside the Guardian’s Library, Wravien struggles to remember his commission and sends the seeker to Gradav. Gradav also cannot leave his own work, then points toward Kamsis. The three exchanges make the library’s abundance part of the obstacle: each agent offers a fragment of direction, while none can simply lead the search to its end. Their quest dialogue records confusion and fixation; it does not fully explain what the tower has done to them.",
-      "durationMs": 59000,
+      "narration": "In the Guardian’s Library, Wravien struggled to remember his commission. He directed the seeker to Gradav, whose own work held him fast; Gradav pointed onward to Kamsis. Each offered part of the way, yet none could simply lead the search to its end. The library’s abundance had become an obstacle, and the lost investigators remained caught within their confusion and fixation.",
+      "durationMs": 49500,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-the-lost-investigators-event"
       ],
@@ -574,7 +574,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-the-lost-investigators.mp3",
-        "durationMs": 29800,
+        "durationMs": 26950,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -587,8 +587,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-the-shade-and-journal",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "The Shade of Aran and the journal",
-      "narration": "Kamsis directs the search toward the Shade of Aran, Medivh’s father. When the shade is overcome, Medivh’s Journal is recovered from the encounter and returned to the Violet Eye’s inquiry. The discovery changes the work from searching for a lost book to reading what the book can reveal. Its pages are not a neutral report from an observer: the next quest treats them as a way to witness one of Medivh’s own memories.",
-      "durationMs": 58500,
+      "narration": "Kamsis directed the seeker toward the Shade of Aran, Medivh’s father. When the shade was overcome, the Journal was recovered. A search for a lost book had reached the chance to witness what its pages preserved. Within Karazhan’s guarded knowledge waited one of Medivh’s own memories, bearing a danger older than the Violet Eye’s present inquiry.",
+      "durationMs": 46000,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-the-shade-and-journal-event"
       ],
@@ -621,7 +621,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-the-shade-and-journal.mp3",
-        "durationMs": 27425,
+        "durationMs": 24900,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -634,8 +634,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-memory-of-arcanagos",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "A memory of Arcanagos",
-      "narration": "On the Master’s Terrace, the journal opens onto an older meeting. The blue dragon Arcanagos warns Medivh that a dark power seeks to use him, and urges him to leave the tower. Medivh refuses. Magic burns through the dragon from within; Arcanagos flies away aflame. The scene is a memory carried by the journal, not a new event occurring during the Violet Eye’s present investigation.",
-      "durationMs": 52500,
+      "narration": "On the Master’s Terrace, the Journal opened upon an older meeting. Arcanagos, a blue dragon, warned Medivh that a dark power sought to use him and urged him to leave. Medivh refused. Magic burned through the dragon from within, and Arcanagos fled aflame. The memory closed upon a terrible act whose remains might still carry part of its meaning.",
+      "durationMs": 48000,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-memory-of-arcanagos-event"
       ],
@@ -668,7 +668,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-memory-of-arcanagos.mp3",
-        "durationMs": 27125,
+        "durationMs": 26150,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -681,8 +681,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-charred-evidence",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "A question among the ashes",
-      "narration": "After studying the journal, Alturus proposes that Medivh may have woven some of his essence into the magic that defeated Arcanagos. If so, he reasons, a trace might remain in the dragon’s bones. The quest sends the seeker to find a Charred Bone Fragment in the mountains south of Karazhan. This is Alturus’s hypothesis and a search for evidence, not a confirmation that the essence can be recovered.",
-      "durationMs": 55000,
+      "narration": "Alturus wondered whether Medivh had woven some of his essence into the magic that defeated Arcanagos. Perhaps a trace endured in the dragon’s bones. The seeker searched the mountains south of Karazhan and recovered a charred fragment. It was a beginning for the archmage’s inquiry, carrying the possibility of an answer without yet proving what the old magic had left behind.",
+      "durationMs": 49500,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-charred-evidence-event"
       ],
@@ -727,7 +727,7 @@
       "id": "karazhan-masters-key-and-nightbane-story-kalynnas-aid",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "Kalynna’s offer",
-      "narration": "Alturus sends the bone to Kalynna Lathred in Area 52. She once belonged to the Kirin Tor, but now follows studies her old order forbade. The fragment’s essence, Alturus says, is lifeless—like Arcanagos. Kalynna believes she can help, but her own research has a cost. Her answer turns the Violet Eye’s question into a bargain between scholars with different boundaries.",
+      "narration": "The bone was sent to Kalynna Lathred in Area 52. Once of the Kirin Tor, she now pursued studies her old order forbade. Alturus called the fragment’s essence lifeless, like Arcanagos himself. Kalynna believed she could help, but asked a price. The Violet Eye’s question had reached a scholar whose boundaries differed from those of the order she had left.",
       "durationMs": 49000,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-kalynnas-aid-event"
@@ -761,7 +761,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-kalynnas-aid.mp3",
-        "durationMs": 26275,
+        "durationMs": 25800,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -774,8 +774,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-kalynnas-request",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "Two books, two halls",
-      "narration": "Kalynna asks for two books before she will complete the favor. The Tome of Dusk belongs to the orc warlock Nethekurse in the Shattered Halls; the Book of Forgotten Names is held by Darkweaver Syth in Sethekk Halls. The quest requires heroic versions of both dungeons. These are the terms of a research exchange, not separate historical turning points, and the two halls retain their distinct landscapes in this paired itinerary.",
-      "durationMs": 57000,
+      "narration": "Kalynna demanded two books before completing the favor. Nethekurse held the Tome of Dusk in the Shattered Halls; Darkweaver Syth held the Book of Forgotten Names in Sethekk Halls. Separate journeys brought the volumes within reach. The bargain joined forbidden study to the search for Medivh’s lingering essence, preparing the means to call forth what remained of the dragon.",
+      "durationMs": 48000,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-kalynnas-request-event"
       ],
@@ -807,7 +807,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-kalynnas-request.mp3",
-        "durationMs": 28300,
+        "durationMs": 26250,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -820,8 +820,8 @@
       "id": "karazhan-masters-key-and-nightbane-story-nightbane-raised",
       "guideId": "karazhan-masters-key-and-nightbane-guide",
       "title": "Nightbane on the terrace",
-      "narration": "With Kalynna’s materials placed in a Blackened Urn, the seeker returns to the Master’s Terrace and sets it alight. The quest says the released energy raises Arcanagos’s charred remains as Nightbane. The adventurer defeats the dragon and carries its essence back to Alturus, whose hope is to study what the fragment may reveal about Medivh. The chain ends with a sample and a research question—not a complete explanation of the Guardian’s magic, nor a later chapter in Arcanagos’s history.",
-      "durationMs": 63000,
+      "narration": "On the Master’s Terrace, Kalynna’s materials were set alight within a Blackened Urn. The released energy raised Arcanagos’s charred remains as Nightbane. The adventurer defeated him and carried his essence to Alturus. The old memory had yielded a sample, but no full explanation of the Guardian’s power. Above Karazhan, the inquiry ended with an answer still waiting to be understood.",
+      "durationMs": 49000,
       "eventIds": [
         "karazhan-masters-key-and-nightbane-nightbane-raised-event"
       ],
@@ -856,7 +856,7 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/karazhan-masters-key-and-nightbane-guide/karazhan-masters-key-and-nightbane-story-nightbane-raised.mp3",
-        "durationMs": 32025,
+        "durationMs": 27775,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },

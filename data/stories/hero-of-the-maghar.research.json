@@ -3,7 +3,7 @@
     "id": "hero-of-the-maghar-guide",
     "eraId": "age-of-adventurers",
     "title": "Hero of the Mag'har · Garrosh, Geyah, and Thrall",
-    "description": "Fifteen illustrated TBC scenes follow Garrosh's burden through the ancestor quest, the Light and Void cycle, Geyah's message to Thrall, and the remembered battle that restores Garrosh's pride. Later history is excluded.",
+    "description": "Garrosh's shame leads the seeker from Garadar to Oshu'gun, Shattrath, and Auchindoun. The ancestors' danger brings a message to Thrall, whose return and account of Grom's sacrifice change the name Garrosh can bear.",
     "nodeIds": [
       "hero-of-the-maghar-story-garadar-burden",
       "hero-of-the-maghar-story-greatmother-counsel",
@@ -28,7 +28,7 @@
       "id": "hero-of-the-maghar-story-garadar-burden",
       "guideId": "hero-of-the-maghar-guide",
       "title": "Garadar beneath the Hellscream name",
-      "narration": "Garadar is no fortress of a conquering clan. It is a home held together beneath Nagrand's bright sky, where the Mag'har endure without the strength of the greater Horde around them. At its center stands Garrosh Hellscream, son of a name that brings him no comfort. He remembers Grom through the corruption that claimed the old chieftain and fears that the same rage may live in him. The quest sends the seeker first to Greatmother Geyah. Before Garrosh can imagine a future for his people, the weight of the past must be spoken aloud.",
+      "narration": "Garadar endured beneath Nagrand’s bright sky, a home held together without the strength of the greater Horde around it. At its center stood Garrosh Hellscream, burdened by his father’s name. He remembered Grom through the corruption that had claimed him and feared the same rage within himself. Greatmother Geyah waited with an older memory. Before Garrosh could imagine a future, the weight of that past had to be heard.",
       "eventIds": [
         "hero-of-the-maghar-garadar-burden-event"
       ],
@@ -63,16 +63,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-garadar-burden.mp3",
-        "durationMs": 37550,
+        "durationMs": 29825,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 55500
     },
     {
       "id": "hero-of-the-maghar-story-greatmother-counsel",
       "guideId": "hero-of-the-maghar-guide",
       "title": "The Greatmother's path",
-      "narration": "Geyah receives the seeker as a guest of her people and gives a small task before the deeper questions begin. The chain asks for materials gathered across Outland, then turns them into a potion. Those repeated errands are compressed here; the story is not a record of every plant picked or each path crossed. The important change is one of readiness. Geyah is opening a way toward a witness older than Garrosh's grief: the ancestors who still walk the green places of Nagrand. Her next direction leads beyond the village, to Mother Kashur.",
+      "narration": "Geyah welcomed the seeker as a guest of her people. Materials gathered across Outland were prepared into a potion, opening the way toward the ancestors who still walked Nagrand’s green places. Beyond the village waited Mother Kashur. Garrosh’s grief had drawn the visitor to Garadar; now the Greatmother’s counsel led toward a memory older than his sorrow.",
       "eventIds": [
         "hero-of-the-maghar-greatmother-counsel-event"
       ],
@@ -109,16 +110,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-greatmother-counsel.mp3",
-        "durationMs": 38950,
+        "durationMs": 26125,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 46500
     },
     {
       "id": "hero-of-the-maghar-story-mother-kashurs-counsel",
       "guideId": "hero-of-the-maghar-guide",
       "title": "A listening place",
-      "narration": "The Ancestral Grounds hold the valley's memory in quieter forms: weathered stones, a spring, and the presence of those who came before. Mother Kashur receives the seeker there. Geyah's preparation has brought the traveler to a listening place, but no potion can make the ancestors' meaning simple. Their unrest is the question now. Mother Kashur turns the inquiry outward, asking that the old sites be visited and the spirits' words carried back. The story follows that chain of testimony rather than inventing a private vision or a prophecy the quests do not give.",
+      "narration": "At the Ancestral Grounds, weathered stones and a spring marked a place of listening. Mother Kashur received the seeker there. The ancestors were restless, and their meaning could not be made simple by Geyah’s preparation alone. Kashur asked that the old sites be visited and the spirits’ words brought back. The valley’s quiet held a question the living had yet to understand.",
       "eventIds": [
         "hero-of-the-maghar-mother-kashurs-counsel-event"
       ],
@@ -154,16 +156,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-mother-kashurs-counsel.mp3",
-        "durationMs": 41775,
+        "durationMs": 26800,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 50500
     },
     {
       "id": "hero-of-the-maghar-story-ancestors-walk-south",
       "guideId": "hero-of-the-maghar-guide",
       "title": "A valley of restless voices",
-      "narration": "The first reports are not of an army crossing the grass, but of spirits who cannot rest. Their broken words speak of a call from the south, so Mother Kashur sends the seeker to look and listen. The investigation reaches Sunspring Post, the Laughing Skull ruins, Garadar, and the Bleeding Hollow ruins; at each, different fragments of memory carry the same pull. The ancestors speak of Oshu'gun, the pale mountain that has long watched over the valley. The quest does not establish that every spirit has left or that these sites share one history. It gives a route of witnesses whose words point in the same direction. A scattered unease now has a destination, and Mother Kashur sends the seeker onward.",
+      "narration": "At Sunspring Post, the Laughing Skull ruins, Garadar and the Bleeding Hollow ruins, restless spirits spoke of a call from the south. Their broken words pointed toward Oshu’gun, the pale mountain that had long watched over Nagrand. Scattered unease had found a destination. Mother Kashur sent the seeker onward, toward the place drawing the ancestors beyond their familiar grounds.",
       "eventIds": [
         "hero-of-the-maghar-ancestors-walk-south-event"
       ],
@@ -200,16 +203,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-ancestors-walk-south.mp3",
-        "durationMs": 51275,
+        "durationMs": 28900,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 48000
     },
     {
       "id": "hero-of-the-maghar-story-oshugun-calls",
       "guideId": "hero-of-the-maghar-guide",
       "title": "The mountain calls",
-      "narration": "Oshu'gun rises from Nagrand like a fragment of another world set among grass and water. The ancestor trail ends at its pale mass, where the call grows stronger and the old whispers find a voice. The chain sends the seeker to hear what lies beneath the mountain's silence. The scene treats Oshu'gun as the sacred place the Mag'har know, while the art suggests its deeper nature without claiming a precise interior layout. The voices have not chosen the mountain as a refuge by chance; they are being drawn to something whose light is failing.",
+      "narration": "Oshu’gun rose among Nagrand’s grass and water like a fragment of another world. Beneath its pale mass, the ancestors’ call grew stronger. The mountain was sacred to the Mag’har, yet within its silence waited a presence whose light was failing. The search that had begun with restless whispers now reached the being toward which those lost souls were drawn.",
       "eventIds": [
         "hero-of-the-maghar-oshugun-calls-event"
       ],
@@ -245,16 +249,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-oshugun-calls.mp3",
-        "durationMs": 39875,
+        "durationMs": 25650,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 48000
     },
     {
       "id": "hero-of-the-maghar-story-kure-reveals",
       "guideId": "hero-of-the-maghar-guide",
       "title": "A light bleeding away",
-      "narration": "K'ure's account changes the meaning of the pilgrimage. The Naaru says that its energies have bled away over centuries and a Void has grown in their place, consuming the souls nearby. Generation after generation of orc ancestors have been drawn into that vortex. K'ure also says the Burning Legion recently harnessed it to bring void minions into its ranks. This is the Naaru's testimony, not an omniscient explanation of every spirit's fate. One part of the cycle may still be answered, K'ure tells the seeker, but the path now leads away from Nagrand to A'dal in Shattrath.",
+      "narration": "K’ure said that its energies had ebbed over centuries, leaving a Void that consumed nearby souls. Generations of orc ancestors had been drawn into that vortex. The naaru also spoke of the Legion harnessing it to bring void minions into its ranks. Part of the cycle might still be answered. From Oshu’gun, K’ure sent the seeker toward A’dal in Shattrath.",
       "eventIds": [
         "hero-of-the-maghar-kure-reveals-event"
       ],
@@ -290,16 +295,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-kure-reveals.mp3",
-        "durationMs": 43625,
+        "durationMs": 26675,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 49000
     },
     {
       "id": "hero-of-the-maghar-story-adal-answers",
       "guideId": "hero-of-the-maghar-guide",
       "title": "A'dal's answer",
-      "narration": "In Shattrath, A'dal hears K'ure's account and answers with caution. The suffering of the ancestors cannot be lifted by a word of Light alone. Another Naaru is tied to the problem, and A'dal points the seeker toward Auchindoun, where its fate may reveal what can still be done. The city offers no easy comfort: even beings devoted to the Light cannot promise that every wound can be undone. Yet the direction matters. What happened at Oshu'gun belongs to a larger cycle, and the next witness waits beneath the ruined halls of Terokkar.",
+      "narration": "A’dal heard K’ure’s account and answered cautiously. The ancestors’ suffering could not be lifted by a word of Light alone. Another naaru was bound to the question, and the way led toward Auchindoun. Shattrath offered direction without an easy promise of healing. Beneath Terokkar’s ruined halls, another witness might reveal what could still be done for those drawn into darkness.",
       "eventIds": [
         "hero-of-the-maghar-adal-answers-event"
       ],
@@ -334,16 +340,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-adal-answers.mp3",
-        "durationMs": 40100,
+        "durationMs": 27500,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 49000
     },
     {
       "id": "hero-of-the-maghar-story-dore-explains-cycle",
       "guideId": "hero-of-the-maghar-guide",
       "title": "The cycle beneath Auchindoun",
-      "narration": "The Auchenai Crypts descend through blue-gray stone and a silence made for the dead. There, D'ore explains that the cycle cannot simply be stopped: without the Void, the Light cannot exist. The words do not offer a cure that restores each ancestor to the life they knew. They name a harder limit. The spirits drawn toward corruption must be released before the same darkness consumes them. The quest moves from listening to action, but the choice belongs to the seeker who carries a mirror through the crypt, not to a prophecy that has already decided each spirit's fate.",
+      "narration": "In the Auchenai Crypts, D’ore explained that the cycle could not simply be stopped: without the Void, the Light could not exist. The spirits threatened by corruption had to be released before darkness consumed them. Beneath blue-grey stone, listening gave way to a difficult duty. The seeker carried a mirror through the crypts, seeking those whose change had already begun.",
       "eventIds": [
         "hero-of-the-maghar-dore-explains-cycle-event"
       ],
@@ -379,16 +386,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-dore-explains-cycle.mp3",
-        "durationMs": 40150,
+        "durationMs": 26025,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 49000
     },
     {
       "id": "hero-of-the-maghar-story-soul-mirror",
       "guideId": "hero-of-the-maghar-guide",
       "title": "The mirror and the darkened spirit",
-      "narration": "A Soul Mirror turns the crypt's lesson into a difficult act. Its reflection exposes a darkened spirit drawn from the ancient orc ancestors, and the seeker must defeat those already changing before the Void takes them fully. The task is repeated, but repetition is not made into separate history: the meaningful change is that the unseen danger can now be confronted. When the work is done, Mother Kashur receives the news at the Ancestral Grounds. The journey has not restored the dead to life. It has given them a chance to rest without being consumed by the force that called them south.",
+      "narration": "The Soul Mirror revealed darkened spirits among the ancient orc ancestors. The seeker defeated those already changing, before the Void could take them fully. When the work was done, Mother Kashur received the news at the Ancestral Grounds. The dead had not been restored to life. They had been given a chance to rest beyond the force that called them south.",
       "eventIds": [
         "hero-of-the-maghar-soul-mirror-event"
       ],
@@ -425,16 +433,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-soul-mirror.mp3",
-        "durationMs": 44100,
+        "durationMs": 24675,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 49500
     },
     {
       "id": "hero-of-the-maghar-story-return-to-garadar",
       "guideId": "hero-of-the-maghar-guide",
       "title": "News for the Greatmother",
-      "narration": "Mother Kashur receives the report with gratitude for the ancestors who have been freed from the darkening cycle. She sends the seeker back to Garadar with news of the victory. The walk home matters because it returns the story from the crypt to the people who were waiting on an answer. Geyah says the Mag'har have endured and their people have more than one season ahead of them; then she asks for a more personal message. Garrosh has heard of the seeker's work. Geyah hopes that words of service to the clan may reach him where comfort has not.",
+      "narration": "Mother Kashur gave thanks for the ancestors released from the darkening cycle and sent the news back to Garadar. Geyah spoke of a people who had endured and might yet know more seasons. Then her concern turned toward Garrosh. He had heard of the seeker’s service; perhaps its meaning could reach him where the Greatmother’s comfort had not.",
       "eventIds": [
         "hero-of-the-maghar-return-to-garadar-event"
       ],
@@ -472,16 +481,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-return-to-garadar.mp3",
-        "durationMs": 37975,
+        "durationMs": 23200,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 47500
     },
     {
       "id": "hero-of-the-maghar-story-geyah-sends-to-garrosh",
       "guideId": "hero-of-the-maghar-guide",
       "title": "A chieftain who cannot hope",
-      "narration": "Geyah sends the seeker to tell Garrosh that the work was done for him and his people. The words do not lift him. Garrosh sees a clan that may survive another winter, yet he cannot imagine a future beyond it. He asks whether the seeker should lead instead, then speaks of his family's name as a shame he wishes he could lay down. His grief is not only sorrow for Grom; it is fear that the same curse waits inside him. The chain lets his despair stand plainly, without pretending that a stranger's praise has already cured it.",
+      "narration": "Geyah asked the seeker to tell Garrosh that the work had been done for him and his people. He could find little comfort in it. The clan might survive another winter, but he could not imagine a future beyond it. His family’s name remained a shame he wished to lay down, and the fear of his father’s corruption still shadowed his own worth.",
       "eventIds": [
         "hero-of-the-maghar-geyah-sends-to-garrosh-event"
       ],
@@ -517,16 +527,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-geyah-sends-to-garrosh.mp3",
-        "durationMs": 36950,
+        "durationMs": 23075,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 51000
     },
     {
       "id": "hero-of-the-maghar-story-garrosh-confession",
       "guideId": "hero-of-the-maghar-guide",
       "title": "A grandmother's urgent message",
-      "narration": "Garrosh asks the seeker to return to Geyah with the words he cannot bear to carry himself: he believes he is unfit to lead and fears that the old corruption will damn the orcs again. Geyah hears more than his despair. In the exchange that follows, she learns that the Horde's Warchief is Thrall, son of her lost child Durotan. The revelation turns a family line separated by the Dark Portal into an urgent summons. Geyah cannot make the journey herself, so she asks the seeker to find Thrall in Orgrimmar and tell him that his blood remains on Draenor.",
+      "narration": "Garrosh sent word to Geyah that he believed himself unfit to lead. He feared the old corruption might damn the orcs again. In the exchange that followed, Geyah learned that the Horde’s Warchief was Thrall, son of her lost child Durotan. She could not travel to him herself. The seeker would carry an urgent message: his blood still lived upon Draenor.",
       "eventIds": [
         "hero-of-the-maghar-garrosh-confession-event"
       ],
@@ -563,16 +574,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-garrosh-confession.mp3",
-        "durationMs": 40125,
+        "durationMs": 26350,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 49500
     },
     {
       "id": "hero-of-the-maghar-story-message-to-thrall",
       "guideId": "hero-of-the-maghar-guide",
       "title": "A message in Orgrimmar",
-      "narration": "The seeker carries Geyah's message to Orgrimmar: her blood is still in the broken world, and Grom's legacy lives on there too. Thrall answers first with astonishment. He has a grandmother, and she lives. The quest offers no measured travel account for the journey from one world to another, so the scene follows only the message and the decision it changes. Thrall now has a reason to return to Nagrand that reaches beyond old war or duty. He must meet the family who remained behind when his parents crossed the Dark Portal.",
+      "narration": "In Orgrimmar, the seeker delivered Geyah’s message. Thrall answered with astonishment: he had a grandmother, and she lived. Grom’s legacy remained upon the broken world as well. The summons reached beyond war or duty. Thrall would return to Nagrand to meet the family left behind when his parents had crossed the Dark Portal.",
       "eventIds": [
         "hero-of-the-maghar-message-to-thrall-event"
       ],
@@ -607,16 +619,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-message-to-thrall.mp3",
-        "durationMs": 38150,
+        "durationMs": 23625,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 44000
     },
     {
       "id": "hero-of-the-maghar-story-flashback-demon-fall",
       "guideId": "hero-of-the-maghar-guide",
       "title": "Flashback · Demon Fall Canyon",
-      "narration": "Thrall returns to Garadar, where Geyah at last meets the grandson she feared she had lost. Garrosh sees the likeness of his father, but resemblance is not yet an answer. Thrall tells him what the old shame left out: at Demon Fall Canyon in Ashenvale, Grom Hellscream stood against Mannoroth and struck the blow that ended the demon's hold over the orcs. Grom died in that act. This is a remembered Third War scene, distinct from the present gathering in Nagrand. The vision does not erase the corruption or the cost; it reveals the choice Grom made when the moment came.",
+      "narration": "At Garadar, Geyah met the grandson she had feared lost. Thrall also brought Garrosh a memory from the Third War. At Demon Fall Canyon, Grom had stood against Mannoroth and died striking the blow that broke the demon’s hold over the orcs. The corruption and its cost were not erased. Yet the father’s last choice had been hidden beneath the son’s shame.",
       "eventIds": [
         "hero-of-the-maghar-flashback-demon-fall-event",
         "grom-breaks-mannoroths-bond"
@@ -655,16 +668,17 @@
       ],
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-flashback-demon-fall.mp3",
-        "durationMs": 41650,
+        "durationMs": 26300,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 50500
     },
     {
       "id": "hero-of-the-maghar-story-garrosh-name-restored",
       "guideId": "hero-of-the-maghar-guide",
       "title": "Garrosh, son of Grom",
-      "narration": "The memory returns to Garadar, but Garrosh is no longer looking at the name Hellscream as an inherited sentence. He learns that his father did not leave the orcs bound to the Legion forever; Grom chose to break that hold and paid with his life. Garrosh's burden lifts, and he can name himself with pride: son of Grom, chieftain of the Mag'har. Thrall remains long enough to honor the bond he shared with Grom, then returns to Geyah. The seeker carries the final news to the Greatmother, who names the service done for her people. The chain ends here, before Garrosh's later campaigns.",
+      "narration": "The memory faded, leaving Garrosh in Garadar with a changed understanding of his name. Grom had broken the demon’s hold at the cost of his life. Garrosh could now call himself son of Grom and chieftain of the Mag’har with pride. Thrall honored the bond he had shared with Grom, then returned to Geyah. The Greatmother received the final news of service to her people.",
       "eventIds": [
         "hero-of-the-maghar-garrosh-name-restored-event"
       ],
@@ -699,10 +713,11 @@
       "previousNodeId": "hero-of-the-maghar-story-flashback-demon-fall",
       "voiceover": {
         "assetPath": "audio/guided/hero-of-the-maghar-guide/hero-of-the-maghar-story-garrosh-name-restored.mp3",
-        "durationMs": 42425,
+        "durationMs": 27025,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
-      }
+      },
+      "durationMs": 52500
     }
   ]
 }

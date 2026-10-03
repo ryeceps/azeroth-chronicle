@@ -3,7 +3,7 @@
     "id": "darrowshire-lost-and-remembered-guide",
     "eraId": "age-of-adventurers",
     "title": "Darrowshire: Lost and Remembered",
-    "description": "Twenty-one illustrated scenes follow Darrowshire’s disputed Third War fall, Pamela’s Classic-era search, its witness accounts and relics, and the battle replay that gives the quest its homecoming.",
+    "description": "Pamela’s search follows a ruined village’s divided accounts, the relatives and relics that preserve them, and Chromie’s attempt to revisit the battle that broke the Redpath family.",
     "nodeIds": [
       "darrowshire-lost-and-remembered-story-annals-date-conflict",
       "darrowshire-lost-and-remembered-story-horgus-arrives",
@@ -34,11 +34,11 @@
       "id": "darrowshire-lost-and-remembered-story-annals-date-conflict",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Flashback · Era 7 — The date the Annals give",
-      "narration": "The Annals begin in a village under threat, but their first date creates a problem this telling will not smooth away. The book says the Scourge was rampaging in the middle of the Second War; another historical account places Darrowshire’s fall in the Third War. The Third War frame is used here because the named Scourge war belongs to that later crisis, while the Annals’ wording remains visible as a contradiction in the record. The village is small and rural, its fate more certain than its date.",
-      "durationMs": 31475,
+      "narration": "When the Scourge reached Darrowshire, a small village stood before a ruin greater than its defenders could foresee. Its last battle would endure in a troubled memory, with even the age of its fall disputed. Beyond that uncertainty remained a loss that no date could lessen: homes destroyed, families broken, and the dead unable to leave what had been taken from them.",
+      "durationMs": 50500,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-annals-date-conflict.mp3",
-        "durationMs": 31475,
+        "durationMs": 26100,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -81,11 +81,11 @@
       "id": "darrowshire-lost-and-remembered-story-horgus-arrives",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Horgus enters the battle",
-      "narration": "The account names Horgus the Ravager among the Scourge force that reaches Darrowshire. Captain Joseph Redpath and Davil lead the village’s defense in the story remembered by the later questline. We can show a small settlement meeting an invading force; we cannot recover its exact formation, the number of attackers, or the moment each defender first fell. The landscape is rendered as the fragile home at stake, not as a measured battlefield plan.",
-      "durationMs": 30025,
+      "narration": "Horgus the Ravager came among the Scourge that threatened Darrowshire. Captain Joseph Redpath and Davil led the village’s defense. The settlement they guarded was a fragile home, held against a force that brought the wider war into its fields. Those who stood there fought for familiar doors and faces; the invaders carried a danger that would reach beyond the living.",
+      "durationMs": 49000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-horgus-arrives.mp3",
-        "durationMs": 30025,
+        "durationMs": 26275,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -129,11 +129,11 @@
       "id": "darrowshire-lost-and-remembered-story-davil-falls",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Davil’s last stand",
-      "narration": "Davil fights Horgus and the Annals say he strikes the Scourge champion down, only to die of his own wounds. Later sources call this defender Davil Lightfire in the quest and Davil Crokford in the book and history summary. The story holds both names together as a textual variant pending client comparison. His later libram is treated as a memorial clue; the search quest does not establish where it rested during the original battle.",
-      "durationMs": 29525,
+      "narration": "Davil struck Horgus down, then died of his own wounds. The village had lost a defender even as one of its enemies fell. His courage would survive him in Darrowshire’s memory, and a libram bearing his name would later draw the living back toward that sacrifice. Victory over the Ravager had come at a cost the village could not replace.",
+      "durationMs": 49000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-davil-falls.mp3",
-        "durationMs": 29525,
+        "durationMs": 24175,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -177,11 +177,11 @@
       "id": "darrowshire-lost-and-remembered-story-joseph-corrupted",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Marduk turns Joseph",
-      "narration": "After Davil’s fall, the Annals say Marduk the Black corrupts Joseph Redpath. The village captain becomes a danger to the people he led, and the account ends in Darrowshire’s destruction. The secondary history calls Marduk Blackpool. The two forms may reflect a naming variation, but the evidence gathered here does not settle it. Nor can the broad massacre account tell us the position or final moment of every villager.",
-      "durationMs": 28375,
+      "narration": "After Davil fell, Marduk the Black corrupted Joseph Redpath. The captain who had led Darrowshire’s defense became a danger to his own people. The village was destroyed. What had begun as resistance ended in betrayal through a will taken by the enemy, leaving the survivors’ memory burdened by the fate of the man who had stood for their protection.",
+      "durationMs": 48000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-joseph-corrupted.mp3",
-        "durationMs": 28375,
+        "durationMs": 25375,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -225,11 +225,11 @@
       "id": "darrowshire-lost-and-remembered-story-pamela-hidden",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "A child hidden from the battle",
-      "narration": "The later quest gives a more intimate memory: Marlene says she hid Pamela when the fighting came. That account sits uneasily beside the Annals’ sweeping language that the village was destroyed and its inhabitants slain. The story keeps the difference open. Marlene’s report explains why Pamela is encountered as a child’s spirit, but neither source offers an independent account of how every resident met their end.",
-      "durationMs": 28025,
+      "narration": "Marlene remembered hiding Pamela when the fighting came. The child’s small place within that memory stood against the vastness of Darrowshire’s ruin. War had reached the family’s home, and concealment had offered only a fragile hope. In the years that followed, Pamela would remain among the village’s spirits, still bound to the people and the world she had lost.",
+      "durationMs": 48000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-pamela-hidden.mp3",
-        "durationMs": 28025,
+        "durationMs": 25550,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -272,11 +272,11 @@
       "id": "darrowshire-lost-and-remembered-story-marlene-seeks",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Era 8 — Marlene’s request",
-      "narration": "In the later Classic quest, a wandering spirit named Marlene asks for help finding Pamela. The road begins in the Plaguelands of another age, where the old village no longer stands whole. This is investigation, not the battle itself: every witness and object will be encountered through the quest’s present-day search. The adventurer remains unnamed, and the order of errands records how the game guides that search, not a known calendar.",
-      "durationMs": 28800,
+      "narration": "Long after the battle, Marlene’s wandering spirit asked for help finding Pamela. The Plaguelands had become a country of ruined homes and unresting dead. Darrowshire’s loss endured there beyond the reach of its enemies’ first assault. A stranger’s search began among those remnants, seeking a child whom the family still remembered and an answer the village had never found.",
+      "durationMs": 48000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-marlene-seeks.mp3",
-        "durationMs": 28800,
+        "durationMs": 26625,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -317,11 +317,11 @@
       "id": "darrowshire-lost-and-remembered-story-pamela-and-doll",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "The doll among the ruins",
-      "narration": "Pamela appears among the ruined homes, still waiting in the world her family lost. Her doll is missing, and the quest sends the visitor through the broken settlement to recover its scattered parts. The action belongs to the Classic investigation; it does not establish that the doll lay in these exact visible stones or that the child’s spirit understands the history around her. The small object makes a vast catastrophe personal.",
-      "durationMs": 29175,
+      "narration": "Pamela waited among the ruined homes of Darrowshire. Her doll was missing, its parts scattered through the broken settlement. The visitor gathered them for her. Beside a catastrophe that had destroyed a village, the small keepsake offered a gentler measure of loss: a child still waiting, and something once familiar brought back into her hands.",
+      "durationMs": 45000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-pamela-and-doll.mp3",
-        "durationMs": 29175,
+        "durationMs": 24225,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -363,11 +363,11 @@
       "id": "darrowshire-lost-and-remembered-story-pamela-asks",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Pamela asks for her family",
-      "narration": "With the doll restored, Pamela’s questions turn toward her parents and the home she remembers. The quest lets the child’s request lead the investigation onward; it does not give the unnamed traveler a private biography or a new place in the Redpath family. We keep the scene quiet: a remembered child, a found keepsake, and an answer that only relatives and the old records can begin to provide.",
-      "durationMs": 27300,
+      "narration": "With the doll restored, Pamela asked about her parents and the home she remembered. The little gift could answer one absence, but not the others. Her questions led the visitor onward toward relatives and the remnants of the past. In the quiet of the ruined village, the child’s hope reached beyond what the living could yet explain.",
+      "durationMs": 46500,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-pamela-asks.mp3",
-        "durationMs": 27300,
+        "durationMs": 23250,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -409,11 +409,11 @@
       "id": "darrowshire-lost-and-remembered-story-marlene-tells-truth",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "The truth Marlene cannot give Pamela",
-      "narration": "Marlene’s account says Pamela died, while Joseph’s fate leads toward the battle’s corrupted captain. Yet she cannot bring herself to tell the child the whole truth. Her silence is a choice in the quest’s present, shaped by the family’s grief; no hidden motive beyond that account is supplied. The village story now has two witnesses at different distances from the event: a child asking, and an aunt carrying an answer she cannot speak.",
-      "durationMs": 28300,
+      "narration": "Marlene knew Pamela had died, and Joseph’s fate led back toward the corrupted captain of Darrowshire’s defense. Yet she could not bring herself to tell the child the whole truth. Grief held the answer unspoken. One spirit waited for her family; another carried knowledge too painful to give, and the visitor stood between the child’s longing and the aunt’s sorrow.",
+      "durationMs": 49000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-marlene-tells-truth.mp3",
-        "durationMs": 28300,
+        "durationMs": 25400,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -454,11 +454,11 @@
       "id": "darrowshire-lost-and-remembered-story-wedding-ring",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "A ring and a historian",
-      "narration": "A wedding ring becomes the clue that turns a family search toward history. The quest brings the object to Chromie, a bronze dragon who has taken the form of a gnome historian in Andorhal. This small ruined town supplies a believable Classic Plaguelands setting, though the quest does not chart the traveler’s road. The ring binds the family question to Chromie’s larger interest in a battle the living can no longer visit directly.",
-      "durationMs": 28625,
+      "narration": "A wedding ring turned the search toward Chromie in Andorhal. The bronze dragon wore the form of a gnome historian among the ruined town’s remains. A small token of the Redpath family now lay beside a greater interest in Darrowshire’s past. The questions Pamela had asked could no longer be answered by keepsakes alone; they led toward the battle itself.",
+      "durationMs": 49000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-wedding-ring.mp3",
-        "durationMs": 28625,
+        "durationMs": 25750,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -500,11 +500,11 @@
       "id": "darrowshire-lost-and-remembered-story-annals-read",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "The Annals keep a broken date",
-      "narration": "The Annals give the visitor a written account of Darrowshire’s last battle, including the Second War date that cannot be reconciled here with a Scourge attack in the Third War. This telling cites the book as evidence and labels its chronology disputed rather than silently repairing it. The recollection of combat may preserve names and sequence while the date has been miscopied, retconned, or framed differently; the sources consulted do not let us choose among those explanations.",
-      "durationMs": 31675,
+      "narration": "The Annals preserved Darrowshire’s last battle, but their date did not agree with the remembered age of the Scourge’s assault. The village’s history had reached the living imperfectly. Within those troubled pages endured the names of defenders and enemies, and the change that had overtaken Joseph. Chromie’s search had to pass through that uncertain memory to reach the family’s unfinished grief.",
+      "durationMs": 49500,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-annals-read.mp3",
-        "durationMs": 31675,
+        "durationMs": 28200,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -546,11 +546,11 @@
       "id": "darrowshire-lost-and-remembered-story-carlin-witness",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Carlin and the bound defenders",
-      "narration": "At Light’s Hope Chapel, Carlin remembers the people of the village and asks that the dead defenders be freed from Scourge service. The quest records a group of spirits bound in hostile forms; its objective count belongs to play mechanics, not a census of everyone who lived or died. The modest chapel in the open Plaguelands gives this act a place of witness, while the spirits’ exact appearance and number remain unknown.",
-      "durationMs": 28400,
+      "narration": "At Light’s Hope Chapel, Carlin remembered the people of Darrowshire. The village’s fallen defenders were still bound in Scourge service, and he asked that they be freed. Their suffering had outlasted the battle that killed them. Among the open fields of the Plaguelands, the search became an act of release for those who had once stood against the invaders.",
+      "durationMs": 48000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-carlin-witness.mp3",
-        "durationMs": 28400,
+        "durationMs": 23975,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -592,11 +592,11 @@
       "id": "darrowshire-lost-and-remembered-story-villains-relics",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "The skull and the shattered blade",
-      "narration": "The first relic trail turns toward the remembered villains. The quest associates a skull with Horgus and a broken sword with Marduk, leading the search to different places around the Plaguelands. These are clues chosen by a historical investigation, not excavated proof that the objects lay exactly where the illustration places them. The broken weapon gives Marduk a material trace even while the Annals’ version of his name remains unsettled.",
-      "durationMs": 30025,
+      "narration": "The trail turned toward relics of Darrowshire’s enemies: a skull associated with Horgus and a broken sword with Marduk. From different places in the Plaguelands, the objects were brought into the search. They offered material traces of the ruin remembered in the Annals. The village’s lost battle was drawing nearer through what its foes had left behind.",
+      "durationMs": 46500,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-villains-relics.mp3",
-        "durationMs": 30025,
+        "durationMs": 24925,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -640,11 +640,11 @@
       "id": "darrowshire-lost-and-remembered-story-davil-libram",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Davil’s libram at Hearthglen",
-      "narration": "The Heroes quest associates Davil Lightfire’s libram with Hearthglen, carrying a trace of the defender into the fortified human town. Its pale stone and red-white Scarlet banners identify Classic Hearthglen without turning it into Stormwind’s blue-and-gold keep. The book is a recovered clue attributed to Davil, not proof of its exact earlier route or of every hand through which it passed.",
-      "durationMs": 26900,
+      "narration": "At Hearthglen, Davil’s libram carried a trace of the fallen defender into the search. The fortified town stood far from the home he had died defending. A book could not return him to Darrowshire, yet his memory endured within its recovery. Beside the relics of the village’s enemies, the living now gathered something belonging to one who had resisted them.",
+      "durationMs": 49000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-davil-libram.mp3",
-        "durationMs": 26900,
+        "durationMs": 25250,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -686,11 +686,11 @@
       "id": "darrowshire-lost-and-remembered-story-heroes-relics",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Joseph’s shield at the ruined farm",
-      "narration": "A separate relic leads to Gahrron’s Withering, where the quest locates Joseph Redpath’s broken shield near a ruined farm. Its damage speaks to the village captain’s remembered role, but the object alone cannot tell how or when it was lost. Here the Plaguelands narrow from the fortified town to a leaning barn, broken fence and pallid field: a rural clue, not a complete account of the battle.",
-      "durationMs": 26475,
+      "narration": "Joseph Redpath’s broken shield was found near the ruined farm of Gahrron’s Withering. Its damage offered no answer to every part of his fall. Yet the object recalled the captain before corruption had turned him against his people. Among leaning buildings and pallid fields, another remnant of Darrowshire’s defense returned to the hands gathering its history.",
+      "durationMs": 46000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-heroes-relics.mp3",
-        "durationMs": 26475,
+        "durationMs": 26175,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -732,11 +732,11 @@
       "id": "darrowshire-lost-and-remembered-story-marauders-crystal",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "The crystal answers the skulls",
-      "narration": "A mystic crystal responds to five skulls associated by the quest with Scourge that took part in the assault. Their collection is a gameplay task, so it cannot be read as a definitive list of every enemy or a complete battle roster. It adds another layer to Chromie’s reconstruction: selected remains, a remembered account, and relics tied to those who fought. The exact mechanism of the crystal is not explained beyond its use in the quest.",
-      "durationMs": 30025,
+      "narration": "A mystic crystal responded to skulls from Scourge that had taken part in the assault. Alongside the Annals and the relics of the fallen, those remains added another thread to Chromie’s work. The battle’s memory was being gathered from enemies and defenders alike. What the village could no longer tell in living voices endured in fragments awaiting her spell.",
+      "durationMs": 48000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-marauders-crystal.mp3",
-        "durationMs": 30025,
+        "durationMs": 26300,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -779,11 +779,11 @@
       "id": "darrowshire-lost-and-remembered-story-extended-account",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Carlin’s extended account",
-      "narration": "Carlin provides the extended account and the accumulated relics pass back to Chromie. The text describes a plan to revisit the battle and correct its consequences, but the quest delegates the historical decision to a time spell rather than explaining its larger metaphysics. This gathered bundle is a narrative device supported by quest order; the exact composition of every piece and the intervention’s limits are not independently established.",
-      "durationMs": 30375,
+      "narration": "Carlin supplied the fuller account, and the gathered relics returned to Chromie. She prepared a spell through which the battle could be revisited and its consequences confronted. The family’s search had passed from Pamela’s doll to the memory of a village at war. Now the living would enter that memory, carrying what they had recovered toward the losses it preserved.",
+      "durationMs": 49000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-extended-account.mp3",
-        "durationMs": 30375,
+        "durationMs": 25375,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -826,11 +826,11 @@
       "id": "darrowshire-lost-and-remembered-story-replay-begins",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "The battle is called back",
-      "narration": "Chromie’s spell returns the traveler to a reenactment of Darrowshire’s battle. The scene is explicitly a remembered, playable past, separated from the present-day investigation. Its instructions focus on outcomes: Davil must remain alive until Horgus falls, and Joseph must live long enough to be corrupted before the corrupted captain is defeated. The quest therefore offers a limited correction inside the replay; it does not erase the evidence that the original village was destroyed.",
-      "durationMs": 32825,
+      "narration": "Chromie’s spell opened a remembered Darrowshire beneath the shadow of battle. The visitor entered that past to help its defenders. Davil had to endure until Horgus fell; Joseph’s corruption still had to be faced. The village’s old ruin remained the wound from which this journey had begun. Within the spell, its unfinished struggle demanded another answer.",
+      "durationMs": 46000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-replay-begins.mp3",
-        "durationMs": 32825,
+        "durationMs": 26175,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -876,11 +876,11 @@
       "id": "darrowshire-lost-and-remembered-story-davil-and-horgus",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Davil survives Horgus",
-      "narration": "In the quest’s reenacted battle, Davil is to endure until Horgus is slain. The task reverses the fatal pattern recorded in the Annals without pretending that every part of the old account has been repaired. The defender and the Scourge champion meet in a staged scene, not a recovered battle plan. This moment marks the specific loss the quest allows its visitor to prevent in the remembered battle.",
-      "durationMs": 27875,
+      "narration": "In the remembered battle, Davil stood against Horgus once more. With the visitor’s help, he endured until the Ravager was slain. The fatal pattern preserved in the Annals had been interrupted within Chromie’s spell. Yet Darrowshire’s danger had not ended with that foe. Joseph still stood within reach of the corruption that had once turned the defense against itself.",
+      "durationMs": 48000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-davil-and-horgus.mp3",
-        "durationMs": 27875,
+        "durationMs": 25675,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -923,11 +923,11 @@
       "id": "darrowshire-lost-and-remembered-story-redpath-corrupted",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "The captain falls to corruption",
-      "narration": "The second condition cannot be avoided: Joseph must live long enough to become corrupted, and then the visitor must defeat Redpath the Corrupted. Marduk’s role belongs to the Annals’ account; the quest objectives do not show every cause in the reenactment. The story keeps Joseph’s change distinct from Davil’s survival, so the battle’s altered course does not collapse into a claim that no one was lost or that the Scourge never reached Darrowshire.",
-      "durationMs": 28975,
+      "narration": "Joseph survived long enough to fall beneath corruption, and the visitor faced him as Redpath the Corrupted. Saving Davil could not spare the captain that change. The remembered battle now required that Joseph’s hostile form be defeated. Beyond the clash remained the man Pamela awaited, held apart from his family by the ruin that had overtaken their village.",
+      "durationMs": 47500,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-redpath-corrupted.mp3",
-        "durationMs": 28975,
+        "durationMs": 25925,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },
@@ -971,11 +971,11 @@
       "id": "darrowshire-lost-and-remembered-story-family-homecoming",
       "guideId": "darrowshire-lost-and-remembered-guide",
       "title": "Pamela hears the battle end",
-      "narration": "After the fighting, the quest brings Joseph’s spirit to Pamela, and the child speaks as if her father will come home. The account presents their reunion as the battle’s remembered resolution; the deeper effect of Chromie’s spell on a lasting timeline remains uncertain. Pamela then entrusts the traveler with a key to a chest behind the house. Her small act of welcome closes the chain with an image of homecoming, while the village’s original loss remains part of the record.",
-      "durationMs": 31000,
+      "narration": "After the fighting, Joseph’s spirit came to Pamela. The child spoke as though her father would come home, and entrusted the visitor with a key to a chest behind the house. What Chromie’s spell might mean for the lasting course of time remained uncertain. Yet within the remembered village, father and child met again, and the long search closed upon a small welcome.",
+      "durationMs": 51000,
       "voiceover": {
         "assetPath": "audio/guided/darrowshire-lost-and-remembered-guide/darrowshire-lost-and-remembered-story-family-homecoming.mp3",
-        "durationMs": 31000,
+        "durationMs": 26125,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       },

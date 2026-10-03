@@ -26,7 +26,7 @@ test('Consortium and Arcatraz follows its source trail through all illustrated s
   for (const [index, node] of story.nodes.entries()) {
     await expect(page.getByRole('heading', { name: node.title, exact: true })).toBeVisible();
     await expect(page.getByLabel('Chapter transcript')).toHaveText(node.narration);
-    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED QUESTLINE THEATER');
+    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED STORY THEATER');
     const environment = page.locator('.story-atmosphere img');
     await expect(environment).toHaveAttribute('src', /\.(?:webp|png)$/);
     await expect.poll(() => environment.evaluate((image: HTMLImageElement) =>

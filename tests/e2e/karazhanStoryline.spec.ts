@@ -47,7 +47,7 @@ test('Karazhan traverses all cited scenes, shows Atiesh with Medivh, and returns
   for (const [index, node] of story.nodes.entries()) {
     await expect(page.getByRole('heading', { name: node.title, exact: true })).toBeVisible();
     await expect(page.getByLabel('Chapter transcript')).toHaveText(node.narration);
-    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED QUESTLINE THEATER');
+    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED STORY THEATER');
     await expectIllustratedScene(page, node.title, index, 'desktop');
     if (node.id.endsWith('memory-of-arcanagos')) {
       const medivhFigure = page.locator('.map-character-figure img[src*="/medivh-atiesh.research.webp"]');

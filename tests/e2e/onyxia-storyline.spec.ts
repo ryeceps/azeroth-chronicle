@@ -32,7 +32,7 @@ test('Onyxia storyline traverses every cited scene and returns to its reading pa
   for (const [index, node] of story.nodes.entries()) {
     await expect(page.getByRole('heading', { name: node.title, exact: true })).toBeVisible();
     await expect(page.getByLabel('Chapter transcript')).toHaveText(node.narration);
-    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED QUESTLINE THEATER');
+    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED STORY THEATER');
     await expect(page.locator('.map-character-figure, .map-subject-visual')).toHaveCount(node.entityIds.length);
     await expectIllustratedScene(page, node.title, index, 'desktop');
     if ([1, 7, 16, 20].includes(index)) {

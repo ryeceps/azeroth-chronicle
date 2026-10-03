@@ -5,14 +5,39 @@
   "summary": "After the Second War, the Alliance crosses into Draenor while Ner'zhul's portal ritual tears the world toward Outland.",
   "opening": "Victory on Azeroth did not end the danger beyond the portal. An expedition followed it home to a world already nearing ruin.",
   "primaryEraId": "third-war-frozen-throne",
-  "eraIds": ["rise-of-the-horde", "third-war-frozen-throne"],
-  "chapters": [
-    { "id": "second-war-aftermath", "eraId": "rise-of-the-horde", "title": "After the Second War", "body": "Set out the defeated Horde's position and the surviving link between Azeroth and Draenor. The chapter boundary is an editorial placement for a story that begins after the Second War." },
-    { "id": "nerzhuls-design", "eraId": "third-war-frozen-throne", "title": "Ner'zhul seeks new worlds", "body": "Trace the attempt to open further portals from Draenor and the threat this creates for both worlds. The original game and book text must settle the ritual's steps." },
-    { "id": "the-expedition", "eraId": "third-war-frozen-throne", "title": "The Alliance expedition", "body": "Follow the Alliance forces that cross the Dark Portal to stop the plan. Each theater needs its own source review rather than an invented route between worlds." },
-    { "id": "draenor-breaks", "eraId": "third-war-frozen-throne", "title": "Draenor breaks", "body": "The portal ritual leaves Draenor shattered. Close on the survivors and the changed world that later histories call Outland, using separate map states for before and after." }
+  "eraIds": [
+    "rise-of-the-horde",
+    "third-war-frozen-throne"
   ],
-  "sourceIds": ["story-beyond-dark-portal"],
-  "reviewNote": "Era 6 to Era 7 placement remains an editorial boundary choice. Cross-check the Spanish timeline lead with original English game and book sources; keep Draenor and Outland geographically separate.",
+  "chapters": [
+    {
+      "id": "second-war-aftermath",
+      "eraId": "rise-of-the-horde",
+      "title": "After the Second War",
+      "body": "The Second War left the Horde defeated, but the passage between Azeroth and Draenor remained. Victory had not ended the danger beyond it."
+    },
+    {
+      "id": "nerzhuls-design",
+      "eraId": "third-war-frozen-throne",
+      "title": "Ner'zhul seeks new worlds",
+      "body": "Ner’zhul sought further worlds through new portals. His purpose threatened the land beneath his own people and the world across the surviving gate."
+    },
+    {
+      "id": "the-expedition",
+      "eraId": "third-war-frozen-throne",
+      "title": "The Alliance expedition",
+      "body": "Alliance forces crossed the Dark Portal to stop the plan. The expedition carried Azeroth’s struggle into the homeland from which the earlier invasion had come."
+    },
+    {
+      "id": "draenor-breaks",
+      "eraId": "third-war-frozen-throne",
+      "title": "Draenor breaks",
+      "body": "The ritual left Draenor shattered. Amid the broken world, survivors faced a country that later generations would know as Outland."
+    }
+  ],
+  "sourceIds": [
+    "story-beyond-dark-portal"
+  ],
+  "reviewNote": "Era 6 to Era 7 placement remains an editorial boundary choice. Cross-check the Spanish timeline lead with original English game and book sources; keep Draenor and Outland geographically separate. Editorial chapter research tasks retained here: Set out the defeated Horde's position and the surviving link between Azeroth and Draenor. The chapter boundary is an editorial placement for a story that begins after the Second War. Trace the attempt to open further portals from Draenor and the threat this creates for both worlds. The original game and book text must settle the ritual's steps. Follow the Alliance forces that cross the Dark Portal to stop the plan. Each theater needs its own source review rather than an invented route between worlds. The portal ritual leaves Draenor shattered. Close on the survivors and the changed world that later histories call Outland, using separate map states for before and after.",
   "contentStatus": "research"
 }

@@ -927,8 +927,9 @@ describe('lore dataset', () => {
       && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
     expect(nodes[2]?.narration).toMatch(/three prisoners/);
     expect(nodes[3]?.narration).toMatch(/one half of a single test/);
-    expect(nodes[4]?.narration).toMatch(/not because the source establishes a fixed historical sequence/);
-    expect(nodes.at(-1)?.narration).toMatch(/version history/);
+    expect(story.reviewNote).toMatch(/Mercy, Strength and Tenacity are parallel requirements/);
+    expect(story.reviewNote).toMatch(/title condition is kept separate.*patch-sensitive/);
+    expect(nodes.at(-1)?.narration).toMatch(/foe within had yet to be faced/);
     expect(visualLedger.scenes).toHaveLength(nodes.length);
 
     for (const [index, node] of nodes.entries()) {
@@ -1069,9 +1070,9 @@ describe('lore dataset', () => {
     expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(11);
     expect(tour.entries.find((item) => item.storylineId === 'hero-of-the-maghar')?.order).toBe(13);
     expect(tour.chronologyNote).toMatch(/editorial Burning Crusade placement.*neither a precise date nor a dependency/i);
-    expect(nodes[0]?.narration).toMatch(/false lead/);
-    expect(nodes[7]?.title).toBe('Full Triangle');
-    expect(nodes.at(-1)?.narration).toMatch(/other captives and the wider purpose.*remain unresolved/);
+    expect(nodes[0]?.narration).toMatch(/nothing remarkable.*crystal remained beyond their grasp/);
+    expect(nodes[7]?.title).toBe('The crystal at Farahlon');
+    expect(nodes.at(-1)?.narration).toMatch(/other captives.*wider purpose.*unanswered/);
     expect(visualLedger.assets).toHaveLength(21);
     expect(audioManifest.tracks.filter((track) => track.nodeId.startsWith('consortium-and-arcatraz-story-'))).toHaveLength(15);
 
@@ -1122,8 +1123,9 @@ describe('lore dataset', () => {
       data.events.find((event) => event.id === id)?.eraId)).toEqual(['third-war-frozen-throne']);
     expect(nodes.find((node) => node.id.endsWith('story-thalorien-test'))?.eventIds?.map(id =>
       data.events.find((event) => event.id === id)?.eraId)).toEqual(['age-of-adventurers']);
-    expect(nodes[0]?.narration).toMatch(/randomized game loot/);
-    expect(nodes.at(-1)?.narration).toMatch(/no named adventurer is made the canonical heir/);
+    expect(story.reviewNote).toMatch(/Randomized loot is a gameplay trigger/);
+    expect(story.reviewNote).toMatch(/no named adventurer is canonical/);
+    expect(nodes.at(-1)?.narration).toMatch(/no single name settled the sword’s future/);
 
     for (const [index, node] of nodes.entries()) {
       const nodeLedger = sceneIndex.nodes[index]!;
@@ -1166,8 +1168,8 @@ describe('lore dataset', () => {
     expect(tour.chronologyNote).toMatch(/patch 2\.3 continuation.*cross-story quest dependency/i);
     expect(story.reviewNote).toMatch(/Varian.*missing.*patron.*unnamed/i);
     expect(story.reviewNote).toMatch(/original-client comparison.*open/i);
-    expect(nodes[12]?.narration).toMatch(/central disappearance remains unresolved/);
-    expect(nodes.at(-1)?.narration).toMatch(/patron remains unnamed/);
+    expect(nodes[12]?.narration).toMatch(/central disappearance remained unresolved/);
+    expect(nodes.at(-1)?.narration).toMatch(/patron remained unnamed/);
     expect(assetLedger.scenes).toHaveLength(nodes.length);
 
     for (const [index, node] of nodes.entries()) {
@@ -1260,9 +1262,10 @@ describe('lore dataset', () => {
     expect(tour.entries).toHaveLength(21);
     expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(11);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
-    expect(nodes[7]?.narration).toMatch(/avatar of Hakkar/);
+    expect(nodes[7]?.narration).toMatch(/avatar of Hakkar/i);
     expect(nodes[7]?.narration).toMatch(/later physical manifestation/);
-    expect(nodes[7]?.narration).toMatch(/keeps this victory from becoming a claim/);
+    expect(story.reviewNote).toMatch(/Sunken Temple summons an avatar.*later physical summoning/);
+    expect(nodes[7]?.narration).toMatch(/victory had reached an avatar/);
     expect(assets.assets).toHaveLength(19);
     expect(assets.assets.every((asset) => asset.promptId && asset.visualIntent)).toBe(true);
     for (const asset of assets.assets) {

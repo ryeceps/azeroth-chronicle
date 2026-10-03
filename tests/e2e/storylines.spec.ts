@@ -32,7 +32,7 @@ test('Scepter playback traverses every scene and returns to its reading page', a
     await expect(page.getByRole('heading', { name: node.title, exact: true })).toBeVisible();
     await expect(page.getByLabel('Chapter transcript')).toHaveText(node.narration);
     await expect(page.locator('audio')).toHaveAttribute('src', `/${node.voiceover.assetPath}`);
-    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED QUESTLINE THEATER');
+    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED STORY THEATER');
     await expect(page.locator('.map-character-figure, .map-subject-visual')).toHaveCount(node.entityIds.length);
     await expectIllustratedScene(page, node.title, index, 'desktop');
     if (index === 2) {

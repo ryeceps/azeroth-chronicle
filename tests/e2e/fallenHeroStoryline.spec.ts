@@ -41,7 +41,7 @@ test('Fallen Hero traverses all 15 Classic scenes with their area, cast and obje
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('/storylines/fallen-hero-and-rakhlikh');
   await expect(page.getByRole('heading', { level: 1, name: 'The Fallen Hero and Rakh’likh' })).toBeVisible();
-  await expect(page.getByText(/eighteen-stone\/nineteen-soldier conflict stays unresolved/i)).toBeVisible();
+  await expect(page.getByText(/Even the number of those lost remained uncertain/i)).toBeVisible();
   await page.getByRole('link', { name: 'Experience this storyline' }).click();
   await expect(page).toHaveURL(/tour=storyline&storyline=fallen-hero-and-rakhlikh/);
   await page.getByRole('button', { name: 'Pause tour' }).click();
@@ -49,7 +49,7 @@ test('Fallen Hero traverses all 15 Classic scenes with their area, cast and obje
   for (const [index, node] of story.nodes.entries()) {
     await expect(page.getByRole('heading', { name: node.title, exact: true })).toBeVisible();
     await expect(page.getByLabel('Chapter transcript')).toHaveText(node.narration);
-    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED QUESTLINE THEATER');
+    await expect(page.locator('.map-caption')).toContainText('ILLUSTRATED STORY THEATER');
     await expectIllustratedScene(page, node.title, index, 'desktop');
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }

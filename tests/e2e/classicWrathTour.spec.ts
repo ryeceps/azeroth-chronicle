@@ -172,7 +172,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
     return [params.get('tour'), params.get('collection'), params.get('storyline'), params.get('play')];
   }).toEqual(['story-tour', 'classic-to-wrath', 'fallen-hero-and-rakhlikh', 'story']);
   await expect(page.getByRole('heading', { name: 'Two roads to the Fallen Hero' })).toBeVisible();
-  await expect(page.getByText(/separate faction paths/i)).toBeVisible();
+  await expect(page.getByLabel('Chapter transcript')).toContainText('Different appeals brought the living to his spirit');
 
   await page.goto('/tours/classic-to-wrath');
   await tirionTaelan.hover();
