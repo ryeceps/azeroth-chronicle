@@ -1,0 +1,26 @@
+{
+  "id": "key-to-the-arcatraz",
+  "type": "artifact",
+  "name": "Key to the Arcatraz",
+  "slug": "key-to-the-arcatraz",
+  "shortDescription": "Key to the Arcatraz, represented in the Consortium and Arcatraz research story.",
+  "body": "A’dal’s combined key made from the two recovered shards; exact item appearance remains interpretive. This is original interpretive art, not a canonical item model or source of undocumented physical properties. Compare it with the original Burning Crusade client/model before human review. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+  "firstEraId": "age-of-adventurers",
+  "featuredEraIds": [
+    "age-of-adventurers"
+  ],
+  "sourceIds": [
+    "consortium-arcatraz-key-quest",
+    "consortium-blizzard-arcatraz-chain",
+    "consortium-harbinger-quest"
+  ],
+  "tags": [
+    "consortium-arcatraz-story",
+    "interpretive-art"
+  ],
+  "mapVisual": {
+    "asset": "images/storylines/consortium-arcatraz/key-of-the-arcatraz.research.webp",
+    "scale": 0.7
+  },
+  "contentStatus": "research"
+}

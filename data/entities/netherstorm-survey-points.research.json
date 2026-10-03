@@ -1,0 +1,21 @@
+{
+  "id": "netherstorm-survey-points",
+  "type": "location",
+  "name": "Netherstorm triangulation sites",
+  "slug": "netherstorm-survey-points",
+  "shortDescription": "Netherstorm triangulation sites, a named setting in the Consortium and Arcatraz research story.",
+  "body": "A relational description of the survey search; point coordinates and exact placement are not encoded in the story atlas. Its story art is interpretive; no exact map coordinate, dungeon floor plan or travel route is asserted. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+  "firstEraId": "age-of-adventurers",
+  "featuredEraIds": [
+    "age-of-adventurers"
+  ],
+  "sourceIds": [
+    "consortium-triangulation-one",
+    "consortium-triangulation-two"
+  ],
+  "tags": [
+    "consortium-arcatraz-story",
+    "burning-crusade-location"
+  ],
+  "contentStatus": "research"
+}

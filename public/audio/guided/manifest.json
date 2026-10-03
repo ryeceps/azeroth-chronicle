@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T10:56:55.964Z",
+  "generatedAt": "2026-10-03T13:07:43.913Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 465,
-  "totalDurationMs": 13231450,
+  "trackCount": 480,
+  "totalDurationMs": 13759275,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -4197,6 +4197,141 @@
       "sha256": "a11db56fcdcbacd4246d0e3fe7563210271de74d4b33f5e481a495e9a75e4b35",
       "transcriptSha256": "55abcdc9325d2abc6f8ede2145c498761cabbdb6d290eca682f6be04676864ad",
       "bytes": 534285
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-the-arklon-crystal",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-arklon-crystal.mp3",
+      "durationMs": 34250,
+      "sha256": "840b42076761ab4a443ce3a4fe807db9ecc601836421315a9c8e87da3591c472",
+      "transcriptSha256": "8f4bfd144f948641523604455f645eb040b70e2378f729829ba0394ddbd18980",
+      "bytes": 412173
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-the-zaxxis-break",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-zaxxis-break.mp3",
+      "durationMs": 32500,
+      "sha256": "55249b2dabacddf2290c8e63dce1bdb7984b4d2889210738da85856df1987347",
+      "transcriptSha256": "697c370104d6279f6720d6f4d71d54472206d7f5869547650e4356f717370fb0",
+      "bytes": 391149
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-nesaad-still-lives",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-nesaad-still-lives.mp3",
+      "durationMs": 36025,
+      "sha256": "da075e9618348cc41760f9a88f055a7ea24962dedcd6818ffd44941159d9a2f4",
+      "transcriptSha256": "1d5cf0a2586824b6470bd9fea4ed341cff54e36d24079b1b97614aeafdb4a82a",
+      "bytes": 433485
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-a-contract-in-default",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-a-contract-in-default.mp3",
+      "durationMs": 39425,
+      "sha256": "35e405a2dca6de9f3900607706aca30be9537fa6c2d8160dd0a63a1667870b1d",
+      "transcriptSha256": "16b9fb7288a3beb1de2386c6a8f4041018254d2d954338cfdee9fca254958b2b",
+      "bytes": 474093
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-the-princes-image",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-princes-image.mp3",
+      "durationMs": 34250,
+      "sha256": "daee962aa507338de6e6cf968cdb890e50b02df56e6a6eec3120fc296a24bce3",
+      "transcriptSha256": "ce8ee73e8c4ef4544c3001343b6cf66b43a023df69b5ce20b24ff4ea5650e518",
+      "bytes": 412173
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-first-triangulation",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-first-triangulation.mp3",
+      "durationMs": 34550,
+      "sha256": "e7d0a8e0e1a3d27888ba1d1c584aac7dc0a7fbbf3d68221e40b975af4ce2c6d2",
+      "transcriptSha256": "7a4ee41718215fcd27e85edfefccc96d7836b7db0ef6780ab36428ea574f5cc1",
+      "bytes": 415629
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-second-triangulation",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-second-triangulation.mp3",
+      "durationMs": 31850,
+      "sha256": "58f13450a48a2727e3916881acb14cfade9f42499f997a8a353d79963785b7f5",
+      "transcriptSha256": "306678da191df84f52727ab3a61723f8e1c9b63118ed84d17d81c1f31a43cbdc",
+      "bytes": 383373
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-the-moving-crystal",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-moving-crystal.mp3",
+      "durationMs": 37850,
+      "sha256": "34cc335c6c52c780a59fffe01dfc05bd66f2e743bdde1932335077f466199c6c",
+      "transcriptSha256": "fc5fba501331bfac69bce97e47639c2fcca442150514283ba71b54d9b54641cd",
+      "bytes": 455373
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-spirits-song",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-spirits-song.mp3",
+      "durationMs": 35175,
+      "sha256": "8c09e21c94d317eff2af5ef53ca26811dff79dbef2a1fa317d55a7ed3e5d44ee",
+      "transcriptSha256": "bcf1c78b7dc4fb892c4e98e8f1d25a55ee295799c213b0d0309d03d05e1bc352",
+      "bytes": 423117
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-the-message-in-the-crystal",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-message-in-the-crystal.mp3",
+      "durationMs": 36900,
+      "sha256": "d833566e8d859cfc3bc9f6508c2a973867fcad43214317c8ea74552d4c3d95b0",
+      "transcriptSha256": "e8de353dda4f06b3bb570c23e7d2fbf847a1aede780f9fbc57478bcb6a497097",
+      "bytes": 443853
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-mechanar-shard",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-mechanar-shard.mp3",
+      "durationMs": 30200,
+      "sha256": "e3511429064bb2b5421c236a6835ef23c0aa736d810a02476caa316da97246df",
+      "transcriptSha256": "5cd9d2fc04ab745fefed38dc7e9681bccfa0a17449adac20b6d0b25eca88341a",
+      "bytes": 363501
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-botanica-shard",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-botanica-shard.mp3",
+      "durationMs": 32400,
+      "sha256": "bb894a6d9d26b953033b2f2537be88fee92cfff496469218156ef47bdd72f893",
+      "transcriptSha256": "b129e0d25b0b4860797bd55e87616c58d848c0e51d7b9fb0855f8c8e73bcf379",
+      "bytes": 389709
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-the-key-reunited",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-key-reunited.mp3",
+      "durationMs": 30650,
+      "sha256": "667e6cc2e509f0c7c7ae423d58197a30c63a0f8fdff3420bc92b0b21d8f34e9e",
+      "transcriptSha256": "d47009f1a218256a312c0aee898f75b764cdb76134b34630d50801223e4feba6",
+      "bytes": 368973
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-the-prison-breaks",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-prison-breaks.mp3",
+      "durationMs": 32750,
+      "sha256": "00f8bfe1c640551aa8723c7bf45eed16ecadba3b470dfacdef079ab096e37c42",
+      "transcriptSha256": "7e5784b8151b40fce18e90fc22d5668056f2343705439a09b08d047fb62f6acb",
+      "bytes": 394029
+    },
+    {
+      "nodeId": "consortium-and-arcatraz-story-skyriss-contained",
+      "guideId": "consortium-and-arcatraz-guide",
+      "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-skyriss-contained.mp3",
+      "durationMs": 49050,
+      "sha256": "b85d961f84c4782b3da173f39cf3f66441bcfff2dde7a21bda432fc2c46b19dc",
+      "transcriptSha256": "fa78966766693b432ecb0d15b79986e04774672297e881d9a268abd0839e854e",
+      "bytes": 589581
     }
   ]
 }
