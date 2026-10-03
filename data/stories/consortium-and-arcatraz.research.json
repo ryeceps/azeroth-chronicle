@@ -1,0 +1,829 @@
+{
+  "guide": {
+    "id": "consortium-and-arcatraz-guide",
+    "eraId": "age-of-adventurers",
+    "title": "The Consortium and the Arcatraz prison",
+    "description": "Fifteen illustrated scenes follow Khay’ji’s false leads, Haramad’s triangulation search, A’dal’s Arcatraz key, and the immediate threat posed by Harbinger Skyriss.",
+    "nodeIds": [
+      "consortium-and-arcatraz-story-the-arklon-crystal",
+      "consortium-and-arcatraz-story-the-zaxxis-break",
+      "consortium-and-arcatraz-story-nesaad-still-lives",
+      "consortium-and-arcatraz-story-a-contract-in-default",
+      "consortium-and-arcatraz-story-the-princes-image",
+      "consortium-and-arcatraz-story-first-triangulation",
+      "consortium-and-arcatraz-story-second-triangulation",
+      "consortium-and-arcatraz-story-the-moving-crystal",
+      "consortium-and-arcatraz-story-spirits-song",
+      "consortium-and-arcatraz-story-the-message-in-the-crystal",
+      "consortium-and-arcatraz-story-mechanar-shard",
+      "consortium-and-arcatraz-story-botanica-shard",
+      "consortium-and-arcatraz-story-the-key-reunited",
+      "consortium-and-arcatraz-story-the-prison-breaks",
+      "consortium-and-arcatraz-story-skyriss-contained"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "consortium-and-arcatraz-story-the-arklon-crystal",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The crystal that is not the answer",
+      "narration": "At Area 52, Khay’ji says Nexus-Prince Haramad wants a crystal artifact from old draenei ruins. The Burning Legion has begun digging there, and the quest points to Pentatharon, a dreadlord holding one candidate. When Khay’ji examines what returns, he finds nothing special and doubts it is the crystal the prince seeks. Yet the Legion’s work seems directed toward something particular. The first prize is a false lead; the search itself has gained urgency.",
+      "durationMs": 58500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-arklon-crystal-event"
+      ],
+      "entityIds": [
+        "nether-stalker-khayji"
+      ],
+      "locationIds": [
+        "consortium-arklon-ruins"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-arklon-crystal-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nether-stalker-khayji"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-arklon-crystal.mp3",
+        "durationMs": 34250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-zaxxis-break"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-zaxxis-break",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "A break with the Consortium",
+      "narration": "Khay’ji describes the Zaxxis as ethereals who left the Consortium and made dealings with the Sunfury. He says he infiltrated their camp at the Heap and took out their leader, but had to escape to Area 52. The quest sends the seeker back for Zaxxis insignias. Their collection records evidence of the break, not a new treaty or a full account of why the group left. Khay’ji’s report is the story’s only account of his failed operation.",
+      "durationMs": 61500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-zaxxis-break-event"
+      ],
+      "entityIds": [
+        "nether-stalker-khayji"
+      ],
+      "locationIds": [
+        "consortium-zaxxis-heap"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-zaxxis-break-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nether-stalker-khayji"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-zaxxis-break.mp3",
+        "durationMs": 32500,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-arklon-crystal",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-nesaad-still-lives"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-nesaad-still-lives",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "Nesaad still lives",
+      "narration": "After the insignias are returned, Khay’ji receives word from another agent: Warp-Raider Nesaad survived. The assignment is now personal in a narrower sense: Khay’ji admits that his own attack failed and asks the seeker not to fail as he did. Nesaad is found in a small camp near the Heap. His death closes this immediate operation, but the quest’s next handoff is more revealing than a victory report: Khay’ji has another job, one that leads to Gahruj and the surveying equipment.",
+      "durationMs": 64500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-nesaad-still-lives-event"
+      ],
+      "entityIds": [
+        "nether-stalker-khayji",
+        "warp-raider-nesaad"
+      ],
+      "locationIds": [
+        "consortium-zaxxis-heap"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-nesaad-still-lives-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nether-stalker-khayji"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "warp-raider-nesaad"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-nesaad-still-lives.mp3",
+        "durationMs": 36025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-zaxxis-break",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-a-contract-in-default"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-a-contract-in-default",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The survey equipment in dispute",
+      "narration": "Khay’ji’s introduction carries the seeker to Gahruj at Eco-Dome Midrealm. The Consortium says surveying gear was delivered to blood-elf buyers and left unpaid. Gahruj asks for the equipment back from Manaforge Duro, where he says mana creatures have occupied the area. He instructs the seeker to use that distraction. His next explanation is blunt: the Consortium wants its property; what happens to the blood elves is of little concern to him. This is Gahruj’s stated commercial motive, not an independent verdict on the dispute.",
+      "durationMs": 66500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-a-contract-in-default-event"
+      ],
+      "entityIds": [
+        "nether-stalker-khayji",
+        "consortium-agent-gahruj"
+      ],
+      "locationIds": [
+        "eco-dome-midrealm"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-a-contract-in-default-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nether-stalker-khayji"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "consortium-agent-gahruj"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-a-contract-in-default.mp3",
+        "durationMs": 39425,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-nesaad-still-lives",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-princes-image"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-princes-image",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "An audience at the Stormspire",
+      "narration": "Once the boxes of surveying equipment are returned, Gahruj asks for one more delivery: the gear must go to the Stormspire. Haramad is often present there as an image, and the quest calls that meeting an audience. The prince welcomes the traveler, then says the equipment may be set anywhere and suspects it will soon be picked up again. The exchange is almost casual. Beneath it, the surveying tools become the means by which Haramad hopes to locate the crystal missed at Arklon.",
+      "durationMs": 65500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-princes-image-event"
+      ],
+      "entityIds": [
+        "consortium-agent-gahruj",
+        "nexus-prince-haramad"
+      ],
+      "locationIds": [
+        "consortium-stormspire"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-princes-image-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "consortium-agent-gahruj"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-princes-image.mp3",
+        "durationMs": 34250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-a-contract-in-default",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-first-triangulation"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-first-triangulation",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The first point",
+      "narration": "Haramad explains that an ancient draenei legend speaks of a crystal with power great enough to be called godlike. He fears the Burning Legion may uncover it first, and gives the surveying equipment a purpose at last: find the first triangulation point. The quest sends the seeker to report to Dealer Hazzin, one of the prince’s agents. The power is the legend as Haramad relays it; the urgency is his stated concern. Neither makes the crystal’s full history certain.",
+      "durationMs": 63000,
+      "eventIds": [
+        "consortium-and-arcatraz-story-first-triangulation-event"
+      ],
+      "entityIds": [
+        "nexus-prince-haramad"
+      ],
+      "locationIds": [
+        "netherstorm-survey-points"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-first-triangulation-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-first-triangulation.mp3",
+        "durationMs": 34550,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-princes-image",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-second-triangulation"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-second-triangulation",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "A second bearing",
+      "narration": "The first reading returns to Hazzin, who recalibrates the device. A second point lies far to the west, and the seeker carries the new reading to Wind Trader Tuluman near Manaforge Ara. The two points do not yet name a single object or settle its origin; they narrow the search. Tuluman’s report gives the prince a general vicinity for the crystal, enough to replace legend with a destination but not yet with possession.",
+      "durationMs": 58500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-second-triangulation-event"
+      ],
+      "entityIds": [
+        "nexus-prince-haramad"
+      ],
+      "locationIds": [
+        "netherstorm-survey-points"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-second-triangulation-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-second-triangulation.mp3",
+        "durationMs": 31850,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-first-triangulation",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-moving-crystal"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-moving-crystal",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "Full Triangle",
+      "narration": "With both readings, Haramad places the crystal atop the Ruins of Farahlon. The quest data says it is moving and supposes the Burning Legion has already found it. Culuthas carries the Ata’mal Crystal; the seeker is sent to defeat the demon and bring it back. The collection that began with an unremarkable Arklon artifact now yields the object the prince sought. Haramad calls the recovery beyond his expectations and praises the traveler’s selflessness, but the quest does not explain the crystal’s whole past.",
+      "durationMs": 65500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-moving-crystal-event"
+      ],
+      "entityIds": [
+        "nexus-prince-haramad",
+        "culuthas",
+        "ata-mal-crystal"
+      ],
+      "locationIds": [
+        "consortium-ruins-of-farahlon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-moving-crystal-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "culuthas"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ata-mal-crystal"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-moving-crystal.mp3",
+        "durationMs": 37850,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-second-triangulation",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-spirits-song"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-spirits-song",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "Spirit’s Song",
+      "narration": "Haramad gives the crystal to the seeker and sends it to A’dal at the Terrace of Light, with his personal teleporter as the road. A’dal recognizes it as Spirit’s Song. He says Prophet Velen left it with his people before departing on the mission to the Exodar, then wonders whether Velen foresaw that it would pass briefly into the Legion’s hands and be returned. That explanation belongs to A’dal’s reflection. The quest invites wonder, but does not turn his speculation into a proven prophecy.",
+      "durationMs": 66500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-spirits-song-event"
+      ],
+      "entityIds": [
+        "nexus-prince-haramad",
+        "adal",
+        "ata-mal-crystal"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-spirits-song-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ata-mal-crystal"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-spirits-song.mp3",
+        "durationMs": 35175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-moving-crystal",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-message-in-the-crystal"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-message-in-the-crystal",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "A message embedded within",
+      "narration": "The next instruction reveals what the crystal carried beyond its power and history: a message was embedded within it. Haramad has supplied information A’dal calls vital to the campaign against Tempest Keep. The Arcatraz is a prison satellite there, and two shards will make its key. A’dal asks for both. This is the turn from Consortium investigation to prison campaign. The crystal does not open the way by itself; it has delivered the intelligence that makes the next journey legible.",
+      "durationMs": 63500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-message-in-the-crystal-event"
+      ],
+      "entityIds": [
+        "adal",
+        "nexus-prince-haramad",
+        "ata-mal-crystal"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-message-in-the-crystal-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ata-mal-crystal"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-message-in-the-crystal.mp3",
+        "durationMs": 36900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-spirits-song",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-mechanar-shard"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-mechanar-shard",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The Bottom Shard",
+      "narration": "One shard is held by Pathaleon the Calculator in the Mechanar. The destination is one of Tempest Keep’s floating wings, a machine-world of precise metal and crystal. The quest asks for the Bottom Shard as one part of a pair; it does not say that Pathaleon alone controls the prison. The search remains divided across two dungeons, and the first fragment is only useful when reunited with its counterpart.",
+      "durationMs": 55500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-mechanar-shard-event"
+      ],
+      "entityIds": [
+        "pathaleon-the-calculator",
+        "key-to-the-arcatraz"
+      ],
+      "locationIds": [
+        "the-mechanar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-mechanar-shard-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "pathaleon-the-calculator"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "key-to-the-arcatraz"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-mechanar-shard.mp3",
+        "durationMs": 30200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-message-in-the-crystal",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-botanica-shard"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-botanica-shard",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The Top Shard",
+      "narration": "The other shard lies in the Botanica, held by the ancient being Warp Splinter. Here Tempest Keep’s exacting architecture meets living growth. The Top Shard and the Mechanar’s Bottom Shard complete the pair named by A’dal. Their collection is an access task, and the quest does not claim the two encounters happen on a shared expedition or in a fixed historical interval. Only after both have been recovered can the key take its final form.",
+      "durationMs": 60000,
+      "eventIds": [
+        "consortium-and-arcatraz-story-botanica-shard-event"
+      ],
+      "entityIds": [
+        "warp-splinter",
+        "key-to-the-arcatraz"
+      ],
+      "locationIds": [
+        "the-botanica"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-botanica-shard-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "warp-splinter"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "key-to-the-arcatraz"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-botanica-shard.mp3",
+        "durationMs": 32400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-mechanar-shard",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-key-reunited"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-key-reunited",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "Two shards become one key",
+      "narration": "Back at the Terrace of Light, A’dal receives both fragments and combines them into the Key to the Arcatraz. The step ends the access chain’s central labor: Haramad’s clues carried the search from survey equipment to a crystal, and the crystal’s message gave the prison its key. The lock can now be opened. The place beyond it is not a reward chamber, however, but a satellite prison whose containment is already in danger.",
+      "durationMs": 58500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-key-reunited-event"
+      ],
+      "entityIds": [
+        "adal",
+        "key-to-the-arcatraz"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-key-reunited-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "key-to-the-arcatraz"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-key-reunited.mp3",
+        "durationMs": 30650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-botanica-shard",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-prison-breaks"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-prison-breaks",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "Containment begins to fail",
+      "narration": "When A’dal calls the traveler back, the prison’s danger is immediate. He says Kael’thas chose his warden poorly and that entities once locked inside the Arcatraz are breaking free. The quest does not name every prisoner or explain how each containment failed. Its next warning narrows the threat to one escapee. The key has opened a route into Tempest Keep; it has not made the prison safe, and the first account of the breach comes from A’dal.",
+      "durationMs": 61500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-prison-breaks-event"
+      ],
+      "entityIds": [
+        "adal",
+        "key-to-the-arcatraz"
+      ],
+      "locationIds": [
+        "arcatraz"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-prison-breaks-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "key-to-the-arcatraz"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-prison-breaks.mp3",
+        "durationMs": 32750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-key-reunited",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-skyriss-contained"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-skyriss-contained",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The Harbinger is stopped",
+      "narration": "A’dal identifies Harbinger Skyriss as a servant of the Old Gods and says he seeks to bring his masters’ vision of universal conquest to pass. The warning is A’dal’s account of the prisoner, not an omniscient report of every Old God’s plan. The quest sends the seeker to kill Skyriss before he can escape. On the return, A’dal says that countless thousands would have perished if the Harbinger had broken free, comparing the danger to Skeram. That spared future is his claim; the confirmed ending is narrower: Skyriss is slain, and the immediate breach is checked. The prison’s other captives and the wider purpose behind them remain unresolved.",
+      "durationMs": 84000,
+      "eventIds": [
+        "consortium-and-arcatraz-story-skyriss-contained-event"
+      ],
+      "entityIds": [
+        "adal",
+        "harbinger-skyriss"
+      ],
+      "locationIds": [
+        "arcatraz"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-skyriss-contained-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "harbinger-skyriss"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-skyriss-contained.mp3",
+        "durationMs": 49050,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-prison-breaks"
+    }
+  ]
+}

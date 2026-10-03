@@ -1,0 +1,26 @@
+{
+  "id": "consortium-and-arcatraz-story-mechanar-shard-event",
+  "kind": "event",
+  "name": "The Bottom Shard",
+  "slug": "consortium-and-arcatraz-story-mechanar-shard-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "consortium-and-arcatraz-story-theater",
+  "date": {
+    "precision": "relative",
+    "label": "The Burning Crusade · quest sequence; exact date unknown"
+  },
+  "summary": "One shard is held by Pathaleon the Calculator in the Mechanar. The destination is one of Tempest Keep’s floating wings, a machine-world of precise metal and crystal. The quest asks for the Bottom Shard as one part of a pair; it does not say that Pathaleon alone controls the prison. The search remains divided across two dungeons, and the first fragment is only useful when reunited with its counterpart.",
+  "locationIds": [
+    "the-mechanar"
+  ],
+  "participantEntityIds": [
+    "pathaleon-the-calculator"
+  ],
+  "sourceIds": [
+    "consortium-arcatraz-key-quest"
+  ],
+  "claimIds": [
+    "consortium-and-arcatraz-story-mechanar-shard-claim"
+  ],
+  "contentStatus": "research"
+}

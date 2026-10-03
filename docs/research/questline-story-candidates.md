@@ -229,6 +229,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** capture quest dialogue for motives and prison revelations; access steps alone aren't a finished narrative. Check whether the Zereketh/Harbinger encounter material actually completes the editorial question before commissioning a long tour.
 
+**Implementation:** Complete 15-scene illustrated research StoryGuide with quest-by-quest citation and claim records, transcript-matched narration, dedicated Netherstorm and Tempest Keep scene art, and original cast and artifact figures. Added as a separate Classic-to-Wrath StoryTour placard immediately after Karazhan; this editorial placement claims no relative date or dependency. Karazhan’s third key fragment is a separate Arcatraz visit and is not retold. The initial faction quest can begin through either the Aldor or Scryers contact. Gahruj’s motives, Haramad’s search account, A’dal’s speculation and Skyriss’s alleged purpose remain attributed; the ending contains the immediate threat while leaving the wider prisoner story open. Original-client dialogue/build evidence, human lore/source review, TBC area/model resemblance review and audio audition remain open. See the [research packet](consortium-and-arcatraz-research.md), [production ledger](consortium-and-arcatraz-production.md), and [visual asset ledger](consortium-and-arcatraz-visual-assets.json).
+
 ### 20. The Shattered Sun and the restored Sunwell
 
 **ID:** `shattered-sun-and-sunwell` · **A** · **Reach:** Shattrath, Outland supply missions, Quel'Danas, Magisters' Terrace and Sunwell Plateau.

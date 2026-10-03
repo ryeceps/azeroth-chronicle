@@ -67,6 +67,17 @@
       }
     },
     {
+      "id": "consortium-and-arcatraz-story-theater",
+      "name": "The Consortium and the Arcatraz — relational story theater",
+      "slug": "consortium-and-arcatraz-story-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "cosmos",
       "name": "The Warcraft Cosmos",
       "slug": "cosmos",
@@ -843,6 +854,166 @@
       "geometryIds": [],
       "cartographyLabel": "THE BURNING CRUSADE · SHADOWMOON VALLEY",
       "interpretationNote": "Original research illustration for a Burning Crusade story scene. Recognizable traits: The Burning Crusade Shattrath: weathered tan stone, layered arches, fabric awnings and dense Lower City alleys. Original composition, not an exact street reconstruction. This image is not an in-game capture, exact location, route, or surveyed layout. Matching-build game comparison remains open; see docs/research/cipher-of-damnation-oronok-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-a-contract-in-default-scene",
+      "name": "consortium-and-arcatraz story: Eco-Dome Midrealm",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/consortium-arcatraz/eco-dome-midrealm.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI environment art; original-client resemblance comparison remains open. Recognizable Burning Crusade area traits: A contained Netherstorm biodome with a luminous green canopy, cultivated alien plants, a pale Consortium outpost and violet fractured ground beyond. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-botanica-shard-scene",
+      "name": "consortium-and-arcatraz story: Tempest Keep: The Botanica",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/consortium-arcatraz/botanica.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI environment art; it is not a dungeon layout or exact encounter screenshot. Recognizable Burning Crusade area traits: A floating Tempest Keep conservatory with pale draenei geometry, green growth within crystal structures, and the purple void outside. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-first-triangulation-scene",
+      "name": "consortium-and-arcatraz story: The Stormspire",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/consortium-arcatraz/stormspire.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI environment art; no exact building plan or location is claimed. Recognizable Burning Crusade area traits: A suspended Consortium tower with pale metal, layered decks and arcane mechanisms above Netherstorm’s broken violet islands. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-mechanar-shard-scene",
+      "name": "consortium-and-arcatraz story: Tempest Keep: The Mechanar",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/consortium-arcatraz/mechanar.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI environment art; it is not a dungeon layout or exact encounter screenshot. Recognizable Burning Crusade area traits: A high, mechanical Tempest Keep wing: floating draenei-built architecture, pale metal and crystal, precise machinery, and Netherstorm’s violet void. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-nesaad-still-lives-scene",
+      "name": "consortium-and-arcatraz story: The Heap",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/consortium-arcatraz/heap-of-zaxxis.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI environment art; the staging is illustrative, not a camp plan or exact NPC placement. Recognizable Burning Crusade area traits: A dangerous open-air ethereal scavenger camp on a broken Netherstorm shelf, with dark rock, salvage, sparse crystal lamps and distant manaforge light; distinct from an enclosed Eco-Dome. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-second-triangulation-scene",
+      "name": "consortium-and-arcatraz story: The Ruins of Farahlon",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/consortium-arcatraz/farahlon.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI environment art; exact geography, crystal placement and composition remain interpretive. Recognizable Burning Crusade area traits: An ancient draenei ruin on a shattered Netherstorm island, with violet haze, weathered pale stone and a distinct site for the Ata’mal Crystal encounter. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-skyriss-contained-scene",
+      "name": "consortium-and-arcatraz story: The Arcatraz, Tempest Keep",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/akama-black-temple/arcatraz.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Reused original project illustration; distinguish the Consortium key and prison-break narrative from Karazhan’s separate third-fragment visit. Recognizable Burning Crusade area traits: A floating crystalline draenei prison, angular ivory-and-red structures, energy cells and Netherstorm’s violet void. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-spirits-song-scene",
+      "name": "consortium-and-arcatraz story: Shattrath, Terrace of Light",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Reused original project illustration; original-client comparison remains open. Recognizable Burning Crusade area traits: Pale cream draenei stone and open arches, a luminous naaru crystal, and dusty ground beyond the city. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-the-arklon-crystal-scene",
+      "name": "consortium-and-arcatraz story: The Arklon Ruins",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/consortium-arcatraz/arklon-ruins.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI environment art; original-client resemblance comparison remains open. Recognizable Burning Crusade area traits: Old draenei stonework cut by a Burning Legion excavation, with pale angular ruins against Netherstorm’s violet sky and floating rock. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-the-heap-and-nesaad-scene",
+      "name": "consortium-and-arcatraz story: The Heap",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/consortium-arcatraz/heap-of-zaxxis.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI environment art; the staging is illustrative, not a camp plan or exact NPC placement. Recognizable Burning Crusade area traits: A dangerous open-air ethereal scavenger camp on a broken Netherstorm shelf, with dark rock, salvage, sparse crystal lamps and distant manaforge light; distinct from an enclosed Eco-Dome. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-the-key-reunited-scene",
+      "name": "consortium-and-arcatraz story: Shattrath, Terrace of Light",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Reused original project illustration; original-client comparison remains open. Recognizable Burning Crusade area traits: Pale cream draenei stone and open arches, a luminous naaru crystal, and dusty ground beyond the city. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-the-message-in-the-crystal-scene",
+      "name": "consortium-and-arcatraz story: Shattrath, Terrace of Light",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/karazhan/shattrath-terrace-of-light.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Reused original project illustration; original-client comparison remains open. Recognizable Burning Crusade area traits: Pale cream draenei stone and open arches, a luminous naaru crystal, and dusty ground beyond the city. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-the-moving-crystal-scene",
+      "name": "consortium-and-arcatraz story: The Ruins of Farahlon",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/consortium-arcatraz/farahlon.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI environment art; exact geography, crystal placement and composition remain interpretive. Recognizable Burning Crusade area traits: An ancient draenei ruin on a shattered Netherstorm island, with violet haze, weathered pale stone and a distinct site for the Ata’mal Crystal encounter. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-the-princes-image-scene",
+      "name": "consortium-and-arcatraz story: The Stormspire",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/consortium-arcatraz/stormspire.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI environment art; no exact building plan or location is claimed. Recognizable Burning Crusade area traits: A suspended Consortium tower with pale metal, layered decks and arcane mechanisms above Netherstorm’s broken violet islands. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-the-prison-breaks-scene",
+      "name": "consortium-and-arcatraz story: The Arcatraz, Tempest Keep",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/akama-black-temple/arcatraz.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "Reused original project illustration; distinguish the Consortium key and prison-break narrative from Karazhan’s separate third-fragment visit. Recognizable Burning Crusade area traits: A floating crystalline draenei prison, angular ivory-and-red structures, energy cells and Netherstorm’s violet void. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
+    },
+    {
+      "id": "consortium-and-arcatraz-the-zaxxis-break-scene",
+      "name": "consortium-and-arcatraz story: The Heap",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/consortium-arcatraz/heap-of-zaxxis.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED QUESTLINE THEATER",
+      "interpretationNote": "New original AI environment art; the staging is illustrative, not a camp plan or exact NPC placement. Recognizable Burning Crusade area traits: A dangerous open-air ethereal scavenger camp on a broken Netherstorm shelf, with dark rock, salvage, sparse crystal lamps and distant manaforge light; distinct from an enclosed Eco-Dome. Figures and objects are editorial story placements, not a literal event composition, surveyed location, dungeon floor plan or proof of simultaneous co-presence. See docs/research/consortium-and-arcatraz-visual-assets.json."
     },
     {
       "id": "cosmic-origins-map-research",
@@ -4865,6 +5036,191 @@
       "editorNote": "Only the east-of-Zul’Aman relation is source-backed; atlas point is approximate.",
       "labelPriority": 215,
       "visualPresence": "contextual"
+    },
+    {
+      "id": "consortium-and-arcatraz-adal-theater",
+      "entityId": "adal",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "geometryId": "consortium-and-arcatraz-adal-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest",
+        "consortium-blizzard-arcatraz-chain",
+        "consortium-harbinger-quest"
+      ],
+      "editorNote": "Editorial placement for A’dal in an illustrated story theater. It is not a geographic position, literal formation, dungeon map or unsupported co-presence claim. Original TBC client/model comparison remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 230
+    },
+    {
+      "id": "consortium-and-arcatraz-ata-mal-crystal-theater",
+      "entityId": "ata-mal-crystal",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "geometryId": "consortium-and-arcatraz-ata-mal-crystal-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "consortium-full-triangle",
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest",
+        "consortium-blizzard-arcatraz-chain"
+      ],
+      "editorNote": "Editorial placement for Ata’mal Crystal — Spirit’s Song in an illustrated story theater. It is not a geographic position, literal formation, dungeon map or unsupported co-presence claim. Original TBC client/model comparison remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 230
+    },
+    {
+      "id": "consortium-and-arcatraz-consortium-agent-gahruj-theater",
+      "entityId": "consortium-agent-gahruj",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "geometryId": "consortium-and-arcatraz-consortium-agent-gahruj-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "consortium-request-assistance",
+        "consortium-rightful-repossession",
+        "consortium-audience-prince"
+      ],
+      "editorNote": "Editorial placement for Gahruj in an illustrated story theater. It is not a geographic position, literal formation, dungeon map or unsupported co-presence claim. Original TBC client/model comparison remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 230
+    },
+    {
+      "id": "consortium-and-arcatraz-culuthas-theater",
+      "entityId": "culuthas",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "geometryId": "consortium-and-arcatraz-culuthas-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "consortium-full-triangle"
+      ],
+      "editorNote": "Editorial placement for Culuthas in an illustrated story theater. It is not a geographic position, literal formation, dungeon map or unsupported co-presence claim. Original TBC client/model comparison remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 230
+    },
+    {
+      "id": "consortium-and-arcatraz-harbinger-skyriss-theater",
+      "entityId": "harbinger-skyriss",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "geometryId": "consortium-and-arcatraz-harbinger-skyriss-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "consortium-harbinger-quest"
+      ],
+      "editorNote": "Editorial placement for Harbinger Skyriss in an illustrated story theater. It is not a geographic position, literal formation, dungeon map or unsupported co-presence claim. Original TBC client/model comparison remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 230
+    },
+    {
+      "id": "consortium-and-arcatraz-key-to-the-arcatraz-theater",
+      "entityId": "key-to-the-arcatraz",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "geometryId": "consortium-and-arcatraz-key-to-the-arcatraz-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "consortium-arcatraz-key-quest",
+        "consortium-blizzard-arcatraz-chain",
+        "consortium-harbinger-quest"
+      ],
+      "editorNote": "Editorial placement for Key to the Arcatraz in an illustrated story theater. It is not a geographic position, literal formation, dungeon map or unsupported co-presence claim. Original TBC client/model comparison remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 230
+    },
+    {
+      "id": "consortium-and-arcatraz-nether-stalker-khayji-theater",
+      "entityId": "nether-stalker-khayji",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "geometryId": "consortium-and-arcatraz-nether-stalker-khayji-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "consortium-crystal-collection",
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad",
+        "consortium-request-assistance",
+        "consortium-rightful-repossession"
+      ],
+      "editorNote": "Editorial placement for Nether-Stalker Khay’ji in an illustrated story theater. It is not a geographic position, literal formation, dungeon map or unsupported co-presence claim. Original TBC client/model comparison remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 230
+    },
+    {
+      "id": "consortium-and-arcatraz-nexus-prince-haramad-theater",
+      "entityId": "nexus-prince-haramad",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "geometryId": "consortium-and-arcatraz-nexus-prince-haramad-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "consortium-audience-prince",
+        "consortium-triangulation-one",
+        "consortium-triangulation-two",
+        "consortium-full-triangle",
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest",
+        "consortium-blizzard-arcatraz-chain"
+      ],
+      "editorNote": "Editorial placement for Nexus-Prince Haramad in an illustrated story theater. It is not a geographic position, literal formation, dungeon map or unsupported co-presence claim. Original TBC client/model comparison remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 230
+    },
+    {
+      "id": "consortium-and-arcatraz-pathaleon-the-calculator-theater",
+      "entityId": "pathaleon-the-calculator",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "geometryId": "consortium-and-arcatraz-pathaleon-the-calculator-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "editorNote": "Editorial placement for Pathaleon the Calculator in an illustrated story theater. It is not a geographic position, literal formation, dungeon map or unsupported co-presence claim. Original TBC client/model comparison remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 230
+    },
+    {
+      "id": "consortium-and-arcatraz-warp-raider-nesaad-theater",
+      "entityId": "warp-raider-nesaad",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "geometryId": "consortium-and-arcatraz-warp-raider-nesaad-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "consortium-warp-raider-nesaad"
+      ],
+      "editorNote": "Editorial placement for Warp-Raider Nesaad in an illustrated story theater. It is not a geographic position, literal formation, dungeon map or unsupported co-presence claim. Original TBC client/model comparison remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 230
+    },
+    {
+      "id": "consortium-and-arcatraz-warp-splinter-theater",
+      "entityId": "warp-splinter",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "geometryId": "consortium-and-arcatraz-warp-splinter-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "editorNote": "Editorial placement for Warp Splinter in an illustrated story theater. It is not a geographic position, literal formation, dungeon map or unsupported co-presence claim. Original TBC client/model comparison remains open.",
+      "visualPresence": "contextual",
+      "labelPriority": 230
     },
     {
       "id": "cosmic-forces-cosmic-research",
@@ -11644,7 +12000,21 @@
         "cipher-thistlehead-trap-quest",
         "cipher-shadowmoon-shuffle-quest",
         "cipher-illidan-wants-quest",
-        "cipher-borak-third-fragment-quest"
+        "cipher-borak-third-fragment-quest",
+        "consortium-crystal-collection",
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad",
+        "consortium-request-assistance",
+        "consortium-rightful-repossession",
+        "consortium-audience-prince",
+        "consortium-triangulation-one",
+        "consortium-triangulation-two",
+        "consortium-full-triangle",
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest",
+        "consortium-blizzard-arcatraz-chain",
+        "consortium-harbinger-quest",
+        "consortium-netherstorm-visual-locator"
       ],
       "contentStatus": "research"
     },
@@ -12105,12 +12475,16 @@
         "champion-naaru-mercy-quest-10884",
         "champion-naaru-strength-quest-10885",
         "champion-naaru-tenacity-quest-10886",
-        "champion-naaru-magtheridon-quest-10888"
+        "champion-naaru-magtheridon-quest-10888",
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest",
+        "consortium-harbinger-quest"
       ],
       "tags": [
         "akama-story",
         "interpretive-art",
-        "champion-naaru-story"
+        "champion-naaru-story",
+        "consortium-arcatraz-story"
       ],
       "contentStatus": "research",
       "mapFigure": {
@@ -12762,17 +13136,20 @@
       "name": "The Arcatraz",
       "slug": "arcatraz",
       "shortDescription": "The Arcatraz, a named setting in the Akama and Black Temple research story.",
-      "body": "A named place used in the Akama and Black Temple quest account. Its environmental image is an original interpretive scene, not an exact surveyed location, terrain reconstruction, dungeon floor plan or proof of travel route. Matching TBC area traits and the original-client comparison status are in the visual asset ledger.",
+      "body": "A named place used in the Akama and Black Temple quest account. Its environmental image is an original interpretive scene, not an exact surveyed location, terrain reconstruction, dungeon floor plan or proof of travel route. Matching TBC area traits and the original-client comparison status are in the visual asset ledger. Tempest Keep’s prison satellite, reached after A’dal combines the two key shards. The story’s position is relational; no exact map coordinate is asserted.",
       "firstEraId": "age-of-adventurers",
       "featuredEraIds": [
         "age-of-adventurers"
       ],
       "sourceIds": [
-        "akama-seer-udalo-quest"
+        "akama-seer-udalo-quest",
+        "consortium-arcatraz-key-quest",
+        "consortium-harbinger-quest"
       ],
       "tags": [
         "akama-story",
-        "story-setting"
+        "story-setting",
+        "consortium-arcatraz-story"
       ],
       "contentStatus": "research"
     },
@@ -13175,6 +13552,33 @@
       "mapFigure": {
         "asset": "images/storylines/swift-flight-form/aspect-of-raven.research.webp",
         "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "ata-mal-crystal",
+      "type": "artifact",
+      "name": "Ata’mal Crystal — Spirit’s Song",
+      "slug": "ata-mal-crystal",
+      "shortDescription": "Ata’mal Crystal — Spirit’s Song, represented in the Consortium and Arcatraz research story.",
+      "body": "The crystal recovered from Culuthas, later named Spirit’s Song by A’dal. Shape and glow are interpretive, not canonical item-model evidence. This is original interpretive art, not a canonical item model or source of undocumented physical properties. Compare it with the original Burning Crusade client/model before human review. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-full-triangle",
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest",
+        "consortium-blizzard-arcatraz-chain"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/consortium-arcatraz/ata-mal-crystal.research.webp",
+        "scale": 0.64
       },
       "contentStatus": "research"
     },
@@ -14705,6 +15109,137 @@
       "contentStatus": "research"
     },
     {
+      "id": "consortium-agent-gahruj",
+      "type": "character",
+      "name": "Gahruj",
+      "slug": "consortium-agent-gahruj",
+      "shortDescription": "Gahruj, represented in the Consortium and Arcatraz research story.",
+      "body": "Consortium representative at Eco-Dome Midrealm who describes the equipment dispute and requests its recovery. This is original interpretive art, not canonical game art or proof of exact appearance, costume, formation, or simultaneous presence. Compare it with the original Burning Crusade client/model before human review. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-request-assistance",
+        "consortium-rightful-repossession",
+        "consortium-audience-prince"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/consortium-arcatraz/gahruj.research.webp",
+        "scale": 0.92
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-area-52",
+      "type": "location",
+      "name": "Area 52",
+      "slug": "consortium-area-52",
+      "shortDescription": "Area 52, a named setting in the Consortium and Arcatraz research story.",
+      "body": "Goblin outpost in Netherstorm where Khay’ji directs early Consortium work. Its story art is interpretive; no exact map coordinate, dungeon floor plan or travel route is asserted. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-crystal-collection",
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "burning-crusade-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-arklon-ruins",
+      "type": "location",
+      "name": "The Arklon Ruins",
+      "slug": "consortium-arklon-ruins",
+      "shortDescription": "The Arklon Ruins, a named setting in the Consortium and Arcatraz research story.",
+      "body": "Old draenei ruins and a Burning Legion excavation named in the crystal-recovery assignment. Its story art is interpretive; no exact map coordinate, dungeon floor plan or travel route is asserted. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-crystal-collection"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "burning-crusade-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-ruins-of-farahlon",
+      "type": "location",
+      "name": "The Ruins of Farahlon",
+      "slug": "consortium-ruins-of-farahlon",
+      "shortDescription": "The Ruins of Farahlon, a named setting in the Consortium and Arcatraz research story.",
+      "body": "The quest’s named target area for the moving Ata’mal Crystal and Culuthas encounter. Its story art is interpretive; no exact map coordinate, dungeon floor plan or travel route is asserted. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-full-triangle"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "burning-crusade-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-stormspire",
+      "type": "location",
+      "name": "The Stormspire",
+      "slug": "consortium-stormspire",
+      "shortDescription": "The Stormspire, a named setting in the Consortium and Arcatraz research story.",
+      "body": "Netherstorm Consortium tower where the image of Nexus-Prince Haramad receives the equipment and the triangulation reports. Its story art is interpretive; no exact map coordinate, dungeon floor plan or travel route is asserted. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-audience-prince",
+        "consortium-triangulation-one",
+        "consortium-full-triangle"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "burning-crusade-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-zaxxis-heap",
+      "type": "location",
+      "name": "The Heap",
+      "slug": "consortium-zaxxis-heap",
+      "shortDescription": "The Heap, a named setting in the Consortium and Arcatraz research story.",
+      "body": "A named Zaxxis ethereal camp south of Area 52 in the quest transcription. Its story art is interpretive; no exact map coordinate, dungeon floor plan or travel route is asserted. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "burning-crusade-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "corins-crossing",
       "type": "location",
       "name": "Corin’s Crossing and its nearby waters",
@@ -14775,6 +15310,30 @@
       "mapFigure": {
         "asset": "images/storylines/scepter/cthun-scepter.research.webp",
         "scale": 0.86
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "culuthas",
+      "type": "character",
+      "name": "Culuthas",
+      "slug": "culuthas",
+      "shortDescription": "Culuthas, represented in the Consortium and Arcatraz research story.",
+      "body": "Demon named in the Full Triangle quest as the bearer of the Ata’mal Crystal. This is original interpretive art, not canonical game art or proof of exact appearance, costume, formation, or simultaneous presence. Compare it with the original Burning Crusade client/model before human review. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-full-triangle"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/consortium-arcatraz/culuthas.research.webp",
+        "scale": 0.92
       },
       "contentStatus": "research"
     },
@@ -16482,6 +17041,27 @@
       "contentStatus": "research"
     },
     {
+      "id": "eco-dome-midrealm",
+      "type": "location",
+      "name": "Eco-Dome Midrealm",
+      "slug": "eco-dome-midrealm",
+      "shortDescription": "Eco-Dome Midrealm, a named setting in the Consortium and Arcatraz research story.",
+      "body": "The Midrealm Post inside Eco-Dome Midrealm, where Gahruj handles the disputed Consortium surveying-equipment contract. Its story art is interpretive; no exact map coordinate, dungeon floor plan or travel route is asserted. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-request-assistance",
+        "consortium-rightful-repossession"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "burning-crusade-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "edwin-vancleef",
       "type": "character",
       "name": "Edwin VanCleef",
@@ -17626,6 +18206,30 @@
       ]
     },
     {
+      "id": "harbinger-skyriss",
+      "type": "character",
+      "name": "Harbinger Skyriss",
+      "slug": "harbinger-skyriss",
+      "shortDescription": "Harbinger Skyriss, represented in the Consortium and Arcatraz research story.",
+      "body": "Prisoner A’dal identifies as a servant of the Old Gods and a threat if he escapes; original interpretive art, not model evidence. This is original interpretive art, not canonical game art or proof of exact appearance, costume, formation, or simultaneous presence. Compare it with the original Burning Crusade client/model before human review. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-harbinger-quest"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/consortium-arcatraz/skyriss.research.webp",
+        "scale": 0.98
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "hawks-shrine-sorrow-wing",
       "type": "site",
       "name": "Hawk shrine, Sorrow Wing Point",
@@ -18735,6 +19339,32 @@
       "contentStatus": "research"
     },
     {
+      "id": "key-to-the-arcatraz",
+      "type": "artifact",
+      "name": "Key to the Arcatraz",
+      "slug": "key-to-the-arcatraz",
+      "shortDescription": "Key to the Arcatraz, represented in the Consortium and Arcatraz research story.",
+      "body": "A’dal’s combined key made from the two recovered shards; exact item appearance remains interpretive. This is original interpretive art, not a canonical item model or source of undocumented physical properties. Compare it with the original Burning Crusade client/model before human review. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-arcatraz-key-quest",
+        "consortium-blizzard-arcatraz-chain",
+        "consortium-harbinger-quest"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/consortium-arcatraz/key-of-the-arcatraz.research.webp",
+        "scale": 0.7
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "khadgar",
       "type": "character",
       "name": "Khadgar",
@@ -19452,6 +20082,26 @@
         "asset": "images/characters/war-of-the-ancients/malfurion.research.webp",
         "scale": 0.84
       },
+      "contentStatus": "research"
+    },
+    {
+      "id": "manaforge-duro",
+      "type": "location",
+      "name": "Manaforge Duro",
+      "slug": "manaforge-duro",
+      "shortDescription": "Manaforge Duro, a named setting in the Consortium and Arcatraz research story.",
+      "body": "Site of the delivered surveying equipment and the blood elves’ reported mana-creature infestation. Its story art is interpretive; no exact map coordinate, dungeon floor plan or travel route is asserted. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-rightful-repossession"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "burning-crusade-location"
+      ],
       "contentStatus": "research"
     },
     {
@@ -20583,6 +21233,55 @@
       "contentStatus": "research"
     },
     {
+      "id": "nether-stalker-khayji",
+      "type": "character",
+      "name": "Nether-Stalker Khay’ji",
+      "slug": "nether-stalker-khayji",
+      "shortDescription": "Nether-Stalker Khay’ji, represented in the Consortium and Arcatraz research story.",
+      "body": "Consortium agent at Area 52 who assigns the Arklon artifact, reports the Zaxxis break and refers the seeker to Gahruj. This is original interpretive art, not canonical game art or proof of exact appearance, costume, formation, or simultaneous presence. Compare it with the original Burning Crusade client/model before human review. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-crystal-collection",
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad",
+        "consortium-request-assistance",
+        "consortium-rightful-repossession"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/consortium-arcatraz/khayji.research.webp",
+        "scale": 0.92
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherstorm-survey-points",
+      "type": "location",
+      "name": "Netherstorm triangulation sites",
+      "slug": "netherstorm-survey-points",
+      "shortDescription": "Netherstorm triangulation sites, a named setting in the Consortium and Arcatraz research story.",
+      "body": "A relational description of the survey search; point coordinates and exact placement are not encoded in the story atlas. Its story art is interpretive; no exact map coordinate, dungeon floor plan or travel route is asserted. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-triangulation-one",
+        "consortium-triangulation-two"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "burning-crusade-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "nethervine-crystal",
       "type": "artifact",
       "name": "Nethervine crystal",
@@ -20718,6 +21417,36 @@
       "mapVisual": {
         "asset": "images/subjects/third-war-frozen-throne/new-horde.research.webp",
         "scale": 0.94
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "nexus-prince-haramad",
+      "type": "character",
+      "name": "Nexus-Prince Haramad",
+      "slug": "nexus-prince-haramad",
+      "shortDescription": "Nexus-Prince Haramad, represented in the Consortium and Arcatraz research story.",
+      "body": "Consortium leader encountered through an image at the Stormspire; names the crystal search and receives the recovered Ata’mal Crystal. This is original interpretive art, not canonical game art or proof of exact appearance, costume, formation, or simultaneous presence. Compare it with the original Burning Crusade client/model before human review. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-audience-prince",
+        "consortium-triangulation-one",
+        "consortium-full-triangle",
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest",
+        "consortium-triangulation-two",
+        "consortium-blizzard-arcatraz-chain"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/consortium-arcatraz/haramad.research.webp",
+        "scale": 0.95
       },
       "contentStatus": "research"
     },
@@ -21277,6 +22006,30 @@
       "mapVisual": {
         "asset": "images/subjects/cosmic-origins/pantheon-of-order.research.webp",
         "scale": 1.12
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "pathaleon-the-calculator",
+      "type": "character",
+      "name": "Pathaleon the Calculator",
+      "slug": "pathaleon-the-calculator",
+      "shortDescription": "Pathaleon the Calculator, represented in the Consortium and Arcatraz research story.",
+      "body": "Named as holder of the Bottom Shard of the Arcatraz Key in the Mechanar. This is original interpretive art, not canonical game art or proof of exact appearance, costume, formation, or simultaneous presence. Compare it with the original Burning Crusade client/model before human review. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/consortium-arcatraz/pathaleon.research.webp",
+        "scale": 0.92
       },
       "contentStatus": "research"
     },
@@ -23105,7 +23858,7 @@
       "name": "Shattrath City",
       "slug": "shattrath-city",
       "shortDescription": "Shattrath City, a named setting in the Karazhan research story.",
-      "body": "The associated original environment art preserves these Outland’s pale draenei stone arches, open round terrace and luminous naaru crystal, with dusty ochre and broken terrain beyond the city. It remains an interpretive scene; no exact route, dungeon layout or surveyed coordinate is asserted.",
+      "body": "The associated original environment art preserves these Outland’s pale draenei stone arches, open round terrace and luminous naaru crystal, with dusty ochre and broken terrain beyond the city. It remains an interpretive scene; no exact route, dungeon layout or surveyed coordinate is asserted. The Terrace of Light, where Haramad sends the recovered crystal to A’dal. The story’s position is relational; no exact map coordinate is asserted.",
       "firstEraId": "age-of-adventurers",
       "featuredEraIds": [
         "age-of-adventurers"
@@ -23113,11 +23866,14 @@
       "sourceIds": [
         "karazhan-official-attunement-overview",
         "karazhan-key-quest-locators",
-        "karazhan-entry-quest-text"
+        "karazhan-entry-quest-text",
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest"
       ],
       "tags": [
         "karazhan-story",
-        "burning-crusade-location"
+        "burning-crusade-location",
+        "consortium-arcatraz-story"
       ],
       "contentStatus": "research"
     },
@@ -23955,6 +24711,46 @@
         "thaurissan",
         "dark-iron",
         "dwarves"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "the-botanica",
+      "type": "location",
+      "name": "The Botanica",
+      "slug": "the-botanica",
+      "shortDescription": "The Botanica, a named setting in the Consortium and Arcatraz research story.",
+      "body": "Tempest Keep dungeon where Warp Splinter holds the other Arcatraz key shard. Its story art is interpretive; no exact map coordinate, dungeon floor plan or travel route is asserted. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "burning-crusade-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "the-mechanar",
+      "type": "location",
+      "name": "The Mechanar",
+      "slug": "the-mechanar",
+      "shortDescription": "The Mechanar, a named setting in the Consortium and Arcatraz research story.",
+      "body": "Tempest Keep dungeon where Pathaleon the Calculator holds one Arcatraz key shard. Its story art is interpretive; no exact map coordinate, dungeon floor plan or travel route is asserted. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "burning-crusade-location"
       ],
       "contentStatus": "research"
     },
@@ -25038,6 +25834,55 @@
       "mapFigure": {
         "asset": "images/storylines/champion-of-the-naaru/warlord-kalithresh.research.webp",
         "scale": 0.94
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "warp-raider-nesaad",
+      "type": "character",
+      "name": "Warp-Raider Nesaad",
+      "slug": "warp-raider-nesaad",
+      "shortDescription": "Warp-Raider Nesaad, represented in the Consortium and Arcatraz research story.",
+      "body": "Named Zaxxis warp-raider Khay’ji says survived his failed attack. This is original interpretive art, not canonical game art or proof of exact appearance, costume, formation, or simultaneous presence. Compare it with the original Burning Crusade client/model before human review. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/consortium-arcatraz/nesaad.research.webp",
+        "scale": 0.88
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "warp-splinter",
+      "type": "character",
+      "name": "Warp Splinter",
+      "slug": "warp-splinter",
+      "shortDescription": "Warp Splinter, represented in the Consortium and Arcatraz research story.",
+      "body": "Named as holder of the Top Shard of the Arcatraz Key in the Botanica. This is original interpretive art, not canonical game art or proof of exact appearance, costume, formation, or simultaneous presence. Compare it with the original Burning Crusade client/model before human review. See docs/research/consortium-and-arcatraz-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "tags": [
+        "consortium-arcatraz-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/consortium-arcatraz/warp-splinter.research.webp",
+        "scale": 0.92
       },
       "contentStatus": "research"
     },
@@ -28213,6 +29058,446 @@
       ],
       "claimIds": [
         "coiled-isle-ulatek-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-a-contract-in-default-event",
+      "kind": "event",
+      "name": "The survey equipment in dispute",
+      "slug": "consortium-and-arcatraz-story-a-contract-in-default-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "Khay’ji’s introduction carries the seeker to Gahruj at Eco-Dome Midrealm. The Consortium says surveying gear was delivered to blood-elf buyers and left unpaid. Gahruj asks for the equipment back from Manaforge Duro, where he says mana creatures have occupied the area. He instructs the seeker to use that distraction. His next explanation is blunt: the Consortium wants its property; what happens to the blood elves is of little concern to him. This is Gahruj’s stated commercial motive, not an independent verdict on the dispute.",
+      "locationIds": [
+        "eco-dome-midrealm"
+      ],
+      "participantEntityIds": [
+        "nether-stalker-khayji",
+        "consortium-agent-gahruj"
+      ],
+      "sourceIds": [
+        "consortium-request-assistance",
+        "consortium-rightful-repossession"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-a-contract-in-default-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-botanica-shard-event",
+      "kind": "event",
+      "name": "The Top Shard",
+      "slug": "consortium-and-arcatraz-story-botanica-shard-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "The other shard lies in the Botanica, held by the ancient being Warp Splinter. Here Tempest Keep’s exacting architecture meets living growth. The Top Shard and the Mechanar’s Bottom Shard complete the pair named by A’dal. Their collection is an access task, and the quest does not claim the two encounters happen on a shared expedition or in a fixed historical interval. Only after both have been recovered can the key take its final form.",
+      "locationIds": [
+        "the-botanica"
+      ],
+      "participantEntityIds": [
+        "warp-splinter"
+      ],
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-botanica-shard-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-first-triangulation-event",
+      "kind": "event",
+      "name": "The first point",
+      "slug": "consortium-and-arcatraz-story-first-triangulation-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "Haramad explains that an ancient draenei legend speaks of a crystal with power great enough to be called godlike. He fears the Burning Legion may uncover it first, and gives the surveying equipment a purpose at last: find the first triangulation point. The quest sends the seeker to report to Dealer Hazzin, one of the prince’s agents. The power is the legend as Haramad relays it; the urgency is his stated concern. Neither makes the crystal’s full history certain.",
+      "locationIds": [
+        "netherstorm-survey-points"
+      ],
+      "participantEntityIds": [
+        "nexus-prince-haramad"
+      ],
+      "sourceIds": [
+        "consortium-triangulation-one",
+        "consortium-audience-prince",
+        "consortium-full-triangle"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-first-triangulation-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-mechanar-shard-event",
+      "kind": "event",
+      "name": "The Bottom Shard",
+      "slug": "consortium-and-arcatraz-story-mechanar-shard-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "One shard is held by Pathaleon the Calculator in the Mechanar. The destination is one of Tempest Keep’s floating wings, a machine-world of precise metal and crystal. The quest asks for the Bottom Shard as one part of a pair; it does not say that Pathaleon alone controls the prison. The search remains divided across two dungeons, and the first fragment is only useful when reunited with its counterpart.",
+      "locationIds": [
+        "the-mechanar"
+      ],
+      "participantEntityIds": [
+        "pathaleon-the-calculator"
+      ],
+      "sourceIds": [
+        "consortium-arcatraz-key-quest"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-mechanar-shard-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-nesaad-still-lives-event",
+      "kind": "event",
+      "name": "Nesaad still lives",
+      "slug": "consortium-and-arcatraz-story-nesaad-still-lives-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "After the insignias are returned, Khay’ji receives word from another agent: Warp-Raider Nesaad survived. The assignment is now personal in a narrower sense: Khay’ji admits that his own attack failed and asks the seeker not to fail as he did. Nesaad is found in a small camp near the Heap. His death closes this immediate operation, but the quest’s next handoff is more revealing than a victory report: Khay’ji has another job, one that leads to Gahruj and the surveying equipment.",
+      "locationIds": [
+        "consortium-zaxxis-heap"
+      ],
+      "participantEntityIds": [
+        "nether-stalker-khayji",
+        "warp-raider-nesaad"
+      ],
+      "sourceIds": [
+        "consortium-warp-raider-nesaad",
+        "consortium-heap-of-ethereals"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-nesaad-still-lives-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-second-triangulation-event",
+      "kind": "event",
+      "name": "A second bearing",
+      "slug": "consortium-and-arcatraz-story-second-triangulation-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "The first reading returns to Hazzin, who recalibrates the device. A second point lies far to the west, and the seeker carries the new reading to Wind Trader Tuluman near Manaforge Ara. The two points do not yet name a single object or settle its origin; they narrow the search. Tuluman’s report gives the prince a general vicinity for the crystal, enough to replace legend with a destination but not yet with possession.",
+      "locationIds": [
+        "netherstorm-survey-points"
+      ],
+      "participantEntityIds": [
+        "nexus-prince-haramad"
+      ],
+      "sourceIds": [
+        "consortium-triangulation-two",
+        "consortium-full-triangle"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-second-triangulation-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-skyriss-contained-event",
+      "kind": "event",
+      "name": "The Harbinger is stopped",
+      "slug": "consortium-and-arcatraz-story-skyriss-contained-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "A’dal identifies Harbinger Skyriss as a servant of the Old Gods and says he seeks to bring his masters’ vision of universal conquest to pass. The warning is A’dal’s account of the prisoner, not an omniscient report of every Old God’s plan. The quest sends the seeker to kill Skyriss before he can escape. On the return, A’dal says that countless thousands would have perished if the Harbinger had broken free, comparing the danger to Skeram. That spared future is his claim; the confirmed ending is narrower: Skyriss is slain, and the immediate breach is checked. The prison’s other captives and the wider purpose behind them remain unresolved.",
+      "locationIds": [
+        "arcatraz"
+      ],
+      "participantEntityIds": [
+        "adal",
+        "harbinger-skyriss"
+      ],
+      "sourceIds": [
+        "consortium-harbinger-quest",
+        "consortium-arcatraz-key-quest"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-skyriss-contained-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-spirits-song-event",
+      "kind": "event",
+      "name": "Spirit’s Song",
+      "slug": "consortium-and-arcatraz-story-spirits-song-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "Haramad gives the crystal to the seeker and sends it to A’dal at the Terrace of Light, with his personal teleporter as the road. A’dal recognizes it as Spirit’s Song. He says Prophet Velen left it with his people before departing on the mission to the Exodar, then wonders whether Velen foresaw that it would pass briefly into the Legion’s hands and be returned. That explanation belongs to A’dal’s reflection. The quest invites wonder, but does not turn his speculation into a proven prophecy.",
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "participantEntityIds": [
+        "nexus-prince-haramad",
+        "adal"
+      ],
+      "sourceIds": [
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-spirits-song-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-arklon-crystal-event",
+      "kind": "event",
+      "name": "The crystal that is not the answer",
+      "slug": "consortium-and-arcatraz-story-the-arklon-crystal-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "At Area 52, Khay’ji says Nexus-Prince Haramad wants a crystal artifact from old draenei ruins. The Burning Legion has begun digging there, and the quest points to Pentatharon, a dreadlord holding one candidate. When Khay’ji examines what returns, he finds nothing special and doubts it is the crystal the prince seeks. Yet the Legion’s work seems directed toward something particular. The first prize is a false lead; the search itself has gained urgency.",
+      "locationIds": [
+        "consortium-arklon-ruins"
+      ],
+      "participantEntityIds": [
+        "nether-stalker-khayji"
+      ],
+      "sourceIds": [
+        "consortium-crystal-collection"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-the-arklon-crystal-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-heap-and-nesaad-event",
+      "kind": "event",
+      "name": "A spy’s unfinished work",
+      "slug": "consortium-and-arcatraz-story-the-heap-and-nesaad-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "Khay’ji next describes the Zaxxis as ethereals who left the Consortium and made dealings with the Sunfury. He says he infiltrated their camp, took out its leader, then escaped to Area 52. Insignias from the Heap are a lead, not a new political settlement. The turn-in brings another report: Warp-Raider Nesaad still lives. Khay’ji admits the failure and sends the seeker back. The chain begins with divided loyalties and an agent who did not finish his own task.",
+      "locationIds": [
+        "consortium-zaxxis-heap"
+      ],
+      "participantEntityIds": [
+        "nether-stalker-khayji",
+        "warp-raider-nesaad"
+      ],
+      "sourceIds": [
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-the-heap-and-nesaad-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-key-reunited-event",
+      "kind": "event",
+      "name": "Two shards become one key",
+      "slug": "consortium-and-arcatraz-story-the-key-reunited-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "Back at the Terrace of Light, A’dal receives both fragments and combines them into the Key to the Arcatraz. The step ends the access chain’s central labor: Haramad’s clues carried the search from survey equipment to a crystal, and the crystal’s message gave the prison its key. The lock can now be opened. The place beyond it is not a reward chamber, however, but a satellite prison whose containment is already in danger.",
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "participantEntityIds": [
+        "adal"
+      ],
+      "sourceIds": [
+        "consortium-arcatraz-key-quest",
+        "consortium-blizzard-arcatraz-chain",
+        "consortium-special-delivery"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-the-key-reunited-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-message-in-the-crystal-event",
+      "kind": "event",
+      "name": "A message embedded within",
+      "slug": "consortium-and-arcatraz-story-the-message-in-the-crystal-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "The next instruction reveals what the crystal carried beyond its power and history: a message was embedded within it. Haramad has supplied information A’dal calls vital to the campaign against Tempest Keep. The Arcatraz is a prison satellite there, and two shards will make its key. A’dal asks for both. This is the turn from Consortium investigation to prison campaign. The crystal does not open the way by itself; it has delivered the intelligence that makes the next journey legible.",
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "participantEntityIds": [
+        "adal",
+        "nexus-prince-haramad"
+      ],
+      "sourceIds": [
+        "consortium-arcatraz-key-quest",
+        "consortium-blizzard-arcatraz-chain",
+        "consortium-special-delivery"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-the-message-in-the-crystal-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-moving-crystal-event",
+      "kind": "event",
+      "name": "Full Triangle",
+      "slug": "consortium-and-arcatraz-story-the-moving-crystal-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "With both readings, Haramad places the crystal atop the Ruins of Farahlon. The quest data says it is moving and supposes the Burning Legion has already found it. Culuthas carries the Ata’mal Crystal; the seeker is sent to defeat the demon and bring it back. The collection that began with an unremarkable Arklon artifact now yields the object the prince sought. Haramad calls the recovery beyond his expectations and praises the traveler’s selflessness, but the quest does not explain the crystal’s whole past.",
+      "locationIds": [
+        "consortium-ruins-of-farahlon"
+      ],
+      "participantEntityIds": [
+        "nexus-prince-haramad",
+        "culuthas"
+      ],
+      "sourceIds": [
+        "consortium-full-triangle"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-the-moving-crystal-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-princes-image-event",
+      "kind": "event",
+      "name": "An audience at the Stormspire",
+      "slug": "consortium-and-arcatraz-story-the-princes-image-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "Once the boxes of surveying equipment are returned, Gahruj asks for one more delivery: the gear must go to the Stormspire. Haramad is often present there as an image, and the quest calls that meeting an audience. The prince welcomes the traveler, then says the equipment may be set anywhere and suspects it will soon be picked up again. The exchange is almost casual. Beneath it, the surveying tools become the means by which Haramad hopes to locate the crystal missed at Arklon.",
+      "locationIds": [
+        "consortium-stormspire"
+      ],
+      "participantEntityIds": [
+        "consortium-agent-gahruj",
+        "nexus-prince-haramad"
+      ],
+      "sourceIds": [
+        "consortium-audience-prince",
+        "consortium-triangulation-one",
+        "consortium-full-triangle"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-the-princes-image-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-prison-breaks-event",
+      "kind": "event",
+      "name": "Containment begins to fail",
+      "slug": "consortium-and-arcatraz-story-the-prison-breaks-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "When A’dal calls the traveler back, the prison’s danger is immediate. He says Kael’thas chose his warden poorly and that entities once locked inside the Arcatraz are breaking free. The quest does not name every prisoner or explain how each containment failed. Its next warning narrows the threat to one escapee. The key has opened a route into Tempest Keep; it has not made the prison safe, and the first account of the breach comes from A’dal.",
+      "locationIds": [
+        "arcatraz"
+      ],
+      "participantEntityIds": [
+        "adal"
+      ],
+      "sourceIds": [
+        "consortium-harbinger-quest",
+        "consortium-arcatraz-key-quest"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-the-prison-breaks-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-zaxxis-break-event",
+      "kind": "event",
+      "name": "A break with the Consortium",
+      "slug": "consortium-and-arcatraz-story-the-zaxxis-break-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "consortium-and-arcatraz-story-theater",
+      "date": {
+        "precision": "relative",
+        "label": "The Burning Crusade · quest sequence; exact date unknown"
+      },
+      "summary": "Khay’ji describes the Zaxxis as ethereals who left the Consortium and made dealings with the Sunfury. He says he infiltrated their camp at the Heap and took out their leader, but had to escape to Area 52. The quest sends the seeker back for Zaxxis insignias. Their collection records evidence of the break, not a new treaty or a full account of why the group left. Khay’ji’s report is the story’s only account of his failed operation.",
+      "locationIds": [
+        "consortium-zaxxis-heap"
+      ],
+      "participantEntityIds": [
+        "nether-stalker-khayji"
+      ],
+      "sourceIds": [
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad"
+      ],
+      "claimIds": [
+        "consortium-and-arcatraz-story-the-zaxxis-break-claim"
       ],
       "contentStatus": "research"
     },
@@ -42437,6 +43722,104 @@
       "notes": "Accessed 2026-10-02. Secondary locator for Blood Lord Zarath’s role as Icarius’s bodyguard. The story does not invent a later fate for him."
     },
     {
+      "id": "consortium-arcatraz-key-quest",
+      "title": "How to Break Into the Arcatraz (quest 10704)",
+      "url": "https://www.wowhead.com/tbc/quest=10704/how-to-break-into-the-arcatraz",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for the message embedded in the Ata’mal Crystal, Haramad’s information, the two key shards, and A’dal’s key-forging turn-in. Original-client dialogue comparison remains open."
+    },
+    {
+      "id": "consortium-audience-prince",
+      "title": "An Audience with the Prince (quest 10268)",
+      "url": "https://www.wowhead.com/tbc/quest=10268/an-audience-with-the-prince",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for the surveying-equipment handoff to Haramad’s image at the Stormspire and the prince’s response. Original-client dialogue comparison remains open."
+    },
+    {
+      "id": "consortium-blizzard-arcatraz-chain",
+      "title": "Get Attuned and Face the Overlords of Outland",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/23716331/get-attuned-and-face-the-overlords-of-outland",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. First-party Burning Crusade Classic overview listing the full Consortium-to-Arcatraz quest sequence and the Aldor/Scryers starting variants. It is a retrospective Classic guide, not an original 2007 client capture."
+    },
+    {
+      "id": "consortium-crystal-collection",
+      "title": "Consortium Crystal Collection (quest 10265)",
+      "url": "https://www.wowhead.com/tbc/quest=10265/consortium-crystal-collection",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for the Arklon artifact, Burning Legion excavation, Pentatharon, and Khay’ji’s conclusion that the recovered crystal is probably not the one sought. Original-client dialogue comparison remains open."
+    },
+    {
+      "id": "consortium-full-triangle",
+      "title": "Full Triangle (quest 10276)",
+      "url": "https://www.wowhead.com/tbc/quest=10276/full-triangle",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for the Ruins of Farahlon, the moving crystal, the Burning Legion inference, Culuthas, and recovery of the Ata’mal Crystal. Original-client dialogue comparison remains open."
+    },
+    {
+      "id": "consortium-harbinger-quest",
+      "title": "Harbinger of Doom (quest 10882)",
+      "url": "https://www.wowhead.com/tbc/quest=10882/harbinger-of-doom",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for A’dal’s account of the prison breach, Skyriss’s attributed allegiance and stated aim, the slaying task, and A’dal’s hypothetical aftermath. Original-client dialogue comparison remains open."
+    },
+    {
+      "id": "consortium-heap-of-ethereals",
+      "title": "A Heap of Ethereals (quest 10262)",
+      "url": "https://www.wowhead.com/tbc/quest=10262/a-heap-of-ethereals",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for the Zaxxis break with the Consortium, their dealings with Sunfury, Khay’ji’s account of taking out a leader and escaping, and the report that Nesaad survived. Original-client dialogue comparison remains open."
+    },
+    {
+      "id": "consortium-netherstorm-visual-locator",
+      "title": "Netherstorm and Tempest Keep area locators",
+      "url": "https://www.wowhead.com/tbc/zone=3523/netherstorm",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Used only as an area-name locator for original interpretive illustrations. It does not verify the art’s resemblance to a particular client build or establish exact positions."
+    },
+    {
+      "id": "consortium-request-assistance",
+      "title": "Request for Assistance (quest 10266)",
+      "url": "https://www.wowhead.com/tbc/quest=10266/request-for-assistance",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for the survey-equipment dispute and Gahruj’s introduction at Eco-Dome Midrealm. The contract account is attributed to the Consortium and is not independently adjudicated."
+    },
+    {
+      "id": "consortium-rightful-repossession",
+      "title": "Rightful Repossession (quest 10267)",
+      "url": "https://www.wowhead.com/quest=10267/rightful-repossession",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for Gahruj’s account of the unpaid shipment, the blood elves’ mana-creature troubles, and his explicitly transactional request. Original-client dialogue comparison remains open."
+    },
+    {
+      "id": "consortium-special-delivery",
+      "title": "Special Delivery to Shattrath City (quest 10280)",
+      "url": "https://www.wowhead.com/tbc/quest=10280/special-delivery-to-shattrath-city",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for Haramad’s delivery to A’dal, the name Spirit’s Song, the attribution to Prophet Velen, and A’dal’s explicitly speculative explanation. Original-client dialogue comparison remains open."
+    },
+    {
+      "id": "consortium-triangulation-one",
+      "title": "Triangulation Point One (quest 10269)",
+      "url": "https://www.wowhead.com/tbc/quest=10269/triangulation-point-one",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for Haramad’s ancient draenei-legend account, the attributed claim about great power, the Legion concern, and the first point. Original-client dialogue comparison remains open."
+    },
+    {
+      "id": "consortium-triangulation-two",
+      "title": "Triangulation Point Two (quest 10275)",
+      "url": "https://www.wowhead.com/tbc/quest=10275/triangulation-point-two",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for recalibration, the second point, Tuluman, and the general vicinity revealed by the second reading. Original-client dialogue comparison remains open."
+    },
+    {
+      "id": "consortium-warp-raider-nesaad",
+      "title": "Warp-Raider Nesaad (quest 10205)",
+      "url": "https://www.wowhead.com/tbc/quest=10205/warp-raider-nesaad",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary transcription locator for Khay’ji’s failed attempt to stop Nesaad and the next assignment. Original-client dialogue comparison remains open."
+    },
+    {
       "id": "darrowshire-annals-book",
       "title": "The Annals of Darrowshire (book transcription)",
       "url": "https://warcraft.wiki.gg/wiki/The_Annals_of_Darrowshire",
@@ -45074,6 +46457,146 @@
       "questId": "Enraged Spirits of Water",
       "section": "Water held in anguish · quest sequence or objective",
       "note": "Original paraphrase of a quest-sequence or quest-text locator. Exact wording, client edition, and any details not present in the locator remain subject to human verification."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-a-contract-in-default-citation-1",
+      "sourceId": "consortium-request-assistance",
+      "questId": "Request for Assistance",
+      "section": "The survey equipment in dispute; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-a-contract-in-default-citation-2",
+      "sourceId": "consortium-rightful-repossession",
+      "questId": "Rightful Repossession",
+      "section": "The survey equipment in dispute; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-botanica-shard-citation-1",
+      "sourceId": "consortium-arcatraz-key-quest",
+      "questId": "How to Break Into the Arcatraz",
+      "section": "The Top Shard; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-first-triangulation-citation-1",
+      "sourceId": "consortium-triangulation-one",
+      "questId": "Triangulation Point One",
+      "section": "The first point; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-mechanar-shard-citation-1",
+      "sourceId": "consortium-arcatraz-key-quest",
+      "questId": "How to Break Into the Arcatraz",
+      "section": "The Bottom Shard; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-nesaad-still-lives-citation-1",
+      "sourceId": "consortium-warp-raider-nesaad",
+      "questId": "Warp-Raider Nesaad",
+      "section": "Nesaad still lives; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-second-triangulation-citation-1",
+      "sourceId": "consortium-triangulation-two",
+      "questId": "Triangulation Point Two",
+      "section": "A second bearing; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-skyriss-contained-citation-1",
+      "sourceId": "consortium-harbinger-quest",
+      "questId": "Harbinger of Doom",
+      "section": "The Harbinger is stopped; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-spirits-song-citation-1",
+      "sourceId": "consortium-special-delivery",
+      "questId": "Special Delivery to Shattrath City",
+      "section": "Spirit’s Song; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-arklon-crystal-citation-1",
+      "sourceId": "consortium-crystal-collection",
+      "questId": "Consortium Crystal Collection",
+      "section": "The crystal that is not the answer; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-heap-and-nesaad-citation-1",
+      "sourceId": "consortium-heap-of-ethereals",
+      "questId": "A Heap of Ethereals",
+      "section": "A spy’s unfinished work; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-heap-and-nesaad-citation-2",
+      "sourceId": "consortium-warp-raider-nesaad",
+      "questId": "Warp-Raider Nesaad",
+      "section": "A spy’s unfinished work; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-key-reunited-citation-1",
+      "sourceId": "consortium-arcatraz-key-quest",
+      "questId": "How to Break Into the Arcatraz",
+      "section": "Two shards become one key; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-key-reunited-citation-2",
+      "sourceId": "consortium-blizzard-arcatraz-chain",
+      "questId": "How to Break Into the Arcatraz",
+      "section": "Two shards become one key; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-message-in-the-crystal-citation-1",
+      "sourceId": "consortium-arcatraz-key-quest",
+      "questId": "How to Break Into the Arcatraz",
+      "section": "A message embedded within; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-message-in-the-crystal-citation-2",
+      "sourceId": "consortium-blizzard-arcatraz-chain",
+      "questId": "How to Break Into the Arcatraz",
+      "section": "A message embedded within; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-moving-crystal-citation-1",
+      "sourceId": "consortium-full-triangle",
+      "questId": "Full Triangle",
+      "section": "Full Triangle; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-princes-image-citation-1",
+      "sourceId": "consortium-audience-prince",
+      "questId": "An Audience with the Prince",
+      "section": "An audience at the Stormspire; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-prison-breaks-citation-1",
+      "sourceId": "consortium-harbinger-quest",
+      "questId": "Harbinger of Doom",
+      "section": "Containment begins to fail; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-zaxxis-break-citation-1",
+      "sourceId": "consortium-heap-of-ethereals",
+      "questId": "A Heap of Ethereals",
+      "section": "A break with the Consortium; directly relevant quest description, objective, completion or official quest-chain entry",
+      "note": "Original paraphrase from an official retrospective chain list or secondary transcription of in-game quest material. It is not an original-client capture; compare the quest and edition/build before human approval."
     },
     {
       "id": "darrowshire-lost-and-remembered-annals-date-conflict-citation-1",
@@ -48943,6 +50466,202 @@
       "confidence": "explicit",
       "status": "active",
       "editorNote": "Source establishes the raid confrontation, not a later Worldsoul Saga ending."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-a-contract-in-default-claim",
+      "subjectId": "consortium-and-arcatraz-story-a-contract-in-default-event",
+      "predicate": "questline_scene_account",
+      "value": "Khay’ji’s introduction carries the seeker to Gahruj at Eco-Dome Midrealm. The Consortium says surveying gear was delivered to blood-elf buyers and left unpaid. Gahruj asks for the equipment back from Manaforge Duro, where he says mana creatures have occupied the area. He instructs the seeker to use that distraction. His next explanation is blunt: the Consortium wants its property; what happens to the blood elves is of little concern to him. This is Gahruj’s stated commercial motive, not an independent verdict on the dispute.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-a-contract-in-default-citation-1",
+        "consortium-and-arcatraz-story-a-contract-in-default-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The unpaid shipment, infestation and Gahruj’s motive are presented as the Consortium’s and Gahruj’s claims. The story does not adjudicate the contract or imply the blood elves caused the mana-creature problem. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-botanica-shard-claim",
+      "subjectId": "consortium-and-arcatraz-story-botanica-shard-event",
+      "predicate": "questline_scene_account",
+      "value": "The other shard lies in the Botanica, held by the ancient being Warp Splinter. Here Tempest Keep’s exacting architecture meets living growth. The Top Shard and the Mechanar’s Bottom Shard complete the pair named by A’dal. Their collection is an access task, and the quest does not claim the two encounters happen on a shared expedition or in a fixed historical interval. Only after both have been recovered can the key take its final form.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-botanica-shard-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The shard and holder are named in A’dal’s quest text. The order of the two dungeon scenes is editorial for readability; no ordering between separate dungeon runs is asserted. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-first-triangulation-claim",
+      "subjectId": "consortium-and-arcatraz-story-first-triangulation-event",
+      "predicate": "questline_scene_account",
+      "value": "Haramad explains that an ancient draenei legend speaks of a crystal with power great enough to be called godlike. He fears the Burning Legion may uncover it first, and gives the surveying equipment a purpose at last: find the first triangulation point. The quest sends the seeker to report to Dealer Hazzin, one of the prince’s agents. The power is the legend as Haramad relays it; the urgency is his stated concern. Neither makes the crystal’s full history certain.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-first-triangulation-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The crystal’s legendary power and the Legion risk stay attributed to Haramad. The stage does not use exact coordinates or assert a surveyed map position. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-mechanar-shard-claim",
+      "subjectId": "consortium-and-arcatraz-story-mechanar-shard-event",
+      "predicate": "questline_scene_account",
+      "value": "One shard is held by Pathaleon the Calculator in the Mechanar. The destination is one of Tempest Keep’s floating wings, a machine-world of precise metal and crystal. The quest asks for the Bottom Shard as one part of a pair; it does not say that Pathaleon alone controls the prison. The search remains divided across two dungeons, and the first fragment is only useful when reunited with its counterpart.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-mechanar-shard-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The shard’s position and the boss association follow the quest description. The environmental illustration is not a dungeon plan or exact boss-room layout. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-nesaad-still-lives-claim",
+      "subjectId": "consortium-and-arcatraz-story-nesaad-still-lives-event",
+      "predicate": "questline_scene_account",
+      "value": "After the insignias are returned, Khay’ji receives word from another agent: Warp-Raider Nesaad survived. The assignment is now personal in a narrower sense: Khay’ji admits that his own attack failed and asks the seeker not to fail as he did. Nesaad is found in a small camp near the Heap. His death closes this immediate operation, but the quest’s next handoff is more revealing than a victory report: Khay’ji has another job, one that leads to Gahruj and the surveying equipment.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-nesaad-still-lives-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The survival report and admission of failure are attributed to Khay’ji. The scene compresses the combat objective and does not invent a motive for Nesaad. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-second-triangulation-claim",
+      "subjectId": "consortium-and-arcatraz-story-second-triangulation-event",
+      "predicate": "questline_scene_account",
+      "value": "The first reading returns to Hazzin, who recalibrates the device. A second point lies far to the west, and the seeker carries the new reading to Wind Trader Tuluman near Manaforge Ara. The two points do not yet name a single object or settle its origin; they narrow the search. Tuluman’s report gives the prince a general vicinity for the crystal, enough to replace legend with a destination but not yet with possession.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-second-triangulation-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The second-point turn-in says it gives the general vicinity. This narration does not claim precise map coordinates or a complete historical triangulation model. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-skyriss-contained-claim",
+      "subjectId": "consortium-and-arcatraz-story-skyriss-contained-event",
+      "predicate": "questline_scene_account",
+      "value": "A’dal identifies Harbinger Skyriss as a servant of the Old Gods and says he seeks to bring his masters’ vision of universal conquest to pass. The warning is A’dal’s account of the prisoner, not an omniscient report of every Old God’s plan. The quest sends the seeker to kill Skyriss before he can escape. On the return, A’dal says that countless thousands would have perished if the Harbinger had broken free, comparing the danger to Skeram. That spared future is his claim; the confirmed ending is narrower: Skyriss is slain, and the immediate breach is checked. The prison’s other captives and the wider purpose behind them remain unresolved.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-skyriss-contained-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Skyriss’s allegiance, goal and hypothetical casualty count are all attributed to A’dal. The quest resolves the immediate assignment, not the origin of every prisoner or the Old Gods’ wider plan. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-spirits-song-claim",
+      "subjectId": "consortium-and-arcatraz-story-spirits-song-event",
+      "predicate": "questline_scene_account",
+      "value": "Haramad gives the crystal to the seeker and sends it to A’dal at the Terrace of Light, with his personal teleporter as the road. A’dal recognizes it as Spirit’s Song. He says Prophet Velen left it with his people before departing on the mission to the Exodar, then wonders whether Velen foresaw that it would pass briefly into the Legion’s hands and be returned. That explanation belongs to A’dal’s reflection. The quest invites wonder, but does not turn his speculation into a proven prophecy.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-spirits-song-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "A’dal’s identification and conjecture are attributed to his quest turn-in. The art uses an existing abstract A’dal figure and does not show a canonical crystal model. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-arklon-crystal-claim",
+      "subjectId": "consortium-and-arcatraz-story-the-arklon-crystal-event",
+      "predicate": "questline_scene_account",
+      "value": "At Area 52, Khay’ji says Nexus-Prince Haramad wants a crystal artifact from old draenei ruins. The Burning Legion has begun digging there, and the quest points to Pentatharon, a dreadlord holding one candidate. When Khay’ji examines what returns, he finds nothing special and doubts it is the crystal the prince seeks. Yet the Legion’s work seems directed toward something particular. The first prize is a false lead; the search itself has gained urgency.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-the-arklon-crystal-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Pentatharon is named in the quest but is not elevated to a principal cast member. Khay’ji’s reading of the Legion excavation remains his account. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-heap-and-nesaad-claim",
+      "subjectId": "consortium-and-arcatraz-story-the-heap-and-nesaad-event",
+      "predicate": "questline_scene_account",
+      "value": "Khay’ji next describes the Zaxxis as ethereals who left the Consortium and made dealings with the Sunfury. He says he infiltrated their camp, took out its leader, then escaped to Area 52. Insignias from the Heap are a lead, not a new political settlement. The turn-in brings another report: Warp-Raider Nesaad still lives. Khay’ji admits the failure and sends the seeker back. The chain begins with divided loyalties and an agent who did not finish his own task.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-the-heap-and-nesaad-citation-1",
+        "consortium-and-arcatraz-story-the-heap-and-nesaad-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Khay’ji’s infiltration and the reported Zaxxis dealings are attributed to his quest dialogue. Repeated collection and combat objectives are compressed, not narrated as separate events. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-key-reunited-claim",
+      "subjectId": "consortium-and-arcatraz-story-the-key-reunited-event",
+      "predicate": "questline_scene_account",
+      "value": "Back at the Terrace of Light, A’dal receives both fragments and combines them into the Key to the Arcatraz. The step ends the access chain’s central labor: Haramad’s clues carried the search from survey equipment to a crystal, and the crystal’s message gave the prison its key. The lock can now be opened. The place beyond it is not a reward chamber, however, but a satellite prison whose containment is already in danger.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-the-key-reunited-citation-1",
+        "consortium-and-arcatraz-story-the-key-reunited-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The combining and access outcome are in the quest and Blizzard’s chain listing. Karazhan’s separate Arcatraz key-fragment encounter is not retold here. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-message-in-the-crystal-claim",
+      "subjectId": "consortium-and-arcatraz-story-the-message-in-the-crystal-event",
+      "predicate": "questline_scene_account",
+      "value": "The next instruction reveals what the crystal carried beyond its power and history: a message was embedded within it. Haramad has supplied information A’dal calls vital to the campaign against Tempest Keep. The Arcatraz is a prison satellite there, and two shards will make its key. A’dal asks for both. This is the turn from Consortium investigation to prison campaign. The crystal does not open the way by itself; it has delivered the intelligence that makes the next journey legible.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-the-message-in-the-crystal-citation-1",
+        "consortium-and-arcatraz-story-the-message-in-the-crystal-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The quest describes a message embedded in the crystal but does not disclose its full contents. This story does not invent or reconstruct the message. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-moving-crystal-claim",
+      "subjectId": "consortium-and-arcatraz-story-the-moving-crystal-event",
+      "predicate": "questline_scene_account",
+      "value": "With both readings, Haramad places the crystal atop the Ruins of Farahlon. The quest data says it is moving and supposes the Burning Legion has already found it. Culuthas carries the Ata’mal Crystal; the seeker is sent to defeat the demon and bring it back. The collection that began with an unremarkable Arklon artifact now yields the object the prince sought. Haramad calls the recovery beyond his expectations and praises the traveler’s selflessness, but the quest does not explain the crystal’s whole past.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-the-moving-crystal-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The crystal’s movement and Legion discovery are framed as the quest’s inference. Haramad’s praise is his response; it does not establish the Consortium’s earlier work as altruistic. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-princes-image-claim",
+      "subjectId": "consortium-and-arcatraz-story-the-princes-image-event",
+      "predicate": "questline_scene_account",
+      "value": "Once the boxes of surveying equipment are returned, Gahruj asks for one more delivery: the gear must go to the Stormspire. Haramad is often present there as an image, and the quest calls that meeting an audience. The prince welcomes the traveler, then says the equipment may be set anywhere and suspects it will soon be picked up again. The exchange is almost casual. Beneath it, the surveying tools become the means by which Haramad hopes to locate the crystal missed at Arklon.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-the-princes-image-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The image is Haramad’s holographic presence in the quest, not an in-person meeting. The causal link to triangulation follows the quest sequence, not an added motive. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-prison-breaks-claim",
+      "subjectId": "consortium-and-arcatraz-story-the-prison-breaks-event",
+      "predicate": "questline_scene_account",
+      "value": "When A’dal calls the traveler back, the prison’s danger is immediate. He says Kael’thas chose his warden poorly and that entities once locked inside the Arcatraz are breaking free. The quest does not name every prisoner or explain how each containment failed. Its next warning narrows the threat to one escapee. The key has opened a route into Tempest Keep; it has not made the prison safe, and the first account of the breach comes from A’dal.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-the-prison-breaks-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The breach and warden judgment are attributed to A’dal. Unnamed prisoners remain an environmental threat, not a fabricated roster. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-zaxxis-break-claim",
+      "subjectId": "consortium-and-arcatraz-story-the-zaxxis-break-event",
+      "predicate": "questline_scene_account",
+      "value": "Khay’ji describes the Zaxxis as ethereals who left the Consortium and made dealings with the Sunfury. He says he infiltrated their camp at the Heap and took out their leader, but had to escape to Area 52. The quest sends the seeker back for Zaxxis insignias. Their collection records evidence of the break, not a new treaty or a full account of why the group left. Khay’ji’s report is the story’s only account of his failed operation.",
+      "citationIds": [
+        "consortium-and-arcatraz-story-the-zaxxis-break-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Khay’ji’s infiltration and the reported Zaxxis dealings are attributed to his quest dialogue. Repeated collection and combat objectives are compressed, not narrated as separate events. Research status: accessible sources reproduce quest material but are not original-client captures. Do not promote before source and edition review."
     },
     {
       "id": "cosmic-forces-framework-claim",
@@ -56423,6 +58142,57 @@
       "contentStatus": "research"
     },
     {
+      "id": "consortium-and-arcatraz",
+      "slug": "consortium-and-arcatraz",
+      "title": "The Consortium and the Arcatraz prison",
+      "summary": "Khay’ji’s false lead and the Consortium’s unsettled contracts give way to Haramad’s crystal search. When a message in the Ata’mal Crystal reveals how to forge the Arcatraz key, A’dal turns the campaign toward a prison breach and Harbinger Skyriss.",
+      "opening": "In Netherstorm, one recovered crystal is probably the wrong one, a Consortium spy admits failure, and the surveying job carries its own dispute. Beyond those first leads, Nexus-Prince Haramad is looking for an object whose power is only half its story.",
+      "primaryEraId": "age-of-adventurers",
+      "eraIds": [
+        "age-of-adventurers"
+      ],
+      "chapters": [
+        {
+          "id": "false-leads-and-field-work",
+          "title": "False leads and field work",
+          "body": "Khay’ji’s first crystal proves unremarkable; the Zaxxis break and Nesaad report expose the Consortium’s unsettled work. Gahruj then makes a disputed equipment contract the price of access to the prince. Scenes 1–5.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "the-ata-mal-search",
+          "title": "The search for the Ata’mal Crystal",
+          "body": "Haramad’s legend and the two triangulation readings lead to Culuthas at the Ruins of Farahlon. The returned crystal is named Spirit’s Song by A’dal, whose account of Velen remains speculative. Scenes 6–9.",
+          "eraId": "age-of-adventurers"
+        },
+        {
+          "id": "two-shards-and-a-prison",
+          "title": "Two shards and a prison",
+          "body": "A message in the crystal sends the seeker to the Mechanar and Botanica for two key shards. A’dal combines them, then calls for Skyriss to be stopped as the prison’s containment fails. The immediate threat is answered; the wider prisoner story remains unresolved. Scenes 10–15.",
+          "eraId": "age-of-adventurers"
+        }
+      ],
+      "sourceIds": [
+        "consortium-crystal-collection",
+        "consortium-heap-of-ethereals",
+        "consortium-warp-raider-nesaad",
+        "consortium-request-assistance",
+        "consortium-rightful-repossession",
+        "consortium-audience-prince",
+        "consortium-triangulation-one",
+        "consortium-triangulation-two",
+        "consortium-full-triangle",
+        "consortium-special-delivery",
+        "consortium-arcatraz-key-quest",
+        "consortium-blizzard-arcatraz-chain",
+        "consortium-harbinger-quest",
+        "consortium-netherstorm-visual-locator"
+      ],
+      "storyGuideId": "consortium-and-arcatraz-guide",
+      "showInEraTourOffshoots": false,
+      "reviewNote": "Complete 15-scene illustrated research StoryGuide with per-node source, citation and claim records, transcript-matched voice tracks after generation, dedicated Netherstorm / Tempest Keep art, and original interpretive figures for its named cast and pivotal objects. Aldor/Scryer start variants remain separate; Gahruj’s contract motives and A’dal’s prisoner revelations are attributed. The first Arklon crystal is a false lead. The Harbinger ending resolves Skyriss’s immediate threat but does not explain the wider prison or Old God plan. This StoryTour placement is editorial, adjacent to Karazhan, with no date or cross-story dependency implied; Karazhan’s third key fragment is a separate Arcatraz visit and is not retold. Original 2007 client/build comparison, exact dialogue capture, area/model resemblance review, source review and voice audition remain open. No record is reviewed or published.",
+      "contentStatus": "research"
+    },
+    {
       "id": "darrowshire-lost-and-remembered",
       "slug": "darrowshire-lost-and-remembered",
       "title": "Darrowshire: Lost and Remembered",
@@ -58026,7 +59796,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth. Anchors were checked against the depicted landmasses: Stormwind, Westfall, Duskwood, Deadwind Pass and the Blasted Lands in the southern Eastern Kingdoms; the Plaguelands in the north; Theramore and Tanaris on eastern Kalimdor; Dragonblight and Icecrown in Northrend; and Shadowmoon Valley in southeastern Outland. Multi-region stories use one representative anchor, not their entire route.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Swift Flight Form’s Druid quest chain was added in patch 2.1 and is placed after the Netherwing editorial stop, before The Missing Diplomat’s patch 2.3 continuation; its exact relative in-world date is unknown, and no cross-story dependency is claimed. Its quest trail crosses Zangarmarsh, Moonglade, Outland, and Azshara, while its marker remains a tour-layout anchor.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Swift Flight Form’s Druid quest chain was added in patch 2.1 and is placed after the Netherwing editorial stop, before The Missing Diplomat’s patch 2.3 continuation; its exact relative in-world date is unknown, and no cross-story dependency is claimed. Its quest trail crosses Zangarmarsh, Moonglade, Outland, and Azshara, while its marker remains a tour-layout anchor. The Consortium and Arcatraz stop follows Karazhan as an editorial Burning Crusade placement; it claims neither a precise date nor a dependency between stories. Karazhan’s Arcatraz visit is a separate key-fragment quest and is not retold here.",
       "regions": [
         {
           "id": "kalimdor",
@@ -58223,6 +59993,19 @@
           "locationLabel": "Deadwind Pass · key fragments across Outland"
         },
         {
+          "storylineId": "consortium-and-arcatraz",
+          "regionIds": [
+            "outland"
+          ],
+          "mapPositionPercent": [
+            88,
+            74
+          ],
+          "order": 12,
+          "periodLabel": "The Burning Crusade · Consortium and Arcatraz quest chain",
+          "locationLabel": "Netherstorm · Shattrath · Tempest Keep"
+        },
+        {
           "storylineId": "hero-of-the-maghar",
           "regionIds": [
             "outland"
@@ -58231,7 +60014,7 @@
             84,
             85
           ],
-          "order": 12,
+          "order": 13,
           "periodLabel": "The Burning Crusade · patch 2.0.3 Horde chain",
           "locationLabel": "Nagrand · Garadar, Oshu'gun, and the Ancestral Grounds"
         },
@@ -58245,7 +60028,7 @@
             91,
             83
           ],
-          "order": 13,
+          "order": 14,
           "periodLabel": "The Burning Crusade · Black Temple, patch 2.1",
           "locationLabel": "Shadowmoon Valley · raids across Outland · Hyjal memory"
         },
@@ -58258,7 +60041,7 @@
             86,
             80
           ],
-          "order": 14,
+          "order": 15,
           "periodLabel": "The Burning Crusade · Shadowmoon Valley",
           "locationLabel": "Shadowmoon Valley · Outland"
         },
@@ -58271,7 +60054,7 @@
             93,
             87
           ],
-          "order": 15,
+          "order": 16,
           "periodLabel": "The Burning Crusade · A’dal’s trials and Tempest Key",
           "locationLabel": "Shattrath · heroic trials across Outland"
         },
@@ -58284,7 +60067,7 @@
             79,
             91
           ],
-          "order": 16,
+          "order": 17,
           "periodLabel": "The Burning Crusade · Netherwing quest campaign",
           "locationLabel": "Shadowmoon Valley · fields, fortress, and Netherwing Ledge"
         },
@@ -58298,7 +60081,7 @@
             82,
             84
           ],
-          "order": 17,
+          "order": 18,
           "periodLabel": "The Burning Crusade · patch 2.1 Druid chain",
           "locationLabel": "Zangarmarsh · Moonglade · Terokkar · Azshara"
         },
@@ -58312,7 +60095,7 @@
             28,
             57
           ],
-          "order": 18,
+          "order": 19,
           "periodLabel": "Original Classic investigation · Burning Crusade patch 2.3 continuation",
           "locationLabel": "Stormwind · Duskwood · Wetlands · Theramore"
         },
@@ -58325,7 +60108,7 @@
             48,
             23
           ],
-          "order": 19,
+          "order": 20,
           "periodLabel": "Wrath of the Lich King",
           "locationLabel": "Dragonblight · Northrend"
         },
@@ -58339,12 +60122,12 @@
             49,
             12
           ],
-          "order": 20,
+          "order": 21,
           "periodLabel": "Wrath of the Lich King · patch 3.3.5",
           "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
         }
       ],
-      "reviewNote": "Research StoryTour collection with 20 map placards, 19 playable research StoryGuides, and one research preview. Play All follows the authored expansion-era sequence and skips the preview. Swift Flight Form is a patch 2.1 Druid chain placed editorially among the TBC stops; its marker is navigational layout only, not an exact coordinate. Stories remain research until human review gates are complete.",
+      "reviewNote": "Research StoryTour collection with 21 map placards, 20 playable research StoryGuides and one research preview. Play All follows the authored editorial sequence and skips the preview. Story-tour map markers are navigational layout positions, not exact geography; each storyline remains research until its human review gates are complete.",
       "contentStatus": "research"
     }
   ],
@@ -58487,6 +60270,30 @@
         "cipher-of-damnation-oronok-story-read-at-altar",
         "cipher-of-damnation-oronok-story-cyrukh-and-the-elements",
         "cipher-of-damnation-oronok-story-the-mark-of-kaelthas"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "consortium-and-arcatraz-guide",
+      "eraId": "age-of-adventurers",
+      "title": "The Consortium and the Arcatraz prison",
+      "description": "Fifteen illustrated scenes follow Khay’ji’s false leads, Haramad’s triangulation search, A’dal’s Arcatraz key, and the immediate threat posed by Harbinger Skyriss.",
+      "nodeIds": [
+        "consortium-and-arcatraz-story-the-arklon-crystal",
+        "consortium-and-arcatraz-story-the-zaxxis-break",
+        "consortium-and-arcatraz-story-nesaad-still-lives",
+        "consortium-and-arcatraz-story-a-contract-in-default",
+        "consortium-and-arcatraz-story-the-princes-image",
+        "consortium-and-arcatraz-story-first-triangulation",
+        "consortium-and-arcatraz-story-second-triangulation",
+        "consortium-and-arcatraz-story-the-moving-crystal",
+        "consortium-and-arcatraz-story-spirits-song",
+        "consortium-and-arcatraz-story-the-message-in-the-crystal",
+        "consortium-and-arcatraz-story-mechanar-shard",
+        "consortium-and-arcatraz-story-botanica-shard",
+        "consortium-and-arcatraz-story-the-key-reunited",
+        "consortium-and-arcatraz-story-the-prison-breaks",
+        "consortium-and-arcatraz-story-skyriss-contained"
       ],
       "contentStatus": "research"
     },
@@ -63618,6 +65425,807 @@
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-arklon-crystal",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The crystal that is not the answer",
+      "narration": "At Area 52, Khay’ji says Nexus-Prince Haramad wants a crystal artifact from old draenei ruins. The Burning Legion has begun digging there, and the quest points to Pentatharon, a dreadlord holding one candidate. When Khay’ji examines what returns, he finds nothing special and doubts it is the crystal the prince seeks. Yet the Legion’s work seems directed toward something particular. The first prize is a false lead; the search itself has gained urgency.",
+      "durationMs": 58500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-arklon-crystal-event"
+      ],
+      "entityIds": [
+        "nether-stalker-khayji"
+      ],
+      "locationIds": [
+        "consortium-arklon-ruins"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-arklon-crystal-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nether-stalker-khayji"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-arklon-crystal.mp3",
+        "durationMs": 34250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-zaxxis-break"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-zaxxis-break",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "A break with the Consortium",
+      "narration": "Khay’ji describes the Zaxxis as ethereals who left the Consortium and made dealings with the Sunfury. He says he infiltrated their camp at the Heap and took out their leader, but had to escape to Area 52. The quest sends the seeker back for Zaxxis insignias. Their collection records evidence of the break, not a new treaty or a full account of why the group left. Khay’ji’s report is the story’s only account of his failed operation.",
+      "durationMs": 61500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-zaxxis-break-event"
+      ],
+      "entityIds": [
+        "nether-stalker-khayji"
+      ],
+      "locationIds": [
+        "consortium-zaxxis-heap"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-zaxxis-break-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nether-stalker-khayji"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-zaxxis-break.mp3",
+        "durationMs": 32500,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-arklon-crystal",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-nesaad-still-lives"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-nesaad-still-lives",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "Nesaad still lives",
+      "narration": "After the insignias are returned, Khay’ji receives word from another agent: Warp-Raider Nesaad survived. The assignment is now personal in a narrower sense: Khay’ji admits that his own attack failed and asks the seeker not to fail as he did. Nesaad is found in a small camp near the Heap. His death closes this immediate operation, but the quest’s next handoff is more revealing than a victory report: Khay’ji has another job, one that leads to Gahruj and the surveying equipment.",
+      "durationMs": 64500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-nesaad-still-lives-event"
+      ],
+      "entityIds": [
+        "nether-stalker-khayji",
+        "warp-raider-nesaad"
+      ],
+      "locationIds": [
+        "consortium-zaxxis-heap"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-nesaad-still-lives-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nether-stalker-khayji"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "warp-raider-nesaad"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-nesaad-still-lives.mp3",
+        "durationMs": 36025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-zaxxis-break",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-a-contract-in-default"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-a-contract-in-default",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The survey equipment in dispute",
+      "narration": "Khay’ji’s introduction carries the seeker to Gahruj at Eco-Dome Midrealm. The Consortium says surveying gear was delivered to blood-elf buyers and left unpaid. Gahruj asks for the equipment back from Manaforge Duro, where he says mana creatures have occupied the area. He instructs the seeker to use that distraction. His next explanation is blunt: the Consortium wants its property; what happens to the blood elves is of little concern to him. This is Gahruj’s stated commercial motive, not an independent verdict on the dispute.",
+      "durationMs": 66500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-a-contract-in-default-event"
+      ],
+      "entityIds": [
+        "nether-stalker-khayji",
+        "consortium-agent-gahruj"
+      ],
+      "locationIds": [
+        "eco-dome-midrealm"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-a-contract-in-default-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nether-stalker-khayji"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "consortium-agent-gahruj"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-a-contract-in-default.mp3",
+        "durationMs": 39425,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-nesaad-still-lives",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-princes-image"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-princes-image",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "An audience at the Stormspire",
+      "narration": "Once the boxes of surveying equipment are returned, Gahruj asks for one more delivery: the gear must go to the Stormspire. Haramad is often present there as an image, and the quest calls that meeting an audience. The prince welcomes the traveler, then says the equipment may be set anywhere and suspects it will soon be picked up again. The exchange is almost casual. Beneath it, the surveying tools become the means by which Haramad hopes to locate the crystal missed at Arklon.",
+      "durationMs": 65500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-princes-image-event"
+      ],
+      "entityIds": [
+        "consortium-agent-gahruj",
+        "nexus-prince-haramad"
+      ],
+      "locationIds": [
+        "consortium-stormspire"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-princes-image-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "consortium-agent-gahruj"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-princes-image.mp3",
+        "durationMs": 34250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-a-contract-in-default",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-first-triangulation"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-first-triangulation",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The first point",
+      "narration": "Haramad explains that an ancient draenei legend speaks of a crystal with power great enough to be called godlike. He fears the Burning Legion may uncover it first, and gives the surveying equipment a purpose at last: find the first triangulation point. The quest sends the seeker to report to Dealer Hazzin, one of the prince’s agents. The power is the legend as Haramad relays it; the urgency is his stated concern. Neither makes the crystal’s full history certain.",
+      "durationMs": 63000,
+      "eventIds": [
+        "consortium-and-arcatraz-story-first-triangulation-event"
+      ],
+      "entityIds": [
+        "nexus-prince-haramad"
+      ],
+      "locationIds": [
+        "netherstorm-survey-points"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-first-triangulation-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-first-triangulation.mp3",
+        "durationMs": 34550,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-princes-image",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-second-triangulation"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-second-triangulation",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "A second bearing",
+      "narration": "The first reading returns to Hazzin, who recalibrates the device. A second point lies far to the west, and the seeker carries the new reading to Wind Trader Tuluman near Manaforge Ara. The two points do not yet name a single object or settle its origin; they narrow the search. Tuluman’s report gives the prince a general vicinity for the crystal, enough to replace legend with a destination but not yet with possession.",
+      "durationMs": 58500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-second-triangulation-event"
+      ],
+      "entityIds": [
+        "nexus-prince-haramad"
+      ],
+      "locationIds": [
+        "netherstorm-survey-points"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-second-triangulation-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-second-triangulation.mp3",
+        "durationMs": 31850,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-first-triangulation",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-moving-crystal"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-moving-crystal",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "Full Triangle",
+      "narration": "With both readings, Haramad places the crystal atop the Ruins of Farahlon. The quest data says it is moving and supposes the Burning Legion has already found it. Culuthas carries the Ata’mal Crystal; the seeker is sent to defeat the demon and bring it back. The collection that began with an unremarkable Arklon artifact now yields the object the prince sought. Haramad calls the recovery beyond his expectations and praises the traveler’s selflessness, but the quest does not explain the crystal’s whole past.",
+      "durationMs": 65500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-moving-crystal-event"
+      ],
+      "entityIds": [
+        "nexus-prince-haramad",
+        "culuthas",
+        "ata-mal-crystal"
+      ],
+      "locationIds": [
+        "consortium-ruins-of-farahlon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-moving-crystal-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "culuthas"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ata-mal-crystal"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-moving-crystal.mp3",
+        "durationMs": 37850,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-second-triangulation",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-spirits-song"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-spirits-song",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "Spirit’s Song",
+      "narration": "Haramad gives the crystal to the seeker and sends it to A’dal at the Terrace of Light, with his personal teleporter as the road. A’dal recognizes it as Spirit’s Song. He says Prophet Velen left it with his people before departing on the mission to the Exodar, then wonders whether Velen foresaw that it would pass briefly into the Legion’s hands and be returned. That explanation belongs to A’dal’s reflection. The quest invites wonder, but does not turn his speculation into a proven prophecy.",
+      "durationMs": 66500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-spirits-song-event"
+      ],
+      "entityIds": [
+        "nexus-prince-haramad",
+        "adal",
+        "ata-mal-crystal"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-spirits-song-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ata-mal-crystal"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-spirits-song.mp3",
+        "durationMs": 35175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-moving-crystal",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-message-in-the-crystal"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-message-in-the-crystal",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "A message embedded within",
+      "narration": "The next instruction reveals what the crystal carried beyond its power and history: a message was embedded within it. Haramad has supplied information A’dal calls vital to the campaign against Tempest Keep. The Arcatraz is a prison satellite there, and two shards will make its key. A’dal asks for both. This is the turn from Consortium investigation to prison campaign. The crystal does not open the way by itself; it has delivered the intelligence that makes the next journey legible.",
+      "durationMs": 63500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-message-in-the-crystal-event"
+      ],
+      "entityIds": [
+        "adal",
+        "nexus-prince-haramad",
+        "ata-mal-crystal"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-message-in-the-crystal-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "nexus-prince-haramad"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "ata-mal-crystal"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-message-in-the-crystal.mp3",
+        "durationMs": 36900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-spirits-song",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-mechanar-shard"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-mechanar-shard",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The Bottom Shard",
+      "narration": "One shard is held by Pathaleon the Calculator in the Mechanar. The destination is one of Tempest Keep’s floating wings, a machine-world of precise metal and crystal. The quest asks for the Bottom Shard as one part of a pair; it does not say that Pathaleon alone controls the prison. The search remains divided across two dungeons, and the first fragment is only useful when reunited with its counterpart.",
+      "durationMs": 55500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-mechanar-shard-event"
+      ],
+      "entityIds": [
+        "pathaleon-the-calculator",
+        "key-to-the-arcatraz"
+      ],
+      "locationIds": [
+        "the-mechanar"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-mechanar-shard-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "pathaleon-the-calculator"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "key-to-the-arcatraz"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-mechanar-shard.mp3",
+        "durationMs": 30200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-message-in-the-crystal",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-botanica-shard"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-botanica-shard",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The Top Shard",
+      "narration": "The other shard lies in the Botanica, held by the ancient being Warp Splinter. Here Tempest Keep’s exacting architecture meets living growth. The Top Shard and the Mechanar’s Bottom Shard complete the pair named by A’dal. Their collection is an access task, and the quest does not claim the two encounters happen on a shared expedition or in a fixed historical interval. Only after both have been recovered can the key take its final form.",
+      "durationMs": 60000,
+      "eventIds": [
+        "consortium-and-arcatraz-story-botanica-shard-event"
+      ],
+      "entityIds": [
+        "warp-splinter",
+        "key-to-the-arcatraz"
+      ],
+      "locationIds": [
+        "the-botanica"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-botanica-shard-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "warp-splinter"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "key-to-the-arcatraz"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-botanica-shard.mp3",
+        "durationMs": 32400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-mechanar-shard",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-key-reunited"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-key-reunited",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "Two shards become one key",
+      "narration": "Back at the Terrace of Light, A’dal receives both fragments and combines them into the Key to the Arcatraz. The step ends the access chain’s central labor: Haramad’s clues carried the search from survey equipment to a crystal, and the crystal’s message gave the prison its key. The lock can now be opened. The place beyond it is not a reward chamber, however, but a satellite prison whose containment is already in danger.",
+      "durationMs": 58500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-key-reunited-event"
+      ],
+      "entityIds": [
+        "adal",
+        "key-to-the-arcatraz"
+      ],
+      "locationIds": [
+        "shattrath-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-key-reunited-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "key-to-the-arcatraz"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-key-reunited.mp3",
+        "durationMs": 30650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-botanica-shard",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-the-prison-breaks"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-the-prison-breaks",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "Containment begins to fail",
+      "narration": "When A’dal calls the traveler back, the prison’s danger is immediate. He says Kael’thas chose his warden poorly and that entities once locked inside the Arcatraz are breaking free. The quest does not name every prisoner or explain how each containment failed. Its next warning narrows the threat to one escapee. The key has opened a route into Tempest Keep; it has not made the prison safe, and the first account of the breach comes from A’dal.",
+      "durationMs": 61500,
+      "eventIds": [
+        "consortium-and-arcatraz-story-the-prison-breaks-event"
+      ],
+      "entityIds": [
+        "adal",
+        "key-to-the-arcatraz"
+      ],
+      "locationIds": [
+        "arcatraz"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-the-prison-breaks-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "key-to-the-arcatraz"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-the-prison-breaks.mp3",
+        "durationMs": 32750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-key-reunited",
+      "nextNodeIds": [
+        "consortium-and-arcatraz-story-skyriss-contained"
+      ]
+    },
+    {
+      "id": "consortium-and-arcatraz-story-skyriss-contained",
+      "guideId": "consortium-and-arcatraz-guide",
+      "title": "The Harbinger is stopped",
+      "narration": "A’dal identifies Harbinger Skyriss as a servant of the Old Gods and says he seeks to bring his masters’ vision of universal conquest to pass. The warning is A’dal’s account of the prisoner, not an omniscient report of every Old God’s plan. The quest sends the seeker to kill Skyriss before he can escape. On the return, A’dal says that countless thousands would have perished if the Harbinger had broken free, comparing the danger to Skeram. That spared future is his claim; the confirmed ending is narrower: Skyriss is slain, and the immediate breach is checked. The prison’s other captives and the wider purpose behind them remain unresolved.",
+      "durationMs": 84000,
+      "eventIds": [
+        "consortium-and-arcatraz-story-skyriss-contained-event"
+      ],
+      "entityIds": [
+        "adal",
+        "harbinger-skyriss"
+      ],
+      "locationIds": [
+        "arcatraz"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1050
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "consortium-and-arcatraz-skyriss-contained-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "adal"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "harbinger-skyriss"
+        }
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/consortium-and-arcatraz-guide/consortium-and-arcatraz-story-skyriss-contained.mp3",
+        "durationMs": 49050,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      },
+      "previousNodeId": "consortium-and-arcatraz-story-the-prison-breaks"
     },
     {
       "id": "cosmic-origins-story-light-shadow",
