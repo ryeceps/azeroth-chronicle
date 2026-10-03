@@ -22,7 +22,7 @@ This repository implements the [product and technical specification](./docs/azer
 
 The full delivery sequence and architectural decisions are in [`docs/IMPLEMENTATION_PLAN.md`](./docs/IMPLEMENTATION_PLAN.md). The research, terrain, people, battle, and animated-tour program—including the implemented Cosmic Origins prologue—is in [`docs/eras/README.md`](./docs/eras/README.md).
 
-Live GitHub Pages build: <https://ryanbieber.github.io/azeroth-chronicle/>
+Live GitHub Pages build: <https://ryeceps.github.io/azeroth-chronicle/>
 
 ## Local development
 
