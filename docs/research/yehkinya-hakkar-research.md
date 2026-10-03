@@ -1,13 +1,13 @@
 # Yeh'kinya, the Ancient Egg, and Hakkar
 
-Status: illustrated research preview. Original-client citation review, in-game visual comparison, and voice tracks are generated; narration audition remains open.
+Status: expanded illustrated research story; automated data, build and browser checks pass. The Classic campaign includes first-party Blizzard support for Hakkar's separate physical return and banishment; original-client citation review, in-game visual comparison, and narration audition remain open.
 
 ## Research packet
 
 - Candidate: yehkinya-and-hakkars-return.
 - Primary era and edition: Era 8, Age of Adventurers; original World of Warcraft Classic quest chain.
-- Historical cutoff: ends with the handoff to Molthor on Yojamba Isle (quest 8182); excludes the Zul'Gurub raid outcome.
-- Linked prologue: none. The Burning Crusade manual is used only to distinguish the Sunken Temple avatar from the later physical summoning.
+- Historical cutoff: follows the Classic story from quest 3520 through Molthor's Yojamba Isle handoff, then includes a separately sourced Classic Zul'Gurub campaign through Hakkar's banishment. It does not include Cataclysm's later return.
+- Linked prologue: none. The Burning Crusade manual distinguishes the Sunken Temple avatar from Zul'Gurub's later physical summoning; the story then appends the separate campaign as sourced aftermath, not as a quest dependency.
 - Central question: What did Yeh'kinya intend to do with the Ancient Egg, and what does the quest chain actually establish about Hakkar?
 - Editorial order follows quest dependencies; it does not assert exact in-world dates, travel routes, or causal links among separate historical stories.
 - User-facing placement: Classic-to-Wrath StoryTour, after the Scythe entry; excluded from EraTour.
@@ -33,6 +33,11 @@ Each node has a matching Event and active Claim record. The Claim record links t
 | 13 | Ironboot's warning | yehkinya-and-hakkars-return-quest-8181, yehkinya-and-hakkars-return-manual | yehkinya-and-hakkars-return-ironboots-warning-claim |
 | 14 | Yeh'kinya unmasked | yehkinya-and-hakkars-return-quest-8181, yehkinya-and-hakkars-return-yehkinya-character, yehkinya-and-hakkars-return-manual | yehkinya-and-hakkars-return-yehkinya-unmasked-claim |
 | 15 | The Hand of Rastakhan | yehkinya-and-hakkars-return-quest-8182, yehkinya-and-hakkars-return-manual | yehkinya-and-hakkars-return-the-hand-of-rastakhan-claim |
+| 16 | Jin'do summons the Soulflayer | yehkinya-and-hakkars-return-blizzard-patch-1-7, yehkinya-and-hakkars-return-manual | yehkinya-and-hakkars-return-jindos-physical-summoning-claim |
+| 17 | The blood god banished | blizzard-burning-crusade-story-so-far | yehkinya-and-hakkars-return-hakkar-banished-claim |
+
+- [This Month in WoW - September 2016](https://worldofwarcraft.blizzard.com/en-us/news/20271494/this-month-in-wow-september-2016) - Accessed 2026-10-03. Blizzard's first-party Patch 1.7 account says Jin'do summoned Hakkar into Azeroth at the Gurubashi capital Zul'Gurub.
+- [Burning Crusade Classic: The Story So Far](https://worldofwarcraft.blizzard.com/news/23679744/burning-crusade-classic-the-story-so-far) - Accessed 2026-10-03. Blizzard's Classic-era recap says Hakkar was banished to the plane from which he came.
 
 ## Source index
 
@@ -51,7 +56,8 @@ Each node has a matching Event and active Claim record. The Claim record links t
 ## Boundaries and open questions
 
 - Questgiver dialogue is attributed to the speaker; it is not treated as independent verification of their motives.
-- The Sunken Temple scene summons an avatar. Blizzard's Burning Crusade manual separates that from the later physical summoning in Zul'Gurub.
+- The Sunken Temple scene summons an avatar. Blizzard's Burning Crusade manual separates that from Jin'do's later physical summoning in Zul'Gurub. The official patch article supports Jin'do's rite; Blizzard's Burning Crusade Classic recap supports Hakkar's banishment.
+- The Zul'Gurub campaign is a separately sourced aftermath. Chronological presentation is editorial and does not prove the Ancient Egg caused Jin'do's rite.
 - Ironboot's warning is his interpretation of the tablets, not a witnessed completed rebirth.
 - The green wind-serpent escape is supported here by a secondary character page and remains an original-client verification gate.
 - Zul'Mashar, Lower Blackrock Spire, the Sunken Temple and Yojamba Isle are interpretive regional scenes. Relational actor and object placements are not geographic coordinates.
@@ -59,7 +65,7 @@ Each node has a matching Event and active Claim record. The Claim record links t
 
 ## Asset provenance and visual review
 
-Eight regional illustrations and eleven cast, group and pivotal-object cutouts were generated as original interpretive art, converted to WebP and wired into contextual StoryGuide entities and map states. PNG originals remain in the local generated-image archive at C:/Users/leroy/.codex/generated_images/01a0f500-e320-79e0-a38a-90086c592677/.
+Eleven regional illustrations and fourteen cast, group and pivotal-object cutouts are tracked as original interpretive art. The Jin'do chapter now uses a composed Zul'Gurub tableau built from the project's own generated environment and character illustrations, keeping the summoning cast visible in the full-screen scene. The later Soulflayer remains visually distinct from the skeletal Sunken Temple avatar; the banishment aftermath deliberately shows no Hakkar or unnamed adventurers. PNG originals remain in the local generated-image archive at C:/Users/leroy/.codex/generated_images/01a0f500-e320-79e0-a38a-90086c592677/.
 
 The image-generation output identifiers and visual-intent summaries are in yehkinya-hakkar-visual-assets.json. The original prompt strings are not present in the PNG metadata; this ledger does not claim verbatim prompt retention. Each area still requires side-by-side review against the matching Classic game client.
 
@@ -67,7 +73,7 @@ The image-generation output identifiers and visual-intent summaries are in yehki
 
 - Capture quest giver text, objective, completion and handoff from the chosen Classic client, especially quests 5065, 4788, 8181 and 8182.
 - Verify the quest dependency chain and reconcile secondary locators against that client.
-- Compare all eight environments with their matching game areas and the cast and relics with Classic models.
+- Compare all eleven environments with their matching game areas and the cast, Hakkar's separate forms, and relics with Classic models.
 - Inspect every scene on desktop and compact layouts for image fit, overlap, keyboard access and reduced-motion behavior.
-- Audition narration and add audio only after the transcript and names are reviewed; fifteen generated tracks are wired to the guide; narration audition remains open.
+- Audition narration and add audio only after the transcript and names are reviewed; seventeen generated tracks are wired to the guide; narration audition remains open.
 - Keep all new records at contentStatus research until a human reviewer resolves the citation and visual gates.

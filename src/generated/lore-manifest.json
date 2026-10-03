@@ -3699,6 +3699,16 @@
       "interpretationNote": "Original interpretive illustration for Lower Blackrock Spire tablet hall. Target reference: original pre-Cataclysm World of Warcraft Classic. Recognizable area traits are recorded in docs/research/yehkinya-hakkar-visual-assets.json. Not a screenshot, surveyed route, exact dungeon floorplan, or evidence of literal character co-presence. Matching-client comparison remains a human review gate."
     },
     {
+      "id": "yehkinya-and-hakkars-return-hakkar-banished-scene",
+      "name": "The blood god banished · Zul'Gurub",
+      "worldspaceId": "yehkinya-and-hakkars-return-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/yehkinya-hakkar/zulgurub-after-hakkar.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive quiet aftermath scene, not an official screenshot, surveyed map or exact raid floorplan. The absence of character cutouts avoids inventing a named victor or presenting Hakkar as still physically present after the cited banishment. The human game-client resemblance review remains open."
+    },
+    {
       "id": "yehkinya-and-hakkars-return-ironboot-finds-six-tablets-scene",
       "name": "Ironboot and the six tablets · Steamwheedle Port",
       "worldspaceId": "yehkinya-and-hakkars-return-theater",
@@ -3717,6 +3727,16 @@
       "geometryIds": [],
       "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
       "interpretationNote": "Original interpretive illustration for Steamwheedle Port. Target reference: original pre-Cataclysm World of Warcraft Classic. Recognizable area traits are recorded in docs/research/yehkinya-hakkar-visual-assets.json. Not a screenshot, surveyed route, exact dungeon floorplan, or evidence of literal character co-presence. Matching-client comparison remains a human review gate."
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-jindos-summoning-scene",
+      "name": "Jin'do's summoning · Zul'Gurub",
+      "worldspaceId": "yehkinya-and-hakkars-return-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/yehkinya-hakkar/zulgurub-summoning-with-cast.research.png",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
+      "interpretationNote": "Original interpretive Zul'Gurub scene, not an official screenshot, surveyed map or exact raid floorplan. Intended resemblance reference: the Classic jungle troll capital with vine-covered temple structures and raised ritual spaces. Its Hakkar, Jin'do and priest figures are integrated interpretive art, not a claim about exact co-presence or ritual positions. Human game-client resemblance review remains open."
     },
     {
       "id": "yehkinya-and-hakkars-return-sanctum-of-the-fallen-god-scene",
@@ -11986,6 +12006,54 @@
       "labelPriority": 220
     },
     {
+      "id": "yehkinya-and-hakkars-return-hakkar-priests-zulgurub-theater",
+      "entityId": "yehkinya-and-hakkars-return-hakkar-priests-zulgurub",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "yehkinya-and-hakkars-return-theater",
+      "geometryId": "yehkinya-and-hakkars-return-hakkar-priests-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "yehkinya-and-hakkars-return-manual",
+        "yehkinya-and-hakkars-return-blizzard-patch-1-7"
+      ],
+      "editorNote": "Editorial placement in an illustrated story theater; it asserts no literal coordinates, exact floorplan or unsupported co-presence. The actor placement is scene composition only.",
+      "visualPresence": "contextual",
+      "labelPriority": 195
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-hakkar-soulflayer-theater",
+      "entityId": "yehkinya-and-hakkars-return-hakkar-soulflayer",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "yehkinya-and-hakkars-return-theater",
+      "geometryId": "yehkinya-and-hakkars-return-hakkar-soulflayer-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "yehkinya-and-hakkars-return-manual",
+        "yehkinya-and-hakkars-return-blizzard-patch-1-7"
+      ],
+      "editorNote": "Editorial placement in an illustrated story theater; it asserts no literal coordinates, exact floorplan or unsupported co-presence. The actor placement is scene composition only.",
+      "visualPresence": "contextual",
+      "labelPriority": 210
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-jindo-hexxer-theater",
+      "entityId": "yehkinya-and-hakkars-return-jindo-hexxer",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "yehkinya-and-hakkars-return-theater",
+      "geometryId": "yehkinya-and-hakkars-return-jindo-hexxer-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "yehkinya-and-hakkars-return-manual",
+        "yehkinya-and-hakkars-return-blizzard-patch-1-7"
+      ],
+      "editorNote": "Editorial placement in an illustrated story theater; it asserts no literal coordinates, exact floorplan or unsupported co-presence. The actor placement is scene composition only.",
+      "visualPresence": "contextual",
+      "labelPriority": 205
+    },
+    {
       "id": "yehkinya-and-hakkars-return-molthor-theater",
       "entityId": "yehkinya-and-hakkars-return-molthor",
       "eraId": "age-of-adventurers",
@@ -12095,6 +12163,22 @@
         "yehkinya-and-hakkars-return-quest-3520"
       ],
       "editorNote": "Editorial placement in an illustrated story theater. It asserts no map position, route, literal formation or unsupported co-presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 220
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-zulgurub-theater",
+      "entityId": "yehkinya-and-hakkars-return-zulgurub",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "yehkinya-and-hakkars-return-theater",
+      "geometryId": "yehkinya-and-hakkars-return-zulgurub-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "yehkinya-and-hakkars-return-manual",
+        "yehkinya-and-hakkars-return-blizzard-patch-1-7"
+      ],
+      "editorNote": "Editorial placement in an illustrated story theater; it asserts no literal coordinates, exact floorplan or unsupported co-presence. The actor placement is scene composition only.",
       "visualPresence": "contextual",
       "labelPriority": 220
     },
@@ -27795,6 +27879,92 @@
       }
     },
     {
+      "id": "yehkinya-and-hakkars-return-hakkar-priests-zulgurub",
+      "type": "other",
+      "name": "Hakkar's priests at Zul'Gurub",
+      "slug": "yehkinya-and-hakkars-return-hakkar-priests-zulgurub",
+      "shortDescription": "A composite group representing the priests associated with Hakkar's Zul'Gurub return.",
+      "body": "Original interpretive ensemble, not a claim about the exact named priest lineup, simultaneous attendance, costume details or co-presence. The group image communicates the priesthood surrounding Hakkar's physical return without depicting the Sunken Temple avatar.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "yehkinya-and-hakkars-return-manual",
+        "yehkinya-and-hakkars-return-blizzard-patch-1-7"
+      ],
+      "tags": [
+        "hakkar",
+        "gurubashi",
+        "classic-story"
+      ],
+      "mapFigure": {
+        "asset": "images/characters/yehkinya-hakkar/hakkar-priests-zulgurub.research.webp",
+        "scale": 1.65
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-hakkar-soulflayer",
+      "type": "character",
+      "name": "Hakkar the Soulflayer",
+      "slug": "yehkinya-and-hakkars-return-hakkar-soulflayer",
+      "shortDescription": "The blood god physically summoned into Azeroth at Zul'Gurub during WoW Classic.",
+      "body": "Original interpretive depiction of Hakkar's later physical manifestation: a crimson serpent body, blue feathered crest and wings, and restrained bronze ornament. Keep this figure distinct from the skeletal teal avatar summoned in the Sunken Temple. Visual details are interpretive, not a canonical model capture.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "yehkinya-and-hakkars-return-manual",
+        "yehkinya-and-hakkars-return-blizzard-patch-1-7",
+        "blizzard-burning-crusade-story-so-far"
+      ],
+      "claimIds": [
+        "yehkinya-and-hakkars-return-jindos-physical-summoning-claim",
+        "yehkinya-and-hakkars-return-hakkar-banished-claim"
+      ],
+      "tags": [
+        "hakkar",
+        "physical-manifestation",
+        "classic-story"
+      ],
+      "mapFigure": {
+        "asset": "images/characters/yehkinya-hakkar/hakkar-soulflayer.research.webp",
+        "scale": 2
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-jindo-hexxer",
+      "type": "character",
+      "name": "Jin'do the Hexxer",
+      "slug": "yehkinya-and-hakkars-return-jindo-hexxer",
+      "shortDescription": "The Hexxer who summoned Hakkar the Soulflayer into Azeroth at Zul'Gurub.",
+      "body": "Original interpretive research portrait. The pose and costume are not canonical model claims; compare with the matching Classic client. The source-backed role is the summoning of Hakkar at Zul'Gurub.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "yehkinya-and-hakkars-return-manual",
+        "yehkinya-and-hakkars-return-blizzard-patch-1-7"
+      ],
+      "tags": [
+        "gurubashi",
+        "hexxer",
+        "classic-story"
+      ],
+      "mapFigure": {
+        "asset": "images/characters/yehkinya-hakkar/jindo-hexxer.research.webp",
+        "scale": 2
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "yehkinya-and-hakkars-return-jintha-alor-ancient-egg",
       "type": "site",
       "name": "Jintha'Alor and the Ancient Egg",
@@ -28128,6 +28298,32 @@
       "tags": [
         "yehkinya-hakkar",
         "classic-story"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-zulgurub",
+      "type": "location",
+      "name": "Zul'Gurub",
+      "slug": "yehkinya-and-hakkars-return-zulgurub",
+      "shortDescription": "Ancient Gurubashi capital where Jin'do summoned Hakkar into Azeroth during WoW Classic.",
+      "body": "Relational story-stage location. The generated environment is an interpretive depiction of the Classic jungle city, not a surveyed map or exact raid floorplan. Compare architecture, vegetation and landmarks against the matching Classic client before visual approval.",
+      "firstEraId": "age-of-adventurers",
+      "lastEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "yehkinya-and-hakkars-return-manual",
+        "yehkinya-and-hakkars-return-blizzard-patch-1-7"
+      ],
+      "claimIds": [
+        "yehkinya-and-hakkars-return-jindos-physical-summoning-claim"
+      ],
+      "tags": [
+        "gurubashi",
+        "classic-story",
+        "hakkar"
       ],
       "contentStatus": "research"
     },
@@ -42411,6 +42607,36 @@
       "contentStatus": "research"
     },
     {
+      "id": "yehkinya-and-hakkars-return-hakkar-banished-event",
+      "kind": "event",
+      "name": "Hakkar banished from Azeroth",
+      "slug": "yehkinya-and-hakkars-return-hakkar-banished-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "WoW Classic Zul'Gurub campaign; exact in-world date unknown"
+      },
+      "summary": "Blizzard's Burning Crusade Classic retrospective records that Hakkar was banished to the plane from which he came. This closes the immediate Zul'Gurub threat in that Classic-era account; the summary does not name individual victors or establish a causal link to Yeh'kinya's Ancient Egg.",
+      "locationIds": [
+        "yehkinya-and-hakkars-return-zulgurub"
+      ],
+      "participantEntityIds": [
+        "yehkinya-and-hakkars-return-hakkar-soulflayer"
+      ],
+      "relationshipIds": [
+        "yehkinya-and-hakkars-return-jindos-summoning-precedes-banishment"
+      ],
+      "sourceIds": [
+        "yehkinya-and-hakkars-return-blizzard-patch-1-7",
+        "blizzard-burning-crusade-story-so-far"
+      ],
+      "claimIds": [
+        "yehkinya-and-hakkars-return-hakkar-banished-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "yehkinya-and-hakkars-return-ironboot-finds-six-tablets-event",
       "kind": "event",
       "name": "Ironboot and the six tablets",
@@ -42463,6 +42689,38 @@
       ],
       "claimIds": [
         "yehkinya-and-hakkars-return-ironboots-warning-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-jindos-summoning-event",
+      "kind": "event",
+      "name": "Jin'do summons Hakkar at Zul'Gurub",
+      "slug": "yehkinya-and-hakkars-return-jindos-summoning-event",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "azeroth",
+      "date": {
+        "precision": "unknown",
+        "label": "WoW Classic Zul'Gurub campaign; exact in-world date unknown"
+      },
+      "summary": "During WoW Classic, Jin'do summoned Hakkar the Soulflayer into Azeroth at Zul'Gurub. Blizzard's Burning Crusade manual distinguishes this later physical return from the avatar summoned earlier in the Sunken Temple. The sources gathered here do not establish that Yeh'kinya's Ancient Egg caused Jin'do's separate rite.",
+      "locationIds": [
+        "yehkinya-and-hakkars-return-zulgurub"
+      ],
+      "participantEntityIds": [
+        "yehkinya-and-hakkars-return-jindo-hexxer",
+        "yehkinya-and-hakkars-return-hakkar-soulflayer",
+        "yehkinya-and-hakkars-return-hakkar-priests-zulgurub"
+      ],
+      "relationshipIds": [
+        "yehkinya-and-hakkars-return-jindos-summoning-precedes-banishment"
+      ],
+      "sourceIds": [
+        "yehkinya-and-hakkars-return-manual",
+        "yehkinya-and-hakkars-return-blizzard-patch-1-7"
+      ],
+      "claimIds": [
+        "yehkinya-and-hakkars-return-jindos-physical-summoning-claim"
       ],
       "contentStatus": "research"
     },
@@ -48009,6 +48267,13 @@
       "notes": "Accessed 2026-10-02. Secondary creature locator; primary manual distinguishes avatar and later physical manifestation."
     },
     {
+      "id": "yehkinya-and-hakkars-return-blizzard-patch-1-7",
+      "title": "This Month in WoW - September 2016",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/20271494/this-month-in-wow-september-2016",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. First-party Blizzard account of Patch 1.7 and Zul'Gurub; says Jin'do the Hexxer summoned Hakkar the Soulflayer into Azeroth at the Gurubashi capital. It does not connect Jin'do's rite to Yeh'kinya's Ancient Egg."
+    },
+    {
       "id": "yehkinya-and-hakkars-return-manual",
       "title": "World of Warcraft: The Burning Crusade instruction manual",
       "url": "https://eu.media.blizzard.com/manuals/wow/eu/bc/wow-bc-manual-enGB.pdf",
@@ -52424,10 +52689,16 @@
       "note": "Accessed 2026-10-02. Secondary creature locator; primary manual distinguishes avatar and later physical manifestation."
     },
     {
+      "id": "yehkinya-and-hakkars-return-classic-banishing-citation",
+      "sourceId": "blizzard-burning-crusade-story-so-far",
+      "section": "During WoW Classic",
+      "note": "Accessed 2026-10-03. Blizzard's retrospective records that Hakkar was banished to the plane from which he came."
+    },
+    {
       "id": "yehkinya-and-hakkars-return-manual-citation",
       "sourceId": "yehkinya-and-hakkars-return-manual",
-      "section": "Relevant manual or character-entry section",
-      "note": "Accessed 2026-10-02. Blizzard primary source distinguishes the Temple avatar from the later physical summoning in Zul'Gurub."
+      "section": "Then and Now: Conflict and Triumph in the World of Warcraft",
+      "note": "Accessed 2026-10-03. Blizzard distinguishes the avatar summoned by the Atal'ai in the Sunken Temple from the later physical summoning in Zul'Gurub."
     },
     {
       "id": "yehkinya-and-hakkars-return-quest-3520-citation",
@@ -52490,6 +52761,12 @@
       "sourceId": "yehkinya-and-hakkars-return-yehkinya-character",
       "section": "Relevant manual or character-entry section",
       "note": "Accessed 2026-10-02. Secondary locator for the wind-serpent escape; original-client confirmation remains open."
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-zulgurub-patch-citation",
+      "sourceId": "yehkinya-and-hakkars-return-blizzard-patch-1-7",
+      "section": "Did You Know? / Patch 1.7 - Rise of the Blood God",
+      "note": "Accessed 2026-10-03. Supports the Classic Zul'Gurub setting, Jin'do's summoning of Hakkar into Azeroth, and the threat described by Blizzard."
     }
   ],
   "claims": [
@@ -59939,6 +60216,18 @@
       "editorNote": "Original paraphrase. Scene order follows quest-chain order and does not assert exact date or unsupported causal links. Secondary locators and original-client limits are recorded in the research packet."
     },
     {
+      "id": "yehkinya-and-hakkars-return-hakkar-banished-claim",
+      "subjectId": "yehkinya-and-hakkars-return-hakkar-banished-event",
+      "predicate": "Hakkar banished from Azeroth during WoW Classic",
+      "value": "Blizzard's Burning Crusade Classic retrospective records that Hakkar was banished to the plane from which he came.",
+      "citationIds": [
+        "yehkinya-and-hakkars-return-classic-banishing-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The summary does not name individual victors or establish a connection between this Zul'Gurub campaign and Yeh'kinya's Ancient Egg."
+    },
+    {
       "id": "yehkinya-and-hakkars-return-ironboot-finds-six-tablets-claim",
       "subjectId": "yehkinya-and-hakkars-return-ironboot-finds-six-tablets-event",
       "predicate": "classic_quest_story_scene",
@@ -59962,6 +60251,19 @@
       "confidence": "strongly_supported",
       "status": "active",
       "editorNote": "Original paraphrase. Scene order follows quest-chain order and does not assert exact date or unsupported causal links. Secondary locators and original-client limits are recorded in the research packet."
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-jindos-physical-summoning-claim",
+      "subjectId": "yehkinya-and-hakkars-return-jindos-summoning-event",
+      "predicate": "Jin'do summoned Hakkar's physical presence into Azeroth at Zul'Gurub",
+      "value": "During WoW Classic, Jin'do the Hexxer summoned Hakkar the Soulflayer into Azeroth at Zul'Gurub. The Burning Crusade manual distinguishes this later physical return from the avatar summoned in the Sunken Temple.",
+      "citationIds": [
+        "yehkinya-and-hakkars-return-zulgurub-patch-citation",
+        "yehkinya-and-hakkars-return-manual-citation"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The two sources support a later physical manifestation after the Sunken Temple avatar. No cited source establishes the Ancient Egg as the cause or instrument of Jin'do's rite."
     },
     {
       "id": "yehkinya-and-hakkars-return-sanctum-of-the-fallen-god-claim",
@@ -61620,6 +61922,17 @@
         "chronicle-v1-ordering-azeroth"
       ],
       "confidence": "strongly_supported"
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-jindos-summoning-precedes-banishment",
+      "fromId": "yehkinya-and-hakkars-return-jindos-summoning-event",
+      "toId": "yehkinya-and-hakkars-return-hakkar-banished-event",
+      "type": "precedes",
+      "citationIds": [
+        "yehkinya-and-hakkars-return-zulgurub-patch-citation",
+        "yehkinya-and-hakkars-return-classic-banishing-citation"
+      ],
+      "confidence": "explicit"
     },
     {
       "id": "yshaarj-removal-causes-titan-forged-method",
@@ -63592,8 +63905,8 @@
       "id": "yehkinya-and-hakkars-return",
       "slug": "yehkinya-and-hakkars-return",
       "title": "Yeh'kinya, the Ancient Egg, and Hakkar",
-      "summary": "Spirits, tablets and an ancient vessel draw a stranger into Yeh’kinya’s concealed purpose. A victory in the Sunken Temple gives way to a warning and an appeal for aid.",
-      "opening": "From a desert port, the search reaches forests, high ruins and the drowned halls of the Sunken Temple. An egg receives an essence, and the fuller prophecy reveals the purpose hidden beneath Yeh’kinya’s promise.",
+      "summary": "A stranger's search reveals Yeh'kinya's purpose, then reaches beyond the Ancient Egg tale to the separately sourced Classic return and banishment of Hakkar at Zul'Gurub.",
+      "opening": "From a desert port, the search crosses forest, ruined heights and the drowned halls of the Sunken Temple. A fuller prophecy reveals the Ancient Egg's peril, and the appeal on Yojamba Isle leads into a later, separate Classic confrontation at Zul'Gurub.",
       "primaryEraId": "age-of-adventurers",
       "eraIds": [
         "age-of-adventurers"
@@ -63615,7 +63928,13 @@
           "id": "six-tablets-and-a-revelation",
           "eraId": "age-of-adventurers",
           "title": "Six tablets and a revelation",
-          "body": "Prospector Ironboot sent the seeker after the remaining tablets of Mosh’aru. Beyond the first pair, other words survived that could change the meaning of Yeh’kinya’s plan. The search opened again. What had seemed a completed rite now depended upon a fuller reading of the prophecy, and upon knowledge its keeper had not placed before the stranger.\n\nIn the Eastern Plaguelands, the search climbed to an old troll ziggurat. Two more tablets were recovered among its stones and carried back toward Ironboot. The prophecy’s scattered words had survived within another wounded country. Their recovery brought the inquiry nearer the meaning of the egg that had begun to stir in Yeh’kinya’s keeping.\n\nThe final pair lay among the Smolderthorn trolls in Blackrock Spire. With their recovery, the six tablets could be read together. Ironboot would weigh what the fuller prophecy meant for the Ancient Egg. The search had crossed ruined places to gather words withheld from its first beginning; now those words could challenge the purpose Yeh’kinya had claimed.\n\nIronboot read a warning in the tablets: the egg might serve Hakkar’s rebirth within Zul’Gurub. The seeker had not witnessed that return, but the prospect changed the meaning of the temple rite. The avatar’s defeat could have supplied a later danger rather than ended it. Yeh’kinya’s promise of safe keeping now stood beneath a suspicion the stranger could no longer leave unanswered.\n\nConfronted with the fuller prophecy, Yeh’kinya revealed that he intended to use the egg in Hakkar’s return. The promised containment had hidden another purpose. Tales of his escape spoke of a green wind serpent, but the disclosure itself was plain: the seeker had helped gather what he needed. The threatened rebirth remained beyond that confrontation, and aid against it had still to be sought.\n\nOn Yojamba Isle, the seeker was directed to Molthor and asked to bring aid against Hakkar. The egg’s gathering had ended in the revelation of a danger it was meant to serve. Beyond the island waited Zul’Gurub and another campaign. Here the journey closed upon an appeal, carrying the warning onward without yet answering what the coming struggle would cost."
+          "body": "Prospector Ironboot sent the seeker after the remaining tablets of Mosh’aru. Beyond the first pair, other words survived that could change the meaning of Yeh’kinya’s plan. The search opened again. What had seemed a completed rite now depended upon a fuller reading of the prophecy, and upon knowledge its keeper had not placed before the stranger.\n\nIn the Eastern Plaguelands, the search climbed to an old troll ziggurat. Two more tablets were recovered among its stones and carried back toward Ironboot. The prophecy’s scattered words had survived within another wounded country. Their recovery brought the inquiry nearer the meaning of the egg that had begun to stir in Yeh’kinya’s keeping.\n\nThe final pair lay among the Smolderthorn trolls in Blackrock Spire. With their recovery, the six tablets could be read together. Ironboot would weigh what the fuller prophecy meant for the Ancient Egg. The search had crossed ruined places to gather words withheld from its first beginning; now those words could challenge the purpose Yeh’kinya had claimed.\n\nIronboot read a warning in the tablets: the egg might serve Hakkar’s rebirth within Zul’Gurub. The seeker had not witnessed that return, but the prospect changed the meaning of the temple rite. The avatar’s defeat could have supplied a later danger rather than ended it. Yeh’kinya’s promise of safe keeping now stood beneath a suspicion the stranger could no longer leave unanswered.\n\nConfronted with the fuller prophecy, Yeh’kinya revealed that he intended to use the egg in Hakkar’s return. The promised containment had hidden another purpose. Tales of his escape spoke of a green wind serpent, but the disclosure itself was plain: the seeker had helped gather what he needed. The threatened rebirth remained beyond that confrontation, and aid against it had still to be sought.\n\nOn Yojamba Isle, the seeker was directed to Molthor and asked to bring aid against Hakkar. The egg's gathering had ended in the revelation of a danger it was meant to serve. Molthor's appeal opened toward Zul'Gurub and a separate confrontation with the blood-god. The Ancient Egg's role in that later campaign remains unproven; the handoff carried the warning beyond the island."
+        },
+        {
+          "id": "the-blood-god-returns",
+          "eraId": "age-of-adventurers",
+          "title": "The blood god returns",
+          "body": "On Yojamba Isle, Molthor's appeal pointed toward a threat beyond the tale of the Ancient Egg. During WoW Classic, Zul'Gurub's Gurubashi ruins became the setting of Jin'do the Hexxer's rite: he summoned Hakkar the Soulflayer into Azeroth. The Burning Crusade manual distinguishes this physical return from the avatar called in the Sunken Temple. No source gathered here proves that Yeh'kinya's egg enabled Jin'do's separate summoning.\n\nAfter the Zul'Gurub confrontation, Blizzard's Burning Crusade Classic account records Hakkar banished to the plane from which he came. The physical Soulflayer's return had been turned back; the skeletal avatar called in the Sunken Temple remained a distinct episode. This summary leaves the individual victors unnamed and establishes no path from Yeh'kinya's Ancient Egg to Jin'do's rite. The immediate Classic peril ends here, while the egg's place in the later summoning remains unproven."
         }
       ],
       "sourceIds": [
@@ -63629,11 +63948,13 @@
         "yehkinya-and-hakkars-return-quest-8182",
         "yehkinya-and-hakkars-return-manual",
         "yehkinya-and-hakkars-return-yehkinya-character",
-        "yehkinya-and-hakkars-return-avatar-character"
+        "yehkinya-and-hakkars-return-avatar-character",
+        "yehkinya-and-hakkars-return-blizzard-patch-1-7",
+        "blizzard-burning-crusade-story-so-far"
       ],
       "storyGuideId": "yehkinya-and-hakkars-return-guide",
       "showInEraTourOffshoots": false,
-      "reviewNote": "Complete illustrated research transcript with 15 nodes, eight Classic-area environments, original actor/group/relic art, relational scene states, and per-beat source/citation/claim records. Lore review remains open: secondary Classic quest locators, original-client dialogue/build verification, in-game resemblance comparison, art composition and voice audition. The Sunken Temple summons an avatar; the Burning Crusade manual separates it from Zul'Gurub's later physical summoning. Yeh'kinya's motives and escape are attributed. The story ends at the Yojamba request for aid and does not show the raid.",
+      "reviewNote": "Expanded 17-node illustrated research transcript in final validation: the original Yeh'kinya chain and a separately sourced Classic Zul'Gurub aftermath; 10 Classic-area environments; original actor, group and relic art; relational scene states; and per-beat source, citation and claim records. The Sunken Temple summons an avatar, while Classic-era Zul'Gurub contains the later physical summoning and banishment. No cited source connects Jin'do's rite causally to the Ancient Egg. Human client/dialogue verification, Classic-area resemblance comparison, art review, and narration audition remain open.",
       "contentStatus": "research"
     }
   ],
@@ -63648,7 +63969,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth. Anchors were checked against the depicted landmasses: Stormwind, Westfall, Duskwood, Deadwind Pass and the Blasted Lands in the southern Eastern Kingdoms; the Plaguelands in the north; Theramore and Tanaris on eastern Kalimdor; Dragonblight and Icecrown in Northrend; and Shadowmoon Valley in southeastern Outland. Multi-region stories use one representative anchor, not their entire route.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Swift Flight Form’s Druid quest chain was added in patch 2.1 and is placed after the Netherwing editorial stop, before The Missing Diplomat’s patch 2.3 continuation; its exact relative in-world date is unknown, and no cross-story dependency is claimed. Its quest trail crosses Zangarmarsh, Moonglade, Outland, and Azshara, while its marker remains a tour-layout anchor. The Consortium and Arcatraz stop follows Karazhan as an editorial Burning Crusade placement; it claims neither a precise date nor a dependency between stories. Karazhan’s Arcatraz visit is a separate key-fragment quest and is not retold here. The Shattered Sun and Sunwell story follows the Missing Diplomat’s patch 2.3 continuation and precedes Wrathgate as the Burning Crusade patch 2.4 campaign. The island’s unlock phases and original raid gate schedule are server-wide gameplay, not historical dates; Outland support missions and the Magisters’ Terrace operation are parallel campaign branches, not one adventurer’s universal prerequisite chain. The restoration scene is the original TBC epilogue and excludes later expansion reinterpretations. The Wrathgate and Undercity stop preserves separate Horde and Alliance approaches, their distinct Undercity operations, and the later Royal Quarter convergence. Its interleaved node order is editorial and does not assert precise overlap or relative timing of the two assaults. The Alliance’s early belief that Bolvar was lost is not his ultimate fate. This Wrath-era event is distinct from the Fourth War Battle for Lordaeron.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Swift Flight Form’s Druid quest chain was added in patch 2.1 and is placed after the Netherwing editorial stop, before The Missing Diplomat’s patch 2.3 continuation; its exact relative in-world date is unknown, and no cross-story dependency is claimed. Its quest trail crosses Zangarmarsh, Moonglade, Outland, and Azshara, while its marker remains a tour-layout anchor. The Consortium and Arcatraz stop follows Karazhan as an editorial Burning Crusade placement; it claims neither a precise date nor a dependency between stories. Karazhan’s Arcatraz visit is a separate key-fragment quest and is not retold here. The Shattered Sun and Sunwell story follows the Missing Diplomat’s patch 2.3 continuation and precedes Wrathgate as the Burning Crusade patch 2.4 campaign. The island’s unlock phases and original raid gate schedule are server-wide gameplay, not historical dates; Outland support missions and the Magisters’ Terrace operation are parallel campaign branches, not one adventurer’s universal prerequisite chain. The restoration scene is the original TBC epilogue and excludes later expansion reinterpretations. The Wrathgate and Undercity stop preserves separate Horde and Alliance approaches, their distinct Undercity operations, and the later Royal Quarter convergence. Its interleaved node order is editorial and does not assert precise overlap or relative timing of the two assaults. The Alliance’s early belief that Bolvar was lost is not his ultimate fate. This Wrath-era event is distinct from the Fourth War Battle for Lordaeron. Yeh'kinya's Yojamba Isle handoff and the later Zul'Gurub campaign are told as separate source-backed stops; tour order does not prove that the Ancient Egg enabled Jin'do's summoning.",
       "regions": [
         {
           "id": "kalimdor",
@@ -64786,7 +65107,7 @@
       "id": "yehkinya-and-hakkars-return-guide",
       "eraId": "age-of-adventurers",
       "title": "Yeh'kinya, the Ancient Egg, and Hakkar",
-      "description": "Spirits, tablets and an ancient vessel draw a stranger into Yeh’kinya’s concealed purpose. A victory in the Sunken Temple gives way to a warning and an appeal for aid.",
+      "description": "A stranger's hunt for spirits, tablets and an ancient vessel exposes Yeh'kinya's intent. The Sunken Temple avatar, Yojamba appeal and separately sourced Classic Zul'Gurub campaign carry the story through Hakkar's physical return and banishment.",
       "nodeIds": [
         "yehkinya-and-hakkars-return-a-request-at-the-port",
         "yehkinya-and-hakkars-return-essence-from-the-vale",
@@ -64802,7 +65123,9 @@
         "yehkinya-and-hakkars-return-final-pair-in-the-mountain",
         "yehkinya-and-hakkars-return-ironboots-warning",
         "yehkinya-and-hakkars-return-yehkinya-unmasked",
-        "yehkinya-and-hakkars-return-the-hand-of-rastakhan"
+        "yehkinya-and-hakkars-return-the-hand-of-rastakhan",
+        "yehkinya-and-hakkars-return-jindos-summoning",
+        "yehkinya-and-hakkars-return-hakkar-banished"
       ],
       "contentStatus": "research"
     }
@@ -90422,8 +90745,8 @@
       "id": "yehkinya-and-hakkars-return-the-hand-of-rastakhan",
       "guideId": "yehkinya-and-hakkars-return-guide",
       "title": "The Hand of Rastakhan",
-      "narration": "On Yojamba Isle, the seeker was directed to Molthor and asked to bring aid against Hakkar. The egg’s gathering had ended in the revelation of a danger it was meant to serve. Beyond the island waited Zul’Gurub and another campaign. Here the journey closed upon an appeal, carrying the warning onward without yet answering what the coming struggle would cost.",
-      "durationMs": 49000,
+      "narration": "On Yojamba Isle, the seeker was directed to Molthor and asked to bring aid against Hakkar. The egg's gathering had ended in the revelation of a danger it was meant to serve. Molthor's appeal opened toward Zul'Gurub and a separate confrontation with the blood-god. The Ancient Egg's role in that later campaign remains unproven; the handoff carried the warning beyond the island.",
+      "durationMs": 55000,
       "eventIds": [
         "yehkinya-and-hakkars-return-the-hand-of-rastakhan-event"
       ],
@@ -90454,10 +90777,102 @@
         }
       ],
       "previousNodeId": "yehkinya-and-hakkars-return-yehkinya-unmasked",
-      "nextNodeIds": [],
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-jindos-summoning"
+      ],
       "voiceover": {
         "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-the-hand-of-rastakhan.mp3",
-        "durationMs": 26450,
+        "durationMs": 28200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-jindos-summoning",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "Jin'do summons the Soulflayer",
+      "narration": "On Yojamba Isle, Molthor's appeal pointed toward a threat beyond the tale of the Ancient Egg. During WoW Classic, Zul'Gurub's Gurubashi ruins became the setting of Jin'do the Hexxer's rite: he summoned Hakkar the Soulflayer into Azeroth. The Burning Crusade manual distinguishes this physical return from the avatar called in the Sunken Temple. No source gathered here proves that Yeh'kinya's egg enabled Jin'do's separate summoning.",
+      "durationMs": 58000,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-jindos-summoning-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-jindo-hexxer",
+        "yehkinya-and-hakkars-return-hakkar-priests-zulgurub",
+        "yehkinya-and-hakkars-return-hakkar-soulflayer"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-zulgurub"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-jindos-summoning-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-the-hand-of-rastakhan",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-hakkar-banished"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-jindos-summoning.mp3",
+        "durationMs": 33700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-hakkar-banished",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "The blood god banished",
+      "narration": "After the Zul'Gurub confrontation, Blizzard's Burning Crusade Classic account records Hakkar banished to the plane from which he came. The physical Soulflayer's return had been turned back; the skeletal avatar called in the Sunken Temple remained a distinct episode. This summary leaves the individual victors unnamed and establishes no path from Yeh'kinya's Ancient Egg to Jin'do's rite. The immediate Classic peril ends here, while the egg's place in the later summoning remains unproven.",
+      "durationMs": 56000,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-hakkar-banished-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-zulgurub"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-zulgurub"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-hakkar-banished-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-jindos-summoning",
+      "nextNodeIds": [],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-hakkar-banished.mp3",
+        "durationMs": 37150,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }

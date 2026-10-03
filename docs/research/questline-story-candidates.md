@@ -122,7 +122,7 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** prove the link between the egg errands and later events from quest evidence; distinguish avatar from deity. Exclude Cataclysm Zul'Gurub and later returns.
 
-**Implementation status (2026-10-02): illustrated research preview.** The 15-node Yehkinya guide is linked from the Classic-to-Wrath StoryTour after the Scythe entry, stays outside EraTour, and ends at the Yojamba request for aid. Original-client dialogue capture, regional resemblance comparison, human lore review and generated-voice audition remain open; records remain contentStatus research.
+**Implementation status (2026-10-03): expanded illustrated research story in final validation.** The 17-node guide is linked from the Classic-to-Wrath StoryTour after the Scythe entry and stays outside EraTour. It continues from the Yojamba appeal into the separately sourced Classic Zul'Gurub summoning and banishment, without claiming that the Ancient Egg caused Jin'do's rite. Original-client dialogue capture, regional resemblance comparison, human lore review and generated-voice audition remain open; records remain contentStatus research.
 
 ### 11. Ras Frostwhisper: a lich's mortality
 

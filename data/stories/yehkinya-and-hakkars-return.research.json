@@ -3,7 +3,7 @@
     "id": "yehkinya-and-hakkars-return-guide",
     "eraId": "age-of-adventurers",
     "title": "Yeh'kinya, the Ancient Egg, and Hakkar",
-    "description": "Spirits, tablets and an ancient vessel draw a stranger into Yeh’kinya’s concealed purpose. A victory in the Sunken Temple gives way to a warning and an appeal for aid.",
+    "description": "A stranger's hunt for spirits, tablets and an ancient vessel exposes Yeh'kinya's intent. The Sunken Temple avatar, Yojamba appeal and separately sourced Classic Zul'Gurub campaign carry the story through Hakkar's physical return and banishment.",
     "nodeIds": [
       "yehkinya-and-hakkars-return-a-request-at-the-port",
       "yehkinya-and-hakkars-return-essence-from-the-vale",
@@ -19,7 +19,9 @@
       "yehkinya-and-hakkars-return-final-pair-in-the-mountain",
       "yehkinya-and-hakkars-return-ironboots-warning",
       "yehkinya-and-hakkars-return-yehkinya-unmasked",
-      "yehkinya-and-hakkars-return-the-hand-of-rastakhan"
+      "yehkinya-and-hakkars-return-the-hand-of-rastakhan",
+      "yehkinya-and-hakkars-return-jindos-summoning",
+      "yehkinya-and-hakkars-return-hakkar-banished"
     ],
     "contentStatus": "research"
   },
@@ -675,8 +677,8 @@
       "id": "yehkinya-and-hakkars-return-the-hand-of-rastakhan",
       "guideId": "yehkinya-and-hakkars-return-guide",
       "title": "The Hand of Rastakhan",
-      "narration": "On Yojamba Isle, the seeker was directed to Molthor and asked to bring aid against Hakkar. The egg’s gathering had ended in the revelation of a danger it was meant to serve. Beyond the island waited Zul’Gurub and another campaign. Here the journey closed upon an appeal, carrying the warning onward without yet answering what the coming struggle would cost.",
-      "durationMs": 49000,
+      "narration": "On Yojamba Isle, the seeker was directed to Molthor and asked to bring aid against Hakkar. The egg's gathering had ended in the revelation of a danger it was meant to serve. Molthor's appeal opened toward Zul'Gurub and a separate confrontation with the blood-god. The Ancient Egg's role in that later campaign remains unproven; the handoff carried the warning beyond the island.",
+      "durationMs": 55000,
       "eventIds": [
         "yehkinya-and-hakkars-return-the-hand-of-rastakhan-event"
       ],
@@ -707,10 +709,102 @@
         }
       ],
       "previousNodeId": "yehkinya-and-hakkars-return-yehkinya-unmasked",
-      "nextNodeIds": [],
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-jindos-summoning"
+      ],
       "voiceover": {
         "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-the-hand-of-rastakhan.mp3",
-        "durationMs": 26450,
+        "durationMs": 28200,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-jindos-summoning",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "Jin'do summons the Soulflayer",
+      "narration": "On Yojamba Isle, Molthor's appeal pointed toward a threat beyond the tale of the Ancient Egg. During WoW Classic, Zul'Gurub's Gurubashi ruins became the setting of Jin'do the Hexxer's rite: he summoned Hakkar the Soulflayer into Azeroth. The Burning Crusade manual distinguishes this physical return from the avatar called in the Sunken Temple. No source gathered here proves that Yeh'kinya's egg enabled Jin'do's separate summoning.",
+      "durationMs": 58000,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-jindos-summoning-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-jindo-hexxer",
+        "yehkinya-and-hakkars-return-hakkar-priests-zulgurub",
+        "yehkinya-and-hakkars-return-hakkar-soulflayer"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-zulgurub"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-jindos-summoning-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-the-hand-of-rastakhan",
+      "nextNodeIds": [
+        "yehkinya-and-hakkars-return-hakkar-banished"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-jindos-summoning.mp3",
+        "durationMs": 33700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "yehkinya-and-hakkars-return-hakkar-banished",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "title": "The blood god banished",
+      "narration": "After the Zul'Gurub confrontation, Blizzard's Burning Crusade Classic account records Hakkar banished to the plane from which he came. The physical Soulflayer's return had been turned back; the skeletal avatar called in the Sunken Temple remained a distinct episode. This summary leaves the individual victors unnamed and establishes no path from Yeh'kinya's Ancient Egg to Jin'do's rite. The immediate Classic peril ends here, while the egg's place in the later summoning remains unproven.",
+      "durationMs": 56000,
+      "eventIds": [
+        "yehkinya-and-hakkars-return-hakkar-banished-event"
+      ],
+      "entityIds": [
+        "yehkinya-and-hakkars-return-zulgurub"
+      ],
+      "locationIds": [
+        "yehkinya-and-hakkars-return-zulgurub"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "yehkinya-and-hakkars-return-hakkar-banished-scene"
+        }
+      ],
+      "previousNodeId": "yehkinya-and-hakkars-return-jindos-summoning",
+      "nextNodeIds": [],
+      "voiceover": {
+        "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-hakkar-banished.mp3",
+        "durationMs": 37150,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }

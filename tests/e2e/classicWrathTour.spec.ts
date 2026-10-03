@@ -328,7 +328,7 @@ test('Play All advances completed stories in chronological order and restores th
     return [params.get('storyline'), params.get('node'), params.get('play')];
   }).toEqual(['yehkinya-and-hakkars-return', 'yehkinya-and-hakkars-return-a-request-at-the-port', 'all']);
   await expect(page.getByRole('heading', { name: 'A request at the port' })).toBeVisible();
-  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=yehkinya-and-hakkars-return&node=yehkinya-and-hakkars-return-the-hand-of-rastakhan&play=all');
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=yehkinya-and-hakkars-return&node=yehkinya-and-hakkars-return-hakkar-banished&play=all');
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect.poll(() => {
     const params = new URL(page.url()).searchParams;

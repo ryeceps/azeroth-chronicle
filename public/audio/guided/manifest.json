@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T18:22:27.139Z",
+  "generatedAt": "2026-10-03T20:24:55.708Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 520,
-  "totalDurationMs": 13430300,
+  "trackCount": 522,
+  "totalDurationMs": 13502900,
   "tracks": [
     {
       "nodeId": "adventurers-story-alternate-draenor",
@@ -4292,10 +4292,10 @@
       "nodeId": "yehkinya-and-hakkars-return-the-hand-of-rastakhan",
       "guideId": "yehkinya-and-hakkars-return-guide",
       "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-the-hand-of-rastakhan.mp3",
-      "durationMs": 26450,
-      "sha256": "0b9a867444e86ddee928da97587c1600cab365042b628ba7c688d46bca2cad3c",
-      "transcriptSha256": "8ce9c2fc11792db8e614f6529f2cfe366f02f4b1bba38f1a4d038acaa8ac3c43",
-      "bytes": 318573
+      "durationMs": 28200,
+      "sha256": "241f9a473a9a442088ebb52d5eead344bf2081713e6bc7414079d4a397cfa3ab",
+      "transcriptSha256": "c973cbd561018085e497ed0cd5bda7e1ff5e57a995ba573258fc10881e498e22",
+      "bytes": 339309
     },
     {
       "nodeId": "yehkinya-and-hakkars-return-the-prophecy-of-mosharu",
@@ -4692,6 +4692,24 @@
       "sha256": "3b2f9058e2a63d61a98dff908c4514167e6385599fcf915289187ea4e3569a63",
       "transcriptSha256": "0073c07046e00cc28b32d214f33694ec80c4dbf4cebbd57bd71292318e8f10f0",
       "bytes": 353421
+    },
+    {
+      "nodeId": "yehkinya-and-hakkars-return-jindos-summoning",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-jindos-summoning.mp3",
+      "durationMs": 33700,
+      "sha256": "33055c2c81df84a6da9c481016d1d3656829fc4d965b0fc6f1eb9ccda72176d3",
+      "transcriptSha256": "1dabf575b79c91ea209921b3db65eff4160fe6b1dabff427e640f927b4b6dce2",
+      "bytes": 405549
+    },
+    {
+      "nodeId": "yehkinya-and-hakkars-return-hakkar-banished",
+      "guideId": "yehkinya-and-hakkars-return-guide",
+      "assetPath": "audio/guided/yehkinya-and-hakkars-return-guide/yehkinya-and-hakkars-return-hakkar-banished.mp3",
+      "durationMs": 37150,
+      "sha256": "8f8cab2782e5f2e71b666908943fef3c8c6a21724742d4030e8a5051b26fc773",
+      "transcriptSha256": "37a119331c3a60631807eb6577f25d19baab8011c490b27bd4800f1fac7faaa2",
+      "bytes": 446733
     }
   ]
 }
