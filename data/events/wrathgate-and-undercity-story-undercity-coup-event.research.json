@@ -1,0 +1,29 @@
+{
+  "id": "wrathgate-and-undercity-story-undercity-coup-event",
+  "kind": "event",
+  "name": "Undercity falls to its traitors",
+  "slug": "wrathgate-and-undercity-story-undercity-coup",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "wrathgate-and-undercity-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "Wrath of the Lich King campaign; exact in-world date unknown"
+  },
+  "summary": "Varimathras and Grand Apothecary Putress led a coup that seized Undercity from Sylvanas.",
+  "locationIds": [
+    "wrathgate-undercity"
+  ],
+  "participantEntityIds": [
+    "grand-apothecary-putress",
+    "varimathras-wrathgate"
+  ],
+  "sourceIds": [
+    "wrathgate-undercity-event-locator",
+    "wrathgate-undercity-horde-quest-13267",
+    "wrathgate-undercity-alliance-quest-13377"
+  ],
+  "claimIds": [
+    "wrathgate-and-undercity-story-undercity-coup-claim"
+  ],
+  "contentStatus": "research"
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T16:09:00.680Z",
+  "generatedAt": "2026-10-03T18:22:27.139Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 501,
-  "totalDurationMs": 12906475,
+  "trackCount": 520,
+  "totalDurationMs": 13430300,
   "tracks": [
     {
       "nodeId": "adventurers-story-alternate-draenor",
@@ -4521,6 +4521,177 @@
       "sha256": "30b4f6aa684166f5d7cda01bbd61a02b0bbe875663a11af4bc70f6956d6c0e0f",
       "transcriptSha256": "0cc28e1e6c6e39cc21858513186c97dde0b38d1a607ea3bc79ffc717c776ca57",
       "bytes": 337005
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-alliance-approach",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-alliance-approach.mp3",
+      "durationMs": 28650,
+      "sha256": "f873a2db7b411b5a249485a133323ace7610a17b51fe5c529708cbcef112f1e5",
+      "transcriptSha256": "47de202555136adcfa56003fdac0a60f686ffd560abf63dbe07d88d3c09a3436",
+      "bytes": 344781
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-horde-approach",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-horde-approach.mp3",
+      "durationMs": 26975,
+      "sha256": "f37f2531370cd9dabbd0ee4e678bde04c219707358c5d4c5f8a9136b4923a1e5",
+      "transcriptSha256": "5e267b2051560d6a4bbf83fccd4c2ed5e34cc594a5416d1ba18d7b60fa38b9f7",
+      "bytes": 324621
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-armies-at-the-gate",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-armies-at-the-gate.mp3",
+      "durationMs": 27150,
+      "sha256": "8cef16f8d142a6254894e8c0b9a97ae3df4e99524aae7acb097eb2c19abbfe82",
+      "transcriptSha256": "4e505e9705652734e1c4d82d161d7c9d35fd6912e7e94a5e73ee406ee6142460",
+      "bytes": 326925
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-dranosh-falls",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-dranosh-falls.mp3",
+      "durationMs": 25975,
+      "sha256": "cd0f8b234aa8bc2a7c7545a065a3dc644f180e8a5924ca9bae3bbb39497744d5",
+      "transcriptSha256": "448752ca0c87fa32a152a96975fc0b107dcb12404bfca0b65f83a54350cd7678",
+      "bytes": 312813
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-the-plague-falls",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-the-plague-falls.mp3",
+      "durationMs": 28450,
+      "sha256": "2785b706d3f70d7c61044195acb8f275f577457148810156e0cf54e2b31b8b06",
+      "transcriptSha256": "21fea0c2d7270fdab6a819293ae60f88943602cb9fce1f11cb4b6f10cd0c0eb2",
+      "bytes": 342477
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-red-flight-cleansing",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-red-flight-cleansing.mp3",
+      "durationMs": 26700,
+      "sha256": "2b55d40fa0aaeca8b259f05d05db74ff3d275f5f7ccf070c31fa27a7f1581c47",
+      "transcriptSha256": "95908a3bc5c3a86208a19d44642a8ba426eb7d0c15054cb93010f2b138ec4019",
+      "bytes": 321453
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-stormwind-report",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-stormwind-report.mp3",
+      "durationMs": 27800,
+      "sha256": "6c5b0a99633d61094ff2246d54c30f8ec8283f605bc7b8d218d9ce995d8561be",
+      "transcriptSha256": "8e5f2ed2921ada953d38ed60c4122238971b8a652e14704730f8ff2338956d75",
+      "bytes": 334701
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-undercity-coup",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-undercity-coup.mp3",
+      "durationMs": 28800,
+      "sha256": "4e25902fe5a82513eb6745b28f81bfc44dee972f47c6f64a1c65945828f370d1",
+      "transcriptSha256": "55b11b083e9c8598c991fe3241dbebf487bfbb559006f0c9a1dd795773dc2226",
+      "bytes": 346509
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-horde-counterattack",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-horde-counterattack.mp3",
+      "durationMs": 29075,
+      "sha256": "7ff9a716f6b762d8024f2cdf844483049d772ff1be75c16f3cacb0f9263afee2",
+      "transcriptSha256": "53ea7b0637c282ce60cc29e4a2dc78528570e643aafa78e5edfec6a453c6e81b",
+      "bytes": 349965
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-jainas-warning",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-jainas-warning.mp3",
+      "durationMs": 27200,
+      "sha256": "e3212ebb7dfb6c340241deed02f6ed133da5d66052c4403941ed01a35c993cb4",
+      "transcriptSha256": "1598b2ea89fe75cfc5e747d0266b10f96b1e1cd4919548ae945faa496a9762b6",
+      "bytes": 327501
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-alliance-sewer-entry",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-alliance-sewer-entry.mp3",
+      "durationMs": 27175,
+      "sha256": "7f163c4e79958010103ee95aa28cbc080232b7c8c2323dc13e31a6e7ea3812f5",
+      "transcriptSha256": "728680ce532edcd4aca372d0bccdf5986c7a3f4e347ad3e080aae7af3af7ba9d",
+      "bytes": 327213
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-horde-courtyard",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-horde-courtyard.mp3",
+      "durationMs": 28375,
+      "sha256": "3458c826ebe0ee5d02bbbf8c9723ad59e59160af9fa34f2e7c207056ed19d497",
+      "transcriptSha256": "c2967368cc9d868e8c8ec262944dbff96c9a5fb003766144f04f72cf61c5c30c",
+      "bytes": 341613
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-broken-elevator",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-broken-elevator.mp3",
+      "durationMs": 25150,
+      "sha256": "57c52d4ceaca49867d9a9cc413bd1f6d7ca21e01c4bf6b5f58a387cda0b2525a",
+      "transcriptSha256": "3498f5562f54a3efe437229f628c481034ddf4ef650319e7c415f9b03b03c49a",
+      "bytes": 302733
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-varimathras-defeated",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-varimathras-defeated.mp3",
+      "durationMs": 26975,
+      "sha256": "85bf81162d4a0fe435cae1bb2d2ecb0422cefea19f0923dba8d3ed19d0c322b3",
+      "transcriptSha256": "111097b4c79e32f4dff91a90f617e2605cf7b1e233714f6a66afd91bc47b0ff4",
+      "bytes": 324621
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-alliance-apothecarium",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-alliance-apothecarium.mp3",
+      "durationMs": 26875,
+      "sha256": "1b4fb0f08ea6c836f2916d4f9dfeb03293cbb3320969fdde6d3ea2b2ca4dd940",
+      "transcriptSha256": "ef76e94850d5a4e95ca51cc481a8e9afd0990b45b9a412ab82f91014ae7c3541",
+      "bytes": 323469
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-putress-defeated",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-putress-defeated.mp3",
+      "durationMs": 30025,
+      "sha256": "6b86af2a15803ab33de8ece65fa018cf311a7d5b898279ae75757bab73d1eafb",
+      "transcriptSha256": "91085acf9dabdcadf505d3afc50aaec3343002612eb5df623542b5c695682fdd",
+      "bytes": 361485
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-leaders-converge",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-leaders-converge.mp3",
+      "durationMs": 25350,
+      "sha256": "86e9d85cbf011c7a5a6807ea27729f56cae489be154e9f2e609f4987084bdd62",
+      "transcriptSha256": "5135640252770bc2bc551c46590c15be2fce61311beeb5560595868a58c8dbbe",
+      "bytes": 305325
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-jaina-withdraws-alliance",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-jaina-withdraws-alliance.mp3",
+      "durationMs": 27750,
+      "sha256": "d378a1bb6d29a7d5ed149aa7a0b8eb5d4e55d816f11b27bc3eda4c2779e1b422",
+      "transcriptSha256": "a75fc609b624d61c7a8779e6e7e579592fa11c4833d48d72b1ada5a711a9b653",
+      "bytes": 334125
+    },
+    {
+      "nodeId": "wrathgate-and-undercity-story-the-war-continues",
+      "guideId": "wrathgate-and-undercity-guide",
+      "assetPath": "audio/guided/wrathgate-and-undercity-guide/wrathgate-and-undercity-story-the-war-continues.mp3",
+      "durationMs": 29375,
+      "sha256": "3b2f9058e2a63d61a98dff908c4514167e6385599fcf915289187ea4e3569a63",
+      "transcriptSha256": "0073c07046e00cc28b32d214f33694ec80c4dbf4cebbd57bd71292318e8f10f0",
+      "bytes": 353421
     }
   ]
 }

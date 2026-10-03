@@ -1,1 +1,40 @@
-{"id":"sylvanas-windrunner","type":"character","name":"Sylvanas Windrunner","slug":"sylvanas-windrunner","shortDescription":"The ranger-general who resisted the Scourge at Quel'Thalas, was raised into undeath, and later led free-willed undead in Lordaeron.","body":"The split-state portrait communicates a transformation across time and is explicitly interpretive rather than a literal simultaneous appearance.","firstEraId":"third-war-frozen-throne","featuredEraIds":["third-war-frozen-throne"],"sourceIds":["warcraft-chronicle-volume-3","blizzard-warcraft-iii-reforged-overview"],"claimIds":["sylvanas-resistance-transformation-claim"],"tags":["quelthalas","forsaken","undead"],"mapFigure":{"asset":"images/characters/third-war-frozen-throne/sylvanas-windrunner.research.webp","scale":0.82},"contentStatus":"research"}
+{
+  "id": "sylvanas-windrunner",
+  "type": "character",
+  "name": "Sylvanas Windrunner",
+  "slug": "sylvanas-windrunner",
+  "shortDescription": "The ranger-general who resisted the Scourge at Quel'Thalas, was raised into undeath, and later led free-willed undead in Lordaeron.",
+  "body": "The split-state portrait communicates Sylvanas’s earlier transformation. A separate Wrath-era portrait is used for the age of the Lich King. Both images are original interpretive art, not literal game models.",
+  "firstEraId": "third-war-frozen-throne",
+  "featuredEraIds": [
+    "third-war-frozen-throne",
+    "age-of-adventurers"
+  ],
+  "sourceIds": [
+    "warcraft-chronicle-volume-3",
+    "blizzard-warcraft-iii-reforged-overview",
+    "story-wrathgate",
+    "wrathgate-undercity-horde-quest-13267",
+    "wrathgate-undercity-event-locator"
+  ],
+  "claimIds": [
+    "sylvanas-resistance-transformation-claim"
+  ],
+  "tags": [
+    "quelthalas",
+    "forsaken",
+    "undead"
+  ],
+  "mapFigure": {
+    "asset": "images/characters/third-war-frozen-throne/sylvanas-windrunner.research.webp",
+    "scale": 0.82,
+    "eraVariants": [
+      {
+        "eraId": "age-of-adventurers",
+        "asset": "images/characters/wrathgate/sylvanas-windrunner-wrath.research.webp",
+        "scale": 0.84
+      }
+    ]
+  },
+  "contentStatus": "research"
+}

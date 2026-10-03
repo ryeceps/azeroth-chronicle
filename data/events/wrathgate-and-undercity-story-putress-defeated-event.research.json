@@ -1,0 +1,29 @@
+{
+  "id": "wrathgate-and-undercity-story-putress-defeated-event",
+  "kind": "event",
+  "name": "The Alliance reaches Putress",
+  "slug": "wrathgate-and-undercity-story-putress-defeated",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "wrathgate-and-undercity-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "Wrath of the Lich King campaign; exact in-world date unknown"
+  },
+  "summary": "The Alliance operation defeated Putress in Undercity.",
+  "locationIds": [
+    "wrathgate-undercity-apothecarium"
+  ],
+  "participantEntityIds": [
+    "varian-wrynn",
+    "jaina-proudmoore",
+    "grand-apothecary-putress"
+  ],
+  "sourceIds": [
+    "wrathgate-undercity-alliance-quest-13377",
+    "wrathgate-putress-wotlk-npc-record"
+  ],
+  "claimIds": [
+    "wrathgate-and-undercity-story-putress-defeated-claim"
+  ],
+  "contentStatus": "research"
+}

@@ -230,7 +230,11 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await northrend.focus();
   const northrendCard = page.locator('#story-tour-tip-wrathgate-and-undercity');
   await expect(northrendCard.getByRole('heading', { name: 'The Wrathgate and Undercity' })).toBeVisible();
+  await expect(northrendCard).toContainText('Playable story');
   await expect(page.getByRole('button', { name: 'Play all stories' })).toBeEnabled();
+  await northrendCard.getByRole('button', { name: 'Play story' }).click();
+  await expect(page.getByRole('heading', { name: 'A winter road for the Alliance', exact: true })).toBeVisible();
+  await page.goto('/tours/classic-to-wrath');
   await northrend.evaluate((marker: HTMLButtonElement) => marker.blur());
   await shatteredSun.hover();
   const shatteredSunCard = page.locator('#story-tour-tip-shattered-sun-and-sunwell');
@@ -388,6 +392,10 @@ test('Play All advances completed stories in chronological order and restores th
   await expect(page.getByRole('heading', { name: 'A fount for a new home', exact: true })).toBeVisible();
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('shattered-sun-and-sunwell');
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=shattered-sun-and-sunwell&node=shattered-sun-and-sunwell-story-murus-heart-renews-the-sunwell&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'A winter road for the Alliance', exact: true })).toBeVisible();
+  await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('wrathgate-and-undercity');
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=wrathgate-and-undercity&node=wrathgate-and-undercity-story-the-war-continues&play=all');
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'A hilt without a finder' })).toBeVisible();
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('quel-delar-restored');

@@ -1,0 +1,28 @@
+{
+  "id": "wrathgate-and-undercity-story-horde-courtyard-event",
+  "kind": "event",
+  "name": "The Horde re-enters the city",
+  "slug": "wrathgate-and-undercity-story-horde-courtyard",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "wrathgate-and-undercity-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "Wrath of the Lich King campaign; exact in-world date unknown"
+  },
+  "summary": "Thrall and Sylvanas led the Horde assault to reclaim Undercity from Varimathras’s forces.",
+  "locationIds": [
+    "wrathgate-undercity"
+  ],
+  "participantEntityIds": [
+    "thrall",
+    "sylvanas-windrunner"
+  ],
+  "sourceIds": [
+    "wrathgate-undercity-horde-quest-13267",
+    "wrathgate-undercity-event-locator"
+  ],
+  "claimIds": [
+    "wrathgate-and-undercity-story-horde-courtyard-claim"
+  ],
+  "contentStatus": "research"
+}
