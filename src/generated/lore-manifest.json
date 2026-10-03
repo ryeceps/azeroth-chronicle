@@ -166,6 +166,17 @@
       }
     },
     {
+      "id": "netherwing-story-theater",
+      "name": "Netherwing liberation · relational story theater",
+      "slug": "netherwing-story-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "onyxia-story-theater",
       "name": "Onyxia storyline — relational theater",
       "slug": "onyxia-story-theater",
@@ -1855,6 +1866,66 @@
         "adventurers-shadowlands-focus-research",
         "sylvanas-shadowlands-focus-research"
       ]
+    },
+    {
+      "id": "netherwing-liberation-fields-scene",
+      "name": "Netherwing story: Netherwing Fields",
+      "worldspaceId": "netherwing-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/netherwing/netherwing-fields.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · SHADOWMOON VALLEY",
+      "interpretationNote": "Original interpretive TBC-era story art. Named Burning Crusade Shadowmoon Valley field with charcoal volcanic ground, violet twilight, distant fel-green light, broken ridges, and a sparse field horizon. The composition is interpretive; no exact NPC position or surveyed view is asserted. Human side-by-side review against the exact target build remains open; see docs/research/netherwing-liberation-visual-assets.json."
+    },
+    {
+      "id": "netherwing-liberation-flight-scene",
+      "name": "Netherwing story: Above the Netherwing Fields",
+      "worldspaceId": "netherwing-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/netherwing/netherwing-flight.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · SHADOWMOON VALLEY",
+      "interpretationNote": "Original interpretive TBC-era story art. A relational aerial stage over TBC Shadowmoon Valley: violet storm sky, black ridges, broken horizon, and distant fel-green light. It is not a physical flight route or exact aerial screenshot. Human side-by-side review against the exact target build remains open; see docs/research/netherwing-liberation-visual-assets.json."
+    },
+    {
+      "id": "netherwing-liberation-fortress-scene",
+      "name": "Netherwing story: Dragonmaw Fortress",
+      "worldspaceId": "netherwing-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/netherwing/dragonmaw-fortress.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · SHADOWMOON VALLEY",
+      "interpretationNote": "Original interpretive TBC-era story art. Interpretive TBC Dragonmaw fortress using rough dark stone, timber platforms, ironwork, muted red cloth, and Shadowmoon’s purple-green sky. It is not a surveyed fortress layout. Human side-by-side review against the exact target build remains open; see docs/research/netherwing-liberation-visual-assets.json."
+    },
+    {
+      "id": "netherwing-liberation-ledge-scene",
+      "name": "Netherwing story: Netherwing Ledge",
+      "worldspaceId": "netherwing-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/netherwing/netherwing-ledge.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · SHADOWMOON VALLEY",
+      "interpretationNote": "Original interpretive TBC-era story art. Interpretive TBC floating ledge with broken dark basalt, blue-green crystal clusters, rough work platforms, and violet sky. This is not a surveyed island layout or exact crystal placement. Human side-by-side review against the exact target build remains open; see docs/research/netherwing-liberation-visual-assets.json."
+    },
+    {
+      "id": "netherwing-liberation-mines-scene",
+      "name": "Netherwing story: Netherwing Mines",
+      "worldspaceId": "netherwing-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/netherwing/netherwing-mine.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · SHADOWMOON VALLEY",
+      "interpretationNote": "Original interpretive TBC-era story art. Interpretive TBC mine interior: dark volcanic cavern, rough timber braces, mineral glints, and green-lit pools. It is not a mine map or floor plan. Human side-by-side review against the exact target build remains open; see docs/research/netherwing-liberation-visual-assets.json."
+    },
+    {
+      "id": "netherwing-liberation-shattrath-scene",
+      "name": "Netherwing story: Shattrath Lower City",
+      "worldspaceId": "netherwing-story-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/cipher-of-damnation/shattrath-lower-city.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "THE BURNING CRUSADE · SHADOWMOON VALLEY",
+      "interpretationNote": "Original interpretive TBC-era story art. Reused TBC Lower City environment art from the Cipher storyline because the place and historical presentation match. Composition is interpretive, not an exact in-client capture. Human side-by-side review against the exact target build remains open; see docs/research/netherwing-liberation-visual-assets.json."
     },
     {
       "id": "onyxia-badlands-scene",
@@ -7435,6 +7506,283 @@
       "visualPresence": "contextual"
     },
     {
+      "id": "netherwing-liberation-barthamus-theater",
+      "entityId": "barthamus",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-barthamus-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-barthamus",
+        "netherwing-lord-illidan"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 239
+    },
+    {
+      "id": "netherwing-liberation-dragonmaw-overseers-theater",
+      "entityId": "dragonmaw-overseers",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-dragonmaw-overseers-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-ally-chain",
+        "netherwing-in-service"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 246
+    },
+    {
+      "id": "netherwing-liberation-enchanted-nethervine-crystal-theater",
+      "entityId": "enchanted-nethervine-crystal",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-enchanted-nethervine-crystal-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 236
+    },
+    {
+      "id": "netherwing-liberation-enslaved-netherwing-drakes-theater",
+      "entityId": "enslaved-netherwing-drakes",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-enslaved-netherwing-drakes-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 245
+    },
+    {
+      "id": "netherwing-liberation-illidan-stormrage-theater",
+      "entityId": "illidan-stormrage",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-illidan-stormrage-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-lord-illidan"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 233
+    },
+    {
+      "id": "netherwing-liberation-karynaku-theater",
+      "entityId": "karynaku",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-karynaku-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 248
+    },
+    {
+      "id": "netherwing-liberation-mistress-of-the-mines-theater",
+      "entityId": "mistress-of-the-mines",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-mistress-of-the-mines-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-murkblood-revolt",
+        "netherwing-seeker-of-truth"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 241
+    },
+    {
+      "id": "netherwing-liberation-mordenai-theater",
+      "entityId": "mordenai",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-mordenai-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-ally-chain",
+        "netherwing-blood-oath"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 250
+    },
+    {
+      "id": "netherwing-liberation-murkblood-escape-plans-theater",
+      "entityId": "murkblood-escape-plans",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-murkblood-escape-plans-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-murkblood-revolt"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 234
+    },
+    {
+      "id": "netherwing-liberation-neltharaku-theater",
+      "entityId": "neltharaku",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-neltharaku-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 249
+    },
+    {
+      "id": "netherwing-liberation-nethervine-crystal-theater",
+      "entityId": "nethervine-crystal",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-nethervine-crystal-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 237
+    },
+    {
+      "id": "netherwing-liberation-netherwing-drake-companions-theater",
+      "entityId": "netherwing-drake-companions",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-netherwing-drake-companions-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-barthamus"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 238
+    },
+    {
+      "id": "netherwing-liberation-overlord-morghor-theater",
+      "entityId": "overlord-morghor",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-overlord-morghor-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-in-service",
+        "netherwing-bow-to-highlord",
+        "netherwing-lord-illidan"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 244
+    },
+    {
+      "id": "netherwing-liberation-unnamed-murkblood-informant-theater",
+      "entityId": "unnamed-murkblood-informant",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-unnamed-murkblood-informant-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-seeker-of-truth"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "netherwing-liberation-yarzill-netherwing-form-theater",
+      "entityId": "yarzill-netherwing-form",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-yarzill-netherwing-form-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-lord-illidan"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 242
+    },
+    {
+      "id": "netherwing-liberation-yarzill-the-merc-theater",
+      "entityId": "yarzill-the-merc",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-yarzill-the-merc-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-friend-inside",
+        "netherwing-lord-illidan"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 243
+    },
+    {
+      "id": "netherwing-liberation-zuluhed-the-whacked-theater",
+      "entityId": "zuluhed-the-whacked",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-zuluhed-the-whacked-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 247
+    },
+    {
+      "id": "netherwing-liberation-zuluheds-key-and-broken-chain-theater",
+      "entityId": "zuluheds-key-and-broken-chain",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "geometryId": "netherwing-liberation-zuluheds-key-and-broken-chain-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "editorNote": "Editorial position in an illustrated TBC story theater; this is a renderer anchor only and asserts no real coordinates, formation, route, or unsupported co-presence. Compare the original TBC figure/area before review; see docs/research/netherwing-liberation-visual-assets.json.",
+      "visualPresence": "contextual",
+      "labelPriority": 235
+    },
+    {
       "id": "new-horde-era-seven-spatial-research",
       "entityId": "new-horde",
       "eraId": "third-war-frozen-throne",
@@ -12229,6 +12577,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "barthamus",
+      "type": "character",
+      "name": "Barthamus",
+      "slug": "barthamus",
+      "shortDescription": "The named Lower City quest-giver who receives the survivor and offers the choice of a Netherwing drake.",
+      "body": "The named Lower City quest-giver who receives the survivor and offers the choice of a Netherwing drake. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-barthamus",
+        "netherwing-lord-illidan"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/barthamus.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "battered-hilt",
       "type": "artifact",
       "name": "Battered Hilt",
@@ -14842,6 +15215,75 @@
       "contentStatus": "research"
     },
     {
+      "id": "dragonmaw-base-camp-shadowmoon",
+      "type": "site",
+      "name": "Dragonmaw Base Camp, Shadowmoon Valley",
+      "slug": "dragonmaw-base-camp-shadowmoon",
+      "shortDescription": "The named camp where the Illidari papers, exalted summons, and final confrontation are staged in the TBC quest locators.",
+      "body": "The named camp where the Illidari papers, exalted summons, and final confrontation are staged in the TBC quest locators. Story art and placements are interpretive; exact coordinates, routes, and layouts are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-in-service",
+        "netherwing-bow-to-highlord",
+        "netherwing-lord-illidan",
+        "netherwing-shadowmoon-visual-reference"
+      ],
+      "tags": [
+        "netherwing-story",
+        "burning-crusade-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dragonmaw-fortress-shadowmoon",
+      "type": "site",
+      "name": "Dragonmaw Fortress, Shadowmoon Valley",
+      "slug": "dragonmaw-fortress-shadowmoon",
+      "shortDescription": "A named Dragonmaw stronghold in the TBC Shadowmoon Valley quest sequence; no floor plan or exact route is asserted.",
+      "body": "A named Dragonmaw stronghold in the TBC Shadowmoon Valley quest sequence; no floor plan or exact route is asserted. Story art and placements are interpretive; exact coordinates, routes, and layouts are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain",
+        "netherwing-shadowmoon-visual-reference"
+      ],
+      "tags": [
+        "netherwing-story",
+        "burning-crusade-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "dragonmaw-overseers",
+      "type": "faction",
+      "name": "Dragonmaw overseers",
+      "slug": "dragonmaw-overseers",
+      "shortDescription": "An interpretive ensemble representing the Dragonmaw force encountered in the quest sequence; not a named unit roster.",
+      "body": "An interpretive ensemble representing the Dragonmaw force encountered in the quest sequence; not a named unit roster. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain",
+        "netherwing-in-service"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/dragonmaw-overseers.research.webp",
+        "scale": 0.78
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "drakefire-amulet",
       "name": "Drakefire Amulet",
       "slug": "drakefire-amulet",
@@ -15157,6 +15599,55 @@
       "mapVisual": {
         "asset": "images/subjects/ancient-civilizations/empire-of-zul.research.webp",
         "scale": 1.05
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "enchanted-nethervine-crystal",
+      "type": "artifact",
+      "name": "Enchanted Nethervine Crystal",
+      "slug": "enchanted-nethervine-crystal",
+      "shortDescription": "Neltharaku’s enchanted crystal used to free enslaved Netherwing drakes.",
+      "body": "Neltharaku’s enchanted crystal used to free enslaved Netherwing drakes. This original illustration is a scene prop, not canonical item-model evidence.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art",
+        "story-prop"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/enchanted-nethervine-crystal.research.webp",
+        "scale": 0.52
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "enslaved-netherwing-drakes",
+      "type": "faction",
+      "name": "Enslaved Netherwing drakes",
+      "slug": "enslaved-netherwing-drakes",
+      "shortDescription": "A representative ensemble of captive drakes; the quest frees a limited number, not the entire flight.",
+      "body": "A representative ensemble of captive drakes; the quest frees a limited number, not the entire flight. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/enslaved-netherwing-drakes.research.webp",
+        "scale": 0.78
       },
       "contentStatus": "research"
     },
@@ -16803,6 +17294,30 @@
       "contentStatus": "research"
     },
     {
+      "id": "karynaku",
+      "type": "character",
+      "name": "Karynaku",
+      "slug": "karynaku",
+      "shortDescription": "Neltharaku’s mate, held in chains at Dragonmaw Fortress in the quest sequence.",
+      "body": "Neltharaku’s mate, held in chains at Dragonmaw Fortress in the quest sequence. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/karynaku.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "katrana-prestor",
       "name": "Katrana Prestor",
       "slug": "katrana-prestor",
@@ -18228,6 +18743,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "mistress-of-the-mines",
+      "type": "character",
+      "name": "Mistress of the Mines",
+      "slug": "mistress-of-the-mines",
+      "shortDescription": "The named quest-giver who receives the optional Murkblood escape plans and orders the follow-up inquiry.",
+      "body": "The named quest-giver who receives the optional Murkblood escape plans and orders the follow-up inquiry. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-murkblood-revolt",
+        "netherwing-seeker-of-truth"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/mistress-of-the-mines.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "mogu-empire",
       "type": "faction",
       "name": "The Mogu Empire",
@@ -18303,6 +18843,31 @@
       }
     },
     {
+      "id": "mordenai",
+      "type": "character",
+      "name": "Mordenai",
+      "slug": "mordenai",
+      "shortDescription": "A quest-giver who asks the seeker to aid the Netherwing and later offers the blood oath.",
+      "body": "A quest-giver who asks the seeker to aid the Netherwing and later offers the blood oath. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain",
+        "netherwing-blood-oath"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/mordenai.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "mount-hyjal-ancient",
       "type": "location",
       "name": "Mount Hyjal",
@@ -18328,6 +18893,31 @@
         "survivors",
         "refuge"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "murkblood-escape-plans",
+      "type": "artifact",
+      "name": "Murkblood Escape Plans",
+      "slug": "murkblood-escape-plans",
+      "shortDescription": "The named quest-starting document in the optional mine investigation.",
+      "body": "The named quest-starting document in the optional mine investigation. This original illustration is a scene prop, not canonical item-model evidence.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-murkblood-revolt"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art",
+        "story-prop"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/murkblood-escape-plans.research.webp",
+        "scale": 0.52
+      },
       "contentStatus": "research"
     },
     {
@@ -18485,6 +19075,30 @@
       "contentStatus": "research"
     },
     {
+      "id": "neltharaku",
+      "type": "character",
+      "name": "Neltharaku",
+      "slug": "neltharaku",
+      "shortDescription": "A Netherwing drake who tells the seeker of the Dragonmaw’s captivity of his flight and asks for help.",
+      "body": "A Netherwing drake who tells the seeker of the Dragonmaw’s captivity of his flight and asks for help. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/neltharaku.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "neltharion",
       "type": "character",
       "name": "Neltharion the Earth-Warder",
@@ -18569,6 +19183,120 @@
         "asset": "images/characters/rise-of-the-horde/nerzhul.research.webp",
         "scale": 0.95
       },
+      "contentStatus": "research"
+    },
+    {
+      "id": "nethervine-crystal",
+      "type": "artifact",
+      "name": "Nethervine crystal",
+      "slug": "nethervine-crystal",
+      "shortDescription": "Raw crystals gathered at Netherwing Ledge; the illustration is interpretive.",
+      "body": "Raw crystals gathered at Netherwing Ledge; the illustration is interpretive. This original illustration is a scene prop, not canonical item-model evidence.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art",
+        "story-prop"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/enchanted-nethervine-crystal.research.webp",
+        "scale": 0.52
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-drake-companions",
+      "type": "faction",
+      "name": "Netherwing drake companions",
+      "slug": "netherwing-drake-companions",
+      "shortDescription": "A representative ensemble of the six mutually exclusive drake companions offered after the final turn-in.",
+      "body": "A representative ensemble of the six mutually exclusive drake companions offered after the final turn-in. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-barthamus"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/netherwing-drake-companions.research.webp",
+        "scale": 0.78
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-fields-shadowmoon",
+      "type": "location",
+      "name": "Netherwing Fields, Shadowmoon Valley",
+      "slug": "netherwing-fields-shadowmoon",
+      "shortDescription": "A named quest area in TBC Shadowmoon Valley where Mordenai asks for aid and Neltharaku flies overhead.",
+      "body": "A named quest area in TBC Shadowmoon Valley where Mordenai asks for aid and Neltharaku flies overhead. Story art and placements are interpretive; exact coordinates, routes, and layouts are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain",
+        "netherwing-shadowmoon-visual-reference"
+      ],
+      "tags": [
+        "netherwing-story",
+        "burning-crusade-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-ledge-shadowmoon",
+      "type": "location",
+      "name": "Netherwing Ledge, Shadowmoon Valley",
+      "slug": "netherwing-ledge-shadowmoon",
+      "shortDescription": "A named floating island and quest area in TBC Shadowmoon Valley, associated with Nethervine crystals and the Netherwing faction.",
+      "body": "A named floating island and quest area in TBC Shadowmoon Valley, associated with Nethervine crystals and the Netherwing faction. Story art and placements are interpretive; exact coordinates, routes, and layouts are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain",
+        "netherwing-faction-index",
+        "netherwing-shadowmoon-visual-reference"
+      ],
+      "tags": [
+        "netherwing-story",
+        "burning-crusade-area-reference"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-mines-shadowmoon",
+      "type": "site",
+      "name": "Netherwing Mines, Shadowmoon Valley",
+      "slug": "netherwing-mines-shadowmoon",
+      "shortDescription": "A named mining area on Netherwing Ledge used by the optional Murkblood Escape Plans investigation.",
+      "body": "A named mining area on Netherwing Ledge used by the optional Murkblood Escape Plans investigation. Story art and placements are interpretive; exact coordinates, routes, and layouts are not asserted.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-murkblood-revolt",
+        "netherwing-seeker-of-truth",
+        "netherwing-shadowmoon-visual-reference"
+      ],
+      "tags": [
+        "netherwing-story",
+        "burning-crusade-area-reference"
+      ],
       "contentStatus": "research"
     },
     {
@@ -18979,6 +19707,32 @@
         "dark-portal",
         "separate-worldspace"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "overlord-morghor",
+      "type": "character",
+      "name": "Overlord Mor’ghor",
+      "slug": "overlord-morghor",
+      "shortDescription": "The Dragonmaw leader who receives the service papers and announces the Highlord promotion.",
+      "body": "The Dragonmaw leader who receives the service papers and announces the Highlord promotion. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-in-service",
+        "netherwing-bow-to-highlord",
+        "netherwing-lord-illidan"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/overlord-morghor.research.webp",
+        "scale": 0.9
+      },
       "contentStatus": "research"
     },
     {
@@ -22015,6 +22769,30 @@
       "contentStatus": "research"
     },
     {
+      "id": "unnamed-murkblood-informant",
+      "type": "character",
+      "name": "Unnamed Murkblood overseer",
+      "slug": "unnamed-murkblood-informant",
+      "shortDescription": "A composite visual for the unnamed speaker interrogated in Seeker of Truth; no personal name or biography is supplied.",
+      "body": "A composite visual for the unnamed speaker interrogated in Seeker of Truth; no personal name or biography is supplied. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-seeker-of-truth"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/murkblood-informant.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "unsent-letter",
       "type": "artifact",
       "name": "The Unsent Letter",
@@ -22749,6 +23527,55 @@
       }
     },
     {
+      "id": "yarzill-netherwing-form",
+      "type": "character",
+      "name": "Yarzill, revealed as a Netherwing drake",
+      "slug": "yarzill-netherwing-form",
+      "shortDescription": "The protective drake form Yarzill reveals during the final escape.",
+      "body": "The protective drake form Yarzill reveals during the final escape. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-lord-illidan"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/yarzill-netherwing-form.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "yarzill-the-merc",
+      "type": "character",
+      "name": "Yarzill the Merc",
+      "slug": "yarzill-the-merc",
+      "shortDescription": "A goblin appearing as a friendly contact at Dragonmaw Base Camp; a later quest identifies him as an ally inside.",
+      "body": "A goblin appearing as a friendly contact at Dragonmaw Base Camp; a later quest identifies him as an ally inside. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-friend-inside",
+        "netherwing-lord-illidan"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/yarzill-the-merc.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "yehkinya-and-hakkars-return-ancient-egg",
       "type": "artifact",
       "name": "The Ancient Egg",
@@ -23330,6 +24157,55 @@
         "zandalari",
         "troll"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "zuluhed-the-whacked",
+      "type": "character",
+      "name": "Zuluhed the Whacked",
+      "slug": "zuluhed-the-whacked",
+      "shortDescription": "Dragonmaw chieftain named as keeper of the key to Karynaku’s chains.",
+      "body": "Dragonmaw chieftain named as keeper of the key to Karynaku’s chains. The original research illustration is interpretive, not canonical model evidence; compare it with the original TBC client before approval.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/zuluhed.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "zuluheds-key-and-broken-chain",
+      "type": "artifact",
+      "name": "Zuluhed’s key and Karynaku’s opened chain",
+      "slug": "zuluheds-key-and-broken-chain",
+      "shortDescription": "Interpretive object art for the key and chain-opening outcome; not a canonical model capture.",
+      "body": "Interpretive object art for the key and chain-opening outcome; not a canonical model capture. This original illustration is a scene prop, not canonical item-model evidence.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "tags": [
+        "netherwing-story",
+        "interpretive-art",
+        "story-prop"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/netherwing/zuluheds-key-and-broken-chain.research.webp",
+        "scale": 0.52
+      },
       "contentStatus": "research"
     }
   ],
@@ -30160,6 +31036,465 @@
       ],
       "claimIds": [
         "nerzhul-deceived-event-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-ally-declared-event",
+      "kind": "event",
+      "name": "An ally of the Netherwing",
+      "slug": "netherwing-liberation-ally-declared",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "The chain returns to Mordenai, who recognizes the seeker as an ally of the Netherwing.",
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "mordenai"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "claimIds": [
+        "netherwing-liberation-ally-declared-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-barthamus-offer-event",
+      "kind": "event",
+      "name": "A choice in the Lower City",
+      "slug": "netherwing-liberation-barthamus-offer",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "Barthamus receives the survivor in Shattrath and presents one of six possible Netherwing drake companions.",
+      "locationIds": [
+        "cipher-shattrath-lower-city"
+      ],
+      "participantEntityIds": [
+        "barthamus",
+        "netherwing-drake-companions"
+      ],
+      "sourceIds": [
+        "netherwing-lord-illidan",
+        "netherwing-barthamus"
+      ],
+      "claimIds": [
+        "netherwing-liberation-barthamus-offer-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-blood-oath-event",
+      "kind": "event",
+      "name": "An oath for a home",
+      "slug": "netherwing-liberation-blood-oath",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "At neutral standing, Mordenai asks the ally to help retake Netherwing lands and protect the flight.",
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "mordenai"
+      ],
+      "sourceIds": [
+        "netherwing-blood-oath"
+      ],
+      "claimIds": [
+        "netherwing-liberation-blood-oath-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-drakes-freed-event",
+      "kind": "event",
+      "name": "The crystal’s force",
+      "slug": "netherwing-liberation-drakes-freed",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "The enchanted crystal is used on enslaved Netherwing drakes; the freed drakes turn on their captors.",
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "enslaved-netherwing-drakes",
+        "dragonmaw-overseers",
+        "enchanted-nethervine-crystal"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "claimIds": [
+        "netherwing-liberation-drakes-freed-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-fortress-diversion-event",
+      "kind": "event",
+      "name": "A breach to buy time",
+      "slug": "netherwing-liberation-fortress-diversion",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "The seeker strikes the Dragonmaw fortress to create a diversion while Neltharaku considers his next step.",
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "dragonmaw-overseers"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "claimIds": [
+        "netherwing-liberation-fortress-diversion-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-highlord-summons-event",
+      "kind": "event",
+      "name": "The summons of the Highlord",
+      "slug": "netherwing-liberation-highlord-summons",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "After a reputation-gated interval, Varkule summons the exalted seeker; Mor’ghor names them the first Highlord of the Dragonmaw.",
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "overlord-morghor",
+        "dragonmaw-overseers"
+      ],
+      "sourceIds": [
+        "netherwing-faction-index",
+        "netherwing-bow-to-highlord"
+      ],
+      "claimIds": [
+        "netherwing-liberation-highlord-summons-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-illidan-exposes-event",
+      "kind": "event",
+      "name": "The borrowed face is seen through",
+      "slug": "netherwing-liberation-illidan-exposes",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "Illidan recognizes the deception at the promotion gathering, immobilizes the player, and orders Mor’ghor to have them killed.",
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "illidan-stormrage",
+        "overlord-morghor",
+        "dragonmaw-overseers"
+      ],
+      "sourceIds": [
+        "netherwing-lord-illidan"
+      ],
+      "claimIds": [
+        "netherwing-liberation-illidan-exposes-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-karynaku-found-event",
+      "kind": "event",
+      "name": "Karynaku above the bailey",
+      "slug": "netherwing-liberation-karynaku-found",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "The chain turns from freeing captive drakes to reaching Karynaku, who remains bound at the fortress.",
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "karynaku"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "claimIds": [
+        "netherwing-liberation-karynaku-found-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-mordenai-appeal-event",
+      "kind": "event",
+      "name": "A kindness in the fields",
+      "slug": "netherwing-liberation-mordenai-appeal",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "Mordenai asks the seeker to aid the disturbed Netherwing drakes. The opening task pairs the gathering of Rocknail prey with feeding the drakes; the scene treats those objectives as one appeal rather than a string of farming actions.",
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "mordenai",
+        "enslaved-netherwing-drakes"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "claimIds": [
+        "netherwing-liberation-mordenai-appeal-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-murkblood-plans-event",
+      "kind": "event",
+      "name": "A revolt beneath the ledge",
+      "slug": "netherwing-liberation-murkblood-plans",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "An optional friendly-standing branch leads from escape plans to an interrogation. An unnamed Murkblood overseer describes an attempted mine revolt and makes allegations about Dragonmaw extraction and buyers.",
+      "locationIds": [
+        "netherwing-mines-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "mistress-of-the-mines",
+        "unnamed-murkblood-informant",
+        "murkblood-escape-plans"
+      ],
+      "sourceIds": [
+        "netherwing-murkblood-revolt",
+        "netherwing-seeker-of-truth"
+      ],
+      "claimIds": [
+        "netherwing-liberation-murkblood-plans-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-neltharakus-tale-event",
+      "kind": "event",
+      "name": "A flight’s testimony",
+      "slug": "netherwing-liberation-neltharakus-tale",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "Neltharaku tells the seeker of the Dragonmaw’s control over the Netherwing and asks for help.",
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "neltharaku"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "claimIds": [
+        "netherwing-liberation-neltharakus-tale-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-nethervine-plan-event",
+      "kind": "event",
+      "name": "Crystals from the ledge",
+      "slug": "netherwing-liberation-nethervine-plan",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "Neltharaku’s plan turns on crystals gathered from Netherwing Ledge.",
+      "locationIds": [
+        "netherwing-ledge-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "nethervine-crystal"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "claimIds": [
+        "netherwing-liberation-nethervine-plan-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-seek-neltharaku-event",
+      "kind": "event",
+      "name": "Search above the broken fields",
+      "slug": "netherwing-liberation-seek-neltharaku",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "After the opening aid, Mordenai directs the seeker to search the skies for Neltharaku.",
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "neltharaku"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "claimIds": [
+        "netherwing-liberation-seek-neltharaku-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-service-papers-event",
+      "kind": "event",
+      "name": "A mask of Dragonmaw",
+      "slug": "netherwing-liberation-service-papers",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "Netherwing magic disguises the seeker as a Dragonmaw recruit; Illidari papers are delivered to Mor’ghor, opening the taskmaster route.",
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "overlord-morghor",
+        "dragonmaw-overseers"
+      ],
+      "sourceIds": [
+        "netherwing-in-service",
+        "netherwing-enter-taskmaster"
+      ],
+      "claimIds": [
+        "netherwing-liberation-service-papers-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-yarzill-inside-event",
+      "kind": "event",
+      "name": "A friend behind the disguise",
+      "slug": "netherwing-liberation-yarzill-inside",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "Yarzill the Merc reveals himself as a Netherwing ally within the Dragonmaw operation.",
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "yarzill-the-merc"
+      ],
+      "sourceIds": [
+        "netherwing-friend-inside"
+      ],
+      "claimIds": [
+        "netherwing-liberation-yarzill-inside-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-yarzill-rescue-event",
+      "kind": "event",
+      "name": "Wings beneath the merchant’s cloak",
+      "slug": "netherwing-liberation-yarzill-rescue",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "Yarzill intervenes, reveals a Netherwing drake form, and carries the seeker to Shattrath.",
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "yarzill-the-merc",
+        "yarzill-netherwing-form"
+      ],
+      "sourceIds": [
+        "netherwing-lord-illidan"
+      ],
+      "claimIds": [
+        "netherwing-liberation-yarzill-rescue-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-zuluheds-key-event",
+      "kind": "event",
+      "name": "The chieftain’s key",
+      "slug": "netherwing-liberation-zuluheds-key",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "netherwing-story-theater",
+      "date": {
+        "precision": "unknown",
+        "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+      },
+      "summary": "Zuluhed is defeated, the key is recovered, and Karynaku’s chains are opened.",
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "participantEntityIds": [
+        "zuluhed-the-whacked",
+        "karynaku",
+        "zuluheds-key-and-broken-chain"
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain"
+      ],
+      "claimIds": [
+        "netherwing-liberation-zuluheds-key-claim"
       ],
       "contentStatus": "research"
     },
@@ -38833,6 +40168,90 @@
       "notes": "Fan-site transcript and quest sequence for the patch 2.3 Dustwallow continuation. It documents Aden, Wymor, Garn, Renn, the recovered manacles, Jaina’s Alcaz survey, the report to Bolvar, Katrana’s objection and the return to Jaina. Original-client capture is still required for promotion."
     },
     {
+      "id": "netherwing-ally-chain",
+      "title": "Ally of the Netherwing quest-chain locator",
+      "url": "https://warcraft.wiki.gg/wiki/Ally_of_the_Netherwing_quest_chain",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-sequence and text locator for the nine hostile-to-neutral quests. It is not a capture of the original 2007 client. Every detail is paraphrased; original build comparison remains open."
+    },
+    {
+      "id": "netherwing-barthamus",
+      "title": "Barthamus NPC and final turn-in locator",
+      "url": "https://warcraft.wiki.gg/wiki/Barthamus",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary NPC/quest locator for the Lower City turn-in and Netherwing drake offer. Claims about identity beyond the TBC quest remain outside this story."
+    },
+    {
+      "id": "netherwing-blood-oath",
+      "title": "Blood Oath of the Netherwing quest locator",
+      "url": "https://warcraft.wiki.gg/wiki/Blood_Oath_of_the_Netherwing",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator. The oath is paraphrased and remains subject to original TBC client comparison."
+    },
+    {
+      "id": "netherwing-bow-to-highlord",
+      "title": "Bow to the Highlord quest locator",
+      "url": "https://warcraft.wiki.gg/wiki/Bow_to_the_Highlord",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Varkule’s summons and Mor’ghor’s title declaration. A character’s statement is not treated as proof of total command."
+    },
+    {
+      "id": "netherwing-enter-taskmaster",
+      "title": "Enter the Taskmaster quest locator",
+      "url": "https://warcraft.wiki.gg/wiki/Enter_the_Taskmaster",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-sequence locator. It is treated as the one-time transition into the Dragonmaw task structure, not a daily-work scene."
+    },
+    {
+      "id": "netherwing-faction-index",
+      "title": "Netherwing faction and reputation quest index",
+      "url": "https://warcraft.wiki.gg/wiki/Netherwing",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary locator for the later reputation tiers and repeatable/daily task structure. Repetition is not narrated as a sequence of unique historical events. Original client/build review remains open."
+    },
+    {
+      "id": "netherwing-friend-inside",
+      "title": "Your Friend on the Inside quest locator",
+      "url": "https://warcraft.wiki.gg/wiki/Your_Friend_on_the_Inside",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for Yarzill. Exact dialogue and original TBC client comparison remain open."
+    },
+    {
+      "id": "netherwing-in-service",
+      "title": "In Service of the Illidari quest locator",
+      "url": "https://warcraft.wiki.gg/wiki/In_Service_of_the_Illidari",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the service papers and disguise. The staging and exact original build remain open."
+    },
+    {
+      "id": "netherwing-lord-illidan",
+      "title": "Lord Illidan Stormrage quest locator",
+      "url": "https://warcraft.wiki.gg/wiki/Lord_Illidan_Stormrage_(quest)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest dialogue/cinematic sequence locator for Illidan’s visit, exposure of the disguise, threat, Yarzill’s rescue, and Shattrath destination. Original scene capture remains open."
+    },
+    {
+      "id": "netherwing-murkblood-revolt",
+      "title": "The Great Murkblood Revolt quest locator",
+      "url": "https://warcraft.wiki.gg/wiki/The_Great_Murkblood_Revolt",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the optional escape-plan branch. It does not establish that every player completed this quest."
+    },
+    {
+      "id": "netherwing-seeker-of-truth",
+      "title": "Seeker of Truth quest locator",
+      "url": "https://warcraft.wiki.gg/wiki/Seeker_of_Truth",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/gossip transcription locator for an unnamed Murkblood overseer’s testimony. All allegations remain attributed to that speaker; original client comparison remains open."
+    },
+    {
+      "id": "netherwing-shadowmoon-visual-reference",
+      "title": "Shadowmoon Valley TBC area visual locator",
+      "url": "https://www.wowhead.com/tbc/zone=3520/shadowmoon-valley",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary visual locator for TBC Shadowmoon Valley. The target is original Burning Crusade area presentation; no matching in-client comparison capture is claimed."
+    },
+    {
       "id": "onyxia-attunement-wiki",
       "title": "Onyxia’s Lair attunement",
       "url": "https://warcraft.wiki.gg/wiki/Onyxia%27s_Lair_attunement",
@@ -41805,6 +43224,153 @@
       "questId": "The Missing Diplomat (Classic quest chain)",
       "section": "Chain steps 12–13 · Slim names Varian as the missing king and says Hendel was to board the ship.",
       "note": "Original paraphrase for “The missing king.” Original Classic chain sequence and quest-text locator; the applicable client text has not yet been compared against an original client capture."
+    },
+    {
+      "id": "netherwing-liberation-ally-declared-citation-1",
+      "sourceId": "netherwing-ally-chain",
+      "questId": "Ally of the Netherwing",
+      "section": "Quest handoff and completion",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-barthamus-offer-citation-1",
+      "sourceId": "netherwing-lord-illidan",
+      "questId": "Lord Illidan Stormrage",
+      "section": "Quest turn-in and reward",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-barthamus-offer-citation-2",
+      "sourceId": "netherwing-barthamus",
+      "questId": "Barthamus",
+      "section": "NPC identity and optional drake rewards",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-blood-oath-citation-1",
+      "sourceId": "netherwing-blood-oath",
+      "questId": "Blood Oath of the Netherwing",
+      "section": "Quest appeal and completion",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-drakes-freed-citation-1",
+      "sourceId": "netherwing-ally-chain",
+      "questId": "The Force of Neltharaku",
+      "section": "Quest item use and result",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-fortress-diversion-citation-1",
+      "sourceId": "netherwing-ally-chain",
+      "questId": "Infiltrating Dragonmaw Fortress",
+      "section": "Quest objective",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-highlord-summons-citation-1",
+      "sourceId": "netherwing-faction-index",
+      "questId": "Netherwing reputation tiers",
+      "section": "Repeatable tasks and faction progression",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-highlord-summons-citation-2",
+      "sourceId": "netherwing-bow-to-highlord",
+      "questId": "Bow to the Highlord",
+      "section": "Summons and title declaration",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-illidan-exposes-citation-1",
+      "sourceId": "netherwing-lord-illidan",
+      "questId": "Lord Illidan Stormrage",
+      "section": "Meeting scene and confrontation",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-karynaku-found-citation-1",
+      "sourceId": "netherwing-ally-chain",
+      "questId": "Karynaku",
+      "section": "Quest dialogue and request",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-mordenai-appeal-citation-1",
+      "sourceId": "netherwing-ally-chain",
+      "questId": "Kindness",
+      "section": "Quest opening and objective",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-murkblood-plans-citation-1",
+      "sourceId": "netherwing-murkblood-revolt",
+      "questId": "The Great Murkblood Revolt",
+      "section": "Escape-plan item and handoff",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-murkblood-plans-citation-2",
+      "sourceId": "netherwing-seeker-of-truth",
+      "questId": "Seeker of Truth",
+      "section": "Interrogation and attributed testimony",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-neltharakus-tale-citation-1",
+      "sourceId": "netherwing-ally-chain",
+      "questId": "Neltharaku’s Tale",
+      "section": "Quest dialogue and request for aid",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-nethervine-plan-citation-1",
+      "sourceId": "netherwing-ally-chain",
+      "questId": "To Netherwing Ledge!",
+      "section": "Quest destination and objective",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-seek-neltharaku-citation-1",
+      "sourceId": "netherwing-ally-chain",
+      "questId": "Seek Out Neltharaku",
+      "section": "Quest sequence and destination",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-service-papers-citation-1",
+      "sourceId": "netherwing-in-service",
+      "questId": "In Service of the Illidari",
+      "section": "Quest premise, disguise, and papers",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-service-papers-citation-2",
+      "sourceId": "netherwing-enter-taskmaster",
+      "questId": "Enter the Taskmaster",
+      "section": "Quest handoff",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-yarzill-inside-citation-1",
+      "sourceId": "netherwing-friend-inside",
+      "questId": "Your Friend on the Inside",
+      "section": "Quest reveal and completion",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-yarzill-rescue-citation-1",
+      "sourceId": "netherwing-lord-illidan",
+      "questId": "Lord Illidan Stormrage",
+      "section": "Rescue and transport sequence",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
+    },
+    {
+      "id": "netherwing-liberation-zuluheds-key-citation-1",
+      "sourceId": "netherwing-ally-chain",
+      "questId": "Zuluhed the Whacked",
+      "section": "Quest objective and completion",
+      "note": "Original paraphrase from a secondary quest-text/sequence locator. Exact wording, original TBC build, and omitted variants remain subject to human verification."
     },
     {
       "id": "onyxia-alliance-drakefire-amulet-citation-1",
@@ -46563,6 +48129,214 @@
       ],
       "confidence": "explicit",
       "status": "active"
+    },
+    {
+      "id": "netherwing-liberation-ally-declared-claim",
+      "subjectId": "netherwing-liberation-ally-declared-event",
+      "predicate": "netherwing_story_scene",
+      "value": "The chain returns to Mordenai, who recognizes the seeker as an ally of the Netherwing.",
+      "citationIds": [
+        "netherwing-liberation-ally-declared-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The ally title is the quest outcome. No exact family relationship involving Mordenai is asserted. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-barthamus-offer-claim",
+      "subjectId": "netherwing-liberation-barthamus-offer-event",
+      "predicate": "netherwing_story_scene",
+      "value": "Barthamus receives the survivor in Shattrath and presents one of six possible Netherwing drake companions.",
+      "citationIds": [
+        "netherwing-liberation-barthamus-offer-citation-1",
+        "netherwing-liberation-barthamus-offer-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The quest grants a mutually exclusive player choice; no particular drake is selected as canonical for all players. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-blood-oath-claim",
+      "subjectId": "netherwing-liberation-blood-oath-event",
+      "predicate": "netherwing_story_scene",
+      "value": "At neutral standing, Mordenai asks the ally to help retake Netherwing lands and protect the flight.",
+      "citationIds": [
+        "netherwing-liberation-blood-oath-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The loss and request stay attributed to Mordenai. The story does not identify unnamed captives or outcomes beyond the quest text. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-drakes-freed-claim",
+      "subjectId": "netherwing-liberation-drakes-freed-event",
+      "predicate": "netherwing_story_scene",
+      "value": "The enchanted crystal is used on enslaved Netherwing drakes; the freed drakes turn on their captors.",
+      "citationIds": [
+        "netherwing-liberation-drakes-freed-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The quest objective frees a bounded number of drakes. The scene does not claim all captives are released. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-fortress-diversion-claim",
+      "subjectId": "netherwing-liberation-fortress-diversion-event",
+      "predicate": "netherwing_story_scene",
+      "value": "The seeker strikes the Dragonmaw fortress to create a diversion while Neltharaku considers his next step.",
+      "citationIds": [
+        "netherwing-liberation-fortress-diversion-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Does not convert a kill-count objective into capture of the fortress or defeat of the entire Dragonmaw force. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-highlord-summons-claim",
+      "subjectId": "netherwing-liberation-highlord-summons-event",
+      "predicate": "netherwing_story_scene",
+      "value": "After a reputation-gated interval, Varkule summons the exalted seeker; Mor’ghor names them the first Highlord of the Dragonmaw.",
+      "citationIds": [
+        "netherwing-liberation-highlord-summons-citation-1",
+        "netherwing-liberation-highlord-summons-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The reputation interval is intentionally compressed. “First Highlord” is Mor’ghor’s title declaration, not proof that the adventurer commands the whole Dragonmaw clan. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-illidan-exposes-claim",
+      "subjectId": "netherwing-liberation-illidan-exposes-event",
+      "predicate": "netherwing_story_scene",
+      "value": "Illidan recognizes the deception at the promotion gathering, immobilizes the player, and orders Mor’ghor to have them killed.",
+      "citationIds": [
+        "netherwing-liberation-illidan-exposes-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The confrontation and threat follow the quest dialogue locator; exact original-client scene capture remains open. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-karynaku-found-claim",
+      "subjectId": "netherwing-liberation-karynaku-found-event",
+      "predicate": "netherwing_story_scene",
+      "value": "The chain turns from freeing captive drakes to reaching Karynaku, who remains bound at the fortress.",
+      "citationIds": [
+        "netherwing-liberation-karynaku-found-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Karynaku is described as Neltharaku’s mate in the quest chain; no later family history is imported. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-mordenai-appeal-claim",
+      "subjectId": "netherwing-liberation-mordenai-appeal-event",
+      "predicate": "netherwing_story_scene",
+      "value": "Mordenai asks the seeker to aid the disturbed Netherwing drakes. The opening task pairs the gathering of Rocknail prey with feeding the drakes; the scene treats those objectives as one appeal rather than a string of farming actions.",
+      "citationIds": [
+        "netherwing-liberation-mordenai-appeal-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Quest objectives are paraphrased. Rocknail combat and feeding counts are compressed into one narrative beat; repeated kills are not separate events. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-murkblood-plans-claim",
+      "subjectId": "netherwing-liberation-murkblood-plans-event",
+      "predicate": "netherwing_story_scene",
+      "value": "An optional friendly-standing branch leads from escape plans to an interrogation. An unnamed Murkblood overseer describes an attempted mine revolt and makes allegations about Dragonmaw extraction and buyers.",
+      "citationIds": [
+        "netherwing-liberation-murkblood-plans-citation-1",
+        "netherwing-liberation-murkblood-plans-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The Murkblood account is testimony from an unnamed interrogated NPC. Allegations and suspicions are not stated as omniscient fact; optional quest status and reputation prerequisite remain explicit. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-neltharakus-tale-claim",
+      "subjectId": "netherwing-liberation-neltharakus-tale-event",
+      "predicate": "netherwing_story_scene",
+      "value": "Neltharaku tells the seeker of the Dragonmaw’s control over the Netherwing and asks for help.",
+      "citationIds": [
+        "netherwing-liberation-neltharakus-tale-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The captivity account remains attributed to Neltharaku. No broader history of the Netherwing’s origin is added. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-nethervine-plan-claim",
+      "subjectId": "netherwing-liberation-nethervine-plan-event",
+      "predicate": "netherwing_story_scene",
+      "value": "Neltharaku’s plan turns on crystals gathered from Netherwing Ledge.",
+      "citationIds": [
+        "netherwing-liberation-nethervine-plan-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Crystal appearance and exact position are interpretive; the quest’s location and collection task are the supported points. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-seek-neltharaku-claim",
+      "subjectId": "netherwing-liberation-seek-neltharaku-event",
+      "predicate": "netherwing_story_scene",
+      "value": "After the opening aid, Mordenai directs the seeker to search the skies for Neltharaku.",
+      "citationIds": [
+        "netherwing-liberation-seek-neltharaku-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The scene follows the quest handoff but does not claim a route, coordinates, or a specific duration of flight. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-service-papers-claim",
+      "subjectId": "netherwing-liberation-service-papers-event",
+      "predicate": "netherwing_story_scene",
+      "value": "Netherwing magic disguises the seeker as a Dragonmaw recruit; Illidari papers are delivered to Mor’ghor, opening the taskmaster route.",
+      "citationIds": [
+        "netherwing-liberation-service-papers-citation-1",
+        "netherwing-liberation-service-papers-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The disguise and warning are quest mechanics/dialogue. The story does not claim every Dragonmaw accepts the deception or that the infiltration has already changed the operation. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-yarzill-inside-claim",
+      "subjectId": "netherwing-liberation-yarzill-inside-event",
+      "predicate": "netherwing_story_scene",
+      "value": "Yarzill the Merc reveals himself as a Netherwing ally within the Dragonmaw operation.",
+      "citationIds": [
+        "netherwing-liberation-yarzill-inside-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Only Yarzill’s disclosed role is asserted; no wider spy network is inferred. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-yarzill-rescue-claim",
+      "subjectId": "netherwing-liberation-yarzill-rescue-event",
+      "predicate": "netherwing_story_scene",
+      "value": "Yarzill intervenes, reveals a Netherwing drake form, and carries the seeker to Shattrath.",
+      "citationIds": [
+        "netherwing-liberation-yarzill-rescue-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The rescue and destination are quest-script outcomes; no wider liberation of the camp is inferred. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
+    },
+    {
+      "id": "netherwing-liberation-zuluheds-key-claim",
+      "subjectId": "netherwing-liberation-zuluheds-key-event",
+      "predicate": "netherwing_story_scene",
+      "value": "Zuluhed is defeated, the key is recovered, and Karynaku’s chains are opened.",
+      "citationIds": [
+        "netherwing-liberation-zuluheds-key-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "The outcome is bounded to Zuluhed’s defeat and Karynaku’s release; it does not claim a wider military victory. Source pages are secondary quest-text locators; exact original client/build comparison remains open."
     },
     {
       "id": "new-horde-kalimdor-event-claim",
@@ -51543,6 +53317,55 @@
       "contentStatus": "research"
     },
     {
+      "id": "netherwing-liberation",
+      "slug": "netherwing-liberation",
+      "title": "Netherwing: Rescue, Disguise, and Liberation",
+      "summary": "Mordenai’s appeal leads from kindness in Shadowmoon Valley to the rescue of Karynaku, an oath sworn beneath a borrowed Dragonmaw identity, an optional Murkblood investigation, and a promotion that ends in exposure and escape.",
+      "opening": "In the violet fields of Shadowmoon Valley, a stranger is asked to help a troubled flight. Beyond the first rescue waits a larger risk: to wear the enemy’s face long enough to learn how far its power reaches.",
+      "primaryEraId": "age-of-adventurers",
+      "eraIds": [
+        "age-of-adventurers"
+      ],
+      "chapters": [
+        {
+          "id": "netherwing-captives",
+          "eraId": "age-of-adventurers",
+          "title": "The captive flight",
+          "body": "Mordenai’s appeal, Neltharaku’s testimony, and the rescue of Karynaku establish the alliance without claiming the whole Dragonmaw force has fallen."
+        },
+        {
+          "id": "netherwing-borrowed-face",
+          "eraId": "age-of-adventurers",
+          "title": "Service beneath a borrowed face",
+          "body": "The blood oath, disguise, Yarzill’s inside role, and an optional Murkblood investigation reveal more of the operation. Reputation work remains an undated game-system interval."
+        },
+        {
+          "id": "netherwing-exposed",
+          "eraId": "age-of-adventurers",
+          "title": "The Highlord exposed",
+          "body": "The promotion brings Illidan to the camp; he sees through the deception, while Yarzill’s intervention carries the seeker to Shattrath and a choice of companion."
+        }
+      ],
+      "sourceIds": [
+        "netherwing-ally-chain",
+        "netherwing-faction-index",
+        "netherwing-blood-oath",
+        "netherwing-in-service",
+        "netherwing-enter-taskmaster",
+        "netherwing-friend-inside",
+        "netherwing-murkblood-revolt",
+        "netherwing-seeker-of-truth",
+        "netherwing-bow-to-highlord",
+        "netherwing-lord-illidan",
+        "netherwing-barthamus",
+        "netherwing-shadowmoon-visual-reference"
+      ],
+      "reviewNote": "Complete illustrated research StoryGuide with 17 scenes, one source-linked event and claim per scene, dedicated environment and named cast art, optional Murkblood testimony, and an ending through the Shattrath turn-in. Daily and egg repetition is not expanded into invented events. Quest locators are secondary and the original 2.1–2.4.3 client/build comparison, exact TBC area/model review, claim approval, and audio audition remain open. Added to the independent Classic-to-Wrath StoryTour after Champion of the Naaru; no EraTour insertion. See netherwing-liberation-research.md, netherwing-liberation-production.md, and netherwing-liberation-visual-assets.json.",
+      "storyGuideId": "netherwing-liberation-guide",
+      "showInEraTourOffshoots": false,
+      "contentStatus": "research"
+    },
+    {
       "id": "quel-delar-restored",
       "slug": "quel-delar-restored",
       "title": "Quel’Delar: The Broken Blade Restored",
@@ -52308,7 +54131,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth. Anchors were checked against the depicted landmasses: Stormwind, Westfall, Duskwood, Deadwind Pass and the Blasted Lands in the southern Eastern Kingdoms; the Plaguelands in the north; Theramore and Tanaris on eastern Kalimdor; Dragonblight and Icecrown in Northrend; and Shadowmoon Valley in southeastern Outland. Multi-region stories use one representative anchor, not their entire route.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests.",
       "regions": [
         {
           "id": "kalimdor",
@@ -52545,6 +54368,19 @@
           "locationLabel": "Shattrath · heroic trials across Outland"
         },
         {
+          "storylineId": "netherwing-liberation",
+          "regionIds": [
+            "outland"
+          ],
+          "mapPositionPercent": [
+            79,
+            91
+          ],
+          "order": 15,
+          "periodLabel": "The Burning Crusade · Netherwing quest campaign",
+          "locationLabel": "Shadowmoon Valley · fields, fortress, and Netherwing Ledge"
+        },
+        {
           "storylineId": "missing-diplomat-original-investigation",
           "regionIds": [
             "eastern-kingdoms",
@@ -52554,7 +54390,7 @@
             28,
             57
           ],
-          "order": 15,
+          "order": 16,
           "periodLabel": "Original Classic investigation · Burning Crusade patch 2.3 continuation",
           "locationLabel": "Stormwind · Duskwood · Wetlands · Theramore"
         },
@@ -52567,7 +54403,7 @@
             48,
             23
           ],
-          "order": 16,
+          "order": 17,
           "periodLabel": "Wrath of the Lich King",
           "locationLabel": "Dragonblight · Northrend"
         },
@@ -52581,12 +54417,12 @@
             49,
             12
           ],
-          "order": 17,
+          "order": 18,
           "periodLabel": "Wrath of the Lich King · patch 3.3.5",
           "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
         }
       ],
-      "reviewNote": "Research StoryTour collection with 17 map placards, 16 playable research StoryGuides and one research preview. Play All follows the explicit editorial order and skips the preview. Story-tour map markers are navigational layout positions rather than exact locations; each storyline remains research until its human review gates are complete.",
+      "reviewNote": "Research StoryTour collection with 18 map placards, 17 playable research StoryGuides and one research preview. Play All follows the explicit editorial order and skips the preview. Netherwing follows Champion of the Naaru as a Burning Crusade playlist placement, not a claim of exact relative dating; repeatable reputation work is not rendered as unique events. Story-tour map markers are navigational layout positions rather than exact locations; each storyline remains research until its human review gates are complete.",
       "contentStatus": "research"
     }
   ],
@@ -52967,6 +54803,32 @@
         "modern-story-darkwell",
         "modern-story-dawnwell",
         "modern-story-coiled-isle"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "netherwing-liberation-guide",
+      "eraId": "age-of-adventurers",
+      "title": "Netherwing · Rescue, disguise, and liberation",
+      "description": "Seventeen illustrated Burning Crusade scenes follow the initial rescue chain, a Netherwing oath and Dragonmaw disguise, an optional Murkblood mine investigation, the Exalted promotion, Illidan’s exposure of the spy, and Yarzill’s escape to Shattrath. Repeatable reputation work is treated as an undated interval.",
+      "nodeIds": [
+        "netherwing-liberation-story-mordenai-appeal",
+        "netherwing-liberation-story-seek-neltharaku",
+        "netherwing-liberation-story-neltharakus-tale",
+        "netherwing-liberation-story-fortress-diversion",
+        "netherwing-liberation-story-nethervine-plan",
+        "netherwing-liberation-story-drakes-freed",
+        "netherwing-liberation-story-karynaku-found",
+        "netherwing-liberation-story-zuluheds-key",
+        "netherwing-liberation-story-ally-declared",
+        "netherwing-liberation-story-blood-oath",
+        "netherwing-liberation-story-service-papers",
+        "netherwing-liberation-story-yarzill-inside",
+        "netherwing-liberation-story-murkblood-plans",
+        "netherwing-liberation-story-highlord-summons",
+        "netherwing-liberation-story-illidan-exposes",
+        "netherwing-liberation-story-yarzill-rescue",
+        "netherwing-liberation-story-barthamus-offer"
       ],
       "contentStatus": "research"
     },
@@ -65300,6 +67162,763 @@
         }
       ],
       "previousNodeId": "modern-story-dawnwell"
+    },
+    {
+      "id": "netherwing-liberation-story-mordenai-appeal",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A kindness in the fields",
+      "narration": "Shadowmoon’s fields open beneath a violet sky, where dark stone holds the day’s last green light. There Mordenai asks a stranger for kindness. The Netherwing drakes have been disturbed, and his first task is plain: gather prey from the Rocknail hunt and feed the creatures that will not trust a hand easily. The errands are modest, but the choice is not. Before the flight can be asked to believe in an ally, someone must answer a need that brings no title or promise in return.",
+      "eventIds": [
+        "netherwing-liberation-mordenai-appeal-event"
+      ],
+      "entityIds": [
+        "mordenai",
+        "enslaved-netherwing-drakes"
+      ],
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fields-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "netherwing-liberation-story-seek-neltharaku"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-mordenai-appeal.mp3",
+        "durationMs": 34400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-seek-neltharaku",
+      "guideId": "netherwing-liberation-guide",
+      "title": "Search above the broken fields",
+      "narration": "When the first kindness is answered, Mordenai points upward. Neltharaku is not waiting on a road or behind a gate; he crosses the air above the fields, where the broken horizon makes distance difficult to judge. The quest sends the seeker to find him in flight. No route is marked here, for the chain names a meeting and a sky, not a measured passage through them.",
+      "eventIds": [
+        "netherwing-liberation-seek-neltharaku-event"
+      ],
+      "entityIds": [
+        "neltharaku"
+      ],
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-flight-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-mordenai-appeal",
+      "nextNodeIds": [
+        "netherwing-liberation-story-neltharakus-tale"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-seek-neltharaku.mp3",
+        "durationMs": 25875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-neltharakus-tale",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A flight’s testimony",
+      "narration": "Neltharaku speaks not as a distant patron of the sky but as one of a people under another clan’s hand. His account describes the Dragonmaw taking control of Netherwing life and forcing the drakes into service. The telling is the drake’s own testimony, and the story keeps it in that voice. From it comes a request for action: make trouble at the fortress, then help him find a way to reach those still bound.",
+      "eventIds": [
+        "netherwing-liberation-neltharakus-tale-event"
+      ],
+      "entityIds": [
+        "neltharaku"
+      ],
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-flight-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-seek-neltharaku",
+      "nextNodeIds": [
+        "netherwing-liberation-story-fortress-diversion"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-neltharakus-tale.mp3",
+        "durationMs": 29025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-fortress-diversion",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A breach to buy time",
+      "narration": "The first answer is a disturbance, not a conquest. At Dragonmaw Fortress, the seeker is told to strike the clan’s operation and draw attention away long enough for Neltharaku to plan. The objective brings violence into the campaign, yet the quest does not say the fortress falls or that its garrison is broken. The opening is narrow: a delay bought in hostile ground, with the next move still to be found.",
+      "eventIds": [
+        "netherwing-liberation-fortress-diversion-event"
+      ],
+      "entityIds": [
+        "dragonmaw-overseers"
+      ],
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-neltharakus-tale",
+      "nextNodeIds": [
+        "netherwing-liberation-story-nethervine-plan"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-fortress-diversion.mp3",
+        "durationMs": 30225,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-nethervine-plan",
+      "guideId": "netherwing-liberation-guide",
+      "title": "Crystals from the ledge",
+      "narration": "Neltharaku’s plan leads beyond the fields to Netherwing Ledge, where Nethervine crystals can be gathered amid a hostile Dragonmaw presence. Their power is not enough on its own; the drake will prepare them for a purpose. The scene holds to the task the quest names and leaves the crystals’ position broad across the broken island. A resource taken from a contested place is about to become a means of release.",
+      "eventIds": [
+        "netherwing-liberation-nethervine-plan-event"
+      ],
+      "entityIds": [
+        "nethervine-crystal"
+      ],
+      "locationIds": [
+        "netherwing-ledge-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-ledge-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-fortress-diversion",
+      "nextNodeIds": [
+        "netherwing-liberation-story-drakes-freed"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-nethervine-plan.mp3",
+        "durationMs": 29225,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-drakes-freed",
+      "guideId": "netherwing-liberation-guide",
+      "title": "The crystal’s force",
+      "narration": "Neltharaku gives the gathered crystals a force that can reach the drakes’ bondage. At the fortress, the seeker uses one upon enslaved Netherwing. Those newly freed turn against their former captors. The quest describes a limited rescue, not the liberation of every captive. Yet the change is visible: for a moment, the Dragonmaw’s strength becomes a risk inside its own camp, and the Netherwing fight beside the stranger who came to help.",
+      "eventIds": [
+        "netherwing-liberation-drakes-freed-event"
+      ],
+      "entityIds": [
+        "enslaved-netherwing-drakes",
+        "dragonmaw-overseers",
+        "enchanted-nethervine-crystal"
+      ],
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-nethervine-plan",
+      "nextNodeIds": [
+        "netherwing-liberation-story-karynaku-found"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-drakes-freed.mp3",
+        "durationMs": 33000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-karynaku-found",
+      "guideId": "netherwing-liberation-guide",
+      "title": "Karynaku above the bailey",
+      "narration": "The freed drakes are not the end of the captivity Neltharaku described. He now asks the seeker to find Karynaku, his mate, held high at the fortress. She can speak, but the chains sap her strength. Karynaku names the remaining barrier: Zuluhed the Whacked holds the key. The story narrows to one captive and one object, while the larger operation around her remains intact.",
+      "eventIds": [
+        "netherwing-liberation-karynaku-found-event"
+      ],
+      "entityIds": [
+        "karynaku"
+      ],
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-drakes-freed",
+      "nextNodeIds": [
+        "netherwing-liberation-story-zuluheds-key"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-karynaku-found.mp3",
+        "durationMs": 27575,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-zuluheds-key",
+      "guideId": "netherwing-liberation-guide",
+      "title": "The chieftain’s key",
+      "narration": "The key belongs to the chieftain who holds Karynaku. The seeker confronts Zuluhed, defeats him, and takes what is needed to open the chains. This is a decisive rescue, though not proof that every Dragonmaw in the fortress has surrendered. Karynaku is free of the restraint that held her, and the path opens back toward the fields and the drake who first trusted a stranger with his account.",
+      "eventIds": [
+        "netherwing-liberation-zuluheds-key-event"
+      ],
+      "entityIds": [
+        "zuluhed-the-whacked",
+        "karynaku",
+        "zuluheds-key-and-broken-chain"
+      ],
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-karynaku-found",
+      "nextNodeIds": [
+        "netherwing-liberation-story-ally-declared"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-zuluheds-key.mp3",
+        "durationMs": 27625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-ally-declared",
+      "guideId": "netherwing-liberation-guide",
+      "title": "An ally of the Netherwing",
+      "narration": "Karynaku offers to return the seeker to Mordenai. There, the campaign receives its first clear name: Ally of the Netherwing. The title marks trust earned through care, disruption, a crystal plan, and one leader’s defeat. It does not say the valley has been reclaimed. The first chain closes with a compact between the flight and an outsider; the next begins with a wider promise to act for the Netherwing’s home.",
+      "eventIds": [
+        "netherwing-liberation-ally-declared-event"
+      ],
+      "entityIds": [
+        "mordenai"
+      ],
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fields-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-zuluheds-key",
+      "nextNodeIds": [
+        "netherwing-liberation-story-blood-oath"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-ally-declared.mp3",
+        "durationMs": 29750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-blood-oath",
+      "guideId": "netherwing-liberation-guide",
+      "title": "An oath for a home",
+      "narration": "The new ally is called back to Mordenai. His plea names a greater wound: the Netherwing have lost their lands, and their children have been taken into slavery or worse. He asks the adventurer to swear aid in reclaiming a home and guarding the flight. The oath changes the scale of the work. The seeker is no longer only answering one family’s immediate need, but accepting a part in a dangerous campaign against the Dragonmaw presence.",
+      "eventIds": [
+        "netherwing-liberation-blood-oath-event"
+      ],
+      "entityIds": [
+        "mordenai"
+      ],
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fields-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-ally-declared",
+      "nextNodeIds": [
+        "netherwing-liberation-story-service-papers"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-blood-oath.mp3",
+        "durationMs": 31950,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-service-papers",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A mask of Dragonmaw",
+      "narration": "Mordenai’s next plan depends upon a borrowed face. Netherwing magic cloaks the seeker as a Dragonmaw fel orc, and Illidari service papers are prepared for Mor’ghor at the base camp. The task is to enter the labor structure from within. The disguise has limits: Mordenai warns that some sentries can see through it. The papers are accepted, and the seeker is placed among the clan’s workers under orders that conceal the purpose of the oath.",
+      "eventIds": [
+        "netherwing-liberation-service-papers-event"
+      ],
+      "entityIds": [
+        "overlord-morghor",
+        "dragonmaw-overseers"
+      ],
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-blood-oath",
+      "nextNodeIds": [
+        "netherwing-liberation-story-yarzill-inside"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-service-papers.mp3",
+        "durationMs": 31800,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-yarzill-inside",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A friend behind the disguise",
+      "narration": "A goblin near the camp’s work reveals that the disguise hides more than one ally. Yarzill the Merc is not merely a trader at the edge of the operation; the quest identifies him as a friend on the inside. His presence gives the seeker a point of contact within the camp, but the story does not invent a larger network or attribute every success to hidden agents. The infiltration now has a known companion, still surrounded by a clan that believes the new recruit belongs to it.",
+      "eventIds": [
+        "netherwing-liberation-yarzill-inside-event"
+      ],
+      "entityIds": [
+        "yarzill-the-merc"
+      ],
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-service-papers",
+      "nextNodeIds": [
+        "netherwing-liberation-story-murkblood-plans"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-yarzill-inside.mp3",
+        "durationMs": 35250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-murkblood-plans",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A revolt beneath the ledge",
+      "narration": "A separate clue comes from the Netherwing Mines, after a reputation gate and the mine quest. Escape plans attributed to the Murkblood workers reach the Mistress of the Mines. Her follow-up sends the disguised seeker to question an overseer. The Broken speaker describes a revolt meant to drive the Dragonmaw from the ledge and alleges that the clan takes resources for Illidan’s forces while selling other goods. The speaker suspects outside buyers, including the Black Dragonflight, but does not name a confirmed purchaser. This branch enriches the account; it is not a required step in the main rescue.",
+      "eventIds": [
+        "netherwing-liberation-murkblood-plans-event"
+      ],
+      "entityIds": [
+        "mistress-of-the-mines",
+        "unnamed-murkblood-informant",
+        "murkblood-escape-plans"
+      ],
+      "locationIds": [
+        "netherwing-mines-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-mines-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-yarzill-inside",
+      "nextNodeIds": [
+        "netherwing-liberation-story-highlord-summons"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-murkblood-plans.mp3",
+        "durationMs": 44425,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-highlord-summons",
+      "guideId": "netherwing-liberation-guide",
+      "title": "The summons of the Highlord",
+      "narration": "Between the oath and this summons lies work measured in reputation: recurring tasks, ledge labor, and eggs returned for standing. They are game systems renewed over time, not separate dated events, so the telling does not turn each reset into a new chapter or guess how long the ascent took. When Exalted standing opens the final sequence, Varkule sends the seeker to Mor’ghor. There, the Dragonmaw leader announces a first Highlord and says Illidan himself will come to promote the new champion.",
+      "eventIds": [
+        "netherwing-liberation-highlord-summons-event"
+      ],
+      "entityIds": [
+        "overlord-morghor",
+        "dragonmaw-overseers"
+      ],
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-murkblood-plans",
+      "nextNodeIds": [
+        "netherwing-liberation-story-illidan-exposes"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-highlord-summons.mp3",
+        "durationMs": 36650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-illidan-exposes",
+      "guideId": "netherwing-liberation-guide",
+      "title": "The borrowed face is seen through",
+      "narration": "The camp gathers for the promised promotion. Illidan appears and sees through the Dragonmaw disguise. His anger falls first on Mor’ghor, then turns toward the seeker: the operation is compromised, and the impostor is to be killed. Mor’ghor answers his master and threatens vengeance. The celebration becomes a sentence before the gathered clan. The quest’s abrupt reversal is the cost of passing too deeply into an enemy’s trust: the mask has won entry, but no protection once the truth is spoken.",
+      "eventIds": [
+        "netherwing-liberation-illidan-exposes-event"
+      ],
+      "entityIds": [
+        "illidan-stormrage",
+        "overlord-morghor",
+        "dragonmaw-overseers"
+      ],
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-highlord-summons",
+      "nextNodeIds": [
+        "netherwing-liberation-story-yarzill-rescue"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-illidan-exposes.mp3",
+        "durationMs": 36975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-yarzill-rescue",
+      "guideId": "netherwing-liberation-guide",
+      "title": "Wings beneath the merchant’s cloak",
+      "narration": "Before the threat can be carried out, Yarzill refuses to let Mor’ghor harm the seeker. The goblin’s disguise falls away into the form of a Netherwing drake, and the quest places the adventurer on his back. His flight carries the survivor to Shattrath. The revelation is Yarzill’s own intervention, not proof that every worker in the camp has been rescued or that the Dragonmaw have been defeated. The operation is compromised, but its hidden ally preserves one life and brings the story out of Shadowmoon.",
+      "eventIds": [
+        "netherwing-liberation-yarzill-rescue-event"
+      ],
+      "entityIds": [
+        "yarzill-the-merc",
+        "yarzill-netherwing-form"
+      ],
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-flight-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-illidan-exposes",
+      "nextNodeIds": [
+        "netherwing-liberation-story-barthamus-offer"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-yarzill-rescue.mp3",
+        "durationMs": 35750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-barthamus-offer",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A choice in the Lower City",
+      "narration": "In Shattrath’s Lower City, the flight’s account receives the survivor. Barthamus hears that the Dragonmaw operation has been exposed and answers with an offer from the Netherwing: one of six drakes may join the adventurer’s road. The choice belongs to the player, so no single companion is made universal here. The story ends with an alliance returned in kind—not with the end of every danger to the flight, but with the seeker no longer travelling alone.",
+      "eventIds": [
+        "netherwing-liberation-barthamus-offer-event"
+      ],
+      "entityIds": [
+        "barthamus",
+        "netherwing-drake-companions"
+      ],
+      "locationIds": [
+        "cipher-shattrath-lower-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-shattrath-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-yarzill-rescue",
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-barthamus-offer.mp3",
+        "durationMs": 34375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
     },
     {
       "id": "ordering-story-inherited-shadow",

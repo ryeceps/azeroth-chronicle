@@ -1,0 +1,787 @@
+{
+  "guide": {
+    "id": "netherwing-liberation-guide",
+    "eraId": "age-of-adventurers",
+    "title": "Netherwing · Rescue, disguise, and liberation",
+    "description": "Seventeen illustrated Burning Crusade scenes follow the initial rescue chain, a Netherwing oath and Dragonmaw disguise, an optional Murkblood mine investigation, the Exalted promotion, Illidan’s exposure of the spy, and Yarzill’s escape to Shattrath. Repeatable reputation work is treated as an undated interval.",
+    "nodeIds": [
+      "netherwing-liberation-story-mordenai-appeal",
+      "netherwing-liberation-story-seek-neltharaku",
+      "netherwing-liberation-story-neltharakus-tale",
+      "netherwing-liberation-story-fortress-diversion",
+      "netherwing-liberation-story-nethervine-plan",
+      "netherwing-liberation-story-drakes-freed",
+      "netherwing-liberation-story-karynaku-found",
+      "netherwing-liberation-story-zuluheds-key",
+      "netherwing-liberation-story-ally-declared",
+      "netherwing-liberation-story-blood-oath",
+      "netherwing-liberation-story-service-papers",
+      "netherwing-liberation-story-yarzill-inside",
+      "netherwing-liberation-story-murkblood-plans",
+      "netherwing-liberation-story-highlord-summons",
+      "netherwing-liberation-story-illidan-exposes",
+      "netherwing-liberation-story-yarzill-rescue",
+      "netherwing-liberation-story-barthamus-offer"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "netherwing-liberation-story-mordenai-appeal",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A kindness in the fields",
+      "narration": "Shadowmoon’s fields open beneath a violet sky, where dark stone holds the day’s last green light. There Mordenai asks a stranger for kindness. The Netherwing drakes have been disturbed, and his first task is plain: gather prey from the Rocknail hunt and feed the creatures that will not trust a hand easily. The errands are modest, but the choice is not. Before the flight can be asked to believe in an ally, someone must answer a need that brings no title or promise in return.",
+      "eventIds": [
+        "netherwing-liberation-mordenai-appeal-event"
+      ],
+      "entityIds": [
+        "mordenai",
+        "enslaved-netherwing-drakes"
+      ],
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fields-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "netherwing-liberation-story-seek-neltharaku"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-mordenai-appeal.mp3",
+        "durationMs": 34400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-seek-neltharaku",
+      "guideId": "netherwing-liberation-guide",
+      "title": "Search above the broken fields",
+      "narration": "When the first kindness is answered, Mordenai points upward. Neltharaku is not waiting on a road or behind a gate; he crosses the air above the fields, where the broken horizon makes distance difficult to judge. The quest sends the seeker to find him in flight. No route is marked here, for the chain names a meeting and a sky, not a measured passage through them.",
+      "eventIds": [
+        "netherwing-liberation-seek-neltharaku-event"
+      ],
+      "entityIds": [
+        "neltharaku"
+      ],
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-flight-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-mordenai-appeal",
+      "nextNodeIds": [
+        "netherwing-liberation-story-neltharakus-tale"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-seek-neltharaku.mp3",
+        "durationMs": 25875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-neltharakus-tale",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A flight’s testimony",
+      "narration": "Neltharaku speaks not as a distant patron of the sky but as one of a people under another clan’s hand. His account describes the Dragonmaw taking control of Netherwing life and forcing the drakes into service. The telling is the drake’s own testimony, and the story keeps it in that voice. From it comes a request for action: make trouble at the fortress, then help him find a way to reach those still bound.",
+      "eventIds": [
+        "netherwing-liberation-neltharakus-tale-event"
+      ],
+      "entityIds": [
+        "neltharaku"
+      ],
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-flight-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-seek-neltharaku",
+      "nextNodeIds": [
+        "netherwing-liberation-story-fortress-diversion"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-neltharakus-tale.mp3",
+        "durationMs": 29025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-fortress-diversion",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A breach to buy time",
+      "narration": "The first answer is a disturbance, not a conquest. At Dragonmaw Fortress, the seeker is told to strike the clan’s operation and draw attention away long enough for Neltharaku to plan. The objective brings violence into the campaign, yet the quest does not say the fortress falls or that its garrison is broken. The opening is narrow: a delay bought in hostile ground, with the next move still to be found.",
+      "eventIds": [
+        "netherwing-liberation-fortress-diversion-event"
+      ],
+      "entityIds": [
+        "dragonmaw-overseers"
+      ],
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-neltharakus-tale",
+      "nextNodeIds": [
+        "netherwing-liberation-story-nethervine-plan"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-fortress-diversion.mp3",
+        "durationMs": 30225,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-nethervine-plan",
+      "guideId": "netherwing-liberation-guide",
+      "title": "Crystals from the ledge",
+      "narration": "Neltharaku’s plan leads beyond the fields to Netherwing Ledge, where Nethervine crystals can be gathered amid a hostile Dragonmaw presence. Their power is not enough on its own; the drake will prepare them for a purpose. The scene holds to the task the quest names and leaves the crystals’ position broad across the broken island. A resource taken from a contested place is about to become a means of release.",
+      "eventIds": [
+        "netherwing-liberation-nethervine-plan-event"
+      ],
+      "entityIds": [
+        "nethervine-crystal"
+      ],
+      "locationIds": [
+        "netherwing-ledge-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-ledge-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-fortress-diversion",
+      "nextNodeIds": [
+        "netherwing-liberation-story-drakes-freed"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-nethervine-plan.mp3",
+        "durationMs": 29225,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-drakes-freed",
+      "guideId": "netherwing-liberation-guide",
+      "title": "The crystal’s force",
+      "narration": "Neltharaku gives the gathered crystals a force that can reach the drakes’ bondage. At the fortress, the seeker uses one upon enslaved Netherwing. Those newly freed turn against their former captors. The quest describes a limited rescue, not the liberation of every captive. Yet the change is visible: for a moment, the Dragonmaw’s strength becomes a risk inside its own camp, and the Netherwing fight beside the stranger who came to help.",
+      "eventIds": [
+        "netherwing-liberation-drakes-freed-event"
+      ],
+      "entityIds": [
+        "enslaved-netherwing-drakes",
+        "dragonmaw-overseers",
+        "enchanted-nethervine-crystal"
+      ],
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-nethervine-plan",
+      "nextNodeIds": [
+        "netherwing-liberation-story-karynaku-found"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-drakes-freed.mp3",
+        "durationMs": 33000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-karynaku-found",
+      "guideId": "netherwing-liberation-guide",
+      "title": "Karynaku above the bailey",
+      "narration": "The freed drakes are not the end of the captivity Neltharaku described. He now asks the seeker to find Karynaku, his mate, held high at the fortress. She can speak, but the chains sap her strength. Karynaku names the remaining barrier: Zuluhed the Whacked holds the key. The story narrows to one captive and one object, while the larger operation around her remains intact.",
+      "eventIds": [
+        "netherwing-liberation-karynaku-found-event"
+      ],
+      "entityIds": [
+        "karynaku"
+      ],
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-drakes-freed",
+      "nextNodeIds": [
+        "netherwing-liberation-story-zuluheds-key"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-karynaku-found.mp3",
+        "durationMs": 27575,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-zuluheds-key",
+      "guideId": "netherwing-liberation-guide",
+      "title": "The chieftain’s key",
+      "narration": "The key belongs to the chieftain who holds Karynaku. The seeker confronts Zuluhed, defeats him, and takes what is needed to open the chains. This is a decisive rescue, though not proof that every Dragonmaw in the fortress has surrendered. Karynaku is free of the restraint that held her, and the path opens back toward the fields and the drake who first trusted a stranger with his account.",
+      "eventIds": [
+        "netherwing-liberation-zuluheds-key-event"
+      ],
+      "entityIds": [
+        "zuluhed-the-whacked",
+        "karynaku",
+        "zuluheds-key-and-broken-chain"
+      ],
+      "locationIds": [
+        "dragonmaw-fortress-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-karynaku-found",
+      "nextNodeIds": [
+        "netherwing-liberation-story-ally-declared"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-zuluheds-key.mp3",
+        "durationMs": 27625,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-ally-declared",
+      "guideId": "netherwing-liberation-guide",
+      "title": "An ally of the Netherwing",
+      "narration": "Karynaku offers to return the seeker to Mordenai. There, the campaign receives its first clear name: Ally of the Netherwing. The title marks trust earned through care, disruption, a crystal plan, and one leader’s defeat. It does not say the valley has been reclaimed. The first chain closes with a compact between the flight and an outsider; the next begins with a wider promise to act for the Netherwing’s home.",
+      "eventIds": [
+        "netherwing-liberation-ally-declared-event"
+      ],
+      "entityIds": [
+        "mordenai"
+      ],
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fields-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-zuluheds-key",
+      "nextNodeIds": [
+        "netherwing-liberation-story-blood-oath"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-ally-declared.mp3",
+        "durationMs": 29750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-blood-oath",
+      "guideId": "netherwing-liberation-guide",
+      "title": "An oath for a home",
+      "narration": "The new ally is called back to Mordenai. His plea names a greater wound: the Netherwing have lost their lands, and their children have been taken into slavery or worse. He asks the adventurer to swear aid in reclaiming a home and guarding the flight. The oath changes the scale of the work. The seeker is no longer only answering one family’s immediate need, but accepting a part in a dangerous campaign against the Dragonmaw presence.",
+      "eventIds": [
+        "netherwing-liberation-blood-oath-event"
+      ],
+      "entityIds": [
+        "mordenai"
+      ],
+      "locationIds": [
+        "netherwing-fields-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fields-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-ally-declared",
+      "nextNodeIds": [
+        "netherwing-liberation-story-service-papers"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-blood-oath.mp3",
+        "durationMs": 31950,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-service-papers",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A mask of Dragonmaw",
+      "narration": "Mordenai’s next plan depends upon a borrowed face. Netherwing magic cloaks the seeker as a Dragonmaw fel orc, and Illidari service papers are prepared for Mor’ghor at the base camp. The task is to enter the labor structure from within. The disguise has limits: Mordenai warns that some sentries can see through it. The papers are accepted, and the seeker is placed among the clan’s workers under orders that conceal the purpose of the oath.",
+      "eventIds": [
+        "netherwing-liberation-service-papers-event"
+      ],
+      "entityIds": [
+        "overlord-morghor",
+        "dragonmaw-overseers"
+      ],
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-blood-oath",
+      "nextNodeIds": [
+        "netherwing-liberation-story-yarzill-inside"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-service-papers.mp3",
+        "durationMs": 31800,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-yarzill-inside",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A friend behind the disguise",
+      "narration": "A goblin near the camp’s work reveals that the disguise hides more than one ally. Yarzill the Merc is not merely a trader at the edge of the operation; the quest identifies him as a friend on the inside. His presence gives the seeker a point of contact within the camp, but the story does not invent a larger network or attribute every success to hidden agents. The infiltration now has a known companion, still surrounded by a clan that believes the new recruit belongs to it.",
+      "eventIds": [
+        "netherwing-liberation-yarzill-inside-event"
+      ],
+      "entityIds": [
+        "yarzill-the-merc"
+      ],
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-service-papers",
+      "nextNodeIds": [
+        "netherwing-liberation-story-murkblood-plans"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-yarzill-inside.mp3",
+        "durationMs": 35250,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-murkblood-plans",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A revolt beneath the ledge",
+      "narration": "A separate clue comes from the Netherwing Mines, after a reputation gate and the mine quest. Escape plans attributed to the Murkblood workers reach the Mistress of the Mines. Her follow-up sends the disguised seeker to question an overseer. The Broken speaker describes a revolt meant to drive the Dragonmaw from the ledge and alleges that the clan takes resources for Illidan’s forces while selling other goods. The speaker suspects outside buyers, including the Black Dragonflight, but does not name a confirmed purchaser. This branch enriches the account; it is not a required step in the main rescue.",
+      "eventIds": [
+        "netherwing-liberation-murkblood-plans-event"
+      ],
+      "entityIds": [
+        "mistress-of-the-mines",
+        "unnamed-murkblood-informant",
+        "murkblood-escape-plans"
+      ],
+      "locationIds": [
+        "netherwing-mines-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-mines-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-yarzill-inside",
+      "nextNodeIds": [
+        "netherwing-liberation-story-highlord-summons"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-murkblood-plans.mp3",
+        "durationMs": 44425,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-highlord-summons",
+      "guideId": "netherwing-liberation-guide",
+      "title": "The summons of the Highlord",
+      "narration": "Between the oath and this summons lies work measured in reputation: recurring tasks, ledge labor, and eggs returned for standing. They are game systems renewed over time, not separate dated events, so the telling does not turn each reset into a new chapter or guess how long the ascent took. When Exalted standing opens the final sequence, Varkule sends the seeker to Mor’ghor. There, the Dragonmaw leader announces a first Highlord and says Illidan himself will come to promote the new champion.",
+      "eventIds": [
+        "netherwing-liberation-highlord-summons-event"
+      ],
+      "entityIds": [
+        "overlord-morghor",
+        "dragonmaw-overseers"
+      ],
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-murkblood-plans",
+      "nextNodeIds": [
+        "netherwing-liberation-story-illidan-exposes"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-highlord-summons.mp3",
+        "durationMs": 36650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-illidan-exposes",
+      "guideId": "netherwing-liberation-guide",
+      "title": "The borrowed face is seen through",
+      "narration": "The camp gathers for the promised promotion. Illidan appears and sees through the Dragonmaw disguise. His anger falls first on Mor’ghor, then turns toward the seeker: the operation is compromised, and the impostor is to be killed. Mor’ghor answers his master and threatens vengeance. The celebration becomes a sentence before the gathered clan. The quest’s abrupt reversal is the cost of passing too deeply into an enemy’s trust: the mask has won entry, but no protection once the truth is spoken.",
+      "eventIds": [
+        "netherwing-liberation-illidan-exposes-event"
+      ],
+      "entityIds": [
+        "illidan-stormrage",
+        "overlord-morghor",
+        "dragonmaw-overseers"
+      ],
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-fortress-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-highlord-summons",
+      "nextNodeIds": [
+        "netherwing-liberation-story-yarzill-rescue"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-illidan-exposes.mp3",
+        "durationMs": 36975,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-yarzill-rescue",
+      "guideId": "netherwing-liberation-guide",
+      "title": "Wings beneath the merchant’s cloak",
+      "narration": "Before the threat can be carried out, Yarzill refuses to let Mor’ghor harm the seeker. The goblin’s disguise falls away into the form of a Netherwing drake, and the quest places the adventurer on his back. His flight carries the survivor to Shattrath. The revelation is Yarzill’s own intervention, not proof that every worker in the camp has been rescued or that the Dragonmaw have been defeated. The operation is compromised, but its hidden ally preserves one life and brings the story out of Shadowmoon.",
+      "eventIds": [
+        "netherwing-liberation-yarzill-rescue-event"
+      ],
+      "entityIds": [
+        "yarzill-the-merc",
+        "yarzill-netherwing-form"
+      ],
+      "locationIds": [
+        "dragonmaw-base-camp-shadowmoon"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-flight-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-illidan-exposes",
+      "nextNodeIds": [
+        "netherwing-liberation-story-barthamus-offer"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-yarzill-rescue.mp3",
+        "durationMs": 35750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "netherwing-liberation-story-barthamus-offer",
+      "guideId": "netherwing-liberation-guide",
+      "title": "A choice in the Lower City",
+      "narration": "In Shattrath’s Lower City, the flight’s account receives the survivor. Barthamus hears that the Dragonmaw operation has been exposed and answers with an offer from the Netherwing: one of six drakes may join the adventurer’s road. The choice belongs to the player, so no single companion is made universal here. The story ends with an alliance returned in kind—not with the end of every danger to the flight, but with the seeker no longer travelling alone.",
+      "eventIds": [
+        "netherwing-liberation-barthamus-offer-event"
+      ],
+      "entityIds": [
+        "barthamus",
+        "netherwing-drake-companions"
+      ],
+      "locationIds": [
+        "cipher-shattrath-lower-city"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.2,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "netherwing-liberation-shattrath-scene"
+        }
+      ],
+      "previousNodeId": "netherwing-liberation-story-yarzill-rescue",
+      "voiceover": {
+        "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-barthamus-offer.mp3",
+        "durationMs": 34375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    }
+  ]
+}

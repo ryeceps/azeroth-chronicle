@@ -1192,6 +1192,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "barthamus",
+    "type": "entity",
+    "name": "Barthamus",
+    "slug": "barthamus",
+    "path": "/locations/barthamus",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "The named Lower City quest-giver who receives the survivor and offers the choice of a Netherwing drake.",
+    "sourceIds": [
+      "netherwing-barthamus",
+      "netherwing-lord-illidan"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "battered-hilt",
     "type": "entity",
     "name": "Battered Hilt",
@@ -3306,6 +3325,65 @@
     "contentStatus": "research"
   },
   {
+    "id": "dragonmaw-base-camp-shadowmoon",
+    "type": "entity",
+    "name": "Dragonmaw Base Camp, Shadowmoon Valley",
+    "slug": "dragonmaw-base-camp-shadowmoon",
+    "path": "/locations/dragonmaw-base-camp-shadowmoon",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "burning-crusade-area-reference"
+    ],
+    "description": "The named camp where the Illidari papers, exalted summons, and final confrontation are staged in the TBC quest locators.",
+    "sourceIds": [
+      "netherwing-in-service",
+      "netherwing-bow-to-highlord",
+      "netherwing-lord-illidan",
+      "netherwing-shadowmoon-visual-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "dragonmaw-fortress-shadowmoon",
+    "type": "entity",
+    "name": "Dragonmaw Fortress, Shadowmoon Valley",
+    "slug": "dragonmaw-fortress-shadowmoon",
+    "path": "/locations/dragonmaw-fortress-shadowmoon",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "burning-crusade-area-reference"
+    ],
+    "description": "A named Dragonmaw stronghold in the TBC Shadowmoon Valley quest sequence; no floor plan or exact route is asserted.",
+    "sourceIds": [
+      "netherwing-ally-chain",
+      "netherwing-shadowmoon-visual-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "dragonmaw-overseers",
+    "type": "entity",
+    "name": "Dragonmaw overseers",
+    "slug": "dragonmaw-overseers",
+    "path": "/factions/dragonmaw-overseers",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "An interpretive ensemble representing the Dragonmaw force encountered in the quest sequence; not a named unit roster.",
+    "sourceIds": [
+      "netherwing-ally-chain",
+      "netherwing-in-service"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "drakefire-amulet",
     "type": "entity",
     "name": "Drakefire Amulet",
@@ -3543,6 +3621,43 @@
     "sourceIds": [
       "warcraft-chronicle-volume-1",
       "blizzard-rise-zandalari"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "enchanted-nethervine-crystal",
+    "type": "entity",
+    "name": "Enchanted Nethervine Crystal",
+    "slug": "enchanted-nethervine-crystal",
+    "path": "/locations/enchanted-nethervine-crystal",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art",
+      "story-prop"
+    ],
+    "description": "Neltharaku’s enchanted crystal used to free enslaved Netherwing drakes.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "enslaved-netherwing-drakes",
+    "type": "entity",
+    "name": "Enslaved Netherwing drakes",
+    "slug": "enslaved-netherwing-drakes",
+    "path": "/factions/enslaved-netherwing-drakes",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "A representative ensemble of captive drakes; the quest frees a limited number, not the entire flight.",
+    "sourceIds": [
+      "netherwing-ally-chain"
     ],
     "contentStatus": "research"
   },
@@ -4835,6 +4950,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "karynaku",
+    "type": "entity",
+    "name": "Karynaku",
+    "slug": "karynaku",
+    "path": "/locations/karynaku",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "Neltharaku’s mate, held in chains at Dragonmaw Fortress in the quest sequence.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "katrana-prestor",
     "type": "entity",
     "name": "Katrana Prestor",
@@ -5941,6 +6074,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "mistress-of-the-mines",
+    "type": "entity",
+    "name": "Mistress of the Mines",
+    "slug": "mistress-of-the-mines",
+    "path": "/locations/mistress-of-the-mines",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "The named quest-giver who receives the optional Murkblood escape plans and orders the follow-up inquiry.",
+    "sourceIds": [
+      "netherwing-murkblood-revolt",
+      "netherwing-seeker-of-truth"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "mogu-empire",
     "type": "entity",
     "name": "The Mogu Empire",
@@ -5999,6 +6151,25 @@
     "contentStatus": "research"
   },
   {
+    "id": "mordenai",
+    "type": "entity",
+    "name": "Mordenai",
+    "slug": "mordenai",
+    "path": "/locations/mordenai",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "A quest-giver who asks the seeker to aid the Netherwing and later offers the blood oath.",
+    "sourceIds": [
+      "netherwing-ally-chain",
+      "netherwing-blood-oath"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "mount-hyjal-ancient",
     "type": "entity",
     "name": "Mount Hyjal",
@@ -6016,6 +6187,25 @@
       "warcraft-chronicle-volume-1",
       "warcraft-chronicle-volume-3",
       "blizzard-mount-hyjal-history"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "murkblood-escape-plans",
+    "type": "entity",
+    "name": "Murkblood Escape Plans",
+    "slug": "murkblood-escape-plans",
+    "path": "/locations/murkblood-escape-plans",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art",
+      "story-prop"
+    ],
+    "description": "The named quest-starting document in the optional mine investigation.",
+    "sourceIds": [
+      "netherwing-murkblood-revolt"
     ],
     "contentStatus": "research"
   },
@@ -6138,6 +6328,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "neltharaku",
+    "type": "entity",
+    "name": "Neltharaku",
+    "slug": "neltharaku",
+    "path": "/locations/neltharaku",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "A Netherwing drake who tells the seeker of the Dragonmaw’s captivity of his flight and asks for help.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "neltharion",
     "type": "entity",
     "name": "Neltharion the Earth-Warder",
@@ -6197,6 +6405,102 @@
     "sourceIds": [
       "warcraft-chronicle-volume-2",
       "blizzard-burning-crusade-draenor-history"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "nethervine-crystal",
+    "type": "entity",
+    "name": "Nethervine crystal",
+    "slug": "nethervine-crystal",
+    "path": "/locations/nethervine-crystal",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art",
+      "story-prop"
+    ],
+    "description": "Raw crystals gathered at Netherwing Ledge; the illustration is interpretive.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-drake-companions",
+    "type": "entity",
+    "name": "Netherwing drake companions",
+    "slug": "netherwing-drake-companions",
+    "path": "/factions/netherwing-drake-companions",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "A representative ensemble of the six mutually exclusive drake companions offered after the final turn-in.",
+    "sourceIds": [
+      "netherwing-barthamus"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-fields-shadowmoon",
+    "type": "entity",
+    "name": "Netherwing Fields, Shadowmoon Valley",
+    "slug": "netherwing-fields-shadowmoon",
+    "path": "/locations/netherwing-fields-shadowmoon",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "burning-crusade-area-reference"
+    ],
+    "description": "A named quest area in TBC Shadowmoon Valley where Mordenai asks for aid and Neltharaku flies overhead.",
+    "sourceIds": [
+      "netherwing-ally-chain",
+      "netherwing-shadowmoon-visual-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-ledge-shadowmoon",
+    "type": "entity",
+    "name": "Netherwing Ledge, Shadowmoon Valley",
+    "slug": "netherwing-ledge-shadowmoon",
+    "path": "/locations/netherwing-ledge-shadowmoon",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "burning-crusade-area-reference"
+    ],
+    "description": "A named floating island and quest area in TBC Shadowmoon Valley, associated with Nethervine crystals and the Netherwing faction.",
+    "sourceIds": [
+      "netherwing-ally-chain",
+      "netherwing-faction-index",
+      "netherwing-shadowmoon-visual-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-mines-shadowmoon",
+    "type": "entity",
+    "name": "Netherwing Mines, Shadowmoon Valley",
+    "slug": "netherwing-mines-shadowmoon",
+    "path": "/locations/netherwing-mines-shadowmoon",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "burning-crusade-area-reference"
+    ],
+    "description": "A named mining area on Netherwing Ledge used by the optional Murkblood Escape Plans investigation.",
+    "sourceIds": [
+      "netherwing-murkblood-revolt",
+      "netherwing-seeker-of-truth",
+      "netherwing-shadowmoon-visual-reference"
     ],
     "contentStatus": "research"
   },
@@ -6516,6 +6820,26 @@
     "sourceIds": [
       "warcraft-chronicle-volume-3",
       "blizzard-burning-crusade-story-so-far"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "overlord-morghor",
+    "type": "entity",
+    "name": "Overlord Mor’ghor",
+    "slug": "overlord-morghor",
+    "path": "/locations/overlord-morghor",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "The Dragonmaw leader who receives the service papers and announces the Highlord promotion.",
+    "sourceIds": [
+      "netherwing-in-service",
+      "netherwing-bow-to-highlord",
+      "netherwing-lord-illidan"
     ],
     "contentStatus": "research"
   },
@@ -8914,6 +9238,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "unnamed-murkblood-informant",
+    "type": "entity",
+    "name": "Unnamed Murkblood overseer",
+    "slug": "unnamed-murkblood-informant",
+    "path": "/locations/unnamed-murkblood-informant",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "A composite visual for the unnamed speaker interrogated in Seeker of Truth; no personal name or biography is supplied.",
+    "sourceIds": [
+      "netherwing-seeker-of-truth"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "unsent-letter",
     "type": "entity",
     "name": "The Unsent Letter",
@@ -9481,6 +9823,43 @@
     "contentStatus": "research"
   },
   {
+    "id": "yarzill-netherwing-form",
+    "type": "entity",
+    "name": "Yarzill, revealed as a Netherwing drake",
+    "slug": "yarzill-netherwing-form",
+    "path": "/locations/yarzill-netherwing-form",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "The protective drake form Yarzill reveals during the final escape.",
+    "sourceIds": [
+      "netherwing-lord-illidan"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "yarzill-the-merc",
+    "type": "entity",
+    "name": "Yarzill the Merc",
+    "slug": "yarzill-the-merc",
+    "path": "/locations/yarzill-the-merc",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "A goblin appearing as a friendly contact at Dragonmaw Base Camp; a later quest identifies him as an ally inside.",
+    "sourceIds": [
+      "netherwing-friend-inside",
+      "netherwing-lord-illidan"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "yehkinya-and-hakkars-return-ancient-egg",
     "type": "entity",
     "name": "The Ancient Egg",
@@ -9933,6 +10312,43 @@
     "description": "The highland center of the Zandalar tribe and a political heart of the earliest troll civilization represented in this era.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "zuluhed-the-whacked",
+    "type": "entity",
+    "name": "Zuluhed the Whacked",
+    "slug": "zuluhed-the-whacked",
+    "path": "/locations/zuluhed-the-whacked",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art"
+    ],
+    "description": "Dragonmaw chieftain named as keeper of the key to Karynaku’s chains.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "zuluheds-key-and-broken-chain",
+    "type": "entity",
+    "name": "Zuluhed’s key and Karynaku’s opened chain",
+    "slug": "zuluheds-key-and-broken-chain",
+    "path": "/locations/zuluheds-key-and-broken-chain",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "netherwing-story",
+      "interpretive-art",
+      "story-prop"
+    ],
+    "description": "Interpretive object art for the key and chain-opening outcome; not a canonical model capture.",
+    "sourceIds": [
+      "netherwing-ally-chain"
     ],
     "contentStatus": "research"
   },
@@ -13537,6 +13953,265 @@
     "contentStatus": "research"
   },
   {
+    "id": "netherwing-liberation-ally-declared-event",
+    "type": "event",
+    "name": "An ally of the Netherwing",
+    "slug": "netherwing-liberation-ally-declared",
+    "path": "/events/netherwing-liberation-ally-declared",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The chain returns to Mordenai, who recognizes the seeker as an ally of the Netherwing.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-barthamus-offer-event",
+    "type": "event",
+    "name": "A choice in the Lower City",
+    "slug": "netherwing-liberation-barthamus-offer",
+    "path": "/events/netherwing-liberation-barthamus-offer",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Barthamus receives the survivor in Shattrath and presents one of six possible Netherwing drake companions.",
+    "sourceIds": [
+      "netherwing-lord-illidan",
+      "netherwing-barthamus"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-blood-oath-event",
+    "type": "event",
+    "name": "An oath for a home",
+    "slug": "netherwing-liberation-blood-oath",
+    "path": "/events/netherwing-liberation-blood-oath",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "At neutral standing, Mordenai asks the ally to help retake Netherwing lands and protect the flight.",
+    "sourceIds": [
+      "netherwing-blood-oath"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-drakes-freed-event",
+    "type": "event",
+    "name": "The crystal’s force",
+    "slug": "netherwing-liberation-drakes-freed",
+    "path": "/events/netherwing-liberation-drakes-freed",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The enchanted crystal is used on enslaved Netherwing drakes; the freed drakes turn on their captors.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-fortress-diversion-event",
+    "type": "event",
+    "name": "A breach to buy time",
+    "slug": "netherwing-liberation-fortress-diversion",
+    "path": "/events/netherwing-liberation-fortress-diversion",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The seeker strikes the Dragonmaw fortress to create a diversion while Neltharaku considers his next step.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-highlord-summons-event",
+    "type": "event",
+    "name": "The summons of the Highlord",
+    "slug": "netherwing-liberation-highlord-summons",
+    "path": "/events/netherwing-liberation-highlord-summons",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "After a reputation-gated interval, Varkule summons the exalted seeker; Mor’ghor names them the first Highlord of the Dragonmaw.",
+    "sourceIds": [
+      "netherwing-faction-index",
+      "netherwing-bow-to-highlord"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-illidan-exposes-event",
+    "type": "event",
+    "name": "The borrowed face is seen through",
+    "slug": "netherwing-liberation-illidan-exposes",
+    "path": "/events/netherwing-liberation-illidan-exposes",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Illidan recognizes the deception at the promotion gathering, immobilizes the player, and orders Mor’ghor to have them killed.",
+    "sourceIds": [
+      "netherwing-lord-illidan"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-karynaku-found-event",
+    "type": "event",
+    "name": "Karynaku above the bailey",
+    "slug": "netherwing-liberation-karynaku-found",
+    "path": "/events/netherwing-liberation-karynaku-found",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "The chain turns from freeing captive drakes to reaching Karynaku, who remains bound at the fortress.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-mordenai-appeal-event",
+    "type": "event",
+    "name": "A kindness in the fields",
+    "slug": "netherwing-liberation-mordenai-appeal",
+    "path": "/events/netherwing-liberation-mordenai-appeal",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Mordenai asks the seeker to aid the disturbed Netherwing drakes. The opening task pairs the gathering of Rocknail prey with feeding the drakes; the scene treats those objectives as one appeal rather than a string of farming actions.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-murkblood-plans-event",
+    "type": "event",
+    "name": "A revolt beneath the ledge",
+    "slug": "netherwing-liberation-murkblood-plans",
+    "path": "/events/netherwing-liberation-murkblood-plans",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "An optional friendly-standing branch leads from escape plans to an interrogation. An unnamed Murkblood overseer describes an attempted mine revolt and makes allegations about Dragonmaw extraction and buyers.",
+    "sourceIds": [
+      "netherwing-murkblood-revolt",
+      "netherwing-seeker-of-truth"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-neltharakus-tale-event",
+    "type": "event",
+    "name": "A flight’s testimony",
+    "slug": "netherwing-liberation-neltharakus-tale",
+    "path": "/events/netherwing-liberation-neltharakus-tale",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Neltharaku tells the seeker of the Dragonmaw’s control over the Netherwing and asks for help.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-nethervine-plan-event",
+    "type": "event",
+    "name": "Crystals from the ledge",
+    "slug": "netherwing-liberation-nethervine-plan",
+    "path": "/events/netherwing-liberation-nethervine-plan",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Neltharaku’s plan turns on crystals gathered from Netherwing Ledge.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-seek-neltharaku-event",
+    "type": "event",
+    "name": "Search above the broken fields",
+    "slug": "netherwing-liberation-seek-neltharaku",
+    "path": "/events/netherwing-liberation-seek-neltharaku",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "After the opening aid, Mordenai directs the seeker to search the skies for Neltharaku.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-service-papers-event",
+    "type": "event",
+    "name": "A mask of Dragonmaw",
+    "slug": "netherwing-liberation-service-papers",
+    "path": "/events/netherwing-liberation-service-papers",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Netherwing magic disguises the seeker as a Dragonmaw recruit; Illidari papers are delivered to Mor’ghor, opening the taskmaster route.",
+    "sourceIds": [
+      "netherwing-in-service",
+      "netherwing-enter-taskmaster"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-yarzill-inside-event",
+    "type": "event",
+    "name": "A friend behind the disguise",
+    "slug": "netherwing-liberation-yarzill-inside",
+    "path": "/events/netherwing-liberation-yarzill-inside",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Yarzill the Merc reveals himself as a Netherwing ally within the Dragonmaw operation.",
+    "sourceIds": [
+      "netherwing-friend-inside"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-yarzill-rescue-event",
+    "type": "event",
+    "name": "Wings beneath the merchant’s cloak",
+    "slug": "netherwing-liberation-yarzill-rescue",
+    "path": "/events/netherwing-liberation-yarzill-rescue",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Yarzill intervenes, reveals a Netherwing drake form, and carries the seeker to Shattrath.",
+    "sourceIds": [
+      "netherwing-lord-illidan"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation-zuluheds-key-event",
+    "type": "event",
+    "name": "The chieftain’s key",
+    "slug": "netherwing-liberation-zuluheds-key",
+    "path": "/events/netherwing-liberation-zuluheds-key",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Zuluhed is defeated, the key is recovered, and Karynaku’s chains are opened.",
+    "sourceIds": [
+      "netherwing-ally-chain"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "new-horde-crosses-to-kalimdor",
     "type": "event",
     "name": "The New Horde Crosses to Kalimdor",
@@ -16878,6 +17553,35 @@
     "description": "Talanji's expedition seeks loa allies against blood trolls whose rituals serve G'huun.",
     "sourceIds": [
       "story-nazmir-guide"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "netherwing-liberation",
+    "type": "storyline",
+    "name": "Netherwing: Rescue, Disguise, and Liberation",
+    "slug": "netherwing-liberation",
+    "path": "/storylines/netherwing-liberation",
+    "eraId": "age-of-adventurers",
+    "eraIds": [
+      "age-of-adventurers"
+    ],
+    "aliases": [],
+    "tags": [],
+    "description": "Mordenai’s appeal leads from kindness in Shadowmoon Valley to the rescue of Karynaku, an oath sworn beneath a borrowed Dragonmaw identity, an optional Murkblood investigation, and a promotion that ends in exposure and escape.",
+    "sourceIds": [
+      "netherwing-ally-chain",
+      "netherwing-faction-index",
+      "netherwing-blood-oath",
+      "netherwing-in-service",
+      "netherwing-enter-taskmaster",
+      "netherwing-friend-inside",
+      "netherwing-murkblood-revolt",
+      "netherwing-seeker-of-truth",
+      "netherwing-bow-to-highlord",
+      "netherwing-lord-illidan",
+      "netherwing-barthamus",
+      "netherwing-shadowmoon-visual-reference"
     ],
     "contentStatus": "research"
   },

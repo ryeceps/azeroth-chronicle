@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T04:05:07.170Z",
+  "generatedAt": "2026-10-03T06:39:49.004Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 416,
-  "totalDurationMs": 11346800,
+  "trackCount": 433,
+  "totalDurationMs": 11900675,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -3756,6 +3756,159 @@
       "sha256": "d17d605036a1be9fcb7d06841e4bcba38a81da5cc33198891bce44c422a21fe2",
       "transcriptSha256": "b30cc82d4f76b6509d360d1610d748b7b3adefb5e4aba9c02d505caf70023c0e",
       "bytes": 420237
+    },
+    {
+      "nodeId": "netherwing-liberation-story-mordenai-appeal",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-mordenai-appeal.mp3",
+      "durationMs": 34400,
+      "sha256": "a549b119fcc7b5f0d47b57250163f606e8b0aa9b2839cde413cb1889918af882",
+      "transcriptSha256": "d974a28a4b5c1d0229626829077b3d2b5bfc215617e9cd7310f69eb9d081128b",
+      "bytes": 413901
+    },
+    {
+      "nodeId": "netherwing-liberation-story-seek-neltharaku",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-seek-neltharaku.mp3",
+      "durationMs": 25875,
+      "sha256": "973f5484a4c3fc50a7bd5a771a0bea404b6f2e197a114840b1052e6f416517c9",
+      "transcriptSha256": "5f51d15f958093505af7cdeb0801cefbecab2650550a71a40317737a71b140aa",
+      "bytes": 311661
+    },
+    {
+      "nodeId": "netherwing-liberation-story-neltharakus-tale",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-neltharakus-tale.mp3",
+      "durationMs": 29025,
+      "sha256": "c8275aeeb4826460faa44842dbabbfb134f5a5440daf287348fa1939dc203c0a",
+      "transcriptSha256": "ecbc4b81766165d81bcdef44f1165ce59e466b3a1b76aa6217e8bd132f14426d",
+      "bytes": 349389
+    },
+    {
+      "nodeId": "netherwing-liberation-story-fortress-diversion",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-fortress-diversion.mp3",
+      "durationMs": 30225,
+      "sha256": "856d496c386e73c2fc7dacc46923d963afee5ef794c4d53f93a519073d7d652e",
+      "transcriptSha256": "8d647b01d656af080e91e1cd295a804b7317d0d36c70b797ea7da90c91e57e6d",
+      "bytes": 363789
+    },
+    {
+      "nodeId": "netherwing-liberation-story-nethervine-plan",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-nethervine-plan.mp3",
+      "durationMs": 29225,
+      "sha256": "885a56bba1c885c7182475f7eb4bd4d22861857ee9a9fc1d8e773e6dd941e6e2",
+      "transcriptSha256": "942289780221460a5587a39af275fc99b231268646f2587eab99d0d3b35be855",
+      "bytes": 351693
+    },
+    {
+      "nodeId": "netherwing-liberation-story-drakes-freed",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-drakes-freed.mp3",
+      "durationMs": 33000,
+      "sha256": "e1c7c6398d74a400eeae0bcb3c5e11717c6bdad6651b4cef0c4d030a0a08ec53",
+      "transcriptSha256": "45f3cf2dad20b189d1bbfd164524d3d6ef2569183d3a08faf0f192cd940879d1",
+      "bytes": 396909
+    },
+    {
+      "nodeId": "netherwing-liberation-story-karynaku-found",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-karynaku-found.mp3",
+      "durationMs": 27575,
+      "sha256": "f2701527eb9da5f8c3fd48b4047cecf149abef8648eaa6bba209d9f88d72d932",
+      "transcriptSha256": "7b8138344977c76b7ad28da4aa67839107af538f8b5b6b1beeb89745dae8cc83",
+      "bytes": 331821
+    },
+    {
+      "nodeId": "netherwing-liberation-story-zuluheds-key",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-zuluheds-key.mp3",
+      "durationMs": 27625,
+      "sha256": "c370fa08bc52920cc79918068c662f034fd3be78253dd2157d8c1353a22335c7",
+      "transcriptSha256": "f2286e519fc5029b4e99c8b45e6387f56c43a08f96a534bd880ae31fd2473163",
+      "bytes": 332685
+    },
+    {
+      "nodeId": "netherwing-liberation-story-ally-declared",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-ally-declared.mp3",
+      "durationMs": 29750,
+      "sha256": "f0775f58b396649dd5e3cad4a4e318f02929c66783bbc48d9975bc6147399071",
+      "transcriptSha256": "37b24452ed45aa44dd36dfba7acc5455d498566789c63d69349c1b192283207d",
+      "bytes": 358029
+    },
+    {
+      "nodeId": "netherwing-liberation-story-blood-oath",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-blood-oath.mp3",
+      "durationMs": 31950,
+      "sha256": "dc761ad25844df43d1f869de9d0f89c58a59af8dacdf59248d3084366dd4d58b",
+      "transcriptSha256": "57748697f0062342068093228e127c0547ab4835d59856c76a783cd730e34f32",
+      "bytes": 384525
+    },
+    {
+      "nodeId": "netherwing-liberation-story-service-papers",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-service-papers.mp3",
+      "durationMs": 31800,
+      "sha256": "49b2a4d36c682eac927012ef3af45922e49955ca64c3c666a9efc1aeda147fb7",
+      "transcriptSha256": "f34c187d59ff7c1647b435251ae6dcc9a6be54c686b46a033f0bcd61bdad5ff5",
+      "bytes": 382509
+    },
+    {
+      "nodeId": "netherwing-liberation-story-yarzill-inside",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-yarzill-inside.mp3",
+      "durationMs": 35250,
+      "sha256": "b045f6d73f7c842d8abbbe0c34a8661c09aa94e9b12dfcc432819db08cb4a2a3",
+      "transcriptSha256": "c71064c23f36de65f5437055b9e1d0ab12c49bf8008c02a8b5922989850d5753",
+      "bytes": 423981
+    },
+    {
+      "nodeId": "netherwing-liberation-story-murkblood-plans",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-murkblood-plans.mp3",
+      "durationMs": 44425,
+      "sha256": "381a43d9fb864983579b36c6626d6c16828ae005c8ba6a409653e94b29005d03",
+      "transcriptSha256": "a7e7033ee83eb878ee1c5913df84286c546fe8d94b9cdae0dbc64deb352de32e",
+      "bytes": 534285
+    },
+    {
+      "nodeId": "netherwing-liberation-story-highlord-summons",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-highlord-summons.mp3",
+      "durationMs": 36650,
+      "sha256": "ee5eecdac03dbd5e7738c729ec64269722ad22208541b8a4e83907236ec17633",
+      "transcriptSha256": "7a9f2a3e08f35e6e0280c1e2d668af2cf10de5a37d5b08cd1a7d27f3e59874c7",
+      "bytes": 440973
+    },
+    {
+      "nodeId": "netherwing-liberation-story-illidan-exposes",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-illidan-exposes.mp3",
+      "durationMs": 36975,
+      "sha256": "2836afb5f4e6558c531102394bbb8a90a798c2cfa283466c0a626c6980bb8db9",
+      "transcriptSha256": "a04a7b3c1c4fa0d2d9599075fa18bf47c3731fe531cfc088ff2832c95569b976",
+      "bytes": 444717
+    },
+    {
+      "nodeId": "netherwing-liberation-story-yarzill-rescue",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-yarzill-rescue.mp3",
+      "durationMs": 35750,
+      "sha256": "2dbb6b9f39615be17394f3f23b7747bc153c9a1351456701ea8f91ce5b0ae5ed",
+      "transcriptSha256": "05daec835e4f2772824bd6d3d4b9f3aaa4b89fb9ca7af5c59d0c762b629fa69f",
+      "bytes": 430029
+    },
+    {
+      "nodeId": "netherwing-liberation-story-barthamus-offer",
+      "guideId": "netherwing-liberation-guide",
+      "assetPath": "audio/guided/netherwing-liberation-guide/netherwing-liberation-story-barthamus-offer.mp3",
+      "durationMs": 34375,
+      "sha256": "ad0ee10eea0e80ac34b7c99c0778cfb3d2d43b27bfb69f0782497fd6960cc373",
+      "transcriptSha256": "6a971deaac824c07fdf7d9808029534ecd8636a66a1899114c18b8acc49a5838",
+      "bytes": 413613
     }
   ]
 }

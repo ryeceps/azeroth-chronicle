@@ -1,0 +1,27 @@
+{
+  "id": "netherwing-liberation-yarzill-rescue-event",
+  "kind": "event",
+  "name": "Wings beneath the merchant’s cloak",
+  "slug": "netherwing-liberation-yarzill-rescue",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "netherwing-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+  },
+  "summary": "Yarzill intervenes, reveals a Netherwing drake form, and carries the seeker to Shattrath.",
+  "locationIds": [
+    "dragonmaw-base-camp-shadowmoon"
+  ],
+  "participantEntityIds": [
+    "yarzill-the-merc",
+    "yarzill-netherwing-form"
+  ],
+  "sourceIds": [
+    "netherwing-lord-illidan"
+  ],
+  "claimIds": [
+    "netherwing-liberation-yarzill-rescue-claim"
+  ],
+  "contentStatus": "research"
+}

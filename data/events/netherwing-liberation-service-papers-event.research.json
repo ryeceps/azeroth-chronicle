@@ -1,0 +1,28 @@
+{
+  "id": "netherwing-liberation-service-papers-event",
+  "kind": "event",
+  "name": "A mask of Dragonmaw",
+  "slug": "netherwing-liberation-service-papers",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "netherwing-story-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade Netherwing quest campaign; exact in-world date unknown"
+  },
+  "summary": "Netherwing magic disguises the seeker as a Dragonmaw recruit; Illidari papers are delivered to Mor’ghor, opening the taskmaster route.",
+  "locationIds": [
+    "dragonmaw-base-camp-shadowmoon"
+  ],
+  "participantEntityIds": [
+    "overlord-morghor",
+    "dragonmaw-overseers"
+  ],
+  "sourceIds": [
+    "netherwing-in-service",
+    "netherwing-enter-taskmaster"
+  ],
+  "claimIds": [
+    "netherwing-liberation-service-papers-claim"
+  ],
+  "contentStatus": "research"
+}
