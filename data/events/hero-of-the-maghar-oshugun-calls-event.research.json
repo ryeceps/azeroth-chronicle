@@ -1,0 +1,27 @@
+{
+  "id": "hero-of-the-maghar-oshugun-calls-event",
+  "kind": "event",
+  "name": "The mountain calls",
+  "slug": "hero-of-the-maghar-oshugun-calls",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "hero-of-the-maghar-theater",
+  "date": {
+    "precision": "unknown",
+    "label": "The Burning Crusade quest arc; exact in-world date unknown"
+  },
+  "summary": "At Oshu'gun, the seeker follows the ancestors' call to its source.",
+  "locationIds": [
+    "oshugun"
+  ],
+  "participantEntityIds": [
+    "ancient-orc-ancestors-maghar",
+    "kure-oshu-gun"
+  ],
+  "sourceIds": [
+    "hero-maghar-spirits-speak"
+  ],
+  "claimIds": [
+    "hero-of-the-maghar-oshugun-calls-claim"
+  ],
+  "contentStatus": "research"
+}
