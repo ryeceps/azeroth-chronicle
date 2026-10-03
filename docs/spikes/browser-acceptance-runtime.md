@@ -36,3 +36,5 @@ Run pnpm test:e2e:smoke for this sample. The unchanged full test inventory remai
 - Final Linux CI execution and timing evidence is linked from [PR #35](https://github.com/ryeceps/azeroth-chronicle/pull/35). Compare the browser step against the 1,733-second Linux baseline, rather than treating Windows timing as a Linux result.
 
 - Routine smoke verification, same Windows CI-mode profile: **6 passed, 2 Linux-only visual skips, 0 retries, 12.1 seconds**. The eight-scenario smoke sample is now the normal CI command; the 54-scenario suite remains available on demand.
+
+- Linux smoke trial 37085989106: six behavior scenarios passed in a 32.4-second run; two visual tests failed because the new project name changed default snapshot paths. An explicit snapshotPathTemplate now preserves the existing era-dossier-linux.png and battle-dossier-linux.png baselines without regenerating them.
