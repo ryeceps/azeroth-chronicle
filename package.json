@@ -20,7 +20,8 @@
     "generate:voiceovers": "node scripts/generate-guided-voiceovers.mjs",
     "generate:data": "node scripts/generate-lore-manifest.mjs",
     "validate:data": "pnpm generate:data && tsx scripts/validate-lore.ts",
-    "check": "pnpm lint && pnpm typecheck && pnpm test && pnpm validate:data"
+    "check": "pnpm lint && pnpm typecheck && pnpm test && pnpm validate:data",
+    "test:e2e:smoke": "playwright test --project=acceptance --grep @smoke"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.8",

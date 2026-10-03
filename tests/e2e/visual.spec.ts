@@ -2,12 +2,12 @@ import { expect, test } from '@playwright/test';
 
 test.skip(process.platform !== 'linux', 'Visual baselines are recorded and compared in Linux CI.');
 
-test('application shell and era dossier visual state', async ({ page }) => {
+test('application shell and era dossier visual state', { tag: '@smoke' }, async ({ page }) => {
   await page.goto('/eras/black-empire');
   await expect(page).toHaveScreenshot('era-dossier.png', { fullPage: true });
 });
 
-test('battle dossier visual state', async ({ page }) => {
+test('battle dossier visual state', { tag: '@smoke' }, async ({ page }) => {
   await page.goto('/battles/elemental-assault-on-black-empire');
   await expect(page).toHaveScreenshot('battle-dossier.png', { fullPage: true });
 });

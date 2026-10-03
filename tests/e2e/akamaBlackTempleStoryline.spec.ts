@@ -1,3 +1,4 @@
+import { captureVisualReview } from './helpers/visualReview';
 import { expect, test, type Page } from '@playwright/test';
 import { mkdirSync, readFileSync } from 'node:fs';
 
@@ -32,7 +33,7 @@ async function expectIllustratedScene(page: Page, index: number, profile: 'deskt
   }
 
   if (reviewIndexes.has(index)) {
-    await page.screenshot({
+    await captureVisualReview(page, {
       path: `output/akama-black-temple-visual-review/${profile}-${String(index + 1).padStart(2, '0')}-${node.id}.png`,
     });
   }
@@ -61,7 +62,7 @@ test('Akama traverses every cited scene with loaded setting, cast, and time-spec
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
 
-  await page.screenshot({ path: 'output/akama-black-temple-visual-review/desktop-final.png' });
+  await captureVisualReview(page, { path: 'output/akama-black-temple-visual-review/desktop-final.png' });
   await page.getByRole('button', { name: 'Finish this storyline' }).click();
   await expect(page).toHaveURL(/storylines\/akama-and-black-temple$/);
   await expect(page.getByRole('heading', { level: 1, name: 'Akama and the Black Temple' })).toBeVisible();
@@ -87,7 +88,7 @@ test('Akama keeps the full scene and cast visible at phone width', async ({ page
   const deathswornLabel = page.locator('.map-character-figure span, .map-subject-visual span', { hasText: 'Ashtongue Deathsworn' });
   await expect(deathswornLabel).toBeVisible();
   await expect(deathswornLabel).not.toHaveCSS('text-overflow', 'ellipsis');
-  await page.screenshot({ path: 'output/akama-black-temple-visual-review/phone-final.png' });
+  await captureVisualReview(page, { path: 'output/akama-black-temple-visual-review/phone-final.png' });
   await page.getByRole('button', { name: 'Leave tour' }).click();
   await expect(page).toHaveURL(/storylines\/akama-and-black-temple$/);
 });

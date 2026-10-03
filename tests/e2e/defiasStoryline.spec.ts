@@ -1,3 +1,4 @@
+import { captureVisualReview, visualReviewEnabled } from './helpers/visualReview';
 import { expect, test, type Page } from '@playwright/test';
 import { mkdirSync, readFileSync } from 'node:fs';
 
@@ -25,8 +26,8 @@ async function expectIllustratedScene(page: Page, index: number, profile: 'deskt
   await expect(page.locator('.map-character-figure, .map-subject-visual'))
     .toHaveCount(node.entityIds.length);
 
-  if (!process.env.CI) {
-    await page.screenshot({
+  if (visualReviewEnabled) {
+    await captureVisualReview(page, {
       path: `output/defias-visual-review/${profile}-${String(index + 1).padStart(2, '0')}-${node.id}.png`,
     });
   }
@@ -53,7 +54,7 @@ test('Defias traverses all cited scenes and returns to its text-first story page
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
 
-  await page.screenshot({ path: 'output/defias-visual-review/desktop-final.png' });
+  await captureVisualReview(page, { path: 'output/defias-visual-review/desktop-final.png' });
   await page.getByRole('button', { name: 'Finish this storyline' }).click();
   await expect(page).toHaveURL(/storylines\/defias-original-conspiracy$/);
   expect(pageErrors).toEqual([]);
@@ -75,7 +76,7 @@ test('Defias keeps every illustrated scene visible at phone width', async ({ pag
   }
 
   expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(1);
-  await page.screenshot({ path: 'output/defias-visual-review/phone-final.png' });
+  await captureVisualReview(page, { path: 'output/defias-visual-review/phone-final.png' });
   await page.getByRole('button', { name: 'Leave tour' }).click();
   await expect(page).toHaveURL(/storylines\/defias-original-conspiracy$/);
 });

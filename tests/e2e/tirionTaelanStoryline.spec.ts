@@ -1,3 +1,4 @@
+import { captureVisualReview, visualReviewEnabled } from './helpers/visualReview';
 import { expect, test, type Page } from '@playwright/test';
 import { mkdirSync, readFileSync } from 'node:fs';
 
@@ -22,11 +23,11 @@ async function expectIllustratedScene(page: Page, title: string, index: number, 
   })), { message: `Environment, cast and object images load for ${title}` }).toBe(true);
   await expect(page.locator('.map-character-figure, .map-subject-visual')).toHaveCount(story.nodes[index]!.entityIds.length);
 
-  if (!process.env.CI && [0, 6, 13].includes(index)) {
+  if (visualReviewEnabled && [0, 6, 13].includes(index)) {
     const filename = index === 0 ? 'desktop-thondroril-hermit.png'
       : index === 6 ? 'desktop-family-portrait.png' : 'desktop-silver-hand-oath.png';
     const profileFilename = profile === 'desktop' ? filename : filename.replace('desktop-', 'phone-');
-    await page.screenshot({ path: `output/tirion-taelan-visual-review/${profileFilename}` });
+    await captureVisualReview(page, { path: `output/tirion-taelan-visual-review/${profileFilename}` });
   }
 }
 

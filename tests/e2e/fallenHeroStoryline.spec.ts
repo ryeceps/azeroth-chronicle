@@ -1,3 +1,4 @@
+import { captureVisualReview, visualReviewEnabled } from './helpers/visualReview';
 import { expect, test, type Page } from '@playwright/test';
 import { mkdirSync, readFileSync } from 'node:fs';
 
@@ -22,8 +23,8 @@ async function expectIllustratedScene(page: Page, title: string, index: number, 
   })), { message: 'Environment, cast and object images load for ' + title }).toBe(true);
   await expect(page.locator('.map-character-figure, .map-subject-visual')).toHaveCount(story.nodes[index]!.entityIds.length);
 
-  if (!process.env.CI) {
-    await page.screenshot({
+  if (visualReviewEnabled) {
+    await captureVisualReview(page, {
       path: 'output/fallen-hero-visual-review/' + profile + '-'
         + String(index + 1).padStart(2, '0') + '-' + story.nodes[index]!.id + '.png',
     });
@@ -53,7 +54,7 @@ test('Fallen Hero traverses all 15 Classic scenes with their area, cast and obje
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
 
-  await page.screenshot({ path: 'output/fallen-hero-visual-review/desktop-final.png' });
+  await captureVisualReview(page, { path: 'output/fallen-hero-visual-review/desktop-final.png' });
   await page.getByRole('button', { name: 'Finish this storyline' }).click();
   await expect(page).toHaveURL(/storylines\/fallen-hero-and-rakhlikh$/);
   expect(pageErrors).toEqual([]);
@@ -75,7 +76,7 @@ test('Fallen Hero scenes and figures fit at phone width', async ({ page }) => {
   }
 
   expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(1);
-  await page.screenshot({ path: 'output/fallen-hero-visual-review/phone-final.png' });
+  await captureVisualReview(page, { path: 'output/fallen-hero-visual-review/phone-final.png' });
   await page.getByRole('button', { name: 'Leave tour' }).click();
   await expect(page).toHaveURL(/storylines\/fallen-hero-and-rakhlikh$/);
 });

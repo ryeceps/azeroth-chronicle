@@ -1,3 +1,4 @@
+import { captureVisualReview } from './helpers/visualReview';
 import { expect, test } from '@playwright/test';
 import { mkdirSync, readFileSync } from 'node:fs';
 
@@ -51,7 +52,7 @@ test('Cipher guide traverses every scene with loaded area, figure, and object ar
         }, asset)).toBeGreaterThan(256);
       }
 
-      await page.screenshot({
+      await captureVisualReview(page, {
         path: `output/cipher-visual-review/${device}/${String(index + 1).padStart(2, '0')}-${node.id.slice(storyId.length + 7)}.png`,
         fullPage: true,
       });

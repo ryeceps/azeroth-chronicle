@@ -1,3 +1,4 @@
+import { captureVisualReview } from './helpers/visualReview';
 import { expect, test, type Page } from '@playwright/test';
 import { mkdirSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -27,7 +28,8 @@ async function expectIllustratedScene(page: Page, node: (typeof story.nodes)[num
 }
 
 async function expectFiguresFit(page: Page, title: string) {
-  const issues = await page.locator(visualSelector).evaluateAll(elements => elements.flatMap((element, index) => {
+  // Collision layout settles after image decode and projected camera updates.
+  await expect.poll(() => page.locator(visualSelector).evaluateAll(elements => elements.flatMap((element, index) => {
     const box = element.getBoundingClientRect();
     const label = element.querySelector('span')?.getBoundingClientRect();
     const name = element.getAttribute('aria-label') ?? element.textContent?.trim() ?? `figure ${index + 1}`;
@@ -51,8 +53,7 @@ async function expectFiguresFit(page: Page, title: string) {
       outside,
       overlaps,
     }] : [];
-  }));
-  expect(issues, 'Figures fit without material overlap in ' + title + ': ' + JSON.stringify(issues)).toEqual([]);
+  })), { message: 'Figures fit without material overlap in ' + title }).toEqual([]);
 }
 
 async function captureUniqueScene(page: Page, prefix: string, node: (typeof story.nodes)[number], index: number, captured: Set<string>) {
@@ -61,7 +62,7 @@ async function captureUniqueScene(page: Page, prefix: string, node: (typeof stor
   captured.add(mapStateId);
   const folder = resolve('output/quel-delar-visual-review');
   mkdirSync(folder, { recursive: true });
-  await page.screenshot({ path: resolve(folder, prefix + '-' + String(index + 1).padStart(2, '0') + '-' + mapStateId.replace('quel-delar-restored-', '').replace('-scene', '') + '.png'), fullPage: true });
+  await captureVisualReview(page, { path: resolve(folder, prefix + '-' + String(index + 1).padStart(2, '0') + '-' + mapStateId.replace('quel-delar-restored-', '').replace('-scene', '') + '.png'), fullPage: true });
 }
 
 test('Quel’Delar plays all nineteen illustrated scenes and returns to its dossier', async ({ page }) => {
@@ -80,7 +81,7 @@ test('Quel’Delar plays all nineteen illustrated scenes and returns to its doss
     await captureUniqueScene(page, 'desktop', node, index, capturedScenes);
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
-  await page.screenshot({ path: resolve('output/quel-delar-visual-review/desktop-final-dalaran-return.png'), fullPage: true });
+  await captureVisualReview(page, { path: resolve('output/quel-delar-visual-review/desktop-final-dalaran-return.png'), fullPage: true });
   await page.getByRole('button', { name: 'Finish this storyline' }).click();
   await expect(page).toHaveURL(/storylines\/quel-delar-restored$/);
   await expect(page.getByRole('heading', { level: 1, name: 'Quel’Delar: The Broken Blade Restored' })).toBeVisible();
@@ -102,7 +103,7 @@ test('Quel’Delar direct links and every illustrated scene fit a phone viewport
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
   expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(1);
-  await page.screenshot({ path: resolve('output/quel-delar-visual-review/phone-final-dalaran-return.png'), fullPage: true });
+  await captureVisualReview(page, { path: resolve('output/quel-delar-visual-review/phone-final-dalaran-return.png'), fullPage: true });
   await page.getByRole('button', { name: 'Leave tour' }).click();
   await expect(page).toHaveURL(/storylines\/quel-delar-restored$/);
 });

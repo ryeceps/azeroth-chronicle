@@ -1,3 +1,4 @@
+import { captureVisualReview, visualReviewEnabled } from './helpers/visualReview';
 import { expect, test, type Page } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 
@@ -15,8 +16,8 @@ async function expectIllustratedScene(page: Page, title: string, index: number, 
   })), { message: `Environment and illustrated cast actually load in ${title}` }).toBe(true);
   // Full local contact sheets support human visual review. CI still verifies every
   // image and scene, but repeated large WebGL captures can exhaust its CPU budget.
-  if (!process.env.CI) {
-    await page.screenshot({ path: `output/scepter-visual-review/${profile}-${String(index + 1).padStart(2, '0')}.png` });
+  if (visualReviewEnabled) {
+    await captureVisualReview(page, { path: `output/scepter-visual-review/${profile}-${String(index + 1).padStart(2, '0')}.png` });
   }
 }
 
@@ -36,7 +37,7 @@ test('Scepter playback traverses every scene and returns to its reading page', a
     await expectIllustratedScene(page, node.title, index, 'desktop');
     if (index === 2) {
       await expect(page.locator('.map-character-figure')).toHaveCount(4);
-      await page.screenshot({ path: 'output/scepter-desktop.png' });
+      await captureVisualReview(page, { path: 'output/scepter-desktop.png' });
     }
     if (index < scepter.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
@@ -76,11 +77,11 @@ test('Scepter direct links preserve context and reject unknown or mismatched sto
         return clear && box.x >= 0 && box.x + box.width <= window.innerWidth && box.y >= 0 && box.y + box.height <= window.innerHeight;
       })), { message: `All cast representations fit in ${node.title}` }).toBe(true);
     await expectIllustratedScene(page, node.title, index, 'phone');
-    if (index === 2) await page.screenshot({ path: 'output/scepter-phone-cast.png' });
+    if (index === 2) await captureVisualReview(page, { path: 'output/scepter-phone-cast.png' });
     if (index < scepter.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
   expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(1);
-  await page.screenshot({ path: 'output/scepter-phone.png' });
+  await captureVisualReview(page, { path: 'output/scepter-phone.png' });
   await page.getByRole('button', { name: 'Leave tour' }).click();
   await expect(page).toHaveURL(/storylines\/scepter-of-the-shifting-sands$/);
   for (const query of ['era=black-empire&storyline=scepter-of-the-shifting-sands', 'era=age-of-adventurers&storyline=unknown']) {

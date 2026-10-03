@@ -1,3 +1,4 @@
+import { captureVisualReview } from './helpers/visualReview';
 import { expect, test } from '@playwright/test';
 import { mkdirSync, readFileSync } from 'node:fs';
 
@@ -58,7 +59,7 @@ test('Missing Diplomat traverses every illustrated scene on desktop and phone', 
         }, asset)).toBeGreaterThan(256);
       }
 
-      await page.screenshot({
+      await captureVisualReview(page, {
         path: `output/missing-diplomat-visual-review/${device}/${String(index + 1).padStart(2, '0')}-${node.id.slice(storylineId.length + 7)}.png`,
         fullPage: true,
       });

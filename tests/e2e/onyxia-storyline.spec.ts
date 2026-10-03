@@ -1,3 +1,4 @@
+import { captureVisualReview, visualReviewEnabled } from './helpers/visualReview';
 import { expect, test, type Page } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 
@@ -14,8 +15,8 @@ async function expectIllustratedScene(page: Page, title: string, index: number, 
     return image.complete && image.naturalWidth >= 512 && image.naturalHeight >= 512
       && !image.currentSrc.endsWith('.svg');
   })), { message: `Environment and cast images load in ${title}` }).toBe(true);
-  if (!process.env.CI) {
-    await page.screenshot({ path: `output/onyxia-visual-review/${profile}-${String(index + 1).padStart(2, '0')}.png` });
+  if (visualReviewEnabled) {
+    await captureVisualReview(page, { path: `output/onyxia-visual-review/${profile}-${String(index + 1).padStart(2, '0')}.png` });
   }
 }
 
@@ -35,7 +36,7 @@ test('Onyxia storyline traverses every cited scene and returns to its reading pa
     await expect(page.locator('.map-character-figure, .map-subject-visual')).toHaveCount(node.entityIds.length);
     await expectIllustratedScene(page, node.title, index, 'desktop');
     if ([1, 7, 16, 20].includes(index)) {
-      await page.screenshot({ path: `output/onyxia-visual-review/desktop-${node.id}.png` });
+      await captureVisualReview(page, { path: `output/onyxia-visual-review/desktop-${node.id}.png` });
     }
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
@@ -58,12 +59,12 @@ test('Onyxia direct playback fits phone scenes and keeps faction casts distinct'
     await expect(page.locator('.map-character-figure, .map-subject-visual')).toHaveCount(node.entityIds.length);
     await expectIllustratedScene(page, node.title, index, 'phone');
     if ([1, 7, 16, 20].includes(index)) {
-      await page.screenshot({ path: `output/onyxia-visual-review/phone-${node.id}.png` });
+      await captureVisualReview(page, { path: `output/onyxia-visual-review/phone-${node.id}.png` });
     }
     if (index < story.nodes.length - 1) await page.getByRole('button', { name: 'Next', exact: true }).click();
   }
   expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(1);
-  await page.screenshot({ path: 'output/onyxia-visual-review/phone-final.png' });
+  await captureVisualReview(page, { path: 'output/onyxia-visual-review/phone-final.png' });
   await page.getByRole('button', { name: 'Leave tour' }).click();
   await expect(page).toHaveURL(/storylines\/stormwind-onyxia-conspiracy$/);
 });

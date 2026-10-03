@@ -1,3 +1,4 @@
+import { captureVisualReview, visualReviewEnabled } from './helpers/visualReview';
 import { expect, test, type Page } from '@playwright/test';
 import { mkdirSync, readFileSync } from 'node:fs';
 
@@ -33,10 +34,10 @@ async function expectIllustratedScene(page: Page, title: string, index: number, 
     });
   }), { message: `Every story actor and object remains in the visible map frame for ${title}` }).toBe(true);
 
-  if (!process.env.CI && [0, 13, 20].includes(index)) {
+  if (visualReviewEnabled && [0, 13, 20].includes(index)) {
     const filename = index === 0 ? 'annals-date-conflict'
       : index === 13 ? 'hearthglen-libram' : 'family-homecoming';
-    await page.screenshot({ path: `output/darrowshire-visual-review/${profile}-${filename}.png` });
+    await captureVisualReview(page, { path: `output/darrowshire-visual-review/${profile}-${filename}.png` });
   }
 }
 
