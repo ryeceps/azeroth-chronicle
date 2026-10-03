@@ -1,0 +1,28 @@
+{
+  "id": "ras-frostwhisper-and-the-soulbound-keepsake-back-to-marduke-event",
+  "kind": "event",
+  "name": "Back to Marduke",
+  "slug": "ras-frostwhisper-and-the-soulbound-keepsake-back-to-marduke-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "azeroth",
+  "date": {
+    "precision": "unknown",
+    "label": "Classic quest sequence; in-world date unknown"
+  },
+  "summary": "Quest 5465 directs the seeker to return the Soulbound Keepsake to Magistrate Marduke, who is to instruct them in its use.",
+  "description": "The transformed object returns to Caer Darrow. Marduke receives the Soulbound Keepsake and says he will instruct the seeker in its use. The surviving quest text does not preserve those instructions here, so the story takes its action from the next objective instead of supplying ritual details. The course is now set toward Scholomance and the lich whose mortal memory the object carries.",
+  "locationIds": [
+    "ras-frostwhisper-and-the-soulbound-keepsake-caer-darrow"
+  ],
+  "participantEntityIds": [
+    "magistrate-marduke",
+    "keepsake-of-remembrance"
+  ],
+  "sourceIds": [
+    "ras-frostwhisper-and-the-soulbound-keepsake-quest-5465"
+  ],
+  "claimIds": [
+    "ras-frostwhisper-and-the-soulbound-keepsake-back-to-marduke-claim"
+  ],
+  "contentStatus": "research"
+}

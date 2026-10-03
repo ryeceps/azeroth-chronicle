@@ -477,7 +477,8 @@ function AtlasScene({
           {entity.mapVisual && (
             <ContextualSubjectVisual immersive={immersive} readOnly={readOnly} entity={entity} onSelect={() => select({ kind: 'entity', id: entity.id })} />
           )}
-          {layers.labels && !entity.mapFigure && !entity.mapVisual && (
+          {/* Relational story theaters use illustrative staging anchors, not exact geography labels. */}
+          {layers.labels && !(immersive && presentation === 'relational') && !entity.mapFigure && !entity.mapVisual && (
             <Html center position={[0, 0.38, 0]} distanceFactor={7}>
               {readOnly
                 ? <span className="map-label">{entity.name}</span>

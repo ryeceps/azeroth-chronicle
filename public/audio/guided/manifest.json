@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T23:42:42.092Z",
+  "generatedAt": "2026-10-03T02:15:10.985Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 394,
-  "totalDurationMs": 10692725,
+  "trackCount": 407,
+  "totalDurationMs": 11061650,
   "tracks": [
     {
       "nodeId": "adventurers-story-gates",
@@ -3558,6 +3558,123 @@
       "sha256": "a415b790afeee36a2f382e212a4a90d72bd629a6683111ba13ee76626172b885",
       "transcriptSha256": "ca651a710d0112f7e13c6cdfbfa28d81ddfb812e1d3ea7f947e1d2bbf99bd53d",
       "bytes": 300141
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-an-unseen-magistrate",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-an-unseen-magistrate.mp3",
+      "durationMs": 30500,
+      "sha256": "48fb1f130ce161be59fa6f2bf2fd8860f0071463bcf41fb59e2953f1ccb7d74e",
+      "transcriptSha256": "328562cd407c1d82e0d6b57e1341abf2b4d0e34d3eda1ec92920dab3f962af06",
+      "bytes": 366957
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-ruined-home",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-the-ruined-home.mp3",
+      "durationMs": 26700,
+      "sha256": "213fd7ce03648a4d2165c57e168ccdd4c801a4d29a5a336a293205ad8c6decbd",
+      "transcriptSha256": "ed7d61d15386cf3c83637143b3f448f827895f2058531d39e013dfd2ad7f5551",
+      "bytes": 321453
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-token-from-life",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-a-token-from-life.mp3",
+      "durationMs": 27525,
+      "sha256": "7df32dbda87f6690f41d1e12221d367c9cdf8d19dc1dd2b2f32f4bd32185ef0e",
+      "transcriptSha256": "19754c190772411d632be226825fced27cb5afe596e0d68a9351eae8abd3bc90",
+      "bytes": 331245
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-rumor-at-lights-hope",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-a-rumor-at-lights-hope.mp3",
+      "durationMs": 26675,
+      "sha256": "02a73c6fec26ecf70a1fd988ca2191aa33b10f99cee1c6057ef7b9a85e5acf9d",
+      "transcriptSha256": "f1330f03b74bca1decb753e591dc743eff51a0b48f4813fdb854327a150f763d",
+      "bytes": 321165
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-leonids-memory",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-leonids-memory.mp3",
+      "durationMs": 29425,
+      "sha256": "ac11070f6f905293340cb610823b2b31d77a31f86e3f73aee7ce7428762c65b9",
+      "transcriptSha256": "c8f3412b43daedb58768acd1ef50e60faa4bd464ef67a463ba43b03c2512ec3f",
+      "bytes": 354285
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-name-for-the-ground",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-a-name-for-the-ground.mp3",
+      "durationMs": 32350,
+      "sha256": "db8bd735a753201e4ea735624ff56ad61eb109de20a1a4d326b00dfbb8192dca",
+      "transcriptSha256": "17c17ec2776883265503fe8e5a413c9dda40db5ca5c07dfa277f465fbffe2070",
+      "bytes": 389133
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-soulbound-keepsake",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-the-soulbound-keepsake.mp3",
+      "durationMs": 28600,
+      "sha256": "54bd71834ff53b7e246e778b991cc44180f66296156b1d839f170bd23e3f4641",
+      "transcriptSha256": "d7a521c96b93cc483cf92922b19a2fe77a9cd4b617ea51a707f4d956460bb3f8",
+      "bytes": 344205
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-leonid-explains-the-bond",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-leonid-explains-the-bond.mp3",
+      "durationMs": 27750,
+      "sha256": "254d6e10d48f23bd526bee88be6de871179f5be317dc11d6b71e4c4ed67294b1",
+      "transcriptSha256": "f4e56c39f542d57c9de5c2a8b27b7f53395bea0824154476477a29a4c6839791",
+      "bytes": 334125
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-back-to-marduke",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-back-to-marduke.mp3",
+      "durationMs": 28875,
+      "sha256": "833abd89ae132723d40077de3a2607e53f0600114b5a3a79285d8705c20a6c76",
+      "transcriptSha256": "347feeb94a656e119d88919b68ca5e96d3fd0816c745d713e9000271e97bdb39",
+      "bytes": 347661
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-lich-in-scholomance",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-the-lich-in-scholomance.mp3",
+      "durationMs": 28025,
+      "sha256": "24438b5f3f52ed9cb55fe565884e05f9bfcf96effcc0aca6698d18327df9457e",
+      "transcriptSha256": "602a62732bae058a4b825068d2e216597f85b1415121cc9585f3381390dab6bb",
+      "bytes": 337293
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-mortal-again-for-a-moment",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-mortal-again-for-a-moment.mp3",
+      "durationMs": 25400,
+      "sha256": "11d9516aecd983d98e86a331ca3f83d119a167e1756ceb41fab71f4451e06985",
+      "transcriptSha256": "b80769b0bc0cadc1546f8b577e91f9c3a492724124cb1acacf0ae4911df05e65",
+      "bytes": 305901
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-head-returned",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-the-head-returned.mp3",
+      "durationMs": 28375,
+      "sha256": "29eb3150fdac479e6df771c6640ad5a99387fc595e34568201368151efbc2141",
+      "transcriptSha256": "2cbdfc5961f7c2c5776133d3109c29ceb48ea01db2827af96f78dab7ce7089a9",
+      "bytes": 341613
+    },
+    {
+      "nodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-mardukes-accounting",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-mardukes-accounting.mp3",
+      "durationMs": 28725,
+      "sha256": "128c9efca9c1a3de5311f7464f1ba1f0e0d6a0c97aa3bd1260fae46f5d63a584",
+      "transcriptSha256": "407cb543c88a1caa9a38d159b979de4c4c0c0cf973009a5db9829eea90891f7d",
+      "bytes": 345645
     }
   ]
 }

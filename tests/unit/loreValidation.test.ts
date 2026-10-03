@@ -634,7 +634,7 @@ describe('lore dataset', () => {
     expect(era.order).toBe(8);
     expect(era.previousEraId).toBe('third-war-frozen-throne');
     expect(era.nextEraId).toBe('modern-cosmic-age');
-    expect(events).toHaveLength(274);
+    expect(events).toHaveLength(287);
     expect(events.filter((event) => event.id.startsWith('onyxia-'))).toHaveLength(21);
     expect(events.filter((event) => event.id.startsWith('dungeon-set-two-'))).toHaveLength(22);
     expect(events.filter((event) => event.id.startsWith('fallen-hero-and-rakhlikh-'))).toHaveLength(15);
@@ -849,8 +849,8 @@ describe('lore dataset', () => {
     expect(story.reviewNote).toMatch(/not proven to be the same/i);
     expect(entry.order).toBe(8);
     expect(entry.regionIds).toEqual(['kalimdor', 'eastern-kingdoms']);
-    expect(tour.entries).toHaveLength(15);
-    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(10);
+    expect(tour.entries).toHaveLength(16);
+    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(11);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
     expect(ledger.nodeVisuals).toHaveLength(nodes.length);
     expect(ledger.assets).toHaveLength(24);
@@ -878,7 +878,7 @@ describe('lore dataset', () => {
   it('keeps the Scepter storyline connected to its actual eras and source leads', () => {
     const data = loadDataset();
     const scepter = data.storylines.find((item) => item.id === 'scepter-of-the-shifting-sands')!;
-    expect(data.storylines).toHaveLength(31);
+    expect(data.storylines).toHaveLength(32);
     expect(data.storylines.find((item) => item.id === 'fallen-hero-and-rakhlikh')?.contentStatus).toBe('research');
     expect(data.storylines.find((item) => item.id === 'akama-and-black-temple')?.contentStatus).toBe('research');
     expect(data.storylines.find((item) => item.id === 'suramar-nightwell-rebellion')?.eraIds)
@@ -924,7 +924,7 @@ describe('lore dataset', () => {
     expect(data.entities.find((item) => item.id === 'taelans-miniature-warhammer')?.mapVisual?.asset)
       .toBe('images/storylines/tirion-taelan/taelans-miniature-warhammer.research.webp');
     expect(entry.order).toBe(5);
-    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(10);
+    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(11);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId)
       .not.toBe(guide.id);
     expect(medivh.mapFigure?.asset).toBe('images/characters/rise-of-the-horde/medivh-atiesh.research.webp');
@@ -965,7 +965,7 @@ describe('lore dataset', () => {
     expect(story.reviewNote).toMatch(/permanent timeline consequences remain uncertain/i);
     expect(entry.order).toBe(6);
     expect(entry.regionIds).toEqual(['eastern-kingdoms']);
-    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(10);
+    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(11);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
     expect(visualLedger.sceneLedger).toHaveLength(nodes.length);
     for (const scene of visualLedger.sceneLedger) {
@@ -1003,9 +1003,9 @@ describe('lore dataset', () => {
     expect(guide.nodeIds).toHaveLength(19);
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
       && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
-    expect(entry.order).toBe(15);
+    expect(entry.order).toBe(16);
     expect(entry.regionIds).toEqual(['northrend', 'eastern-kingdoms']);
-    expect(tour.entries).toHaveLength(15);
+    expect(tour.entries).toHaveLength(16);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
     expect(nodes.find((node) => node.id.endsWith('story-thalorien-last-stand'))?.eventIds?.map(id =>
       data.events.find((event) => event.id === id)?.eraId)).toEqual(['third-war-frozen-throne']);
@@ -1048,10 +1048,10 @@ describe('lore dataset', () => {
     expect(guide.nodeIds).toHaveLength(24);
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length
       && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
-    expect(entry.order).toBe(13);
+    expect(entry.order).toBe(14);
     expect(entry.regionIds).toEqual(['eastern-kingdoms', 'kalimdor']);
-    expect(tour.entries.find((item) => item.storylineId === 'wrathgate-and-undercity')?.order).toBe(14);
-    expect(tour.entries.find((item) => item.storylineId === 'quel-delar-restored')?.order).toBe(15);
+    expect(tour.entries.find((item) => item.storylineId === 'wrathgate-and-undercity')?.order).toBe(15);
+    expect(tour.entries.find((item) => item.storylineId === 'quel-delar-restored')?.order).toBe(16);
     expect(tour.chronologyNote).toMatch(/patch 2\.3 continuation.*cross-story quest dependency/i);
     expect(story.reviewNote).toMatch(/Varian.*missing.*patron.*unnamed/i);
     expect(story.reviewNote).toMatch(/original-client comparison.*open/i);
@@ -1078,6 +1078,59 @@ describe('lore dataset', () => {
     }
   });
 
+  it('keeps Ras Frostwhisper illustrated, attributed, voice-ready and separate from EraTour', () => {
+    const data = loadDataset();
+    const story = data.storylines.find((item) => item.id === 'ras-frostwhisper-and-the-soulbound-keepsake')!;
+    const guide = data.storyGuides.find((item) => item.id === story.storyGuideId)!;
+    const nodes = guide.nodeIds.map((id) => data.storyNodes.find((node) => node.id === id)!);
+    const tour = data.storyTours.find((item) => item.slug === 'classic-to-wrath')!;
+    const entry = tour.entries.find((item) => item.storylineId === story.id)!;
+    const ledger = JSON.parse(readFileSync(resolve('docs/research/ras-frostwhisper-visual-assets.json'), 'utf8')) as {
+      sceneLedger: { nodeId: string; environmentPath: string; recognizableTraits: string; cast: { id: string; image: string }[]; objects: { id: string; image: string }[]; claimIds: string[]; citationIds: string[] }[];
+      assetRecords: { file: string; byteLength: number; sha256: string }[];
+    };
+
+    expect(story.contentStatus).toBe('research');
+    expect(story.showInEraTourOffshoots).toBe(false);
+    expect(guide.contentStatus).toBe('research');
+    expect(guide.nodeIds).toHaveLength(13);
+    expect(nodes.every((node) => node.eventIds?.length === 1
+      && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
+    expect(entry.order).toBe(10);
+    expect(entry.regionIds).toEqual(['eastern-kingdoms']);
+    expect(tour.entries).toHaveLength(16);
+    expect(tour.entries.find((item) => item.storylineId === 'yehkinya-and-hakkars-return')?.order).toBe(9);
+    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(11);
+    expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
+    expect(ledger.sceneLedger).toHaveLength(nodes.length);
+
+    for (const [index, node] of nodes.entries()) {
+      const scene = ledger.sceneLedger[index]!;
+      expect(scene.nodeId).toBe(node.id);
+      expect(scene.recognizableTraits.length).toBeGreaterThan(20);
+      expect(existsSync(resolve(scene.environmentPath))).toBe(true);
+      const visualIds = [...scene.cast, ...scene.objects].map((visual) => visual.id);
+      expect(visualIds).toEqual(node.entityIds);
+      for (const visual of [...scene.cast, ...scene.objects]) expect(existsSync(resolve(visual.image))).toBe(true);
+      const mapStateId = node.visualActions?.find((action) => action.type === 'set_map_state');
+      expect(mapStateId?.type).toBe('set_map_state');
+      const mapState = data.mapStates.find((item) => item.id === mapStateId?.mapStateId)!;
+      expect(mapState.terrainTextureAsset).toBe(scene.environmentPath.replace(/^public\//, ''));
+      const event = data.events.find((item) => item.id === node.eventIds?.[0])!;
+      const claim = data.claims.find((item) => item.id === event.claimIds?.[0])!;
+      expect(event.contentStatus).toBe('research');
+      expect(claim.citationIds.length).toBeGreaterThan(0);
+      expect(claim.citationIds).toEqual(scene.citationIds);
+      expect(claim.citationIds.every((id) => data.citations.some((citation) => citation.id === id))).toBe(true);
+      expect(claim.citationIds.every((id) => data.sources.some((source) => source.id === data.citations.find((citation) => citation.id === id)?.sourceId))).toBe(true);
+    }
+    for (const asset of ledger.assetRecords) {
+      const bytes = readFileSync(resolve(asset.file));
+      expect(bytes.length).toBe(asset.byteLength);
+      expect(createHash('sha256').update(bytes).digest('hex')).toBe(asset.sha256);
+    }
+  });
+
   it('keeps Yeh’kinya’s Classic storyline illustrated, attributed and separate from EraTour', () => {
     const data = loadDataset();
     const story = data.storylines.find((item) => item.id === 'yehkinya-and-hakkars-return')!;
@@ -1093,8 +1146,8 @@ describe('lore dataset', () => {
     expect(nodes.every((node) => node.eventIds?.length === 1 && node.entityIds?.length && node.voiceover?.assetPath && node.visualActions?.some((action) => action.type === 'set_map_state'))).toBe(true);
     expect(entry.order).toBe(9);
     expect(entry.regionIds).toEqual(['kalimdor', 'eastern-kingdoms']);
-    expect(tour.entries).toHaveLength(15);
-    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(10);
+    expect(tour.entries).toHaveLength(16);
+    expect(tour.entries.find((item) => item.storylineId === 'karazhan-masters-key-and-nightbane')?.order).toBe(11);
     expect(data.eras.find((item) => item.id === 'age-of-adventurers')?.storyGuideId).not.toBe(guide.id);
     expect(nodes[7]?.narration).toMatch(/avatar of Hakkar/);
     expect(nodes[7]?.narration).toMatch(/later physical manifestation/);

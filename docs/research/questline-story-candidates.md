@@ -53,7 +53,6 @@ This is the focused questline selection within the broader [master lore backlog]
 
 ### 04. The Fallen Hero and Rakh'likh
 
-
 **Implementation:** Complete 15-scene illustrated research story with two explicitly separate faction openings, source/claim ledger, Classic area-specific environment and cast art, and a Classic-to-Wrath StoryTour map marker. The eighteen-stone/nineteen-soldier discrepancy remains open. See the [production ledger](fallen-hero-and-rakhlikh-production.md) and [visual asset ledger](fallen-hero-and-rakhlikh-visual-assets.json). Original-client comparison, source review, matching-build area/model comparison, and voice audition remain human gates.
 
 ### 05. Tirion and Taelan: Of Love and Family
@@ -68,7 +67,6 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Implementation:** Complete 14-scene illustrated Classic research story with 14 transcript-matched AI voice tracks, event/claim/citation records, two separately cited quests titled Of Love and Family, recognizable Eastern and Western Plaguelands environments, principal cast and recovered keepsakes, and a fifth Classic marker in the Classic-to-Wrath StoryTour. The chain ends at the In Dreams vow; exact novella pages, original-client comparison, relative Classic placement, matching-build area/model/art review, and voice audition remain open. See the [production ledger](tirion-taelan-of-love-and-family-production.md) and [visual asset ledger](tirion-taelan-of-love-and-family-visual-assets.json).
 
-
 ### 06. Darrowshire: Pamela and a village's memory
 
 **ID:** `darrowshire-lost-and-remembered` · **B** · **Reach:** Plaguelands, multiple witnesses and relic sites.
@@ -78,7 +76,6 @@ This is the focused questline selection within the broader [master lore backlog]
 **Anchors:** Pamela's Doll; Annals of Darrowshire; Heroes/Villains of Darrowshire; The Battle of Darrowshire. **Sources:** [battle locator](https://warcraft.wiki.gg/wiki/Battle_of_Darrowshire); [quest event](https://warcraft.wiki.gg/wiki/The_Battle_of_Darrowshire_%28quest%29).
 
 **Gate:** reconcile the annals' chronology wording against the Third War context rather than silently correcting a source. Place the fall in an Era 7 prologue and the investigation in Era 8; capture the original event ending.
-
 
 **Implementation:** Complete 21-scene illustrated research story, with transcript-matched Classic quest narration, per-scene events/claims/citations, the Era 7 fall and Era 8 investigation/replay, and the sixth Classic marker in the separate Classic-to-Wrath StoryTour. It keeps the Annals’ date conflict, Davil and Marduk name variants, Pamela’s conflicting accounts, and the replay’s unresolved temporal scope visible. Original-client comparison, human lore review, matching-build area/model resemblance and voice audition remain open. See the [production ledger](darrowshire-lost-and-remembered-production.md) and [visual asset ledger](darrowshire-lost-and-remembered-visual-assets.json).
 ### 07. The Defias and the Unsent Letter
@@ -101,7 +98,7 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** separate original and patch 2.3 steps. If the ending needs licensed comic material, obtain and cite exact issues/pages. End with an explicit unresolved boundary until that evidence is reviewed; never fabricate a final rescue scene.
 
-**Implementation status (2026-10-02): research preview.** Authored as 24 illustrated beats across five chapters, with the original Classic investigation ending at its known boundary and the patch 2.3 continuation beginning separately. It is the eleventh placard in the Classic-to-Wrath `StoryTour`, after the Cipher of Damnation entry because the later continuation dates to patch 2.3; this editorial order does not assert a quest dependency. It remains out of the EraTour. The StoryGuide, transcript, citations, claims, map states, scene art, and 24 matching narration tracks are present. Still required before promotion: primary in-client quest capture and human claim review, visual comparison against the relevant client/build for every scene and cast composition, and canonical item-model comparison for Medivh’s Atiesh portrait. The ending remains unresolved: Varian’s location and the patron’s identity are not established by this story’s evidence.
+**Implementation status (2026-10-02): research preview.** Authored as 24 illustrated beats across five chapters, with the original Classic investigation ending at its known boundary and the patch 2.3 continuation beginning separately. It is the fourteenth placard in the Classic-to-Wrath `StoryTour`, after the Cipher of Damnation entry because the later continuation dates to patch 2.3; this editorial order does not assert a quest dependency. It remains out of the EraTour. The StoryGuide, transcript, citations, claims, map states, scene art, and 24 matching narration tracks are present. Still required before promotion: primary in-client quest capture and human claim review, visual comparison against the relevant client/build for every scene and cast composition, and canonical item-model comparison for Medivh’s Atiesh portrait. The ending remains unresolved: Varian’s location and the patron’s identity are not established by this story’s evidence.
 
 ### 09. The Scythe of Elune: the original mystery
 
@@ -125,18 +122,19 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** prove the link between the egg errands and later events from quest evidence; distinguish avatar from deity. Exclude Cataclysm Zul'Gurub and later returns.
 
-
 **Implementation status (2026-10-02): illustrated research preview.** The 15-node Yehkinya guide is linked from the Classic-to-Wrath StoryTour after the Scythe entry, stays outside EraTour, and ends at the Yojamba request for aid. Original-client dialogue capture, regional resemblance comparison, human lore review and generated-voice audition remain open; records remain contentStatus research.
 
 ### 11. Ras Frostwhisper: a lich's mortality
 
 **ID:** `ras-frostwhisper-and-the-soulbound-keepsake` · **A** · **Reach:** Scholomance, Plaguelands, Alterac and Stratholme-related evidence.
 
-**Story spine:** Marduk's investigation → a keepsake and Ras's former life → Leonid's explanation → preparation of the soulbound object → confronting Ras in Scholomance. The question is what his mortal history allows the investigators to undo.
+**Story spine:** Marduke’s keepsake investigation → Leonid’s witness account of Ras’s self-offering at Menethil’s Gift → the item becomes soulbound → Marduke’s instruction → the mortal-form objective in Scholomance → a bounded quest-completion claim. Separate the Eva Sarkhoff/Spectral Essence visibility dependency from historical events; keep Leonid’s account attributed; do not claim a lasting cure or liberated souls.
 
-**Anchors:** The Human, Ras Frostwhisper; The Dying; The Bound; The Lich, Ras Frostwhisper. **Source:** [original quest-chain locator](https://warcraft.wiki.gg/wiki/Ras_Frostwhisper_quest_chain).
+**Anchors:** The Human, Ras Frostwhisper (5461); The Dying, Ras Frostwhisper (5462); Menethil’s Gift (5463–5464); Soulbound Keepsake (5465); The Lich, Ras Frostwhisper (5466). **Source:** [Classic quest-chain locator](https://www.wowhead.com/classic/guide/ras-frostwhisper-questchain-classic-wow).
 
-**Gate:** audit the exact intermediate destinations and Leonid's account. Exclude modern Scholomance and later retellings; transformation mechanics alone do not establish a permanent world outcome.
+**Gate:** Compare the six Classic quest texts and NPC/area states against the target client/build; verify the reported Baron-room sigil and keep every account at its named speaker’s confidence. Keep post-Cataclysm Scholomance and Light’s Hope redesigns outside the visual reference.
+
+**Implementation (2026-10-02):** Complete thirteen-scene illustrated research StoryGuide, with source/claim/citation records, Classic-through-Wrath area scenes, distinct Marduke/Leonid/Ras art and the keepsake/final object illustrations. Added to the Classic-to-Wrath StoryTour after Yeh’kinya and before Karazhan; not inserted into EraTour. Original-client quest/build comparison, exact-room verification, human lore/art review and audio audition remain open. See the [production ledger](ras-frostwhisper-production.md) and [visual asset ledger](ras-frostwhisper-visual-assets.json).
 
 ## The Burning Crusade
 

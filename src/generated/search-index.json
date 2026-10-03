@@ -4255,6 +4255,24 @@
     "contentStatus": "research"
   },
   {
+    "id": "human-head-of-ras-frostwhisper",
+    "type": "entity",
+    "name": "Human Head of Ras Frostwhisper",
+    "slug": "human-head-of-ras-frostwhisper",
+    "path": "/locations/human-head-of-ras-frostwhisper",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "ras-frostwhisper-story",
+      "interpretive-art"
+    ],
+    "description": "Human Head of Ras Frostwhisper, represented in the Ras Frostwhisper research story.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "hyjal-defenders",
     "type": "entity",
     "name": "The Defenders of Mount Hyjal",
@@ -4815,6 +4833,33 @@
     "contentStatus": "research"
   },
   {
+    "id": "keepsake-of-remembrance",
+    "type": "entity",
+    "name": "Keepsake of Remembrance",
+    "slug": "keepsake-of-remembrance",
+    "path": "/locations/keepsake-of-remembrance",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "ras-frostwhisper-story",
+      "interpretive-art"
+    ],
+    "description": "Keepsake of Remembrance, represented in the Ras Frostwhisper research story.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5461",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5462",
+      "ras-frostwhisper-and-the-soulbound-keepsake-leonid-npc-locator",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5463",
+      "ras-frostwhisper-and-the-soulbound-keepsake-menethils-gift-area-reference",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5464",
+      "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-area-reference",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5465",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466",
+      "ras-frostwhisper-and-the-soulbound-keepsake-ras-npc-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "kelthuzad",
     "type": "entity",
     "name": "Kel'Thuzad",
@@ -5033,6 +5078,28 @@
     "contentStatus": "research"
   },
   {
+    "id": "leonid-barthalomew-revered",
+    "type": "entity",
+    "name": "Leonid Barthalomew the Revered",
+    "slug": "leonid-barthalomew-revered",
+    "path": "/locations/leonid-barthalomew-revered",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "ras-frostwhisper-story",
+      "interpretive-art"
+    ],
+    "description": "Leonid Barthalomew the Revered, represented in the Ras Frostwhisper research story.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5462",
+      "ras-frostwhisper-and-the-soulbound-keepsake-leonid-npc-locator",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5463",
+      "ras-frostwhisper-and-the-soulbound-keepsake-menethils-gift-area-reference",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5464"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "light-and-shadow",
     "type": "entity",
     "name": "Light and Shadow",
@@ -5229,6 +5296,28 @@
     "sourceIds": [
       "warcraft-chronicle-volume-1",
       "blizzard-well-of-eternity-preview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "magistrate-marduke",
+    "type": "entity",
+    "name": "Magistrate Marduke",
+    "slug": "magistrate-marduke",
+    "path": "/locations/magistrate-marduke",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "ras-frostwhisper-story",
+      "interpretive-art"
+    ],
+    "description": "Magistrate Marduke, represented in the Ras Frostwhisper research story.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5461",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-chain-locator",
+      "ras-frostwhisper-and-the-soulbound-keepsake-marduke-npc-locator",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5465",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466"
     ],
     "contentStatus": "research"
   },
@@ -6576,6 +6665,143 @@
     "description": "The Elemental Lord of fire, characterized by direct, destructive force against his rivals.",
     "sourceIds": [
       "warcraft-chronicle-volume-1"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-caer-darrow",
+    "type": "entity",
+    "name": "Caer Darrow",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-caer-darrow",
+    "path": "/locations/ras-frostwhisper-and-the-soulbound-keepsake-caer-darrow",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "ras-frostwhisper-story",
+      "classic-location"
+    ],
+    "description": "Caer Darrow, a Classic-era setting in the Ras Frostwhisper research story.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5461",
+      "ras-frostwhisper-and-the-soulbound-keepsake-marduke-npc-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-chapel",
+    "type": "entity",
+    "name": "Light’s Hope Chapel",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-chapel",
+    "path": "/locations/ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-chapel",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "ras-frostwhisper-story",
+      "classic-location"
+    ],
+    "description": "Light’s Hope Chapel, a Classic-era setting in the Ras Frostwhisper research story.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5462",
+      "ras-frostwhisper-and-the-soulbound-keepsake-leonid-npc-locator",
+      "ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-area-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-scholomance",
+    "type": "entity",
+    "name": "Scholomance",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-scholomance",
+    "path": "/locations/ras-frostwhisper-and-the-soulbound-keepsake-scholomance",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "ras-frostwhisper-story",
+      "classic-location"
+    ],
+    "description": "Scholomance, a Classic-era setting in the Ras Frostwhisper research story.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466",
+      "ras-frostwhisper-and-the-soulbound-keepsake-ras-npc-locator",
+      "ras-frostwhisper-and-the-soulbound-keepsake-scholomance-area-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-menethils-gift",
+    "type": "entity",
+    "name": "Menethil’s Gift",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-menethils-gift",
+    "path": "/locations/ras-frostwhisper-and-the-soulbound-keepsake-stratholme-menethils-gift",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "ras-frostwhisper-story",
+      "classic-location"
+    ],
+    "description": "Menethil’s Gift, a Classic-era setting in the Ras Frostwhisper research story.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5463",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5464",
+      "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-area-reference",
+      "ras-frostwhisper-and-the-soulbound-keepsake-menethils-gift-area-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-stromgarde-keep",
+    "type": "entity",
+    "name": "Stromgarde Keep",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-stromgarde-keep",
+    "path": "/locations/ras-frostwhisper-and-the-soulbound-keepsake-stromgarde-keep",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "ras-frostwhisper-story",
+      "classic-location"
+    ],
+    "description": "Stromgarde Keep, a Classic-era setting in the Ras Frostwhisper research story.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5461",
+      "ras-frostwhisper-and-the-soulbound-keepsake-stromgarde-area-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-human-memory",
+    "type": "entity",
+    "name": "Ras Frostwhisper in Leonid’s memory",
+    "slug": "ras-frostwhisper-human-memory",
+    "path": "/locations/ras-frostwhisper-human-memory",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "ras-frostwhisper-story",
+      "interpretive-art"
+    ],
+    "description": "Ras Frostwhisper in Leonid’s memory, represented in the Ras Frostwhisper research story.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5463",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper",
+    "type": "entity",
+    "name": "Ras Frostwhisper",
+    "slug": "ras-frostwhisper",
+    "path": "/locations/ras-frostwhisper",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [
+      "ras-frostwhisper-story",
+      "interpretive-art"
+    ],
+    "description": "Ras Frostwhisper, represented in the Ras Frostwhisper research story.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466",
+      "ras-frostwhisper-and-the-soulbound-keepsake-ras-npc-locator"
     ],
     "contentStatus": "research"
   },
@@ -13953,6 +14179,209 @@
     "contentStatus": "research"
   },
   {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-a-name-for-the-ground-event",
+    "type": "event",
+    "name": "A name for the ground",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-a-name-for-the-ground-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-a-name-for-the-ground-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Quest 5463 identifies Menethil’s Gift as ground blessed by the Lich King and regarded as holy by the Scourge, then directs the seeker to place the keepsake there; secondary quest-page comments locate its sigil in Baron Rivendare’s room.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5463",
+      "ras-frostwhisper-and-the-soulbound-keepsake-menethils-gift-area-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-a-rumor-at-lights-hope-event",
+    "type": "event",
+    "name": "A rumor at Light’s Hope",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-a-rumor-at-lights-hope-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-a-rumor-at-lights-hope-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Quest 5462 directs the seeker to bring the keepsake to Leonid at Light’s Hope and presents Stratholme as the rumored location of Ras’s fall to the Lich King.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5462",
+      "ras-frostwhisper-and-the-soulbound-keepsake-leonid-npc-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-a-token-from-life-event",
+    "type": "event",
+    "name": "A token from life",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-a-token-from-life-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-a-token-from-life-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Quest 5461 makes a keepsake from Ras’s human years the required basis for attempting to create an artifact that can revert him to mortal form; it does not specify the keepsake’s physical appearance.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5461"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-an-unseen-magistrate-event",
+    "type": "event",
+    "name": "An unseen magistrate",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-an-unseen-magistrate-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-an-unseen-magistrate-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Magistrate Marduke asks the seeker to recover a keepsake from Stromgarde, which he identifies as Ras Frostwhisper’s home, to support an attempt to return Ras to mortal form.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5461",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-chain-locator",
+      "ras-frostwhisper-and-the-soulbound-keepsake-marduke-npc-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-back-to-marduke-event",
+    "type": "event",
+    "name": "Back to Marduke",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-back-to-marduke-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-back-to-marduke-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Quest 5465 directs the seeker to return the Soulbound Keepsake to Magistrate Marduke, who is to instruct them in its use.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5465"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-leonid-explains-the-bond-event",
+    "type": "event",
+    "name": "Leonid explains the bond",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-leonid-explains-the-bond-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-leonid-explains-the-bond-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "On quest 5464 completion, Leonid says the soul’s attachment to the keepsake should make it cling to Ras Frostwhisper’s physical form.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5464",
+      "ras-frostwhisper-and-the-soulbound-keepsake-leonid-npc-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-leonids-memory-event",
+    "type": "event",
+    "name": "Leonid’s memory",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-leonids-memory-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-leonids-memory-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "In quest 5463, Leonid says he witnessed Ras pledge his soul to the Lich King, cut his throat, and become a lich as the Lich King stood over him at Menethil’s Gift.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5463"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-mardukes-accounting-event",
+    "type": "event",
+    "name": "Marduke’s accounting",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-mardukes-accounting-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-mardukes-accounting-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "On quest completion, Marduke attributes the deed to ten thousand restless souls and calls it a mortal blow to the Scourge; this is his claim, not an independently verified count or proof that the souls are freed.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-mortal-again-for-a-moment-event",
+    "type": "event",
+    "name": "Mortal again for a moment",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-mortal-again-for-a-moment-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-mortal-again-for-a-moment-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Quest 5466 says use of the Soulbound Keepsake can revert Ras Frostwhisper to mortal form before he is slain; no permanent restoration is recorded.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-the-head-returned-event",
+    "type": "event",
+    "name": "The head returned",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-the-head-returned-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-the-head-returned-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Quest 5466 directs the seeker to kill Ras after the mortal transformation, recover his head, and return it to Marduke.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-the-lich-in-scholomance-event",
+    "type": "event",
+    "name": "The lich in Scholomance",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-the-lich-in-scholomance-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-the-lich-in-scholomance-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Quest 5466 directs the seeker to find Ras Frostwhisper in Scholomance and use the Soulbound Keepsake on his undead form.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466",
+      "ras-frostwhisper-and-the-soulbound-keepsake-ras-npc-locator"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-the-ruined-home-event",
+    "type": "event",
+    "name": "The ruined home",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-the-ruined-home-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-the-ruined-home-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Quest 5461 identifies ruined Stromgarde as Ras Frostwhisper’s home and directs the seeker to search it for a keepsake from his mortal life; the exact find-location is not fixed by the quest text.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5461"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-the-soulbound-keepsake-event",
+    "type": "event",
+    "name": "The soulbound keepsake",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake-the-soulbound-keepsake-event",
+    "path": "/events/ras-frostwhisper-and-the-soulbound-keepsake-the-soulbound-keepsake-event",
+    "eraId": "age-of-adventurers",
+    "aliases": [],
+    "tags": [],
+    "description": "Quest 5464 says the soul of the fallen clings to an object representing its former life, transforming the keepsake into a Soulbound Keepsake; it does not establish that the binding lasts beyond the quest attempt.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5464",
+      "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-area-reference",
+      "ras-frostwhisper-and-the-soulbound-keepsake-menethils-gift-area-reference"
+    ],
+    "contentStatus": "research"
+  },
+  {
     "id": "scepter-a-world-prepares-event",
     "type": "event",
     "name": "The key and the armies",
@@ -16116,6 +16545,38 @@
       "quel-delar-thalorien-dawnseeker-quest-transcript",
       "quel-delar-faction-and-class-endings-transcript",
       "blizzard-quel-delar-achievement-overview"
+    ],
+    "contentStatus": "research"
+  },
+  {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake",
+    "type": "storyline",
+    "name": "Ras Frostwhisper: a lich’s mortality",
+    "slug": "ras-frostwhisper-and-the-soulbound-keepsake",
+    "path": "/storylines/ras-frostwhisper-and-the-soulbound-keepsake",
+    "eraId": "age-of-adventurers",
+    "eraIds": [
+      "age-of-adventurers"
+    ],
+    "aliases": [],
+    "tags": [],
+    "description": "A magistrate seeks a relic of Ras Frostwhisper’s mortal life. Stromgarde, Light’s Hope, Stratholme and Scholomance lead to Leonid’s account and an attempt to bind the lich to his former self.",
+    "sourceIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5461",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5462",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5463",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5464",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5465",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-5466",
+      "ras-frostwhisper-and-the-soulbound-keepsake-quest-chain-locator",
+      "ras-frostwhisper-and-the-soulbound-keepsake-marduke-npc-locator",
+      "ras-frostwhisper-and-the-soulbound-keepsake-leonid-npc-locator",
+      "ras-frostwhisper-and-the-soulbound-keepsake-ras-npc-locator",
+      "ras-frostwhisper-and-the-soulbound-keepsake-stromgarde-area-reference",
+      "ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-area-reference",
+      "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-area-reference",
+      "ras-frostwhisper-and-the-soulbound-keepsake-menethils-gift-area-reference",
+      "ras-frostwhisper-and-the-soulbound-keepsake-scholomance-area-reference"
     ],
     "contentStatus": "research"
   },

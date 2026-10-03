@@ -1,0 +1,29 @@
+{
+  "id": "ras-frostwhisper-and-the-soulbound-keepsake-the-soulbound-keepsake-event",
+  "kind": "event",
+  "name": "The soulbound keepsake",
+  "slug": "ras-frostwhisper-and-the-soulbound-keepsake-the-soulbound-keepsake-event",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "azeroth",
+  "date": {
+    "precision": "unknown",
+    "label": "Classic quest sequence; in-world date unknown"
+  },
+  "summary": "Quest 5464 says the soul of the fallen clings to an object representing its former life, transforming the keepsake into a Soulbound Keepsake; it does not establish that the binding lasts beyond the quest attempt.",
+  "description": "At Menethil’s Gift, the keepsake is set upon the tainted ground. The quest records the change: a soul clings to what recalls its former life, and the object becomes a Soulbound Keepsake. No character is placed beside it in this scene; the transformation is an objective the seeker completes. The quest says what the object becomes, while its lasting effect on Ras remains untested.",
+  "locationIds": [
+    "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-menethils-gift"
+  ],
+  "participantEntityIds": [
+    "keepsake-of-remembrance"
+  ],
+  "sourceIds": [
+    "ras-frostwhisper-and-the-soulbound-keepsake-quest-5464",
+    "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-area-reference",
+    "ras-frostwhisper-and-the-soulbound-keepsake-menethils-gift-area-reference"
+  ],
+  "claimIds": [
+    "ras-frostwhisper-and-the-soulbound-keepsake-the-soulbound-keepsake-claim"
+  ],
+  "contentStatus": "research"
+}

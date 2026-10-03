@@ -1,0 +1,613 @@
+{
+  "guide": {
+    "id": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+    "eraId": "age-of-adventurers",
+    "title": "Ras Frostwhisper: a lich’s mortality",
+    "description": "Thirteen illustrated Classic research scenes trace Marduke’s keepsake search, Leonid’s account of Ras’s death, and the bounded attempt to make the Scholomance lich mortal.",
+    "nodeIds": [
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-an-unseen-magistrate",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-the-ruined-home",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-a-token-from-life",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-a-rumor-at-lights-hope",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-leonids-memory",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-a-name-for-the-ground",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-the-soulbound-keepsake",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-leonid-explains-the-bond",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-back-to-marduke",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-the-lich-in-scholomance",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-mortal-again-for-a-moment",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-the-head-returned",
+      "ras-frostwhisper-and-the-soulbound-keepsake-story-mardukes-accounting"
+    ],
+    "contentStatus": "research"
+  },
+  "nodes": [
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-an-unseen-magistrate",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "An unseen magistrate",
+      "narration": "At Caer Darrow, a magistrate appears only to those who can see the dead. Marduke opens an inquiry into Ras Frostwhisper’s mortal years. A keepsake from Stromgarde, the ruined city he identifies as Ras’s home, may give that history a hold upon the present. The chain’s ghostly access rites are its threshold, not another chapter in Ras’s life. What such a token might restore is not yet known.",
+      "durationMs": 54756,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-an-unseen-magistrate-event"
+      ],
+      "entityIds": [
+        "magistrate-marduke"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-caer-darrow"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-caer-darrow-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-the-ruined-home"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-an-unseen-magistrate.mp3",
+        "durationMs": 30500,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-ruined-home",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "The ruined home",
+      "narration": "Stromgarde’s broken stone holds the search. The quest names the keep as Ras’s home and asks for something that belonged to his human life. It does not identify a single room or hearth as the fixed find-site: the item is searched for among the ruins. The journey is an investigation through a fallen city, not a claim that Ras’s mortal story ended here.",
+      "durationMs": 51098,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-ruined-home-event"
+      ],
+      "entityIds": [],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-stromgarde-keep"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-stromgarde-keep-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-an-unseen-magistrate",
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-a-token-from-life"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-the-ruined-home.mp3",
+        "durationMs": 26700,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-token-from-life",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "A token from life",
+      "narration": "A small possession survives where Ras’s human life once stood. Marduke calls it an opening: the keepsake may let the living make an artifact capable of reaching the lich. The object’s in-game appearance is not specified in the quest account, so the picture here is a symbolic token rather than a recovered item model. The seeker carries it from the ruins toward Light’s Hope.",
+      "durationMs": 51829,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-a-token-from-life-event"
+      ],
+      "entityIds": [
+        "keepsake-of-remembrance"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-stromgarde-keep"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-stromgarde-keep-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-ruined-home",
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-a-rumor-at-lights-hope"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-a-token-from-life.mp3",
+        "durationMs": 27525,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-rumor-at-lights-hope",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "A rumor at Light’s Hope",
+      "narration": "The keepsake is brought to Leonid Barthalomew at Light’s Hope Chapel. Marduke’s next quest calls Stratholme the rumored place of Ras’s surrender, then directs the seeker to the old undead who may know more. A rumor has opened a path, but it has not yet become an established account. At this small timber refuge, the witness is asked to look upon the object and remember.",
+      "durationMs": 52561,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-a-rumor-at-lights-hope-event"
+      ],
+      "entityIds": [
+        "leonid-barthalomew-revered",
+        "keepsake-of-remembrance"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-chapel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-chapel-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-token-from-life",
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-leonids-memory"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-a-rumor-at-lights-hope.mp3",
+        "durationMs": 26675,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-leonids-memory",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "Leonid’s memory",
+      "narration": "Leonid now speaks as an eyewitness. In his account, Ras chose to pledge his soul to the Lich King and cut his own throat; his body fell within the marked ground. Leonid says the Lich King stood over the fallen mage, and Ras rose as a lich. The quest gives this scene to Leonid’s memory, not an independent narrator. His testimony turns the earlier rumor into a named witness account.",
+      "durationMs": 56220,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-leonids-memory-event"
+      ],
+      "entityIds": [
+        "leonid-barthalomew-revered",
+        "ras-frostwhisper-human-memory"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-menethils-gift"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-menethils-gift-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-rumor-at-lights-hope",
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-a-name-for-the-ground"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-leonids-memory.mp3",
+        "durationMs": 29425,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-name-for-the-ground",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "A name for the ground",
+      "narration": "Leonid names the place Menethil’s Gift. His explanation gives it a bitter meaning: ground the Lich King blessed, and the Scourge regards as holy. He sends the seeker back to Stratholme with the keepsake. Secondary quest-page comments place the floor sigil in Baron Rivendare’s quarters; that room locator remains unverified against the original client. The quest has turned a rumor into Leonid’s stated memory and a destination.",
+      "durationMs": 54024,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-a-name-for-the-ground-event"
+      ],
+      "entityIds": [
+        "leonid-barthalomew-revered",
+        "keepsake-of-remembrance"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-chapel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-chapel-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-leonids-memory",
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-the-soulbound-keepsake"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-a-name-for-the-ground.mp3",
+        "durationMs": 32350,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-soulbound-keepsake",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "The soulbound keepsake",
+      "narration": "At Menethil’s Gift, the keepsake is set upon the tainted ground. The quest records the change: a soul clings to what recalls its former life, and the object becomes a Soulbound Keepsake. No character is placed beside it in this scene; the transformation is an objective the seeker completes. The quest says what the object becomes, while its lasting effect on Ras remains untested.",
+      "durationMs": 51829,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-soulbound-keepsake-event"
+      ],
+      "entityIds": [
+        "keepsake-of-remembrance"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-menethils-gift"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-stratholme-menethils-gift-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-a-name-for-the-ground",
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-leonid-explains-the-bond"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-the-soulbound-keepsake.mp3",
+        "durationMs": 28600,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-leonid-explains-the-bond",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "Leonid explains the bond",
+      "narration": "The Soulbound Keepsake returns to Light’s Hope. Leonid says its bond to the fallen soul should also hold to Ras’s physical form. That is his explanation of how the attempt may work, delivered after the item changes. The next task sends the seeker back to Marduke; the chain provides no proof yet that Ras can be restored to life, or that the object can free him permanently.",
+      "durationMs": 54024,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-leonid-explains-the-bond-event"
+      ],
+      "entityIds": [
+        "leonid-barthalomew-revered",
+        "keepsake-of-remembrance"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-chapel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-lights-hope-chapel-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-soulbound-keepsake",
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-back-to-marduke"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-leonid-explains-the-bond.mp3",
+        "durationMs": 27750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-back-to-marduke",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "Back to Marduke",
+      "narration": "The transformed object returns to Caer Darrow. Marduke receives the Soulbound Keepsake and says he will instruct the seeker in its use. The surviving quest text does not preserve those instructions here, so the story takes its action from the next objective instead of supplying ritual details. The course is now set toward Scholomance and the lich whose mortal memory the object carries.",
+      "durationMs": 51098,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-back-to-marduke-event"
+      ],
+      "entityIds": [
+        "magistrate-marduke",
+        "keepsake-of-remembrance"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-caer-darrow"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-caer-darrow-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-leonid-explains-the-bond",
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-the-lich-in-scholomance"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-back-to-marduke.mp3",
+        "durationMs": 28875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-lich-in-scholomance",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "The lich in Scholomance",
+      "narration": "The final quest sends the seeker into Scholomance to find Ras Frostwhisper. The old academy’s cold halls frame an encounter with the lich who once chose undeath. No traveling route is drawn across this scene: the dungeon is its own enclosed setting, and the illustration offers no measured floor plan. The keepsake is brought close enough to be used against Ras’s undead form.",
+      "durationMs": 51098,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-lich-in-scholomance-event"
+      ],
+      "entityIds": [
+        "ras-frostwhisper",
+        "keepsake-of-remembrance"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-scholomance"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-scholomance-ras-chamber-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-back-to-marduke",
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-mortal-again-for-a-moment"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-the-lich-in-scholomance.mp3",
+        "durationMs": 28025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-mortal-again-for-a-moment",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "Mortal again for a moment",
+      "narration": "The quest’s objective names the change it seeks: if the keepsake succeeds, Ras becomes mortal once more. The scene moves from the undead visage to a human one, enough for the quest’s next act to be carried out. This is a temporary state in an instance encounter, not evidence that Ras’s life is restored or that a lasting cure follows.",
+      "durationMs": 48902,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-mortal-again-for-a-moment-event"
+      ],
+      "entityIds": [
+        "ras-frostwhisper-human-memory",
+        "keepsake-of-remembrance"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-scholomance"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-scholomance-ras-chamber-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-lich-in-scholomance",
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-the-head-returned"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-mortal-again-for-a-moment.mp3",
+        "durationMs": 25400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-head-returned",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "The head returned",
+      "narration": "Marduke’s instruction is followed by a terrible condition: the mortal Ras must be struck down, and his head brought back. The returned object closes the quest objective; the narration leaves the violence restrained and the result bounded to what the game records. It gives no account of Ras’s spirit afterward, of a lasting freedom from the Scourge, or of other souls departing with him.",
+      "durationMs": 51829,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-the-head-returned-event"
+      ],
+      "entityIds": [
+        "human-head-of-ras-frostwhisper"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-scholomance"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-scholomance-ras-chamber-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-mortal-again-for-a-moment",
+      "nextNodeIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-story-mardukes-accounting"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-the-head-returned.mp3",
+        "durationMs": 28375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "ras-frostwhisper-and-the-soulbound-keepsake-story-mardukes-accounting",
+      "guideId": "ras-frostwhisper-and-the-soulbound-keepsake-guide",
+      "title": "Marduke’s accounting",
+      "narration": "At Caer Darrow, Marduke receives the head and declares that ten thousand restless souls have cried out with the blow dealt to the Scourge. His words measure the meaning he gives the deed; the number is not independently counted in the chain. The ending records a lich made mortal and killed, then a magistrate’s claim. It cannot tell us whether Ras’s own soul is free, or what history follows.",
+      "durationMs": 55488,
+      "eventIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-mardukes-accounting-event"
+      ],
+      "entityIds": [
+        "magistrate-marduke",
+        "human-head-of-ras-frostwhisper"
+      ],
+      "locationIds": [
+        "ras-frostwhisper-and-the-soulbound-keepsake-caer-darrow"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.2
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1100
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "ras-frostwhisper-and-the-soulbound-keepsake-caer-darrow-scene"
+        }
+      ],
+      "previousNodeId": "ras-frostwhisper-and-the-soulbound-keepsake-story-the-head-returned",
+      "voiceover": {
+        "assetPath": "audio/guided/ras-frostwhisper-and-the-soulbound-keepsake-guide/ras-frostwhisper-and-the-soulbound-keepsake-story-mardukes-accounting.mp3",
+        "durationMs": 28725,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    }
+  ]
+}
