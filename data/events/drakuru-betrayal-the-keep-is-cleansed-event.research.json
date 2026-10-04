@@ -1,0 +1,24 @@
+{
+  "id": "drakuru-betrayal-the-keep-is-cleansed-event",
+  "kind": "event",
+  "name": "The fortress opened",
+  "slug": "drakuru-betrayal-the-keep-is-cleansed",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "drakuru-betrayal-theater",
+  "summary": "Drak’Tharon Keep stands where the cold forest gives way to the harsher land of Zul’Drak: carved stone rising above a border already touched by the Scourge. The relics and Drakuru’s elixir bring the living into its upper reaches. There he is summoned before the fortress’s remaining resistance is overcome. He has promised a peaceful return to the Keep’s purpose. At the summit, the ritual does not end in restoration; a portal opens, and the master behind Drakuru’s promises steps through.",
+  "locationIds": [
+    "drak-tharon-keep"
+  ],
+  "participantEntityIds": [
+    "drakuru"
+  ],
+  "sourceIds": [
+    "drakuru-betrayal-cleansing-draktharon",
+    "drakuru-betrayal-draktharon-area",
+    "drakuru-betrayal-blizzard-zuldrak"
+  ],
+  "claimIds": [
+    "drakuru-betrayal-the-keep-is-cleansed-claim"
+  ],
+  "contentStatus": "research"
+}

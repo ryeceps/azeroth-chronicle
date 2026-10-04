@@ -1,0 +1,23 @@
+{
+  "id": "drakuru-betrayal-orders-in-the-dead-fields-event",
+  "kind": "event",
+  "name": "Orders from the Dead Fields",
+  "slug": "drakuru-betrayal-orders-in-the-dead-fields",
+  "eraId": "age-of-adventurers",
+  "worldspaceId": "drakuru-betrayal-theater",
+  "summary": "A written order gives shape to the campaign spreading through Zul’Drak. Drakuru commands the Scourge armies, has corpses processed in the Dead Fields, and sends them to Zeramas to be raised. He speaks of blood from the prophets as a means to strengthen his forces, and names both Zul’Drak and Gundrak as targets. The scroll leaves little room for the earlier tale of rescue: the work of the relics has helped make conquest possible.",
+  "locationIds": [
+    "zul-drak-dead-fields"
+  ],
+  "participantEntityIds": [
+    "overlord-drakuru"
+  ],
+  "sourceIds": [
+    "drakuru-betrayal-orders-from-drakuru",
+    "drakuru-betrayal-blizzard-zuldrak"
+  ],
+  "claimIds": [
+    "drakuru-betrayal-orders-in-the-dead-fields-claim"
+  ],
+  "contentStatus": "research"
+}

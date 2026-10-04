@@ -1,0 +1,25 @@
+{
+  "id": "blightblood-trolls",
+  "type": "faction",
+  "name": "Blightblood Trolls",
+  "slug": "blightblood-trolls",
+  "shortDescription": "Drakkari chieftains captured and infused with blight to form part of Drakuru’s Scourge army; shown as an interpretive ensemble.",
+  "body": "Original interpretive illustration, not canonical game art. See docs/research/drakuru-visual-assets.json for its scene use, source locator, appearance boundary, and open visual review.",
+  "firstEraId": "age-of-adventurers",
+  "featuredEraIds": [
+    "age-of-adventurers"
+  ],
+  "sourceIds": [
+    "drakuru-betrayal-betrayal",
+    "drakuru-betrayal-overlord-drakuru"
+  ],
+  "tags": [
+    "drakuru-story",
+    "interpretive-art"
+  ],
+  "mapVisual": {
+    "asset": "images/storylines/drakuru-betrayal/blightblood-trolls.research.webp",
+    "scale": 0.96
+  },
+  "contentStatus": "research"
+}

@@ -267,6 +267,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** capture disguise scenes and the Lich King's final intervention; separate this chain from adjacent Drakkari loa stories unless explicit evidence joins them. Strong early Wrath production candidate.
 
+**Implementation (2026-10-03):** Complete 20-scene illustrated research StoryGuide with claim-linked quest citations, twenty transcript-matched voice tracks, ten distinct area environments, contextual art for Drakuru’s two appearance states, Stefan Vadu, the Lich King, Blightblood Trolls and the ruby Eye, Heart and Scepter of Domination. Added as placard 22 in the separate Classic-to-Wrath StoryTour, after Wrathgate and before Quel’Delar; the placement is editorial because exact relative timing is unknown. The Drakkari artifact history remains attributed, and the Reunited/Dark Horizon and faction variants remain explicit. Human review still needs original 3.3.5a quest/dialogue capture, visual comparison against every named area and model, chronology/citation approval, and audio audition. Every record remains `contentStatus: research`. See the [production ledger](drakuru-production.md) and [visual asset ledger](drakuru-visual-assets.json).
+
 ### 23. Quel'Delar: a broken blade restored
 
 **ID:** `quel-delar-restored` · **A** · **Reach:** Northrend, three Frozen Halls dungeons and the Sunwell.

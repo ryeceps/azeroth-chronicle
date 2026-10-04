@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T20:24:55.708Z",
+  "generatedAt": "2026-10-03T23:56:16.405Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 522,
-  "totalDurationMs": 13502900,
+  "trackCount": 542,
+  "totalDurationMs": 14175050,
   "tracks": [
     {
       "nodeId": "adventurers-story-alternate-draenor",
@@ -4710,6 +4710,186 @@
       "sha256": "8f8cab2782e5f2e71b666908943fef3c8c6a21724742d4030e8a5051b26fc773",
       "transcriptSha256": "37a119331c3a60631807eb6577f25d19baab8011c490b27bd4800f1fac7faaa2",
       "bytes": 446733
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-captive-at-granite-springs",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-captive-at-granite-springs.mp3",
+      "durationMs": 31875,
+      "sha256": "a9c1058140e80adf96fd70ec9bce38c0ca826b745af4dd9e90aa94f485bd385a",
+      "transcriptSha256": "273984d9022135f18a6c3cb02cbcccb33814a530fa85a93446fa208af46c2c7a",
+      "bytes": 383661
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-blood-pact",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-blood-pact.mp3",
+      "durationMs": 33125,
+      "sha256": "a7b97c9e662d427243dc8b661f3fbc316c8278d9afe386ca1fa5eed12e4f64b8",
+      "transcriptSha256": "a7d5cfed9447e815b3d88ccac329cd78857422922ff5e1220bc445db9b7bf357",
+      "bytes": 398637
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-vial-of-visions",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-vial-of-visions.mp3",
+      "durationMs": 30800,
+      "sha256": "f6714e666efc8a907eb5e8c057571b89d8fbe72e781e47ccbc76cf4df70feb1c",
+      "transcriptSha256": "c3638103cf3918d56accf756c8869cbbcf554da08d0a9ee73e791021e427fded",
+      "bytes": 370701
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-hieroglyphs-of-drakzin",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-hieroglyphs-of-drakzin.mp3",
+      "durationMs": 35375,
+      "sha256": "8491c065e04d32f25c7827a61faf535289a9d02390c79865c46c0752965cce93",
+      "transcriptSha256": "377138f81538a7cdc2149201904392ba89da92eba399e396d997abd66684a47e",
+      "bytes": 425421
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-eye-of-the-prophets",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-eye-of-the-prophets.mp3",
+      "durationMs": 32850,
+      "sha256": "cf91fbdf59f947eb23819c13668b9be12dc59eda1876c254cc2de46687ef6bc3",
+      "transcriptSha256": "237fc879e7edb9b260c36d6625d987460929d9cd3ccdde538ba201356528c190",
+      "bytes": 395181
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-heart-at-blue-sky",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-heart-at-blue-sky.mp3",
+      "durationMs": 29125,
+      "sha256": "3912ae227e93b5c6ceec5bc361afb166d329e52f2b9f4e0bff2eaaad8ef61a09",
+      "transcriptSha256": "5579073bae8ea70c72e9f2915c2f408c20ae7eba4ee6ee1cde107c108aca6bb9",
+      "bytes": 350541
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-drakatal-watching",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-drakatal-watching.mp3",
+      "durationMs": 33900,
+      "sha256": "ff82fefe9c5a281cd9f9100d30a58c9acb0554f0978b24c7fc758df79e81c47e",
+      "transcriptSha256": "c9b12531f39d89a598e784128f6e5c48620283d3c66ec672265fde015a99db07",
+      "bytes": 407853
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-tablets-of-drakiljin",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-tablets-of-drakiljin.mp3",
+      "durationMs": 32150,
+      "sha256": "17fc259355ff20dcad0d644be80855667cc12405487e1d7ea8e21926410d9ae0",
+      "transcriptSha256": "129770bed497afa6162c1e2c2cd3dd7eae1a0fa682fcb26e98db87e83d5d3881",
+      "bytes": 386829
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-keep-is-cleansed",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-keep-is-cleansed.mp3",
+      "durationMs": 35375,
+      "sha256": "755f1085cbd55575e0944b49e47a2dce3d7962ef9557e941e3dce60bde35994d",
+      "transcriptSha256": "a915d7b2c0416ceb5c390fab430943dd96e82bc3cd7d938c298ab5ffc4e08db6",
+      "bytes": 425421
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-lich-kings-gift",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-lich-kings-gift.mp3",
+      "durationMs": 35425,
+      "sha256": "d7e4752d1585808695d8207f03e9c18209f2fcda871983b98367d8abfa7ee12f",
+      "transcriptSha256": "2dc28432bfd933817ca19384fd216c3fc8ff72edb9f826f0128c4a3d3c5e1577",
+      "bytes": 426285
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-orders-in-the-dead-fields",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-orders-in-the-dead-fields.mp3",
+      "durationMs": 30875,
+      "sha256": "17bd04eca958b525a1bb37836f90411220f40b2b05a1b4734150138ce32bee5f",
+      "transcriptSha256": "6aa3eef5fda4d37a308dae6c62f9776e1ba390d4a8bbc7102cd1adf6f0db9109",
+      "bytes": 371565
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-stefan-reads-the-orders",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-stefan-reads-the-orders.mp3",
+      "durationMs": 32825,
+      "sha256": "6387618b02d0ecba8aef7db7e6f171f6c7a588665f884c3234a329c4eb4b5bcd",
+      "transcriptSha256": "aa3761c147444cffa8883c9ff717b1a0821bb304bb8c3f125751f497d6e4cda9",
+      "bytes": 394893
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-a-return-to-voltarus",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-a-return-to-voltarus.mp3",
+      "durationMs": 34300,
+      "sha256": "27a2a9b52f6fe7d6fad1ae33aa4c38b8f3970492704ca3bbd69212eb9233fcb5",
+      "transcriptSha256": "87f815ab4d551c80a94d172fb1d5692caceedaf0728a3b88df4452d1e4268e02",
+      "bytes": 412749
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-land-he-means-to-take",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-land-he-means-to-take.mp3",
+      "durationMs": 35600,
+      "sha256": "27f0329f6a05ac958d7b7eddbee74ab15ab4acd355692462b9d9a3655ba1ebf5",
+      "transcriptSha256": "5740f900cc774bc7f2dca347d6d1addf0297006e7e89c7490e4040a476ffc42d",
+      "bytes": 428301
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-choker-and-the-mask",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-choker-and-the-mask.mp3",
+      "durationMs": 36825,
+      "sha256": "2582eb4390828d0a29f82e9a51e7e3bd19168b1bb2222e4f6f751880b0538933",
+      "transcriptSha256": "997249a62926c547e24651a497518cb72c93658008840bcbd12e5e68b2fee953",
+      "bytes": 442989
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-crystals-of-blight",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-crystals-of-blight.mp3",
+      "durationMs": 38000,
+      "sha256": "d6895eaae07cbd3b061ca2a2d277682e3e2e514c22b1f3c1446961810abac644",
+      "transcriptSha256": "7dc16af53bbc66a24e85fab73b300af6cb2cd69347ed8c6c9947b2f3480b7204",
+      "bytes": 457101
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-scepter-of-domination",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-scepter-of-domination.mp3",
+      "durationMs": 35850,
+      "sha256": "75174229fba5033a5bfea0ba38dc89cc3892d2c843839cb5251155980121feea",
+      "transcriptSha256": "81e84c876d169cb316aa153419ba1e58414fd43c29a5a7be052fbe4fba235f6d",
+      "bytes": 431181
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-blightblood-army",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-blightblood-army.mp3",
+      "durationMs": 34925,
+      "sha256": "1fa99430075cc0e44f537b1d364abdb6dc7116f148da5bddd2e0fdff572fa876",
+      "transcriptSha256": "7bf48e8f6e1e4e02854fdff11fbf66cc6187e1a4b46e9b5475ed2ad2625392b5",
+      "bytes": 420237
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-scepter-turns",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-scepter-turns.mp3",
+      "durationMs": 28575,
+      "sha256": "2f0df0c5abd246dc60244b4fff45d9abe177288d2736e725686a643761d397f4",
+      "transcriptSha256": "97bc9c3762d5ee01a4a42715103358ccf6bead8ba83ed4cc8e5279b6a055d6e8",
+      "bytes": 343917
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-lich-kings-judgment",
+      "guideId": "drakuru-betrayal-guide",
+      "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-lich-kings-judgment.mp3",
+      "durationMs": 34375,
+      "sha256": "914f7b86ef8948971d1aaf7705598e2cd307aa26bc995efe99a62dc768a6e765",
+      "transcriptSha256": "12c4d862e16f8344b2ccc23f7658abfe39193ef7a13b2780d49aae3aae4fd691",
+      "bytes": 413613
     }
   ]
 }

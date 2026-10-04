@@ -1,0 +1,1104 @@
+{
+  "storyId": "drakuru-betrayal",
+  "status": "research",
+  "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era; reference target 3.3.5a. Exact client capture remains open.",
+  "editorialRule": "Match Grizzly Hills’ red cedar forest and temperate water to Grizzly scenes; distinguish its mossy ruins from the high Zeb’Halak ziggurat and low Drakil’jin crypt. Drak’Tharon is the cold carved border fortress; Zul’Drak and Voltarus use the harsher snowbound plateau and Scourge palette. Artifacts use their quest-text colors and remain distinct by name, form and story function.",
+  "assetProvenance": "Original environment, character, group and prop art generated with built-in OpenAI ImageGen and converted to optimized WebP with FFmpeg. Generated assets are interpretive; they are not canonical client art or proof of a lore claim. Source PNG names are retained for provenance. Transparent RGBA source images remain transparent in WebP.",
+  "assetRecords": [
+    {
+      "id": "granite-springs",
+      "kind": "environment",
+      "file": "public/images/storylines/drakuru-betrayal/granite-springs.research.webp",
+      "area": "Granite Springs, Grizzly Hills",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-cccedd05-6725-4855-b5a8-64d00648203b.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Wrath Grizzly Hills: giant rust-red and copper cedar trunks, dark conifers, moss, brown forest floor, spring water and a rough lumber-camp palisade; no snow-covered high-alpine scenery.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://news.blizzard.com/en-us/article/23840668/wrath-classic-zone-guide-dragonblight-and-grizzly-hills",
+          "https://warcraft.wiki.gg/wiki/Truce%3F"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Wide 3:2 original painterly environment for the 2008 Wrath of the Lich King version of Granite Springs in Grizzly Hills. Preserve its red-brown cedar forest, dark conifers, moss, small spring and stream, and rough wooden camp. No characters, no snow, no lettering, no UI, no copied screenshot.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 308288,
+      "sha256": "2d9de1b7966ee88389a2092a7d606af0b57a40f9e8a364752b6186dabad60850",
+      "modifiedAt": "2026-10-04T00:31:35.853Z"
+    },
+    {
+      "id": "drakzin-ruins",
+      "kind": "environment",
+      "file": "public/images/storylines/drakuru-betrayal/drakzin-ruins.research.webp",
+      "area": "Ruins of Drak’Zin, Grizzly Hills",
+      "pixelWidth": 1672,
+      "pixelHeight": 941,
+      "sourceArtifact": "exec-99444060-9613-4012-8490-6f13630764d3.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Overgrown Drakkari stone terraces and carved tusked faces beside cold water, enclosed by red cedar and dark conifers; Grizzly Hills forest palette rather than Zul’Drak’s open frozen plateau.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Subject_to_Interpretation",
+          "https://news.blizzard.com/en-us/article/23840668/wrath-classic-zone-guide-dragonblight-and-grizzly-hills"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original painterly Drak’Zin troll ruins landscape with carved Drakkari faces, water and Grizzly Hills cedar forest; no text, no copied screenshot.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 260872,
+      "sha256": "4f296d73157bd03d421c1d3dfe03000331007672d93fd66c8c80df6539c4884b",
+      "modifiedAt": "2026-10-04T00:31:36.073Z"
+    },
+    {
+      "id": "zebhalak-ziggurat",
+      "kind": "environment",
+      "file": "public/images/storylines/drakuru-betrayal/zebhalak-ziggurat.research.webp",
+      "area": "Zeb’Halak, Grizzly Hills",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-9d0afffa-520c-4590-afa9-2ce556a62789.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "A single stepped grey-green Drakkari ziggurat on a forested rocky rise, with tusked guardian carvings and an idol whose ruby eye is missing; surrounded by rust-red cedar and dark spruce, not a snowfield.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Sacrifices_Must_be_Made",
+          "https://news.blizzard.com/en-us/article/23840668/wrath-classic-zone-guide-dragonblight-and-grizzly-hills"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original painterly Zeb’Halak landscape with a stepped troll ziggurat, guardian faces, brazier and idol socket among Grizzly Hills cedar; no characters or copied screenshot.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 257520,
+      "sha256": "bf0dc9d71811ca8e01f7ecfa7add1c40ce7fee810a7e427a6c400a230682a5cf",
+      "modifiedAt": "2026-10-04T00:31:36.307Z"
+    },
+    {
+      "id": "blue-sky-logging-grounds",
+      "kind": "environment",
+      "file": "public/images/storylines/drakuru-betrayal/blue-sky-logging-grounds.research.webp",
+      "area": "Blue Sky Logging Grounds, Grizzly Hills",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-d9980580-426a-4080-9452-3eaf34ad9e50.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Grizzly Hills redwood forest, fast clear water, stacked timber, hand-built lumber platforms and the region’s log ride; autumn forest, no frost.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Heart_of_the_Ancients_(quest)",
+          "https://news.blizzard.com/en-us/article/23840668/wrath-classic-zone-guide-dragonblight-and-grizzly-hills"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original painterly Blue Sky Logging Grounds with cedar trunks, a logging station, stacked logs and river flume amid Grizzly Hills forest; no characters or copied screenshot.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 312062,
+      "sha256": "fecacd134c5b8f6fd15f3d76b38f5f591553c36990d23e803e73be9d4245b597",
+      "modifiedAt": "2026-10-04T00:31:36.539Z"
+    },
+    {
+      "id": "drakiljin-crypt",
+      "kind": "environment",
+      "file": "public/images/storylines/drakuru-betrayal/drakiljin-crypt.research.webp",
+      "area": "Ruins of Drakil’jin, Grizzly Hills",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-daa63d36-8cce-4b5b-8db9-2606daea0555.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Low, sprawling Drakkari burial crypts of weathered grey stone with carved tusked faces, roots and moss, enclosed by tall rust-red cedars; distinct from the high Zeb’Halak ziggurat.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Voices_From_the_Dust",
+          "https://news.blizzard.com/en-us/article/23840668/wrath-classic-zone-guide-dragonblight-and-grizzly-hills"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original painterly Drakil’jin burial complex in redwood Grizzly Hills, low crypt chambers, dark doorway, tusked carvings and a broken tablet; no characters or copied screenshot.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 275628,
+      "sha256": "da1b9934f8752c2a8fb6c3667e1b8099999e221490571dadf9904bf5810ec93f",
+      "modifiedAt": "2026-10-04T00:31:36.768Z"
+    },
+    {
+      "id": "draktharon-keep",
+      "kind": "environment",
+      "file": "public/images/storylines/drakuru-betrayal/draktharon-keep.research.webp",
+      "area": "Drak’Tharon Keep, border of Grizzly Hills and Zul’Drak",
+      "pixelWidth": 1947,
+      "pixelHeight": 808,
+      "sourceArtifact": "exec-d4c8955a-7799-4d04-bd01-d4c970fb5fc2.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "The Wrath-era carved Drakkari stronghold at the border: monumental dark stone, tusked troll faces, ascending ceremonial stairs, cold blue snow-light and restrained violet ritual fire. This is a broad interior impression, not the dungeon’s floor plan.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Cleansing_Drak%27Tharon",
+          "https://warcraft.wiki.gg/wiki/Drak%27Tharon_Keep",
+          "https://news.blizzard.com/en-us/article/23846691/wrath-classic-zone-guide-zuldrak-and-sholazar-basin"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original painterly Drak’Tharon Keep ritual chamber, heavy dark Drakkari stone, carved faces, steps, cold blue snow-light and violet brazier glow; no text or copied screenshot.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 125956,
+      "sha256": "b1dff39b527aac56f303d0c2a2e33cd1ad94c5da8017d7aefff4a94634b2f1c1",
+      "modifiedAt": "2026-10-04T00:31:36.957Z"
+    },
+    {
+      "id": "zuldrak-dead-fields",
+      "kind": "environment",
+      "file": "public/images/storylines/drakuru-betrayal/zuldrak-dead-fields.research.webp",
+      "area": "Dead Fields, Zul’Drak",
+      "pixelWidth": 1672,
+      "pixelHeight": 941,
+      "sourceArtifact": "exec-5f931554-7846-4b54-8225-c78fce48e8fd.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Zul’Drak’s harsh, Scourge-struck southern plain: exposed snow and ice, desaturated ground, ruined Drakkari stone markers, dead vegetation and distant stepped trolls structures. Keep the green blight subtle and localized.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Orders_From_Drakuru_(quest)",
+          "https://warcraft.wiki.gg/wiki/Reunited",
+          "https://news.blizzard.com/en-us/article/23846691/wrath-classic-zone-guide-zuldrak-and-sholazar-basin"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original painterly Dead Fields on Zul’Drak plateau, snow, ice, ruined Drakkari markers and distant necropolis, cold grey-blue light; no text or copied screenshot.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 193498,
+      "sha256": "feff43401e1cb2f1df0f56704b0a6641b90c7a96effa3a21de2a14716350587a",
+      "modifiedAt": "2026-10-04T00:31:37.180Z"
+    },
+    {
+      "id": "ebon-watch",
+      "kind": "environment",
+      "file": "public/images/storylines/drakuru-betrayal/ebon-watch.research.webp",
+      "area": "Ebon Watch, Zul’Drak",
+      "pixelWidth": 1774,
+      "pixelHeight": 887,
+      "sourceArtifact": "exec-89a39f78-3f4b-416d-94c8-de6284a152dc.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Small Knights of the Ebon Blade encampment in western Zul’Drak: dark stone defenses, black armor, muted red-black standards, campfires against the icy Drakkari plateau; keep any distant Argent color contextual, not a shared command.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/The_Ebon_Watch",
+          "https://news.blizzard.com/en-us/article/23846691/wrath-classic-zone-guide-zuldrak-and-sholazar-basin"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original painterly Ebon Watch encampment, black stone and black-red Ebon Blade standards in snowy Zul’Drak; no text or copied screenshot.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 177936,
+      "sha256": "ed7eb81c2956e5e08607f160f5302f13304a3cb8812a33f3d3fba4e1718fb86f",
+      "modifiedAt": "2026-10-04T00:31:37.380Z"
+    },
+    {
+      "id": "voltarus",
+      "kind": "environment",
+      "file": "public/images/storylines/drakuru-betrayal/voltarus.research.webp",
+      "area": "Voltarus necropolis, Zul’Drak",
+      "pixelWidth": 1672,
+      "pixelHeight": 941,
+      "sourceArtifact": "exec-d2393020-2eab-4917-8911-e75cef7a1988.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "A floating Scourge necropolis over Zul’Drak’s frozen ravines and toxic green pools, with dark iron buttresses, green blight light and snowbound Drakkari stone below.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Infiltrating_Voltarus",
+          "https://warcraft.wiki.gg/wiki/Voltarus",
+          "https://news.blizzard.com/en-us/article/23846691/wrath-classic-zone-guide-zuldrak-and-sholazar-basin"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original painterly floating Scourge necropolis over icy Zul’Drak, dark stone and iron, green blight, ravines; no text or copied screenshot.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 148544,
+      "sha256": "624334d4b5785bd6660259df1c9158fde4424ca6f14999d449d0703a9134d7fb",
+      "modifiedAt": "2026-10-04T00:31:37.616Z"
+    },
+    {
+      "id": "voltarus-summit",
+      "kind": "environment",
+      "file": "public/images/storylines/drakuru-betrayal/voltarus-summit.research.webp",
+      "area": "Upper platform of Voltarus, Zul’Drak",
+      "pixelWidth": 1774,
+      "pixelHeight": 887,
+      "sourceArtifact": "exec-d04e0294-ef3c-48ee-be84-e09f1f381686.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "An interpretive view of an elevated, round ritual platform with radial stairs and green-lit pylons above snowy ravines; the quest dialogue confirms the circular summit staging, but this is not an exact architectural reconstruction.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Betrayal",
+          "https://warcraft.wiki.gg/wiki/Voltarus",
+          "https://news.blizzard.com/en-us/article/23846691/wrath-classic-zone-guide-zuldrak-and-sholazar-basin"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original painterly circular Voltarus summit platform with radial stairs and green blight above Zul’Drak; interpretive, no text or copied screenshot.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 167834,
+      "sha256": "c79715276ae875ffcfe698c4e81c9ac628ed2a84893102c86a4283eaacce4ad7",
+      "modifiedAt": "2026-10-04T00:31:37.818Z"
+    },
+    {
+      "id": "drakuru",
+      "kind": "character",
+      "file": "public/images/storylines/drakuru-betrayal/drakuru-captive.research.webp",
+      "area": "Interpretive character, group, or object portrait for the Drakuru research story",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-55d2d90a-b028-47ce-b21a-d8491a317500.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Drakuru",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Truce%3F",
+          "https://warcraft.wiki.gg/wiki/Overlord_Drakuru"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original transparent full-body ice troll captive, chain cuffs, dark braided hair, pale blue-grey skin, fur and leather, no weapon; original interpretive portrait.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 131220,
+      "sha256": "fa49ca404505cdcecb62414c8c0f15176153c965d6033b51cc5d76822fbc35dd",
+      "modifiedAt": "2026-10-04T00:31:38.063Z"
+    },
+    {
+      "id": "warlord-zimbo",
+      "kind": "character",
+      "file": "public/images/storylines/drakuru-betrayal/warlord-zimbo.research.webp",
+      "area": "Interpretive character, group, or object portrait for the Drakuru research story",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-c4d31b53-c9cf-4f40-82ae-1ebbadaf7a0e.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Warlord Zim’bo",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Sacrifices_Must_be_Made",
+          "https://warcraft.wiki.gg/wiki/Warlord_Zim%27bo"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original transparent full-body Drakkari ice troll defender and warlord, slate-blue skin, long tusks, dark braids, fur and carved-stone armor. Do not copy a canonical model.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 149678,
+      "sha256": "9c5964dcfd97624f32dc4818cbc9f2a108b2443c1217bbe53bf3d885a3f51c27",
+      "modifiedAt": "2026-10-04T00:31:38.317Z"
+    },
+    {
+      "id": "overlord-drakuru",
+      "kind": "character",
+      "file": "public/images/storylines/drakuru-betrayal/drakuru-empowered.research.webp",
+      "area": "Interpretive character, group, or object portrait for the Drakuru research story",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-3605ec20-df39-45b7-b19a-908a520cb8a5.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Drakuru after the Lich King’s gift",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Cleansing_Drak%27Tharon",
+          "https://warcraft.wiki.gg/wiki/Overlord_Drakuru"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original transparent full-body portrait of the same Drakkari troll after the Lich King transforms him: larger, darker-blue skin, ice-blue eyes, heavy Scourge armor. The appearance-state record is not a second individual.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 165596,
+      "sha256": "ba82cb770bdceb629606f0a1993b1b3174c9e4eb40671a10e8b1552783f7b3cc",
+      "modifiedAt": "2026-10-04T00:31:38.579Z"
+    },
+    {
+      "id": "stefan-vadu",
+      "kind": "character",
+      "file": "public/images/storylines/drakuru-betrayal/stefan-vadu.research.webp",
+      "area": "Interpretive character, group, or object portrait for the Drakuru research story",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-16b1e261-43b5-4783-9208-cda5d59ed9ee.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Stefan Vadu",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/The_Ebon_Watch",
+          "https://warcraft.wiki.gg/wiki/Infiltrating_Voltarus"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original transparent portrait of an adult male Ebon Blade death knight in dark iron armor, black scarf and muted deep-red cloak, no pose copied from game art.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 107406,
+      "sha256": "414b6fb0e6fa2659abcfff9ccc213c87e976e2315a3c5e5d057e525460c03339",
+      "modifiedAt": "2026-10-04T00:31:38.810Z"
+    },
+    {
+      "id": "blightblood-trolls",
+      "kind": "faction",
+      "file": "public/images/storylines/drakuru-betrayal/blightblood-trolls.research.webp",
+      "area": "Interpretive character, group, or object portrait for the Drakuru research story",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-a5a70c2b-18a4-45b9-9fca-aa801221d883.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Blightblood Trolls",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Betrayal",
+          "https://warcraft.wiki.gg/wiki/Overlord_Drakuru"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original transparent ensemble of three distinct undead Drakkari dire trolls, tusks, fur and blight-infused green details; not individual canonical NPC likenesses.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 392932,
+      "sha256": "ca6885b27398cd34b36ae6006ac81c40c9e205f622b9a078b89b8eb79d5003c3",
+      "modifiedAt": "2026-10-04T00:31:39.241Z"
+    },
+    {
+      "id": "eye-of-the-prophets",
+      "kind": "artifact",
+      "file": "public/images/storylines/drakuru-betrayal/eye-of-the-prophets.research.webp",
+      "area": "Interpretive character, group, or object portrait for the Drakuru research story",
+      "pixelWidth": 1312,
+      "pixelHeight": 1199,
+      "sourceArtifact": "exec-3718c378-6aee-4fc0-909b-bd09abd91296.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Eye of the Prophets",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Sacrifices_Must_be_Made",
+          "https://warcraft.wiki.gg/wiki/Subject_to_Interpretation"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original transparent ruby-red faceted idol eye in a fragment of carved grey Drakkari stone; source text says ruby eyes, so it must not appear blue.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 363092,
+      "sha256": "435de79f0de158fb11bbe3246ca8c1a5354af36123262a66bf4e00445ea14dca",
+      "modifiedAt": "2026-10-04T00:31:39.703Z"
+    },
+    {
+      "id": "heart-of-the-ancients",
+      "kind": "artifact",
+      "file": "public/images/storylines/drakuru-betrayal/heart-of-the-ancients.research.webp",
+      "area": "Interpretive character, group, or object portrait for the Drakuru research story",
+      "pixelWidth": 1274,
+      "pixelHeight": 1235,
+      "sourceArtifact": "exec-7637cd5d-ef04-433d-8f18-4151727c9ed3.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Heart of the Ancients",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Heart_of_the_Ancients_(quest)",
+          "https://warcraft.wiki.gg/wiki/My_Heart_is_in_Your_Hands"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original transparent luminous angular blue-green ancient crystal, no extra setting or text.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 305098,
+      "sha256": "8b954dc322303bfe0dac4d0d76f61f053b42ecd24b9a05b27265bd5a2e316906",
+      "modifiedAt": "2026-10-04T00:31:40.099Z"
+    },
+    {
+      "id": "scepter-of-domination",
+      "kind": "artifact",
+      "file": "public/images/storylines/drakuru-betrayal/scepter-of-domination.research.webp",
+      "area": "Interpretive character, group, or object portrait for the Drakuru research story",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-1205d914-550a-4049-91e5-1005758d286b.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, target reference 3.3.5a; exact client capture and comparison remain open.",
+      "recognizableTraits": "Scepter of Domination",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a area, character, or object identity",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Disclosure",
+          "https://warcraft.wiki.gg/wiki/Betrayal"
+        ],
+        "comparisonCapture": "No original-client screenshot bundled; human side-by-side comparison against the matching 3.3.5a client remains open."
+      },
+      "generationPrompt": "Original interpretive long dark scepter with cold violet crystals and metal, no raven carving, no Atiesh silhouette, no red streamer. This is distinct from Atiesh and from the Scepter of the Shifting Sands.",
+      "generator": "OpenAI ImageGen; original generated illustration converted to optimized WebP with FFmpeg. No game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Inspected for the named area palette, landmark/material traits, prop color, silhouette and separation. This is interpretive art, not canonical game evidence; matching-client comparison remains a human review gate.",
+      "byteLength": 47992,
+      "sha256": "9c11882dc7fadc49634edb5f95e9481a3ac9f5f5d937be5e43b8055c0d913774",
+      "modifiedAt": "2026-10-04T00:31:40.249Z"
+    }
+  ],
+  "sceneLedger": [
+    {
+      "nodeId": "drakuru-betrayal-story-captive-at-granite-springs",
+      "title": "A captive among the cedars",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/granite-springs.research.webp",
+      "gameArea": "Granite Springs, Grizzly Hills",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Wrath Grizzly Hills: giant rust-red and copper cedar trunks, dark conifers, moss, brown forest floor, spring water and a rough lumber-camp palisade; no snow-covered high-alpine scenery.",
+      "cast": [
+        {
+          "id": "drakuru",
+          "name": "Drakuru",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-captive.research.webp"
+        }
+      ],
+      "locations": [
+        "granite-springs"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-truce",
+        "drakuru-betrayal-guru-of-drakuru",
+        "drakuru-betrayal-blizzard-grizzly-hills"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-blood-pact",
+      "title": "The bargain sealed in blood",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/granite-springs.research.webp",
+      "gameArea": "Granite Springs, Grizzly Hills",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Wrath Grizzly Hills: giant rust-red and copper cedar trunks, dark conifers, moss, brown forest floor, spring water and a rough lumber-camp palisade; no snow-covered high-alpine scenery.",
+      "cast": [
+        {
+          "id": "drakuru",
+          "name": "Drakuru",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-captive.research.webp"
+        }
+      ],
+      "locations": [
+        "granite-springs"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-truce"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-vial-of-visions",
+      "title": "A voice carried through the vial",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/granite-springs.research.webp",
+      "gameArea": "Granite Springs, Grizzly Hills",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Wrath Grizzly Hills: giant rust-red and copper cedar trunks, dark conifers, moss, brown forest floor, spring water and a rough lumber-camp palisade; no snow-covered high-alpine scenery.",
+      "cast": [
+        {
+          "id": "drakuru",
+          "name": "Drakuru",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-captive.research.webp"
+        }
+      ],
+      "locations": [
+        "granite-springs"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-vial-of-visions"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-hieroglyphs-of-drakzin",
+      "title": "The stones of Drak’Zin",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/drakzin-ruins.research.webp",
+      "gameArea": "Ruins of Drak’Zin, Grizzly Hills",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Overgrown Drakkari stone terraces and carved tusked faces beside cold water, enclosed by red cedar and dark conifers; Grizzly Hills forest palette rather than Zul’Drak’s open frozen plateau.",
+      "cast": [
+        {
+          "id": "drakuru",
+          "name": "Drakuru",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-captive.research.webp"
+        }
+      ],
+      "locations": [
+        "drakzin-ruins"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-subject-to-interpretation"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-eye-of-the-prophets",
+      "title": "The eye in the idol",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/zebhalak-ziggurat.research.webp",
+      "gameArea": "Zeb’Halak, Grizzly Hills",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "A single stepped grey-green Drakkari ziggurat on a forested rocky rise, with tusked guardian carvings and an idol whose ruby eye is missing; surrounded by rust-red cedar and dark spruce, not a snowfield.",
+      "cast": [
+        {
+          "id": "drakuru",
+          "name": "Drakuru",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-captive.research.webp"
+        },
+        {
+          "id": "warlord-zimbo",
+          "name": "Warlord Zim’bo",
+          "image": "public/images/storylines/drakuru-betrayal/warlord-zimbo.research.webp"
+        },
+        {
+          "id": "eye-of-the-prophets",
+          "name": "Eye of the Prophets",
+          "image": "public/images/storylines/drakuru-betrayal/eye-of-the-prophets.research.webp"
+        }
+      ],
+      "locations": [
+        "zebhalak"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-sacrifices-must-be-made",
+        "drakuru-betrayal-warlord-zimbo"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-heart-at-blue-sky",
+      "title": "The heart beneath the logging ground",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/blue-sky-logging-grounds.research.webp",
+      "gameArea": "Blue Sky Logging Grounds, Grizzly Hills",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Grizzly Hills redwood forest, fast clear water, stacked timber, hand-built lumber platforms and the region’s log ride; autumn forest, no frost.",
+      "cast": [
+        {
+          "id": "heart-of-the-ancients",
+          "name": "Heart of the Ancients",
+          "image": "public/images/storylines/drakuru-betrayal/heart-of-the-ancients.research.webp"
+        }
+      ],
+      "locations": [
+        "blue-sky-logging-grounds"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-heart-of-the-ancients",
+        "drakuru-betrayal-blizzard-grizzly-hills"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-drakatal-watching",
+      "title": "The heart watched from afar",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/draktharon-keep.research.webp",
+      "gameArea": "Drak’Tharon Keep, border of Grizzly Hills and Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "The Wrath-era carved Drakkari stronghold at the border: monumental dark stone, tusked troll faces, ascending ceremonial stairs, cold blue snow-light and restrained violet ritual fire. This is a broad interior impression, not the dungeon’s floor plan.",
+      "cast": [
+        {
+          "id": "drakuru",
+          "name": "Drakuru",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-captive.research.webp"
+        },
+        {
+          "id": "eye-of-the-prophets",
+          "name": "Eye of the Prophets",
+          "image": "public/images/storylines/drakuru-betrayal/eye-of-the-prophets.research.webp"
+        },
+        {
+          "id": "heart-of-the-ancients",
+          "name": "Heart of the Ancients",
+          "image": "public/images/storylines/drakuru-betrayal/heart-of-the-ancients.research.webp"
+        }
+      ],
+      "locations": [
+        "drak-atal-passage",
+        "drak-tharon-keep"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-my-heart-is-in-your-hands"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-tablets-of-drakiljin",
+      "title": "The voices in the crypt",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/drakiljin-crypt.research.webp",
+      "gameArea": "Ruins of Drakil’jin, Grizzly Hills",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Low, sprawling Drakkari burial crypts of weathered grey stone with carved tusked faces, roots and moss, enclosed by tall rust-red cedars; distinct from the high Zeb’Halak ziggurat.",
+      "cast": [
+        {
+          "id": "drakuru",
+          "name": "Drakuru",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-captive.research.webp"
+        },
+        {
+          "id": "eye-of-the-prophets",
+          "name": "Eye of the Prophets",
+          "image": "public/images/storylines/drakuru-betrayal/eye-of-the-prophets.research.webp"
+        },
+        {
+          "id": "heart-of-the-ancients",
+          "name": "Heart of the Ancients",
+          "image": "public/images/storylines/drakuru-betrayal/heart-of-the-ancients.research.webp"
+        }
+      ],
+      "locations": [
+        "drakiljin-ruins"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-voices-from-the-dust"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-keep-is-cleansed",
+      "title": "The fortress opened",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/draktharon-keep.research.webp",
+      "gameArea": "Drak’Tharon Keep, border of Grizzly Hills and Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "The Wrath-era carved Drakkari stronghold at the border: monumental dark stone, tusked troll faces, ascending ceremonial stairs, cold blue snow-light and restrained violet ritual fire. This is a broad interior impression, not the dungeon’s floor plan.",
+      "cast": [
+        {
+          "id": "drakuru",
+          "name": "Drakuru",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-captive.research.webp"
+        }
+      ],
+      "locations": [
+        "drak-tharon-keep"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-draktharon-area",
+        "drakuru-betrayal-blizzard-zuldrak"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-lich-kings-gift",
+      "title": "The gift beneath the Keep",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/draktharon-keep.research.webp",
+      "gameArea": "Drak’Tharon Keep, border of Grizzly Hills and Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "The Wrath-era carved Drakkari stronghold at the border: monumental dark stone, tusked troll faces, ascending ceremonial stairs, cold blue snow-light and restrained violet ritual fire. This is a broad interior impression, not the dungeon’s floor plan.",
+      "cast": [
+        {
+          "id": "overlord-drakuru",
+          "name": "Drakuru after the Lich King’s gift",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-empowered.research.webp"
+        },
+        {
+          "id": "arthas-as-the-lich-king",
+          "name": "The Lich King",
+          "image": "public/images/characters/third-war-frozen-throne/arthas-as-the-lich-king.research.webp"
+        }
+      ],
+      "locations": [
+        "drak-tharon-keep"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-orders-in-the-dead-fields",
+      "title": "Orders from the Dead Fields",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/zuldrak-dead-fields.research.webp",
+      "gameArea": "Dead Fields, Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Zul’Drak’s harsh, Scourge-struck southern plain: exposed snow and ice, desaturated ground, ruined Drakkari stone markers, dead vegetation and distant stepped trolls structures. Keep the green blight subtle and localized.",
+      "cast": [
+        {
+          "id": "overlord-drakuru",
+          "name": "Drakuru after the Lich King’s gift",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-empowered.research.webp"
+        }
+      ],
+      "locations": [
+        "zul-drak-dead-fields"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-orders-from-drakuru",
+        "drakuru-betrayal-blizzard-zuldrak"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-stefan-reads-the-orders",
+      "title": "The Ebon Watch has followed",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/ebon-watch.research.webp",
+      "gameArea": "Ebon Watch, Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Small Knights of the Ebon Blade encampment in western Zul’Drak: dark stone defenses, black armor, muted red-black standards, campfires against the icy Drakkari plateau; keep any distant Argent color contextual, not a shared command.",
+      "cast": [
+        {
+          "id": "stefan-vadu",
+          "name": "Stefan Vadu",
+          "image": "public/images/storylines/drakuru-betrayal/stefan-vadu.research.webp"
+        }
+      ],
+      "locations": [
+        "ebon-watch"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-orders-from-drakuru",
+        "drakuru-betrayal-the-ebon-watch",
+        "drakuru-betrayal-blizzard-zuldrak"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-a-return-to-voltarus",
+      "title": "A welcome beneath the necropolis",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/voltarus.research.webp",
+      "gameArea": "Voltarus necropolis, Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "A floating Scourge necropolis over Zul’Drak’s frozen ravines and toxic green pools, with dark iron buttresses, green blight light and snowbound Drakkari stone below.",
+      "cast": [
+        {
+          "id": "overlord-drakuru",
+          "name": "Drakuru after the Lich King’s gift",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-empowered.research.webp"
+        }
+      ],
+      "locations": [
+        "voltarus"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-reunited",
+        "drakuru-betrayal-dark-horizon",
+        "drakuru-betrayal-voltarus-area"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-land-he-means-to-take",
+      "title": "Gundrak in his sight",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/voltarus.research.webp",
+      "gameArea": "Voltarus necropolis, Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "A floating Scourge necropolis over Zul’Drak’s frozen ravines and toxic green pools, with dark iron buttresses, green blight light and snowbound Drakkari stone below.",
+      "cast": [
+        {
+          "id": "overlord-drakuru",
+          "name": "Drakuru after the Lich King’s gift",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-empowered.research.webp"
+        }
+      ],
+      "locations": [
+        "voltarus"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-reunited",
+        "drakuru-betrayal-dark-horizon",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-choker-and-the-mask",
+      "title": "A disguise within Voltarus",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/voltarus.research.webp",
+      "gameArea": "Voltarus necropolis, Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "A floating Scourge necropolis over Zul’Drak’s frozen ravines and toxic green pools, with dark iron buttresses, green blight light and snowbound Drakkari stone below.",
+      "cast": [
+        {
+          "id": "stefan-vadu",
+          "name": "Stefan Vadu",
+          "image": "public/images/storylines/drakuru-betrayal/stefan-vadu.research.webp"
+        },
+        {
+          "id": "overlord-drakuru",
+          "name": "Drakuru after the Lich King’s gift",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-empowered.research.webp"
+        }
+      ],
+      "locations": [
+        "ebon-watch",
+        "voltarus"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-infiltrating-voltarus",
+        "drakuru-betrayal-the-ebon-watch",
+        "drakuru-betrayal-guru-of-drakuru"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-crystals-of-blight",
+      "title": "The crystals harvested",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/voltarus.research.webp",
+      "gameArea": "Voltarus necropolis, Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "A floating Scourge necropolis over Zul’Drak’s frozen ravines and toxic green pools, with dark iron buttresses, green blight light and snowbound Drakkari stone below.",
+      "cast": [
+        {
+          "id": "overlord-drakuru",
+          "name": "Drakuru after the Lich King’s gift",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-empowered.research.webp"
+        },
+        {
+          "id": "stefan-vadu",
+          "name": "Stefan Vadu",
+          "image": "public/images/storylines/drakuru-betrayal/stefan-vadu.research.webp"
+        }
+      ],
+      "locations": [
+        "voltarus"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-hazardous-materials",
+        "drakuru-betrayal-so-far-so-bad",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-scepter-of-domination",
+      "title": "The scepter and the secret",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/voltarus.research.webp",
+      "gameArea": "Voltarus necropolis, Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "A floating Scourge necropolis over Zul’Drak’s frozen ravines and toxic green pools, with dark iron buttresses, green blight light and snowbound Drakkari stone below.",
+      "cast": [
+        {
+          "id": "overlord-drakuru",
+          "name": "Drakuru after the Lich King’s gift",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-empowered.research.webp"
+        },
+        {
+          "id": "scepter-of-domination",
+          "name": "Scepter of Domination",
+          "image": "public/images/storylines/drakuru-betrayal/scepter-of-domination.research.webp"
+        }
+      ],
+      "locations": [
+        "voltarus"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-fuel-for-the-fire",
+        "drakuru-betrayal-disclosure",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-blightblood-army",
+      "title": "An army remade from captives",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/voltarus.research.webp",
+      "gameArea": "Voltarus necropolis, Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "A floating Scourge necropolis over Zul’Drak’s frozen ravines and toxic green pools, with dark iron buttresses, green blight light and snowbound Drakkari stone below.",
+      "cast": [
+        {
+          "id": "overlord-drakuru",
+          "name": "Drakuru after the Lich King’s gift",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-empowered.research.webp"
+        },
+        {
+          "id": "blightblood-trolls",
+          "name": "Blightblood Trolls",
+          "image": "public/images/storylines/drakuru-betrayal/blightblood-trolls.research.webp"
+        }
+      ],
+      "locations": [
+        "voltarus"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-disclosure",
+        "drakuru-betrayal-betrayal",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-scepter-turns",
+      "title": "The master is undone",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/voltarus-summit.research.webp",
+      "gameArea": "Upper platform of Voltarus, Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "An interpretive view of an elevated, round ritual platform with radial stairs and green-lit pylons above snowy ravines; the quest dialogue confirms the circular summit staging, but this is not an exact architectural reconstruction.",
+      "cast": [
+        {
+          "id": "overlord-drakuru",
+          "name": "Drakuru after the Lich King’s gift",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-empowered.research.webp"
+        },
+        {
+          "id": "blightblood-trolls",
+          "name": "Blightblood Trolls",
+          "image": "public/images/storylines/drakuru-betrayal/blightblood-trolls.research.webp"
+        },
+        {
+          "id": "scepter-of-domination",
+          "name": "Scepter of Domination",
+          "image": "public/images/storylines/drakuru-betrayal/scepter-of-domination.research.webp"
+        }
+      ],
+      "locations": [
+        "voltarus"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-betrayal",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    },
+    {
+      "nodeId": "drakuru-betrayal-story-the-lich-kings-judgment",
+      "title": "The last judgment",
+      "environmentPath": "public/images/storylines/drakuru-betrayal/voltarus-summit.research.webp",
+      "gameArea": "Upper platform of Voltarus, Zul’Drak",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "An interpretive view of an elevated, round ritual platform with radial stairs and green-lit pylons above snowy ravines; the quest dialogue confirms the circular summit staging, but this is not an exact architectural reconstruction.",
+      "cast": [
+        {
+          "id": "overlord-drakuru",
+          "name": "Drakuru after the Lich King’s gift",
+          "image": "public/images/storylines/drakuru-betrayal/drakuru-empowered.research.webp"
+        },
+        {
+          "id": "arthas-as-the-lich-king",
+          "name": "The Lich King",
+          "image": "public/images/characters/third-war-frozen-throne/arthas-as-the-lich-king.research.webp"
+        },
+        {
+          "id": "stefan-vadu",
+          "name": "Stefan Vadu",
+          "image": "public/images/storylines/drakuru-betrayal/stefan-vadu.research.webp"
+        }
+      ],
+      "locations": [
+        "voltarus"
+      ],
+      "visualActions": [
+        "set relational story MapState",
+        "show only the node’s contextual cast and object figures"
+      ],
+      "citations": [
+        "drakuru-betrayal-betrayal",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "visualReview": "Scene checked against the recorded area traits and generated illustration. Original-client 3.3.5a comparison remains open; no exact in-game resemblance is claimed."
+    }
+  ]
+}

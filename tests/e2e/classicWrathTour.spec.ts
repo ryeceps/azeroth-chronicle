@@ -24,13 +24,13 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   expect(mapFrameBounds!.y).toBe(0);
   expect(controlBounds!.y).toBe(0);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
-  await expect(page.locator('.story-tour-dot')).toHaveCount(22);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(23);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
   await expect(page.locator('.story-tour-backdrop, .story-tour-section-heading, .story-tour-map-caption, .story-tour-order-note')).toHaveCount(0);
   await expect(page.locator('.story-tour-tooltip').first()).toHaveCSS('visibility', 'hidden');
 
   const onyxia = page.getByRole('button', { name: /stormwind-onyxia-conspiracy|Onyxia/i });
-  const scepter = page.getByRole('button', { name: /scepter-of-the-shifting-sands|Scepter/i });
+  const scepter = page.locator('.story-tour-dot[aria-describedby="story-tour-tip-scepter-of-the-shifting-sands"]');
   const dungeonSetTwo = page.getByRole('button', { name: /dungeon-set-two-veiled-blade|Veiled Blade/i });
   const fallenHero = page.getByRole('button', { name: /fallen-hero-and-rakhlikh|Fallen Hero/i });
   const tirionTaelan = page.getByRole('button', { name: /tirion-taelan-of-love-and-family|Tirion and Taelan/i });
@@ -396,6 +396,10 @@ test('Play All advances completed stories in chronological order and restores th
   await expect(page.getByRole('heading', { name: 'A winter road for the Alliance', exact: true })).toBeVisible();
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('wrathgate-and-undercity');
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=wrathgate-and-undercity&node=wrathgate-and-undercity-story-the-war-continues&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'A captive among the cedars' })).toBeVisible();
+  await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('drakuru-betrayal');
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=drakuru-betrayal&node=drakuru-betrayal-story-the-lich-kings-judgment&play=all');
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'A hilt without a finder' })).toBeVisible();
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('quel-delar-restored');
