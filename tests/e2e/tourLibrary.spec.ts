@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 test('the storyline archive ends at Wrath while retaining ancient history', async ({ page }) => {
   await page.goto('/tours?view=storylines');
-  await expect(page.getByText('25 stories', { exact: true })).toBeVisible();
+  await expect(page.getByText('26 stories', { exact: true })).toBeVisible();
   await expect(page.getByText(/archive covers ancient history through Wrath of the Lich King/)).toBeVisible();
   await expect(page.getByRole('link', { name: /Galakrond and the Five Proto-Dragons/ })).toBeVisible();
   await expect(page.getByRole('link', { name: /Quel’Delar: The Broken Blade Restored/ })).toBeVisible();

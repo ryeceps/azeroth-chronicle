@@ -122,6 +122,17 @@
       }
     },
     {
+      "id": "drakuru-betrayal-theater",
+      "name": "Drakuru — relational story theater",
+      "slug": "drakuru-betrayal-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "dungeon-set-two-story-theater",
       "name": "Dungeon Set 2 — relational story theater",
       "slug": "dungeon-set-two-story-theater",
@@ -1237,6 +1248,106 @@
       "geometryIds": [],
       "cartographyLabel": "THE DEFIAS · STORY SCENE",
       "interpretationNote": "Original or reused interpretive scene art for original World of Warcraft Classic. Recognizable traits: Original World of Warcraft Classic: dry, wind-scoured golden fields, sparse farms, pale dirt roads, and the Sentinel Hill watchtower. No exact farm or battle position is asserted. No exact position, surveyed layout, route, item placement, canonical model, or unseen action is asserted. Matching original-client area review remains open; see docs/research/defias-original-conspiracy-visual-assets.json."
+    },
+    {
+      "id": "drakuru-betrayal-blue-sky-logging-grounds-scene",
+      "name": "Drakuru story: Blue Sky Logging Grounds",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/drakuru-betrayal/blue-sky-logging-grounds.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Blue Sky Logging Grounds, Grizzly Hills. Preserve these Wrath-era traits: Grizzly Hills redwood forest, fast clear water, stacked timber, hand-built lumber platforms and the region’s log ride; autumn forest, no frost. This is not a surveyed map, exact dungeon floor plan, or evidence of precise actor placement. Compare with the matching 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "drakuru-betrayal-drakiljin-crypt-scene",
+      "name": "Drakuru story: Ruins of Drakil’jin",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/drakuru-betrayal/drakiljin-crypt.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Ruins of Drakil’jin, Grizzly Hills. Preserve these Wrath-era traits: Low, sprawling Drakkari burial crypts of weathered grey stone with carved tusked faces, roots and moss, enclosed by tall rust-red cedars; distinct from the high Zeb’Halak ziggurat. This is not a surveyed map, exact dungeon floor plan, or evidence of precise actor placement. Compare with the matching 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "drakuru-betrayal-draktharon-keep-scene",
+      "name": "Drakuru story: Drak’Tharon Keep",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/drakuru-betrayal/draktharon-keep.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Drak’Tharon Keep, border of Grizzly Hills and Zul’Drak. Preserve these Wrath-era traits: The Wrath-era carved Drakkari stronghold at the border: monumental dark stone, tusked troll faces, ascending ceremonial stairs, cold blue snow-light and restrained violet ritual fire. This is a broad interior impression, not the dungeon’s floor plan. This is not a surveyed map, exact dungeon floor plan, or evidence of precise actor placement. Compare with the matching 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "drakuru-betrayal-drakzin-ruins-scene",
+      "name": "Drakuru story: Ruins of Drak’Zin",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/drakuru-betrayal/drakzin-ruins.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Ruins of Drak’Zin, Grizzly Hills. Preserve these Wrath-era traits: Overgrown Drakkari stone terraces and carved tusked faces beside cold water, enclosed by red cedar and dark conifers; Grizzly Hills forest palette rather than Zul’Drak’s open frozen plateau. This is not a surveyed map, exact dungeon floor plan, or evidence of precise actor placement. Compare with the matching 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "drakuru-betrayal-ebon-watch-scene",
+      "name": "Drakuru story: Ebon Watch",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/drakuru-betrayal/ebon-watch.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Ebon Watch, Zul’Drak. Preserve these Wrath-era traits: Small Knights of the Ebon Blade encampment in western Zul’Drak: dark stone defenses, black armor, muted red-black standards, campfires against the icy Drakkari plateau; keep any distant Argent color contextual, not a shared command. This is not a surveyed map, exact dungeon floor plan, or evidence of precise actor placement. Compare with the matching 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "drakuru-betrayal-granite-springs-scene",
+      "name": "Drakuru story: Granite Springs",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/drakuru-betrayal/granite-springs.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Granite Springs, Grizzly Hills. Preserve these Wrath-era traits: Wrath Grizzly Hills: giant rust-red and copper cedar trunks, dark conifers, moss, brown forest floor, spring water and a rough lumber-camp palisade; no snow-covered high-alpine scenery. This is not a surveyed map, exact dungeon floor plan, or evidence of precise actor placement. Compare with the matching 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "drakuru-betrayal-voltarus-scene",
+      "name": "Drakuru story: Voltarus",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/drakuru-betrayal/voltarus.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Voltarus necropolis, Zul’Drak. Preserve these Wrath-era traits: A floating Scourge necropolis over Zul’Drak’s frozen ravines and toxic green pools, with dark iron buttresses, green blight light and snowbound Drakkari stone below. This is not a surveyed map, exact dungeon floor plan, or evidence of precise actor placement. Compare with the matching 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "drakuru-betrayal-voltarus-summit-scene",
+      "name": "Drakuru story: The summit of Voltarus",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/drakuru-betrayal/voltarus-summit.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Upper platform of Voltarus, Zul’Drak. Preserve these Wrath-era traits: An interpretive view of an elevated, round ritual platform with radial stairs and green-lit pylons above snowy ravines; the quest dialogue confirms the circular summit staging, but this is not an exact architectural reconstruction. This is not a surveyed map, exact dungeon floor plan, or evidence of precise actor placement. Compare with the matching 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "drakuru-betrayal-zebhalak-ziggurat-scene",
+      "name": "Drakuru story: Zeb’Halak",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/drakuru-betrayal/zebhalak-ziggurat.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Zeb’Halak, Grizzly Hills. Preserve these Wrath-era traits: A single stepped grey-green Drakkari ziggurat on a forested rocky rise, with tusked guardian carvings and an idol whose ruby eye is missing; surrounded by rust-red cedar and dark spruce, not a snowfield. This is not a surveyed map, exact dungeon floor plan, or evidence of precise actor placement. Compare with the matching 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "drakuru-betrayal-zuldrak-dead-fields-scene",
+      "name": "Drakuru story: The Dead Fields",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/drakuru-betrayal/zuldrak-dead-fields.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Dead Fields, Zul’Drak. Preserve these Wrath-era traits: Zul’Drak’s harsh, Scourge-struck southern plain: exposed snow and ice, desaturated ground, ruined Drakkari stone markers, dead vegetation and distant stepped trolls structures. Keep the green blight subtle and localized. This is not a surveyed map, exact dungeon floor plan, or evidence of precise actor placement. Compare with the matching 3.3.5a client before human visual approval."
     },
     {
       "id": "dungeon-set-two-beasts-chamber-scene",
@@ -6324,6 +6435,154 @@
       "editorNote": "Symbolic five-flight ensemble, not an exact gathering.",
       "labelPriority": 230,
       "visualPresence": "contextual"
+    },
+    {
+      "id": "drakuru-betrayal-arthas-as-the-lich-king-theater",
+      "entityId": "arthas-as-the-lich-king",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "geometryId": "drakuru-betrayal-arthas-as-the-lich-king-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-betrayal"
+      ],
+      "editorNote": "Position 9 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation, or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "drakuru-betrayal-blightblood-trolls-theater",
+      "entityId": "blightblood-trolls",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "geometryId": "drakuru-betrayal-blightblood-trolls-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "drakuru-betrayal-betrayal",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "editorNote": "Position 5 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation, or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "drakuru-betrayal-drakuru-theater",
+      "entityId": "drakuru",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "geometryId": "drakuru-betrayal-drakuru-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "drakuru-betrayal-truce",
+        "drakuru-betrayal-overlord-drakuru",
+        "drakuru-betrayal-guru-of-drakuru"
+      ],
+      "editorNote": "Position 1 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation, or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "drakuru-betrayal-eye-of-the-prophets-theater",
+      "entityId": "eye-of-the-prophets",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "geometryId": "drakuru-betrayal-eye-of-the-prophets-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "drakuru-betrayal-sacrifices-must-be-made",
+        "drakuru-betrayal-subject-to-interpretation",
+        "drakuru-betrayal-my-heart-is-in-your-hands",
+        "drakuru-betrayal-voices-from-the-dust"
+      ],
+      "editorNote": "Position 6 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation, or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "drakuru-betrayal-heart-of-the-ancients-theater",
+      "entityId": "heart-of-the-ancients",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "geometryId": "drakuru-betrayal-heart-of-the-ancients-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "drakuru-betrayal-heart-of-the-ancients",
+        "drakuru-betrayal-my-heart-is-in-your-hands",
+        "drakuru-betrayal-voices-from-the-dust"
+      ],
+      "editorNote": "Position 7 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation, or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "drakuru-betrayal-overlord-drakuru-theater",
+      "entityId": "overlord-drakuru",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "geometryId": "drakuru-betrayal-overlord-drakuru-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "editorNote": "Position 3 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation, or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "drakuru-betrayal-scepter-of-domination-theater",
+      "entityId": "scepter-of-domination",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "geometryId": "drakuru-betrayal-scepter-of-domination-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "drakuru-betrayal-disclosure",
+        "drakuru-betrayal-betrayal"
+      ],
+      "editorNote": "Position 8 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation, or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "drakuru-betrayal-stefan-vadu-theater",
+      "entityId": "stefan-vadu",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "geometryId": "drakuru-betrayal-stefan-vadu-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "drakuru-betrayal-the-ebon-watch",
+        "drakuru-betrayal-infiltrating-voltarus"
+      ],
+      "editorNote": "Position 4 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation, or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "drakuru-betrayal-warlord-zimbo-theater",
+      "entityId": "warlord-zimbo",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "geometryId": "drakuru-betrayal-warlord-zimbo-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "drakuru-betrayal-sacrifices-must-be-made",
+        "drakuru-betrayal-warlord-zimbo"
+      ],
+      "editorNote": "Position 2 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation, or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
     },
     {
       "id": "dungeon-set-two-anthion-harmon-theater",
@@ -12810,7 +13069,33 @@
         "sunwell-eredar-twins",
         "sunwell-muru-encounter",
         "sunwell-epilogue-transcript",
-        "sunwell-kiljaeden-encounter"
+        "sunwell-kiljaeden-encounter",
+        "drakuru-betrayal-truce",
+        "drakuru-betrayal-vial-of-visions",
+        "drakuru-betrayal-subject-to-interpretation",
+        "drakuru-betrayal-sacrifices-must-be-made",
+        "drakuru-betrayal-heart-of-the-ancients",
+        "drakuru-betrayal-my-heart-is-in-your-hands",
+        "drakuru-betrayal-voices-from-the-dust",
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-orders-from-drakuru",
+        "drakuru-betrayal-the-ebon-watch",
+        "drakuru-betrayal-reunited",
+        "drakuru-betrayal-dark-horizon",
+        "drakuru-betrayal-infiltrating-voltarus",
+        "drakuru-betrayal-so-far-so-bad",
+        "drakuru-betrayal-hazardous-materials",
+        "drakuru-betrayal-sabotage",
+        "drakuru-betrayal-fuel-for-the-fire",
+        "drakuru-betrayal-disclosure",
+        "drakuru-betrayal-betrayal",
+        "drakuru-betrayal-overlord-drakuru",
+        "drakuru-betrayal-guru-of-drakuru",
+        "drakuru-betrayal-blizzard-grizzly-hills",
+        "drakuru-betrayal-blizzard-zuldrak",
+        "drakuru-betrayal-draktharon-area",
+        "drakuru-betrayal-voltarus-area",
+        "drakuru-betrayal-warlord-zimbo"
       ],
       "contentStatus": "research"
     },
@@ -14181,7 +14466,10 @@
       ],
       "sourceIds": [
         "story-wrathgate",
-        "wrathgate-angrathar-event-locator"
+        "wrathgate-angrathar-event-locator",
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-betrayal",
+        "drakuru-betrayal-overlord-drakuru"
       ],
       "tags": [
         "arthas-menethil",
@@ -15095,6 +15383,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "blightblood-trolls",
+      "type": "faction",
+      "name": "Blightblood Trolls",
+      "slug": "blightblood-trolls",
+      "shortDescription": "Drakkari chieftains captured and infused with blight to form part of Drakuru’s Scourge army; shown as an interpretive ensemble.",
+      "body": "Original interpretive illustration, not canonical game art. See docs/research/drakuru-visual-assets.json for its scene use, source locator, appearance boundary, and open visual review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-betrayal",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "tags": [
+        "drakuru-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/drakuru-betrayal/blightblood-trolls.research.webp",
+        "scale": 0.96
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "blood-lord-zarath",
       "type": "character",
       "name": "Blood Lord Zarath",
@@ -15170,6 +15483,27 @@
         "asset": "images/storylines/cipher-of-damnation/bloodthistle-bundle.research.webp",
         "scale": 0.5
       },
+      "contentStatus": "research"
+    },
+    {
+      "id": "blue-sky-logging-grounds",
+      "type": "location",
+      "name": "Blue Sky Logging Grounds",
+      "slug": "blue-sky-logging-grounds",
+      "shortDescription": "A lumber camp and river ride in Grizzly Hills, where the Heart of the Ancients is found.",
+      "body": "A lumber camp and river ride in Grizzly Hills, where the Heart of the Ancients is found. The associated theater scenes are original interpretive paintings, not surveyed maps or exact instance layouts. See docs/research/drakuru-visual-assets.json for area traits and resemblance gates.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-heart-of-the-ancients",
+        "drakuru-betrayal-blizzard-grizzly-hills"
+      ],
+      "tags": [
+        "drakuru-story",
+        "wrath-location"
+      ],
       "contentStatus": "research"
     },
     {
@@ -17724,6 +18058,50 @@
       "contentStatus": "research"
     },
     {
+      "id": "drak-atal-passage",
+      "type": "location",
+      "name": "Drak’atal Passage",
+      "slug": "drak-atal-passage",
+      "shortDescription": "A passage through Drak’Tharon Keep where Drakuru asks the traveler to bring the Heart of the Ancients.",
+      "body": "A passage through Drak’Tharon Keep where Drakuru asks the traveler to bring the Heart of the Ancients. The associated theater scenes are original interpretive paintings, not surveyed maps or exact instance layouts. See docs/research/drakuru-visual-assets.json for area traits and resemblance gates.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-my-heart-is-in-your-hands",
+        "drakuru-betrayal-blizzard-zuldrak"
+      ],
+      "tags": [
+        "drakuru-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drak-tharon-keep",
+      "type": "location",
+      "name": "Drak’Tharon Keep",
+      "slug": "drak-tharon-keep",
+      "shortDescription": "A carved Drakkari outpost on the border of Grizzly Hills and Zul’Drak, whose fall gives the Scourge a fortress within reach of the troll kingdom.",
+      "body": "A carved Drakkari outpost on the border of Grizzly Hills and Zul’Drak, whose fall gives the Scourge a fortress within reach of the troll kingdom. The associated theater scenes are original interpretive paintings, not surveyed maps or exact instance layouts. See docs/research/drakuru-visual-assets.json for area traits and resemblance gates.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-draktharon-area",
+        "drakuru-betrayal-blizzard-grizzly-hills",
+        "drakuru-betrayal-blizzard-zuldrak"
+      ],
+      "tags": [
+        "drakuru-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "drakefire-amulet",
       "name": "Drakefire Amulet",
       "slug": "drakefire-amulet",
@@ -17749,6 +18127,99 @@
         "asset": "images/storylines/onyxia/drakefire-amulet.research.webp",
         "scale": 0.72
       }
+    },
+    {
+      "id": "drakiljin-ruins",
+      "type": "location",
+      "name": "Ruins of Drakil’jin",
+      "slug": "drakiljin-ruins",
+      "shortDescription": "An ancient Drakkari crypt in Grizzly Hills where the tablets used in Drakuru’s ritual are found.",
+      "body": "An ancient Drakkari crypt in Grizzly Hills where the tablets used in Drakuru’s ritual are found. The associated theater scenes are original interpretive paintings, not surveyed maps or exact instance layouts. See docs/research/drakuru-visual-assets.json for area traits and resemblance gates.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-voices-from-the-dust",
+        "drakuru-betrayal-blizzard-grizzly-hills"
+      ],
+      "tags": [
+        "drakuru-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-empowered",
+      "type": "character",
+      "name": "Drakuru after the Lich King’s gift",
+      "slug": "drakuru-empowered",
+      "shortDescription": "The same individual as Drakuru, staged with the larger, darker appearance he receives when the Lich King empowers him at Drak’Tharon Keep. This presentation identity exists only to show a source-backed change in appearance, not to assert a second character.",
+      "body": "Original interpretive illustration, not canonical game art. See docs/research/drakuru-visual-assets.json for its scene use, source locator, appearance boundary, and open visual review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "tags": [
+        "drakuru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/drakuru-betrayal/drakuru-empowered.research.webp",
+        "scale": 0.94
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru",
+      "type": "character",
+      "name": "Drakuru",
+      "slug": "drakuru",
+      "shortDescription": "A Drakkari ice troll first encountered in chains at Granite Springs; his appeal for cooperation conceals service to the Lich King.",
+      "body": "Original interpretive illustration, not canonical game art. See docs/research/drakuru-visual-assets.json for its scene use, source locator, appearance boundary, and open visual review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-truce",
+        "drakuru-betrayal-overlord-drakuru",
+        "drakuru-betrayal-guru-of-drakuru"
+      ],
+      "tags": [
+        "drakuru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/drakuru-betrayal/drakuru-captive.research.webp",
+        "scale": 0.88
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakzin-ruins",
+      "type": "location",
+      "name": "Ruins of Drak’Zin",
+      "slug": "drakzin-ruins",
+      "shortDescription": "A Drakkari ruin in Grizzly Hills where Drakuru directs the search for an artifact and interprets its carvings.",
+      "body": "A Drakkari ruin in Grizzly Hills where Drakuru directs the search for an artifact and interprets its carvings. The associated theater scenes are original interpretive paintings, not surveyed maps or exact instance layouts. See docs/research/drakuru-visual-assets.json for area traits and resemblance gates.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-subject-to-interpretation",
+        "drakuru-betrayal-blizzard-grizzly-hills"
+      ],
+      "tags": [
+        "drakuru-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
     },
     {
       "id": "dranosh-saurfang",
@@ -17933,6 +18404,27 @@
         "asset": "images/storylines/cipher-of-damnation/earthmender-torlok.research.webp",
         "scale": 0.8
       },
+      "contentStatus": "research"
+    },
+    {
+      "id": "ebon-watch",
+      "type": "location",
+      "name": "Ebon Watch",
+      "slug": "ebon-watch",
+      "shortDescription": "A small Knights of the Ebon Blade encampment in western Zul’Drak, commanded by Stefan Vadu.",
+      "body": "A small Knights of the Ebon Blade encampment in western Zul’Drak, commanded by Stefan Vadu. The associated theater scenes are original interpretive paintings, not surveyed maps or exact instance layouts. See docs/research/drakuru-visual-assets.json for area traits and resemblance gates.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-the-ebon-watch",
+        "drakuru-betrayal-blizzard-zuldrak"
+      ],
+      "tags": [
+        "drakuru-story",
+        "wrath-location"
+      ],
       "contentStatus": "research"
     },
     {
@@ -18324,6 +18816,33 @@
         "midnight",
         "released-campaign"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "eye-of-the-prophets",
+      "type": "artifact",
+      "name": "Eye of the Prophets",
+      "slug": "eye-of-the-prophets",
+      "shortDescription": "A ruby eye removed from an ancient idol at Zeb’Halak; depicted in the dialogue as a means by which Drakuru watches and reads.",
+      "body": "Original interpretive illustration, not canonical game art. See docs/research/drakuru-visual-assets.json for its scene use, source locator, appearance boundary, and open visual review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-sacrifices-must-be-made",
+        "drakuru-betrayal-subject-to-interpretation",
+        "drakuru-betrayal-my-heart-is-in-your-hands",
+        "drakuru-betrayal-voices-from-the-dust"
+      ],
+      "tags": [
+        "drakuru-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/drakuru-betrayal/eye-of-the-prophets.research.webp",
+        "scale": 0.62
+      },
       "contentStatus": "research"
     },
     {
@@ -18821,6 +19340,27 @@
       "contentStatus": "research"
     },
     {
+      "id": "granite-springs",
+      "type": "location",
+      "name": "Granite Springs",
+      "slug": "granite-springs",
+      "shortDescription": "A Grizzly Hills settlement in the red cedar forest. Drakuru is held here when the story begins.",
+      "body": "A Grizzly Hills settlement in the red cedar forest. Drakuru is held here when the story begins. The associated theater scenes are original interpretive paintings, not surveyed maps or exact instance layouts. See docs/research/drakuru-visual-assets.json for area traits and resemblance gates.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-truce",
+        "drakuru-betrayal-blizzard-grizzly-hills"
+      ],
+      "tags": [
+        "drakuru-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "great-dark-beyond",
       "type": "location",
       "name": "The Great Dark Beyond",
@@ -19269,6 +19809,32 @@
         "asset": "images/storylines/akama-black-temple/heart-of-fury.research.webp",
         "scale": 0.86
       }
+    },
+    {
+      "id": "heart-of-the-ancients",
+      "type": "artifact",
+      "name": "Heart of the Ancients",
+      "slug": "heart-of-the-ancients",
+      "shortDescription": "A pulsating gem found in an upper room of Blue Sky Logging Grounds and used with the Eye of the Prophets in Drakuru’s reading of the tablets.",
+      "body": "Original interpretive illustration, not canonical game art. See docs/research/drakuru-visual-assets.json for its scene use, source locator, appearance boundary, and open visual review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-heart-of-the-ancients",
+        "drakuru-betrayal-my-heart-is-in-your-hands",
+        "drakuru-betrayal-voices-from-the-dust"
+      ],
+      "tags": [
+        "drakuru-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/drakuru-betrayal/heart-of-the-ancients.research.webp",
+        "scale": 0.6
+      },
+      "contentStatus": "research"
     },
     {
       "id": "hearthglen-roadside-tower",
@@ -23109,6 +23675,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "overlord-drakuru",
+      "type": "character",
+      "name": "Drakuru after the Lich King’s gift",
+      "slug": "overlord-drakuru",
+      "shortDescription": "The same individual as Drakuru, staged with the larger, darker appearance he receives when the Lich King empowers him at Drak’Tharon Keep. This presentation identity exists only to show a source-backed change in appearance, not to assert a second character.",
+      "body": "Original interpretive illustration, not canonical game art. See docs/research/drakuru-visual-assets.json for its scene use, source locator, appearance boundary, and open visual review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "tags": [
+        "drakuru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/drakuru-betrayal/drakuru-empowered.research.webp",
+        "scale": 0.94
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "overlord-morghor",
       "type": "character",
       "name": "Overlord Mor’ghor",
@@ -24083,6 +24674,31 @@
       "mapVisual": {
         "asset": "images/storylines/tirion-taelan/scarlet-pursuers.research.webp",
         "scale": 0.95
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "scepter-of-domination",
+      "type": "artifact",
+      "name": "Scepter of Domination",
+      "slug": "scepter-of-domination",
+      "shortDescription": "The scepter Drakuru gives the infiltrator as a token of trust; it turns the Blightblood Trolls against him during the final confrontation. It is a different artifact from Atiesh and the Scepter of the Shifting Sands.",
+      "body": "Original interpretive illustration, not canonical game art. See docs/research/drakuru-visual-assets.json for its scene use, source locator, appearance boundary, and open visual review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-disclosure",
+        "drakuru-betrayal-betrayal"
+      ],
+      "tags": [
+        "drakuru-story",
+        "interpretive-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/drakuru-betrayal/scepter-of-domination.research.webp",
+        "scale": 0.74
       },
       "contentStatus": "research"
     },
@@ -25454,6 +26070,31 @@
         "karazhan-story",
         "burning-crusade-location"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "stefan-vadu",
+      "type": "character",
+      "name": "Stefan Vadu",
+      "slug": "stefan-vadu",
+      "shortDescription": "An Ebon Blade death knight who commands the Ebon Watch and directs the counter-operation against Drakuru.",
+      "body": "Original interpretive illustration, not canonical game art. See docs/research/drakuru-visual-assets.json for its scene use, source locator, appearance boundary, and open visual review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-the-ebon-watch",
+        "drakuru-betrayal-infiltrating-voltarus"
+      ],
+      "tags": [
+        "drakuru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/drakuru-betrayal/stefan-vadu.research.webp",
+        "scale": 0.9
+      },
       "contentStatus": "research"
     },
     {
@@ -27066,6 +27707,28 @@
       "contentStatus": "research"
     },
     {
+      "id": "voltarus",
+      "type": "location",
+      "name": "Voltarus",
+      "slug": "voltarus",
+      "shortDescription": "A floating Scourge necropolis above Zul’Drak and Drakuru’s base of operations.",
+      "body": "A floating Scourge necropolis above Zul’Drak and Drakuru’s base of operations. The associated theater scenes are original interpretive paintings, not surveyed maps or exact instance layouts. See docs/research/drakuru-visual-assets.json for area traits and resemblance gates.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-reunited",
+        "drakuru-betrayal-infiltrating-voltarus",
+        "drakuru-betrayal-voltarus-area"
+      ],
+      "tags": [
+        "drakuru-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "vortex-pinnacle-blades-edge",
       "type": "site",
       "name": "Vortex Pinnacle, Blade’s Edge Mountains",
@@ -27247,6 +27910,31 @@
       "mapFigure": {
         "asset": "images/storylines/champion-of-the-naaru/warlord-kalithresh.research.webp",
         "scale": 0.94
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "warlord-zimbo",
+      "type": "character",
+      "name": "Warlord Zim’bo",
+      "slug": "warlord-zimbo",
+      "shortDescription": "An ice troll warlord at Zeb’Halak who defends Drak’Tharon and is killed for the mojo Drakuru demands.",
+      "body": "Original interpretive illustration, not canonical game art. See docs/research/drakuru-visual-assets.json for its scene use, source locator, appearance boundary, and open visual review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-sacrifices-must-be-made",
+        "drakuru-betrayal-warlord-zimbo"
+      ],
+      "tags": [
+        "drakuru-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/drakuru-betrayal/warlord-zimbo.research.webp",
+        "scale": 0.9
       },
       "contentStatus": "research"
     },
@@ -28400,6 +29088,27 @@
       }
     },
     {
+      "id": "zebhalak",
+      "type": "location",
+      "name": "Zeb’Halak",
+      "slug": "zebhalak",
+      "shortDescription": "A Drakkari ziggurat in Grizzly Hills where the Eye of the Prophets is removed from an idol.",
+      "body": "A Drakkari ziggurat in Grizzly Hills where the Eye of the Prophets is removed from an idol. The associated theater scenes are original interpretive paintings, not surveyed maps or exact instance layouts. See docs/research/drakuru-visual-assets.json for area traits and resemblance gates.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-sacrifices-must-be-made",
+        "drakuru-betrayal-blizzard-grizzly-hills"
+      ],
+      "tags": [
+        "drakuru-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "zin-azshari",
       "type": "location",
       "name": "Zin-Azshari",
@@ -28422,6 +29131,27 @@
         "capital",
         "kaldorei",
         "well-of-eternity"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "zul-drak-dead-fields",
+      "type": "location",
+      "name": "The Dead Fields",
+      "slug": "zul-drak-dead-fields",
+      "shortDescription": "A Scourge-struck tract of southern Zul’Drak named in Drakuru’s orders as a source of corpses for his army.",
+      "body": "A Scourge-struck tract of southern Zul’Drak named in Drakuru’s orders as a source of corpses for his army. The associated theater scenes are original interpretive paintings, not surveyed maps or exact instance layouts. See docs/research/drakuru-visual-assets.json for area traits and resemblance gates.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-orders-from-drakuru",
+        "drakuru-betrayal-blizzard-zuldrak"
+      ],
+      "tags": [
+        "drakuru-story",
+        "wrath-location"
       ],
       "contentStatus": "research"
     },
@@ -32502,6 +33232,487 @@
       ],
       "claimIds": [
         "dragon-isles-awaken-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-a-return-to-voltarus-event",
+      "kind": "event",
+      "name": "A welcome beneath the necropolis",
+      "slug": "drakuru-betrayal-a-return-to-voltarus",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "Voltarus hangs above the blighted ravines of Zul’Drak, its towers and chains suspended over a landscape of ice and ruined stone. The greeting depends on the path by which the traveler arrives: those who aided Drakuru before are welcomed as familiar servants, while others receive a different introduction. Both versions lead into his account of the land. With Gorebag as guide, a broad tour reveals the scale of Zul’Drak and the reach Drakuru hopes to claim.",
+      "locationIds": [
+        "voltarus"
+      ],
+      "participantEntityIds": [
+        "overlord-drakuru"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-reunited",
+        "drakuru-betrayal-dark-horizon",
+        "drakuru-betrayal-voltarus-area"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-a-return-to-voltarus-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-blood-pact-event",
+      "kind": "event",
+      "name": "The bargain sealed in blood",
+      "slug": "drakuru-betrayal-blood-pact",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "Drakuru cuts his palm and reaches through the cage. The meeting becomes a blood pact, binding the two sides to a temporary alliance. He promises knowledge of Drak’Tharon Keep, whose fall has left the borderlands under threat. At Granite Springs, the promise appears to serve a common need: the captive will guide the seeker, and the living may learn what has overtaken the old fortress. The pact gives trust a shape, though not yet a reason to doubt it.",
+      "locationIds": [
+        "granite-springs"
+      ],
+      "participantEntityIds": [
+        "drakuru"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-truce"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-blood-pact-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-captive-at-granite-springs-event",
+      "kind": "event",
+      "name": "A captive among the cedars",
+      "slug": "drakuru-betrayal-captive-at-granite-springs",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "In the cedar country of Grizzly Hills, Drakuru waits behind the bars of a cage at Granite Springs. He is a Drakkari troll, held after the forest’s struggles have brought him into human custody. His warning is plain: he remembers many heads he has taken, yet proposes that old enemies set their quarrel aside for a time. The offered truce is uneasy, but the prisoner says he knows things that could help against the dangers gathering here.",
+      "locationIds": [
+        "granite-springs"
+      ],
+      "participantEntityIds": [
+        "drakuru"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-truce",
+        "drakuru-betrayal-guru-of-drakuru",
+        "drakuru-betrayal-blizzard-grizzly-hills"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-captive-at-granite-springs-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-crystals-of-blight-event",
+      "kind": "event",
+      "name": "The crystals harvested",
+      "slug": "drakuru-betrayal-crystals-of-blight",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "Within Voltarus, blight crystals are gathered for a work whose full design is not yet disclosed. Stefan asks for samples while the infiltrator continues to serve Drakuru’s demands. Handling the crystals can break the disguise, a danger that makes proximity itself part of the counter-operation. The later account identifies the purpose: captured Drakkari chieftains are infused with blight and reshaped into weapons for the Scourge. That is the army Drakuru has been preparing beneath the floating fortress.",
+      "locationIds": [
+        "voltarus"
+      ],
+      "participantEntityIds": [
+        "overlord-drakuru",
+        "stefan-vadu"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-hazardous-materials",
+        "drakuru-betrayal-so-far-so-bad",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-crystals-of-blight-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-drakatal-watching-event",
+      "kind": "event",
+      "name": "The heart watched from afar",
+      "slug": "drakuru-betrayal-drakatal-watching",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "Through the Eye, Drakuru says he has watched the search and knows the Heart has been found. He asks for it at Drak’atal Passage, where a brazier will summon his image once more. His promise remains the same: the Keep will be cleansed, his brothers avenged, and its greatest treasure given in return. The words join the two artifacts to the threatened fortress. They also sharpen the question that began in the cage: whose purpose is being served by every promised cleansing?",
+      "locationIds": [
+        "drak-atal-passage",
+        "drak-tharon-keep"
+      ],
+      "participantEntityIds": [
+        "drakuru",
+        "eye-of-the-prophets",
+        "heart-of-the-ancients"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-my-heart-is-in-your-hands"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-drakatal-watching-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-eye-of-the-prophets-event",
+      "kind": "event",
+      "name": "The eye in the idol",
+      "slug": "drakuru-betrayal-eye-of-the-prophets",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "At Zeb’Halak, an ancient idol watches the forest from its stepped stone height. One eye is a ruby, and Drakuru names it the Eye of the Prophets. He directs that it be brought to his brazier and says it will show the next relic. To gain the old warlord Zim’bo’s mojo, Drakuru speaks of the blood oath that binds him to defend Drak’Tharon. The eye is recovered; the cost is a life that Drakuru describes as sacrifice for a greater hope.",
+      "locationIds": [
+        "zebhalak"
+      ],
+      "participantEntityIds": [
+        "drakuru",
+        "warlord-zimbo",
+        "eye-of-the-prophets"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-sacrifices-must-be-made",
+        "drakuru-betrayal-warlord-zimbo"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-eye-of-the-prophets-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-heart-at-blue-sky-event",
+      "kind": "event",
+      "name": "The heart beneath the logging ground",
+      "slug": "drakuru-betrayal-heart-at-blue-sky",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "Blue Sky Logging Grounds cuts a human worksite into the cedar forest, where water and timber run through the hills. In an upper room, the Heart of the Ancients lies beside a dead Venture Company goblin. The tale locates the gem there, but gives no fuller history for the goblin. The story’s second relic is found amid evidence of ordinary labor displaced by older ruins and a darker search.",
+      "locationIds": [
+        "blue-sky-logging-grounds"
+      ],
+      "participantEntityIds": [
+        "heart-of-the-ancients"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-heart-of-the-ancients",
+        "drakuru-betrayal-blizzard-grizzly-hills"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-heart-at-blue-sky-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-hieroglyphs-of-drakzin-event",
+      "kind": "event",
+      "name": "The stones of Drak’Zin",
+      "slug": "drakuru-betrayal-hieroglyphs-of-drakzin",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "Among the weathered faces and broken terraces of Drak’Zin, Drakuru’s image studies the carved walls. He says a legendary set of artifacts was made to render Drak’Tharon Keep impervious, and that hieroglyphs may reveal where one lies. Drakuru alone offers this claim, and its truth remains unverified. He had been captured while interpreting the old stones. Now the ruins become the first test of whether his knowledge is a path toward safety or another kind of trap.",
+      "locationIds": [
+        "drakzin-ruins"
+      ],
+      "participantEntityIds": [
+        "drakuru"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-subject-to-interpretation"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-hieroglyphs-of-drakzin-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-orders-in-the-dead-fields-event",
+      "kind": "event",
+      "name": "Orders from the Dead Fields",
+      "slug": "drakuru-betrayal-orders-in-the-dead-fields",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "A written order gives shape to the campaign spreading through Zul’Drak. Drakuru commands the Scourge armies, has corpses processed in the Dead Fields, and sends them to Zeramas to be raised. He speaks of blood from the prophets as a means to strengthen his forces, and names both Zul’Drak and Gundrak as targets. The scroll leaves little room for the earlier tale of rescue: the work of the relics has helped make conquest possible.",
+      "locationIds": [
+        "zul-drak-dead-fields"
+      ],
+      "participantEntityIds": [
+        "overlord-drakuru"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-orders-from-drakuru",
+        "drakuru-betrayal-blizzard-zuldrak"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-orders-in-the-dead-fields-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-stefan-reads-the-orders-event",
+      "kind": "event",
+      "name": "The Ebon Watch has followed",
+      "slug": "drakuru-betrayal-stefan-reads-the-orders",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "At Ebon Watch, the orders reach Stefan Vadu, the death knight who commands the camp. He reads the message, calls it old news, and says the Ebon Blade has tracked Drakuru since Grizzly Hills. The Argent Crusade and Ebon Blade divide their work against threats in Zul’Drak; Stefan’s concern is the Scourge lord who now directs the land’s dead. The apparent ally of Drak’Tharon has become an enemy both orders already know.",
+      "locationIds": [
+        "ebon-watch"
+      ],
+      "participantEntityIds": [
+        "stefan-vadu"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-orders-from-drakuru",
+        "drakuru-betrayal-the-ebon-watch",
+        "drakuru-betrayal-blizzard-zuldrak"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-stefan-reads-the-orders-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-tablets-of-drakiljin-event",
+      "kind": "event",
+      "name": "The voices in the crypt",
+      "slug": "drakuru-betrayal-tablets-of-drakiljin",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "At the buried chambers of Drakil’jin, the Drakkari tablets are the last records Drakuru seeks. He places the Eye at his brow and the Heart upon his chest, saying the relics together let him read what no one now understands. The stones are old; their meaning is not independently established by the chain. Drakuru declares that all the components for a cleansing ritual are now gathered. The route bends at last toward Drak’Tharon Keep.",
+      "locationIds": [
+        "drakiljin-ruins"
+      ],
+      "participantEntityIds": [
+        "drakuru",
+        "eye-of-the-prophets",
+        "heart-of-the-ancients"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-voices-from-the-dust"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-tablets-of-drakiljin-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-the-blightblood-army-event",
+      "kind": "event",
+      "name": "An army remade from captives",
+      "slug": "drakuru-betrayal-the-blightblood-army",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "At the summit, Drakuru displays the next work of his reign: Blightblood Trolls, made from captured Drakkari chieftains and infused with blight. He calls them the first of a greater army, meant to sweep across Zul’Drak. The captives who once stood among their own people have been turned into instruments against them. Before the display can become a campaign, the infiltrator’s disguise fails. Drakuru recognizes the deceit, and the necropolis becomes a place of open reckoning.",
+      "locationIds": [
+        "voltarus"
+      ],
+      "participantEntityIds": [
+        "overlord-drakuru",
+        "blightblood-trolls"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-disclosure",
+        "drakuru-betrayal-betrayal",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-the-blightblood-army-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-the-choker-and-the-mask-event",
+      "kind": "event",
+      "name": "A disguise within Voltarus",
+      "slug": "drakuru-betrayal-the-choker-and-the-mask",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "Stefan’s counter-operation sends a disguised agent into the necropolis. An ensorcelled choker lets the infiltrator pass among the undead long enough to stand within Drakuru’s reach. Faction-specific versions preserve their own approach, and the earlier Grizzly Hills chain changes how Drakuru greets the visitor. The common purpose is to learn what the Overlord is building and weaken it from within. Each task brings the disguise closer to exposure even as Drakuru’s confidence grows.",
+      "locationIds": [
+        "ebon-watch",
+        "voltarus"
+      ],
+      "participantEntityIds": [
+        "stefan-vadu",
+        "overlord-drakuru"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-infiltrating-voltarus",
+        "drakuru-betrayal-the-ebon-watch",
+        "drakuru-betrayal-guru-of-drakuru"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-the-choker-and-the-mask-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-the-keep-is-cleansed-event",
+      "kind": "event",
+      "name": "The fortress opened",
+      "slug": "drakuru-betrayal-the-keep-is-cleansed",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "Drak’Tharon Keep stands where the cold forest gives way to the harsher land of Zul’Drak: carved stone rising above a border already touched by the Scourge. The relics and Drakuru’s elixir bring the living into its upper reaches. There he is summoned before the fortress’s remaining resistance is overcome. He has promised a peaceful return to the Keep’s purpose. At the summit, the ritual does not end in restoration; a portal opens, and the master behind Drakuru’s promises steps through.",
+      "locationIds": [
+        "drak-tharon-keep"
+      ],
+      "participantEntityIds": [
+        "drakuru"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-draktharon-area",
+        "drakuru-betrayal-blizzard-zuldrak"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-the-keep-is-cleansed-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-the-land-he-means-to-take-event",
+      "kind": "event",
+      "name": "Gundrak in his sight",
+      "slug": "drakuru-betrayal-the-land-he-means-to-take",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "Across the tour, Drakuru names the lands and powers he means to overcome. His ambition reaches beyond the Dead Fields to Gundrak, the heart of the Drakkari realm. The old promise of a rescued people has given way to the language of possession: the trolls are now obstacles, and their capital the prize. The flight returns to the floating citadel, where the infiltrator is told to prepare, observe, and continue earning the trust of a master who has mistaken obedience for loyalty.",
+      "locationIds": [
+        "voltarus"
+      ],
+      "participantEntityIds": [
+        "overlord-drakuru"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-reunited",
+        "drakuru-betrayal-dark-horizon",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-the-land-he-means-to-take-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-the-lich-kings-gift-event",
+      "kind": "event",
+      "name": "The gift beneath the Keep",
+      "slug": "drakuru-betrayal-the-lich-kings-gift",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "The Lich King appears, and Drakuru kneels. He names his mission complete: with the mortals’ help, those who opposed the Scourge in the region have been removed. The Lich King reveals the truth plainly—Drakuru’s betrayal of the Drakkari Empire has given him a new army. He changes the troll’s form, making him larger and darker, then charges him with the “cleansing” of Zul’Drak. Drakuru accepts. The bargain in the cedar forest has delivered a fortress into the Scourge’s hands.",
+      "locationIds": [
+        "drak-tharon-keep"
+      ],
+      "participantEntityIds": [
+        "overlord-drakuru",
+        "arthas-as-the-lich-king"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-the-lich-kings-gift-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-the-lich-kings-judgment-event",
+      "kind": "event",
+      "name": "The last judgment",
+      "slug": "drakuru-betrayal-the-lich-kings-judgment",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "The Lich King comes through a portal and strikes Drakuru down. He spares the infiltrator, amused by the deception that has undone his servant. Stefan’s operation has ended the Overlord’s command, but no account here restores the chieftains who were made into Blightblood Trolls or measures what the Scourge had already taken from Zul’Drak. Drakuru’s bargain began with a hand through a cage; it ends above a conquered land, beneath the judgment of the master he chose.",
+      "locationIds": [
+        "voltarus"
+      ],
+      "participantEntityIds": [
+        "overlord-drakuru",
+        "arthas-as-the-lich-king",
+        "stefan-vadu"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-betrayal",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-the-lich-kings-judgment-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-the-scepter-of-domination-event",
+      "kind": "event",
+      "name": "The scepter and the secret",
+      "slug": "drakuru-betrayal-the-scepter-of-domination",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "Believing the infiltrator loyal, Drakuru grants a scepter as a token of trust and reveals his design: the Drakkari will be swept aside so he can claim Gundrak. The Scepter of Domination offers access to the upper chamber and to weapons still hidden from view. It is no legacy of a mage or ancient sand empire, but a tool in this betrayal, bound to the blight-born force Drakuru commands. Trust has given the conspirator the means to turn his own weapon back upon him.",
+      "locationIds": [
+        "voltarus"
+      ],
+      "participantEntityIds": [
+        "overlord-drakuru",
+        "scepter-of-domination"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-fuel-for-the-fire",
+        "drakuru-betrayal-disclosure",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-the-scepter-of-domination-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-the-scepter-turns-event",
+      "kind": "event",
+      "name": "The master is undone",
+      "slug": "drakuru-betrayal-the-scepter-turns",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "The Scepter of Domination shines, and the Blightblood Trolls turn upon the master who made them. The chain records a reversal at the heart of Voltarus: Drakuru’s own instrument and army become the means by which his power is broken. His defeat is not yet the end. At the edge of his fall, he calls upon the Lich King, the authority he served when he betrayed his people and seized the Keep.",
+      "locationIds": [
+        "voltarus"
+      ],
+      "participantEntityIds": [
+        "overlord-drakuru",
+        "blightblood-trolls",
+        "scepter-of-domination"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-betrayal",
+        "drakuru-betrayal-overlord-drakuru"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-the-scepter-turns-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-vial-of-visions-event",
+      "kind": "event",
+      "name": "A voice carried through the vial",
+      "slug": "drakuru-betrayal-vial-of-visions",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "drakuru-betrayal-theater",
+      "summary": "A vial of visions becomes the means by which Drakuru’s image can speak beyond the cage. The potion is an alchemical bridge, not freedom: he remains imprisoned while his counsel reaches distant places. His words carry the search toward old Drakkari monuments, where he claims signs of a power that could shield Drak’Tharon. The first step of the bargain is therefore not a key or a gate, but a voice learning how to travel.",
+      "locationIds": [
+        "granite-springs"
+      ],
+      "participantEntityIds": [
+        "drakuru"
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-vial-of-visions"
+      ],
+      "claimIds": [
+        "drakuru-betrayal-vial-of-visions-claim"
       ],
       "contentStatus": "research"
     },
@@ -46914,6 +48125,188 @@
       "notes": "Accessed 2026-10-02. ClassicDB quest-text transcription used as a locator for this narrow claim: Gryan sends the adventurer to Wiley in Lakeshire; Westfall residents are being driven from their land. This is not an original-client capture; verify the matching pre-Cataclysm client before human review."
     },
     {
+      "id": "drakuru-betrayal-betrayal",
+      "title": "Betrayal",
+      "url": "https://warcraft.wiki.gg/wiki/Betrayal",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Scripted finale: Drakuru summons Blightblood Trolls, the disguise fails, the scepter turns the trolls against him, and the Lich King kills Drakuru while sparing the infiltrator. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-blizzard-grizzly-hills",
+      "title": "Wrath Classic Zone Guide: Dragonblight and Grizzly Hills",
+      "url": "https://news.blizzard.com/en-us/article/23840668/wrath-classic-zone-guide-dragonblight-and-grizzly-hills",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Official Blizzard visual and area reference, not a source for Drakuru quest dialogue. Blizzard’s official Wrath Classic area reference: the region’s chilly cedar forest, Blue Sky Logging Grounds and Drak’Tharon Keep."
+    },
+    {
+      "id": "drakuru-betrayal-blizzard-zuldrak",
+      "title": "Wrath Classic Zone Guide: Zul’Drak and Sholazar Basin",
+      "url": "https://news.blizzard.com/en-us/article/23846691/wrath-classic-zone-guide-zuldrak-and-sholazar-basin",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Official Blizzard visual and area reference, not a source for Drakuru quest dialogue. Blizzard’s official Wrath Classic area reference: the Drakkari, the Scourge-blighted south, northern ice, Ebon Watch and Drak’Tharon."
+    },
+    {
+      "id": "drakuru-betrayal-cleansing-draktharon",
+      "title": "Cleansing Drak’Tharon",
+      "url": "https://warcraft.wiki.gg/wiki/Cleansing_Drak%27Tharon",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest objective and scripted scene: at the Keep, Drakuru reveals his service to the Lich King, receives a transformation and a new command. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-dark-horizon",
+      "title": "Dark Horizon",
+      "url": "https://warcraft.wiki.gg/wiki/Dark_Horizon",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Alternate start for travelers who did not complete the earlier Grizzly Hills and Drak’Tharon sequence. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-disclosure",
+      "title": "Disclosure",
+      "url": "https://warcraft.wiki.gg/wiki/Disclosure",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text: Drakuru reveals his plan to seize Gundrak and gives the Scepter of Domination as a token of trust. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-draktharon-area",
+      "title": "Drak’Tharon Keep · Wrath area and dungeon locator",
+      "url": "https://warcraft.wiki.gg/wiki/Drak%27Tharon_Keep",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Secondary area locator for the carved Drakkari stronghold and its 2008 Scourge state. Original-client screenshot comparison remains open. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-fuel-for-the-fire",
+      "title": "Fuel for the Fire",
+      "url": "https://warcraft.wiki.gg/wiki/Fuel_for_the_Fire_(quest)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text and progression: the operation prepares access to Drakuru’s disclosure; gameplay control instructions are excluded from narration. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-guru-of-drakuru",
+      "title": "Guru of Drakuru quest-chain locator",
+      "url": "https://warcraft.wiki.gg/wiki/Guru_of_Drakuru",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Secondary ordered locator for the Grizzly Hills and Zul’Drak arcs, including alternate faction and prior-chain starts. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-hazardous-materials",
+      "title": "Hazardous Materials",
+      "url": "https://warcraft.wiki.gg/wiki/Hazardous_Materials_(quest)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text: Stefan asks the infiltrator to continue Drakuru’s assignments and secretly take blight-crystal samples. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-heart-of-the-ancients",
+      "title": "Heart of the Ancients",
+      "url": "https://warcraft.wiki.gg/wiki/Heart_of_the_Ancients_(quest)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest locator: the Heart of the Ancients is found at Blue Sky Logging Grounds. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-infiltrating-voltarus",
+      "title": "Infiltrating Voltarus",
+      "url": "https://warcraft.wiki.gg/wiki/Infiltrating_Voltarus",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest chain locator and text: an ensorcelled choker enables the Voltarus infiltration; alliance and horde follow-ups differ. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-my-heart-is-in-your-hands",
+      "title": "My Heart is in Your Hands",
+      "url": "https://warcraft.wiki.gg/wiki/My_Heart_is_in_Your_Hands",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text: Drakuru says the Eye let him watch, asks for the Heart at Drak’atal Passage, and again promises to cleanse the Keep. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-orders-from-drakuru",
+      "title": "Orders From Drakuru",
+      "url": "https://warcraft.wiki.gg/wiki/Orders_From_Drakuru_(quest)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. The readable orders state the Lich King gave Drakuru control of Zul’Drak’s Scourge forces and describe corpse processing, blight and intended targets. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-overlord-drakuru",
+      "title": "Overlord Drakuru",
+      "url": "https://warcraft.wiki.gg/wiki/Overlord_Drakuru",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Secondary overview joining the two quest arcs and summarizing the captured chieftains, blight infusion, infiltration and ending. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-reunited",
+      "title": "Reunited",
+      "url": "https://warcraft.wiki.gg/wiki/Reunited",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text: returning through Drakuru’s earlier chain uses Reunited; Gorebag’s tour takes the traveler through Zul’Drak. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-sabotage",
+      "title": "Sabotage",
+      "url": "https://warcraft.wiki.gg/wiki/Sabotage_(quest)",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest progression: an infiltration mission against Drakuru’s Voltarus operation. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-sacrifices-must-be-made",
+      "title": "Sacrifices Must be Made",
+      "url": "https://warcraft.wiki.gg/wiki/Sacrifices_Must_be_Made",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text: the Eye of the Prophets is taken from the Zeb’Halak idol; Drakuru describes Zim’bo’s oath and death. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-so-far-so-bad",
+      "title": "So Far, So Bad",
+      "url": "https://warcraft.wiki.gg/wiki/So_Far,_So_Bad",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text and progression: the infiltrator advances within Voltarus while reporting to Stefan. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-subject-to-interpretation",
+      "title": "Subject to Interpretation",
+      "url": "https://warcraft.wiki.gg/wiki/Subject_to_Interpretation",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text: Drakuru claims ancient artifacts made Drak’Tharon Keep impervious and directs the seeker to the ruins of Drak’Zin. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-the-ebon-watch",
+      "title": "The Ebon Watch",
+      "url": "https://warcraft.wiki.gg/wiki/The_Ebon_Watch",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text: Stefan Vadu says the Ebon Blade has tracked Drakuru since Grizzly Hills. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-truce",
+      "title": "Truce?",
+      "url": "https://warcraft.wiki.gg/wiki/Truce%3F",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text and scene: Drakuru is held at Granite Springs, offers a temporary truce, and makes a blood pact. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-vial-of-visions",
+      "title": "Vial of Visions",
+      "url": "https://warcraft.wiki.gg/wiki/Vial_of_Visions",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text: the ingredients and potion establish communication with Drakuru’s image. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-voices-from-the-dust",
+      "title": "Voices From the Dust",
+      "url": "https://warcraft.wiki.gg/wiki/Voices_From_the_Dust",
+      "sourceType": "quest",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Quest text: Drakkari tablets lie in the crypt at Drakil’jin; Drakuru uses the Eye and Heart to read them. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-voltarus-area",
+      "title": "Voltarus · Zul’Drak area locator",
+      "url": "https://warcraft.wiki.gg/wiki/Voltarus",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Secondary locator for Drakuru’s floating Scourge necropolis in Zul’Drak. Exact build comparison remains open. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
+      "id": "drakuru-betrayal-warlord-zimbo",
+      "title": "Warlord Zim’bo · Wrath NPC locator",
+      "url": "https://warcraft.wiki.gg/wiki/Warlord_Zim%27bo",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest/wiki locator or text mirror, not original-client capture. Secondary Wrath NPC locator for Zim’bo as an ice troll warlord at Zim’bo’s Hideout in Zeb’Halak. The original 3.3.5a model remains to be compared. Compare the quest text, variant and appearance to the intended Wrath 3.3.5a build before human review."
+    },
+    {
       "id": "dungeon-set-two-anthion-quest-text",
       "title": "Anthion Harmon quest text locators",
       "url": "https://classicdb.ch/?quest=8945",
@@ -49977,6 +51370,270 @@
       "questId": "Classic quest 65",
       "section": "The Defias Brotherhood · The question moves to Lakeshire · Gryan sends the adventurer to Wiley in Lakeshire; Westfall residents are being driven from their land.",
       "note": "Original paraphrase of a secondary Classic quest transcription. No original-client capture is claimed; compare matching-build text and objectives before human review."
+    },
+    {
+      "id": "drakuru-betrayal-a-return-to-voltarus-citation-1",
+      "sourceId": "drakuru-betrayal-reunited",
+      "section": "A welcome beneath the necropolis",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-a-return-to-voltarus-citation-2",
+      "sourceId": "drakuru-betrayal-dark-horizon",
+      "section": "A welcome beneath the necropolis",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-a-return-to-voltarus-citation-3",
+      "sourceId": "drakuru-betrayal-voltarus-area",
+      "section": "A welcome beneath the necropolis",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-blood-pact-citation-1",
+      "sourceId": "drakuru-betrayal-truce",
+      "section": "The bargain sealed in blood",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-captive-at-granite-springs-citation-1",
+      "sourceId": "drakuru-betrayal-truce",
+      "section": "A captive among the cedars",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-captive-at-granite-springs-citation-2",
+      "sourceId": "drakuru-betrayal-guru-of-drakuru",
+      "section": "A captive among the cedars",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-captive-at-granite-springs-citation-3",
+      "sourceId": "drakuru-betrayal-blizzard-grizzly-hills",
+      "section": "A captive among the cedars",
+      "note": "Official Blizzard area description supports visual reference traits only; story events remain anchored to their separate quest citations."
+    },
+    {
+      "id": "drakuru-betrayal-crystals-of-blight-citation-1",
+      "sourceId": "drakuru-betrayal-hazardous-materials",
+      "section": "The crystals harvested",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-crystals-of-blight-citation-2",
+      "sourceId": "drakuru-betrayal-so-far-so-bad",
+      "section": "The crystals harvested",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-crystals-of-blight-citation-3",
+      "sourceId": "drakuru-betrayal-overlord-drakuru",
+      "section": "The crystals harvested",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-drakatal-watching-citation-1",
+      "sourceId": "drakuru-betrayal-my-heart-is-in-your-hands",
+      "section": "The heart watched from afar",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-eye-of-the-prophets-citation-1",
+      "sourceId": "drakuru-betrayal-sacrifices-must-be-made",
+      "section": "The eye in the idol",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-eye-of-the-prophets-citation-2",
+      "sourceId": "drakuru-betrayal-warlord-zimbo",
+      "section": "The eye in the idol",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-heart-at-blue-sky-citation-1",
+      "sourceId": "drakuru-betrayal-heart-of-the-ancients",
+      "section": "The heart beneath the logging ground",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-heart-at-blue-sky-citation-2",
+      "sourceId": "drakuru-betrayal-blizzard-grizzly-hills",
+      "section": "The heart beneath the logging ground",
+      "note": "Official Blizzard area description supports visual reference traits only; story events remain anchored to their separate quest citations."
+    },
+    {
+      "id": "drakuru-betrayal-hieroglyphs-of-drakzin-citation-1",
+      "sourceId": "drakuru-betrayal-subject-to-interpretation",
+      "section": "The stones of Drak’Zin",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-orders-in-the-dead-fields-citation-1",
+      "sourceId": "drakuru-betrayal-orders-from-drakuru",
+      "section": "Orders from the Dead Fields",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-orders-in-the-dead-fields-citation-2",
+      "sourceId": "drakuru-betrayal-blizzard-zuldrak",
+      "section": "Orders from the Dead Fields",
+      "note": "Official Blizzard area description supports visual reference traits only; story events remain anchored to their separate quest citations."
+    },
+    {
+      "id": "drakuru-betrayal-stefan-reads-the-orders-citation-1",
+      "sourceId": "drakuru-betrayal-orders-from-drakuru",
+      "section": "The Ebon Watch has followed",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-stefan-reads-the-orders-citation-2",
+      "sourceId": "drakuru-betrayal-the-ebon-watch",
+      "section": "The Ebon Watch has followed",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-stefan-reads-the-orders-citation-3",
+      "sourceId": "drakuru-betrayal-blizzard-zuldrak",
+      "section": "The Ebon Watch has followed",
+      "note": "Official Blizzard area description supports visual reference traits only; story events remain anchored to their separate quest citations."
+    },
+    {
+      "id": "drakuru-betrayal-tablets-of-drakiljin-citation-1",
+      "sourceId": "drakuru-betrayal-voices-from-the-dust",
+      "section": "The voices in the crypt",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-blightblood-army-citation-1",
+      "sourceId": "drakuru-betrayal-disclosure",
+      "section": "An army remade from captives",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-blightblood-army-citation-2",
+      "sourceId": "drakuru-betrayal-betrayal",
+      "section": "An army remade from captives",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-blightblood-army-citation-3",
+      "sourceId": "drakuru-betrayal-overlord-drakuru",
+      "section": "An army remade from captives",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-choker-and-the-mask-citation-1",
+      "sourceId": "drakuru-betrayal-infiltrating-voltarus",
+      "section": "A disguise within Voltarus",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-choker-and-the-mask-citation-2",
+      "sourceId": "drakuru-betrayal-the-ebon-watch",
+      "section": "A disguise within Voltarus",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-choker-and-the-mask-citation-3",
+      "sourceId": "drakuru-betrayal-guru-of-drakuru",
+      "section": "A disguise within Voltarus",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-keep-is-cleansed-citation-1",
+      "sourceId": "drakuru-betrayal-cleansing-draktharon",
+      "section": "The fortress opened",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-keep-is-cleansed-citation-2",
+      "sourceId": "drakuru-betrayal-draktharon-area",
+      "section": "The fortress opened",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-keep-is-cleansed-citation-3",
+      "sourceId": "drakuru-betrayal-blizzard-zuldrak",
+      "section": "The fortress opened",
+      "note": "Official Blizzard area description supports visual reference traits only; story events remain anchored to their separate quest citations."
+    },
+    {
+      "id": "drakuru-betrayal-the-land-he-means-to-take-citation-1",
+      "sourceId": "drakuru-betrayal-reunited",
+      "section": "Gundrak in his sight",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-land-he-means-to-take-citation-2",
+      "sourceId": "drakuru-betrayal-dark-horizon",
+      "section": "Gundrak in his sight",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-land-he-means-to-take-citation-3",
+      "sourceId": "drakuru-betrayal-overlord-drakuru",
+      "section": "Gundrak in his sight",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-lich-kings-gift-citation-1",
+      "sourceId": "drakuru-betrayal-cleansing-draktharon",
+      "section": "The gift beneath the Keep",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-lich-kings-gift-citation-2",
+      "sourceId": "drakuru-betrayal-overlord-drakuru",
+      "section": "The gift beneath the Keep",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-lich-kings-judgment-citation-1",
+      "sourceId": "drakuru-betrayal-betrayal",
+      "section": "The last judgment",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-lich-kings-judgment-citation-2",
+      "sourceId": "drakuru-betrayal-overlord-drakuru",
+      "section": "The last judgment",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-scepter-of-domination-citation-1",
+      "sourceId": "drakuru-betrayal-fuel-for-the-fire",
+      "section": "The scepter and the secret",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-scepter-of-domination-citation-2",
+      "sourceId": "drakuru-betrayal-disclosure",
+      "section": "The scepter and the secret",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-scepter-of-domination-citation-3",
+      "sourceId": "drakuru-betrayal-overlord-drakuru",
+      "section": "The scepter and the secret",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-scepter-turns-citation-1",
+      "sourceId": "drakuru-betrayal-betrayal",
+      "section": "The master is undone",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-the-scepter-turns-citation-2",
+      "sourceId": "drakuru-betrayal-overlord-drakuru",
+      "section": "The master is undone",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
+    },
+    {
+      "id": "drakuru-betrayal-vial-of-visions-citation-1",
+      "sourceId": "drakuru-betrayal-vial-of-visions",
+      "section": "A voice carried through the vial",
+      "note": "Original paraphrase from a secondary WotLK quest-text or chain locator. Original client dialogue/build capture and human source review remain open; do not treat item-use mechanics as independent history."
     },
     {
       "id": "dungeon-set-two-a-client-from-booty-bay-citation-1",
@@ -54845,6 +56502,270 @@
       ],
       "confidence": "explicit",
       "status": "active"
+    },
+    {
+      "id": "drakuru-betrayal-a-return-to-voltarus-claim",
+      "subjectId": "drakuru-betrayal-a-return-to-voltarus-event",
+      "predicate": "questline_scene_account",
+      "value": "Voltarus hangs above the blighted ravines of Zul’Drak, its towers and chains suspended over a landscape of ice and ruined stone. The greeting depends on the path by which the traveler arrives: those who aided Drakuru before are welcomed as familiar servants, while others receive a different introduction. Both versions lead into his account of the land. With Gorebag as guide, a broad tour reveals the scale of Zul’Drak and the reach Drakuru hopes to claim.",
+      "citationIds": [
+        "drakuru-betrayal-a-return-to-voltarus-citation-1",
+        "drakuru-betrayal-a-return-to-voltarus-citation-2",
+        "drakuru-betrayal-a-return-to-voltarus-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-blood-pact-claim",
+      "subjectId": "drakuru-betrayal-blood-pact-event",
+      "predicate": "questline_scene_account",
+      "value": "Drakuru cuts his palm and reaches through the cage. The meeting becomes a blood pact, binding the two sides to a temporary alliance. He promises knowledge of Drak’Tharon Keep, whose fall has left the borderlands under threat. At Granite Springs, the promise appears to serve a common need: the captive will guide the seeker, and the living may learn what has overtaken the old fortress. The pact gives trust a shape, though not yet a reason to doubt it.",
+      "citationIds": [
+        "drakuru-betrayal-blood-pact-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-captive-at-granite-springs-claim",
+      "subjectId": "drakuru-betrayal-captive-at-granite-springs-event",
+      "predicate": "questline_scene_account",
+      "value": "In the cedar country of Grizzly Hills, Drakuru waits behind the bars of a cage at Granite Springs. He is a Drakkari troll, held after the forest’s struggles have brought him into human custody. His warning is plain: he remembers many heads he has taken, yet proposes that old enemies set their quarrel aside for a time. The offered truce is uneasy, but the prisoner says he knows things that could help against the dangers gathering here.",
+      "citationIds": [
+        "drakuru-betrayal-captive-at-granite-springs-citation-1",
+        "drakuru-betrayal-captive-at-granite-springs-citation-2",
+        "drakuru-betrayal-captive-at-granite-springs-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-crystals-of-blight-claim",
+      "subjectId": "drakuru-betrayal-crystals-of-blight-event",
+      "predicate": "questline_scene_account",
+      "value": "Within Voltarus, blight crystals are gathered for a work whose full design is not yet disclosed. Stefan asks for samples while the infiltrator continues to serve Drakuru’s demands. Handling the crystals can break the disguise, a danger that makes proximity itself part of the counter-operation. The later account identifies the purpose: captured Drakkari chieftains are infused with blight and reshaped into weapons for the Scourge. That is the army Drakuru has been preparing beneath the floating fortress.",
+      "citationIds": [
+        "drakuru-betrayal-crystals-of-blight-citation-1",
+        "drakuru-betrayal-crystals-of-blight-citation-2",
+        "drakuru-betrayal-crystals-of-blight-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-drakatal-watching-claim",
+      "subjectId": "drakuru-betrayal-drakatal-watching-event",
+      "predicate": "questline_scene_account",
+      "value": "Through the Eye, Drakuru says he has watched the search and knows the Heart has been found. He asks for it at Drak’atal Passage, where a brazier will summon his image once more. His promise remains the same: the Keep will be cleansed, his brothers avenged, and its greatest treasure given in return. The words join the two artifacts to the threatened fortress. They also sharpen the question that began in the cage: whose purpose is being served by every promised cleansing?",
+      "citationIds": [
+        "drakuru-betrayal-drakatal-watching-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-eye-of-the-prophets-claim",
+      "subjectId": "drakuru-betrayal-eye-of-the-prophets-event",
+      "predicate": "questline_scene_account",
+      "value": "At Zeb’Halak, an ancient idol watches the forest from its stepped stone height. One eye is a ruby, and Drakuru names it the Eye of the Prophets. He directs that it be brought to his brazier and says it will show the next relic. To gain the old warlord Zim’bo’s mojo, Drakuru speaks of the blood oath that binds him to defend Drak’Tharon. The eye is recovered; the cost is a life that Drakuru describes as sacrifice for a greater hope.",
+      "citationIds": [
+        "drakuru-betrayal-eye-of-the-prophets-citation-1",
+        "drakuru-betrayal-eye-of-the-prophets-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-heart-at-blue-sky-claim",
+      "subjectId": "drakuru-betrayal-heart-at-blue-sky-event",
+      "predicate": "questline_scene_account",
+      "value": "Blue Sky Logging Grounds cuts a human worksite into the cedar forest, where water and timber run through the hills. In an upper room, the Heart of the Ancients lies beside a dead Venture Company goblin. The tale locates the gem there, but gives no fuller history for the goblin. The story’s second relic is found amid evidence of ordinary labor displaced by older ruins and a darker search.",
+      "citationIds": [
+        "drakuru-betrayal-heart-at-blue-sky-citation-1",
+        "drakuru-betrayal-heart-at-blue-sky-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-hieroglyphs-of-drakzin-claim",
+      "subjectId": "drakuru-betrayal-hieroglyphs-of-drakzin-event",
+      "predicate": "questline_scene_account",
+      "value": "Among the weathered faces and broken terraces of Drak’Zin, Drakuru’s image studies the carved walls. He says a legendary set of artifacts was made to render Drak’Tharon Keep impervious, and that hieroglyphs may reveal where one lies. Drakuru alone offers this claim, and its truth remains unverified. He had been captured while interpreting the old stones. Now the ruins become the first test of whether his knowledge is a path toward safety or another kind of trap.",
+      "citationIds": [
+        "drakuru-betrayal-hieroglyphs-of-drakzin-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-orders-in-the-dead-fields-claim",
+      "subjectId": "drakuru-betrayal-orders-in-the-dead-fields-event",
+      "predicate": "questline_scene_account",
+      "value": "A written order gives shape to the campaign spreading through Zul’Drak. Drakuru commands the Scourge armies, has corpses processed in the Dead Fields, and sends them to Zeramas to be raised. He speaks of blood from the prophets as a means to strengthen his forces, and names both Zul’Drak and Gundrak as targets. The scroll leaves little room for the earlier tale of rescue: the work of the relics has helped make conquest possible.",
+      "citationIds": [
+        "drakuru-betrayal-orders-in-the-dead-fields-citation-1",
+        "drakuru-betrayal-orders-in-the-dead-fields-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-stefan-reads-the-orders-claim",
+      "subjectId": "drakuru-betrayal-stefan-reads-the-orders-event",
+      "predicate": "questline_scene_account",
+      "value": "At Ebon Watch, the orders reach Stefan Vadu, the death knight who commands the camp. He reads the message, calls it old news, and says the Ebon Blade has tracked Drakuru since Grizzly Hills. The Argent Crusade and Ebon Blade divide their work against threats in Zul’Drak; Stefan’s concern is the Scourge lord who now directs the land’s dead. The apparent ally of Drak’Tharon has become an enemy both orders already know.",
+      "citationIds": [
+        "drakuru-betrayal-stefan-reads-the-orders-citation-1",
+        "drakuru-betrayal-stefan-reads-the-orders-citation-2",
+        "drakuru-betrayal-stefan-reads-the-orders-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-tablets-of-drakiljin-claim",
+      "subjectId": "drakuru-betrayal-tablets-of-drakiljin-event",
+      "predicate": "questline_scene_account",
+      "value": "At the buried chambers of Drakil’jin, the Drakkari tablets are the last records Drakuru seeks. He places the Eye at his brow and the Heart upon his chest, saying the relics together let him read what no one now understands. The stones are old; their meaning is not independently established by the chain. Drakuru declares that all the components for a cleansing ritual are now gathered. The route bends at last toward Drak’Tharon Keep.",
+      "citationIds": [
+        "drakuru-betrayal-tablets-of-drakiljin-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-the-blightblood-army-claim",
+      "subjectId": "drakuru-betrayal-the-blightblood-army-event",
+      "predicate": "questline_scene_account",
+      "value": "At the summit, Drakuru displays the next work of his reign: Blightblood Trolls, made from captured Drakkari chieftains and infused with blight. He calls them the first of a greater army, meant to sweep across Zul’Drak. The captives who once stood among their own people have been turned into instruments against them. Before the display can become a campaign, the infiltrator’s disguise fails. Drakuru recognizes the deceit, and the necropolis becomes a place of open reckoning.",
+      "citationIds": [
+        "drakuru-betrayal-the-blightblood-army-citation-1",
+        "drakuru-betrayal-the-blightblood-army-citation-2",
+        "drakuru-betrayal-the-blightblood-army-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-the-choker-and-the-mask-claim",
+      "subjectId": "drakuru-betrayal-the-choker-and-the-mask-event",
+      "predicate": "questline_scene_account",
+      "value": "Stefan’s counter-operation sends a disguised agent into the necropolis. An ensorcelled choker lets the infiltrator pass among the undead long enough to stand within Drakuru’s reach. Faction-specific versions preserve their own approach, and the earlier Grizzly Hills chain changes how Drakuru greets the visitor. The common purpose is to learn what the Overlord is building and weaken it from within. Each task brings the disguise closer to exposure even as Drakuru’s confidence grows.",
+      "citationIds": [
+        "drakuru-betrayal-the-choker-and-the-mask-citation-1",
+        "drakuru-betrayal-the-choker-and-the-mask-citation-2",
+        "drakuru-betrayal-the-choker-and-the-mask-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-the-keep-is-cleansed-claim",
+      "subjectId": "drakuru-betrayal-the-keep-is-cleansed-event",
+      "predicate": "questline_scene_account",
+      "value": "Drak’Tharon Keep stands where the cold forest gives way to the harsher land of Zul’Drak: carved stone rising above a border already touched by the Scourge. The relics and Drakuru’s elixir bring the living into its upper reaches. There he is summoned before the fortress’s remaining resistance is overcome. He has promised a peaceful return to the Keep’s purpose. At the summit, the ritual does not end in restoration; a portal opens, and the master behind Drakuru’s promises steps through.",
+      "citationIds": [
+        "drakuru-betrayal-the-keep-is-cleansed-citation-1",
+        "drakuru-betrayal-the-keep-is-cleansed-citation-2",
+        "drakuru-betrayal-the-keep-is-cleansed-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-the-land-he-means-to-take-claim",
+      "subjectId": "drakuru-betrayal-the-land-he-means-to-take-event",
+      "predicate": "questline_scene_account",
+      "value": "Across the tour, Drakuru names the lands and powers he means to overcome. His ambition reaches beyond the Dead Fields to Gundrak, the heart of the Drakkari realm. The old promise of a rescued people has given way to the language of possession: the trolls are now obstacles, and their capital the prize. The flight returns to the floating citadel, where the infiltrator is told to prepare, observe, and continue earning the trust of a master who has mistaken obedience for loyalty.",
+      "citationIds": [
+        "drakuru-betrayal-the-land-he-means-to-take-citation-1",
+        "drakuru-betrayal-the-land-he-means-to-take-citation-2",
+        "drakuru-betrayal-the-land-he-means-to-take-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-the-lich-kings-gift-claim",
+      "subjectId": "drakuru-betrayal-the-lich-kings-gift-event",
+      "predicate": "questline_scene_account",
+      "value": "The Lich King appears, and Drakuru kneels. He names his mission complete: with the mortals’ help, those who opposed the Scourge in the region have been removed. The Lich King reveals the truth plainly—Drakuru’s betrayal of the Drakkari Empire has given him a new army. He changes the troll’s form, making him larger and darker, then charges him with the “cleansing” of Zul’Drak. Drakuru accepts. The bargain in the cedar forest has delivered a fortress into the Scourge’s hands.",
+      "citationIds": [
+        "drakuru-betrayal-the-lich-kings-gift-citation-1",
+        "drakuru-betrayal-the-lich-kings-gift-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-the-lich-kings-judgment-claim",
+      "subjectId": "drakuru-betrayal-the-lich-kings-judgment-event",
+      "predicate": "questline_scene_account",
+      "value": "The Lich King comes through a portal and strikes Drakuru down. He spares the infiltrator, amused by the deception that has undone his servant. Stefan’s operation has ended the Overlord’s command, but no account here restores the chieftains who were made into Blightblood Trolls or measures what the Scourge had already taken from Zul’Drak. Drakuru’s bargain began with a hand through a cage; it ends above a conquered land, beneath the judgment of the master he chose.",
+      "citationIds": [
+        "drakuru-betrayal-the-lich-kings-judgment-citation-1",
+        "drakuru-betrayal-the-lich-kings-judgment-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-the-scepter-of-domination-claim",
+      "subjectId": "drakuru-betrayal-the-scepter-of-domination-event",
+      "predicate": "questline_scene_account",
+      "value": "Believing the infiltrator loyal, Drakuru grants a scepter as a token of trust and reveals his design: the Drakkari will be swept aside so he can claim Gundrak. The Scepter of Domination offers access to the upper chamber and to weapons still hidden from view. It is no legacy of a mage or ancient sand empire, but a tool in this betrayal, bound to the blight-born force Drakuru commands. Trust has given the conspirator the means to turn his own weapon back upon him.",
+      "citationIds": [
+        "drakuru-betrayal-the-scepter-of-domination-citation-1",
+        "drakuru-betrayal-the-scepter-of-domination-citation-2",
+        "drakuru-betrayal-the-scepter-of-domination-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-the-scepter-turns-claim",
+      "subjectId": "drakuru-betrayal-the-scepter-turns-event",
+      "predicate": "questline_scene_account",
+      "value": "The Scepter of Domination shines, and the Blightblood Trolls turn upon the master who made them. The chain records a reversal at the heart of Voltarus: Drakuru’s own instrument and army become the means by which his power is broken. His defeat is not yet the end. At the edge of his fall, he calls upon the Lich King, the authority he served when he betrayed his people and seized the Keep.",
+      "citationIds": [
+        "drakuru-betrayal-the-scepter-turns-citation-1",
+        "drakuru-betrayal-the-scepter-turns-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
+    },
+    {
+      "id": "drakuru-betrayal-vial-of-visions-claim",
+      "subjectId": "drakuru-betrayal-vial-of-visions-event",
+      "predicate": "questline_scene_account",
+      "value": "A vial of visions becomes the means by which Drakuru’s image can speak beyond the cage. The potion is an alchemical bridge, not freedom: he remains imprisoned while his counsel reaches distant places. His words carry the search toward old Drakkari monuments, where he claims signs of a power that could shield Drak’Tharon. The first step of the bargain is therefore not a key or a gate, but a voice learning how to travel.",
+      "citationIds": [
+        "drakuru-betrayal-vial-of-visions-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: quest mirrors support the paraphrase, but original Wrath client/build capture and human lore review are still required. The prisoner bargain, claimed artifact history, faction/follow-up variants, invasion chronology and motives are not expanded beyond their cited scope."
     },
     {
       "id": "dungeon-set-two-a-client-from-booty-bay-claim",
@@ -62360,6 +64281,81 @@
       "contentStatus": "research"
     },
     {
+      "id": "drakuru-betrayal",
+      "slug": "drakuru-betrayal",
+      "title": "Drakuru: Trust, Betrayal, and Infiltration",
+      "summary": "A captive ice troll offers help in the cedar forests of Grizzly Hills. His trail of relics opens Drak’Tharon Keep to the Scourge, and an Ebon Blade infiltrator follows the false trust to Voltarus, where Drakuru’s own scepter turns his new army against him.",
+      "opening": "Among the red cedars of Grizzly Hills, Drakuru offers a truce from behind a cage. His guide leads through carved ruins and old relics toward a fortress at the edge of Zul’Drak. The promise will not survive the summit of Drak’Tharon Keep.",
+      "primaryEraId": "age-of-adventurers",
+      "eraIds": [
+        "age-of-adventurers"
+      ],
+      "chapters": [
+        {
+          "id": "the-prisoner-and-the-relics",
+          "eraId": "age-of-adventurers",
+          "title": "The prisoner and the relics",
+          "body": "In the cedar country of Grizzly Hills, Drakuru waits behind the bars of a cage at Granite Springs. He is a Drakkari troll, held after the forest’s struggles have brought him into human custody. His warning is plain: he remembers many heads he has taken, yet proposes that old enemies set their quarrel aside for a time. The offered truce is uneasy, but the prisoner says he knows things that could help against the dangers gathering here. Drakuru cuts his palm and reaches through the cage. The meeting becomes a blood pact, binding the two sides to a temporary alliance. He promises knowledge of Drak’Tharon Keep, whose fall has left the borderlands under threat. At Granite Springs, the promise appears to serve a common need: the captive will guide the seeker, and the living may learn what has overtaken the old fortress. The pact gives trust a shape, though not yet a reason to doubt it. A vial of visions becomes the means by which Drakuru’s image can speak beyond the cage. The potion is an alchemical bridge, not freedom: he remains imprisoned while his counsel reaches distant places. His words carry the search toward old Drakkari monuments, where he claims signs of a power that could shield Drak’Tharon. The first step of the bargain is therefore not a key or a gate, but a voice learning how to travel. Among the weathered faces and broken terraces of Drak’Zin, Drakuru’s image studies the carved walls. He says a legendary set of artifacts was made to render Drak’Tharon Keep impervious, and that hieroglyphs may reveal where one lies. Drakuru alone offers this claim, and its truth remains unverified. He had been captured while interpreting the old stones. Now the ruins become the first test of whether his knowledge is a path toward safety or another kind of trap. At Zeb’Halak, an ancient idol watches the forest from its stepped stone height. One eye is a ruby, and Drakuru names it the Eye of the Prophets. He directs that it be brought to his brazier and says it will show the next relic. To gain the old warlord Zim’bo’s mojo, Drakuru speaks of the blood oath that binds him to defend Drak’Tharon. The eye is recovered; the cost is a life that Drakuru describes as sacrifice for a greater hope. Blue Sky Logging Grounds cuts a human worksite into the cedar forest, where water and timber run through the hills. In an upper room, the Heart of the Ancients lies beside a dead Venture Company goblin. The tale locates the gem there, but gives no fuller history for the goblin. The story’s second relic is found amid evidence of ordinary labor displaced by older ruins and a darker search. Through the Eye, Drakuru says he has watched the search and knows the Heart has been found. He asks for it at Drak’atal Passage, where a brazier will summon his image once more. His promise remains the same: the Keep will be cleansed, his brothers avenged, and its greatest treasure given in return. The words join the two artifacts to the threatened fortress. They also sharpen the question that began in the cage: whose purpose is being served by every promised cleansing? At the buried chambers of Drakil’jin, the Drakkari tablets are the last records Drakuru seeks. He places the Eye at his brow and the Heart upon his chest, saying the relics together let him read what no one now understands. The stones are old; their meaning is not independently established by the chain. Drakuru declares that all the components for a cleansing ritual are now gathered. The route bends at last toward Drak’Tharon Keep."
+        },
+        {
+          "id": "the-fall-of-draktharon",
+          "eraId": "age-of-adventurers",
+          "title": "The fall of Drak’Tharon",
+          "body": "Drak’Tharon Keep stands where the cold forest gives way to the harsher land of Zul’Drak: carved stone rising above a border already touched by the Scourge. The relics and Drakuru’s elixir bring the living into its upper reaches. There he is summoned before the fortress’s remaining resistance is overcome. He has promised a peaceful return to the Keep’s purpose. At the summit, the ritual does not end in restoration; a portal opens, and the master behind Drakuru’s promises steps through. The Lich King appears, and Drakuru kneels. He names his mission complete: with the mortals’ help, those who opposed the Scourge in the region have been removed. The Lich King reveals the truth plainly—Drakuru’s betrayal of the Drakkari Empire has given him a new army. He changes the troll’s form, making him larger and darker, then charges him with the “cleansing” of Zul’Drak. Drakuru accepts. The bargain in the cedar forest has delivered a fortress into the Scourge’s hands."
+        },
+        {
+          "id": "orders-and-the-ebon-watch",
+          "eraId": "age-of-adventurers",
+          "title": "Orders and the Ebon Watch",
+          "body": "A written order gives shape to the campaign spreading through Zul’Drak. Drakuru commands the Scourge armies, has corpses processed in the Dead Fields, and sends them to Zeramas to be raised. He speaks of blood from the prophets as a means to strengthen his forces, and names both Zul’Drak and Gundrak as targets. The scroll leaves little room for the earlier tale of rescue: the work of the relics has helped make conquest possible. At Ebon Watch, the orders reach Stefan Vadu, the death knight who commands the camp. He reads the message, calls it old news, and says the Ebon Blade has tracked Drakuru since Grizzly Hills. The Argent Crusade and Ebon Blade divide their work against threats in Zul’Drak; Stefan’s concern is the Scourge lord who now directs the land’s dead. The apparent ally of Drak’Tharon has become an enemy both orders already know."
+        },
+        {
+          "id": "the-necropolis-and-the-mask",
+          "eraId": "age-of-adventurers",
+          "title": "The necropolis and the mask",
+          "body": "Voltarus hangs above the blighted ravines of Zul’Drak, its towers and chains suspended over a landscape of ice and ruined stone. The greeting depends on the path by which the traveler arrives: those who aided Drakuru before are welcomed as familiar servants, while others receive a different introduction. Both versions lead into his account of the land. With Gorebag as guide, a broad tour reveals the scale of Zul’Drak and the reach Drakuru hopes to claim. Across the tour, Drakuru names the lands and powers he means to overcome. His ambition reaches beyond the Dead Fields to Gundrak, the heart of the Drakkari realm. The old promise of a rescued people has given way to the language of possession: the trolls are now obstacles, and their capital the prize. The flight returns to the floating citadel, where the infiltrator is told to prepare, observe, and continue earning the trust of a master who has mistaken obedience for loyalty. Stefan’s counter-operation sends a disguised agent into the necropolis. An ensorcelled choker lets the infiltrator pass among the undead long enough to stand within Drakuru’s reach. Faction-specific versions preserve their own approach, and the earlier Grizzly Hills chain changes how Drakuru greets the visitor. The common purpose is to learn what the Overlord is building and weaken it from within. Each task brings the disguise closer to exposure even as Drakuru’s confidence grows. Within Voltarus, blight crystals are gathered for a work whose full design is not yet disclosed. Stefan asks for samples while the infiltrator continues to serve Drakuru’s demands. Handling the crystals can break the disguise, a danger that makes proximity itself part of the counter-operation. The later account identifies the purpose: captured Drakkari chieftains are infused with blight and reshaped into weapons for the Scourge. That is the army Drakuru has been preparing beneath the floating fortress."
+        },
+        {
+          "id": "betrayal-above-zuldrak",
+          "eraId": "age-of-adventurers",
+          "title": "Betrayal above Zul’Drak",
+          "body": "Believing the infiltrator loyal, Drakuru grants a scepter as a token of trust and reveals his design: the Drakkari will be swept aside so he can claim Gundrak. The Scepter of Domination offers access to the upper chamber and to weapons still hidden from view. It is no legacy of a mage or ancient sand empire, but a tool in this betrayal, bound to the blight-born force Drakuru commands. Trust has given the conspirator the means to turn his own weapon back upon him. At the summit, Drakuru displays the next work of his reign: Blightblood Trolls, made from captured Drakkari chieftains and infused with blight. He calls them the first of a greater army, meant to sweep across Zul’Drak. The captives who once stood among their own people have been turned into instruments against them. Before the display can become a campaign, the infiltrator’s disguise fails. Drakuru recognizes the deceit, and the necropolis becomes a place of open reckoning. The Scepter of Domination shines, and the Blightblood Trolls turn upon the master who made them. The chain records a reversal at the heart of Voltarus: Drakuru’s own instrument and army become the means by which his power is broken. His defeat is not yet the end. At the edge of his fall, he calls upon the Lich King, the authority he served when he betrayed his people and seized the Keep. The Lich King comes through a portal and strikes Drakuru down. He spares the infiltrator, amused by the deception that has undone his servant. Stefan’s operation has ended the Overlord’s command, but no account here restores the chieftains who were made into Blightblood Trolls or measures what the Scourge had already taken from Zul’Drak. Drakuru’s bargain began with a hand through a cage; it ends above a conquered land, beneath the judgment of the master he chose."
+        }
+      ],
+      "sourceIds": [
+        "drakuru-betrayal-truce",
+        "drakuru-betrayal-vial-of-visions",
+        "drakuru-betrayal-subject-to-interpretation",
+        "drakuru-betrayal-sacrifices-must-be-made",
+        "drakuru-betrayal-warlord-zimbo",
+        "drakuru-betrayal-heart-of-the-ancients",
+        "drakuru-betrayal-my-heart-is-in-your-hands",
+        "drakuru-betrayal-voices-from-the-dust",
+        "drakuru-betrayal-cleansing-draktharon",
+        "drakuru-betrayal-orders-from-drakuru",
+        "drakuru-betrayal-the-ebon-watch",
+        "drakuru-betrayal-reunited",
+        "drakuru-betrayal-dark-horizon",
+        "drakuru-betrayal-infiltrating-voltarus",
+        "drakuru-betrayal-so-far-so-bad",
+        "drakuru-betrayal-hazardous-materials",
+        "drakuru-betrayal-sabotage",
+        "drakuru-betrayal-fuel-for-the-fire",
+        "drakuru-betrayal-disclosure",
+        "drakuru-betrayal-betrayal",
+        "drakuru-betrayal-overlord-drakuru",
+        "drakuru-betrayal-guru-of-drakuru",
+        "drakuru-betrayal-blizzard-grizzly-hills",
+        "drakuru-betrayal-blizzard-zuldrak",
+        "drakuru-betrayal-draktharon-area",
+        "drakuru-betrayal-voltarus-area"
+      ],
+      "storyGuideId": "drakuru-betrayal-guide",
+      "showInEraTourOffshoots": false,
+      "reviewNote": "Complete illustrated research story: 20 scenes across Granite Springs, five Grizzly Hills sites, Drak’Tharon Keep and four Zul’Drak theaters, with separate Drakuru appearance states, Stefan Vadu, the Lich King, Blightblood Trolls and three pivotal relics. The Drakkari tablet history and Drakuru’s artifact claims stay attributed; the Reunited/Dark Horizon and faction approach variants remain explicit. Quest mirrors are secondary, and original-client quest/dialogue capture, exact 3.3.5a area/model comparison, cross-campaign chronology, human lore review and audio audition remain open. No content is marked reviewed or published.",
+      "contentStatus": "research"
+    },
+    {
       "id": "dungeon-set-two-veiled-blade",
       "slug": "dungeon-set-two-veiled-blade",
       "title": "The Veiled Blade and Lord Valthalak",
@@ -63412,11 +65408,11 @@
       "title": "Classic to Wrath",
       "editionLabel": "World of Warcraft · Classic, The Burning Crusade, and Wrath of the Lich King",
       "summary": "Choose a story from the map, or play the completed stories in chronological order across Azeroth, Outland, and Northrend.",
-      "opening": "Azeroth's northern continents, the broken world of Outland, and the frozen reaches of Northrend frame a new kind of journey: each story stands on its own, while the whole tour follows the great campaigns in turn.",
+      "opening": "Choose a story from the map, or play the completed stories in editorial chronology across Azeroth, Outland, and Northrend, including the deception that opened Drak’Tharon Keep to the Scourge.",
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth. Anchors were checked against the depicted landmasses: Stormwind, Westfall, Duskwood, Deadwind Pass and the Blasted Lands in the southern Eastern Kingdoms; the Plaguelands in the north; Theramore and Tanaris on eastern Kalimdor; Dragonblight and Icecrown in Northrend; and Shadowmoon Valley in southeastern Outland. Multi-region stories use one representative anchor, not their entire route.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Swift Flight Form’s Druid quest chain was added in patch 2.1 and is placed after the Netherwing editorial stop, before The Missing Diplomat’s patch 2.3 continuation; its exact relative in-world date is unknown, and no cross-story dependency is claimed. Its quest trail crosses Zangarmarsh, Moonglade, Outland, and Azshara, while its marker remains a tour-layout anchor. The Consortium and Arcatraz stop follows Karazhan as an editorial Burning Crusade placement; it claims neither a precise date nor a dependency between stories. Karazhan’s Arcatraz visit is a separate key-fragment quest and is not retold here. The Shattered Sun and Sunwell story follows the Missing Diplomat’s patch 2.3 continuation and precedes Wrathgate as the Burning Crusade patch 2.4 campaign. The island’s unlock phases and original raid gate schedule are server-wide gameplay, not historical dates; Outland support missions and the Magisters’ Terrace operation are parallel campaign branches, not one adventurer’s universal prerequisite chain. The restoration scene is the original TBC epilogue and excludes later expansion reinterpretations. The Wrathgate and Undercity stop preserves separate Horde and Alliance approaches, their distinct Undercity operations, and the later Royal Quarter convergence. Its interleaved node order is editorial and does not assert precise overlap or relative timing of the two assaults. The Alliance’s early belief that Bolvar was lost is not his ultimate fate. This Wrath-era event is distinct from the Fourth War Battle for Lordaeron. Yeh'kinya's Yojamba Isle handoff and the later Zul'Gurub campaign are told as separate source-backed stops; tour order does not prove that the Ancient Egg enabled Jin'do's summoning.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Swift Flight Form’s Druid quest chain was added in patch 2.1 and is placed after the Netherwing editorial stop, before The Missing Diplomat’s patch 2.3 continuation; its exact relative in-world date is unknown, and no cross-story dependency is claimed. Its quest trail crosses Zangarmarsh, Moonglade, Outland, and Azshara, while its marker remains a tour-layout anchor. The Consortium and Arcatraz stop follows Karazhan as an editorial Burning Crusade placement; it claims neither a precise date nor a dependency between stories. Karazhan’s Arcatraz visit is a separate key-fragment quest and is not retold here. The Shattered Sun and Sunwell story follows the Missing Diplomat’s patch 2.3 continuation and precedes Wrathgate as the Burning Crusade patch 2.4 campaign. The island’s unlock phases and original raid gate schedule are server-wide gameplay, not historical dates; Outland support missions and the Magisters’ Terrace operation are parallel campaign branches, not one adventurer’s universal prerequisite chain. The restoration scene is the original TBC epilogue and excludes later expansion reinterpretations. The Wrathgate and Undercity stop preserves separate Horde and Alliance approaches, their distinct Undercity operations, and the later Royal Quarter convergence. Its interleaved node order is editorial and does not assert precise overlap or relative timing of the two assaults. The Alliance’s early belief that Bolvar was lost is not his ultimate fate. This Wrath-era event is distinct from the Fourth War Battle for Lordaeron. Yeh'kinya's Yojamba Isle handoff and the later Zul'Gurub campaign are told as separate source-backed stops; tour order does not prove that the Ancient Egg enabled Jin'do's summoning. Drakuru’s Grizzly Hills and Zul’Drak chain is placed after Wrathgate and before Quel’Delar as an editorial Northrend stop. Its exact in-world timing relative to Wrathgate is unknown, and no causal link is claimed; Quel’Delar remains the later patch 3.3.5 story. “Reunited”/“Dark Horizon” and faction approaches remain variants within the guide, not separate chronological events.",
       "regions": [
         {
           "id": "kalimdor",
@@ -63747,6 +65743,19 @@
           "locationLabel": "Dragonblight · Northrend"
         },
         {
+          "storylineId": "drakuru-betrayal",
+          "regionIds": [
+            "northrend"
+          ],
+          "mapPositionPercent": [
+            55,
+            25
+          ],
+          "order": 22,
+          "periodLabel": "Wrath of the Lich King · Grizzly Hills and Zul’Drak",
+          "locationLabel": "Grizzly Hills and Zul’Drak"
+        },
+        {
           "storylineId": "quel-delar-restored",
           "regionIds": [
             "northrend",
@@ -63756,12 +65765,12 @@
             49,
             12
           ],
-          "order": 22,
+          "order": 23,
           "periodLabel": "Wrath of the Lich King · patch 3.3.5",
           "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
         }
       ],
-      "reviewNote": "Research StoryTour collection with 22 map placards, 22 playable research StoryGuides and no research previews. Play All follows the authored editorial sequence and skips the preview. Story-tour map markers are navigational layout positions, not exact geography; the Sunwell story uses Quel’Danas as a representative anchor despite its Shattrath and Outland campaign branches. Every storyline remains research until its human review gates are complete. Wrathgate and Undercity remain research pending original removed-quest capture, faction-order review, and area and model comparison.",
+      "reviewNote": "Research StoryTour collection with 23 map placards and complete StoryGuides for the playable research entries; Play All follows the explicit editorial order and skips research previews. Story-tour map markers are navigational layout positions, not exact locations. Drakuru’s placement relative to Wrathgate is editorial because the stories lack a precise cross-story date. Human source, edition, chronology, and visual review remains open.",
       "contentStatus": "research"
     }
   ],
@@ -64006,6 +66015,35 @@
         "defias-original-conspiracy-story-garden-meeting",
         "defias-original-conspiracy-story-report-and-secrecy",
         "defias-original-conspiracy-story-audience-unanswered"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "drakuru-betrayal-guide",
+      "eraId": "age-of-adventurers",
+      "title": "Drakuru: Trust, Betrayal, and Infiltration",
+      "description": "A prisoner’s blood pact leads through Drak’Tharon Keep to a Scourge necropolis where an infiltrator turns Drakuru’s own scepter against him.",
+      "nodeIds": [
+        "drakuru-betrayal-story-captive-at-granite-springs",
+        "drakuru-betrayal-story-blood-pact",
+        "drakuru-betrayal-story-vial-of-visions",
+        "drakuru-betrayal-story-hieroglyphs-of-drakzin",
+        "drakuru-betrayal-story-eye-of-the-prophets",
+        "drakuru-betrayal-story-heart-at-blue-sky",
+        "drakuru-betrayal-story-drakatal-watching",
+        "drakuru-betrayal-story-tablets-of-drakiljin",
+        "drakuru-betrayal-story-the-keep-is-cleansed",
+        "drakuru-betrayal-story-the-lich-kings-gift",
+        "drakuru-betrayal-story-orders-in-the-dead-fields",
+        "drakuru-betrayal-story-stefan-reads-the-orders",
+        "drakuru-betrayal-story-a-return-to-voltarus",
+        "drakuru-betrayal-story-the-land-he-means-to-take",
+        "drakuru-betrayal-story-the-choker-and-the-mask",
+        "drakuru-betrayal-story-crystals-of-blight",
+        "drakuru-betrayal-story-the-scepter-of-domination",
+        "drakuru-betrayal-story-the-blightblood-army",
+        "drakuru-betrayal-story-the-scepter-turns",
+        "drakuru-betrayal-story-the-lich-kings-judgment"
       ],
       "contentStatus": "research"
     },
@@ -72316,6 +74354,919 @@
         }
       ],
       "previousNodeId": "defias-original-conspiracy-story-report-and-secrecy"
+    },
+    {
+      "id": "drakuru-betrayal-story-captive-at-granite-springs",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "A captive among the cedars",
+      "narration": "In the cedar country of Grizzly Hills, Drakuru waits behind the bars of a cage at Granite Springs. He is a Drakkari troll, held after the forest’s struggles have brought him into human custody. His warning is plain: he remembers many heads he has taken, yet proposes that old enemies set their quarrel aside for a time. The offered truce is uneasy, but the prisoner says he knows things that could help against the dangers gathering here.",
+      "durationMs": 60841,
+      "eventIds": [
+        "drakuru-betrayal-captive-at-granite-springs-event"
+      ],
+      "entityIds": [
+        "drakuru"
+      ],
+      "locationIds": [
+        "granite-springs"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-granite-springs-scene"
+        }
+      ],
+      "nextNodeIds": [
+        "drakuru-betrayal-story-blood-pact"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-captive-at-granite-springs.mp3",
+        "durationMs": 31875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-blood-pact",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The bargain sealed in blood",
+      "narration": "Drakuru cuts his palm and reaches through the cage. The meeting becomes a blood pact, binding the two sides to a temporary alliance. He promises knowledge of Drak’Tharon Keep, whose fall has left the borderlands under threat. At Granite Springs, the promise appears to serve a common need: the captive will guide the seeker, and the living may learn what has overtaken the old fortress. The pact gives trust a shape, though not yet a reason to doubt it.",
+      "durationMs": 62305,
+      "eventIds": [
+        "drakuru-betrayal-blood-pact-event"
+      ],
+      "entityIds": [
+        "drakuru"
+      ],
+      "locationIds": [
+        "granite-springs"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-granite-springs-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-captive-at-granite-springs",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-vial-of-visions"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-blood-pact.mp3",
+        "durationMs": 33125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-vial-of-visions",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "A voice carried through the vial",
+      "narration": "A vial of visions becomes the means by which Drakuru’s image can speak beyond the cage. The potion is an alchemical bridge, not freedom: he remains imprisoned while his counsel reaches distant places. His words carry the search toward old Drakkari monuments, where he claims signs of a power that could shield Drak’Tharon. The first step of the bargain is therefore not a key or a gate, but a voice learning how to travel.",
+      "durationMs": 58646,
+      "eventIds": [
+        "drakuru-betrayal-vial-of-visions-event"
+      ],
+      "entityIds": [
+        "drakuru"
+      ],
+      "locationIds": [
+        "granite-springs"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-granite-springs-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-blood-pact",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-hieroglyphs-of-drakzin"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-vial-of-visions.mp3",
+        "durationMs": 30800,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-hieroglyphs-of-drakzin",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The stones of Drak’Zin",
+      "narration": "Among the weathered faces and broken terraces of Drak’Zin, Drakuru’s image studies the carved walls. He says a legendary set of artifacts was made to render Drak’Tharon Keep impervious, and that hieroglyphs may reveal where one lies. Drakuru alone offers this claim, and its truth remains unverified. He had been captured while interpreting the old stones. Now the ruins become the first test of whether his knowledge is a path toward safety or another kind of trap.",
+      "durationMs": 60841,
+      "eventIds": [
+        "drakuru-betrayal-hieroglyphs-of-drakzin-event"
+      ],
+      "entityIds": [
+        "drakuru"
+      ],
+      "locationIds": [
+        "drakzin-ruins"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-drakzin-ruins-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-vial-of-visions",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-eye-of-the-prophets"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-hieroglyphs-of-drakzin.mp3",
+        "durationMs": 35375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-eye-of-the-prophets",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The eye in the idol",
+      "narration": "At Zeb’Halak, an ancient idol watches the forest from its stepped stone height. One eye is a ruby, and Drakuru names it the Eye of the Prophets. He directs that it be brought to his brazier and says it will show the next relic. To gain the old warlord Zim’bo’s mojo, Drakuru speaks of the blood oath that binds him to defend Drak’Tharon. The eye is recovered; the cost is a life that Drakuru describes as sacrifice for a greater hope.",
+      "durationMs": 63768,
+      "eventIds": [
+        "drakuru-betrayal-eye-of-the-prophets-event"
+      ],
+      "entityIds": [
+        "drakuru",
+        "warlord-zimbo",
+        "eye-of-the-prophets"
+      ],
+      "locationIds": [
+        "zebhalak"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-zebhalak-ziggurat-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-hieroglyphs-of-drakzin",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-heart-at-blue-sky"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-eye-of-the-prophets.mp3",
+        "durationMs": 32850,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-heart-at-blue-sky",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The heart beneath the logging ground",
+      "narration": "Blue Sky Logging Grounds cuts a human worksite into the cedar forest, where water and timber run through the hills. In an upper room, the Heart of the Ancients lies beside a dead Venture Company goblin. The tale locates the gem there, but gives no fuller history for the goblin. The story’s second relic is found amid evidence of ordinary labor displaced by older ruins and a darker search.",
+      "durationMs": 54988,
+      "eventIds": [
+        "drakuru-betrayal-heart-at-blue-sky-event"
+      ],
+      "entityIds": [
+        "heart-of-the-ancients"
+      ],
+      "locationIds": [
+        "blue-sky-logging-grounds"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-blue-sky-logging-grounds-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-eye-of-the-prophets",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-drakatal-watching"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-heart-at-blue-sky.mp3",
+        "durationMs": 29125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-drakatal-watching",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The heart watched from afar",
+      "narration": "Through the Eye, Drakuru says he has watched the search and knows the Heart has been found. He asks for it at Drak’atal Passage, where a brazier will summon his image once more. His promise remains the same: the Keep will be cleansed, his brothers avenged, and its greatest treasure given in return. The words join the two artifacts to the threatened fortress. They also sharpen the question that began in the cage: whose purpose is being served by every promised cleansing?",
+      "durationMs": 64500,
+      "eventIds": [
+        "drakuru-betrayal-drakatal-watching-event"
+      ],
+      "entityIds": [
+        "drakuru",
+        "eye-of-the-prophets",
+        "heart-of-the-ancients"
+      ],
+      "locationIds": [
+        "drak-atal-passage",
+        "drak-tharon-keep"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-draktharon-keep-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-heart-at-blue-sky",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-tablets-of-drakiljin"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-drakatal-watching.mp3",
+        "durationMs": 33900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-tablets-of-drakiljin",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The voices in the crypt",
+      "narration": "At the buried chambers of Drakil’jin, the Drakkari tablets are the last records Drakuru seeks. He places the Eye at his brow and the Heart upon his chest, saying the relics together let him read what no one now understands. The stones are old; their meaning is not independently established by the chain. Drakuru declares that all the components for a cleansing ritual are now gathered. The route bends at last toward Drak’Tharon Keep.",
+      "durationMs": 58646,
+      "eventIds": [
+        "drakuru-betrayal-tablets-of-drakiljin-event"
+      ],
+      "entityIds": [
+        "drakuru",
+        "eye-of-the-prophets",
+        "heart-of-the-ancients"
+      ],
+      "locationIds": [
+        "drakiljin-ruins"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-drakiljin-crypt-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-drakatal-watching",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-the-keep-is-cleansed"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-tablets-of-drakiljin.mp3",
+        "durationMs": 32150,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-the-keep-is-cleansed",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The fortress opened",
+      "narration": "Drak’Tharon Keep stands where the cold forest gives way to the harsher land of Zul’Drak: carved stone rising above a border already touched by the Scourge. The relics and Drakuru’s elixir bring the living into its upper reaches. There he is summoned before the fortress’s remaining resistance is overcome. He has promised a peaceful return to the Keep’s purpose. At the summit, the ritual does not end in restoration; a portal opens, and the master behind Drakuru’s promises steps through.",
+      "durationMs": 63037,
+      "eventIds": [
+        "drakuru-betrayal-the-keep-is-cleansed-event"
+      ],
+      "entityIds": [
+        "drakuru"
+      ],
+      "locationIds": [
+        "drak-tharon-keep"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-draktharon-keep-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-tablets-of-drakiljin",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-the-lich-kings-gift"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-keep-is-cleansed.mp3",
+        "durationMs": 35375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-the-lich-kings-gift",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The gift beneath the Keep",
+      "narration": "The Lich King appears, and Drakuru kneels. He names his mission complete: with the mortals’ help, those who opposed the Scourge in the region have been removed. The Lich King reveals the truth plainly—Drakuru’s betrayal of the Drakkari Empire has given him a new army. He changes the troll’s form, making him larger and darker, then charges him with the “cleansing” of Zul’Drak. Drakuru accepts. The bargain in the cedar forest has delivered a fortress into the Scourge’s hands.",
+      "durationMs": 62305,
+      "eventIds": [
+        "drakuru-betrayal-the-lich-kings-gift-event"
+      ],
+      "entityIds": [
+        "overlord-drakuru",
+        "arthas-as-the-lich-king"
+      ],
+      "locationIds": [
+        "drak-tharon-keep"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-draktharon-keep-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-the-keep-is-cleansed",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-orders-in-the-dead-fields"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-lich-kings-gift.mp3",
+        "durationMs": 35425,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-orders-in-the-dead-fields",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "Orders from the Dead Fields",
+      "narration": "A written order gives shape to the campaign spreading through Zul’Drak. Drakuru commands the Scourge armies, has corpses processed in the Dead Fields, and sends them to Zeramas to be raised. He speaks of blood from the prophets as a means to strengthen his forces, and names both Zul’Drak and Gundrak as targets. The scroll leaves little room for the earlier tale of rescue: the work of the relics has helped make conquest possible.",
+      "durationMs": 58646,
+      "eventIds": [
+        "drakuru-betrayal-orders-in-the-dead-fields-event"
+      ],
+      "entityIds": [
+        "overlord-drakuru"
+      ],
+      "locationIds": [
+        "zul-drak-dead-fields"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-zuldrak-dead-fields-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-the-lich-kings-gift",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-stefan-reads-the-orders"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-orders-in-the-dead-fields.mp3",
+        "durationMs": 30875,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-stefan-reads-the-orders",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The Ebon Watch has followed",
+      "narration": "At Ebon Watch, the orders reach Stefan Vadu, the death knight who commands the camp. He reads the message, calls it old news, and says the Ebon Blade has tracked Drakuru since Grizzly Hills. The Argent Crusade and Ebon Blade divide their work against threats in Zul’Drak; Stefan’s concern is the Scourge lord who now directs the land’s dead. The apparent ally of Drak’Tharon has become an enemy both orders already know.",
+      "durationMs": 57183,
+      "eventIds": [
+        "drakuru-betrayal-stefan-reads-the-orders-event"
+      ],
+      "entityIds": [
+        "stefan-vadu"
+      ],
+      "locationIds": [
+        "ebon-watch"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-ebon-watch-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-orders-in-the-dead-fields",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-a-return-to-voltarus"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-stefan-reads-the-orders.mp3",
+        "durationMs": 32825,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-a-return-to-voltarus",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "A welcome beneath the necropolis",
+      "narration": "Voltarus hangs above the blighted ravines of Zul’Drak, its towers and chains suspended over a landscape of ice and ruined stone. The greeting depends on the path by which the traveler arrives: those who aided Drakuru before are welcomed as familiar servants, while others receive a different introduction. Both versions lead into his account of the land. With Gorebag as guide, a broad tour reveals the scale of Zul’Drak and the reach Drakuru hopes to claim.",
+      "durationMs": 60110,
+      "eventIds": [
+        "drakuru-betrayal-a-return-to-voltarus-event"
+      ],
+      "entityIds": [
+        "overlord-drakuru"
+      ],
+      "locationIds": [
+        "voltarus"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-voltarus-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-stefan-reads-the-orders",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-the-land-he-means-to-take"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-a-return-to-voltarus.mp3",
+        "durationMs": 34300,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-the-land-he-means-to-take",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "Gundrak in his sight",
+      "narration": "Across the tour, Drakuru names the lands and powers he means to overcome. His ambition reaches beyond the Dead Fields to Gundrak, the heart of the Drakkari realm. The old promise of a rescued people has given way to the language of possession: the trolls are now obstacles, and their capital the prize. The flight returns to the floating citadel, where the infiltrator is told to prepare, observe, and continue earning the trust of a master who has mistaken obedience for loyalty.",
+      "durationMs": 64500,
+      "eventIds": [
+        "drakuru-betrayal-the-land-he-means-to-take-event"
+      ],
+      "entityIds": [
+        "overlord-drakuru"
+      ],
+      "locationIds": [
+        "voltarus"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-voltarus-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-a-return-to-voltarus",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-the-choker-and-the-mask"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-land-he-means-to-take.mp3",
+        "durationMs": 35600,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-the-choker-and-the-mask",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "A disguise within Voltarus",
+      "narration": "Stefan’s counter-operation sends a disguised agent into the necropolis. An ensorcelled choker lets the infiltrator pass among the undead long enough to stand within Drakuru’s reach. Faction-specific versions preserve their own approach, and the earlier Grizzly Hills chain changes how Drakuru greets the visitor. The common purpose is to learn what the Overlord is building and weaken it from within. Each task brings the disguise closer to exposure even as Drakuru’s confidence grows.",
+      "durationMs": 57915,
+      "eventIds": [
+        "drakuru-betrayal-the-choker-and-the-mask-event"
+      ],
+      "entityIds": [
+        "stefan-vadu",
+        "overlord-drakuru"
+      ],
+      "locationIds": [
+        "ebon-watch",
+        "voltarus"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-voltarus-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-the-land-he-means-to-take",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-crystals-of-blight"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-choker-and-the-mask.mp3",
+        "durationMs": 36825,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-crystals-of-blight",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The crystals harvested",
+      "narration": "Within Voltarus, blight crystals are gathered for a work whose full design is not yet disclosed. Stefan asks for samples while the infiltrator continues to serve Drakuru’s demands. Handling the crystals can break the disguise, a danger that makes proximity itself part of the counter-operation. The later account identifies the purpose: captured Drakkari chieftains are infused with blight and reshaped into weapons for the Scourge. That is the army Drakuru has been preparing beneath the floating fortress.",
+      "durationMs": 60841,
+      "eventIds": [
+        "drakuru-betrayal-crystals-of-blight-event"
+      ],
+      "entityIds": [
+        "overlord-drakuru",
+        "stefan-vadu"
+      ],
+      "locationIds": [
+        "voltarus"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-voltarus-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-the-choker-and-the-mask",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-the-scepter-of-domination"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-crystals-of-blight.mp3",
+        "durationMs": 38000,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-the-scepter-of-domination",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The scepter and the secret",
+      "narration": "Believing the infiltrator loyal, Drakuru grants a scepter as a token of trust and reveals his design: the Drakkari will be swept aside so he can claim Gundrak. The Scepter of Domination offers access to the upper chamber and to weapons still hidden from view. It is no legacy of a mage or ancient sand empire, but a tool in this betrayal, bound to the blight-born force Drakuru commands. Trust has given the conspirator the means to turn his own weapon back upon him.",
+      "durationMs": 65963,
+      "eventIds": [
+        "drakuru-betrayal-the-scepter-of-domination-event"
+      ],
+      "entityIds": [
+        "overlord-drakuru",
+        "scepter-of-domination"
+      ],
+      "locationIds": [
+        "voltarus"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-voltarus-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-crystals-of-blight",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-the-blightblood-army"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-scepter-of-domination.mp3",
+        "durationMs": 35850,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-the-blightblood-army",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "An army remade from captives",
+      "narration": "At the summit, Drakuru displays the next work of his reign: Blightblood Trolls, made from captured Drakkari chieftains and infused with blight. He calls them the first of a greater army, meant to sweep across Zul’Drak. The captives who once stood among their own people have been turned into instruments against them. Before the display can become a campaign, the infiltrator’s disguise fails. Drakuru recognizes the deceit, and the necropolis becomes a place of open reckoning.",
+      "durationMs": 60110,
+      "eventIds": [
+        "drakuru-betrayal-the-blightblood-army-event"
+      ],
+      "entityIds": [
+        "overlord-drakuru",
+        "blightblood-trolls"
+      ],
+      "locationIds": [
+        "voltarus"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-voltarus-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-the-scepter-of-domination",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-the-scepter-turns"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-blightblood-army.mp3",
+        "durationMs": 34925,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-the-scepter-turns",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The master is undone",
+      "narration": "The Scepter of Domination shines, and the Blightblood Trolls turn upon the master who made them. The chain records a reversal at the heart of Voltarus: Drakuru’s own instrument and army become the means by which his power is broken. His defeat is not yet the end. At the edge of his fall, he calls upon the Lich King, the authority he served when he betrayed his people and seized the Keep.",
+      "durationMs": 57183,
+      "eventIds": [
+        "drakuru-betrayal-the-scepter-turns-event"
+      ],
+      "entityIds": [
+        "overlord-drakuru",
+        "blightblood-trolls",
+        "scepter-of-domination"
+      ],
+      "locationIds": [
+        "voltarus"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-voltarus-summit-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-the-blightblood-army",
+      "nextNodeIds": [
+        "drakuru-betrayal-story-the-lich-kings-judgment"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-scepter-turns.mp3",
+        "durationMs": 28575,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "drakuru-betrayal-story-the-lich-kings-judgment",
+      "guideId": "drakuru-betrayal-guide",
+      "title": "The last judgment",
+      "narration": "The Lich King comes through a portal and strikes Drakuru down. He spares the infiltrator, amused by the deception that has undone his servant. Stefan’s operation has ended the Overlord’s command, but no account here restores the chieftains who were made into Blightblood Trolls or measures what the Scourge had already taken from Zul’Drak. Drakuru’s bargain began with a hand through a cage; it ends above a conquered land, beneath the judgment of the master he chose.",
+      "durationMs": 60841,
+      "eventIds": [
+        "drakuru-betrayal-the-lich-kings-judgment-event"
+      ],
+      "entityIds": [
+        "overlord-drakuru",
+        "arthas-as-the-lich-king",
+        "stefan-vadu"
+      ],
+      "locationIds": [
+        "voltarus"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "drakuru-betrayal-voltarus-summit-scene"
+        }
+      ],
+      "previousNodeId": "drakuru-betrayal-story-the-scepter-turns",
+      "voiceover": {
+        "assetPath": "audio/guided/drakuru-betrayal-guide/drakuru-betrayal-story-the-lich-kings-judgment.mp3",
+        "durationMs": 34375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
     },
     {
       "id": "dungeon-set-two-story-two-faction-doors",

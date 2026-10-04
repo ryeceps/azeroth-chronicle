@@ -23,7 +23,7 @@ test('Missing Diplomat traverses every illustrated scene on desktop and phone', 
 
   await page.setViewportSize({ width: 1920, height: 1080 });
   await page.goto('/tours/classic-to-wrath');
-  await expect(page.locator('.story-tour-dot')).toHaveCount(22);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(23);
   const mapScreenshot = await page.screenshot({
     path: 'output/missing-diplomat-visual-review/classic-to-wrath-map-desktop.png',
     fullPage: true,

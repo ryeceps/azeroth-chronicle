@@ -22,7 +22,7 @@ describe('era-linked storylines', () => {
   it('shows the through-Wrath archive and keeps later expansion previews out of the library', () => {
     renderRoutes('/storylines');
     expect(screen.getByText(/archive covers ancient history through Wrath of the Lich King/)).toBeVisible();
-    expect(screen.getByText('25 stories')).toBeVisible();
+    expect(screen.getByText('26 stories')).toBeVisible();
     expect(screen.getByRole('link', { name: /Galakrond and the Five Proto-Dragons/ })).toBeVisible();
     expect(screen.getByRole('link', { name: /Quel’Delar: The Broken Blade Restored/ })).toBeVisible();
     expect(screen.queryByRole('link', { name: /Dragonwrath|Suramar and the Nightwell|From Sunwell to Dawnwell/ })).not.toBeInTheDocument();

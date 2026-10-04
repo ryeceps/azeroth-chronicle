@@ -80,9 +80,10 @@ describe('Mega Tour and separate era and story tours', () => {
       'missing-diplomat-original-investigation',
       'shattered-sun-and-sunwell',
       'wrathgate-and-undercity',
+      'drakuru-betrayal',
       'quel-delar-restored',
     ]);
-    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 21 + 21 + 15 + 17 + 13 + 18 + 15 + 15 + 20 + 26 + 9 + 17 + 17 + 24 + 21 + 19 + 19);
+    expect(stops.length).toBe(21 + 22 + 22 + 15 + 14 + 21 + 21 + 15 + 17 + 13 + 18 + 15 + 15 + 20 + 26 + 9 + 17 + 17 + 24 + 21 + 19 + 20 + 19);
     const akamaStart = stops.findIndex((stop) => stop.storylineSlug === 'akama-and-black-temple');
     expect(stops[akamaStart - 1]?.storylineSlug).toBe('hero-of-the-maghar');
     const consortiumStart = stops.findIndex((stop) => stop.storylineSlug === 'consortium-and-arcatraz');
@@ -104,7 +105,9 @@ describe('Mega Tour and separate era and story tours', () => {
     expect(stops[diplomatStart - 1]?.storylineSlug).toBe('swift-flight-form-raven-legacy');
     expect(stops[diplomatStart + 24]?.storylineSlug).toBe('shattered-sun-and-sunwell');
     expect(stops[diplomatStart + 24 + 21]?.storylineSlug).toBe('wrathgate-and-undercity');
-    expect(stops[diplomatStart + 24 + 21 + 19]?.storylineSlug).toBe('quel-delar-restored');
+    expect(stops[diplomatStart + 24 + 21 + 19]?.storylineSlug).toBe('drakuru-betrayal');
+    expect(stops.filter((stop) => stop.storylineSlug === 'drakuru-betrayal')).toHaveLength(20);
+    expect(stops[diplomatStart + 24 + 21 + 19 + 20]?.storylineSlug).toBe('quel-delar-restored');
     expect(stops.filter((stop) => stop.storylineSlug === 'wrathgate-and-undercity')).toHaveLength(19);
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('play=all');
     expect(storyTourPlayAllUrl(tour, stops[0]!)).toContain('collection=classic-to-wrath');
@@ -166,7 +169,7 @@ describe('Mega Tour and separate era and story tours', () => {
     expect(entry.order).toBe(17);
     expect(entry.regionIds).toEqual(['outland']);
     expect(orderedEntries[orderedEntries.indexOf(entry) - 1]?.storylineId).toBe('champion-of-the-naaru-outland-trials');
-    expect(tour.entries).toHaveLength(22);
+    expect(tour.entries).toHaveLength(23);
     expect(nodes.map((node) => node.id)).toEqual(ledger.scenes.map((scene) => scene.nodeId));
     expect(audio.tracks.filter((track) => track.nodeId.startsWith('netherwing-liberation-story-'))).toHaveLength(17);
 
@@ -227,7 +230,7 @@ describe('Mega Tour and separate era and story tours', () => {
     expect(entry.regionIds).toEqual(['outland']);
     expect(orderedEntries[orderedEntries.indexOf(entry) - 1]?.storylineId).toBe('consortium-and-arcatraz');
     expect(orderedEntries[orderedEntries.indexOf(entry) + 1]?.storylineId).toBe('akama-and-black-temple');
-    expect(tour.entries).toHaveLength(22);
+    expect(tour.entries).toHaveLength(23);
     expect(nodes.map((node) => node.id)).toEqual(ledger.scenes.map((scene) => scene.nodeId));
     expect(audio.tracks.filter((track) => track.nodeId.startsWith('hero-of-the-maghar-story-'))).toHaveLength(15);
 
