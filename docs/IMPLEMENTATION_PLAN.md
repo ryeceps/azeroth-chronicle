@@ -390,4 +390,6 @@ The MVP is complete only when a new user can identify the Black Empire era, navi
 
 ## Independent StoryTours (Phase 4 extension)
 
+The storyline archive is scoped to ancient history and stories centered on Classic, The Burning Crusade, or Wrath of the Lich King. Thirteen previews centered on later expansions have been removed from authored storyline data, the generated manifest, and search. Ancient stories remain eligible even when their supporting sources were published later. This is a Phase 4 content curation change: the archive contains 25 stories, including all 22 Classic-to-Wrath StoryTour entries. Era guides and other lore records retain their existing coverage.
+
 See `docs/decisions/separate-expansion-story-tours.md` and `docs/decisions/mega-tour-composition.md`. EraTour playback remains era-only. The Mega Tour composes all era guides followed by playable stops from validated StoryTour records; an individual StoryTour still owns its chronological Storyline placards, map regions, and “Play all” itinerary. Existing StoryGuide nodes and audio are reused, and research previews remain browseable but are never inserted into playback. The earlier storyline-placement model remains documented as historical context in `docs/decisions/integrated-tour-library.md`.
