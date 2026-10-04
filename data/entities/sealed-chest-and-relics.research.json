@@ -1,0 +1,25 @@
+{
+  "id": "sealed-chest-and-relics",
+  "type": "artifact",
+  "name": "Sealed Chest and five personal relics",
+  "slug": "sealed-chest-and-relics",
+  "shortDescription": "The Sealed Chest and its five distinct personal keepsakes, shown together only at discovery.",
+  "body": "The Sealed Chest and its five distinct personal keepsakes, shown together only at discovery. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+  "firstEraId": "age-of-adventurers",
+  "featuredEraIds": [
+    "age-of-adventurers"
+  ],
+  "sourceIds": [
+    "shadowmourne-and-arthas-relics-sealed-chest",
+    "shadowmourne-and-arthas-relics-personal-property"
+  ],
+  "tags": [
+    "shadowmourne-story",
+    "interpretive-artifact-art"
+  ],
+  "mapVisual": {
+    "asset": "images/storylines/shadowmourne-and-arthas-relics/relics-still-life.research.webp",
+    "scale": 0.88
+  },
+  "contentStatus": "research"
+}

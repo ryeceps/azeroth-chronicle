@@ -1,0 +1,1343 @@
+{
+  "storyId": "shadowmourne-and-arthas-relics",
+  "status": "research",
+  "targetEditionBuild": "World of Warcraft: Wrath of the Lich King quest era, 3.3.5a visual reference; original-client capture and side-by-side checks remain open.",
+  "editorialRule": "Use the Wrath-era Icecrown palette of dark blue-black Scourge stone and glacier ice; distinguish the Dragonblight cavern from citadel architecture and the green Plagueworks, ruby Crimson Hall, blue Frostwing Halls, and exposed Frozen Throne. Show Tirion holding the complete Ashbringer in the final scene. Display a Death Knight as one noncanonical eligible class variant; do not imply that one player avatar represents all class variants. The five relic returns are separate scenes and only their named object appears in each return scene.",
+  "assetProvenance": "Original raster environment, character, creature and prop illustrations generated with built-in OpenAI ImageGen and converted to optimized WebP using FFmpeg. Reused repository portraits are listed separately. No game screenshots, meshes, or extracted source artwork are bundled. Generated art is interpretive, not canonical game art or proof of a lore claim.",
+  "assetRecords": [
+    {
+      "id": "icecrown-citadel-approach",
+      "kind": "environment",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/icecrown-citadel-approach.research.webp",
+      "area": "Icecrown Citadel approach, Icecrown",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-4622a24d-11ab-4a3a-adfb-88001e40947a.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "The immense black-blue Scourge citadel rises from a glacier among jagged peaks and frozen ramparts; use only as a broad campaign montage, not an exact entrance view.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://news.blizzard.com/en-us/article/24013834/wrath-of-the-lich-king-classic-the-way-into-icecrown-citadel-is-open"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original wide painterly Wrath-era Icecrown Citadel approach, dark gothic Scourge stone above a blue-white glacier and jagged northern peaks. No figures or text; interpretive, not a client screenshot.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 198226,
+      "sha256": "7faa513df4f5e87a47ac7271ff3db45508900640a3b0d49e1756df0d44fec13d"
+    },
+    {
+      "id": "frostmourne-cavern",
+      "kind": "environment",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/frostmourne-cavern.research.webp",
+      "area": "Frostmourne Cavern, Forgotten Shore, Dragonblight",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-2f64c958-fb7f-44a9-ab07-882499f668b7.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Natural blue-white coastal ice cavern, dark rock and isolated stone dais; distinct from the manufactured Scourge citadel.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/The_Sacred_and_the_Corrupt"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original wide painterly Wrath-era Dragonblight coastal ice cave with dark rock, frozen shelves and a distant stone dais; interpretive Frostmourne Cavern, no figures or UI.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 206698,
+      "sha256": "63fb1a046d1556c51ebb2c759db513394e2cb48006dab2e34648424d756a83e8"
+    },
+    {
+      "id": "lights-hammer",
+      "kind": "environment",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/lights-hammer.research.webp",
+      "area": "Light's Hammer staging halls, Icecrown Citadel",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-23c51a2d-e192-40c9-92ee-36496c49a9e5.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Black-blue gothic Icecrown arches, cold stone, a side runeforge, distinct restrained Argent silver/gold standards and Ebon Blade black/red standards. An interpretive hall, not an exact floor plan.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://news.blizzard.com/en-us/article/24013834/wrath-of-the-lich-king-classic-the-way-into-icecrown-citadel-is-open",
+          "https://warcraft.wiki.gg/wiki/The_Sacred_and_the_Corrupt"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original wide painterly Wrath ICC staging hall, icy black-blue gothic arches, a side runeforge and separate modest Argent and Ebon Blade standards. No figures or text; not an exact layout.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 240818,
+      "sha256": "701e112744f4f1e38597624bf9ca5b8f3beda53162a08a790437eee48f88e9ec"
+    },
+    {
+      "id": "plagueworks",
+      "kind": "environment",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/plagueworks.research.webp",
+      "area": "The Plagueworks, Icecrown Citadel",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-3c30a8d7-cda0-44d7-af68-34f049da5519.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Gothic dark stone and iron, tall icy openings, laboratory glass and contained green vats; restrained toxic green against Scourge blue-black.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://news.blizzard.com/en-us/article/24013834/wrath-of-the-lich-king-classic-the-way-into-icecrown-citadel-is-open",
+          "https://warcraft.wiki.gg/wiki/Unholy_Infusion",
+          "https://warcraft.wiki.gg/wiki/Professor_Putricide"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original wide painterly Wrath ICC Plagueworks laboratory: blue-black arches, iron pipes, contained green vats and cold light. No people, text or copied room plan.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 264222,
+      "sha256": "e53d4a8759fa9edbc32bc958b0543bdc206dd6488ed127ab3ca9458606800204"
+    },
+    {
+      "id": "crimson-hall",
+      "kind": "environment",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/crimson-hall.research.webp",
+      "area": "The Crimson Hall, Icecrown Citadel",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-dd82b6ed-61c0-4270-82e6-dd84f344e9b7.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Icy black Scourge arches, dark burgundy drapery, ruby windows and cold arctic daylight; the red is limited to the vampiric chamber.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://news.blizzard.com/en-us/article/24013834/wrath-of-the-lich-king-classic-the-way-into-icecrown-citadel-is-open",
+          "https://warcraft.wiki.gg/wiki/Blood_Infusion_%28quest%29"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original wide painterly Wrath ICC Crimson Hall: black icy gothic arches, ruby stained windows and burgundy drapery, cold blue snow light. No figures or text.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 220664,
+      "sha256": "dd7af150735e00a8b5a4070e57ff919e6dfbe655118a6c3ffbe2efac607f73d8"
+    },
+    {
+      "id": "frostwing-halls",
+      "kind": "environment",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/frostwing-halls.research.webp",
+      "area": "Frostwing Halls, Icecrown Citadel",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-14ad47a9-c0c9-4fa3-93fa-797c7950ce92.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Black Scourge stone embedded in glacier ice, frozen ledges, high blue caverns and deep crevasses; distinct from green Plagueworks and red Crimson Hall.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://news.blizzard.com/en-us/article/24013834/wrath-of-the-lich-king-classic-the-way-into-icecrown-citadel-is-open",
+          "https://warcraft.wiki.gg/wiki/Frost_Infusion",
+          "https://warcraft.wiki.gg/wiki/Sindragosa"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original wide painterly Wrath ICC Frostwing ice cavern with black stone, frozen columns and blue crevasses, broad circular raid space. No dragon, people or text.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 246970,
+      "sha256": "ac91cdd397e71b1d443cbeeff4898208a5ce16f14bdce529cf5d8f1cd1fd91e8"
+    },
+    {
+      "id": "frozen-throne",
+      "kind": "environment",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/frozen-throne.research.webp",
+      "area": "The Frozen Throne summit, Icecrown Citadel",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-d7d75827-8ef3-4bb8-951f-e5fb276d0b41.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Exposed glacier platform at the citadel crown, jagged dark spires, broken icy approach and throne at the summit.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://news.blizzard.com/en-us/article/24013834/wrath-of-the-lich-king-classic-the-way-into-icecrown-citadel-is-open",
+          "https://warcraft.wiki.gg/wiki/The_Lich_King%27s_Last_Stand"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original wide painterly Wrath-era Frozen Throne summit, exposed blue-white glacial platform, jagged black-blue citadel spires and distant throne. No people, weapons or text.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": false,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 237194,
+      "sha256": "a87e32411e527392d2cc8ac97b9bfefb19ccb85899cbc4459a1a46699578a70d"
+    },
+    {
+      "id": "darion-mograine",
+      "kind": "character",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/darion-mograine.research.webp",
+      "area": "Highlord Darion Mograine",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-e0beb944-3640-4ed9-bb48-ec01885f1d18.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Human death-knight commander in dark iron and silver armor, black cloak, muted Ebon Blade red; no Ashbringer.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Darion_Mograine",
+          "https://warcraft.wiki.gg/wiki/The_Sacred_and_the_Corrupt"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent full-body Wrath-era Darion Mograine: human Ebon Blade death knight, dark iron/silver plate, black cloak and restrained deep red; no weapon.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 98810,
+      "sha256": "91a249c01e0d8591b63ee7741395a240cb622ddf38270a1858ad84916a5fe1e0"
+    },
+    {
+      "id": "professor-putricide",
+      "kind": "character",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/professor-putricide.research.webp",
+      "area": "Professor Putricide",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-4a8d057b-86c6-4a65-b8fb-ebe9e8609ddb.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Small gnomish undead alchemist, pale blue skin, wild white hair, spectacles and contained green vials.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Professor_Putricide",
+          "https://warcraft.wiki.gg/wiki/Unholy_Infusion"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent Wrath-era Professor Putricide: short wiry undead gnome with pale blue skin, wild white hair, goggles, dark alchemist coat and one contained vial.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 139420,
+      "sha256": "88d801c055ccebd09ab647ccc215fb72d114c9d77b6e2b3bc5634acb35706c8c"
+    },
+    {
+      "id": "sindragosa",
+      "kind": "creature",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/sindragosa.research.webp",
+      "area": "Sindragosa",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-e5d502ac-9f36-4965-be8c-c8cba6d6b721.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Enormous skeletal blue frost wyrm with broad ragged wings, icy plates and cold soul-light.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Sindragosa",
+          "https://warcraft.wiki.gg/wiki/Frost_Infusion"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent full skeletal blue frost wyrm in flight, recognizable as the enormous Wrath-era Sindragosa; icy wings and blue soul light.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 330900,
+      "sha256": "1ffd28e42e86436075ce8baee658b6ad37232ea46d59e891a8c349aaa4484463"
+    },
+    {
+      "id": "muradin-bronzebeard",
+      "kind": "character",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/muradin-bronzebeard.research.webp",
+      "area": "Muradin Bronzebeard",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-4b06e351-e917-46f1-a4c3-f7b28312ab51.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Stout white-bearded dwarf, rugged steel-blue and fur-trimmed commander armor; distinct from a human paladin.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Muradin",
+          "https://warcraft.wiki.gg/wiki/Muradin%27s_Lament"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent full-body Wrath-era Muradin Bronzebeard, stout white-bearded dwarf in steel-blue commander armor and fur, empty hands.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 179478,
+      "sha256": "2fe68bbe8bc5fd8bf478c4ff42617c43df939c6ea1633e1f22c370665e2c252a"
+    },
+    {
+      "id": "jaina-proudmoore-wrath",
+      "kind": "character",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/jaina-proudmoore-wrath.research.webp",
+      "area": "Jaina Proudmoore",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-130f358d-5bc2-4064-9d80-3986c962d87d.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Mature human archmage, braided blond hair, small gold circlet, white-and-blue mage robes and blue crystal staff.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Jaina%27s_Locket_%28quest%29"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent Wrath-era Jaina Proudmoore, mature blond archmage in cream-white and deep blue Kirin Tor robes with a crystal staff; grief-struck.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 123238,
+      "sha256": "ca83f7e013cb8902d5e5bd5398dff139f11ba206b253b89ed7064bf5a2b8bb3e"
+    },
+    {
+      "id": "alexandros-mograine",
+      "kind": "character",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/alexandros-mograine.research.webp",
+      "area": "Alexandros Mograine",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-415b2ec2-cb64-49c3-9d17-993304817f01.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Older silver-haired paladin spirit in ivory/silver plate, gentle translucent blue-white outline.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Alexandros_Mograine",
+          "https://warcraft.wiki.gg/wiki/Mograine%27s_Reunion"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent full-body Wrath-era spirit of Alexandros Mograine, older silver-haired paladin in luminous ivory/silver armor, calm and welcoming.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 143648,
+      "sha256": "9b9f3404bcd811394d54b7f7f7fa4ff08967b141a4fbf98ac8e5564f30b8274f"
+    },
+    {
+      "id": "shadowmourne-wielder",
+      "kind": "character",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp",
+      "area": "Unnamed representative wielder",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-b6676843-81c3-4ad2-ad13-56c763e068f1.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "One interpretive death-knight class variant in blackened plate holding the complete axe; not a named/canonical adventurer.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://news.blizzard.com/en-us/article/24013834/wrath-of-the-lich-king-classic-the-way-into-icecrown-citadel-is-open",
+          "https://warcraft.wiki.gg/wiki/Shadowmourne"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent full-body unnamed death-knight variant wielding a complete large two-handed runic axe; no fixed/canonical player identity.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 168904,
+      "sha256": "77789691cbac00ee369de097bc935a5ac3bf1c18f0400433f9ccccf65d33f248"
+    },
+    {
+      "id": "relics-still-life",
+      "kind": "artifact-group",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/relics-still-life.research.webp",
+      "area": "Sealed chest and five Arthas keepsakes",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-e981340f-b425-4dec-9738-0358ff92dfc6.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "One dark iron chest and five clearly separated relics: vial, Silver Hand badge, dull sword, gold locket and violet shard.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Sealed_Chest",
+          "https://warcraft.wiki.gg/wiki/Personal_Property"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent still life of the open dark iron Sealed Chest and exactly five separated keepsakes: red vial, Silver Hand badge, blunt sword, locket and violet soul shard.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 261678,
+      "sha256": "5ba6a4f4f0654dbf2f1c01f49ed6078d525b8c42e5d466abbfa1e80ab808416d"
+    },
+    {
+      "id": "shadowmourne",
+      "kind": "artifact",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne.research.webp",
+      "area": "Shadowmourne",
+      "pixelWidth": 1312,
+      "pixelHeight": 1199,
+      "sourceArtifact": "exec-b96be2c9-2926-4843-9051-cf0c371e7584.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Complete two-handed double-bladed dark iron axe with frosted steel and restrained blue-violet light; distinct from Frostmourne and Atiesh.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Shadowmourne"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent standalone interpretive Shadowmourne: complete huge double-bladed two-handed axe, dark iron, frost-blue runes and restrained violet; not a sword or staff.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 299662,
+      "sha256": "630e23d7d5ca891ea793b44fcb933861e711c0bba1f872fbe3f6360e43627b73"
+    },
+    {
+      "id": "ashbringer",
+      "kind": "artifact",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/ashbringer.research.webp",
+      "area": "Ashbringer",
+      "pixelWidth": 1145,
+      "pixelHeight": 1374,
+      "sourceArtifact": "exec-7843e02d-9c38-4842-a586-8ff2f620f2c3.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Complete two-handed Argent sword, silver-white blade with restrained gold winged guard and luminous central crystal.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Ashbringer"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent standalone complete Ashbringer sword, pale silver blade, gold/silver guard and centered bright crystal; not Shadowmourne.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 92764,
+      "sha256": "4b8ef05c0b259e0cb32e812da5d57d61a5792553289b79909e5864da99a4792a"
+    },
+    {
+      "id": "tirion-with-ashbringer",
+      "kind": "character",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/tirion-with-ashbringer.research.webp",
+      "area": "Highlord Tirion Fordring with Ashbringer",
+      "pixelWidth": 1024,
+      "pixelHeight": 1536,
+      "sourceArtifact": "exec-fabf5459-b721-4384-92b5-54f54a10665e.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Older Argent paladin in pale silver-white plate and blue cloth; his complete Ashbringer is held in both hands and remains visible.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Ashbringer",
+          "https://warcraft.wiki.gg/wiki/The_Lich_King%27s_Last_Stand"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent full-body Wrath-era Tirion Fordring in Argent armor, visibly holding the complete Ashbringer in both hands.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 152522,
+      "sha256": "818a3f32e26c2f56bd99d96824ce7b32545816706a8abb3c2f7d60d24e2b533e"
+    },
+    {
+      "id": "lights-vengeance",
+      "kind": "artifact",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/lights-vengeance.research.webp",
+      "area": "Light's Vengeance",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-6e72874c-bce1-45a8-94b4-15757f08bed0.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Frost-worn two-handed silver hammer with modest old gold sun detail; reads as a hammer, not an axe.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/The_Sacred_and_the_Corrupt"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent abandoned Light's Vengeance, complete frosted two-handed silver hammer with restrained old gold sun detail.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 136782,
+      "sha256": "2cb0f06360fffb435a56e22aa3fffa8cdcdd36922ca06fea775969b0ba1396e3"
+    },
+    {
+      "id": "shadows-edge",
+      "kind": "artifact",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/shadows-edge.research.webp",
+      "area": "Shadow's Edge",
+      "pixelWidth": 1218,
+      "pixelHeight": 1291,
+      "sourceArtifact": "exec-c4a8fbd4-fc6e-41be-9863-1d9d220bcaed.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Intermediate dark-steel crescent axe, simpler and less luminous than the completed Shadowmourne.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Shadowmourne"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent Shadow's Edge before infusions: complete simple dark-steel crescent two-handed axe with restrained blue-gray runes; not final Shadowmourne.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 92014,
+      "sha256": "68bd6c077bcfacc6770604117a3ed03d79ab81713a2f5f12678af06f6e7f4da2"
+    },
+    {
+      "id": "blood-of-sylvanas",
+      "kind": "artifact",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/blood-of-sylvanas.research.webp",
+      "area": "Blood of Sylvanas",
+      "pixelWidth": 1254,
+      "pixelHeight": 1254,
+      "sourceArtifact": "exec-85075ec0-593f-4ea1-9150-562599796ee2.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Single stoppered transparent vial with dark-red contents, no spill.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Sealed_Chest",
+          "https://warcraft.wiki.gg/wiki/Sylvanas%27_Vengeance"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent upright sealed glass vial with deep-crimson contents and dark red wax, no splash or text.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 66414,
+      "sha256": "3c2107fda6e66ea2147543635695076127a991bd2d292045295deccae0f49aed"
+    },
+    {
+      "id": "badge-of-the-silver-hand",
+      "kind": "artifact",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/badge-of-the-silver-hand.research.webp",
+      "area": "Badge of the Silver Hand",
+      "pixelWidth": 1254,
+      "pixelHeight": 1254,
+      "sourceArtifact": "exec-f9493eb0-d02e-4ef7-ae7a-b59fb5c58b90.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Single aged silver medallion bearing a raised hand motif.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Sealed_Chest",
+          "https://warcraft.wiki.gg/wiki/The_Lightbringer%27s_Redemption"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent round aged-silver badge with a sculpted Silver Hand motif, no words.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 260470,
+      "sha256": "2d701b1b523295671ac23a9161f14181fabdd5719705673eab33d528fc351872"
+    },
+    {
+      "id": "arthas-training-sword",
+      "kind": "artifact",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/arthas-training-sword.research.webp",
+      "area": "Arthas' training sword",
+      "pixelWidth": 1536,
+      "pixelHeight": 1024,
+      "sourceArtifact": "exec-6a754dfe-58a8-45ad-ab7b-dd7e0a9a4c36.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Single plain, dull blunt practice sword, visibly not a sharp runeblade.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Sealed_Chest",
+          "https://warcraft.wiki.gg/wiki/Muradin%27s_Lament"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent short, worn, blunt steel training sword with plain leather grip; no runes or sharp tip.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 66850,
+      "sha256": "88ca3250c7b26d4dc39d826ded179175afcf7eda145f0d4b48b2e304e59dd39e"
+    },
+    {
+      "id": "jainas-locket",
+      "kind": "artifact",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/jainas-locket.research.webp",
+      "area": "Jaina's locket",
+      "pixelWidth": 1254,
+      "pixelHeight": 1254,
+      "sourceArtifact": "exec-22ddd069-2b7a-41c6-bef7-73cecc53ffb5.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Single small oval gold locket on a fine chain, opened to an anonymous cameo silhouette.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Sealed_Chest",
+          "https://warcraft.wiki.gg/wiki/Jaina%27s_Locket_%28quest%29"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent open oval gold locket with a fine chain and anonymous cameo, no letters.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 184652,
+      "sha256": "1b3fb393f1f164195cd83a6bbf7e0d527b606433e193d9295c39a8dc165388b6"
+    },
+    {
+      "id": "alexandros-soul-shard",
+      "kind": "artifact",
+      "file": "public/images/storylines/shadowmourne-and-arthas-relics/alexandros-soul-shard.research.webp",
+      "area": "Alexandros' Soul Shard",
+      "pixelWidth": 1254,
+      "pixelHeight": 1254,
+      "sourceArtifact": "exec-289cbd21-9bfb-473b-8af4-77ca8023dc32.png",
+      "targetEditionBuild": "World of Warcraft: Wrath of the Lich King, target visual reference 3.3.5a; exact in-client comparison remains open.",
+      "recognizableTraits": "Single translucent violet-blue crystal with a faint abstract silver wisp, no face/body.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King 3.3.5a, matching location/NPC/item",
+        "locator": [
+          "https://warcraft.wiki.gg/wiki/Sealed_Chest",
+          "https://warcraft.wiki.gg/wiki/Mograine%27s_Reunion"
+        ],
+        "comparisonCapture": "No original client screenshot is bundled; matching 3.3.5a model/area side-by-side comparison remains a human review gate."
+      },
+      "generationPrompt": "Original transparent violet-blue soul crystal with a faint abstract silver wisp; no face or body.",
+      "generator": "OpenAI built-in ImageGen; original output converted to WebP with FFmpeg. No client/game screenshot or source art is included.",
+      "transparency": true,
+      "visualReview": "Output inspected for silhouette, palette, prop identity and separation. Original 3.3.5a resemblance review remains open; this illustration is interpretive, not evidence.",
+      "byteLength": 135628,
+      "sha256": "e212152a0b099bd46121ba6acf85898a6368b80eab5a71cd776f09acbc5ebb06"
+    },
+    {
+      "id": "blood-queen-lanathel",
+      "kind": "reused-character",
+      "file": "public/images/storylines/quel-delar-restored/blood-queen-lanathel.research.webp",
+      "area": "Wrath-era Lana'thel portrait reused from the Quel'Delar storyline; same raid-era character.",
+      "pixelWidth": null,
+      "pixelHeight": null,
+      "sourceArtifact": null,
+      "targetEditionBuild": "Wrath-era portrait reused from an existing research storyline.",
+      "recognizableTraits": "Wrath-era Lana'thel portrait reused from the Quel'Delar storyline; same raid-era character.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King",
+        "locator": [],
+        "comparisonCapture": "The source artwork is already in the repository; its original-client comparison remains open."
+      },
+      "generationPrompt": "Reused existing repository asset blood-queen-lanathel.research.webp.",
+      "generator": "Reused from the repository; not modified in this story.",
+      "transparency": true,
+      "visualReview": "Inspected in the existing storyline; used only for the matching named character and Wrath-era scene.",
+      "byteLength": 264190,
+      "modifiedAt": "2026-10-03T05:18:18.589Z",
+      "sha256": "61bdbdeb8e2a8b51bd2ca5dafaf2c1372afa5e1f1e85149a1190bb0c0f4737d3"
+    },
+    {
+      "id": "uther-lightbringer",
+      "kind": "reused-character",
+      "file": "public/images/storylines/quel-delar-restored/uther-lightbringer.research.webp",
+      "area": "Wrath-era spectral Uther portrait reused from the Quel'Delar storyline.",
+      "pixelWidth": null,
+      "pixelHeight": null,
+      "sourceArtifact": null,
+      "targetEditionBuild": "Wrath-era portrait reused from an existing research storyline.",
+      "recognizableTraits": "Wrath-era spectral Uther portrait reused from the Quel'Delar storyline.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King",
+        "locator": [],
+        "comparisonCapture": "The source artwork is already in the repository; its original-client comparison remains open."
+      },
+      "generationPrompt": "Reused existing repository asset uther-lightbringer.research.webp.",
+      "generator": "Reused from the repository; not modified in this story.",
+      "transparency": true,
+      "visualReview": "Inspected in the existing storyline; used only for the matching named character and Wrath-era scene.",
+      "byteLength": 268714,
+      "modifiedAt": "2026-10-03T05:18:18.607Z",
+      "sha256": "2880d8a9fe9b43a4eb8002d7406d1543edb6e9718a578700d77088e2f6bdbf2a"
+    },
+    {
+      "id": "arthas-as-the-lich-king",
+      "kind": "reused-character",
+      "file": "public/images/characters/wrathgate/lich-king-arthas.research.webp",
+      "area": "Wrath-era Lich King portrait reused from the Wrathgate story; Frostmourne is visible.",
+      "pixelWidth": null,
+      "pixelHeight": null,
+      "sourceArtifact": null,
+      "targetEditionBuild": "Wrath-era portrait reused from an existing research storyline.",
+      "recognizableTraits": "Wrath-era Lich King portrait reused from the Wrathgate story; Frostmourne is visible.",
+      "visualReference": {
+        "editionBuild": "Wrath of the Lich King",
+        "locator": [],
+        "comparisonCapture": "The source artwork is already in the repository; its original-client comparison remains open."
+      },
+      "generationPrompt": "Reused existing repository asset lich-king-arthas.research.webp.",
+      "generator": "Reused from the repository; not modified in this story.",
+      "transparency": true,
+      "visualReview": "Inspected in the existing storyline; used only for the matching named character and Wrath-era scene.",
+      "byteLength": 283574,
+      "modifiedAt": "2026-10-03T18:19:00.634Z",
+      "sha256": "97bb01733e4f96fb5768afc2a3df1f3f6a7c4048508cb42f07c6e281308f127e"
+    }
+  ],
+  "sceneLedger": [
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-darions-dangerous-proposal",
+      "title": "The axe and the doubt",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/lights-hammer.research.webp",
+      "gameArea": "Light's Hammer and the ICC staging halls",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Black-blue gothic Icecrown stone, cold arches, side runeforge, separate Argent and Ebon Blade standards; exact floor plan unverified.",
+      "cast": [
+        {
+          "id": "darion-mograine",
+          "name": "Highlord Darion Mograine",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/darion-mograine.research.webp"
+        },
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        }
+      ],
+      "locations": [
+        "icecrown-citadel"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-light-vengeance-in-the-cavern",
+      "title": "The forgotten hammer",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/frostmourne-cavern.research.webp",
+      "gameArea": "Frostmourne Cavern, Dragonblight",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Natural coastal ice cavern, dark stone and an isolated dais; not Scourge-made architecture.",
+      "cast": [
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        },
+        {
+          "id": "arthas-as-the-lich-king",
+          "name": "Arthas as the Lich King",
+          "image": "public/images/characters/wrathgate/lich-king-arthas.research.webp"
+        },
+        {
+          "id": "lights-vengeance",
+          "name": "Light's Vengeance",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/lights-vengeance.research.webp"
+        }
+      ],
+      "locations": [
+        "frostmourne-cavern"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-shadow-edge-forged",
+      "title": "The binding of sacred and corrupt",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/lights-hammer.research.webp",
+      "gameArea": "Light's Hammer and the ICC staging halls",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Black-blue gothic Icecrown stone, cold arches, side runeforge, separate Argent and Ebon Blade standards; exact floor plan unverified.",
+      "cast": [
+        {
+          "id": "darion-mograine",
+          "name": "Highlord Darion Mograine",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/darion-mograine.research.webp"
+        },
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        },
+        {
+          "id": "lights-vengeance",
+          "name": "Light's Vengeance",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/lights-vengeance.research.webp"
+        },
+        {
+          "id": "shadows-edge",
+          "name": "Shadow's Edge",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadows-edge.research.webp"
+        }
+      ],
+      "locations": [
+        "icecrown-citadel"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-feast-of-souls",
+      "title": "The unfinished edge drinks deep",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/icecrown-citadel-approach.research.webp",
+      "gameArea": "Icecrown Citadel campaign montage",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Broad glacier and the distant dark spires of Icecrown; not an exact raid wing or entrance.",
+      "cast": [
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        },
+        {
+          "id": "shadows-edge",
+          "name": "Shadow's Edge",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadows-edge.research.webp"
+        }
+      ],
+      "locations": [
+        "icecrown-citadel"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-feast-of-souls",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-unholy-infusion",
+      "title": "The plague alchemist undone",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/plagueworks.research.webp",
+      "gameArea": "The Plagueworks",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Gothic dark stone and iron, icy openings, laboratory glass and contained green vats.",
+      "cast": [
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        },
+        {
+          "id": "professor-putricide",
+          "name": "Professor Putricide",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/professor-putricide.research.webp"
+        },
+        {
+          "id": "shadows-edge",
+          "name": "Shadow's Edge",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadows-edge.research.webp"
+        }
+      ],
+      "locations": [
+        "plagueworks"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-unholy-infusion",
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-model-putricide"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-blood-infusion",
+      "title": "Blood in the Crimson Hall",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/crimson-hall.research.webp",
+      "gameArea": "The Crimson Hall",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Icy black Scourge arches and a restrained ruby/burgundy chamber palette.",
+      "cast": [
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        },
+        {
+          "id": "blood-queen-lanathel",
+          "name": "Blood-Queen Lana'thel",
+          "image": "public/images/storylines/quel-delar-restored/blood-queen-lanathel.research.webp"
+        },
+        {
+          "id": "shadows-edge",
+          "name": "Shadow's Edge",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadows-edge.research.webp"
+        }
+      ],
+      "locations": [
+        "crimson-hall"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-blood-infusion",
+        "shadowmourne-and-arthas-relics-blizzard-icc-open"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-frost-infusion",
+      "title": "The frost queen's last guard",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/frostwing-halls.research.webp",
+      "gameArea": "Frostwing Halls",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Glacial cavern, black masonry, blue-white ice and deep crevasses.",
+      "cast": [
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        },
+        {
+          "id": "sindragosa",
+          "name": "Sindragosa",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/sindragosa.research.webp"
+        },
+        {
+          "id": "shadows-edge",
+          "name": "Shadow's Edge",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadows-edge.research.webp"
+        }
+      ],
+      "locations": [
+        "frostwing-halls"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-frost-infusion",
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-model-sindragosa"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-splinters-of-the-throne",
+      "title": "The throne's splintered crown",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/frozen-throne.research.webp",
+      "gameArea": "The Frozen Throne summit",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Exposed glacier platform, jagged spires and a throne at the citadel crown.",
+      "cast": [
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        },
+        {
+          "id": "darion-mograine",
+          "name": "Highlord Darion Mograine",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/darion-mograine.research.webp"
+        },
+        {
+          "id": "shadows-edge",
+          "name": "Shadow's Edge",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadows-edge.research.webp"
+        }
+      ],
+      "locations": [
+        "frozen-throne"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-splintered-throne",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-final-empowerment",
+      "title": "The last forging",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/lights-hammer.research.webp",
+      "gameArea": "Light's Hammer and the ICC staging halls",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Black-blue gothic Icecrown stone, cold arches, side runeforge, separate Argent and Ebon Blade standards; exact floor plan unverified.",
+      "cast": [
+        {
+          "id": "darion-mograine",
+          "name": "Highlord Darion Mograine",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/darion-mograine.research.webp"
+        },
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        },
+        {
+          "id": "shadows-edge",
+          "name": "Shadow's Edge",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadows-edge.research.webp"
+        },
+        {
+          "id": "shadowmourne",
+          "name": "Shadowmourne",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne.research.webp"
+        }
+      ],
+      "locations": [
+        "icecrown-citadel"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-empowerment",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-shadowmourne-and-its-question",
+      "title": "A blade and its question",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/lights-hammer.research.webp",
+      "gameArea": "Light's Hammer and the ICC staging halls",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Black-blue gothic Icecrown stone, cold arches, side runeforge, separate Argent and Ebon Blade standards; exact floor plan unverified.",
+      "cast": [
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        },
+        {
+          "id": "darion-mograine",
+          "name": "Highlord Darion Mograine",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/darion-mograine.research.webp"
+        },
+        {
+          "id": "shadowmourne",
+          "name": "Shadowmourne",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne.research.webp"
+        }
+      ],
+      "locations": [
+        "icecrown-citadel"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-shadowmourne-chain",
+        "shadowmourne-and-arthas-relics-empowerment"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-fall-at-the-frozen-throne",
+      "title": "The Lich King's last stand",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/frozen-throne.research.webp",
+      "gameArea": "The Frozen Throne summit",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Exposed glacier platform, jagged spires and a throne at the citadel crown.",
+      "cast": [
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        },
+        {
+          "id": "arthas-as-the-lich-king",
+          "name": "Arthas as the Lich King",
+          "image": "public/images/characters/wrathgate/lich-king-arthas.research.webp"
+        },
+        {
+          "id": "tirion-fordring",
+          "name": "Highlord Tirion Fordring",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/tirion-with-ashbringer.research.webp"
+        },
+        {
+          "id": "ashbringer",
+          "name": "Ashbringer",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/ashbringer.research.webp"
+        },
+        {
+          "id": "shadowmourne",
+          "name": "Shadowmourne",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne.research.webp"
+        }
+      ],
+      "locations": [
+        "frozen-throne"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-lich-kings-last-stand",
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-model-ashbringer"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-five-personal-relics",
+      "title": "What the sealed chest kept",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/frozen-throne.research.webp",
+      "gameArea": "The Frozen Throne summit",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Exposed glacier platform, jagged spires and a throne at the citadel crown.",
+      "cast": [
+        {
+          "id": "unnamed-shadowmourne-wielder",
+          "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp"
+        },
+        {
+          "id": "sealed-chest-and-relics",
+          "name": "Sealed Chest and five personal relics",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/relics-still-life.research.webp"
+        },
+        {
+          "id": "blood-of-sylvanas",
+          "name": "Blood of Sylvanas",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/blood-of-sylvanas.research.webp"
+        },
+        {
+          "id": "badge-of-the-silver-hand",
+          "name": "Badge of the Silver Hand",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/badge-of-the-silver-hand.research.webp"
+        },
+        {
+          "id": "arthas-training-sword",
+          "name": "Arthas' Training Sword",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/arthas-training-sword.research.webp"
+        },
+        {
+          "id": "jainas-locket",
+          "name": "Jaina's Locket",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/jainas-locket.research.webp"
+        },
+        {
+          "id": "alexandros-soul-shard",
+          "name": "Alexandros' Soul Shard",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/alexandros-soul-shard.research.webp"
+        }
+      ],
+      "locations": [
+        "frozen-throne"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-personal-property"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-blood-returned-to-sylvanas",
+      "title": "The blood of the Banshee Queen",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/lights-hammer.research.webp",
+      "gameArea": "Light's Hammer and the ICC staging halls",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Black-blue gothic Icecrown stone, cold arches, side runeforge, separate Argent and Ebon Blade standards; exact floor plan unverified.",
+      "cast": [
+        {
+          "id": "sylvanas-windrunner",
+          "name": "Sylvanas Windrunner",
+          "image": "public/images/characters/wrathgate/sylvanas-windrunner-wrath.research.webp"
+        },
+        {
+          "id": "blood-of-sylvanas",
+          "name": "Blood of Sylvanas",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/blood-of-sylvanas.research.webp"
+        }
+      ],
+      "locations": [
+        "icecrown-citadel"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-sylvanas-vengeance"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-badge-returned-to-uther",
+      "title": "The memory Uther keeps",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/lights-hammer.research.webp",
+      "gameArea": "Light's Hammer and the ICC staging halls",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Black-blue gothic Icecrown stone, cold arches, side runeforge, separate Argent and Ebon Blade standards; exact floor plan unverified.",
+      "cast": [
+        {
+          "id": "uther-lightbringer",
+          "name": "Uther Lightbringer",
+          "image": "public/images/storylines/quel-delar-restored/uther-lightbringer.research.webp"
+        },
+        {
+          "id": "badge-of-the-silver-hand",
+          "name": "Badge of the Silver Hand",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/badge-of-the-silver-hand.research.webp"
+        }
+      ],
+      "locations": [
+        "icecrown-citadel"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-lightbringers-redemption"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-training-sword-returned-to-muradin",
+      "title": "Muradin's old lesson",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/lights-hammer.research.webp",
+      "gameArea": "Light's Hammer and the ICC staging halls",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Black-blue gothic Icecrown stone, cold arches, side runeforge, separate Argent and Ebon Blade standards; exact floor plan unverified.",
+      "cast": [
+        {
+          "id": "muradin-bronzebeard",
+          "name": "Muradin Bronzebeard",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/muradin-bronzebeard.research.webp"
+        },
+        {
+          "id": "arthas-training-sword",
+          "name": "Arthas' Training Sword",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/arthas-training-sword.research.webp"
+        }
+      ],
+      "locations": [
+        "icecrown-citadel"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-muradins-lament",
+        "shadowmourne-and-arthas-relics-model-muradin"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-locket-returned-to-jaina",
+      "title": "The locket Jaina gave",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/lights-hammer.research.webp",
+      "gameArea": "Light's Hammer and the ICC staging halls",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Black-blue gothic Icecrown stone, cold arches, side runeforge, separate Argent and Ebon Blade standards; exact floor plan unverified.",
+      "cast": [
+        {
+          "id": "jaina-proudmoore",
+          "name": "Jaina Proudmoore",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/jaina-proudmoore-wrath.research.webp"
+        },
+        {
+          "id": "jainas-locket",
+          "name": "Jaina's Locket",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/jainas-locket.research.webp"
+        }
+      ],
+      "locations": [
+        "icecrown-citadel"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-jainas-locket"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-alexandros-reunited-with-darion",
+      "title": "A father answers his son",
+      "environmentPath": "public/images/storylines/shadowmourne-and-arthas-relics/lights-hammer.research.webp",
+      "gameArea": "Light's Hammer and the ICC staging halls",
+      "referenceEditionBuild": "World of Warcraft: Wrath of the Lich King, target 3.3.5a; compare against original client before promotion.",
+      "recognizableTraits": "Black-blue gothic Icecrown stone, cold arches, side runeforge, separate Argent and Ebon Blade standards; exact floor plan unverified.",
+      "cast": [
+        {
+          "id": "darion-mograine",
+          "name": "Highlord Darion Mograine",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/darion-mograine.research.webp"
+        },
+        {
+          "id": "alexandros-mograine",
+          "name": "Highlord Alexandros Mograine",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/alexandros-mograine.research.webp"
+        },
+        {
+          "id": "alexandros-soul-shard",
+          "name": "Alexandros' Soul Shard",
+          "image": "public/images/storylines/shadowmourne-and-arthas-relics/alexandros-soul-shard.research.webp"
+        }
+      ],
+      "locations": [
+        "icecrown-citadel"
+      ],
+      "visualActions": [
+        "set_map_state",
+        "highlight_entity"
+      ],
+      "citations": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-mograine-reunion",
+        "shadowmourne-and-arthas-relics-model-alexandros"
+      ],
+      "visualReview": "Chromium desktop and 390x844 phone playback traversed all 17 nodes; the environment and cast art loaded in every scene and all phone figures and labels fit without overlap. Representative desktop and phone screenshots are in output/shadowmourne-visual-review/. Original 3.3.5a area/model resemblance comparison remains a human review gate."
+    }
+  ]
+}

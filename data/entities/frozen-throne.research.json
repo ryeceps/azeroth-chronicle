@@ -1,1 +1,21 @@
-{"id":"frozen-throne","type":"site","name":"The Frozen Throne","slug":"frozen-throne","shortDescription":"The prison and seat of the Lich King at Icecrown, reached by Arthas after his victory over Illidan.","firstEraId":"third-war-frozen-throne","featuredEraIds":["third-war-frozen-throne"],"sourceIds":["warcraft-chronicle-volume-3","blizzard-burning-crusade-story-so-far"],"tags":["icecrown","lich-king","northrend"],"contentStatus":"research"}
+{
+  "id": "frozen-throne",
+  "type": "location",
+  "name": "The Frozen Throne",
+  "slug": "frozen-throne",
+  "shortDescription": "The exposed glacial summit and seat of the Lich King at the crown of Icecrown Citadel.",
+  "body": "The exposed glacial summit and seat of the Lich King at the crown of Icecrown Citadel. Illustrations are interpretive environments, not exact maps or instance floor plans. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json.",
+  "firstEraId": "age-of-adventurers",
+  "featuredEraIds": [
+    "age-of-adventurers"
+  ],
+  "sourceIds": [
+    "shadowmourne-and-arthas-relics-blizzard-icc-open",
+    "shadowmourne-and-arthas-relics-lich-kings-last-stand"
+  ],
+  "tags": [
+    "shadowmourne-story",
+    "wrath-location"
+  ],
+  "contentStatus": "research"
+}

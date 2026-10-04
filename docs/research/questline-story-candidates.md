@@ -289,6 +289,8 @@ This is the focused questline selection within the broader [master lore backlog]
 
 **Gate:** audit all chest recipients and their dialogue. Repeated soul/shard collection is compressed gameplay. Do not infer a canonical wielder, or extend Arthas's fate into Shadowlands.
 
+**Implementation status (2026-10-03):** Complete 17-scene illustrated research StoryGuide with per-node claim/citation records, original Wrath-area environments and cast/prop art, five distinct personal-relic returns, and transcript-matched voiceovers. Added as placard 23 in the separate Classic-to-Wrath StoryTour, after Drakuru and before Quel’Delar; this is patch-based editorial order, not an asserted cross-story dependency. Every record remains `research`. Original 3.3.5a quest/cinematic capture, NPC phasing, human lore and area/model resemblance review, chronology approval, and audio audition remain open. See the [research packet](shadowmourne-and-arthas-relics-research.md), [production ledger](shadowmourne-and-arthas-relics-production.md), and [visual asset ledger](shadowmourne-and-arthas-relics-visual-assets.json).
+
 ### 25. Thorim, Loken, and the Sons of Hodir
 
 **ID:** `thorim-loken-sons-of-hodir` · **B** · **Reach:** a long Storm Peaks journey, with dungeon/raid consequences.

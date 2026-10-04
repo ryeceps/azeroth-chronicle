@@ -1,0 +1,25 @@
+{
+  "id": "blood-of-sylvanas",
+  "type": "artifact",
+  "name": "Blood of Sylvanas",
+  "slug": "blood-of-sylvanas",
+  "shortDescription": "A sealed vial returned to Sylvanas.",
+  "body": "A sealed vial returned to Sylvanas. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+  "firstEraId": "age-of-adventurers",
+  "featuredEraIds": [
+    "age-of-adventurers"
+  ],
+  "sourceIds": [
+    "shadowmourne-and-arthas-relics-sealed-chest",
+    "shadowmourne-and-arthas-relics-sylvanas-vengeance"
+  ],
+  "tags": [
+    "shadowmourne-story",
+    "interpretive-artifact-art"
+  ],
+  "mapVisual": {
+    "asset": "images/storylines/shadowmourne-and-arthas-relics/blood-of-sylvanas.research.webp",
+    "scale": 0.48
+  },
+  "contentStatus": "research"
+}

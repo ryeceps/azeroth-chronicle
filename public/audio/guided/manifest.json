@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T23:56:16.405Z",
+  "generatedAt": "2026-10-04T03:01:58.306Z",
   "generator": {
     "spaceId": "hexgrad/Kokoro-TTS",
     "functionIndex": 4,
@@ -10,8 +10,8 @@
     "postTempo": 1,
     "hardware": "cpu"
   },
-  "trackCount": 542,
-  "totalDurationMs": 14175050,
+  "trackCount": 559,
+  "totalDurationMs": 14658075,
   "tracks": [
     {
       "nodeId": "adventurers-story-alternate-draenor",
@@ -4890,6 +4890,159 @@
       "sha256": "914f7b86ef8948971d1aaf7705598e2cd307aa26bc995efe99a62dc768a6e765",
       "transcriptSha256": "12c4d862e16f8344b2ccc23f7658abfe39193ef7a13b2780d49aae3aae4fd691",
       "bytes": 413613
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-darions-dangerous-proposal",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-darions-dangerous-proposal.mp3",
+      "durationMs": 34775,
+      "sha256": "9f1ef0705de47ec00d0f15d1fbec4e4397cec130a645a1decacd584926ff15ac",
+      "transcriptSha256": "99d76b923ed951a3f541133c99bf809eb9dce940888239733a4fe10f0721211a",
+      "bytes": 418221
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-light-vengeance-in-the-cavern",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-light-vengeance-in-the-cavern.mp3",
+      "durationMs": 31400,
+      "sha256": "2a36b73a41bb1e86aa189a871f6d63187e709818931603e06c037da88d1b4df7",
+      "transcriptSha256": "e50b50f15a0d729f488ca66390372bf97a85514638418c7860feb59b1d500bed",
+      "bytes": 377901
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-shadow-edge-forged",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-shadow-edge-forged.mp3",
+      "durationMs": 27825,
+      "sha256": "f3b50e9fb5dd779cd5dfeab7e0d5224caea3c40cb9a17b1f23a59c4b9d93f3cd",
+      "transcriptSha256": "ff9adfe15becf06fcfd07382e13a8d309703b029aaceee000d480f78ad4834fa",
+      "bytes": 334989
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-feast-of-souls",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-feast-of-souls.mp3",
+      "durationMs": 29900,
+      "sha256": "38a93cda91d44a065e318d8ff820533c6e1503e4d92abc7c6c0b62fe57adaa75",
+      "transcriptSha256": "aaa85ad07d4bd2a955c6c8c0bdc87a996bf31d5c9bb9a36fbf3db84f7db214e9",
+      "bytes": 359757
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-unholy-infusion",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-unholy-infusion.mp3",
+      "durationMs": 23125,
+      "sha256": "8a2e5b149bab611b9d3478e02bc07b0cdde55c034e242d31c833d8defdb20691",
+      "transcriptSha256": "6a09993e0e31dc68523af4a43ec3dc2b32b1ae6179aa534d703303dc6d45d4b5",
+      "bytes": 278541
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-blood-infusion",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-blood-infusion.mp3",
+      "durationMs": 27750,
+      "sha256": "c425ec2aae1a9de7d7a0b66f9695e0c3c8e5c6873991e9d7122aacc79fc90f26",
+      "transcriptSha256": "857398ea05092d560b6fc06bf11e58e4f4c9bfc5824935bc9feb07cbfc3cb7fd",
+      "bytes": 334125
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-frost-infusion",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-frost-infusion.mp3",
+      "durationMs": 22650,
+      "sha256": "cc327d84bf4450be03d677b2504fc56d037e757a1746cd96ecac16829c0c4bf0",
+      "transcriptSha256": "243fbcf1cc38679d50cd543e8c02db4a7dd5af1720af8a247d1d6494f2bd499f",
+      "bytes": 272781
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-splinters-of-the-throne",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-splinters-of-the-throne.mp3",
+      "durationMs": 27350,
+      "sha256": "95c9b563bd2077b31b70a31260bd7ae300e93140c34518cf9c8c31d83d4f71ab",
+      "transcriptSha256": "1c0e7897568e2529b82d57f53c53affc91b5a54f472a91bef6646dbb3765e2bb",
+      "bytes": 329229
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-final-empowerment",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-final-empowerment.mp3",
+      "durationMs": 28575,
+      "sha256": "d70bc454866d0140152cd344a8ff4064533b9953c154e1f20677d578cb24d442",
+      "transcriptSha256": "1550d9b99596440f615c24d65a3ccd4dba5c6160b06a4cce11cd5f23f0f0729a",
+      "bytes": 343917
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-shadowmourne-and-its-question",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-shadowmourne-and-its-question.mp3",
+      "durationMs": 26775,
+      "sha256": "90d8e57e11cc93ae33a572e60a291b3a366a24f2cd8269ac5167b3cc59126fdb",
+      "transcriptSha256": "117117e0308dc40be5fbffab34049a13f719a64b88ebd8e622a0b72fda7c9e04",
+      "bytes": 322317
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-fall-at-the-frozen-throne",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-fall-at-the-frozen-throne.mp3",
+      "durationMs": 30050,
+      "sha256": "831f69b2470bd5cbe8547f05c56f946f7fff0b95710e59c2d6d8d0da233d3eb3",
+      "transcriptSha256": "1d8436d28b3e92d0c7a93373c613d66e459c90e84443a691c4ac5deef87b3d5a",
+      "bytes": 361773
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-five-personal-relics",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-five-personal-relics.mp3",
+      "durationMs": 29025,
+      "sha256": "6b46f743ed7fb448ec829eb463321dd2de8b44969681a1c75198cbfcc1df5a07",
+      "transcriptSha256": "82dc15414f906a6456c10a2df80ab428fa66112718ac2925de1d17d4f2249172",
+      "bytes": 349389
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-blood-returned-to-sylvanas",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-blood-returned-to-sylvanas.mp3",
+      "durationMs": 27500,
+      "sha256": "f3cb99f059cfac8901c3c1e46cd5354028d80689702781a04809651c69e9dae1",
+      "transcriptSha256": "0d2aa29f9e9bbdf308f625c97a7335442c4067f55bf35ca76b3d5b34a7c12b6b",
+      "bytes": 330957
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-badge-returned-to-uther",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-badge-returned-to-uther.mp3",
+      "durationMs": 28275,
+      "sha256": "5f5de5e5f5361fc82ab9fb3b7f484a51e1264b113d8226145a5709b9da46ac8d",
+      "transcriptSha256": "7f6e7af4b7db003433ede2e8c8b4672051ff41bc9b07a90329b3868f433ba585",
+      "bytes": 340461
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-training-sword-returned-to-muradin",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-training-sword-returned-to-muradin.mp3",
+      "durationMs": 28375,
+      "sha256": "70da4b1645ac690d23a82cf15377effe161ccce1359735c29e1abfe88627a5f9",
+      "transcriptSha256": "e3649aa094a0abf0555d58b80e23971cf4beb4fbe39c871c5232ba80d8dd6766",
+      "bytes": 341613
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-locket-returned-to-jaina",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-locket-returned-to-jaina.mp3",
+      "durationMs": 27175,
+      "sha256": "271207646a8b16405b077d286b6c173eb4163652cf66ce91eca1270899ae61c7",
+      "transcriptSha256": "d2c275d850f91ab41e421bb39ad8ba5ff1ca352728a2286b1bbb2f7214567b6b",
+      "bytes": 327213
+    },
+    {
+      "nodeId": "shadowmourne-and-arthas-relics-story-alexandros-reunited-with-darion",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-alexandros-reunited-with-darion.mp3",
+      "durationMs": 32500,
+      "sha256": "b48248ec79f1f23047664b3031013cefee170a6a3e0065d4437330c4bdea4647",
+      "transcriptSha256": "152b82d6094401802b85e87aa4c78130661ae70cde24b0f2f182b91fe14cf0bf",
+      "bytes": 391149
     }
   ]
 }
