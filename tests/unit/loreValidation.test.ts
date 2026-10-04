@@ -878,11 +878,11 @@ describe('lore dataset', () => {
   it('keeps the Scepter storyline connected to its actual eras and source leads', () => {
     const data = loadDataset();
     const scepter = data.storylines.find((item) => item.id === 'scepter-of-the-shifting-sands')!;
-    expect(data.storylines).toHaveLength(39);
+    expect(data.storylines).toHaveLength(26);
     expect(data.storylines.find((item) => item.id === 'fallen-hero-and-rakhlikh')?.contentStatus).toBe('research');
     expect(data.storylines.find((item) => item.id === 'akama-and-black-temple')?.contentStatus).toBe('research');
-    expect(data.storylines.find((item) => item.id === 'suramar-nightwell-rebellion')?.eraIds)
-      .toEqual(['war-of-the-ancients', 'age-of-adventurers']);
+    expect(data.storylines.find((item) => item.id === 'galakrond-and-five-proto-dragons')?.eraIds)
+      .toEqual(['ancient-civilizations']);
     expect(data.storylines.find((item) => item.id === 'beyond-the-dark-portal')?.eraIds)
       .toEqual(['rise-of-the-horde', 'third-war-frozen-throne']);
     expect(scepter.eraIds).toEqual(['long-vigil-new-kingdoms', 'age-of-adventurers']);
