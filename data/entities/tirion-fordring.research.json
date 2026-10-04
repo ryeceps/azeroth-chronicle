@@ -14,7 +14,9 @@
     "tirion-taelan-redemption-locator",
     "tirion-taelan-portrait-introduction-locator",
     "tirion-taelan-portrait-recovery-locator",
-    "tirion-taelan-in-dreams-locator"
+    "tirion-taelan-in-dreams-locator",
+    "shadowmourne-and-arthas-relics-model-ashbringer",
+    "shadowmourne-and-arthas-relics-lich-kings-last-stand"
   ],
   "tags": [
     "tirion-taelan-story",
@@ -22,7 +24,13 @@
   ],
   "mapFigure": {
     "asset": "images/storylines/tirion-taelan/tirion-fordring.research.webp",
-    "scale": 0.9
+    "scale": 0.9,
+    "eraVariants": [
+      {
+        "eraId": "age-of-adventurers",
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/tirion-with-ashbringer.research.webp"
+      }
+    ]
   },
   "contentStatus": "research"
 }

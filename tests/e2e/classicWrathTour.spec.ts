@@ -24,7 +24,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   expect(mapFrameBounds!.y).toBe(0);
   expect(controlBounds!.y).toBe(0);
   expect(mapFrameBounds!.y + mapFrameBounds!.height).toBe(viewport.height);
-  await expect(page.locator('.story-tour-dot')).toHaveCount(23);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(24);
   await expect(page.locator('.story-tour-placards')).toHaveCount(0);
   await expect(page.locator('.story-tour-backdrop, .story-tour-section-heading, .story-tour-map-caption, .story-tour-order-note')).toHaveCount(0);
   await expect(page.locator('.story-tour-tooltip').first()).toHaveCSS('visibility', 'hidden');
@@ -50,6 +50,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   const missingDiplomat = page.getByRole('button', { name: /missing-diplomat-original-investigation|The Missing Diplomat/i });
   const shatteredSun = page.getByRole('button', { name: /shattered-sun-and-sunwell|Shattered Sun and the restored Sunwell/i });
   const northrend = page.getByRole('button', { name: /wrathgate-and-undercity|Wrathgate/i });
+  const shadowmourne = page.getByRole('button', { name: /shadowmourne-and-arthas-relics|Shadowmourne/i });
   const quelDelar = page.getByRole('button', { name: /quel-delar-restored|Broken Blade Restored/i });
   await expect(onyxia).toBeVisible();
   await expect(scepter).toBeVisible();
@@ -72,6 +73,7 @@ test('story dots live on the map, expand on hover or focus, and open stories or 
   await expect(missingDiplomat).toBeVisible();
   await expect(shatteredSun).toBeVisible();
   await expect(northrend).toBeVisible();
+  await expect(shadowmourne).toBeVisible();
   await expect(quelDelar).toBeVisible();
 
   await onyxia.hover();
@@ -400,6 +402,10 @@ test('Play All advances completed stories in chronological order and restores th
   await expect(page.getByRole('heading', { name: 'A captive among the cedars' })).toBeVisible();
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('drakuru-betrayal');
   await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=drakuru-betrayal&node=drakuru-betrayal-story-the-lich-kings-judgment&play=all');
+  await page.getByRole('button', { name: 'Next', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'The axe and the doubt' })).toBeVisible();
+  await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('shadowmourne-and-arthas-relics');
+  await page.goto('/map?era=age-of-adventurers&tour=story-tour&collection=classic-to-wrath&storyline=shadowmourne-and-arthas-relics&node=shadowmourne-and-arthas-relics-story-alexandros-reunited-with-darion&play=all');
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'A hilt without a finder' })).toBeVisible();
   await expect.poll(() => new URL(page.url()).searchParams.get('storyline')).toBe('quel-delar-restored');

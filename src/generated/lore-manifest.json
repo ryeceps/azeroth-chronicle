@@ -287,6 +287,17 @@
       }
     },
     {
+      "id": "shadowmourne-and-arthas-relics-theater",
+      "name": "Shadowmourne — relational story theater",
+      "slug": "shadowmourne-and-arthas-relics-theater",
+      "coordinateSystem": {
+        "width": 10000,
+        "height": 10000,
+        "origin": "bottom-left",
+        "units": "atlas-units"
+      }
+    },
+    {
       "id": "shattered-sun-and-sunwell-story-theater",
       "name": "The Shattered Sun and the Sunwell — relational story theater",
       "slug": "shattered-sun-and-sunwell-story-theater",
@@ -3096,6 +3107,76 @@
       "geometryIds": [],
       "cartographyLabel": "ILLUSTRATED CLASSIC STORY THEATER",
       "interpretationNote": "Original interpretive environment art for Warrior’s Terrace, Darnassus. Target reference: original pre-Cataclysm World of Warcraft Classic Warrior’s Terrace, Darnassus. Preserve recognizable traits: Original Darnassus identity: immense living tree forms, curving pale stone and timber walkways, elevated bridges, carved night-elf arches, muted ivory, lavender and cool teal accents. Not a screenshot, exact in-game map, surveyed route, mine floorplan or proof of character co-presence. Side-by-side comparison against the matching Classic area remains a human review gate. See docs/research/scythe-of-elune-visual-assets.json."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-crimson-hall-scene",
+      "name": "Shadowmourne story: The Crimson Hall",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/shadowmourne-and-arthas-relics/crimson-hall.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of The Crimson Hall. Preserve these Wrath-era reference traits: Icy black Scourge arches and a restrained ruby/burgundy chamber palette. It is not a surveyed map, exact raid floor plan or proof of NPC placement. Compare with the matching original 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-frostmourne-cavern-scene",
+      "name": "Shadowmourne story: Frostmourne Cavern, Dragonblight",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/shadowmourne-and-arthas-relics/frostmourne-cavern.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Frostmourne Cavern, Dragonblight. Preserve these Wrath-era reference traits: Natural coastal ice cavern, dark stone and an isolated dais; not Scourge-made architecture. It is not a surveyed map, exact raid floor plan or proof of NPC placement. Compare with the matching original 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-frostwing-halls-scene",
+      "name": "Shadowmourne story: Frostwing Halls",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/shadowmourne-and-arthas-relics/frostwing-halls.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Frostwing Halls. Preserve these Wrath-era reference traits: Glacial cavern, black masonry, blue-white ice and deep crevasses. It is not a surveyed map, exact raid floor plan or proof of NPC placement. Compare with the matching original 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-frozen-throne-scene",
+      "name": "Shadowmourne story: The Frozen Throne summit",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/shadowmourne-and-arthas-relics/frozen-throne.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of The Frozen Throne summit. Preserve these Wrath-era reference traits: Exposed glacier platform, jagged spires and a throne at the citadel crown. It is not a surveyed map, exact raid floor plan or proof of NPC placement. Compare with the matching original 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-icecrown-citadel-approach-scene",
+      "name": "Shadowmourne story: Icecrown Citadel campaign montage",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/shadowmourne-and-arthas-relics/icecrown-citadel-approach.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Icecrown Citadel campaign montage. Preserve these Wrath-era reference traits: Broad glacier and the distant dark spires of Icecrown; not an exact raid wing or entrance. It is not a surveyed map, exact raid floor plan or proof of NPC placement. Compare with the matching original 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-lights-hammer-scene",
+      "name": "Shadowmourne story: Light's Hammer and the ICC staging halls",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/shadowmourne-and-arthas-relics/lights-hammer.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of Light's Hammer and the ICC staging halls. Preserve these Wrath-era reference traits: Black-blue gothic Icecrown stone, cold arches, side runeforge, separate Argent and Ebon Blade standards; exact floor plan unverified. It is not a surveyed map, exact raid floor plan or proof of NPC placement. Compare with the matching original 3.3.5a client before human visual approval."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-plagueworks-scene",
+      "name": "Shadowmourne story: The Plagueworks",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "presentation": "relational",
+      "terrainTextureAsset": "images/storylines/shadowmourne-and-arthas-relics/plagueworks.research.webp",
+      "geometryIds": [],
+      "cartographyLabel": "ILLUSTRATED STORY THEATER",
+      "interpretationNote": "Original interpretive environment illustration of The Plagueworks. Preserve these Wrath-era reference traits: Gothic dark stone and iron, icy openings, laboratory glass and contained green vats. It is not a surveyed map, exact raid floor plan or proof of NPC placement. Compare with the matching original 3.3.5a client before human visual approval."
     },
     {
       "id": "shattered-sun-and-sunwell-a-fount-for-a-new-home-scene",
@@ -10921,6 +11002,350 @@
       "visualPresence": "persistent"
     },
     {
+      "id": "shadowmourne-and-arthas-relics-alexandros-mograine-theater",
+      "entityId": "alexandros-mograine",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-alexandros-mograine-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-alexandros",
+        "shadowmourne-and-arthas-relics-mograine-reunion"
+      ],
+      "editorNote": "Position 5 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-alexandros-soul-shard-theater",
+      "entityId": "alexandros-soul-shard",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-alexandros-soul-shard-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-mograine-reunion"
+      ],
+      "editorNote": "Position 16 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-arthas-as-the-lich-king-theater",
+      "entityId": "arthas-as-the-lich-king",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-arthas-as-the-lich-king-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-shadowmourne-chain",
+        "shadowmourne-and-arthas-relics-lich-kings-last-stand"
+      ],
+      "editorNote": "Position 17 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-arthas-training-sword-theater",
+      "entityId": "arthas-training-sword",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-arthas-training-sword-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-muradins-lament"
+      ],
+      "editorNote": "Position 14 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-ashbringer-theater",
+      "entityId": "ashbringer",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-ashbringer-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-ashbringer"
+      ],
+      "editorNote": "Position 10 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-badge-of-the-silver-hand-theater",
+      "entityId": "badge-of-the-silver-hand",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-badge-of-the-silver-hand-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-lightbringers-redemption"
+      ],
+      "editorNote": "Position 13 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-blood-of-sylvanas-theater",
+      "entityId": "blood-of-sylvanas",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-blood-of-sylvanas-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-sylvanas-vengeance"
+      ],
+      "editorNote": "Position 12 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-blood-queen-lanathel-theater",
+      "entityId": "blood-queen-lanathel",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-blood-queen-lanathel-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-blood-infusion"
+      ],
+      "editorNote": "Position 18 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-darion-mograine-theater",
+      "entityId": "darion-mograine",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-darion-mograine-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-darion",
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt"
+      ],
+      "editorNote": "Position 1 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-jaina-proudmoore-theater",
+      "entityId": "jaina-proudmoore",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-jaina-proudmoore-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-jainas-locket"
+      ],
+      "editorNote": "Position 19 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-jainas-locket-theater",
+      "entityId": "jainas-locket",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-jainas-locket-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-jainas-locket"
+      ],
+      "editorNote": "Position 15 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-lights-vengeance-theater",
+      "entityId": "lights-vengeance",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-lights-vengeance-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt"
+      ],
+      "editorNote": "Position 7 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-muradin-bronzebeard-theater",
+      "entityId": "muradin-bronzebeard",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-muradin-bronzebeard-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-muradin",
+        "shadowmourne-and-arthas-relics-muradins-lament"
+      ],
+      "editorNote": "Position 4 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-professor-putricide-theater",
+      "entityId": "professor-putricide",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-professor-putricide-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-putricide",
+        "shadowmourne-and-arthas-relics-unholy-infusion"
+      ],
+      "editorNote": "Position 2 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-sealed-chest-and-relics-theater",
+      "entityId": "sealed-chest-and-relics",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-sealed-chest-and-relics-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-personal-property"
+      ],
+      "editorNote": "Position 11 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-shadowmourne-theater",
+      "entityId": "shadowmourne",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-shadowmourne-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "editorNote": "Position 9 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-shadows-edge-theater",
+      "entityId": "shadows-edge",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-shadows-edge-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "editorNote": "Position 8 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-sindragosa-theater",
+      "entityId": "sindragosa",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-sindragosa-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-sindragosa",
+        "shadowmourne-and-arthas-relics-frost-infusion"
+      ],
+      "editorNote": "Position 3 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-sylvanas-windrunner-theater",
+      "entityId": "sylvanas-windrunner",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-sylvanas-windrunner-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sylvanas-vengeance"
+      ],
+      "editorNote": "Position 20 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-tirion-fordring-theater",
+      "entityId": "tirion-fordring",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-tirion-fordring-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-lich-kings-last-stand",
+        "shadowmourne-and-arthas-relics-model-ashbringer"
+      ],
+      "editorNote": "Position 21 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-unnamed-shadowmourne-wielder-theater",
+      "entityId": "unnamed-shadowmourne-wielder",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-unnamed-shadowmourne-wielder-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "editorNote": "Position 6 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-uther-lightbringer-theater",
+      "entityId": "uther-lightbringer",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "geometryId": "shadowmourne-and-arthas-relics-uther-lightbringer-focus",
+      "placementKind": "relational",
+      "geographicCertainty": "unknown",
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-lightbringers-redemption"
+      ],
+      "editorNote": "Position 22 is an editorial cast/object anchor in an illustrated story theater. It conveys no Azeroth geography, route, battle formation or simultaneous presence.",
+      "visualPresence": "contextual",
+      "labelPriority": 240
+    },
+    {
       "id": "shattered-sun-and-sunwell-anveena-teague-theater",
       "entityId": "anveena-teague",
       "eraId": "age-of-adventurers",
@@ -13095,7 +13520,30 @@
         "drakuru-betrayal-blizzard-zuldrak",
         "drakuru-betrayal-draktharon-area",
         "drakuru-betrayal-voltarus-area",
-        "drakuru-betrayal-warlord-zimbo"
+        "drakuru-betrayal-warlord-zimbo",
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain",
+        "shadowmourne-and-arthas-relics-feast-of-souls",
+        "shadowmourne-and-arthas-relics-unholy-infusion",
+        "shadowmourne-and-arthas-relics-blood-infusion",
+        "shadowmourne-and-arthas-relics-frost-infusion",
+        "shadowmourne-and-arthas-relics-splintered-throne",
+        "shadowmourne-and-arthas-relics-empowerment",
+        "shadowmourne-and-arthas-relics-lich-kings-last-stand",
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-personal-property",
+        "shadowmourne-and-arthas-relics-sylvanas-vengeance",
+        "shadowmourne-and-arthas-relics-lightbringers-redemption",
+        "shadowmourne-and-arthas-relics-muradins-lament",
+        "shadowmourne-and-arthas-relics-jainas-locket",
+        "shadowmourne-and-arthas-relics-mograine-reunion",
+        "shadowmourne-and-arthas-relics-model-darion",
+        "shadowmourne-and-arthas-relics-model-putricide",
+        "shadowmourne-and-arthas-relics-model-sindragosa",
+        "shadowmourne-and-arthas-relics-model-muradin",
+        "shadowmourne-and-arthas-relics-model-alexandros",
+        "shadowmourne-and-arthas-relics-model-ashbringer"
       ],
       "contentStatus": "research"
     },
@@ -13750,6 +14198,56 @@
         "asset": "images/storylines/akama-black-temple/alar.research.webp",
         "scale": 0.9
       }
+    },
+    {
+      "id": "alexandros-mograine",
+      "type": "character",
+      "name": "Highlord Alexandros Mograine",
+      "slug": "alexandros-mograine",
+      "shortDescription": "Darion's father, whose soul shard is returned in the final relic branch.",
+      "body": "Darion's father, whose soul shard is returned in the final relic branch. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-alexandros",
+        "shadowmourne-and-arthas-relics-mograine-reunion"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/alexandros-mograine.research.webp",
+        "scale": 0.94
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "alexandros-soul-shard",
+      "type": "artifact",
+      "name": "Alexandros' Soul Shard",
+      "slug": "alexandros-soul-shard",
+      "shortDescription": "The soul shard that allows Alexandros to speak to Darion again.",
+      "body": "The soul shard that allows Alexandros to speak to Darion again. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-mograine-reunion"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-artifact-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/alexandros-soul-shard.research.webp",
+        "scale": 0.5
+      },
+      "contentStatus": "research"
     },
     {
       "id": "alexstrasza",
@@ -14469,7 +14967,10 @@
         "wrathgate-angrathar-event-locator",
         "drakuru-betrayal-cleansing-draktharon",
         "drakuru-betrayal-betrayal",
-        "drakuru-betrayal-overlord-drakuru"
+        "drakuru-betrayal-overlord-drakuru",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain",
+        "shadowmourne-and-arthas-relics-lich-kings-last-stand",
+        "shadowmourne-and-arthas-relics-sealed-chest"
       ],
       "tags": [
         "arthas-menethil",
@@ -14509,6 +15010,31 @@
       "mapFigure": {
         "asset": "images/characters/third-war-frozen-throne/arthas.research.webp",
         "scale": 0.92
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "arthas-training-sword",
+      "type": "artifact",
+      "name": "Arthas' Training Sword",
+      "slug": "arthas-training-sword",
+      "shortDescription": "The dull sword from Arthas' training with Muradin.",
+      "body": "The dull sword from Arthas' training with Muradin. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-muradins-lament"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-artifact-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/arthas-training-sword.research.webp",
+        "scale": 0.59
       },
       "contentStatus": "research"
     },
@@ -14611,6 +15137,30 @@
       "mapFigure": {
         "asset": "images/storylines/cipher-of-damnation/artor-torn-heart.research.webp",
         "scale": 0.82
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "ashbringer",
+      "type": "artifact",
+      "name": "Ashbringer",
+      "slug": "ashbringer",
+      "shortDescription": "Tirion Fordring's iconic sword, shown in his hands when he breaks Frostmourne.",
+      "body": "Tirion Fordring's iconic sword, shown in his hands when he breaks Frostmourne. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-ashbringer"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-artifact-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/ashbringer.research.webp",
+        "scale": 0.64
       },
       "contentStatus": "research"
     },
@@ -14949,6 +15499,31 @@
         "akama-story",
         "story-setting"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "badge-of-the-silver-hand",
+      "type": "artifact",
+      "name": "Badge of the Silver Hand",
+      "slug": "badge-of-the-silver-hand",
+      "shortDescription": "Arthas' paladin badge returned to Uther.",
+      "body": "Arthas' paladin badge returned to Uther. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-lightbringers-redemption"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-artifact-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/badge-of-the-silver-hand.research.webp",
+        "scale": 0.48
+      },
       "contentStatus": "research"
     },
     {
@@ -15436,6 +16011,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "blood-of-sylvanas",
+      "type": "artifact",
+      "name": "Blood of Sylvanas",
+      "slug": "blood-of-sylvanas",
+      "shortDescription": "A sealed vial returned to Sylvanas.",
+      "body": "A sealed vial returned to Sylvanas. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-sylvanas-vengeance"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-artifact-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/blood-of-sylvanas.research.webp",
+        "scale": 0.48
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "blood-queen-lanathel",
       "type": "character",
       "name": "Blood-Queen Lana’thel",
@@ -15448,7 +16048,8 @@
       ],
       "sourceIds": [
         "quel-delar-sister-blade-article-mirror",
-        "quel-delar-wotlk-quest-chain-transcript"
+        "quel-delar-wotlk-quest-chain-transcript",
+        "shadowmourne-and-arthas-relics-blood-infusion"
       ],
       "tags": [
         "quel-delar-story",
@@ -16517,6 +17118,27 @@
       "contentStatus": "research"
     },
     {
+      "id": "crimson-hall",
+      "type": "location",
+      "name": "The Crimson Hall",
+      "slug": "crimson-hall",
+      "shortDescription": "The Icecrown Citadel wing guarded by Blood-Queen Lana'thel.",
+      "body": "The Icecrown Citadel wing guarded by Blood-Queen Lana'thel. Illustrations are interpretive environments, not exact maps or instance floor plans. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-blood-infusion"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "cthun-scepter",
       "type": "character",
       "name": "C'Thun",
@@ -16628,6 +17250,31 @@
       "featuredEraIds": [
         "age-of-adventurers"
       ]
+    },
+    {
+      "id": "darion-mograine",
+      "type": "character",
+      "name": "Highlord Darion Mograine",
+      "slug": "darion-mograine",
+      "shortDescription": "Leader of the Ashen Verdict who commissions and completes Shadowmourne with a chosen wielder.",
+      "body": "Leader of the Ashen Verdict who commissions and completes Shadowmourne with a chosen wielder. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-darion",
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/darion-mograine.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
     },
     {
       "id": "dark-portal",
@@ -19034,6 +19681,47 @@
       "contentStatus": "research"
     },
     {
+      "id": "frostmourne-cavern",
+      "type": "location",
+      "name": "Frostmourne Cavern",
+      "slug": "frostmourne-cavern",
+      "shortDescription": "A cavern on the Forgotten Shore of Dragonblight where Light's Vengeance is recovered.",
+      "body": "A cavern on the Forgotten Shore of Dragonblight where Light's Vengeance is recovered. Illustrations are interpretive environments, not exact maps or instance floor plans. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "frostwing-halls",
+      "type": "location",
+      "name": "Frostwing Halls",
+      "slug": "frostwing-halls",
+      "shortDescription": "The Icecrown Citadel wing where Sindragosa guards the path toward the Frozen Throne.",
+      "body": "The Icecrown Citadel wing where Sindragosa guards the path toward the Frozen Throne. Illustrations are interpretive environments, not exact maps or instance floor plans. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-frost-infusion"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "frozen-halls",
       "type": "location",
       "name": "The Frozen Halls",
@@ -19054,22 +19742,22 @@
     },
     {
       "id": "frozen-throne",
-      "type": "site",
+      "type": "location",
       "name": "The Frozen Throne",
       "slug": "frozen-throne",
-      "shortDescription": "The prison and seat of the Lich King at Icecrown, reached by Arthas after his victory over Illidan.",
-      "firstEraId": "third-war-frozen-throne",
+      "shortDescription": "The exposed glacial summit and seat of the Lich King at the crown of Icecrown Citadel.",
+      "body": "The exposed glacial summit and seat of the Lich King at the crown of Icecrown Citadel. Illustrations are interpretive environments, not exact maps or instance floor plans. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
       "featuredEraIds": [
-        "third-war-frozen-throne"
+        "age-of-adventurers"
       ],
       "sourceIds": [
-        "warcraft-chronicle-volume-3",
-        "blizzard-burning-crusade-story-so-far"
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-lich-kings-last-stand"
       ],
       "tags": [
-        "icecrown",
-        "lich-king",
-        "northrend"
+        "shadowmourne-story",
+        "wrath-location"
       ],
       "contentStatus": "research"
     },
@@ -20110,6 +20798,27 @@
       "contentStatus": "research"
     },
     {
+      "id": "icecrown-citadel",
+      "type": "location",
+      "name": "Icecrown Citadel",
+      "slug": "icecrown-citadel",
+      "shortDescription": "The Scourge stronghold where Shadowmourne is forged and the Lich King is confronted.",
+      "body": "The Scourge stronghold where Shadowmourne is forged and the Lich King is confronted. Illustrations are interpretive environments, not exact maps or instance floor plans. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "icecrown",
       "type": "location",
       "name": "Icecrown",
@@ -20357,7 +21066,8 @@
       "sourceIds": [
         "warcraft-chronicle-volume-3",
         "blizzard-warcraft-iii-story-so-far",
-        "blizzard-mount-hyjal-history"
+        "blizzard-mount-hyjal-history",
+        "shadowmourne-and-arthas-relics-jainas-locket"
       ],
       "claimIds": [
         "jaina-third-war-role-claim"
@@ -20369,7 +21079,38 @@
       ],
       "mapFigure": {
         "asset": "images/characters/third-war-frozen-throne/jaina-proudmoore.research.webp",
-        "scale": 0.82
+        "scale": 0.82,
+        "eraVariants": [
+          {
+            "eraId": "age-of-adventurers",
+            "asset": "images/storylines/shadowmourne-and-arthas-relics/jaina-proudmoore-wrath.research.webp"
+          }
+        ]
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "jainas-locket",
+      "type": "artifact",
+      "name": "Jaina's Locket",
+      "slug": "jainas-locket",
+      "shortDescription": "The locket Jaina gave Arthas, returned to her.",
+      "body": "The locket Jaina gave Arthas, returned to her. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-jainas-locket"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-artifact-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/jainas-locket.research.webp",
+        "scale": 0.5
       },
       "contentStatus": "research"
     },
@@ -21407,6 +22148,30 @@
         "darrowshire-story",
         "classic-plaguelands"
       ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "lights-vengeance",
+      "type": "artifact",
+      "name": "Light's Vengeance",
+      "slug": "lights-vengeance",
+      "shortDescription": "Arthas' discarded hammer recovered in Frostmourne Cavern and used as Shadowmourne's foundation.",
+      "body": "Arthas' discarded hammer recovered in Frostmourne Cavern and used as Shadowmourne's foundation. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-artifact-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/lights-vengeance.research.webp",
+        "scale": 0.63
+      },
       "contentStatus": "research"
     },
     {
@@ -22668,6 +23433,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "muradin-bronzebeard",
+      "type": "character",
+      "name": "Muradin Bronzebeard",
+      "slug": "muradin-bronzebeard",
+      "shortDescription": "Dwarven commander and Arthas' former mentor, to whom the old training sword is returned.",
+      "body": "Dwarven commander and Arthas' former mentor, to whom the old training sword is returned. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-muradin",
+        "shadowmourne-and-arthas-relics-muradins-lament"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/muradin-bronzebeard.research.webp",
+        "scale": 0.9
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "murkblood-escape-plans",
       "type": "artifact",
       "name": "Murkblood Escape Plans",
@@ -23875,6 +24665,27 @@
       ]
     },
     {
+      "id": "plagueworks",
+      "type": "location",
+      "name": "The Plagueworks",
+      "slug": "plagueworks",
+      "shortDescription": "An Icecrown Citadel raid wing containing Professor Putricide's laboratory.",
+      "body": "An Icecrown Citadel raid wing containing Professor Putricide's laboratory. Illustrations are interpretive environments, not exact maps or instance floor plans. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-unholy-infusion"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "wrath-location"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "portrait-of-love-and-family",
       "type": "artifact",
       "name": "Of Love and Family — recovered portrait",
@@ -23970,6 +24781,31 @@
       "mapFigure": {
         "asset": "images/characters/missing-diplomat/private-hendel.research.webp",
         "scale": 0.95
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "professor-putricide",
+      "type": "character",
+      "name": "Professor Putricide",
+      "slug": "professor-putricide",
+      "shortDescription": "The Plagueworks alchemist whose power is used in the weapon's unholy infusion.",
+      "body": "The Plagueworks alchemist whose power is used in the weapon's unholy infusion. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-putricide",
+        "shadowmourne-and-arthas-relics-unholy-infusion"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/professor-putricide.research.webp",
+        "scale": 0.86
       },
       "contentStatus": "research"
     },
@@ -25375,6 +26211,31 @@
       }
     },
     {
+      "id": "sealed-chest-and-relics",
+      "type": "artifact",
+      "name": "Sealed Chest and five personal relics",
+      "slug": "sealed-chest-and-relics",
+      "shortDescription": "The Sealed Chest and its five distinct personal keepsakes, shown together only at discovery.",
+      "body": "The Sealed Chest and its five distinct personal keepsakes, shown together only at discovery. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-personal-property"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-artifact-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/relics-still-life.research.webp",
+        "scale": 0.88
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "seer-kanai",
       "type": "character",
       "name": "Seer Kanai",
@@ -25726,6 +26587,54 @@
       "contentStatus": "research"
     },
     {
+      "id": "shadowmourne",
+      "type": "artifact",
+      "name": "Shadowmourne",
+      "slug": "shadowmourne",
+      "shortDescription": "The completed two-handed axe made for an attempt against the Lich King.",
+      "body": "The completed two-handed axe made for an attempt against the Lich King. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-artifact-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/shadowmourne.research.webp",
+        "scale": 0.74
+      },
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadows-edge",
+      "type": "artifact",
+      "name": "Shadow's Edge",
+      "slug": "shadows-edge",
+      "shortDescription": "The unfinished weapon Darion forges before its three infusions and completion.",
+      "body": "The unfinished weapon Darion forges before its three infusions and completion. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-artifact-art"
+      ],
+      "mapVisual": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/shadows-edge.research.webp",
+        "scale": 0.7
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "shattered-amulet",
       "type": "artifact",
       "name": "The shattered amulet",
@@ -25936,6 +26845,31 @@
         "sunwell-blizzard-fury-timeline"
       ],
       "body": "The blood-elf capital where Kael'thas returns before turning his design toward the Sunwell. This story uses original interpretive TBC-era city art; the scene is not a literal layout reconstruction. Geography remains at region scale until original-client comparison. The blood-elf capital where Kael'thas returns before turning his design toward the Sunwell. This story uses original interpretive TBC-era city art; the scene is not a literal layout reconstruction. Geography remains at region scale until original-client comparison. The blood-elf capital where Kael'thas returns before turning his design toward the Sunwell. This story uses original interpretive TBC-era city art; the scene is not a literal layout reconstruction. Geography remains at region scale until original-client comparison. The blood-elf capital where Kael'thas returns before turning his design toward the Sunwell. This story uses original interpretive TBC-era city art; the scene is not a literal layout reconstruction. Geography remains at region scale until original-client comparison. The blood-elf capital where Kael'thas returns before turning his design toward the Sunwell. This story uses original interpretive TBC-era city art; the scene is not a literal layout reconstruction. Geography remains at region scale until original-client comparison. The blood-elf capital where Kael'thas returns before turning his design toward the Sunwell. This story uses original interpretive TBC-era city art; the scene is not a literal layout reconstruction. Geography remains at region scale until original-client comparison. The blood-elf capital where Kael'thas returns before turning his design toward the Sunwell. This story uses original interpretive TBC-era city art; the scene is not a literal layout reconstruction. Geography remains at region scale until original-client comparison."
+    },
+    {
+      "id": "sindragosa",
+      "type": "character",
+      "name": "Sindragosa",
+      "slug": "sindragosa",
+      "shortDescription": "The undead frost wyrm who guards the way to the Lich King in Icecrown Citadel.",
+      "body": "The undead frost wyrm who guards the way to the Lich King in Icecrown Citadel. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-model-sindragosa",
+        "shadowmourne-and-arthas-relics-frost-infusion"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/sindragosa.research.webp",
+        "scale": 1.05
+      },
+      "contentStatus": "research"
     },
     {
       "id": "skettis-terokkar",
@@ -26456,7 +27390,8 @@
         "blizzard-warcraft-iii-reforged-overview",
         "story-wrathgate",
         "wrathgate-undercity-horde-quest-13267",
-        "wrathgate-undercity-event-locator"
+        "wrathgate-undercity-event-locator",
+        "shadowmourne-and-arthas-relics-sylvanas-vengeance"
       ],
       "claimIds": [
         "sylvanas-resistance-transformation-claim"
@@ -27007,7 +27942,9 @@
         "tirion-taelan-redemption-locator",
         "tirion-taelan-portrait-introduction-locator",
         "tirion-taelan-portrait-recovery-locator",
-        "tirion-taelan-in-dreams-locator"
+        "tirion-taelan-in-dreams-locator",
+        "shadowmourne-and-arthas-relics-model-ashbringer",
+        "shadowmourne-and-arthas-relics-lich-kings-last-stand"
       ],
       "tags": [
         "tirion-taelan-story",
@@ -27015,7 +27952,13 @@
       ],
       "mapFigure": {
         "asset": "images/storylines/tirion-taelan/tirion-fordring.research.webp",
-        "scale": 0.9
+        "scale": 0.9,
+        "eraVariants": [
+          {
+            "eraId": "age-of-adventurers",
+            "asset": "images/storylines/shadowmourne-and-arthas-relics/tirion-with-ashbringer.research.webp"
+          }
+        ]
       },
       "contentStatus": "research"
     },
@@ -27336,6 +28279,31 @@
       "contentStatus": "research"
     },
     {
+      "id": "unnamed-shadowmourne-wielder",
+      "type": "character",
+      "name": "Unnamed Shadowmourne wielder · illustrative class variant",
+      "slug": "unnamed-shadowmourne-wielder",
+      "shortDescription": "An interpretive death-knight example of one eligible class viewpoint. Not a canonical named hero; the chain also permits Paladin and Warrior variants.",
+      "body": "An interpretive death-knight example of one eligible class viewpoint. Not a canonical named hero; the chain also permits Paladin and Warrior variants. The visible figure is an original art direction choice, not lore evidence or a named person.",
+      "firstEraId": "age-of-adventurers",
+      "featuredEraIds": [
+        "age-of-adventurers"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "tags": [
+        "shadowmourne-story",
+        "interpretive-art"
+      ],
+      "mapFigure": {
+        "asset": "images/storylines/shadowmourne-and-arthas-relics/shadowmourne-wielder.research.webp",
+        "scale": 0.96
+      },
+      "contentStatus": "research"
+    },
+    {
       "id": "unsent-letter",
       "type": "artifact",
       "name": "The Unsent Letter",
@@ -27395,7 +28363,8 @@
         "age-of-adventurers"
       ],
       "sourceIds": [
-        "quel-delar-halls-of-reflection-quest-transcript"
+        "quel-delar-halls-of-reflection-quest-transcript",
+        "shadowmourne-and-arthas-relics-lightbringers-redemption"
       ],
       "tags": [
         "quel-delar-story",
@@ -41145,6 +42114,437 @@
       "contentStatus": "research"
     },
     {
+      "id": "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion-event",
+      "kind": "event",
+      "name": "A father answers his son",
+      "slug": "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "Darion takes the last relic to his own father: Alexandros' soul shard. The returned fragment lets the two speak again. Alexandros tells him that the Lich King tormented him and tried to bind him to Frostmourne, but the memory of Darion's sacrifice held him from surrender. Darion answers that he would give his life for his father a thousand times. Among the ruin left by Frostmourne, their family history rises into a brief reunion.",
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "participantEntityIds": [
+        "darion-mograine",
+        "alexandros-mograine",
+        "alexandros-soul-shard"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-mograine-reunion",
+        "shadowmourne-and-arthas-relics-model-alexandros"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-badge-returned-to-uther-event",
+      "kind": "event",
+      "name": "The memory Uther keeps",
+      "slug": "shadowmourne-and-arthas-relics-badge-returned-to-uther",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "The badge is the one Uther once gave Arthas as a paladin. For a moment, the old mentor is silent. He remembers the young prince eager to defend his people against the enemies of the Light, and chooses that memory to keep in his heart. Uther calls the return a gift that may let his soul rest. That is his hope in this brief meeting, not a final answer to every question left by death.",
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "participantEntityIds": [
+        "uther-lightbringer",
+        "badge-of-the-silver-hand"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-lightbringers-redemption"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-badge-returned-to-uther-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-blood-infusion-event",
+      "kind": "event",
+      "name": "Blood in the Crimson Hall",
+      "slug": "shadowmourne-and-arthas-relics-blood-infusion",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "Blood-Queen Lana'thel stands in the Crimson Hall, still a guardian of the Lich King's dominion. Shadow's Edge receives a second power in the encounter with her: blood, drawn through the strange bond Darion's instructions set between weapon and bearer. Lana'thel is then defeated. The axe holds another of the Citadel's powers, its making tied to the one who guarded the hall.",
+      "locationIds": [
+        "crimson-hall"
+      ],
+      "participantEntityIds": [
+        "unnamed-shadowmourne-wielder",
+        "blood-queen-lanathel",
+        "shadows-edge"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-blood-infusion",
+        "shadowmourne-and-arthas-relics-blizzard-icc-open"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-blood-infusion-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-blood-returned-to-sylvanas-event",
+      "kind": "event",
+      "name": "The blood of the Banshee Queen",
+      "slug": "shadowmourne-and-arthas-relics-blood-returned-to-sylvanas",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "To Sylvanas, the vial returns a remnant of the blood the Lich King once drew from her. She pauses over what has been returned. Arthas has paid for the harm he imposed, yet Sylvanas wonders what can become of those freed from his grasp while still bound to mortal life. She offers a music box and asks for solitude; victory has opened no easy road beyond her grief.",
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "participantEntityIds": [
+        "sylvanas-windrunner",
+        "blood-of-sylvanas"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-sylvanas-vengeance"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-blood-returned-to-sylvanas-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-darions-dangerous-proposal-event",
+      "kind": "event",
+      "name": "The axe and the doubt",
+      "slug": "shadowmourne-and-arthas-relics-darions-dangerous-proposal",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "At Light's Hammer, Highlord Darion Mograine sets a perilous undertaking before the champions who might bear it. Death Knights, Paladins and Warriors may take up the work; no one class alone owns its history. From the remnants of Arthas's discarded hammer and powers bound to Icecrown, Darion seeks an axe that might stand against Frostmourne. He warns that the attempt may undo the one who bears it. A doubt hangs over the proposal: to answer a devouring blade by making another.",
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "participantEntityIds": [
+        "darion-mograine",
+        "unnamed-shadowmourne-wielder"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-darions-dangerous-proposal-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne-event",
+      "kind": "event",
+      "name": "The Lich King's last stand",
+      "slug": "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "At the Frozen Throne, the living confront the Lich King at the crown of his fortress. Tirion Fordring breaks free and brings Ashbringer against Frostmourne, shattering the cursed blade; the assault ends in Arthas's defeat. Shadowmourne is present because its bearer has reached the final challenge, but it is not the sole cause of victory. In the aftermath, a sealed chest is found beside the fallen king.",
+      "locationIds": [
+        "frozen-throne"
+      ],
+      "participantEntityIds": [
+        "unnamed-shadowmourne-wielder",
+        "arthas-as-the-lich-king",
+        "tirion-fordring",
+        "ashbringer",
+        "shadowmourne"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-lich-kings-last-stand",
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-model-ashbringer"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-feast-of-souls-event",
+      "kind": "event",
+      "name": "The unfinished edge drinks deep",
+      "slug": "shadowmourne-and-arthas-relics-feast-of-souls",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "Shadow's Edge must drink from the dead before it can be changed. The Scourge's servants fall to the unfinished axe, and captured souls gather in it. The chain's repeated tally belongs to the work of making the weapon; it does not describe one battle or one named host. Across Icecrown's frozen halls, the forging becomes a burden fed by death, even as the axe is meant to oppose the Lich King.",
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "participantEntityIds": [
+        "unnamed-shadowmourne-wielder",
+        "shadows-edge"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-feast-of-souls",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-feast-of-souls-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-final-empowerment-event",
+      "kind": "event",
+      "name": "The last forging",
+      "slug": "shadowmourne-and-arthas-relics-final-empowerment",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "Darion claims the last of the work. At the runeforge, he joins the unholy, blood and frost powers, the gathered souls and the throne fragments to the waiting edge. Blue fire rises around the anvil. The axe passes into Darion's hands, then to its wielder. He sends it forth against the Lich King: Shadowmourne is no longer a rumor among smiths, but a weapon carried by the living.",
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "participantEntityIds": [
+        "darion-mograine",
+        "unnamed-shadowmourne-wielder",
+        "shadows-edge",
+        "shadowmourne"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-empowerment",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-final-empowerment-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-five-personal-relics-event",
+      "kind": "event",
+      "name": "What the sealed chest kept",
+      "slug": "shadowmourne-and-arthas-relics-five-personal-relics",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "Inside the chest lie five objects from different lives: Sylvanas' blood; Arthas's badge from Uther; his training sword from Muradin; the locket Jaina once gave him; and a soul shard belonging to Alexandros Mograine. Together they uncover traces of the people who knew the prince before he became the Lich King, and of the people whom Frostmourne harmed. Each keepsake begins a separate return.",
+      "locationIds": [
+        "frozen-throne"
+      ],
+      "participantEntityIds": [
+        "unnamed-shadowmourne-wielder",
+        "sealed-chest-and-relics",
+        "blood-of-sylvanas",
+        "badge-of-the-silver-hand",
+        "arthas-training-sword",
+        "jainas-locket",
+        "alexandros-soul-shard"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-personal-property"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-five-personal-relics-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-frost-infusion-event",
+      "kind": "event",
+      "name": "The frost queen's last guard",
+      "slug": "shadowmourne-and-arthas-relics-frost-infusion",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "Sindragosa is the last guardian standing between the seeker and the Lich King. In Frostwing Halls, her frozen breath saturates Shadow's Edge with frost. Once that power has entered the blade, the Frost Queen is slain. Her fall opens the way toward the summit, but the same citadel still keeps its terrible master.",
+      "locationIds": [
+        "frostwing-halls"
+      ],
+      "participantEntityIds": [
+        "unnamed-shadowmourne-wielder",
+        "sindragosa",
+        "shadows-edge"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-frost-infusion",
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-model-sindragosa"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-frost-infusion-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-light-vengeance-in-the-cavern-event",
+      "kind": "event",
+      "name": "The forgotten hammer",
+      "slug": "shadowmourne-and-arthas-relics-light-vengeance-in-the-cavern",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "Far from Icecrown, in a frozen cave along Dragonblight's Forgotten Shore, the old hammer waits. As the seeker nears it, the Lich King appears in the dark and refuses to let his former weapon pass. His force sends Light's Vengeance skidding across the cavern, and the dead rise to bar the way. The hammer is recovered, but the encounter carries a warning: the Lich King knows what Darion is attempting and moves to stop it.",
+      "locationIds": [
+        "frostmourne-cavern"
+      ],
+      "participantEntityIds": [
+        "unnamed-shadowmourne-wielder",
+        "arthas-as-the-lich-king",
+        "lights-vengeance"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-light-vengeance-in-the-cavern-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-locket-returned-to-jaina-event",
+      "kind": "event",
+      "name": "The locket Jaina gave",
+      "slug": "shadowmourne-and-arthas-relics-locket-returned-to-jaina",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "Jaina recognizes the locket she once gave Arthas. He kept it through the years of ruin and the fall of their kingdom. Tears come before words; then she holds to a small hope that some part of him might remember who he was before Frostmourne. Her words do not undo what he became. They name the distance between the young prince she loved and the Lich King she helped confront.",
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "participantEntityIds": [
+        "jaina-proudmoore",
+        "jainas-locket"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-jainas-locket"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-locket-returned-to-jaina-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-shadow-edge-forged-event",
+      "kind": "event",
+      "name": "The binding of sacred and corrupt",
+      "slug": "shadowmourne-and-arthas-relics-shadow-edge-forged",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "At Darion's runeforge, the hammer is laid with Primordial Saronite and the acidic blood of the plague abominations Rotface and Festergut. Fire takes the components into itself. From sacred memory and corruption bound together, Darion shapes Shadow's Edge, an axe with power not yet its own. He places it in the seeker's hands and leaves the next work to the one who must carry it.",
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "participantEntityIds": [
+        "darion-mograine",
+        "unnamed-shadowmourne-wielder",
+        "lights-vengeance",
+        "shadows-edge"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-shadow-edge-forged-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-shadowmourne-and-its-question-event",
+      "kind": "event",
+      "name": "A blade and its question",
+      "slug": "shadowmourne-and-arthas-relics-shadowmourne-and-its-question",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "Yet the new axe stands in Frostmourne's shadow. It, too, was fed by the souls of fallen foes; it bears the power of saronite and fragments taken from the Frozen Throne. The chain raises a fear it does not settle: whether this weapon can resist the same doom as Frostmourne. No certainty is offered. Its wielder goes forward bearing both a blade and a question.",
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "participantEntityIds": [
+        "unnamed-shadowmourne-wielder",
+        "darion-mograine",
+        "shadowmourne"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-shadowmourne-chain",
+        "shadowmourne-and-arthas-relics-empowerment"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-shadowmourne-and-its-question-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-splinters-of-the-throne-event",
+      "kind": "event",
+      "name": "The throne's splintered crown",
+      "slug": "shadowmourne-and-arthas-relics-splinters-of-the-throne",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "Fragments of the Frozen Throne become part of the next forging. The scattered splinters are gathered through Icecrown Citadel and carried back to Darion, who says their old power can be sealed into Shadow's Edge. The repeated shard tally belongs to the long work of the raid, not a second plot. What matters to the story is that the axe is being finished with fragments of the Lich King's own seat.",
+      "locationIds": [
+        "frozen-throne"
+      ],
+      "participantEntityIds": [
+        "unnamed-shadowmourne-wielder",
+        "darion-mograine",
+        "shadows-edge"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-splintered-throne",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-splinters-of-the-throne-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin-event",
+      "kind": "event",
+      "name": "Muradin's old lesson",
+      "slug": "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "Muradin receives the dull training sword he once used with Arthas in Lordaeron. Its blunted edge bears none of the blood of later wars, yet its weight draws back days of teaching and regret. Muradin wonders how events might have changed had he stopped Arthas from discovering Frostmourne. A practice blade from an earlier life becomes the part of Arthas he mourns: a young man still being taught.",
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "participantEntityIds": [
+        "muradin-bronzebeard",
+        "arthas-training-sword"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-muradins-lament",
+        "shadowmourne-and-arthas-relics-model-muradin"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-unholy-infusion-event",
+      "kind": "event",
+      "name": "The plague alchemist undone",
+      "slug": "shadowmourne-and-arthas-relics-unholy-infusion",
+      "eraId": "age-of-adventurers",
+      "worldspaceId": "shadowmourne-and-arthas-relics-theater",
+      "summary": "At the heart of the Plagueworks, Professor Putricide's own experiments become the means of change. The power of his mutated work is drawn into Shadow's Edge, and Putricide falls. The alchemist's creation is turned toward a weapon meant for the master of the citadel; the living press the Scourge's craft into another shape.",
+      "locationIds": [
+        "plagueworks"
+      ],
+      "participantEntityIds": [
+        "unnamed-shadowmourne-wielder",
+        "professor-putricide",
+        "shadows-edge"
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-unholy-infusion",
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-model-putricide"
+      ],
+      "claimIds": [
+        "shadowmourne-and-arthas-relics-unholy-infusion-claim"
+      ],
+      "contentStatus": "research"
+    },
+    {
       "id": "shattered-sun-and-sunwell-story-a-fount-for-a-new-home-event",
       "kind": "event",
       "name": "A fount for a new home",
@@ -49078,6 +50478,167 @@
       "notes": "Accessed 2026-10-02. In-game item text reproduced by a secondary reference. Used only for attributed claims about Velinde’s account; verify item 5520 against the original Classic client. Original-client/build verification remains open."
     },
     {
+      "id": "shadowmourne-and-arthas-relics-blizzard-icc-open",
+      "title": "Wrath of the Lich King Classic: The Way into Icecrown Citadel is Open",
+      "url": "https://news.blizzard.com/en-us/article/24013834/wrath-of-the-lich-king-classic-the-way-into-icecrown-citadel-is-open",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. First-party Blizzard overview supports the ICC setting, its wings, raid cast, and the three classes eligible for the Shadowmourne chain. It is a Classic overview, not original 2009 quest dialogue."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-blood-infusion",
+      "title": "Blood Infusion · secondary Wrath quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/Blood_Infusion_%28quest%29",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest text for Blood-Queen Lana'thel and the blood infusion. Raid difficulty and combat instructions are omitted from narration."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-empowerment",
+      "title": "Empowerment · secondary Wrath quest transcript",
+      "url": "https://wowpedia.fandom.com/wiki/Empowerment_%28quest%29",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary transcript for Darion's final forging scene and the passage from Shadow's Edge to Shadowmourne. Verify wording and event order in original client."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-feast-of-souls",
+      "title": "A Feast of Souls · secondary Wrath quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/A_Feast_of_Souls",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest-text locator for the soul-feeding stage. Repeated kill counts and raid mechanics are gameplay, not unique historical events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-frost-infusion",
+      "title": "Frost Infusion · secondary Wrath quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/Frost_Infusion",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest text for Sindragosa and the frost infusion. The page differs internally on the number of breath attacks; the narration omits the count pending original-build review."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-jainas-locket",
+      "title": "Jaina's Locket · secondary Wrath quest locator",
+      "url": "https://warcraft.wiki.gg/wiki/Jaina%27s_Locket_%28quest%29",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest transcript locator for Jaina recognizing the locket and hoping Arthas might remember what he once was."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-lich-kings-last-stand",
+      "title": "The Lich King's Last Stand · secondary Wrath quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/The_Lich_King%27s_Last_Stand",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary source locator for the final quest and Sealed Chest. Use the original 3.3.5a final encounter/cinematic for human validation."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-lightbringers-redemption",
+      "title": "The Lightbringer's Redemption · secondary Wrath quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/The_Lightbringer%27s_Redemption",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary dialogue locator for Uther, Arthas's Silver Hand badge and Uther's chosen memory. Dialogue is Uther's perspective; no later cosmological resolution is inferred."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-model-alexandros",
+      "title": "Alexandros Mograine · character model locator",
+      "url": "https://warcraft.wiki.gg/wiki/Alexandros_Mograine",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary visual locator only; interpret the Wrath soul appearance, not later Shadowlands art."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-model-ashbringer",
+      "title": "Ashbringer · item and model locator",
+      "url": "https://warcraft.wiki.gg/wiki/Ashbringer",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary visual locator for Tirion's iconic sword. Its complete visible form is deliberately included in his final-scene portrait; the original model still requires comparison."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-model-darion",
+      "title": "Darion Mograine · character model locator",
+      "url": "https://warcraft.wiki.gg/wiki/Darion_Mograine",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary visual locator only; the Wrath 3.3.5a model and costume still require side-by-side client review."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-model-muradin",
+      "title": "Muradin Bronzebeard · character model locator",
+      "url": "https://warcraft.wiki.gg/wiki/Muradin",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary visual locator only; compare the Wrath model and Skybreaker appearance before human approval."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-model-putricide",
+      "title": "Professor Putricide · character model locator",
+      "url": "https://warcraft.wiki.gg/wiki/Professor_Putricide",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary visual locator only; compare the original Wrath raid model before human approval."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-model-sindragosa",
+      "title": "Sindragosa · character model locator",
+      "url": "https://warcraft.wiki.gg/wiki/Sindragosa",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary visual locator for her Wrath Frostwing form; original 3.3.5a model and scale comparison remain open."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-mograine-reunion",
+      "title": "Mograine's Reunion · secondary Wrath quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/Mograine%27s_Reunion",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary dialogue locator for Alexandros and Darion's reunion. Later Shadowlands appearances and outcomes are excluded."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-muradins-lament",
+      "title": "Muradin's Lament · secondary Wrath quest locator",
+      "url": "https://warcraft.wiki.gg/wiki/Muradin%27s_Lament",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest transcript locator for Arthas' training sword and Muradin's regret. Original 3.3.5a dialogue capture remains open."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-personal-property",
+      "title": "Personal Property · secondary Wrath quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/Personal_Property",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest text for opening the chest and the list of five keepsakes. Original client check remains open."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-sacred-and-corrupt",
+      "title": "The Sacred and the Corrupt · secondary Wrath quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/The_Sacred_and_the_Corrupt",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary transcript and scene locator for Light's Vengeance, the required components, Frostmourne Cavern and Darion's runeforge. Compare with the original 3.3.5a client before human review."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-sealed-chest",
+      "title": "Sealed Chest · secondary item locator",
+      "url": "https://warcraft.wiki.gg/wiki/Sealed_Chest",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary item locator for the chest found after the Lich King encounter. Exact eligibility is not treated as a historical event."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-shadowmourne-chain",
+      "title": "Shadowmourne · secondary item and chain locator",
+      "url": "https://warcraft.wiki.gg/wiki/Shadowmourne",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary overview of the weapon and its chain. Its concerns about reproducing Frostmourne's nature are attributed, not treated as a settled outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-splintered-throne",
+      "title": "The Splintered Throne · secondary Wrath quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/The_Splintered_Throne",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest text for the Frozen Throne splinters. Repeated shard counts are gameplay and are not narrated."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-sylvanas-vengeance",
+      "title": "Sylvanas' Vengeance · secondary Wrath quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/Sylvanas%27_Vengeance",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary dialogue locator for Sylvanas receiving her blood and reflecting on the freed. Her account is a character perspective; later events are excluded."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-unholy-infusion",
+      "title": "Unholy Infusion · secondary Wrath quest transcript",
+      "url": "https://warcraft.wiki.gg/wiki/Unholy_Infusion",
+      "sourceType": "website",
+      "notes": "Accessed 2026-10-03. Secondary quest text for Professor Putricide and the unholy infusion. Original client and script capture remain open."
+    },
+    {
       "id": "story-ahnqiraj-raids",
       "title": "Explore the Temple and Ruins of Ahn'Qiraj",
       "url": "https://worldofwarcraft.blizzard.com/en-us/news/23493335",
@@ -53534,6 +55095,234 @@
       "section": "Classic quest 1023 · directly relevant description, objective, completion text or chain entry",
       "questId": "1023",
       "note": "Original paraphrase from a secondary transcript/locator of the original Classic quest or item. Compare against the target client before human review."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-sealed-chest",
+      "section": "A father answers his son",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-mograine-reunion",
+      "section": "A father answers his son",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion-citation-3",
+      "sourceId": "shadowmourne-and-arthas-relics-model-alexandros",
+      "section": "A father answers his son",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-badge-returned-to-uther-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-sealed-chest",
+      "section": "The memory Uther keeps",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-badge-returned-to-uther-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-lightbringers-redemption",
+      "section": "The memory Uther keeps",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-blood-infusion-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-blood-infusion",
+      "section": "Blood in the Crimson Hall",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-blood-infusion-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-blizzard-icc-open",
+      "section": "Blood in the Crimson Hall",
+      "note": "First-party area/class overview used as supporting context; the event is anchored by its quest/cinematic source."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-blood-returned-to-sylvanas-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-sealed-chest",
+      "section": "The blood of the Banshee Queen",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-blood-returned-to-sylvanas-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-sylvanas-vengeance",
+      "section": "The blood of the Banshee Queen",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-darions-dangerous-proposal-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-blizzard-icc-open",
+      "section": "The axe and the doubt",
+      "note": "First-party area/class overview used as supporting context; the event is anchored by its quest/cinematic source."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-darions-dangerous-proposal-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-shadowmourne-chain",
+      "section": "The axe and the doubt",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-lich-kings-last-stand",
+      "section": "The Lich King's last stand",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-blizzard-icc-open",
+      "section": "The Lich King's last stand",
+      "note": "First-party area/class overview used as supporting context; the event is anchored by its quest/cinematic source."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne-citation-3",
+      "sourceId": "shadowmourne-and-arthas-relics-model-ashbringer",
+      "section": "The Lich King's last stand",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-feast-of-souls-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-feast-of-souls",
+      "section": "The unfinished edge drinks deep",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-feast-of-souls-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-shadowmourne-chain",
+      "section": "The unfinished edge drinks deep",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-final-empowerment-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-empowerment",
+      "section": "The last forging",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-final-empowerment-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-shadowmourne-chain",
+      "section": "The last forging",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-five-personal-relics-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-sealed-chest",
+      "section": "What the sealed chest kept",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-five-personal-relics-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-personal-property",
+      "section": "What the sealed chest kept",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-frost-infusion-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-frost-infusion",
+      "section": "The frost queen's last guard",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-frost-infusion-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-blizzard-icc-open",
+      "section": "The frost queen's last guard",
+      "note": "First-party area/class overview used as supporting context; the event is anchored by its quest/cinematic source."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-frost-infusion-citation-3",
+      "sourceId": "shadowmourne-and-arthas-relics-model-sindragosa",
+      "section": "The frost queen's last guard",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-light-vengeance-in-the-cavern-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-sacred-and-corrupt",
+      "section": "The forgotten hammer",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-light-vengeance-in-the-cavern-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-shadowmourne-chain",
+      "section": "The forgotten hammer",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-locket-returned-to-jaina-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-sealed-chest",
+      "section": "The locket Jaina gave",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-locket-returned-to-jaina-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-jainas-locket",
+      "section": "The locket Jaina gave",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-shadow-edge-forged-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-sacred-and-corrupt",
+      "section": "The binding of sacred and corrupt",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-shadowmourne-and-its-question-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-shadowmourne-chain",
+      "section": "A blade and its question",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-shadowmourne-and-its-question-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-empowerment",
+      "section": "A blade and its question",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-splinters-of-the-throne-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-splintered-throne",
+      "section": "The throne's splintered crown",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-splinters-of-the-throne-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-shadowmourne-chain",
+      "section": "The throne's splintered crown",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-sealed-chest",
+      "section": "Muradin's old lesson",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-muradins-lament",
+      "section": "Muradin's old lesson",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin-citation-3",
+      "sourceId": "shadowmourne-and-arthas-relics-model-muradin",
+      "section": "Muradin's old lesson",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-unholy-infusion-citation-1",
+      "sourceId": "shadowmourne-and-arthas-relics-unholy-infusion",
+      "section": "The plague alchemist undone",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-unholy-infusion-citation-2",
+      "sourceId": "shadowmourne-and-arthas-relics-blizzard-icc-open",
+      "section": "The plague alchemist undone",
+      "note": "First-party area/class overview used as supporting context; the event is anchored by its quest/cinematic source."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-unholy-infusion-citation-3",
+      "sourceId": "shadowmourne-and-arthas-relics-model-putricide",
+      "section": "The plague alchemist undone",
+      "note": "Original paraphrase based on a secondary Wrath quest-text or item locator. Original 3.3.5a capture and human source review remain open; gameplay counts are not asserted as unique events."
     },
     {
       "id": "shattered-sun-and-sunwell-story-a-fount-for-a-new-home-citation-1",
@@ -60629,6 +62418,231 @@
       "status": "active"
     },
     {
+      "id": "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion-event",
+      "predicate": "questline_scene_account",
+      "value": "Darion takes the last relic to his own father: Alexandros' soul shard. The returned fragment lets the two speak again. Alexandros tells him that the Lich King tormented him and tried to bind him to Frostmourne, but the memory of Darion's sacrifice held him from surrender. Darion answers that he would give his life for his father a thousand times. Among the ruin left by Frostmourne, their family history rises into a brief reunion.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion-citation-1",
+        "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion-citation-2",
+        "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-badge-returned-to-uther-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-badge-returned-to-uther-event",
+      "predicate": "questline_scene_account",
+      "value": "The badge is the one Uther once gave Arthas as a paladin. For a moment, the old mentor is silent. He remembers the young prince eager to defend his people against the enemies of the Light, and chooses that memory to keep in his heart. Uther calls the return a gift that may let his soul rest. That is his hope in this brief meeting, not a final answer to every question left by death.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-badge-returned-to-uther-citation-1",
+        "shadowmourne-and-arthas-relics-badge-returned-to-uther-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-blood-infusion-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-blood-infusion-event",
+      "predicate": "questline_scene_account",
+      "value": "Blood-Queen Lana'thel stands in the Crimson Hall, still a guardian of the Lich King's dominion. Shadow's Edge receives a second power in the encounter with her: blood, drawn through the strange bond Darion's instructions set between weapon and bearer. Lana'thel is then defeated. The axe holds another of the Citadel's powers, its making tied to the one who guarded the hall.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-blood-infusion-citation-1",
+        "shadowmourne-and-arthas-relics-blood-infusion-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-blood-returned-to-sylvanas-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-blood-returned-to-sylvanas-event",
+      "predicate": "questline_scene_account",
+      "value": "To Sylvanas, the vial returns a remnant of the blood the Lich King once drew from her. She pauses over what has been returned. Arthas has paid for the harm he imposed, yet Sylvanas wonders what can become of those freed from his grasp while still bound to mortal life. She offers a music box and asks for solitude; victory has opened no easy road beyond her grief.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-blood-returned-to-sylvanas-citation-1",
+        "shadowmourne-and-arthas-relics-blood-returned-to-sylvanas-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-darions-dangerous-proposal-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-darions-dangerous-proposal-event",
+      "predicate": "questline_scene_account",
+      "value": "At Light's Hammer, Highlord Darion Mograine sets a perilous undertaking before the champions who might bear it. Death Knights, Paladins and Warriors may take up the work; no one class alone owns its history. From the remnants of Arthas's discarded hammer and powers bound to Icecrown, Darion seeks an axe that might stand against Frostmourne. He warns that the attempt may undo the one who bears it. A doubt hangs over the proposal: to answer a devouring blade by making another.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-darions-dangerous-proposal-citation-1",
+        "shadowmourne-and-arthas-relics-darions-dangerous-proposal-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne-event",
+      "predicate": "questline_scene_account",
+      "value": "At the Frozen Throne, the living confront the Lich King at the crown of his fortress. Tirion Fordring breaks free and brings Ashbringer against Frostmourne, shattering the cursed blade; the assault ends in Arthas's defeat. Shadowmourne is present because its bearer has reached the final challenge, but it is not the sole cause of victory. In the aftermath, a sealed chest is found beside the fallen king.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne-citation-1",
+        "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne-citation-2",
+        "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-feast-of-souls-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-feast-of-souls-event",
+      "predicate": "questline_scene_account",
+      "value": "Shadow's Edge must drink from the dead before it can be changed. The Scourge's servants fall to the unfinished axe, and captured souls gather in it. The chain's repeated tally belongs to the work of making the weapon; it does not describe one battle or one named host. Across Icecrown's frozen halls, the forging becomes a burden fed by death, even as the axe is meant to oppose the Lich King.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-feast-of-souls-citation-1",
+        "shadowmourne-and-arthas-relics-feast-of-souls-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-final-empowerment-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-final-empowerment-event",
+      "predicate": "questline_scene_account",
+      "value": "Darion claims the last of the work. At the runeforge, he joins the unholy, blood and frost powers, the gathered souls and the throne fragments to the waiting edge. Blue fire rises around the anvil. The axe passes into Darion's hands, then to its wielder. He sends it forth against the Lich King: Shadowmourne is no longer a rumor among smiths, but a weapon carried by the living.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-final-empowerment-citation-1",
+        "shadowmourne-and-arthas-relics-final-empowerment-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-five-personal-relics-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-five-personal-relics-event",
+      "predicate": "questline_scene_account",
+      "value": "Inside the chest lie five objects from different lives: Sylvanas' blood; Arthas's badge from Uther; his training sword from Muradin; the locket Jaina once gave him; and a soul shard belonging to Alexandros Mograine. Together they uncover traces of the people who knew the prince before he became the Lich King, and of the people whom Frostmourne harmed. Each keepsake begins a separate return.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-five-personal-relics-citation-1",
+        "shadowmourne-and-arthas-relics-five-personal-relics-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-frost-infusion-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-frost-infusion-event",
+      "predicate": "questline_scene_account",
+      "value": "Sindragosa is the last guardian standing between the seeker and the Lich King. In Frostwing Halls, her frozen breath saturates Shadow's Edge with frost. Once that power has entered the blade, the Frost Queen is slain. Her fall opens the way toward the summit, but the same citadel still keeps its terrible master.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-frost-infusion-citation-1",
+        "shadowmourne-and-arthas-relics-frost-infusion-citation-2",
+        "shadowmourne-and-arthas-relics-frost-infusion-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-light-vengeance-in-the-cavern-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-light-vengeance-in-the-cavern-event",
+      "predicate": "questline_scene_account",
+      "value": "Far from Icecrown, in a frozen cave along Dragonblight's Forgotten Shore, the old hammer waits. As the seeker nears it, the Lich King appears in the dark and refuses to let his former weapon pass. His force sends Light's Vengeance skidding across the cavern, and the dead rise to bar the way. The hammer is recovered, but the encounter carries a warning: the Lich King knows what Darion is attempting and moves to stop it.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-light-vengeance-in-the-cavern-citation-1",
+        "shadowmourne-and-arthas-relics-light-vengeance-in-the-cavern-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-locket-returned-to-jaina-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-locket-returned-to-jaina-event",
+      "predicate": "questline_scene_account",
+      "value": "Jaina recognizes the locket she once gave Arthas. He kept it through the years of ruin and the fall of their kingdom. Tears come before words; then she holds to a small hope that some part of him might remember who he was before Frostmourne. Her words do not undo what he became. They name the distance between the young prince she loved and the Lich King she helped confront.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-locket-returned-to-jaina-citation-1",
+        "shadowmourne-and-arthas-relics-locket-returned-to-jaina-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-shadow-edge-forged-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-shadow-edge-forged-event",
+      "predicate": "questline_scene_account",
+      "value": "At Darion's runeforge, the hammer is laid with Primordial Saronite and the acidic blood of the plague abominations Rotface and Festergut. Fire takes the components into itself. From sacred memory and corruption bound together, Darion shapes Shadow's Edge, an axe with power not yet its own. He places it in the seeker's hands and leaves the next work to the one who must carry it.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-shadow-edge-forged-citation-1"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-shadowmourne-and-its-question-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-shadowmourne-and-its-question-event",
+      "predicate": "questline_scene_account",
+      "value": "Yet the new axe stands in Frostmourne's shadow. It, too, was fed by the souls of fallen foes; it bears the power of saronite and fragments taken from the Frozen Throne. The chain raises a fear it does not settle: whether this weapon can resist the same doom as Frostmourne. No certainty is offered. Its wielder goes forward bearing both a blade and a question.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-shadowmourne-and-its-question-citation-1",
+        "shadowmourne-and-arthas-relics-shadowmourne-and-its-question-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-splinters-of-the-throne-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-splinters-of-the-throne-event",
+      "predicate": "questline_scene_account",
+      "value": "Fragments of the Frozen Throne become part of the next forging. The scattered splinters are gathered through Icecrown Citadel and carried back to Darion, who says their old power can be sealed into Shadow's Edge. The repeated shard tally belongs to the long work of the raid, not a second plot. What matters to the story is that the axe is being finished with fragments of the Lich King's own seat.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-splinters-of-the-throne-citation-1",
+        "shadowmourne-and-arthas-relics-splinters-of-the-throne-citation-2"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin-event",
+      "predicate": "questline_scene_account",
+      "value": "Muradin receives the dull training sword he once used with Arthas in Lordaeron. Its blunted edge bears none of the blood of later wars, yet its weight draws back days of teaching and regret. Muradin wonders how events might have changed had he stopped Arthas from discovering Frostmourne. A practice blade from an earlier life becomes the part of Arthas he mourns: a young man still being taught.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin-citation-1",
+        "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin-citation-2",
+        "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-unholy-infusion-claim",
+      "subjectId": "shadowmourne-and-arthas-relics-unholy-infusion-event",
+      "predicate": "questline_scene_account",
+      "value": "At the heart of the Plagueworks, Professor Putricide's own experiments become the means of change. The power of his mutated work is drawn into Shadow's Edge, and Putricide falls. The alchemist's creation is turned toward a weapon meant for the master of the citadel; the living press the Scourge's craft into another shape.",
+      "citationIds": [
+        "shadowmourne-and-arthas-relics-unholy-infusion-citation-1",
+        "shadowmourne-and-arthas-relics-unholy-infusion-citation-2",
+        "shadowmourne-and-arthas-relics-unholy-infusion-citation-3"
+      ],
+      "confidence": "strongly_supported",
+      "status": "active",
+      "editorNote": "Research status: the cited quest/item mirrors support this original paraphrase, but original Wrath client/build capture and human lore review remain required. Do not infer a canonical player, exact cross-story date, exact return-NPC placement, or later Arthas outcome."
+    },
+    {
       "id": "shattered-sun-and-sunwell-story-a-fount-for-a-new-home-claim",
       "subjectId": "shattered-sun-and-sunwell-story-a-fount-for-a-new-home-event",
       "predicate": "questline_scene_account",
@@ -65028,6 +67042,72 @@
       "contentStatus": "research"
     },
     {
+      "id": "shadowmourne-and-arthas-relics",
+      "slug": "shadowmourne-and-arthas-relics",
+      "title": "Shadowmourne and the relics of the fallen king",
+      "summary": "Darion Mograine dares to shape an answer to Frostmourne from Arthas' discarded hammer and the powers of Icecrown. When the Lich King falls, five keepsakes return memories to Sylvanas, Uther, Muradin, Jaina and Darion himself.",
+      "opening": "At Icecrown Citadel, Darion Mograine proposes a weapon made from sacred and corrupt things. Its forging draws a forgotten hammer out of a frozen cavern, takes power from the Scourge's greatest guardians, and ends among the personal relics Arthas kept through his fall.",
+      "primaryEraId": "age-of-adventurers",
+      "eraIds": [
+        "age-of-adventurers"
+      ],
+      "chapters": [
+        {
+          "id": "hammer-and-anvil",
+          "eraId": "age-of-adventurers",
+          "title": "Hammer and anvil",
+          "body": "At Light's Hammer, Highlord Darion Mograine sets a perilous undertaking before the champions who might bear it. Death Knights, Paladins and Warriors may take up the work; no one class alone owns its history. From the remnants of Arthas's discarded hammer and powers bound to Icecrown, Darion seeks an axe that might stand against Frostmourne. He warns that the attempt may undo the one who bears it. A doubt hangs over the proposal: to answer a devouring blade by making another. Far from Icecrown, in a frozen cave along Dragonblight's Forgotten Shore, the old hammer waits. As the seeker nears it, the Lich King appears in the dark and refuses to let his former weapon pass. His force sends Light's Vengeance skidding across the cavern, and the dead rise to bar the way. The hammer is recovered, but the encounter carries a warning: the Lich King knows what Darion is attempting and moves to stop it. At Darion's runeforge, the hammer is laid with Primordial Saronite and the acidic blood of the plague abominations Rotface and Festergut. Fire takes the components into itself. From sacred memory and corruption bound together, Darion shapes Shadow's Edge, an axe with power not yet its own. He places it in the seeker's hands and leaves the next work to the one who must carry it. Shadow's Edge must drink from the dead before it can be changed. The Scourge's servants fall to the unfinished axe, and captured souls gather in it. The chain's repeated tally belongs to the work of making the weapon; it does not describe one battle or one named host. Across Icecrown's frozen halls, the forging becomes a burden fed by death, even as the axe is meant to oppose the Lich King."
+        },
+        {
+          "id": "three-infusions",
+          "eraId": "age-of-adventurers",
+          "title": "Three infusions",
+          "body": "At the heart of the Plagueworks, Professor Putricide's own experiments become the means of change. The power of his mutated work is drawn into Shadow's Edge, and Putricide falls. The alchemist's creation is turned toward a weapon meant for the master of the citadel; the living press the Scourge's craft into another shape. Blood-Queen Lana'thel stands in the Crimson Hall, still a guardian of the Lich King's dominion. Shadow's Edge receives a second power in the encounter with her: blood, drawn through the strange bond Darion's instructions set between weapon and bearer. Lana'thel is then defeated. The axe holds another of the Citadel's powers, its making tied to the one who guarded the hall. Sindragosa is the last guardian standing between the seeker and the Lich King. In Frostwing Halls, her frozen breath saturates Shadow's Edge with frost. Once that power has entered the blade, the Frost Queen is slain. Her fall opens the way toward the summit, but the same citadel still keeps its terrible master. Fragments of the Frozen Throne become part of the next forging. The scattered splinters are gathered through Icecrown Citadel and carried back to Darion, who says their old power can be sealed into Shadow's Edge. The repeated shard tally belongs to the long work of the raid, not a second plot. What matters to the story is that the axe is being finished with fragments of the Lich King's own seat."
+        },
+        {
+          "id": "against-the-frozen-throne",
+          "eraId": "age-of-adventurers",
+          "title": "Against the Frozen Throne",
+          "body": "Darion claims the last of the work. At the runeforge, he joins the unholy, blood and frost powers, the gathered souls and the throne fragments to the waiting edge. Blue fire rises around the anvil. The axe passes into Darion's hands, then to its wielder. He sends it forth against the Lich King: Shadowmourne is no longer a rumor among smiths, but a weapon carried by the living. Yet the new axe stands in Frostmourne's shadow. It, too, was fed by the souls of fallen foes; it bears the power of saronite and fragments taken from the Frozen Throne. The chain raises a fear it does not settle: whether this weapon can resist the same doom as Frostmourne. No certainty is offered. Its wielder goes forward bearing both a blade and a question. At the Frozen Throne, the living confront the Lich King at the crown of his fortress. Tirion Fordring breaks free and brings Ashbringer against Frostmourne, shattering the cursed blade; the assault ends in Arthas's defeat. Shadowmourne is present because its bearer has reached the final challenge, but it is not the sole cause of victory. In the aftermath, a sealed chest is found beside the fallen king. Inside the chest lie five objects from different lives: Sylvanas' blood; Arthas's badge from Uther; his training sword from Muradin; the locket Jaina once gave him; and a soul shard belonging to Alexandros Mograine. Together they uncover traces of the people who knew the prince before he became the Lich King, and of the people whom Frostmourne harmed. Each keepsake begins a separate return."
+        },
+        {
+          "id": "what-remained-of-arthas",
+          "eraId": "age-of-adventurers",
+          "title": "What remained of Arthas",
+          "body": "To Sylvanas, the vial returns a remnant of the blood the Lich King once drew from her. She pauses over what has been returned. Arthas has paid for the harm he imposed, yet Sylvanas wonders what can become of those freed from his grasp while still bound to mortal life. She offers a music box and asks for solitude; victory has opened no easy road beyond her grief. The badge is the one Uther once gave Arthas as a paladin. For a moment, the old mentor is silent. He remembers the young prince eager to defend his people against the enemies of the Light, and chooses that memory to keep in his heart. Uther calls the return a gift that may let his soul rest. That is his hope in this brief meeting, not a final answer to every question left by death. Muradin receives the dull training sword he once used with Arthas in Lordaeron. Its blunted edge bears none of the blood of later wars, yet its weight draws back days of teaching and regret. Muradin wonders how events might have changed had he stopped Arthas from discovering Frostmourne. A practice blade from an earlier life becomes the part of Arthas he mourns: a young man still being taught. Jaina recognizes the locket she once gave Arthas. He kept it through the years of ruin and the fall of their kingdom. Tears come before words; then she holds to a small hope that some part of him might remember who he was before Frostmourne. Her words do not undo what he became. They name the distance between the young prince she loved and the Lich King she helped confront. Darion takes the last relic to his own father: Alexandros' soul shard. The returned fragment lets the two speak again. Alexandros tells him that the Lich King tormented him and tried to bind him to Frostmourne, but the memory of Darion's sacrifice held him from surrender. Darion answers that he would give his life for his father a thousand times. Among the ruin left by Frostmourne, their family history rises into a brief reunion."
+        }
+      ],
+      "sourceIds": [
+        "shadowmourne-and-arthas-relics-blizzard-icc-open",
+        "shadowmourne-and-arthas-relics-sacred-and-corrupt",
+        "shadowmourne-and-arthas-relics-shadowmourne-chain",
+        "shadowmourne-and-arthas-relics-feast-of-souls",
+        "shadowmourne-and-arthas-relics-unholy-infusion",
+        "shadowmourne-and-arthas-relics-blood-infusion",
+        "shadowmourne-and-arthas-relics-frost-infusion",
+        "shadowmourne-and-arthas-relics-splintered-throne",
+        "shadowmourne-and-arthas-relics-empowerment",
+        "shadowmourne-and-arthas-relics-lich-kings-last-stand",
+        "shadowmourne-and-arthas-relics-sealed-chest",
+        "shadowmourne-and-arthas-relics-personal-property",
+        "shadowmourne-and-arthas-relics-sylvanas-vengeance",
+        "shadowmourne-and-arthas-relics-lightbringers-redemption",
+        "shadowmourne-and-arthas-relics-muradins-lament",
+        "shadowmourne-and-arthas-relics-jainas-locket",
+        "shadowmourne-and-arthas-relics-mograine-reunion",
+        "shadowmourne-and-arthas-relics-model-darion",
+        "shadowmourne-and-arthas-relics-model-putricide",
+        "shadowmourne-and-arthas-relics-model-sindragosa",
+        "shadowmourne-and-arthas-relics-model-muradin",
+        "shadowmourne-and-arthas-relics-model-alexandros",
+        "shadowmourne-and-arthas-relics-model-ashbringer"
+      ],
+      "storyGuideId": "shadowmourne-and-arthas-relics-guide",
+      "showInEraTourOffshoots": false,
+      "reviewNote": "Complete 17-scene illustrated research StoryGuide; all five relic branches are represented separately, repeated collection is compressed, and the unnamed death-knight is expressly one noncanonical class variant. Darion, Putricide, Sindragosa, Muradin, Alexandros, Tirion with Ashbringer, both weapon stages, Shadowmourne and all five relics have distinct art; area-matched scene illustrations are wired into every node. The independent Classic-to-Wrath StoryTour places the patch 3.3.0–3.3.3 Shadowmourne story before patch 3.3.5 Quel'Delar. Source mirrors are secondary; original 3.3.5a quest/cinematic, NPC phase/location, costumes, raid-area resemblance, pronunciation and audio audition still require human review. The Frost Infusion mirror conflicts internally on an attack count, which narration omits. No content is marked reviewed or published; later Shadowlands outcomes are excluded.",
+      "contentStatus": "research"
+    },
+    {
       "id": "shattered-sun-and-sunwell",
       "slug": "shattered-sun-and-sunwell",
       "title": "The Shattered Sun and the restored Sunwell",
@@ -65412,7 +67492,7 @@
       "mapAsset": "images/tours/classic-to-wrath/wrath-world-overview-outland-v2.png",
       "mapAlt": "An original interpretive world atlas: Kalimdor to the west, the Eastern Kingdoms to the east, Northrend in the north, and Outland as a separate shattered landmass at the lower right, with varied marsh, forest, volcanic, and crystal terrain.",
       "mapInterpretationNote": "Original AI-generated overview art for tour navigation, not an official World of Warcraft map or a surveyed geographic reconstruction. Story markers use illustration layout positions only; they are not atlas coordinates or exact zone locations. Outland is a separate worldspace and is shown detached from Azeroth; no travel route is implied. Intended visual reference: the Wrath of the Lich King world presentation, before Cataclysm changed Azeroth. Anchors were checked against the depicted landmasses: Stormwind, Westfall, Duskwood, Deadwind Pass and the Blasted Lands in the southern Eastern Kingdoms; the Plaguelands in the north; Theramore and Tanaris on eastern Kalimdor; Dragonblight and Icecrown in Northrend; and Shadowmoon Valley in southeastern Outland. Multi-region stories use one representative anchor, not their entire route.",
-      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Swift Flight Form’s Druid quest chain was added in patch 2.1 and is placed after the Netherwing editorial stop, before The Missing Diplomat’s patch 2.3 continuation; its exact relative in-world date is unknown, and no cross-story dependency is claimed. Its quest trail crosses Zangarmarsh, Moonglade, Outland, and Azshara, while its marker remains a tour-layout anchor. The Consortium and Arcatraz stop follows Karazhan as an editorial Burning Crusade placement; it claims neither a precise date nor a dependency between stories. Karazhan’s Arcatraz visit is a separate key-fragment quest and is not retold here. The Shattered Sun and Sunwell story follows the Missing Diplomat’s patch 2.3 continuation and precedes Wrathgate as the Burning Crusade patch 2.4 campaign. The island’s unlock phases and original raid gate schedule are server-wide gameplay, not historical dates; Outland support missions and the Magisters’ Terrace operation are parallel campaign branches, not one adventurer’s universal prerequisite chain. The restoration scene is the original TBC epilogue and excludes later expansion reinterpretations. The Wrathgate and Undercity stop preserves separate Horde and Alliance approaches, their distinct Undercity operations, and the later Royal Quarter convergence. Its interleaved node order is editorial and does not assert precise overlap or relative timing of the two assaults. The Alliance’s early belief that Bolvar was lost is not his ultimate fate. This Wrath-era event is distinct from the Fourth War Battle for Lordaeron. Yeh'kinya's Yojamba Isle handoff and the later Zul'Gurub campaign are told as separate source-backed stops; tour order does not prove that the Ancient Egg enabled Jin'do's summoning. Drakuru’s Grizzly Hills and Zul’Drak chain is placed after Wrathgate and before Quel’Delar as an editorial Northrend stop. Its exact in-world timing relative to Wrathgate is unknown, and no causal link is claimed; Quel’Delar remains the later patch 3.3.5 story. “Reunited”/“Dark Horizon” and faction approaches remain variants within the guide, not separate chronological events.",
+      "chronologyNote": "Play-all order is an editorial expansion-era sequence: Classic (Onyxia, Scepter, Dungeon Set 2, the Fallen Hero, Tirion and Taelan, Darrowshire, then the Defias and the Unsent Letter, followed by the Scythe of Elune investigations), The Burning Crusade (Karazhan, Akama and the Black Temple, the Outland Cipher, then Champion of the Naaru’s Outland trials after the Cipher prerequisite, then The Missing Diplomat’s patch 2.3 continuation), and Wrath (Wrathgate followed by Quel’Delar). The Scythe of Elune entries combine Velinde’s original quest chain with Jitters’s separate Duskwood testimony as an editorially linked research story, not a prerequisite chain; its single map marker is a tour-layout anchor. The Missing Diplomat begins with a distinct original Classic chain and is placed here because its final playable segment was added in patch 2.3; this ordering does not claim a cross-story quest dependency or a precise date. The Classic ordering is a navigational sequence and does not claim canonical relative dates or causal links across separate stories. Darrowshire’s Third War fall is a labeled flashback; its Classic investigation and constrained battle replay remain distinct. The Annals’ Second War date is disputed. The Defias visitor “Maelik” remains unresolved until Shaw’s report, and the Stormwind report handoff is not connected to Onyxia. Other branch, faction and flashback caveats remain as recorded in each story. Ras Frostwhisper is placed after Yeh’kinya and before the Burning Crusade stories as an editorial Classic-era playlist position; its exact in-world date and any causal link to those stories are unknown. The Champion of the Naaru stop follows the Cipher because Blizzard’s attunement guide places Khadgar’s letter and A’dal’s trials after that chain. Mercy, Strength and Tenacity are parallel requirements rather than a claimed historical sequence; the Strength scenes follow the quest description order for readability. The Champion title is distinguished from The Tempest Key and from the separate Serpentshrine Cavern path, with exact eligibility left patch-sensitive. Hero of the Mag'har was added in patch 2.0.3 and is placed among the early Burning Crusade stories, after the Karazhan opening stop and before later TBC campaigns. Its exact in-world date relative to Karazhan is unknown and no cross-story dependency is claimed. The original TBC follow-up quests removed in 4.0.1 are retained for the complete story ending. Netherwing follows the Champion of the Naaru as an editorial Burning Crusade stop; exact relative date is unknown. Its repeatable reputation tasks and the optional Murkblood branch are separated from the one-time rescue and ending quests. Swift Flight Form’s Druid quest chain was added in patch 2.1 and is placed after the Netherwing editorial stop, before The Missing Diplomat’s patch 2.3 continuation; its exact relative in-world date is unknown, and no cross-story dependency is claimed. Its quest trail crosses Zangarmarsh, Moonglade, Outland, and Azshara, while its marker remains a tour-layout anchor. The Consortium and Arcatraz stop follows Karazhan as an editorial Burning Crusade placement; it claims neither a precise date nor a dependency between stories. Karazhan’s Arcatraz visit is a separate key-fragment quest and is not retold here. The Shattered Sun and Sunwell story follows the Missing Diplomat’s patch 2.3 continuation and precedes Wrathgate as the Burning Crusade patch 2.4 campaign. The island’s unlock phases and original raid gate schedule are server-wide gameplay, not historical dates; Outland support missions and the Magisters’ Terrace operation are parallel campaign branches, not one adventurer’s universal prerequisite chain. The restoration scene is the original TBC epilogue and excludes later expansion reinterpretations. The Wrathgate and Undercity stop preserves separate Horde and Alliance approaches, their distinct Undercity operations, and the later Royal Quarter convergence. Its interleaved node order is editorial and does not assert precise overlap or relative timing of the two assaults. The Alliance’s early belief that Bolvar was lost is not his ultimate fate. This Wrath-era event is distinct from the Fourth War Battle for Lordaeron. Yeh'kinya's Yojamba Isle handoff and the later Zul'Gurub campaign are told as separate source-backed stops; tour order does not prove that the Ancient Egg enabled Jin'do's summoning. Drakuru’s Grizzly Hills and Zul’Drak chain is placed after Wrathgate and before Quel’Delar as an editorial Northrend stop. Its exact in-world timing relative to Wrathgate is unknown, and no causal link is claimed; Quel’Delar remains the later patch 3.3.5 story. “Reunited”/“Dark Horizon” and faction approaches remain variants within the guide, not separate chronological events. Shadowmourne is placed after the Drakuru stop and before Quel'Delar: its quest chain was added in patch 3.3.0 and its personal-relic epilogue in patch 3.3.3, before Quel'Delar's patch 3.3.5 story. Its exact in-world relation to Drakuru is unknown and no dependency is claimed. The five relic follow-ups are parallel vignettes, not a dated sequence.",
       "regions": [
         {
           "id": "kalimdor",
@@ -65756,6 +67836,19 @@
           "locationLabel": "Grizzly Hills and Zul’Drak"
         },
         {
+          "storylineId": "shadowmourne-and-arthas-relics",
+          "regionIds": [
+            "northrend"
+          ],
+          "mapPositionPercent": [
+            49,
+            17
+          ],
+          "order": 23,
+          "periodLabel": "Wrath of the Lich King · patches 3.3.0–3.3.3",
+          "locationLabel": "Dragonblight and Icecrown Citadel"
+        },
+        {
           "storylineId": "quel-delar-restored",
           "regionIds": [
             "northrend",
@@ -65765,12 +67858,12 @@
             49,
             12
           ],
-          "order": 23,
+          "order": 24,
           "periodLabel": "Wrath of the Lich King · patch 3.3.5",
           "locationLabel": "Quel’Delar’s Rest · Frozen Halls · Quel’Danas"
         }
       ],
-      "reviewNote": "Research StoryTour collection with 23 map placards and complete StoryGuides for the playable research entries; Play All follows the explicit editorial order and skips research previews. Story-tour map markers are navigational layout positions, not exact locations. Drakuru’s placement relative to Wrathgate is editorial because the stories lack a precise cross-story date. Human source, edition, chronology, and visual review remains open.",
+      "reviewNote": "Research StoryTour collection with 24 map placards and complete StoryGuides for the playable research entries; Play All follows the explicit editorial order and skips research previews. Story-tour map markers are navigational layout positions, not exact locations. Drakuru and Shadowmourne have no precise cross-story dates or causal link. Shadowmourne (patches 3.3.0–3.3.3) is placed before Quel'Delar (patch 3.3.5). Human source, edition, chronology, audio and visual review remain open.",
       "contentStatus": "research"
     }
   ],
@@ -66403,6 +68496,32 @@
         "scythe-of-elune-original-mystery-carevin-contains-the-threat",
         "scythe-of-elune-original-mystery-answers-return-to-darnassus",
         "scythe-of-elune-original-mystery-jitters-book-from-svens-farm"
+      ],
+      "contentStatus": "research"
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-guide",
+      "eraId": "age-of-adventurers",
+      "title": "Shadowmourne and the relics of the fallen king",
+      "description": "Darion Mograine commissions an axe from Arthas' discarded hammer, the powers of Icecrown, and the souls of the fallen. After the Lich King's defeat, five keepsakes return memories to those who knew the prince before his fall.",
+      "nodeIds": [
+        "shadowmourne-and-arthas-relics-story-darions-dangerous-proposal",
+        "shadowmourne-and-arthas-relics-story-light-vengeance-in-the-cavern",
+        "shadowmourne-and-arthas-relics-story-shadow-edge-forged",
+        "shadowmourne-and-arthas-relics-story-feast-of-souls",
+        "shadowmourne-and-arthas-relics-story-unholy-infusion",
+        "shadowmourne-and-arthas-relics-story-blood-infusion",
+        "shadowmourne-and-arthas-relics-story-frost-infusion",
+        "shadowmourne-and-arthas-relics-story-splinters-of-the-throne",
+        "shadowmourne-and-arthas-relics-story-final-empowerment",
+        "shadowmourne-and-arthas-relics-story-shadowmourne-and-its-question",
+        "shadowmourne-and-arthas-relics-story-fall-at-the-frozen-throne",
+        "shadowmourne-and-arthas-relics-story-five-personal-relics",
+        "shadowmourne-and-arthas-relics-story-blood-returned-to-sylvanas",
+        "shadowmourne-and-arthas-relics-story-badge-returned-to-uther",
+        "shadowmourne-and-arthas-relics-story-training-sword-returned-to-muradin",
+        "shadowmourne-and-arthas-relics-story-locket-returned-to-jaina",
+        "shadowmourne-and-arthas-relics-story-alexandros-reunited-with-darion"
       ],
       "contentStatus": "research"
     },
@@ -86655,6 +88774,871 @@
       "voiceover": {
         "assetPath": "audio/guided/scythe-of-elune-original-mystery-guide/scythe-of-elune-original-mystery-jitters-book-from-svens-farm.mp3",
         "durationMs": 28050,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-darions-dangerous-proposal",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The axe and the doubt",
+      "narration": "At Light's Hammer, Highlord Darion Mograine sets a perilous undertaking before the champions who might bear it. Death Knights, Paladins and Warriors may take up the work; no one class alone owns its history. From the remnants of Arthas's discarded hammer and powers bound to Icecrown, Darion seeks an axe that might stand against Frostmourne. He warns that the attempt may undo the one who bears it. A doubt hangs over the proposal: to answer a devouring blade by making another.",
+      "durationMs": 63768,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-darions-dangerous-proposal-event"
+      ],
+      "entityIds": [
+        "darion-mograine",
+        "unnamed-shadowmourne-wielder"
+      ],
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-lights-hammer-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "darion-mograine"
+        }
+      ],
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-light-vengeance-in-the-cavern"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-darions-dangerous-proposal.mp3",
+        "durationMs": 34775,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-light-vengeance-in-the-cavern",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The forgotten hammer",
+      "narration": "Far from Icecrown, in a frozen cave along Dragonblight's Forgotten Shore, the old hammer waits. As the seeker nears it, the Lich King appears in the dark and refuses to let his former weapon pass. His force sends Light's Vengeance skidding across the cavern, and the dead rise to bar the way. The hammer is recovered, but the encounter carries a warning: the Lich King knows what Darion is attempting and moves to stop it.",
+      "durationMs": 59378,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-light-vengeance-in-the-cavern-event"
+      ],
+      "entityIds": [
+        "unnamed-shadowmourne-wielder",
+        "arthas-as-the-lich-king",
+        "lights-vengeance"
+      ],
+      "locationIds": [
+        "frostmourne-cavern"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-frostmourne-cavern-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "unnamed-shadowmourne-wielder"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-darions-dangerous-proposal",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-shadow-edge-forged"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-light-vengeance-in-the-cavern.mp3",
+        "durationMs": 31400,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-shadow-edge-forged",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The binding of sacred and corrupt",
+      "narration": "At Darion's runeforge, the hammer is laid with Primordial Saronite and the acidic blood of the plague abominations Rotface and Festergut. Fire takes the components into itself. From sacred memory and corruption bound together, Darion shapes Shadow's Edge, an axe with power not yet its own. He places it in the seeker's hands and leaves the next work to the one who must carry it.",
+      "durationMs": 52061,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-shadow-edge-forged-event"
+      ],
+      "entityIds": [
+        "darion-mograine",
+        "unnamed-shadowmourne-wielder",
+        "lights-vengeance",
+        "shadows-edge"
+      ],
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-lights-hammer-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "darion-mograine"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-light-vengeance-in-the-cavern",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-feast-of-souls"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-shadow-edge-forged.mp3",
+        "durationMs": 27825,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-feast-of-souls",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The unfinished edge drinks deep",
+      "narration": "Shadow's Edge must drink from the dead before it can be changed. The Scourge's servants fall to the unfinished axe, and captured souls gather in it. The chain's repeated tally belongs to the work of making the weapon; it does not describe one battle or one named host. Across Icecrown's frozen halls, the forging becomes a burden fed by death, even as the axe is meant to oppose the Lich King.",
+      "durationMs": 56451,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-feast-of-souls-event"
+      ],
+      "entityIds": [
+        "unnamed-shadowmourne-wielder",
+        "shadows-edge"
+      ],
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-icecrown-citadel-approach-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "unnamed-shadowmourne-wielder"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-shadow-edge-forged",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-unholy-infusion"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-feast-of-souls.mp3",
+        "durationMs": 29900,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-unholy-infusion",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The plague alchemist undone",
+      "narration": "At the heart of the Plagueworks, Professor Putricide's own experiments become the means of change. The power of his mutated work is drawn into Shadow's Edge, and Putricide falls. The alchemist's creation is turned toward a weapon meant for the master of the citadel; the living press the Scourge's craft into another shape.",
+      "durationMs": 43280,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-unholy-infusion-event"
+      ],
+      "entityIds": [
+        "unnamed-shadowmourne-wielder",
+        "professor-putricide",
+        "shadows-edge"
+      ],
+      "locationIds": [
+        "plagueworks"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-plagueworks-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "unnamed-shadowmourne-wielder"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-feast-of-souls",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-blood-infusion"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-unholy-infusion.mp3",
+        "durationMs": 23125,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-blood-infusion",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "Blood in the Crimson Hall",
+      "narration": "Blood-Queen Lana'thel stands in the Crimson Hall, still a guardian of the Lich King's dominion. Shadow's Edge receives a second power in the encounter with her: blood, drawn through the strange bond Darion's instructions set between weapon and bearer. Lana'thel is then defeated. The axe holds another of the Citadel's powers, its making tied to the one who guarded the hall.",
+      "durationMs": 49134,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-blood-infusion-event"
+      ],
+      "entityIds": [
+        "unnamed-shadowmourne-wielder",
+        "blood-queen-lanathel",
+        "shadows-edge"
+      ],
+      "locationIds": [
+        "crimson-hall"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-crimson-hall-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "unnamed-shadowmourne-wielder"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-unholy-infusion",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-frost-infusion"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-blood-infusion.mp3",
+        "durationMs": 27750,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-frost-infusion",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The frost queen's last guard",
+      "narration": "Sindragosa is the last guardian standing between the seeker and the Lich King. In Frostwing Halls, her frozen breath saturates Shadow's Edge with frost. Once that power has entered the blade, the Frost Queen is slain. Her fall opens the way toward the summit, but the same citadel still keeps its terrible master.",
+      "durationMs": 43280,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-frost-infusion-event"
+      ],
+      "entityIds": [
+        "unnamed-shadowmourne-wielder",
+        "sindragosa",
+        "shadows-edge"
+      ],
+      "locationIds": [
+        "frostwing-halls"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-frostwing-halls-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "unnamed-shadowmourne-wielder"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-blood-infusion",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-splinters-of-the-throne"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-frost-infusion.mp3",
+        "durationMs": 22650,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-splinters-of-the-throne",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The throne's splintered crown",
+      "narration": "Fragments of the Frozen Throne become part of the next forging. The scattered splinters are gathered through Icecrown Citadel and carried back to Darion, who says their old power can be sealed into Shadow's Edge. The repeated shard tally belongs to the long work of the raid, not a second plot. What matters to the story is that the axe is being finished with fragments of the Lich King's own seat.",
+      "durationMs": 56451,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-splinters-of-the-throne-event"
+      ],
+      "entityIds": [
+        "unnamed-shadowmourne-wielder",
+        "darion-mograine",
+        "shadows-edge"
+      ],
+      "locationIds": [
+        "frozen-throne"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-frozen-throne-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "unnamed-shadowmourne-wielder"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-frost-infusion",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-final-empowerment"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-splinters-of-the-throne.mp3",
+        "durationMs": 27350,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-final-empowerment",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The last forging",
+      "narration": "Darion claims the last of the work. At the runeforge, he joins the unholy, blood and frost powers, the gathered souls and the throne fragments to the waiting edge. Blue fire rises around the anvil. The axe passes into Darion's hands, then to its wielder. He sends it forth against the Lich King: Shadowmourne is no longer a rumor among smiths, but a weapon carried by the living.",
+      "durationMs": 54256,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-final-empowerment-event"
+      ],
+      "entityIds": [
+        "darion-mograine",
+        "unnamed-shadowmourne-wielder",
+        "shadows-edge",
+        "shadowmourne"
+      ],
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-lights-hammer-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "darion-mograine"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-splinters-of-the-throne",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-shadowmourne-and-its-question"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-final-empowerment.mp3",
+        "durationMs": 28575,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-shadowmourne-and-its-question",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "A blade and its question",
+      "narration": "Yet the new axe stands in Frostmourne's shadow. It, too, was fed by the souls of fallen foes; it bears the power of saronite and fragments taken from the Frozen Throne. The chain raises a fear it does not settle: whether this weapon can resist the same doom as Frostmourne. No certainty is offered. Its wielder goes forward bearing both a blade and a question.",
+      "durationMs": 52061,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-shadowmourne-and-its-question-event"
+      ],
+      "entityIds": [
+        "unnamed-shadowmourne-wielder",
+        "darion-mograine",
+        "shadowmourne"
+      ],
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-lights-hammer-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "unnamed-shadowmourne-wielder"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-final-empowerment",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-fall-at-the-frozen-throne"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-shadowmourne-and-its-question.mp3",
+        "durationMs": 26775,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-fall-at-the-frozen-throne",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The Lich King's last stand",
+      "narration": "At the Frozen Throne, the living confront the Lich King at the crown of his fortress. Tirion Fordring breaks free and brings Ashbringer against Frostmourne, shattering the cursed blade; the assault ends in Arthas's defeat. Shadowmourne is present because its bearer has reached the final challenge, but it is not the sole cause of victory. In the aftermath, a sealed chest is found beside the fallen king.",
+      "durationMs": 53524,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-fall-at-the-frozen-throne-event"
+      ],
+      "entityIds": [
+        "unnamed-shadowmourne-wielder",
+        "arthas-as-the-lich-king",
+        "tirion-fordring",
+        "ashbringer",
+        "shadowmourne"
+      ],
+      "locationIds": [
+        "frozen-throne"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-frozen-throne-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "unnamed-shadowmourne-wielder"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-shadowmourne-and-its-question",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-five-personal-relics"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-fall-at-the-frozen-throne.mp3",
+        "durationMs": 30050,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-five-personal-relics",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "What the sealed chest kept",
+      "narration": "Inside the chest lie five objects from different lives: Sylvanas' blood; Arthas's badge from Uther; his training sword from Muradin; the locket Jaina once gave him; and a soul shard belonging to Alexandros Mograine. Together they uncover traces of the people who knew the prince before he became the Lich King, and of the people whom Frostmourne harmed. Each keepsake begins a separate return.",
+      "durationMs": 51329,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-five-personal-relics-event"
+      ],
+      "entityIds": [
+        "unnamed-shadowmourne-wielder",
+        "sealed-chest-and-relics",
+        "blood-of-sylvanas",
+        "badge-of-the-silver-hand",
+        "arthas-training-sword",
+        "jainas-locket",
+        "alexandros-soul-shard"
+      ],
+      "locationIds": [
+        "frozen-throne"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-frozen-throne-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "unnamed-shadowmourne-wielder"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-fall-at-the-frozen-throne",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-blood-returned-to-sylvanas"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-five-personal-relics.mp3",
+        "durationMs": 29025,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-blood-returned-to-sylvanas",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The blood of the Banshee Queen",
+      "narration": "To Sylvanas, the vial returns a remnant of the blood the Lich King once drew from her. She pauses over what has been returned. Arthas has paid for the harm he imposed, yet Sylvanas wonders what can become of those freed from his grasp while still bound to mortal life. She offers a music box and asks for solitude; victory has opened no easy road beyond her grief.",
+      "durationMs": 54256,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-blood-returned-to-sylvanas-event"
+      ],
+      "entityIds": [
+        "sylvanas-windrunner",
+        "blood-of-sylvanas"
+      ],
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-lights-hammer-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "sylvanas-windrunner"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-five-personal-relics",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-badge-returned-to-uther"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-blood-returned-to-sylvanas.mp3",
+        "durationMs": 27500,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-badge-returned-to-uther",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The memory Uther keeps",
+      "narration": "The badge is the one Uther once gave Arthas as a paladin. For a moment, the old mentor is silent. He remembers the young prince eager to defend his people against the enemies of the Light, and chooses that memory to keep in his heart. Uther calls the return a gift that may let his soul rest. That is his hope in this brief meeting, not a final answer to every question left by death.",
+      "durationMs": 59378,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-badge-returned-to-uther-event"
+      ],
+      "entityIds": [
+        "uther-lightbringer",
+        "badge-of-the-silver-hand"
+      ],
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-lights-hammer-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "uther-lightbringer"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-blood-returned-to-sylvanas",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-training-sword-returned-to-muradin"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-badge-returned-to-uther.mp3",
+        "durationMs": 28275,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-training-sword-returned-to-muradin",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "Muradin's old lesson",
+      "narration": "Muradin receives the dull training sword he once used with Arthas in Lordaeron. Its blunted edge bears none of the blood of later wars, yet its weight draws back days of teaching and regret. Muradin wonders how events might have changed had he stopped Arthas from discovering Frostmourne. A practice blade from an earlier life becomes the part of Arthas he mourns: a young man still being taught.",
+      "durationMs": 54256,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-training-sword-returned-to-muradin-event"
+      ],
+      "entityIds": [
+        "muradin-bronzebeard",
+        "arthas-training-sword"
+      ],
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-lights-hammer-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "muradin-bronzebeard"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-badge-returned-to-uther",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-locket-returned-to-jaina"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-training-sword-returned-to-muradin.mp3",
+        "durationMs": 28375,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-locket-returned-to-jaina",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "The locket Jaina gave",
+      "narration": "Jaina recognizes the locket she once gave Arthas. He kept it through the years of ruin and the fall of their kingdom. Tears come before words; then she holds to a small hope that some part of him might remember who he was before Frostmourne. Her words do not undo what he became. They name the distance between the young prince she loved and the Lich King she helped confront.",
+      "durationMs": 55720,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-locket-returned-to-jaina-event"
+      ],
+      "entityIds": [
+        "jaina-proudmoore",
+        "jainas-locket"
+      ],
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-lights-hammer-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "jaina-proudmoore"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-training-sword-returned-to-muradin",
+      "nextNodeIds": [
+        "shadowmourne-and-arthas-relics-story-alexandros-reunited-with-darion"
+      ],
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-locket-returned-to-jaina.mp3",
+        "durationMs": 27175,
+        "voiceId": "kokoro-bm-lewis",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "shadowmourne-and-arthas-relics-story-alexandros-reunited-with-darion",
+      "guideId": "shadowmourne-and-arthas-relics-guide",
+      "title": "A father answers his son",
+      "narration": "Darion takes the last relic to his own father: Alexandros' soul shard. The returned fragment lets the two speak again. Alexandros tells him that the Lich King tormented him and tried to bind him to Frostmourne, but the memory of Darion's sacrifice held him from surrender. Darion answers that he would give his life for his father a thousand times. Among the ruin left by Frostmourne, their family history rises into a brief reunion.",
+      "durationMs": 58646,
+      "eventIds": [
+        "shadowmourne-and-arthas-relics-alexandros-reunited-with-darion-event"
+      ],
+      "entityIds": [
+        "darion-mograine",
+        "alexandros-mograine",
+        "alexandros-soul-shard"
+      ],
+      "locationIds": [
+        "icecrown-citadel"
+      ],
+      "camera": {
+        "position": [
+          0,
+          6.1,
+          5.4
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "durationMs": 1250
+      },
+      "visualActions": [
+        {
+          "type": "set_map_state",
+          "mapStateId": "shadowmourne-and-arthas-relics-lights-hammer-scene"
+        },
+        {
+          "type": "highlight_entity",
+          "entityId": "darion-mograine"
+        }
+      ],
+      "previousNodeId": "shadowmourne-and-arthas-relics-story-locket-returned-to-jaina",
+      "voiceover": {
+        "assetPath": "audio/guided/shadowmourne-and-arthas-relics-guide/shadowmourne-and-arthas-relics-story-alexandros-reunited-with-darion.mp3",
+        "durationMs": 32500,
         "voiceId": "kokoro-bm-lewis",
         "aiGenerated": true
       }

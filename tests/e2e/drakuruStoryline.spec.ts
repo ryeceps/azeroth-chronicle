@@ -94,7 +94,7 @@ test('Drakuru theater remains readable and illustrated at phone width', async ({
 
 test('Drakuru is a playable Northrend placard in the Classic-to-Wrath map', async ({ page }) => {
   await page.goto('/tours/classic-to-wrath');
-  await expect(page.locator('.story-tour-dot')).toHaveCount(23);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(24);
   const drakuru = page.getByRole('button', { name: /Drakuru: Trust, Betrayal, and Infiltration/i });
   await expect(drakuru).toBeVisible();
   await drakuru.hover();

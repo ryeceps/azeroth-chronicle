@@ -8,7 +8,7 @@ const guide = JSON.parse(readFileSync(`data/stories/${storylineId}.research.json
   nodes: Array<{ id: string; title: string; narration: string; entityIds?: string[]; visualActions?: Array<{ mapStateId?: string }> }>;
 };
 const nodes = guide.guide.nodeIds.map((id) => guide.nodes.find((node) => node.id === id)!);
-const entities = new Map<string, { mapFigure?: { asset: string }; mapVisual?: { asset: string } }>();
+const entities = new Map<string, { mapFigure?: { asset: string; eraVariants?: Array<{ eraId: string; asset: string }> }; mapVisual?: { asset: string } }>();
 for (const id of new Set(nodes.flatMap((node) => node.entityIds ?? []))) {
   entities.set(id, JSON.parse(readFileSync(`data/entities/${id}.research.json`, 'utf8')));
 }
@@ -23,7 +23,7 @@ test('Missing Diplomat traverses every illustrated scene on desktop and phone', 
 
   await page.setViewportSize({ width: 1920, height: 1080 });
   await page.goto('/tours/classic-to-wrath');
-  await expect(page.locator('.story-tour-dot')).toHaveCount(23);
+  await expect(page.locator('.story-tour-dot')).toHaveCount(24);
   const mapScreenshot = await page.screenshot({
     path: 'output/missing-diplomat-visual-review/classic-to-wrath-map-desktop.png',
     fullPage: true,
@@ -51,10 +51,15 @@ test('Missing Diplomat traverses every illustrated scene on desktop and phone', 
 
       for (const entityId of node.entityIds ?? []) {
         const entity = entities.get(entityId)!;
-        const asset = entity.mapFigure?.asset ?? entity.mapVisual?.asset;
+        const asset = entity.mapFigure?.eraVariants?.find((variant) => variant.eraId === 'age-of-adventurers')?.asset
+          ?? entity.mapFigure?.asset
+          ?? entity.mapVisual?.asset;
         if (!asset) continue;
         await expect.poll(() => page.locator('img').evaluateAll((images, expectedAsset) => {
-          const image = images.find((candidate) => (candidate as HTMLImageElement).src.endsWith(`/${expectedAsset}`)) as HTMLImageElement | undefined;
+          const image = images.find((candidate) => {
+            const path = new URL((candidate as HTMLImageElement).src).pathname;
+            return path.endsWith(`/${expectedAsset}`);
+          }) as HTMLImageElement | undefined;
           return image?.naturalWidth ?? 0;
         }, asset)).toBeGreaterThan(256);
       }

@@ -33,7 +33,7 @@ describe('storyline archive historical cutoff', () => {
       expect(staticLoreRepository.findStorylineBySlug(id)).toBeDefined();
     }
     const tour = staticLoreRepository.findStoryTourBySlug('classic-to-wrath')!;
-    expect(tour.entries).toHaveLength(23);
+    expect(tour.entries).toHaveLength(24);
     const dataset = staticLoreRepository.getDataset();
     for (const entry of tour.entries) {
       expect(dataset.storylines.some(story => story.id === entry.storylineId), entry.storylineId).toBe(true);

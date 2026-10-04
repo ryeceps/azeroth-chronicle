@@ -1,0 +1,25 @@
+{
+  "id": "arthas-training-sword",
+  "type": "artifact",
+  "name": "Arthas' Training Sword",
+  "slug": "arthas-training-sword",
+  "shortDescription": "The dull sword from Arthas' training with Muradin.",
+  "body": "The dull sword from Arthas' training with Muradin. Original interpretive illustration, not canonical game art. See docs/research/shadowmourne-and-arthas-relics-visual-assets.json for references and open model review.",
+  "firstEraId": "age-of-adventurers",
+  "featuredEraIds": [
+    "age-of-adventurers"
+  ],
+  "sourceIds": [
+    "shadowmourne-and-arthas-relics-sealed-chest",
+    "shadowmourne-and-arthas-relics-muradins-lament"
+  ],
+  "tags": [
+    "shadowmourne-story",
+    "interpretive-artifact-art"
+  ],
+  "mapVisual": {
+    "asset": "images/storylines/shadowmourne-and-arthas-relics/arthas-training-sword.research.webp",
+    "scale": 0.59
+  },
+  "contentStatus": "research"
+}
