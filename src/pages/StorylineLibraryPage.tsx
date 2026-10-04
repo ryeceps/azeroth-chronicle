@@ -20,7 +20,7 @@ export function StorylineLibraryPage() {
     <main className="storyline-library">
       <header className="tour-library-header"><p className="eyebrow">Choose your journey</p><h1>Tours</h1><p>Journeys, wars, and lives woven through the eras.</p><FullTourButton /></header>
       <TourSections storylines />
-      <p className="tour-note">Playable journeys are marked below. Research previews contain chapter outlines and sources.</p>
+      <p className="tour-note">The storyline archive covers ancient history through Wrath of the Lich King. Playable journeys are marked below. Research previews contain chapter outlines and sources.</p>
 
       <nav className="storyline-era-nav" aria-label="Filter storylines by era">
         <Link className={!selectedEra ? 'active' : ''} to="/tours?view=storylines" aria-current={!selectedEra ? 'page' : undefined}>All eras</Link>
